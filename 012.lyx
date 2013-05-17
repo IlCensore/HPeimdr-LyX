@@ -11,11 +11,11 @@
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
 %  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
 %  \makeheadrule{myheadings}{\textwidth}{0.4pt}
-  \makeevenfoot{myheadings}{}{}{}
-  \makeoddfoot{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -738,30 +738,9 @@ A pensarci, aveva anche completamente rovinato la reputazione di Hogwarts
 \end_layout
 
 \begin_layout Standard
-Harry provava davvero un certo rammarico per questo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- solo Merlino sapeva che cosa un preside folle stava per fare dei suoi prossimi
- sette anni di scuola 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- ma non poteva 
+Harry provava davvero un certo rammarico per questo -- solo Merlino sapeva
+ che cosa un preside folle stava per fare dei suoi prossimi sette anni di
+ scuola -- ma non poteva 
 \emph on
 fare a meno
 \emph default
@@ -906,7 +885,7 @@ Da-fare 2.
  titoli dei libri.
  Secondo passaggio: leggi tutti i sommari.
  Coordinati con Hermione che ha una memoria molto migliore della tua.
- Scopri se c'è un sistema di prestito interbibliotecario a Hogwarts e vedi
+ Scopri se c'è un sistema di prestito inter-bibliotecario a Hogwarts e vedi
  se voi due, soprattutto Hermione, potete visitare anche quelle biblioteche.
  Se le altre Case hanno biblioteche private, scopri come accedervi legalmente
  o intrufolarti.
@@ -942,7 +921,7 @@ Opzione 3b: Cerca un incantesimo per obbligare magicamente Draco Malfoy
 \end_layout
 
 \begin_layout Standard
-In realtà...
+In realtà\SpecialChar \ldots{}
  Harry aveva un presentimento alquanto brutto riguardo l'opzione
 \begin_inset space ~
 \end_inset
@@ -1159,8 +1138,11 @@ Ehm, forse?
 \begin_layout Standard
 
 \emph on
-E non è ovvio in maniera schiacciante che se lo faccio me ne pentirò un
- secondo dopo che sia troppo tardi?
+E non è ovvio in maniera 
+\emph default
+schiacciante
+\emph on
+ che se lo faccio me ne pentirò un secondo dopo che sia troppo tardi?
 \end_layout
 
 \begin_layout Standard
@@ -1211,19 +1193,20 @@ dovrebbe essere
 è
 \emph default
 , sono due cose diverse.
- Grazie di tenerlo a mente».
+ Grazie di tenerlo a mente.»
 \end_layout
 
 \begin_layout Standard
-Ehm...
+Ehm\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
 «I provini di Quidditch si terranno nella seconda settimana del quadrimestre.
  Chiunque sia interessato a giocare per la squadra della propria Casa deve
- contattare Madama Hooch.
+ contattare Madam Hooch.
  Chiunque sia interessato a riformulare l'intero gioco del Quidditch deve
- contattare Harry Potter».
+ contattare Harry Potter.»
 \end_layout
 
 \begin_layout Standard
@@ -1233,7 +1216,7 @@ Harry inspirò la propria saliva e fu colpito da un accesso di tosse proprio
 \emph on
 diavolo
 \emph default
-! Non aveva incrociato gli occhi di Silente in nessun momento...
+! Non aveva incrociato gli occhi di Silente in nessun momento\SpecialChar \ldots{}
  non ci 
 \emph on
 aveva pensato
@@ -1244,12 +1227,14 @@ aveva pensato
 \emph on
 pensava
 \emph default
- che Ron l'avrebbe detto a chiunque altro...
- o Ron era corso via da un professore per lamentarsi? 
+ che Ron l'avrebbe detto a chiunque altro\SpecialChar \ldots{}
+ o Ron era corso via da un professore
+ per lamentarsi? 
 \emph on
 Come diavolo
 \emph default
-...
+\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -1258,7 +1243,7 @@ Come diavolo
  molto dolorosa.
  È custodito da una serie elaborata di trappole pericolose e potenzialmente
  letali, e non potete assolutamente superarle tutte, specialmente se siete
- solo al vostro primo anno».
+ solo al vostro primo anno.»
 \end_layout
 
 \begin_layout Standard
@@ -1301,7 +1286,7 @@ adesso
 
 \begin_layout Standard
 «Ora cedo il podio al nostro nuovo membro di facoltà, il professor Quirrell,
- che vorrebbe dirvi alcune parole».
+ che vorrebbe dirvi alcune parole.»
 \end_layout
 
 \begin_layout Standard
@@ -1325,8 +1310,10 @@ lui
 \begin_layout Standard
 Il professor Quirrell si fece strada fin sul podio e rimase lì, sbattendo
  le palpebre.
- «Ah...», disse.
- «Ah...» Poi il coraggio sembrò mancargli completamente, e se ne stette lì,
+ «Ah\SpecialChar \ldots{}
+», disse.
+ «Ah\SpecialChar \ldots{}
+» Poi il coraggio sembrò mancargli completamente, e se ne stette lì,
  in silenzio, occasionalmente colpito da spasmi.
 \end_layout
 
@@ -1390,7 +1377,7 @@ Harry deglutì con difficoltà, cercando di sopprimere l'improvvisa ondata
  come il miglior corso di Difesa che abbiate mai avuto.
  Ciò che imparerete quest'anno vi sarà per sempre utile come solida base
  nelle arti della Difesa, non importa chi saranno stati i vostri insegnanti
- prima e dopo».
+ prima e dopo.»
 \end_layout
 
 \begin_layout Standard
