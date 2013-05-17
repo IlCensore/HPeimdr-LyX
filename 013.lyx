@@ -90,41 +90,22 @@ thispagestyle{empty}
 
 \end_layout
 
-\begin_layout Initial
-\begin_inset Argument
-status open
-
-\begin_layout Plain Layout
-A
-\end_layout
-
-\end_inset
-
-ppena
+\begin_layout Standard
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-}
+
+\backslash
+lettrine[lines=1]{A}{ppena Harry}
 \end_layout
 
 \end_inset
 
- Harry aprì gli occhi, nel dormitorio Corvonero per ragazzi del primo anno,
- la mattina del suo primo giorno completo a Hogwarts, seppe che qualcosa
- non andava.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-
+ aprì gli occhi, nel dormitorio Corvonero per ragazzi del primo anno, la
+ mattina del suo primo giorno completo a Hogwarts, seppe che qualcosa non
+ andava.
 \end_layout
 
 \begin_layout Standard
@@ -537,26 +518,26 @@ status open
 
 \begin_layout Plain Layout
 
-\size small
-TENTATIVO FALLITO: -1 PUNTO
+\noun on
+tentativo fallito: -1 punto
 \end_layout
 
 \begin_layout Plain Layout
 
-\size small
-PUNTI ATTUALI: 99
+\noun on
+punti correnti: 99
 \end_layout
 
 \begin_layout Plain Layout
 
-\size small
-STATO FISICO: ANCORA AFFAMATO
+\noun on
+stato fisico: ancora affamato
 \end_layout
 
 \begin_layout Plain Layout
 
-\size small
-STATO MENTALE: CONFUSO
+\noun on
+stato mentale: confuso
 \end_layout
 
 \end_inset
@@ -633,16 +614,20 @@ status open
 
 \begin_layout Plain Layout
 
-\size small
-PUNTI SPESI: 1
-\begin_inset Newline newline
-\end_inset
+\noun on
+punti spesi: 1
+\end_layout
 
-PUNTI ATTUALI: 98
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-HAI GUADAGNATO: UNA SCATOLA DI BARRETTE DI CEREALI
+\noun on
+punti correnti: 98
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+hai guadagnato: una scatola di barrette di cereali
 \end_layout
 
 \end_inset
@@ -698,28 +683,38 @@ status open
 
 \begin_layout Plain Layout
 
-\size small
-PUNTI SPESI: 1
-\begin_inset Newline newline
-\end_inset
+\noun on
+punti spesi: 1
+\end_layout
 
-PUNTI ATTUALI: 97
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-HAI GUADAGNATO: 6 BARRETTE DI CEREALI
-\begin_inset Newline newline
-\end_inset
+\noun on
+punti correnti: 97
+\end_layout
 
-STAI ANCORA INDOSSANDO: PIGIAMA
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-NON MANGIARE MENTRE INDOSSI IL PIGIAMA
-\begin_inset Newline newline
-\end_inset
+\noun on
+hai guadagnato: 6 barrette di cereali
+\end_layout
 
-AVRAI UNA PENALITÀ PER IL PIGIAMA
+\begin_layout Plain Layout
+
+\noun on
+stai ancora indossando: pigiama
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+non mangiare mentre indossi il pigiama
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+riceverai una penalità per il pigiama
 \end_layout
 
 \end_inset
@@ -768,51 +763,76 @@ status open
 \begin_layout Plain Layout
 
 \size small
-HA! HA HA HA HA HA!
-\begin_inset Newline newline
-\end_inset
+\noun on
+ah! ah ah ah ah ah!
+\end_layout
 
-HA HA HA HA HA HA!
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-HA! HA! HA! HA! HA! HA!
-\begin_inset Newline newline
-\end_inset
+\size small
+\noun on
+ah ah ah ah ah ah!
+\end_layout
 
-SILENTE NON CONTROLLA IL GIOCO
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-TENTATIVO PESSIMO
-\begin_inset Newline newline
-\end_inset
+\size small
+\noun on
+ah! ah! ah! ah! ah! ah!
+\end_layout
 
-TENTATIVO DAVVERO PESSIMO
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
--20 PUNTI
-\begin_inset Newline newline
-\end_inset
+\noun on
+silente non controlla il gioco
+\end_layout
 
-E INDOSSI ANCORA IL PIGIAMA
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-È LA TUA QUARTA MOSSA
-\begin_inset Newline newline
-\end_inset
+\noun on
+tentativo pessimo
+\end_layout
 
-E INDOSSI ANCORA IL PIGIAMA
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-PENALITÀ PIGIAMA: -2 PUNTI
-\begin_inset Newline newline
-\end_inset
+\noun on
+tentativo davvero pessimo
+\end_layout
 
-PUNTI ATTUALI: 75
+\begin_layout Plain Layout
+
+\noun on
+-20 punti
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+e indossi ancora il pigiama
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+è la tua quarta mossa
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+e indossi ancora il pigiama
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+penalità pigiama: -2 punti
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+punti correnti: 75
 \end_layout
 
 \end_inset
@@ -865,28 +885,38 @@ status open
 
 \begin_layout Plain Layout
 
-\size small
-OCCASIONI PER FARE DEL BENE SONO OVUNQUE
-\begin_inset Newline newline
-\end_inset
+\noun on
+occasioni per fare del bene sono ovunque
+\end_layout
 
-MA LA TENEBRA È LÌ DOVE DEV'ESSERE LA LUCE
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-COSTO DELLA DOMANDA: 1 PUNTO
-\begin_inset Newline newline
-\end_inset
+\noun on
+ma la tenebra è lì dove dev'essere la luce
+\end_layout
 
-PUNTI ATTUALI: 74
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-BELLA BIANCHERIA INTIMA
-\begin_inset Newline newline
-\end_inset
+\noun on
+costo della domanda: 1 punto
+\end_layout
 
-L'HA SCELTA TUA MADRE?
+\begin_layout Plain Layout
+
+\noun on
+punti correnti: 74
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+carina la tua biancheria intima
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+l'ha scelta tua madre?
 \end_layout
 
 \end_inset
@@ -1582,7 +1612,7 @@ Parte del cervello di Harry stava urlando in preda al panico che si trattava
 
 \begin_layout Standard
 Un'altra parte disse seccamente che tutti coloro che fossero stati sorpresi
- nel serio tentativo di calpestare il Ragazzo-Che-Sopravvisse si sarebbero
+ nel serio tentativo di calpestare il Ragazzo-Che-È-Sopravvissuto si sarebbero
  ficcati in un intero mondo di guai, soprattutto se fossero stati un branco
  di Serpeverde più grandi e ci fossero stati sette Tassofrasso a testimoniarlo,
  e che la probabilità che gli procurassero danni permanenti in presenza
@@ -1641,7 +1671,7 @@ Ciao
 \begin_inset Quotes fld
 \end_inset
 
-Io sono il Ragazzo-Che-Sopravvisse
+Io sono il Ragazzo-Che-È-Sopravvissuto
 \begin_inset Quotes frd
 \end_inset
 
@@ -1794,7 +1824,7 @@ status collapsed
 \begin_inset Graphics
 	filename 013-abracadabra_by_dinosaurusgede-d31nnh7.png
 	lyxscale 30
-	width 10cm
+	width 10.24cm
 
 \end_inset
 
@@ -2061,30 +2091,30 @@ Il Serpeverde lentamente allungò la mano, prese la tortiera, la rigirò con
 \begin_layout Quote
 \align center
 
-\size small
 \bar under
-ATTENZIONE
+\noun on
+attenzione
 \end_layout
 
 \begin_layout Quote
 \align center
 
-\size small
 \bar under
-NESSUNA 
+\noun on
+nessuna 
 \bar default
-MAGIA PUÒ ESSERE UTILIZZATA SUL CONCORRENTE MENTRE LA PARTITA È IN CORSO
+magia può essere utilizzata sul concorrente mentre la partita è in corso
 \end_layout
 
 \begin_layout Quote
 \align center
 
-\size small
-ULTERIORI INTERFERENZE CON LA PARTITA
+\noun on
+ulteriori interferenze con la partita 
 \bar under
- SARANNO 
+saranno
 \bar default
-SEGNALATE ALLE AUTORITÀ DEL GIOCO
+ segnalate alle autorità del gioco
 \end_layout
 
 \begin_layout Standard
@@ -3140,7 +3170,7 @@ Perché
 \emph on
 tutti
 \emph default
- mi fanno questo, anche il Ragazzo-Che-Sopravvisse?
+ mi fanno questo, anche il Ragazzo-Che-È-Sopravvissuto?
 \begin_inset Quotes frd
 \end_inset
 
@@ -3347,7 +3377,7 @@ Neville lo guardò fisso.
 \end_inset
 
 Allora mi hai tirato fuori molto bruscamente e ti sei messo dove mi trovavo
- e te ne sei uscito con `Ciao, io sono il Ragazzo-Che-Sopravvisse'
+ e te ne sei uscito con `Ciao, io sono il Ragazzo-Che-È-Sopravvissuto
 \begin_inset Quotes frd
 \end_inset
 
@@ -3531,24 +3561,32 @@ status open
 
 \begin_layout Plain Layout
 
-\size small
-PUNTI PER LO STILE: 10
-\begin_inset Newline newline
-\end_inset
+\noun on
+punti per lo stile: 10
+\end_layout
 
-PUNTI PER RAGIONAMENTO CORRETTO: -3.000.000
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-BONUS PUNTI CASA CORVONERO: 70
-\begin_inset Newline newline
-\end_inset
+\noun on
+punti per ragionamento corretto: -3.000.000
+\end_layout
 
-PUNTI ATTUALI: -2.999.871
-\begin_inset Newline newline
-\end_inset
+\begin_layout Plain Layout
 
-TURNI RIMANENTI: 2
+\noun on
+bonus punti casa corvonero: 70
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+punti correnti: -2.999.871
+\end_layout
+
+\begin_layout Plain Layout
+
+\noun on
+turni restanti: 2
 \end_layout
 
 \end_inset
@@ -3602,21 +3640,22 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\align left
 
-\size small
-APPELLO: FALLITO
+\noun on
+ricorso: respinto
 \begin_inset Newline newline
 \end_inset
 
-PORRE LE DOMANDE SBAGLIATE: -1.000.000.000.000 PUNTI
+porre le domande sbagliate: -1.000.000.000.000 punti
 \begin_inset Newline newline
 \end_inset
 
-PUNTI ATTUALI: -1.000.002.999.871
+punti correnti: -1.000.002.999.871 punti
 \begin_inset Newline newline
 \end_inset
 
-TURNI RIMASTI: 1
+turni restanti: 1
 \end_layout
 
 \end_inset
@@ -3645,31 +3684,36 @@ Un ultimo foglio di carta volò sopra la sua testa, con scritto:
 
 \begin_layout Quote
 \align center
-TENTATIVO FALLITO
+
+\noun on
+tentativo fallito
 \begin_inset Newline newline
 \end_inset
 
- FALLITO FALLITO FALLITO
+fallito fallito fallito
 \begin_inset Newline newline
 \end_inset
 
- AIIIIIIIIIIEEEEEEEEEEEEEE
+ aiiiiiiiiiieeeeeeeeeeeeee
 \begin_inset Newline newline
 \end_inset
 
- PUNTI ATTUALI: MENO INFINITO
-\end_layout
-
-\begin_layout Quote
-\align center
-
+ punti correnti: meno infinito
 \bar under
-HAI PERSO LA PARTITA
+
+\begin_inset Newline newline
+\end_inset
+
+hai perso la partita
 \end_layout
 
 \begin_layout Quote
 \align center
-ISTRUZIONE FINALE:
+
+\noun on
+istruzione finale
+\noun default
+:
 \emph on
 
 \begin_inset Newline newline

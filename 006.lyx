@@ -3,20 +3,6 @@
 \begin_document
 \begin_header
 \textclass memoir
-\begin_preamble
-\usepackage{xltxtra} % automatically loads xunicode and fontspec
-\newfontfamily{\extrafont}{Linux Libertine O} % fontspec command that binds a fontswap to \extrafont
-\newfontfamily{\rmfont}{Adobe Garamond Pro} % same for \rmfont
-\setmainfont{Adobe Garamond Pro} % set up document's default font
-
-\XeTeXinterchartokenstate = 1 % arguably the most distinguished xetex feature
-\newXeTeXintercharclass\fontextras % request a new character class
-\XeTeXcharclass `\⁂ \fontextras % assign your character this new class
-\XeTeXinterchartoks 0 \fontextras = {\extrafont} % what to do when going from latin to any character in your class
-\XeTeXinterchartoks 255 \fontextras = {\extrafont} % what to do when going from boundary to any character in your class
-\XeTeXinterchartoks \fontextras 0 = {\rmfont} % what to do when going from any character in your class to latin
-\XeTeXinterchartoks \fontextras 255 = {\rmfont}% what to do when going from any character in your class to boundary
-\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -38,7 +24,7 @@ initials
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -2858,8 +2844,17 @@ Signor Potter, non deve inventarsi cose di cui preoccuparsi
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{--»}
+\end_layout
+
 \end_inset
 
 

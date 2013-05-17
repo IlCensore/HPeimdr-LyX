@@ -90,51 +90,31 @@ thispagestyle{empty}
 
 \end_layout
 
-\begin_layout Initial
-
-\emph on
-\begin_inset Argument
-status open
-
-\begin_layout Plain Layout
-\begin_inset Quotes fld
-\end_inset
-
-
-\emph on
-F
-\end_layout
-
-\end_inset
-
-rigideiro!
-\emph default
-»
+\begin_layout Standard
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-}
+
+\backslash
+lettrine[lines=1,ante=
+\backslash
+guillemotleft]{F}{
+\backslash
+textit{rigideiro!}}
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
-status open
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Plain Layout
 
-{
 \end_layout
 
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Standard
 Harry mise un dito nel bicchiere d'acqua sul banco.
  Avrebbe dovuto essere fredda.
  Ma tiepida era inizialmente, e tiepida era rimasta.
