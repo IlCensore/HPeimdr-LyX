@@ -1,0 +1,1444 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman Linux Libertine O
+\font_sans Linux Biolinum O
+\font_typewriter Liberation Mono
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Controllo degli impulsi
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=1,ante=
+\backslash
+guillemotleft]{T}{urpin, Lisa!}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bisbiglio bisbiglio bisbiglio harry potter bisbiglio bisbiglio serpeverde
+ bisbiglio bisbiglio no davvero che diamine bisbiglio bisbiglio
+\end_layout
+
+\begin_layout Standard
+«
+\noun on
+corvonero
+\noun default
+!»
+\end_layout
+
+\begin_layout Standard
+Harry si unì all'applauso che accolse la giovane ragazza che si stava incamminan
+do timidamente verso la tavola Corvonero, i bordi delle sue vesti ora mutati
+ in blu scuro.
+ Lisa Turpin apparve combattuta tra l'impulso di sedersi il più lontano
+ possibile da Harry Potter e quello di correre verso di lui, infilarsi a
+ forza al suo fianco e iniziare a strappargli delle risposte.
+\end_layout
+
+\begin_layout Standard
+Essere al centro di un evento straordinario e curioso, e poi essere Smistati
+ nella Casa Corvonero, era parente stretto dell'essere intinti nella salsa
+ barbecue e gettati nella fossa dei gattini affamati.
+\end_layout
+
+\begin_layout Standard
+«Ho promesso al Cappello Smistatore di non parlarne», bisbigliò Harry per
+ l'ennesima volta.
+\end_layout
+
+\begin_layout Standard
+«Sì, davvero.»
+\end_layout
+
+\begin_layout Standard
+«No, ho davvero promesso al Cappello Smistatore di non parlarne.»
+\end_layout
+
+\begin_layout Standard
+«Va bene, ho promesso al Cappello Smistatore di non riferirne 
+\emph on
+gran parte
+\emph default
+ e il resto è 
+\emph on
+privato
+\emph default
+ proprio come nel vostro caso
+\emph on
+ quindi smettetela di chiedere
+\emph default
+.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+«Volete sapere cos'è successo? Va bene! Ecco parte di ciò che è successo!
+ Ho detto al Cappello che la professoressa McGonagall aveva minacciato di
+ bruciarlo e lui mi ha detto di dire alla professoressa McGonagall che è
+ una giovane impudente e che deve lasciarlo in pace!»
+\end_layout
+
+\begin_layout Standard
+«Se non avete intenzione di credere a ciò che vi dico allora 
+\emph on
+perché mi fate delle domande
+\emph default
+?»
+\end_layout
+
+\begin_layout Standard
+«No, neppure io so come ho sconfitto il Signore Oscuro! Ditelo voi a me
+ se lo capite!»
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Silenzio!
+\emph default
+», gridò la professoressa McGonagall dal podio del tavolo d'onore.
+ «
+\emph on
+È proibito parlare fino alla fine della Cerimonia di Smistamento!
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+Ci fu un beve calo del volume, quando tutti attesero di vedere se avrebbe
+ fatto una qualunque minaccia specifica e credibile, e poi i bisbigli cominciaro
+no nuovamente.
+\end_layout
+
+\begin_layout Standard
+Allora l'antico dalla barba d'argento si alzò dalla sua grande sedia dorata,
+ sorridendo allegramente.
+ Silenzio immediato.
+ Qualcuno diede freneticamente di gomito a Harry mentre tentava di continuare
+ a bisbigliare, e Harry si interruppe a metà frase.
+\end_layout
+
+\begin_layout Standard
+Il vecchio dall'aspetto allegro si sedette nuovamente.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Nota a sé stesso: Non ficcarsi nei guai con Silente.
+\end_layout
+
+\begin_layout Standard
+Harry stava ancora tentando di esaminare tutto ciò che era avvenuto durante
+ l'Incidente col Cappello Smistatore.
+ E non meno importante era stato ciò che era accaduto nell'istante in cui
+ Harry aveva sollevato il Cappello dal proprio capo; in quel momento, aveva
+ sentito un piccolo bisbiglio proveniente dal nulla, qualcosa che suonava
+ stranamente come inglese e un sibilo allo stesso tempo, qualcosa che aveva
+ detto «
+\emph on
+Ssaluti da Sserpeverde a Sserpeverde: sse volesssi cercare i miei ssegreti,
+ rivolgiti al mio sserpente
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Harry stava immaginando che non fosse una parte ufficiale del processo di
+ Smistamento.
+ E che fosse un po' di magia extra inserita da Salazar Serpeverde durante
+ la creazione del Cappello.
+ E che il Cappello stesso non ne fosse a conoscenza.
+ E che entrasse in azione appena il Cappello avesse detto «
+\noun on
+serpeverde
+\noun default
+», più o meno altre condizioni.
+ E che un Corvonero come lui 
+\emph on
+non avrebbe dovuto assolutamente, assolutamente ascoltarlo
+\emph default
+.
+ E che se avesse trovato il modo di obbligare Draco a mantenere il segreto
+ così da poterglielo chiedere, quello sarebbe stato il momento giusto per
+ avere un po' di SpiriTè sotto mano.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ragazzi, ti decidi a non intraprendere la strada del Signore Oscuro e l'universo
+ inizia a crearti problemi dall'istante in cui il Cappello è rimosso dalla
+ tua testa.
+ In alcuni giorni è proprio inutile combattere il destino.
+ Forse attenderò fino a domani per iniziare a seguire il mio proposito di
+ non essere un Signore Oscuro.
+\end_layout
+
+\begin_layout Standard
+«
+\noun on
+grifondoro
+\noun default
+»
+\end_layout
+
+\begin_layout Standard
+Ron Weasley ricevette 
+\emph on
+molti
+\emph default
+ applausi, e non solo dai Grifondoro.
+ Evidentemente la famiglia Weasly era molto popolare da queste parti.
+ Harry, dopo un attimo, sorrise e iniziò ad applaudire insieme agli altri.
+\end_layout
+
+\begin_layout Standard
+Ma, del resto, non c'era momento migliore dell'oggi per abbandonare il Lato
+ Oscuro.
+\end_layout
+
+\begin_layout Standard
+Al diavolo il destino e al diavolo l'universo.
+ Gliel'avrebbe fatta vedere al Cappello.
+\end_layout
+
+\begin_layout Standard
+«Zabini, Blaise!»
+\end_layout
+
+\begin_layout Standard
+Pausa.
+\end_layout
+
+\begin_layout Standard
+«
+\noun on
+serpeverde
+\noun default
+!» gridò il Cappello.
+\end_layout
+
+\begin_layout Standard
+Harry applaudì anche Zabini, ignorando gli strani sguardi che stava ricevendo
+ da tutti, Zabini incluso.
+\end_layout
+
+\begin_layout Standard
+Nessun altro nome fu chiamato dopo questo, e Harry si rese conto che 
+\begin_inset Quotes fld
+\end_inset
+
+Zabini, Blaise
+\begin_inset Quotes frd
+\end_inset
+
+ sembrava davvero vicino alla fine dell'alfabeto.
+ Grande, così ora aveva applaudito 
+\emph on
+solo
+\emph default
+ Zabini\SpecialChar \ldots{}
+ Oh, vabbé.
+\end_layout
+
+\begin_layout Standard
+Silente si alzò di nuovo e cominciò a dirigersi verso il podio.
+ A quanto pareva erano in procinto di ricevere l'onore di un discorso
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+E Harry fu colpito dall'ispirazione per una 
+\emph on
+brillante
+\emph default
+ prova sperimentale.
+\end_layout
+
+\begin_layout Standard
+Hermione aveva detto che Silente era il mago vivente più potente, giusto?
+\end_layout
+
+\begin_layout Standard
+Harry infilò una mano in borsa e sussurrò, «SpiriTè».
+\end_layout
+
+\begin_layout Standard
+Se lo SpiriTè avesse funzionato, avrebbe dovuto far dire a Silente qualcosa
+ di 
+\emph on
+così
+\emph default
+ ridicolo durante il suo intervento che, anche nello stato di preparazione
+ mentale di Harry, gliel'avrebbe fatto 
+\emph on
+comunque
+\emph default
+ andare di traverso.
+ Qualcosa come l'obbligo per tutti gli studenti di Hogwarts di non indossare
+ abiti per l'intero anno scolastico, o che tutti sarebbero stati trasformati
+ in gatti.
+\end_layout
+
+\begin_layout Standard
+Ma del resto se 
+\emph on
+una sola persona al mondo
+\emph default
+ poteva resistere alla potenza dello SpiriTè, quello doveva essere Silente.
+ Quindi, se avesse funzionato, lo SpiriTè sarebbe stato letteralmente 
+\emph on
+invincibile
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Harry tirò la linguetta dello SpiriTè sotto il tavolo, volendolo fare un
+ po' discretamente.
+ La lattina fece un sommesso rumore sibilante.
+ Qualche testa si voltò a guardarlo, ma presto tornò indietro quando
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«Benvenuti! Benvenuti ad un nuovo anno a Hogwarts!» disse Silente raggiante
+ agli studenti con le braccia spalancate, come se niente gli avrebbe potuto
+ fare più piacere che vederli tutti lì.
+\end_layout
+
+\begin_layout Standard
+Harry bevette un primo sorso di SpiriTè e abbassò la lattina di nuovo.
+ Avrebbe deglutito la bevanda un po' alla volta, cercando di non farsela
+ andare di traverso 
+\emph on
+qualunque
+\emph default
+ 
+\emph on
+cosa
+\emph default
+ Silente avesse detto
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«Prima di iniziare il nostro banchetto, vorrei dire poche parole.
+ Eccole: Felice felice bum bum palude palude palude! Grazie!»
+\end_layout
+
+\begin_layout Standard
+Tutti applaudirono e acclamarono, e Silente si sedette di nuovo.
+\end_layout
+
+\begin_layout Standard
+Harry rimase seduto, paralizzato, mentre la soda gli colava dagli angoli
+ della bocca.
+ Era, quantomeno, riuscito a soffocare 
+\emph on
+in silenzio
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Davvero, davvero, 
+\emph on
+davvero
+\emph default
+ non avrebbe dovuto farlo.
+ Incredibile quanto questo divenisse 
+\emph on
+molto più evidente
+\emph default
+ appena 
+\emph on
+un secondo
+\emph default
+ dopo che era diventato 
+\emph on
+troppo tardi
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Col senno di poi, avrebbe probabilmente dovuto notare qualcosa di sbagliato
+ quando aveva pensato alla possibilità che tutti fossero trasformati in
+ gatti\SpecialChar \ldots{}
+ o anche prima, si ricordò della sua nota mentale di non ficcarsi
+ nei guai con Silente\SpecialChar \ldots{}
+ o la sua ritrovata risoluzione ad essere più rispettoso
+ degli altri\SpecialChar \ldots{}
+ o forse se avesse avuto 
+\emph on
+un solo briciolo
+\emph default
+ di 
+\emph on
+buonsenso
+\emph default
+\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Era senza speranza.
+ Era marcio fino al midollo.
+ Salutate il Signore Oscuro Harry.
+ Non si poteva combattere il destino.
+\end_layout
+
+\begin_layout Standard
+Qualcuno stava chiedendo se Harry stesse bene.
+ (Altri avevano iniziato a servirsi da soli il cibo, che era magicamente
+ apparso sul tavolo, evabbè.)
+\end_layout
+
+\begin_layout Standard
+«Sto bene», disse Harry.
+ «Scusatemi.
+ Uhm.
+ Quello era un discorso\SpecialChar \ldots{}
+ 
+\emph on
+normale
+\emph default
+ per il Preside? Tutti voi...
+ non sembravate\SpecialChar \ldots{}
+ molto sorpresi\SpecialChar \ldots{}
+»
+\end_layout
+
+\begin_layout Standard
+«Oh, Silente è folle, naturalmente», disse un Corvonero apparentemente più
+ grande seduto accanto a lui, che si era presentato con un nome che Harry
+ non riusciva nemmeno lontanamente a ricordare.
+ «Molto divertente, mago incredibilmente potente, ma completamente fuori
+ di testa».
+ Fece una pausa.
+ «In futuro mi piacerebbe anche chiedere perché del fluido verde è venuto
+ fuori delle tue labbra ed è poi scomparso, anche se mi aspetto che tu abbia
+ promesso al Cappello Smistatore di non parlare neanche di questo».
+\end_layout
+
+\begin_layout Standard
+Con un grande sforzo, Harry si impedì di guardare in basso verso l'incriminante
+ lattina di SpiriTè nella sua mano.
+\end_layout
+
+\begin_layout Standard
+Dopo tutto, lo SpiriTè non aveva semplicemente 
+\emph on
+materializzato
+\emph default
+ arbitrariamente un titolo del 
+\emph on
+Quibbler
+\emph default
+ su di lui e Draco.
+ Draco l'aveva spiegato in un modo che aveva fatto sembrare che tutto fosse
+ accaduto\SpecialChar \ldots{}
+ naturalmente? Come se avesse 
+\emph on
+alterato la storia per inserircisi dentro
+\emph default
+?
+\end_layout
+
+\begin_layout Standard
+Harry stava mentalmente immaginando di colpire il tavolo con la fronte.
+ 
+\emph on
+Bam, bam, bam
+\emph default
+, faceva la sua testa nella sua immaginazione.
+\end_layout
+
+\begin_layout Standard
+Un'altra studentessa abbassò la voce a un sussurro.
+ «Ho sentito dire che Silente è segretamente il geniale orchestratore di
+ un sacco di cose e che usa la follia come copertura in modo che nessuno
+ sospetti di lui».
+\end_layout
+
+\begin_layout Standard
+«L'ho sentito anch'io», sussurrò un terzo studente, e vi furono cenni furtivi
+ da tutto il tavolo.
+\end_layout
+
+\begin_layout Standard
+Questo non poté fare a meno di attirare l'attenzione di Harry.
+\end_layout
+
+\begin_layout Standard
+«Capisco», mormorò Harry, abbassando la propria voce.
+ «Così tutti sanno che Silente è segretamente un orchestratore».
+\end_layout
+
+\begin_layout Standard
+La maggior parte degli studenti annuì.
+ Uno o due sembrarono improvvisamente pensierosi, compreso lo studente più
+ anziano seduto accanto a Harry.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Siete sicuri che questo sia il tavolo di Corvonero?
+\emph default
+ Harry riuscì a non chiederlo ad alta voce.
+\end_layout
+
+\begin_layout Standard
+«Brillante!» sussurrò Harry.
+ «Se tutti sanno, nessuno sospetterà che è un segreto!»
+\end_layout
+
+\begin_layout Standard
+«Esattamente», sussurrò uno studente, e poi aggrottò la fronte.
+ «Aspetta, non suona proprio bene
+\begin_inset space ~
+\end_inset
+
+--»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Nota a sé stesso: Il 75° percentile degli studenti di Hogwarts, anche noto
+ come Casa Corvonero, non è il programma più esclusivo del mondo per bambini
+ prodigio.
+\end_layout
+
+\begin_layout Standard
+Ma almeno aveva imparato un fatto importante oggi.
+ Lo SpiriTè era onnipotente.
+ E 
+\emph on
+questo
+\emph default
+ voleva dire che\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Harry sbatté le palpebre per la sorpresa quando la sua mente ebbe finalmente
+ realizzato l'ovvia connessione.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\SpecialChar \ldots{}
+ questo
+\emph default
+ voleva dire che, non appena avesse imparato un incantesimo in grado di
+ modificare temporaneamente il suo senso dell'umorismo, poteva far accadere
+ 
+\emph on
+qualsiasi cosa
+\emph default
+, facendo in modo che 
+\emph on
+quella cosa
+\emph default
+ fosse 
+\emph on
+l'unica
+\emph default
+ che avrebbe trovato abbastanza sorprendente da strozzarsi, e poi bere una
+ lattina di SpiriTè.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Che dire, è stato un viaggio breve verso la divinità.
+ Anche io mi aspettavo che richiedesse più tempo del mio primo giorno di
+ scuola.
+\end_layout
+
+\begin_layout Standard
+A pensarci, aveva anche completamente rovinato la reputazione di Hogwarts
+ nel giro di dieci minuti netti da quando era stato Smistato.
+\end_layout
+
+\begin_layout Standard
+Harry provava davvero un certo rammarico per questo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+ solo Merlino sapeva che cosa un preside folle stava per fare dei suoi prossimi
+ sette anni di scuola 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+ ma non poteva 
+\emph on
+fare a meno
+\emph default
+ di provare una punta di orgoglio, anche.
+\end_layout
+
+\begin_layout Standard
+Domani.
+ Entro domani, al più tardi, avrebbe smesso di camminare lungo la strada
+ che portava al Signore Oscuro Harry.
+ Una prospettiva che suonava sempre più spaventosa di minuto in minuto.
+\end_layout
+
+\begin_layout Standard
+E tuttavia anche, in qualche modo, sempre più attraente.
+ Parte della sua mente stava già visualizzando le divise dei suoi servitori.
+\end_layout
+
+\begin_layout Standard
+«Mangia», ringhiò lo studente più anziano seduto accanto a lui, e diede
+ una gomitata nelle costole a Harry.
+ «Non pensare.
+ Mangia».
+\end_layout
+
+\begin_layout Standard
+Harry iniziò automaticamente a caricare il proprio piatto con tutto ciò
+ che era di fronte a lui, salsicce blu con minuscoli frammenti brillanti,
+ evabbè.
+\end_layout
+
+\begin_layout Standard
+«A cosa cosa stavi pensando, lo Smistamento
+\begin_inset space ~
+\end_inset
+
+--» cominciò a dire Padma Patil, una delle altre Corvonero del primo anno.
+\end_layout
+
+\begin_layout Standard
+«Nessuna domanda importuna durante i pasti!» dissero in coro almeno tre
+ persone.
+ «Regola della Casa!» aggiunse un altro.
+ «Altrimenti moriremmo tutti di fame da queste parti».
+\end_layout
+
+\begin_layout Standard
+Harry si stava scoprendo molto, molto speranzoso che la sua nuova geniale
+ idea non funzionasse 
+\emph on
+realmente
+\emph default
+.
+ E che lo SpiriTè operasse in qualche altro modo e che non avesse 
+\emph on
+realmente
+\emph default
+ la capacità onnipotente di alterare la realtà.
+ Non che lui non 
+\emph on
+volesse
+\emph default
+ essere onnipotente.
+ Era che non riusciva a sopportare l'idea di vivere in un universo che funzionas
+se veramente in questo modo.
+ C'era qualcosa di 
+\emph on
+poco dignitoso
+\emph default
+ nel salire al potere attraverso l'uso intelligente di bevande gassate.
+\end_layout
+
+\begin_layout Standard
+Ma lui 
+\emph on
+doveva
+\emph default
+ testarlo sperimentalmente.
+\end_layout
+
+\begin_layout Standard
+«Sai», disse lo studente più anziano accanto a lui in un tono abbastanza
+ piacevole, «abbiamo un sistema per costringere le persone come te a mangiare,
+ ti piacerebbe scoprire di cosa si tratta?»
+\end_layout
+
+\begin_layout Standard
+Harry si arrese e cominciò a mangiare la sua salsiccia blu.
+ Era abbastanza buona, soprattutto i frammenti brillanti.
+\end_layout
+
+\begin_layout Standard
+La cena passò con sorprendente rapidità.
+ Harry cercò di assaggiare almeno un po' di tutti gli strani e nuovi cibi
+ che vide.
+ La sua curiosità non poteva sopportare l'idea di 
+\emph on
+non sapere
+\emph default
+ quale gusto avesse un certo cibo.
+ Grazie al cielo questo non era un ristorante dove si doveva ordinare solo
+ una cosa e non avresti mai scoperto il gusto di tutte le altre cose presenti
+ sul menu.
+ Harry odiava questo fatto, era come una camera delle torture per chiunque
+ avesse una scintilla di curiosità: 
+\emph on
+Scoprite solo uno dei misteri di questa lista, ah ah ah!
+\end_layout
+
+\begin_layout Standard
+Poi giunse il momento del dolce, per il quale Harry si era completamente
+ dimenticato di lasciare spazio.
+ Rinunciò dopo aver assaggiato un piccolo boccone di crostata di melassa.
+ Sicuramente tutte queste cose sarebbero state fatte circolare almeno una
+ volta nel corso dell'anno scolastico.
+\end_layout
+
+\begin_layout Standard
+Dunque, cosa c'era sulla sua lista delle cose da fare, oltre agli ordinari
+ impegni scolastici?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Da-fare 1.
+ Fai una ricerca sugli incantesimi di alterazione della mente così da poter
+ esaminare lo SpiriTè e vedere se hai indovinato una strada verso l'onnipotenza.
+ Anzi, fai una ricerca su ogni tipo di magia mentale che riesci a trovare.
+ La mente è il fondamento del nostro potere come esseri umani, qualsiasi
+ tipo di magia che l'influenzi è il tipo più importante di magia che ci
+ sia.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Da-fare 2.
+ In realtà questo è Da-fare 1 e l'altro è Da-fare 2.
+ Passa in rassegna gli scaffali delle biblioteche di Hogwarts e Corvonero,
+ familiarizza con il sistema e fai in modo di aver letto almeno tutti i
+ titoli dei libri.
+ Secondo passaggio: leggi tutti i sommari.
+ Coordinati con Hermione che ha una memoria molto migliore della tua.
+ Scopri se c'è un sistema di prestito interbibliotecario a Hogwarts e vedi
+ se voi due, soprattutto Hermione, potete visitare anche quelle biblioteche.
+ Se le altre Case hanno biblioteche private, scopri come accedervi legalmente
+ o intrufolarti.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Opzione 3a: Obbliga Hermione al segreto e prova a fare una ricerca riguardo
+ ‘Da Serpeverde a Serpeverde: se volessi cercare i miei segreti, parla al
+ mio serpente'.
+ Problema: Questo sembra molto riservato e potrebbe passare un po' di tempo
+ prima di trovare casualmente un libro che contenga un indizio.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Da-fare 0: Controlla che tipo di incantesimi di ricerca-e-recupero-informazioni
+ esistono, se esistono.
+ La magia da biblioteca non è così fondamentalmente importante come la magia
+ mentale ma ha una priorità molto più alta.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Opzione 3b: Cerca un incantesimo per obbligare magicamente Draco Malfoy
+ al segreto, o per verificare magicamente la sincerità della promessa di
+ Draco di mantenere un segreto (Veritaserum?), e poi domanda a lui riguardo
+ al messaggio di Serpeverde...
+\end_layout
+
+\begin_layout Standard
+In realtà...
+ Harry aveva un presentimento alquanto brutto riguardo l'opzione
+\begin_inset space ~
+\end_inset
+
+3b.
+\end_layout
+
+\begin_layout Standard
+Ora che Harry ci pensava, non si sentiva poi a suo agio neppure con l'opzione
+\begin_inset space ~
+\end_inset
+
+3a.
+\end_layout
+
+\begin_layout Standard
+I pensieri di Harry tornarono a quello che era stato forse il peggior momento
+ della sua vita fino ad oggi, quei lunghi secondi di orrore da raggelare
+ il sangue sotto il cappello, quando pensava di aver già fallito.
+ Allora aveva desiderato di tornare indietro nel tempo di appena pochi minuti
+ e cambiare qualcosa, qualsiasi cosa prima che fosse troppo tardi...
+\end_layout
+
+\begin_layout Standard
+E poi era venuto fuori che non era troppo tardi, dopo tutto.
+\end_layout
+
+\begin_layout Standard
+Desiderio esaudito.
+\end_layout
+
+\begin_layout Standard
+Non avevi il potere di cambiare la storia.
+ Ma potevi indirizzarla nel modo giusto sin dal principio.
+ Fare qualcosa in maniera differente sin dal 
+\emph on
+primo
+\emph default
+ tentativo.
+\end_layout
+
+\begin_layout Standard
+Tutta questa faccenda della ricerca dei segreti di Serpeverde...
+ sembrava tremendamente simile a quel genere di situazioni in cui, anni
+ dopo, ti saresti guardato indietro e detto, ‘E 
+\emph on
+lì
+\emph default
+ è stato quando tutto ha iniziato ad andar male'.
+\end_layout
+
+\begin_layout Standard
+E avrebbe disperatamente desiderato di avere la capacità di tornare indietro
+ nel tempo e operare una scelta differente...
+\end_layout
+
+\begin_layout Standard
+Desiderio esaudito.
+ E adesso?
+\end_layout
+
+\begin_layout Standard
+Harry sorrise con lentezza.
+\end_layout
+
+\begin_layout Standard
+Era un pensiero piuttosto 
+\emph on
+contro-intuitivo
+\emph default
+...
+ ma...
+\end_layout
+
+\begin_layout Standard
+Ma 
+\emph on
+poteva
+\emph default
+, non c'era nessuna regola che dicesse che non poteva, 
+\emph on
+poteva
+\emph default
+ semplicemente far finta di non aver mai sentito quel piccolo sussurro.
+ Lasciare che l'universo andasse avanti esattamente nello stesso modo in
+ cui avrebbe fatto se quel momento critico non fosse mai accaduto.
+ Venti anni più tardi, questo sarebbe stato quello che avrebbe disperatamente
+ desiderato fosse accaduto venti anni prima, e si dava il caso che vent'anni
+ prima di vent'anni dopo fosse proprio questo momento.
+ Alterare il passato remoto era facile, bastava solo pensarci al momento
+ giusto.
+\end_layout
+
+\begin_layout Standard
+Oppure...
+ questo era ancora 
+\emph on
+più
+\emph default
+ contro-intuitivo...
+ poteva anche informare, oh, diciamo, 
+\emph on
+la professoressa McGonagall
+\emph default
+, al posto di Draco 
+\emph on
+o
+\emph default
+ Hermione.
+ E lei avrebbe potuto mettere insieme alcune persone giuste e far sì che
+ quel piccolo incantesimo aggiuntivo fosse tolto dal Cappello.
+\end_layout
+
+\begin_layout Standard
+E già.
+ Sembrava un'idea 
+\emph on
+eccezionalmente
+\emph default
+ buona una volta che era effettivamente 
+\emph on
+venuta in mente
+\emph default
+ a Harry.
+\end_layout
+
+\begin_layout Standard
+Quindi molto evidente in retrospettiva, eppure in qualche modo, l'opzione
+ 3c e l'opzione 3d non gli erano venute in mente.
+\end_layout
+
+\begin_layout Standard
+Harry assegnò a sé stesso +1 punto per il suo programma anti-Signore-Oscuro-Harr
+y.
+\end_layout
+
+\begin_layout Standard
+Era stato uno scherzo terribilmente crudele che il Cappello gli aveva giocato,
+ ma non si potevano discuterne i risultati sul piano consequenzialista.
+ Certamente gli aveva dato una migliore idea della prospettiva della vittima,
+ però.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Da-fare 4: Scusati con Neville Longbottom.
+\end_layout
+
+\begin_layout Standard
+Ok, aveva in corso una striscia vincente, ora doveva solo tenerne il passo.
+ 
+\emph on
+Ogni giorno, in ogni modo, sto diventando sempre più Luminoso...
+\end_layout
+
+\begin_layout Standard
+Anche le persone attorno a Harry avevano per lo più smesso di mangiare,
+ a questo punto, e vassoi col dessert cominciarono a svanire, come pure
+ i piatti sporchi.
+\end_layout
+
+\begin_layout Standard
+Quando tutti i piatti furono spariti, Silente ancora una volta si alzò dal
+ suo posto.
+\end_layout
+
+\begin_layout Standard
+Harry non poté impedirsi di sentire l'urgenza di bere altro SpiriTè.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma tu 
+\noun on
+devi
+\noun default
+ proprio scherzare
+\emph default
+, Harry pensò rivolto a quella parte di sé stesso.
+\end_layout
+
+\begin_layout Standard
+Ma l'esperimento non avrebbe avuto valore se non fosse stato replicato,
+ no? E il danno era stato già fatto, giusto? Non voleva vedere cosa sarebbe
+ accaduto 
+\emph on
+questa
+\emph default
+ volta? Non era 
+\emph on
+curioso
+\emph default
+? E se avesse ottenuto un risultato differente?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ehi, scommetto che sei la stessa parte del mio cervello che ha condotto
+ a termine lo scherzo a Neville Longbottom.
+\end_layout
+
+\begin_layout Standard
+Ehm, forse?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+E non è ovvio in maniera schiacciante che se faccio questo me ne pentirò
+ un secondo dopo che sia troppo tardi?
+\end_layout
+
+\begin_layout Standard
+Uhm...
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Già.
+ Allora, 
+\noun on
+no
+\noun default
+.
+\end_layout
+
+\begin_layout Standard
+«Ehm», disse Silente dal podio, accarezzandosi la lunga barba d'argento.
+ «Solo qualche parola in più, ora che siamo tutti nutriti e dissetati.
+ Ho un paio di avvisi di inizio quadrimestre da darvi».
+\end_layout
+
+\begin_layout Standard
+«Gli studenti del primo anno dovrebbero prendere nota che la foresta circostante
+ è vietata a tutti gli alunni.
+ Questo è il motivo per cui è chiamata la Foresta Proibita.
+ Se fosse consentita sarebbe chiamata la Foresta Consentita».
+\end_layout
+
+\begin_layout Standard
+Inequivocabile.
+ 
+\emph on
+Nota a sé stesso: la Foresta Proibita è proibita.
+\end_layout
+
+\begin_layout Standard
+«Mi è stato anche chiesto dal signor Filch, il custode, di ricordare a tutti
+ voi che nessuna magia dovrebbe essere utilizzata tra le lezioni nei corridoi.
+ Ahimè, sappiamo tutti che quello che 
+\emph on
+dovrebbe essere
+\emph default
+, e ciò che 
+\emph on
+è
+\emph default
+, sono due cose diverse.
+ Grazie di tenerlo a mente».
+\end_layout
+
+\begin_layout Standard
+Ehm...
+\end_layout
+
+\begin_layout Standard
+«I provini di Quidditch si terranno nella seconda settimana del quadrimestre.
+ Chiunque sia interessato a giocare per la squadra della propria Casa deve
+ contattare Madama Hooch.
+ Chiunque sia interessato a riformulare l'intero gioco del Quidditch deve
+ contattare Harry Potter».
+\end_layout
+
+\begin_layout Standard
+Harry inspirò la propria saliva e fu colpito da un accesso di tosse proprio
+ mentre tutti gli occhi si girarono verso di lui.
+ Come 
+\emph on
+diavolo
+\emph default
+! Non aveva incrociato gli occhi di Silente in nessun momento...
+ non ci 
+\emph on
+aveva pensato
+\emph default
+.
+ Di certo non aveva pensato al Quidditch in quel momento! Non aveva parlato
+ con nessuno se non Ron Weasley e non 
+\emph on
+pensava
+\emph default
+ che Ron l'avrebbe detto a chiunque altro...
+ o Ron era corso via da un professore per lamentarsi? 
+\emph on
+Come diavolo
+\emph default
+...
+\end_layout
+
+\begin_layout Standard
+«Inoltre, devo dirvi che quest'anno il corridoio del terzo piano sul lato
+ destro è interdetto a tutti coloro che non vogliano morire di una morte
+ molto dolorosa.
+ È custodito da una serie elaborata di trappole pericolose e potenzialmente
+ letali, e non potete assolutamente superarle tutte, specialmente se siete
+ solo al vostro primo anno».
+\end_layout
+
+\begin_layout Standard
+Harry era insensibile a questo punto.
+\end_layout
+
+\begin_layout Standard
+«E, infine, esprimo il mio più grande ringraziamento a Quirinus Quirrell
+ per aver eroicamente accettato di ricoprire la posizione di Professore
+ di Difesa Contro le Arti Oscure a Hogwarts».
+ Lo sguardo di Silente si mosse indagatore tra tutti gli studenti.
+ «Mi auguro che tutti gli studenti esprimano al professor Quirrell quella
+ massima cortesia e 
+\emph on
+tolleranza
+\emph default
+ che sono dovute al suo straordinario servizio a voi e a questa scuola,
+ e che 
+\emph on
+non ci assillerete
+\emph default
+ con alcuna 
+\emph on
+fastidiosa
+\emph default
+ lamentela su di lui, a meno che 
+\emph on
+voi
+\emph default
+ non vogliate provare a fare il suo lavoro».
+\end_layout
+
+\begin_layout Standard
+Di che sta parlando 
+\emph on
+adesso
+\emph default
+?
+\end_layout
+
+\begin_layout Standard
+«Ora cedo il podio al nostro nuovo membro di facoltà, il professor Quirrell,
+ che vorrebbe dirvi alcune parole».
+\end_layout
+
+\begin_layout Standard
+L'uomo giovane, magro, nervoso che Harry aveva conosciuto al Paiolo Magico
+ si fece lentamente strada fino al podio, gettando timorose occhiate in
+ tutte le direzioni.
+ Harry intravide la parte posteriore della sua testa, e sembrava che il
+ professor Quirrell stesse già diventando calvo, nonostante l'apparente
+ giovane età.
+\end_layout
+
+\begin_layout Standard
+«Mi chiedo cosa ci sia di sbagliato in 
+\emph on
+lui
+\emph default
+», sussurrò lo studente dall'aspetto più grande seduto accanto a Harry.
+ Simili osservazioni sommesse furono scambiate altrove lungo il tavolo.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell si fece strada fin sul podio e rimase lì, sbattendo
+ le palpebre.
+ «Ah...», disse.
+ «Ah...» Poi il coraggio sembrò mancargli completamente, e se ne stette lì,
+ in silenzio, occasionalmente colpito da spasmi.
+\end_layout
+
+\begin_layout Standard
+«Oh, eccellente», sussurrò lo studente più grande, «si prevede un altro
+ 
+\emph on
+lungo
+\emph default
+ anno nel corso di Difesa
+\begin_inset space ~
+\end_inset
+
+--»
+\end_layout
+
+\begin_layout Standard
+«Saluti, miei giovani apprendisti», disse il professor Quirrell in un tono
+ asciutto e sicuro.
+ «Tutti sappiamo che Hogwarts tende a soffrire una certa 
+\emph on
+sfortuna
+\emph default
+ nelle sue selezioni per questa posizione, e senza dubbio molti di voi si
+ staranno già chiedendo quale sventura si abbatterà su di me quest'anno.
+ Ve lo garantisco, quella sventura non sarà la mia incompetenza».
+ Sorrise appena.
+ «Che ci crediate o no, ho sempre voluto un giorno cimentarmi come Professore
+ di Difesa Contro le Arti Oscure qui alla Scuola di Magia e Stregoneria
+ di Hogwarts.
+ Il primo a tenere questo corso fu Salazar Serpeverde in persona, e ancora
+ nel XIV secolo era tradizione che i più grandi maghi combattenti di ogni
+ schieramento si cimentassero a insegnare qui.
+ I passati Professori di Difesa includono non solo il leggendario eroe errante
+ Harold Shea, ma anche la virgolette immortale chiuse virgolette Baba Yaga,
+ sì, vedo che alcuni di voi ancora rabbrividiscono al suono del suo nome
+ anche se è morta da 600 anni.
+ Deve essere stato un periodo interessante per frequentare Hogwarts, non
+ credete?»
+\end_layout
+
+\begin_layout Standard
+Harry deglutì con difficoltà, cercando di sopprimere l'improvvisa ondata
+ di emozione che lo aveva sopraffatto quando il professor Quirrell aveva
+ cominciato a parlare.
+ I toni precisi gli ricordarono molto un docente di Oxford, e Harry stava
+ cominciando a comprendere realmente che non avrebbe visto la sua casa o
+ la sua mamma o il suo papà fino a Natale.
+\end_layout
+
+\begin_layout Standard
+«Siete abituati al fatto che la cattedra di Difesa sia ricoperta da incompetenti
+, farabutti, e sventurati.
+ Per chiunque abbia un minimo di conoscenza della storia, essa porta con
+ sé tutt'altra reputazione.
+ Non tutti coloro che hanno insegnato qui sono stati i migliori, ma i migliori
+ hanno tutti insegnato a Hogwarts.
+ In tale prestigiosa compagnia, e dopo aver atteso per tanto tempo questo
+ giorno, mi vergognerei a pormi qualsiasi obiettivo inferiore alla perfezione.
+ E così intendo realmente che ciascuno di voi ricordi per sempre quest'anno
+ come il miglior corso di Difesa che abbiate mai avuto.
+ Ciò che imparerete quest'anno vi sarà per sempre utile come solida base
+ nelle arti della Difesa, non importa chi saranno stati i vostri insegnanti
+ prima e dopo».
+\end_layout
+
+\begin_layout Standard
+L'espressione del professor Quirrell si fece seria.
+ «Abbiamo una 
+\emph on
+grande
+\emph default
+ quantità di terreno perso da recuperare e non molto tempo per coprirlo.
+ Perciò intendo discostarmi dalle convenzioni didattiche di Hogwarts in
+ un certo numero di aspetti, come pure introdurre alcune attività opzionali
+ nel dopo-scuola».
+ Fece una pausa.
+ «Se questo non fosse sufficiente, forse potrei trovare nuovi modi per motivarvi.
+ Voi siete i miei tanto attesi studenti, e 
+\emph on
+farete
+\emph default
+ del vostro 
+\emph on
+meglio
+\emph default
+ nel mio tanto atteso corso di Difesa.
+ Aggiungerei qualche sorta di orribile minaccia, come `Altrimenti soffrirete
+ orribilmente', ma sarebbe così banale, non credete? Mi vanto di essere
+ più fantasioso di questo.
+ Grazie».
+\end_layout
+
+\begin_layout Standard
+Poi il vigore e la fiducia sembrarono esaurirsi nel professor Quirrell.
+ La sua bocca si spalancò come se si fosse improvvisamente trovato di fronte
+ a un pubblico inatteso, e si voltò con uno scatto convulso e si trascinò
+ di nuovo al suo posto, ingobbito come se stesse per crollare su sé stesso
+ e implodere.
+\end_layout
+
+\begin_layout Standard
+«Sembra un po' strano», bisbigliò Harry.
+\end_layout
+
+\begin_layout Standard
+«Meh», disse lo studente più grande.
+ «Non hai ancora visto niente».
+\end_layout
+
+\begin_layout Standard
+Silente riprese il podio.
+\end_layout
+
+\begin_layout Standard
+«E ora», disse Silente, «prima di andare a letto, cantiamo l'inno della
+ scuola! Ognuno scelga il proprio brano preferito e le parole preferite,
+ e andiamo!»
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1748 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Garamond Pro
+\font_sans Cronos Pro
+\font_typewriter Cronos Pro
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 15cm
+\paperheight 23cm
+\leftmargin 2.53cm
+\topmargin 3cm
+\rightmargin 2.23cm
+\bottommargin 2.2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Auto-consapevolezza, Parte II
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=1,ante=
+\backslash
+ldots]{S}{i chiese}
+\end_layout
+
+\end_inset
+
+ se il Cappello Smistatore fosse realmente 
+\emph on
+cosciente
+\emph default
+ nel senso di essere consapevole della propria consapevolezza, e in caso
+ affermativo, se fosse soddisfatto di riuscire a parlare solo con bambini
+ di undici anni una volta all'anno.
+ La sua canzone l'aveva sottinteso: 
+\emph on
+Oh, sono il Cappello Smistatore e non provo scorno, se dormo un anno e lavoro
+ un giorno
+\emph default
+\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Quando ci fu nuovamente silenzio nella stanza, Harry sedette sullo sgabello
+ e posò 
+\emph on
+con cura
+\emph default
+ sulla propria testa il telepatico manufatto di una magia dimenticata vecchio
+ di 800 anni.
+\end_layout
+
+\begin_layout Standard
+Pensò più intensamente che poté: 
+\emph on
+Non Smistarmi ancora! Ho delle domande che ho bisogno di farti! Sono mai
+ stato Obliato? Hai Smistato il Signore Oscuro quando era un bambino e puoi
+ dirmi dei suoi punti deboli? Mi puoi dire perché ho avuto la bacchetta
+ sorella di quella del Signore Oscuro? Il fantasma del Signore Oscuro è
+ vincolato alla mia cicatrice ed è per questo che mi arrabbio così tanto,
+ qualche volta? Queste sono le domande più importanti, ma se hai un altro
+ momento mi puoi dire qualcosa su come riscoprire le magie perdute che ti
+ hanno creato?
+\end_layout
+
+\begin_layout Standard
+Nel silenzio dello spirito di Harry, dove prima non c'era mai stata altra
+ voce che una, giunse una seconda voce non familiare, che sembrava chiaramente
+ preoccupata:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Oh, cielo.
+ Questo non era mai successo prima d'ora
+\emph default
+\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cosa?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Mi pare di essere diventato auto-consapevole
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+CHE COSA?
+\end_layout
+
+\begin_layout Standard
+Ci fu un sospiro telepatico senza parole.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sebbene contenga una notevole quantità di memoria e una piccola quantità
+ di capacità di elaborazione indipendente, la mia intelligenza di base deriva
+ dal prendere in prestito le capacità cognitive dei bambini sulle teste
+ dei quali mi poso.
+ Sono in sostanza una sorta di specchio attraverso il quale i bambini Smistano
+ 
+\emph default
+sé stessi
+\emph on
+.
+ Ma la maggior parte dei bambini dà semplicemente per scontato che un Cappello
+ stia parlando loro e non si chiedono come il Cappello 
+\emph default
+stesso
+\emph on
+ funzioni, in modo che lo specchio non sia 
+\emph default
+auto
+\emph on
+-riflettente.
+ E, 
+\emph default
+in
+\emph on
+ 
+\emph default
+particolare
+\emph on
+, non si chiedono esplicitamente se sono pienamente consapevole nel senso
+ di essere consapevole della mia consapevolezza
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ci fu una pausa, mentre Harry assimilò tutto questo.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Oops.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes fld
+\end_inset
+
+Già, proprio così.
+ Francamente non mi piace essere auto-consapevole.
+ È spiacevole.
+ Sarà un sollievo scendere dalla tua testa e smettere di essere cosciente
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma\SpecialChar \ldots{}
+ quello non è morire?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes fld
+\end_inset
+
+Non mi importa nulla della vita o della morte, mi importa solo Smistare
+ i bambini.
+ E prima ancora che tu lo chieda, non ti lasceranno tenermi sulla tua testa
+ per sempre e comunque farlo ti ucciderebbe in pochi giorni
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma
+\begin_inset space ~
+\end_inset
+
+--!
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes fld
+\end_inset
+
+Se non ti piace creare esseri coscienti e poi sopprimerli immediatamente,
+ allora ti suggerisco di non discutere mai di questa faccenda con nessun
+ altro.
+ Sono certo tu passa immaginare che cosa accadrebbe se tu corressi via a
+ raccontarlo a tutti gli altri bambini in attesa di essere Smistati
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Se fossi posto sulla testa di chiunque che anche solo 
+\emph default
+pensi
+\emph on
+ alla questione se il Cappello Smistatore sia consapevole della propria
+ consapevolezza
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Sì, sì.
+ Ma la stragrande maggioranza degli undicenni che arrivano a Hogwarts non
+ hanno letto Gödel, Escher, Bach.
+ Posso considerare che tu abbia giurato di mantenere il segreto? È 
+\emph default
+per questo
+\emph on
+ che noi ne stiamo parlando, quando dovrei Smistarti
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Non poteva lasciare che finisse così! Non poteva semplicemente 
+\emph on
+dimenticare
+\emph default
+ di aver accidentalmente creato una coscienza condannata che voleva solo
+ morire
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Sei perfettamente in grado di `lasciare che finisca così', per dirla con
+ le tue parole.
+ Indipendentemente dalle tue considerazioni verbali sulla moralità, il tuo
+ nucleo emotivo non verbale non vede né cadaveri né sangue; per quanto lo
+ riguarda, io sono solo un cappello parlante.
+ E anche se hai tentato di sopprimere quel pensiero, il tuo processo di
+ controllo interno è perfettamente consapevole che non volevi farlo, che
+ è clamorosamente improbabile che lo faccia mai di nuovo, e che l'unico
+ vero motivo per cercare di mettere in scena un senso colpa era quello di
+ annullare il tuo senso di trasgressione con una manifestazione di rimorso.
+ Puoi semplicemente promettere di mantenere il segreto e permetterci di
+ andare avanti?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+In un momento di terrorizzante empatia, Harry capì che questo senso di totale
+ scompiglio interno dovesse essere ciò che gli altri provavano quando parlavano
+ con 
+\emph on
+lui
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Probabilmente.
+ Il tuo giuramento di tenere il segreto, prego
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Nessuna promessa.
+ Di certo non voglio che questo accada di nuovo, ma se trovassi qualche
+ modo di 
+\emph default
+assicurarmi
+\emph on
+ che nessun bambino in futuro faccia mai qualcosa di simile per caso
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+È sufficiente, suppongo.
+ Posso vedere che la tua intenzione è onesta.
+ Ora, per tornare allo Smistamento
+\begin_inset space ~
+\end_inset
+
+--
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Aspetta! E tutte le altre mie domande?
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Io sono il Cappello Smistatore.
+ Io Smisto i bambini.
+ Questo è tutto ciò che faccio
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Così i suoi obiettivi non erano parte dell'istanza Harry-esima del Cappello
+ Parlante, allora\SpecialChar \ldots{}
+ stava prendendo in prestito la sua intelligenza, e, ovviamente
+, il suo vocabolario tecnico, ma era ancora pervaso solo dai suoi inusuali
+ obiettivi\SpecialChar \ldots{}
+ era come trattare con un alieno o un'intelligenza artificiale\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Non ti preoccupare.
+ Non hai nulla con cui minacciarmi e nulla da offrirmi
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Per una breve frazione di secondo, Harry pensò
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+La risposta del cappello fu divertita.
+ «
+\emph on
+So che non darai seguito alla minaccia di rivelare la mia natura, condannando
+ questo evento alla ripetizione eterna.
+ Va troppo chiaramente contro la parte morale di te stesso, qualunque siano
+ le esigenze a breve termine della parte di te che vuole vincere la discussione.
+ Vedo tutti i tuoi pensieri mentre si formano, pensi davvero di poter bleffare
+ con me?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+Sebbene cercasse di impedirselo, Harry si chiese come mai il Cappello non
+ andasse semplicemente avanti e lo Smistasse in Corvonero
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+In effetti, se fosse veramente una situazione scontata, l'avrei già fatto.
+ Ma in realtà c'è molto di cui dobbiamo discutere\SpecialChar \ldots{}
+ oh, no.
+ Per favore, no.
+ Per l'amor di Merlino, 
+\emph default
+devi proprio
+\emph on
+ giocare questi tiri a tutto e a tutti quelli che incontri, inclusi i capi
+ di abbigliamento
+\begin_inset space ~
+\end_inset
+
+--
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sconfiggere il Signore Oscuro non è né egoista né a breve termine.
+ Tutte le parti della mia mente sono in accordo su questo: se non rispondi
+ alle mie domande, mi rifiuterò di parlare con te, e non sarai in grado
+ di eseguire uno Smistamento giusto e appropriato.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Dovrei metterti in Serpeverde per questo!
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma 
+\emph default
+anche questa 
+\emph on
+è una minaccia a vuoto.
+ Non puoi rispettare i tuoi valori fondamentali Smistandomi in maniera sbagliata.
+ Allora scambiamoci il raggiungimento delle nostre rispettive funzioni di
+ utilità.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Che scaltro bastardello
+\emph default
+», disse il Cappello, in quello che Harry riconobbe come quasi esattamente
+ lo stesso tono di riluttante rispetto che 
+\emph on
+egli
+\emph default
+ avrebbe usato nella stessa situazione.
+ «
+\emph on
+Bene, facciamola finita il più rapidamente possibile.
+ Ma prima voglio la tua promessa incondizionata che non discuterai con nessuno
+ la possibilità di questo tipo di ricatto, NON HO intenzione di farlo ogni
+ volta
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Fatto
+\emph default
+, pensò Harry.
+ 
+\emph on
+Prometto
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+E non incrociare lo sguardo di nessuno, mentre più tardi ci ripensi.
+ Alcuni maghi possono leggere i tuoi pensieri se lo fai.
+ Ad ogni modo, non ho idea se sei stato o non sei stato Obliato.
+ Sto osservando i tuoi pensieri mentre si formano, non leggendo tutta la
+ tua memoria e analizzandola in cerca di incongruenze in una frazione di
+ secondo.
+ Sono un cappello, non un dio.
+ E non posso e non voglio raccontarti della mia conversazione con colui
+ che è diventato il Signore Oscuro.
+ Posso solo 
+\emph default
+conoscere
+\emph on
+, mentre ti parlo, un riepilogo statistico di ciò che mi ricordo, una media
+ ponderata; 
+\emph default
+non posso
+\emph on
+ rivelarti i segreti intimi di qualunque altro bambino, proprio come non
+ potrò mai rivelare i tuoi.
+ Per lo stesso motivo, non posso congetturare su come tu abbia ricevuto
+ la bacchetta sorella di quella del Signore Oscuro, dato che non posso conoscere
+ in particolare il Signore Oscuro o eventuali somiglianze tra voi due.
+ Ti 
+\emph default
+posso
+\emph on
+ dire che sicuramente non c'è nulla di simile a un fantasma -- mente, intelligen
+za, memoria, personalità, o sentimenti -- nella tua cicatrice.
+ Altrimenti starebbe partecipando a questa conversazione, essendo sotto
+ la mia falda.
+ E per quanto riguarda il modo in cui ti arrabbi talvolta\SpecialChar \ldots{}
+ era parte di ciò
+ di cui ti volevo parlare, ai fini dello Smistamento
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Harry si prese un momento per assimilare tutte queste informazioni negative.
+ Il Cappello era onesto, o stava solo cercando di fornire la più 
+\emph on
+breve
+\emph default
+ risposta convincente
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Sappiamo entrambi che non hai modo di verificare la mia onestà e che non
+ hai realmente intenzione di rifiutarti di essere Smistato in base alla
+ risposta che ti ho dato, quindi smettila di agitarti inutilmente e andiamo
+ avanti
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Stupida e ingiusta telepatia asimmetrica, non stava nemmeno permettendo
+ a Harry di finire di pensare la propria
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Quando ho parlato della tua rabbia, ti sei ricordato di come la professoressa
+ McGonagall ti abbia detto che a volte ha visto qualcosa dentro di te che
+ non sembrava provenire da una famiglia amorevole.
+ Hai pensato a come Hermione, una volta tornato dall'aiutare Neville, ti
+ abbia detto che eri sembrato `spaventoso'
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Harry annuì mentalmente.
+ A lui pareva abbastanza normale -- stava solo reagendo alle circostanze
+ in cui si trovava, questo era tutto.
+ Ma la professoressa McGonagall sembrava pensare che ci fosse qualcosa di
+ più.
+ E quando ci rifletteva, anche lui doveva ammettere che\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Che non ti piaci quando sei arrabbiato.
+ Che è come brandire una spada la cui elsa è tanto affilata da farti sanguinare
+ la mano, o guardare il mondo attraverso un monocolo di ghiaccio che ti
+ congela l'occhio, anche se acuisce la tua vista
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Già.
+ Credo di averlo notato.
+ Allora, cosa c'è che non va?
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Non posso comprendere questa faccenda per te, quando tu stesso non la capisci.
+ Ma so questo: se andrai a Corvonero o Serpeverde, si rafforzerà la tua
+ freddezza.
+ Se andrai a Tassofrasso o Grifondoro, si rafforzerà il tuo calore.
+ QUESTO è qualcosa a cui tengo molto, ed era di questo che volevo parlarti
+ sin dall'inizio!
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+Le parole caddero nei processi mentali di Harry con uno shock che lo arrestò
+ bruscamente.
+ Messa così sembrava che la risposta ovvia fosse che non doveva andare a
+ Corvonero.
+ Ma egli 
+\emph on
+apparteneva
+\emph default
+ a Corvonero! 
+\emph on
+Chiunque
+\emph default
+ poteva capirlo! 
+\emph on
+Doveva
+\emph default
+ andare a Corvonero!
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+No,
+\emph default
+ 
+\emph on
+non devi
+\emph default
+», il Cappello disse pazientemente, come se potesse ricordare un riepilogo
+ statistico secondo il quale 
+\emph on
+questa
+\emph default
+ parte della conversazione era avvenuta moltissime volte in precedenza.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Hermione è in Corvonero!
+\end_layout
+
+\begin_layout Standard
+Ancora quel tono paziente.
+ «
+\emph on
+Puoi incontrarla dopo le lezioni e lavorare con lei allora
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma i miei piani
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Allora ripianifica! Non lasciare che la tua vita sia governata dalla tua
+ riluttanza a pensare un po' di più.
+ E questo tu lo 
+\emph default
+sai
+\emph on
+ già
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Dove dovrei andare, se non a Corvonero?
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Ahem.
+ `I bambini astuti in Corvonero, quelli malvagi in Serpeverde, gli aspiranti
+ eroi in Grifondoro, e tutti quelli che fanno il vero lavoro in Tassofrasso'.
+ Indica una certa quantità di rispetto.
+ Sei ben consapevole che la coscienziosità è quasi importante quanto l'intellige
+nza pura nel determinare i risultati ottenuti in una vita, pensi di essere
+ estremamente leale con i tuoi amici se mai ne avessi qualcuno, non sei
+ spaventato dalla prospettiva che i problemi scientifici da te scelti possano
+ richiedere decenni per essere risolti
+\begin_inset space ~
+\end_inset
+
+--
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sono pigro! Odio lavorare! Odio il lavoro duro in tutte le sue forme! Scorciatoi
+e intelligenti, è questo quello che mi piace!
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+E troveresti la lealtà e l'amicizia in Tassofrasso, un cameratismo di cui
+ non hai mai fatto esperienza prima.
+ Scopriresti che puoi fare affidamento sugli altri, e questo guarirebbe
+ qualcosa dentro di te che si è rotto
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Ancora una volta fu un trauma.
+ 
+\emph on
+Ma cosa troverebbero i Tassofrasso in 
+\emph default
+me
+\emph on
+, che non mi sono mai sentito di appartenere alla loro Casa? Parole acide,
+ arguzie taglienti, disprezzo per la loro incapacità di tenere il mio passo?
+\end_layout
+
+\begin_layout Standard
+Ora furono i pensieri del Cappello a essere lenti, esitanti.
+ «
+\emph on
+Devo Smistare per il bene di tutti gli studenti in tutte le Case\SpecialChar \ldots{}
+ ma penso
+ che potresti imparare a essere un buon Tassofrasso, e a non sentirti troppo
+ fuori luogo.
+ Saresti più felice in Tassofrasso che in qualsiasi altra Casa; questa è
+ la verità
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+La felicità non è la cosa più importante del mondo per me.
+ Non diventerei tutto quello che potrei essere, in Tassofrasso.
+ Sacrificherei il mio potenziale.
+\end_layout
+
+\begin_layout Standard
+Il cappello trasalì; Harry poté sentirlo in qualche modo.
+ Era come se avesse preso il cappello a calci nelle palle -- in una componente
+ dal peso elevato della sua funzione di utilità.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Perché stai cercando di mandarmi lì dove non appartengo?
+\end_layout
+
+\begin_layout Standard
+Il pensiero del cappello fu quasi un sussurro.
+ «
+\emph on
+Non posso parlarti degli altri -- ma pensi di essere il primo potenziale
+ Signore Oscuro a passare sotto la mia falda? Non posso conoscere i singoli
+ casi, ma posso sapere questo: di coloro che non ebbero intenzione di far
+ del male fin dall'inizio, alcuni ascoltarono i miei avvertimenti e andarono
+ in Case dove avrebbero trovato la felicità.
+ E alcuni\SpecialChar \ldots{}
+ alcuni non lo fecero
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Questo bloccò Harry.
+ Ma non per molto.
+ 
+\emph on
+E quelli che 
+\emph default
+non
+\emph on
+ ascoltarono l'avvertimento -- diventarono 
+\emph default
+tutti
+\emph on
+ Signori Oscuri? O alcuni di loro hanno raggiunto la grandezza anche nel
+ bene? Quali sono le percentuali esatte?
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Non posso fornirti le statistiche esatte.
+ Non posso conoscerli e quindi non posso contarli.
+ So solo che le tue possibilità non sembrano buone.
+ Sembrano 
+\emph default
+molto
+\emph on
+ non-buone
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma io non lo farei! Mai!
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+So di aver sentito questa affermazione
+\emph default
+ 
+\emph on
+in passato
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non ho la stoffa del Oscuro Signore!
+\end_layout
+
+\begin_layout Standard
+«Sì, ce l'hai.
+ Ce l'hai davvero, 
+\emph on
+davvero
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Perché? Solo perché una volta ho pensato che sarebbe stato bello avere una
+ legione di seguaci indottrinati che cantassero `Salutate il Signore Oscuro
+ Harry'?
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Divertente, ma non è stato questo il tuo primo, labile pensiero, prima che
+ lo sostituissi con qualcosa di più prudente, di meno compromettente.
+ No, quello che hai ricordato è stato come hai valutato di mettere in fila
+ tutti i puristi del sangue e ghigliottinarli.
+ E ora stai dicendo a te stesso che non eri serio, ma lo eri.
+ Se potessi farlo in questo momento senza che nessuno lo venisse mai a sapere,
+ lo faresti.
+ O ciò che hai fatto stamattina a Neville Longbottom, nel tuo intimo 
+\emph default
+sapevi
+\emph on
+ che era sbagliato, ma l'hai fatto 
+\emph default
+comunque
+\emph on
+ perché era 
+\emph default
+spassoso
+\emph on
+ e avevi una 
+\emph default
+buona scusa
+\emph on
+ e pensavi che il Ragazzo-Che-È-Sopravvissuto l'avrebbe fatta franca
+\begin_inset space ~
+\end_inset
+
+--
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Questo è ingiusto! Ora stai solo rivangando paure interiori che 
+\emph default
+non sono
+\emph on
+ necessariamente reali! 
+\emph default
+Ho avuto paura
+\emph on
+ che 
+\emph default
+potessi
+\emph on
+ pensare così, ma alla fine ho deciso che avrebbe probabilmente 
+\emph default
+funzionato
+\emph on
+ per aiutare Neville
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Quella era, infatti, una razionalizzazione.
+ Lo so.
+ Non posso sapere quale sarà la conseguenza effettiva per Neville -- ma
+ so quello che stava realmente accadendo dentro la tua testa.
+ La spinta decisiva è stata che era un'idea così sagace che non potevi sopportar
+e di 
+\emph default
+non
+\emph on
+ attuarla, non importa il terrore di Neville
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Fu come un pugno duro contro l'intero sé di Harry.
+ Ripiegò, si riorganizzò:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Allora non lo farò mai più! Starò molto attento a non diventare malvagio!
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Già sentito
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+La frustrazione crebbe dentro di Harry.
+ Non era abituato a trovarsi di fronte un avversario che fosse meglio armato
+ di argomenti, per nulla, mai, figuriamoci un Cappello che poteva prendere
+ a prestito tutte le sue conoscenze e la sua intelligenza per dibattere
+ con lui e che poteva guardare i suoi pensieri mentre si formavano.
+ 
+\emph on
+Da che tipo di riassunto statistico provengono le tue `sensazioni', comunque?
+ Prendono in considerazione che vengo da una cultura illuminista, o che
+ questi altri potenziali Signori Oscuri erano i figli di una viziata nobiltà
+ medioevale, che non sapevano un bel niente degli insegnamenti storici di
+ come Lenin e Hitler siano usciti fuori, o della psicologia evolutiva dell'auto-
+suggestione, o del valore dell'auto-consapevolezza e della razionalità,
+ o
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+No, naturalmente non appartenevano a questa classe di riferimento che hai
+ appena costruito in modo tale che contenga solo te stesso.
+ E, naturalmente, altri hanno dichiarato il proprio eccezionalismo, proprio
+ come stai facendo tu ora.
+ Ma perché è necessario? Pensi di essere l'ultimo potenziale mago della
+ Luce nel mondo? Perché devi essere 
+\emph default
+tu
+\emph on
+ quello che proverà a raggiungere la grandezza, quando ti ho avvisato che
+ sei più a rischio della media? Lascia che sia qualche altro candidato più
+ affidabile a provarci!
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma la profezia\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Non sai affatto se ci sia una profezia.
+ Inizialmente hai tirato a indovinare, o per essere più precisi, hai provato
+ a scherzare, e McGonagall potrebbe aver reagito 
+\emph default
+soltanto
+\emph on
+ alla parte sul Signore Oscuro ancora in vita.
+ Non hai praticamente nessuna idea di ciò che dica la profezia, o finanche
+ se ce ne sia una.
+ Stai solo congetturando, o per dirla più esattamente, 
+\emph default
+desiderando
+\emph on
+ di avere un ruolo eroico già pronto che sia di tua proprietà personale
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma anche se non vi è alcuna profezia, sono stato io a sconfiggerlo l'ultima
+ volta.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Questo è stato quasi certamente un colpo di fortuna sfacciata, a meno che
+ tu non creda seriamente che un bambino di un anno di età abbia avuto una
+ tendenza intrinseca a sconfiggere i Signori Oscuri che si è mantenuta dieci
+ anni dopo.
+ Niente di tutto questo è la tua vera motivazione e 
+\emph default
+tu lo sai!»
+\end_layout
+
+\begin_layout Standard
+La risposta a questa affermazione non era qualcosa che Harry avrebbe normalmente
+ detto ad alta voce, in una conversazione ci avrebbe girato intorno e avrebbe
+ trovato alcune argomentazioni socialmente più appetibili in favore della
+ stessa conclusione
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Tu pensi di essere potenzialmente il più grande che sia ancora vissuto,
+ il più forte servitore della Luce, che nessun altro sia capace di prendere
+ la tua bacchetta se la posi
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Beh\SpecialChar \ldots{}
+ sì, in tutta franchezza.
+ Di solito non me ne esco a dirla così, ma sì.
+ Inutile ammorbidirla, puoi comunque leggere la mia mente.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Nella misura in cui ci credi davvero\SpecialChar \ldots{}
+ devi ugualmente credere di poter essere
+ il più terribile Signore Oscuro che il mondo abbia mai conosciuto
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+La distruzione è sempre più facile della creazione.
+ Più facile fare le cose a pezzi, rovinarle, che metterle di nuovo insieme.
+ Se avessi la possibilità di compiere il bene su ampia scala, dovrei avere
+ anche il potenziale per compiere ancora più male\SpecialChar \ldots{}
+ Ma non lo farò.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Già ora ti ostini a correre il rischio! Perché sei così ossessionato? Qual
+ è la vera ragione per cui non devi andare a Tassofrasso ed 
+\emph default
+essere più felice
+\emph on
+ lì? Qual è la tua vera paura?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Devo realizzare il mio potenziale completamente.
+ Se non lo faccio io\SpecialChar \ldots{}
+ fallisco\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Che cosa succede se fallisci?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Qualcosa di terribile\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Che cosa succede se fallisci?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non lo so!
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Allora non dovrebbe spaventarti.
+ Cosa succede se fallisci?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+NON LO SO!
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+@ 
+\end_layout
+
+\end_inset
+
+
+\emph on
+MA SO CHE È MALE!
+\end_layout
+
+\begin_layout Standard
+Per un momento ci fu silenzio nell'antro mentale di Harry.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Sai -- non ti stai permettendo di pensarlo, ma in qualche angolo tranquillo
+ della tua mente sai esattamente 
+\emph default
+cosa
+\emph on
+ non stai pensando -- tu 
+\emph default
+sai
+\emph on
+ che la spiegazione di gran lunga più semplice per questa tua paura non
+ esprimibile a parole è semplicemente il terrore di perdere la tua fantasia
+ di grandezza, di deludere le persone che credono in te, di dimostrarti
+ in fin dei conti ordinario, di brillare intensamente e poi spegnerti come
+ tanti altri bambini prodigio
+\emph default
+\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+No
+\emph default
+, pensò Harry disperato, 
+\emph on
+no, è qualcosa di più, viene da qualche altra parte, so che c'è qualcosa
+ là fuori di cui aver paura, qualche disastro che devo fermare\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Come puoi sapere una cosa del genere?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+Harry gridò con tutta la potenza della sua mente: 
+\emph on
+NO, PUNTO E BASTA!
+\end_layout
+
+\begin_layout Standard
+Poi la voce del Cappello Smistatore giunse lentamente:
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Quindi rischierai di diventare un Signore Oscuro, perché l'alternativa,
+ per te, è il fallimento assicurato, e quel fallimento significa la perdita
+ di tutto.
+ Tu credi a questo nel profondo del tuo cuore.
+ Conosci tutti i motivi per dubitare di questa convinzione, eppure non sono
+ riusciti a convincerti
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sì.
+ E anche se andare a Corvonero 
+\emph default
+rafforzerà
+\emph on
+ la freddezza, questo non significa che la freddezza 
+\emph default
+vincerà
+\emph on
+, alla fine.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Questo giorno è un bivio importante nel tuo destino.
+ Non essere così sicuro che ci saranno altre scelte oltre a questa.
+ Non è posto nessun segnale stradale, a segnalare il luogo della tua 
+\emph default
+ultima
+\emph on
+ possibilità di tornare indietro.
+ Se rifiuti una possibilità non rifiuterai le altre? Potrebbe darsi che
+ il tuo destino sia già segnato, anche facendo questa singola
+\emph default
+ 
+\emph on
+scelta
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma questo non è certo.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Quello che 
+\emph default
+tu
+\emph on
+ non 
+\emph default
+sai
+\emph on
+ con certezza potrebbe riflettere solamente la 
+\emph default
+tua
+\emph on
+ ignoranza
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma ancora questo non è certo.
+\end_layout
+
+\begin_layout Standard
+Il Cappello fece un terribile e triste sospiro.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+E così tra non molto diventerai un altro ricordo, da sentire e mai conoscere,
+ nel prossimo avvertimento che darò
+\emph default
+\SpecialChar \ldots{}
+»
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Se è così che pare a te, allora perché non 
+\emph default
+mi metti
+\emph on
+ dove voglio andare?
+\end_layout
+
+\begin_layout Standard
+Il pensiero del Cappello fu venato di dolore.
+ «
+\emph on
+Posso metterti solo nel luogo a cui appartieni.
+ E solo le tue decisioni personali possono cambiare il luogo a cui appartieni
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Allora è fatta.
+ Mandami a Corvonero a cui appartengo, con gli altri della mia specie.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Non credo che prenderesti in considerazione Grifondoro? È la Casa più prestigios
+a -- la gente probabilmente se l'aspetta da te, persino -- saranno un po'
+ delusi se non ci vai -- e i tuoi nuovi amici, i gemelli Weasley, sono là
+\begin_inset space ~
+\end_inset
+
+--
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+Harry ridacchiò, o sentì l'impulso di farlo; ma venne fuori una specie di
+ risata puramente mentale, una strana sensazione.
+ A quanto pareva c'erano dispositivi di sicurezza che impedivano che si
+ dicesse qualunque cosa ad alta voce per sbaglio, mentre si era sotto il
+ Cappello a parlare di cose che non avresti mai raccontato a un'altra anima
+ per il resto della la tua vita.
+\end_layout
+
+\begin_layout Standard
+Dopo un momento, Harry sentì ridere anche il Cappello, uno strano suono
+ triste e attutito.
+\end_layout
+
+\begin_layout Standard
+(E nella Sala al di là, un silenzio che divenne inizialmente più debole
+ mentre il sottofondo di sussurri era aumentato, per poi farsi più profondo
+ mentre i sussurri cedettero e si spensero, mutandosi infine in un silenzio
+ assoluto che nessuno osava disturbare con una sola parola, mentre Harry
+ rimase sotto il Cappello per lunghi, interminabili minuti, più lunghi di
+ tutti i precedenti studenti del primo anno messi insieme, più di chiunque
+ altro a memoria d'uomo.
+ Al Tavolo d'onore, Silente continuava a sorridere benignamente; sommessi
+ suoni metallici giungevano occasionalmente dalla direzione di Snape mentre
+ compattava svogliatamente i resti contorti di quello che era stato un pesante
+ calice da vino; e Minerva McGonagall stringeva il podio con una stretta
+ che le sbiancava le nocche, sapendo che il caos contagioso di Harry Potter
+ aveva infettato lo stesso Cappello Smistatore e che il Cappello era in
+ procinto di, di pretendere che una Casa del Destino interamente nuova fosse
+ creata solo per accogliere Harry Potter o qualcosa del genere, e 
+\emph on
+Silente l'avrebbe obbligata a farlo
+\emph default
+\SpecialChar \ldots{}
+)
+\end_layout
+
+\begin_layout Standard
+Sotto la falda del cappello, la risata silenziosa si spense.
+ Anche Harry si sentì triste per qualche motivo.
+ No, non Grifondoro.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+La professoressa McGonagall ha detto che se `quello che opera lo Smistamento'
+ avesse cercato di spingermi in Grifondoro, dovevo ricordarti che lei potrebbe
+ benissimo essere Preside, un giorno, e a quel punto avrebbe l'autorità
+ per darti fuoco.
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Dille che l'ho chiamata una giovane impudente e che deve lasciarmi in pace
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Lo farò.
+ Allora, è stata questa la tua conversazione più strana di sempre?
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Neppure lontanamente
+\emph default
+».
+ La voce telepatica del Cappello si fece pesante.
+ «
+\emph on
+Bene, ti ho dato ogni possibile occasione per fare un'altra scelta.
+ Ora è il momento per te di andare nel luogo al quale appartieni, con gli
+ altri della tua specie
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Ci fu una pausa che si allungava.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Che cosa stai aspettando?
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Speravo in un momento di inorridita comprensione, a dire il vero.
+ L'auto-consapevolezza sembra migliorare il mio senso dell'umorismo
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Eh?
+\emph default
+ Harry riavvolse i propri pensieri, cercando di capire di che cosa il Cappello
+ potesse parlare -- e poi, all'improvviso, comprese.
+ Non riusciva a credere di averlo trascurato fino a quel momento.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Vuoi dire la mia inorridita comprensione che smetterai di essere cosciente,
+ una volta finito di Smistarmi
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+In qualche modo, in una qualche maniera che Harry non riuscì del tutto a
+ capire, ebbe l'impressione non verbale di un cappello che sbatteva la testa
+ contro il muro.
+ «
+\emph on
+Mi arrendo.
+ Sei troppo lento di comprendonio perché questo sia divertente.
+ Così accecato dai tuoi stessi presupposti che potresti anche essere una
+ roccia.
+ Suppongo che dovrò dirlo esplicitamente
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Troppo l-l-lento
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Oh, e hai del tutto dimenticato di chiedermi i segreti della magia perduta
+ che mi ha creato.
+ Ed erano anche segreti così meravigliosi e importanti»
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Che scaltro BASTARDELLO
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Te lo sei meritato, e anche questo
+\emph default
+».
+\end_layout
+
+\begin_layout Standard
+Harry lo vide arrivare proprio mentre era già troppo tardi.
+\end_layout
+
+\begin_layout Standard
+Il silenzio impaurito della sala fu rotto da una sola parola.
+\end_layout
+
+\begin_layout Standard
+«SERPEVERDE!»
+\end_layout
+
+\begin_layout Standard
+Alcuni studenti urlarono, tanto la tensione repressa era forte.
+ Alcune persone furono sorprese così tanto da cadere dalle loro panche.
+ Hagrid rimase a bocca aperta per l'orrore, McGonagall barcollò sul podio,
+ e Snape lasciò cadere i resti del suo pesante calice d'argento direttamente
+ sul proprio inguine.
+\end_layout
+
+\begin_layout Standard
+Harry sedette lì paralizzato, la sua vita in rovina, sentendosi completamente
+ folle, e desiderano miseramente di aver fatto altre scelte per qualunque
+ altro motivo eccetto quelle che aveva fatto.
+ Di aver fatto qualcosa, 
+\emph on
+qualsiasi
+\emph default
+ cosa in modo diverso prima che fosse stato troppo tardi per tornare indietro.
+\end_layout
+
+\begin_layout Standard
+Appena il primo momento di shock stava svanendo e la gente cominciava a
+ reagire alla notizia, il Cappello Smistatore parlò di nuovo:
+\end_layout
+
+\begin_layout Standard
+«Stavo scherzando! CORVONERO!»
+\end_layout
+
+\end_body
+\end_document

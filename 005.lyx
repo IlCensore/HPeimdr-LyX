@@ -1,0 +1,2000 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Linux Libertine O
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 15.24cm
+\paperheight 22.86cm
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+L'errore fondamentale di attribuzione
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=1]{I}{l Moke}
+\end_layout
+
+\end_inset
+
+ Shop era un piccolo negozio pittoresco (qualcuno potrebbe anche dire carino)
+ nascosto dietro una bancarella di ortaggi che era dietro un negozio di
+ guanti magici che era in una viuzza che deviava da una traversa di Diagon
+ Alley.
+ Purtroppo, il negoziante non era una vecchia megera avvizzita; solo una
+ donna nervosa dall'aspetto giovanile, che indossava abiti di un giallo
+ sbiadito.
+ In quel momento stava porgendo una Moke Super Pouch QX31, il cui punto
+ forte era che aveva un Bordo Allargante e un Incantesimo dell'Estensione
+ Impercettibile: ci si potevano infilare davvero cose grandi, anche se il
+ volume totale era ancora limitato.
+\end_layout
+
+\begin_layout Standard
+Harry aveva 
+\emph on
+insistito
+\emph default
+ per andare lì subito, come prima cosa -- aveva insistito il più insistentemente
+ possibile che pensava di poter fare senza rendere sospettosa la professoressa
+ McGonagall.
+ Harry aveva qualcosa che aveva bisogno di mettere nella borsa appena possibile.
+ Non si trattava del sacchetto di galeoni che la professoressa McGonagall
+ gli aveva consentito di prelevare da Gringotts.
+ Erano tutti gli altri galeoni che Harry si era furtivamente infilato in
+ tasca dopo essere caduto su uno dei mucchi di monete.
+ Si 
+\emph on
+era
+\emph default
+ trattato di un vero incidente, ma Harry non era mai stato il tipo da sprecare
+ un'occasione\SpecialChar \ldots{}
+ anche se si era trattato più che altro di un gesto impulsivo.
+ Da quel momento Harry stava portando goffamente la borsa di galeoni autorizzata
+ vicino alla tasca dei suoi pantaloni, in modo che un eventuale tintinnio
+ sembrasse provenire dal posto giusto.
+\end_layout
+
+\begin_layout Standard
+Rimaneva la questione di come sarebbe stato in grado di mettere le 
+\emph on
+altre
+\emph default
+ monete nella borsa senza essere scoperto.
+ Le monete d'oro potevano essere sue, ma erano ugualmente rubate -- auto-rubate?
+ Auto-appropriate?
+\end_layout
+
+\begin_layout Standard
+Harry alzò lo sguardo dalla Moke Super Pouch QX31 verso il bancone di fronte
+ a lui.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Posso provarla per un po'? Per assicurarmi che funzioni, uhm, in maniera
+ affidabile?
+\begin_inset Quotes frd
+\end_inset
+
+ Spalancò gli occhi in un'espressione di innocenza giocosa e infantile.
+\end_layout
+
+\begin_layout Standard
+Come previsto, dopo dieci ripetizioni della trafila di mettere il sacchetto
+ di monete nella borsa, infilarci la mano, sussurrare 
+\begin_inset Quotes fld
+\end_inset
+
+borsa d'oro
+\begin_inset Quotes frd
+\end_inset
+
+ e riprenderla, la professoressa McGonagall si era allontanata per esaminare
+ qualche altro oggetto del negozio, e la negoziante si era voltata a guardarla.
+\end_layout
+
+\begin_layout Standard
+Harry lasciò cadere il sacchetto d'oro nella borsa mokeskin con la mano
+ 
+\emph on
+sinistra
+\emph default
+; la 
+\emph on
+destra
+\emph default
+ uscì dalla tasca stringendo con forza alcune delle monete d'oro, entrò
+ nella borsa mokeskin, lasciò cadere i galeoni, e (con un 
+\begin_inset Quotes fld
+\end_inset
+
+sacchetto d'oro
+\begin_inset Quotes frd
+\end_inset
+
+ appena sussurrato) recuperò il sacchetto originale.
+ Poi il sacchetto passò nella sua mano 
+\emph on
+sinistra
+\emph default
+, per essere riposto nuovamente, e la mano 
+\emph on
+destra
+\emph default
+ di Harry tornò nella tasca\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall tornò a guardarlo una volta, ma Harry riuscì
+ ad evitare di paralizzarsi o di trasalire, e lei non sembrò accorgersi
+ di niente.
+ Sebbene non fosse 
+\emph on
+mai
+\emph default
+ possibile saperlo, con gli adulti che avevano del senso dell'umorismo.
+ Ci vollero tre iterazioni per portare a termine il lavoro, e Harry stimò
+ di essere riuscito a rubare a sé stesso circa trenta galeoni.
+\end_layout
+
+\begin_layout Standard
+Harry portò la mano alla testa, si asciugò un po' di sudore dalla fronte,
+ ed espirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Vorrei questa, prego
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Alleggerito di quindici galeoni (il doppio del prezzo di una bacchetta da
+ mago, apparentemente) e appesantito da una Moke Super Pouch QX31 in più,
+ Harry si dire con la professoressa McGonagall verso la porta.
+ Questa formò una mano che li salutò mentre se ne andavano, protendendo
+ il braccio in una maniera che fece sentire Harry un po' nauseato.
+\end_layout
+
+\begin_layout Standard
+E poi, sfortunatamente\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sei 
+\emph on
+davvero
+\emph default
+ Harry Potter?
+\begin_inset Quotes frd
+\end_inset
+
+ sussurrò l'anziano signore, un'enorme lacrima che gli scendeva sulla guancia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non mentiresti su questo, vero? È solo che ho sentito delle voci secondo
+ le quali non eri 
+\emph on
+realmente
+\emph default
+ sopravvissuto alla Maledizione Mortale ed è per questo che nessuno ha mai
+ più sentito parlare di te
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \ldots{}
+ sembrò che l'incantesimo di offuscamento della professoressa McGonagall
+ fosse meno che perfettamente efficace con i praticanti esperti di magia.
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall aveva messo una mano sulla spalla di Harry e
+ l'aveva tirato via verso il vicolo più vicino nel momento in cui aveva
+ sentito 
+\begin_inset Quotes fld
+\end_inset
+
+Harry Potter?
+\begin_inset Quotes frd
+\end_inset
+
+ L'anziano signore li aveva seguiti, ma almeno sembrava che nessun altro
+ l'avesse ascoltato.
+\end_layout
+
+\begin_layout Standard
+Harry prese in considerazione la domanda.
+ 
+\emph on
+Era davvero
+\emph default
+ Harry Potter? 
+\begin_inset Quotes fld
+\end_inset
+
+So solo ciò che le altre persone mi hanno detto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non è che mi ricordi di essere nato
+\begin_inset Quotes frd
+\end_inset
+
+.
+ La sua mano attraversò la sua fronte.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho questa cicatrice da quando sono in grado di ricordare, e mi hanno detto
+ che il mio nome è Harry Potter da quando sono in grado di ricordare.
+ Ma
+\begin_inset Quotes frd
+\end_inset
+
+, disse pensieroso, 
+\begin_inset Quotes fld
+\end_inset
+
+se ci sono già ragioni sufficienti per postulare una cospirazione, non c'è
+ alcuna ragione per la quale non avrebbero dovuto scegliere un altro orfano
+ e crescerlo facendogli credere che 
+\emph on
+lui
+\emph default
+ fosse Harry Potter
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall si passò la mano sul volto esasperata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lei assomiglia a suo padre, James, l'anno in cui frequentò per la prima
+ volta Hogwarts.
+ E posso confermare sulla base della 
+\emph on
+sola personalità
+\emph default
+ che lei è imparentato con il Flagello di Grifondoro
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Anche 
+\emph on
+lei
+\emph default
+ potrebbe essere coinvolta
+\begin_inset Quotes frd
+\end_inset
+
+, osservò Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'anziano signore tremando.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ha ragione.
+ Lei ha gli stessi occhi di sua madre
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm
+\begin_inset Quotes frd
+\end_inset
+
+, Harry si accigliò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Suppongo che anche 
+\emph on
+lei
+\emph default
+ possa essere coinvolto
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ora basta, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+L'anziano uomo alzò la mano come per toccare Harry, ma poi la fece ricadere.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono semplicemente felice che sia vivo
+\begin_inset Quotes frd
+\end_inset
+
+, mormorò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Grazie, Harry Potter.
+ Grazie per quello che ha fatto\SpecialChar \ldots{}
+ Vi lascio soli, ora
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+E il suo bastone ticchettò via, fuori dal vicolo e già per la strada principale
+ di Diagon Alley.
+\end_layout
+
+\begin_layout Standard
+La professoressa si guardò intorno, con l'espressione tesa e severa.
+ Anche Harry si guardò automaticamente intorno.
+ Ma il vicolo sembrò vuoto, se non per le foglie cadute, e dall'imbocco
+ che conduceva a Diagon Alley si potevano vedere solo passanti che camminavano
+ rapidamente.
+\end_layout
+
+\begin_layout Standard
+Finalmente la professoressa McGonagall sembrò rilassarsi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non si è comportato bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse a bassa voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lo so che non ci è abituato, signor Potter, ma le persone ci tengono realmente
+ a lei.
+ La prego di essere gentile con loro
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry si guardò le scarpe.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non dovrebbero
+\begin_inset Quotes frd
+\end_inset
+
+, disse con una punta di amarezza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tenere a me, intendo dire
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Li ha salvati da Tu-Sai-Chi
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché non dovrebbero tenere a lei?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry alzò lo sguardo verso l'espressione severa della strega sotto il suo
+ cappello a punta, e sospirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Suppongo che non ci sia alcuna possibilità che se dicessi 
+\emph on
+errore fondamentale di attribuzione
+\emph default
+ avrebbe idea di cosa intendessi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa nel suo preciso accento scozzese, 
+\begin_inset Quotes fld
+\end_inset
+
+ma la prego di spiegarsi, signor Potter, se volesse essere così cortese
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ iniziò Harry, cercando di capire come descrivere quel particolare elemento
+ di scienza babbana.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Supponga di arrivare a lavoro e vedere il suo collega che prende a calci
+ la scrivania.
+ Lei pensa, `che persona collerica che deve essere'.
+ Il suo collega sta pensando a come qualcuno lo abbia tamponato mentre veniva
+ a lavoro e poi gli abbia urlato contro.
+ 
+\emph on
+Chiunque
+\emph default
+ sarebbe arrabbiato per questo, pensa.
+ Quando osserviamo gli altri, vediamo i tratti delle loro personalità che
+ ne spiegano il comportamento, ma quando osserviamo noi stessi, vediamo
+ le circostanze che spiegano il nostro comportamento.
+ Le vicende personali hanno un significato intimo per le persone, che le
+ muove dall'interno, ma noi non vediamo le vicende personali seguire da
+ presso le persone.
+ Le vediamo solo in una certa situazione, e non vediamo come sarebbero in
+ una situazione differente.
+ Quindi, l'errore fondamentale di attribuzione consiste nello spiegare con
+ tratti duraturi e permanenti ciò che sarebbe spiegato meglio dalle circostanze
+ e dal contesto
+\begin_inset Quotes frd
+\end_inset
+
+.
+ C'erano alcuni eleganti esperimenti che l'avevano confermato, ma Harry
+ non aveva intenzione di parlarne.
+\end_layout
+
+\begin_layout Standard
+Le sopracciglia della strega arrivarono fin sotto la tesa del suo cappello.
+ «Credo di capire\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse lentamente la professoressa McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma che cosa ha a che fare con lei?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry diede un calcio al muro di mattoni del vicolo con sufficiente forza
+ da farsi male al piede.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La gente pensa che li abbia salvati da Tu-Sai-Chi perché sono una specie
+ di grande guerriero della Luce
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Colui che ha il potere di sconfiggere il Signore Oscuro\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ mormorò la strega, una strana ironia alleggerì sua voce.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, fastidio e frustrazione che lottavano in lui, 
+\begin_inset Quotes fld
+\end_inset
+
+come se avessi distrutto il Signore Oscuro perché ho una sorta di qualità
+ distruggi-il-Signore-Oscuro permanente e duratura.
+ Avevo quindici mesi all'epoca! Non 
+\emph on
+so
+\emph default
+ cosa successe, ma 
+\emph on
+suppongo
+\emph default
+ che abbia avuto qualcosa a che fare con, come dice il proverbio, le circostanze
+ ambientali contingenti.
+ E certamente nulla a che fare con la mia personalità.
+ Le persone non si preoccupano di 
+\emph on
+me
+\emph default
+, non stanno nemmeno prestando attenzione a 
+\emph on
+me
+\emph default
+, vogliono stringere la mano a una 
+\emph on
+pessima spiegazione
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Harry fece una pausa, e guardò la McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Lei
+\emph default
+ lo sa cosa successe veramente?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi 
+\emph on
+sono
+\emph default
+ fatta un'idea\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse la professoressa McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dopo averla conosciuta, voglio dire
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lei ha trionfato sul Signore Oscuro riuscendo ad essere più tremendo di
+ quanto non fosse 
+\emph on
+lui
+\emph default
+, ed è sopravvissuto alla Maledizione Mortale riuscendo ad essere più terribile
+ della Morte
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ah.
+ Ah.
+ Ah.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry diede ancora un calcio al muro.
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall rise sommessamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La porterò da Madam Malkin, ora.
+ Temo che i suoi vestiti babbani possano attirare l'attenzione
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Incapparono in altri due sostenitori, lungo la strada.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Madam Malkin's Robes
+\emph default
+ aveva un ingresso autenticamente noioso, mattoni di un rosso ordinario
+ e vetrine che esponevano semplici vesti nere.
+ Non vesti che splendessero o si trasformassero o girassero, o diffondessero
+ strani raggi che attraversassero la tua camicia e ti solleticassero.
+ Solo semplici vesti nere, questo era tutto quello che si poteva vedere
+ attraverso la vetrina.
+ La porta era tenuta aperta, come per far sapere che non c'erano segreti
+ e nulla da nascondere.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho intenzione di allontanarmi per un paio di minuti mentre le prendono le
+ misure per i suoi abiti
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Le sta bene, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì.
+ Odiava con feroce passione andare a comprare vestiti e non poteva biasimare
+ l'anziana strega perché aveva la stessa sensazione.
+\end_layout
+
+\begin_layout Standard
+La bacchetta della professoressa McGonagall uscì dalla sua manica e toccò
+ la testa di Harry con leggerezza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E poiché avrà bisogno di apparire con chiarezza ai sensi di Madam Malkin,
+ sto rimuovendo l'Offuscamento
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uh\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry.
+ Questo lo preoccupava un po', non si era ancora abituato alla faccenda
+ dell'`Harry Potter'.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sono andata a Hogwarts con Madam Malkin
+\begin_inset Quotes frd
+\end_inset
+
+, disse McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Anche allora, era una delle persone più 
+\emph on
+pacate
+\emph default
+ che conoscessi.
+ Non le si scompiglierebbe un capello se Tu-Sai-Chi in persona entrasse
+ nel suo negozio
+\begin_inset Quotes frd
+\end_inset
+
+.
+ La voce di McGonagall era rievocativa e molto condiscendente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Madam Malkin non la importunerà, e non permetterà che nessun altro la importuni
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Dove 
+\emph on
+sta
+\emph default
+ andando?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Giusto nel caso, sa, in cui qualcosa accada realmente
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+McGonagall guardò Harry con severità.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Vado 
+\emph on
+lì
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse, indicando un edificio dall'altra parte della strada che esponeva
+ l'insegna di un barilotto di legno, 
+\begin_inset Quotes fld
+\end_inset
+
+a prendermi da bere, cosa di cui ho un disperato bisogno.
+ Deve farsi prendere le misure, 
+\emph on
+e nient'altro
+\emph default
+.
+ Tornerò a controllarla 
+\emph on
+tra poco
+\emph default
+, e 
+\emph on
+pretendo
+\emph default
+ di trovare il negozio di Madam Malkin ancora in piedi e in nessun modo
+ in fiamme
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Madam Malkin era una vivace anziana signora che non proferì parola a proposito
+ di Harry quando vide la cicatrice sulla sua fronte, e lanciò un'occhiata
+ severa a un'assistente, quando la ragazza sembrò sul punto di dire qualcosa.
+ Madam Malkin recuperò una serie di pezzi di stoffa animati che si contorcevano
+ e che apparentemente le servivano per misurare, e si mise al lavoro esaminando
+ la materia prima della sua arte.
+\end_layout
+
+\begin_layout Standard
+Accanto a Harry, un ragazzo pallido con un volto affilato e 
+\emph on
+strafichissimi 
+\emph default
+capelli biondo-bianchi pareva essere nelle fasi finali di un processo simile.
+ Una delle due assistenti di Malkin stava esaminando il ragazzo dai capelli
+ bianchi e la veste a quadratini che indossava; di tanto in tanto toccava
+ un angolo della veste con la sua bacchetta, e la veste si allungava o stringeva.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ciao
+\begin_inset Quotes frd
+\end_inset
+
+, disse il ragazzo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Anche tu a Hogwarts?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry potè prevedere dove questa conversazione sarebbe andata a parare,
+ e decise in una frazione di secondo che quando era troppo era troppo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Santo cielo
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+non può essere
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Fece in modo che i suoi occhi si spalancassero.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il suo\SpecialChar \ldots{}
+ nome, signore?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Draco Malfoy
+\begin_inset Quotes frd
+\end_inset
+
+, disse Draco Malfoy, sembrando un po' incuriosito.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Allora 
+\emph on
+è proprio 
+\emph default
+lei! Draco Malfoy.
+ Non -- non avrei mai pensato di ricevere questo onore, signore
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Herry desiderò di potersi far versare le lacrime agli occhi.
+ Di solito gli altri iniziavano a piangere, a questo punto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh
+\begin_inset Quotes frd
+\end_inset
+
+, disse Draco, sembrando alquanto confuso.
+ Poi le sue labbra si distesero in un sorriso compiaciuto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È bello incontrare qualcuno che sa qual è il suo posto
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Una delle assistenti, quella che era sembrata riconoscere Harry, produsse
+ un piccolo suono soffocato.
+\end_layout
+
+\begin_layout Standard
+Harry farfugliò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono lieto di incontrarla, signor Malfoy.
+ Proprio indicibilmente felice.
+ E frequentare Hogwarts nel suo stesso anno! Manda il mio cuore in estasi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Oops.
+ Quell'ultima parte sarebbe potuta sembrare un po' strana, come se stesse
+ amoreggiando con Draco, o cose del genere.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E 
+\emph on
+io
+\emph default
+ sono lieto di apprendere che sarò trattato con il rispetto dovuto alla
+ famiglia dei Malfoy
+\begin_inset Quotes frd
+\end_inset
+
+, rimpallò l'altro ragazzo, accompagnando le parole con un sorriso simile
+ a quello il più grande dei sovrani potrebbe riversare su l'ultimo dei suoi
+ sudditi, se questo soggetto fosse onesto, sebbene povero.
+\end_layout
+
+\begin_layout Standard
+Eh\SpecialChar \ldots{}
+ Dannazione, Harry stava avendo problemi a formulare la sua prossima battuta.
+ Beh, tutti 
+\emph on
+volevano
+\emph default
+ stringere la mano di Harry Potter, quindi -- 
+\begin_inset Quotes fld
+\end_inset
+
+Quando avranno finito di prendermi le misure, signore, si degnerebbe di
+ stringermi la mano? Non potrei sperare in nulla di meglio come culmine
+ della mia giornata, no, di questo mese, anzi, di tutta la mia vita
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il ragazzo dai capelli bianco-biondi lo gelò con lo sguardo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E cosa hai fatto 
+\emph on
+tu
+\emph default
+ per i Malfoy che ti renda meritevole di un tale favore?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Oh, devo assolutamente provare questo numero sulla prossima persona che
+ vorrà stringermi la mano.
+
+\emph default
+ Harry chinò la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+No, no, signore, comprendo.
+ Sono mortificato di averglielo chiesto.
+ Dovrei essere onorato di pulire i suoi stivali, piuttosto
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Infatti
+\begin_inset Quotes frd
+\end_inset
+
+, rispose bruscamente l'altro ragazzo.
+ Il suo volto severo si ingentilì, in qualche modo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dimmi, in che Casa pensi essere mandato? Io sono destinato a Casa Serpeverde,
+ naturalmente, come mio padre Lucius prima di me.
+ E per quanto riguarda te, direi Casa Tassofrasso o Casa Elfo
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry sorrise imbarazzato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La professoressa McGonagall dice che io sono la persona più Corvonero che
+ abbia mai conosciuto o di cui abbia sentito raccontare nelle leggende,
+ tanto che Rowena in persona mi direbbe di uscire di più, qualunque cosa
+ 
+\emph on
+questo
+\emph default
+ significhi, e che senza dubbio finirò nella Casa Corvonero, se il cappello
+ non starà urlando troppo forte da impedire al resto di noi di capire tutte
+ le parole, chiuse virgolette
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uau
+\begin_inset Quotes frd
+\end_inset
+
+, disse Draco Malfoy, sembrando alquanto impressionato.
+ Il ragazzo emise un sospiro malinconico.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La tua adulazione era ottima, o così mi è sembrato, ad ogni modo -- farai
+ bene anche a Casa Serpeverde.
+ Di solito è solo mio padre che riceve questo genere di lusinghe.
+ 
+\emph on
+Spero
+\emph default
+ che gli altri Serpeverde mi lecchino i piedi ora che andrò a Hogwarts\SpecialChar \ldots{}
+ Credo
+ che questo sia un buon presagio, quindi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry tossì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+In realtà, mi dispiace, ma non ho davvero idea di chi tu sia
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Oh, ma per favore!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse il ragazzo, tremendamente deluso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché l'hai fatto, allora?
+\begin_inset Quotes frd
+\end_inset
+
+ Gli occhi di Draco si spalancarono per l'improvviso sospetto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E come fai a non conoscere i Malfoy? E cosa sono quei 
+\emph on
+vestiti
+\emph default
+ che indossi? I tuoi genitori sono forse 
+\emph on
+Babbani?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Due dei miei genitori sono morti
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Provò uno spasimo al cuore.
+ Quando la metteva in questo modo -- 
+\begin_inset Quotes fld
+\end_inset
+
+Gli altri due genitori sono Babbani, e sono loro che mi hanno cresciuto
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Cosa?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Draco.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Chi 
+\emph on
+sei
+\emph default
+ tu?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Harry Potter, piacere di conoscerti.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Harry Potter?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ rantolò Draco.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Quell'
+\emph default
+Harry
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ e il ragazzo si interruppe bruscamente.
+\end_layout
+
+\begin_layout Standard
+Ci fu un breve silenzio.
+\end_layout
+
+\begin_layout Standard
+Poi, con un entusiasmo scoppiettante, 
+\begin_inset Quotes fld
+\end_inset
+
+Harry Potter? 
+\emph on
+Quell'
+\emph default
+Harry Potter? Accidenti, ho sempre desiderato incontrarla!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'assistente di Draco emise un suono strozzato, ma continuò col suo lavoro,
+ sollevando le braccia di Draco per rimuovere con attenzione la veste a
+ scacchi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sta' zitto
+\begin_inset Quotes frd
+\end_inset
+
+, suggerì Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Posso avere il suo autografo? No, un momento, voglio fare una foto con lei,
+ prima!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Stai
+\emph on
+zitto
+\emph default
+stai
+\emph on
+zitto
+\emph default
+stai
+\emph on
+zitto
+\emph default
+.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sono così 
+\emph on
+felice
+\emph default
+ di averla incontrata!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Prendi fuoco e muori.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ma lei è Harry Potter, il glorioso salvatore del mondo magico! L'eroe di
+ tutti, Harry Potter! Ho sempre voluto essere come lei da grande, così da
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Draco interruppe la frase a metà, il suo volto congelato da un orrore assoluto.
+\end_layout
+
+\begin_layout Standard
+Alto, capelli bianchi, freddamente elegante in abiti neri di altissima qualità.
+ Una mano che stringeva un bastone dal manico d'argento, il quale assumeva
+ il carattere di un'arma mortale solo per il fatto di essere in quella mano.
+ I suoi occhi considerarono la stanza con l'aria spassionata di un boia,
+ un uomo per il quale uccidere non era penoso, o addirittura deliziosamente
+ proibito, ma solo un'attività consuetudinaria come respirare.
+\end_layout
+
+\begin_layout Standard
+Quello era l'uomo che stava, proprio in quel momento, entrando disinvoltamente
+ dalla porta aperta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Draco
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'uomo, in tono grave e molto arrabbiato, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+che cosa
+\emph default
+ stai 
+\emph on
+dicendo?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In una frazione di secondo di panico simpatico, Harry formulò un piano di
+ salvataggio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lucius Malfoy!
+\begin_inset Quotes frd
+\end_inset
+
+ boccheggiò Harry Potter.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Quel
+\emph default
+ Lucius Malfoy?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una delle assistenti di Malkin dovette girarsi con la faccia al muro.
+\end_layout
+
+\begin_layout Standard
+Occhi gelidamente sanguinari lo soppesarono.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Harry Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io sono così, così onorato di conoscerla!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gli occhi scuri si spalancarono, lo shock per la sorpresa che sostituì la
+ minaccia letale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Suo figlio mi ha raccontato 
+\emph on
+tutto
+\emph default
+ di lei
+\begin_inset Quotes frd
+\end_inset
+
+, disse enfaticamente Harry, quasi senza sapere quello che stava uscendo
+ dalla sua bocca, semplicemente parlando il più velocemente possibile.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma naturalmente sapevo già tutto di lei, tutti la conoscono, il grande Lucius
+ Malfoy! La personalità più insigne di tutta la Casa di Serpeverde, ho pensato
+ di cercare di entrare a Casa Serpeverde io stesso, solo perché ho ​​sentito
+ che c'è andato da bambino
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Cosa sta dicendo, signor Potter?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ giunse da fuori il negozio, quasi un urlo, e la professoressa McGonagall
+ si precipitò dentro un secondo dopo.
+\end_layout
+
+\begin_layout Standard
+C'era un orrore talmente puro sul suo viso, che la bocca di Harry si aprì
+ automaticamente, e poi si bloccò senza sapere cosa dire.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Professoressa McGonagall!
+\begin_inset Quotes frd
+\end_inset
+
+ gridò Draco.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È davvero lei? Ho sentito parlare così tanto di lei da mio padre, stavo
+ pensando di provare ad essere Smistato in Grifondoro in modo da poter
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Cosa?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ urlarono Lucius Malfoy e la professoressa McGonagall in perfetto unisono,
+ l'uno di fianco all'altra.
+ Le loro teste girarono su sé stesse per guardarsi vicendevolmente con movimenti
+ simmetrici, e poi entrambi balzarono all'indietro allontandandosi l'uno
+ dall'altra, come se stessero eseguendo una danza sincronizzata.
+\end_layout
+
+\begin_layout Standard
+Ci fu un improvviso turbinio di azione mentre Lucius afferrò Draco e lo
+ trascinò fuori dal negozio.
+\end_layout
+
+\begin_layout Standard
+E poi ci fu silenzio.
+\end_layout
+
+\begin_layout Standard
+Nella mano sinistra della professoressa McGonagall c'era un piccolo bicchiere,
+ scordato nella fretta inclinato su di un lato, che ora sgocciolava lentamente
+ dell'alcol nella piccola pozza di vino rosso che aveva fatto la sua comparsa
+ sul pavimento.
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall avanzò a grandi passi fino a trovarsi di fronte
+ Madam Malkin.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Madam Malkin
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa McGonagall con una voce calma.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa è accaduto qui?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Madam Malkin la osservò silenziosamente per quattro secondi e poi esplose
+ a ridere.
+ Si appoggiò pesantemente contro il muro, ansimando per le risate, e questo
+ fece scatenare entrambe le sue assistenti, una delle quali cadde a carponi
+ sul pavimento, ridendo istericamente.
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall si girò lentamente per guardare Harry, la sua
+ espressione gelida.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La lascio solo per sei minuti.
+ Sei minuti d'orologio, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Stavo solo scherzando
+\begin_inset Quotes frd
+\end_inset
+
+, protestò Harry, mentre i suoni delle risate isteriche proseguirono lì
+ vicino.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Draco Malfoy ha detto in fronte a suo padre che voleva essere mandato a
+ Grifondoro!
+\emph default
+ Scherzare non è lontanamente sufficiente per spiegare questo!
+\begin_inset Quotes frd
+\end_inset
+
+ La professoressa McGonagall fece una pausa, respirando visibilmente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quale parte di `si faccia prendere le misure' le è sembrato significasse
+ 
+\emph on
+la prego di lanciare un Incantesimo di Confusione sull'intero universo!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Draco era in un contesto ambientale in cui quelle azioni avevano un senso
+ interno
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No.
+ Non si spieghi.
+ Non voglio sapere cos'è successo qui, mai.
+ Qualunque potere oscuro abiti in lei, è 
+\emph on
+contagioso
+\emph default
+, e non voglio finire come il povero Draco, la povera Madam Malkin e le
+ sue due povere assistenti.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry sospirò.
+ Era chiaro che la professoressa McGonagall non era dell'umore adatto per
+ ascoltare spiegazioni ragionevoli.
+ Guardò Madam Malkin, che stava ancora ansimando contro il muro, e le due
+ assistendi di Malkin, che erano ora 
+\emph on
+entrambe
+\emph default
+ cadute in ginocchio, e infine al proprio corpo ricoperto di nastri da misura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non ho ancora finito con le misure
+\begin_inset Quotes frd
+\end_inset
+
+, disse gentilmente Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché non torna a prendersi qualcos'altro da bere?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

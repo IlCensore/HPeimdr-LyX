@@ -1,0 +1,1115 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Arno Pro
+\font_sans Myriad Pro
+\font_typewriter Inconsolata
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 15cm
+\paperheight 23cm
+\leftmargin 2.53cm
+\topmargin 3cm
+\rightmargin 2.23cm
+\bottommargin 2.2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Tutto quello in cui credo è falso
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=1,ante=
+\backslash
+guillemotleft]{O}{ra, giusto}
+\end_layout
+
+\end_inset
+
+ per essere chiari
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+se la professoressa ti facesse levitare, papà, quando sai che non sei stato
+ attaccato ad alcun filo, allora quella sarebbe una prova sufficiente.
+ Non dovrai prendere e dire che si tratta del trucco di un prestigiatore.
+ Non sarebbe onesto.
+ Se la pensi in questo modo, devi dirlo 
+\emph on
+ora
+\emph default
+, e possiamo pensare ad un altro esperimento, invece
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il padre di Harry, il professor Michael Verres-Evans, alzò gli occhi al
+ cielo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sì, Harry
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E tu, mamma, la tua teoria dice che la professoressa dovrebbe essere in
+ grado di farlo, quindi se non succede, ammetterai che ti sbagli.
+ Niente `la magia non funziona quando le persone non ci credono', o cose
+ del genere
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La Vice Preside Minerva McGonagall stava guardando Harry con un'espressione
+ incredula.
+ Aveva un aspetto sufficientemente da strega, con le sue vesti nere e il
+ cappello a punta, ma quando parlava sembrava formale e scozzese, cose che
+ non andavano affatto d'accordo con il suo aspetto.
+ A prima vista sembrava che dovesse ridere sonoramente e mettere bambini
+ nei paioli, ma l'effetto era rovinato non appena apriva bocca.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È sufficiente, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Posso procedere con la dimostrazione?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sufficiente?
+\emph default
+ Probabilmente no
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma almeno sarà 
+\emph on
+d'aiuto
+\emph default
+.
+ La prego di procedere, Vice Preside
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Professoressa è sufficiente
+\begin_inset Quotes frd
+\end_inset
+
+, disse lei, e poi, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Wingardium Leviosa
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry osservò suo padre.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uh
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+\end_layout
+
+\begin_layout Standard
+Suo padre lo guardò di rimando.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Uh
+\begin_inset Quotes frd
+\end_inset
+
+, gli fece eco.
+\end_layout
+
+\begin_layout Standard
+Poi il professor Verres-Evans guardò la professoressa McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Va bene, può rimettermi giù, ora
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Suo padre fu riportato attentamente a terra.
+\end_layout
+
+\begin_layout Standard
+Harry si passò una mano tra i capelli.
+ Forse era solo per quella strana parte di lui che era 
+\emph on
+già
+\emph default
+ stata convinta, ma\SpecialChar \ldots{}
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È un po' una delusione
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Si potrebbe pensare che ci debba essere qualche tipo di evento mentale drammatic
+o associato con l'aggiornamento delle credenze basato su un'osservazione
+ di probabilità infinitesimale
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Harry si fermò.
+ Mamma, la strega, e anche suo padre gli stavano rivolgendo ancora una volta
+ 
+\emph on
+quello 
+\emph default
+sguardo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voglio dire, con lo scoprire che tutto quello in cui credo è falso
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Sul serio, sarebbe dovuto essere più drammatico.
+ Il suo cervello avrebbe dovuto scaricare per intero l'attuale collezione
+ di ipotesi sull'universo, nessuna delle quali permetteva che un evento
+ come questo accadesse.
+ Ma invece il suo cervello sembrava aver detto, 
+\emph on
+Va bene, ho visto la professoressa di Hogwarts agitare la bacchetta e far
+ alzare in volo tuo padre, e ora?
+\end_layout
+
+\begin_layout Standard
+La strega stava sorridendo benevolente su di loro, sembrando piuttosto divertita.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Desidera un'altra dimostrazione, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non è tenuta a farlo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ha eseguito l'esperimento decisivo.
+ Ma\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ esitò.
+ Non poteva trattenersi.
+ In effetti, nelle circostanze presenti non 
+\emph on
+doveva
+\emph default
+ trattenersi.
+ Era giusto e corretto essere curiosi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cos'altro è in grado di fare?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall si trasformò in un gatto.
+\end_layout
+
+\begin_layout Standard
+Harry balzò all'indietro senza pensarci, e arretrò così velocemente che
+ inciampò su una pila di libri e atterrò duramente sul proprio fondo-schiena
+ con un tonfo.
+ Le sue mani erano scese ad attutire il colpo senza riuscirci completamente,
+ e sentì una fitta d'avvertimento alla spalla quando il peso venne giù bruscamen
+te.
+\end_layout
+
+\begin_layout Standard
+Immediatamente il piccolo gatto tigrato si trasformò di nuovo in una donna.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse la strega, sembrando sincera, sebbene gli angoli delle sue labbra
+ fossero rivolti verso l'alto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Avrei dovuto avvisarla
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry aveva il fiato corto.
+ La sua voce venne fuori strozzata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non può 
+\noun on
+fare
+\noun default
+ questo!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+È solo una Trasfigurazione
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Una trasformazione Animagus, per essere precisi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Si è trasformata in un gatto! In un 
+\emph on
+\noun on
+piccolo
+\emph default
+\noun default
+ gatto! Ha violato la Conservazione dell'Energia! Non è solo una regola
+ arbitraria, è implicita nella forma dell'hamiltoniana quantistica! Rigettandola
+ distrugge l'unitarietà e poi ottiene una comunicazione superluminale! E
+ i gatti sono 
+\emph on
+\noun on
+complicati
+\noun default
+!
+\emph default
+ Una mente umana non può neppure visualizzare l'anatomia di un intero gatto
+ e, e tutta la biochimica del gatto, e che dire della sua 
+\emph on
+neurologia?
+\emph default
+ Come può continuare a 
+\emph on
+pensare
+\emph default
+ con il cervello delle dimensioni di quello di un gatto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le labbra della professoressa McGonagall si contrassero ancor di più.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Magia
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+La magia 
+\emph on
+non è sufficiente
+\emph default
+ a fare questo! Dovrebbe essere un dio!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall sbatté le palpebre.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È la prima volta che mi chiamano così
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La visione di Harry si stava offuscando, mentre il suo cervello iniziava
+ a comprendere cosa era stato appena distrutto.
+ L'intera idea di un universo unificato con leggi matematicamente regolari,
+ questo era ciò che era finito giù per il gabinetto; l'intera nozione di
+ 
+\emph on
+fisica
+\emph default
+.
+ Tremila anni a risolvere i problemi grossi e complicati dividendoli in
+ pezzi più piccoli, a scoprire che la musica dei pianeti era la stessa melodia
+ della mela che cade, a trovare che le vere leggi erano perfettamente universali
+ e non avevano eccezioni in alcun posto e che prendevano la forma di una
+ matematica semplice che governava le parti più piccole, 
+\emph on
+senza contare
+\emph default
+ che la mente era il cervello e il cervello era fatto di neuroni, un cervello
+ era ciò che una persona 
+\emph on
+era
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+E poi una donna si mutava in un gatto, e tutto finiva lì.
+\end_layout
+
+\begin_layout Standard
+Un centinaio di domande combatterono per la precedenza sulle labbra di Harry,
+ e quella vincitrice fuoriuscì: 
+\begin_inset Quotes fld
+\end_inset
+
+E, e che genere di incantesimo è 
+\emph on
+Wingardium Leviosa?
+\emph default
+ Chi inventa le parole di questi incantesimi, bambini della scuola dell'infanzia
+?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Basta così, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa McGonagall seccamente, anche se i suoi occhi brillavano
+ per il divertimento represso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se vuole vuole imparare qualcosa sulla magia, le suggerisco di completare
+ i moduli in modo che possa andare a Hogwarts
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Giusto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry un po' stordito.
+ Riordinò i pensieri.
+ La Marcia della Ragione avrebbe solo dovuto ricominciare da capo, tutto
+ lì; avevano ancora il metodo sperimentale e questa era la cosa importante.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Come faccio ad andare a Hogwarts, allora?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una risata strozzata sfuggì alla professoressa McGonagall, come se le fosse
+ stata estratta con una pinzetta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Aspetta un attimo, Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse il padre.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ricordi perché non sei andato a scuola finora? Che facciamo per la tua condizion
+e?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall si voltò a guardare Michael.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La sua condizione? Di che si tratta?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non dormo correttamente
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Agitò la mano in segno di impotenza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il mio ciclo del sonno dura ventisei ore, vado sempre a dormire due ore
+ dopo, ogni giorno.
+ Non riesco a prendere sonno prima, e il giorno successivo vado a dormire
+ altre due ore 
+\emph on
+dopo
+\emph default
+.
+ Alle 10, alle 12, alle 14, alle 16, finché non fa un giro completo.
+ Anche se tento di svegliarmi prima, non fa nessuna differenza e mi sento
+ uno straccio tutto il giorno.
+ Ecco perché non sono andato alle scuole normali fino a oggi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Una delle ragioni
+\begin_inset Quotes frd
+\end_inset
+
+, disse la madre.
+ Harry le lanciò un'occhiataccia.
+\end_layout
+
+\begin_layout Standard
+McGonagall fece un lungo 
+\emph on
+hmmmmm
+\emph default
+.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non riesco a ricordare di aver mai sentito parlare di una tale condizione,
+ prima\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse lentamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Controllerò con Madama Pomfrey per vedere se conosce qualche rimedio
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Poi il suo viso si illuminò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+No, sono certa che questo non sarà un problema -- troverò una soluzione
+ in tempo.
+ Ora
+\begin_inset Quotes frd
+\end_inset
+
+, e il suo sguardo si fece nuovamente acuto, 
+\begin_inset Quotes fld
+\end_inset
+
+quali sono questi 
+\emph on
+altri
+\emph default
+ motivi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry indirizzò un'occhiata ai propri genitori.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono un obiettore di coscienza contro la coscrizione dei bambini, perché
+ non ritengo di dover soffrire a causa dell'incapacità di un sistema scolastico
+ in disintegrazione di fornire insegnanti o materiali di studio di qualità
+ anche minimamente adeguata
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Entrambi i genitori di Harry scoppiarono in una risata nel sentirlo, come
+ se pensassero che fosse tutto un grosso scherzo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Oh
+\begin_inset Quotes frd
+\end_inset
+
+, disse il padre di Harry, gli occhi allegri, 
+\begin_inset Quotes fld
+\end_inset
+
+è per 
+\emph on
+questo
+\emph default
+ che hai morso una professoressa di matematica al terzo anno
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non sapeva cosa fosse un logaritmo!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Certo
+\begin_inset Quotes frd
+\end_inset
+
+, concordò la madre di Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Morderla è stata una reazione molto matura
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il padre di Harry annuì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Una politica ben ponderata per affrontare il problema degli insegnanti che
+ non conoscono i logaritmi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Avevo 
+\emph on
+sette anni!
+\emph default
+ Per quanto tempo ancora avete intenzione di continuare a ritirare fuori
+ quella faccenda?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lo so
+\begin_inset Quotes frd
+\end_inset
+
+, disse la madre con comprensione, 
+\begin_inset Quotes fld
+\end_inset
+
+mordi 
+\emph on
+una
+\emph default
+ insegnante di matematica e non se ne dimenticano più, vero?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry si voltò verso la professoressa McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ecco! Vede quello con cui ho a che fare?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Scusatemi
+\begin_inset Quotes frd
+\end_inset
+
+, disse Petunia, e fuggì attraverso la porta sul retro nel giardino, da
+ dove le sue risate erano chiaramente udibili.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non, ah, non
+\begin_inset Quotes frd
+\end_inset
+
+, la professoressa McGonagall sembrò avere problemi a parlare, per qualche
+ ragione, 
+\begin_inset Quotes fld
+\end_inset
+
+non ci dovranno essere morsi contro gli insegnanti a Hogwarts, è abbastanza
+ chiaro, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry la guardò con cipiglio.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Va bene, non morderò nessuno che non morda me per primo
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Anche il professor Michael Verres-Evans dovette lasciare la stanza per un
+ po', dopo aver sentito quelle parole.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa McGonagall sospirando, dopo che i genitori di Harry
+ si erano ricomposti ed erano tornati.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Bene.
+ Credo che, date le circostanze, dovrei evitare di portarla a comprare il
+ suo corredo scolastico fino a uno o due giorni prima dell'inizio della
+ scuola
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cosa? Perché? Gli altri bambini conoscono già la magia, non è vero? Devo
+ iniziare a recuperare subito!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Stia certo, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, replicò la professoressa McGonagall, 
+\begin_inset Quotes fld
+\end_inset
+
+che Hogwarts è sufficientemente in grado di insegnare le basi.
+ E io sospetto, signor Potter, che se la lasciassi da solo per due mesi
+ con i suoi libri di scuola, anche se senza una bacchetta, ritornerei in
+ questa casa solo per trovare un cratere rigonfio di fumo rosa, una città
+ depopolata attorno ad esso, e un'epidemia di zebre fiammeggianti che terrorizza
+ ciò che resta dell'Inghilterra
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La madre e il padre di Harry annuirono in perfetto unisono.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Mamma! Papà!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

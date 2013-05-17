@@ -1,0 +1,1460 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Arno Pro
+\font_sans Myriad Pro
+\font_typewriter Inconsolata
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 15cm
+\paperheight 23cm
+\leftmargin 2.53cm
+\topmargin 3cm
+\rightmargin 2.23cm
+\bottommargin 2.2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Una giornata molto poco probabile
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\size footnotesize
+\emph on
+Al chiaro di luna splende un minuscolo frammento di argento, un pezzo di
+ linea\SpecialChar \ldots{}
+
+\begin_inset Newline newline
+\end_inset
+
+(abiti neri, che cadono)
+\begin_inset Newline newline
+\end_inset
+
+\SpecialChar \ldots{}
+sangue fuoriesce a litri, e qualcuno urla una parola.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=1]{O}{gni centimetro}
+\end_layout
+
+\end_inset
+
+ delle pareti è coperto da una libreria.
+ Ogni libreria ha sei scaffali, che arrivano quasi fino al soffitto.
+ Alcuni scaffali sono pieni fino all'orlo di libri dalla copertina rigida:
+ scienza, matematica, storia, e tutto il resto.
+ Altri scaffali hanno due file di fantascienza brossurata, con la fila posterior
+e di libri rialzata su vecchie scatole di fazzoletti o listelli di legno,
+ così che sia possibile vedere la fila posteriore sopra i libri davanti
+ a essa.
+ E non è ancora abbastanza.
+ Libri traboccano sui tavoli e sulle poltrone e formano dei mucchietti sotto
+ alle finestre.
+\end_layout
+
+\begin_layout Standard
+\align block
+Questo è il salotto della casa occupata dall'eminente professor Michael
+ Verres-Evans e da sua moglie, la signora Petunia Evans-Verres, e dal loro
+ figlio adottivo, Harry James Potter-Evans-Verres.
+\end_layout
+
+\begin_layout Standard
+\align block
+C'è una lettera che giace sul tavolo del soggiorno, e una busta senza francoboll
+o di pergamena giallastra, indirizzata al 
+\emph on
+signor H.
+ Potter
+\emph default
+ in inchiostro verde smeraldo.
+\end_layout
+
+\begin_layout Standard
+\align block
+Il professore e sua moglie parlano l'uno con l'altra molto bruscamente,
+ ma non stanno urlando.
+ Il professore ritiene che urlare sia incivile.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Stai scherzando
+\begin_inset Quotes frd
+\end_inset
+
+, disse Michael a Petunia.
+ Il suo tono indicava che aveva una gran paura che lei parlasse seriamente.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Mia sorella era una strega
+\begin_inset Quotes frd
+\end_inset
+
+, ripeté Petunia.
+ Sembrava spaventata, ma mantenne la posizione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Suo marito era un mago
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Questo è assurdo!
+\begin_inset Quotes frd
+\end_inset
+
+ affermò Michael con decisione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Erano al nostro matrimonio -- ci hanno fatto visita a Natale
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Avevo detto loro che tu dovevi essere tenuto all'oscuro
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Petunia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma è vero, ho visto cose
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Il professore alzò gli occhi al cielo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cara, capisco come tu non abbia familiarità con la letteratura scettica.
+ Potresti non comprendere come sia facile per un prestigiatore esperto fingere
+ l'apparentemente impossibile.
+ Ricordi come insegnai a Harry a piegare i cucchiai? Se ti sembrava che
+ potessero sempre indovinare ciò che stavi pensando, sappi che si chiama
+ `lettura a freddo'
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Non si trattava di cucchiai piegati
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Cos'era, allora?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Petunia si morse il labbro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non posso semplicemente dirtelo.
+ Penseresti che sono
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Deglutì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ascolta, Michael.
+ Non sono -- sempre stata così
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Fece un gesto verso sé stessa, come ad indicare la sua figura flessuosa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lily ha fatto questo.
+ Perché -- perché l'ho 
+\emph on
+implorata
+\emph default
+.
+ Per anni, l'ho implorata.
+ Lily era 
+\emph on
+sempre
+\emph default
+ stata più carina di me, e io\SpecialChar \ldots{}
+ ero stata cattiva con lei, a causa di questo,
+ e quando ebbe anche la 
+\emph on
+magia
+\emph default
+, puoi immaginare come mi sono sentita? E l'ho 
+\emph on
+implorata
+\emph default
+ di usare un po' di quella magia su di me in modo che potessi essere carina
+ anch'io, anche se non avrei potuto avere la sua magia, almeno sarei potuta
+ essere carina
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+Delle lacrime stavano salendo agli occhi di Petunia.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+E Lily mi rispondeva di no, e si inventava le scuse più ridicole, come che
+ il mondo sarebbe finito se fosse stata gentile con sua sorella, o che un
+ centauro le aveva detto di non farlo -- le scuse più ridicole, e la odiavo
+ per questo.
+ E quando mi ero appena laureata, uscivo con questo ragazzo, Vernon Dursley,
+ era grasso ed era l'unico ragazzo che mi rivolgesse la parola.
+ E disse che voleva dei bambini, e che il suo primo figlio si sarebbe chiamato
+ Dudley.
+ E dissi a me stessa, 
+\emph on
+che razza di genitore chiamerebbe suo figlio Dudley Dursley?
+\emph default
+ Fu come se vedessi il mio intero futuro dipanarsi di fronte ai miei occhi,
+ e non potei sopportarlo.
+ E scrissi a mia sorella e le dissi che se non mi avesse aiutata avrei preferito
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Petunia si fermò.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Ad ogni modo
+\begin_inset Quotes frd
+\end_inset
+
+, riprese Petunia con una voce piccola, 
+\begin_inset Quotes fld
+\end_inset
+
+cedette.
+ Mi disse che sarebbe stato pericoloso, e risposi che non mi importava più,
+ e bevvi quella pozione e caddi ammalata per settimane, ma quando tornai
+ in salute la mia pelle si era schiarita e finalmente riempita e\SpecialChar \ldots{}
+ ero bellissima,
+ le persone erano 
+\emph on
+gentili
+\emph default
+ con me
+\begin_inset Quotes frd
+\end_inset
+
+, la sua voce si ruppe, 
+\begin_inset Quotes fld
+\end_inset
+
+e dopo di ciò non potei più odiare mia sorella, specie quando scoprii a
+ cosa l'aveva portata infine la sua magia
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Cara
+\begin_inset Quotes frd
+\end_inset
+
+, disse Michael con gentilezza, 
+\begin_inset Quotes fld
+\end_inset
+
+ti sei ammalata, hai preso peso mentre riposavi a letto, e la tua pelle
+ si è schiarita naturalmente.
+ O ammalarti ti ha costretta a cambiare dieta
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Era una strega
+\begin_inset Quotes frd
+\end_inset
+
+, ripeté Petunia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+L'ho visto
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Petunia
+\begin_inset Quotes frd
+\end_inset
+
+, disse Michael.
+ Il fastidio si stava insinuando nella sua voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tu 
+\emph on
+sai
+\emph default
+ che questo non può essere vero.
+ Devo realmente spiegarti perché?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Petunia si contorse le mani.
+ Sembrava essere sul punto di piangere.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Amore mio, so che non posso vincere le discussioni con te, ma ti prego,
+ devi fidarti di me su questo
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Papà! Mamma!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+I due si fermarono e guardarono verso Harry come se si fossero dimenticati
+ che c'era una terza persona nella stanza.
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry fece un respiro profondo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mamma, i 
+\emph on
+tuoi
+\emph default
+ genitori non usavano la magia, vero?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse Petunia, l'espressione perplessa.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Allora nessuno nella tua famiglia era a conoscenza della magia quando Lily
+ ricevette la sua lettera.
+ Come si convinsero, 
+\emph on
+loro?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Ah\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Petunia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non ci mandarono semplicemente una lettera.
+ Inviarono un professore da Hogwarts.
+ Egli
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Gli occhi di Petunia guizzarono in direzione di Michael.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Egli ci mostrò alcune magie
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Allora non è necessario che litighiate su questa faccenda
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry con sicurezza.
+ Sperando che questa volta, almeno questa volta, lo ascoltassero.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se è vero, potremmo far venire qui un professore di Hogwarts e osservare
+ le magie noi stessi, e papà dovrà ammettere che è vera.
+ E se non fosse così, mamma dovrà ammettere che è falsa.
+ È per questo che esiste il metodo sperimentale, per non dover prendere
+ decisioni solo con le discussioni
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+Il professore si voltò e guardò in basso verso di lui, sdegnoso come al
+ solito.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Oh, andiamo, Harry.
+ Davvero, la 
+\emph on
+magia?
+\emph default
+ Pensavo che almeno 
+\emph on
+tu
+\emph default
+ fossi abbastanza saggio da non prendere questa cosa sul serio, figliolo,
+ anche se hai solo dieci anni.
+ La magia è praticamente la cosa meno scientifica che ci sia!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+La bocca di Harry si contorse per l'amarezza.
+ Era trattato bene, probabilmente meglio di quanto la maggior parte dei
+ padri genetici trattavano i propri figli.
+ Harry era stato mandato nelle migliori scuole primarie -- e quando questo
+ non ebbe successo, aveva ricevuto precettori provenienti dall'inesauribile
+ riserva degli studenti affamati.
+ Harry era stato sempre incoraggiato a studiare qualunque cosa attirasse
+ la sua attenzione, ricevuto tutti i libri che avessero catturato la sua
+ fantasia, sostenuto in qualunque competizione di matematica o di scienza
+ alla quale si fosse iscritto.
+ Gli era stata data qualsiasi cosa ragionevole desiderasse, tranne, forse,
+ un minimo di rispetto.
+ Non si poteva pretendere che un Dottore di ricerca che insegnava biochimica
+ a Oxford potesse ascoltare i consigli di un ragazzino.
+ Avrebbe ascoltato in modo da Mostrare Interesse, ovviamente; questo è quello
+ che un Buon Genitore dovrebbe fare, e in questo modo, se si immaginava
+ sé stessi come un Buon Genitore, si sarebbe agito.
+ Ma prendere un bambino di dieci anni 
+\emph on
+sul serio?
+\emph default
+ Impossibile.
+\end_layout
+
+\begin_layout Standard
+\align block
+A volte Harry avrebbe voluto urlare contro suo padre.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Mamma
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se vuoi vincere questa discussione con papà, guarda nel secondo capitolo
+ del primo libro de 
+\emph on
+La fisica di Feynman
+\emph default
+.
+ C'è una citazione, lì, a proposito di come i filosofi dicano molto su ciò
+ di cui la scienza avrebbe assolutamente bisogno, ed è tutto sbagliato,
+ perché l'unica regola nella scienza è che l'osservazione è l'arbitro finale
+ -- che devi solo guardare il mondo e riferire ciò che vedi.
+ Uhm\SpecialChar \ldots{}
+ a memoria non riesco a ricordare dove trovare qualcosa che dica che
+ l'ideale della scienza sia di risolvere le cose con gli esperimenti anziché
+ con le discussioni
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Sua madre guardò giù verso di lui e sorrise.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Grazie, Harry.
+ Ma
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ la sua testa si rialzò per fissare suo marito.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non voglio vincere una discussione con tuo padre.
+ Voglio che mio marito ascolti sua moglie che lo ama, e che abbia fiducia
+ in lei almeno per questa volta
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry chiuse brevemente gli occhi.
+ 
+\emph on
+Senza speranza.
+
+\emph default
+ Entrambi i suoi genitori erano semplicemente senza speranza.
+\end_layout
+
+\begin_layout Standard
+\align block
+Ora i suoi genitori si stavano infilando di nuovo in una di 
+\emph on
+quelle
+\emph default
+ discussioni, in cui sua madre cercava di far sentire suo padre in colpa,
+ e suo padre cercava di far sentire sua madre stupida.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Andrò nella mia stanza
+\begin_inset Quotes frd
+\end_inset
+
+, annunciò Harry.
+ La sua voce tremava un po'.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Per favore, cercate di non litigare troppo su questa faccenda, mamma, papà,
+ sapremo presto di che si tratta, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Certo, Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse il padre, e sua madre gli diede un bacio rassicurante, e poi continuaron
+o a litigare mentre Harry saliva le scale verso la sua stanza.
+\end_layout
+
+\begin_layout Standard
+\align block
+Si chiuse la porta alle spalle e cercò di pensare.
+\end_layout
+
+\begin_layout Standard
+\align block
+La cosa divertente era che 
+\emph on
+sarebbe dovuto
+\emph default
+ essere d'accordo con papà.
+ Nessuno aveva mai visto alcuna prova della magia, e, secondo la mamma,
+ c'era un intero mondo magico là fuori.
+ Come si poteva tenere segreta una cosa del genere? Con altra magia? Sembrava
+ una scusa piuttosto sospetta.
+\end_layout
+
+\begin_layout Standard
+\align block
+Sarebbe dovuto essere evidente che la mamma stesse scherzando, mentendo
+ o fosse diventata pazza, in ordine crescente di orrore.
+ Se mamma stessa avesse scritto la lettera, questo avrebbe spiegato come
+ fosse arrivata nella cassetta delle lettere senza francobollo.
+ Un po' di follia era molto, molto meno improbabile dell'eventualità che
+ l'universo funzionasse davvero in quel modo.
+\end_layout
+
+\begin_layout Standard
+\align block
+Solo che una parte di Harry era completamente convinta che la magia fosse
+ reale, e lo era stata sin dall'istante in cui aveva visto la presunta lettera
+ della Scuola di Magia e Stregoneria di Hogwarts.
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry si grattò la fronte, facendo una smorfia.
+ 
+\emph on
+Non credere a tutto quello che pensi
+\emph default
+, aveva detto uno dei suoi libri.
+\end_layout
+
+\begin_layout Standard
+\align block
+Ma questa bizzarra certezza\SpecialChar \ldots{}
+ Harry stava scoprendo di aspettarsi proprio
+ che, insomma, un professore di Hogwarts si presentasse e agitasse una bacchetta
+ e una magia ne uscisse fuori.
+ La strana certezza non stava facendo alcuno sforzo per premunirsi contro
+ la propria falsificazione -- non stava inventando delle scuse anticipate
+ per spiegare il motivo per cui non ci sarebbe stato alcun professore, o
+ per cui il professore sarebbe stato in grado solo di piegare i cucchiai.
+\end_layout
+
+\begin_layout Standard
+\align block
+
+\emph on
+Da dove vieni, piccola strana previsione?
+\emph default
+ Harry indirizzò il pensiero al proprio cervello.
+ 
+\emph on
+Perché credo a quello in cui credo?
+\end_layout
+
+\begin_layout Standard
+\align block
+Di solito Harry era abbastanza bravo a rispondere a questa domanda, ma in
+ questo caso particolare, non aveva alcuna 
+\emph on
+idea
+\emph default
+ di che cosa il suo cervello stesse pensando.
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry scrollò le spalle mentalmente.
+ Una piastra di metallo piatto su una porta permetteva di spingerla, e una
+ maniglia su una porta permetteva di tirarla, e la cosa da fare con un'ipotesi
+ verificabile era di metterla alla prova.
+\end_layout
+
+\begin_layout Standard
+\align block
+Prese un foglio di carta a righe dalla sua scrivania e cominciò a scrivere.
+\end_layout
+
+\begin_layout Standard
+\align block
+
+\emph on
+Gentile Vice Preside
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry fece una pausa, riflettendo; poi sostituì il foglio con un altro,
+ appuntendo di un altro millimetro la mina in grafite della sua portamina.
+ Tutto ciò richiedeva una calligrafia accurata.
+\end_layout
+
+\begin_layout Quote
+\align block
+
+\emph on
+Gentile Vice Preside Minerva McGonagall,
+\begin_inset Newline newline
+\end_inset
+
+O chiunque sia competente:
+\end_layout
+
+\begin_layout Quote
+\align block
+
+\emph on
+Ho recentemente ricevuto la sua lettera di accettazione a Hogwarts, indirizzata
+ al signor H.
+ Potter.
+ Potrebbe non essere al corrente del fatto che i miei genitori genetici,
+ James Potter e Lily Potter (precedentemente Lily Evans) sono morti.
+ Sono stato adottato dalla sorella di Lily, Petunia Evans-Verres, e da suo
+ marito, Michael Verres-Evans.
+\end_layout
+
+\begin_layout Quote
+\align block
+
+\emph on
+Sono estremamente interessato a frequentare Hogwarts, sotto la condizione
+ che tale posto esista realmente.
+ Solo mia madre dice di essere al corrente della magia, e non può usarla
+ essa stessa.
+ Mio padre è estremamente scettico.
+ Io medesimo sono incerto.
+ Non so neppure dove procurarmi nessuno dei libri o degli oggetti elencati
+ nella sua lettera di accettazione.
+\end_layout
+
+\begin_layout Quote
+\align block
+
+\emph on
+Mia madre ha menzionato il fatto che mandaste un rappresentante di Hogwarts
+ a Lily Potter (all'epoca Lily Evans) allo scopo di dimostrare alla sua
+ famiglia che la magia è reale, e, presumo, per aiutare Lily a procurarsi
+ il suo corredo scolastico.
+ Se potesse fare la stessa cosa per la mia famiglia, sarebbe estremamente
+ d'aiuto.
+\end_layout
+
+\begin_layout Quote
+\align block
+
+\emph on
+Con sincerità,
+\end_layout
+
+\begin_layout Quote
+\align block
+
+\emph on
+Harry James Potter-Evans-Verres.
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry aggiunse il loro indirizzo corrente, quindi ripiegò la lettera e la
+ mise in una busta, che indirizzò a Hogwarts.
+ Un'ulteriore riflessione lo portò a procurarsi una candela e a far gocciolare
+ della cera sul lembo della busta, e su di essa, utilizzando la punta di
+ un temperino, incise le iniziali H.J.P.E.V.
+ Se doveva discendere in questa follia, l'avrebbe fatto con stile.
+\end_layout
+
+\begin_layout Standard
+\align block
+Poi aprì la porta e tornò al piano di sotto.
+ Suo padre era seduto in salotto e leggeva un libro di matematica superiore
+ per dimostrare quanto fosse intelligente; e sua madre era in cucina a preparare
+ uno dei piatti preferiti di suo padre per dimostrare quanto amorevole fosse.
+ Sembrava che non stessero affatto parlandosi.
+ Per quanto spaventosi potessero essere i litigi, 
+\emph on
+non litigare
+\emph default
+ era in qualche modo molto peggio.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Mamma
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry in quel silenzio snervante, 
+\begin_inset Quotes fld
+\end_inset
+
+ho intenzione di mettere alla prova l'ipotesi.
+ Secondo la tua teoria, come mando un gufo a Hogwarts?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Sua madre si voltò dal lavandino per fissarlo, un'espressione sconvolta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Io -- non lo so, penso che tu debba semplicemente avere un gufo magico
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+Questo sarebbe dovuto sembrare molto sospetto, 
+\emph on
+oh, quindi non c'è modo di verificare la tua teoria, allora
+\emph default
+, ma la particolare certezza in Harry sembrò essere disposta a rischiare
+ ancora di più.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Beh, la lettera è arrivata qui in qualche maniera
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+quindi la porterò fuori e griderò `lettera per Hogwarts!' e vedrò se un
+ gufo la preleva.
+ Papà, vuoi venire a vedere?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Suo padre scosse appena la testa e continuò a leggere.
+ 
+\emph on
+Naturalmente
+\emph default
+, Harry pensò rivolto a sé stesso.
+ La magia era qualcosa di vergognoso in cui solo le persone stupide credevano;
+ se suo padre fosse giunto a testare l'ipotesi, o persino a 
+\emph on
+osservare
+\emph default
+ mentre veniva testata, gli sarebbe parso di 
+\emph on
+associarsi
+\emph default
+ ad essa\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Solo mentre Harry si trascinava fuori dalla porta posteriore, nel giardino
+ di dietro, gli venne in mente che se un gufo 
+\emph on
+fosse
+\emph default
+ venuto giù e avesse afferrato la lettera, avrebbe avuto qualche problema
+ a raccontarlo a papà.
+\end_layout
+
+\begin_layout Standard
+\align block
+
+\emph on
+Ma -- beh -- questo non può accadere davvero, giusto? Non importa ciò che
+ il mio cervello sembri credere.
+ Se un gufo dovesse realmente venire giù a prendere questa busta, avrei
+ problemi molto più importanti di quello che papà potrebbe pensare.
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry fece un respiro profondo, e alzò la busta nel cielo.
+\end_layout
+
+\begin_layout Standard
+\align block
+Deglutì.
+\end_layout
+
+\begin_layout Standard
+\align block
+Gridare 
+\emph on
+Lettera per Hogwarts!
+\emph default
+ mentre tenevi una busta alta nell'aria nel mezzo del tuo giardino sarebbe
+ stato\SpecialChar \ldots{}
+ in effetti piuttosto imbarazzante, ora che ci pensava.
+\end_layout
+
+\begin_layout Standard
+\align block
+
+\emph on
+No.
+ Sono migliore di papà.
+ Userò il metodo scientifico anche se mi fa sentire stupido.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Lettera --
+\begin_inset Quotes frd
+\end_inset
+
+ Harry disse, ma in realtà gli venne più simile a un gracidio sussurrato.
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry rafforzò la propria volontà e gridò al cielo vuoto, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Lettera per Hogwarts! Posso avere un gufo?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Harry?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese la voce sconcertata di una donna, uno dei suoi vicini.
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry tirò giù la mano come se si fosse scottato e nascose la busta dietro
+ la schiena, come se fosse denaro illegale.
+ L'intero suo viso bruciava per la vergogna.
+\end_layout
+
+\begin_layout Standard
+\align block
+Il volto dell'anziana signora fece capolino da sopra la vicina staccionata,
+ capelli grigi brizzolati che sfuggivano dalla retina.
+ La signora Figg, saltuariamente sua babysitter.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa stai facendo, Harry?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Nulla
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry con una voce strozzata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Solo -- mettendo alla prova una teoria molto stupida
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Hai ricevuto la tua lettera di accettazione da Hogwarts?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Harry rimase paralizzato.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Sì
+\begin_inset Quotes frd
+\end_inset
+
+, dissero le labbra di Harry poco dopo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho ricevuto una lettera da Hogwarts.
+ Dicono che vogliono il mio gufo entro il 31 Luglio, ma
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Ma tu 
+\emph on
+non hai
+\emph default
+ un gufo.
+ Povero ragazzo! Non posso immaginare 
+\emph on
+cosa
+\emph default
+ una certa persona deve aver pensato, per mandarti semplicemente la lettera
+ standard
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+Un braccio rugoso si allungò da sopra la staccionata, e aprì una mano in
+ attesa.
+ A questo punto Harry era appena in grado di pensare, e consegnò la sua
+ busta.
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Quotes fld
+\end_inset
+
+Lascia fare a me, caro
+\begin_inset Quotes frd
+\end_inset
+
+, disse la signora Figg, 
+\begin_inset Quotes fld
+\end_inset
+
+e in un attimo o due farò venire qualcuno
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align block
+E il suo viso scomparve dietro la staccionata.
+\end_layout
+
+\begin_layout Standard
+\align block
+Ci fu un lungo silenzio nel giardino.
+\end_layout
+
+\begin_layout Standard
+\align block
+E poi la voce di un ragazzo disse, calma e pacata, 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
