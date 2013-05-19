@@ -3,6 +3,48 @@
 \begin_document
 \begin_header
 \textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -13,22 +55,22 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman times
-\font_sans default
-\font_typewriter default
+\font_roman Linux Libertine O
+\font_sans Cronos Pro
+\font_typewriter Inconsolata
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 11
+\paperfontsize 10
 \spacing single
 \use_hyperref false
 \papersize custom
@@ -47,20 +89,20 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 8.25in
-\paperheight 10.75in
-\leftmargin 0.5in
-\topmargin 0.875in
-\rightmargin 0.625in
-\bottommargin 0.875in
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language french
-\papercolumns 2
+\papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -109,7 +151,7 @@ guillemotright, disse}
 
 \end_inset
 
- la voce soffocata della professoressa McGonagall.
+ la voce attutita della professoressa McGonagall.
 \end_layout
 
 \begin_layout Standard
@@ -124,25 +166,14 @@ te adiacente alla scrivania c'era un labirinto di stipetti di legno di tutte
  McGonagall sapesse esattamente cosa ciascuno stipetto contenesse, anche
  se nessun altro poteva dire altrettanto.
  Una singola pergamena si trovava sulla scrivania vera e propria, che era,
- a parte quella, pulita.
+ a parte quello, vuota.
  Dietro la scrivania c'era una porta chiusa sbarrata da diverse serrature.
 \end_layout
 
 \begin_layout Standard
 La professoressa McGonagall sedeva su di uno sgabello senza schienale dietro
- la scrivania, e sembrava perplessa 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- i suoi occhi erano spalancati, con una nota forse di apprensione, quando
- aveva visto Harry.
+ la scrivania, e sembrava perplessa -- i suoi occhi si erano spalancati,
+ con una nota forse di apprensione, quando aveva visto Harry.
 \end_layout
 
 \begin_layout Standard
@@ -199,7 +230,7 @@ aveva
 \begin_inset Quotes fld
 \end_inset
 
-Um…
+Uhm…
 \begin_inset Quotes frd
 \end_inset
 
@@ -285,13 +316,13 @@ Si tratta dell'Incidente con il Cappello Smistatore
 \end_inset
 
 , disse Harry.
- (La professoressa McGonagall batté le palpebre.) 
+ (La professoressa McGonagall sbatté le palpebre.) 
 \begin_inset Quotes fld
 \end_inset
 
-Um… Penso che vi sia un incantesimo supplementare sul Cappello Smistatore,
+Uhm… Penso che vi sia un incantesimo supplementare sul Cappello Smistatore,
  qualcosa di cui lo stesso Cappello Smistatore non è a conoscenza, che si
- innesca quando il Cappello Smistatore dice Serpeverde.
+ innesca quando il Cappello Smistatore dice `Serpeverde'.
  Ho sentito un messaggio che sono certo i Corvonero non dovrebbero sentire.
  È giunto nel momento in cui il Cappello Smistatore veniva rimosso dalla
  mia testa e ho sentito interrompersi la connessione.
@@ -303,8 +334,8 @@ Um… Penso che vi sia un incantesimo supplementare sul Cappello Smistatore,
 \begin_inset Quotes fld
 \end_inset
 
-e diceva: Saluti da Serpeverde a Serpeverde, se volessi cercare i miei segreti,
- parla al mio serpente
+e diceva: `Saluti da Serpeverde a Serpeverde, se volessi cercare i miei
+ segreti, parla al mio serpente'
 \begin_inset Quotes frd
 \end_inset
 
@@ -447,7 +478,7 @@ di molto
 \end_layout
 
 \begin_layout Standard
-Questo sembrava quasi corretto.
+Questo sembrava quasi giusto.
  Sebbene… 
 \begin_inset Quotes fld
 \end_inset
@@ -480,11 +511,11 @@ questo
 \begin_inset Quotes fld
 \end_inset
 
-Il Cappello Smistatore mi ha offerto Tassofrasso
+Il Cappello Smistatore mi ha offerto Tassofrasso.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -508,11 +539,11 @@ davvero
 \begin_inset Quotes fld
 \end_inset
 
-Sì
+Sì.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -568,7 +599,7 @@ un altro
 \emph default
  incantesimo, un Quietus che si attivi brevemente proprio quando il Cappello
  è rimosso dalla testa di uno studente, potrebbe funzionare come toppa.
- Ecco, basta studenti morti
+ Ecco fatto, niente più studenti morti
 \begin_inset Quotes frd
 \end_inset
 
@@ -598,7 +629,7 @@ posso
 \begin_inset Quotes fld
 \end_inset
 
-Um
+Uhm
 \begin_inset Quotes frd
 \end_inset
 
@@ -607,7 +638,7 @@ Um
 \begin_inset Quotes fld
 \end_inset
 
-Um.
+Uhm.
  Preferirei non guadagnare tutti quei punti
 \begin_inset Quotes frd
 \end_inset
@@ -687,26 +718,26 @@ dieci
 
 \begin_layout Standard
 «Ha intenzione di spiegare da dove vengono quei dieci punti, se qualcuno
- dovesse chiederlo? Potrebbero esserci molti Serpeverde, e non mi riferisco
- ai bambini a Hogwarts, che diverrebbero molto 
+ dovesse chiederlo? Ci potrebbero essere molti Serpeverde, e non mi riferisco
+ ai bambini a Hogwarts, che diventerebbero molto 
 \emph on
 molto
 \emph default
- irritati se sapessero che l'incantesimo è stato rimosso da Cappello Smistatore
- e scoprissero che sono coinvolto nella faccenda.
- Dunque credo che la segretezza assoluta è un requisito fondamentale.
+ arrabbiati se sapessero che l'incantesimo è stato rimosso da Cappello Smistator
+e e scoprissero che sono coinvolto nella faccenda.
+ Dunque credo che la segretezza assoluta sia un requisito fondamentale.
  Non c'è bisogno di premiarmi, signora, la virtù è un premio di per sé».
 \end_layout
 
 \begin_layout Standard
 «Così sia», disse la professoressa McGonagall, «ma ho qualcos'altro di molto
  speciale da darle.
- Comprendo che le ho fatto un grosso torto nei miei giudizi, signor Potter.
+ Comprendo che le ho fatto un grosso torto nel giudicarla, signor Potter.
  Per favore, attenda qui».
 \end_layout
 
 \begin_layout Standard
-Si alzò, si recò alla porta chiusa posteriore, ondeggiò la bacchetta, e
+Si alzò, si recò alla porta posteriore chiusa, ondeggiò la bacchetta, e
  una sorta di tendina sfumata le spuntò attorno.
  Harry non poté vedere né sentire ciò che stava accadendo.
  Fu alcuni minuti dopo che l'offuscamento svanì e la professoressa McGonagall
@@ -715,8 +746,8 @@ Si alzò, si recò alla porta chiusa posteriore, ondeggiò la bacchetta, e
 \end_layout
 
 \begin_layout Standard
-E la professoressa McGonagall gli offriva in una mano una collanina, una
- sottile catenina d'oro con al centro un circolo d'argento, all'interno
+E la professoressa McGonagall gli offriva una collanina che teneva in mano,
+ una sottile catenina d'oro con al centro un circolo d'argento, all'interno
  del quale c'era una clessidra.
  Nell'altra mano c'era un opuscolo.
  «Questo è per lei», disse.
@@ -736,22 +767,21 @@ Harry accettò la sua nuova collanina, sorridendo.
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall fece un respiro.
+La professoressa McGonagall prese un respiro.
  «Signor Potter, questo è un oggetto che è normalmente prestato solo a bambini
- che si sono già dimostrati altamente responsabili, allo scopo di aiutarli
- con orari scolastici difficili».
+ che si siano già dimostrati altamente responsabili, allo scopo di aiutarli
+ con degli orari scolastici complicati».
  McGonagall esitò, come se stesse per aggiungere qualcosa.
  «
 \emph on
 Devo
 \emph default
- mettere in rilievo, signor Potter, che la vera natura di questo oggetto
- è 
+ sottolineare, signor Potter, che la vera natura di questo oggetto è 
 \emph on
 segreta
 \emph default
- e che non deve dire a nessun altro studente della sua esistenza, o lasciarsi
- vedere usarlo da loro.
+ e che non deve rendere nota la sua esistenza a nessun altro studente, o
+ lasciarsi vedere mentre lo usa.
  Se questo non è accettabile per lei, può restituirmelo ora».
 \end_layout
 
@@ -789,7 +819,7 @@ realmente
 
 \begin_layout Standard
 «È un Giratempo.
- Ogni giro della clessidra ti manda di un'ora indietro nel tempo.
+ Ogni giro della clessidra la manda indietro nel tempo di un'ora.
  Così, se lo usasse per andare indietro nel tempo due ore ogni giorno, dovrebbe
  essere in grado di andare a dormire sempre alla stessa ora».
 \end_layout
@@ -812,10 +842,8 @@ Mi sta dando una
 macchina del tempo
 \noun default
  per curare il mio 
-\emph default
 \noun on
 disturbo del sonno
-\emph on
 \noun default
 .
 \end_layout
@@ -823,30 +851,28 @@ disturbo del sonno
 \begin_layout Standard
 
 \emph on
-MI STA 
-\emph default
 \noun on
-DANDO UNA MACCHINA DEL TEMPO 
+Mi sta 
+\emph default
+dando una macchina del tempo
 \emph on
-\noun default
-PER 
+ per curare 
 \emph default
-\noun on
-CURARE IL MIO DISTURBO DEL SONNO.
+il mio disturbo del sonno.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename 014-harry_received_time_turner_by_dinosaurusgede-d32nunl.png
 	lyxscale 30
-	width 10.24cm
+	width 9.4cm
 
 \end_inset
 
@@ -877,16 +903,20 @@ Dica, professoressa McGonagall, lo sa che la materia ordinaria col tempo
  di antimateria che si scontrasse con un chilogrammo di materia si annichilirebb
 e in un'esplosione equivalente a 43 milioni di tonnellate di TNT? Si rende
  conto che io stesso peso 41 chilogrammi e che l'esplosione risultante lascerebb
-e UN GIGANTESCO CRATERE FUMANTE LÌ DOVE C'ERA LA SCOZIA?
+e 
+\noun on
+un gigantesco cratere fumante lì dove c'era la Scozia
+\noun default
+?
 \end_layout
 
 \begin_layout Standard
-«Mi scusi», riuscì a dire Harry, «ma questo suona davvero davvero 
+«Mi scusi», riuscì a dire Harry, «ma questo sembra davvero davvero 
 \emph on
-davvero DAVVERO
-\emph default
- PERICOLOSO
-\emph on
+davvero 
+\noun on
+davvero pericoloso
+\noun default
 !
 \emph default
 » la voce di Harry non raggiunse il tono di uno strillo, non avrebbe potuto
@@ -926,7 +956,7 @@ Le labbra di McGonagall si stavano contorcendo nel modo in cui lo facevano
  quando cercava di non sorridere.
  Offrì a Harry l'opuscolo che teneva in mano, ma Harry stava reggendo con
  cautela la collanina con entrambe le mani e fissando la clessidra per assicurar
-si che non stesse per girarsi.
+si che non stesse per ruotare.
  «Non si preoccupi», disse McGonagall dopo una pausa momentanea, quando
  fu chiaro che Harry non aveva nessuna intenzione di muoversi, «questo non
  può assolutamente accadere, signor Potter.
@@ -946,7 +976,7 @@ non
 non
 \emph default
  intrappolerà l'intero castello di Hogwarts in un ciclo di giovedì che si
- ripetono senza fine».
+ ripetono senza fine.»
 \end_layout
 
 \begin_layout Standard
@@ -996,8 +1026,10 @@ Ecco fatto, ora è ufficiale, il Parlamento l'ha ratificato, ogni singola
 \begin_layout Standard
 «E sebbene io odi buttarla in 
 \emph on
-FILOSOFIA
+\noun on
+filosofia
 \emph default
+\noun default
 »
 \emph on
 ,
@@ -1005,37 +1037,28 @@ FILOSOFIA
  Harry tentò disperatamente di abbassare la sua voce a un volume inferiore
  all'urlo, «qualcuno ha mai pensato alle 
 \emph on
-IMPLICAZIONI
+\noun on
+implicazioni
 \emph default
+\noun default
  dell'andare indietro di sei ore e fare qualcosa che muti il passato, cosa
  che in effetti 
 \emph on
-CANCELLEREBBE TUTTE LE PERSONE COINVOLTE
+\noun on
+cancellerebbe tutte le persone coinvolte
 \emph default
+\noun default
  e le 
 \emph on
-SOSTITUIREBBE CON VERSIONI DIFFERENTI
+\noun on
+sostituirebbe con versioni differenti
 \emph default
+\noun default
 
 \begin_inset space ~
 \end_inset
 
-
-\emph on
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
-\emph default
-
 \begin_inset Quotes frd
 \end_inset
 
@@ -1067,13 +1090,13 @@ Harry si prese un momento per esaminare la questione.
 
 \begin_layout Standard
 «Quindi…» disse Harry lentamente.
- «Si è semplicemente scoperto che l'universo… si dà il caso essere autoconsisten
-te, in qualche modo, anche se comprende i viaggi nel tempo.
- Se io e il mio futuro me stesso interagissimo allora osserverei gli stessi
- eventi come entrambi i me stesso, anche se, nel mio primo passaggio, il
- mio me stesso sta agendo sulla base di una conoscenza completa di cose
- che, dalla mia prospettiva, non sono ancora accadute…» la voce di Harry
- si affievolì nell'inadeguatezza della lingua inglese.
+ «Si è semplicemente scoperto che l'universo… è per puro caso autoconsistente,
+ in qualche modo, anche se comprende i viaggi nel tempo.
+ Se io e il mio futuro me stesso interagissimo, allora osserverei gli stessi
+ eventi come entrambi i me stesso, anche se, al mio primo passaggio, il
+ mio futuro me stesso sta agendo sulla base di una conoscenza completa di
+ cose che, dalla mia prospettiva, non sono ancora accadute…» la voce di
+ Harry si affievolì nell'inadeguatezza della lingua inglese.
 \end_layout
 
 \begin_layout Standard
@@ -1113,7 +1136,7 @@ status open
 
 \begin_layout Standard
 «Ahahahaa.
- E che succede quando qualcuno 
+ E che succede se qualcuno 
 \emph on
 ignora
 \emph default
@@ -1126,7 +1149,7 @@ La professoressa McGonagall contrasse le labbra.
 \end_layout
 
 \begin_layout Standard
-«E non crea, diciamo, un paradosso che distrugge l'intero universo».
+«E non crea, diciamo, un paradosso che distrugge l'intero universo.»
 \end_layout
 
 \begin_layout Standard
@@ -1141,17 +1164,19 @@ cosa del genere
 \begin_layout Standard
 «
 \emph on
-NON È TRANQUILLIZZANTE! NON AVETE MAI SENTITO PARLARE DEL PRINCIPIO ANTROPICO?
- E QUALE IDIOTA HA COSTRUITO UNA DI QUESTE COSE LA PRIMA VOLTA?
+\noun on
+Non è tranquillizzante! Non avete mai sentito parlare del principio antropico?
+ E quale idiota ha costruito una di queste cose tanto per cominciare?
 \emph default
+\noun default
 »
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall dovette ridere veramente.
+La professoressa McGonagall rise davvero.
  Era un suono piacevole e lieto che sembrava sorprendentemente fuori posto
  su quel volto severo.
- «Sta avendo un altro momento `si èmutata in un gatto', dico bene, signor
+ «Sta avendo un altro momento `si è mutata in un gatto', dico bene, signor
  Potter? Probabilmente non vuol sentirselo dire, ma è alquanto simpaticamente
  carino».
 \end_layout
@@ -1175,13 +1200,16 @@ anche questo è escluso
 \emph default
  perché questo giocattolino 
 \emph on
-NON È CALCOLABILE SECONDO TURING!
+\noun on
+non è calcolabile secondo Turing
+\noun default
+!
 \emph default
  Una macchina di Turing potrebbe simulare il ritorno ad un momento preciso
  del passato e calcolare un futuro differente partendo da lì, una macchina
- a oracolo potrebbe fare affidamento sulla comportamento di terminazione
- di macchine di livello inferiore, ma quello che sta dicendo è che la realtà
- in qualche modo calcola in maniera auto-regolare in un unico passaggio
+ a oracolo potrebbe fare affidamento sul comportamento di terminazione di
+ macchine di livello inferiore, ma quello che sta dicendo è che la realtà
+ in qualche modo si calcola in maniera auto-regolare in un unico passaggio
  usando informazioni che non sono… accadute… ancora…»
 \end_layout
 
@@ -1204,8 +1232,10 @@ finalmente
 
 
 \emph on
-ECCO COME FUNZIONA LO SPIRITÈ!
+\noun on
+Ecco come funziona lo SpiriTè!
 \emph default
+\noun default
  Ma 
 \emph on
 certo!
@@ -1219,31 +1249,23 @@ forza
 provare l'impulso di bere
 \emph default
  giusto poco prima che cose divertenti accadano comunque! Che stupido che
- sono, dovrei essermene accorto quando ho sentito l'impulso di bere lo SpiriTè
- prima del secondo discorso di Silente, 
+ sono, avrei dovuto accorgermene quando ho sentito l'impulso di bere lo
+ SpiriTè prima del secondo discorso di Silente, 
 \emph on
 non
 \emph default
- l'ho fatto, e poi mi sono strozzato invece con la mia saliva 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- bere lo SpiriTè non provoca l'evento comico, l'evento comico provoca il
- tuo bere lo SpiriTè! Ho notato che i due eventi erano correlati e ho dato
- per scontato che lo SpiriTè dovesse essere la causa e l'evento comico dovesse
+ l'ho fatto, e poi invece mi è andata di traverso con la mia saliva -- bere
+ lo SpiriTè non provoca l'evento comico, l'evento comico provoca il tuo
+ bere lo SpiriTè! Ho notato che i due eventi erano correlati e ho dato per
+ scontato che lo SpiriTè dovesse essere la causa e l'evento comico dovesse
  essere l'effetto perché ritenevo che l'ordine temporale vincolasse il nesso
- di causalità e che i grafici causali dovessero essere aciclici MA TUTTO
- SI SPIEGA QUANDO DISEGNI LE FRECCE CAUSALI CHE 
+ di causalità e che i grafici causali dovessero essere aciclici 
+\noun on
+ma tutto si spiega quando disegni le frecce causali 
 \emph on
-VANNO INDIETRO NEL TEMPO!
+che vanno indietro nel tempo!
 \emph default
+\noun default
 
 \begin_inset Quotes frd
 \end_inset
@@ -1260,19 +1282,19 @@ secondo
 \end_layout
 
 \begin_layout Standard
-Questa volta riuscì a tacerla, facendo solo un sommesso suono di strangolamento
+Questa riuscì a tenerla per sé, facendo solo un sommesso suono di strangolamento
  come quello di un gattino morente, mentre comprese chi aveva messo la nota
  sul suo letto quella mattina.
 \end_layout
 
 \begin_layout Standard
-Gli occhi della professoressa McGonagall.
+Gli occhi della professoressa McGonagall si infiammarono.
  «Dopo il suo diploma, o forse anche prima, lei 
 \emph on
-devi
+deve
 \emph default
  davvero insegnare alcune di queste teorie babbane a Hogwarts, signor Potter.
- Suonano molto affascinanti, anche se sono completamente sbagliate».
+ Sembrano molto affascinanti, anche se sono completamente sbagliate».
 \end_layout
 
 \begin_layout Standard
@@ -1282,9 +1304,9 @@ devi
 \begin_layout Standard
 La professoressa McGonagall gli offrì alcune ulteriori amenità, richiese
  alcune ulteriori promesse alle quali Harry acconsentì, disse qualcosa riguardo
- il non parlare a dei serpenti ovunque qualcuno potesse sentirlo, gli ricordò
+ il non parlare con i serpenti ovunque qualcuno potesse sentirlo, gli ricordò
  di leggere l'opuscolo, e poi in qualche modo Harry si ritrovò al di fuori
- del suo ufficio con la porta fermamente chiuse dietro di lui.
+ del suo ufficio con la porta fermamente chiusa dietro di lui.
 \end_layout
 
 \begin_layout Standard
@@ -1308,7 +1330,7 @@ Non ultimo per il fatto che, se non fosse stato per lo Scherzo, avrebbe
 Oppure la professoressa McGonagall glielo avrebbe dato lo stesso, solo più
  tardi quello stesso giorno, in un momento in cui fosse riuscito a chiederle
  del suo disturbo del sonno o a parlarle del messaggio del Cappello Smistatore?
- E a quel punto, avrebbe voluto lui giocare uno scherzo a sé stesso che
+ E a quel punto, lui avrebbe voluto giocare uno scherzo a sé stesso che
  lo avrebbe portato a ottenere il Giratempo 
 \emph on
 anticipatamente
@@ -1318,7 +1340,7 @@ anticipatamente
 autoconsistente
 \emph default
  fosse quella in cui lo Scherzo fosse iniziato addirittura prima che si
- fosse svegliato la mattina…?
+ fosse svegliato quella mattina…?
 \end_layout
 
 \begin_layout Standard
@@ -1378,29 +1400,8 @@ non erano mai state
 \emph default
  misteriose.
  Le stelle erano state dei misteri, una volta.
- Lord Kelvin aveva definito la natura della vita e la biologia 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- la risposta dei muscoli alla volontà umana e la generazione degli alberi
- dai semi 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
+ Lord Kelvin aveva definito la natura della vita e la biologia -- la risposta
+ dei muscoli alla volontà umana e la generazione degli alberi dai semi --
  un mistero «infinitamente al di là» della portata della scienza.
  (Non solo appena al di là, sia chiaro, ma 
 \emph on
@@ -1475,7 +1476,7 @@ retrospettiva
 \emph on
 metà
 \emph default
- delle componenti dello Scherzo.
+ dei passi dello Scherzo.
  Da dove erano spuntate fuori le 
 \emph on
 torte
@@ -1493,16 +1494,16 @@ D'altro canto, doveva ammettere che
 era
 \emph default
  stata un'opportunità unica.
- Uno scherzo che ti potevi tirare una sola volta nella vita, entro sei ore
- da quando scoprivi l'esistenza dei Giratempo.
+ Uno scherzo che potevi giocare a te stesso una sola volta nella vita, entro
+ sei ore da quando scoprivi l'esistenza dei Giratempo.
 \end_layout
 
 \begin_layout Standard
-Infatti questo era ancora 
+Anzi, era ancora 
 \emph on
 più
 \emph default
- sconcertante, quando Harry ci pensava.
+ sconcertante, ora che Harry ci pensava.
  Il Tempo gli aveva servito lo Scherzo al completo come un fatto compiuto,
  eppure era, chiaramente, opera sua.
  Concetto ed esecuzione e stile di scrittura.
@@ -1579,8 +1580,8 @@ La lettera diceva:
 \emph on
 Questo è il Mantello dell'Invisibilità di Ignotus Peverell, tramandato dai
  suoi discendenti, i Potter.
- A differenza di mantelli inferiori e incantesimi, esso ha il potere di
- tenerti 
+ A differenza di mantelli inferiori e incantesimi, ha il potere di tenerti
+ 
 \bar under
 nascosto
 \bar default
@@ -1604,11 +1605,14 @@ In futuro dovrò accontentarmi della Disillusione, temo.
 
 \emph on
 Senza dubbio stai già pensando ad ogni sorta di meraviglioso scherzo, come
- tuo padre si impegnò a fare ai suoi tempi.
- Se tutte le sue malefatte fossero note, tutte le donne in Grifondoro si
- riunirebbero per profanare la sua tomba.
- Non cercherò di impedire che la storia si ripeta, ma sii ESTREMAMENTE attento
- a non farti scoprire.
+ quelli che tuo padre commise ai suoi tempi.
+ Se ogni sua malefatta fosse nota, tutte le donne in Grifondoro si riunirebbero
+ per profanare la sua tomba.
+ Non cercherò di impedire che la storia si ripeta, ma stai 
+\noun on
+estremamente
+\noun default
+ attento a non farti scoprire.
  Se Silente vedesse una possibilità di possedere uno dei Doni della Morte,
  non se la farebbe scappare fino all'ultimo dei suoi giorni.
 \end_layout
@@ -1657,18 +1661,11 @@ Harry alzò una mano.
 
 \begin_layout Standard
 Terry aggrottò la fronte.
- «Aspetta, cosa 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ «Aspetta, cosa
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1721,17 +1718,17 @@ Specialmente
 \emph on
 fermati
 \emph default
- e aspetta per i gruppi di ricerca.
+ e aspetta le squadre di soccorso.
  Altrimenti ti rivedremo tra quattro mesi e sarai più vecchio di cinque
  mesi e vestito con un perizoma e ricoperto di neve e 
 \emph on
 questo se rimani all'interno del castello
 \emph default
-.
+
 \begin_inset Quotes frd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1747,7 +1744,7 @@ Compreso
 \begin_inset Quotes fld
 \end_inset
 
-Um, non dovreste dirlo subito a tutti gli studenti?
+Uhm, non dovreste dirlo subito a tutti gli studenti?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1784,17 +1781,7 @@ Se non ti vedo a colazione entro trenta minuti, Potter, darò inizio alle
 \end_layout
 
 \begin_layout Standard
-Quando tutti se ne furono andati, Harry attaccò la nota al suo letto 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
+Quando tutti se ne furono andati, Harry attaccò la nota al suo letto --
  aveva già scritto questa e tutte le altre note, lavorando al livello sotterrane
 o del suo baule prima che tutti si svegliassero.
  Poi entrò cautela nel campo del Quietus e tirò via il Mantello dell'Invisibilit
@@ -1818,9 +1805,9 @@ E solo per uno impulso malizioso, Harry mise il Mantello nella borsa di
 \end_layout
 
 \begin_layout Standard
-«Posso far sì che il messaggio sia passato a Cornelion Flubberwalt», disse
- il dipinto di un uomo dalle arie aristocratiche e, in fatti, un naso perfettame
-nte normale.
+«Posso provvedere affinché il messaggio sia passato a Cornelion Flubberwalt»,
+ disse il dipinto di un uomo dalle arie aristocratiche e, in fatti, con
+ un naso perfettamente normale.
  «Ma posso chiedere da dove proviene 
 \emph on
 originariamente?
@@ -1831,7 +1818,7 @@ originariamente?
 \begin_layout Standard
 Harry alzò le spalle con ingegnosa impotenza.
  «Mi è stato detto che è stato pronunciato da una voce cavernosa che è risuonata
- da un vuoto nell'aria stessa, un vuoto che si è aperto su di un feroce
+ da un vuoto nell'aria stessa, un vuoto che si era aperto su di un feroce
  abisso».
 \end_layout
 
@@ -1853,7 +1840,7 @@ Harry alzò le spalle con ingegnosa impotenza.
 \emph on
 di tutti
 \emph default
-! Non puoi prenderti una torta per intero e mettertela in borsa!»
+! Non puoi prendere un'intera torta e mettertela in borsa!»
 \end_layout
 
 \begin_layout Standard
@@ -1894,8 +1881,8 @@ lei
 \end_inset
 
 Anzi, devo chiederle di far finta che questa conversazione non sia mai accaduta.
- Faccia come se sia incappata in loro naturalmente mentre era in giro per
- una commissione o qualcosa del genere.
+ Faccia come se fosse incappata in loro naturalmente mentre era in giro
+ per una commissione o qualcosa del genere.
  Correrò avanti appena Erbologia termina.
  Penso di poter distrarre i Serpeverde mentre lei arriva.
  Non è facile spaventarmi o intimidirmi, e non penso che oseranno ferire
@@ -1912,7 +1899,7 @@ La professoressa Sprout lo guardò per un lungo istante, poi la sua espressione
 \end_layout
 
 \begin_layout Standard
-«Abbia cura di non arrivare tardi», disse Harry.
+«Abbia solo cura di non arrivare tardi», disse Harry.
  «E ricordi, quando arriva, lei non si aspetterà di vedermi e questa conversazio
 ne non è mai avvenuta».
 \end_layout
@@ -1930,7 +1917,7 @@ ne non è mai avvenuta».
 
 \begin_layout Standard
 Fu orribile, vedersi strattonare Neville fuori dal circolo di Serpeverde.
- Neville aveva avuto ragione, aveva usato troppa forza, eccessivamente troppa
+ Neville aveva avuto ragione, aveva usato troppa forza, assolutamente troppa
  forza.
 \end_layout
 
@@ -1976,17 +1963,10 @@ Ci libererebbe da molti abbagli,
 \end_inset
 
 E stupide credenze
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
-
+--
 \begin_inset Foot
 status collapsed
 
