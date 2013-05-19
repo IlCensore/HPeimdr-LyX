@@ -3,6 +3,48 @@
 \begin_document
 \begin_header
 \textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -13,7 +55,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Adobe Garamond Pro
+\font_roman Arno Pro
 \font_sans Cronos Pro
 \font_typewriter Cronos Pro
 \font_default_family default
@@ -28,11 +70,11 @@ initials
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 11
+\paperfontsize 10
 \spacing single
 \use_hyperref false
 \papersize custom
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -47,12 +89,12 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 15cm
-\paperheight 23cm
-\leftmargin 0.5in
-\topmargin 0.875in
-\rightmargin 0.625in
-\bottommargin 0.875in
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -60,7 +102,7 @@ initials
 \quotes_language french
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -120,7 +162,7 @@ Troppo tranquillo.
 Ah, già\SpecialChar \ldots{}
  C'era un Incantesimo Quietus sulla testiera del suo letto, controllato
  da una piccola barra di scorrimento, ed era l'unica ragione per la quale
- fosse possibile, per chiunque, andare a dormire in Corvonero.
+ fosse possibile, per chiunque in Corvonero, andare a dormire.
 \end_layout
 
 \begin_layout Standard
@@ -160,7 +202,7 @@ Il suo Quietus portato fino al massimo.
 \end_layout
 
 \begin_layout Standard
-E il suo orologio meccanico era ancora in funzione, ma la sveglia era stata
+E il suo orologio meccanico ancora in funzione, ma la sveglia era stata
  disattivata.
 \end_layout
 
@@ -188,13 +230,13 @@ La rabbia stava lentamente, lentamente risvegliandosi in lui.
 \end_layout
 
 \begin_layout Standard
-Quando Harry avesse scoperto chi aveva fatto questo\SpecialChar \ldots{}
+Quando Harry avesse scoperto chi l'aveva fatto\SpecialChar \ldots{}
 
 \end_layout
 
 \begin_layout Standard
-No, questo non poteva essere stato fatto che con la collaborazione di tutti
- gli altri dodici ragazzi del dormitorio di Corvonero.
+No, non poteva essere stato fatto che con la collaborazione di tutti gli
+ altri dodici ragazzi del dormitorio di Corvonero.
  Tutti loro avrebbero visto la sua sagoma addormentata.
  Tutti loro l'avevano lasciato dormire per l'intero periodo della colazione.
 \end_layout
@@ -208,11 +250,7 @@ piaciuto
 \emph default
 .
  Così aveva pensato.
- La notte scorsa, aveva pensato che gli fosse 
-\emph on
-piaciuto
-\emph default
-.
+ La notte scorsa, aveva pensato che gli era piaciuto.
  
 \emph on
 Perché\SpecialChar \ldots{}
@@ -221,7 +259,7 @@ Perché\SpecialChar \ldots{}
 
 \begin_layout Standard
 Appena Harry si alzò dal letto, vide un pezzo di carta rivolto verso l'esterno
- della sua testata.
+ attaccato alla testata.
 \end_layout
 
 \begin_layout Quote
@@ -249,8 +287,8 @@ Harry Potter.
 \end_layout
 
 \begin_layout Standard
-E Harry rimase lì, paralizzato, acqua ghiacciata che iniziò a scivolare
- nelle sue vene.
+E Harry rimase lì, paralizzato, acqua ghiacciata che iniziò a scorrere nelle
+ sue vene.
 \end_layout
 
 \begin_layout Standard
@@ -263,7 +301,7 @@ E non si ricordava di averlo scritto.
 
 \begin_layout Standard
 E\SpecialChar \ldots{}
- Harry strizzò gli occhi verso il pezzo di carta.
+ Harry strizzò gli occhi guardando il pezzo di carta.
  A meno che non lo stesse immaginando, le parole 
 \begin_inset Quotes fld
 \end_inset
@@ -288,7 +326,7 @@ saputo
 \emph on
 conosceva
 \emph default
- l'Incantesimo di memoria\SpecialChar \ldots{}
+ l'Incantesimo Obliate\SpecialChar \ldots{}
  forse qualcun altro aveva\SpecialChar \ldots{}
  che cosa\SpecialChar \ldots{}
 
@@ -383,9 +421,9 @@ status open
 lui
 \emph default
  avrebbe saputo.
- Se avesse dovuto decidere se un duplicato di sé stesso fosse proprio lui,
- o qualcosa del genere.
- Solo per sicurezza.
+ Nel caso in cui avesse dovuto decidere se un duplicato di sé stesso fosse
+ proprio lui, o qualcosa del genere.
+ Giusto per sicurezza.
  Sii Preparato.
 \end_layout
 
@@ -401,12 +439,12 @@ fidarsi
 \end_layout
 
 \begin_layout Standard
-Fissando la carta, Harry notò che dell'inchiostro vi appariva attraverso
- dall'altro lato.
+Fissando il foglio, Harry notò che dell'inchiostro l'attraversava dall'altro
+ lato.
 \end_layout
 
 \begin_layout Standard
-La capovolse.
+Lo capovolse.
 \end_layout
 
 \begin_layout Standard
@@ -461,7 +499,7 @@ istruzioni
  Questa parte non era stata scritta a mano: la scrittura era perfettamente
  regolare, quindi artificiale.
  Sembrava come se fosse stata scritta da un Penna Prendiappunti, come quella
- che aveva comprato per dettatura.
+ che aveva comprato per scrivere sotto dettatura.
 \end_layout
 
 \begin_layout Standard
@@ -480,7 +518,7 @@ Beh\SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Standard
-Aveva perso la colazione, naturalmente, ma era Preparato a questa eventualità,
+Aveva saltato la colazione, naturalmente, ma era Preparato a questa eventualità,
  essendosela raffigurata in anticipo.
  Harry mise la mano nella borsa e disse «barretta», attendendosi di ricevere
  la scatola di barrette di cereali che aveva comprato prima di partire per
@@ -578,23 +616,24 @@ ale.
 \end_layout
 
 \begin_layout Standard
-«Ah...» disse Harry alla stanza vuota.
+«Ah\SpecialChar \ldots{}
+» disse Harry alla stanza vuota.
  «Non credo che potrei spendere un punto e ottenere la mia scatola di barrette
  di cereali indietro, vero?»
 \end_layout
 
 \begin_layout Standard
-Ci fu solo il silenzio.
+Ci fu solo silenzio.
 \end_layout
 
 \begin_layout Standard
-Harry mise la mano nella borsa e disse «scatola di barrette di cereali».
+Harry mise la mano nella borsa e disse «Scatola di barrette di cereali».
 \end_layout
 
 \begin_layout Standard
-Una scatola che sembrò della forma giusta gli comparve in mano...
- ma era troppo leggera, ed era stata aperta, ed era vuota, e la nota allegata
- diceva:
+Una scatola che sembrò della forma giusta gli comparve in mano\SpecialChar \ldots{}
+ ma era troppo
+ leggera, ed era stata aperta, ed era vuota, e la nota allegata diceva:
 \end_layout
 
 \begin_layout Standard
@@ -652,7 +691,7 @@ Harry mise la mano nella borsa e disse «barrette di cereali».
 \end_layout
 
 \begin_layout Standard
-Nulla ne uscì.
+Non uscì nulla.
 \end_layout
 
 \begin_layout Standard
@@ -740,8 +779,8 @@ Silenzio.
 \end_layout
 
 \begin_layout Standard
-Ma Harry stava cominciando a cogliere il modello, la nota sarebbe nel posto
- successivo in cui avrebbe guardato.
+Ma Harry stava cominciando a cogliere lo schema, la nota sarebbe stata nel
+ posto successivo in cui avrebbe guardato.
  Così Harry guardò sotto il suo letto.
 \end_layout
 
@@ -857,11 +896,12 @@ Il suo corpo che andava più o meno con il pilota automatico, Harry raccolse
 \begin_layout Standard
 Harry fece una pausa prima di estrarre il cassetto dell'armadio che conteneva
  il pigiama.
- Se lo schema continuava a valere...
+ Se lo schema continuava a valere\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-«Come posso guadagnare più punti?» disse Harry ad alta voce.
+«Come posso guadagnare più punti?» chiese Harry ad alta voce.
 \end_layout
 
 \begin_layout Standard
@@ -996,11 +1036,17 @@ non
 \begin_layout Standard
 Poco tempo dopo, Harry stava pensando che in effetti un quadro di Escher
  avrebbe avuto sia vantaggi sia svantaggi rispetto a Hogwarts.
- Lati negativi: Nessun orientamento gravitazionale coerente.
- Vantaggi: Almeno le scale non si sarebbe spostate 
+ Lati negativi: nessun orientamento gravitazionale coerente.
+ Vantaggi: almeno le scale non si sarebbe spostate 
 \emph on
-MENTRE ERI ANCORA SOPRA DI LORO
+\noun on
+mentre
+\noun default
+ 
+\noun on
+ci stavi ancora sopra
 \emph default
+\noun default
 .
 \end_layout
 
@@ -1033,7 +1079,8 @@ Il piano di riserva A era stato di fermarsi a chiedere informazioni, ma
 \end_layout
 
 \begin_layout Standard
-Piano di riserva B...
+Piano di riserva B\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -1072,18 +1119,22 @@ status open
 \end_inset
 
 » disse Harry, e poi chiuse la bocca.
- A pensarci bene no, NON aveva intenzione di chiedere al dipinto se fosse
- pienamente cosciente nel senso di essere consapevole della propria consapevolez
-za.
+ A pensarci bene no, 
+\noun on
+non
+\noun default
+ aveva intenzione di chiedere al dipinto se fosse pienamente cosciente nel
+ senso di essere consapevole della propria consapevolezza.
 \end_layout
 
 \begin_layout Standard
-«Io sono Harry Potter», disse la sua bocca, più o meno col pilota automatico.
+«Io sono Harry Potter», disse la sua bocca, più o meno in automatico.
  Sempre più o meno automaticamente, Harry tese la mano verso la pittura.
 \end_layout
 
 \begin_layout Standard
-La donna nel dipinto guardò in basso alla mano di Harry e alzò le sopracciglia.
+La donna nel dipinto abbassò lo sguardo sulla mano di Harry e alzò le sopraccigl
+ia.
 \end_layout
 
 \begin_layout Standard
@@ -1091,11 +1142,11 @@ Lentamente, la mano cadde di nuovo al fianco di Harry.
 \end_layout
 
 \begin_layout Standard
-«Mi dispiace», disse Harry, «Sono più o meno di nuovo qui».
+«Mi dispiace», disse Harry, «sono nuovo di queste parti».
 \end_layout
 
 \begin_layout Standard
-«Così percepisco, giovane corvo.
+«Me ne rendo conto, giovane corvo.
  Dove stai cercando di andare?»
 \end_layout
 
@@ -1105,7 +1156,7 @@ Harry esitò.
 \end_layout
 
 \begin_layout Standard
-«Allora forse sei già lì».
+«Allora forse sei già lì.»
 \end_layout
 
 \begin_layout Standard
@@ -1125,7 +1176,7 @@ qui
 \begin_inset Quotes frd
 \end_inset
 
- Harry chiuse la bocca, conscio di quanto stesse sembrando come un idiota.
+ Harry chiuse la bocca, conscio di quanto stesse sembrando idiota.
  «Mi permetta di ricominciare daccapo.
  Sto giocando questo gioco, solo non ne conosco le regole
 \begin_inset space ~
@@ -1135,7 +1186,8 @@ qui
  Sto cercando delle occasioni per fare del bene così da poter ottenere dei
  punti, e tutto ciò che ho è questo suggerimento criptico riguardo l'oscurità
  come il luogo dove la luce deve essere, così stavo cercando di andare giù,
- ma sembro continuare ad andare su, invece...»
+ ma mi pare di continuare ad andare su, invece\SpecialChar \ldots{}
+»
 \end_layout
 
 \begin_layout Standard
@@ -1157,7 +1209,7 @@ Harry sospirò.
 \emph on
 Completamente
 \emph default
- giusto».
+ giusto.»
 \end_layout
 
 \begin_layout Standard
@@ -1189,11 +1241,12 @@ sei
 \begin_layout Standard
 La cosa sembrava stranamente familiare, ma Harry non poté ricordare dove
  l'avesse sentita precedentemente.
- «Uhm...
+ «Uhm\SpecialChar \ldots{}
  lei sembra una persona molto intelligente.
- O il dipinto di una persona molto intelligente...
- ad ogni modo, ha mai sentito di un gioco misterioso che si può giocare
- solo una volta, e di cui non sono svelate le regole?»
+ O il dipinto di una persona molto intelligente\SpecialChar \ldots{}
+ ad ogni modo, ha mai sentito
+ di un gioco misterioso che si può giocare solo una volta, e di cui non
+ sono svelate le regole?»
 \end_layout
 
 \begin_layout Standard
@@ -1205,9 +1258,9 @@ La cosa sembrava stranamente familiare, ma Harry non poté ricordare dove
 Harry rimase interdetto.
  «No», disse lentamente.
  «Voglio dire che ho ricevuto una vera nota che diceva che dovevo giocare
- il gioco ma che non mi sarebbero state svelate le regole, e qualcuno mi
- sta lasciando piccoli foglietti dicendomi quanti punti ho perso per aver
- violato le regole, come meno due punti per aver indossato un pigiama.
+ questa partita ma che non mi sarebbero state svelate le regole, e qualcuno
+ mi sta lasciando piccoli foglietti dicendomi quanti punti ho perso per
+ aver violato le regole, come meno due punti per aver indossato un pigiama.
  Conosce qualcuno qui a Hogwarts che sia folle abbastanza e potente abbastanza
  per fare qualcosa del genere? A parte Silente, intendo?»
 \end_layout
@@ -1366,7 +1419,7 @@ Io!
 \emph default
  Nessuno si è interessato di me da, non so da quanto tempo, forse da sempre,
  sono rimasto bloccato qua sotto, in questo dannato e inutile vecchio corridoio
- -- un suggerimento! Ho il tuo suggerimento! Esso ti costerà solo tre punti!
+ -- un suggerimento! Ho il tuo suggerimento! Ti costerà solo tre punti!
  Lo vuoi?
 \begin_inset Quotes frd
 \end_inset
@@ -1382,8 +1435,8 @@ Sì lo voglio!
 \begin_inset Quotes frd
 \end_inset
 
- Harry era cosciente che probabilmente avrebbe dovuto tenere il suo sarcasmo
- sotto controllo ma non riusciva a farne a meno.
+ Harry era cosciente che forse avrebbe dovuto tenere il suo sarcasmo sotto
+ controllo ma non riusciva a farne a meno.
 \end_layout
 
 \begin_layout Standard
@@ -1432,7 +1485,7 @@ originariamente
 
 È stato pronunciato da una voce cavernosa che è risuonata da un vuoto nell'aria
  stessa, un vuoto che si è aperto su di un feroce abisso! Questo è quello
- che mi hanno detto
+ che mi hanno detto.
 \begin_inset Quotes frd
 \end_inset
 
@@ -1525,8 +1578,8 @@ chiedere informazioni a un dipinto
 
 \begin_layout Standard
 La stanza da studio verde era uno spazio sorprendentemente piacevole, con
- la luce solare che sgorgava dalle finestre di vetro colorato di verde raffigura
-nti draghi in quiete scene pastorali.
+ la luce solare che sgorgava dalle finestre di vetro colorato di verde,
+ raffiguranti draghi in tranquille scene pastorali.
  Aveva sedie che sembravano estremamente confortevoli, e tavoli che parevano
  molto adatti a studiare in compagnia di uno fino a tre amici.
 \end_layout
@@ -1564,18 +1617,20 @@ In momenti come questo, Harry aveva una scusa per correre a perdifiato,
  senza pensare di risparmiare energie o di fare esercizi di riscaldamento
  adeguati o preoccuparsi di sbattere contro gli oggetti, un improvviso volo
  frenetico che giunse quasi a un altrettanto immediata interruzione, quando
- fu lì lì per investire un gruppo di sei studenti del primo anno di Tassofrasso...
+ fu lì lì per investire un gruppo di sei studenti del primo anno di Tassofrasso\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-...che erano stretti l'uno all'altro, con l'aria piuttosto spaventata e come
+\SpecialChar \ldots{}
+ che erano stretti l'uno all'altro, con l'aria piuttosto spaventata e come
  se volessero disperatamente fare qualcosa, ma senza riuscire a capire cosa,
  fatto che probabilmente aveva una relazione con il gruppo di cinque Serpeverde
  più grandi che sembravano circondare un altro giovane.
 \end_layout
 
 \begin_layout Standard
-Harry fu a un tratto piuttosto arrabbiato.
+Tutto d'un tratto Harry fu piuttosto arrabbiato.
 \end_layout
 
 \begin_layout Standard
@@ -1596,7 +1651,7 @@ Forse non sarebbe stato necessario.
 \end_layout
 
 \begin_layout Standard
-Harry passò davanti al gruppo di Tassofrasso verso i Serpeverde.
+Harry passò davanti al gruppo di Tassofrasso diretto verso i Serpeverde.
 \end_layout
 
 \begin_layout Standard
@@ -1638,9 +1693,7 @@ suo
 \emph default
 , come 
 \emph on
-si permettevano
-\emph default
-?
+si permettevano?
 \end_layout
 
 \begin_layout Standard
@@ -1648,14 +1701,15 @@ Harry allungò la mano, afferrò Neville per il polso e lo
 \emph on
 strattonò
 \emph default
- fuori dal cerchio dei Serpeverde, il ragazzo inciampò in stato di shock
- mentre Harry lo tirò fuori e quasi con lo stesso movimento si fece strada
- infilandosi attraverso la stessa apertura.
+ fuori dal cerchio dei Serpeverde, e il ragazzo inciampò in stato di shock
+ mentre Harry lo allontanava e quasi con lo stesso movimento si faceva strada
+ infilandosi attraverso lo stesso varco.
 \end_layout
 
 \begin_layout Standard
 E Harry rimase al centro dei Serpeverde, dove Neville era stato, guardando
- in alto ai ragazzi molto più grandi, molto più grossi e molto più forti.
+ in alto verso quei ragazzi molto più grandi, molto più grossi e molto più
+ forti.
 \end_layout
 
 \begin_layout Standard
@@ -1680,13 +1734,12 @@ Io sono il Ragazzo-Che-È-Sopravvissuto
 
 \begin_layout Standard
 Ci fu una pausa piuttosto imbarazzante.
- Nessuno sembrava sapere dove la conversazione sarebbe dovuta andare da
- quel punto.
+ Nessuno sembrava sapere in che direzione la conversazione sarebbe dovuta
+ andare da quel punto.
 \end_layout
 
 \begin_layout Standard
-Gli occhi di Harry scesero verso il basso e videro alcuni libri e carte
- sparsi sul pavimento.
+Harry abbassò gli occhi e vide alcuni libri e fogli sparsi sul pavimento.
  Oh, il vecchio gioco in cui si lascia che il bambino tenti di raccogliere
  i libri e poi glieli si toglie di mano nuovamente.
  Harry non riusciva a ricordare di essere mai stato la vittima di quel gioco,
@@ -1771,9 +1824,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-Il ragazzo più grosso spinse con forza Harry Potter, che se ne andò lungo
- disteso sul pavimento di pietra dura di Hogwarts, fuori dal circolo di
- Serpeverde.
+Il ragazzo più grosso spinse con forza Harry Potter, che finì lungo disteso
+ sul pavimento di pietra dura di Hogwarts, fuori dal circolo dei Serpeverde.
 \end_layout
 
 \begin_layout Standard
@@ -1992,7 +2044,7 @@ Guarda qui!
 \begin_inset Quotes frd
 \end_inset
 
- gridò Harry, brandendo la nota contro il Serpeverde più grosso.
+ gridò Harry, brandendo la nota contro di lui.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2007,9 +2059,9 @@ guardalo
  le spese di stoccaggio? Gli oneri di cessione? I costi di trasporto? Come
  fai ad avere 
 \emph on
-costi trasporto
+costi di trasporto
 \emph default
- su una 
+ su di una 
 \emph on
 torta
 \emph default
@@ -2021,7 +2073,7 @@ torta
 \end_layout
 
 \begin_layout Standard
-Ci fu un'altra di quelle imbarazzanti pause.
+Ci fu un'altra di quelle pause imbarazzanti.
  Harry rivolse pensieri mortali a chiunque fosse il Tassofrasso che non
  sembrava in grado di smettere di ridacchiare, quell'idiota stava per fargli
  subire del male.
@@ -2045,7 +2097,7 @@ mia
 \emph on
 vostra
 \emph default
- vita...
+ vita\SpecialChar \ldots{}
  un po' scabrosa.
  Avete inteso?
 \begin_inset Quotes frd
@@ -2168,7 +2220,7 @@ Che ne diresti se tu ti rompessi accidentalmente tutte le dita?
 \begin_inset Quotes fld
 \end_inset
 
-Come fai nel nome di Merlino a mettere in scena un incidente credibile dopo
+Come fai in nome di Merlino a mettere in scena un incidente credibile dopo
  aver fatto la minaccia di fronte a una dozzina di testimoni, 
 \emph on
 idiota
@@ -2201,8 +2253,10 @@ Il Serpeverde più grosso allungò le mani lentamente, deliberatamente verso
  che stava notando l'età e la forza dell'altro ragazzo che finalmente riusciva
  a farsi sentire, urlando 
 \emph on
-COSA DIAVOLO STO FACENDO
+\noun on
+cosa diavolo sto facendo
 \emph default
+\noun default
 ?
 \end_layout
 
@@ -2214,8 +2268,7 @@ Aspetta!
 \begin_inset Quotes frd
 \end_inset
 
- disse uno degli altri Serpeverde, la sua voce improvvisamente in preda
- al panico.
+ disse uno degli altri Serpeverde, improvvisamente in preda al panico.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2326,7 +2379,7 @@ Professoressa Sprout!
 
 \begin_layout Standard
 Nel campo visivo di Harry, mentre si voltava, entrò una piccola donna tarchiata
- con i capelli ricci grigi e disordinati e vestiti ricoperti di sporcizia.
+ con i capelli ricci grigi e disordinati e i vestiti ricoperti di sporcizia.
  Puntò il dito contro i Serpeverde.
  
 \begin_inset Quotes fld
@@ -2362,7 +2415,7 @@ Il mio bravo allievo, Harry Potter
 
 \emph on
 Uh oh.
- È vero, era la sua lezione che ho saltato questa mattina.
+ È vero, era sua la lezione che ho saltato questa mattina.
 \end_layout
 
 \begin_layout Standard
@@ -2373,8 +2426,8 @@ Ha minacciato di ucciderci!
 \begin_inset Quotes frd
 \end_inset
 
- disse d'impulso uno degli altri Serpeverde, lo stesso che aveva chiesto
- all'altro di fermarsi.
+ disse d'impulso uno dei Serpeverde, lo stesso che aveva chiesto all'altro
+ di fermarsi.
 \end_layout
 
 \begin_layout Standard
@@ -2473,7 +2526,7 @@ E non ho mai estratto la mia bacchetta in qualunque momento
 \end_layout
 
 \begin_layout Standard
-Ora professoressa Sprout stava rivolgendo a Harry uno sguardo incredulo.
+Ora la professoressa Sprout stava rivolgendo a Harry uno sguardo incredulo.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2582,7 +2635,7 @@ Prior Incantato
 \begin_inset Quotes fld
 \end_inset
 
-Strano, la bacchetta non sembra essere stata mai utilizzata
+Strano, la bacchetta non sembra essere mai stata utilizzata
 \begin_inset Quotes frd
 \end_inset
 
@@ -2701,7 +2754,8 @@ mille
 \begin_inset Quotes fld
 \end_inset
 
-Sette punti a Corvonero, uno per ogni Tassofrasso hai contribuito a proteggere.
+Sette punti a Corvonero, uno per ogni Tassofrasso che hai contribuito a
+ proteggere.
  E non dirò nulla di più
 \begin_inset Quotes frd
 \end_inset
@@ -2804,7 +2858,7 @@ No
 \begin_inset Quotes fld
 \end_inset
 
-Ma quando racconterete a tutti questa storia assicuratevi di condividerla
+Ma quando racconterete a tutti questa storia, assicuratevi di condividerla
  con Hermione Granger del primo anno di Corvonero, ha un aneddoto che potreste
  trovare divertente
 \begin_inset Quotes frd
@@ -2842,11 +2896,11 @@ Davvero non lo sai?
 \begin_inset Quotes fld
 \end_inset
 
-Se lo sapessi, non te lo chiederei
+Se lo sapessi, non te lo chiederei.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
