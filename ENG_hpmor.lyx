@@ -11,11 +11,11 @@
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
 %  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
 %  \makeheadrule{myheadings}{\textwidth}{0.4pt}
-  \makeevenfoot{myheadings}{}{}{}
-  \makeoddfoot{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -73,7 +73,7 @@ initials
 \inputencoding auto
 \fontencoding 
 \font_roman Linux Libertine O
-\font_sans Linux Biolinum O
+\font_sans Cronos Pro
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -253,7 +253,7 @@ baselineskip}
 
 {
 \backslash
-Large
+LARGE
 \backslash
 sffamily Harry Potter e i}
 \backslash
@@ -268,11 +268,11 @@ baselineskip]
 
 {
 \backslash
-HUGE
+Huge
 \backslash
 sffamily 
 \backslash
-textsc{Metodi della razionalità}}
+textsc{Metodi della razionalità}
 \backslash
 
 \backslash
