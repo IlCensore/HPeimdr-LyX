@@ -7,8 +7,8 @@
 \usepackage{fmtcount}
 \usepackage{graphicx}
 
-%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
-\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
 %  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
   \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
@@ -272,7 +272,7 @@ Huge
 \backslash
 sffamily 
 \backslash
-textsc{Metodi della razionalità}
+textsc{Metodi della razionalità}}
 \backslash
 
 \backslash
