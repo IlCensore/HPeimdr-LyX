@@ -3,6 +3,66 @@
 \begin_document
 \begin_header
 \textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -13,22 +73,22 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman times
-\font_sans default
-\font_typewriter default
+\font_roman Linux Libertine O
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 11
+\paperfontsize 10
 \spacing single
 \use_hyperref false
 \papersize custom
@@ -47,20 +107,20 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 8.25in
-\paperheight 10.75in
-\leftmargin 0.5in
-\topmargin 0.875in
-\rightmargin 0.625in
-\bottommargin 0.875in
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation skip
-\defskip smallskip
+\paragraph_separation indent
+\paragraph_indentation default
 \quotes_language french
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -118,7 +178,7 @@ Harry era seduto sul suo letto, un libro di testo che giaceva floscio tra
 \begin_layout Standard
 Harry aveva appena avuto un'idea per un esperimento 
 \emph on
-realmente brillante
+davvero brillante
 \emph default
 .
 \end_layout
@@ -131,9 +191,9 @@ Avrebbe significato attendere un'altra ora per fare colazione, ma quello
 \end_layout
 
 \begin_layout Standard
-Mise da parte il libro di testo, saltò dal letto, vi corse intorno, si fiondò
- nel livello inferiore del suo baule, corse giù per le scale, e iniziò a
- spostare scatole di libri.
+Mise da parte il libro di testo, saltò giù dal letto, vi girò intorno, si
+ fiondò nel livello inferiore del suo baule, corse giù per le scale, e iniziò
+ a spostare scatole di libri.
  (Aveva assolutamente bisogno di toglierli dalle scatole e metterli nelle
  librerie, prima o poi, ma era nel pieno della sua gara di lettura con Hermione
  e stava perdendo terreno, così non ne aveva il tempo.)
@@ -209,8 +269,8 @@ Che significa che non sei sicuro di cosa accadrà all'universo?
 \begin_layout Standard
 Anthony accettò il libro senza proferir parola e tirò fuori una pergamena
  e una penna.
- Harry girò su sé stesso e chiuse gli occhi, assicurandosi non vedere niente,
- danzando avanti e indietro e saltellando su e giù.
+ Harry girò su sé stesso e chiuse gli occhi, per assicurarsi di non vedere
+ nulla, oscillando avanti e indietro e saltellando su e giù.
  Prese un taccuino di carta e una portamina e si preparò a scrivere.
 \end_layout
 
@@ -340,8 +400,9 @@ stabile
 \end_layout
 
 \begin_layout Standard
-Se ciò avesse funzionato, Harry avrebbe potuto utilizzarlo per recuperare
- ogni tipo di risposta che era facile da verificare ma difficile da cercare.
+Se avesse funzionato, Harry avrebbe potuto utilizzare questo metodo per
+ ottenere ogni tipo di risposta che fosse facile da verificare ma difficile
+ da trovare.
  Non avrebbe 
 \emph on
 semplicemente
@@ -369,7 +430,9 @@ Carta-2 diceva con una calligrafia appena tremolante:
 \end_layout
 
 \begin_layout Standard
-NON PASTICCIARE COL TEMPO
+
+\noun on
+Non si scherza col tempo
 \end_layout
 
 \begin_layout Standard
@@ -377,12 +440,16 @@ Harry scrisse
 \begin_inset Quotes fld
 \end_inset
 
-NON PASTICCIARE COL TEMPO
+
+\noun on
+Non si scherza col tempo
+\noun default
+
 \begin_inset Quotes frd
 \end_inset
 
  su Carta-1 con una calligrafia appena tremolante, la piegò attentamente,
- e prese la decisione di non compiere più esperimenti realmente brillanti
+ e prese la decisione di non compiere più esperimenti davvero brillanti
  col Tempo fin quando non avesse avuto almeno quindici anni.
 \end_layout
 
@@ -392,7 +459,7 @@ In base alle conoscenze di Harry, quello era stato il risultato sperimentale
 \end_layout
 
 \begin_layout Standard
-Fu alquanto difficile per Harry concentrarsi a leggere il suo libro di testo
+Fu alquanto difficile per lui concentrarsi a leggere il suo libro di testo
  nell'ora successiva.
 \end_layout
 
@@ -420,8 +487,9 @@ A voler essere precisi, le 15:32 di Giovedì pomeriggio.
 \end_layout
 
 \begin_layout Standard
-Harry e gli altri ragazzi del primo anno erano fuori su di un campo erboso
- con Madam Hooch, in piedi di fianco al parco manici di scopa di Hogwarts.
+Harry e gli altri ragazzi del primo anno erano all'aperto su di un campo
+ erboso, con Madam Hooch, in piedi di fianco al parco manici di scopa di
+ Hogwarts.
  Le ragazze avrebbero imparato a volare separatamente.
  Apparentemente, per qualche ragione, le ragazze non volevano imparare a
  volare sui manici di scopa in presenza dei ragazzi.
@@ -451,17 +519,16 @@ quel
 \emph default
  progetto per un dispositivo di volo, tra tutte le possibilità? Harry aveva
  sperato che si trattasse solo di un modo di dire, ma no, erano in piedi
- di fronte a ciò che sarebbero sembrati a chiunque degli ordinari manici
+ di fronte a quelli che sarebbero sembrati a chiunque degli ordinari manici
  di scopa da cucina in legno.
- Qualcuno era semplicemente rimasto bloccato sull'idea dei manici di scopa
- e non era riuscito a prendere in considerazione niente altro? Doveva essere
- così.
+ Qualcuno si era semplicemente fissato sull'idea dei manici di scopa e non
+ era riuscito a prendere in considerazione niente altro? Doveva essere così.
  Non era proprio possibile che gli strumenti 
 \emph on
 ottimali
 \emph default
- per pulire una cucina e per volarsene in giro casualmente coincidessero,
- se qualcuno ci avesse lavorato sopra ripartendo da zero.
+ per pulire una cucina e per volarsene in giro coincidessero per caso, se
+ qualcuno ci avesse lavorato sopra ripartendo da zero.
 \end_layout
 
 \begin_layout Standard
@@ -473,9 +540,9 @@ Era una giornata limpida con un cielo blu luminoso e un sole brillante che
 \end_layout
 
 \begin_layout Standard
-Harry continuò a ricordarsi che era previsto che il minimo comune denominatore
- degli undicenni imparasse questa lezione, e che non poteva essere così
- difficile.
+Harry continuò a ricordare a sé stesso che ci si aspettava che il minimo
+ comune denominatore degli undicenni imparasse quella lezione, e che non
+ poteva essere così difficile.
 \end_layout
 
 \begin_layout Standard
@@ -491,7 +558,11 @@ Allungate la vostra mano destra sul manico, o la sinistra se siete mancini
 \begin_inset Quotes fld
 \end_inset
 
-E dite, SU!
+E dite, 
+\noun on
+su
+\noun default
+!
 \begin_inset Quotes frd
 \end_inset
 
@@ -502,7 +573,11 @@ E dite, SU!
 \begin_inset Quotes fld
 \end_inset
 
-SU!
+
+\noun on
+Su
+\noun default
+!
 \begin_inset Quotes frd
 \end_inset
 
@@ -514,22 +589,26 @@ Il manico di scopa saltò impazientemente nella mano di Harry.
 \end_layout
 
 \begin_layout Standard
-Cosa che lo mise alla testa della classe, per una volta.
+Cosa che lo rese il primo della classe, per una volta.
  Apparentemente dire 
 \begin_inset Quotes fld
 \end_inset
 
-SU!
+
+\noun on
+su
+\noun default
+!
 \begin_inset Quotes frd
 \end_inset
 
  era molto più difficile di quanto sembrasse, e la maggior parte dei manici
  di scopa stavano rotolandosi per terra o cercando di allontanarsi lentamente
- dai loro aspiranti piloti.
+ dal loro aspirante pilota.
 \end_layout
 
 \begin_layout Standard
-(Naturalmente Harry avrebbe scommesso del denaro che Hermione aveva fatto
+(Naturalmente Harry avrebbe scommesso dei soldi che Hermione aveva fatto
  almeno altrettanto bene, quando era stato il suo turno di provare, precedenteme
 nte quella stessa mattina.
  Non era possibile che esistesse qualcosa che 
@@ -581,44 +660,11 @@ Harry deglutì, cercando di sedare la sensazione di nausea allo stomaco.
 
 Tenete saldamente i manici, alzatevi di pochi piedi, e poi tornate subito
  giù piegandovi leggermente in avanti.
- Al mio fischio 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- tre 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- due
+ Al mio fischio -- tre -- due
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \begin_inset Quotes frd
 \end_inset
 
@@ -627,31 +673,13 @@ status open
 
 \begin_layout Standard
 Uno dei manici partì sparato verso il cielo, accompagnato dalle urla di
- un giovane ragazzo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ un giovane ragazzo -- urla di orrore, non di delizia.
+ Il ragazzo stava ruotando a una velocità terribile mentre saliva, e poterono
+ vedere solo di sfuggita il suo volto bianco
+\begin_inset space ~
 \end_inset
 
- urla di orrore, non di delizia.
- Il ragazzo stava ruotando a una velocità terribile mentre saliva, ed essi
- poterono vedere solo di sfuggita il suo volto bianco 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -662,26 +690,23 @@ i, e l'ultima
 \emph on
 era
 \emph default
- stata riguardo l'Incantesimo di Sospensione in Volo, ma Harry era stato
- in grado di lanciare l'incantesimo solo una volta su tre e certamente non
- era in grado di far levitare intere persone 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ stata sull'Incantesimo di Sospensione in Volo, ma Harry era stato in grado
+ di lanciare l'incantesimo solo una volta su tre e certamente non era in
+ grado di far levitare intere persone
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-Se esiste un qualunque potere nascosto in me, che si riveli ORA!
+Se esiste un qualunque potere nascosto in me, che si riveli 
+\noun on
+ora
+\noun default
+!
 \end_layout
 
 \begin_layout Standard
@@ -692,8 +717,8 @@ Torna indietro, ragazzo!
 \begin_inset Quotes frd
 \end_inset
 
- urlò Madam Hooch (il che doveva essere l'ordine più inutile che si potesse
- immaginare per gestire un manico di scopa fuori controllo, e da parte di
+ urlò Madam Hooch (si doveva trattare dell'ordine più inutile che si potesse
+ immaginare per domare un manico di scopa fuori controllo, e da parte di
  un 
 \emph on
 istruttore di volo
@@ -747,18 +772,11 @@ Pacchetto di Guarigione
 \begin_inset Quotes frd
 \end_inset
 
- e gli comparve in mano e 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ e gli comparve in mano e
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
@@ -866,37 +884,17 @@ Naturalmente no!
 \begin_inset Quotes frd
 \end_inset
 
- Sollevò il ragazzo in piedi usando il suo braccio sano 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- Harry vide con turbamento che si trattava 
+ Sollevò il ragazzo in piedi usando il suo braccio sano -- Harry vide con
+ turbamento che si trattava 
 \emph on
-ancora
+ancora una volta
 \emph default
  di Neville Longbottom
 \emph on
 ,
 \emph default
- ma cosa aveva questo ragazzo? 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- e tornò verso tutti i bambini che stavano guardando.
+ ma cosa aveva questo ragazzo? -- e tornò verso tutti i bambini che stavano
+ guardando.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1046,18 +1044,11 @@ Ernie sembrò diviso tra l'arrabbiarsi e il voler morire di vergogna.
 \begin_inset Quotes fld
 \end_inset
 
-Non ci abbiamo pensato in tempo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Non ci abbiamo pensato in tempo
+\begin_inset space ~
 \end_inset
 
-
+--
 \begin_inset Quotes frd
 \end_inset
 
@@ -1207,18 +1198,11 @@ Quell'idiota!
 \end_inset
 
  sibilò Draco.
- Aprì la bocca per gridare 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ Aprì la bocca per gridare
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
@@ -1255,7 +1239,7 @@ I Serpeverde iniziarono ad acclamare e a fischiare.
 
 \begin_layout Standard
 La bocca di Draco si chiuse di colpo.
- Harry colse l'improvviso sguardo di indecisione sul suo volto.
+ Harry colse l'improvvisa espressione di indecisione sul suo volto.
 \end_layout
 
 \begin_layout Standard
@@ -1271,18 +1255,10 @@ Draco
 \end_inset
 
 se non ordini a quell'idiota di tornare a terra, l'insegnante tornerà e
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
-
+--
 \begin_inset Quotes frd
 \end_inset
 
@@ -1301,7 +1277,7 @@ Venitevela a prendere, Tassofrasso!
 \begin_inset Quotes frd
 \end_inset
 
- gridò il signor Goyle, e una grande acclamazione venne dai Serpeverde.
+ gridò il signor Goyle, e una grande acclamazione si alzò dai Serpeverde.
 \end_layout
 
 \begin_layout Standard
@@ -1364,18 +1340,11 @@ Il volto di Draco si deformò per l'agonia.
 \end_layout
 
 \begin_layout Standard
-In quel momento 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+In quel momento
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
@@ -1396,7 +1365,7 @@ Serpemarcia
 
 nessuno ti ha mai detto che i Tassofrasso restano uniti? 
 \emph on
-Fuori le bacchette, Tassofrasso!
+Mano alle bacchette, Tassofrasso!
 \emph default
 
 \begin_inset Quotes frd
@@ -1407,35 +1376,15 @@ Fuori le bacchette, Tassofrasso!
 
 \begin_layout Standard
 E ci fu improvvisamente un gran numero di bacchette puntate nella direzione
- del signor 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
-\end_inset
-
-Goyle.
+ del signor Goyle.
 \end_layout
 
 \begin_layout Standard
-Tre secondi dopo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Tre secondi dopo
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
@@ -1444,7 +1393,7 @@ status open
 
 
 \emph on
-Fuori le bacchette, Serpeverde!
+Mano alle bacchette, Serpeverde!
 \emph default
 
 \begin_inset Quotes frd
@@ -1458,18 +1407,11 @@ E ci fu un gran numero di bacchette puntate nella direzione dei Tassofrasso.
 \end_layout
 
 \begin_layout Standard
-Due secondi dopo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Due secondi dopo
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
@@ -1478,7 +1420,7 @@ status open
 
 
 \emph on
-Fuori le bacchette, Grifondoro!
+Mano alle bacchette, Grifondoro!
 \emph default
 
 \begin_inset Quotes frd
@@ -1506,8 +1448,8 @@ Fa' qualcosa, Potter!
 
 
 \emph on
-Non posso essere io a fermarli, devi essere tu! Ti dovrò un favore, semplicement
-e pensa a qualcosa, non dovresti essere geniale?
+Non posso essere io a fermarli, devi essere tu! Ti dovrò un favore, pensa
+ a qualcosa, non dovresti essere geniale?
 \emph default
 
 \begin_inset Quotes frd
@@ -1529,7 +1471,7 @@ In circa cinque secondi e mezzo, capì Harry, qualcuno avrebbe lanciato la
 
 
 \emph on
-Fuori le bacchette, Corvonero!
+Mano alle bacchette, Corvonero!
 \emph default
 
 \begin_inset Quotes frd
@@ -1545,8 +1487,10 @@ Fuori le bacchette, Corvonero!
 
 
 \emph on
-GREGORY GOYLE!
+\noun on
+Gregory Goyle!
 \emph default
+\noun default
 
 \begin_inset Quotes frd
 \end_inset
@@ -1585,7 +1529,7 @@ Oh, davvero?
 \end_inset
 
 Questo sembra interessante.
- Che genere di competizione, Potter?
+ Che tipo di competizione, Potter?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1605,7 +1549,7 @@ Competizione
 \end_inset
 
  era il massimo che l'ispirazione di Harry avesse prodotto.
- Che genere di competizione, non avrebbe potuto dire 
+ Che tipo di competizione, non avrebbe potuto dire 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1622,18 +1566,11 @@ braccio di ferro
 \begin_inset Quotes frd
 \end_inset
 
- perché il signor Goyle l'avrebbe schiacciato 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ perché il signor Goyle l'avrebbe schiacciato
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
@@ -1729,8 +1666,9 @@ mente al suolo con grazia, l'espressione alquanto confusa.
 \end_layout
 
 \begin_layout Standard
-Harry si diresse verso il signor Goyle e si fermò quando si trovò a pochi
- passi di distanza, abbastanza lontani da non potersi raggiungere l'un l'altro.
+Harry si diresse verso il signor Goyle e si fermò quando si trovarono a
+ pochi passi di distanza, abbastanza lontani da non potersi raggiungere
+ l'un l'altro.
 \end_layout
 
 \begin_layout Standard
@@ -1755,18 +1693,7 @@ cosa
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1865,11 +1792,11 @@ Uhm, sì
 \begin_inset Quotes fld
 \end_inset
 
-Scava lì
+Scava lì.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1959,7 +1886,7 @@ Ernie, daresti un'occhiata al terreno dove Neville è caduto per vedere se
 \end_layout
 
 \begin_layout Standard
-La gente sembrò ancora più confusa.
+Tutti sembrarono ancora più confusi.
 \end_layout
 
 \begin_layout Standard
@@ -1970,7 +1897,7 @@ Fallo e basta
 \begin_inset Quotes frd
 \end_inset
 
-disse Terry Boot.
+ disse Terry Boot.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1979,18 +1906,7 @@ Continuerà così finché qualcosa non funzionerà, e la cosa peggiore è che
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \begin_inset Quotes frd
 \end_inset
 
@@ -2043,7 +1959,7 @@ Cosa?
 \end_layout
 
 \begin_layout Standard
-…che stava ancora reggendo la Ricordella di Neville.
+… che stava ancora reggendo la Ricordella di Neville.
 \end_layout
 
 \begin_layout Standard
@@ -2102,18 +2018,7 @@ assolutamente
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \begin_inset Quotes frd
 \end_inset
 
@@ -2155,18 +2060,8 @@ Fermi tutti!
 \begin_inset Quotes frd
 \end_inset
 
- gridò un Serpeverde 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- Blaise Zabini, Harry avrebbe difficilmente dimenticato quel nome.
+ gridò un Serpeverde -- Blaise Zabini, Harry avrebbe difficilmente dimenticato
+ quel nome.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2180,18 +2075,7 @@ un'altra
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \begin_inset Quotes frd
 \end_inset
 
@@ -2212,7 +2096,7 @@ Serpeverde è forte in lui
 \end_inset
 
 Ma hai la mia parola che quella che Ernie sta tenendo è di Neville.
- Nulla dico di quella che è in possesso di Gregory Goyle
+ Nulla affermo a proposito di quella che è in possesso di Gregory Goyle
 \begin_inset Quotes frd
 \end_inset
 
@@ -2233,18 +2117,7 @@ Malfoy!
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \begin_inset Quotes frd
 \end_inset
 
@@ -2319,7 +2192,7 @@ Ci fu una pausa.
 
 Prometti che quella è 
 \emph on
-realmente
+effettivamente
 \emph default
  la Ricordella di Neville?
 \begin_inset Quotes frd
@@ -2357,9 +2230,9 @@ Draco annuì, l'espressione risoluta.
 \end_inset
 
 Non metterò in dubbio la parola della Nobile Casa Potter, allora, non importa
- quanto strano tutto ciò sia.
- E la Nobile e Antichissima Casa Malfoy mantiene la propria parola allo
- stesso modo.
+ quanto strano sia tutto questo.
+ E allo stesso modo la Nobile e Antichissima Casa Malfoy mantiene la propria
+ parola.
  Signor Goyle, la dia al signor Potter
 \begin_inset space ~
 \end_inset
