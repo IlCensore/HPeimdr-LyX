@@ -3,6 +3,66 @@
 \begin_document
 \begin_header
 \textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -13,22 +73,22 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman times
-\font_sans default
-\font_typewriter default
+\font_roman Warnock Pro
+\font_sans Electra LT Std
+\font_typewriter Inconsolata
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 11
+\paperfontsize 10
 \spacing single
 \use_hyperref false
 \papersize custom
@@ -47,20 +107,20 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 8.25in
-\paperheight 10.75in
-\leftmargin 0.5in
-\topmargin 0.875in
-\rightmargin 0.625in
-\bottommargin 0.875in
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language french
-\papercolumns 2
+\papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -105,8 +165,8 @@ lettrine[lines=1]{E}{ra l'ora}
 
  di colazione di Venerdì mattina.
  Harry staccò un altro grosso morso dal suo pane tostato e poi cercò di
- ricordare al suo cervello che ingollare la colazione non l'avrebbe portato
- nei sotterranei più presto.
+ ricordare al suo cervello che trangugiare la colazione non l'avrebbe portato
+ prima nei sotterranei.
  Ad ogni modo, avevano un'intera ora di studio tra la colazione e l'inizio
  di Pozioni.
 \end_layout
@@ -165,18 +225,7 @@ Fu circa quattro morsi dopo che qualcuno disse «Scusami», e Harry si voltò
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -188,18 +237,11 @@ Qualche tempo dopo, Harry stava finendo il suo terzo piatto di pancetta.
 
 \begin_layout Standard
 «Sì», disse Harry stancamente, «Cercherò di non attirare l'attenzione del
- professor Snape 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ professor Snape
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -283,13 +325,13 @@ Fred e George scoppiarono a ridere entrambi, come se Harry avesse detto
 
 \begin_layout Standard
 Harry si voltò di nuovo verso il tavolo della colazione e afferrò un pasticcino.
- Il suo stomaco era già pieno, ma aveva la sensazione che questa mattina
+ Il suo stomaco era già pieno, ma aveva la sensazione che quella mattina
  avrebbe utilizzato molte calorie.
 \end_layout
 
 \begin_layout Standard
 Mentre mangiava il suo pasticcino, Harry pensò al peggior insegnante che
- aveva conosciuto fino ad ora, il professor Binns di Storia.
+ avesse conosciuto fino a quel momento, il professor Binns di Storia.
  Il professor Binns era un fantasma.
  Da quello che Hermione aveva detto dei fantasmi, non sembrava probabile
  che fossero pienamente consapevoli di sé.
@@ -303,31 +345,10 @@ Mentre mangiava il suo pasticcino, Harry pensò al peggior insegnante che
 
 \begin_layout Standard
 Harry aveva incontrato alcuni insegnanti stupidi durante le sue incursioni
- abortive nella comune istruzione babbana 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- suo padre era stato molto più esigente quando si era trattato di selezionare
- studenti universitari come tutori, ovviamente 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- ma il corso di storia era stato la prima volta che aveva incontrato un
- insegnante che letteralmente non era senziente.
+ abortite nella normale istruzione babbana -- suo padre era stato molto
+ più esigente quando si era trattato di selezionare studenti universitari
+ come precettori, ovviamente -- ma il corso di storia era stato la prima
+ volta che aveva incontrato un insegnante che letteralmente non era senziente.
 \end_layout
 
 \begin_layout Standard
@@ -342,9 +363,7 @@ E si vedeva, anche.
 I fantasmi non prendevano stipendio? Era per questo? O era letteralmente
  impossibile licenziare qualcuno a Hogwarts 
 \emph on
-anche se era morto
-\emph default
-?
+anche se era morto?
 \end_layout
 
 \begin_layout Standard
@@ -365,8 +384,8 @@ E il Preside aveva dato fuoco a una gallina.
 \end_layout
 
 \begin_layout Standard
-«Giuro», disse Harry senza girarsi, «che questo posto è tanto brutto quanto
- l'otto e mezzo percento di quanto papà dica di Oxford».
+«Giuro», disse Harry senza girarsi, «che questo posto è brutto quanto l'otto
+ e mezzo percento di quanto papà dica sia Oxford».
 \end_layout
 
 \begin_layout Quote
@@ -399,7 +418,7 @@ cantina!
 \end_layout
 
 \begin_layout Standard
-Alcune ragazze Corvonero lo guardarono stranamente.
+Alcune ragazze Corvonero lo guardarono come fosse strano.
  I ragazzi erano tutti abituati a lui, ormai.
 \end_layout
 
@@ -446,7 +465,7 @@ L'aula di Pozioni conservava strane creature, galleggianti in enormi vasi
 sembrasse
 \emph default
  un'Acromantula, era troppo piccolo per esserne uno.
- Aveva provato a chiedere a Hermione, ma ella non sembrava molto interessata
+ Aveva provato a chiedere a Hermione, ma non sembrava molto interessata
  a guardare in nessun luogo vicino a dove stava indicando.
 \end_layout
 
@@ -490,15 +509,15 @@ Severus si sedette dietro la cattedra, e senza la minima introduzione, disse
 \end_layout
 
 \begin_layout Standard
-«Susan Bones».
+«Susan Bones.»
 \end_layout
 
 \begin_layout Standard
-«Presente».
+«Presente.»
 \end_layout
 
 \begin_layout Standard
-E andò così, nessuno che osava dire una parola fuori luogo, finché:
+E andò avanti così, nessuno che osava dire una parola fuori posto, finché:
 \end_layout
 
 \begin_layout Standard
@@ -508,11 +527,11 @@ E andò così, nessuno che osava dire una parola fuori luogo, finché:
 \emph on
 celebrità
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -520,7 +539,7 @@ celebrità
 \emph on
 signore
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -537,10 +556,11 @@ Severus sorrise come in anticipazione e chiamò il successivo nome sulla
 Harry fece un sospiro mentale.
  Tutto era successo troppo velocemente perché potesse fare qualcosa a riguardo.
  Oh, bene.
- Chiaramente quest'uomo già non lo aveva in simpatia, per qualsiasi motivo.
- E a pensarci, molto meglio che questo professore di Pozioni se la prendesse
+ Chiaramente quest'uomo non lo aveva già in simpatia, quale che fosse il
+ motivo.
+ E pensandoci, molto meglio che questo professore di Pozioni se la prendesse
  con lui piuttosto che, diciamo, con Neville e Hermione.
- Harry era in grado di difendersi molto meglio.
+ Harry era molto più bravo a difendersi.
  Sì, probabilmente tutto sarebbe andato per il meglio.
 \end_layout
 
@@ -562,19 +582,8 @@ Quando l'appello fu terminato, Severus fece passare il suo sguardo sulla
  carezzevole e compiaciuto, «stregando la mente e irretendo i sensi», tutto
  stava decisamente diventando sempre più inquietante e angosciante.
  «Io posso insegnarvi come imbottigliare la fama, fermentare la gloria,
- persino tappare la morte 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- se non non foste un grande branco di stupidi come quelli cui normalmente
- insegno».
+ persino spillare la morte -- se non foste un grande branco di stupidi come
+ quelli cui normalmente insegno».
 \end_layout
 
 \begin_layout Standard
@@ -600,18 +609,7 @@ Filtri magici e pozioni
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -640,7 +638,7 @@ Tre quarti della classe sussultarono.
 
 \begin_layout Standard
 La mano di Hermione stava scendendo lentamente verso il basso.
- Beh, questo non era sorprendente.
+ Beh, non era una sorpresa.
  Poteva essere la sua rivale, ma non era il tipo di ragazza che sarebbe
  stata al gioco dopo che fosse diventato chiaro che il professore stava
  deliberatamente cercando di umiliarlo.
@@ -664,18 +662,7 @@ Harry stava tentando con forza di mantenere il controllo del suo temperamento.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -690,18 +677,11 @@ status open
 detto
 \emph default
  che sarebbe stato in grado di farlo, ho detto che era quello che ho letto
- in un libro babbano 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ in un libro babbano
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -726,7 +706,7 @@ affascinanti
 \emph default
 , si descrive uno studio in cui delle persone riuscivano a farsi passare
  per molto intelligenti ponendo domande su fatti qualunque di cui solo loro
- sapevano.
+ erano a conoscenza.
  A quanto pare gli osservatori notavano solo che chi faceva le domande sapeva
  le risposte e chi le riceveva no, e non riuscivano ad adattare il loro
  giudizio all'iniquità dello schema sottostante.
@@ -777,30 +757,19 @@ Hermione rantolò, insieme a diversi altri.
 
 \begin_layout Standard
 «Professor Severus Snape», Harry profferì.
- «Non so nulla che possa aver fatto per guadagnare la sua ostilità.
- Se c'è qualche problema che ha con me di cui non so nulla, suggerisco che
+ «Non cosa possa aver fatto per meritare la sua ostilità.
+ Se ha qualche problema con me di cui non sono al corrente, suggerisco che
  noi
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-»
+--»
 \end_layout
 
 \begin_layout Standard
 «Stai zitto, Potter.
  Altri dieci punti da Corvonero.
- Voi altri, aprite i vostri libri a pagina 3».
+ Voi altri, aprite i vostri libri a pagina 3.»
 \end_layout
 
 \begin_layout Standard
@@ -814,7 +783,7 @@ C'era solamente una sensazione leggera, solamente una sensazione molto debole
 \begin_layout Standard
 Lentamente, Harry raddrizzò la schiena.
  Tutto il suo sangue sembrava essere defluito e sostituito con azoto liquido.
- Sapeva che aveva provato a contenere il suo temperamento, ma non sembrava
+ Sapeva che aveva provato a controllare il suo temperamento, ma non sembrava
  in grado di ricordare perché.
 \end_layout
 
@@ -824,18 +793,7 @@ Lentamente, Harry raddrizzò la schiena.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -843,25 +801,14 @@ status open
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-»
+--»
 \end_layout
 
 \begin_layout Standard
 «Dunque», disse una voce più fredda di zero gradi Kelvin, «cosa si deve
- fare per presentare un reclamo formale contro un professore offensivo?
- Bisogna parlare con la Vice Preside, scrivere una lettera al Consiglio
- Direttivo… le dispiacerebbe spiegare come funziona?»
+ fare per presentare un reclamo formale contro un professore molesto? Bisogna
+ parlare con la Vice Preside, scrivere una lettera al Consiglio Direttivo…
+ le dispiacerebbe spiegare come funziona?»
 \end_layout
 
 \begin_layout Standard
@@ -874,7 +821,7 @@ La classe era completamente paralizzata.
 
 \begin_layout Standard
 «Mi rifiuto di riconoscere la sua autorità di insegnante e non sconterò
- alcuna detenzione data da lei».
+ alcuna detenzione data da lei.»
 \end_layout
 
 \begin_layout Standard
@@ -883,18 +830,11 @@ Le persone smisero di respirare.
 
 \begin_layout Standard
 Il sorriso di Severus svanì.
- «Allora sarai 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ «Allora sarai
+\begin_inset space ~
 \end_inset
 
-» la sua voce si fermò bruscamente.
+--» la sua voce si interruppe bruscamente.
 \end_layout
 
 \begin_layout Standard
@@ -902,10 +842,10 @@ status open
  sorriso.
  «Ma poi è sembrato dubitare della sua capacità di attuare la sua minaccia,
  o temere le conseguenze se l'avesse fatto.
- Io, al contrario, non ho dubiti né timori alla prospettiva di trovare un'altra
- scuola con professori meno offensivi.
- O forse dovrei pagare dei tutori privati, come sono avvezzo a fare, e ricevere
- un'educazione alla mia piena velocità di apprendimento.
+ Io, al contrario, non ho dubbi né timori alla prospettiva di trovare un'altra
+ scuola con professori meno molesti.
+ O forse dovrei pagare dei precettori privati, come sono avvezzo a fare,
+ e ricevere un'educazione alla mia piena velocità di apprendimento.
  Ho abbastanza denaro nel mio deposito.
  Qualcosa a proposito di taglie su di un Signore Oscuro che ho sconfitto.
  Ma ci 
@@ -988,18 +928,7 @@ scherzando
 \begin_layout Standard
 Harry fissò lo sguardo freddo di Severus e ricordò che il Cappello Smistatore
  lo aveva avvertito di non incrociare lo sguardo di chiunque mentre stava
- pensando a 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- Harry abbassò lo sguardo sulla scrivania di Severus.
+ pensando a -- Harry abbassò lo sguardo sulla scrivania di Severus.
 \end_layout
 
 \begin_layout Standard
@@ -1007,18 +936,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-Una scossa di comprensione improvvisa 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- «Quindi è stato contro di 
+Una scossa di comprensione improvvisa -- «Quindi è stato contro di 
 \emph on
 lei
 \emph default
@@ -1044,8 +962,8 @@ Harry lo ignorò, e guardò l'aula.
  «Non ho alcuna intenzione di lasciare che un insegnante non professionale
  rovini il mio tempo a Hogwarts», disse Harry mortalmente calmo.
  «Penso che mi congederò da questo corso, e o assumerò un tutore per insegnarmi
- Pozioni mentre sono qui, o se il Consiglio è davvero così controllato,
- studierò durante l'estate.
+ Pozioni mentre sono qui, o se il Consiglio è davvero sotto controllo, studierò
+ durante l'estate.
  Se qualcuno di voi decidesse che non gli interessa essere vittima del bullismo
  di quest'uomo, le mie sessioni saranno aperte anche a lui».
 \end_layout
@@ -1072,7 +990,7 @@ nte prima di ricordarsi di guardare altrove.
 \end_layout
 
 \begin_layout Standard
-«Apra questa porta».
+«Apra questa porta.»
 \end_layout
 
 \begin_layout Standard
@@ -1165,8 +1083,16 @@ Harry cercò di dire «Che cosa?» e scoprì che non gli usciva alcun suono.
 Harry mise la mano in tasca e cercò di dire `pennarello', ma ovviamente
  nessuna parola uscì fuori.
  Per un breve momento, questo lo fermò; poi gli venne in mente di formare
- la sequenza P-E-N-N-A-R-E-L-L-O con movimenti delle dita, e questo funzionò.
- B-L-O-C-C-O ed ebbe il blocco di carta.
+ la sequenza 
+\noun on
+p-e-n-n-a-r-e-l-l-o
+\noun default
+ con i movimenti delle dita, e questo funzionò.
+ 
+\noun on
+b-l-o-c-c-o
+\noun default
+ ed ebbe il blocco di carta.
  Harry si diresse a un banco vuoto, non quello dove era originariamente
  seduto, e scarabocchiò un breve messaggio.
  Strappò quel foglio di carta, mise via il pennarello e il blocco in una
@@ -1175,15 +1101,21 @@ Harry mise la mano in tasca e cercò di dire `pennarello', ma ovviamente
 \end_layout
 
 \begin_layout Quotation
-ME NE VADO
+
+\noun on
+Me ne vado
 \end_layout
 
 \begin_layout Quotation
-QUALCUN ALTRO HA
+
+\noun on
+qualcun altro ha
 \end_layout
 
 \begin_layout Quotation
-BISOGNO DI USCIRE?
+
+\noun on
+bisogno di uscire?
 \end_layout
 
 \begin_layout Standard
@@ -1230,12 +1162,16 @@ Lo stanzino era vuoto.
 \end_layout
 
 \begin_layout Standard
-Un'ora prima, Harry si mise ad ascoltare all'interno dello stanzino chiuso.
+Un'ora prima, Harry si mise in ascolto all'interno dello stanzino chiuso.
  Non c'era alcun suono all'esterno, e neppure alcun motivo di rischiare.
 \end_layout
 
 \begin_layout Standard
-M-A-N-T-E-L-L-O, formularono le sue dita.
+
+\noun on
+M-a-n-t-e-l-l-o
+\noun default
+, formarono le sue dita.
 \end_layout
 
 \begin_layout Standard
@@ -1276,19 +1212,12 @@ La sua immaginazione gli mostrò i suoi genitori che gli urlavano contro
  era troppo doloroso e non poteva sopportarlo e 
 \emph on
 non riusciva a pensare a un modo per salvarsi
-\emph default
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 
+\emph default
+--
 \end_layout
 
 \begin_layout Standard
@@ -1308,18 +1237,7 @@ Così ricacciò tutti i suoi pensieri e ricordò la bruciante umiliazione
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1337,12 +1255,12 @@ Dieci punti da Corvonero per l'insolenza.
 
 \begin_layout Standard
 Il freddo calmante ripulì le sue vene come la risacca di un'onda riflessa
- da un ostacolo, e Harry si lasciò espirare.
+ da un ostacolo, e Harry si permise di espirare.
 \end_layout
 
 \begin_layout Standard
 Va bene.
- Torna ad essere sano di mente ora.
+ Torna ad essere sano di mente, ora.
 \end_layout
 
 \begin_layout Standard
