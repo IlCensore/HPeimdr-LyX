@@ -3,6 +3,66 @@
 \begin_document
 \begin_header
 \textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -13,22 +73,22 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman times
-\font_sans default
-\font_typewriter default
+\font_roman Arno Pro
+\font_sans Electra LT Std
+\font_typewriter Inconsolata
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 11
+\paperfontsize 10
 \spacing single
 \use_hyperref false
 \papersize custom
@@ -47,20 +107,20 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 8.25in
-\paperheight 10.75in
-\leftmargin 0.5in
-\topmargin 0.875in
-\rightmargin 0.625in
-\bottommargin 0.875in
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language french
-\papercolumns 2
+\papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -125,13 +185,11 @@ lettrine[lines=1]{D}{raco aveva}
 \emph on
 state zitti
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
 
-\emph on
-.
 \end_layout
 
 \begin_layout Standard
@@ -146,13 +204,13 @@ L'ultima sessione di lezioni di Venerdì.
 
 \begin_layout Standard
 Harry stava sperando che questa lezione sarebbe stata tranquilla, e che
- il brillante professor Quirrell avrebbe compreso che questo non era forse
+ il brillante professor Quirrell avrebbe compreso che quello non era forse
  il momento migliore per scegliere Harry tra tanti per qualche dimostrazione.
  Harry si era ripreso un po', ma…
 \end_layout
 
 \begin_layout Standard
-…ma giusto per sicurezza, era probabilmente meglio sfogarsi un po', prima.
+… ma giusto per sicurezza, era probabilmente meglio sfogarsi un po', prima.
 \end_layout
 
 \begin_layout Standard
@@ -164,45 +222,13 @@ Harry si appoggiò allo schienale della sedia e concesse uno sguardo di grande
 «Voi chiedete: qual è il nostro obiettivo?» declamò Harry.
  «Posso rispondere con una parola.
  È la vittoria.
- Vittoria a tutti i costi 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- Vittoria malgrado qualunque terrore 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- Vittoria, per quanto lunga e dura possa essere la strada, perché senza
- vittoria non c'è
+ Vittoria a tutti i costi -- Vittoria malgrado qualunque terrore -- Vittoria,
+ per quanto lunga e dura possa essere la strada, perché senza vittoria non
+ c'è
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -395,19 +421,12 @@ Il signor Crabbe e il signor Goyle sembrarono
 \emph on
 molto 
 \emph default
-infelici.
- «Capo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+scontenti.
+ «Capo
+\begin_inset space ~
 \end_inset
 
-» disse il signor Crabbe.
+--» disse il signor Crabbe.
 \end_layout
 
 \begin_layout Standard
@@ -417,12 +436,12 @@ status open
 \end_layout
 
 \begin_layout Standard
-Se ne andarono
+Se ne andarono.
 \end_layout
 
 \begin_layout Standard
-«In particolare», Harry disse abbassando ancora di più la sua voce, «non
- sono 
+«In particolare», Harry disse abbassando ancora di più la voce, «non sono
+ 
 \emph on
 completamente 
 \emph default
@@ -434,7 +453,7 @@ sicuro che non andrebbero a riferire quanto dicessi a Lucius».
 \emph on
 una cosa simile!
 \emph default
-» Draco disse apparendo genuinamente inorridito.
+» disse Draco sembrando genuinamente inorridito.
  «Sono 
 \emph on
 miei!
@@ -515,8 +534,8 @@ Ora, per metterla nella maniera più vaga possibile\SpecialChar \ldots{}
 \end_inset
 
 Ciò che ho detto è vero.
- Ho realmente scoperto uno dei dei segreti di Severus e ho esercitato un
- piccolo ricatto.
+ Ho realmente scoperto uno dei segreti di Severus e ho esercitato un piccolo
+ ricatto.
  Ma Severus non era l'unica persona coinvolta
 \begin_inset Quotes frd
 \end_inset
@@ -542,7 +561,7 @@ Lo stomaco di Harry sprofondò.
 \begin_layout Standard
 «Va bene», disse Draco.
  Ora aveva un ampio sorriso.
- «Quindi ecco com'è stata la reazione in Serpeverde.
+ «Quindi eccoti le reazioni in Serpeverde.
  All'inizio, tutti gli idioti hanno detto `Odiamo Harry Potter! Andiamo
  a pestarlo!'»
 \end_layout
@@ -557,18 +576,11 @@ sbagliato
 \emph on
 Grifondoro
 \emph default
- 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -612,8 +624,8 @@ parecchia
 \emph on
 successivo
 \emph default
- è che abbia qualcosa a che fare con la sconosciuta influenza di Snape su
- Silente.
+ è stato che abbia qualcosa a che fare con la misteriosa influenza di Snape
+ su Silente.
  Ho ragione?»
 \end_layout
 
@@ -643,7 +655,7 @@ successiva
  questo significava che probabilmente avevi abbastanza potere da sbarazzarti
  di lui completamente, se avessi voluto.
  Quello che gli hai fatto è stato umiliarlo, proprio allo stesso modo in
- cui lui ha cercato di umiliare te -- ma ci ha lasciato il nostro Capo della
+ cui lui ha cercato di umiliare te -- ma ci hai lasciato il Capo della nostra
  Casa».
 \end_layout
 
@@ -698,7 +710,7 @@ tu conosci quel segreto!
 deve
 \emph default
  essere veramente buona! Mio padre sta cercando di convincere Severus a
- rivelargliela da anni! »
+ rivelargliela da anni!»
 \end_layout
 
 \begin_layout Standard
@@ -707,11 +719,15 @@ deve
 io
 \emph default
  potrò dirgliela.
- Hai già ricevuto un gufo --»
+ Hai già ricevuto un gufo
+\begin_inset space ~
+\end_inset
+
+--»
 \end_layout
 
 \begin_layout Standard
-«Lo farò questa sera», Draco disse, e rise.
+«Lo riceverò questa sera», Draco disse, e rise.
  «Dirà», la sua voce assunse una cadenza differente, più formale, «
 \emph on
 Mio amato figlio: ti ho già detto della potenziale importanza di Harry Potter.
@@ -864,7 +880,11 @@ Quando Severus ha assegnato altri punti Casa a Serpeverde?
 Gli occhi di Draco guizzarono per la comprensione, poi disse rapidamente,
  «Non è la stessa cosa, credimi, deve essere qualcosa di ovvio.
  Spingi contro un muro la tua rivale sanguemarcio Granger o qualcosa del
- genere, tutti in Serpeverde capiranno cosa significa --»
+ genere, tutti in Serpeverde capiranno cosa significa
+\begin_inset space ~
+\end_inset
+
+--»
 \end_layout
 
 \begin_layout Standard
@@ -880,8 +900,12 @@ debole
  per batterlo nel modo giusto e tutti in Corvonero 
 \emph on
 lo sanno
+\begin_inset space ~
+\end_inset
+
+
 \emph default
- --»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -962,7 +986,7 @@ Alcuni studenti risero, ma non molti.
 \begin_layout Standard
 «Infatti», disse il professor Quirrell.
  «Ma sebbene sia inutile chiederlo a qualcuno di voi, non mi sorprenderebbe
- minimamente se ci fossero uno studente o due nelle mie classi che nutrono
+ minimamente se ci fossero uno studente o due nelle mie classi che nutrissero
  l'ambizione di essere il prossimo Signore Oscuro.
  Dopo tutto, 
 \emph on
@@ -990,7 +1014,11 @@ Questa volta la risata fu molto più diffusa.
 \emph on
 io
 \emph default
- non avrei mai fatto quando fossi diventato un Signore Oscuro --»
+ non avrei mai fatto quando fossi diventato un Signore Oscuro
+\begin_inset space ~
+\end_inset
+
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1015,21 +1043,25 @@ Grande
 \end_layout
 
 \begin_layout Standard
-«Il 
+«Le 
 \emph on
-termine
+parole
 \emph default
-, signor Potter, è 
+, signor Potter, sono 
 \emph on
 Avada Kedavra
 \emph default
-», la voce del professor Quirrell suonò un po' brusco, per qualche motivo,
- «e no, quello non 
+», la voce del professor Quirrell suonò un po' brusca, per qualche motivo,
+ «e no, quello 
+\emph on
+non
+\emph default
+ 
 \emph on
 era
 \emph default
  sulla lista che stilai all'età di tredici anni.
- Le andrebbe di indovinare di nuovo?»
+ Le andrebbe di provare di nuovo?»
 \end_layout
 
 \begin_layout Standard
@@ -1072,11 +1104,11 @@ se
 \emph default
  per caso lei nutrisse un'ambizione simile a quella che io avevo da giovane
  Serpeverde -- anche in questo caso, spero non sia sua ambizione diventare
- uno 
+ un Signore Oscuro 
 \emph on
 stupido
 \emph default
- Signore Oscuro».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1130,7 +1162,7 @@ A quella vista, gli occhi di Harry si spalancarono, e comprese perché il
 
 \begin_layout Standard
 «La maggior parte dei maghi», disse il professor Quirrell, «non sprecano
- molto tempo con ciò che un Babbano chiamerebbe arti marziali.
+ molto tempo con quelle che un Babbano chiamerebbe arti marziali.
  Non è forse una bacchetta più forte di un pugno? Questo atteggiamento è
  stupido.
  Le bacchette sono tenute nei pugni.
@@ -1175,7 +1207,7 @@ dan
 \emph default
 .
  Non si farà del male e neppure me ne farò io.
- E se vede un varco, la prego di sfruttarlo».
+ E se vede un varco, la prego di sfruttarlo.»
 \end_layout
 
 \begin_layout Standard
@@ -1236,18 +1268,11 @@ C'era silenzio nell'aula, un silenzio nato dalla totale confusione.
 \end_inset
 
 , disse il signor Goyle.
- «È una delle prime lezioni che si imparano 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ «È una delle prime lezioni che si imparano
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1270,14 +1295,14 @@ Il signor Goyle abbandonò la piattaforma, sembrando alquanto frastornato.
 \end_layout
 
 \begin_layout Standard
-Il professor Quirrell tornò alla cattedra e riprese ad appoggiarvicisi.
+Il professor Quirrell tornò alla cattedra e riprese ad appoggiarcisi.
  
 \begin_inset Quotes fld
 \end_inset
 
 A volte dimentichiamo le cose più elementari, dal momento che è passato
  troppo tempo da quando le abbiamo imparate.
- Mi sono accorto che ho fatto lo stesso con il mio piano di lezioni.
+ Mi sono accorto che ho fatto lo stesso con il mio programma delle lezioni.
  Non si insegna agli studenti a lanciare fino a quando non hai insegnato
  loro a cadere.
  E non devo insegnarvi a combattere se non sapete come perdere
@@ -1315,7 +1340,8 @@ dojo
  Non aveva idea dell'esistenza della magia, ovviamente.
  Feci richiesta di studiare lì, ed fui uno dei pochi allievi ammessi per
  quell'anno, tra i tanti candidati.
- Potrebbe aver avuto un ruolo un po' di speciale condizionamento
+ In questa decisione potrebbe aver avuto un ruolo un po' di condizionamento
+ speciale
 \begin_inset Quotes frd
 \end_inset
 
@@ -1335,7 +1361,11 @@ Ci furono alcune risate dalla classe.
 Ad ogni modo.
  Durante uno dei miei primi combattimenti, dopo che ero stato battuto in
  un modo particolarmente umiliante, persi il controllo e attaccai il mio
- avversario --
+ avversario
+\begin_inset space ~
+\end_inset
+
+--
 \begin_inset Quotes frd
 \end_inset
 
@@ -1350,10 +1380,10 @@ Accidenti.
 
 \begin_layout Standard
 «-- per fortuna con i pugni, piuttosto che con la magia.
- Il Maestro, a sorpresa, non mi espulse immediatamente.
+ Il Maestro, sorprendentemente, non mi espulse immediatamente.
  Ma mi disse che c'era un difetto nel mio temperamento.
  Me lo spiegò, e io seppi che aveva ragione.
- E poi mi disse che avrei imparare a perdere».
+ E poi mi disse che avrei dovuto imparare a perdere.»
 \end_layout
 
 \begin_layout Standard
@@ -1366,7 +1396,7 @@ Il volto del professor Quirrell era inespressivo.
 dojo
 \emph default
  si misero in fila.
- Uno per uno, mi si avvicinarono.
+ Uno per uno, si avvicinarono a me.
  Il mio ordine era di 
 \emph on
 non
@@ -1411,15 +1441,15 @@ dojo
  tutto il tempo che potevo permettermi di passare lì -- il Maestro mi disse
  che sperava avessi compreso perché era stato necessario.
  E gli risposi che era una delle lezioni più preziose che avessi mai imparato.
- Cosa che era, ed è, vera
+ Cosa che era, ed è, vera.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Il volto del professor Quirrell divenne più amareggiato.
+L'espressione del professor Quirrell divenne più amara.
  «Vi starete chiedendo dove sia questo meraviglioso 
 \emph on
 dojo
@@ -1446,18 +1476,18 @@ Il Signore Oscuro giunse in quella scuola apertamente, senza travestimento,
  Gli allievi tentarono di ostacolare il suo ingresso ed egli, semplicemente,
  si Materializzò attraverso.
  Ci fu terrore, ma anche disciplina, e il Maestro si fece avanti.
- E il Signore Oscuro pretese -- non chiese, ma pretese -- che gli insegnasse
+ E il Signore Oscuro pretese -- non chiese, ma pretese -- che gli insegnasse.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Il volto del professor Quirrell era molto duro.
+L'espressione del professor Quirrell era molto dura.
  «Forse il Maestro aveva letto troppi libri che raccontavano la bugia che
  un vero praticante di arti marziali può sconfiggere anche i demoni.
- Qualunque sia la ragione, il Maestro rifiutò.
+ Qualunque fosse la ragione, il Maestro rifiutò.
  Il Signore Oscuro chiese perché non potesse essere un allievo.
  Il Maestro rispose che non aveva pazienza, e fu allora che il Signore Oscuro
  gli strappò la lingua».
@@ -1471,7 +1501,8 @@ Ci fu un sussulto collettivo.
 «Potete indovinare che cosa è successo dopo.
  Gli allievi cercarono di avventarsi sul Signore Oscuro e caddero, storditi
  sul posto.
- E poi...
+ E poi\SpecialChar \ldots{}
+
 \begin_inset Quotes frd
 \end_inset
 
@@ -1494,7 +1525,8 @@ La voce del professor Quirrell esitò per un momento, poi riprese.
  seguì.
  Ho imparato tutto ciò dall'unico allievo sopravvissuto, che il Signore
  Oscuro lasciò in vita per raccontare la storia, e che era stato un mio
- amico...
+ amico\SpecialChar \ldots{}
+
 \begin_inset Quotes frd
 \end_inset
 
@@ -1559,15 +1591,16 @@ non è
 \emph default
  preciso», disse il professor Quirrell.
  «Lo descriverò più precisamente.
- Ci sono molti animali che praticano i cosiddetti giochi di dominanza.
+ Ci sono molte specie animali in cui si praticano i cosiddetti giochi di
+ dominanza.
  Si scontrano impattando con le corna -- cercando di buttarsi giù a vicenda,
  non di trafiggersi l'un l'altro.
  Combattono con le zampe -- con gli artigli retratti.
  Ma perché con gli artigli retratti? Sicuramente, se usassero gli artigli,
  avrebbero una probabilità maggiore di vincere, o no? Ma allora il loro
- avversario potrebbe sfoderare gli artigli allo stesso modo, e invece di
- risolvere il gioco di dominanza con un vincitore e un perdente, entrambi
- potrebbe essere gravemente feriti».
+ avversario potrebbe ugualmente sfoderare gli artigli, e invece di risolvere
+ il gioco di dominanza con un vincitore e un perdente, entrambi potrebbe
+ essere gravemente feriti».
 \end_layout
 
 \begin_layout Standard
@@ -1575,18 +1608,7 @@ Lo sguardo del professor Quirrell sembrò puntare dallo schermo ripetitore
  direttamente a Harry.
  «Quello che ha dimostrato oggi, signor Potter, è che -- a differenza di
  quegli animali che tengono i loro artigli retratti e accettano i verdetti
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- lei non sa come perdere un gioco di dominanza.
+ -- lei non sa come perdere un gioco di dominanza.
  Quando un 
 \emph on
 professore di Hogwarts
@@ -1596,7 +1618,7 @@ professore di Hogwarts
  noncurante del pericolo.
  Lei ha 
 \emph on
-intensificato il conflitto,
+intensificato lo scontro,
 \emph default
  e dopo l'ha intensificato 
 \emph on
@@ -1641,14 +1663,14 @@ accurata
 \emph on
 prossima 
 \emph default
-volta, signor Potter, che sceglierà di intensificare un conflitto piuttosto
- che cedere, lei potrebbe perdere 
+volta, signor Potter, che sceglierà di intensificare uno scontro piuttosto
+ che ammettere la sconfitta, lei potrebbe perdere 
 \emph on
 l'intera
 \emph default
  posta in gioco.
  Non so quale fosse quella di oggi.
- So che era molto, molto più importante della perdita di dieci punti-Casa».
+ So che era molto, molto più importante della perdita di dieci punti-Casa.»
 \end_layout
 
 \begin_layout Standard
@@ -1667,7 +1689,11 @@ Protesterà dicendo che stava cercando di aiutare l'intera Hogwarts, uno
 bugia
 \emph default
 .
- Se fosse stato questo --
+ Se fosse stato questo
+\begin_inset space ~
+\end_inset
+
+--
 \begin_inset Quotes frd
 \end_inset
 
@@ -1702,18 +1728,11 @@ Il professor Quirrell annuì.
 \end_layout
 
 \begin_layout Standard
-«Io 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+«Io
+\begin_inset space ~
 \end_inset
 
-
+--
 \begin_inset Quotes frd
 \end_inset
 
@@ -1722,11 +1741,11 @@ status open
 
 \begin_layout Standard
 «Non voglio sentire obiezioni, signor Potter.
- È evidente sia che lei ne ha bisogno, sia che è sufficientemente forte
- da sopportarlo.
+ È evidente che lei ne abbia bisogno, e che è sufficientemente forte da
+ sopportarlo.
  Le assicuro che la sua esperienza non sarà così severa come quella che
  ho dovuto affrontare io, sebbene potrebbe ricordarseli come i peggiori
- quindici minuti della sua giovane vita».
+ quindici minuti della sua giovane vita.»
 \end_layout
 
 \begin_layout Standard
@@ -1761,7 +1780,7 @@ Ci furono poche risate in risposta, ma davvero poche.
  incantesimo d'attacco, perché verrei poi a sapere che ha gravemente ferito
  o persino ucciso qualcuno.
  Sfortunatamente mi dicono che le sue dita sono già armi potenti.
- Non le schiocchi mai durante questa lezione».
+ Non le schiocchi mai durante questa lezione.»
 \end_layout
 
 \begin_layout Standard
@@ -1771,18 +1790,11 @@ Altre risate sparpagliate, dal tono alquanto nervoso.
 \begin_layout Standard
 Harry sentì di potersi mettere a piangere.
  «Professor Quirrell, se farà qualcosa come quello che ha descritto, mi
- arrabbierò, e davvero preferirei non arrabbiarmi ancora, oggi 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ arrabbierò, e davvero preferirei non arrabbiarmi ancora, oggi
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1811,18 +1823,11 @@ progettare
 \emph on
 davvero
 \emph default
- meglio di me 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ meglio di me
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1837,18 +1842,7 @@ Harry sentì una stretta allo stomaco.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1858,25 +1852,18 @@ status open
  «Inutile dire che eviterò qualunque cosa che potrebbe ferirla o persino
  causarle un forte dolore.
  Il dolore sarà causato dalla difficoltà di perdere, invece di combattere
- a sua volta e intensificare il conflitto finché non vincerà».
+ a sua volta e intensificare lo scontro fino alla vittoria».
 \end_layout
 
 \begin_layout Standard
 Il respiro di Harry si ruppe in brevi e terrorizzati ansimi.
  Era più spaventato ora di quanto fosse stato lasciando la lezione di Pozioni.
  «Professor Quirrell», riuscì a dire, «non voglio che lei sia licenziato
- per questo 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ per questo
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1911,12 +1898,12 @@ Il professor Quirrell si girò a considerare i Serpeverde.
 \begin_inset Quotes fld
 \end_inset
 
-Dunque...
- con la piena approvazione del vostro professore, e in maniera tale che
- Snape non possa essere biasimato per le vostre azioni...
- qualcuno di voi desidera mostrare la propria supremazia sul Ragazzo-Che-È-Sopra
-vvissuto? Spintonarlo, buttarlo a terra, ascoltarlo mentre implora la vostra
- pietà?»
+Dunque\SpecialChar \ldots{}
+ con la piena approvazione del vostro professore, e in maniera tale
+ che Snape non possa essere biasimato per le vostre azioni\SpecialChar \ldots{}
+ qualcuno di voi
+ desidera mostrare la propria supremazia sul Ragazzo-Che-È-Sopravvissuto?
+ Spintonarlo, buttarlo a terra, ascoltarlo mentre implora la vostra pietà?»
 \end_layout
 
 \begin_layout Standard
@@ -1924,18 +1911,18 @@ Cinque mani si alzarono.
 \end_layout
 
 \begin_layout Standard
-«Ciascuno di quelli con la mano alzata è un completo idiota.
+«Tutti quelli con la mano alzata sono dei completi idioti.
  Quale parte di 
 \emph on
 fingere
 \emph default
  di perdere non avete compreso? Se Harry Potter diventasse realmente il
- prossimo Signore Oscuro, egli vi darà la caccia e vi ucciderà dopo che
- si sarà diplomato
+ prossimo Signore Oscuro, vi darà la caccia e vi ucciderà dopo che si sarà
+ diplomato.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1947,18 +1934,20 @@ Le cinque mani scesero repentinamente sui banchi.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry, la sua voce che usciva alquanto debole.
+, disse Harry, la sua voce uscì piuttosto debole.
  
 \begin_inset Quotes fld
 \end_inset
 
 Giuro che non mi vendicherò mai di coloro che mi aiuteranno a imparare a
  perdere.
- Professor Quirrell… 
+ Professor Quirrell\SpecialChar \ldots{}
+ 
 \emph on
 la prego
 \emph default
-… 
+\SpecialChar \ldots{}
+ 
 \emph on
 smetterebbe
 \emph default
@@ -1999,7 +1988,11 @@ Ci fu un'onda di risate sorprese, che sdrammatizzarono un po' della tensione.
 \emph on
 solletico
 \emph default
-».
+.
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2009,7 +2002,8 @@ Ci furono altre risate, sebbene il professor Quirrell non sorridesse.
 \begin_layout Standard
 Harry si sentì come se stesse combattendo contro un anaconda, cercando di
  obbligare la conversazione all'interno di uno stretto percorso che avrebbe
- fatto comprendere alle persone che non era un Signore Oscuro, dopo tutto...
+ fatto comprendere alle persone che non era un Signore Oscuro, dopo tutto\SpecialChar \ldots{}
+
  
 \emph on
 perché
@@ -2033,8 +2027,9 @@ Non sei obbligato a farlo!
 \emph default
 scappò quasi dalla bocca di Harry, ma si controllò in tempo; Draco avrebbe
  potuto desiderare che non fosse noto che lo stava facendo per la sua amicizia
- con Harry...
- o per il suo desiderio di sembrare un amico...
+ con Harry\SpecialChar \ldots{}
+ o per il suo desiderio di sembrare amico\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -2084,9 +2079,12 @@ Certamente
 
 \begin_layout Standard
 Le sopracciglia del professor Quirrell si alzarono e rimasero su.
- «Sono spiacente, signor Malfoy», disse dopo un po' di tempo, «che gli accordi
- che ho preso per il signor Potter, e che coinvolgono alcuni Serpeverde
- più grandi a cui sarà detto solo 
+ «Sono spiacente, signor Malfoy», disse dopo un po' di tempo, 
+\begin_inset Quotes fld
+\end_inset
+
+gli accordi che ho preso per il signor Potter, e che coinvolgono alcuni
+ Serpeverde più grandi a cui sarà detto solo 
 \emph on
 dopo
 \emph default
@@ -2167,7 +2165,8 @@ dojo
 
 \begin_layout Standard
 Harry aveva paura di quello che avrebbe potuto fare.
- Se il professor Quirrell aveva ragione circa la sua volontà di uccidere...
+ Se il professor Quirrell aveva ragione circa la sua volontà di uccidere\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -2188,7 +2187,7 @@ Harry aveva supplicato il professor Quirrell di Trasfigurare un paio guantoni
 \begin_layout Standard
 
 \emph on
-Non colpirò i loro occhi, non colpirò i loro occhi, non colpirò i loro,
+Non colpirò i loro occhi, non colpirò i loro occhi, non colpirò i loro occhi,
  sarebbe la fine della mia vita a Hogwarts, verrei arrestato
 \emph default
 , Harry recitò a sé stesso, cercando di imprimere quel pensiero nella propria
@@ -2244,7 +2243,11 @@ Per una qualche sorta di accordo, la vittima del lancio della torta era
 
 \begin_layout Standard
 Derrick avanzò a grandi passi e il cervello di Harry urlò in maniera dissonante,
- non doveva scappare, non doveva reagire --
+ non doveva scappare, non doveva reagire
+\begin_inset space ~
+\end_inset
+
+--
 \end_layout
 
 \begin_layout Standard
@@ -2269,11 +2272,12 @@ e trepidazione.
 \end_layout
 
 \begin_layout Standard
-Ci fu una risata proveniente dai Serpeverde più grandi che guardavano.
+Una risata provenne dai Serpeverde più grandi che stavano guardando.
 \end_layout
 
 \begin_layout Standard
-«Ti prego», disse Harry, la sua voce tremante, «non, farmi, del, male,...»
+«Ti prego», disse Harry, la sua voce tremante, «non, farmi, del, male,\SpecialChar \ldots{}
+»
 \end_layout
 
 \begin_layout Standard
@@ -2282,12 +2286,14 @@ Ci fu una risata proveniente dai Serpeverde più grandi che guardavano.
 
 \begin_layout Standard
 Il sorriso di Derrick si allargò.
- Quel goffo imbecille sembrava molto superiore e...
+ Quel goffo imbecille sembrava molto borioso e\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-...
- la temperatura del sangue di Harry stava scendendo...
+\SpecialChar \ldots{}
+ la temperatura del sangue di Harry stava scendendo\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -2339,7 +2345,11 @@ Gli occhi di Harry si spalancarono per l'indignazione, lui
 \emph on
 era
 \emph default
- riuscito a farla sembrare una supplica --
+ riuscito a farla sembrare una supplica
+\begin_inset space ~
+\end_inset
+
+--
 \end_layout
 
 \begin_layout Standard
@@ -2376,14 +2386,16 @@ divertente
 \end_layout
 
 \begin_layout Standard
-Tutto ciò che doveva fare era dire che era finita lì.
+Tutto quello che doveva fare era dire che era finita lì.
  E segnalare l'intera faccenda all'ufficio del Preside.
  Sarebbe stata la fine di questo 
 \emph on
 professore di Difesa
 \emph default
- e del suo sventurato soggiorno a Hogwarts e...
- la professoressa McGonagall si sarebbe arrabbiata per questo, ma...
+ e del suo sventurato soggiorno a Hogwarts e\SpecialChar \ldots{}
+ la professoressa McGonagall
+ si sarebbe arrabbiata per questo, ma\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -2401,7 +2413,7 @@ professore di Difesa
 \end_layout
 
 \begin_layout Standard
-«Tu sei, meglio, di, me».
+«Tu sei, meglio, di, me.»
 \end_layout
 
 \begin_layout Standard
@@ -2528,25 +2540,22 @@ Delle mani spintonarono Harry, mandandolo a incespicare dall'altra parte
 
 \begin_layout Standard
 «Un, p-perdente, ho p-perso, mi arrendo, avete vinto, siete migliori, d-di
- me, vi prego, smettetela 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ me, vi prego, smettetela
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
-Harry inciampò contro un piede e andò a schiantarsi al suolo, le mani incapaci
+Harry inciampò su di un piede e andò a schiantarsi al suolo, le mani incapaci
  di proteggerlo completamente.
- Fu stordito per un attimo, poi cominciò ad alzarsi faticosamente in piedi
- --
+ Rimase stordito per un attimo, poi cominciò ad alzarsi faticosamente in
+ piedi
+\begin_inset space ~
+\end_inset
+
+--
 \end_layout
 
 \begin_layout Standard
@@ -2599,8 +2608,8 @@ totale mancanza di consapevolezza, per non dire di astuzia
 \emph on
 scialbi delinquenti, buoni solo come lacchè
 \emph default
- e qualcosa nel retro del cervello di Harry, nonostante tutto ciò che sapeva,
- stava designando Draco come un alleato.
+ e qualcosa nei recessi del cervello di Harry, nonostante tutto ciò che
+ sapeva, stava designando Draco come un alleato.
 \end_layout
 
 \begin_layout Standard
@@ -2613,11 +2622,16 @@ A Harry faceva male tutto, era stato probabilmente ferito, il suo corpo
 
 \begin_layout Standard
 Poi Draco smise di parlare e il professor Quirrell disse ai Serpeverde più
- grandi potevano andare, e Harry aprì gli occhi e si sforzò di mettersi
- a sedere, «Aspetti», disse forzando le parole, «c'è qualcosa che...
- voglio...
- dire...
- loro --»
+ grandi che potevano andare, e Harry aprì gli occhi e si sforzò di mettersi
+ a sedere, «Aspetti», disse forzando le parole, «c'è qualcosa che\SpecialChar \ldots{}
+ voglio\SpecialChar \ldots{}
+
+ dire\SpecialChar \ldots{}
+ loro
+\begin_inset space ~
+\end_inset
+
+--»
 \end_layout
 
 \begin_layout Standard
@@ -2635,8 +2649,8 @@ Harry si alzò in piedi barcollando.
 \begin_layout Standard
 Quindi, invece, Harry guardò i Serpeverde più grandi, che sembravano essere
  ancora in uno stato di turbamento.
- Essi lo fissavano.
- Il timore sui loro volti.
+ Lo fissavano.
+ Sui loro volti il timore.
 \end_layout
 
 \begin_layout Standard
@@ -2645,18 +2659,11 @@ Il suo lato oscuro, mentre aveva avuto il controllo, si era sorretto sulla
 \end_layout
 
 \begin_layout Standard
-Harry parlò, «Nessuno 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Harry parlò, «Nessuno
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
@@ -2677,7 +2684,7 @@ status open
 
 \begin_layout Standard
 «Voi.
- Andate».
+ Andate.»
 \end_layout
 
 \begin_layout Standard
@@ -2712,7 +2719,8 @@ aveva perso
 .
  C'erano stati momenti in cui la fredda rabbia era svanita del tutto, sostituita
  dalla paura, e in quei momenti aveva supplicato i Serpeverde più grandi
- e l'aveva fatto sul serio...
+ e l'aveva fatto sul serio\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
@@ -2739,7 +2747,7 @@ concepibile
 \end_layout
 
 \begin_layout Standard
-«Sì».
+«Sì.»
 \end_layout
 
 \begin_layout Standard
@@ -2747,8 +2755,9 @@ concepibile
 \end_layout
 
 \begin_layout Standard
-«Io...
- penso di sì...»
+«Io\SpecialChar \ldots{}
+ penso di sì\SpecialChar \ldots{}
+»
 \end_layout
 
 \begin_layout Standard
@@ -2863,7 +2872,7 @@ lei
 \emph on
 me
 \emph default
- quando le ho detto che avevo deliberatamente sopportato di essere sputato
+ quando le ho detto che avevo deliberatamente sopportato che mi sputassero
  addosso?»
 \end_layout
 
@@ -2882,8 +2891,8 @@ straordinaria
  nella mia materia merita una ricompensa straordinaria, Harry Potter.
  La prego di accettarla con i miei complimenti a nome della mia Casa, e
  di ricordare da oggi in poi che non tutti i Serpeverde sono uguali.
- Ci sono Serpeverde e Serpeverde».
- Il professor Quirrell stava sorridendo piuttosto largamente mentre lo diceva.
+ Ci sono dei Serpeverde, e poi ci sono dei Serpeverde».
+ Il professor Quirrell stava sorridendo piuttosto ampiamente mentre lo diceva.
  «Cinquantuno punti a Corvonero».
 \end_layout
 
@@ -2903,7 +2912,10 @@ dovuto
 \emph default
  esserci delle conseguenze, ci sarebbe dovuto essere un costo, un prezzo
  da pagare, non si poteva semplicemente rimettere tutto al suo posto così
- --)
+\begin_inset space ~
+\end_inset
+
+--)
 \end_layout
 
 \begin_layout Standard
@@ -2914,8 +2926,8 @@ Ma Harry vide i volti euforici dei Corvonero e comprese che non poteva dire
 \begin_layout Standard
 Il suo cervello gli diede un suggerimento.
  Fu un buon suggerimento.
- Harry non riusciva nemmeno a credere che il suo cervello lo stesse ancora
- in piedi, figuriamoci che elaborasse buoni suggerimenti.
+ Harry non riusciva nemmeno a credere che il suo cervello fosse ancora in
+ funzione, figuriamoci che formulasse buoni suggerimenti.
 \end_layout
 
 \begin_layout Standard
@@ -3012,18 +3024,11 @@ a lei
 \end_layout
 
 \begin_layout Standard
-«Posso 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+«Posso
+\begin_inset space ~
 \end_inset
 
-»
+--»
 \end_layout
 
 \begin_layout Standard
