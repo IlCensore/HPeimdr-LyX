@@ -3,6 +3,66 @@
 \begin_document
 \begin_header
 \textclass memoir
+\begin_preamble
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -13,26 +73,26 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman Utopia Std
+\font_sans Berylium
+\font_typewriter Cronos Pro
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 11
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize custom
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -47,14 +107,20 @@ initials
 \shortcut idx
 \color #008000
 \end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language french
 \papercolumns 1
-\papersides 1
-\paperpagestyle default
+\papersides 2
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -105,29 +171,63 @@ status open
 \backslash
 lettrine[lines=1,ante=
 \backslash
-guillemotleft]{È}{ una}
+guillemotleft]{A}{ndatevi a}
 \end_layout
 
 \end_inset
 
- serie formidabile, acuta e drammatica e stimolante
+ leggere un po' delle magnifiche `fanfic' o `narrativa prodotta da fan'
+ che ci sono lì fuori.
+ Ecco un grande esempio: il romanzo / la serie ancora in corso del futurista
+ / studioso Eliezer Yudkowsky, che è sia un tributo sia una decostruzione
+ dell'universo fantastico di J.K.
+ Rowling.
+ 
+\emph on
+\noun on
+Harry Potter e i metodi della razionalità
+\emph default
+\noun default
+ propone un mondo alternativo in cui Harry è un genio, non solo nella magia
+ ma anche nelle arti magiche babbane della matematica e della scienza.
+ Oh, e i suoi genitori adottivi invece di essere dei cattivi stupidi o da
+ cartone animato, sono saggi, decenti e intelligenti.
+ (In altre parole, Silente non ha commesso un orrendo crimine, ma lo ha
+ affidato alle cure dei migliori babbani che potesse trovare, eh?) Il risultato
+ è un prodigio undicenne ferocemente brillante, logico e immaturo in maniera
+ esasperante, che è leale alla scienza, al progresso e all'Illuminismo,
+ lasciato libero di agire nella povera Scuola di Hogwarts, votato a raddrizzare
+ la corrotta, orrenda e insulare società della Gran Bretagna magica.
+\end_layout
+
+\begin_layout Standard
+È una serie formidabile, acuta e drammatica e stimolante
 \noun on
 .
-
+ 
 \noun default
+Mi è piaciuto soprattutto sentire i ritmi vocali di Maggie Smith nei dialoghi
+ con la professoressa McGonagall.
+ E mi è (ovviamente) piaciuta parecchio la mancanza di rispetto per Yoda!
  Yudkowsky ne capisce, e parecchio.
  Ragazzo intelligente, buono scrittore.
  Pone domande estremamente formidabili che anche io avevo pensato\SpecialChar \ldots{}
  e molte
  alle quali non avevo pensato.
  Mi sono goduto tutti i riferimenti all'Illuminismo.
- Vorrei che tutti gli appassionati di Potter entrassero in quel mondo, e
+\end_layout
+
+\begin_layout Standard
+Vorrei che tutti gli appassionati di Potter entrassero in quel mondo, e
  si cimentassero con una storia più vasta, più audace e più impegnativa
 \begin_inset Quotes frd
 \end_inset
 
 .
- ---
+\begin_inset space ~
+\end_inset
+
+---
 \begin_inset space ~
 \end_inset
 
@@ -138,6 +238,42 @@ David
 \end_inset
 
 Brin
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+David Brin, 
+\begin_inset Quotes fld
+\end_inset
+
+A secret of college live\SpecialChar \ldots{}
+ plus controversies and science!
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+Contrary Brin
+\emph default
+, 21 Giugno 2010, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://davidbrin.blogspot.it/2010/06/secret-of-college-life-plus.html}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -156,7 +292,47 @@ guillemotleft]{O}{h Thoth}
 \end_inset
 
  Trismegisto, oh Ma’at, oh Ganesha, oh dolce signora Eris… Non avevo riso
- così tanto da anni!! [...] Leggetelo e ridete.
+ così tanto da anni!!
+\end_layout
+
+\begin_layout Standard
+Eliezer Yudkowsky è una delle persone più intelligenti che abbia incontrato
+ in tutta una vita alla ricerca di pensatori che andassero dal livello 
+\begin_inset Quotes fld
+\end_inset
+
+dotato
+\begin_inset Quotes frd
+\end_inset
+
+ a quello 
+\begin_inset Quotes fld
+\end_inset
+
+genio
+\begin_inset Quotes frd
+\end_inset
+
+, perché le persone che non lo sono di solito mi annoiano abbastanza velocemente.
+ Eliezer ha passato anni a studiare le strutture più profonde della razionalità
+ e probabilmente conosce le fonti sistematiche di pregiudizio e di irrazionalità
+ all'interno della struttura condivisa della mente umana in maniera più
+ globale di chiunque altro.
+ Ho precedentemente commentato alcuni dei suoi scritti.
+\end_layout
+
+\begin_layout Standard
+Normalmente Elizier riflette su questioni come il modo in cui inserire una
+ capacità di raziocinio etico compatibile con gli esseri umani all'interno
+ delle intelligenze artificiali.
+ Roba seria e profonda.
+ Quando impegna la vasta e imponderabile forza del suo intelletto nello
+ scrivere, tra tutte le cose possibili, una fanfic di Harry Potter, ne consegue
+ un grado di ilarità alquanto inaspettato.
+\end_layout
+
+\begin_layout Standard
+Leggetelo e ridete.
  Leggetelo e imparate.
  Eliezer reinventa Harry Potter come un genio scettico che si assegna il
  compito di capire come funziona tutta questa 
@@ -168,11 +344,27 @@ magia
 \end_inset
 
 .
+ La scienza è reale -- sarebbe molto più difficile spiegare una trasformazione
+ da un essere umano in un gatto che la semplice levitazione, per esempio.
+ Che Harry, messo di fronte ad un dispositivo magico per i viaggi temporali,
+ sia immediatamente terrorizzato dall'idea di reggere in mano una bomba
+ ad anti-materia, è effettivamente molto più ragionevole di quanto non possano
+ comprendere molti lettori.
+\end_layout
+
+\begin_layout Standard
+Ma i personaggi non sono sminuiti.
+ Eliezer è molto bravo a rifornirli con reazioni compatibili col canone
+ a questo Harry alquanto modificato e rinforzato.
+ Lo sviluppo di Minerva McGonagall è particolarmente notevole.
  Fortemente raccomandato.
  E doveste riuscire a imparare qualcosa sulle cause degli errori cognitivi
  come l'Errore di Pianificazione e l'Effetto dello Spettatore (tra gli altri)
  mentre i vostri fianchi sono doloranti per le risate, tanto meglio».
- ---
+\begin_inset space ~
+\end_inset
+
+---
 \begin_inset space ~
 \end_inset
 
@@ -187,6 +379,42 @@ S.
 \end_inset
 
 Raymond
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Eric S.
+ Raymond, 
+\begin_inset Quotes fld
+\end_inset
+
+Harry Potter and the Methods of Rationality
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+Armed and Dangerous
+\emph default
+, 6 luglio 2010, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://esr.ibiblio.org/?p=2100}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -199,13 +427,20 @@ status open
 \backslash
 lettrine[lines=1,ante=
 \backslash
-guillemotleft]{H}{arry Potter}
+guillemotleft]{
+\backslash
+textit{H}}{
+\backslash
+textit{arry Potter}}
 \end_layout
 
 \end_inset
 
- e i metodi della razionalità è quel genere di storia che andrebbe tecnicamente
- chiamato 
+ 
+\emph on
+e i metodi della razionalità
+\emph default
+ è quel genere di storia che andrebbe tecnicamente chiamato 
 \emph on
 fanfic
 \emph default
@@ -240,6 +475,40 @@ Rachel
 \end_inset
 
 Aaron
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+An Interview with Rachel Aaron
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+Civilian Reader
+\emph default
+, 4 maggio 2011, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://civilian-reader.blogspot.it/2011/05/interview-with-rachel-aaron.html}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -267,7 +536,13 @@ guillemotleft]{Q}{uesto è}
  dell'intera letteratura, e le storie sono genio puro.
  Temo che questo libro possa non ricevere mai tutti gli encomi che merita,
  perché è troppo difficile non fare caso al titolo sciocco e al modello
- di pubblicazione, ma spero che tu, caro lettore, sia più saggio! Da leggere
+ di pubblicazione, ma spero che tu, caro lettore, sia più saggio! Da leggere.
+\end_layout
+
+\begin_layout Standard
+Come dice all'inizio, bisogna davvero dargli un paio di capitoli per carburare
+ prima di giudicarlo — i primi sono piuttosto stupidi e non sembra che valga
+ la pena continuare prima di averli superati
 \begin_inset Quotes frd
 \end_inset
 
@@ -283,6 +558,42 @@ Aaron
 \end_inset
 
 Swartz
+\emph default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+The 2011 Review of Books
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+Aaron Swartz
+\emph default
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://www.aaronsw.com/weblog/books2011}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
