@@ -4,9 +4,66 @@
 \begin_header
 \textclass memoir
 \begin_preamble
-\setcounter{chapter}{20}
+\usepackage{fmtcount}
+\usepackage{graphicx}
 
-\chapterstyle{thatcher}
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
+  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \centering \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+
+\setcounter{chapter}{20}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -18,9 +75,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Adobe Garamond Pro
-\font_sans Cronos Pro
-\font_typewriter Cronos Pro
+\font_roman Linux Libertine O
+\font_sans Linux Libertine Display O
+\font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
@@ -33,7 +90,7 @@ initials
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 11
+\paperfontsize 10
 \spacing single
 \use_hyperref false
 \papersize custom
@@ -52,12 +109,12 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 15cm
-\paperheight 23cm
-\leftmargin 2.1cm
-\topmargin 1.8cm
-\rightmargin 1.8cm
-\bottommargin 2.1cm
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -65,7 +122,7 @@ initials
 \quotes_language french
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -112,7 +169,7 @@ lettrine[lines=1]{H}{ermione Granger}
 \end_layout
 
 \begin_layout Standard
-La differenza tra Buono e Cattivo era normalmente facile da riconoscere,
+La differenza tra Buono e Cattivo era generalmente facile da riconoscere,
  non aveva mai capito perché le altre persone avessero così tanti problemi.
  A Hogwarts, 
 \begin_inset Quotes fld
@@ -189,7 +246,7 @@ Se fossi stato buono, non avresti dovuto godere così tanto a vincere.
 \begin_layout Standard
 Era iniziato il giorno del viaggio in treno, anche se c'era voluto un po'
  alla tempesta per placarsi.
- Fu solo quella notte sul tardi che Hermione aveva cominciato a rendersi
+ Era stato solo quella notte sul tardi che Hermione aveva cominciato a rendersi
  conto di 
 \emph on
 quanto
@@ -202,7 +259,7 @@ Prima di incontrare Harry Potter non c'era mai stato nessuno che avesse
  voluto annientare.
  Se qualcuno non stava facendo bene come lei in una materia, era suo dovere
  aiutarlo, non rinfacciarglielo.
- Questo era ciò che significava essere Buono.
+ Era questo che significava essere Buono.
 \end_layout
 
 \begin_layout Standard
@@ -222,7 +279,7 @@ vincendo
 così
 \emph default
  divertente, i suoi genitori l'avevano messa in guardia contro la droga
- e sospettava che questo fosse 
+ e sospettava che quello fosse 
 \emph on
 più divertente
 \emph default
@@ -259,9 +316,9 @@ Lei e Harry stavano per iniziare una Storia d'amore! Certo! Tutti sapevano
 \emph on
 corteggiando
 \emph default
- l'un l'altro! Non c'era nulla di Cattivo in 
+ l'un l'altra! Non c'era nulla di Cattivo in 
 \emph on
-questo
+quello
 \emph default
 .
 \end_layout
@@ -414,7 +471,7 @@ Vorrei sottolineare a beneficio dei posteri
 \begin_inset Quotes frd
 \end_inset
 
-, disse il Ragazzo-che-È-Sopravvissuto con la voce limpida, 
+, disse il Ragazzo-Che-È-Sopravvissuto con la voce limpida, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -499,7 +556,7 @@ Seuss!»
 \emph on
 Tu
 \emph default
- hai scelto la scadenza».
+ hai scelto la scadenza.»
 \end_layout
 
 \begin_layout Standard
@@ -523,15 +580,15 @@ qualcuno
 \emph on
 errore di pianificazione
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Lo shock fu palese sul volto di Harry Potter.
+Il colpo subito fu palese sul volto di Harry Potter.
 \end_layout
 
 \begin_layout Standard
@@ -550,7 +607,7 @@ lui
 \end_layout
 
 \begin_layout Standard
-«Un giorno», disse il Ragazzo-che-È-Sopravvissuto, «quando i lontani discendenti
+«Un giorno», disse il Ragazzo-Che-È-Sopravvissuto, «quando i lontani discendenti
  dell'
 \emph on
 Homo sapiens
@@ -620,7 +677,7 @@ con più attenzione
 rendete conto
 \emph default
  di che cosa sta facendo? Vi sta convincendo a prendere un impegno anticipato
- ora, e poi la spinta a essere coerenti vi farà concordare con tutto quello
+ ora, e poi la spinta a restare coerenti vi farà accettare tutto quello
  che dirà dopo!»
 \end_layout
 
@@ -628,7 +685,7 @@ rendete conto
 «Non preoccuparti», disse il prefetto Penelope Clearwater.
  «Se ci chiedesse qualcosa di irragionevole, possiamo semplicemente cambiare
  idea.
- Giusto ragazzi? »
+ Giusto ragazzi?»
 \end_layout
 
 \begin_layout Standard
@@ -804,8 +861,8 @@ dire
 \end_layout
 
 \begin_layout Standard
-«Non chiedo comprensione o compassione», disse l'oscura sagoma, ancora con
- quella calma mortale.
+«Non chiedo comprensione o compassione», disse la sagoma oscura, ancora
+ con quella calma mortale.
  «Ma ho appena trascorso due intere ore in presenza di Hermione Granger,
  vestito di tali indumenti quali mi sono stati forniti, visitando luoghi
  di Hogwarts tanto affascinanti quanto una piccola cascata gorgogliante
@@ -837,7 +894,7 @@ status collapsed
 \begin_inset Graphics
 	filename 021-potter__s_first_date_by_dinosaurusgede-d33p4m5.png
 	lyxscale 30
-	width 10.24cm
+	width 9.6cm
 
 \end_inset
 
@@ -862,12 +919,8 @@ status open
 \begin_layout Plain Layout
 
 \size footnotesize
-«Ho appena trascorso due intere ore in presenza di Hermione Granger, vestito
- di tali indumenti quali mi sono stati forniti, visitando luoghi di Hogwarts
- tanto affascinanti quanto una piccola cascata gorgogliante quello che mi
- è sembrato muco, accompagnato da un gruppo di altre ragazze che si sono
- ostinate in tali utili attività quali cospargere il nostro cammino con
- petali di rosa Trasfigurati.
+«Ho appena trascorso due intere ore in presenza di Hermione Granger, [\SpecialChar \ldots{}
+]
  Sono stato ad un appuntamento, rampollo dei Malfoy.
  Il mio 
 \emph on
@@ -878,11 +931,11 @@ primo
 \emph on
 E quando chiederò il prezzo per quel favore, tu lo pagherai
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \end_inset
@@ -898,7 +951,12 @@ E quando chiederò il prezzo per quel favore, tu lo pagherai
 \begin_layout Standard
 Draco annuì solennemente.
  Prima di arrivare aveva preso la saggia precauzione di imparare ogni dettaglio
- disponibile sull'appuntamento di Harry, in modo da esaurire tutte le sue
+ disponibile sul\SpecialChar \-
+l'ap\SpecialChar \-
+pun\SpecialChar \-
+ta\SpecialChar \-
+men\SpecialChar \-
+to di Harry, in modo da esaurire tutte le proprie
  risate isteriche prima dell'ora stabilita per l'incontro, e non commettere
  il passo falso di ridacchiare ininterrottamente fino a perdere conoscenza.
 \end_layout
@@ -932,7 +990,7 @@ miei
 l'astuzia
 \emph default
  piuttosto che gli attacchi frontali immediati, non dovranno farsi prendere
- dal panico se mi vedranno sorriderle».
+ dal panico se mi vedranno sorriderle.»
 \end_layout
 
 \begin_layout Standard
@@ -949,10 +1007,10 @@ Non ci sarà nessun secondo appuntamento
 \begin_inset Quotes frd
 \end_inset
 
-, disse la sagoma illuminata di verde con una voce così temibile che suonava,
- non solo come un Mangiamorte, ma come Amycus Carrow quella volta poco prima
- che il Padre di Draco gli dicesse di smettere, che lui non era il Signore
- Oscuro.
+, disse la sagoma illuminata di verde, con una voce così temibile che sembrò
+ non solo simile a un Mangiamorte, ma ad Amycus Carrow quella volta, poco
+ prima che il Padre di Draco gli dicesse di smettere, che lui non era il
+ Signore Oscuro.
 \end_layout
 
 \begin_layout Standard
@@ -1024,9 +1082,10 @@ imparare a perdere
 
 \begin_layout Standard
 Draco fece un respiro profondo.
- Aveva pensato a questo.
+ Ci aveva riflettuto.
  Ed era difficile capire come potesse rispondere in altro modo.
- Era stato istruito a cogliere ogni opportunità di amicizia con Harry Potter.
+ Aveva ricevuto l'istruzione di cogliere ogni opportunità di amicizia con
+ Harry Potter.
  Si trattava semplicemente di 
 \emph on
 imparare
@@ -1234,7 +1293,7 @@ come il sangue funziona realmente
 \emph on
 Più forti!
 \emph default
-» esclamò Draco.
+» sbottò Draco.
  Aveva cercato di seguire il ragionamento, un'espressione perplessa sul
  volto, e poteva capire come avesse 
 \emph on
@@ -1254,8 +1313,8 @@ più forti?
  «Non so niente.
  Non credo in niente.
  La mia ultima riga non è stata ancora scritta.
- Scoprirò come mettere alla prova la forza magica dei Nati babbani, e la
- forza magica dei purosangue.
+ Scoprirò come mettere alla prova il potere magico dei Nati babbani, e il
+ potere magico dei purosangue.
  Se le mie prove mi diranno che i Nati babbani sono più deboli, crederò
  che sono più deboli.
  Se le mie prove mi diranno che i Nati babbani sono più forti, crederò che
@@ -1347,9 +1406,9 @@ Draco fece una pausa.
  «Lo
  
 \emph on
-faresti
+faresti?
 \emph default
-?»
+»
 \end_layout
 
 \begin_layout Standard
@@ -1362,11 +1421,11 @@ sapere chi ricattare o cosa potremmo chiedere loro? Draco, ripeto ancora
  una volta che questa non è una trappola che ho creato per te.
  Almeno non per te personalmente.
  Se la tua posizione politica fosse stata diversa, ti starei chiedendo che
- cosa succede se la prova mostrasse che i purosangue sono più forti».
+ cosa succederebbe se la prova mostrasse che i purosangue sono più forti».
 \end_layout
 
 \begin_layout Standard
-«Davvero».
+«Davvero.»
 \end_layout
 
 \begin_layout Standard
@@ -1437,9 +1496,9 @@ Ci fu una breve pausa, e poi la figura annuì.
 \end_layout
 
 \begin_layout Standard
-«Guarda, Harry», disse Draco senza molta speranza, «pensavo che l'idea fosse
- di prendere tutte le cose che i Babbani sanno, combinarle con le cose che
- i maghi sanno, e diventare padroni di entrambi i mondi.
+«Ascolta, Harry», disse Draco senza molte speranze, «pensavo che l'idea
+ fosse di prendere tutte le cose che i Babbani sanno, combinarle con le
+ cose che i maghi sanno, e diventare padroni di entrambi i mondi.
  Non sarebbe molto più facile studiare semplicemente tutte le cose che i
  Babbani 
 \emph on
@@ -1449,7 +1508,11 @@ hanno già
 \emph on
 quel
 \emph default
- potere --»
+ potere
+\begin_inset space ~
+\end_inset
+
+--»
 \end_layout
 
 \begin_layout Standard
@@ -1477,9 +1540,9 @@ Un brivido scese lungo la schiena di Draco, che tremò involontariamente.
  Sapeva che era stato visibile anche nella penombra.
  «Va bene», disse Draco.
  «Comprendo».
- Padre gliel'aveva detto molte volte.
+ Suo Padre gliel'aveva detto molte volte.
  Quando un mago più potente ti diceva che non eri pronto a sapere, non dovevi
- curiosare oltre se volevi vivere.
+ curiosare oltre, se volevi vivere.
 \end_layout
 
 \begin_layout Standard
@@ -1516,7 +1579,7 @@ nemico
 loro
 \emph default
  politici prima\SpecialChar \ldots{}
-» La voce si andò a spegnere in modo significativo.
+» La frase rimase sospesa in modo significativo.
  «Non distrussero il mondo.
  Ma ci andarono vicino.
  E 
@@ -1596,7 +1659,7 @@ cominciava
 
 \begin_layout Standard
 «Naturalmente.
- Assolutamente».
+ Assolutamente.»
 \end_layout
 
 \begin_layout Standard
@@ -1713,7 +1776,7 @@ Draco si asciugò la fronte col braccio, rimuovendo le gocce di sudore.
 \emph on
 pensato
 \emph default
- il Signore Oscuro? Padre aveva detto che il Signore Oscuro era 
+ il Signore Oscuro? Suo Padre aveva detto che il Signore Oscuro era 
 \emph on
 intelligente!
 \end_layout
@@ -1748,7 +1811,7 @@ status collapsed
 \begin_inset Graphics
 	filename 021-bayesian_conspiration_by_dinosaurusgede-d2yp5l3.png
 	lyxscale 30
-	width 10.24cm
+	width 9.4cm
 
 \end_inset
 
@@ -1839,10 +1902,9 @@ Venerdì
 
 \begin_layout Standard
 Il ritratto sulla porta chiese a Harry qualche sciocco enigma pensato per
- bambini di undici anni, che risolse senza che le parole non passassero
- neppure attraverso la sua mente cosciente, e poi Harry barcollò su per
- le scale fino alla sua stanza del dormitorio, si mise il pigiama e crollò
- sul letto.
+ bambini di undici anni, che risolse senza che le parole passassero attraverso
+ la sua mente cosciente, e poi Harry barcollò su per le scale fino alla
+ sua stanza del dormitorio, si mise il pigiama e crollò sul letto.
 \end_layout
 
 \begin_layout Standard
@@ -1924,8 +1986,12 @@ Silente fa solo finta di essere pazzo.
  certamente dedurrà il tuo possesso di un mantello dell'invisibilità, se
  non l'ha già fatto.
  Evitalo quando possibile, nascondi il Mantello dell'Invisibilità in qualche
- posto sicuro (NON la tua borsa) ogni volta che non puoi evitarlo, e agisci
- con gran circospezione in sua presenza.
+ posto sicuro (
+\noun on
+non
+\noun default
+ la tua borsa) ogni volta che non puoi evitarlo, e agisci con gran circospezione
+ in sua presenza.
 \end_layout
 
 \begin_layout Quote
@@ -2003,8 +2069,8 @@ Harry ficcò tutto nella borsa, alzò il Quietus, tirò la coperta sopra la
 
 \begin_layout Standard
 Era Domenica mattina e Harry stava mangiando frittelle nella Grande Sala,
- piccoli morsi frequenti, gettando occhiate nervose al suo orologio ogni
- pochi secondi.
+ con piccoli morsi frequenti, gettando occhiate nervose al suo orologio
+ ogni pochi secondi.
 \end_layout
 
 \begin_layout Standard
@@ -2012,8 +2078,8 @@ Erano le 8:02, e tra due ore e un minuto precisi sarebbe stata
 \emph on
 esattamente una settimana
 \emph default
- da quando aveva visto i Weasley e attraversato verso il Binario Nove e
- Tre Quarti.
+ da quando aveva visto i Weasley e attraversato il varco verso il Binario
+ Nove e Tre Quarti.
 \end_layout
 
 \begin_layout Standard
@@ -2051,11 +2117,11 @@ E fu allora che Harry vide i gemelli Weasley camminare verso di lui.
 \end_layout
 
 \begin_layout Standard
-Sarebbe dovuto scappare urlando.
+Avrebbe dovuto scappare urlando.
 \end_layout
 
 \begin_layout Standard
-Sarebbe dovuto scappare urlando.
+Avrebbe dovuto scappare urlando.
 \end_layout
 
 \begin_layout Standard
@@ -2073,7 +2139,7 @@ gran finale\SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Standard
-Sarebbe davvero dovuto solo scappare urlando.
+Avrebbe davvero dovuto scappare urlando.
 \end_layout
 
 \begin_layout Standard
@@ -2095,7 +2161,7 @@ I gemelli Weasley si avvicinarono.
 \end_layout
 
 \begin_layout Standard
-E ancora più vicino.
+E furono ancora più vicini.
 \end_layout
 
 \begin_layout Standard
@@ -2124,9 +2190,9 @@ I gemelli Weasley arrivarono, sorridendo allegramente.
 \begin_layout Standard
 «Guarda che cosa ti abbiamo portato 
 \emph on
-noi
+noi!
 \emph default
-!»
+»
 \end_layout
 
 \begin_layout Standard
@@ -2153,13 +2219,22 @@ Ci fu una pausa, mentre il tavolo di Corvonero li fissò.
 \begin_layout Standard
 «
 \emph on
-EGLI STA ARRIVANDO
+\noun on
+Egli sta arrivando
 \emph default
+\noun default
 », disse un'alta voce cavernosa che passò attraverso tutte le conversazioni
  come una spada di ghiaccio.
  «
 \emph on
-COLUI CHE FARÀ A PEZZI IL --
+\noun on
+Colui che farà a pezzi lo stesso
+\noun default
+
+\begin_inset space ~
+\end_inset
+
+--
 \emph default
 »
 \end_layout
@@ -2246,7 +2321,7 @@ La conversazione proseguì intorno a lui.
 \end_layout
 
 \begin_layout Standard
-«E poi, fare a pezzi il 
+«E poi, fare a pezzi lo stesso 
 \emph on
 cosa?
 \emph default
@@ -2272,13 +2347,13 @@ davvero
 \end_layout
 
 \begin_layout Standard
-Ciò sembrava piuttosto improbabile a Harry, a meno che il mondo non contenesse
+Sembrava piuttosto improbabile a Harry, a meno che il mondo non contenesse
  cose spaventose che avevano sentito parlare delle idee di David Criswell
  circa l'aspirazione delle stelle.
 \end_layout
 
 \begin_layout Standard
-«Quindi», disse Harry in tono stanco, «cose come queste succedono ogni Domenica
+«E così», disse Harry in tono stanco, «cose come queste succedono ogni Domenica
  a colazione, vero?»
 \end_layout
 
@@ -2368,8 +2443,8 @@ Harry tirò un sospiro di sollievo, e cautamente tolse la coperta dalla testa.
 \end_layout
 
 \begin_layout Standard
-Pochi istanti dopo, era emerso nell'aria illuminata vividamente dal sole
- del suo dormitorio.
+Pochi istanti dopo, era emerso nell'aria del suo dormitorio illuminata vividamen
+te dal sole.
 \end_layout
 
 \begin_layout Standard
@@ -2446,7 +2521,7 @@ Frigideiro
 \end_layout
 
 \begin_layout Standard
-Harry organizzò mentalmente il suo materiale, e iniziò a scrivere.
+Harry organizzò mentalmente il materiale, e iniziò a scrivere.
 \end_layout
 
 \begin_layout Quote
