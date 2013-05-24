@@ -11,11 +11,11 @@
 %\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
 %  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{}
+  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
+  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
 %  \makeheadrule{myheadings}{\textwidth}{0.4pt}
-  \makeevenfoot{myheadings}{\thepage}{}{}
-  \makeoddfoot{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -62,6 +62,8 @@
   \null\vfil
   \secdef\@part\@spart}
 \makeatother
+
+\newfontfamily\msls{Medici Script LT Std}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -72,8 +74,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Minion Pro
-\font_sans Warnock Pro
+\font_roman Arno Pro
+\font_sans Purisa
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -231,7 +233,9 @@ centering
 
 {
 \backslash
-large Eliezer Yudkowsky}
+large 
+\backslash
+textsc{Eliezer Yudkowsky}}
 \backslash
 
 \backslash
@@ -253,9 +257,9 @@ baselineskip}
 
 {
 \backslash
-LARGE
+Huge 
 \backslash
-sffamily Harry Potter e i}
+msls Harry Potter e i}
 \backslash
 
 \backslash
@@ -268,9 +272,9 @@ baselineskip]
 
 {
 \backslash
-Huge
+HUGE 
 \backslash
-sffamily 
+msls 
 \backslash
 textsc{Metodi della razionalità}}
 \backslash
@@ -306,13 +310,19 @@ vfill
 
 {
 \backslash
-textit{Basato sull'opera di} J.K.
-\backslash
- Rowling}
+textit{Basato sull'opera di}
 \backslash
 
 \backslash
-[0.2
+ 
+\backslash
+textsc{J.K.
+\backslash
+ Rowling}}
+\backslash
+
+\backslash
+[
 \backslash
 baselineskip]
 \end_layout
@@ -321,11 +331,17 @@ baselineskip]
 
 {
 \backslash
-textit{Illustrazioni di} Dinosaurusgede}
+textit{Illustrazioni di}
 \backslash
 
 \backslash
-[0.2
+ 
+\backslash
+textsc{Dinosaurusgede}}
+\backslash
+
+\backslash
+[
 \backslash
 baselineskip]
 \end_layout
@@ -334,11 +350,17 @@ baselineskip]
 
 {
 \backslash
-textit{Traduzione di} Cato Philosophus}
+textit{Traduzione di}
 \backslash
 
 \backslash
-[0.2
+ 
+\backslash
+textsc{Cato Philosophus}}
+\backslash
+
+\backslash
+[
 \backslash
 baselineskip]
 \end_layout
@@ -362,14 +384,19 @@ vfill
 
 \begin_layout Standard
 \align center
-\begin_inset Graphics
-	filename PublisherLogo.png
-	lyxscale 30
-	scale 80
-
+Roma
+\begin_inset Newline newline
 \end_inset
 
 
+\emph on
+Cato Philosophus
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+2013
 \end_layout
 
 \begin_layout Standard
@@ -503,9 +530,9 @@ LaTeX
 
 \end_inset
 
-, usando Linux Libertine e 
+, usando Arno Pro e 
 \family sans
-Linux Biolinum
+Purisa
 \family default
 .
 \end_layout
@@ -666,43 +693,8 @@ pagestyle{myheadings}
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cleardoublepage  % 
-\backslash
-phantomsection if hyperref is used
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{part}{Arco narrativo 1}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-part*{Arco narrativo 1}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
 \lang english
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "001.lyx"
@@ -1061,6 +1053,18 @@ textquotedblright{} l'immagine elaborata per la copertina.
 \begin_layout Standard
 \align center
 \begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PublisherLogo.png
+	lyxscale 30
+	scale 80
+
 \end_inset
 
 
