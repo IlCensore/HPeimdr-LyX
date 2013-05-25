@@ -64,6 +64,7 @@
 \makeatother
 
 \newfontfamily\msls{Medici Script LT Std}
+\newfontfamily\mw{Many Weatz}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -259,7 +260,9 @@ baselineskip}
 \backslash
 Huge 
 \backslash
-msls Harry Potter e i}
+mw 
+\backslash
+textcolor{red}{Harry Potter e i}}
 \backslash
 
 \backslash
@@ -274,9 +277,11 @@ baselineskip]
 \backslash
 HUGE 
 \backslash
-msls 
+mw 
 \backslash
-textsc{Metodi della razionalità}}
+textcolor{red}{
+\backslash
+textsc{Metodi della razionalità}}}
 \backslash
 
 \backslash
@@ -1030,6 +1035,13 @@ pagestyle{myheadings}
 \begin_inset CommandInset include
 LatexCommand include
 filename "NoteA.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "NoteB.lyx"
 
 \end_inset
 
