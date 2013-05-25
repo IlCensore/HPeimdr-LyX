@@ -693,8 +693,43 @@ pagestyle{myheadings}
 \end_inset
 
 
-\lang english
+\end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage  % 
+\backslash
+phantomsection if hyperref is used
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{part}{Arco narrativo 1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+part*{Arco narrativo 1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "001.lyx"
@@ -882,6 +917,48 @@ filename "020.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "021.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage  % 
+\backslash
+phantomsection if hyperref is used
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{part}{Arco narrativo 2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+part*{Arco narrativo 2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "022.lyx"
 
 \end_inset
 
