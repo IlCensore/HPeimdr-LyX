@@ -557,7 +557,7 @@ status open
 
 
 \backslash
-pagestyle{empty}
+pagestyle{plain}
 \end_layout
 
 \end_inset
@@ -974,6 +974,13 @@ part*{Arco narrativo 2}
 \begin_inset CommandInset include
 LatexCommand include
 filename "022.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "023.lyx"
 
 \end_inset
 
