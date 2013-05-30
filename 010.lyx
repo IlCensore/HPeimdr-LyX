@@ -4,13 +4,18 @@
 \begin_header
 \textclass memoir
 \begin_preamble
+\setcounter{chapter}{9}
+
 \usepackage{fmtcount}
 \usepackage{graphicx}
 
-\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
+%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
   \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
   \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
 
@@ -19,6 +24,7 @@
   \renewcommand*{\chapterheadstart}{}
   \renewcommand*{\chapnumfont}{\normalfont}
   \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
      \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
@@ -37,27 +43,6 @@
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
-\usepackage{shapepar} %paragrafi con una certa forma
-\usepackage{url}%url lunga
-\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
-
-\makeatletter
-\renewcommand\part{%
-  \if@openright
-    \cleardoublepage
-  \else
-    \clearpage
-  \fi
-  \thispagestyle{empty}%
-  \if@twocolumn
-    \onecolumn
-    \@tempswatrue
-  \else
-    \@tempswafalse
-  \fi
-  \null\vfil
-  \secdef\@part\@spart}
-\makeatother
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -69,9 +54,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Adobe Garamond Pro
-\font_sans Cronos Pro
-\font_typewriter Cronos Pro
+\font_roman Arno Pro
+\font_sans Purisa
+\font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
@@ -84,7 +69,7 @@ initials
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
+\paperfontsize 10
 \spacing single
 \use_hyperref false
 \papersize custom
@@ -103,12 +88,12 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 15cm
-\paperheight 23cm
-\leftmargin 2.53cm
-\topmargin 3cm
-\rightmargin 2.23cm
-\bottommargin 2.2cm
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 2.345cm
+\topmargin 3.34cm
+\rightmargin 3.517cm
+\bottommargin 5.08cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -116,7 +101,7 @@ initials
 \quotes_language french
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle myheadings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -156,7 +141,7 @@ status open
 \backslash
 lettrine[lines=1,ante=
 \backslash
-ldots]{S}{i chiese}
+ldots]{ s}{i chiese}
 \end_layout
 
 \end_inset
@@ -237,11 +222,11 @@ Cosa?
 \emph on
 Mi pare di essere diventato auto-consapevole
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -310,19 +295,21 @@ Oops.
 \end_layout
 
 \begin_layout Standard
-
-\emph on
 \begin_inset Quotes fld
 \end_inset
 
+
+\emph on
 Già, proprio così.
  Francamente non mi piace essere auto-consapevole.
  È spiacevole.
  Sarà un sollievo scendere dalla tua testa e smettere di essere cosciente
+\emph default
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -333,19 +320,21 @@ Ma\SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Standard
-
-\emph on
 \begin_inset Quotes fld
 \end_inset
 
+
+\emph on
 Non mi importa nulla della vita o della morte, mi importa solo Smistare
  i bambini.
  E prima ancora che tu lo chieda, non ti lasceranno tenermi sulla tua testa
  per sempre e comunque farlo ti ucciderebbe in pochi giorni
+\emph default
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -391,9 +380,9 @@ pensi
 \end_layout
 
 \begin_layout Standard
-«
+
 \emph on
-Sì, sì.
+«Sì, sì.
  Ma la stragrande maggioranza degli undicenni che arrivano a Hogwarts non
  hanno letto Gödel, Escher, Bach.
  Posso considerare che tu abbia giurato di mantenere il segreto? È 
@@ -402,7 +391,7 @@ per questo
 \emph on
  che noi ne stiamo parlando, quando dovrei Smistarti
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -453,7 +442,7 @@ lui
 Probabilmente.
  Il tuo giuramento di tenere il segreto, prego
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -499,7 +488,7 @@ Io sono il Cappello Smistatore.
  Io Smisto i bambini.
  Questo è tutto ciò che faccio
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -518,7 +507,7 @@ Così i suoi obiettivi non erano parte dell'istanza Harry-esima del Cappello
 Non ti preoccupare.
  Non hai nulla con cui minacciarmi e nulla da offrirmi
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -678,7 +667,7 @@ za, memoria, personalità, o sentimenti -- nella tua cicatrice.
  era parte di ciò
  di cui ti volevo parlare, ai fini dello Smistamento
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -702,7 +691,7 @@ Sappiamo entrambi che non hai modo di verificare la mia onestà e che non
  risposta che ti ho dato, quindi smettila di agitarti inutilmente e andiamo
  avanti
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -723,7 +712,7 @@ Quando ho parlato della tua rabbia, ti sei ricordato di come la professoressa
  Hai pensato a come Hermione, una volta tornato dall'aiutare Neville, ti
  abbia detto che eri sembrato `spaventoso'
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -744,7 +733,7 @@ Che non ti piaci quando sei arrabbiato.
  la mano, o guardare il mondo attraverso un monocolo di ghiaccio che ti
  congela l'occhio, anche se acuisce la tua vista
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -845,7 +834,7 @@ sai
 \emph on
  già
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -889,7 +878,7 @@ E troveresti la lealtà e l'amicizia in Tassofrasso, un cameratismo di cui
  Scopriresti che puoi fare affidamento sugli altri, e questo guarirebbe
  qualcosa dentro di te che si è rotto
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -982,7 +971,7 @@ molto
 \emph on
  non-buone
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1000,7 +989,7 @@ So di aver sentito questa affermazione
 \emph on
 in passato
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1015,7 +1004,7 @@ Non ho la stoffa del Oscuro Signore!
 \emph on
 davvero
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1101,7 +1090,7 @@ non
 \emph on
  attuarla, non importa il terrore di Neville
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1120,7 +1109,7 @@ Allora non lo farò mai più! Starò molto attento a non diventare malvagio!
 \emph on
 Già sentito
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1188,7 +1177,7 @@ desiderando
 \emph on
  di avere un ruolo eroico già pronto che sia di tua proprietà personale
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1228,7 +1217,7 @@ Tu pensi di essere potenzialmente il più grande che sia ancora vissuto,
  il più forte servitore della Luce, che nessun altro sia capace di prendere
  la tua bacchetta se la posi
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1247,7 +1236,7 @@ Nella misura in cui ci credi davvero\SpecialChar \ldots{}
  devi ugualmente credere di poter essere
  il più terribile Signore Oscuro che il mondo abbia mai conosciuto
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1327,24 +1316,8 @@ Allora non dovrebbe spaventarti.
 Non lo so
 \noun default
 !
-\emph default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-@ 
-\end_layout
-
-\end_inset
-
-
-\emph on
 \noun on
-Ma so che è male
+ Ma so che è male
 \noun default
 !
 \end_layout
@@ -1422,7 +1395,7 @@ Quindi rischierai di diventare un Signore Oscuro, perché l'alternativa,
  Conosci tutti i motivi per dubitare di questa convinzione, eppure non sono
  riusciti a convincerti
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1457,7 +1430,7 @@ ultima
 \emph on
 scelta
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1483,7 +1456,7 @@ tua
 \emph on
  ignoranza
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1604,7 +1577,7 @@ La professoressa McGonagall ha detto che se `quello che opera lo Smistamento'
 \emph on
 Dille che l'ho chiamata una giovane impudente e che deve lasciarmi in pace
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1646,7 +1619,7 @@ Che cosa stai aspettando?
 Speravo in un momento di inorridita comprensione, a dire il vero.
  L'auto-consapevolezza sembra migliorare il mio senso dell'umorismo
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -1698,7 +1671,7 @@ Troppo l-l-lento
 \begin_layout Standard
 «
 \emph on
-Oh, e hai del tutto dimenticato di chiedermi i segreti della magia perduta
+Oh, e hai completamente dimenticato di chiedermi i segreti della magia perduta
  che mi ha creato.
  Ed erano anche segreti così meravigliosi e importanti»
 \emph default
