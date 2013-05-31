@@ -43,6 +43,8 @@
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\sideparmargin{ outer}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -55,7 +57,7 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman Linux Biolinum O
-\font_sans Purisa
+\font_sans Warnock Pro
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -113,6 +115,13 @@ initials
 
 \begin_layout Chapter
 L'ipotesi dell'intelligenza machiavellica
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:24L'ipotesi-dell'intelligenza-mach"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -155,7 +164,7 @@ lettrine[lines=1]{D}{raco attese}
 \end_layout
 
 \begin_layout Standard
-Ci sarebbe stato un prezzo, e non sarebbe stato piccolo.
+Ci sarebbe stato un prezzo da pagare, e non sarebbe stato piccolo.
  Draco l'aveva compreso non appena si era svegliato e aveva capito che non
  osava entrare nella Grande Sala per la colazione perché avrebbe potuto
  vedere Harry Potter lì e Draco non sapeva cosa sarebbe successo dopo.
@@ -187,8 +196,8 @@ Er capo nun è de bon'umore, oggi, sta' 'n campana
 
 \begin_layout Standard
 Draco aveva intenzione di spellare vivo quell'idiota e mandare indietro
- il suo corpo scuoiato con una richiesta di un servo più intelligente, come
- un gerbillo morto.
+ il suo corpo scuoiato con una richiesta di un servo più intelligente, ad
+ esempio un gerbillo morto.
 \end_layout
 
 \begin_layout Standard
@@ -1991,245 +2000,275 @@ Proverò
 \end_layout
 
 \begin_layout Standard
-«I see», said Draco, his voice sounding disappointed.
+\begin_inset Quotes fld
+\end_inset
+
+Capisco
+\begin_inset Quotes frd
+\end_inset
+
+, disse Draco, la sua voce che risuonava di disappunto.
 \end_layout
 
 \begin_layout Standard
-Harry's voice tried to gentle itself even more.
- «I'll try to respect your expertise, Draco, about things like people stuff.
- But you need to respect my expertise too, and there's just no 
-\emph on
-way
-\emph default
- you could be my equal when it comes to steering the Conspiracy.
- You've only been a scientist for 
-\emph on
-one day
-\emph default
-, you know 
-\emph on
-one
-\emph default
- secret about deoxyribose nucleic acid, and you aren't trained in 
-\emph on
-any
-\emph default
- of the methods of rationality».
-\end_layout
+La voce di Harry cercò di ingentilirsi ancor di più.
+ 
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-«I understand», said Draco.
-\end_layout
-
-\begin_layout Standard
-And he did.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-People stuff,
-\emph default
- Harry had said.
- Seizing control of the Conspiracy probably wouldn't even be difficult.
- And afterward, he would kill Harry Potter just to be sure 
-\begin_inset ERT
-status open
+Mi impegnerò a rispettare le tue competenze, Draco, su argomenti come la
+ roba con le persone.
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
 
---
+roba con le persone
+\begin_inset Quotes frd
+\end_inset
+
+, riutilizzato qui sotto.
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-The memory rose up in Draco of how sick inside it had felt last night, knowing
- Harry was screaming.
-\end_layout
-
-\begin_layout Standard
-Draco thought some more bad words.
-\end_layout
-
-\begin_layout Standard
-Fine.
- He 
-\emph on
-wouldn't
-\emph default
- kill Harry.
- Harry had been raised by Muggles, it wasn't his fault he was insane.
-\end_layout
-
-\begin_layout Standard
-Instead, Harry would live on, just so that Draco could tell him that it
- had all been for Harry's own good, really, he ought to be grateful 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-And with a sudden twitch of surprised pleasure, Draco realized that it actually
+ Ma anche tu hai bisogno di rispettare le mie competenze, ed è semplicemente
  
 \emph on
-was
+impossibile
 \emph default
- for Harry's own good.
- If Harry tried to carry out his plan of playing Dumbledore and Father for
- fools, he would 
+ che tu sia mio eguale quando si tratta di indirizzare la Cospirazione.
+ Sei uno scienziato da appena 
 \emph on
-die.
-\end_layout
-
-\begin_layout Standard
-That made it 
-\emph on
-perfect.
-\end_layout
-
-\begin_layout Standard
-Draco would take all of Harry's dreams away from him, just as Harry had
- done to him.
-\end_layout
-
-\begin_layout Standard
-Draco would tell Harry that it had been for his own good, and it would be
- absolutely true.
-\end_layout
-
-\begin_layout Standard
-Draco would wield the Conspiracy and the power of science to purify the
- wizarding world, and Father would be as proud of him as if he'd been a
- Death Eater.
-\end_layout
-
-\begin_layout Standard
-Harry Potter's evil plots would be foiled, and the forces of right would
- prevail.
-\end_layout
-
-\begin_layout Standard
-The perfect revenge.
-\end_layout
-
-\begin_layout Standard
-Unless…
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Just pretend to be pretending to be a scientist,
+un giorno
 \emph default
- Harry had told him.
+, conosci 
+\emph on
+un 
+\emph default
+segreto riguardo all'acido desossiribonucleico, e non sei addestrato a 
+\emph on
+nessuno
+\emph default
+ dei metodi della razionalità
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Draco didn't have words to describe exactly what was wrong with Harry's
- mind 
-\begin_inset ERT
-status open
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Comprendo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Draco.
+\end_layout
+
+\begin_layout Standard
+Ed era così.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+La roba con le persone
+\emph default
+, aveva detto Harry.
+ Prendere il controllo della Cospirazione non sarebbe stato neppure difficile,
+ con tutta probabilità.
+ E dopo, avrebbe ucciso Harry Potter giusto per essere sicuro
+\begin_inset space ~
+\end_inset
 
 --
 \end_layout
 
+\begin_layout Standard
+E in Draco emerse la memoria di quanto si fosse sentito male la notte precedente
+, sapendo che Harry stava urlando.
+\end_layout
+
+\begin_layout Standard
+Draco pensò qualche altra brutta parola.
+\end_layout
+
+\begin_layout Standard
+Va bene.
+ 
+\emph on
+Non avrebbe
+\emph default
+ ucciso Harry.
+ Harry era stato cresciuto da Babbani, non era colpa sua se era folle.
+\end_layout
+
+\begin_layout Standard
+Invece, Harry sarebbe sopravvissuto, in modo che Draco potesse dirgli che
+ era stato tutto per il bene di Harry, davvero, sarebbe dovuto essere grato
+\begin_inset space ~
 \end_inset
 
+--
+\end_layout
+
+\begin_layout Standard
+E con un improvviso spasmo di piacere sorpreso, Draco si rese conto che
+ era 
+\emph on
+davvero
+\emph default
+ per il bene di Harry.
+ Se Harry avesse tentato di portare avanti il suo piano di trattare Silente
+ e suo Padre come sciocchi, sarebbe 
+\emph on
+morto
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Questo lo rendeva 
+\emph on
+perfetto
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Draco avrebbe portato via a Harry tutti i suoi sogni, proprio come Harry
+ aveva fatto con lui.
+\end_layout
+
+\begin_layout Standard
+Draco avrebbe detto che era stato per il suo bene, e sarebbe stato assolutamente
+ vero.
+\end_layout
+
+\begin_layout Standard
+Draco avrebbe brandito la Cospirazione e il potere della scienza per purificare
+ il mondo dei maghi, e suo Padre sarebbe stato orgoglioso di lui come se
+ fosse stato un Mangiamorte.
+\end_layout
+
+\begin_layout Standard
+I piani malvagi di Harry Potter sarebbero stati sventati, e le forze del
+ bene sarebbero prevalse.
+\end_layout
+
+\begin_layout Standard
+La vendetta perfetta.
+\end_layout
+
+\begin_layout Standard
+A meno che\SpecialChar \ldots{}
 
 \end_layout
 
 \begin_layout Standard
-(since Draco had never heard the term 
+
 \emph on
-depth of recursion
+Devi solo far finta di fingere di essere uno scienziato
+\emph default
+,
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Capitolo 22
+\end_layout
+
+\end_inset
+
+ gli aveva detto Harry.
+\end_layout
+
+\begin_layout Standard
+Draco non aveva le parole per descrivere con esattezza cosa ci fosse di
+ sbagliato nella mente di Harry
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+(poiché Draco non aveva mai sentito il termine 
+\emph on
+profondità di ricorsione
 \emph default
 )
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
+\begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- but he could guess what sort of plots it implied.
-\end_layout
-
-\begin_layout Standard
-…unless all that was exactly what Harry 
-\emph on
-wanted
-\emph default
- Draco to do as part of some even 
-\emph on
-larger
-\emph default
- plot which Draco would play 
-\emph on
-right into
-\emph default
- by trying to foil this one, Harry might even 
-\emph on
-know
-\emph default
- that his plan was unworkable, it might have no purpose 
-\emph on
-except
-\emph default
- luring Draco to thwart it 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
+Profondità di ricorsione
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+-- ma poteva immaginare che genere di piani implicasse.
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \ldots{}
+ a meno che tutto quello fosse esattamente ciò che Harry 
+\emph on
+voleva
+\emph default
+ che Draco facesse come parte in un qualche piano ancora 
+\emph on
+più vasto
+\emph default
+ che Draco avrebbe interpretato 
+\emph on
+alla perfezione
+\emph default
+ cercando di sventare questo, Harry poteva persino 
+\emph on
+sapere
+\emph default
+ che questo piano era irrealizzabile, avrebbe potuto non avere alcuno scopo
+ 
+\emph on
+eccetto
+\emph default
+ quello di indurre Draco a impedirlo
+\begin_inset space ~
+\end_inset
+
+--
 \end_layout
 
 \begin_layout Standard
 No.
- That way lay 
+ Quella via portava alla 
 \emph on
-madness.
-
+pazzia
 \emph default
- There 
+.
+ Ci 
 \emph on
-had
+doveva
 \emph default
- to be a limit.
- The Dark Lord himself hadn't been 
+ essere un limite.
+ Lo stesso Signore Oscuro non era stato 
 \emph on
-that
+così
 \emph default
- twisty.
- That sort of thing didn't happen in real life, only in Father's silly bedtime
- stories about foolish gargoyles who always ended up furthering the hero's
- plans every time they tried to stop him.
+ tortuoso.
+ Quel genere di cose non accadevano nella vita reale, solo nelle sciocche
+ storie della buonanotte di suo Padre, in cui folli gargoyle finivano sempre
+ per aiutare i piani dell'eroe ogni volta che cercavano di fermarlo.
 \end_layout
 
 \begin_layout Quote
@@ -2244,139 +2283,126 @@ that
 \end_layout
 
 \begin_layout Standard
-And beside Draco, Harry walked along with a smile on his face, thinking
- about the evolutionary origins of human intelligence.
+E al fianco di Draco, Harry passeggiava con un sorriso sul suo volto, pensando
+ all'origine evolutiva dell'intelligenza umana.
 \end_layout
 
 \begin_layout Standard
-In the beginning, before people had quite understood how evolution worked,
- they'd gone around thinking crazy ideas like 
+All'inizio, prima che si fosse compreso bene come funzionasse l'evoluzione,
+ se n'erano andati in giro sostenendo idee folli come 
 \emph on
-human intelligence evolved so that we could invent better tools.
-\end_layout
-
-\begin_layout Standard
-The reason why this was crazy was that only one person in the tribe had
- to invent a tool, and then everyone else would use it, and it would spread
- to other tribes, and still be used by their descendants a hundred years
- later.
- That was great from the perspective of scientific progress, but in evolutionary
- terms, it meant that the person who invented something didn't have much
- of a fitness 
-\emph on
-advantage
+l'intelligenza umana si è evoluta in modo che potessimo inventare strumenti
+ migliori
 \emph default
-, didn't have all that many 
-\emph on
-more
-\emph default
- children than everyone else.
- Only 
-\emph on
-relative
-\emph default
- fitness advantages could increase the relative frequency of a gene in the
- population, and drive some lonely mutation to the point where it was universal
- and everyone had it.
- And brilliant inventions just weren't common enough to provide the sort
- of consistent selection pressure it took to promote a mutation.
- It was a natural guess, if you looked at humans with their guns and tanks
- and nuclear weapons and compared them to chimpanzees, that the intelligence
- was there to make the technology.
- A natural guess, but wrong.
+.
 \end_layout
 
 \begin_layout Standard
-Before people had quite understood how evolution worked, they'd gone around
- thinking crazy ideas like 
+La ragione per cui questo era folle era che solo una persona nella tribù
+ doveva inventare lo strumento, e poi tutti gli altri l'avrebbero usato,
+ e si sarebbe diffuso tra le altre tribù, e ancora utilizzato dai loro discenden
+ti cento anni più tardo.
+ Era una grande cosa dal punto di vista del progresso scientifico, ma in
+ termini evolutivi, significava che la persona che aveva inventato qualcosa
+ non ne riceveva un 
 \emph on
-the climate changed, and tribes had to migrate, and people had to become
- smarter in order to solve all the novel problems.
-\end_layout
-
-\begin_layout Standard
-But human beings had four times the brain size of a chimpanzee.
- 20% of a human's metabolic energy went into feeding the brain.
- Humans were 
-\emph on
-ridiculously
+vantaggio
 \emph default
- smarter than any other species.
- That sort of thing didn't happen because the environment stepped up the
- difficulty of its problems a little.
- Then the organisms would just get a little smarter to solve them.
- Ending up with that gigantic outsized brain must have taken some sort of
- 
+ sufficiente in fitness, non aveva così tanti figli in più rispetto a tutti
+ gli altri.
+ Solo vantaggi di fitness 
 \emph on
-runaway
+relativa
 \emph default
- evolutionary process, something that would push and push without limits.
+ potevano incrementare la frequenza relativa di un gene nella popolazione,
+ e spingere una qualche mutazione solitaria al punto in cui sarebbe stata
+ universale e posseduta da tutti.
+ E le invenzioni brillanti non erano abbastanza comuni da fornire quella
+ sorta di pressione di selezione continua che era necessaria per supportare
+ una mutazione.
+ Era un'interpretazione naturale, se si osservavano gli esseri umani con
+ i loro cannoni e carri armati e armi nucleari e li si comparava agli scimpanzé,
+ che l'intelligenza esisteva per realizzare la tecnologia.
+ Un'interpretazione naturale, ma sbagliata.
 \end_layout
 
 \begin_layout Standard
-And today's scientists had a pretty good guess at what that runaway evolutionary
- process had been.
-\end_layout
-
-\begin_layout Standard
-Harry had once read a famous book called 
+Prima che si fosse compreso bene come funzionasse l'evoluzione, se n'erano
+ andati in giro sostenendo idee folli come 
 \emph on
-Chimpanzee Politics.
-
+il clima è cambiato, e le tribù hanno dovuto migrare, e le persone sono
+ dovute diventare più intelligenti per poter risolvere tutti i problemi
+ nuovi
 \emph default
- The book had described how an adult chimpanzee named Luit had confronted
- the aging alpha, Yeroen, with the help of a young, recently matured chimpanzee
- named Nikkie.
- Nikkie had not intervened directly in the fights between Luit and Yeroen,
- but had prevented Yeroen's other supporters in the tribe from coming to
- his aid, distracting them whenever a confrontation developed between Luit
- and Yeroen.
- And in time Luit had won, and become the new alpha, with Nikkie as the
- second most powerful…
+.
 \end_layout
 
 \begin_layout Standard
-…though it hadn't taken very long after that for Nikkie to form an alliance
- with the defeated Yeroen, overthrow Luit, and become the 
+Ma gli esseri umani avevano quattro volte le dimensioni cerebrali di uno
+ scimpanzé.
+ Il 20% dell'energia metabolica di un essere umano andava a nutrire il cervello.
+ Gli esseri umani erano 
 \emph on
-new
+assurdamente
 \emph default
- new alpha.
-\end_layout
-
-\begin_layout Standard
-It really made you appreciate what millions of years of hominids trying
- to outwit 
+ più intelligenti di ogni altra specie.
+ Quel genere di cose non accadeva perché l'ambiente aveva innalzato di un
+ poco la difficoltà dei suoi problemi.
+ In tal caso gli organismi sarebbero semplicemente diventati un po' più
+ intelligenti per risolverli.
+ Ritrovarsi con quel cervello così fuori misura doveva aver richiesto qualche
+ sorta di processo evolutivo 
 \emph on
-each other
+impazzito
 \emph default
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- an evolutionary arms race without limit 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- had led to in the way of increased mental capacity.
+, qualcosa che avrebbe spinto e ancora spinto senza limiti.
 \end_layout
 
 \begin_layout Standard
-'Cause, y'know, a human would have totally seen that one coming.
+E gli scienziati di oggi avevano un'idea piuttosto buona di quale fosse
+ stato quel processo evolutivo impazzito.
+\end_layout
+
+\begin_layout Standard
+Harry aveva letto una volta un famoso libro intitolato 
+\emph on
+La politica degli scimpanzé
+\emph default
+.
+ Il libro aveva descritto come uno scimpanzé adulto di nome Luit aveva affrontat
+o l'anziano alfa, Yeroen, con l'aiuto di un giovane scimpanzé recentemente
+ diventato adulto chiamato Nikkie.
+ Nikkie non era intervenuto direttamente negli scontri tra Luit e Yeroen,
+ ma aveva evitato che gli altri sostenitori di Yeroen nella tribù andassero
+ in suo aiuto, distraendoli ogni volta che si fosse sviluppato un conflitto
+ tra Luit e Yeroen.
+ E col tempo Luit aveva vinto, ed era diventato il nuovo alfa, con Nikkie
+ a ricoprire il ruolo di secondo più potente\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\SpecialChar \ldots{}
+ sebbene non fosse voluto molto tempo per Nikkie per formare un'alleanza
+ con lo sconfitto Yeroen, rovesciare Luit, e diventare il 
+\emph on
+nuovo
+\emph default
+ nuovo alfa.
+\end_layout
+
+\begin_layout Standard
+Ti faceva davvero apprezzare a che cosa milioni di anni di ominidi che cercavano
+ di 
+\emph on
+vincersi l'un l'altro in astuzia
+\emph default
+ -- una corsa agli armamenti evolutiva senza limiti -- avevano portato lungo
+ la strada verso una capacità mentale accresciuta.
+\end_layout
+
+\begin_layout Standard
+Perché, sai, un essere umano l'avrebbe chiaramente capito in anticipo.
 \end_layout
 
 \begin_layout Quote
@@ -2391,39 +2417,32 @@ status open
 \end_layout
 
 \begin_layout Standard
-And beside Harry, Draco walked along, suppressing his smile as he thought
- about his revenge.
+E al fianco di Harry, Draco passeggiava sopprimendo il suo sorriso mentre
+ pensava alla sua vendetta.
 \end_layout
 
 \begin_layout Standard
-Someday, maybe in years but someday, Harry Potter would learn just what
- it meant to underestimate a Malfoy.
+Prima o poi, forse tra qualche anno ma prima o poi, Harry Potter avrebbe
+ imparato cosa significare sottovalutare un Malfoy.
 \end_layout
 
 \begin_layout Standard
-Draco had awakened as a scientist in a single day.
- Harry had said that wasn't supposed to happen for months.
+Draco si era risvegliato in quanto scienziato in un singolo giorno.
+ Harry aveva detto che non sarebbe dovuto accadere prima di qualche mese.
 \end_layout
 
 \begin_layout Standard
-But of course if you were a Malfoy, you would be a more powerful scientist
- than anyone who wasn't.
+Ma ovviamente se eri un Malfoy, saresti stato uno scienziato più potente
+ di chiunque non lo fosse.
 \end_layout
 
 \begin_layout Standard
-So Draco would learn all of Harry Potter's methods of rationality, and then
- when the time was ripe 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Quindi Draco avrebbe imparato tutti i metodi della razionalità di Harry,
+ e poi, al momento opportuno
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \end_body
