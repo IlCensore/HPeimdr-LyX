@@ -67,18 +67,24 @@
   \secdef\@part\@spart}
 \makeatother
 
-\newfontfamily\msls{Medici Script LT Std}
-\newfontfamily\mw{Many Weatz}
-
-
 \sideparmargin{ outer}
 
 %\renewcommand*{\cftchaptername}{\chaptername\space}
+\newlength\partlength
+\newlength\chapterlength
+\setlength\partlength{5em}
+\setlength\chapterlength{3em}
 \renewcommand{\cftdot}{\ensuremath{\ast}}
 \renewcommand{\cftchapterleader}{}
 \renewcommand{\cftchapterafterpnum}{\cftparfillskip}
+\renewcommand*{\cftchapterformatpnum}[1]{%
+  \hbox to \chapterlength{\hfill{\cftchapterpagefont #1}}}
 \renewcommand{\cftsectionleader}{}
 \renewcommand{\cftsectionafterpnum}{\cftparfillskip}
+\renewcommand{\cftpartleader}{}
+\renewcommand{\cftpartafterpnum}{\cftparfillskip}
+\renewcommand*{\cftpartformatpnum}[1]{%
+  \hbox to \partlength{\hfill{\cftpartpagefont #1}}}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -90,7 +96,7 @@ initials
 \inputencoding auto
 \fontencoding 
 \font_roman Arno Pro
-\font_sans Myriad Pro
+\font_sans Linux Biolinum O
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -135,10 +141,10 @@ initials
 \end_index
 \paperwidth 6in
 \paperheight 9in
-\leftmargin 2.68cm
-\topmargin 3.49cm
-\rightmargin 2.68cm
-\bottommargin 2.68cm
+\leftmargin 1.69cm
+\topmargin 2.49cm
+\rightmargin 3.38cm
+\bottommargin 3.9cm
 \secnumdepth 3
 \tocdepth 0
 \paragraph_separation indent
@@ -716,14 +722,14 @@ phantomsection if hyperref is used
 
 
 \backslash
-addcontentsline{toc}{part}{Arco narrativo 1}
+addcontentsline{toc}{part}{Arco narrativo I}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-part*{Arco narrativo 1}
+part*{Arco narrativo I}
 \end_layout
 
 \end_inset
@@ -842,6 +848,9 @@ filename "010.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "011.lyx"
@@ -944,14 +953,14 @@ phantomsection if hyperref is used
 
 
 \backslash
-addcontentsline{toc}{part}{Arco narrativo 2}
+addcontentsline{toc}{part}{Arco narrativo II}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-part*{Arco narrativo 2}
+part*{Arco narrativo II}
 \end_layout
 
 \end_inset
