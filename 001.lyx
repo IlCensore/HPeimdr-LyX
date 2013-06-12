@@ -159,7 +159,7 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\align right
+\align left
 
 \size footnotesize
 \emph on
@@ -178,6 +178,13 @@ sangue fuoriesce a litri, e qualcuno urla una parola.
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align block
 \begin_inset ERT
 status open
@@ -186,7 +193,7 @@ status open
 
 
 \backslash
-lettrine[lines=1]{O}{gni centimetro}
+lettrine[lines=2]{O}{gni centimetro}
 \end_layout
 
 \end_inset

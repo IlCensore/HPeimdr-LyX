@@ -151,7 +151,7 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\align right
+\align left
 
 \size footnotesize
 \emph on
@@ -163,6 +163,13 @@ lui
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -170,7 +177,7 @@ status open
 
 
 \backslash
-lettrine[lines=1,ante=
+lettrine[lines=2,ante=
 \backslash
 guillemotleft]{T}{urpin, Lisa!}
 \end_layout
@@ -182,9 +189,9 @@ guillemotleft]{T}{urpin, Lisa!}
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 Bisbiglio bisbiglio bisbiglio harry potter bisbiglio bisbiglio serpeverde
  bisbiglio bisbiglio no davvero che diamine bisbiglio bisbiglio
 \end_layout

@@ -140,11 +140,18 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\align right
+\align left
 
 \size footnotesize
 \emph on
 «Sono certo che troverò il tempo da qualche parte.»
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -155,7 +162,7 @@ status open
 
 
 \backslash
-lettrine[lines=1,ante=
+lettrine[lines=2,ante=
 \backslash
 guillemotleft]{F}{
 \backslash
@@ -169,9 +176,9 @@ textit{rigideiro!}}
 \end_inset
 
 
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 Harry mise un dito nel bicchiere d'acqua appoggiato sul banco.
  Avrebbe dovuto essere fredda.
  Ma tiepida era inizialmente, e tiepida era rimasta.
