@@ -25,17 +25,21 @@
   \renewcommand*{\chapnumfont}{\normalfont}
   \renewcommand*{\printchaptername}{%
 %     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
-     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
   \renewcommand*{\afterchapternum}{%
-    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
   \renewcommand*{\printchapternonum}{%
     \vphantom{\chapnumfont \@chapapp 1}\par
     \parbox{0.5in}{}\par}
   \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
   \renewcommand*{\printchaptertitle}[1]{%
-    \centering \chaptitlefont\textsc{##1}}}
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
@@ -54,8 +58,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Warnock Pro
+\font_roman Linux Biolinum O
+\font_sans Linux Libertine O
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -426,432 +430,749 @@ reale?
 \end_layout
 
 \begin_layout Standard
-“Yeah,” Harry said, “just hard to make the Muggle way.
- If we could get enough of the stuff, we could use it to build a space elevator
- all the way up to geosynchronous orbit or higher, and in terms of delta-v
- that's halfway to anywhere in the Solar System.
- Plus we could throw out solar power satellites like confetti.”
-\end_layout
-
-\begin_layout Standard
-Hermione was frowning again.
- “Is this stuff 
-\emph on
-safe?
-\emph default
-”
-\end_layout
-
-\begin_layout Standard
-“I don't see why it wouldn't be,” Harry said.
- “A buckytube is just a graphite sheet wrapped into a circular tube, basically,
- and graphite is the same stuff used in pencils 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-”
+Sì
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+solo difficile da realizzare alla maniera babbana.
+ Se potessimo ottenerne abbastanza, potremmo usarli per costruire un ascensore
+ spaziale fino all'orbita geosincrona o più in alto, e in termini di delta-v
+ è a metà strada verso un luogo qualunque del Sistema solare.
+ Per di più, potremmo lanciare satelliti per l'energia solare come coriandoli.
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“I 
+Hermione stava nuovamente aggrottando la fronte.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questa roba è 
 \emph on
-know
+sicura?
 \emph default
- what graphite is, Harry,” Hermione said.
- She brushed her hair back absentmindedly, her eyebrows furrowed as she
- stared at the sheet of paper.
+
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Harry reached into a pocket of his robes, and produced a white thread tied
- to two small gray plastic rings at either end.
- He'd added drops of superglue where the thread met either ring, to make
- it all a single object that could be Transfigured as a whole.
- Cyanoacrylate, if Harry remembered correctly, worked by covalent bonds,
- and that was as close to being a “solid object” as you ever got in a world
- ultimately composed of tiny individual atoms.
- “When you're ready,” Harry said, “try to Transfigure this into a set of
- aligned buckytube fibers embedded in two solid diamond rings.”
+\begin_inset Quotes fld
+\end_inset
+
+Non vedo perché non dovrebbe esserlo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Un nanotubo è solo un foglio di grafite arrotolato a formare un tubo circolare,
+ fondamentalmente, e la grafite è la stessa roba che si usa per le matite
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“All right…” Hermione said slowly.
- “Harry, I feel like I just missed something.”
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+So
+\emph default
+ cos'è la grafite, Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ Si pettinò distrattamente all'indietro i capelli, le sopracciglia aggrottate
+ mentre osservava il foglio di carta.
 \end_layout
 
 \begin_layout Standard
-Harry shrugged helplessly.
+Harry infilò la mano in una tasca delle sue vesti, ed estrasse un filo bianco
+ collegato a due piccoli anelli granulari alle estremità.
+ Aveva aggiunto gocce di attaccatutto lì dove il filo si univa a ciascun
+ anello, per renderlo un unico oggetto che potesse essere Trasfigurato tutto
+ insieme.
+ Il cianoacrilato, se Harry ricordava bene, funzionava grazie a legami covalenti
+, e quella era la cosa più vicina all'essere un 
+\begin_inset Quotes fld
+\end_inset
+
+oggetto solido
+\begin_inset Quotes frd
+\end_inset
+
+ in un mondo fondamentalmente composto da minuscoli atomi individuali.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quando sei pronta
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+prova a Trasfigurare questo in un insieme di fibre di nanotubi allineati
+ immersi in due anelli di diamante solido
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene…
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione disse lentamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Harry, ho la sensazione di aver dimenticato qualcosa
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry scosse le spalle impotente.
  
 \emph on
-Maybe you're just tired.
-
+Forse sei solo stanca
 \emph default
- He knew better than to say it out loud, though.
+.
+ Sapeva bene che era meglio non dirlo ad alta voce, però.
 \end_layout
 
 \begin_layout Standard
-Hermione laid her wand against one plastic ring, and stared for a while.
+Hermione appoggiò la sua bacchetta su uno degli anelli di plastica e lo
+ fissò per un po'.
 \end_layout
 
 \begin_layout Standard
-Two small circles of glittering diamond lay on the table, connected by a
- long black thread.
+Due anellini di diamante luccicante giacevano sul tavolo, connessi da un
+ lungo filo nero.
 \end_layout
 
 \begin_layout Standard
-“It changed,” said Hermione.
- She sounded like she was trying to be enthusiastic but had run out of energy.
- “Now what?”
-\end_layout
-
-\begin_layout Standard
-Harry felt a bit deflated by his research partner's lack of passion, but
- did his best not to show it; maybe the same process would work in reverse
- to cheer her up.
- “Now I test it to see if it holds weight.”
-\end_layout
-
-\begin_layout Standard
-There was an A-frame Harry had rigged up to do an earlier experiment with
- diamond rods 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
- you could make solid diamond objects easily, using Transfiguration, they
- just wouldn't last.
- The earlier experiment had measured whether Transfiguring a long diamond
- rod into a shorter diamond rod would allow it to lift a suspended heavy
- weight as it contracted, i.e., could you Transfigure against tension, which
- you in fact could.
-\end_layout
-
-\begin_layout Standard
-Harry carefully looped one circle of glittering diamond over the thick metal
- hook at the top of the rig, then attached a thick metal hanger to the bottom
- ring, and then started attaching weights to the hanger.
-\end_layout
-
-\begin_layout Standard
-(Harry had asked the Weasley twins to Transfigure the apparatus for him,
- and the Weasley twins had given him an incredulous look, like they couldn't
- figure out what sort of prank he could 
-\emph on
-possibly
-\emph default
- want that for, but they hadn't asked any questions.
- And their Transfigurations, according to them, lasted for around three
- hours, so Harry and Hermione still had a while left.)
-\end_layout
-
-\begin_layout Standard
-“One hundred kilograms,” Harry said about a minute later.
- “I don't think a steel thread this thin would hold that.
- It should go up much higher, but that's all the weight I've got.”
-\end_layout
-
-\begin_layout Standard
-There was a further silence.
-\end_layout
-
-\begin_layout Standard
-Harry straightened up, and went back to their table, and sat down in his
- chair, and ceremoniously made a check mark next to `Buckytubes'.
- “There,” Harry said.
- “
-\emph on
-That
-\emph default
- one worked.”
-\end_layout
-
-\begin_layout Standard
-“But it's not really 
-\emph on
-useful
-\emph default
-, Harry, is it?” Hermione said from where she was sitting with her head
- resting in her hands.
- “I mean, even if we gave it to a scientist they couldn't learn how to make
- lots of buckytubes from studying ours.”
-\end_layout
-
-\begin_layout Standard
-“They might be able to learn 
-\emph on
-something,
-\emph default
-” Harry said.
- “Hermione, 
-\emph on
-look
-\emph default
- at it, that little tiny thread holding up all that weight, we just made
- something that no Muggle laboratory could make 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+È cambiato
+\begin_inset Quotes frd
 \end_inset
 
-”
-\end_layout
-
-\begin_layout Standard
-“But any other witch could make it,” Hermione said.
- Her exhaustion was coming into her voice, now.
- “Harry, I don't think this is working out.”
-\end_layout
-
-\begin_layout Standard
-“You mean our relationship?” Harry said.
- “Great! Let's break up.”
-\end_layout
-
-\begin_layout Standard
-That got a slight grin out of her.
- “I mean our research.”
-\end_layout
-
-\begin_layout Standard
-“Oh, Hermione, how 
-\emph on
-could
-\emph default
- you?”
-\end_layout
-
-\begin_layout Standard
-“You're sweet when you're mean,” she said.
- “But Harry, this is nuts, I'm twelve, you're eleven, it's 
-\emph on
-silly
-\emph default
- to think we're going to discover anything that no one's ever figured out
- before.”
-\end_layout
-
-\begin_layout Standard
-“Are you really saying we should give up on unraveling the secrets of magic
- after trying for less than one 
-\emph on
-month?
-\emph default
-” Harry said, trying to put a note of challenge into his voice.
- Honestly he was feeling some of the same fatigue as Her\SpecialChar \-
-mione.
- None of the 
-\emph on
-good
-\emph default
- ideas ever worked.
- He'd made just one discovery worth mentioning, the Mendelian pattern, and
- he couldn't tell Hermione about it without breaking his promise to Draco.
-\end_layout
-
-\begin_layout Standard
-“No,” Hermione said.
- Her young face was looking very serious and adult.
- “I'm saying right now we should be 
-\emph on
-studying
-\emph default
- all the magic that wizards already know, so we can do this sort of thing
- after we graduate from Hogwarts.”
-\end_layout
-
-\begin_layout Standard
-“Um…” Harry said.
- “Hermione, I hate to put it this way, but imagine we'd decided to hold
- off on research until later, and the first thing we tried after we graduated
- was Transfiguring an Alzheimer's cure, and it 
-\emph on
-worked.
-
-\emph default
- We'd feel… I don't think the word 
-\emph on
-stupid
-\emph default
- would adequately describe how we'd feel.
- What if there's something else like that and it does work?”
-\end_layout
-
-\begin_layout Standard
-“That's not 
-\emph on
-fair,
-\emph default
- Harry!” Hermione said.
- Her voice was trembling like she was on the verge of breaking out crying.
- “You can't 
-\emph on
-put
-\emph default
- that on people! It's not our 
-\emph on
-job
-\emph default
- to do that sort of thing, we're 
-\emph on
-kids!
-\emph default
-”
-\end_layout
-
-\begin_layout Standard
-For a moment Harry wondered what would happen if someone told Her\SpecialChar \-
-mione she
- had to fight an immortal Dark Lord, if she would turn into one of the whiny
- self-pitying heroes that Harry could never stand reading about in his books.
-\end_layout
-
-\begin_layout Standard
-“Anyway,” Hermione said.
- Her voice shook.
- “I don't want to keep doing this.
- I don't believe children can do things that grownups can't, that's only
- in stories.”
-\end_layout
-
-\begin_layout Standard
-There was silence in the classroom.
-\end_layout
-
-\begin_layout Standard
-Hermione started to look a little scared, and Harry knew that his own expression
- had gotten colder.
-\end_layout
-
-\begin_layout Standard
-It might not have hurt so much if the same thought hadn't already come to
- Harry 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+, disse Hermione.
+ Suonò come se stesse cercando di essere entusiasta ma avesse finito le
+ energie.
+ 
+\begin_inset Quotes fld
 \end_inset
 
- that, while thirty might be old for a scientific revolutionary and twenty
- about right, while there were people who got doctorates when they were
- seventeen and fourteen-year-old heirs who'd been great kings or generals,
- there wasn't really anyone who'd made the history books at eleven.
-\end_layout
-
-\begin_layout Standard
-“All right,” Harry said.
- “Figure out how to do something a grownup can't.
- Is that your challenge?”
-\end_layout
-
-\begin_layout Standard
-“I didn't mean it like that,” Hermione said, her voice coming out in a frightene
-d whisper.
-\end_layout
-
-\begin_layout Standard
-With an effort, Harry wrenched his gaze away from Hermione.
- “I'm not angry at 
-\emph on
-you
-\emph default
-,” Harry said.
- His voice was cold, despite his best efforts.
- “I'm angry at, I don't know, everything.
- But I'm not willing to lose, Hermione.
- Losing isn't always the right thing to do.
- I'll figure out how to do something a grown wizard can't do, and then I'll
- get back to you.
- How's that?”
-\end_layout
-
-\begin_layout Standard
-There was more silence.
-\end_layout
-
-\begin_layout Standard
-“Okay,” said Hermione, her voice wavering a little.
- She pushed herself up out of her chair, and went over to the door of the
- abandoned classroom they'd been working in.
- Her hand went onto the doorknob.
- “We're still friends, right? And if you can't figure out anything 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+E ora?
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-Her voice halted.
+Harry si sentì un po' scoraggiato dalla mancanza di passione della sua compagna
+ di ricerca, ma fece il possibile per non mostrarlo; forse lo stesso processo
+ avrebbe funzionato al contrario per tirarle su il morale.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ora lo metterò alla prova per vedere se sopporta un peso
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-“Then we'll study together,” Harry said.
- His voice was even colder now.
+C'era un cavalletto ad `A' che Harry aveva montato per fare un precedente
+ esperimento con delle bacchette di diamante -- potevi facilmente realizzare
+ degli oggetti di solido diamante, usando la Trasfigurazione, è solo che
+ non sarebbero durati.
+ L'esperimento precedente aveva misurato se la Trasfigurazione di una bacchetta
+ di diamante lunga in una bacchetta di diamante corta le avrebbe permesso
+ di sollevare un peso sospeso mentre si contraeva, ovvero se si potesse
+ Trasfigurare contro la tensione, cosa che effettivamente si poteva fare.
 \end_layout
 
 \begin_layout Standard
-“Um, bye for now, then,” Hermione said, and she quickly went out of the
- room and shut the door behind her.
+Harry inserì attentamente un anello di luccicante diamante sullo spesso
+ uncino di metallo alla parte superiore del cavalletto, poi attaccò uno
+ spesso gancio di metallo all'anello inferiore, e poi iniziò ad attaccare
+ pesi al gancio.
 \end_layout
 
 \begin_layout Standard
-Sometimes Harry hated having a dark side, even when he was inside it.
+(Harry aveva chiesto ai gemelli Weasley di Trasfigurare l'apparato per lui,
+ e i gemelli Weasley gli avevano rivolto uno sguardo incredulo, come se
+ non riuscissero a immaginare per quale genere di scherzo potesse volere
+ quell'oggetto, ma non avevano fatto domande.
+ E le loro Trasfigurazioni, a sentir loro, duravano per circa tre ore, quindi
+ Harry e Hermione avevano ancora un po' di tempo.)
 \end_layout
 
 \begin_layout Standard
-And the part of him that had thought exactly the same thing as Hermione,
- that no, children 
+\begin_inset Quotes fld
+\end_inset
+
+Cento chilogrammi
+\begin_inset Quotes frd
+\end_inset
+
+, Harry disse circa un minuto dopo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non penso che un filo d'acciaio così sottile ce la farebbe.
+ Dovrebbe sopportare ancora di più, ma questo è tutto il peso che ho
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ci fu altro silenzio.
+\end_layout
+
+\begin_layout Standard
+Harry si raddrizzò, e tornò al tavolo, e si sedette sulla sua sedia, e cerimonio
+samente segnò una spunta vicino a `Nanotubi'.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Là
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
-couldn't
+Questo
 \emph default
- do what grownups couldn't, was saying all the things that Hermione had
- been too frightened to say, like, 
-\emph on
-That's one hell of a difficult challenge you just grabbed for yourself
-\emph default
- and 
-\emph on
-boy are you going to end up with egg on your face this time
-\emph default
- and 
-\emph on
-at least this way you'll know you've failed.
+ ha funzionato
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-And the part of him that didn't enjoy losing replied, in a very cold voice,
+\begin_inset Quotes fld
+\end_inset
+
+Ma non è davvero 
+\emph on
+utile
+\emph default
+, giusto Harry?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Hermione seduta con la testa tra le mani a riposare.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voglio dire, anche se lo dessimo a uno scienziato, non potrebbe imparare
+ come fare molti nanotubi studiando il nostro
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Potrebbero essere in grado di imparare 
+\emph on
+qualcosa
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Hermione, 
+\emph on
+guardalo
+\emph default
+, quel piccolo filo minuscolo che regge tutto quel peso, abbiamo appena
+ fatto qualcosa che nessun laboratorio babbano può fare
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ma qualunque altra strega potrebbe farlo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ La sua stanchezza iniziava a sentirsi nella sua voce, ora.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Harry, non penso che funzioni
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Vuoi dire la nostra relazione?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Grande! Lasciamoci
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Riuscì a ottenere solo un piccolo ghigno da lei.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Intendo la nostra ricerca
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh, Hermione, come puoi dirlo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sei così dolce quando fai il cattivo
+\begin_inset Quotes frd
+\end_inset
+
+, disse lei.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma Harry, questo è folle, io ho dodici anni, tu undici, è 
+\emph on
+stupido
+\emph default
+ pensare che scopriremo qualcosa che nessun altro ha mai capito prima
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Stai dicendo davvero che dovremmo rinunciare a svelare i segreti della magia
+ dopo aver provato per meno di un 
+\emph on
+mese?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry, cercando di inserire una sfumatura di sfida nella sua voce.
+ In tutta onestà provava lo stesso genere di fatica di Hermione.
+ Non una delle 
+\emph on
+buone
+\emph default
+ idee aveva mai funzionato.
+ Aveva fatto una singola scoperta degna di nota, lo schema mendeliano, e
+ non poteva dirlo a Hermione senza infrangere la sua promessa a Draco.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ Il suo giovane viso sembrava molto serio e adulto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sto dicendo che in questo momento dovremmo 
+\emph on
+studiare
+\emph default
+ tutta la magia che i maghi già conoscono, in modo da poter fare questo
+ genere di cose dopo esserci diplomati a Hogwarts
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm…
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Hermione, odio metterla in questo modo, ma immagina che decidessimo di sospender
+e la nostra ricerca fino ad allora, e la prima cosa che provassimo dopo
+ il diploma fosse Trasfigurare una cura per l'Alzheimer, e 
+\emph on
+funzionasse
+\emph default
+.
+ Ci sentiremmo… non credo che la parola 
+\emph on
+stupidi
+\emph default
+ possa descrivere adeguatamente come ci sentiremmo.
+ Che succederebbe se ci fosse qualcos'altro di quel genere e funzionasse?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non è 
+\emph on
+giusto
+\emph default
+, Harry!
+\begin_inset Quotes frd
+\end_inset
+
+ disse Hermione.
+ La sua voce stava tremando come se fosse sul punto di rompersi in un pianto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non puoi 
+\emph on
+addossarlo
+\emph default
+ sulle persone! Non è nostro 
+\emph on
+compito
+\emph default
+ fare questo genere di cose, siamo 
+\emph on
+bambini!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per un momento Harry si chiese cosa sarebbe successo se qualcuno avesse
+ detto a Hermione che lei doveva combattere un Signore Oscuro immortale,
+ se si sarebbe trasformata in uno di quegli auto-commiseranti e lamentosi
+ eroi di cui Harry non aveva mai sopportato leggere nei libri.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ad ogni modo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ La sua voce vacillò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non voglio continuare a fare queste cose.
+ Non credo che dei bambini possano fare cose che degli adulti non possono
+ fare, accade solo nelle storie
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ci fu silenzio nell'aula.
+\end_layout
+
+\begin_layout Standard
+Hermione iniziò a sembrare un po' spaventata, e Harry comprese che la propria
+ espressione era diventata più fredda.
+\end_layout
+
+\begin_layout Standard
+Non avrebbe fatto tanto male se lo stesso pensiero non fosse già venuto
+ a Harry -- che sebbene trent'anni fossero già troppi per un rivoluzionario
+ scientifico e venti appena giusti, sebbene ci fossero state persone che
+ avevano ottenuto un dottorato a diciassette anni ed eredi quattordicenni
+ che erano stati grandi re o generali, non c'era stato proprio nessuno che
+ era entrato nei libri di storia a undici anni.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Capire come fare qualcosa che un adulto non può fare.
+ È questa la tua sfida?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non intendevo questo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, la sua voce che uscì in un sussurro spaventato.
+\end_layout
+
+\begin_layout Standard
+Con uno sforzo, Harry forzò il proprio sguardo lontano da Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non sono arrabbiato con 
+\emph on
+te
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ La sua voce era fredda, malgrado il suoi migliori sforzi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono arrabbiato con, non so, tutto.
+ Ma non ho intenzione di perdere, Hermione.
+ Perdere non è sempre la cosa giusta da fare.
+ Scoprirò come fare qualcosa che un mago adulto non può fare, e poi tornerò
+ da te.
+ Che ne pensi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu altro silenzio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, la sua voce un po' esitante.
+ Si sollevò dalla sedia, e andò verso la porta dell'aula abbandonata in
+ cui avevano lavorato.
+ La sua mano si mosse verso la maniglia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Siamo ancora amici, vero? E se non riuscissi a farti venire in mente niente
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La sua voce si fermò.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Allora studieremo insieme
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ La sua voce era persino più fredda, ora.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm, allora ciao, per ora
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, e uscì rapidamente dalla stanza, chiudendosi la porta
+ alle spalle.
+\end_layout
+
+\begin_layout Standard
+Talvolta Harry odiava avere un lato oscuro, anche quando ci si trovava dentro.
+\end_layout
+
+\begin_layout Standard
+E la parte di lui che aveva pensato esattamente la stessa cosa di Hermione,
+ che no, i bambini 
+\emph on
+non potevano
+\emph default
+ fare ciò che neppure gli adulti facevano, stava dicendo tutte le cose che
+ Hermione era stata troppo spaventata per dire, come, 
+\emph on
+Ti sei scelto una sfida dannatamente difficile
+\emph default
+ e 
+\emph on
+farai davvero una pessima figura stavolta
+\emph default
+ e 
+\emph on
+almeno in questo modo saprai che hai fallito
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+E la parte di lui che non gradiva perdere rispose, con una voce molto fredda,
  
 \emph on
-Fine, you can shut up and watch.
+Bene, stai zitto e guarda
+\emph default
+.
 \end_layout
 
 \begin_layout Quote
@@ -866,56 +1187,57 @@ Fine, you can shut up and watch.
 \end_layout
 
 \begin_layout Standard
-It was almost lunchtime, and Harry didn't care.
- He hadn't even bothered grabbing a snack bar from his pouch.
- His stomach could stand a little starving.
+Era quasi l'ora di pranzo, e a Harry non importava.
+ Non si era neppure preso la briga di prendere una barretta dalla sua borsa.
+ Il suo stomaco poteva sopportare un po' di fame.
 \end_layout
 
 \begin_layout Standard
-The wizarding world was tiny, they didn't think like scientists, they didn't
- know science, they didn't question what they'd grown up with, they hadn't
- put protective shells on their time machines, they played Quidditch, all
- of magical Britain was smaller than a small Muggle city, the greatest wizarding
- school only educated up to the age of seventeen, 
+Il mondo dei maghi era minuscolo, non pensavano come scienziati, non conoscevano
+ la scienza, non mettevano in discussione ciò con cui erano cresciuti, non
+ avevano messo gusci di protezione alle loro macchine del tempo, giocavano
+ a Quidditch, l'intera Gran Bretagna magica era più piccola di una piccola
+ città babbana, la più grande scuola di magia istruiva fin solo a diciassette
+ anni, 
 \emph on
-silly
+stupido
 \emph default
- wasn't challenging that at eleven, 
+ non era sfidare tutto ciò a undici anni, 
 \emph on
-silly
+stupido
 \emph default
- was 
+ era 
 \emph on
-assuming
+presumere
 \emph default
- wizards knew what they were doing and had already exhausted all the low-hanging
- fruit a scientific polymath would see.
+ che i maghi sapessero quello che facevano e avevano già esaurito tutti
+ i frutti più facili da cogliere che un eclettico scientifico potesse vedere.
 \end_layout
 
 \begin_layout Standard
-Step One had been to make a list of every magical constraint Harry could
- remember, all the things you supposedly couldn't do.
+Il Passo Uno era stato fare una lista di ogni singolo limite magico che
+ Harry potesse ricordare, tutte le cose che apparentemente non potevi fare.
 \end_layout
 
 \begin_layout Standard
-Step Two, mark the constraints that seemed to make the 
+Passo Due, evidenziare i limiti che sembravano avere il 
 \emph on
-least
+minor
 \emph default
- sense from a scientific perspective.
+ senso da un punto di vista scientifico.
 \end_layout
 
 \begin_layout Standard
-Step Three, prioritize constraints that a wizard would be unlikely to question
- if they 
+Passo Tre, dare priorità ai limiti che un mago avrebbe meno probabilmente
+ messo in discussione se 
 \emph on
-didn't
+non avesse
 \emph default
- know science.
+ saputo nulla a proposito di scienza.
 \end_layout
 
 \begin_layout Standard
-Step Four, come up with avenues for attacking them.
+Passo Quattro, elaborare strategie per attaccarli.
 \end_layout
 
 \begin_layout Quote
