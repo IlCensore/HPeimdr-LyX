@@ -260,7 +260,9 @@ centering
 
 {
 \backslash
-large Eliezer Yudkowsky}
+large 
+\backslash
+textsc{Eliezer Yudkowsky}}
 \backslash
 
 \backslash
@@ -426,24 +428,77 @@ Cato Philosophus
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace vfill*
-\end_inset
-
 
 \size footnotesize
-Harry Potter © J.K.
- Rowling.
+Traduzione italiana 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+reflectbox{©}
+\end_layout
+
+\end_inset
+
+ Cato Philosophus (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{cato.philosophus@gmail.com}
+\end_layout
+
+\end_inset
+
+), rilasciata sotto licenza Creative Commons Attribution-Share Alike 3.0.
 \end_layout
 
 \begin_layout Standard
 
 \size footnotesize
+Aggiornamenti sul sito 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{sites.google.com/site/hpeimdr/home}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Titolo originale:
 \emph on
-Harry Potter and the Methods of Rationality
+ Harry Potter and the Methods of Rationality
 \emph default
- © E.
- Yukowsky.
- Testo scaricato da 
+ © Eliezer Yukowsky.
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Testo scaricato da 
 \begin_inset ERT
 status open
 
@@ -456,7 +511,28 @@ url{hpmor.com}
 
 \end_inset
 
- il 16 marzo 2013; controllate il sito per aggiornamenti e nuovi capitoli.
+ il 16 marzo 2013.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Harry Potter © J.K.
+ Rowling.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -493,50 +569,16 @@ url{dinosaurusgede.deviantart.com}
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \size footnotesize
-Traduzione italiana 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-reflectbox{©}
-\end_layout
-
-\end_inset
-
- Cato Philosophus (
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{cato.philosophus@gmail.com}
-\end_layout
-
-\end_inset
-
-), rilasciata sotto licenza Creative Commons Attribution-Share Alike 3.0.
- Aggiornamenti sul sito 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{sites.google.com/site/hpeimdr/home}
-\end_layout
-
-\end_inset
-
-.
- Composto con LyX & 
+Composto con LyX & 
 \begin_inset ERT
 status open
 
@@ -549,11 +591,18 @@ LaTeX
 
 \end_inset
 
-, usando Arno Pro e 
+, usando Graramond Premiere Pro e 
 \family sans
 Purisa
 \family default
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
