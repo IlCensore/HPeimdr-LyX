@@ -13,11 +13,11 @@
 %\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
 %  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
 %  \makeheadrule{myheadings}{\textwidth}{0.4pt}
-  \makeevenfoot{myheadings}{}{}{}
-  \makeoddfoot{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -103,7 +103,7 @@ initials
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language french
-\papercolumns 2
+\papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
 \tracking_changes false
@@ -914,13 +914,6 @@ Ma il generale Granger era quella imprevedibile, e Harry non poteva muoversi
 \end_layout
 
 \begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -932,47 +925,59 @@ Ma il generale Granger era quella imprevedibile, e Harry non poteva muoversi
 \end_layout
 
 \begin_layout Standard
-In the heart of the forest, with shadow patterns dancing on the ground as
- leafy canopies swayed high above, General Malfoy stood where the trees
- were relatively sparser, and looked out on his troops with calm satisfaction.
- Six units of three troops each, the Aerial Unit of four (to which Gregory
- was assigned), and the Command Unit, which was himself and Vincent.
- They'd only drilled for a short time on the previous Saturday, but Draco
- was confident that he'd managed to explain the basics.
- Stay with your mates, watch their back and trust them to watch yours.
- Move as a single body.
- Obey orders and show no fear.
- Aim, fire, move, aim again, fire again.
+Nel cuore della foresta con le forme delle ombre che danzavano sul terreno
+ mentre la volta frondosa oscillava in alto, il generale Malfoy era in piedi
+ lì dove gli alberi erano relativamente più radi, e guardò verso le sue
+ truppe con una pacata soddisfazione.
+ Sei unità di tre soldati ciascuna, l'Unità aerea di quattro (ad essa era
+ stato assegnato Gregory), e l'Unità di comando, composta da egli stesso
+ e Vincent.
+ Si erano addestrati solo per un breve periodo il sabato precedente, ma
+ Draco era fiducioso di essere riuscito a spiegare i concetti di base.
+ State vicino ai vostri compagni, sorvegliate le loro spalle e confidate
+ che loro sorveglino le vostre.
+ Muovetevi come un unico corpo.
+ Obbedite agli ordini e non mostrate paura.
+ Puntate, fate fuoco, muovetevi, puntate ancora, fate fuoco ancora.
 \end_layout
 
 \begin_layout Standard
-The six units were formed up in a defensive perimeter around Draco, watchfully
- gazing outward into the forest.
- Back-to-back they stood, wands gripped low until they needed to strike.
+Le sei unità erano disposte a formare un perimetro difensivo attorno a Draco,
+ scrutando vigilmente verso l'esterno all'interno della foresta.
+ Erano schiena contro schiena, le bacchette strette e abbassate fintanto
+ che non avessero avuto bisogno di colpire.
 \end_layout
 
 \begin_layout Standard
-They already looked remarkably like the Auror units whose training Draco
- had watched during his father's inspections.
+Assomigliavano già straordinariamente alle unità Auror il cui addestramento
+ Draco aveva osservato durante le ispezioni di suo padre.
 \end_layout
 
 \begin_layout Standard
-Chaos and Sunshine weren't going to know what hit them.
+Chaos e Sunshine non avrebbero capito cosa li aveva colpiti.
 \end_layout
 
 \begin_layout Standard
-“Attention,” said General Malfoy.
+\begin_inset Quotes fld
+\end_inset
+
+Attenzione
+\begin_inset Quotes frd
+\end_inset
+
+, disse il generale Malfoy.
 \end_layout
 
 \begin_layout Standard
-The six units unfolded and spun toward Draco; the faces of his broomstick
- riders turned from where they stood with broomsticks already in hand.
+Le sei unità si dispiegarono e ruotarono in direzione di Draco; i volti
+ dei suoi piloti di manici di scopa si girarono dal luogo in cui stavano
+ con le scope già in mano.
 \end_layout
 
 \begin_layout Standard
-Draco had decided to wait on demanding salutes until after they won their
- first battle, when Gryffindors and Hufflepuffs would be more willing to
- salute a Malfoy.
+Draco aveva deciso di rimandare ad esigere saluto fino a quando non avessero
+ vinto la loro prima battaglia, quando Grifondoro e Tassofrasso sarebbero
+ stati più disponibili a salutare un Malfoy.
 \end_layout
 
 \begin_layout Standard
@@ -1065,6 +1070,13 @@ Goyle showed you.
  Granger and the Sunshine Regiment will not be deadly.
  We are disciplined, we are deadly, we are Dragons.
  The battle is about to begin, and we are about to win it.”
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
