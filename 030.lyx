@@ -10,14 +10,11 @@
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
-%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
-%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{}{}{}
-  \makeoddhead{myheadings}{}{}{}
-%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
-  \makeevenfoot{myheadings}{\thechapter\ ·\ \leftmark}{}{}
-  \makeoddfoot{myheadings}{}{}{\thepage}
+  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -650,7 +647,7 @@ non
 \end_layout
 
 \begin_layout Standard
-Erano elementi come questo che rassicuravano Harry che il professor Quirrell,
+Erano cose come questa che rassicuravano Harry che il professor Quirrell,
  malgrado la sua artificiosa aria Oscura e la sua pretesa di neutralità
  nel conflitto tra Bene e Male, stesse segretamente sostenendo il Bene,
  anche se Harry no l'avrebbe mai detto ad altra voce.
@@ -981,109 +978,85 @@ Draco aveva deciso di rimandare ad esigere saluto fino a quando non avessero
 \end_layout
 
 \begin_layout Standard
-But his soldiers were already standing straight enough, especially the Gryf\SpecialChar \-
-findo
-rs, that Draco wondered if he'd even needed to delay.
- Gregory had quietly listened, and reported back that Draco's volunteering
- to stand by Harry Potter in Defense class, that time when Professor Quirrell
- had taught Harry how to lose, had marked Draco as an acceptable commander.
- At least if you happened to be assigned to his army.
+Ma i suoi soldati erano già sufficientemente dritti, specie i Grifondoro,
+ e Draco si chiedeva se avesse davvero bisogno di aspettare.
+ Gregory aveva ascoltato silenziosamente, e riferito che l'offerta di Draco
+ di affiancare Harry Potter durante la lezione di Difesa, quella volta che
+ il professor Quirrell aveva insegnato a Harry come perdere, aveva indicato
+ che Draco era un comandante accettabile.
+ Almeno se capitavi nel suo esercito.
  
 \emph on
-Not all Slytherins are alike; there are Slytherins, and then there are Slytherin
-s
+Non tutti i Serpeverde sono uguali; ci sono Serpeverde, e poi ci sono Serpeverde
 \emph default
- was what the Gryffindors in Draco's army were quoting to their Housemates.
+ era ciò che i Grifondoro nell'esercito di Draco citavano ai loro compagni
+ di Casa.
 \end_layout
 
 \begin_layout Standard
-Draco was frankly 
+Draco era sinceramente 
 \emph on
-astounded
+stupito
 \emph default
- at how incredibly 
+ di quanto fosse stato 
 \emph on
-easy
+facile
 \emph default
- that had been.
- Draco had protested at first about not being assigned any Slytherins, and
- Professor Quirrell had told him that if he wanted to be the first Malfoy
- to gain complete political control of the country, he needed to learn how
- to govern the other three-quarters of the population.
- It was things like this which reassured Draco that Professor Quirrell had
- a great deal more sympathy for the good guys than Professor Quirrell was
- letting on.
+.
+ Inizialmente aveva protestato per non essersi visto assegnare alcun Serpeverde,
+ e il professor Quirrell gli aveva detto che se voleva essere il primo Malfoy
+ a conquistare il controllo politico completo del Paese, doveva imparare
+ come si governavano gli altri tre-quarti della popolazione.
+ Erano cose come questa che rassicuravano Draco che il professor Quirrell
+ avesse molta più simpatia per i buoni di quanto non facesse capire.
 \end_layout
 
 \begin_layout Standard
-The actual battle wouldn't be easy, especially if Granger did attack the
- Dragons first.
- Draco had agonized over whether to commit all his forces against Granger
- immediately in a preemptive strike, but had worried that (1) Harry had
- been misleading him completely about what Granger was likely to do, and
- (2) Harry had been misleading him about waiting until after Granger's attack
- to join the battle.
+La vera battaglia non sarebbe stata facile, specie se Granger avesse effettivame
+nte attaccato i Dragon per primi.
+ Draco si era tormentato sull'impegnare o meno tutte le sue forze contro
+ Granger da subito in un attacco preventivo, ma era preoccupato che (1)
+ Harry l'avesse completamente fuorviato a proposito di ciò che Granger avrebbe
+ probabilmente fatto, e (2) Harry l'avesse fuorviato a proposito dell'attendere
+ fino alla fine dell'attacco di Granger prima di partecipare alla battaglia.
 \end_layout
 
 \begin_layout Standard
-Though Dragon Army had a secret weapon, three of them in fact, which might
- be enough to win even if they were attacked by both armies at once…
+E sebbene il Dragon Army avesse un'arma segreta, tre armi segrete in effetti,
+ che sarebbe stata sufficiente a vincere anche se fossero stati attaccati
+ da entrambi gli eserciti contemporaneamente…
 \end_layout
 
 \begin_layout Standard
-It was almost time, and that meant it was time for the pre-battle speech
- that Draco had composed and memorized.
+Era quasi giunta l'ora, e quello significava che era giunta l'ora per il
+ discorso prima della battaglia che Draco aveva composto e mandato a memoria.
 \end_layout
 
 \begin_layout Standard
-“The battle is about to begin,” Draco said.
- His voice was calm and precise.
- “Remember everything that I and Mr.
-\begin_inset ERT
-status open
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+La battaglia sta per iniziare
+\begin_inset Quotes frd
+\end_inset
 
-
-\backslash
+, disse Draco.
+ La sua voce era calma e precisa.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Crabbe and Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+Ricordate tutto ciò che io e il signor Crabbe e il signor Goyle vi abbiamo
+ mostrato.
+ Un esercito vince perché è disciplinato e letale.
+ Il generale Potter e la Chaos Legion non saranno disciplinati.
+ Granger e il Sunshine Regiment non saranno letali.
+ Noi siamo disciplinati, noi siamo letali, noi siamo i Dragon.
+ La battaglia sta per iniziare, e noi stiamo per vincerla
+\begin_inset Quotes frd
 \end_inset
 
-Goyle showed you.
- An army wins because it is disciplined and deadly.
- General Potter and the Chaos Legion will not be disciplined.
- Granger and the Sunshine Regiment will not be deadly.
- We are disciplined, we are deadly, we are Dragons.
- The battle is about to begin, and we are about to win it.”
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Quote
@@ -1100,69 +1073,67 @@ Goyle showed you.
 \begin_layout Standard
 
 \emph on
-(Ex tempore speech given by General Potter to the Chaos Legion, immediately
- before their first battle, on November 3rd, 1991, at 2:56pm:)
+(Discorso estemporaneo pronunciato dal generale Potter alla Chaos Legion,
+ immediatamente prima della loro prima battaglia, 2 novembre 1991, ore 14:56:)
 \end_layout
 
 \begin_layout Standard
-My troops, I'm not going to lie to you, our situation today is very grim.
- Dragon Army has never lost a single battle.
- And Hermione Granger… has a very good memory.
- The truth is, most of you are probably going to die.
- And the survivors will envy the dead.
- But we have to win this.
- We have to win this so that someday, our children can enjoy the taste of
- chocolate again.
- Everything is at stake here.
- Literally everything.
- If we lose, the whole universe just blinks out like a light bulb.
- And now I realize that most of you don't know what a light bulb is.
- Well, take it from me, it's bad.
- But if we have to go down, let's go down fighting, like heroes, so that
- as the darkness closes in, we can think to ourselves, 
+Mie truppe, non vi mentirò, la nostra situazione oggi è davvero fosca.
+ Il Dragon Army non ha mai perso una sola battaglia.
+ E Hermione Granger… ha un'ottima memoria.
+ La verità è, la maggior parte di voi probabilmente morirà.
+ E i sopravvissuti invidieranno i morti.
+ Ma dobbiamo vincere.
+ Dobbiamo vincere in modo che un giorno, i nostri figli possano assaporare
+ nuovamente il gusto del cioccolato.
+ Tutto è in discussione oggi.
+ Letteralmente tutto.
+ Se perdiamo, l'intero universo si spegnerà come una lampadina.
+ E in questo momento capisco che la maggior parte di voi non sa cosa sia
+ una lampadina.
+ Beh, credetemi, è una cosa brutta.
+ Ma se dobbiamo cadere, cadiamo combattendo, come eroi, in modo che mentre
+ l'oscurità avanzerà, potremmo pensare tra noi, 
 \emph on
-at least we had fun.
-
+almeno ci siamo divertiti
 \emph default
- Are you afraid to die? I know I am.
- I can feel those cold shivers of fear like someone is pumping ice cream
- into my shirt.
- But I know… that history is watching us.
- It was watching us when we changed into our uniforms.
- It was probably taking pictures.
- And history, my troops, is written by the victors.
- If we win this, we can write our own history.
- A history in which Hogwarts was founded by four renegade house elves.
- We can make everyone study that history, even though it isn't true, and
- if they don't answer the right way on our tests… they'll fail the class.
- Isn't that worth dying for? No, don't answer that.
- Some things are better left unknown.
- None of us know why we're here.
- None of us know why we're fighting.
- We just woke up in these uniforms in this mysterious forest, knowing only
- that there was no way to get our names and memories back except victory.
- The students in those other armies out there… they're just like us.
- They don't want to die.
- They're fighting to protect each other, the only friends they have left.
- They're fighting because they know they have families who'll miss them,
- even if they can't remember now.
- They may even be fighting to save the world.
- But we have a better reason to fight than they do.
- We fight because we like it.
- We fight to amuse eldritch monstrosities from beyond Space and Time.
- We fight because we're Chaos.
- Soon the final battle will begin, so let me say now, because I won't get
- a chance later, that it was an honor to be your commander, however briefly.
- Thank you, thank you all.
- And remember, your goal isn't just to cut down the enemy, it's to make
- them afraid.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+.
+ Avete paura di morire? Io so di averla.
+ Posso sentire quei gelidi brividi di paura come se qualcuno pompasse gelato
+ nella mia maglia.
+ Ma io so… che la storia ci sta guardando.
+ Ci stava guardando mentre indossavamo le nostre uniformi.
+ Probabilmente stava scattando delle foto.
+ E la storia, mie truppe, è scritta dai vincitori.
+ Se oggi vinciamo, potremo scrivere la nostra storia.
+ Una storia in cui Hogwarts fu fondata da quattro elfi domestici rinnegati.
+ Possiamo imporre a tutti di studiare quella storia, anche se non è vera,
+ e se non danno le risposte giuste nei nostri compiti… saranno bocciati.
+ Non vale la pena morire per questo? No, non rispondete.
+ Alcune cose è meglio lasciarle non dette.
+ Nessuno di noi sa perché siamo qui.
+ Nessuno di noi sa perché stiamo combattendo.
+ Ci siamo semplicemente svegliati con queste uniformi addosso in questa
+ misteriosa foresta, sapendo che non c'è altro modo di recuperare i nostri
+ nomi e i nostri ricordi se non vincendo.
+ Gli studenti negli altri eserciti lì fuori… sono proprio come noi.
+ Non vogliono morire.
+ Stanno combattendo per proteggersi gli uni con gli altri, gli unici amici
+ loro rimasti.
+ Stanno combattendo perché sanno di avere famiglie alle quali mancheranno,
+ anche se ora non possono ricordarselo.
+ Potrebbero persino combattere per salvare il mondo.
+ Ma noi abbiamo una ragione migliore della loro per combattere.
+ Noi combattiamo perché ci piace.
+ Combattiamo per il divertimento delle mostruosità aliene provenienti da
+ oltre lo Spazio e il Tempo.
+ Combattiamo perché siamo il Caos.
+ Presto la battaglia finale inizierà, quindi lasciatemi dire ora, perché
+ non ne avrò l'occasione in seguito, che è stato un onore essere il vostro
+ comandante, per quanto brevemente.
+ Grazie, grazie a tutti voi.
+ E ricordate, il nostro obiettivo non è solo abbattere il nemico, è terrorizzarl
+o.
 \end_layout
 
 \begin_layout Quote
@@ -1177,25 +1148,11 @@ at least we had fun.
 \end_layout
 
 \begin_layout Standard
-A great booming gong echoed over the forest.
+Un gigantesco gong rimbombante echeggiò per la foresta.
 \end_layout
 
 \begin_layout Standard
-And the Sunshine Regiment began to march.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+E il Sunshine Regiment iniziò a marciare.
 \end_layout
 
 \begin_layout Quote
@@ -1210,162 +1167,196 @@ And the Sunshine Regiment began to march.
 \end_layout
 
 \begin_layout Standard
-The tension rose and rose, as Harry and the nineteen other soldiers who
- remained waited for the aerial warriors to report back.
- It shouldn't take long, broomsticks were fast and the distances in the
- forest were not great 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
+La tensione crebbe e crebbe, mentre Harry e gli altri diciannove soldati
+ che restavano attesero che i combattenti aerei tornassero a riferire.
+ Non ci sarebbe dovuto volere molto, le scope erano veloci e le distanze
+ nella foresta non enormi
+\begin_inset space ~
+\end_inset
 
 --
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
-Two broomsticks approached, at speed, from the direction of Draco's camp,
- and all the soldiers tensed.
- They weren't executing the maneuvers that were today's code for a 
-\emph on
-friendly
-\emph default
- broomstick.
-\end_layout
-
-\begin_layout Standard
-“
-\emph on
-Scatter and fire!
-\emph default
-” roared General Potter, and then suited action to words, scurrying off
- at top speed toward the forest cover; and then as soon as Harry was among
- the trees, he spun back, raised his wand, tried to seek out the broomstick
- in the sky 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-“Clear!” shouted a voice.
- “They're heading back!”
-\end_layout
-
-\begin_layout Standard
-Harry gave a mental shrug.
- There'd been no way to prevent Draco from obtaining that information, and
- he'd only learn that they'd been standing still.
-\end_layout
-
-\begin_layout Standard
-And the Chaotics slowly emerged from the forest 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-“Broomstick approaching from Granger's direction!” yelled another voice.
- “I think it's Green Leader, he did the dip and roll!”
-\end_layout
-
-\begin_layout Standard
-Moments later Theodore Nott dived out of the sky and pulled up in the midst
- of the soldiers.
-\end_layout
-
-\begin_layout Standard
-“Granger has divided her forces in two!” yelled Nott as he hovered on his
- broomstick.
- There was sweat staining his uniform, and all the reserve was gone from
- his voice.
- “She's attacking both armies! Two brooms covering each force, they pursued
- me halfway here!”
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Divided her army, what on Earth 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-A large force concentrating fire on a small force could deplete that force
- rapidly without taking much damage in return.
- If twenty soldiers faced ten soldiers, twenty sleep spells would be aimed
- at the ten soldiers with only ten sleep spells going the other way, so
- unless every one of those first sleep spells hit its target, the smaller
- force would lose more people than they could manage to take down with them.
+Due scope si avvicinarono, ad alta velocità, dalla direzione del campo di
+ Draco, e tutti i soldati si inquietarono.
+ Non stavano eseguendo le manovre che erano i codice odierno per una scopa
  
 \emph on
-Defeated in detail
+amica
 \emph default
- was the military term for what happened when you divided your forces like
- that.
- What could Hermione 
-\emph on
-possibly
-\emph default
- be thinking…
+.
 \end_layout
 
 \begin_layout Standard
-Then Harry realized.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-She's being fair.
-\end_layout
-
-\begin_layout Standard
-It was going to be a long year in Defense class.
-\end_layout
-
-\begin_layout Standard
-“All right,” Harry said loudly, so the army could hear.
- “We'll wait until the Red Wing reports in, and then we'll go cloud up some
- Sunshine.”
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
+\begin_inset Quotes fld
 \end_inset
 
 
+\emph on
+Sparpagliatevi e fate fuoco!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ ruggì il generale Potter, e poi fece seguire l'azione alle parole, precipitando
+si alla massima velocità sotto la copertura della foresta; e appena Harry
+ fu tra gli alberi, ruotò su sé stesso, alzò la bacchetta, cercò di individuare
+ la scopa in cielo
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Libero!
+\begin_inset Quotes frd
+\end_inset
+
+ gridò una voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Stanno tornando indietro!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry fece un'alzata di spalle mentale.
+ Non c'era modo di impedire a Draco di ottenere quell'informazione, e aveva
+ solo scoperto che stavano ancora fermi.
+\end_layout
+
+\begin_layout Standard
+E i Caotici uscirono lentamente dalla foresta
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Scopa in avvicinamento dalla direzione di Granger!
+\begin_inset Quotes frd
+\end_inset
+
+ urlò un'altra voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Credo che sia Capo verde, ha fatto la picchiata e il tonneau!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alcuni momenti dopo Theodore Nott si tuffò giù dal cielo e accostò nel mezzo
+ dei soldati.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Granger ha diviso le sue forze in due!
+\begin_inset Quotes frd
+\end_inset
+
+ gridò Nott mentre si librava sulla sua scopa.
+ C'era del sudore che macchiava la sua uniforme, e tutta la riservatezza
+ era scomparsa dalla sua voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sta attaccando entrambi gli eserciti! Due scope coprono ciascuna forza,
+ mi hanno inseguito fino a metà strada!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Diviso le sue forze, cosa diavolo
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Una forza numerosa che concentrasse il fuoco su di una forza meno numerosa
+ poteva indebolire quella forza senza subire a sua volta danni gravi.
+ Se venti soldati affrontavano dieci soldati, venti incantesimi soporiferi
+ sarebbero stati lanciati contro i dieci soldati con solo dieci incantesimi
+ soporiferi che sarebbero stati indirizzati nel verso opposto, quindi a
+ meno che ciascuno di quegli incantesimi non avesse colpito il bersaglio,
+ la forza meno numerosa avrebbe perso più soldati di quanti fosse stata
+ in grado di portare con sé.
+ 
+\emph on
+Sconfitte separatamente
+\emph default
+ era il termine militare per ciò che avveniva quando si separavano le proprie
+ forze in quel mondo.
+ Cosa 
+\emph on
+diavolo
+\emph default
+ stava pensando Hermione…
+\end_layout
+
+\begin_layout Standard
+Poi Harry comprese.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Si stava comportando in maniera equa.
+\end_layout
+
+\begin_layout Standard
+Sarebbe stato un anno lungo nel corso di Difesa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry ad alta voce, in modo che l'esercito potesse sentire.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Attenderemo fino al rapporto dello Stormo rosso, e poi andremo a oscurare
+ un po' di Sunshine
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Quote
@@ -1380,42 +1371,28 @@ It was going to be a long year in Defense class.
 \end_layout
 
 \begin_layout Standard
-Draco listened to the flyers' reports with his face calm, all his shock
- concealed inside.
- What could Granger 
+Draco ascoltò i rapporti dei piloti con il volto sereno, tutto il suo sconcerto
+ celato dentro di sé.
+ Cosa 
 \emph on
-possibly
+diavolo
 \emph default
- be thinking?
+ stava pensando Granger?
 \end_layout
 
 \begin_layout Standard
-Then Draco realized.
+Poi Draco comprese.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-It's a feint.
+È una finta.
 \end_layout
 
 \begin_layout Standard
-One of Sunshine's two forces would change direction, and both would converge
- on… who?
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+Una delle due forze dei Sunshine avrebbe cambiato direzione, ed effettuato
+ entrambe una manovra convergente su… chi?
 \end_layout
 
 \begin_layout Quote
@@ -1589,13 +1566,6 @@ as from his lips poured a fearful song of doom.
 \end_layout
 
 \begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1658,13 +1628,6 @@ both.
  like this.
  It's going to be a lot more fun.
  Let's move out.”
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -1733,13 +1696,6 @@ Discipline against Chaos.
 
 \begin_layout Standard
 It shouldn't be much of a fight.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -2244,13 +2200,6 @@ Neville of Chaos! Face me if you da-
 \end_layout
 
 \begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -2523,13 +2472,6 @@ status open
 
 \emph on
 ”
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -3046,13 +2988,6 @@ Camouflaged forms were appearing from among the trees.
 \begin_layout Standard
 “Good,” said General Granger's voice, and a spiral of green energy blazed
  out of the woods and shattered Draco's shield to splinters.
-\end_layout
-
-\begin_layout Quote
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
