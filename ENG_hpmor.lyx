@@ -8,12 +8,9 @@
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
-%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
-%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
-%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
 
@@ -96,7 +93,7 @@ initials
 \inputencoding auto
 \fontencoding 
 \font_roman EB Garamond
-\font_sans EB Garamond 12 All SC
+\font_sans DejaVu Sans
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -415,7 +412,7 @@ Cato Philosophus
 \begin_inset Newline newline
 \end_inset
 
-2013
+MMXIII
 \end_layout
 
 \begin_layout Standard
