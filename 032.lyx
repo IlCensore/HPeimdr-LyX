@@ -1,0 +1,818 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{31}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\newfontfamily\llo{Linux Libertine O}
+%{\llo \char"2042}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Interludio: Gestione finanziaria personale
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:32Interludio"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=2,ante=
+\backslash
+guillemotleft]{M}{a Preside}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+, sostenne Harry, parte della sua disperazione che trapelava nella sua voce,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+lasciare tutti i miei beni patrimoniali in un unico deposito non diversificato
+ pieno di monete d'oro -- è folle, Preside! È come, non so, fare esperimenti
+ di Trasfigurazione senza consultare un'autorità riconosciuta! Non si fanno
+ queste cose col denaro!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dal volto rugoso del vecchio mago -- sotto un cappello da ricorrenza festiva
+ simile a una catastrofica collisione automobilistica tra macchine di tessuto
+ verde e rosso -- un'espressione seria e triste fece capolino diretta a
+ Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace, Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse Silente, 
+\begin_inset Quotes fld
+\end_inset
+
+e ti chiedo scusa, ma permetterti di controllare le tue finanze ti darebbe
+ troppa libertà di azione
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La bocca di Harry si aprì e non ne uscì alcun suono.
+ Era, letteralmente, senza parole.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ti permetterò di prelevare cinque galeoni per i regali di Natale
+\begin_inset Quotes frd
+\end_inset
+
+, disse Silente, 
+\begin_inset Quotes fld
+\end_inset
+
+che è più di quanto qualsiasi ragazzo della tua età dovrebbe spendere, ma
+ non è una minaccia, credo
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non posso credere che l'abbia detto davvero!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ le parole esplosero dalla bocca di Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ammette
+\emph default
+ di essere così manipolatorio?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Manipolatorio?
+\begin_inset Quotes frd
+\end_inset
+
+ disse il vecchio mago, sorridendo appena.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+No, sarei manipolatorio se 
+\emph on
+non
+\emph default
+ l'ammettessi, o se avessi qualche motivo più profondo oltre a quello palese.
+ È piuttosto semplice, Harry.
+ Non sei ancora in grado di giocare la partita, e sarebbe folle permetterti
+ di gestire migliaia di galeoni con i quali potresti rovesciare il tavolo
+ da gioco
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'attività frenetica e il viavai inteso di Diagon Alley era centuplicata
+ e poi raddoppiata mentre Natale si avvicinava, con tutti i negozi ammantati
+ in stregonerie brillanti che lampeggiavano e luccicavano come se lo spirito
+ delle feste fosse sul punto di divampare incontrollato e trasformare tutta
+ l'area in un allegro cratere festivo.
+ Le strade erano così affollate di streghe e maghi in vesti festive e 
+\emph on
+sgargianti
+\emph default
+ che gli occhi erano aggrediti quasi tanto severamente quanto le orecchie;
+ ed era chiaro, dalla sconcertante varietà degli acquirenti, che Diagon
+ Alley era considerata un'attrazione internazionale.
+ C'erano streghe fasciate da gigantesche fasciature di tessuto come mummie,
+ e maghi in cappelli a cilindro formali e accappatoio, e giovani bambini
+ appena in grado di camminare che erano decorati con luci che brillavano
+ quasi quanto i negozi stessi, mentre i genitori li portavano per mano attravers
+o quel paese delle meraviglie magico e permettevano loro di strillare a
+ piacimento.
+ Era la stagione dell'allegria.
+\end_layout
+
+\begin_layout Standard
+E nel mezzo di tutta quella luce e vivacità, una nota della notte più nera;
+ un'atmosfera fredda, oscura, che sgomberava una preziosa manciata di centimetri
+ anche nel mezzo di tutta quella ressa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, con un'espressione di sgradevole disgusto,
+ come se avesse appena dato un morso a del cibo che non solo aveva un sapore
+ orribile, ma che era moralmente ripugnante, tanto per cominciare.
+ Era il genere di aspetto arcigno che una persona ordinaria avrebbe potuto
+ assumere dopo aver affondato i denti in un polpettone, e scoperto che era
+ marcio e fatto con dei gattini.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh, 
+\emph on
+suvvia
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Deve avere 
+\emph on
+una qualche
+\emph default
+ idea
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, le sue labbra disposte in una linea sottile,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+ho accettato di fungere da suo guardiano in questa escursione.
+ Non ho accettato di darle dei consigli sulla sua scelta di regali.
+ Non festeggio il Natale, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E il Natale di Newton?
+\begin_inset Quotes frd
+\end_inset
+
+ disse allegramente Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Isaac Newton nacque 
+\emph on
+davvero
+\emph default
+ il 25 dicembre, a differenza di qualche altra figura storica che potrei
+ nominare
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La cosa non impressionò il professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ascolti
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace, ma devo trovare qualcosa di 
+\emph on
+speciale
+\emph default
+ per Fred e George e non ho idea delle mie opzioni
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell produsse un ronzio pensieroso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Potrebbe chiedere quali membri della loro famiglia detestino maggiormente,
+ e poi assoldare un assassino.
+ Conosco un appartenente ad un certo governo in esilio che è alquanto competente
+, e che le farebbe uno sconto sull'assassinio di più Weasley
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Questo
+\emph default
+ Natale
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry abbassando la voce ad un registro più grave, 
+\begin_inset Quotes fld
+\end_inset
+
+fai ai tuoi amici il dono… della 
+\emph on
+morte
+\emph default
+.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quello fece sorridere il professor Quirrell.
+ Arrivò fino ai suoi occhi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+almeno non ha suggerito di prendere loro un topo domestico --
+\begin_inset Quotes frd
+\end_inset
+
+ la bocca di Harry si chiuse di scatto, e provò rimorso per quelle parole
+ non appena furono uscite dalla sua bocca.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Scusi?
+\begin_inset Quotes frd
+\end_inset
+
+ disse il professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Nulla
+\begin_inset Quotes frd
+\end_inset
+
+, disse subito Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+una storia lunga e stupida
+\begin_inset Quotes frd
+\end_inset
+
+.
+ E raccontarla sembrava in qualche modo sbagliato, forse perché Harry temeva
+ che il professor Quirrell avrebbe riso anche se Bill Weasley 
+\emph on
+non fosse
+\emph default
+ stato curato e tutto rimesso a posto…
+\end_layout
+
+\begin_layout Standard
+E 
+\emph on
+dov'era stato
+\emph default
+ il professor Quirrell che non aveva mai sentito quella storia? Harry aveva
+ avuto l'impressione che tutti gli abitanti della Gran Bretagna magica la
+ conoscessero.
+\end_layout
+
+\begin_layout Standard
+“Look,” said Harry, “I'm trying to 
+\emph on
+solidify their loyalty to me,
+\emph default
+ you know? Make the Weasley twins my minions? Like the old saying goes:
+ A friend isn't someone you use once and then throw away, a friend is someone
+ you use over and over again.
+ Fred and George are two of the most useful friends I have in Hogwarts,
+ Professor Quirrell, and I plan to use them over and over again.
+ So if you'd help me be Slytherin here, and suggest something they might
+ be 
+\emph on
+very
+\emph default
+ grateful for…” Harry's voice trailed off invitingly.
+\end_layout
+
+\begin_layout Standard
+You just had to pitch these things the right way.
+\end_layout
+
+\begin_layout Standard
+They walked on for a good way before Professor Quirrell spoke again, his
+ voice practically dripping with distaste.
+ “The Weasley twins are using secondhand wands, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter.
+ They would be reminded of your generosity with every Charm they cast.”
+\end_layout
+
+\begin_layout Standard
+Harry clapped his hands together in involuntary excitement.
+ Just put the money on account at Ollivander's, and tell Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Ollivander to never refund it 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+ no, better yet, to send it to Lucius Malfoy if the Weasley twins didn't
+ show up before the start of their next school year.
+ “That's 
+\emph on
+brilliant
+\emph default
+, Professor!”
+\end_layout
+
+\begin_layout Standard
+Professor Quirrell did not look like he appreciated the compliment.
+ “I suppose I can tolerate Christmas in 
+\emph on
+that
+\emph default
+ spirit, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter, though only barely.” Then he smiled slightly.
+ “Of course that will cost you fourteen Galleons, and you only have five.”
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+Five
+\emph default
+ Galleons,” Harry said, with a sniff of outrage.
+ “Just who does the Headmaster think he's dealing with, anyway?”
+\end_layout
+
+\begin_layout Standard
+“I think,” said Professor Quirrell, “that it simply did not occur to him
+ to fear the consequences if you turned your ingenuity to the task of obtaining
+ funds.
+ Though you were wise to lose, rather than making it an explicit threat.
+ Out of curiosity, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter, what 
+\emph on
+would
+\emph default
+ you have done if I hadn't turned away in boredom while you, in a fit of
+ childish pique, counted out five Galleons worth of Knuts?”
+\end_layout
+
+\begin_layout Standard
+“Well, the easiest way would've been to borrow money from Draco Malfoy,”
+ said Harry.
+\end_layout
+
+\begin_layout Standard
+Professor Quirrell chuckled briefly.
+ “Seriously, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter.”
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Duly noted.
+
+\emph default
+ “Probably I'd have done a few celebrity appearances.
+ I wouldn't resort to anything economically disruptive just for spending
+ money.” Harry had checked, and he 
+\emph on
+would
+\emph default
+ be allowed to keep the Time-Turner while he went home for the holidays,
+ so that his sleep cycle didn't start to rotate.
+ But then it was 
+\emph on
+also
+\emph default
+ possible that someone kept an eye out for magical day traders.
+ The gold and silver trick would've taken work on the Muggle end, and seed
+ funding, and the goblins might've gotten suspicious after the first cycle.
+ And starting a real bank would be a 
+\emph on
+lot
+\emph default
+ of work… Harry hadn't 
+\emph on
+quite
+\emph default
+ worked out any money-making methods that were fast 
+\emph on
+and
+\emph default
+ certain 
+\emph on
+and
+\emph default
+ safe, so he'd been very glad when Professor Quirrell had turned out to
+ be so easily fooled.
+\end_layout
+
+\begin_layout Standard
+“I do hope those five Galleons will be enough to last, since you counted
+ them so carefully,” said Professor Quirrell.
+ “I doubt the Headmaster shall be so eager to entrust me with your vault
+ key a second time, once he discovers I've been tricked.”
+\end_layout
+
+\begin_layout Standard
+“I'm sure you did your best,” Harry said with deep gratitude.
+\end_layout
+
+\begin_layout Standard
+“Do you need any assistance finding a safe place to store all those Knuts,
+ Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter?”
+\end_layout
+
+\begin_layout Standard
+“Well, sort of,” said Harry.
+ “Do you know of any good investment opportunities, Professor Quirrell?”
+\end_layout
+
+\begin_layout Standard
+And the two of them walked on, in their tiny sphere of silence and isolation,
+ through the brilliant and bustling crowds; and if you looked carefully,
+ you would see that where they went, leafy boughs faded, and flowers withered,
+ and children's toys that played cheerful bells changed to lower and more
+ ominous notes.
+\end_layout
+
+\begin_layout Standard
+Harry 
+\emph on
+did
+\emph default
+ notice, but he didn't say anything, just smiled a little to himself.
+\end_layout
+
+\begin_layout Standard
+Everyone had their own way of celebrating the holidays, and the Grinch was
+ as much a part of Christmas as Santa.
+\end_layout
+
+\end_body
+\end_document
