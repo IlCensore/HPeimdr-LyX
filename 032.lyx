@@ -11,7 +11,7 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
@@ -46,9 +46,8 @@
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
 \newfontfamily\llo{Linux Libertine O}
-%{\llo \char"2042}
 \end_preamble
-\use_default_options true
+\use_default_options false
 \master ENG_hpmor.lyx
 \begin_modules
 initials
@@ -161,7 +160,7 @@ guillemotleft]{M}{a Preside}
 \begin_inset Quotes frd
 \end_inset
 
-, sostenne Harry, parte della sua disperazione che trapelava nella sua voce,
+, disse Harry, parte della sua disperazione che trapelava nella sua voce,
  
 \begin_inset Quotes fld
 \end_inset
