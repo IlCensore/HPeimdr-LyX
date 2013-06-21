@@ -4,12 +4,13 @@
 \begin_header
 \textclass memoir
 \begin_preamble
+\usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{fmtcount}
-\usepackage{graphicx}
+%\usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
@@ -21,7 +22,7 @@
   \renewcommand*{\printchaptername}{%
 %     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
 %     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
-     \chapnumfont \textsc{\chaptername\ \thechapter}}
+     \chapnumfont \textsc{\chaptername\ \liningnums{\thechapter}}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
   \renewcommand*{\afterchapternum}{%
@@ -40,7 +41,6 @@
 
 \usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
-\usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 \usepackage{shapepar} %paragrafi con una certa forma
 \usepackage{url}%url lunga
@@ -82,6 +82,8 @@
 \renewcommand{\cftpartafterpnum}{\cftparfillskip}
 \renewcommand*{\cftpartformatpnum}[1]{%
   \hbox to \partlength{\hfill{\cftpartpagefont #1}}}
+
+\renewcommand{\LettrineFontHook}{\color{Maroon}}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -92,8 +94,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman EB Garamond
-\font_sans DejaVu Sans
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -277,9 +279,11 @@ baselineskip}
 
 {
 \backslash
-LARGE 
+color{Maroon}
 \backslash
-textsc{Harry Potter e i}}
+Huge 
+\backslash
+textsc{Harry Potter}}
 \backslash
 
 \backslash
@@ -292,9 +296,11 @@ baselineskip]
 
 {
 \backslash
+color{Maroon}
+\backslash
 LARGE 
 \backslash
-textsc{Metodi della razionalità}}
+textsc{e i metodi della razionalità}}
 \backslash
 
 \backslash
