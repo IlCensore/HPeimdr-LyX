@@ -164,7 +164,9 @@ status open
 \backslash
 lettrine[lines=2,ante=
 \backslash
-guillemotleft]{F}{
+guillemotleft]{
+\backslash
+textit{F}}{
 \backslash
 textit{rigideiro!}}
 \end_layout
@@ -464,7 +466,8 @@ Ci sono molte ragioni per cui Trasfigurazione è pericolosa, ma una ragiona
 \align center
 
 \bar under
-TRASFIGURAZIONE NON È PERMANENTE!
+\noun on
+Trasfigurazione non è permanente!
 \end_layout
 
 \begin_layout Standard
@@ -479,7 +482,20 @@ TRASFIGURAZIONE NON È PERMANENTE!
 \begin_inset space ~
 \end_inset
 
---»
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{--»}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -505,20 +521,20 @@ immagino
 \begin_layout Standard
 Il volto di McGonagall era severo.
  «Come il signor Potter ha correttamente dedotto, si sarebbe ammalato gravemente
- e avrebbe richiesto un immediato trasferimento Floo al St.
+ e avrebbe richiesto un immediato trasferimento Floo al 
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-
+St.
 \backslash
- 
+ Mungo
 \end_layout
 
 \end_inset
 
-Mungo's Hospital, se avesse voluto avere qualunque speranza di sopravvivere.
+'s Hospital, se avesse voluto avere qualunque speranza di sopravvivere.
  Per favore, aprite i vostri libri di testo a pagina 5».
 \end_layout
 
