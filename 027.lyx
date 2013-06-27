@@ -43,6 +43,10 @@
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\frenchspacing
+\widowpenalty=10000
+%\clubpenalty=10000
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -54,8 +58,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Adobe Caslon Pro
-\font_sans Idolwild
+\font_roman Linux Libertine O
+\font_sans Linux Biolinum O
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -188,7 +192,7 @@ detto
 \emph on
 sono autorizzato
 \emph default
- a dirvi del Cappello Smistatore o della Ricordella o del professor Snape…
+ a dirvi del Cappello Smistatore o della Rimodella o del professor Snape…
 \begin_inset Quotes frd
 \end_inset
 
@@ -868,18 +872,7 @@ Ci fu una pausa
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -1160,10 +1153,9 @@ Gli altri bambini erano ancora dentro, un po' lenti nel raccogliere le loro
 
 \begin_layout Standard
 Sembrava che la notte precedente, dopo cena, una ragazza avesse svolazzato
- in giro su di una scopa per trenta minuti e poi avesse catturato una specie
- di gigantesca zanzara.
- C'erano altri fatti relativi a ciò che era accaduto durante quella partita,
- ma erano irrilevanti.
+ su di una scopa per trenta minuti e poi avesse catturato una specie di
+ gigantesca zanzara.
+ Erano accaduti altri eventi durante quella partita, ma erano irrilevanti.
 \end_layout
 
 \begin_layout Standard
@@ -1183,8 +1175,8 @@ Ma Harry non poteva evitare Erbologia, e i Corvonero ne avevano parlato
 \emph on
 durante la lezione
 \emph default
-, finché Harry aveva alzato lo sguardo al cucciolo di velloso a cui stava
- cambiando il pannolino, e affermato ad alta voce che alcuni di loro stavano
+, finché Harry aveva alzato lo sguardo dal cucciolo di velloso a cui stava
+ cambiando il pannolino, e dichiarato ad alta voce che alcuni di loro stavano
  cercando di studiare 
 \emph on
 le
@@ -1193,7 +1185,7 @@ le
 \emph on
 piante
 \emph default
- e i che Boccini non crescevano o cose simili e quindi chiese se potevano
+ e che i Boccini non crescevano o cose simili e poi aveva chiesto se potevano
  
 \emph on
 cortesemente
@@ -1286,16 +1278,7 @@ Dovremmo ucciderli
 \begin_inset Quotes fld
 \end_inset
 
-Chi?
-\begin_inset Quotes frd
-\end_inset
-
- disse Hermione.
- 
-\begin_inset Quotes fld
-\end_inset
-
-La squadra di Quidditch?
+Chi? La squadra di Quidditch?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1335,27 +1318,19 @@ sai
 \begin_inset Quotes fld
 \end_inset
 
-Sì
+Sì.
 \begin_inset Quotes frd
 \end_inset
 
-, rispose Harry.
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Va bene, stavo solo controllando
-\begin_inset Quotes frd
-\end_inset
-
-, disse Hermione.
- 
-\begin_inset Quotes fld
-\end_inset
-
-Iniziamo dal Cacciatore.
+Va bene, stavo solo controllando.
+ Iniziamo dal Cacciatore.
  Ho letto alcuni gialli di Agatha Christie, sai come possiamo metterla su
  un treno?
 \begin_inset Quotes frd
@@ -1385,9 +1360,8 @@ Molto sconcertante
 \end_layout
 
 \begin_layout Standard
-Da dietro un angolo vicino si fece avanti passeggiando un uomo con vesti
- leggermente macchiate, i capelli unti che ricadevano lunghi e spettinati
- sulle sue spalle.
+Da dietro un angolo lì vicino avanzò passeggiando un uomo con vesti leggermente
+ macchiate, i capelli unti che ricadevano lunghi e spettinati sulle spalle.
  Un pericolo mortale sembrava irraggiare da lui, e riempire il corridoio
  con pozioni miscelate nella maniera errata e cadute accidentali e persone
  che morivano nel letto per quelle che gli Auror avrebbero sentenziato essere
@@ -1454,7 +1428,7 @@ Oh, non si preoccupi, signorina Granger
 \begin_inset Quotes frd
 \end_inset
 
-, disse la voce serica di Severo.
+, disse la voce serica di Severus.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1469,7 +1443,7 @@ Le prometto di restituirle il suo spasimante senza mutilazioni
 \begin_inset Quotes fld
 \end_inset
 
-Ora Potter e io stiamo per andarcene ad avere una conversazione privata,
+Ora Potter e io stiamo per allontanarci per avere una conversazione privata,
  solo noi due.
  Spero che sia chiaro che lei non è invitata, ma giusto per precauzione,
  lo consideri un ordine di un professore di Hogwarts.
@@ -1551,7 +1525,7 @@ davvero
 \begin_inset Quotes frd
 \end_inset
 
-, e se ne andò a raggiungere il Maestro delle Pozioni.
+, e se ne andò per raggiungere il Maestro di Pozioni.
 \end_layout
 
 \begin_layout Quote
@@ -1576,8 +1550,8 @@ Dunque
 , disse Harry.
  Non c'erano altri suoni, ora, eccetto due paia di gambe, le lunghe e le
  corte, che si muovevano attutite lungo un corridoio qualsiasi.
- Il Maestro delle Pozioni stava camminando velocemente a grandi passi, ma
- non troppo velocemente da non permettere a Harry di stargli dietro, e nella
+ Il Maestro di Pozioni stava camminando velocemente a grandi passi, ma non
+ troppo velocemente da non permettere a Harry di stargli dietro, e nella
  misura in cui Harry poteva applicare il concetto di direzionalità a Hogwarts,
  si stavano allontanando dalle aree frequentate.
  
@@ -1603,11 +1577,11 @@ Non credo che lei possa spiegare
 \begin_inset Quotes fld
 \end_inset
 
-perché voi due stavate progettando di uccidere Cho Chang?
+perché voi due stavate progettando di uccidere Cho Chang
 \begin_inset Quotes frd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1628,11 +1602,11 @@ lei
 
 in qualità di ufficiale del sistema scolastico di Hogwarts, perché catturare
  una zanzara dorata sia considerato un risultato accademico meritevole di
- centocinquanta punti-Casa?
+ centocinquanta punti-Casa
 \begin_inset Quotes frd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1643,9 +1617,9 @@ Un sorriso attraversò le labbra di Severus.
 
 Povero me, e io che pensavo che lei dovesse essere perspicace.
  È davvero così incapace di comprendere i suoi compagni di classe, Potter,
- o li detesta così tanto da provarci? Se i punteggi del Quidditch non contassero
- per la Coppa delle Case allora nessuno di loro sarebbe affatto interessato
- ai punti-Casa.
+ o li detesta così tanto da non provarci nemmeno? Se i punteggi del Quidditch
+ non contassero per la Coppa delle Case allora nessuno di loro sarebbe affatto
+ interessato ai punti-Casa.
  Sarebbe semplicemente una oscura competizione per studenti come lei e la
  signorina Granger
 \begin_inset Quotes frd
@@ -1659,7 +1633,7 @@ Era una risposta sconvolgentemente buona.
 \end_layout
 
 \begin_layout Standard
-E quello sconvolgimento risvegliò completamente la mente di Harry.
+E quella scossa risvegliò completamente la mente di Harry.
 \end_layout
 
 \begin_layout Standard
@@ -1709,7 +1683,7 @@ L'uomo cacciava per Hogwarts con l'aria di un assassino, emanando pericolo…
 non
 \emph default
  avrebbe dovuto fare.
- I veri assassini dovevano sembrare piccoli contabili mansueti fin quando
+ I veri assassini dovevano sembrare minuti e mansueti contabili fin quando
  non ti uccidevano.
 \end_layout
 
@@ -1720,7 +1694,7 @@ Era il Preside della Casa per l'orgogliosa e aristocratica Serpeverde, e
 \end_layout
 
 \begin_layout Standard
-Harry notò di essere confuso.
+Harry notò il proprio stato di confusione.
 \end_layout
 
 \begin_layout Standard
@@ -1732,8 +1706,8 @@ Preside della Casa Serpeverde
 \end_layout
 
 \begin_layout Standard
-Silente era sembrato pensare che Severo fosse suo, e non c'era stato nulla
- che lo contraddicesse; il Maestro delle Pozioni era stato 
+Silente era sembrato pensare che Severus gli appartenesse, e non c'era stato
+ nulla che lo contraddicesse; il Maestro di Pozioni era stato 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1742,10 +1716,12 @@ spaventoso ma non abusivo
 \end_inset
 
 , come promesso.
- Quindi, Harry aveva ragionato precedentemente, questa era una cosa da Compagnia.
- Se Severus avesse progettato di fargli del male, certamente non sarebbe
- venuto a prendere Harry di fronte a Hermione, una testimone, quando avrebbe
- potuto semplicemente aspettare qualche volta che Harry fosse stato da solo…
+ Quindi, Harry aveva ragionato precedentemente, questa era una cosa che
+ riguardava la Compagnia.
+ Se Severus avesse avuto l'intenzione di fargli del male, certamente non
+ sarebbe venuto a prendere Harry di fronte a Hermione, una testimone, quando
+ avrebbe potuto semplicemente aspettare qualche volta che Harry fosse stato
+ da solo…
 \end_layout
 
 \begin_layout Standard
@@ -1777,11 +1753,11 @@ Era un completo idiota.
 \begin_inset Quotes fld
 \end_inset
 
-Che cos'è 
+Cos'
 \emph on
-questo
+è 
 \emph default
-?
+questo?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1801,7 +1777,7 @@ Pazienza, Potter.
 
 \begin_layout Standard
 Severus girò la testa, e poi scivolò con le sue movenze da assassino in
- una vicina apertura dei muri del corridoio, un vestibolo più piccolo e
+ una vicina apertura nei muri del corridoio, un vestibolo più piccolo e
  più stretto che si diramava.
 \end_layout
 
@@ -1866,7 +1842,8 @@ Le sue lezioni di Occlumanzia non possono essere progredite così tanto da
 \end_inset
 
 E lo stesso varrà per Silente, credo.
- Ragion per cui noi due stiamo avendo questa piccola conversazione 
+ E questo è il motivo per cui noi due stiamo avendo questa piccola conversazione
+ 
 \emph on
 ora
 \emph default
@@ -1902,7 +1879,7 @@ nessuno
  Per quanto concerne la scuola, stiamo discutendo i suoi compiti di Pozioni.
  Che ci credano o meno, è insignificante.
  Per quanto concerne Silente e McGonagall, sto infrangendo la fiducia che
- Draco ripone in me, e nessuno di noi due ritiene appropriato discutere
+ Draco ripone in me, e nessuno di noi due ritiene appropriato discuterne
  ulteriormente i particolari
 \begin_inset Quotes frd
 \end_inset
@@ -1912,7 +1889,7 @@ nessuno
 
 \begin_layout Standard
 Il cervello di Harry tentò di calcolare le ramificazioni e le implicazioni
- di questo, e finì lo spazio di swap.
+ di tutto quello, e terminò lo spazio di swap.
 \end_layout
 
 \begin_layout Standard
@@ -1923,7 +1900,7 @@ Ebbene?
 \begin_inset Quotes frd
 \end_inset
 
- chiese il Maestro delle Pozioni.
+ chiese il Maestro di Pozioni.
 \end_layout
 
 \begin_layout Standard
@@ -1935,8 +1912,8 @@ Va bene
 \end_inset
 
 , disse Harry lentamente.
- Era difficile vedere come avere una conversazione ed essere impossibilitati
- a parlarne a chiunque sarebbe stato più vincolante che 
+ Era difficile vedere in che modo avere una conversazione ed essere impossibilit
+ati a parlarne con chiunque sarebbe stato più vincolante che 
 \emph on
 non
 \emph default
@@ -1984,7 +1961,7 @@ A meno che non stiamo parlando di Michael Verres-Evans
 \begin_inset Quotes fld
 \end_inset
 
-la risposta è che conosco molto poco di James Potter
+la risposta è che so molto poco di James Potter
 \begin_inset Quotes frd
 \end_inset
 
@@ -1999,7 +1976,7 @@ Severus annuì, come rivolto a sé stesso.
 
 C'è un Serpeverde del quinto anno.
  Un ragazzo chiamato Lesath Lestrange.
- È oggetto di prepotenze di alcuni Grifondoro.
+ È vittima delle prepotenze di alcuni Grifondoro.
  Sono… limitato, nella mia capacità di intervenire in tali situazioni.
  
 \emph on
@@ -2053,8 +2030,8 @@ Quello era il problema quando le altre persone sapevano che eri un bravo
 \end_layout
 
 \begin_layout Standard
-E se anche suo padre aveva protetto gli studenti dai prepotenti… non importava
- se Harry sapeva perché Severus gliel'aveva detto.
+E se, per di più, anche suo padre aveva protetto gli studenti dai prepotenti…
+ non importava se Harry sapeva perché Severus gliel'aveva detto.
  Gli faceva comunque sentire un po' di calore dentro, e orgoglio, e rendeva
  impossibile andarsene.
 \end_layout
@@ -2133,10 +2110,10 @@ Lesath Lestrange
 è il figlio di Bellatrix Black, la più fanatica e malvagia servitrice del
  Signore Oscuro.
  Lesath è il bastardo riconosciuto di Rabastan Lestrange.
- Poco dopo la morte del Signore Oscuro, Bellastrix, Rabastan e il fratello
- di Rabasta, Rodolphus, furono catturati mentre torturavano Alice e Frank
+ Poco dopo la morte del Signore Oscuro, Bellatrix, Rabastan e il fratello
+ di Rabastan, Rodolphus, furono catturati mentre torturavano Alice e Frank
  Longbottom.
- Tutti e tre sono ad Azkaban all'ergastolo.
+ Tutti e tre scontano l'ergastolo ad Azkaban.
  I Longbottom furono resi folli dai ripetuti Cruciatus e sono nel reparto
  degli incurabili di 
 \begin_inset ERT
@@ -2163,7 +2140,7 @@ St.
 \begin_inset Quotes fld
 \end_inset
 
-Non è affatto una ragione
+Non è per niente una ragione
 \begin_inset Quotes frd
 \end_inset
 
@@ -2238,7 +2215,7 @@ E lei pensa
 \begin_inset Quotes fld
 \end_inset
 
-che l'intervento di Harry-Potter, il Ragazzo-Che-È-Sopravvissuto, potrebbe
+che l'intervento di Harry Potter, il Ragazzo-Che-È-Sopravvissuto, potrebbe
  essere efficace
 \begin_inset Quotes frd
 \end_inset
@@ -2567,7 +2544,7 @@ Quello bello fece un passo avanti, e gli altri tre lo seguirono.
 \begin_inset Quotes fld
 \end_inset
 
-È così che è per voi
+Quindi è questo che vi interessa
 \begin_inset Quotes frd
 \end_inset
 
@@ -2600,7 +2577,7 @@ Il male è male
 \begin_inset Quotes fld
 \end_inset
 
-e se sei amico col male, anche tu sei male
+e se sei amico del male, anche tu sei male
 \begin_inset Quotes frd
 \end_inset
 
@@ -2615,7 +2592,7 @@ I quattro fecero un altro passo avanti.
 Lesath si alzò, traballante, in piedi.
  Il suo viso era grigio, e fece qualche passo avanti, e si appoggiò al muro,
  e non disse nulla.
- I suoi occhi erano fissi sulla curva del corridoio, l'uscita.
+ I suoi occhi erano fissi sulla curva del corridoio, la via di fuga.
 \end_layout
 
 \begin_layout Standard
@@ -2665,11 +2642,11 @@ e se lo fosse, non credo che gli piacerebbe vedere un Longbottom che difende
 
 \begin_layout Standard
 E i Grifondoro fecero un altro lungo passo avanti, e dietro di loro Lesath
- strisciò lungo il muro, aspettando la propria occasione.
+ strisciò rasente il muro, aspettando la propria occasione.
 \end_layout
 
 \begin_layout Standard
-Neville deglutì, e alzò la sua mano destra con il pollice e l'indice premuti
+Neville deglutì, e alzò la sua mano destra con il pollice e il medio premuti
  insieme.
 \end_layout
 
@@ -2687,15 +2664,15 @@ La sua voce venne fuori sorprendentemente chiara, tutto sommato.
 \end_layout
 
 \begin_layout Standard
-“Harry James Potter-Evans-Verres.
+«Harry James Potter-Evans-Verres.
  Harry James Potter-Evans-Verres.
  Harry James Potter-Evans-Verres.
  Per il debito che hai con me e il potere del tuo vero nome ti invoco, apro
- la via per te, ti chiamo a manifestarti davanti a me
+ la via per te, ti chiamo a manifestarti davanti a me.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2758,19 +2735,19 @@ Ahem
 
 , disse Harry Potter da dietro di loro, appoggiato alla parete vicino alla
  finestra, dalla parte chiusa del corridoio, dove nessuno sarebbe potuto
- andare senza essere visto.
+ arrivare senza essere visto.
 \end_layout
 
 \begin_layout Standard
-Se osservare le persone gridare era sempre così piacevole, Neville poteva
- quasi capire perché le persone diventavano bulli.
+Se osservare le persone gridare fosse stato sempre così piacevole, Neville
+ poteva quasi capire perché esistevano i bulli.
 \end_layout
 
 \begin_layout Standard
 Harry Potter si fece avanti di scatto, mettendosi tra Lesath Lestrange e
  gli altri.
- Osservò col suo guardo glaciale i ragazzi con vesti bordate di rosso, e
- infine i suoi occhi si posarono su quello bello, il capobanda.
+ Osservò col suo guardo glaciale i ragazzi con le vesti bordate di rosso,
+ e infine i suoi occhi si posarono su quello bello, il capobanda.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2785,7 +2762,7 @@ Signor Carl Sloper
 \end_inset
 
 Credo di aver compreso questa situazione in pieno.
- Se Lesath Lestrange ha mai commesso egli stesso un solo atto malvagio,
+ Se Lesath Lestrange ha mai commesso personalmente un solo atto malvagio,
  piuttosto che essere nato dai genitori sbagliati, il fatto non è noto
 \emph on
  
@@ -2935,8 +2912,8 @@ Dicono anche che sono segretamente fidanzato con Ginevra Weasley e che c'è
 \begin_inset Quotes fld
 \end_inset
 
-Poiché è determinato a spingere per una decisione, signor Carl Sloper, mi
- lasci chiarire le cose.
+Poiché è determinato a forzare la mano, signor Carl Sloper, mi lasci chiarire
+ le cose.
  
 \emph on
 Lasciate in pace Lesath
@@ -2997,9 +2974,9 @@ Eeh
 \begin_inset Quotes frd
 \end_inset
 
-, disse uno degli altri Grifondoro in una voce dal tono alto, e girò sui
- tacchi e corse via, girando l'angolo.
- I suoi passi ticchettarono rapidamente via e si attenuandosi.
+, disse uno degli altri Grifondoro in una voce dal tono alto, e girò su
+ sé stesso e corse via, svoltando l'angolo.
+ I suoi passi ticchettarono rapidamente via spegnendosi.
 \end_layout
 
 \begin_layout Standard
@@ -3108,10 +3085,10 @@ qui è quando io schiocco le dita e voi diventate parte di una storia divertenti
 sima che sarà raccontata questa sera a cena con molte risate nervose.
  Ma la questione è che persone di cui mi fido continuano a dirmi di non
  farlo.
- La professoressa McGonagall mi ha detto che prendevo la scorciatoia in
- tutte le cose e il professor Quirrell dice che devo imparare a perdere.
- Così, ricordate quella storia in cui ho permesso che un gruppo di Serpeverde
- più grandi mi picchiassero? Potremmo fare così.
+ La professoressa McGonagall mi ha detto che scelgo la scorciatoia in tutte
+ le cose e il professor Quirrell dice che devo imparare a perdere.
+ Così, ricordate quella storia in cui mi lascio picchiare da un gruppo di
+ Serpeverde più grandi? Potremmo fare così.
  Potreste picchiarmi per un po' e io potrei permettervelo.
  Solo, ricordate quella parte alla fine in cui dico ai miei molti, molti
  amici all'interno di questa scuola di non fare niente a proposito? Questa
@@ -3125,7 +3102,7 @@ sima che sarà raccontata questa sera a cena con molte risate nervose.
 \end_layout
 
 \begin_layout Standard
-Harry Potter fece un passo avanti, le sue larghe in un gesto di invito.
+Harry Potter fece un passo avanti, le braccia larghe in un gesto di invito.
 \end_layout
 
 \begin_layout Standard
@@ -3198,7 +3175,7 @@ tu
 \end_layout
 
 \begin_layout Standard
-Neville sapeva che Harry Potter lo stava solo dicendo, cercando di farlo
+Neville sapeva che Harry Potter lo diceva soltanto, per cercare di farlo
  sentire orgoglioso, eppure diede inizio ad una sensazione di calore nel
  suo petto.
 \end_layout
@@ -3262,7 +3239,7 @@ bello
  non stanno soffrendo, i miei genitori soffrono sempre, ogni secondo della
  loro vita, vorrei essere come te, almeno puoi vedere i tuoi genitori qualche
  volta, almeno sai che ti hanno amato, se mia Madre mi ha mai amato i Dissennato
-ri le avranno mangiato quel pensiero ora
+ri le avranno già mangiato quel pensiero
 \begin_inset space ~
 \end_inset
 
@@ -3274,7 +3251,7 @@ ri le avranno mangiato quel pensiero ora
 \end_layout
 
 \begin_layout Standard
-Gli occhi di Nevill erano spalancati per lo stupore.
+Gli occhi di Neville erano spalancati per lo stupore.
  Non se l'era aspettato.
 \end_layout
 
@@ -3297,8 +3274,8 @@ Mi aiuti, Signore
 
 \begin_layout Standard
 Ci fu un terribile silenzio.
- Neville non poteva pensare a una sola cosa da dire, e dal nudo stupore
- sul volto di Harry, non poteva pensare a nulla neppure lui.
+ Neville non riusciva pensare a una sola cosa da dire, e a giudicare dal
+ nudo stupore sul volto di Harry, non poteva pensare a nulla neppure lui.
 \end_layout
 
 \begin_layout Standard
@@ -3408,11 +3385,11 @@ Era vero, sebbene Harry non avesse detto
 \emph on
 come
 \emph default
- aveva intenzione di realizzare qualsiasi parte del piano…
+ aveva intenzione di realizzare nessuna parte del piano…
 \end_layout
 
 \begin_layout Standard
-Quando Lesath guardò in su dal pavimento, il suo volto era terrificante,
+Quando Lesath alzò lo sguardo dal pavimento, il suo volto era terrificante,
  e la sua voce venne fuori con uno strillo che provocò dolore alle orecchie
  di Neville.
  
@@ -3445,7 +3422,7 @@ posso!
 \begin_inset Quotes frd
 \end_inset
 
- disse Harry, la sia voce tanto disperata quanto quella di Lesath.
+ disse Harry, la sua voce tanto disperata quanto quella di Lesath.
  
 \begin_inset Quotes fld
 \end_inset
@@ -3493,7 +3470,7 @@ Uau
 \begin_inset Quotes fld
 \end_inset
 
-Non sembrava essere molto riconoscente di essere stato salvato
+Non sembrava essere molto riconoscente per essere stato salvato
 \begin_inset Quotes frd
 \end_inset
 
@@ -3537,7 +3514,7 @@ Mi dispiace
 \begin_inset Quotes fld
 \end_inset
 
-Che?
+Che--?
 \begin_inset Quotes frd
 \end_inset
 
@@ -3618,11 +3595,11 @@ so che non avrei potuto fare nulla se tu non fossi stato qui, ma grazie
 \begin_inset Quotes fld
 \end_inset
 
-Finiscila
+Finiscila.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry.
+.
 \end_layout
 
 \begin_layout Standard
@@ -3673,22 +3650,22 @@ Sì
 \begin_inset Quotes fld
 \end_inset
 
-Sei stupido
+Sei stupido.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Neville.
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Ne sono cosciente
+Ne sono cosciente.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry.
+
 \end_layout
 
 \begin_layout Standard
@@ -3778,7 +3755,7 @@ Lo capisco, ma
 
 No! Tu 
 \emph on
-non lo capisci!
+non capisci!
 \emph default
  Aveva una 
 \emph on
@@ -3810,7 +3787,7 @@ Anche così
 \end_inset
 
 Potrebbe esistere una soluzione incredibilmente intelligente che renda possibile
- salvare tutti quanti e farli vivere tutti felicemente, e se se solo fossi
+ salvare tutti quanti e farli vivere tutti felicemente, e se solo fossi
  abbastanza intelligente l'avrei pensata ormai
 \begin_inset space ~
 \end_inset
@@ -3905,7 +3882,7 @@ Harry osservò Neville andarsene.
 \end_layout
 
 \begin_layout Standard
-Naturalmente Harry non aveva detto quale sarebbe stata la soluzione.
+Naturalmente non aveva detto quale sarebbe stata la soluzione.
 \end_layout
 
 \begin_layout Standard
@@ -3952,12 +3929,12 @@ Un eccellente mantello dell'invisibilità, Potter
 \begin_inset Quotes frd
 \end_inset
 
-, biascicò il Maestro delle Pozioni.
+, biascicò il Maestro di Pozioni.
  
 \begin_inset Quotes fld
 \end_inset
 
-Molto si spiega
+Si spiegano molte cose
 \begin_inset Quotes frd
 \end_inset
 
@@ -4014,11 +3991,11 @@ Oh, è possibile
 \begin_inset Quotes fld
 \end_inset
 
-Confido che comprenderebbe le implicazioni, se lo fosse?
+Confido nel fatto che ne comprenderebbe le implicazioni, se lo fosse
 \begin_inset Quotes frd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -4126,7 +4103,7 @@ L'uomo assunse un'espressione stranamente triste, che sembrò aliena sul
 \begin_inset Quotes fld
 \end_inset
 
-Direi piuttosto, Harry Potter, che lei assomiglia
+Direi piuttosto, Harry Potter, che lei assomigli
 \begin_inset space ~
 \end_inset
 
@@ -4193,7 +4170,7 @@ L'aveva appena aiutato
 \end_inset
 
 E gliel'ha detto in faccia.
- Certamente non si tratta di qualcosa che perdonerebbe facilmente?
+ Certamente non si tratta di qualcosa che perdonerebbe facilmente, giusto?
 \begin_inset Quotes frd
 \end_inset
 
@@ -4204,21 +4181,13 @@ E gliel'ha detto in faccia.
 \begin_inset Quotes fld
 \end_inset
 
-Aveva appena fatto un'esperienza piuttosto straziante
+Aveva appena fatto un'esperienza piuttosto straziante.
+ E non penso che essere aiutato da ragazzi del primo anno abbia fatto bene
+ al suo orgoglio, per di più.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry.
- 
-\begin_inset Quotes fld
-\end_inset
 
-E non penso che essere aiutato da ragazzi del primo anno abbia fatto bene
- al suo orgoglio, per di più
-\begin_inset Quotes frd
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -4234,7 +4203,7 @@ Suppongo che sia stato abbastanza facile perdonare
 \end_inset
 
 poiché Lestrange non significa molto per lei.
- Solo uno strano Serpeverde.
+ È solo uno strano Serpeverde.
  Se fosse stato un amico, forse, si sarebbe sentito molto più ferito da
  quello che ha detto
 \begin_inset Quotes frd
@@ -4264,13 +4233,13 @@ sarebbe stata una ragione in più per perdonarlo
 
 \begin_layout Standard
 Ci fu un lungo silenzio.
- Harry sentì, e non poteva dire perché o quale origine avesse, che l'aria
- si stava riempiendo di una tensione spaventosa, come acqua che monta, monta,
+ Harry sentì, e non poteva dire perché o da dove provenisse, che l'aria
+ si stava riempiendo di una tensione spaventosa, come marea che monta, monta,
  monta.
 \end_layout
 
 \begin_layout Standard
-Poi Severus sorrise, improvvisamente sembrando di nuovo rilassato, e tutta
+Poi Severus sorrise, sembrando all'improvviso nuovamente rilassato, e tutta
  la tensione scomparve.
 \end_layout
 
@@ -4308,7 +4277,7 @@ Più che altro la collezione di fantascienza e fantasy di Papà
 \begin_inset Quotes fld
 \end_inset
 
-Una specie di quinto genitore per me, in realtà.
+Una specie di quinto genitore per me, in effetti.
  Ho vissuto le vite di tutti i personaggi dei miei libri, e tutte le loro
  potenti saggezze tuonano nella mia testa.
  Da qualche parte lì dentro c'è qualcuno come Lesath, credo, sebbene non
@@ -4409,7 +4378,7 @@ Ci fu una pausa.
 \begin_inset Quotes fld
 \end_inset
 
-Oh, ma lei era 
+Oh, ma ella era 
 \emph on
 in grado
 \emph default
@@ -4422,7 +4391,7 @@ in grado
 \begin_inset Quotes fld
 \end_inset
 
-Del resto, in seguito, lei divenne la fidanzata del bullo.
+Del resto, in seguito, divenne la fidanzata del bullo.
  Mi dica, perché perdonò il bullo, e non la vittima?
 \begin_inset Quotes frd
 \end_inset
@@ -4483,12 +4452,12 @@ Eccole la risposta
 
 Non che io abbia mai frequentato il liceo, ma i miei libri mi fanno capire
  che c'è un certo tipo di ragazza adolescente che sarebbe indignata da un
- singolo insulto se il ragazzo è insignificante o povero, eppure può trovare
- in qualche modo nel proprio cuore la forza per perdonare a un ragazzo ricco
- e bellissimo le sue prepotenze.
+ singolo insulto se il ragazzo è insignificante o povero, eppure potrebbe
+ trovare in qualche modo nel proprio cuore la forza per perdonare a un ragazzo
+ ricco e bello le sue prepotenze.
  Era superficiale, in altre parole.
  Dica a chiunque fosse il ragazzo che lei non era degna di lui e che ha
- bisogno di dimenticare e andare avanti, e la prossima volta frequentare
+ bisogno di dimenticare e andare avanti, e che la prossima volta frequentasse
  ragazze che siano profonde invece che carine
 \begin_inset Quotes frd
 \end_inset
@@ -4509,7 +4478,7 @@ Harry iniziava a sentirsi un po' nervoso.
 \end_inset
 
 Uhm, non che io abbia alcuna esperienza in merito, ovviamente, ma credo
- che quello sia ciò che un consigliere saggio direbbe nei miei libri
+ che sarebbe ciò che un consigliere saggio direbbe nei miei libri
 \begin_inset Quotes frd
 \end_inset
 
@@ -4556,7 +4525,7 @@ Ritengo
 \begin_inset Quotes fld
 \end_inset
 
-che non di dovrebbero essere altre conversazioni tra di noi, Potter, e lei
+che non dovrebbero esserci altre conversazioni tra di noi, Potter, e lei
  sarà incredibilmente saggio a non parlare mai di questa con nessuno
 \begin_inset Quotes frd
 \end_inset
@@ -4856,7 +4825,7 @@ Non dare mai un saggio consiglio a nessuno se prima non sai esattamente
 \end_layout
 
 \begin_layout Standard
-Harry guardò fuori per un po' alle nuvole e alla leggera pioggerellina.
+Per un po' Harry guardò fuori, alle nuvole e alla leggera pioggerellina.
  La finestra dava sui terreni orientali, ed era pomeriggio, quindi anche
  se il sole fosse stato visibile attraverso le nuvole, Harry non avrebbe
  potuto vederlo.
@@ -4886,9 +4855,9 @@ solamente
 \end_layout
 
 \begin_layout Standard
-Naturalmente, era una scarsa consolazione quando avevi undici anni e prossimo
- a diventare un adolescente, e ti chiedevi che sorta di adolescente saresti
- diventato.
+Naturalmente, era una scarsa consolazione quando avevi undici anni ed eri
+ prossimo a diventare un adolescente, e ti chiedevi che sorta di adolescente
+ saresti diventato.
 \end_layout
 
 \begin_layout Standard
@@ -4936,7 +4905,7 @@ Per un istante Harry immaginò la propria Madre e il proprio Padre ad Azkaban
  con i Dissennatori che succhiavano via le loro vite, prosciugando le memorie
  felici del loro amore per lui.
  Solo per un istante, prima che la sua immaginazione facesse saltare un
- fusibile scattare l'arresto di emergenze e gli dicesse di non immaginare
+ fusibile e scattare l'arresto di emergenza e gli dicesse di non immaginare
  mai più una cosa simile.
 \end_layout
 
