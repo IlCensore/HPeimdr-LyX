@@ -84,6 +84,10 @@
   \hbox to \partlength{\hfill{\cftpartpagefont #1}}}
 
 \renewcommand{\LettrineFontHook}{\color{Maroon}}
+
+\frenchspacing
+\widowpenalty=10000
+%\clubpenalty=10000
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -94,7 +98,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Minion Pro
+\font_roman Garamond Premier Pro
 \font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
@@ -693,6 +697,54 @@ pagestyle{empty}
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Harry Potter e i metodi della razionalità
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \begin_inset ERT
 status open
 
