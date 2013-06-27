@@ -3,6 +3,50 @@
 \begin_document
 \begin_header
 \textclass memoir
+\begin_preamble
+\setcounter{chapter}{32}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\newfontfamily\llo{Linux Libertine O}
+\end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
@@ -13,25 +57,25 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman EB Garamond
+\font_sans Griffy
+\font_typewriter Inconsolata
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 12
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize custom
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
@@ -47,13 +91,15 @@ initials
 \shortcut idx
 \color #008000
 \end_index
+\paperwidth 6in
+\paperheight 9in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language french
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -145,6 +191,85 @@ universo parallelo
  di una serie televisiva che va non onda per un numero predeterminato di
  stagioni, i cui episodi sono scritti individualmente ma con un arco narrativo
  che conduce verso una conclusione definitiva.
+\end_layout
+
+\begin_layout Standard
+Cambiamenti rispetto all'universo originale di Harry Potter possono avvenire
+ per una qualsiasi delle seguenti ragioni:
+\end_layout
+
+\begin_layout Enumerate
+cambiamenti derivanti dal punto di distacco -- un evento avvenuto differentement
+e, in qualche punto nel passato.
+ Ad esempio, pare che Petunia abbia sposato uno scienziato;
+\end_layout
+
+\begin_layout Enumerate
+cambiamenti che livellano le cuciture dell'universo.
+ È probabile che quando Rowling scrisse il primo libro, non avesse ancora
+ deciso che ci fosse una sistematica e sicura maledizione sulla cattedra
+ di Difesa.
+ Ma ovviamente, se la maledizione fosse davvero operante da decenni, tutti
+ l'avrebbero notata e asi sarebbero aspettati che qualcosa andasse male
+ col professor Quirrell;
+\end_layout
+
+\begin_layout Enumerate
+cambiamenti che dipendono dal prendere una certa ipotesi più seriamente.
+ Per esempio, se Harry Potter avesse salvato l'intera nazione il 31 ottobre
+ 1981, non l'avrebbero forse invitato alle cerimonie per il decimo anniversario?
+\end_layout
+
+\begin_layout Enumerate
+cambiamenti alle leggi della magia in modo che, come dire, ce ne sia qualcuna.
+ Ci sono storie che possono cavarsela pur avendo leggi della magia poco
+ chiare, perché sono parte dell'ambientazione invece che la trama.
+ Questa non è una di quelle storie;
+\end_layout
+
+\begin_layout Enumerate
+cambiamenti dovuti al fatto che questo non è un libro per bambini.
+ Scrivere un libro per bambini è molto più difficile che scrivere una storia
+ per adulti.
+ Non sono in grado di farlo.
+ Perciò questa è una storia per adulti… e questo significa che è impossibile
+ che il malvagio Peter Pettigrew si stia nascondendo come Scabbers, il topo
+ domestico di una famiglia di maghi nemici.
+ In un libro per bambini, questo può essere accettato incidentalmente.
+ In una storia per adulti, significherebbe che Pettigrew si sta comportando
+ in maniera molto idiota.
+ È una regola generale dei 
+\emph on
+Metodi della razionalità
+\emph default
+ che nessuno si comporti in maniera molto idiota;
+\end_layout
+
+\begin_layout Enumerate
+cambiamenti risultanti dalla filosofia generale di innalzare gli ostacoli
+ affinché corrispondano al protagonista, molto più potente.
+ Un esempio di questo è che nel 
+\emph on
+Calice di Fuoco
+\emph default
+, c'è un punto in cui l'Harry del canone affronta sulla scopa volate un
+ drago chiamato Ungaro Spinato… che nel capitolo 16 dei 
+\emph on
+Metodi
+\emph default
+ è detto soffiare fuoco così rapidamente da fondere un Boccino in volo,
+ cosa che implica che l'Harry del canone sarebbe stato arrostito in un istante
+ se avesse provato a fare la stessa cosa in questo universo.
+ Ma del resto il Torneo Tre Maghi non potrebbe affatto aver luogo nello
+ stesso modo in questo universo, perché questa non è una storia per bambini,
+ e in una storia per adulti quel piano richiederebbe che Lord Voldermort
+ si stesse comportando in maniera esponenzialmente idiota;
+\end_layout
+
+\begin_layout Enumerate
+cambiamenti che sono necessari per renderla completa dal punto di vista
+ artistica se vista sullo sfondo della fanfiction di Harry Potter, come
+ includere almeno una relazione completamente sbagliata.
 \end_layout
 
 \begin_layout Standard
