@@ -11,7 +11,7 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
@@ -46,8 +46,9 @@
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
 \newfontfamily\llo{Linux Libertine O}
+\usepackage{microtype}
 \end_preamble
-\use_default_options false
+\use_default_options true
 \master ENG_hpmor.lyx
 \begin_modules
 initials
@@ -58,7 +59,7 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans TitilliumText25L
+\font_sans Griffy
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -1966,7 +1967,7 @@ tu
 \emph on
 io
 \emph default
- so che tu puoi predire che io decida ciò?
+ so che tu puoi predire che io decida questo?
 \begin_inset Quotes frd
 \end_inset
 
@@ -3410,148 +3411,173 @@ Granger: 237 / Malfoy: 217 / Potter: 220
 \end_layout
 
 \begin_layout Standard
-It still hurt every time he had to shoot Hermione.
- Harry could hardly stand to look at the expression of peace that had come
- over her sleeping face, arms now drifting aimlessly as the curves of sunlight
- moved over her camouflage uniform and the cloud of her chestnut hair.
-\end_layout
-
-\begin_layout Standard
-And if Harry had tried to duck out of being the one to shoot her… not only
- would Draco have known what it meant, 
-\emph on
-Hermione
-\emph default
- would have been offended.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-She's not dead,
-\emph default
- Harry said to his brain as his kicking feet pushed him away, 
-\emph on
-she's just resting.
- IDIOT.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Are you sure?
-\emph default
- said his brain.
- 
-\emph on
-What if she's an ex-Hermione? Could we go back and check?
-\end_layout
-
-\begin_layout Standard
-Harry glanced back briefly.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-See, she's fine, there are bubbles coming out of her mouth.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Could've been her last breath escaping.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Oh be quiet.
- Why are you being so paranoid-protective, anyway?
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Er, first real friend we've ever had in our whole life? Hey, remember what
- happened to our pet rock?
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Would you SHUT UP about that worthless lump of rubble, it wasn't even alive
- let alone sentient, that is like the most pathetic childhood trauma ever
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset VSpace defskip
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-The two armies swiftly separated, becoming two shoals of fish once more.
+\noindent
+Faceva ancora male ogni volta che doveva colpire Hermione.
+ Harry poteva sopportare a malapena di guardare l'espressione di pace che
+ era sopraggiunta sul suo volto dormiente, le braccia che ora erano trasportate
+ senza meta mentre le curve della luce solare si muovevano sulla sua uniforme
+ mimetica e sulla nuvola dei suoi capelli castani.
 \end_layout
 
 \begin_layout Standard
-General Granger had gone down seventeen points, and taken three Chaotics
- and two Dragons with her; and one Chaotic and two Dragons had been shot
- as traitors.
- So she'd lost net seven points, Harry had lost one, Draco had lost two;
- that put Sunshine twenty points up on Dragon, and seventeen points up on
- Chaos.
- Chaos could still win easily if they exterminated all twenty remaining
- Dragons.
- The wild card, of course, being those seven remaining Sunshine Soldiers…
-\end_layout
-
-\begin_layout Standard
-…if you could call them that.
-\end_layout
-
-\begin_layout Standard
-The two shoals swam uneasily next to each other, the soldiers in each army
- awaiting an order to call out their true allegiances, and attack…
-\end_layout
-
-\begin_layout Standard
-“Everyone who got them,” Harry said loudly, “remember Special Orders One
- through Three.
- And don't forget it's Merlin Says on Three.
- Do not acknowledge.”
-\end_layout
-
-\begin_layout Standard
-The trustworthy two-thirds of the army did not nod, and the other third
- just looked puzzled.
-\end_layout
-
-\begin_layout Standard
-
+E se Harry avesse cercato di defilarsi dall'essere colui che la doveva colpire…
+ non solo Draco avrebbe capito cosa significava, 
 \emph on
-Special Order One: Don't bother trying to call out any codewords in this
- battle, don't expend effort on any plot not specially approved by the commander
-; just swim, shield, and fire.
-\end_layout
-
-\begin_layout Standard
-Hermione and Draco had both been fighting their soldiers, trying to get
- them to stop plotting on their own all through December.
- Harry had egged his soldiers on and supported their plotting through the
- last two battles… while also telling them that at some 
-\emph on
-future
+Hermione
 \emph default
- point he might ask them to put a plot or two on hold, to which they'd all
- readily agreed.
- So now, in this critical battle, they were happy to obey.
+ si sarebbe offesa.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non è morta
+\emph default
+, Harry disse al proprio cervello mentre lo scalciare dei suoi piedi lo
+ spingeva via, 
+\emph on
+sta solo riposando.
+ 
+\noun on
+Idiota
+\noun default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ne sei sicuro?
+\emph default
+ disse il suo cervello.
+ 
+\emph on
+E se fosse un'ex-Hermione? Non potremmo tornare indietro a controllare?
+\end_layout
+
+\begin_layout Standard
+Per un istante Harry diede un'occhiata dietro di sé.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Vedi, sta bene, ci sono delle bolle che escono dalla sua bocca.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Potrebbe essere stata l'esalazione del suo ultimo respiro.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Oh, stai zitto.
+ E comunque, perché ti stai stati comportando da paranoico-protettivo?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ehm, il primo vero amico che abbiamo avuto in tutta la nostra vita? Hey,
+ ricordi cos'è successo alla nostra roccia domestica?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Potresti piantarla con quell'inutile grumo di detriti, non era vivo per
+ non dire senziente, quello è il più patetico trauma infantile di sempre
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+I due eserciti si separarono repentinamente, divenendo nuovamente due banchi
+ di pesce.
+\end_layout
+
+\begin_layout Standard
+Il generale Granger era scesa di diciassette punti, e aveva portato con
+ sé tre Caotici e due Dragon; e un Caotico e due Dragon erano stati colpiti
+ in quanto traditori.
+ Quindi aveva perso sette punti netti, Harry ne aveva perso uno, Draco due;
+ quello mise Sunshine venti punti sopra a Dragon, e diciassette punti sopra
+ Chaos.
+ Chaos poteva ancora vincere facilmente se avesse sterminato tutti i restanti
+ venti Dragon.
+ Il jolly, ovviamente, sarebbero stati quei sette Soldati Raggio di sole
+ restanti…
+\end_layout
+
+\begin_layout Standard
+… se si poteva chiamarli così.
+\end_layout
+
+\begin_layout Standard
+I due banchi nuotarono con imbarazzo vicini l'uno all'altro, i soldati di
+ ciascun esercito che attendevano l'ordine di dichiarare il proprio vero
+ schieramento e attaccare…
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Tutti coloro che li hanno ricevuti
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry ad alta voce, 
+\begin_inset Quotes fld
+\end_inset
+
+ricordino gli Ordini Speciali da Uno a Tre.
+ E non dimenticate che è `Merlino dice' sul Tre.
+ Non fate cenni di assenso
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I due terzi fidati dell'esercito non annuirono, l'altro terzo sembrò semplicemen
+te confuso.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ordine Speciale Uno: Non preoccupatevi di chiamare alcuna parola d'ordine
+ in questa battaglia, non dedicate alcuno sforzo ad alcun piano non specificatam
+ente approvato dal comandante; semplicemente nuotate, proteggetevi e fate
+ fuoco.
+\end_layout
+
+\begin_layout Standard
+Sia Hermione sia Draco si erano battuti con i loro soldati, cercando di
+ obbligarli a porre fine ai loro piani personali per tutto dicembre.
+ Harry aveva incitato i suoi soldati e sostenuto le loro cospirazioni durante
+ le ultime due battaglie… mentre diceva loro anche che ad un certo punto
+ nel 
+\emph on
+futuro
+\emph default
+ avrebbe potuto chiedere loro di sospendere uno o due complotti, richiesta
+ che avevano tutti prontamente accettato.
+ Quindi ora, in questa battaglia critica, erano felici di obbedire.
 \end_layout
 
 \begin_layout Standard
