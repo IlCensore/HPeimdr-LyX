@@ -45,8 +45,17 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\newfontfamily\llo{Linux Libertine O}
-%{\llo \char"2042}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\usepackage[activate={true,nocompatibility},final,factor=1100,stretch=10,shrink=10]{microtype}
+% activate={true,nocompatibility} - activate protrusion and expansion
+% final - enable microtype; use "draft" to disable
+% tracking=true, kerning=true, spacing=true - activate these techniques
+% factor=1100 - add 10% to the protrusion amount (default is 1000)
+% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty=10000
+\raggedbottom
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -59,17 +68,17 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans Linux Biolinum O
+\font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
-\font_sc false
+\font_sc true
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -198,11 +207,11 @@ Gli studenti non indossavano le loro vesti scolastiche d'ordinanza, ma uniformi
  e strappi, a quello servivano gli Incantesimi.
  Ma come il professor Quirrell aveva spiegato ai sorpresi nati maghi, vesti
  eleganti e dignitose non erano efficaci per nascondersi nelle foreste o
- eludere nelle vicinanze degli alberi.
+ per schivare nelle vicinanze degli alberi.
 \end_layout
 
 \begin_layout Standard
-E sul petto di ciascun uniforme c'era una toppa che recava il nome e l'insegna
+E sul petto di ciascuna uniforme c'era una toppa che recava il nome e l'insegna
  dell'esercito di appartenenza.
  Una 
 \emph on
@@ -225,8 +234,8 @@ Dragon Army
 \end_layout
 
 \begin_layout Standard
-Draco ebbe una crisi di rabbia e disse che avrebbe completamente confuso
- tutti.
+Draco ebbe una crisi di rabbia e disse che avrebbe decisamente confuso tutti
+ quanti.
 \end_layout
 
 \begin_layout Standard
@@ -426,8 +435,8 @@ universalmente
 Harry aveva calorosamente suggerito a Hermione che i giovani ragazzi che
  servivano sotto di lei fossero probabilmente nervosi per il fatto che fosse
  una ragazza con la fama di essere gentile, e che avrebbe dovuto scegliere
- qualcosa di spaventoso che li avrebbe riassicurati circa la sua tempra
- e li rendesse orgogliosi si essere parte del suo esercito, come 
+ qualcosa di spaventoso che li avrebbe rassicurati circa la sua tempra e
+ li rendesse orgogliosi si essere parte del suo esercito, come 
 \emph on
 \lang british
 Blood Commandos
@@ -530,13 +539,13 @@ Harry era in piedi nella luminosa radura all'interno della foresta che era
  d'albero vecchi e marci che era stato sgomberato per qualche scopo sconosciuto,
  il terreno ricoperto da foglie secche sparpagliate e dai resti rinsecchiti
  e ingrigiti dell'erba che non aveva superato la prova del calore estivo,
- e il sole che brillava accecante da sopra di loro.
+ e il sole che brillava accecante sopra di loro.
 \end_layout
 
 \begin_layout Standard
 Intorno a lui c'erano ventitré soldati che il professor Quirrell gli aveva
  assegnato.
- Quasi tutti i Grifondoro si erano iscritti, ovviamente, e oltre metà dei
+ Si erano iscritti quasi tutti i Grifondoro, ovviamente, e oltre metà dei
  Serpeverde, e meno della metà dei Tassofrasso, e un pugno di Corvonero.
  Nell'esercito di Harry c'erano dodici Grifondoro e sei Serpeverde e quattro
  Tassofrasso e un Corvonero oltre a lui… non che fosse possibile dirlo guardando
@@ -564,7 +573,7 @@ propri
 \begin_layout Standard
 C'era un episodio leggendario nella storia della psicologia sociale noto
  come l'esperimento di Robbers Cave.
- Era stato organizzato durante il frastornato dopoguerra de Secondo conflitto
+ Era stato organizzato durante il frastornato dopoguerra del Secondo conflitto
  mondiale, con l'intento di indagare le cause e i rimedi dei conflitti tra
  gruppi.
  Gli scienziati avevano messo insieme un campo estivo per 22 ragazzi di
@@ -573,7 +582,7 @@ C'era un episodio leggendario nella storia della psicologia sociale noto
  La prima fase dell'esperimento doveva indagare cosa fosse necessario affinché
  
 \emph on
-cominciasse
+scoppiasse
 \emph default
  un conflitto tra gruppi.
  I 22 ragazzi erano stati divisi in due gruppi da 11
@@ -591,12 +600,12 @@ cominciasse
 L'ostilità era iniziata nel momento in cui i due gruppi erano venuti a conoscenz
 a ciascuno dell'esistenza dell'altro all'interno del parco nazionale, gli
  insulti che erano stati lanciati già al primo incontro.
- Si erano dati il nome di Aquile e di Serpenti a sonagli (non avevano avuto
- bisogno di darsi dei nomi quando avevano pensato di essere i soli all'interno
- del parco) e avevano proseguito sviluppando degli stereotipi di gruppo
- contrastanti, i Serpenti a sonagli che pensavano di sé stessi come rudi
- e coriacei e imprecando pesantemente, le Aquile decidendo di conseguenza
- di pensare a sé stessi come corretti e formali.
+ Si erano dati il nome di Aquile e di Crotali (non avevano avuto bisogno
+ di darsi dei nomi quando avevano pensato di essere i soli all'interno del
+ parco) e avevano proseguito sviluppando degli stereotipi di gruppo contrastanti
+, i Crotali che pensavano di essere rudi e coriacei e che imprecavano pesantemen
+te, le Aquile che decisero di conseguenza di pensare a sé stessi come corretti
+ e formali.
 \end_layout
 
 \begin_layout Standard
@@ -653,7 +662,7 @@ non
 Erano cose come questa che rassicuravano Harry che il professor Quirrell,
  malgrado la sua artificiosa aria Oscura e la sua pretesa di neutralità
  nel conflitto tra Bene e Male, stesse segretamente sostenendo il Bene,
- anche se Harry no l'avrebbe mai detto ad altra voce.
+ anche se Harry non l'avrebbe mai detto ad altra voce.
 \end_layout
 
 \begin_layout Standard
@@ -666,8 +675,8 @@ proprio
 \end_layout
 
 \begin_layout Standard
-I Serpenti a sonagli, una volta incontrate le Aquile, avevano iniziato a
- pensare a sé stessi come rudi e coriacei, e si erano comportati di conseguenza.
+I Crotali, una volta incontrate le Aquile, avevano iniziato a pensare a
+ sé stessi come rudi e coriacei, e si erano comportati di conseguenza.
 \end_layout
 
 \begin_layout Standard
@@ -677,8 +686,8 @@ Le Aquile avevano pensato a sé stessi come corretti e formali.
 \begin_layout Standard
 E in quella luminosa radura all'interno della foresta, sparpagliati tra
  i tronconi d'albero vecchi e marci, delineati dal sole che brillava accecante
- da sopra di loro, il generale Potter e i suoi ventitré soldati erano disposti
- in quella che non assomigliava neppure lontanamente come una formazione.
+ sopra di loro, il generale Potter e i suoi ventitré soldati erano disposti
+ in quella che non assomigliava neppure lontanamente ad una formazione.
  Alcuni soldati erano in piedi, alcuni soldati erano seduti, alcuni erano
  in piedi su una gamba sola giusto per essere differenti.
 \end_layout
@@ -704,9 +713,9 @@ ragione
 Harry aveva diviso l'esercito in 6 squadre da 4 soldati ciascuna, ogni squadra
  comandata da un Suggeritore di Squadra.
  Tutta la truppa aveva ricevuto l'ordine ferreo, se quella fosse sembrata
- una buona idea al momento, di disobbedire a ogni ordine che avessero ricevuto,
- incluso quello… a meno che Harry o il Suggeritore di Squadra facessero
- precedere all'ordine 
+ una buona idea in quel momento, di disobbedire a ogni ordine che avessero
+ ricevuto, incluso quello… a meno che Harry o il Suggeritore di Squadra
+ facessero precedere all'ordine 
 \begin_inset Quotes fld
 \end_inset
 
@@ -736,7 +745,7 @@ Veloce.
 \emph on
 ora
 \emph default
- ha un senso o no.
+ ha un senso o meno.
 \end_layout
 
 \begin_layout Standard
@@ -925,10 +934,10 @@ Ma il generale Granger era quella imprevedibile, e Harry non poteva muoversi
 \end_layout
 
 \begin_layout Standard
-Nel cuore della foresta con le forme delle ombre che danzavano sul terreno
- mentre la volta frondosa oscillava in alto, il generale Malfoy era in piedi
- lì dove gli alberi erano relativamente più radi, e guardò verso le sue
- truppe con una pacata soddisfazione.
+Nel cuore della foresta, con le forme delle ombre che danzavano sul terreno
+ mentre la volta frondosa oscillava in alto, il generale Malfoy era lì dove
+ gli alberi erano relativamente più radi, e guardò verso le sue truppe con
+ calma soddisfazione.
  Sei unità di tre soldati ciascuna, l'Unità aerea di quattro (ad essa era
  stato assegnato Gregory), e l'Unità di comando, composta da egli stesso
  e Vincent.
@@ -949,8 +958,8 @@ Le sei unità erano disposte a formare un perimetro difensivo attorno a Draco,
 \end_layout
 
 \begin_layout Standard
-Assomigliavano già straordinariamente alle unità Auror il cui addestramento
- Draco aveva osservato durante le ispezioni di suo padre.
+Assomigliavano già straordinariamente alle unità Auror al cui addestramento
+ Draco aveva assistito durante le ispezioni di suo Padre.
 \end_layout
 
 \begin_layout Standard
@@ -975,15 +984,15 @@ Le sei unità si dispiegarono e ruotarono in direzione di Draco; i volti
 \end_layout
 
 \begin_layout Standard
-Draco aveva deciso di rimandare ad esigere saluto fino a quando non avessero
- vinto la loro prima battaglia, quando Grifondoro e Tassofrasso sarebbero
- stati più disponibili a salutare un Malfoy.
+Draco aveva deciso di non pretendere il saluto finché non avessero vinto
+ la loro prima battaglia, quando Grifondoro e Tassofrasso sarebbero stati
+ più disponibili a salutare un Malfoy.
 \end_layout
 
 \begin_layout Standard
 Ma i suoi soldati erano già sufficientemente dritti, specie i Grifondoro,
  e Draco si chiedeva se avesse davvero bisogno di aspettare.
- Gregory aveva ascoltato silenziosamente, e riferito che l'offerta di Draco
+ Gregory aveva ascoltato in silenzio, e riferito che l'offerta di Draco
  di affiancare Harry Potter durante la lezione di Difesa, quella volta che
  il professor Quirrell aveva insegnato a Harry come perdere, aveva indicato
  che Draco era un comandante accettabile.
@@ -1011,7 +1020,7 @@ facile
  a conquistare il controllo politico completo del Paese, doveva imparare
  come si governavano gli altri tre-quarti della popolazione.
  Erano cose come questa che rassicuravano Draco che il professor Quirrell
- avesse molta più simpatia per i buoni di quanto non facesse capire.
+ avesse molta più simpatia per i buoni di quanto non lasciasse intendere.
 \end_layout
 
 \begin_layout Standard
@@ -1020,8 +1029,9 @@ nte attaccato i Draghi per primi.
  Draco si era tormentato sull'impegnare o meno tutte le sue forze contro
  Granger da subito in un attacco preventivo, ma era preoccupato che (1)
  Harry l'avesse completamente fuorviato a proposito di ciò che Granger avrebbe
- probabilmente fatto, e (2) Harry l'avesse fuorviato a proposito dell'attendere
- fino alla fine dell'attacco di Granger prima di partecipare alla battaglia.
+ probabilmente fatto, e (2) Harry l'avesse fuorviato a proposito del suo
+ attendere fino alla fine dell'attacco di Granger prima di partecipare alla
+ battaglia.
 \end_layout
 
 \begin_layout Standard
@@ -1171,7 +1181,7 @@ E il Sunshine Regiment iniziò a marciare.
 
 \begin_layout Standard
 La tensione crebbe e crebbe, mentre Harry e gli altri diciannove soldati
- che restavano attesero che i combattenti aerei tornassero a riferire.
+ che erano rimasti attesero che i combattenti aerei tornassero a riferire.
  Non ci sarebbe dovuto volere molto, le scope erano veloci e le distanze
  nella foresta non enormi
 \begin_inset space ~
@@ -1183,7 +1193,7 @@ La tensione crebbe e crebbe, mentre Harry e gli altri diciannove soldati
 \begin_layout Standard
 Due scope si avvicinarono, ad alta velocità, dalla direzione del campo di
  Draco, e tutti i soldati si inquietarono.
- Non stavano eseguendo le manovre che erano i codice odierno per una scopa
+ Non stavano eseguendo le manovre che erano il codice odierno per una scopa
  
 \emph on
 amica
@@ -1318,7 +1328,7 @@ Una forza numerosa che concentrasse il fuoco su di una forza meno numerosa
 \emph on
 Sconfitte separatamente
 \emph default
- era il termine militare per ciò che avveniva quando si separavano le proprie
+ era il termine militare per ciò che avveniva quando si dividevano le proprie
  forze in quel mondo.
  Cosa 
 \emph on
@@ -1394,8 +1404,8 @@ Poi Draco comprese.
 \end_layout
 
 \begin_layout Standard
-Una delle due forze dei Raggi di sole avrebbe cambiato direzione, ed effettuato
- entrambe una manovra convergente su… chi?
+Una delle due forze dei Raggi di sole avrebbe cambiato direzione, ed entrambe
+ avrebbero effettuato una manovra convergente su… chi?
 \end_layout
 
 \begin_layout Quote
@@ -1441,11 +1451,11 @@ certo
 \emph default
  che il Ragazzo-Che-È-Sopravvissuto potesse leggere il pensiero.
  Non c'era altro modo in cui Harry avrebbe potuto scoprirlo.
- Neville non aveva ma parlato di quello con 
+ Neville non ne aveva ma parlato con 
 \emph on
 nessuno
 \emph default
-, o dato alcun segno; e 
+, né manifestato alcunché; e 
 \emph on
 le altre
 \emph default
@@ -1475,7 +1485,7 @@ l'aspettavano
 \emph on
 non
 \emph default
- l'avesse fatto, nulla di tutto quello equivaleva a essere in grado a lottare
+ l'avesse fatto, nulla di tutto quello equivaleva a essere in grado di lottare
  per sé stesso.
 \end_layout
 
@@ -1488,7 +1498,7 @@ esercito…
 \begin_layout Standard
 Qualcosa di strano stava rimestando dentro di Neville, mentre marciava attravers
 o la foresta al fianco dei suoi commilitoni, sulle loro uniformi un'insegna
- raffiguranti dita pronte a schioccare.
+ raffigurante dita pronte a schioccare.
 \end_layout
 
 \begin_layout Standard
@@ -1603,7 +1613,7 @@ Harry fissò i corpi sparsi per la foresta.
  che stavano solo dormendo.
  C'erano delle ragazze tra i caduti, e questo lo rendeva in qualche modo
  peggiore, e doveva stare attento a non menzionarlo mai di fronte a Hermione
- o gli Auror avrebbero trovato i suoi resti infilati in una 
+ o gli Auror avrebbero ritrovato i suoi resti infilati in una 
 \emph on
 piccola
 \emph default
@@ -1611,10 +1621,10 @@ piccola
 \end_layout
 
 \begin_layout Standard
-Metà dell'esercito dei Raggi di sole non era stato un avversario impegnativo
- per l'intero Chaos.
- I nove soldati appiedati si erano avvicinati correndo gridando in maniera
- inarticolata e con attivati degli Scudi Semplici, schermi circolari per
+Metà dell'esercito Sunshine non era stato un avversario impegnativo per
+ l'intero Chaos.
+ I nove soldati appiedati si erano avvicinati correndo, gridando in maniera
+ inarticolata e tenendo attivi degli Scudi Semplici, schermi circolari per
  proteggere i loro volti e i loro petti.
  Ma non era possibile fare fuoco e mantenere uno scudo contemporaneamente,
  e i soldati di Harry avevano semplicemente mirato alle gambe.
@@ -1634,7 +1644,7 @@ Somnium!
  L'ultima aveva lasciato cadere il suo scudo ed era riuscita a colpire uno
  dei soldati di Harry prima di essere travolta dalla seconda ondata di incantesi
 mi soporiferi (la Fattura del Sonno era sicura in caso di attacco multiplo).
- I due manici di Scopa di Sunshine erano stati molto più difficili da abbattere
+ I due manici di scopa di Sunshine erano stati molto più difficili da abbattere
  e diedero conto di tre Caotici prima di essere dotati di aura da un attacco
  massiccio da terra.
 \end_layout
@@ -1694,7 +1704,7 @@ Che una cosa sia chiara a tutti, questo non è stato un vero combattimento.
 \begin_layout Standard
 Una scopa discese giù dal cielo, avvicinandosi con una velocità terrificante,
  e ruotò portando il retro in avanti e decelerò così repentinamente che
- si poté quasi sentire l'aria strillare la sua protesta, e andò a fermarsi
+ si poté quasi sentire l'aria urlare la sua protesta, e andò a fermarsi
  direttamente di fianco a Draco.
 \end_layout
 
@@ -1752,12 +1762,12 @@ Combattere sopra il loro esercito è un vantaggio troppo grande in loro favore,
 
 \begin_layout Standard
 Draco aveva perso quattro Draghi in cambio di dodici Raggi di sole.
- Apparentemente il generale Granger era 
+ Apparentemente il generale Granger era stata 
 \emph on
 davvero
 \emph default
- stata così stupida, sebbene non fosse stata tra gli attaccanti, così Draco
- non aveva avuto l'occasione di deriderla o chiedere cosa in nome di Merlino
+ tanto stupida, sebbene non fosse stata tra gli attaccanti, così Draco non
+ aveva avuto l'occasione di deriderla o di chiederle cosa in nome di Merlino
  stesse pensando di fare.
 \end_layout
 
@@ -1818,7 +1828,7 @@ Ci stiamo avvicinando
 \begin_inset Quotes frd
 \end_inset
 
-, disse il generale Potter in una voce alta appena sufficientemente da giungere
+, disse il generale Potter in una voce alta appena il giusto da giungere
  all'intero esercito.
  
 \begin_inset Quotes fld
@@ -1903,7 +1913,7 @@ Contego
 Un sapore pungente riempì la bocca di Neville.
  Il generale Potter non avrebbe dato loro l'ordine di alzare gli scudi a
  meno che non fossero quasi a portata di tiro.
- Neville poteva vedere forme in divisa dei Draghi che si muovevano attraverso
+ Neville poteva vedere le forme in divisa dei Draghi che si muovevano attraverso
  il denso schermo degli alberi, e i Draghi avrebbero visto loro allo stesso
  modo
 \begin_inset space ~
@@ -1946,7 +1956,7 @@ Carica
 
 \begin_layout Standard
 Tutta l'adrenalina nel sangue di Neville fu rilasciata, e le sue gambe presero
- il sopravvento, mandandolo a volare più velocemente di quanto non fosse
+ il sopravvento, mandandolo a volare più velocemente di quanto non avesse
  mai corso prima, dritto verso il nemico, sapendo senza che fosse necessario
  guardare che tutti i suoi commilitoni stavano facendo lo stesso.
 \end_layout
@@ -1981,7 +1991,7 @@ Teschi per il trono di teschi! Iä! Shub-Niggurath! Il cancello del nemico
 \end_layout
 
 \begin_layout Standard
-Ci fu un impatto senza suono quando un incantesimo soporifero andò a consumarsi
+Ci fu un impatto senza suono quando un incantesimo soporifero andò sprecato
  contro lo scudo di Neville.
  Se erano stati lanciati altri incantesimi, non avevano colpito il bersaglio.
 \end_layout
@@ -2044,8 +2054,8 @@ Somnium!
 \begin_layout Standard
 Fece male, pietre dure e stecchi duri scavarono in Neville mentre rotolava,
  non era così male come cadere dalla scopa ma aveva comunque colpito il
- terreno piuttosto male, e poi Neville, con un'intuizione improvvisa, giacque
- immobile e chiuse gli occhi.
+ terreno piuttosto duramente, e poi Neville, con un'intuizione improvvisa,
+ giacque immobile e chiuse gli occhi.
 \end_layout
 
 \begin_layout Standard
@@ -2187,14 +2197,14 @@ A me, tutti, non lasciate che vi disperdano!
 \end_layout
 
 \begin_layout Standard
-Le orecchie di Neville colsero i due Draghi mentre saltavano sul suo corpo
- prono mentre si allontanavano correndo.
+Le orecchie di Neville colsero i due Draghi mentre saltavano oltre il suo
+ corpo prono mentre si allontanavano correndo.
 \end_layout
 
 \begin_layout Standard
-Neville aprì gli occhi, si tirò in piedi un po' dolorosamente, e poi puntò
- la sua bacchetta e pronunciò il nuovo incantesimo che il generale Potter
- aveva insegnato a loro tutti.
+Neville aprì gli occhi, si tirò in piedi un po' dolorante, e poi puntò la
+ sua bacchetta e pronunciò il nuovo incantesimo che il generale Potter aveva
+ insegnato a tutti loro.
  Non potevano lanciare veri incantesimi di illusione per confondere il nemico,
  ma persino alla loro età potevano
 \begin_inset space ~
@@ -2287,16 +2297,16 @@ Attacco speciale, Balzo Caotico!
 \begin_inset Quotes frd
 \end_inset
 
- ululò Neville mentre correva, e sentì il proprio corpo alleggerirsi, poi
- alleggerirsi ancora di più, mentre i suoi commilitoni girarono le loro
- bacchette verso di lui e sommessamente lanciarono l'Incantesimo di levitazione,
- e Neville alzò la sua mano sinistra e schioccò le dita e poi usò le gambe
+ urlò Neville mentre correva, e sentì il proprio corpo farsi più leggero,
+ poi ancora più leggero, mentre i suoi commilitoni girarono le loro bacchette
+ verso di lui e sommessamente lanciarono l'Incantesimo di levitazione, e
+ Neville alzò la sua mano sinistra e schioccò le dita e poi usò le gambe
  per sollevarsi dal terreno il più forte possibile e 
 \emph on
 si librò in volo
 \emph default
 .
- Sul viso di Justin si dipinse uno sconvolgimento assoluto mentre Neville
+ Sul viso di Justin si dipinse uno sbalordimento completo mentre Neville
  passò 
 \emph on
 sopra
@@ -2322,15 +2332,15 @@ Perché gli andava così, ecco perché.
 \end_layout
 
 \begin_layout Standard
-Neville non riuscì del tutto a rigirare i suoi piedi in maniera corretta
- e andò piuttosto ad arare il terreno mentre atterrava, ma due degli altri
+Neville non riuscì a riportare del tutto i piedi nella posizione corretta
+ e piuttosto andò ad arare il terreno mentre atterrava, ma due degli altri
  tre Legionari del Caos erano riusciti a tenere le loro bacchette su di
  lui per tutto il tempo e non impattò troppo duramente.
 \end_layout
 
 \begin_layout Standard
 E Neville si alzò in piedi, ansimando.
- Sapeva che si sarebbe dovuto muovere, gente stava gridando 
+ Sapeva che si sarebbe dovuto muovere, molti stavano gridando 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2358,8 +2368,8 @@ Io sono Neville, l'ultimo rampollo dei Longbottom!
 \end_inset
 
  gridò Neville al cielo sopra di lui, reggendo la bacchetta puntata verso
- l'alto come a sfidare lo stesso ardente cielo blu, sapendo che nulla dopo
- quel giorno sarebbe stato mai lo stesso.
+ l'alto come a sfidare l'ardente volta celeste, sapendo che nulla dopo quel
+ giorno sarebbe stato mai lo stesso.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2395,7 +2405,7 @@ Neville del Caos! Affrontatemi se osa--
 La ragazza di fianco a Harry crollò al suolo, prendendosi il colpo indirizzato
  a lui, ed egli poté sentire la distante risata di compiacimento del signor
  Goyle mentre la sua scopa passò come un fulmine sopra di loro, tagliando
- l'aria con tale forza che si sarebbe dovuta frantumare nella sua scia.
+ l'aria con tale forza che sarebbe dovuta andare in frantumi nella sua scia.
 \end_layout
 
 \begin_layout Standard
@@ -2411,15 +2421,15 @@ Luminos!
 \end_inset
 
  gridò uno dei ragazzi vicino Harry, che non era stato in grado di ricostituire
- la propria forza magica abbastanza rapidamente da farlo prima, e il signor
+ la propria forza magica abbastanza rapidamente per farlo prima, e il signor
  Goyle lo schivò senza fermarsi.
 \end_layout
 
 \begin_layout Standard
 A Chaos erano rimasti solo sei soldati, ora, e il Dragon Army ne aveva due,
- e l'unico problema era che uno di quei soldati era invincibile, e l'altro
- stava impegnando fino a tre soldati solo per obbligarlo a stare sotto copertura
- dentro il suo scudo.
+ e l'unico problema era che uno di quei due era invincibile e l'altro stava
+ impegnando tre soldati solo per obbligarlo a stare sotto copertura dentro
+ il suo scudo.
 \end_layout
 
 \begin_layout Standard
@@ -2496,7 +2506,7 @@ Mi rifiuto di perdere, non in questo modo, non il mio intero esercito per
 La scopa del signor Goyle virò più rapidamente di quanto qualunque cosa
  sarebbe dovuta essere in grado di virare e iniziò stringere l'angolo d'attacco
  verso Harry e le sue truppe superstiti, poteva percepire il ragazzo al
- suo fianco che si faceva teso, pronto a gettarsi di fronte al proprio generale.
+ suo fianco che diventava teso, pronto a gettarsi di fronte al proprio generale.
 \end_layout
 
 \begin_layout Standard
@@ -2602,9 +2612,9 @@ Quattro dei suoi soldati reggevano le loro bacchette in direzione di una
 \end_layout
 
 \begin_layout Standard
-Harry sospettava che avrebbe ricevuto una ramanzina da qualcuno o qualcun
- altro a proposito del non consumare la propria magia fino al punto di perdere
- i sensi per un gioco di bambini.
+Harry sospettava che avrebbe ricevuto una ramanzina da qualcuno sul non
+ consumare la propria magia fino al punto di perdere i sensi per un gioco
+ di bambini.
  Ma non aveva ferito il signor Goyle quando aveva perso la sua tempera,
  e quella era la cosa importante.
 \end_layout
@@ -2612,8 +2622,8 @@ Harry sospettava che avrebbe ricevuto una ramanzina da qualcuno o qualcun
 \begin_layout Standard
 Poi la mente di Harry saltò ad un'altra implicazione, e guardò in basso
  all'anello di acciaio al mignolo della sua mano sinistra, e quasi imprecò
- ad alta voce quando vide che il minuscolo diamante era andato perso che
- che c'era un marshmallow in terra lì dove era caduto.
+ ad alta voce quando vide che il minuscolo diamante era andato perso e che
+ c'era un marshmallow in terra lì dove era caduto.
 \end_layout
 
 \begin_layout Standard
@@ -2623,7 +2633,7 @@ Aveva mantenuto quella Trasfigurazione per diciassette giorni, e ora avrebbe
 
 \begin_layout Standard
 Sarebbe potuta andare peggio.
- Avrebbe potuto farlo quattordici giorni dopo, 
+ L'avrebbe potuto fare tra quattordici giorni, 
 \emph on
 dopo
 \emph default
@@ -2754,7 +2764,7 @@ vero
  Ma questo esempio sarebbe stata un'eccellente scusa, il sabato successivo,
  per poter affermare che mettere in dubbio le autorità era semplicemente
  una tecnica pratica per la vita reale.
- Ed Harry avrebbe anche menzionato gli esperimenti che aveva fatto, prima
+ E Harry avrebbe anche menzionato gli esperimenti che aveva fatto, prima
  con i singoli e poi con i gruppi, per verificare che le sue idee sull'importanz
 a della velocità fossero effettivamente 
 \emph on
@@ -2782,8 +2792,7 @@ vinto
 \begin_inset Quotes fld
 \end_inset
 
-Forse consumeremo tutto il tempo, e i professor Quirrell la dichiarerà un
- pareggio
+Forse consumeremo tutto il tempo, e i professor Quirrell sancirà il pareggio
 \begin_inset Quotes frd
 \end_inset
 
@@ -2792,7 +2801,7 @@ Forse consumeremo tutto il tempo, e i professor Quirrell la dichiarerà un
 
 \begin_layout Standard
 Un punto giusto e preoccupante.
- La guerra terminava solo quando il professor Quirrell, secondo il suo personale
+ La guerra terminava solo quando il professor Quirrell, in base al suo personale
  giudizio, decideva che un esercito aveva vinto secondo criteri pratici
  del mondo reale.
  Non c'era nessuna condizione di vittoria 
@@ -2865,7 +2874,7 @@ A Harry venne l'idea di usare Wingardium Leviosa per ammucchiare pesanti
 \begin_inset Quotes fld
 \end_inset
 
-Dunque
+Va bene
 \begin_inset Quotes frd
 \end_inset
 
@@ -2874,7 +2883,7 @@ Dunque
 \begin_inset Quotes fld
 \end_inset
 
-Ci sono cose come incantesimi di perforazione degli scudi specializzati?
+Ci sono cose come incantesimi specializzati di perforazione degli scudi?
 \begin_inset Quotes frd
 \end_inset
 
@@ -2923,7 +2932,7 @@ Harry sospirò.
 \end_layout
 
 \begin_layout Standard
-Appoggiò piuttosto deliberatamente la sua bacchetta sul terreno.
+Appoggiò deliberatamente la sua bacchetta sul terreno.
 \end_layout
 
 \begin_layout Standard
@@ -2952,14 +2961,14 @@ Harry si sedette vicino allo scudo luccicante, e si tirò la coperta sulla
 \end_layout
 
 \begin_layout Standard
-Dalla borsa di Harry venne una batteria per automobile con i cavi di accoppiamen
-to.
+Dalla borsa di Harry provenne una batteria per automobile con i cavi di
+ accoppiamento.
 \end_layout
 
 \begin_layout Standard
-… non era verosimile che stesse lì per lasciare il mondo babbano per dare
- inizio a una nuova era di ricerca magica, e non si portasse dietro un modo
- per generare elettricità.
+… non era verosimile che fosse sul punto di lasciare il mondo babbano per
+ dare inizio a una nuova era di ricerca sulla magia, e non si portasse dietro
+ un modo per generare elettricità.
 \end_layout
 
 \begin_layout Standard
@@ -2992,8 +3001,8 @@ Te lo spiego dopo
 
 \begin_layout Standard
 E fu in quel momento che una spirale di energia verde balzò fuori dalla
- foresta e colpì lo scudo di Draco, emise un suono acuto come pezzi di vetro
- acuminato strusciati insieme, e Draco barcollò.
+ foresta e colpì lo scudo di Draco, che emise un suono acuto come pezzi
+ di vetro acuminato strusciati insieme, e Draco barcollò.
 \end_layout
 
 \begin_layout Standard
@@ -3004,8 +3013,8 @@ o dalla batteria e li diede da mangiare alla borsa, poi diede alla borsa
 \end_layout
 
 \begin_layout Standard
-Tutti i suoi soldati erano ancora lì e si gettavano delle occhiate freneticament
-e intorno.
+Tutti i suoi soldati erano ancora lì e gettavano freneticamente occhiate
+ tutto intorno.
 \end_layout
 
 \begin_layout Standard
@@ -3026,7 +3035,7 @@ Contego
 \begin_inset Quotes fld
 \end_inset
 
-Qualcuno ha visto da dov'è venuto quello?
+Qualcuno ha visto da dov'è venuto?
 \begin_inset Quotes frd
 \end_inset
 
@@ -3218,7 +3227,7 @@ Li abbiamo abbattuti tutti al primo attacco
 \end_layout
 
 \begin_layout Standard
-L'espressione di sconvolta comprensione si sparse da Draco ai Legionari
+L'espressione di sconvolta comprensione si diffuse da Draco ai Legionari
  del Caos.
 \end_layout
 
@@ -3293,7 +3302,7 @@ Bene
 \begin_layout Standard
 Il generale Granger passò in rassegna il campo di battaglia con una netta
  sensazione di soddisfazione.
- Era rimasta con nove Soldati Sunshine, ma probabilmente erano sufficienti
+ Era rimasta con nove Soldati Raggio di sole, ma probabilmente erano sufficienti
  a gestire l'ultimo sopravvissuto delle forze nemiche, specialmente quando
  Parvati e Anthony ed Ernie stavano già puntando le loro bacchette sul generale
  Potter, che aveva ordinato di prendere vivo (cioè, cosciente).
@@ -3339,10 +3348,10 @@ Nessuno è così bravo in tutto!
 \end_layout
 
 \begin_layout Standard
-Il generale Granger diede un'occhiata intorno ai suoi Soldati Sunshine,
- poi tornò a guardare Harry.
- Probabilmente tutti stavano guardando quello che stava accadendo sugli
- schermi all'esterno.
+Il generale Granger diede un'occhiata ai suoi Soldati Raggio di sole, poi
+ tornò a guardare Harry.
+ Probabilmente tutti stavano osservando quello che stava accadendo sugli
+ schermi lì fuori.
 \end_layout
 
 \begin_layout Standard
@@ -3426,7 +3435,7 @@ Urrà!
 \begin_inset Quotes frd
 \end_inset
 
- urlarono i Soldati Sunshine.
+ urlarono i Soldati Raggio di sole.
  Anche i ragazzi Grifondoro lo dissero, e lo dissero con orgoglio.
 \end_layout
 
@@ -3476,7 +3485,7 @@ Ti faremo male solo se sei molesto,
 \begin_layout Quote
 
 \emph on
-E ti manderemo in una vera casa,
+E ti manderemo in una casa accogliente,
 \end_layout
 
 \begin_layout Quote
