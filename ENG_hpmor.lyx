@@ -86,8 +86,9 @@
 \renewcommand{\LettrineFontHook}{\color{Maroon}}
 
 \frenchspacing
-%\widowpenalty=10000
+\widowpenalties 2 10000 0
 \clubpenalty=10000
+\raggedbottom
 \end_preamble
 \use_default_options true
 \begin_modules
