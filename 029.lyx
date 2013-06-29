@@ -10,12 +10,9 @@
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
-%\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
-%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
-%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
 
@@ -47,6 +44,13 @@
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+
+\usepackage{microtype}
+
+\frenchspacing
+\widowpenalty=10000
+\clubpenalty=10000
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -58,18 +62,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
-\font_sans Linux Biolinum O
+\font_roman Garamond Premier Pro
+\font_sans Griffy
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
-\font_sc false
+\font_sc true
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -157,9 +161,9 @@ lettrine[lines=2]{R}{ecentemente Hermione}
 
  provava una certa sensazione di nausea allo stomaco ogni volta che sentiva
  altri studenti parlare di lei e di Harry.
- Era stata in una cabina per la doccia quella mattina quando aveva udito
- per caso una conversazione tra Morag e Padma, e quella era stata la goccia
- che aveva fatto traboccare il vaso.
+ Si era trovata in una cabina della doccia, quella mattina, quando aveva
+ udito per caso una conversazione tra Morag e Padma, e quella era stata
+ la goccia che aveva fatto traboccare il vaso.
 \end_layout
 
 \begin_layout Standard
@@ -168,9 +172,9 @@ Iniziava a pensare che farsi coinvolgere in una rivalità con Harry Potter
 \end_layout
 
 \begin_layout Standard
-Se solo fosse 
+Se solo fosse stata
 \emph on
-stata lontana 
+ lontana 
 \emph default
 da Harry Potter, sarebbe potuta essere Hermione Granger, la più brillante
  stella scolastica di Hogwarts, che stava guadagnando più punti per Corvonero
@@ -193,16 +197,16 @@ Invece il Ragazzo-Che-È-Sopravvissuto aveva una rivale scolastica, e il
 \end_layout
 
 \begin_layout Standard
-E peggio ancora, era andata a un appuntamento con lui.
+E peggio ancora, era andata ad un appuntamento con lui.
 \end_layout
 
 \begin_layout Standard
 L'idea di avere una Relazione amorosa con Harry era sembrata invitante all'inizi
 o.
- Aveva letto dei libri a proposito, e se c'era qualcuno a Hogwarts che era
- candidato ad essere l'interesse amoroso dell'eroina quello era ovviamente
+ Aveva letto dei libri a proposito, e se c'era qualcuno a Hogwarts che fosse
+ candidato ad essere l'interesse amoroso dell'eroina, quello era ovviamente
  Harry Potter.
- Brillante, divertente, talvolta spaventoso…
+ Brillante, divertente, talvolta terrificante…
 \end_layout
 
 \begin_layout Standard
@@ -226,11 +230,12 @@ O peggio, una delle opzioni nel suo menù serale.
 \end_layout
 
 \begin_layout Standard
-Era stata in una cabina per la doccia quella mattina e sul punto di aprire
- l'acqua, quando aveva sentito delle risatine provenire da fuori.
+Si era trovata in una cabina della doccia, quella mattina, ed era stata
+ sul punto di aprire l'acqua, quando aveva sentito delle risatine provenire
+ da fuori.
  Aveva sentito Moraga parlare di come quella ragazza Nata babbana probabilmente
  non avrebbe lottato abbastanza duramente per vincere contro Ginevra Weasley,
- e Padma ipotizzare che Harry Potter potesse decidere che voleva 
+ e Padma ipotizzare che Harry Potter potesse decidere che le voleva 
 \emph on
 entrambe
 \emph default
@@ -250,7 +255,7 @@ ragazzi
 \end_layout
 
 \begin_layout Standard
-Ma quella non era neppure la parte che le faceva male, in realtà.
+Ma non era neppure quella la parte che le faceva male, in realtà.
  Era stato quando aveva ottenuto 98 a uno dei compiti della professoressa
  McGonagall, la notizia non era stata che Hermione Granger aveva avuto il
  voto più alto della classe, la notizia era stata che la rivale di Harry
@@ -285,7 +290,7 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-Non ottenevi ciò che ti meritavi.
+Non ricevevi ciò che ti meritavi.
 \end_layout
 
 \begin_layout Standard
@@ -298,10 +303,10 @@ Ma voleva avere
 \emph on
 indietro
 \emph default
- ciò cui aveva inavvertitamente rinunciato lasciando che fosse nota come
+ ciò a cui aveva inavvertitamente rinunciato lasciando che fosse nota come
  la rivale di Harry.
- Voleva essere ancora una persona distinta, invece che la terza gamba di
- Harry, era chiedere troppo?
+ Voleva essere ancora una persona indipendente, invece che la terza gamba
+ di Harry, era chiedere troppo?
 \end_layout
 
 \begin_layout Standard
@@ -379,12 +384,12 @@ Povero me
 \begin_inset Quotes frd
 \end_inset
 
-, disse il ragno, seduto nella sua ragnatela.
+, disse il ragno, seduto sulla sua ragnatela.
  
 \begin_inset Quotes fld
 \end_inset
 
-Era così difficile perdere un singolo punto Quirrell, signorina Granger?
+Era così difficile perdere un singolo punto-Quirrell, signorina Granger?
 \begin_inset Quotes frd
 \end_inset
 
@@ -455,7 +460,7 @@ Decisamente
 \begin_inset Quotes fld
 \end_inset
 
-Sebbene ne abbia uno meno di quanti non ne aveva prima.
+Sebbene ne abbia uno meno di quanti non ne avesse prima.
  Terribile, no? Ora pensi, se non mi piacerà il motivo per cui è venuta
  qui, potrebbe perderne altri cinquanta.
  Forse gliene toglierò uno… ad uno… ad uno…
@@ -564,7 +569,7 @@ Il mago scettico
 \end_layout
 
 \begin_layout Standard
-Ciascuno aveva pensato che fosse solo una eccezione speciale che avrebbero
+Ciascuno aveva pensato che fosse solo un'eccezione speciale che avrebbero
  fatto solo quella volta, e nessuno dei due aveva compreso che era impossibile
  per entrambi finire di leggere tutti i titoli dei libri, non importa quanto
  si impegnassero.
@@ -716,11 +721,11 @@ Naturalmente
 \begin_inset Quotes fld
 \end_inset
 
-È risultato che vi fossero diverse, diciamo, 
+Risulta che vi fossero diverse, diciamo, 
 \emph on
 irregolarità
 \emph default
-, associate con l'invio di Black a Azkaban.
+, associate con l'invio di Black ad Azkaban.
  Non ha avuto un processo, e il Sottosegretario in carica quando gli Auror
  arrestarono Black era nientedimeno che Cornelius Fudge, che divenne l'attuale
  Ministro della Magia.
@@ -741,7 +746,7 @@ Harry fece un gesto come per alzare le spalle, mentre giaceva sul pavimento
 \begin_inset Quotes fld
 \end_inset
 
-Cose sospette accadono tutte le volte, e se sei un complottista puoi sempre
+Cose sospette accadono continuamente, e se sei un complottista puoi sempre
  trovare 
 \emph on
 qualcosa
@@ -827,8 +832,8 @@ topo domestico
 
 Aspetta, ci sto arrivando.
  Ora, dopo la morte di Pettigrew fu rivelato che era stato una spia per
- la Luce -- non un agente doppiogiochista, semplicemente uno che si intrufolava
- in giro e scopriva le cose.
+ la Luce -- non un agente doppiogiochista, semplicemente uno che se ne andava
+ in giro a intrufolarsi e scopriva le cose.
  Era stato bravo in questo sin da quando era un adolescente, anche a Hogwarts
  aveva avuto la fama di svelare ogni tipo di segreti.
  Quindi la teoria del complotto è che Pettigrew divenne un Animagus non
@@ -837,8 +842,10 @@ Aspetta, ci sto arrivando.
  Il problema principale è che i veri Animagi sono rari ed esserlo da adolescenti
  sarebbe davvero improbabile, quindi naturalmente la teoria del complotto
  dice che anche mio padre e Sirius erano Animagi non registrati.
- E in quella teoria del complotto, Pettigrew stesso uccise i dodici passanti.
- Primo, Black era l'unico a sapere dove fossero i miei genitori
+ E in questa teoria del complotto, Pettigrew stesso uccise i dodici passanti
+ si trasformò nella sua piccola forma da Animagus e corse via.
+ Michael Shermer dice che ci sono altri quattro problemi con questa teoria.
+ Uno, Black era l'unico a sapere dove fossero i miei genitori
 \begin_inset Quotes frd
 \end_inset
 
@@ -847,11 +854,11 @@ Aspetta, ci sto arrivando.
 \begin_inset Quotes fld
 \end_inset
 
-Due, Black era un sospetto più probabile di Pettigrew, per iniziare, girava
- voce che Black avesse provato ad uccidere uno studente durante il suo periodo
- a Hogwarts, e apparteneva a questa odiosa famiglia di puristi del sangue,
- Bellatrix Black era letteralmente sua cugina.
- Terzo, come mago combattente Black era venti volte più forte di Pettigrew,
+Due, Black era un sospetto più probabile di Pettigrew, tanto per cominciare,
+ girava voce che Black avesse provato ad uccidere uno studente durante il
+ suo periodo a Hogwarts, e apparteneva a questa odiosa famiglia di puristi
+ del sangue, Bellatrix Black era letteralmente sua cugina.
+ Tre, come mago combattente Black era venti volte più forte di Pettigrew,
  anche se non era così intelligente.
  Il duello tra loro sarebbe stato come quello tra il professor Quirrell
  e la professoressa Sprout.
@@ -1072,7 +1079,7 @@ comprendo
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry dopo che le loro risatine erano terminate, 
+, disse Harry dopo che le loro risatine furono terminate, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1084,7 +1091,7 @@ perché
  possibile.
  Doveva sapere che gli Auror lo cercavano.
  Mi chiedo se abbiano strappato a Black la ragione di questo comportamento
- prima di mandarlo a Azkaban.
+ prima di mandarlo ad Azkaban.
  Vedi, è per questo che persone che sono assolutamente, certamente colpevoli
  vengono comunque processate
 \begin_inset Quotes frd
@@ -1094,21 +1101,21 @@ perché
 \end_layout
 
 \begin_layout Standard
-Hermione dovette concordare su quello.
+Hermione dovette concordare.
 \end_layout
 
 \begin_layout Standard
 Poco dopo Harry aveva finito col suo libro, mentre Hermione era solo a metà
  del suo -- il suo era un libro molto più difficile di quello di Harry,
- ma essa si sentì imbarazzata di quel fatto.
- E poi essa dovette riporre 
+ ma essa si sentì imbarazzata per quello.
+ E poi dovette riporre 
 \emph on
 Mnemonica magica
 \emph default
  di nuovo sullo scaffale e trascinarsi via, perché era il momento per lei
  di affrontare il corso più temuto di Hogwarts, 
 \noun on
-volo sulla scopa
+volo con la scopa
 \noun default
 .
 \end_layout
@@ -1121,7 +1128,7 @@ Harry le andava dietro mentre essa si recava a lezione, sebbene la sua lezione
 
 \begin_layout Standard
 Il ragazzo la salutò con una voce pacata e simpatetica, ed essa entrò camminando
- sui prati erbosi della Rovina.
+ sui prati erbosi della Disfatta.
 \end_layout
 
 \begin_layout Standard
@@ -1155,9 +1162,9 @@ Dopo dieci milioni di anni la lezione terminò, ed essa fu nuovamente sul
 \emph on
 Perché
 \emph default
- dovevano impararlo tutti, quando avrebbero semplicemente usato Materializzazion
-e o Floo o un passaporta per andare qualunque luogo da grandi, era un completo
- e assoluto mistero, per Hermione.
+ dovessero impararlo tutti, quando avrebbero semplicemente usato Materializzazio
+ne o Floo o un passaporta per andare in qualunque luogo da grandi, era un
+ completo e assoluto mistero per Hermione.
  Nessuno doveva davvero volare su di un manico di scopa da adulto, era come
  essere obbligati a giocare a palla prigioniera a Educazione fisica.
 \end_layout
@@ -1182,9 +1189,8 @@ Erano passate un paio di ore, ed essa si trovava nella sala studio di Tassofrass
 o con Hannah, Susan, Leanne, e Megan.
  Il professor Flitwick, in maniera sorprendentemente timida per un insegnante,
  aveva chiesto se lei avrebbe, forse, eventualmente, aiutato quelle quattro
- nei loro compiti di Incantesimi per un po'.
- anche se non erano Corvonero, e Hermione si era sentita così orgogliosa
- che quasi era 
+ nei loro compiti di Incantesimi per un po', anche se non erano Corvonero,
+ e Hermione si era sentita così orgogliosa che quasi era 
 \emph on
 esplosa
 \emph default
@@ -1292,7 +1298,7 @@ Potete provarci ancora?
 \end_layout
 
 \begin_layout Standard
-Un'ora dopo Hermione aveva concluso che (1), Leanne e Megan erano un po'
+Un'ora dopo Hermione aveva concluso che (1) Leanne e Megan erano un po'
  approssimative, ma se chiedevi loro di continuare ad esercitarsi in qualcosa,
  l'avrebbero fatto, (2) Hannah e Susan erano concentrate e determinate fino
  al punto che dovevi dire loro di 
@@ -1460,7 +1466,7 @@ Mi dispiace, Hermione, ma aveva ragione.
 me
 \emph default
 , non me ne sarei dispiaciuto.
- Non puoi imparare Magia da battaglia se non puoi esercitarti contro avversari
+ Non puoi imparare Magia da Battaglia se non puoi esercitarti contro avversari
  autentici che usano incantesimi autentici.
  E ora te la cavi bene durante gli allenamenti, no?
 \begin_inset Quotes frd
@@ -1656,7 +1662,7 @@ parteciperai
 \begin_inset Quotes frd
 \end_inset
 
- La voce di Harry era improvvisamente entusiasta.
+ la voce di Harry fu improvvisamente entusiasta.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1696,7 +1702,7 @@ ugualmente
 \end_layout
 
 \begin_layout Standard
-Hary sbatté le palpebre.
+Harry sbatté le palpebre.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1859,7 +1865,7 @@ soltanto
 \emph on
 realmente
 \emph default
- amico di Grange, era passato diverso tempo ora e 
+ amico di Granger, era passato diverso tempo ora e 
 \emph on
 ancora
 \emph default
@@ -1898,9 +1904,9 @@ Espresso duramente
 \begin_inset Quotes fld
 \end_inset
 
-ma non posso convincermi a dissentire col signor Malfoy.
+ma non posso convincermi a dissentire dal signor Malfoy.
  Per dirla schiettamente, professor Quirrell, Hermione Granger ha all'incirca
- la stessa intenzione di uccidere di una ciotola di acini d'uva
+ la stessa volontà di uccidere di una ciotola di acini d'uva
 \begin_inset Quotes frd
 \end_inset
 
@@ -1956,7 +1962,7 @@ Si tratta di un qualche genere di complotto?
 \begin_inset Quotes frd
 \end_inset
 
- disse Harry lentamente.
+ chiese Harry lentamente.
 \end_layout
 
 \begin_layout Standard
@@ -1987,7 +1993,7 @@ Draco quasi si strozzò.
 \begin_inset Quotes fld
 \end_inset
 
-Non nel suo corso di Magia da battaglia
+Non nel suo corso di Magia da Battaglia
 \begin_inset Quotes frd
 \end_inset
 
@@ -2061,7 +2067,7 @@ Altri suggerimenti?
 \begin_layout Standard
 
 \emph on
-Anthony Goldstein e Ernie Macmillan,
+Anthony Goldstein ed Ernie Macmillan,
 \emph default
  giunse il pensiero, prima che il buon senso di Draco entrasse in funzione
  ed escludesse sanguemarcio e Tassofrasso indipendentemente da quanto duellasser
@@ -2241,7 +2247,7 @@ La sua amicizia per Hermione Granger le fa onore
 \begin_inset Quotes fld
 \end_inset
 
-Specialmente in quanto lei è in grado di essere amico con Draco Malfoy allo
+Specialmente in quanto lei è in grado di essere amico di Draco Malfoy allo
  stesso tempo.
  Impresa notevole, questa
 \begin_inset Quotes frd
@@ -2333,7 +2339,7 @@ farle da consigliere
 \begin_inset Quotes frd
 \end_inset
 
- disse Draco, completamente inorridito.
+ disse Draco, totalmente inorridito.
 \end_layout
 
 \begin_layout Standard
@@ -2406,7 +2412,7 @@ Ha rifiutato la mia offerta.
 \end_layout
 
 \begin_layout Standard
-Gli occhi di Draco si strinsero.
+Gli occhi di Draco si socchiusero.
 \end_layout
 
 \begin_layout Standard
@@ -2550,7 +2556,7 @@ Dopo che l'avremo schiacciata, potremo occuparci della nostra competizione
 \begin_inset Quotes fld
 \end_inset
 
-Non mi pare che sia molto corretto con lei, no?
+Non mi pare che sia molto corretto nei suoi confronti, no?
 \begin_inset Quotes frd
 \end_inset
 
@@ -2578,7 +2584,7 @@ te?
 \begin_inset Quotes frd
 \end_inset
 
- Poi, con la corretta nota di sospetto nella voce, 
+ Poi, con la giusta nota di sospetto nella voce, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2586,7 +2592,7 @@ Non dirmi che ha iniziato a piacerti
 \emph on
 sul serio
 \emph default
-, dopo che sei stato sua rivale per tutto questo tempo…
+, dopo che sei stato suo rivale per tutto questo tempo…
 \begin_inset Quotes frd
 \end_inset
 
@@ -2651,8 +2657,8 @@ equamente
 \begin_inset Quotes fld
 \end_inset
 
-Vuoi dire piuttosto che attaccarti dopo che hai già perso parte delle tue
- forze per sconfiggere Granger?
+Vuoi dire invece di attaccarti dopo che hai già perso parte delle tue forze
+ per sconfiggere Granger?
 \begin_inset Quotes frd
 \end_inset
 
@@ -2667,7 +2673,7 @@ te'
 \begin_inset Quotes frd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2716,7 +2722,7 @@ amichevole
 \end_inset
 
 Le ho comprato un bel regalo di compleanno e tutto il resto.
- Non si compromette così il proprio rivale amichevole
+ Non danneggeresti così il tuo rivale amichevole
 \begin_inset Quotes frd
 \end_inset
 
@@ -2727,11 +2733,11 @@ Le ho comprato un bel regalo di compleanno e tutto il resto.
 \begin_inset Quotes fld
 \end_inset
 
-E allora compromettere la possibilità di un combattimento equo del tuo 
+E che mi dici del danneggiare la possibilità che il tuo 
 \emph on
-amico?
+amico
 \emph default
-
+ abbia un combattimento equo?
 \begin_inset Quotes frd
 \end_inset
 
@@ -2764,8 +2770,8 @@ Permettimi di riformulare la frase
 \emph on
 Granger
 \emph default
- non comprometterebbe un rivale amichevole.
- Ma questo perché ha l'intenzione di uccidere di una ciotola di acini d'uva.
+ non danneggerebbe un rivale amichevole.
+ Ma questo perché ha la volontà di uccidere di una ciotola di acini d'uva.
  
 \emph on
 Tu
@@ -2776,7 +2782,7 @@ Tu
 assolutamente
 \emph default
 .
- E sai una cosa, lo farei anch'io
+ E indovina un po', lo farei anch'io
 \begin_inset Quotes frd
 \end_inset
 
@@ -2806,14 +2812,14 @@ Se fosse stata un'opera teatrale, si sarebbe udita una musica drammatica.
 \end_layout
 
 \begin_layout Standard
-L'eroe, presentatosi impeccabilmente in vesti bordate di verde e capelli
- bianco-biondi perfettamente pettinati, fronteggiava il cattivo.
+L'eroe, impeccabile nelle sue vesti bordate di verde e con i capelli bianco-bion
+di perfettamente pettinati, fronteggiava il cattivo.
 \end_layout
 
 \begin_layout Standard
-Il cattivo, reclinata in una semplice sedia di legno con i suoi denti da
- cavallo chiaramente visibili e i suoi scompigliati riccioli castani che
- vagavano sulle sue guance, fronteggiava l'eroe.
+Il cattivo, reclinato in una semplice sedia di legno con i suoi denti da
+ cavallo chiaramente visibili e i suoi riccioli castani che vagavano scompigliat
+i sulle sue guance, fronteggiava l'eroe.
 \end_layout
 
 \begin_layout Standard
@@ -2830,15 +2836,15 @@ Perché
 \emph default
  l'ufficio di ciascun generale fosse così grande, Draco non era così sicuro.
  Una sedia e una scrivania sarebbero state sufficienti per lui.
- Non gli era neppure chiaro perché i generali avessero del tutto bisogno
- di uffici, i suoi soldati sapevano dove trovarlo.
+ Non gli era neppure chiaro perché i generali avessero bisogno di uffici,
+ i suoi soldati sapevano dove trovarlo.
  A meno che il professor Quirrell avesse deliberatamente preparato per loro
  gli enormi uffici come un segno di rango, nel qual caso Draco era completamente
  d'accordo.)
 \end_layout
 
 \begin_layout Standard
-Granger sedeva nell'unica sedia della stanza come su di un trono, dalla
+Granger sedeva sull'unica sedia della stanza come su di un trono, dalla
  parte completamente opposta dell'ufficio rispetto a dove si apriva la porta.
  C'era un lungo tavolo oblungo che si distendeva tra di loro nel mezzo della
  stanza, e quattro piccoli tavoli circolari sparsi agli angoli, ma solo
@@ -2848,10 +2854,10 @@ Granger sedeva nell'unica sedia della stanza come su di un trono, dalla
 \end_layout
 
 \begin_layout Standard
-Sarebbe stato bello se Draco avesse potuto avanzare camminando lentamente.
+Sarebbe stato bello se Draco fosse potuto avanzare camminando lentamente.
  Ma c'era un tavolo lungo il percorso, e Draco doveva aggirarlo diagonalmente,
- e non c'era modo di farlo un maniera drammatica e solenne.
- Era stato intenzionale? Se fosse stato suo padre, lo sarebbe stato certamente;
+ e non c'era modo di farlo in maniera drammatica e solenne.
+ Era stato intenzionale? Se fosse stato suo Padre, lo sarebbe stato certamente;
  ma si trattava di Granger, quindi certamente no.
 \end_layout
 
@@ -2887,7 +2893,7 @@ ha richiesto un'udienza con me e sono stata così magnanima da concedergliela.
 \begin_layout Standard
 
 \emph on
-Venga con me a visitare il Maniero dei Malfoy, mio padre e io vorremmo mostrarle
+Venga con me a visitare il Maniero dei Malfoy, mio Padre e io vorremmo mostrarle
  qualche interessante incantesimo.
 \end_layout
 
@@ -2907,8 +2913,8 @@ Il suo rivale, Potter, è venuto da me con un'offerta
 Non gli importa perdere contro di me, ma sarebbe umiliato se vincesse lei.
  Così vuole unirsi a me e spazzarla via immediatamente, non solo nella nostra
  prima battaglia, in tutte.
- Se non lo farò, Potter vuole che la trattenga o che la disturbi, mentre
- lui lancia un attacco totale su di lei come sua prima mossa
+ Se non volessi farlo, Potter vuole che la rallenti o che la disturbi, mentre
+ lui lancia un attacco totale contro di lei come sua prima mossa
 \begin_inset Quotes frd
 \end_inset
 
@@ -2943,12 +2949,12 @@ Naturalmente
 \begin_inset Quotes frd
 \end_inset
 
-, disse Draco tranquillamente.
+, disse Draco con tranquillità.
  
 \begin_inset Quotes fld
 \end_inset
 
-Non credo che quello che vuole farle sia giusto
+Non credo che quello che vuole farle sia equo
 \begin_inset Quotes frd
 \end_inset
 
@@ -2959,16 +2965,8 @@ Non credo che quello che vuole farle sia giusto
 \begin_inset Quotes fld
 \end_inset
 
-Oh, è molto carino da parte sua, signor Malfoy
-\begin_inset Quotes frd
-\end_inset
-
-, disse Granger.
- 
-\begin_inset Quotes fld
-\end_inset
-
-Mi dispiace per come mi sono rivolta a lei prima.
+Oh, è molto carino da parte sua, signor Malfoy.
+ Mi dispiace per come mi sono rivolta a lei prima.
  Dovremmo essere amici.
  Posso chiamarla Drakey?
 \begin_inset Quotes frd
@@ -3033,7 +3031,7 @@ penso che starebbe bene a Potter se entrambi lo attaccassimo e lo spazzassimo
 \begin_inset Quotes fld
 \end_inset
 
-Ma questo non sarebbe giusto nei confronti del signor Potter, vero?
+Ma questo non sarebbe equo nei confronti del signor Potter, vero?
 \begin_inset Quotes frd
 \end_inset
 
@@ -3044,7 +3042,7 @@ Ma questo non sarebbe giusto nei confronti del signor Potter, vero?
 \begin_inset Quotes fld
 \end_inset
 
-Penso che sarebbe molto giusto.
+Penso che sarebbe molto equo.
  Progettava di farglielo lui per primo.
 \begin_inset Quotes frd
 \end_inset
@@ -3116,20 +3114,12 @@ Certamente.
 \begin_inset Quotes fld
 \end_inset
 
-Nisba
+No, ma può offrirmi dieci galeoni e farmi attaccare entrambi equamente,
+ invece che solo lei.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Granger, 
-\begin_inset Quotes fld
-\end_inset
 
-ma può offrirmi dieci galeoni e farmi attaccare entrambi equamente, invece
- che solo lei
-\begin_inset Quotes frd
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -3217,21 +3207,13 @@ Tre galeoni
 \begin_inset Quotes fld
 \end_inset
 
-Nisba
+No.
+ Se davvero volesse un combattimento equo, non credo che un Malfoy voglia
+ un combattimento equo meno di quanto voglia dieci galeoni.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Granger.
- 
-\begin_inset Quotes fld
-\end_inset
 
-Se vuole davvero un combattimento equo, non credo che un Malfoy voglia un
- combattimento equo meno di quanto voglia dieci galeoni
-\begin_inset Quotes frd
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -3258,7 +3240,7 @@ No
 \end_inset
 
 No? Questa è un'offerta limitata, signor Malfoy.
- È sicuro che vuole rischiare un'intero anno di sconfitte miserabili per
+ È sicuro che vuole rischiare un intero anno di sconfitte miserabili per
  mano del Ragazzo-Che-È-Sopravvissuto? Sarebbe abbastanza imbarazzante per
  Casa Malfoy, non pensa?
 \begin_inset Quotes frd
@@ -3269,8 +3251,8 @@ No? Questa è un'offerta limitata, signor Malfoy.
 
 \begin_layout Standard
 Era un argomento molto persuasivo, uno che era difficile rifiutare, ma non
- si diventava rischi spendendo denaro quando il cuore ti diceva che era
- una montatura.
+ si diventava ricchi spendendo denaro quando il cuore ti diceva che era
+ una trappola.
 \end_layout
 
 \begin_layout Standard
@@ -3336,7 +3318,7 @@ noi
 \emph on
 dobbiamo
 \emph default
- complottare l'uno contro l'altra.
+ tramare l'uno contro l'altra.
  Potresti anche tradirmi e non significherebbe nulla al di fuori del campo
  di battaglia
 \begin_inset Quotes frd
@@ -3451,7 +3433,7 @@ che giorno è?
 \begin_layout Standard
 
 \emph on
-Interludio:
+Interludio
 \emph default
 
 \begin_inset Newline linebreak
@@ -3472,9 +3454,9 @@ Harry aveva declinato tutti gli inviti, persino uno del ministro Fudge che
 \emph on
 davvero
 \emph default
- accettare a denti stretti.
- Ma per Harry, il 31 ottobre sarebbe stato sempre il Giorno in cui il Signore
- Oscuro ha ucciso i miei genitori.
+ stringere i denti e accettare.
+ Ma per Harry, il 31 ottobre sarebbe stato sempre il `Giorno in cui il Signore
+ Oscuro ha ucciso i miei genitori'.
  Ci sarebbe dovuta essere una sobria e dignitosa cerimonia commemorativa
  da qualche parte, e se ce n'era una, non era stato invitato.
 \end_layout
