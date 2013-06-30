@@ -11,7 +11,7 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
@@ -21,21 +21,16 @@
   \renewcommand*{\chapterheadstart}{}
   \renewcommand*{\chapnumfont}{\normalfont}
   \renewcommand*{\printchaptername}{%
-%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
-%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
-     \chapnumfont \textsc{\chaptername\ \thechapter}}
+     \chapnumfont \textsc{\chaptername\ \liningnums{\thechapter}}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
   \renewcommand*{\afterchapternum}{%
-%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
-%    \par\parbox{0.5in}{\hrulefill}\par}
     \par\parbox{0.5in}{}\par}
   \renewcommand*{\printchapternonum}{%
     \vphantom{\chapnumfont \@chapapp 1}\par
     \parbox{0.5in}{}\par}
   \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
   \renewcommand*{\printchaptertitle}[1]{%
-%    \centering \chaptitlefont\textsc{##1}}}
     \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
@@ -45,8 +40,12 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\newfontfamily\llo{Linux Libertine O}
-\usepackage{microtype}
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -58,8 +57,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Griffy
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -69,7 +68,7 @@ initials
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -314,415 +313,525 @@ per lui
 \end_layout
 
 \begin_layout Standard
-The stage really was well done, at least for a temporary structure; the
- makers hadn't fallen into the usual pitfall of being impressed by their
- own illusion of wealth, and knew something about architecture and visual
- style.
- From where Draco stood, in the obvious place for him to stand, the watching
- students would see him haloed in the faint glitter of emeralds; and Granger,
- standing where Draco had subtly motioned her, would be haloed in Ravenclaw's
- sapphire.
- As for Harry Potter, Draco wasn't looking at him right now.
+Il palco era davvero ben realizzato, quanto meno per una struttura temporanea;
+ i costruttori non erano caduti nella solita trappola di essere impressionati
+ dalla propria illusione di opulenza, e sapevano qualcosa sull'architettura
+ e lo stile visivo.
+ Da dove Draco si trovava, nel luogo ovvio in cui sarebbe dovuto essere,
+ gli studenti che guardavano l'avrebbero visto circondato dall'aura debolmente
+ luccicante degli smeraldi; e Granger, in piedi lì dove Draco le aveva fatto
+ impercettibilmente fatto segno di andare, sarebbe stata circondata dall'aura
+ degli zaffiri di Corvonero.
+ Per quanto riguardava Harry Potter, Draco non lo stava osservando in quel
+ momento.
 \end_layout
 
 \begin_layout Standard
-Professor Quirrell had… awakened, or whatever it was he did; and was leaning
- upon a platinum podium bare of all gems.
- With evident showmanship, the Defense Professor was carefully stacking
- and squaring those three envelopes containing the three parchments upon
- which the three generals had written their wishes, as all the students
- of Hogwarts watched, and waited.
+Il professor Quirrell si era… risvegliato, o qualunque cosa fosse quello
+ che faceva; e si stava poggiando su di un podio di platino spoglio di gemme.
+ Con evidente capacità di intrattenimento, il Professore di Difesa stava
+ impilando con cura e pareggiando le tre buste che contenevano le tre pergamene
+ su cui i tre generali avevano scritto i loro desideri, mentre tutti gli
+ studenti di Hogwarts osservavano, e aspettavano.
 \end_layout
 
 \begin_layout Standard
-Finally Professor Quirrell looked up from the envelopes.
- “Well,” said the Defense Professor.
- “This is inconvenient.”
-\end_layout
-
-\begin_layout Standard
-A slight titter of laughter ran through the crowd, with a sharp undertone.
-\end_layout
-
-\begin_layout Standard
-“I suppose you are all wondering what I will do?” said Professor Quirrell.
- “There is nothing for it; I shall have to do what is fair.
- Although first there was a little speech I wanted to make, and before even
- that, it appears to me that Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
+Infine il professor Quirrell alzò lo sguardo dalle buste.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Malfoy and Miss Granger have something they wish to share.”
-\end_layout
-
-\begin_layout Standard
-Draco blinked, and then he and Granger traded rapid glances 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Bene
+\begin_inset Quotes frd
 \end_inset
 
+, disse il Professore di Difesa.
  
-\emph on
-may I?
-\emph default
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
- 
-\emph on
-yes, go ahead 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Questo è seccante
+\begin_inset Quotes frd
 \end_inset
 
-
-\emph default
- and Draco raised his voice.
+.
 \end_layout
 
 \begin_layout Standard
-“General Granger and I would both like to say,” Draco said in his most formal
- voice, knowing it was being amplified and heard, “that we will no longer
- accept the help of any traitors.
- And if, in any battle, we find that Potter has accepted traitors from either
- of our armies, we will join forces to crush him.”
+Un leggero risolino attraversò la folla, con una sfumatura pungente.
 \end_layout
 
 \begin_layout Standard
-And Draco shot a glance filled at malice at the Boy-Who-Lived.
- 
-\emph on
-Take that, General Chaos!
-\end_layout
-
-\begin_layout Standard
-“I agree completely with General Malfoy,” said Granger standing beside him,
- her high voice clear and strong.
- “Neither of us will use traitors, and if General Potter does, we will wipe
- him off the battlefield.”
-\end_layout
-
-\begin_layout Standard
-There was a susurration of surprise from the watching students.
-\end_layout
-
-\begin_layout Standard
-“Very good,” said their Defense Professor, smiling.
- “It took the two of you long enough, but you are still to be congratulated
- on having thought of it before any other generals.”
-\end_layout
-
-\begin_layout Standard
-It took a moment for this to soak in 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-“In the future, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+Suppongo che tutti voi stiate chiedendovi cosa faro, giusto?
+\begin_inset Quotes frd
 \end_inset
 
-Malfoy, Miss Granger, before you come to my office with any request, consider
- whether there is a way for you to accomplish it without my help.
- I will not deduct Quirrell points on this occasion, but next time you may
- expect to lose the full fifty.” Professor Quirrell wore an amused grin.
- “And what do you have to say about that, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
+ disse il professor Quirrell.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Potter?”
-\end_layout
-
-\begin_layout Standard
-Harry Potter's gaze went to Granger, then to Draco.
- His face appeared calm; though Draco was sure 
-\emph on
-controlled
-\emph default
- would have been the better term.
-\end_layout
-
-\begin_layout Standard
-Finally Harry Potter spoke, his voice level.
- “The Chaos Legion is still happy to accept traitors.
- See you on the battlefield.”
-\end_layout
-
-\begin_layout Standard
-Draco knew the shock was showing on his own face; there were astonished
- murmurs from the watching students, and when Draco glanced at the front
- row he saw that even Harry's Chaotics looked taken aback.
-\end_layout
-
-\begin_layout Standard
-Granger's face was angry, and getting angrier.
- “Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+Non c'è niente da fare; dovrò fare ciò che è giusto.
+ Sebbene prima c'era un discorsetto che volevo fare, e prima di quello,
+ mi pare che il signor Malfoy e la signorina Granger abbiano qualcosa da
+ condividere
+\begin_inset Quotes frd
 \end_inset
 
-Potter,” she said in a sharp tone like she thought she was a teacher, “are
- you 
-\emph on
-trying
-\emph default
- to be obnoxious?”
+.
 \end_layout
 
 \begin_layout Standard
-“Most certainly not,” Harry Potter said calmly.
- “I won't make you do it every time.
- Beat me once, and I'll stay beaten.
- But threats aren't always enough, General of Sunshine.
- You did not ask me to join with you, but tried simply to impose your will;
- and sometimes you must actually defeat the enemy, to impose your will on
- him.
- You see, I am skeptical that Hermione Granger, the brightest academic star
- of Hogwarts, and Draco, son of Lucius, scion of the Noble and Most Ancient
- House of Malfoy, can work together to beat their common foe, Harry Potter.”
- An amused smile crossed Harry Potter's face.
- “Maybe I'll just do what Draco tried with Zabini, and write a letter to
- Lucius Malfoy and see what 
+Draco sbatté le palpebre, poi lui e Granger si scambiarono rapide occhiate
+ -- 
 \emph on
-he
+posso?
 \emph default
- thinks about that.”
+ -- 
+\emph on
+certo, fai pure
+\emph default
+ -- e Draco alzò la voce.
 \end_layout
 
 \begin_layout Standard
-“
-\emph on
-Harry!
-\emph default
-” gasped Granger, looking absolutely aghast, and there were gasps from the
- audience as well.
+\begin_inset Quotes fld
+\end_inset
+
+Il generale Granger e io vorremmo dire entrambi
+\begin_inset Quotes frd
+\end_inset
+
+, disse Draco nel suo tono più formale, sapendo che era amplificato e udito,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+che non accetteremo più l'aiuto di alcun traditore.
+ E se, in qualsiasi battaglia, scoprissimo che Potter ha accettato traditori
+ dai nostri eserciti, uniremo le nostre forze per schiacciarlo
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Draco controlled the anger flushing through him.
- That had been a 
+E Draco indirizzò un'occhiata piena di malizia al Ragazzo-Che-È-Sopravvissuto.
+ 
 \emph on
-stupid
-\emph default
- move on Harry's part, saying that in public.
- If Harry had simply 
-\emph on
-done
-\emph default
- it, it might have worked, Draco hadn't even thought about that, but 
-\emph on
-now
-\emph default
- if Father did that it would look like he was playing into Harry's hands
+Incassa questo, generale Chaos!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sono pienamente d'accordo col generale Malfoy
+\begin_inset Quotes frd
+\end_inset
+
+, disse Granger in piedi accanto a lui, la sua voce chiara e forte.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Nessuno di noi due si avvarrà di traditori, e se il generale Potter lo farà,
+ lo spazzeremo dal campo di battaglia
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Vi fu un mormorio di sorpresa dagli studenti che osservavano.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Molto bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse il loro Professore di Difesa, sorridendo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+C'è voluto davvero molto, a voi due, ma comunque bisogna congratularsi con
+ voi per averci pensato prima di ogni altro generale
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ci volle un momento prima che fosse digerito
 \begin_inset space ~
 \end_inset
 
+--
+\end_layout
 
-\begin_inset ERT
-status open
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+In futuro, signor Malfoy, signorina Granger, prima di venire nel mio ufficio
+ con una richiesta qualunque, considerate se per voi c'è un modo di ottenerla
+ senza il mio aiuto.
+ Non dedurrò punti-Quirrell in questa occasione, ma la prossima volta potreste
+ aspettarvi di perderne l'intera cinquantina
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Il professor Quirrell mostrava un ghigno divertito.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E cos'ha da dire a proposito, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lo sguardo di Harry Potter si posò su Granger, poi su Draco.
+ Il suo volto sembrò calmo; sebbene Draco fosse sicuro che 
+\emph on
+controllato
+\emph default
+ sarebbe stato il termine migliore.
+\end_layout
+
+\begin_layout Standard
+Infine Harry Potter parlò, la sua voce piatta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La Chaos Legion è ancora felice di accettare traditori.
+ Ci vediamo sul campo di battaglia
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Draco sapeva che lo stupore era palese sul proprio volto; ci furono mormorii
+ di meraviglia dagli studenti che guardavano, e quando Draco gettò un'occhiata
+ alla prima fila, vide che persino i Caotici di Harry sembravano sbalorditi.
+\end_layout
+
+\begin_layout Standard
+Il volto di Granger era arrabbiato, e diventava sempre più arrabbiato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse con un tono tagliente, come se pensasse di essere un insegnante,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+sta per caso 
+\emph on
+cercando
+\emph default
+ di essere odioso?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Molto verosimilmente no
+\begin_inset Quotes frd
+\end_inset
+
+, disse con calma Harry Potter.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non vi costringerò a farlo tutte le volte.
+ Battetemi una volta, e resterò battuto.
+ Ma le minacce non sono sempre sufficienti, generale Sunshine.
+ Non mi avete chiesto di unirmi a voi, ma avete semplicemente provato a
+ imporre la vostra volontà; e talvolta dovete sconfiggere effettivamente
+ il vostro nemico per imporgli la vostra volontà.
+ Sapete, dubito che Hermione Granger, la più brillante stella accademica
+ di Hogwarts, e Draco, figlio di Lucius, rampollo della Nobile e Antichissima
+ Casa Malfoy, possano lavorare insieme per sconfiggere il loro nemico comune,
+ Harry Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Un sorriso divertito attraversò il volto di Harry Potter.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Forse farò ciò che Draco ha provato con Zabini, e scriverò una lettera a
+ Lucius Malfoy e vedremo cosa 
+\emph on
+lui
+\emph default
+ pensa a proposito di questo
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Harry!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Granger, sembrando assolutamente sconcertata, e molti nel pubblico
+ rimasero a bocca aperta.
+\end_layout
+
+\begin_layout Standard
+Draco controllò la rabbia che scorreva dentro di sé.
+ Quella era stata una mossa 
+\emph on
+stupida
+\emph default
+ da parte di Harry, dirlo in pubblico.
+ Se Harry l'avesse semplicemente 
+\emph on
+fatto
+\emph default
+, avrebbe potuto funzionare, Draco non ci aveva neppure pensato, ma 
+\emph on
+ora
+\emph default
+ se suo Padre l'avesse fatto sarebbe sembrato che prendesse ordini da Harry
+\begin_inset space ~
+\end_inset
 
 --
 \end_layout
 
+\begin_layout Standard
+\begin_inset Quotes fld
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-“If you think my father, Lord Malfoy, can be manipulated by 
+Se pensi che mio padre, Lord Malfoy, possa essere manipolato così facilmente
+ da 
 \emph on
-you
+te
 \emph default
- that easily,” Draco said coldly, “you have a surprise coming, Harry Potter.”
-\end_layout
 
-\begin_layout Standard
-And Draco realized as the words finished leaving his mouth that he'd just
- backed 
-\emph on
-his own father
-\emph default
- squarely into the corner, more or less without even meaning to.
- Father probably 
-\emph on
-wasn't
-\emph default
- going to like this, not the tiniest bit, but now it would be impossible
- for him to say so… Draco would have to apologize for that, it 
-\emph on
-had
-\emph default
- been an honest accident, but it was strange to think that he'd done it
- at all.
-\end_layout
-
-\begin_layout Standard
-“Then go ahead and defeat the evil General Chaos,” Harry said, still looking
- amused.
- “I can't win against both your armies 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
- not if you 
-\emph on
-really
-\emph default
- work together.
- But I wonder if perhaps I could break you up before then.”
+, disse gelidamente Draco, 
+\begin_inset Quotes fld
+\end_inset
+
+riceverai una sorpresa, Harry Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-“You won't, and we'll 
+E Draco comprese mentre le parole finivano di lasciare la sua bocca che
+ aveva appena messo 
 \emph on
-crush
+suo Padre
 \emph default
- you!” said Draco Malfoy.
+ con le spalle al muro, più o meno senza neppure volerlo fare.
+ Suo Padre probabilmente 
+\emph on
+non avrebbe
+\emph default
+ gradito la cosa, proprio per nulla, ma ora sarebbe stato impossibile per
+ lui dirlo… Draco avrebbe dovuto scusarsi di ciò, era 
+\emph on
+davvero
+\emph default
+ stato un sincero infortunio, ma era strano pensare di averlo fatto.
 \end_layout
 
 \begin_layout Standard
-And beside him, Hermione Granger firmly nodded.
-\end_layout
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-“Well,” said Professor Quirrell after the astounded silence had stretched
- for a while.
- “That was 
-\emph on
-not
-\emph default
- how I expected that particular conversation to go.” The Defense Professor
- had a rather intrigued expression on his face.
- “Truthfully, Mr.
-\begin_inset ERT
-status open
+Allora datevi da fare e sconfiggete il cattivo generale Chaos
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Plain Layout
-
-
-\backslash
+, disse Harry, sembrando ancora divertito.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Potter, I expected you to concede immediately and with a smile, then announce
- that you had long since worked out my intended lesson but had decided not
- to spoil it for others.
- Indeed, I planned my speech accordingly, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
+Non posso vincere contro entrambi i vostri eserciti -- non se lavorerete
  
-\end_layout
-
+\emph on
+davvero
+\emph default
+ insieme.
+ Ma mi chiedo se per caso posso farvi rompere prima di allora
+\begin_inset Quotes frd
 \end_inset
 
-Potter.”
+.
 \end_layout
 
 \begin_layout Standard
-Harry Potter just shrugged.
- “Sorry about that,” he said, and said nothing more.
+\begin_inset Quotes fld
+\end_inset
+
+Non ci riuscirai, e noi ti 
+\emph on
+schiacceremo!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Draco Malfoy.
 \end_layout
 
 \begin_layout Standard
-“Oh, don't worry,” said Professor Quirrell.
- “This, too, will serve.”
+E affianco a lui, Hermione Granger annuì fermamente.
 \end_layout
 
 \begin_layout Standard
-And Professor Quirrell turned from the three children, and straightened
- at the podium to address the whole watching crowd; his customary air of
- detached amusement dropped away like a falling mask, and when he spoke
- again his voice was amplified louder than it had been.
+\begin_inset Quotes fld
+\end_inset
+
+Bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell dopo che il silenzio sbalordito si fu allungato
+ per un po'.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo 
+\emph on
+non era
+\emph default
+ il modo in cui mi aspettavo che questa conversazione andasse
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Il Professore di Difesa sembrava piuttosto intrigato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+In verità, signor Potter, mi aspettavo che lei ammettesse la sconfitta immediata
+mente e con un sorriso, e poi annunciasse che aveva compreso da tempo la
+ lezione che volevo impartire ma che aveva deciso di non rovinarla agli
+ altri.
+ In effetti, avevo scritto il mio discorso in questo senso, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-“If not for Harry Potter,” said Professor Quirrell, his voice as crisp and
- cold as December, “You-Know-Who would have won.”
+Harry Potter si limitò a scrollare le spalle.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace
+\begin_inset Quotes frd
+\end_inset
+
+, disse, e null'altro.
 \end_layout
 
 \begin_layout Standard
-The silence was instant, and total.
+\begin_inset Quotes fld
+\end_inset
+
+Oh, non si preoccupi
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Anche questo sarà utile
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+E il professor Quirrell voltò le spalle ai tre bambini, e si eresse sul
+ podio per rivolgersi all'intera folla che guardava; la sua consueta aria
+ di divertimento distaccato scivolò via come una maschera che cade, e quando
+ parlò ancora la sua voce fu amplificata ancor più di quanto fosse stata
+ prima.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Se non fosse stato per Harry Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, la sua voce frizzante e fredda come dicembre,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tu-Sai-Chi avrebbe vinto
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il silenzio fu istantaneo, e totale.
 \end_layout
 
 \begin_layout Quote
