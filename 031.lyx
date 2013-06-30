@@ -11,7 +11,7 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
@@ -21,21 +21,16 @@
   \renewcommand*{\chapterheadstart}{}
   \renewcommand*{\chapnumfont}{\normalfont}
   \renewcommand*{\printchaptername}{%
-%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
-%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
-     \chapnumfont \textsc{\chaptername\ \thechapter}}
+     \chapnumfont \textsc{\chaptername\ \liningnums{\thechapter}}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
   \renewcommand*{\afterchapternum}{%
-%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
-%    \par\parbox{0.5in}{\hrulefill}\par}
     \par\parbox{0.5in}{}\par}
   \renewcommand*{\printchapternonum}{%
     \vphantom{\chapnumfont \@chapapp 1}\par
     \parbox{0.5in}{}\par}
   \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
   \renewcommand*{\printchaptertitle}[1]{%
-%    \centering \chaptitlefont\textsc{##1}}}
     \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
@@ -45,8 +40,12 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\newfontfamily\llo{Linux Libertine O}
-%{\llo \char"2042}
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -58,8 +57,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Linux Biolinum O
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -170,8 +169,8 @@ lettrine[lines=2]{H}{arry percorreva}
 \end_inset
 
  avanti e indietro il suo ufficio da generale, che fungeva splendidamente
- da luogo in cui camminare, non avendo nessun altro uso per quanto egli
- potesse dire.
+ da stanza per camminare, non avendo nessun altro uso per quanto ne sapesse
+ lui.
 \end_layout
 
 \begin_layout Standard
@@ -188,8 +187,9 @@ Come?
 
 \begin_layout Standard
 Hermione non avrebbe dovuto vincere quella battaglia! Non al suo primo tentativo
-, non quando era affatto violenta di natura, essere automaticamente un grande
- comandante militare oltre a tutto il resto era troppo anche per 
+, non quando non era per niente violenta di natura, essere automaticamente
+ un grande comandante militare oltre a tutto il resto era troppo anche per
+ 
 \emph on
 lei
 \emph default
@@ -208,19 +208,18 @@ o
 
 \begin_layout Standard
 Il professor Quirrell aveva infranto la promessa di non aiutarla? Le aveva
- dato il diario del generale Tacticus o cose del genere?
+ dato il diario del generale Tacticus o qualcosa di simile?
 \end_layout
 
 \begin_layout Standard
-Harry si stava lasciando scappare qualcosa, qualcosa davvero importante,
- e la sua mente girava e girava in tondo, e ancora non riusciva a capire
- cosa.
+Ad Harry mancava qualcosa, qualcosa davvero importante, e la sua mente girava
+ e girava in tondo, e ancora non riusciva a capire cosa.
 \end_layout
 
 \begin_layout Standard
-Alla fine Harry sospirò.
+Alla fine sospirò.
  Non stava andando da nessuna parte su quella faccenda, e doveva imparare
- la Fattura di Perforazione da Hermione o qualcun altro prima della prossima
+ la Fattura di Perforazione da Hermione o da qualcun altro prima della prossima
  battaglia -- il professor Quirrell aveva spiegato a Harry, la voce divertita
  ma con una netta venatura di minaccia, che 
 \begin_inset Quotes fld
@@ -230,12 +229,12 @@ nessun oggetto magico eccetto quelli che vi fornisco
 \begin_inset Quotes frd
 \end_inset
 
- includeva la tecnologia babbana nonostante quanto quella 
+ includeva la tecnologia babbana, non importava che quella 
 \emph on
 non fosse magica
 \emph default
 .
- Per di più Harry doveva anche scovare un modo di abbattere il signor Goyle
+ Per di più Harry doveva anche trovare il modo di abbattere il signor Goyle,
  la prossima volta…
 \end_layout
 
@@ -286,7 +285,7 @@ non era previsto
 \end_layout
 
 \begin_layout Standard
-E allora Draco fece finalmente ciò che avrebbe dovuto fare molto prima.
+E allora Draco fece finalmente ciò che avrebbe dovuto fare molto tempo prima.
 \end_layout
 
 \begin_layout Standard
@@ -457,7 +456,7 @@ Quanto ci vorrà a Malfoy per capirlo?
 \begin_inset Quotes frd
 \end_inset
 
- disse il generale Granger.
+ chiese il generale Granger.
 \end_layout
 
 \begin_layout Standard
@@ -485,7 +484,7 @@ Potrebbe averlo già fatto.
 \begin_inset Quotes fld
 \end_inset
 
-Per sempre
+L'eternità
 \begin_inset Quotes frd
 \end_inset
 
@@ -532,7 +531,7 @@ Harry
 \begin_inset Quotes frd
 \end_inset
 
- disse Hermione esattamente nell'istante in cui Zabini disse, 
+, rispose Hermione esattamente nell'istante in cui Zabini disse, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -572,8 +571,8 @@ vede
 \begin_layout Standard
 Era un po' triste, in realtà.
  Harry era cresciuto molto, molto solo.
- Non era che andasse in giro pensando che solo i geni avessero il diritto
- di esistere.
+ Non se ne andava in giro pensando che solo i geni avessero il diritto di
+ esistere.
  Semplicemente non gli 
 \emph on
 veniva in mente
@@ -597,11 +596,11 @@ Ad ogni modo
 
 Capitani Goldstein e Weasley, avete il compito di formulare idee strategiche
  per la nostra prossima battaglia.
- Capitani Macmillan e Susan -- scusami, volevo dire Macmillan e Bones --
- provate ad escogitare qualche tattica che potremmo usare, e anche qualunque
+ Capitani Macmillan e Susan -- scusatemi, volevo dire Macmillan e Bones
+ -- provate ad escogitare qualche tattica che potremmo usare, e anche qualunque
  addestramento che pensate potremmo provare.
- Oh, e complimenti per la tua canzone da marcia, capitano Goldstein, credo
- che sia stato notevole extra per l'
+ Oh, e complimenti per la sua canzone da marcia, capitano Goldstein, credo
+ che sia stato un notevole extra per l'
 \emph on
 esprit de corps
 \emph default
@@ -616,7 +615,7 @@ esprit de corps
 \begin_inset Quotes fld
 \end_inset
 
-Cosa farai tu?
+Cosa farà lei?
 \begin_inset Quotes frd
 \end_inset
 
@@ -633,13 +632,13 @@ E il colonnello Zabini?
 \end_layout
 
 \begin_layout Standard
-Harmione si alzò dalla sedia, stiracchiandosi.
+Hermione si alzò dalla sedia, stiracchiandosi.
  
 \begin_inset Quotes fld
 \end_inset
 
 Cercherò di capire cosa stia pensando Harry Potter e il colonnello Zabini
- proverà a capre cosa potrebbe fare Draco Malfoy, ed entrambi ci uniremo
+ proverà a capire cosa potrebbe fare Draco Malfoy, ed entrambi ci uniremo
  nuovamente a voi dopo che saremo venuti a capo di qualcosa.
  Farò due passi mentre penso.
  Zabini, vuoi venire con me?
@@ -668,8 +667,8 @@ Non l'aveva inteso come un ordine.
 \emph on
 proprio
 \emph default
- sicura che la apri virgolette miscela di incentivi positivi e negativi
- chiuse virgolette del professor Quirrell sarebbe stata in grado di tenere
+ sicura che la apri-virgolette miscela di incentivi positivi e negativi
+ chiudi-virgolette del professor Quirrell sarebbe stata in grado di tenere
  i Serpeverde completamente dalla sua parte fino a dicembre, quando i tradimenti
  sarebbero stati permessi per la prima volta…
 \end_layout
