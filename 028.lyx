@@ -132,7 +132,7 @@ status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 thispagestyle{empty}
 \end_layout
@@ -150,18 +150,16 @@ status open
 
 
 \backslash
-lettrine[lines=2,ante=
+lettrine[lines=3, lhang=0.33,ante=
 \backslash
-guillemotleft]{V}{a bene}
+guillemotleft]{V}{a bene
+\backslash
+guillemotright, disse}
 \end_layout
 
 \end_inset
 
-
-\begin_inset Quotes frd
-\end_inset
-
-, disse Harry, deglutendo.
+ Harry, deglutendo.
  
 \begin_inset Quotes fld
 \end_inset

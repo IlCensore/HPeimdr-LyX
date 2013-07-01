@@ -95,7 +95,7 @@ status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 thispagestyle{empty}
 \end_layout
@@ -130,15 +130,13 @@ status open
 
 
 \backslash
-lettrine[lines=2,ante=
+lettrine[lines=3, lhang=0.33, slope=0.6em, findent=-1em, nindent=0.6em,ante=
 \backslash
-guillemotleft]{A}{bbott, Hannah!}
+guillemotleft]{A}{bbott, Hannah!
+\backslash
+guillemotright}
 \end_layout
 
-\end_inset
-
-
-\begin_inset Quotes frd
 \end_inset
 
 
@@ -146,9 +144,9 @@ guillemotleft]{A}{bbott, Hannah!}
 \end_inset
 
 Pausa.
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 «
 \noun on
 Tassofrasso

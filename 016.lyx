@@ -129,7 +129,7 @@ status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 thispagestyle{empty}
 \end_layout
@@ -169,12 +169,13 @@ status open
 
 
 \backslash
-lettrine[lines=2]{A}{ppena mercoledì}
+lettrine[lines=3, lhang=0.33, slope=0.6em, findent=-1em, nindent=0.6em]{A}{ppena
+ mercoledì entrò nell'aula}
 \end_layout
 
 \end_inset
 
- entrò nell'aula di Difesa, Harry seppe che 
+ di Difesa, Harry seppe che 
 \emph on
 questa
 \emph default
@@ -183,9 +184,9 @@ questa
 differente
 \emph default
 .
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 Si trattava, per cominciare, della più grande aula che avesse visto a Hogwarts,
  analoga all'aula di un'università di prestigio, con livelli sovrapposti
  di banchi che fronteggiavano un gigantesco palco piatto di marmo bianco.
