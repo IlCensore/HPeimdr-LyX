@@ -45,7 +45,11 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\newfontfamily\llo{Linux Libertine O}
+\usepackage{microtype}
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
 \end_preamble
 \use_default_options false
 \master ENG_hpmor.lyx
@@ -57,8 +61,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Linux Biolinum O
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -68,7 +72,7 @@ initials
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -158,7 +162,7 @@ guillemotright, disse Harry}
 
 \end_inset
 
-, parte della sua disperazione che trapelava nella sua voce, 
+, parte della sua disperazione che trapelò nella sua voce, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -175,8 +179,8 @@ lasciare tutti i miei beni patrimoniali in un unico deposito non diversificato
 \begin_layout Standard
 Dal volto rugoso del vecchio mago -- sotto un cappello da ricorrenza festiva
  simile a una catastrofica collisione automobilistica tra macchine di tessuto
- verde e rosso -- un'espressione seria e triste fece capolino diretta a
- Harry.
+ verde e rosso -- un'espressione seria e triste fece capolino indirizzata
+ a Harry.
 \end_layout
 
 \begin_layout Standard
@@ -217,7 +221,7 @@ Ti permetterò di prelevare cinque galeoni per i regali di Natale
 \end_inset
 
 che è più di quanto qualsiasi ragazzo della tua età dovrebbe spendere, ma
- non è una minaccia, credo
+ non dovrebbero costituire una minaccia, credo
 \begin_inset space ~
 \end_inset
 
@@ -297,31 +301,31 @@ non
 \end_layout
 
 \begin_layout Standard
-L'attività frenetica e il viavai inteso di Diagon Alley era centuplicata
- e poi raddoppiata mentre Natale si avvicinava, con tutti i negozi ammantati
+L'attività frenetica e il viavai intenso di Diagon Alley erano centuplicati
+ e poi raddoppiati mentre Natale si avvicinava, con tutti i negozi ammantati
  in stregonerie brillanti che lampeggiavano e luccicavano come se lo spirito
- delle feste fosse sul punto di divampare incontrollato e trasformare tutta
- l'area in un allegro cratere festivo.
+ delle feste fosse sul punto di divampare incontrollato e di trasformare
+ tutta l'area in un allegro cratere festivo.
  Le strade erano così affollate di streghe e maghi in vesti festive e 
 \emph on
 sgargianti
 \emph default
- che gli occhi erano aggrediti quasi tanto severamente quanto le orecchie;
+ che gli occhi erano aggrediti quasi altrettanto severamente quanto le orecchie;
  ed era chiaro, dalla sconcertante varietà degli acquirenti, che Diagon
  Alley era considerata un'attrazione internazionale.
- C'erano streghe fasciate da gigantesche fasciature di tessuto come mummie,
+ C'erano streghe bendate come mummie in gigantesche fasciature di tessuto,
  e maghi in cappelli a cilindro formali e accappatoio, e giovani bambini
  appena in grado di camminare che erano decorati con luci che brillavano
  quasi quanto i negozi stessi, mentre i genitori li portavano per mano attravers
-o quel paese delle meraviglie magico e permettevano loro di strillare a
+o quel magico paese delle meraviglie e permettevano loro di strillare a
  piacimento.
  Era la stagione dell'allegria.
 \end_layout
 
 \begin_layout Standard
 E nel mezzo di tutta quella luce e vivacità, una nota della notte più nera;
- un'atmosfera fredda, oscura, che sgomberava una preziosa manciata di centimetri
- anche nel mezzo di tutta quella ressa.
+ un'atmosfera fredda, oscura, che rendeva sgombra una preziosa manciata
+ di centimetri anche nel mezzo di tutta quella ressa.
 \end_layout
 
 \begin_layout Standard
@@ -450,8 +454,8 @@ Il professor Quirrell produsse un ronzio pensieroso.
 
 Potrebbe chiedere quali membri della loro famiglia detestino maggiormente,
  e poi assoldare un assassino.
- Conosco un appartenente ad un certo governo in esilio che è alquanto competente
-, e che le farebbe uno sconto sull'assassinio di più Weasley
+ Conosco un membro di un certo governo in esilio che è alquanto competente,
+ e che le farebbe uno sconto sull'assassinio di più Weasley
 \begin_inset Quotes frd
 \end_inset
 
@@ -506,7 +510,7 @@ almeno non ha suggerito di prendere loro un topo domestico --
 \begin_inset Quotes frd
 \end_inset
 
- la bocca di Harry si chiuse di scatto, e provò rimorso per quelle parole
+ la bocca di Harry si chiuse di scatto, e si rammaricò per quelle parole
  non appena furono uscite dalla sua bocca.
 \end_layout
 
@@ -551,7 +555,7 @@ E
 \emph on
 dov'era stato
 \emph default
- il professor Quirrell che non aveva mai sentito quella storia? Harry aveva
+ il professor Quirrell per non aver mai sentito quella storia? Harry aveva
  avuto l'impressione che tutti gli abitanti della Gran Bretagna magica la
  conoscessero.
 \end_layout
@@ -595,13 +599,13 @@ Queste cose bisogna solo promuoverle nel modo giusto.
 
 \begin_layout Standard
 Camminarono per un bel pezzo prima che il professor Quirrell parlasse ancora,
- la sua voce che praticamente gocciolava disgusto.
+ la sua voce che praticamente trasudava disgusto.
  
 \begin_inset Quotes fld
 \end_inset
 
 I gemelli Weasley usano bacchette di seconda mano, signor Potter.
- Si ricorderebbero della sua generosità per ogni Incantesimo che lanciassero
+ Si ricorderebbero della sua generosità ad ogni Incantesimo che lanciassero
 \begin_inset Quotes frd
 \end_inset
 
@@ -778,7 +782,7 @@ e
 , 
 \emph default
 quindi era stato molto contento quando il professor Quirrell era risultato
- essere così facilmente ingannato.
+ essere così facilmente ingannabile.
 \end_layout
 
 \begin_layout Standard
@@ -839,11 +843,11 @@ Sì, più o meno.
 \end_layout
 
 \begin_layout Standard
-E i due di loro continuarono a camminare, nella loro minuscola sfera di
- silenzio e isolamento, attraverso la folla brillante e vivace; e se si
- fosse prestata attenzione, si sarebbe notato che lì dove andavano, i rami
- frondosi sbiadivano, e i fiori appassivano, e i giocattoli per bambini
- che suonavano allegri campanelli mutavano in note più basse e più minacciose.
+Ed entrambi continuarono a camminare, nella loro minuscola sfera di silenzio
+ e isolamento, attraverso la folla brillante e vivace; e se si fosse prestata
+ attenzione, si sarebbe notato che lì dove andavano, i rami frondosi sbiadivano,
+ e i fiori appassivano, e i giocattoli per bambini che suonavano allegri
+ campanelli mutavano in note più basse e più minacciose.
 \end_layout
 
 \begin_layout Standard
