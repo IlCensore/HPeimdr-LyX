@@ -1,0 +1,673 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{36}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\chaptername\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+     \chapnumfont \textsc{\chaptername\ \liningnums{\thechapter}}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
+\font_typewriter Inconsolata
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf5
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Interludio: Passare il confine
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:37Interludio-passare"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=3, lhang=0.33, loversize=0.25]{E}{ra quasi mezzanotte}
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Stare in piedi fino a tardi era abbastanza semplice per Harry.
+ Doveva solo non usare il Giratempo.
+ Harry seguiva la tradizione di regolare il suo ciclo del sonno per assicurarsi
+ di essere sveglio quando la vigilia di Natale diventava il giorno di Natale;
+ perché sebbene non fosse stato abbastanza giovane da 
+\emph on
+credere
+\emph default
+ a Babbo natale, una volta era stato abbastanza giovane da dubitarlo.
+\end_layout
+
+\begin_layout Standard
+Sarebbe stato bello se ci 
+\emph on
+fosse
+\emph default
+ stata una figura misteriosa che entrava a casa tua di notte e ti portava
+ i regali…
+\end_layout
+
+\begin_layout Standard
+Un brivido scese allora lungo la schiena di Harry.
+\end_layout
+
+\begin_layout Standard
+Un accenno di qualcosa di spaventoso che si avvicinava.
+\end_layout
+
+\begin_layout Standard
+Un terrore strisciante.
+\end_layout
+
+\begin_layout Standard
+Una sensazione di condanna.
+\end_layout
+
+\begin_layout Standard
+Harry si sedette eretto nel letto.
+\end_layout
+
+\begin_layout Standard
+Guardò verso la finestra.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Professor Quirrell?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ strillò Harry molto sommessamente.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell accennò il gesto di alzare, e la finestra di Harry
+ sembrò ripiegarsi nel suo telaio.
+ All'istante una gelida folata d'inverno soffiò nella stanza attraverso
+ l'apertura, insieme a uno scarso numero di fiocchi di neve da un cielo
+ macchiato di grigie nuvole notturne, nel mezzo del nero e delle stelle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non tema, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa con una voce normale.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho messo a dormire i suoi genitori con un incantesimo; non si sveglieranno
+ finché non me ne sarò andato
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Nessuno dovrebbe sapere dove sono!
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry, mantenendo ancora sommesso il grido.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Persino i gufi dovrebbero portare la mia posta a Hogwarts, non qui!
+\begin_inset Quotes frd
+\end_inset
+
+ Harry l'aveva accettato di buon grado; sarebbe stato stupido se un Mangiamorte
+ avesse potuto vincere l'intera guerra in qualsiasi momento semplicemente
+ mandandogli via gufo una bomba a mano innescata magicamente.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell stava facendo un ghigno, lì dov'era nel cortile di
+ dietro oltre la finestra.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Oh, io non mi preoccuperei, signor Potter.
+ Lei 
+\emph on
+è
+\emph default
+ ben protetto contro gli Incantesimi di localizzazione, e nessun purista
+ del sangue può verosimilmente pensare di consultare un elenco del telefono
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Il suo ghigno divenne più ampio.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E c'è voluto uno sforzo considerevole ad attraversare le protezioni che
+ il Preside ha disposto attorno a questa casa
+\begin_inset space ~
+\end_inset
+
+-- sebbene naturalmente chiunque conosca il suo indirizzo potrebbe semplicemente
+ attendere qui fuori e attaccarla la prossima volta che esce
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry fissò il professor Quirrell per un po'.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa sta 
+\emph on
+facendo
+\emph default
+ qui?
+\begin_inset Quotes frd
+\end_inset
+
+ disse infine.
+\end_layout
+
+\begin_layout Standard
+Il sorriso abbandonò il volto del professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono venuto a scusarmi, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse pacatamente il Professore di Difesa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non avrei dovuto parlarle così duramente come
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Guardò in basso alla coperta che stava stringendo attorno al suo pigiama.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non lo faccia
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+L'ho offesa così tanto?
+\begin_inset Quotes frd
+\end_inset
+
+ disse la voce pacata del professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No.
+ Ma lo 
+\emph on
+farà
+\emph default
+ se si scusa.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Capisco
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, e in un istante la sua voce divenne severa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Allora, se devo trattarla da pari a pari, signor Potter, devo dire che ha
+ gravemente violati l'etichetta in vigore tra Serpeverde amichevoli.
+ Se in questo momento non sta giocando la sua partita contro qualcuno, allora
+ non 
+\emph on
+deve
+\emph default
+ impicciarsi nei loro piani in quel modo, non senza chiederlo a loro 
+\emph on
+anticipatamente
+\emph default
+.
+ Perché lei non sa quale sia il loro vero obiettivo, né gli interessi che
+ potrebbero perdere.
+ Questo la renderebbe un loro nemico, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, esattamente nello stesso tono pacato che il professor Quirrell
+ aveva usato.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Scusa accettata
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ma
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, ancora pacatamente, 
+\begin_inset Quotes fld
+\end_inset
+
+lei e io dobbiamo davvero discutere ulteriormente di politica, prima o poi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell sospirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+So che lei disprezza la condiscendenza, signor Potter
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quello era a dir poco un eufemismo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ma sarebbe ancor più condiscendente
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, 
+\begin_inset Quotes fld
+\end_inset
+
+se non lo dicessi chiaramente.
+ Le manca un po' di esperienza di vita, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E tutti coloro che hanno sufficiente esperienza di vita concordano con lei,
+ allora?
+\begin_inset Quotes frd
+\end_inset
+
+ disse con calma Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+A che serve l'esperienza di vita a chi gioca a Quidditch?
+\begin_inset Quotes frd
+\end_inset
+
+ rispose il professor Quirrell, e scrollò le spalle.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che cambierà idea col tempo, dopo ogni cosa in cui avrà posto la sua
+ fiducia le verrà meno, e sarà diventato cinico
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa lo disse come se fosse l'affermazione più normale
+ del mondo, incorniciato sullo sfondo del nero e delle stelle e del cielo
+ macchiato di nuvole, mentre uno o due minuscoli fiocchi di neve gli passarono
+ oltre nella pungente aria invernale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+A proposito
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Buon Natale
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+In effetti
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dopo tutto, se 
+\emph on
+non è
+\emph default
+ una scusa, allora deve essere un regalo di Natale.
+ Il primo in assoluto che io abbia mai fatto, a dire il vero
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry non aveva neppure iniziato a studiare latino in modo da poter leggere
+ il diario degli esperimenti di Ruggero Bacone; e difficilmente avrebbe
+ osato aprire la bocca per chiederlo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Indossi il suo cappotto invernale
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, 
+\begin_inset Quotes fld
+\end_inset
+
+o prenda una pozione riscaldante, se ne ha una; e mi raggiunga fuori, sotto
+ le stelle.
+ Vedrò se potrò sostenerlo un po' più a lungo questa volta
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ci volle un momento a Harry per elaborare le parole, e poi si stava precipitando
+ verso lo stanzino dei cappotti.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell mantenne l'incantesimo della luce delle stelle per
+ più di un'ora, sebbene il volto del Professore di Difesa divenne provato
+ e dovette sedersi dopo un po'.
+ Harry protestò solo una volta, e fu zittito.
+\end_layout
+
+\begin_layout Standard
+Passarono il confine tra la vigilia di Natale e il giorno di Natale all'interno
+ di quel vuoto senza tempo in cui le rotazioni terresti non significavano
+ nulla, la unica, vera ed eterna Notte Silenziosa.
+\end_layout
+
+\begin_layout Standard
+E proprio come promesso, i genitori di Harry dormirono profondamente per
+ tutto il tempo, finché Harry non fu nuovamente al sicuro nella sua stanza,
+ e il Professore di Difesa se n'era andato.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename tailpiece15.png
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
