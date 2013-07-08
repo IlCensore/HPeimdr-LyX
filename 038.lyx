@@ -11,7 +11,7 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\chaptername\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
@@ -21,16 +21,21 @@
   \renewcommand*{\chapterheadstart}{}
   \renewcommand*{\chapnumfont}{\normalfont}
   \renewcommand*{\printchaptername}{%
-     \chapnumfont \textsc{\chaptername\ \liningnums{\thechapter}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
   \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
     \par\parbox{0.5in}{}\par}
   \renewcommand*{\printchapternonum}{%
     \vphantom{\chapnumfont \@chapapp 1}\par
     \parbox{0.5in}{}\par}
   \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
   \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
     \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
@@ -39,7 +44,6 @@
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
-
 
 \usepackage{fontspec,microtype}
 \frenchspacing
@@ -58,7 +62,7 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans Gill Sans Std
+\font_sans Griffy
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -119,22 +123,6 @@ Il peccato capitale
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:38Peccato-cardinale"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\backslash
-thispagestyle{empty}
-\end_layout
 
 \end_inset
 
@@ -965,356 +953,553 @@ Infatti.
 \end_layout
 
 \begin_layout Standard
-“Let us dispense with games,” said the senior Malfoy, the grey eyes suddenly
- hardening.
- “If my suspicions are true, you would hardly do Dumbledore's bidding in
- any case, 
+\begin_inset Quotes fld
+\end_inset
+
+Mettiamo da parte i giochi
+\begin_inset Quotes frd
+\end_inset
+
+, disse Malfoy padre, il grigio dei suoi occhi che si indurì improvvisamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se i miei sospetti sono veri, lei si piegherebbe difficilmente ai desideri
+ di Silente, 
 \emph on
-Mr.
+signor Potter
 \emph default
 
-\begin_inset ERT
-status open
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Plain Layout
-
-
-\backslash
- 
+.
 \end_layout
 
+\begin_layout Standard
+Ci fu una breve pausa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quindi lo sa
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, la sua voce fredda.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Me lo dica.
+ Quando, esattamente, se n'è accorto?
+\begin_inset Quotes frd
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quando ho letto la sua risposta al discorsetto del professor Quirrell
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'uomo dai capelli bianchi, e ridacchiò cupamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ero confuso, all'inizio, poiché non sembrava nel suo interesse; mi ci sono
+ voluti dei giorni per comprendere di chi fosse l'interesse che veniva servito,
+ e poi tutto è divenuto finalmente chiaro.
+ Ed è anche ovvio che lei è debole, in un modo o nell'altro
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Molto intelligente da parte sua
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, ancora freddo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma forse si sbaglia riguardo ai miei interessi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Forse sì
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Un accenno di acciaio si inserì nella voce serica.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+In effetti, questo è precisamente ciò che temo.
+ Lei sta giocando uno strano gioco con mio figlio, per uno scopo che non
+ riesco a indovinare.
+ Questo non è un gesto amichevole, e non può non 
 \emph on
-Potter.
+aspettarsi
 \emph default
-“
+ che io ne sia preoccupato!
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-There was a slight pause.
+Lucius si stava appoggiando sul proprio bastone con entrambe le mani, ora,
+ ed entrambe quelle mani erano bianche, e le sue guardie del corpo si erano
+ improvvisamente irrigidite.
 \end_layout
 
 \begin_layout Standard
-“So you know,” Harry said, his voice cold.
- “Tell me.
- At which point, exactly, did you realize?”
-\end_layout
-
-\begin_layout Standard
-“When I read your response to Professor Quirrell's little speech,” said
- the white-haired man, and chuckled grimly.
- “I was puzzled, at first, for it seemed not in your own interest; it took
- me days to understand whose interest was being served, and then it all
- finally became clear.
- And it is also obvious that you are weak, in some ways if not others.”
-\end_layout
-
-\begin_layout Standard
-“Very clever of you,” said Harry, still cold.
- “But perhaps you mistake my interests.”
-\end_layout
-
-\begin_layout Standard
-“Perhaps I do.” A hint of steel came into the silken voice.
- “Indeed, that is precisely what I fear.
- You are playing strange games with my son, to a purpose I cannot guess.
- That is not a friendly act, and you cannot but 
-\emph on
-expect
-\emph default
- me to be concerned!”
-\end_layout
-
-\begin_layout Standard
-Lucius was leaning upon his cane with both hands now, and both those hands
- white, and his bodyguards had suddenly tensed.
-\end_layout
-
-\begin_layout Standard
-Some instinct within Harry claimed that it would be a very bad idea to show
- his fear, to let Lucius see that he could be intimidated.
- They were in a public train station anyway 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
+Un certo istinto all'interno di Harry affermò che sarebbe stata un'idea
+ davvero cattiva rendere palese la sua paura, lasciar capire a Lucius che
+ poteva essere intimidito.
+ Erano in una stazione ferroviaria pubblica, ad ogni modo
+\begin_inset space ~
+\end_inset
 
 --
 \end_layout
 
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Trovo interessante
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, mettendo dell'acciaio nella propria voce, 
+\begin_inset Quotes fld
+\end_inset
+
+che lei pensi che io possa trarre beneficio dal fare del male a Draco.
+ Ma è irrilevante, Lucius.
+ 
+\emph on
+Lui
+\emph default
+ è mio amico, e io non tradisco i miei amici
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-“I find it interesting,” Harry said, putting steel into his own voice, “that
- you think I could benefit from doing Draco harm.
- But it is irrelevant, Lucius.
- 
 \emph on
-He
+Cosa?
 \emph default
- is my friend, and I do not betray my friends.”
+
+\begin_inset Quotes frd
+\end_inset
+
+ bisbigliò Lucius.
+ Il suo volto mostrò puro sconcerto.
 \end_layout
 
 \begin_layout Standard
-“
-\emph on
-What?
-\emph default
-” whispered Lucius.
- His face showed sheer shock.
-\end_layout
-
-\begin_layout Standard
-Then 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
+Poi
+\begin_inset space ~
+\end_inset
 
 --
 \end_layout
 
+\begin_layout Standard
+\begin_inset Quotes fld
 \end_inset
 
+Compagnia
+\begin_inset Quotes frd
+\end_inset
 
+, disse uno dei tirapiedi, e Harry pensò, dalla voce, che dovesse essere
+ Crabbe padre.
 \end_layout
 
 \begin_layout Standard
-“Company,” said one of the minions, and Harry thought, from the voice, that
- it must be the senior Crabbe.
+Lucius si raddrizzò e si girò, poi emise un sibilo di disapprovazione.
 \end_layout
 
 \begin_layout Standard
-Lucius straightened and turned, then let out a hiss of disapproval.
+Neville si stava avvicinando, l'espressione spaventata ma determinata, al
+ seguito di un'alta donna che non sembrava affatto spaventata.
 \end_layout
 
 \begin_layout Standard
-Neville was approaching, looking scared but determined, in tow behind a
- tall woman who didn't look scared at all.
+\begin_inset Quotes fld
+\end_inset
+
+Madam Longbottom
+\begin_inset Quotes frd
+\end_inset
+
+, disse Lucius gelidamente.
 \end_layout
 
 \begin_layout Standard
-“Madam Longbottom,” Lucius said icily.
-\end_layout
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-“Mr.
-\begin_inset ERT
-status open
+Signor Malfoy
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Plain Layout
-
-
-\backslash
+, rispose la donna altrettanto gelidamente.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Malfoy,” returned the woman with equal ice.
- “Are you being an annoyance to our Harry Potter?”
+Sta importunando il nostro Harry Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-The bark of laughter that came from Lucius seemed strangely bitter.
- “Oh, I rather think not.
- Come to protect him from me, have you?” The white-haired head shifted toward
- Neville.
- “And this would be Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
+Il latrato di risata che provenne da Lucius sembrò stranamente amaro.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Potter's loyal lieutenant, the last scion of Longbottom, Neville, self-styled
- of Chaos.
- How strangely does the world turn.
- Sometimes I think it must all be mad.”
-\end_layout
+Oh, direi di no.
+ A proteggerlo da me, è venuta per questo?
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Standard
-Harry had no idea at all what to say to that, and Neville looked confused,
- and frightened.
-\end_layout
-
-\begin_layout Standard
-“I doubt it is the world that is mad,” said Madam Longbottom.
- Her voice took on a gloating tone.
- “You seem in a poor mood, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
+ La testa dai capelli bianchi si voltò verso Neville.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Malfoy.
- Did the speech of our dear Professor Quirrell cost you a few allies?”
+E questo sarebbe il leale luogotenente del signor Potter, l'ultimo rampollo
+ dei Longbottom, Neville, auto-proclamato del Chaos.
+ Quanto è strano il mondo.
+ Talvolta penso che debba essere completamente folle
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-“It was a clever enough slander of my abilities,” Lucius said coldly, “though
- only effective upon the fools who believe that I was truly a Death Eater.”
+Harry non aveva affatto idea di cosa rispondere a quelle parole, e Neville
+ sembrò confuso, e impaurito.
 \end_layout
 
 \begin_layout Standard
-“
+\begin_inset Quotes fld
+\end_inset
+
+Dubito che il mondo sia così folle
+\begin_inset Quotes frd
+\end_inset
+
+, disse Madam Longbottom.
+ La sua voce assunse un tono compiaciuto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sembra di cattivo umore, signor Malfoy.
+ Il discorso del nostro caro professor Quirrell le è forse costato qualche
+ alleato?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+È stata una calunnia sufficientemente arguta delle mie abilità
+\begin_inset Quotes frd
+\end_inset
+
+, disse freddamente Lucius, 
+\begin_inset Quotes fld
+\end_inset
+
+sebbene efficace solo con i folli che credono che io sia stato davvero un
+ Mangiamorte
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
-What?
+Cosa?
 \emph default
-” blurted Neville.
+
+\begin_inset Quotes frd
+\end_inset
+
+ sbottò Neville.
 \end_layout
 
 \begin_layout Standard
-“I was under the 
-\emph on
-Imperius,
-\emph default
- young man,” said Lucius, now sounding tired.
- “The Dark Lord could hardly have begun recruiting among pureblood families
- without the support of House Malfoy.
- I demurred, and he simply made sure of me.
- His own Death Eaters did not know it until afterward, hence the false Mark
- I bear; though since I did not truly consent, it does not bind me.
- Some of the Death Eaters still believe I was foremost among their number,
- and for the peace of this nation I let them believe it, to keep them controlled.
- But I was not such a fool as to support that ill-fated adventurer of my
- own choice 
-\begin_inset ERT
-status open
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Ero sotto l'
+\emph on
+Imperius
+\emph default
+, giovanotto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Lucius, ora sembrando stanco.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il Signore Oscuro avrebbe difficilmente potuto a reclutare tra le famiglie
+ purosangue senza il sostegno di Casa Malfoy.
+ Obiettai, ed egli semplicemente si assicurò la mia persona.
+ I suoi stessi Mangiamorte non lo seppero fino a dopo, da cui il falso Marchio
+ che porto; sebbene, considerato che non diedi davvero il mio consenso,
+ non mi vincola.
+ Alcuni dei Mangiamorte ritengono ancora che io fossi il primo tra loro,
+ e per la pace di questa nazione lascio che lo credano, in modo da tenerli
+ sotto controllo.
+ Ma non fui tanto folle da sostenere quell'avventuriero sventurato di mia
+ scelta
+\begin_inset space ~
+\end_inset
 
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-“Ignore him,” Madam Longbottom said, the instruction addressed to Harry
- as well as Neville.
- “He must spend the rest of his life pretending, for fear of your testimony
- under Veritaseum.” Said with malicious satisfaction.
-\end_layout
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-Lucius turned his back on her dismissively, and faced Harry again.
- “Will you request this harridan to depart, 
-\emph on
-Mr.
-\emph default
+Ignoratelo
+\begin_inset Quotes frd
+\end_inset
 
-\begin_inset ERT
-status open
+, disse Madam Longbottom, l'istruzione indirizzata a Harry tanto quanto
+ a Neville.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Deve passare il resto della sua vita fingendo, per paura della tua testimonianza
+ sotto Veritaserum
+\begin_inset Quotes frd
+\end_inset
+
+.
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Plain Layout
-
-
-\backslash
- 
+? la testimonianza di chi?
 \end_layout
 
 \end_inset
 
+ Detto con maliziosa soddisfazione.
+\end_layout
 
+\begin_layout Standard
+Lucius le voltò le spalle sprezzantemente, e si rivolse nuovamente a Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Vuole richiedere a questa megera di lasciarci, 
 \emph on
-Potter?
+signor Potter?
 \emph default
-”
+
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“I think not,” said Harry in a dry voice.
- “I prefer to deal with the part of House Malfoy that's my own age.”
+\begin_inset Quotes fld
+\end_inset
+
+Penso di no
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry con una voce atonale.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Preferisco trattare con la parte di Casa Malfoy che è della mia stessa età
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-There was a long pause, then.
- The grey eyes searched him.
+Ci fu una lunga pausa, allora.
+ Gli occhi grigi lo scrutarono.
 \end_layout
 
 \begin_layout Standard
-“Of course…” said Lucius slowly.
- “I 
+\begin_inset Quotes fld
+\end_inset
+
+Naturalmente…
+\begin_inset Quotes frd
+\end_inset
+
+ disse lentamente Lucius.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi sento 
 \emph on
-do
+davvero
 \emph default
- feel the fool now.
- This whole time you were just pretending to have no idea what we were talking
- about.”
+ uno stupido, ora.
+ Tutto questo tempo stava solo fingendo di non sapere di cosa stessimo parlando
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Harry met the gaze, and said nothing.
+Harry resse il suo sguardo, e non disse nulla.
 \end_layout
 
 \begin_layout Standard
-Lucius raised his cane a few centimeters and struck it hard on the ground.
+Lucius alzò il suo bastone di pochi centimetri e lo batté forte al suolo.
 \end_layout
 
 \begin_layout Standard
-The world vanished in a pale haze, all sounds went quiet, there was nothing
- in the universe but Harry and Lucius Malfoy and the snake-headed cane.
+Il mondo svanì in una nebbiolina pallida, tutti i suoni si acquietarono,
+ non ci fu nulla nell'universo tranne Harry e Lucius Malfoy e il bastone
+ dalla testa di serpente.
 \end_layout
 
 \begin_layout Standard
-“My son is my heart,” said the senior Malfoy, “the last worthwhile thing
- I have left in this world, and this I say to you in a spirit of friendship:
- if he were to come to harm, I would give my life over to vengeance.
- But so long as my son does 
+\begin_inset Quotes fld
+\end_inset
+
+Mio figlio è il mio cuore
+\begin_inset Quotes frd
+\end_inset
+
+, disse Malfoy padre, 
+\begin_inset Quotes fld
+\end_inset
+
+l'ultima cosa preziosa che mi è rimasta in questo mondo, e questo le dico
+ in uno spirito di amicizia: se egli dovesse essere fatto del male, rinuncerei
+ alla mia vita per la vendetta.
+ Ma fintanto che a mio figlio 
 \emph on
-not
+non
 \emph default
- come to harm, I wish you the best of luck in your endeavors.
- And as you have asked nothing more of me, I will ask nothing more of you.”
+ dovesse essere fatto del male, le auguro la miglior fortuna nelle sue imprese.
+ E poiché lei non ha chiesto nulla di più a me, non chiederò nulla di più
+ a lei
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Then the pale haze vanished, showing an outraged Madam Longbottom being
- blocked from moving forward by the senior Crabbe; her wand was in her hand,
- now.
+Poi la nebbiolina pallida scomparve, mostrando un'indignata Madam Longbottom
+ a cui Crabbe padre stava impedendo di avanzare; la sua bacchetta era nella
+ sua mano, ora.
 \end_layout
 
 \begin_layout Standard
-“How 
+\begin_inset Quotes fld
+\end_inset
+
+Come 
 \emph on
-dare
+osi!
 \emph default
- you!” she hissed.
+
+\begin_inset Quotes frd
+\end_inset
+
+ essa sibilò.
 \end_layout
 
 \begin_layout Standard
-Lucius's dark robes swirled around him, and his white hair, as he turned
- to the senior Goyle.
- “We return to Malfoy Manor.”
+Le vesti scure di Lucius mulinarono attorno a lui, e ai suoi capelli bianchi,
+ mentre si voltò verso Goyle padre.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Torniamo a Casa Malfoy
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-There were three pops of Apparition, and they were gone.
+Ci furono scoppi di Materializzazione, e poi furono andati.
 \end_layout
 
 \begin_layout Standard
-A silence followed.
+Scese il silenzio.
 \end_layout
 
 \begin_layout Standard
