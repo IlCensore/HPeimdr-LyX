@@ -45,8 +45,11 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\newfontfamily\llo{Linux Libertine O}
-\usepackage{microtype}
+\usepackage{fontspec,microtype}
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -58,8 +61,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Griffy
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -184,8 +187,7 @@ bisogna fare qualcosa
 \end_layout
 
 \begin_layout Standard
-L'atmosfera a Hogwarts prima del periodo natalizio era solitamente luminosa
- e allegra.
+L'atmosfera a Hogwarts prima di Natale era solitamente luminosa e allegra.
  La Sala Grande era stata già decorata di verde e di rosso, in ricordo di
  una coppia Serpeverde e Grifondoro il cui matrimonio natalizio era diventato
  simbolo dell'amicizia che trascende le Case e gli schieramenti, una tradizione
@@ -221,14 +223,14 @@ E la partigianeria per Dragon e Sunshine e Chaos si era diffusa al di là
  degli studenti del primo anno; erano diventati eserciti per coloro che
  non avevano eserciti.
  Alcuni studenti indossavano fasce con l'insegna del fuoco o del sorriso
- o della mano alzato, e si lanciavano l'un l'altro fatture dei corridoi.
+ o della mano alzata, e si lanciavano l'un l'altro fatture nei corridoi.
  Tutti e tre i generali del primo anno avevano detto loro di smetterla --
  persino Draco Malfoy l'aveva ascoltata attentamente e poi annuito cupamente
- -- ma i loro presunti seguaci non avevano ascoltato.
+ -- ma i loro presunti seguaci non avevano prestato attenzione.
 \end_layout
 
 \begin_layout Standard
-Silente aveva gettato un'occhiata alle tavole con un'espressione distante.
+Silente aveva gettato un'occhiata alle tavolate con un'espressione distante.
  
 \begin_inset Quotes fld
 \end_inset
@@ -258,7 +260,7 @@ Ed essi combattono contro i loro nemici non sapendo a quale scopo mettono
 \emph on
  Perciò cresce in loro nei confronti dei loro concittadini un'ostilità che
  non ha causa, e che in nessun momento cessa o scompare, poiché non cede
- il posto né ai legami di matrimoni né a quelli di parentela né a quelli
+ il posto né ai legami matrimoniali né a quelli di parentela né a quelli
  d'amicizia, e la situazione è la stessa anche se coloro che sono in disaccordo
  su tali colori sono fratelli o comunque parenti.
  Da parte mia, sono incapace di definire tutto ciò in altro modo se non
@@ -360,7 +362,7 @@ Minerva annuì.
 \end_layout
 
 \begin_layout Standard
-«E che il professor Quirrell sarà incolpato.
+«E che la colpa sarà data al professor Quirrell.
 \begin_inset Quotes frd
 \end_inset
 
@@ -384,7 +386,7 @@ possiamo!
 \noun on
 g.u.f.o
 \noun default
-., se restasse per tutto marzo nostri studenti del settimo anno passerebbero
+., se restasse per tutto marzo i nostri studenti del settimo anno passerebbero
  i loro 
 \noun on
 m.a.g.o
@@ -402,7 +404,7 @@ m.a.g.o
 \begin_inset Quotes fld
 \end_inset
 
-Non sono sicuro che il Professore di Difesa la prenderebbe benevolmente
+Non sono sicuro che il Professore di Difesa la prenderebbe bene
 \begin_inset Quotes frd
 \end_inset
 
@@ -499,7 +501,7 @@ E la prossima sarebbe stata
 peggio
 \emph default
 , a meno che loro tre insieme non avessero avuto successo nel loro ultimo,
- disperato tentativo di fermarla.
+ disperato tentativo di porvi fine.
 \end_layout
 
 \begin_layout Standard
@@ -510,7 +512,7 @@ Professor Quirrell, questa è pazzia
 \begin_inset Quotes frd
 \end_inset
 
-, disse Draco nettamente.
+, disse Draco con fermezza.
  
 \begin_inset Quotes fld
 \end_inset
@@ -567,9 +569,9 @@ Permettere i tradimenti non sta funzionando, professor Quirrell
 \end_layout
 
 \begin_layout Standard
-Draco aveva provato a proibire di tramare a chiunque nel suo esercito eccetto
- lui, e quello aveva semplicemente reso le trame sotterranee, nessuno voleva
- esserne escluso quando i soldati degli 
+Draco aveva provato a proibire di complottare a chiunque nel suo esercito
+ eccetto lui, e quello aveva semplicemente reso i complotti sotterranei,
+ nessuno voleva esserne escluso quando i soldati degli 
 \emph on
 altri
 \emph default
@@ -705,7 +707,7 @@ E per quale motivo, signor Potter?
 \begin_inset Quotes fld
 \end_inset
 
-Perché penso di poter fare i conti col caos meglio della signorina Granger
+Perché penso di poter far fronte al caos meglio della signorina Granger
  o del signor Malfoy
 \begin_inset Quotes frd
 \end_inset
@@ -734,8 +736,8 @@ Gli occhi del professor Quirrell si mossero sotto le palpebre per soppesare
 \begin_inset Quotes fld
 \end_inset
 
-In verità, signor Malfoy, signorina Granger, è solo che non potrei sopportare
- di dover porre fine a questa grande sconfitta prima del suo acme.
+La verità, signor Malfoy, signorina Granger, è solo che non potrei sopportare
+ di dover porre fine a questa grande debacle prima del suo acme.
  Uno dei vostri soldati è persino diventato un agente quadruplo
 \begin_inset Quotes frd
 \end_inset
@@ -782,7 +784,7 @@ Già
 è questo quello che dovrebbe pensare, giusto? Non sono sicuro che ci sia
  mai stato nella storia un agente quadruplo, o qualunque esercito con una
  frazione così elevata di traditori veri o presunti.
- Stiamo esplorando nuovi spazi, signorina Granger, e non possiamo tornare
+ Stiamo esplorando nuovi orizzonti, signorina Granger, e non possiamo tornare
  indietro ora
 \begin_inset Quotes frd
 \end_inset
@@ -824,8 +826,9 @@ Ricorda, Hermione, questo
 \emph on
 è
 \emph default
- solo un gioco, e perché solo noi generali dovremmo non poter tramare? Inoltre,
- cosa potete farci voi due? Vi alleerete contro di me?
+ solo un gioco, e perché solo noi generali dovremmo essere gli unici che
+ possono tramare? Inoltre, cosa potete farci voi due? Allearvi contro di
+ me?
 \begin_inset Quotes frd
 \end_inset
 
@@ -833,8 +836,8 @@ Ricorda, Hermione, questo
 \end_layout
 
 \begin_layout Standard
-Draco scambiò un'occhiata con Granger, sapendo che la propria faccia era
- tanto contratta quanto quella di lei.
+Draco scambiò un'occhiata con Granger, sapendo che il proprio viso era tanto
+ contratto quanto quello di lei.
  Harry faceva affidamento, sempre più apertamente e con compiacimento, sul
  rifiuto di Draco di far causa comune con una sanguemarcio; e Draco iniziava
  ad essere 
@@ -848,7 +851,7 @@ sarebbe
 \emph default
  alleato con Granger per schiacciare Harry Potter, e vedere quanto 
 \emph on
-questo
+quello
 \emph default
  sarebbe piaciuto a quel figlio di un sanguemarcio.
 \end_layout
@@ -915,7 +918,7 @@ La sua domanda mise un sorriso ironico sul volto del giovane Serpeverde.
  provava per Draco Malfoy, o al risentimento che aveva sviluppato nei confronti
  di Harry Potter.
  Si era preoccupata inizialmente che Zabini la tradisse, ma il ragazzo sembrava
- disperatamente vole dimostrare che gli altri due generali non erano migliori
+ disperatamente voler dimostrare che gli altri due generali non erano migliori
  di lui; e Hermione pensò che mentre Zabini sarebbe stato probabilmente
  felice di venderla a chiunque 
 \emph on
@@ -968,7 +971,7 @@ E lo stesso vale per chiunque negli
 \emph on
 altri
 \emph default
- eserciti che dice di voler essere una 
+ eserciti dica di voler essere una 
 \emph on
 nostra
 \emph default
@@ -976,7 +979,7 @@ nostra
 \begin_inset Quotes frd
 \end_inset
 
-, disse con attenzione Hermione.
+, disse Hermione con cautela.
 \end_layout
 
 \begin_layout Standard
@@ -986,12 +989,12 @@ Il giovane Serpeverde scrollò le spalle.
 \end_inset
 
 Penso di aver fatto un buon lavoro nell'identificare quelli che vogliono
- davvero tradire Malfoy, non credo che 
+ davvero tradire Malfoy, non sono sicuro che 
 \emph on
-nessuno
+qualcuno
 \emph default
- voglia davvero tradire Potter per te.
- Ma il tradimento di Potter in favore di Malfoy da parte di Nott è una puntata
+ voglia davvero consegnarti Potter.
+ Ma il tradimento di Potter in favore di Malfoy da parte di Nott è una scommessa
  sicura e poiché ho fatto in modo che Entwhistle lo approcciasse apparentemente
  a nome di Malfoy ed Entwhistle in realtà riferisce a noi, va quasi altrettanto
  bene
@@ -1046,7 +1049,7 @@ completamente
 \begin_layout Standard
 Il professor Quirrell aveva annunciato che la battaglia finale sarebbe stata
  gestita sulla base di un sistema di punteggio formale, cosa che gli era
- stata chiesta di fare per evitare recriminazioni successivamente.
+ stata chiesta di fare per evitare recriminazioni in seguito.
  Ogni volta che colpivi qualcuno, il generale del tuo esercito riceveva
  due punti-Quirrell.
  Un gong avrebbe risuonato attraverso il campo di battaglia (non sapevano
@@ -1056,7 +1059,7 @@ Il professor Quirrell aveva annunciato che la battaglia finale sarebbe stata
  E se qualcuno avesse fatto finta di essere colpito, il gong avrebbe risuonato
  comunque, e poi un doppio gong avrebbe risuonato successivamente, dopo
  un periodo variabile, per segnalare la ritrattazione.
- E se gridavi il nome di un esercito, gridando 
+ E se chiamavi il nome di un esercito, gridando 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1080,7 +1083,7 @@ Per Dragon!
 \begin_inset Quotes frd
 \end_inset
 
-, la tua appartenenza sarebbe cambiata in favore di quell'esercito…
+, saresti passato in quell'esercito…
 \end_layout
 
 \begin_layout Standard
@@ -1092,10 +1095,10 @@ quelle
  Ma il professor Quirrell aveva proseguito annunciando che se eri stato
  originariamente assegnato a Sunshine, nessuno poteva colpirti in nome di
  Sunshine -- o meglio, potevano, ma allora Sunshine avrebbe perso un singolo
- punto-Quirrell, segnalato da un colpo triplo di gong.
+ punto-Quirrell, segnalato da un triplice gong.
  Questo impediva di colpire i propri soldati per ottenere punti, e scoraggiava
- i suicidi prima che il nemico di colpisse, ma si potevano ancora colpire
- le spie se necessario.
+ i suicidi prima che il nemico colpisse, ma si potevano ancora colpire le
+ spie se necessario.
 \end_layout
 
 \begin_layout Standard
@@ -1137,8 +1140,8 @@ No
 \begin_inset Quotes fld
 \end_inset
 
-Il problema è che Malfoy e Potter sanno entrambi che l'unico modo per vincere
- che hanno è unirsi e schiacciarci, per poi combattersela tra loro.
+Il problema è che Malfoy e Potter sanno entrambi che l'unico modo che hanno
+ per vincere è unirsi e schiacciarci, per poi combattersela tra loro.
  Quindi questo è quello che penso che dovremmo fare
 \begin_inset space ~
 \end_inset
@@ -1185,7 +1188,8 @@ La cosa fantastica era quanto velocemente fosse stato in grado di intensificare
 Harry sedeva nel suo ufficio; aveva ricevuto l'autorità per ordinare arredamenti
  agli elfi domestici, quindi aveva ordinato un trono, e tende in un disegno
  nero e cremisi.
- Luce scarlatta come il sangue, mista all'ombra, si riversava sul pavimento.
+ Luce scarlatta come il sangue, mescolata con l'ombra, si riversava sul
+ pavimento.
 \end_layout
 
 \begin_layout Standard
@@ -1194,11 +1198,11 @@ Qualcosa in Harry si sentì come se fosse finalmente tornato a casa.
 
 \begin_layout Standard
 Di fronte a lui stavano i quattro Tenenti del Caos, i suoi tirapiedi più
- fidanti, uno dei quali era un traditore.
+ fidati, uno dei quali era un traditore.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1231,7 +1235,7 @@ status open
 
 \size footnotesize
 Di fronte a lui stavano i quattro Tenenti del Caos, i suoi tirapiedi più
- fidanti, uno dei quali era un traditore.
+ fidati, uno dei quali era un traditore.
 \end_layout
 
 \end_inset
@@ -1323,7 +1327,7 @@ Quello concluse le formalità.
 \begin_inset Quotes fld
 \end_inset
 
-A che punto è la confusione?
+Come va la confusione?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1334,16 +1338,16 @@ A che punto è la confusione?
 \begin_inset Quotes fld
 \end_inset
 
-A un buon punto, generale Caos
+Va bene, generale Caos
 \begin_inset Quotes frd
 \end_inset
 
 , disse Neville nel tono che usava sempre per le questioni militari, un
  tono così profondo che il ragazzo doveva spesso fermarsi e tossire.
- Il Tenente del Caos era indossava con cura le sue vesti scolastiche, bordate
- del giallo di Casa Tassofrasso, e i suoi capelli erano divisi e pettinati
+ Il Tenente del Caos indossava con cura le sue vesti scolastiche, bordate
+ del giallo della Casa Tassofrasso, e i suoi capelli erano divisi e pettinati
  nello stile usuale per un giovane ragazzo coscienzioso.
- A Harry quell'incongruità piaceva più di ogni mantello avessero provato.
+ A Harry quell'incongruità piaceva più di ogni mantello che avessero provato.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1361,7 +1365,7 @@ Harry sorrise malvagiamente.
 \begin_inset Quotes fld
 \end_inset
 
-Qualcuno di loro ha una possibilità di funzionare?
+Qualcuna di loro ha una possibilità di funzionare?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1397,8 +1401,8 @@ Eccellente
 \end_inset
 
 , disse Harry, e diede una risata agghiacciante mentre prese la pergamena
- dalla mano di Neville, facendo del suo meglio per far sembrare come se
- stesse strozzandosi.
+ dalla mano di Neville, facendo del suo meglio per farla risuonare come
+ se stesse strozzandosi.
  Con quelle erano arrivate a sessanta.
 \end_layout
 
@@ -1468,7 +1472,7 @@ Non si possono
 \emph on
 mai
 \emph default
- avere troppi complotti
+ avere abbastanza complotti
 \begin_inset Quotes frd
 \end_inset
 
@@ -1477,9 +1481,9 @@ mai
 
 \begin_layout Standard
 Il professor Quirrell l'aveva messa perfettamente.
- Stavano spingendo i confini al di là, probabilmente, di quanto non fossero
- mai stati spinti; e Harry non sarebbe stato in grado di sopportare sé stesso
- se si fosse fermato ora.
+ Stavano spingendo i confini più in là, probabilmente, di quanto non fossero
+ mai stati spinti; e Harry non sarebbe stato in grado di mantenere il rispetto
+ di sé se si fosse fermato ora.
 \end_layout
 
 \begin_layout Standard
@@ -1500,7 +1504,7 @@ Sarà il generale Dragon
 \end_inset
 
 Arriva precisamente quando me l'aspettavo.
- Fatelo senza dubbio entrare, e senza dubbio uscite
+ Fatelo entrare senza indugio, e senza indugio uscite
 \begin_inset Quotes frd
 \end_inset
 
@@ -1508,7 +1512,7 @@ Arriva precisamente quando me l'aspettavo.
 \end_layout
 
 \begin_layout Standard
-E i quattro Tenenti del Caos uscirono trascinandosi, lanciando occhiate
+E i quattro Tenenti del Caos uscirono trascinando i piedi, lanciando occhiate
  tenebrose a Draco mentre il generale nemico entrava nella tana segreta
  di Harry.
 \end_layout
@@ -1530,20 +1534,20 @@ Se non gli avessero permesso di farlo quando sarebbe stato più grande, Harry
 \end_layout
 
 \begin_layout Standard
-Il sole stava sgocciolando attraverso le tende rosse, mandando i raggi di
- sangue a danzare dall'altra parte del pavimento a partire dalla sedia imbottita
- su misura di adulto di Harry Potter, che egli aveva coperto in lustrini
+Il sole stava sgocciolando attraverso le tende rosse, mandando raggi di
+ sangue a danzare dall'altra parte del pavimento da dietro la sedia imbottita
+ a misura di adulto di Harry Potter, che egli aveva coperto in lustrini
  oro e argento e alla quale insisteva a riferirsi come al suo trono.
 \end_layout
 
 \begin_layout Standard
 (Draco iniziava a sentirsi molto più fiducioso di aver fatto la cosa giusta
  a decidere di deporre Harry Potter prima che potesse conquistare il mondo.
- Draco non poteva neppure 
+ Non poteva neppure 
 \emph on
 immaginare
 \emph default
- come sarebbe vivere sotto il suo controllo.)
+ come sarebbe stato vivere sotto il suo controllo.)
 \end_layout
 
 \begin_layout Standard
@@ -1559,7 +1563,7 @@ Buona sera, generale Dragon
 \begin_inset Quotes fld
 \end_inset
 
-Sei arrivato proprio come mi aspettavo
+Sei venuto proprio come mi aspettavo
 \begin_inset Quotes frd
 \end_inset
 
@@ -1613,8 +1617,8 @@ Sssì
 \end_inset
 
 Dobbiamo cooperare per distruggere Sunshine, e solo dopo combattere tra
- noi.
- Ma se uno di noi tradisce l'altro prima, egli potrà guadagnare un vantaggio
+ di noi.
+ Ma se uno di noi tradisce l'altro prima, potrà guadagnare un vantaggio
  nel combattimento successivo.
  E il generale Sunshine, che sa tutto ciò, proverà a indurre con l'inganno
  ciascuno di noi due a credere che l'altro l'abbia tradito.
@@ -1674,22 +1678,22 @@ vero
 \end_layout
 
 \begin_layout Standard
-Il Dilemma del prigioniero, in base agli insegnamenti di Harry, consisteva
+Il Dilemma del prigioniero, secondo gli insegnamenti di Harry, consisteva
  in questo: due prigionieri erano stati incarcerati in celle differenti.
  C'erano prove contro ciascun prigioniero, ma solo prove secondarie, sufficienti
- per una condanna a due anni per ciascuno.
+ per una condanna a due anni per ognuno di loro.
  Ciascun prigioniero poteva scegliere di 
 \emph on
 defezionare
 \emph default
-, tradire l'altro, testimoniando contro di lui al processo; e questo avrebbe
+, tradire l'altro, testimoniare contro di lui al processo; e questo avrebbe
  ridotto di un anno la sua condanna, ma aggiunto due anni a quella dell'altro.
- O un prigioniero poteva 
+ Oppure un prigioniero poteva 
 \emph on
 cooperare
 \emph default
 , restando in silenzio.
- Quindi se entrambi i prigionieri defezionavano, ciascuno testimoniando
+ Quindi se entrambi i prigionieri avessero defezionato, ciascuno testimoniando
  contro l'altro, avrebbero scontato tre anni ciascuno; se entrambi avessero
  cooperato, o fossero rimasti in silenzio, avrebbero scontato due anni ciascuno;
  ma se uno avesse defezionato e l'altro cooperato, il traditore avrebbe
@@ -1722,8 +1726,8 @@ voluto
 \end_layout
 
 \begin_layout Standard
-(Draco aveva chiesto a Harry di fermarsi e lasciagli pensare a questo per
- un po' prima di continuare.
+(Draco aveva chiesto a Harry di fermarsi e lasciagli riflettere su quello
+ per un po' prima di continuare.
  Aveva spiegato 
 \emph on
 molto
@@ -1733,8 +1737,8 @@ molto
 \end_layout
 
 \begin_layout Standard
-In effetti, aveva detto Harry, questo era in soldoni il motivo per cui le
- persone avevano i governi -- 
+In effetti, aveva detto Harry, questo era in soldoni il motivo per cui la
+ gente aveva i governi -- 
 \emph on
 tu
 \emph default
@@ -1755,8 +1759,8 @@ tutti
 \begin_layout Standard
 (Draco aveva chiesto a Harry di fermarsi nuovamente.
  Draco aveva sempre dato per scontato che i maghi ambiziosi mettessero sempre
- sé stessi al potere perché volevano governare, e le persone permettessero
- di essere governate perché erano piccoli Tassofrasso spaventati.
+ sé stessi al potere perché volevano governare, e le persone si lasciassero
+ governare perché erano piccoli Tassofrasso spaventati.
  E questo, riflettendoci, sembrava ancora vero; ma il punto di vista di
  Harry era affascinante anche se era sbagliato.)
 \end_layout
@@ -1778,8 +1782,8 @@ Supponi, aveva detto Harry, che tu stia giocando una partita contro una
 \begin_layout Standard
 Draco aveva detto che se ci fossero stati due Draco, ovviamente nessuno
  dei due Draco avrebbe voluto che qualcosa di male accadesse all'altro,
- per non parlare del fatto che nessun Malfoy non si sarebbe permesso di
- diventare noto come traditore.
+ per non parlare del fatto che nessun Malfoy avrebbe permesso di essere
+ noto come traditore.
 \end_layout
 
 \begin_layout Standard
@@ -1851,7 +1855,7 @@ ragioni razionali
  -- allora l'altra Pansy avrebbe ragionato esattamente nello stesso modo.
  Due copie identiche non potevano prendere decisioni differenti.
  Quindi Pansy doveva scegliere tra un mondo in cui entrambe le Pansy cooperasser
-o, o un mondo in cui entrambe le Pansy defezionassero, e per lei sarebbe
+o, e un mondo in cui entrambe le Pansy defezionassero, e per lei sarebbe
  stato meglio se entrambe le copie avessero cooperato.
  E se Harry avesse pensato che le persone `razionali' 
 \emph on
@@ -1876,7 +1880,7 @@ sembrata
 \emph on
 ora
 \emph default
- a Draco stava venendo il pensiero che…
+ a Draco stava venendo in mente che…
 \end_layout
 
 \begin_layout Standard
@@ -1932,21 +1936,22 @@ Ma devo ricordarti, Draco, che non ho detto che dovresti semplicemente e
 vero
 \emph default
  Dilemma del prigioniero come questo.
- Ciò che ho detto è che quando scegli, non dovresti pensare di scegliere
- solo per te stesso, 
+ Ciò che ho detto è che quando scegli, non dovresti ragionare come se stessi
+ scegliendo solo per te stesso, 
 \emph on
 o
 \emph default
  come se stessi scegliendo per tutti.
- Dovresti pensare che stai scegliendo per tutte le persone che sono 
+ Dovresti ragionare come se stessi scegliendo per tutte le persone che sono
+ 
 \emph on
 abbastanza simili
 \emph default
  a te da fare probabilmente la stessa cosa che fai tu per le stesse ragioni.
- E anche che stai scegliendo le predizioni fatte da chiunque ti conosca
- abbastanza bene da predirti accuratamente, in modo che tu non debba mai
- rimpiangere di essere razionale a causa delle corrette predizioni che altre
- persone fanno di te -- ricordami di spiegarti del Problema di Newcomb prima
+ E anche come se stessi scegliendo le previsioni fatte da chiunque ti conosca
+ abbastanza bene da prevederti accuratamente, in modo che tu non debba mai
+ rimpiangere di essere razionale a causa delle corrette previsioni che altre
+ persone fanno di te -- ricordami di spiegarti il Problema di Newcomb prima
  o poi.
  Quindi la domanda che tu e io dobbiamo fare, Draco, è questa: siamo simili
  abbastanza da fare probabilmente la 
@@ -1954,21 +1959,21 @@ abbastanza simili
 stessa cosa
 \emph default
  qualunque essa sia, prendendo le nostre decisioni per lo più nella stessa
- maniera? O ci conosciamo abbastanza da predirci a vicenda, in modo che
+ maniera? O ci conosciamo abbastanza da prevederci a vicenda, in modo che
  
 \emph on
 io
 \emph default
- possa predire se tu coopererai o defezionerai, e 
+ possa prevedere se tu coopererai o defezionerai, e 
 \emph on
 tu
 \emph default
- puoi predire che io deciderò di fare la stessa cosa che predico che tu
- farai, perché 
+ puoi prevedere che io ho deciso di fare la stessa cosa che io prevedo che
+ tu farai, perché 
 \emph on
 io
 \emph default
- so che tu puoi predire che io decida questo?
+ so che tu puoi prevedere che io deciderò di farlo?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1976,7 +1981,7 @@ io
 \end_layout
 
 \begin_layout Standard
-…e Draco non poté fare a meno di pensare che siccome doveva sforzarsi anche
+… e Draco non poté fare a meno di pensare che siccome doveva sforzarsi anche
  solo per capire 
 \emph on
 metà
@@ -2021,7 +2026,7 @@ Va bene.
 \end_layout
 
 \begin_layout Standard
-Draco non aveva pensato che avrebbe funzionato.
+Draco non aveva creduto che avrebbe funzionato.
 \end_layout
 
 \begin_layout Standard
@@ -2044,12 +2049,12 @@ restava
  la questione di come avrebbero fatto sì che i loro eserciti lavorassero
  insieme per battere Sunshine, malgrado tutto ciò che Granger potesse tentare
  per dividerli.
- Le regole del professor Quirrell non rendevano una tentazione lasciare
- che Sunshine uccidesse i soldati dell'altro esercito -- avrebbe semplicemente
- alzato l'asticella che tu stesso avresti dovuto saltare -- ma tentava eccome
- ciascuna fazione di sottrarre le uccisioni, invece di agire come avrebbe
- fatto un unico esercito, o di sparare a qualcuno dei soldati dell'altra
- fazione durante la confusione della battaglia…
+ Le regole del professor Quirrell non invogliavano a lasciare che Sunshine
+ uccidesse i soldati dell'altro esercito -- avrebbe semplicemente alzato
+ l'asticella che tu stesso avresti dovuto saltare -- ma invogliavano eccome
+ ciascuna fazione a rubare le uccisioni invece di agire come avrebbe fatto
+ un unico esercito, o di colpire qualcuno dei soldati dell'altra fazione
+ durante la confusione della battaglia…
 \end_layout
 
 \begin_layout Quote
@@ -2064,10 +2069,10 @@ restava
 \end_layout
 
 \begin_layout Standard
-Hermione stava tornando a Corvonero senza badare davvero dove stesse andando,
- la sua mente preoccupata con la guerra e il tradimento e altri concetti
- inadatti alla sua età, e svoltò un angolo e andò a sbattere direttamente
- in un adulto.
+Hermione stava tornando a Corvonero senza badare realmente a dove stesse
+ andando, la sua mente preoccupata con la guerra e il tradimento e altri
+ concetti inadatti alla sua età, e svoltò un angolo e andò a sbattere direttamen
+te in un adulto.
 \end_layout
 
 \begin_layout Standard
@@ -2120,8 +2125,8 @@ Lei è perdonata
 
 \begin_layout Standard
 Il suo sguardo era bloccato in maniera impotente sul volto gentile del più
- potente mago del mondo, che era anche il Warlock Capo, che era anche il
- Supremo Mugwump, che era divenuto folle anni prima per l'intensa tensione
+ potente mago del mondo, che era anche il Capo Stregone, che era anche il
+ Supremo Pezzo Grosso, che era divenuto folle anni prima per l'intensa tensione
  di combattere il Signore Oscuro, e numerosi altri fatti che le stavano
  spuntando in mente uno dopo l'altro mentre la sua voce continuò ad emettere
  piccoli squittii imbarazzanti.
@@ -2139,7 +2144,7 @@ In effetti, signorina Granger
 \begin_inset Quotes fld
 \end_inset
 
-è alquanto fortunato che ci siamo imbattuti l'uno nell'altra.
+è alquanto provvidenziale che ci siamo imbattuti l'uno nell'altra.
  Mi chiedevo proprio ora, per curiosità, cosa voi tre stavate pensando di
  chiedere come vostri desideri…
 \begin_inset Quotes frd
@@ -2176,8 +2181,8 @@ Sabato sorse brillante e terso e con gli studenti che parlavano con voci
 \end_layout
 
 \begin_layout Standard
-Draco aveva sperato che combattessero nuovamente nei livelli più alti di
- Hogwarts.
+Draco aveva sperato che avrebbero combattuto nuovamente ai livelli superiori
+ di Hogwarts.
  Il professor Quirrell aveva detto che i veri combattimenti avevano luogo
  con maggiore probabilità nelle città piuttosto che nelle foreste, e combattere
  all'interno delle aule e dei corridoi avrebbe dovuto esserne una simulazione,
@@ -2211,15 +2216,6 @@ sott'acqua
 \end_layout
 
 \begin_layout Standard
-Un'enorme sfera d'argento era sospesa al centro del campo di battaglia,
- luccicante come una luna sott'acqua.
- Avrebbe aiutato a fornire une senso della direzione -- all'inizio.
- La luna si sarebbe lentamente eclissata mentre la battaglia proseguiva,
- e quando si fosse spenta del tutto, la battaglia sarebbe terminata se non
- lo fosse già stata.
-\end_layout
-
-\begin_layout Standard
 La Piovra Gigante
 \begin_inset Note Note
 status collapsed
@@ -2237,8 +2233,17 @@ Giant Squid
 pozione dell'azione sott'acqua
 \emph default
  che permetteva loro di respirare, vedere chiaramente, parlare l'un l'altro,
- e nuotare non altrettanto velocemente come camminare veloce scalciando
- con le gambe.
+ e nuotare non altrettanto velocemente come una camminata veloce semplicemente
+ scalciando con le gambe.
+\end_layout
+
+\begin_layout Standard
+Un'enorme sfera d'argento era sospesa al centro del campo di battaglia,
+ luccicante come una luna sott'acqua.
+ Avrebbe aiutato a fornire un senso della direzione -- all'inizio.
+ La luna si sarebbe lentamente eclissata mentre la battaglia proseguiva,
+ e quando si fosse spenta del tutto, la battaglia sarebbe terminata se non
+ lo fosse già stata.
 \end_layout
 
 \begin_layout Standard
@@ -2263,25 +2268,25 @@ prima
 
 \begin_layout Standard
 All'inizio della gara, il Dragon Army era stato disposto in acqua in profondità;
- sopra e molto lontano, la distante luna sottomarina brillava.
+ sopra e molto lontana, la distante luna sottomarina brillava.
  L'acqua torbida era quasi del tutto illuminata da Incantesimi 
 \emph on
 Lumos
 \emph default
 , sebbene i suoi soldati avrebbero spento le luci non appena avessero iniziato
  a manovrare.
- Era inutile lasciarsi vedere dal nemico prima di vedere lui.
+ Era inutile lasciarsi vedere dal nemico prima di vederlo a propria volta.
 \end_layout
 
 \begin_layout Standard
 Draco scalciò alcune volte, spingendosi fino a una posizione più elevata
- da cui poté osservare in basso al luogo dove i suoi soldati volteggiavano
+ da cui poté osservare in basso il luogo dove i suoi soldati volteggiavano
  nell'acqua.
 \end_layout
 
 \begin_layout Standard
-Le conversazioni si spensero quasi contemporaneamente sotto lo sguardo raggelant
-e di Draco, i suoi soldati che guardarono in alto verso di lui con gratificanti
+Le conversazioni si spensero quasi in contemporanea sotto lo sguardo raggelante
+ di Draco, i suoi soldati che guardarono in alto verso di lui con gratificanti
  espressioni di paura e preoccupazione.
 \end_layout
 
@@ -2345,7 +2350,7 @@ Sguardi di stupore furono scambiati tra i soldati.
 \emph on
 vostre
 \emph default
- macchinazioni intralciano questo piano
+ macchinazioni intralciassero questo piano
 \begin_inset Quotes frd
 \end_inset
 
@@ -2357,11 +2362,11 @@ dopo che saremo usciti dall'acqua, vi darò
 \emph on
 fuoco
 \emph default
-.
+
 \begin_inset Quotes frd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2387,21 +2392,21 @@ alla lettera
 \begin_layout Standard
 Circa metà dei suoi soldati 
 \emph on
-annuirono pubblicamente
+annuirono apertamente
 \emph default
 , e Draco li designò per la pena di morte dopo che fosse salito al potere.
 \end_layout
 
 \begin_layout Standard
 Ovviamente tutti gli ordini personali erano fasulli, del tipo a un Drago
- era stato detto di offrire un incarico di tradimento falso ad un altro
- Drago, e al secondo Drago era stato confidato sommessamente di riferire
- qualunque cosa detta dal primo Drago.
+ era stato detto di offrire un falso mandato di tradimento ad un altro Drago,
+ e al secondo Drago era stato confidato sommessamente di riferire qualunque
+ cosa detta dal primo Drago.
  Draco aveva detto a ciascun Drago che l'intera guerra poteva dipendere
  da quello, e che sperava che comprendessero che quello era più importante
  dei piani che avevano fatto in precedenza.
- Con un po' di fortuna quello avrebbe fatto felici gli idioti, e oltretutto
- avrebbe forse spazzato via qualche spia, se i rapporti non corrispondevano
+ Con un po' di fortuna tutto ciò avrebbe fatto felici gli idioti, e oltretutto
+ avrebbe forse spazzato via qualche spia, se i rapporti non avessero corrisposto
  alle istruzioni.
 \end_layout
 
@@ -2440,8 +2445,8 @@ stato
 \end_layout
 
 \begin_layout Standard
-Harry prese un respiro profondo, sentendo l'acqua gorgogliare senza recar
- danno nei suoi polmoni.
+Harry prese un respiro profondo, sentendo l'acqua gorgogliare nei suoi polmoni
+ senza recar danno.
 \end_layout
 
 \begin_layout Standard
@@ -2510,20 +2515,20 @@ Una cupa e rimbombante campana echeggiò attraverso l'acqua, e in quell'istante,
 \begin_layout Standard
 Il generale Granger mandò giù il groppo che aveva in gola mentre li guardava
  andare via.
- Stava giocandosi tutto su questo, dividendo il suo esercito invece di portare
- con loro quanti più soldati nemici possibile.
+ Stava giocandosi tutto su quello, dividendo il suo esercito invece di portare
+ con sé quanti più soldati nemici possibile.
 \end_layout
 
 \begin_layout Standard
 La cosa da comprendere, le aveva detto Zabini, era che nessun esercito si
- sarebbe mosso prima di avere un piano che permettesse loro di sperare nella
- vittoria.
+ sarebbe mosso prima di avere un piano che gli permettesse di aspettarsi
+ la vittoria.
  Sunshine non poteva semplicemente pensare di vincere da solo, doveva far
  sì che entrambi gli altri eserciti 
 \emph on
 pensassero
 \emph default
- di vincere finché non era troppo tardi.
+ di vincere finché non fosse troppo tardi.
 \end_layout
 
 \begin_layout Standard
@@ -2568,11 +2573,11 @@ Ora aspettiamo
 
 Tutti noi rimasti qui saremo colpiti, ma questo sarebbe avvenuto comunque,
  con Dragon e Chaos che si stanno coalizzando contro di noi.
- Dobbiamo semplicemente portare con noi quanti più nemici possibile.
+ Dobbiamo semplicemente portare con noi quanti più nemici possibile
 \begin_inset Quotes frd
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2659,7 +2664,7 @@ io
 \end_layout
 
 \begin_layout Standard
-Daphne Greengrass e un paio di altri Serpeverde che non erano andati con
+Daphne Greengrass e un altro paio di Serpeverde che non erano andati con
  Zabini stavano ridacchiando senza potersi fermare alle grida di 
 \begin_inset Quotes fld
 \end_inset
@@ -2691,8 +2696,8 @@ Okay
 \begin_inset Quotes fld
 \end_inset
 
-avete capito tutti? Tutti i vostri piani sono stati contraffatti dalla Chaos
- Legion, o forse da qualche Drago.
+avete capito tutti? Ciascuno dei vostri piani è stato contraffatto dalla
+ Chaos Legion, o forse da qualche Drago.
  Chiunque volesse 
 \emph on
 davvero
@@ -2877,7 +2882,7 @@ assolutamente
 \end_inset
 
 Faceva la spesa al negozio di scarpe delle spie, indossava il rossetto delle
- spie, e primo o poi sposerà un bel maritino spia e avranno tante piccole
+ spie, e prima o poi sposerà un bel maritino spia e avranno tante piccole
  spie
 \begin_inset Quotes frd
 \end_inset
@@ -2939,10 +2944,10 @@ Come due banchi di pesce, gli eserciti nuotavano insieme.
 
 \begin_layout Standard
 Neville Longbottom muoveva i piedi in gesti lenti e misurati.
- Immergersi, immergersi sempre in qualunque ci si stesse muovendo.
- Volevi mostrare al nemico il profilo più piccolo, presentargli la tua testa
+ Immergerti, immergerti sempre in qualunque direzione ti stessi muovendo.
+ Volevi porgere al nemico il profilo più piccolo, presentargli la tua testa
  o i tuoi piedi.
- Quindi ti dovevi sempre immergerti, verso il basso e di testa, e il nemico
+ Quindi ti dovevi sempre immergere, verso il basso e di testa, e il nemico
  era sempre 
 \emph on
 giù
@@ -3074,8 +3079,7 @@ Il professor Quirrell stava sorridendo.
 \end_inset
 
 L'ho avvisata, Preside.
- È impossibile avere delle regole senza che il signor Potter si serva di
- loro
+ È impossibile avere delle regole senza che il signor Potter ne tragga vantaggio
 \begin_inset Quotes frd
 \end_inset
 
@@ -3094,8 +3098,17 @@ L'ho avvisata, Preside.
 \end_layout
 
 \begin_layout Standard
-Per lunghi e preziosi secondi, mentre i quarantasette soldati caricavano
- i suoi diciassette, la mente di Hermione si svuotò.
+Per lunghi e preziosi secondi, mentre i quarantasette soldati
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Non dovrebbero essere 46? 24*2 - Crabbe e la spia che l'ha colpito?
+\end_layout
+
+\end_inset
+
+ caricavano i suoi diciassette, la mente di Hermione si svuotò.
 \end_layout
 
 \begin_layout Standard
@@ -3129,7 +3142,7 @@ non
 \emph on
 non sarebbe
 \emph default
- stato ignorato nella confusione…
+ passato inosservato nella confusione…
 \end_layout
 
 \begin_layout Standard
