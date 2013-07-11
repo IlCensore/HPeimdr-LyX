@@ -7,13 +7,10 @@
 \usepackage{fmtcount}
 \usepackage{graphicx}
 
-%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
-\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
-  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{\thepage}
-%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
+  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
 
@@ -22,18 +19,17 @@
   \renewcommand*{\chapterheadstart}{}
   \renewcommand*{\chapnumfont}{\normalfont}
   \renewcommand*{\printchaptername}{%
-%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
-     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \liningnums{\thechapter}}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
   \renewcommand*{\afterchapternum}{%
-    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+    \par\parbox{0.5in}{}\par}
   \renewcommand*{\printchapternonum}{%
     \vphantom{\chapnumfont \@chapapp 1}\par
     \parbox{0.5in}{}\par}
   \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
   \renewcommand*{\printchaptertitle}[1]{%
-    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
@@ -41,27 +37,13 @@
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
-\usepackage{shapepar} %paragrafi con una certa forma
-\usepackage{url}%url lunga
-\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
 
-\makeatletter
-\renewcommand\part{%
-  \if@openright
-    \cleardoublepage
-  \else
-    \clearpage
-  \fi
-  \thispagestyle{empty}%
-  \if@twocolumn
-    \onecolumn
-    \@tempswatrue
-  \else
-    \@tempswafalse
-  \fi
-  \null\vfil
-  \secdef\@part\@spart}
-\makeatother
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -73,8 +55,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Arno Pro
-\font_sans Myriad Pro
+\font_roman Garamond Premier Pro
+\font_sans Fredericka the Great
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -107,12 +89,12 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 15cm
-\paperheight 23cm
-\leftmargin 2.53cm
-\topmargin 3cm
-\rightmargin 2.23cm
-\bottommargin 2.2cm
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -142,43 +124,31 @@ name "chap:01Una-giornata-molto"
 \end_layout
 
 \begin_layout Standard
-\align block
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-%
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align left
-
-\size footnotesize
+\size small
 \emph on
 Al chiaro di luna splende un minuscolo frammento di argento, un pezzo di
  linea\SpecialChar \ldots{}
 
-\begin_inset Newline newline
-\end_inset
-
-(abiti neri, che cadono)
-\begin_inset Newline newline
-\end_inset
-
-\SpecialChar \ldots{}
-sangue fuoriesce a litri, e qualcuno urla una parola.
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+
+\size small
+\emph on
+(abiti neri, che cadono)
+\end_layout
+
+\begin_layout Standard
+
+\size small
+\emph on
+\SpecialChar \ldots{}
+ sangue fuoriesce a litri, e qualcuno urla una parola.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -193,7 +163,7 @@ status open
 
 
 \backslash
-lettrine[lines=3, lhang=0.33]{O}{gni centimetro delle pareti}
+lettrine[lines=2, lhang=0.33, loversize=0.25]{O}{gni centimetro delle pareti}
 \end_layout
 
 \end_inset
@@ -213,7 +183,7 @@ e di libri rialzata su vecchie scatole di fazzoletti o listelli di legno,
 
 \begin_layout Standard
 \align block
-Questo è il salotto della casa occupata dall'eminente professor Michael
+Questo è il salotto della casa occupata dall'eminente professore Michael
  Verres-Evans e da sua moglie, la signora Petunia Evans-Verres, e dal loro
  figlio adottivo, Harry James Potter-Evans-Verres.
 \end_layout
@@ -246,7 +216,7 @@ Stai scherzando
 \end_inset
 
 , disse Michael a Petunia.
- Il suo tono indicava che aveva una gran paura che lei parlasse seriamente.
+ Il suo tono indicava che aveva una gran paura che dicesse sul serio.
 \end_layout
 
 \begin_layout Standard
@@ -328,7 +298,7 @@ Il professore alzò gli occhi al cielo.
 \begin_inset Quotes fld
 \end_inset
 
-Cara, capisco come tu non abbia familiarità con la letteratura scettica.
+Cara, capisco che tu non abbia familiarità con la letteratura scettica.
  Potresti non comprendere come sia facile per un prestigiatore esperto fingere
  l'apparentemente impossibile.
  Ricordi come insegnai a Harry a piegare i cucchiai? Se ti sembrava che
@@ -379,7 +349,7 @@ Petunia si morse il labbro.
 \begin_inset Quotes fld
 \end_inset
 
-Non posso semplicemente dirtelo.
+Non posso dirtelo.
  Penseresti che sono
 \begin_inset space ~
 \end_inset
@@ -402,7 +372,7 @@ Ascolta, Michael.
 \begin_inset Quotes frd
 \end_inset
 
- Fece un gesto verso sé stessa, come ad indicare la sua figura flessuosa.
+ Fece un gesto verso sé stessa, come ad indicare la propria figura flessuosa.
  
 \begin_inset Quotes fld
 \end_inset
@@ -486,16 +456,16 @@ Ad ogni modo
 \begin_inset Quotes frd
 \end_inset
 
-, riprese Petunia con una voce piccola, 
+, riprese Petunia con la voce sommessa, 
 \begin_inset Quotes fld
 \end_inset
 
 cedette.
  Mi disse che sarebbe stato pericoloso, e risposi che non mi importava più,
- e bevvi quella pozione e caddi ammalata per settimane, ma quando tornai
- in salute la mia pelle si era schiarita e finalmente riempita e\SpecialChar \ldots{}
- ero bellissima,
- le persone erano 
+ e bevetti quella pozione e caddi ammalata per settimane, ma quando tornai
+ in salute la mia pelle si era schiarita e la mia figura si era finalmente
+ riempita e\SpecialChar \ldots{}
+ ero bellissima, le persone erano 
 \emph on
 gentili
 \emph default
@@ -507,8 +477,8 @@ gentili
 \begin_inset Quotes fld
 \end_inset
 
-e dopo di ciò non potei più odiare mia sorella, specie quando scoprii a
- cosa l'aveva portata infine la sua magia
+e dopo di questo non potei più odiare mia sorella, specie quando scoprii
+ a cosa l'aveva portata infine la sua magia
 \begin_inset space ~
 \end_inset
 
@@ -602,7 +572,7 @@ Petunia si contorse le mani.
 \end_inset
 
 Amore mio, so che non posso vincere le discussioni con te, ma ti prego,
- devi fidarti di me su questo
+ su questo devi fidarti di me
 \begin_inset space ~
 \end_inset
 
@@ -744,8 +714,8 @@ Allora non è necessario che litighiate su questa faccenda
 \begin_inset Quotes fld
 \end_inset
 
-Se è vero, potremmo far venire qui un professore di Hogwarts e osservare
- le magie noi stessi, e papà dovrà ammettere che è vera.
+Se è vero, potremmo far venire qui un professore di Hogwarts e vedere la
+ magia coi nostri occhi, e papà dovrà ammettere che è vera.
  E se non fosse così, mamma dovrà ammettere che è falsa.
  È per questo che esiste il metodo sperimentale, per non dover prendere
  decisioni solo con le discussioni
@@ -787,8 +757,8 @@ La bocca di Harry si contorse per l'amarezza.
  Era trattato bene, probabilmente meglio di quanto la maggior parte dei
  padri genetici trattavano i propri figli.
  Harry era stato mandato nelle migliori scuole primarie -- e quando questo
- non ebbe successo, aveva ricevuto precettori provenienti dall'inesauribile
- riserva degli studenti affamati.
+ non funzionò, aveva avuto precettori provenienti dall'inesauribile riserva
+ degli studenti affamati.
  Harry era stato sempre incoraggiato a studiare qualunque cosa attirasse
  la sua attenzione, ricevuto tutti i libri che avessero catturato la sua
  fantasia, sostenuto in qualunque competizione di matematica o di scienza
@@ -797,9 +767,9 @@ La bocca di Harry si contorse per l'amarezza.
  un minimo di rispetto.
  Non si poteva pretendere che un Dottore di ricerca che insegnava biochimica
  a Oxford potesse ascoltare i consigli di un ragazzino.
- Avrebbe ascoltato in modo da Mostrare Interesse, ovviamente; questo è quello
- che un Buon Genitore dovrebbe fare, e in questo modo, se si immaginava
- sé stessi come un Buon Genitore, si sarebbe agito.
+ Avresti ascoltato in modo da Mostrare Interesse, ovviamente; questo è quello
+ che un Buon Genitore dovrebbe fare, e in questo modo, se ti fossi immaginato
+ come un Buon Genitore, avresti agito.
  Ma prendere un bambino di dieci anni 
 \emph on
 sul serio?
@@ -1031,10 +1001,10 @@ idea
 
 \begin_layout Standard
 \align block
-Harry scrollò le spalle mentalmente.
+Mentalmente, Harry alzò le spalle.
  Una piastra di metallo piatto su una porta permetteva di spingerla, e una
  maniglia su una porta permetteva di tirarla, e la cosa da fare con un'ipotesi
- verificabile era di metterla alla prova.
+ verificabile era metterla alla prova.
 \end_layout
 
 \begin_layout Standard
@@ -1061,9 +1031,12 @@ Harry fece una pausa, riflettendo; poi sostituì il foglio con un altro,
 
 \emph on
 Gentile Vice Preside Minerva McGonagall,
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Quote
+\align block
+
+\emph on
 O chiunque sia competente:
 \end_layout
 
@@ -1084,8 +1057,8 @@ Ho recentemente ricevuto la sua lettera di accettazione a Hogwarts, indirizzata
 \align block
 
 \emph on
-Sono estremamente interessato a frequentare Hogwarts, sotto la condizione
- che tale posto esista realmente.
+Sono estremamente interessato a frequentare Hogwarts, a condizione che tale
+ posto esista realmente.
  Solo mia madre dice di essere al corrente della magia, e non può usarla
  essa stessa.
  Mio padre è estremamente scettico.
@@ -1099,7 +1072,7 @@ Sono estremamente interessato a frequentare Hogwarts, sotto la condizione
 
 \emph on
 Mia madre ha menzionato il fatto che mandaste un rappresentante di Hogwarts
- a Lily Potter (all'epoca Lily Evans) allo scopo di dimostrare alla sua
+ da Lily Potter (all'epoca Lily Evans) allo scopo di dimostrare alla sua
  famiglia che la magia è reale, e, presumo, per aiutare Lily a procurarsi
  il suo corredo scolastico.
  Se potesse fare la stessa cosa per la mia famiglia, sarebbe estremamente
@@ -1110,7 +1083,7 @@ Mia madre ha menzionato il fatto che mandaste un rappresentante di Hogwarts
 \align block
 
 \emph on
-Con sincerità,
+Cordialmente,
 \end_layout
 
 \begin_layout Quote
@@ -1127,7 +1100,7 @@ Harry aggiunse il loro indirizzo corrente, quindi ripiegò la lettera e la
  Un'ulteriore riflessione lo portò a procurarsi una candela e a far gocciolare
  della cera sul lembo della busta, e su di essa, utilizzando la punta di
  un temperino, incise le iniziali H.J.P.E.V.
- Se doveva discendere in questa follia, l'avrebbe fatto con stile.
+ Se doveva immergersi in questa follia, l'avrebbe fatto con stile.
 \end_layout
 
 \begin_layout Standard
@@ -1135,13 +1108,13 @@ Harry aggiunse il loro indirizzo corrente, quindi ripiegò la lettera e la
 Poi aprì la porta e tornò al piano di sotto.
  Suo padre era seduto in salotto e leggeva un libro di matematica superiore
  per dimostrare quanto fosse intelligente; e sua madre era in cucina a preparare
- uno dei piatti preferiti di suo padre per dimostrare quanto amorevole fosse.
+ uno dei piatti preferiti di suo padre per dimostrare quanto fosse amorevole.
  Sembrava che non stessero affatto parlandosi.
  Per quanto spaventosi potessero essere i litigi, 
 \emph on
 non litigare
 \emph default
- era in qualche modo molto peggio.
+ era in qualche modo peggio.
 \end_layout
 
 \begin_layout Standard
@@ -1185,7 +1158,7 @@ Questo sarebbe dovuto sembrare molto sospetto,
 \emph on
 oh, quindi non c'è modo di verificare la tua teoria, allora
 \emph default
-, ma la particolare certezza in Harry sembrò essere disposta a rischiare
+, ma l'insolita certezza dentro Harry sembrò essere disposta a rischiare
  ancora di più.
 \end_layout
 
@@ -1219,12 +1192,16 @@ Suo padre scosse appena la testa e continuò a leggere.
 Naturalmente
 \emph default
 , Harry pensò rivolto a sé stesso.
- La magia era qualcosa di vergognoso in cui solo le persone stupide credevano;
- se suo padre fosse giunto a testare l'ipotesi, o persino a 
+ La magia era qualcosa di disonorevole in cui solo le persone stupide credevano;
+ se suo padre fosse arrivato a 
+\emph on
+mettere alla prova
+\emph default
+ l'ipotesi, o persino a 
 \emph on
 osservare
 \emph default
- mentre veniva testata, gli sarebbe parso di 
+ mentre era messa alla prova, gli sarebbe parso di 
 \emph on
 associarsi
 \emph default
@@ -1297,7 +1274,7 @@ Lettera --
 
 \begin_layout Standard
 \align block
-Harry rafforzò la propria volontà e gridò al cielo vuoto, 
+Harry rese ferrea la propria volontà e gridò al cielo vuoto, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1335,7 +1312,7 @@ Harry tirò giù la mano come se si fosse scottato e nascose la busta dietro
 \align block
 Il volto dell'anziana signora fece capolino da sopra la vicina staccionata,
  capelli grigi brizzolati che sfuggivano dalla retina.
- La signora Figg, saltuariamente sua babysitter.
+ La signora Figg, occasionalmente sua babysitter.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1430,18 +1407,18 @@ non hai
 cosa
 \emph default
  una certa persona deve aver pensato, per mandarti semplicemente la lettera
- standard
+ standard.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 \align block
 Un braccio rugoso si allungò da sopra la staccionata, e aprì una mano in
  attesa.
- A questo punto Harry era appena in grado di pensare, e consegnò la sua
+ A quel punto Harry era a malapena in grado di pensare, e consegnò la sua
  busta.
 \end_layout
 
