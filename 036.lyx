@@ -58,7 +58,7 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman Garamond Premier Pro
-\font_sans Gill Sans Std
+\font_sans Fredericka the Great
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -68,7 +68,7 @@ initials
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf5
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -131,25 +131,9 @@ status open
 
 \begin_layout Plain Layout
 
-%
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 
 \backslash
-lettrine[lines=3, lhang=0.33, loversize=0.25]{U}{n disorientamento straziante}
+lettrine[lines=2, lhang=0.33, loversize=0.25]{U}{n disorientamento straziante}
 \end_layout
 
 \end_inset
@@ -1903,7 +1887,7 @@ Bene
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
