@@ -1,0 +1,788 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{39}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{}{}{}
+  \makeoddfoot{myheadings}{}{}{}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Garamond Premier Pro
+\font_sans Fredericka the Great
+\font_typewriter EB Garamond Initials
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Fingere di essere saggi, Parte
+\begin_inset space ~
+\end_inset
+
+II
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:40Fingere-II"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=2, lhang=0.33, loversize=0.25]{R}{eggendo la tazza}
+\end_layout
+
+\end_inset
+
+ di tè nel modo corretto che il professor Quirrell aveva avuto bisogno di
+ mostrargli tre volte, Harry bevette un piccolo sorso circospetto.
+ Dalla parte completamente opposta del lungo e ampio tavolo che era il pezzo
+ centrale della Mary's Room, il professor Quirrell bevette un sorso dalla
+ propria tazza, facendolo sembrare molto più naturale ed elegante.
+ Il tè stesso aveva un nome che Harry non poteva neppure pronunciare, o
+ quanto meno, ogni volta che aveva provato a ripetere le parole cinesi,
+ il professor Quirrell lo aveva corretto, finché Harry si non era arreso.
+\end_layout
+
+\begin_layout Standard
+Harry si era mosso in modo da gettare un'occhiata al conto, l'ultima volta,
+ e il professor Quirrell gliel'aveva fatta passare.
+\end_layout
+
+\begin_layout Standard
+Precedentemente aveva sentito un impulso a bere dello Spiri-Tè.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Anche tenendolo in considerazione
+\emph default
+, Harry era comunque rimasto completamente sconvolto.
+\end_layout
+
+\begin_layout Standard
+E comunque continuava a sapere di, beh, tè.
+\end_layout
+
+\begin_layout Standard
+C'era un sospetto sommesso e assillante nella mente di Harry che il professor
+ Quirrell lo 
+\emph on
+sapesse
+\emph default
+, e stesse deliberatamente comprando tè incredibilmente costoso che Harry
+ non era in grado di apprezzare 
+\emph on
+solo per provocarlo
+\emph default
+.
+ Il professor Quirrell 
+\emph on
+stesso
+\emph default
+ avrebbe potuto non gradirlo molto.
+ Forse 
+\emph on
+a nessuno
+\emph default
+ piaceva quel tè, e il punto era proprio quello di essere incredibilmente
+ costoso e far sentire la vittima incapace di apprezzarlo.
+ In fatti, forse era solo del tè ordinario, solo era richiesto con un certo
+ codice, e loro mettevano una gigantesco prezzo fasullo sul conto…
+\end_layout
+
+\begin_layout Standard
+L'espressione del professor Quirrell era contratta e pensierosa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+non
+\emph default
+ avrebbe dovuto raccontare al Preside la sua conversazione con Lord Malfoy.
+ La prego di pensare più rapidamente la prossima volta, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace, professor Quirrell
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry docilmente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ancora non capisco
+\begin_inset Quotes frd
+\end_inset
+
+.
+ C'erano volte in cui Harry si sentiva proprio come un impostore, fingendo
+ di essere scaltro in presenza del professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lord Malfoy è l'avversario di Albus Silente.
+ Per lo meno per ora.
+ Tutta la Gran Bretagna è la loro scacchiera, tutti i maghi i loro pezzi.
+ Consideri questo: Lord Malfoy ha minacciato di gettare via tutto, di abbandonar
+e la sua partita, per vendicarsi di lei se il signor Malfoy dovesse essere
+ colpito.
+ Nel qual caso, signor Potter…?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci vollero diversi lunghi secondi prima che Harry lo capisse, ma era chiaro
+ che il professor Quirrell non aveva intenzione di dargli altri suggerimenti,
+ non che Harry li desiderasse.
+\end_layout
+
+\begin_layout Standard
+Allora la mente di Harry fece finalmente il collegamento, ed egli si accigliò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Silente uccide Draco, lo fa sembrare come se l'abbia fatto 
+\emph on
+io
+\emph default
+, e Lucius sacrifica la sua partita contro Silente per arrivare a me? Questo…
+ non mi sembra lo 
+\emph on
+stile
+\emph default
+ del Preside, professor Quirrell…
+\begin_inset Quotes frd
+\end_inset
+
+ La mente di Harry tornò ad un avvertimento simile di Draco, che aveva fatto
+ dire a Harry la stessa cosa.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell alzò le spalle, e sorseggiò il suo tè.
+\end_layout
+
+\begin_layout Standard
+Harry bevette un sorso del proprio tè, e rimase seduto in silenzio.
+ La tovaglia distesa sulla tavola aveva una decorazione molto sfumata, alla
+ prima occhiata sembrava tessuto non decorato, ma se la fissavi abbastanza
+ a lungo, o restavi in silenzio abbastanza a lungo, avresti iniziato a vedere
+ su di essa una tenue traccia di fiori baluginanti; le tende della stanza
+ avevano mutato la propria decorazione per accordarsi, e sembravano scintillare
+ come se mosse da una brezza silenziosa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Professor Quirrell
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry improvvisamente, 
+\begin_inset Quotes fld
+\end_inset
+
+c'è una vita dopo la morte?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry aveva scelto la domanda con attenzione.
+ Non, 
+\emph on
+crede nella vita dopo la morte?
+\emph default
+ ma semplicemente 
+\emph on
+c'è una vita dopo la morte?
+\emph default
+ Ciò che la gente credeva 
+\emph on
+davvero
+\emph default
+ non sembrava loro affatto una 
+\emph on
+credenza
+\emph default
+.
+ La gente non diceva, `credo fermamente che il cielo sia blu!' Dicevano
+ semplicemente, `il cielo è blu'.
+ La tua vera mappa interiore del mondo ti sembrava proprio il modo in cui
+ il mondo 
+\emph on
+era…
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa portò la tazza alle labbra prima di rispondere.
+ Il suo volto era pensieroso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se esistesse, signor Potter, allora un buon numero di maghi avrebbe sprecato
+ una gran quantità di sforzi nelle loro ricerche dell'immortalità
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questa non è davvero una risposta
+\begin_inset Quotes frd
+\end_inset
+
+, osservò Harry.
+ Ormai aveva imparato a notare quel genere di cose mentre parlava al professor
+ Quirrell.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell appoggiò la tazza sul suo piattino con un piccolo
+ suono squillante.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Alcuni di quei maghi erano ragionevolmente intelligenti, signor Potter,
+ quindi può dedurne che l'esistenza di una vita dopo la morte non sia ovvia.
+ Ho studiato la questione personalmente.
+ Ci sono state diverse affermazioni del genere che speranza e paura devono
+ produrre.
+ Tra quei resoconti la cui veridicità non è in dubbio, non c'è nulla che
+ non possa essere il risultato della semplice magia.
+ Ci sono alcuni dispositivi che si dice comunichino con i morti, ma questi,
+ sospetto, si limitano a proiettare solamente un'immagine proveniente dalla
+ mente; il risultato sembra indistinguibile dalla memoria perché 
+\emph on
+è
+\emph default
+ una memoria.
+ I presunti spiriti non rivelano alcun segreto che conoscevano in vita,
+ né che hanno potuto conoscere dopo la morte, che non sia conosciuto al
+ sensitivo
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Motivo per il quale la Pietra della Risurrezione non è l'artefatto magico
+ più prezioso del mondo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Precisamente, sebbene non direi di no ad un'opportunità di provarlo
+\begin_inset Quotes frd
+\end_inset
+
+.
+ C'era un sorriso sottile e asciutto sulle sue labbra; e qualcosa di più
+ freddo, di più distante, nei suoi occhi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Con Silente ha parlato anche di questo, ne deduco
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Harry annuì.
+\end_layout
+
+\begin_layout Standard
+Le tende stavano assumendo su un flebile disegno blu, e un tenue intreccio
+ decorativo di elaborati fiocchi di neve sembrava diventare ora visibile
+ sulla tovaglia.
+ La voce del professor Quirrell suonò molto calma.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il Preside può essere molto persuasivo, signor Potter.
+ Spero che non abbia persuaso lei
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Diamine
+\emph default
+, no.
+ Non mi ha ingannato nemmeno per un secondo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Spererei proprio di no
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, ancora con quel tono molto calmo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sarei estremamente offeso se scoprissi che il Preside l'ha convinta a gettare
+ via la sua vita in qualche folle piano dicendole che la morte è la prossima
+ grande avventura
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non penso che il Preside ci creda davvero, in effetti
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Sorseggiò nuovamente il suo tè.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi ha chiesto cosa potrei voler fare con l'eternità, propinandomi la solita
+ battuta sul fatto che sia noiosa, e non è sembrato vedere alcuna contraddizione
+ tra questo e la sua affermazione di avere un'anima immortale.
+ Non riesco proprio a visualizzare cosa debba essere successo dentro la
+ sua testa, ma non penso che avesse 
+\emph on
+realmente
+\emph default
+ un modello mentale di sé stesso che continuasse a vivere in eterno nella
+ vita dopo la morte…
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La temperatura della stanza sembrò scendere.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lei si rende conto
+\begin_inset Quotes frd
+\end_inset
+
+, disse una voce come ghiaccio dall'altro lato della tavola, 
+\begin_inset Quotes fld
+\end_inset
+
+che Silente non crede davvero a ciò che dice.
+ Non è che sia sceso a compromessi con i suoi principi.
+ È che non li ha mai avuti sin da principio.
+ Non è ancora diventato cinico, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry aveva abbassato gli occhi sulla propria tazza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Un po'
+\begin_inset Quotes frd
+\end_inset
+
+, disse al suo tè cinese probabilmente-di-qualità-ultra-alta, forse-eccessivamen
+te-costoso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sto certamente diventando un po' 
+\emph on
+frustrato
+\emph default
+ per… qualunque cosa ci sia di sbagliato nella testa della gente
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì
+\begin_inset Quotes frd
+\end_inset
+
+, disse quella voce di ghiaccio.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lo trovo frustrante anch'io
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+C'è un modo qualsiasi per far sì che la gente 
+\emph on
+non
+\emph default
+ lo faccia?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Harry alla propria tazza.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+In effetti esiste un particolare e utile incantesimo che risolve il problema.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A quelle parole, Harry alzò speranzoso lo sguardo, e vide un gelido, gelido
+ sorriso sul volto del Professore di Difesa.
+\end_layout
+
+\begin_layout Standard
+Poi comprese.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voglio dire, 
+\emph on
+a parte
+\emph default
+ Avada Kedavra
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa rise.
+ Harry no.
+\end_layout
+
+\begin_layout Standard
+“Anyway,” Harry said hastily, “I 
+\emph on
+did
+\emph default
+ think fast enough not to suggest the obvious idea about the Resurrection
+ Stone in front of Dumbledore.
+ Have you ever seen a stone with a line, inside a circle, inside a triangle?”
+\end_layout
+
+\begin_layout Standard
+The deathly chill seemed to draw back, fold into itself, as the ordinary
+ Professor Quirrell returned.
+ “Not that I can recall,” Professor Quirrell said after a while, a thoughtful
+ frown on his face.
+ “That is the Resurrection Stone?”
+\end_layout
+
+\begin_layout Standard
+Harry set aside his teacup, then drew on his saucer the symbol he had seen
+ on the inside of his cloak.
+ And before Harry could take out his own wand to cast the Hover Charm, the
+ saucer went floating obligingly across the table toward Professor Quirrell.
+ Harry really wanted to learn that wandless stuff, but that, apparently,
+ was far above his current curriculum.
+\end_layout
+
+\begin_layout Standard
+Professor Quirrell studied Harry's tea-saucer for a moment, then shook his
+ head; and a moment later, the saucer went floating back to Harry.
+\end_layout
+
+\begin_layout Standard
+Harry put his teacup back on the saucer, noting absently as he did so that
+ the symbol he'd drawn had vanished.
+ “If you happen to see a stone with that symbol,” said Harry, “and it 
+\emph on
+does
+\emph default
+ talk to the afterlife, do let me know.
+ I have a few questions for Merlin or anyone who was around in Atlantis.”
+\end_layout
+
+\begin_layout Standard
+“Quite,” said Professor Quirrell.
+ Then the Defense Professor lifted up his teacup again, and tipped it back
+ as though to finish the last of what was there.
+ “By the way, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter, I fear we shall have to cut short today's visit to Diagon Alley.
+ I was hoping it would 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+ but never mind.
+ Let it stand that there is something else I must do this afternoon.”
+\end_layout
+
+\begin_layout Standard
+Harry nodded, and finished his own tea, then rose from his seat at the same
+ time as Professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+“One last question,” Harry said, as Professor Quirrell's coat lifted itself
+ off the coatrack and went floating toward the Defense Professor.
+ “Magic is loose in the world, and I no longer trust my guesses so much
+ as I once did.
+ So in your own best guess and without any wishful thinking, do 
+\emph on
+you
+\emph default
+ believe there's an afterlife?”
+\end_layout
+
+\begin_layout Standard
+“If I did, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter,” said Professor Quirrell as he shrugged on his coat, “would I still
+ be 
+\emph on
+here?
+\emph default
+”
+\end_layout
+
+\end_body
+\end_document
