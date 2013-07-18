@@ -11,10 +11,10 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
-  \makeoddhead{myheadings}{}{}{\thepage}
-  \makeevenfoot{myheadings}{}{}{}
-  \makeoddfoot{myheadings}{}{}{}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -61,7 +61,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
+\font_roman EB Garamond
 \font_sans Fredericka the Great
 \font_typewriter EB Garamond Initials
 \font_default_family default
@@ -98,7 +98,7 @@ initials
 \paperwidth 6in
 \paperheight 9in
 \leftmargin 1.524cm
-\topmargin 2.324cm
+\topmargin 1.524cm
 \rightmargin 3.048cm
 \bottommargin 3.048cm
 \secnumdepth 3
@@ -281,6 +281,7 @@ cose
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -516,6 +517,7 @@ Questo sarà molto più difficile da fare di proposito che per disgrazia,
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -524,38 +526,61 @@ Questo sarà molto più difficile da fare di proposito che per disgrazia,
 \end_layout
 
 \begin_layout Standard
-Harry's other hand held the roof in a reflexively terrified grip, his fingers
- white on the cold, cold stone.
+L'altra mano di Harry era aggrappata al tetto con una stretta automatica
+ e terrorizzata, le sue dita bianche sulla fredda, fredda pietra.
 \end_layout
 
 \begin_layout Standard
-You could know with your conscious mind that you'd drunk the Feather-Falling
- Potion.
- Knowing it with your unconscious mind was another matter entirely.
+Potevi sapere con la parte cosciente della tua mente che avevi bevuto la
+ Pozione Caduta-Piuma.
+ Saperlo con la parte inconscia della tua mente era tutta un'altra cose.
 \end_layout
 
 \begin_layout Standard
-It was every bit as scary as Harry had thought it might have been for Hermione,
- which was justice.
+Era esattamente tanto spaventoso quanto Harry aveva pensato potesse essere
+ stato per Hermione, cosa che era giusta.
 \end_layout
 
 \begin_layout Standard
-“Draco,” said Harry, controlling his voice wasn't easy, but the Ravenclaw
- girls had given them a script, “You've got to let me go!”
+\begin_inset Quotes fld
+\end_inset
+
+Draco
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, controllare la propria voce non era facile, ma le ragazze
+ Corvonero avevano dato loro un copione, 
+\begin_inset Quotes fld
+\end_inset
+
+devi lasciarmi andare!
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“Okay!” said Draco, and let go of Harry's arm.
+\begin_inset Quotes fld
+\end_inset
+
+Va bene!
+\begin_inset Quotes frd
+\end_inset
+
+ disse Draco, e lasciò andare il braccio di Harry.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../HPMOR/GitHub/042-draco__the_drop_lord_2_by_dinosaurusgede-d2yp4rf.png
+	filename 042-draco__the_drop_lord_2_by_dinosaurusgede-d2yp4rf.png
 	lyxscale 30
+	display false
 	width 9.4cm
 
 \end_inset
@@ -569,65 +594,54 @@ status open
 \end_layout
 
 \begin_layout Standard
-Harry's other hand scrabbled at the edge, and then, without any decision
- being made, his fingers failed, and Harry fell.
+L'altra mano di Hary raspò in cerca di un appiglio, e poi, senza che alcuna
+ decisione fosse presa, le sue dita cedettero, e Harry cadde.
 \end_layout
 
 \begin_layout Standard
-There was a brief moment when Harry's stomach tried to leap up into his
- throat, and his body tried desperately to orient itself in the absence
- of any possible way to do so.
+Ci fu un breve momento in cui lo stomaco di Harry cercò di saltargli in
+ gola, e il suo corpo tentò disperatamente di orientarsi in mancanza di
+ ogni possibile modo di farlo.
 \end_layout
 
 \begin_layout Standard
-There was a brief moment when Harry could feel the Feather-Falling Potion
- kicking in, starting to slow him, a sort of lurching, cushioning feeling.
+Ci fu un breve momento in cui Harry poté sentire la Pozione Caduta-Piuma
+ attivarsi, iniziare a rallentarlo, una sorta di sbandamento, la sensazione
+ di essere ammortizzato.
 \end_layout
 
 \begin_layout Standard
-And then something 
+E poi qualcosa 
 \emph on
-pulled
+tirò
 \emph default
- on Harry and he accelerated downward again 
+ Harry ed egli accelerò nuovamente verso il basso 
 \emph on
-faster than gravity 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+più velocemente della gravità
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Standard
-Harry's mouth had already opened and begun screaming while part of his brain
- tried to think of something creative he could do, part of his brain tried
- to calculate how much time he had left to be creative, and a tiny rump
- part of his brain noticed that he wasn't even going to finish the remaining-tim
-e calculation before he hit the ground 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+La bocca di Harry si era già a perta e iniziò a gridare mentre parte del
+ suo cervello cercò di pensare a qualcosa di creativo che potesse fare,
+ parte del suo cervello cercò di calcolare quanto tempo avesse ancora per
+ essere creativo, e una piccola parte superstite del cervello notò che non
+ avrebbe neppure terminato il calcolo sul tempo rimanente prima di colpire
+ il suolo
+\begin_inset space ~
 \end_inset
 
-
+--
 \end_layout
 
 \begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -636,142 +650,237 @@ status open
 \end_layout
 
 \begin_layout Standard
-Harry was desperately trying to control his hyperventilating, and it wasn't
- helping him to hear the shrieking of all the girls, now lying in heaps
- on the ground and each other.
+Harry stava cercando disperatamente di controllare la propria iperventilazione,
+ e non lo stava certo aiutando sentire le urla di tutte le ragazze, che
+ ora si riunivano in mucchi sul terreno e l'una sull'altra.
 \end_layout
 
 \begin_layout Standard
-“Good heavens,” said the unfamiliar man, he of the old-looking clothes and
- faintly scarred face, who was holding Harry in his arms.
- “Of all the ways I imagined we might meet again someday, I didn't expect
- it to be you falling out of the sky.”
+\begin_inset Quotes fld
+\end_inset
+
+Santo cielo
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'uomo sconosciuto, con i vestiti antiquati e il volto leggermente
+ segnato da cicatrici, che stava reggendo Harry tra le sue braccia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Di tutti i modi in cui ho immaginato che ci saremmo potuti incontrare nuovamente
+ un giorno, non mi sarei aspettato che saresti caduto dal cielo
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Harry remembered the last thing he'd seen, the falling body, and managed
- to gasp, “Professor… Quirrell…”
+Harry ricordò l'ultima cosa che aveva visto, il corpo che cadeva, e riuscì
+ a rantolare, 
+\begin_inset Quotes fld
+\end_inset
+
+Professor… Quirrell…
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“He'll be all right after a few hours,” said the unfamiliar man holding
- Harry.
- “He's just exhausted.
- I wouldn't have thought it possible… he must have knocked down 
+\begin_inset Quotes fld
+\end_inset
+
+Starà bene tra qualche ora
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'uomo sconosciuto che reggeva Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Era solo esausto.
+ Non l'avrei pensato possibile… deve aver abbattuto 
 \emph on
-two hundred students
+duecento studentesse
 \emph default
- just to make sure he got whoever was jinxing you…”
+ giusto per essere sicuro di colpire chiunque ti stesse lanciando il malocchio…
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Gently, the man set Harry upright on the ground, supporting him the while.
+Delicatamente, l'uomo mise Harry in piedi sul terreno, sostenendolo per
+ tutto il tempo.
 \end_layout
 
 \begin_layout Standard
-Harry carefully balanced himself, and nodded to the man.
+Harry si mise attentamente in equilibrio, e annuì all'uomo.
 \end_layout
 
 \begin_layout Standard
-He let go, and Harry promptly fell over.
+Egli lo lasciò andare, e Harry prontamente cadde a terra.
 \end_layout
 
 \begin_layout Standard
-The man helped him rise again.
- Making sure, at all times, to stand between Harry and the girls now picking
- themselves up from the ground, his head constantly glancing in that direction.
+L'uomo l'aiutò ad alzarsi nuovamente.
+ Assicurandosi, in ogni momento, di mettersi tra Harry e le ragazze che
+ si stavano ora tirando su da terra, la sua testa che gettava costantemente
+ occhiate in quella direzione.
 \end_layout
 
 \begin_layout Standard
-“Harry,” the man said quietly, and very seriously, “do you have any idea
- which of these girls might have wanted to kill you?”
+\begin_inset Quotes fld
+\end_inset
+
+Harry
+\begin_inset Quotes frd
+\end_inset
+
+, l'uomo disse piano, e molto seriamente, 
+\begin_inset Quotes fld
+\end_inset
+
+hai qualche idea su quale di queste ragazze possa averti voluto uccidere?
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“Not murder,” said a strained voice.
- “Just stupidity.”
+\begin_inset Quotes fld
+\end_inset
+
+Non un omicidio
+\begin_inset Quotes frd
+\end_inset
+
+, disse una voce provata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Solo stupidità
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-This time it was the unfamiliar man who seemed to almost fall over, utter
- shock on his face.
+Questa volta fu lo sconosciuto che sembrò sul punto di cadere, il volto
+ completamente sconvolto.
 \end_layout
 
 \begin_layout Standard
-Professor Quirrell was already sitting up from where he'd fallen on the
- grass.
+Il professor Quirrell si stava già mettendo a sedere, nel luogo in cui era
+ caduto sull'erba.
 \end_layout
 
 \begin_layout Standard
-“Good heavens!” gasped the man.
- “You shouldn't be 
-\begin_inset ERT
-status open
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Santo cielo!
+\begin_inset Quotes frd
+\end_inset
+
+ boccheggiò l'uomo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non dovrebbe
+\begin_inset space ~
+\end_inset
 
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-“Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Lupin, your concerns are misplaced.
- No wizard, no matter how powerful, casts such a Charm by strength alone.
- You must do it by being 
+Signor Lupin, le sue preoccupazioni sono fuori luogo.
+ Nessun mago, non importa quanto potente, lancia un Incantesimo simile solo
+ con la forza.
+ Bisogna farlo essendo 
 \emph on
-efficient.
+efficienti
 \emph default
-“
-\end_layout
-
-\begin_layout Standard
-Professor Quirrell didn't stand up, though.
-\end_layout
-
-\begin_layout Standard
-“Thank you,” Harry whispered.
- And then, “Thank you,” to the man standing beside him as well.
-\end_layout
-
-\begin_layout Standard
-“What happened?” said the man.
-\end_layout
-
-\begin_layout Standard
-“I should have foreseen it myself,” Professor Quirrell said, his voice crisp
- with disapproval.
- “Some number of girls tried to summon Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+.
+\begin_inset Quotes frd
 \end_inset
 
-Potter to their own, particular arms.
- Individually, I suppose, they all thought they were being gentle.”
+
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell non si alzò in piedi, però.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Grazie
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Harry.
+ E poi, 
+\begin_inset Quotes fld
+\end_inset
+
+Grazie
+\begin_inset Quotes frd
+\end_inset
+
+, rivolto anche all'uomo al suo fianco.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cos'è successo?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese l'uomo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Avrei dovuto prevederlo io stesso
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, la sua voce con una nota decisa di biasimo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Un certo numero di ragazze hanno cercato di attirare il signor Potter tra
+ le proprie braccia.
+ Singolarmente, suppongo, pensavano tutte di essere gentili
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -779,121 +888,131 @@ Oh.
 \end_layout
 
 \begin_layout Standard
-“Consider it a lesson in preparedness, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+La consideri una lezione sulla preparazione, signor Potter
+\begin_inset Quotes frd
 \end_inset
 
-Potter,” said Professor Quirrell.
- “Had I not 
+, disse il professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se non avessi 
 \emph on
-insisted
+insistito
 \emph default
- that there be more than one adult witness to this little event, and that
- 
+ sulla presenza di più di un testimone adulto a questo piccolo evento, e
+ che 
 \emph on
-both
+entrambi
 \emph default
- of us have our wands out, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+ avessimo le bacchette pronte, il signor Lupin non sarebbe stato disponibile
+ per rallentare la sua caduta successiva, e lei sarebbe stato gravemente
+ ferito
+\begin_inset Quotes frd
 \end_inset
 
-Lupin would not have been available to slow your fall afterward, and you
- would have been gravely injured.”
+.
 \end_layout
 
 \begin_layout Standard
-“
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
-Sir!
+Signore!
 \emph default
-” said the man 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
- Mr.
-\begin_inset ERT
-status open
+ disse l'uomo -- il signor Lupin, evidentemente, 
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Non dovrebbe dire cose del genere al ragazzo!
+\begin_inset Quotes frd
+\end_inset
 
 
-\backslash
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Chi è --
+\begin_inset Quotes frd
+\end_inset
+
+ iniziò a dire Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+L'unica altra persona che fosse disponibile per assistere, oltre a me
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Lupin, apparently.
- “You should not say such things to the boy!”
-\end_layout
-
-\begin_layout Standard
-“Who is 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Le presento Remus Lupin, che è qui solo temporaneamente per insegnare agli
+ studenti l'Incantesimo Patronus.
+ Sebbene mi sia stato detto che voi due vi siate già incontrati
+\begin_inset Quotes frd
 \end_inset
 
-” Harry started to say.
+.
 \end_layout
 
 \begin_layout Standard
-“The only other person who was available to watch, besides myself,” said
- Professor Quirrell.
- “I introduce you to Remus Lupin, who is here temporarily to instruct students
- in the Patronus Charm.
- Though I am told that the two of you have already met.”
+Harry studiò l'uomo, perplesso.
+ Avrebbe dovuto ricordare quel volto leggermente segnato da cicatrici, quello
+ strano sorriso gentile.
 \end_layout
 
 \begin_layout Standard
-Harry studied the man, puzzled.
- He should have remembered that faintly scarred face, that strange, gentle
- smile.
+\begin_inset Quotes fld
+\end_inset
+
+Dove ci siamo incontrati?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Harry.
 \end_layout
 
 \begin_layout Standard
-“Where did we meet?” said Harry.
-\end_layout
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-“In Godric's Hollow,” said the man.
- “I changed a number of your nappies.”
+A Godric's Hollow
+\begin_inset Quotes frd
+\end_inset
+
+, rispose l'uomo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ti ho cambiato un certo numero di pannolini
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
