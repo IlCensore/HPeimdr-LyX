@@ -10,10 +10,10 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\liningnums{\thechapter}\ ·\ \leftmark}{}{}
-  \makeoddhead{myheadings}{}{}{\thepage}
-  \makeevenfoot{myheadings}{}{}{}
-  \makeoddfoot{myheadings}{}{}{}
+  \makeevenhead{myheadings}{Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -100,7 +100,7 @@ initials
 \inputencoding auto
 \fontencoding 
 \font_roman Garamond Premier Pro
-\font_sans Fredericka the Great
+\font_sans Gill Sans Std
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
