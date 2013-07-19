@@ -11,9 +11,9 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{}{}{}
+  \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{}
-  \makeevenfoot{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
   \makeoddfoot{myheadings}{}{}{\thepage}
 
 \makechapterstyle{hpmor}{%
@@ -62,7 +62,7 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans Fredericka the Great
+\font_sans Griffy
 \font_typewriter EB Garamond Initials
 \font_default_family default
 \use_non_tex_fonts true
@@ -98,7 +98,7 @@ initials
 \paperwidth 6in
 \paperheight 9in
 \leftmargin 1.524cm
-\topmargin 1.524cm
+\topmargin 2.324cm
 \rightmargin 3.048cm
 \bottommargin 3.048cm
 \secnumdepth 3
@@ -119,10 +119,14 @@ initials
 \begin_body
 
 \begin_layout Chapter
-Umanesimo
+Umanesimo, Parte
+\begin_inset space ~
+\end_inset
+
+I
 \begin_inset CommandInset label
 LatexCommand label
-name "chap:43Umanesimo"
+name "chap:43Umanesimo-1"
 
 \end_inset
 
@@ -137,7 +141,7 @@ status open
 
 
 \backslash
-lettrine[lines=2, lhang=0.33, loversize=0.25]{I}{l sole gentile di Gennaio}
+lettrine[lines=2, lhang=0.33, loversize=0.25]{I}{l sole gentile di gennaio}
 \end_layout
 
 \end_inset
@@ -146,245 +150,321 @@ lettrine[lines=2, lhang=0.33, loversize=0.25]{I}{l sole gentile di Gennaio}
 \end_layout
 
 \begin_layout Standard
-For some of the students it was a study hour, and others had been let out
- of class.
- The first-years who'd signed up for it were practicing a certain spell,
- a spell that was most advantageously learned outdoors, beneath the bright
- sun and a clear blue sky, rather than within the confines of any classroom.
- Cookies and lemonade were also considered helpful.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
+Per alcuni degli studenti era un'ora di studio, e altri erano stati autorizzati
+ a lasciare le aule.
+ Gli studenti del primo anno che vi si erano iscritti stavano facendo pratica
+ con un certo incantesimo, un incantesimo che si imparava più proficuamente
+ all'esterno, sotto un sole splendente e un terso cielo blu, piuttosto che
+ dentro i confini di un'aula.
+ Anche biscotti e limonata erano considerati d'aiuto.
 \end_layout
 
+\begin_layout Standard
+I gesti iniziali dell'incantesimo erano complessi e precisi; contraevi la
+ tua bacchetta una, due, tre e quattro volte con piccole inclinazioni a
+ precisi angoli relativi, spostavi indice e pollice esattamente alla giusta
+ distanza…
+\end_layout
+
+\begin_layout Standard
+Il Ministero pensava che questo significasse che fosse inutile provare ad
+ insegnare l'incantesimo a chiunque prima del suo quinto anno.
+ C'erano stati alcuni casi conosciuti di bambini più piccoli che l'avevano
+ imparato, ed erano stati derubricati come 
+\begin_inset Quotes fld
+\end_inset
+
+genio
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Poteva non essere stato un modo molto educato di dirlo, ma Harry iniziava
+ a capire perché il professor Quirrell aveva affermato che il Comitato per
+ i Programmi di Studio del Ministero sarebbe stato di maggior giovamento
+ se fosse stato usato come discarica.
+\end_layout
+
+\begin_layout Standard
+Quindi i gesti erano complicati e delicati.
+ Questo non ti impediva di impararlo quando avevi undici anni.
+ Significava che dovevi essere estremamente attento ed esercitarti su ogni
+ parte più a lungo del solito, tutto lì.
+\end_layout
+
+\begin_layout Standard
+La maggior parte degli Incantesimi che potevano essere imparati soltanto
+ dagli studenti più grandi erano tali in quanto richiedevano più forza magica
+ di quanto qualunque giovane studente potesse chiamare a raccolta.
+ Ma l'Incantesimo Patronus 
+\emph on
+non era
+\emph default
+ così, non era difficile perché necessitava di troppa magi, era difficile
+ perché richiedeva 
+\emph on
+ben più
+\emph default
+ che la sola magia.
+\end_layout
+
+\begin_layout Standard
+Richiedeva i sentimenti affettuosi e felici che tenevi chiusi nel tuo cuore,
+ i ricordi amorevoli, un genere diverso di forza di cui non avevi bisogno
+ per gli incantesimi ordinari.
+\end_layout
+
+\begin_layout Standard
+Harry contrasse la sua bacchetta una, due, tre e quattro volte, spostò indice
+ e pollice esattamente alla giusta distanza…
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Buona fortuna per la scuola, Harry.
+ Pensi che ti abbia comprato abbastanza libri?
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+«
+\emph on
+Non si possono mai avere abbastanza libri… ma certamente ci hai provato,
+ è stato davvero, davvero, davvero un buon tentativo…
+\emph default
+»
+\end_layout
+
+\begin_layout Standard
+Gli aveva fatto venire le lacrime agli occhi, la prima volta che Harry l'aveva
+ ricordato e provato a mettere nell'incantesimo.
+\end_layout
+
+\begin_layout Standard
+Harry sollevò e ruotò e brandì la bacchetta, un gesto che non doveva essere
+ preciso, solo coraggioso e sprezzante.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-The early gestures of the spell were complex and precise; you twitched your
- wand once, twice, thrice, and four times with small tilts at exactly the
- right relative angles, you shifted your forefinger and thumb exactly the
- right distances…
-\end_layout
-
-\begin_layout Standard
-The Ministry thought this meant it was futile to try and teach anyone the
- spell before their fifth year.
- There had been a few known cases of younger children learning it, and this
- had been dismissed as “genius”.
-\end_layout
-
-\begin_layout Standard
-It might not have been a very polite way of putting it, but Harry was beginning
- to see why Professor Quirrell had claimed that the Ministry Committee of
- Curriculum would have been of greater benefit to wizardkind if they had
- been used as landfill.
-\end_layout
-
-\begin_layout Standard
-So the gestures were complicated and delicate.
- That didn't stop you from learning it when you were eleven.
- It meant you had to be extra careful and practice each part for a lot longer
- than usual, that was all.
-\end_layout
-
-\begin_layout Standard
-Most Charms that could only be learned by older students were like that
- because they required more strength of magic than any young student could
- muster.
- But the Patronus Charm 
-\emph on
-wasn't
-\emph default
- like that, it wasn't difficult because it needed too much magic, it was
- difficult because it took 
-\emph on
-more
-\emph default
- than mere magic.
-\end_layout
-
-\begin_layout Standard
-It took the warm, happy feelings that you kept close in your heart, the
- loving memories, a different kind of strength that you didn't need for
- ordinary spells.
-\end_layout
-
-\begin_layout Standard
-Harry twitched his wand once, twice, thrice and four times, shifted his
- fingers exactly the right distances…
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-“Good luck at school, Harry.
- Do you think I bought you enough books?”
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-“You can never have enough books… but you certainly tried, it was a really,
- really, really good try…”
-\end_layout
-
-\begin_layout Standard
-It had brought tears to his eyes, the first time Harry had remembered and
- tried to put it into the spell.
-\end_layout
-
-\begin_layout Standard
-Harry brought the wand up and around and brandished it, a gesture that didn't
- have to be precise, only bold and defiant.
-\end_layout
-
-\begin_layout Standard
-“
 \emph on
 Expecto Patronum!
 \emph default
-” cried Harry.
+
+\begin_inset Quotes frd
+\end_inset
+
+ gridò Harry.
 \end_layout
 
 \begin_layout Standard
-Nothing happened.
+Nulla accadde.
 \end_layout
 
 \begin_layout Standard
-Not a single flicker of light.
+Non un singolo baluginio di luce.
 \end_layout
 
 \begin_layout Standard
-When Harry looked up, Remus Lupin was still studying the wand, a rather
- troubled look on his faintly scarred face.
+Quando Harry alzò lo sguardo, Remus Lupin stava ancora studiando la bacchetta,
+ un'espressione piuttosto turbata sul suo volto appena segnato da cicatrici.
 \end_layout
 
 \begin_layout Standard
-Finally Remus shook his head.
- “I'm sorry, Harry,” the man said quietly.
- “Your wandwork was exactly right.”
+Infine Remus scosse la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace, Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse pacatamente l'uomo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La tua esecuzione era perfetta
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-And there wasn't a flicker of light anywhere else, either, because all the
- other first-years who were supposed to be practicing their Patronus Charms
- had been glancing out of the corners of their eyes at Harry instead.
+E non ci fu un baluginio di luce neppure altrove, perché tutti gli studenti
+ del primo anno che avrebbero dovuto esercitarsi coi loro Incantesimi Patronus
+ avevano invece guardato furtivamente Harry.
 \end_layout
 
 \begin_layout Standard
-The tears were threatening to come back into Harry's eyes, and they weren't
- happy tears.
- Of all the things, of all the things, Harry had never expected this.
+Le lacrime minacciavano di risalire agli occhi di Harry, e non erano lacrime
+ di felicità.
+ Fra tutte le cose, fra tutte le cose, Harry non si sarebbe mai aspettato
+ questa.
 \end_layout
 
 \begin_layout Standard
-There was something horribly humiliating about being informed that you weren't
- happy enough.
+C'era qualcosa orribilmente umilianti dell'essere messi al corrente di non
+ essere abbastanza felici.
 \end_layout
 
 \begin_layout Standard
-What did Anthony Goldstein have inside him that Harry didn't, that made
- Anthony's wand shine with that bright light?
+Cos'aveva Anthony Goldstein dentro di sé che Harry non aveva, che faceva
+ splendere la bacchetta di Anthony con quella luce splendente?
 \end_layout
 
 \begin_layout Standard
-Did Anthony love his own father more?
+Anthony amava forse di più suo padre?
 \end_layout
 
 \begin_layout Standard
-“What thought were you using to cast it?” said Remus.
+\begin_inset Quotes fld
+\end_inset
+
+Che pensiero stavi usando per lanciarlo?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Remus.
 \end_layout
 
 \begin_layout Standard
-“My father,” Harry said, his voice trembling.
- “I asked him to buy me some books before I came to Hogwarts, and he did,
- and they were expensive, and then he asked me if they were enough 
-\begin_inset ERT
-status open
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Mio padre
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, la sua voce che tremava.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Gli ho chiesto di comprarmi alcuni libri prima di venire a Hogwarts, e l'ha
+ fatto, ed erano costosi, e poi mi ha chiesto se erano abbastanza
+\begin_inset space ~
+\end_inset
 
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-Harry didn't try to explain about the Verres family motto.
+Harry non cercò di spiegare la faccenda del motto di famiglia dei Verres.
 \end_layout
 
 \begin_layout Standard
-“Take a rest before you try a different thought, Harry,” said Remus.
- He gestured toward where some other students were sitting on the ground,
- looking disappointed or embarrassed or regretful.
- “You won't be able to cast a Patronus Charm while you're feeling ashamed
- of not being grateful enough.” There was a gentle compassion in Mr.
-\begin_inset ERT
-status open
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Riposati prima di provare con un pensiero differente, Harry
+\begin_inset Quotes frd
+\end_inset
 
-
-\backslash
+, disse Remus.
+ Fece un gesto verso il luogo dove altri studenti stavano seduti sul terreno,
+ sembrando delusi o imbarazzati o rammaricati.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Lupin's voice, and for a moment, Harry felt like hitting something.
+Non sarai in grado di lanciare un Incantesimo Patronus mentre ti senti a
+ disagio per non essere abbastanza riconoscente
+\begin_inset Quotes frd
+\end_inset
+
+.
+ C'era una compassione gentile nella voce del signor Lupin, e per un momento,
+ Harry sentì di toccare qualcosa.
 \end_layout
 
 \begin_layout Standard
-Instead Harry turned around, and stalked to where the other failures were
- sitting.
- The other students whose wandwork had also been proclaimed perfect, and
- who were now supposed to be searching for happier thoughts; by the looks
- of them they weren't making much progress.
- There were many robes there trimmed in dark blue, and a handful of red,
- and one lone Hufflepuff girl who was still crying.
- The Slytherins hadn't even bothered showing up, except for Daphne Greengrass
- and Tracey Davis, who were still trying to get the gestures.
+Invece Harry si girò, e si mosse verso il luogo in cui gli altri falliti
+ stavano seduti.
+ Gli altri studenti le cui esecuzioni erano state anch'esse dichiarate perfette,
+ e che avrebbero dovuto in quel momento cercare pensieri più felici; dalle
+ loro espressioni non sembravano fare molti progressi.
+ C'erano lì molte vesti bordate di blu scuro, e una manciata di rosse, e
+ una ragazza Tassofrasso solitaria che stava ancora piangendo.
+ I Serpeverde non si erano neppure presi il disturbo di presentarsi, eccetto
+ Daphne Greengrass e Tracey Davis, che stavano ancora cercando di capire
+ i gesti.
 \end_layout
 
 \begin_layout Standard
-Harry plopped down on the cold dead grass of winter, next to the student
- whose failure had surprised him the most.
+Harry si lasciò cadere pesantemente sulla fredda erba morta dell'inverno,
+ vicino allo studente il cui fallimento l'aveva più sorpreso.
 \end_layout
 
 \begin_layout Standard
-“So you couldn't do it either,” Hermione said.
- She'd fled the field at first, but she'd come back after that, and you
- had to look closely at her reddened eyes to see that she'd been crying.
+\begin_inset Quotes fld
+\end_inset
+
+Quindi neppure tu l'hai potuto fare
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ Era fuggita dal campo all'inizio, ma era in seguito tornata, e bisognava
+ guardare da vicino i suoi occhi arrossati per capire che aveva pianto.
 \end_layout
 
 \begin_layout Standard
-“I,” Harry said, “I, I'd probably feel a lot worse about that if you hadn't
- failed, you're the nicest, person I know, that I've ever met, Hermione,
- and if 
+\begin_inset Quotes fld
+\end_inset
+
+Io
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+io, mi sentirei probabilmente molto peggio per questo se tu non avessi fallito,
+ se la persona, più carina che conosco, che abbia mai incontrato, Hermione,
+ e se anche 
 \emph on
-you
+tu
 \emph default
- also can't do it, it means I might still be, be good…”
+ non puoi farlo, significa che potrei essere ancora, essere buono…
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“I should have gone to Gryffindor,” Hermione whispered.
- She blinked hard a few times, but she didn't wipe her eyes.
+\begin_inset Quotes fld
+\end_inset
+
+Sarei dovuta andare a Grifondoro
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Hermione.
+ Batté gli occhi diverse volte, ma non si asciugò gli occhi.
 \end_layout
 
 \begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
