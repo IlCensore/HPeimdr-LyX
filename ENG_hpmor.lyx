@@ -86,9 +86,9 @@
 \renewcommand{\LettrineFontHook}{\color{Maroon}}
 
 \frenchspacing
-\widowpenalties 2 10000 0
+%\widowpenalties 2 10000 0
 %\clubpenalty 10000
-\raggedbottom
+%\raggedbottom
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -1237,6 +1237,13 @@ filename "043.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "044.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "045.lyx"
 
 \end_inset
 
