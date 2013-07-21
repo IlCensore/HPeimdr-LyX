@@ -1,0 +1,1543 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{44}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myh042.lyxeadings}
+  \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+%\widowpenalties 2 10000 0
+%\clubpenalty 10000
+%\raggedbottom
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
+\font_typewriter EB Garamond Initials
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Umanesimo, Parte
+\begin_inset space ~
+\end_inset
+
+III
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:45Umanesimo-3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=2, lhang=0.33, loversize=0.25]{L}{a canzone di Fawkes si affievolì}
+\end_layout
+
+\end_inset
+
+ dolcemente fino al silenzio.
+\end_layout
+
+\begin_layout Standard
+Harry si mise a sedere lì dove era stato disteso sull'erba appassita dall'invern
+o, Fawkes ancora arrampicata sulla sua spalla.
+\end_layout
+
+\begin_layout Standard
+Rumori di aria inspirata provennero da tutto intorno a lui.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse Seamus con voce vacillante, 
+\begin_inset Quotes fld
+\end_inset
+
+stai bene?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La pace della fenice era ancora dentro di lui, come il calore, lì dove Fawkes
+ era abbarbicato.
+ Calore, che si diffondeva attraverso lui, e la memoria della canzone, ancora
+ viva nella presenza della fenice.
+ C'erano cose terribili che erano accadute a lui, terribili pensieri che
+ lo avevano attraversato.
+ Aveva recuperato una memoria impossibile, per quanto il Dissennatore gliel'aves
+se fatta dissacrare.
+ Una strana parola continuava a echeggiare nella sua mente.
+ E tutto quello poteva essere messo in sospeso per dopo, mentre la fenice
+ risplendeva ancora di rosso e oro sotto il sole al tramonto.
+\end_layout
+
+\begin_layout Standard
+Fawkes gracchiò rivolto a lui.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Qualcosa che devo fare?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry a Fawkes.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fawkes mosse la testa su e giù in direzione del Dissennatore.
+\end_layout
+
+\begin_layout Standard
+Harry guardò all'orrore nascosto ancora nella sua gabbia, poi nuovamente
+ alla fenice, confuso.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+ disse la voce di Minerva McGonagall da dietro di lui.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sta
+\emph default
+ davvero bene?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry si alzò aiutandosi con le mani e si girò.
+\end_layout
+
+\begin_layout Standard
+Minerva McGonagall lo stava guardando, sembrando molto preoccupato; Albus
+ Silente al suo fianco lo stava studiando attentamente; Filius Flitwick
+ sembrava tremendamente sollevato; e tutti gli studenti stavano semplicemente
+ fissando.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Credo di sì, professoressa McGonagall
+\begin_inset Quotes frd
+\end_inset
+
+, disse con calma Harry.
+ Aveva quasi detto 
+\emph on
+Minerva
+\emph default
+ prima di riuscire a fermarsi.
+ Mentre Fawkes era sulla sua spalla, quanto meno, Harry stava bene; forse
+ sarebbe collassato il momento dopo che Fawkes fosse andata, ma in qualche
+ modo pensieri come quello non sembravano importanti.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso di stare bene
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Sarebbe dovuto esserci un'esultanza, o sospiri di sollievo, o qualcosa,
+ ma nessuno sembrò sapere cosa dire, proprio nessuno.
+\end_layout
+
+\begin_layout Standard
+La pace della fenice permase.
+\end_layout
+
+\begin_layout Standard
+Harry si girò indietro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Hermione?
+\begin_inset Quotes frd
+\end_inset
+
+ disse.
+\end_layout
+
+\begin_layout Standard
+Tutti coloro che avessero la più piccola briciola di romanticismo nel loro
+ cuore trattennero il respiro.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non so davvero come ringraziarti cortesemente
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry pacatamente, 
+\begin_inset Quotes fld
+\end_inset
+
+non più di quanto sappia come chiedere scusa.
+ Tutto ciò che posso dire è che se ti stai chiedendo se fosse la cosa giusta
+ da fare, sappi che lo era
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il ragazzo e la ragazza si guardarono negli occhi a vicenda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Per ciò che accadrà in seguito.
+ Se c'è qualcosa che posso fare
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, rispose Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non c'è.
+ Va tutto bene, però
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Poi girò le spalle a Harry e si allontanò, lungo il percorso che conduceva
+ nuovamente ai cancelli di Hogwarts.
+\end_layout
+
+\begin_layout Standard
+Molte ragazze indirizzarono a Harry delle occhiate perplesse, e poi la seguirono.
+ Mentre camminavano, si sarebbero potute sentire iniziare le domande eccitate.
+\end_layout
+
+\begin_layout Standard
+Harry le osservò allontanarsi, poi si girò a guardare gli altri studenti.
+ L'avevano visto sul terreno, urlante, e…
+\end_layout
+
+\begin_layout Standard
+Fawkes gli strofinò il naso sulla guancia, brevemente.
+\end_layout
+
+\begin_layout Standard
+… e quello li avrebbe aiutati a capire, un giorno, che il Ragazzo-Che-È-Sopravvi
+ssuto poteva anche essere ferito, poteva essere devastato.
+ In modo che quando fossero stati feriti e devastati essi stessi, si sarebbero
+ ricordati di aver visto Harry contorcersi per terra, e avrebbero saputo
+ che il loro dolore e i loro problemi non significavano che non avrebbero
+ mai raggiunto nulla.
+ Il Preside l'aveva forse tenuto in considerazione, quando aveva permesso
+ che gli altri studenti rimanessero a guardare?
+\end_layout
+
+\begin_layout Standard
+Gli occhi di Harry tornarono all'alto mantello lacero, quasi distrattamente,
+ e senza davvero essere cosciente di ciò di cui stava parlando, Harry disse,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non dovrebbe esistere
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ah
+\begin_inset Quotes frd
+\end_inset
+
+, disse una voce secca e precisa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Credevo che potesse dirlo.
+ Sono molto dispiaciuto di dirle, signor Potter, che i Dissennatori non
+ possono essere uccisi.
+ Molti hanno provato
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Davvero?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry, ancora distrattamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa hanno provato?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+C'è un certo incantesimo estremamente pericoloso e distruttivo
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, 
+\begin_inset Quotes fld
+\end_inset
+
+che non nominerò qui; un incantesimo di fuoco maledetto.
+ È ciò che userebbe per distruggere un antico congegno come il Cappello
+ Smistatore.
+ Non ha alcun effetto sui Dissennatori.
+ Sono immortali
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non sono immortali
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Preside.
+ Le parole miti, lo sguardo affilato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non posseggono la vita eterna.
+ Sono ferite nel mondo, e attaccare una ferita la rende semplicemente più
+ grande
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Supponga di gettarlo nel sole, lo distruggerebbe?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Gettarlo
+\emph default
+ nel 
+\emph on
+sole?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ squittì il professor Flitwick, sembrando come se fosse sul punto di svenire.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sembra improbabile, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse atono il professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il sole è molto grande, dopotutto; dubito che il Dissennatore vi causerebbe
+ effetti significativi.
+ Ma non è una prova che mi piacerebbe fare, signor Potter, giusto nell'eventuali
+tà
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Capisco
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+\end_layout
+
+\begin_layout Standard
+Fawkes gracchiò un'ultima volta, avvolse le sue ali attorno alla testa di
+ Harry, e poi si lanciò via da lui.
+ Si lanciò dritto contro il Dissennatore, gridando un grande e penetrante
+ urlo di disprezzo che echeggiò nella radura.
+ E prima che chiunque potesse reagire all'evento, ci fu una vampata di fiamme,
+ e Fawkes fu andato.
+\end_layout
+
+\begin_layout Standard
+La pace si affievolì, un poco.
+\end_layout
+
+\begin_layout Standard
+Il calore si affievolì, un poco.
+\end_layout
+
+\begin_layout Standard
+Harry inspirò profondamente, e poi espirò.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Già
+\begin_inset Quotes frd
+\end_inset
+
+, disse.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono ancora vivo
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ancora quel silenzio, ancora l'assenza di esultanza; nessuno sembrava sapere
+ come rispondere
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+È bello sapere che è completamente guarito, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse fermamente il professor Quirrell, come per negare ogni altra possibilità.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ora, credo che la prossima fosse la signorina Ransom, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quello diede il via ad una piccola discussione, in cui il professor Quirrell
+ aveva ragione e tutti gli altri torto.
+ Il Professore di Difesa sottolineò come, malgrado le comprensibili emozioni
+ di tutte le persone coinvolte, la probabilità che un simile contrattempo
+ accadesse a qualunque altro studente tendeva a essere infinitesimale; tanto
+ più che ora sapevano come evitare infortuni con le bacchette.
+ E nel frattempo, c'erano altri studenti che avevano bisogno di sfruttare
+ la loro migliore opportunità di lanciare un Incantesimo Patronus corporeo,
+ o altrimenti di imparare la sensazione di un Dissennatore in modo che potessero
+ fuggire, e scoprire il proprio grado di vulnerabilità…
+\end_layout
+
+\begin_layout Standard
+Alla fine risultò che Dean Thomas e Ron Weasley di Grifondoro erano gli
+ unici rimasti che fossero ancora disposti ad avvicinarsi minimamente al
+ Dissennatore, cosa che semplificò la discussione.
+\end_layout
+
+\begin_layout Standard
+Harry diede un'occhiata in direzione del Dissennatore.
+ La parola echeggiò nuovamente nella sua mente.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Va bene
+\emph default
+, pensò Harry rivolto a sé stesse, 
+\emph on
+se il Dissennatore è un enigma, qual è la soluzione?
+\end_layout
+
+\begin_layout Standard
+E così all'improvviso, fu ovvio.
+\end_layout
+
+\begin_layout Standard
+Harry guardò la gabbia ossidata e appena corrosa.
+\end_layout
+
+\begin_layout Standard
+Vide cosa giaceva sotto l'alto mantello lacero.
+\end_layout
+
+\begin_layout Standard
+E fu così, allora.
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall venne a parlare a Harry.
+ Non aveva assistito alla parte peggiore, quindi c'era solo un leggero luccichio
+ di lacrime nei suoi occhi.
+ Harry le disse che aveva bisogno di parlarle, dopo, e che doveva farle
+ una domanda che aveva messo da parte da un po', ma che non era necessario
+ che fosse subito, se lei era impegnata.
+ C'era una certa espressione in lei che suggeriva che fosse stata allontanata
+ da qualcosa di importante; e Harry glielo disse, e le disse che onestamente
+ non doveva sentirsi in colpa di andarsene.
+ Questo gli guadagnò una certa occhiata acuta, ma poi essa se ne andò, di
+ fretta, con la promessa che avrebbero parlato in seguito.
+\end_layout
+
+\begin_layout Standard
+Dean Thomas lanciò nuovamente il suo orso bianco, anche alla presenza del
+ Dissennatore; e Ron Weasley mise su un accettabile scudo di nebbia scintillante.
+ Cosa che pose fine alla giornata, per quanto riguardava tutti gli altri,
+ e il professor Flitwick iniziò a muovere gli studenti come un gregge di
+ ritorno a Hogwarts.
+ Quando fu chiaro che Harry voleva restare indietro, il professor Flitwick
+ lo guardò interrogativamente; e Harry, da parte sua, diede un'occhiata
+ significativa a Silente.
+ Harry non sapeva cosa il professor Flitwick ne dedusse, ma dopo un'acuta
+ occhiata di avvertimento, il Preside della sua Casa se ne andò.
+\end_layout
+
+\begin_layout Standard
+E così rimasero solo Harry, il professor Quirrell, il Preside Silente, e
+ un trio di Auror.
+\end_layout
+
+\begin_layout Standard
+Sarebbe stato meglio liberarsi del trio come prima cosa, ma Harry non poté
+ pensare ad un buon modo di farlo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Auror Komodo, 
+\begin_inset Quotes fld
+\end_inset
+
+riportiamolo indietro
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi scusi
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi piacerebbe fare un altro tentativo col Dissennatore
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename ../../HPMOR/GitHub/fleur.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La richiesta di Harry incontrò un certo ammontare di resistenza della varietà
+ 
+\emph on
+sei completamente folle
+\emph default
+, sebbene fosse stato solo Auror Butnaru a dirlo ad alta voce.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Fawkes mi ha detto di farlo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+\end_layout
+
+\begin_layout Standard
+Quello non superò tutte le opposizioni, malgrado l'espressione di turbamento
+ che produsse sul volto di Silente.
+ La discussione proseguì, e stava iniziando a logorare i contorni della
+ restante pace della fenice, cosa che infastidì Harry, sebbene solo un po'.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ascoltate
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+sono abbastanza sicuro di sapere cosa stavo facendo nella maniera sbagliata,
+ prima.
+ C'è un tipo di persona che deve usare un genere differente di pensiero
+ affettuoso e felice.
+ Fatemi provare e basta, va bene?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neanche quello si dimostrò persuasivo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Penso
+\begin_inset Quotes frd
+\end_inset
+
+, disse infine il professor Quirrell, fissando Harry con gli occhi socchiusi,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+che se non gli permettessimo di farlo sotto supervisione, potrebbe, prima
+ o poi, andare di nascosto a cercarsi un Dissennatore tutto per lui.
+ L'accuso falsamente, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu una pausa inorridita.
+ Sembrava un buon momento per giocare la sua carta vincente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non ho nulla in contrario a che il Preside mantenga attivo il suo Patronus
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\emph on
+Poiché sarò alla presenza di un Dissennatore comunque, Patronus o no.
+\end_layout
+
+\begin_layout Standard
+Questo fu seguito da una certa confusione, persino il professor Quirrell
+ sembrò confuso; ma il Preside finalmente acconsentì, poiché non sembrava
+ verosimile che Harry potesse essere raggiunto attraverso quattro Patronus.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Se il Dissennatore non potesse attraversare il tuo Patronus a qualche livello,
+ Albus Silente, non vedresti un uomo nudo doloroso da guardare…
+\end_layout
+
+\begin_layout Standard
+Quello Harry non lo disse ad alta voce, per ovvie ragioni.
+\end_layout
+
+\begin_layout Standard
+E iniziarono a camminare verso il Dissennatore.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Preside
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+supponga che la porta di Corvonero le ponesse questo enigma: Cosa giace
+ al centro di un Dissennatore? Cosa direbbe?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Paura
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Preside.
+\end_layout
+
+\begin_layout Standard
+Era un errore abbastanza semplice.
+ Il Dissennatore si avvicinava, e ti era trasmessa paura.
+ La paura faceva male, sentivi la paura che ti indeboliva, volevi che la
+ paura andasse via.
+\end_layout
+
+\begin_layout Standard
+Era naturale pensare che la paura fosse il problema.
+\end_layout
+
+\begin_layout Standard
+Quindi avevano concluso che il Dissennatore era una creatura di pura paura,
+ che non c'era nulla da temere se non la paura stessa, che il Dissennatore
+ non ti avrebbe potuto far del male se non fossi stato impaurito…
+\end_layout
+
+\begin_layout Standard
+Ma…
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cosa giace al centro di un Dissennatore?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Paura.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cos'è così orribile che la mente si rifiuta di vederlo?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Paura.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cos'è impossibile da uccidere?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Paura.
+\end_layout
+
+\begin_layout Standard
+… non sembrava calzare, una volta che ci pensavi.
+\end_layout
+
+\begin_layout Standard
+Sebbene fosse abbastanza chiaro perché la gente fosse riluttante a guardare
+ oltre la prima risposta.
+\end_layout
+
+\begin_layout Standard
+La gente 
+\emph on
+comprendeva
+\emph default
+ la paura.
+\end_layout
+
+\begin_layout Standard
+La gente sapeva cosa avrebbe dovuto 
+\emph on
+fare 
+\emph default
+con la paura.
+\end_layout
+
+\begin_layout Standard
+Quindi, di fronte a un Dissennatore, non sarebbe stato esattamente confortevole
+ chiedere: `E se la paura fosse solo un effetto collaterale e non il problema
+ principale?'
+\end_layout
+
+\begin_layout Standard
+Erano arrivati molto vicini alla gabbia del Dissennatore vigilata da quattro
+ Patronus, quando giunsero le nette inspirazioni dei tre Auror e del professor
+ Quirrell.
+ I volti di tutti si girarono a guardare il Dissennatore, quasi stessero
+ ascoltando; e ci fu orrore sul volto di Auror Goryanof.
+\end_layout
+
+\begin_layout Standard
+Poi il professor Quirrell alzò la testa, il suo volto duro, e sputò verso
+ il Dissennatore.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non gli è piaciuto che la sua preda gli sia stata sottratta, suppongo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Silente con calma.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Bene.
+ Se si rendesse necessario, Quirinus, ci sarà sempre un rifugio per te a
+ Hogwarts
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Che cosa ha detto?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry.
+\end_layout
+
+\begin_layout Standard
+Tutte le teste si girarono a guardarlo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non l'hai sentito…?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Silente.
+\end_layout
+
+\begin_layout Standard
+Harry scosse la testa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi ha detto
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, 
+\begin_inset Quotes fld
+\end_inset
+
+che mi conosce, e che mi darà la caccia un giorno, ovunque cercherò di nasconder
+mi
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Il suo volto era rigido, e non mostrava paura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ah
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non mi preoccuperei di questo, professor Quirrell
+\begin_inset Quotes frd
+\end_inset
+
+.
+ 
+\emph on
+Non è che Dissennatori possano effettivamente parlare, o pensare; la struttura
+ che hanno è presa in prestito dalla vostra mente e dalle vostre aspettative…
+\end_layout
+
+\begin_layout Standard
+Ora tutti gli stava rivolgendo espressioni molto strane.
+ Gli Auror si lanciavano occhiate nervose l'un l'altro, al Dissennatore,
+ a Harry.
+\end_layout
+
+\begin_layout Standard
+E furono proprio di fronte alla gabbia del Dissennatore.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sono ferite nel mondo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sto solo tirando a indovinare, ma tiro a indovinare che colui che l'ha detto
+ è stato Godric Grifondoro
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì…
+\begin_inset Quotes frd
+\end_inset
+
+ disse Silente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Come lo sapevi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+È un errore comune
+\emph default
+, pensò Harry, 
+\emph on
+che tutti i migliori razionalisti siano Smistati in Corvonero, non lasciandone
+ nessuno per le altre Case.
+ Non è così; essere Smistato in Corvonero indica che la tua virtù più forte
+ è la curiosità, chiedersi e desiderare di conoscere la vera risposta.
+ E questa non è 
+\emph default
+l'unica
+\emph on
+ virtù di cui ha bisogno un razionalista.
+ A volte devi lavorare duramente su di un problema, e dedicartici per un
+ po'.
+ A volte è necessario un piano ingegnoso per scoprirla.
+ E a volte quello che ti serve più di ogni altra cosa per vedere una risposta,
+ è il coraggio di affrontarla…
+\end_layout
+
+\begin_layout Standard
+Lo sguardo di Harry andò a ciò che c'era sotto il mantello, l'orrore di
+ gran lunga peggiore di qualsiasi mummia in decomposizione.
+ Rowena Corvonero potrebbe anche averlo saputo, perché era un enigma abbastanza
+ evidente una volta che lo vedevi come un enigma.
+\end_layout
+
+\begin_layout Standard
+Ed era anche ovvio perché i Patronus erano animali.
+ Gli animali non sapevano, e così erano al riparo dalla paura.
+\end_layout
+
+\begin_layout Standard
+Ma Harry sapeva, e avrebbe sempre saputo, e non sarebbe mai stato in grado
+ di dimenticare.
+ Aveva cercato di insegnare a sé stesso di affrontare la realtà senza batter
+ ciglio, e anche se Harry non aveva ancora imparato quell'arte, pure quei
+ solchi erano stati tracciati nella sua mente, il riflesso acquisito di
+ guardare 
+\emph on
+verso
+\emph default
+ il pensiero doloroso invece che lontano da esso.
+ Harry non sarebbe mai stato in grado di dimenticare pensando ad affettuosi
+ pensieri felici su qualcos'altro, ed era per questo che l'incantesimo non
+ aveva funzionato per lui.
+\end_layout
+
+\begin_layout Standard
+Così Harry avrebbe pensato ad un affettuoso pensiero felice che non 
+\emph on
+fosse
+\emph default
+ qualcosa di diverso.
+\end_layout
+
+\begin_layout Standard
+Harry estrasse la sua bacchetta che il professor Flitwick gli aveva restituito,
+ mise i piedi nella posizione iniziale per l'Incantesimo Patronus.
+\end_layout
+
+\begin_layout Standard
+Nella sua mente, Harry abbandonò gli ultimi resti della pace della fenice,
+ mise da parte la calma, lo stato onirico, ricordò invece il grido lacerante
+ di Fawkes, e si incitò per la battaglia.
+ Chiamò tutte le parti e gli elementi di sé stesso a risvegliarsi.
+ Suscitò dentro di sé tutta la forza a cui l'Incantesimo Patronus avrebbe
+ mai potuto attingere, per mettersi nel giusto stato d'animo per il pensiero
+ affettuoso e felice definitivo; ricordò tutte le cose luminose.
+\end_layout
+
+\begin_layout Standard
+I libri che suo padre gli aveva comprato.
+\end_layout
+
+\begin_layout Standard
+Il sorriso di Mamma quando Harry aveva realizzato a mano il biglietto per
+ la festa della mamma, una cosa elaborata che aveva richiesto l'uso di mezza
+ libbra di parti elettroniche di ricambio dal garage per emettere luci e
+ suonare un motivetto, e che gli ci era voluto tre giorni interi per essere
+ realizzato.
+\end_layout
+
+\begin_layout Standard
+La professoressa McGonagall che gli diceva che i suoi genitori erano morti
+ bene, proteggendolo.
+ Come avevano fatto.
+\end_layout
+
+\begin_layout Standard
+Rendendosi conto che Hermione era al passo con lui e andava persino più
+ veloce, che potevano essere veri rivali e amici.
+\end_layout
+
+\begin_layout Standard
+Lusingare Draco fuori dall'oscurità, guardarlo muoversi lentamente verso
+ la luce.
+\end_layout
+
+\begin_layout Standard
+Neville and Seamus and Lavender and Dean and everyone else who looked up
+ to him, everyone that he would have fought to protect if anything threatened
+ Hogwarts.
+\end_layout
+
+\begin_layout Standard
+Everything that made life worth living.
+\end_layout
+
+\begin_layout Standard
+His wand rose into the starting position for the Patronus Charm.
+\end_layout
+
+\begin_layout Standard
+Harry thought of the stars, the image that had almost held off the Dementor
+ even without a Patronus.
+ Only this time, Harry added the missing ingredient, he'd never truly seen
+ it but he'd seen the pictures and the video.
+ The Earth, blazing blue and white with reflected sunlight as it hung in
+ space, amid the black void and the brilliant points of light.
+ It belonged there, within that image, because it was what gave everything
+ else its meaning.
+ The Earth was what made the stars significant, made them more than uncontrolled
+ fusion reactions, because it was Earth that would someday colonize the
+ galaxy, and fulfill the promise of the night sky.
+\end_layout
+
+\begin_layout Standard
+Would they still be plagued by Dementors, the children's children's children,
+ the distant descendants of humankind as they strode from star to star?
+ No.
+ Of course not.
+ The Dementors were only little nuisances, paling into nothingness in the
+ light of that promise; not unkillable, not invincible, not even close.
+ You had to put up with little nuisances, if you were one of the lucky and
+ unlucky few to be born on Earth; on Ancient Earth, as it would be remembered
+ someday.
+ That too was part of what it meant to be alive, if you were one of the
+ tiny handful of sentient beings born into the beginning of all things,
+ before intelligent life had come fully into its power.
+ That the much vaster future depended on what you did here, now, in the
+ earliest days of dawn, when there was still so much darkness to be fought,
+ and temporary nuisances like Dementors.
+\end_layout
+
+\begin_layout Standard
+Mum and Dad, Hermione's friendship and Draco's journey, Neville and Seamus
+ and Lavender and Dean, the blue sky and brilliant Sun and all bright things,
+ the Earth, the stars, the promise, everything humanity was and everything
+ it would become…
+\end_layout
+
+\begin_layout Standard
+On the wand, Harry's fingers moved into their starting positions; he was
+ ready, now, to think the right sort of warm and happy thought.
+\end_layout
+
+\begin_layout Standard
+And Harry's eyes stared directly at that which lay beneath the tattered
+ cloak, looked straight at that which had been named Dementor.
+ The void, the emptiness, the hole in the universe, the absence of color
+ and space, the open drain through which warmth poured out of the world.
+\end_layout
+
+\begin_layout Standard
+The fear it exuded stole away all happy thoughts, its closeness drained
+ your power and strength, its kiss would destroy everything that you were.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+I know you now
+\emph default
+, Harry thought as his wand twitched once, twice, thrice and four times,
+ as his fingers slid exactly the right distances, 
+\emph on
+I comprehend your nature, you symbolize Death, through some law of magic
+ you are a shadow that Death casts into the world.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And Death is not something I will ever embrace.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+It is only a childish thing, that the human species has not yet outgrown.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And someday…
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+We'll get over it…
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And people won't have to say goodbye any more…
+\end_layout
+
+\begin_layout Standard
+The wand rose up and leveled straight at the Dementor.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+“EXPECTO PATRONUM!”
+\end_layout
+
+\begin_layout Standard
+The thought exploded from him like a breaking dam, surged down his arm into
+ his wand, burst from it as blazing white light.
+ Light that became corporeal, took on shape and substance.
+\end_layout
+
+\begin_layout Standard
+A figure with two arms, two legs, and a head, standing upright; the animal
+ 
+\emph on
+Homo sapiens,
+\emph default
+ the shape of a human being.
+\end_layout
+
+\begin_layout Standard
+Glowing brighter and brighter as Harry poured all his strength into his
+ spell, blazing with incandescent light brighter than the fading sunset,
+ the Aurors and Professor Quirrell shielding their eyes in shock 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And someday when the descendants of humanity have spread from star to star,
+ they won't tell the children about the history of Ancient Earth until they're
+ old enough to bear it; and when they learn they'll weep to hear that such
+ a thing as Death had ever once existed!
+\end_layout
+
+\begin_layout Standard
+The figure of a human shone more brilliant now than the noonday Sun, so
+ radiant that Harry could feel the warmth of it on his skin; and Harry sent
+ out all his defiance at the shadow of Death, opening all the floodgates
+ inside him to make that bright shape blaze even brighter and yet brighter.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+You are not invincible, and someday the human species will end you.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+I will end you if I can, by the power of mind and magic and science.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+I won't cower in fear of Death, not while I have a chance of winning.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+I won't let Death touch me, I won't let Death touch the ones I love.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+And even if you do end me before I end you,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Another will take my place, and another,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Until the wound in the world is healed at last…
+\end_layout
+
+\begin_layout Standard
+Harry lowered his wand, and the bright figure of a human faded away.
+\end_layout
+
+\begin_layout Standard
+Slowly, he exhaled.
+\end_layout
+
+\begin_layout Standard
+Like waking up from a dream, like opening his eyes after sleep, Harry's
+ gaze moved away from the cage, he looked around and saw that everyone was
+ staring at him.
+\end_layout
+
+\begin_layout Standard
+Albus Dumbledore was staring at him.
+\end_layout
+
+\begin_layout Standard
+Professor Quirrell was staring at him.
+\end_layout
+
+\begin_layout Standard
+The Auror trio was staring at him.
+\end_layout
+
+\begin_layout Standard
+They were all looking at him like they'd just seen him destroy a Dementor.
+\end_layout
+
+\begin_layout Standard
+The tattered cloak lay empty within the cage.
+\end_layout
+
+\end_body
+\end_document
