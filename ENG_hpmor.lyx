@@ -37,7 +37,42 @@
 %    \centering \chaptitlefont\textsc{##1}}}
     \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
-\chapterstyle{hpmor}
+%\chapterstyle{hpmor}
+% the chapter style:
+\usepackage{xcoffins,xcolor}
+\NewCoffin\main
+\NewCoffin\titleline
+\NewCoffin\chapternumber
+
+\makechapterstyle{Bringhurst}{%
+  \renewcommand*\chapterheadstart{}
+  \renewcommand*\printchaptername{}
+  \renewcommand*\chapternamenum{}
+  \renewcommand*\afterchapternum{}
+  % numbered chapters:
+  \renewcommand*\printchapternum{%
+      \SetHorizontalCoffin\chapternumber{%
+      \textcolor{black!10}{\thechapter}%
+    }%
+    \ScaleCoffin\chapternumber{6}{6}%
+  }
+  % unnumbered chapters:
+  \renewcommand*\printchapternonum{\SetHorizontalCoffin\chapternumber{}}
+  \renewcommand*\printchaptertitle[1]{%
+%    \memRTLraggedright\normalfont\large\MakeUppercase{\textls[75]{##1}}}
+    \memRTLraggedright\normalfont\large\textsc{##1}}
+  \renewcommand*\afterchaptertitle{%
+    \vskip.5\onelineskip
+    \SetHorizontalCoffin\titleline{\color{black!50}\rule{\linewidth}{1.5pt}}%
+    \JoinCoffins\main\titleline
+    \JoinCoffins*\main\chapternumber(\textwidth+\marginparsep,-4\baselineskip)%
+    \TypesetCoffin\main
+    \vskip\onelineskip
+  }
+}
+
+\chapterstyle{Bringhurst}
+
 
 \usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
@@ -145,9 +180,9 @@ initials
 \end_index
 \paperwidth 6in
 \paperheight 9in
-\leftmargin 2.54cm
+\leftmargin 1.69cm
 \topmargin 2.493cm
-\rightmargin 2.54cm
+\rightmargin 3.39cm
 \bottommargin 3.895cm
 \secnumdepth 3
 \tocdepth 0
