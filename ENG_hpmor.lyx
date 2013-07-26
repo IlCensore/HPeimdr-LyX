@@ -74,6 +74,25 @@
 \chapterstyle{Bringhurst}
 
 
+% sections and subsections:
+\setsecnumformat{\normalfont\csname the#1\endcsname\quad}
+
+% the section style:
+\newcommand\uppercasehead[1]{%
+  \noindent\normalfont\scshape\MakeLowercase{#1}}
+\setsecindent{0pt}
+\setsecheadstyle{\uppercasehead}
+
+% the subsection style:
+\newcommand\itshapehead[1]{\normalfont\itshape#1}
+\setsubsecheadstyle{\itshapehead}
+\setsecnumdepth{subsection}
+
+% the subsubsection style:
+%\setsubsubsecheadstyle{\itshapehead}
+
+
+
 \usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
