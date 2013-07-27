@@ -140,9 +140,37 @@
 \renewcommand{\LettrineFontHook}{\color{Maroon}}
 
 \frenchspacing
-%\widowpenalties 2 10000 0
-%\clubpenalty 10000
-%\raggedbottom
+
+
+%% ToC
+\renewcommand\partnumberline[1]{}
+\renewcommand\chapternumberline[1]{}
+%\renewcommand\cftpartpagefont{\Huge\bfseries}
+%\renewcommand\cftpartfont{\LARGE\bfseries}
+\renewcommand\cftchapterpagefont{\normalfont}
+\renewcommand\cftchapterfont{\normalfont}
+
+\newlength\ToCindent
+\setlength\ToCindent{3.2em}
+
+\makeatletter
+
+\newcommand*{\l@mychap}[3]{%
+  \def\@chapapp{#3}
+  \vskip2ex%
+  \par%
+  \noindent\parbox[t]{\ToCindent}{\makebox[2em][r]{\cftchapterpagefont#2}\hfill}%
+  \parbox[t]{\dimexpr\textwidth-\ToCindent\relax}{\cftchapterfont#1}\par%
+}
+
+\renewcommand*{\l@chapter}[2]{%
+  \l@mychap{#1}{#2}{\ ·\ \thechapter\ \chaptername}%
+}
+
+\renewcommand*{\l@appendix}[2]{%
+  \l@mychap{#1}{#2}{\appendixname}%
+}
+\makeatother
 \end_preamble
 \use_default_options true
 \begin_modules
