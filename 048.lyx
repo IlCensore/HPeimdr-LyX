@@ -1,0 +1,1531 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{47}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myh042.lyxeadings}
+  \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+%\widowpenalties 2 10000 0
+%\clubpenalty 10000
+%\raggedbottom
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Garamond Premier Pro
+\font_sans Garamond Premier Pro
+\font_typewriter EB Garamond Initials
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Priorità utilitaristiche
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:48Priorità-utilitaristiche"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=2, lhang=0.33, loversize=0.25]{E}{ra sabato, il primo mattino}
+\end_layout
+
+\end_inset
+
+ di febbraio, e alla tavolata di Corvonero, un ragazzo recante un piatto
+ da colazione ammassato di vegetali stava nervosamente ispezionando le sue
+ porzioni in cerca della minima traccia di carne.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Poteva
+\emph default
+ essere stata una reazione esagerata.
+ Dopo aver superato il puro sconvolgimento, il buon senso di Harry si era
+ svegliato e aveva ipotizzato che il 
+\begin_inset Quotes fld
+\end_inset
+
+Serpentese
+\begin_inset Quotes frd
+\end_inset
+
+ probabilmente fosse solo un'interfaccia utente linguistica per controllare
+ i serpenti…
+\end_layout
+
+\begin_layout Standard
+… dopo tutto, i serpenti non potevano essere 
+\emph on
+davvero
+\emph default
+ intelligenti a livello umano, 
+\emph on
+qualcuno
+\emph default
+ se ne sarebbe ormai accorto.
+ Le creature col cervello più piccolo di cui Harry avesse mai sentito dire
+ che avessero la minima abilità linguistica erano i pappagalli cenerini
+ africani a cui Irene Pepperberg aveva dato lezioni.
+ E quello era un proto-linguaggio non strutturato, in una specie che giocavano
+ complesse strategie di adulterio e avevano bisogno di modellare altri pappagall
+i.
+ Mentre, stando a quello che Draco era stato in grado di ricordare, i serpenti
+ parlavano ai Rettilofoni con quello che sembrava un normale linguaggio
+ umano -- ovvero, una grammatica sintattica completamente ricorsiva.
+ C'era voluto del 
+\emph on
+tempo
+\emph default
+ prima che gli ominidi evolvessero, con grossi cervelli e forti pressioni
+ di selezione sociale.
+ I serpenti non avevano affatto una società di cui Harry avesse mai sentito.
+ E con migliaia di migliaia di diverse specie di serpenti in tutto il mondo,
+ come potevano usare tutti la 
+\emph on
+stessa
+\emph default
+ versione del loro presunto linguaggio, il 
+\begin_inset Quotes fld
+\end_inset
+
+Serpentese
+\begin_inset Quotes frd
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+Ovviamente quello era tutto del semplice buon senso, in cui Harry stava
+ iniziando a perdere del tutto la fede.
+\end_layout
+
+\begin_layout Standard
+Ma Harry era sicuro di aver sentito dei serpenti sibilare in 
+\noun on
+tv
+\noun default
+ qualche volta -- dopo tutto, aveva scoperto quale suono avesse 
+\emph on
+da qualche parte
+\emph default
+ -- e 
+\emph on
+quello
+\emph default
+ non gli era sembrato un linguaggio, il che pareva molto più rassicurante…
+\end_layout
+
+\begin_layout Standard
+… all'inizio.
+ Il problema era che Draco aveva anche detto che i Rettilofoni potevano
+ mandare i serpenti in missioni complesse ed estese.
+ E se quello era vero, allora i Rettilofoni dovevano 
+\emph on
+rendere i serpenti permanentemente intelligenti
+\emph default
+ semplicemente parlando con loro.
+ Nello scenario peggiore questo avrebbe reso il serpente auto-cosciente,
+ come quello che Harry aveva fatto accidentalmente al Cappello Smistatore.
+\end_layout
+
+\begin_layout Standard
+E quando Harry aveva proposto 
+\emph on
+quella
+\emph default
+ ipotesi, Draco aveva sostenuto di poter ricordare una storia -- Harry aveva
+ sperato in Cthulhu che 
+\emph on
+questa
+\emph default
+ storia fosse solo una favola, ne aveva il tono, ma 
+\emph on
+c'era
+\emph default
+ una storia -- a proposito di Salazar Serpeverde che avrebbe mandato in
+ missione una coraggiosa e giovane vipera con l'obiettivo di 
+\emph on
+raccogliere informazioni da altri serpenti
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+E se qualunque serpente a cui un Rettilofono aveva parlato poteva rendere
+ 
+\emph on
+altri
+\emph default
+ serpenti auto-coscienti semplicemente parlando 
+\emph on
+loro
+\emph default
+, allora…
+\end_layout
+
+\begin_layout Standard
+Allora…
+\end_layout
+
+\begin_layout Standard
+Harry non sapeva neppure perché la sua mente stava facendo 
+\begin_inset Quotes fld
+\end_inset
+
+allora… allora…
+\begin_inset Quotes frd
+\end_inset
+
+ quando sapeva perfettamente bene come la progressione esponenziale avrebbe
+ funzionato, era solo il puro orrore mentale di quella conoscenza che lo
+ lasciava a bocca aperta.
+\end_layout
+
+\begin_layout Standard
+E cosa sarebbe successo se qualcuno avesse inventato un incantesimo come
+ quello per parlare alle mucche?
+\end_layout
+
+\begin_layout Standard
+Cosa sarebbe successo se ci fossero stati dei Pollamofoni?
+\end_layout
+
+\begin_layout Standard
+O se è per questo…
+\end_layout
+
+\begin_layout Standard
+Harry si congelò per l'improvvisa comprensione proprio mentre la forchettata
+ di carote stava per entrare nella sua bocca.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non può, non può essere vero, certamente nessun mago sarebbe così stupido
+ da fare 
+\noun on
+quello
+\noun default
+…
+\end_layout
+
+\begin_layout Standard
+E Harry seppe, con una spaventosa sensazione di sprofondare, che 
+\emph on
+ovviamente
+\emph default
+ sarebbero stati così stupidi.
+ Salazar Serpeverde probabilmente non aveva mai considerato le implicazioni
+ morali dell'intelligenza dei serpenti per neppure un secondo, proprio come
+ non gli era mai venuto in mente che i 
+\emph on
+Nati babbani
+\emph default
+ fossero abbastanza intelligenti da essere degni dei diritti delle persone.
+ La maggior parte delle persone semplicemente non vedevano affatto le questioni
+ morali a meno che qualcuno non gliele indicasse…
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Harry?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Terry di fianco a lui, sembrando come se avesse paura che si sarebbe
+ pentito di chiedere.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché stai fissando la tua forchetta in quel modo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename 048-is_my_salad_a_sentient__by_dinosaurusgede-d319hoy.png
+	lyxscale 30
+	width 9cm
+
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+I Rettilofoni dovevano rendere i serpenti permanentemente intelligenti semplicem
+ente parlando con loro.
+ Se qualunque serpente a cui un Rettilofono aveva parlato poteva rendere
+ 
+\emph on
+altri
+\emph default
+ serpenti auto-coscienti semplicemente parlando 
+\emph on
+loro
+\emph default
+, allora… Allora… E cosa sarebbe successo se qualcuno avesse inventato un
+ incantesimo come quello per parlare alle mucche? Cosa sarebbe successo
+ se ci fossero stati dei Pollamofoni? O se è per questo…
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Quotes fld
+\end_inset
+
+Harry? Perché stai fissando la tua forchetta in quel modo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Inizio a pensare che la magia dovrebbe essere resa illegale
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ad ogni modo, hai mai sentito storie di maghi che potevano parlare con le
+ piante?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Terry non aveva sentito nulla di simile.
+\end_layout
+
+\begin_layout Standard
+Né l'aveva udito nessuno dei Corvonero del settimo anno cui Harry aveva
+ chiesto.
+\end_layout
+
+\begin_layout Standard
+E ora Harry era tornato al suo posto, ma non si era ancora seduto di nuovo,
+ e fissava il suo piatto di verdure con un'espressione sconsolata.
+ Stava diventando sempre più affamato, e più tardi nel corso della giornata
+ si sarebbe recato da Mary's Place per uno dei loro piatti incredibilmente
+ saporiti… Harry si stava scoprendo a essere fortemente tentato di tornare
+ semplicemente alle abitudini alimentari di ieri e finirla lì.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Devi mangiare qualcosa
+\emph default
+, disse il suo Serpeverde interiore.
+
+\emph on
+ E non è 
+\emph default
+molto
+\emph on
+ più probabile che qualcuno abbia gettato consapevolezza di sé sul pollame
+ piuttosto che sulle piante, per cui fintanto che stai mangiando cibo di
+ dubbia sensibilità in entrambi i casi, perché non mangiare le deliziose
+ fettine di Diracawl fritte?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non sono molto sicuro che sia una logica utilitaristica valida, quella
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Oh, vuoi la logica utilitaristica? Una porzione di logica utilitaristica
+ in arrivo: Anche nell'improbabile eventualità che qualche idiota sia 
+\emph default
+davvero
+\emph on
+ riuscito ad attribuire la condizione di essere senziente al pollame, è
+ la 
+\emph default
+tua
+\emph on
+ ricerca che ha la maggiore probabilità di scoprire questo fatto e di fare
+ qualcosa a proposito.
+ Se riuscissi a completare il lavoro anche appena più velocemente 
+\emph default
+non
+\emph on
+ pasticciando con la tua dieta, quindi, per quanto possa sembrare contro-intuiti
+vo, la cosa 
+\emph default
+migliore
+\emph on
+ che puoi fare per salvare il maggior numero di chissà-cosa forse-senzienti
+ è 
+\emph default
+non
+\emph on
+ perdere tempo con vaghe supposizioni su cosa potrebbe essere intelligente.
+ Non è che gli elfi domestici non abbiano già preparato il cibo, indipendentemen
+te da quello che metti sul tuo piatto.
+\end_layout
+
+\begin_layout Standard
+Per un momento Harry lo prese in considerazione.
+ Era una linea di ragionamento alquanto seducente
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ottimo!
+\emph default
+ disse Serpeverde.
+ 
+\emph on
+Sono contento che ora tu comprenda che la cosa più morale da fare è quella
+ di sacrificare le vite di esseri senzienti per il tuo comodo, per alimentare
+ i tuoi terribili appetiti, per il piacere malato di farli a pezzi con i
+ denti
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cosa?
+\emph default
+ pensò Harry sdegnoso.
+ 
+\emph on
+Da che parte 
+\emph default
+stai
+\emph on
+ tu?
+\end_layout
+
+\begin_layout Standard
+La sua voce interna Serpeverde era severa.
+ 
+\emph on
+Anche tu un giorno abbraccerai la dottrina secondo cui… il fine giustifica
+ le carni.
+ 
+\emph default
+A questo fece seguito una risatina mentale.
+\end_layout
+
+\begin_layout Standard
+Sin da quando Harry aveva cominciato a preoccuparsi che anche le piante
+ potessero essere senzienti, i suoi componenti non-Corvonero aveva avuto
+ difficoltà a prendere sul serio la sua cautela morale.
+ Tassofrasso stava gridando 
+\emph on
+Cannibalismo!
+\emph default
+ ogni volta che Harry cercava di pensare a qualsiasi tipo di alimento, e
+ Grifondoro lo visualizzava urlante mentre lo mangiava, anche se era, diciamo,
+ un panino
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cannibalismo!
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\noun on
+Aiiieeee non mangiarmi
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ignora le urla, mangia comunque! È un luogo sicuro per raggiungere un compromess
+o con la tua etica in nome di obiettivi più importanti, tutti gli 
+\emph default
+altri
+\emph on
+ pensano che sia normale mangiare panini quindi non puoi usare la tua solita
+ razionalizzazione sulla bassa probabilità di un enorme svantaggio se dovessi
+ essere scoperto
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Harry fece un sospiro mentale, e pensò, 
+\emph on
+Solo a patto che ti stia bene che 
+\emph default
+noi
+\emph on
+ possiamo essere mangiati da mostri giganteschi che non studiato abbastanza
+ l'eventualità che 
+\emph default
+noi
+\emph on
+ siamo senzienti.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Questo mi sta bene
+\emph default
+, disse Serpeverde.
+ 
+\emph on
+Anche voi altri siete d'accordo con questo?
+\emph default
+ (Cenni di assenso mentali interni.) 
+\emph on
+Grande, possiamo tornare alle fettine di Diracawl fritte ora?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non fino al momento in cui avrò fatto altre ricerche su cosa è senziente
+ e cosa no.
+ Ora state zitti
+\emph default
+.
+ E Harry girò le spalle alle verdure così invitanti per dirigersi verso
+ la biblioteca
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Mangiati semplicemente gli studenti
+\emph default
+, disse Tassofrasso.
+ 
+\emph on
+Non c'è dubbio sul fatto che loro 
+\emph default
+sono
+\emph on
+ senzienti
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sai di volerlo fare
+\emph default
+, disse Grifondoro.
+ 
+\emph on
+Scommetto che quelli più giovani sono i più saporiti
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Harry stava iniziando a chiedersi se il Dissennatore avesse in qualche modo
+ danneggiato le loro personalità immaginarie.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Onestamente
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ La voce della ragazza sembrava un po' pungente mentre il suo sguardo scandiva
+ gli scaffali della sezione di Erbologia nella biblioteca di Hogwarts.
+ Harry le aveva lasciato un messaggio chiedendole se fosse potuta venire
+ in biblioteca dopo aver finito la colazione, che Harry aveva saltato; ma
+ quando poi Harry aveva introdotto il tema del giorno era sembrata un po'
+ perplessa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sai qual è il tuo problema, Harry? Non hai il senso delle priorità.
+ Un'idea entra nella tua testa e subito ti lanci al suo inseguimento
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io ho un 
+\emph on
+eccezionale
+\emph default
+ senso delle priorità
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Allungò la mano e afferrò 
+\emph on
+Scaltrezza delle verdure
+\emph default
+ di Casey McNamara, e cominciò a sfogliare le prime pagine, cercando il
+ sommario.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ecco perché voglio scoprire se le piante possono parlare 
+\emph on
+prima
+\emph default
+ di mangiare le mie carote
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non credi che forse noi due abbiamo cose più 
+\emph on
+importanti
+\emph default
+ di cui preoccuparci?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Parli proprio come Draco
+\emph default
+, pensò Harry, ma ovviamente non lo disse ad alta voce.
+ Ad alta voce disse, 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa 
+\emph on
+può essere
+\emph default
+ più importante che scoprire che le piante sono senzienti?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu un silenzio gravido al suo fianco, mentre gli occhi di Harry scorsero
+ il sommario.
+ C'era effettivamente un capitolo sul Linguaggio delle Piante, cosa che
+ fece saltare un battito al cuore di Harry; e poi le sue mani iniziarono
+ a girare rapidamente le pagine, indirizzate verso il numero di pagina corretto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ci sono giorni
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione Granger, 
+\begin_inset Quotes fld
+\end_inset
+
+in cui davvero, sul serio, non ho assolutamente alcuna idea di cosa frulli
+ in quella testa che ti ritrovi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ascolta, è una questione di moltiplicazioni, ok? Ci sono 
+\emph on
+molte
+\emph default
+ piante nel mondo, se 
+\emph on
+non
+\emph default
+ sono senzienti allora non sono importanti, ma se le piante 
+\emph on
+sono
+\emph default
+ persone allora hanno più peso morale di tutti gli esseri umani del mondo
+ messi insieme.
+ Ora, naturalmente il tuo cervello non se ne rende conto a livello intuitivo,
+ ma è solo perché il cervello non sa fare le moltiplicazioni.
+ È come chiedere a tre distinti gruppi di famiglie canadesi quanto sarebbero
+ disposti a pagare per salvare duemila, ventimila, o duecentomila uccelli
+ dalla morte in sversamenti di petrolio, i tre gruppi affermeranno rispettivamen
+te che sono disposti a pagare settantotto, ottantotto, e ottanta dollari.
+ Nessuna differenza, in altre parole.
+ Si chiama insensibilità alla scala.
+ Il tuo cervello immagina un singolo uccello che lotta in uno sversamento
+ di petrolio, e quell'immagine crea una certa quantità di emozioni che determina
+ la tua disponibilità a pagare.
+ Ma nessuno è in grado di visualizzare anche solo duemila elementi di qualcosa,
+ quindi la 
+\emph on
+quantità
+\emph default
+ semplicemente è buttata dritta fuori dalla finestra.
+ Ora tenta di 
+\emph on
+correggere
+\emph default
+ tale distorsione rispetto a 
+\emph on
+centomila miliardi
+\emph default
+ di fili d'erba senzienti, e ti renderai conto che questo potrebbe essere
+ migliaia di volte più importante di quanto eravamo abituati a pensare che
+ fosse l'intera specie umana… oh grazie Azathoth, qui dice che sono solo
+ alcune piante magiche che possono parlare e parlano ad alta voce un normale
+ linguaggio umano, non che ci sia un incantesimo che si può usare per parlare
+ con 
+\emph on
+qualsiasi
+\emph default
+ pianta
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ron è venuto da me a colazione ieri mattina
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ Ora la sua voce sembrava un po' sommessa, un po' triste, forse persino
+ un po' spaventata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ha detto che è stato terribilmente scioccato di vedermi baciare te.
+ Che ciò che hai detto mentre eri Dissennato mi avrebbe dovuto dimostrare
+ quanta malvagità tu nascondessi dentro di te.
+ E che se avevo intenzione di essere una seguace di un Mago Oscuro, allora
+ non era sicuro di voler restare ancora nel mio esercito
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Le mani di Harry avevano smesso di girare le pagine.
+ Sembrava che il cervello di Harry, con tutta la sua conoscenza astratta,
+ fosse ancora incapace di apprezzare la scala a qualsiasi livello emotivo
+ reale, perché la sua attenzione era appena stata reindirizzata lontano
+ da migliaia di miliardi di potenzialmente-senzienti fili d'erba che sarebbero
+ potuti essere sofferenti o persino morenti proprio mentre parlavano, e
+ in direzione della vita di un singolo essere umano che casualmente era
+ più vicino e più caro.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ron è il più gigantesco cretino del mondo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non lo pubblicheranno prossimamente sul giornale, perché non è una notizia.
+ Quindi, dopo che lo hai licenziato, quante delle sue braccia e delle sue
+ gambe gli hai rotto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho cercato di dirgli che non era così
+\begin_inset Quotes frd
+\end_inset
+
+, Hermione continuò con la stessa voce sommessa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho cercato di dirgli che 
+\emph on
+tu
+\emph default
+ non eri così, e che non era così tra noi due, ma sembrava solo renderlo
+ ancora più… più come era
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh, sì
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Era sorpreso di non sentirsi più arrabbiato con il capitano Weasley, ma
+ la sua preoccupazione per Hermione sembrava avere la precedenza anche quello,
+ per il momento.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quanto più cerchi di giustificarti con gente simile, più riconosci che hanno
+ il 
+\emph on
+diritto
+\emph default
+ di metterti in discussione.
+ Dimostra che pensi che possono essere il tuo inquisitore, e una volta che
+ concedi a qualcuno quel tipo di potere su di te, semplicemente spingeranno
+ sempre di più
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Questa era una delle lezioni di Draco Malfoy che Harry aveva pensato essere
+ realmente piuttosto intelligenti: le persone che 
+\emph on
+cercavano
+\emph default
+ di difendersi erano sottoposte a domande su ogni piccolo dettaglio e non
+ potevano mai soddisfare i propri interrogatori; ma se rendevi chiaro fin
+ dall'inizio che eri una celebrità e al di sopra delle convenzioni sociali,
+ le menti delle persone non si sarebbero preoccupate di tracciare la maggior
+ parte delle violazioni.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ecco perché quando Ron è venuto da 
+\emph on
+me
+\emph default
+ mentre ero seduto al tavolo di Corvonero, e mi ha detto di stare lontano
+ da te, ho steso la mia mano al di sopra del pavimento e ho detto, `Vedi
+ quanto in alto sto tenendo la mia mano? La tua intelligenza deve essere
+ almeno alta così per parlare con me'.
+ Poi mi ha accusato di, virgolette, risucchiarti nell'oscurità, chiuse virgolett
+e, così ho stretto le labbra e ho fatto 
+\emph on
+sluuuuurp
+\emph default
+, dopo di che la sua bocca continuava ancora a fare quei rumori simili a
+ parole così ho messo su un Incantesimo Quietus.
+ Non credo che tenterà più di farmi lezione
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Capisco perché l'hai fatto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, la sua voce contratta, 
+\begin_inset Quotes fld
+\end_inset
+
+anche io 
+\emph on
+volevo
+\emph default
+ dirgli di andarsene, ma vorrei davvero che tu non l'avessi fatto, renderà
+ le cose più difficili per 
+\emph on
+me
+\emph default
+, Harry!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry alzò nuovamente lo sguardo da 
+\emph on
+Scaltrezza delle verdure
+\emph default
+, non sarebbe riuscito a leggere niente di questo passo; e vide che Hermione
+ stava ancora leggendo il libro qualunque che aveva tra le mani, senza guardare
+ lui.
+ Le mani di lei girarono un'altra pagina mentre lui osservava.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Penso che tu abbia preso l'approccio sbagliato a non cercare di difenderti
+ per niente
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lo penso davvero.
+ Tu sei chi sei.
+ Sei amica con chiunque tu scelga.
+ Dì a chiunque ti metta in discussione di andare a quel paese
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Hermione si limitò a scuotere la testa, e girò un'altra pagina.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Opzione numero due.
+ Vai da Fred e George e dì loro di fare un discorsetto con quel testardo
+ di loro fratello, 
+\emph on
+loro due
+\emph default
+ sono degli autentici bravi ragazzi
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non è solo Ron
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione quasi bisbigliando.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tante persone lo dicono, Harry.
+ Persino Mandy mi indirizza occhiate preoccupate quando pensa che non stia
+ guardando.
+ Non è buffo? Continuo a preoccuparmi che il professor Quirrell stia risucchiand
+o 
+\emph on
+te
+\emph default
+ nell'oscurità, e ora la gente mi mette in guardia proprio come io cerco
+ di mettere in guardia te
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh, 
+\emph on
+già
+\emph default
+.
+ Non ti rassicura un po' a proposito di me e del professor Quirrell?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+In una parola
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, 
+\begin_inset Quotes fld
+\end_inset
+
+no
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ci fu un silenzio che durò abbastanza a lungo da permettere a Hermione di
+ girare un'altra pagina, e poi la sua voce, con un vero bisbiglio questa
+ volta, 
+\begin_inset Quotes fld
+\end_inset
+
+E, e Padma sta andando in giro a dire a tutti che, che siccome io non posso
+ lanciare l'Incantesimo P-Patronus, sto facendo solo f-finta di essere g-gentile
+…
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Padma stessa non ci ha neppure 
+\emph on
+provato!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry indignato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se tu 
+\emph on
+fossi
+\emph default
+ una Strega Oscura che stesse solo facendo finta, non ci avresti 
+\emph on
+provato
+\emph default
+ di fronte a tutti, pensano forse che tu sia 
+\emph on
+stupida?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione sorrise un po', e sbatté le palpebre diverse volte.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ehi, 
+\emph on
+io
+\emph default
+ devo preoccuparmi di non diventare 
+\emph on
+davvero
+\emph default
+ malvagio.
+ 
+\emph on
+Qui
+\emph default
+ la cosa peggiore che possa capitare è che la gente creda che tu sia più
+ malvagia di quanto non sei.
+ Questa cosa ti ucciderà? Voglio dire, è davvero 
+\emph on
+così
+\emph default
+ brutta?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La giovane ragazza annuì, il suo volto contratto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ascolta, Hermione… se ti preoccupi così tanto a proposito di ciò che le
+ altre persone pensano, se sei infelice ogni volta che la gente non ti immagina
+ esattamente nello stesso modo in cui tu immagini te stessa, questo ti sta
+ 
+\emph on
+già
+\emph default
+ condannando ad essere infelice per sempre.
+ Nessuno mai pensa a noi nello stesso modo in cui noi pensiamo a noi stessi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non so come spiegartelo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione in una voce bassa e triste.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non sono sicura che sia qualcosa che tu possa mai comprendere, Harry.
+ Tutto ciò che posso dire è, come ti sentiresti se 
+\emph on
+io
+\emph default
+ pensassi che tu sei malvagio?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm…
+\begin_inset Quotes frd
+\end_inset
+
+ Harry lo visualizzò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sì, quello mi 
+\emph on
+farebbe
+\emph default
+ male.
+ Molto.
+ Ma tu sei una buona persona che pensa a questo genere di cose in maniera
+ intelligente, tu hai 
+\emph on
+guadagnato
+\emph default
+ quel potere su di me, se tu pensassi che mi sono incamminato lungo una
+ strada sbagliata questo 
+\emph on
+significherebbe
+\emph default
+ qualcosa.
+ Non riesco a pensare ad un solo altro studente, a parte te, la cui opinione
+ mi interesserebbe allo stesso modo
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Tu puoi vivere in quel modo
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Hermione Granger.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Io no
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The girl had gone through another three pages in silence, and Harry had
+ returned his eyes to his own book and was trying to regain his focus, when
+ Hermione finally said, in a small voice, “Are you really sure I mustn't
+ know how to cast the Patronus Charm?”
+\end_layout
+
+\begin_layout Standard
+“I…” Harry had to swallow a sudden lump in his throat.
+ He suddenly saw himself 
+\emph on
+not
+\emph default
+ knowing why the Patronus Charm didn't work for him, 
+\emph on
+not
+\emph default
+ being able to show Draco, just being told that there was a reason, and
+ nothing more.
+ “Hermione, your Patronus would shine with the same light but it wouldn't
+ be 
+\emph on
+normal,
+\emph default
+ it wouldn't look like people think Patronuses should look, anyone who saw
+ it would know there was something strange going on.
+ Even if I told you the secret you couldn't 
+\emph on
+demonstrate
+\emph default
+ to anyone, unless you made them face the other way so they could only see
+ the light, and… and the most important part of any secret is the knowledge
+ that a secret exists, you could only show one or two friends if you swore
+ them to secrecy…” Harry's voice trailed off helplessly.
+\end_layout
+
+\begin_layout Standard
+“I'll take it.” Her voice was still small.
+\end_layout
+
+\begin_layout Standard
+It was very hard not to just blurt out the secret, right there in the library.
+\end_layout
+
+\begin_layout Standard
+“I, I shouldn't, I 
+\emph on
+really
+\emph default
+ shouldn't, it's 
+\emph on
+dangerous,
+\emph default
+ Hermione, it could do a lot of harm if that secret got out! Haven't you
+ heard the saying, three can keep a secret if two are dead? That telling
+ just your closest friends is the same as telling everyone, because you're
+ not just trusting them, you're trusting everyone they trust? It's too important
+, too much of a risk, it's not the sort of decision that should be made
+ for the sake of fixing someone's reputation at school!”
+\end_layout
+
+\begin_layout Standard
+“Okay,” Hermione said.
+ She closed the book and put it back on the shelf.
+ “I can't concentrate right now, Harry, I'm sorry.”
+\end_layout
+
+\begin_layout Standard
+“If there's 
+\emph on
+anything
+\emph default
+ else I can do 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+”
+\end_layout
+
+\begin_layout Standard
+“Be nicer to everyone.”
+\end_layout
+
+\begin_layout Standard
+The girl didn't look back as she walked out of the stacks, which might have
+ been a good thing, because the boy was frozen in place, unmoving.
+\end_layout
+
+\begin_layout Standard
+After a while, the boy started turning pages again.
+\end_layout
+
+\end_body
+\end_document
