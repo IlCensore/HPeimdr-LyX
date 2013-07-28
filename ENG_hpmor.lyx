@@ -28,7 +28,7 @@
   % numbered chapters:
   \renewcommand*\printchapternum{%
       \SetHorizontalCoffin\chapternumber{%
-      \textcolor{black!10}{\thechapter}%
+      \textcolor{black!20}{\thechapter}%
     }%
     \ScaleCoffin\chapternumber{6}{6}%
   }
@@ -36,7 +36,7 @@
   \renewcommand*\printchapternonum{\SetHorizontalCoffin\chapternumber{}}
   \renewcommand*\printchaptertitle[1]{%
 %    \memRTLraggedright\normalfont\large\MakeUppercase{\textls[75]{##1}}}
-    \memRTLraggedright\normalfont\large\textsc{##1}}
+    \memRTLraggedright\normalfont\Large\textsc{##1}}
   \renewcommand*\afterchaptertitle{%
     \vskip.5\onelineskip
     \SetHorizontalCoffin\titleline{\color{black!50}\rule{\linewidth}{1.5pt}}%
@@ -1343,6 +1343,13 @@ filename "048.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "049.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "050.lyx"
 
 \end_inset
 
