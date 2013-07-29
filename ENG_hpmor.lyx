@@ -122,10 +122,10 @@
 \renewcommand\partnumberline[1]{}
 \renewcommand\chapternumberline[1]{{\normalfont Capitolo}\ #1~\raisebox{.2ex}{\scalebox{0.75}{·}~}}
 \renewcommand\cftchapterpagefont{\normalfont}
-\renewcommand\cftchapterfont{\normalfont\scshape}
+\renewcommand\cftchapterfont{\normalfont\scshape\small}
 
 \newlength\ToCindent
-\setlength\ToCindent{3.2em}
+\setlength\ToCindent{4.0em}
 
 \makeatletter
 \renewcommand*{\l@part}[2]{%
