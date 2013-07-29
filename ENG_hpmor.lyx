@@ -120,7 +120,7 @@
 
 %% ToC
 \renewcommand\partnumberline[1]{}
-\renewcommand\chapternumberline[1]{{\normalfont Capitolo}\ #1~\raisebox{.2ex}{\scalebox{0.75}{·}~}}
+\renewcommand\chapternumberline[1]{#1~\raisebox{.2ex}{\scalebox{0.75}{·}~}}
 \renewcommand\cftchapterpagefont{\normalfont}
 \renewcommand\cftchapterfont{\normalfont\scshape\small}
 
