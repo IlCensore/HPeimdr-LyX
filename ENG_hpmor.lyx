@@ -113,7 +113,7 @@
 \renewcommand*{\cftpartformatpnum}[1]{%
   \hbox to \partlength{\hfill{\cftpartpagefont #1}}}
 
-\renewcommand{\LettrineFontHook}{\color{Maroon}}
+\renewcommand{\LettrineFontHook}{\color{black!50}}
 
 \frenchspacing
 
@@ -170,8 +170,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Garamond Premier Pro
-\font_sans Garamond Premier Pro
+\font_roman Minion Pro
+\font_sans Myriad Pro
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
