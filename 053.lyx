@@ -1,0 +1,810 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{52}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myh042.lyxeadings}
+  \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+%\widowpenalties 2 10000 0
+%\clubpenalty 10000
+%\raggedbottom
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Jenson Pro
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Stanford Prison Experiment, Parte
+\begin_inset space ~
+\end_inset
+
+III
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:53SPE-p3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=2, lhang=0.33, loversize=0.25]{I}{l cadavere di una donna}
+\end_layout
+
+\end_inset
+
+ aprì gli occhi, e gli spenti e sprofondati globi oculari guardarono fuori
+ verso il nulla.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Pazza
+\begin_inset Quotes frd
+\end_inset
+
+, Bellatrix mormorò con una voce rotta, 
+\begin_inset Quotes fld
+\end_inset
+
+sembra che la piccola Bella stia diventando pazza…
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell aveva istruito Harry, con calma e precisione, su come
+ avrebbe dovuto comportarsi in presenza di Bellatrix; come dare forma alla
+ messinscena che avrebbe mantenuto nella sua mente.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ha trovato opportuno, o forse semplicemente divertente, far innamorare Bellatrix
+ di lei, per legarla al suo servizio.
+\end_layout
+
+\begin_layout Standard
+Quell'amore sarebbe perdurato attraverso Azkaban, aveva detto il professor
+ Quirrell, perché per Bellatrix non sarebbe stato un pensiero felice.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ella l'ama totalmente, completamente, con tutta sé stessa.
+ Lei non ricambia il suo amore, ma la considera utile.
+ Ella lo sa.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Era l'arma più letale che possedesse, e la chiamava la sua cara Bella.
+\end_layout
+
+\begin_layout Standard
+Harry lo ricordò dalla notte in cui il Signore Oscuro uccise i suoi genitori:
+ il gelido divertimento, la risata sdegnosa, quella voce dal tono alto piena
+ di odio letale.
+ Non sembrava affatto difficile indovinare quello che avrebbe detto il Signore
+ Oscuro.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Spero che tu 
+\emph on
+non sia
+\emph default
+ pazza, Bella cara
+\begin_inset Quotes frd
+\end_inset
+
+, disse il gelido sussurro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Pazza non è utile
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Gli occhi di Bellatrix sbatterono, cercando di mettere a fuoco l'aria vuota.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mio… Signore… l'ho attesa, ma lei non è venuta… l'ho cercata ma non l'ho
+ potuta trovare… lei è vivo…
+\begin_inset Quotes frd
+\end_inset
+
+ Tutte le sue parole uscirono in un borbottio basso, se c'era dell'emozione
+ in esse, Harry non poteva dirlo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Mosstrale il tuo visso
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò il serpente ai piedi di Harry.
+\end_layout
+
+\begin_layout Standard
+Harry gettò all'indietro il cappuccio del Mantello dell'Invisibilità.
+\end_layout
+
+\begin_layout Standard
+La parte di sé che Harry aveva messo a controllare le sue espressioni facciali
+ guardò Bella senza la minima traccia di pietà, solo gelido e calmo interesse.
+ (Mentre nel suo intimo, Harry pensava, 
+\emph on
+Ti salverò, ti salverò a tutti i costi…
+\emph default
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quella cicatrice…
+\begin_inset Quotes frd
+\end_inset
+
+ mormorò Bellatrix.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quel bambino…
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Così pensano ancora tutti
+\begin_inset Quotes frd
+\end_inset
+
+, disse la voce di Harry, ed emise una risatina sommessa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi hai cercato nel luogo sbagliato, Bella cara
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename 053-rescuing_bellatrix_by_dinosaurusgede-d31nos0.png
+	lyxscale 30
+	display false
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Mosstrale il tuo visso
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò il serpente ai piedi di Harry.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Harry gettò all'indietro il cappuccio del Mantello dell'Invisibilità.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Quotes fld
+\end_inset
+
+Quella cicatrice…
+\begin_inset Quotes frd
+\end_inset
+
+ mormorò Bellatrix.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quel bambino…
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Quotes fld
+\end_inset
+
+Così pensano ancora tutti
+\begin_inset Quotes frd
+\end_inset
+
+, disse la voce di Harry, ed emise una risatina sommessa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi hai cercato nel luogo sbagliato, Bella cara
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Harry aveva chiesto perché non poteva essere il professor Quirrell a interpreta
+re la parte del Signore Oscuro, e il professor Quirrell aveva fatto notare
+ come non vi fosse alcuna ragione plausibile per cui 
+\emph on
+lui
+\emph default
+ fosse posseduto dall'ombra di Colui-Che-Non-Deve-Essere-Nominato.)
+\end_layout
+
+\begin_layout Standard
+Gli occhi di Bellatrix rimasero fissi su Harry, non disse una parola.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Di' qualcossa in Sserpentesse
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò il serpente.
+\end_layout
+
+\begin_layout Standard
+Il viso di Harry si voltò verso il serpente, per rendere palese che si stava
+ rivolgendo a lui, e sibilò, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Uno due tre quattro cinque ssei ssette otto nove dieci
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ci fu una pausa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Coloro che non temono le tenebre…
+\begin_inset Quotes frd
+\end_inset
+
+ mormorò Bellatrix.
+\end_layout
+
+\begin_layout Standard
+Il serpente sibilò, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ssaranno conssumati da essse
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Saranno consumati da esse
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò la voce gelida.
+ Harry non desiderava particolarmente sapere come il professor Quirrell
+ fosse entrato in possesso di quella parola d'ordine.
+ Il suo cervello, che ci pensò comunque, suggerì che probabilmente aveva
+ implicato un Mangiamorte, un posto silenzioso e isolato, e un po' di Legilimanz
+ia su di un tubo di piombo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+La sua bacchetta
+\begin_inset Quotes frd
+\end_inset
+
+, mormorò Bellatrix, 
+\begin_inset Quotes fld
+\end_inset
+
+la presi dalla casa dei Potter le la nascosi, mio signore… sotto la lapide
+ alla destra della tomba di suo padre… mi ucciderà, ora, se questo era tutto
+ ciò che desiderava da me… penso di aver sempre desiderato che fosse lei
+ colui che mi avrebbe ucciso… ma non riesco a ricordarlo ora, deve essere
+ stato un pensiero felice…
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il cuore di Harry ne fu straziato, era insopportabile, e -- e non poteva
+ piangere, non poteva lasciare che il suo Patronus svanisse
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Il volto di Harry mostrò un baluginio di fastidio, e la sua voce fu tagliente
+ mentre disse, 
+\begin_inset Quotes fld
+\end_inset
+
+Basta sciocchezze.
+ Devi venire con me, Bella cara, a meno che tu non preferisca la compagnia
+ dei Dissennatori
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il viso di Bellatrix si contrasse brevemente per la perplessità, le membra
+ raggrinzite non si mossero.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Avrai bissogno di portarla fuori levitando
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò Harry al serpente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non può più pensare di fuggire
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ssì
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò il serpente, 
+\begin_inset Quotes fld
+\end_inset
+
+ma non ssottovalutarla, era la più letale dei guerrieri
+\begin_inset Quotes frd
+\end_inset
+
+.
+ La testa verde si abbassò in segno di avvertimento.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ssarebbe ssaggio temere me, ragazzo, anche sse fosssi affamato e morto per
+ nove-decimi; sstai attento a lei, non lassciare una ssingola imperfezione
+ nella tua messsinsscena
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il serpente verde scivolò agilmente fuori dalla porta.
+\end_layout
+
+\begin_layout Standard
+E poco dopo, un uomo con la pelle giallognola e un'espressione ansiosa sul
+ suo volto barbuto entrò tremante nella stanza con la bacchetta in mano.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mio Signore
+\begin_inset Quotes frd
+\end_inset
+
+, disse la servitrice incerta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Fa' come ti viene detto
+\begin_inset Quotes frd
+\end_inset
+
+, il Signore Oscuro sussurrò con quella gelida voce, che sembrava ancora
+ più terribile proveniente dal corpo di un bambino.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E non lasciare che il tuo Patronus vacilli, Ricorda, se non ritorno non
+ ci sarà ricompensa per te, e passerà molto tempo prima che alla tua famiglia
+ sia permesso morire
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Dopo aver pronunciato quelle terribili parole, il Signore Oscuro rimise
+ il mantello invisibile sulla propria testa, e scomparve.
+\end_layout
+
+\begin_layout Standard
+Il servitore tremante aprì la porta della cella di Bellatrix, ed estrasse
+ dalle proprie vesti un piccolo ago col quale pungolò lo scheletro umano.
+ La singola goccia di sangue rosso che ne fuoriuscì fu presto assorbita
+ da una piccola bambola, che fu distesa sul pavimento, e il servitore iniziò
+ a ripetere una cantilena sussurrata.
+\end_layout
+
+\begin_layout Standard
+Presto un altro scheletro vivente giaceva sul pavimento, immobile.
+ In seguito il servitore sembrò esitare per un momento, fino a quando dall'aria
+ vuota non fu sibilato un comando impaziente.
+ Allora il servo puntò la sua bacchetta su Bellatrix e pronunciò una parola,
+ e lo scheletro vivente che giaceva sul letto fu nudo, e lo scheletro che
+ giaceva sul pavimento era vestito dei suoi abiti sbiaditi.
+\end_layout
+
+\begin_layout Standard
+Il servitore strappò una piccola striscia di tessuto dal vestito, mentre
+ giaceva sull'apparente cadavere; e dalle proprie vesti, l'uomo timoroso
+ estrasse allora una fiaschetta di vetro vuota con piccole tracce di fluido
+ dorato appiccicate al suo interno.
+ La fiaschetta fu nascosta in un angolo, e il lembo della gonna disposta
+ su di essa, il tessuto sbiadito che quasi si mischiava al muro di grigio
+ metallo.
+\end_layout
+
+\begin_layout Standard
+Un altro movimento della bacchetta del servitore fece levitare per aria
+ lo scheletro umano che giaceva sul letto, e quasi con lo stesso movimento
+ lo rivestì di nuove vesti nere.
+ Una bottiglia di latte al cioccolato dall'aspetto normale le fu messo in
+ mano, e un gelido sussurro ordinò a Bellatrix di stringere la bottiglia
+ e di iniziare a berla, cosa che fece, il suo volto nuovamente con solo
+ un'espressione di perplessità.
+\end_layout
+
+\begin_layout Standard
+Poi il servitore rese Bellatrix invisibile, rese sé stesso invisibile, e
+ si allontanarono.
+ La porta si chiuse dietro di loro e produsse un clic mentre si serrò, gettando
+ nuovamente il corridoio nell'oscurità, immutato se non per una piccola
+ fiaschetta nascosta nell'angolo di una cella, e un cadavere fresco che
+ giaceva sul suo pavimento.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In precedenza, nel negozio deserto, il professor Quirrell aveva raccontato
+ a Harry che avrebbero commesso il crimine perfetto.
+\end_layout
+
+\begin_layout Standard
+Senza pensarci, Harry aveva iniziato a ripetere il solito proverbio secondo
+ cui non c'erano cose come un crimine perfetto, prima di pensarci effettivamente
+ per due-terzi di un secondo, ricordare un proverbio più saggio, e chiudere
+ la bocca a metà frase.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cosa pensi di sapere, e come pensi di saperlo?
+\end_layout
+
+\begin_layout Standard
+Se 
+\emph on
+avessi
+\emph default
+ commesso il crimine perfetto, nessuno l'avrebbe mai scoperto -- quindi
+ com'era possibile che qualcuno 
+\emph on
+sapesse
+\emph default
+ che non c'erano crimini perfetti?
+\end_layout
+
+\begin_layout Standard
+E non appena la si vedeva da quel punto di vista, si comprendeva che crimini
+ perfetti probabilmente erano commessi 
+\emph on
+continuamente
+\emph default
+, e che il medico legale la registrava come una morte per cause naturali,
+ o il giornale riportava che il negozio non era mai stato molto redditizio
+ ed era infine fallito…
+\end_layout
+
+\begin_layout Standard
+Quando il corpo di Bellatrix Black fu trovato morto nella sua cella la mattina
+ dopo, lì all'interno della prigione di Azkaban da cui (tutti lo sapevano)
+ nessuno era mai evaso, nessuno si preoccupò di effettuare un'autopsia.
+ Nessuno ci pensò due volte.
+ Semplicemente chiusero il corridoio e se ne andarono, e la 
+\emph on
+Gazzetta del Profeta
+\emph default
+ la riportò nella colonna dei necrologi il giorno dopo…
+\end_layout
+
+\begin_layout Standard
+… quello fu il crimine perfetto che il professor Quirrell aveva progettato.
+\end_layout
+
+\begin_layout Standard
+E non fu il professor Quirrell che lo mandò a monte.
+\end_layout
+
+\end_body
+\end_document
