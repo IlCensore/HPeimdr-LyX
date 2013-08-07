@@ -123,6 +123,8 @@
 \renewcommand\chapternumberline[1]{#1~\raisebox{.2ex}{\scalebox{0.75}{·}~}}
 \renewcommand\cftchapterpagefont{\normalfont}
 \renewcommand\cftchapterfont{\normalfont\scshape\small}
+\renewcommand\cftpartpagefont{\normalfont}
+\renewcommand\cftpartfont{\normalfont\large}
 
 \newlength\ToCindent
 \setlength\ToCindent{4.0em}
@@ -170,7 +172,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Minion Pro
+\font_roman Warnock Pro
 \font_sans Myriad Pro
 \font_typewriter Inconsolata
 \font_default_family default
