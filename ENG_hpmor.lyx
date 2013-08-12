@@ -6,6 +6,7 @@
 \begin_preamble
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{fmtcount}
+\usepackage{microtype}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
@@ -173,7 +174,7 @@ initials
 \inputencoding auto
 \fontencoding 
 \font_roman EB Garamond
-\font_sans Simonetta
+\font_sans Myriad Pro
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -255,6 +256,13 @@ pagestyle{empty}
 
 \backslash
 frontmatter
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newgeometry{left=1.69cm,bottom=2.493cm}
 \end_layout
 
 \end_inset
@@ -355,7 +363,7 @@ textsc{Eliezer Yudkowsky}}
 
 
 \backslash
-vspace*{
+vspace*{2.0
 \backslash
 baselineskip}
 \end_layout
@@ -366,7 +374,7 @@ baselineskip}
 \backslash
 color{Maroon}
 \backslash
-Huge 
+HUGE 
 \backslash
 textsc{Harry Potter}}
 \backslash
@@ -383,7 +391,7 @@ baselineskip]
 \backslash
 color{Maroon}
 \backslash
-LARGE 
+huge 
 \backslash
 textsc{e i metodi della razionalità}}
 \backslash
@@ -396,7 +404,7 @@ textsc{e i metodi della razionalità}}
 
 
 \backslash
-vspace*{
+vspace*{2.0
 \backslash
 baselineskip}
 \end_layout
@@ -504,6 +512,22 @@ Cato Philosophus
 \end_inset
 
 MMXIII
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -795,6 +819,13 @@ pagestyle{empty}
 mainmatter
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+newgeometry{left=1.69cm,bottom=2.493cm}
+\end_layout
+
 \end_inset
 
 
@@ -809,6 +840,22 @@ Harry Potter e i metodi della razionalità
 
 \begin_layout Standard
 \begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
 \end_inset
 
 
