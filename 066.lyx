@@ -1,0 +1,824 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{65}
+
+\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myh042.lyxeadings}
+  \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{fmtcount}
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+\frenchspacing
+%\widowpenalties 2 10000 0
+%\clubpenalty 10000
+%\raggedbottom
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Minion Pro
+\font_sans Myriad Pro
+\font_typewriter Inconsolata
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.524cm
+\topmargin 2.324cm
+\rightmargin 3.048cm
+\bottommargin 3.048cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Auto-realizzazione, Parte
+\begin_inset space ~
+\end_inset
+
+I
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:66Auto-realizzazione-p1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lettrine[lines=2, lhang=0.33, loversize=0.25]{
+\backslash
+textit{E}}{
+\backslash
+textit{ssitazione è ssempre facile}}
+\end_layout
+
+\end_inset
+
+
+\emph on
+, raramente utile
+\emph default
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Cap 65.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Così il Professore di Difesa gli aveva detto; e mentre si poteva cavillare
+ sui dettagli del proverbio, Harry comprendeva la debolezza dei Corvonero
+ abbastanza bene da sapere che dovevi cercare di 
+\emph on
+rispondere
+\emph default
+ ai tuoi stessi cavilli.
+ Alcuni piani richiedevano di attendere? Sì, molti piani richiedevano 
+\emph on
+azioni differite
+\emph default
+; ma quello non era la stessa cosa di 
+\emph on
+esitare
+\emph default
+ a 
+\emph on
+scegliere
+\emph default
+.
+ Non rimandare perché si conosceva il momento giusto per fare ciò che era
+ necessario, ma rimandare perché non si riusciva a decidere -- non c'era
+ nessun piano astuto che lo richiedesse.
+\end_layout
+
+\begin_layout Standard
+A volte si aveva il bisogno di ulteriori informazioni per scegliere? Si,
+ ma anche quello poteva trasformarsi in un pretesto per rimandare; e sarebbe
+ stato 
+\emph on
+invitante
+\emph default
+ rimandare, quando ci si trovava di fronte a una scelta fra due alternative
+ dolorose, e 
+\emph on
+non scegliere
+\emph default
+ avrebbe evitato la sofferenza mentale per un po' di tempo.
+ Così si prendeva un pezzo di informazione che non si sarebbe potuta ottenere
+ facilmente, e si sarebbe affermato di non poter decidere senza di essa;
+ quella sarebbe stata la scusa.
+ Sebbene se avessi saputo di 
+\emph on
+quali
+\emph default
+ informazioni avevi bisogno, 
+\emph on
+quando
+\emph default
+ e 
+\emph on
+come
+\emph default
+ avresti ottenuto quelle informazioni, e cosa avresti 
+\emph on
+fatto
+\emph default
+ a seconda di ogni possibile osservazione, allora quella era una scusa meno
+ sospetta per esitare.
+\end_layout
+
+\begin_layout Standard
+Se 
+\emph on
+non stavi
+\emph default
+ semplicemente esitando, saresti dovuto essere in grado di scegliere 
+\emph on
+in anticipo
+\emph default
+ ciò che avresti fatto, una volta che avessi avuto l'informazione ulteriore
+ di cui dicevi di aver bisogno.
+\end_layout
+
+\begin_layout Standard
+Se il Signore Oscuro fosse stato 
+\emph on
+davvero
+\emph default
+ là fuori, sarebbe stato intelligente acconsentire al piano del professor
+ Quirrell di far impersonare il Signore Oscuro a qualcuno?
+\end_layout
+
+\begin_layout Standard
+No.
+ Decisamente no.
+ Assolutamente no.
+\end_layout
+
+\begin_layout Standard
+E se Harry avesse saputo 
+\emph on
+per certo
+\emph default
+ che il Signore Oscuro 
+\emph on
+non era
+\emph default
+ davvero là fuori\SpecialChar \ldots{}
+ in 
+\emph on
+quel
+\emph default
+ caso\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+L'ufficio del Professore di Difesa era una piccola stanza, almeno quel giorno;
+ era cambiato dall'ultima volta che Harry l'aveva visto, la pietra della
+ stanza era diventa più scura, più lucida.
+ Dietro la scrivania del Professore di Difesa stava il singolo scaffale
+ vuoto che decorava da sempre la stanza, una libreria alta che si estendeva
+ fin quasi dal pavimento al soffitto, con sette vuoti ripiani in legno.
+ Harry aveva visto solo una volta il professor Quirrell prendere un libro
+ da quegli scaffali vuoti, e mai l'aveva visto rimettervi nuovamente un
+ libro.
+\end_layout
+
+\begin_layout Standard
+Il serpente verde oscillava sopra la seduta della sedia dietro la scrivania
+ del Professore di Difesa, gli occhi senza palpebre fissavano Harry senza
+ batter ciglio all'altezza dei suoi occhi.
+\end_layout
+
+\begin_layout Standard
+Erano ora protetti da ventidue incantesimi, tutti quelli che potevano essere
+ lanciati dentro Hogwarts senza attirare l'attenzione del Preside.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+No
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò Harry.
+\end_layout
+
+\begin_layout Standard
+Il serpente verde piegò la testa, inclinandola leggermente; nessuna emozione
+ fu trasmessa dal gesto, non che il talento da Rettilofono di Harry gli
+ trasmettesse.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Perché no?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse il serpente verde.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Troppo pericolosso
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse semplicemente Harry.
+ Questo era vero se il Signore Oscuro fosse stato là fuori o meno.
+ Sforzandosi di decidere in anticipo gli aveva fatto capire che stava solo
+ usando la domanda senza risposta come una scusa per esitare; la decisione
+ sensata era la stessa, in entrambi i casi.
+\end_layout
+
+\begin_layout Standard
+Per un attimo gli occhi profondi e scuri sembrarono nereggiare brillanti,
+ per un momento la bocca squamosa si spalancò per esporre le zanne.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Pensso che tu abbia imparato lezione ssbagliata, ragazzo, da precedente
+ fallimento.
+ I miei piani non hanno l'abitudine di fallire, e ultimo ssarebbe sstato
+ completato impeccabilmente, sse non fossse sstato per la tua sstupidità.
+ Lezione giussta è sseguire i passsi lasciati per te da Sserpeverde più
+ vecchio e saggio, addomesticare tuoi impulssi sselvaggi
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+Lessson I learned is not to try plotss that would make girl-child friend
+ think I am evil or boy-child friend think I am sstupid,
+\emph default
+” Harry snapped back.
+ He'd been planning a more temporizing response than that, but somehow the
+ words had just slipped out.
+\end_layout
+
+\begin_layout Standard
+The 
+\emph on
+sssss
+\emph default
+-ing sound that came from the snake was not heard by Harry as words, only
+ as pure fury.
+ A moment later, “
+\emph on
+You told them 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+Of coursse not! But know what they would ssay.
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+There was a long pause as the snake-head swayed, staring at Harry; again
+ no detectable emotion came through, and Harry wondered what Professor Quirrell
+ could be thinking that would take Professor Quirrell that long to think.
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+You sserioussly care what thosse two think?
+\emph default
+” came the snake's final hiss.
+ “
+\emph on
+True younglingss thosse two are, not like you.
+ Could not weigh adult matterss.
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+Might have done better than me,
+\emph default
+” Harry hissed.
+ “
+\emph on
+Boy-child friend would have assked after ssecret motivess before asssenting
+ to resscue woman 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+Glad you undersstand that now,
+\emph default
+” the snake hissed coldly.
+ “
+\emph on
+Alwayss assk after other'ss advantage.
+ Next learn to alwayss assk after your own.
+ If my plan iss not to your tasste, what iss yours?
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+If necesssary 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+ sstay at sschool ssix yearss and sstudy.
+ Hogwartss sseemss fine place to dwell.
+ Bookss, friendss, sstrange but tassty food.
+\emph default
+” Harry wanted to chuckle, but there wasn't any gesture in Parseltongue
+ for the kind of laughter he wanted to express.
+\end_layout
+
+\begin_layout Standard
+The pits of the snake's eyes seemed almost black.
+ “
+\emph on
+Eassy to ssay that now.
+ Ssuch as you and I, we do not tolerate imprissonment.
+ You will losse patience long before sseventh year, perhapss before end
+ of thiss one.
+ I sshall plan accordingly.
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+And before Harry could hiss another word of Parseltongue, the human-shape
+ of Professor Quirrell was sitting in his chair once more.
+ “So, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter,” said the Defense Professor, his voice as calm as if they had been
+ discussing nothing important, as if the whole conversation had not occurred
+ at all, “I hear that you have begun to practice dueling.
+ Not the worthless sort with
+\emph on
+ rules
+\emph default
+, I hope?”
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename ../../HPMOR/GitHub/fleur.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hannah Abbott looked as unnerved as Hermione had ever seen her (except on
+ the day of the phoenix, the day Bellatrix Black had escaped, which shouldn't
+ ought to count for anyone).
+ The Hufflepuff girl had come over to the Ravenclaw table during dinner,
+ and tapped Hermione on her shoulder, and very nearly dragged her away 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+“Neville and Harry Potter are learning dueling from Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Diggory!” Hannah blurted as soon as they were a few steps away from the
+ table.
+\end_layout
+
+\begin_layout Standard
+“Who?” said Hermione.
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+Cedric Diggory!
+\emph default
+” said Hannah.
+ “He's the Captain of our Quidditch Team, and general of an army, and he's
+ taking
+\emph on
+ all
+\emph default
+ the electives and getting better grades than anyone, and I hear he learns
+ dueling from professional tutors during the summers, and he once beat 
+\emph on
+two
+\emph default
+ seventh-year students, and even some teachers call him the Super Hufflepuff,
+ and Professor Sprout says we should all emu, uh, emudate him or something
+ like that, and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+”
+\end_layout
+
+\begin_layout Standard
+After Hannah finally stopped for air (the list had gone on for a while),
+ Hermione managed to insert a word in edgewise.
+\end_layout
+
+\begin_layout Standard
+“Sunshine Soldier Abbott!” said Hermione.
+ “Calm 
+\emph on
+down
+\emph default
+.
+ We're not going to be fighting General Diggory, right? Sure, Neville's
+ studying to beat us, but we can study too 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+”
+\end_layout
+
+\begin_layout Standard
+“Don't you 
+\emph on
+see?
+\emph default
+” Hannah shrieked, raising her voice a lot louder then it should've been,
+ if they were trying to keep the conversation private from all the Ravenclaws
+ looking at them.
+ “Neville isn't studying to beat 
+\emph on
+us!
+\emph default
+ He's practicing so he can fight 
+\emph on
+Bellatrix Black!
+\emph default
+ They're going to go through us like a Bludger through a stack of pancakes!”
+\end_layout
+
+\begin_layout Standard
+The Sunshine General gave her soldier a look.
+ “Listen,” said Hermione, “I don't think a few weeks of practice is going
+ to make anyone an invincible fighter.
+ Plus we already 
+\emph on
+know
+\emph default
+ how to handle invincible fighters.
+ We'll concentrate fire on them and they'll go down just like Draco.”
+\end_layout
+
+\begin_layout Standard
+The Hufflepuff girl was looking at her with mixed admiration and skepticism.
+ “Aren't you even, you know, 
+\emph on
+worried?
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+“Oh, 
+\emph on
+honestly!
+\emph default
+” said Hermione.
+ Sometimes it was hard being the only sensible person in your whole school
+ year.
+ “Haven't you ever heard the saying, the only thing we have to fear is fear
+ itself?”
+\end_layout
+
+\begin_layout Standard
+“
+\emph on
+What?
+\emph default
+” said Hannah.
+ “That's crazy, what about Lethifolds lurking in the darkness, and being
+ put under the Imperius Curse, and horrible Transfiguration accidents and
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+”
+\end_layout
+
+\begin_layout Standard
+“I 
+\emph on
+mean,
+\emph default
+” said Hermione, exasperation leaking out into her now-raised voice, she'd
+ been hearing this sort of thing 
+\emph on
+all week
+\emph default
+ now, “how about if we wait until 
+\emph on
+after
+\emph default
+ the Chaos Legion 
+\emph on
+actually
+\emph default
+ crushes us to get so scared of them and
+\emph on
+ did you just mutter `Gryffindors' under your voice?
+\emph default
+”
+\end_layout
+
+\begin_layout Standard
+A few moments later, Hermione was walking back to her place at the table
+ with a sweet smile plastered onto her young face, it wasn't the terrible
+ cold glare of Harry's dark side but it was the scariest face 
+\emph on
+she
+\emph default
+ knew how to make.
+\end_layout
+
+\begin_layout Standard
+Harry Potter was going 
+\emph on
+down.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename ../../HPMOR/GitHub/fleur.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+“This is loony,” gasped Neville, with what tiny amount of breath he could
+ spare from being completely out of breath.
+\end_layout
+
+\begin_layout Standard
+“This is 
+\emph on
+brilliant!
+\emph default
+” said Cedric Diggory.
+ The eyes of the Super Hufflepuff gleamed with manic enthusiasm, shining
+ like the sweat on his forehead as he stamped his feet through the dance
+ of one of his dueling postures.
+ His usually-light steps had changed to heavier stomps, which might have
+ had something to do with the Transfigured metal weights they'd all attached
+ to their arms and legs and strapped over their chests.
+ “Where do you 
+\emph on
+get
+\emph default
+ these ideas, Mr.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Potter?”
+\end_layout
+
+\begin_layout Standard
+“A strange old shop… in Oxford… and I'm never… shopping there… again.” 
+\emph on
+Thud.
+\end_layout
+
+\end_body
+\end_document
