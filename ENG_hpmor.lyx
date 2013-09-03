@@ -173,8 +173,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman EB Garamond
-\font_sans Fredericka the Great
+\font_roman Minion Pro
+\font_sans Minion Pro
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -593,9 +593,11 @@ status open
 
 \begin_layout Plain Layout
 
-
+{
 \backslash
-url{dinosaurusgede.deviantart.com}
+small 
+\backslash
+url{dinosaurusgede.deviantart.com}}
 \end_layout
 
 \end_inset
@@ -1547,6 +1549,13 @@ filename "067.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "068.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "069.lyx"
 
 \end_inset
 
