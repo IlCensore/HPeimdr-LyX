@@ -10,7 +10,7 @@
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
-\makepagestyle{myh042.lyxeadings}
+\makepagestyle{myheadings}
   \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{}
   \makeevenfoot{myheadings}{\thepage}{}{}
@@ -1594,7 +1594,7 @@ The Headmaster straightened up again and said, “Well, my good heroines,
 placement p
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
