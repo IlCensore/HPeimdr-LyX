@@ -11,10 +11,10 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{}{}{}
   \makeoddhead{myheadings}{}{}{}
-  \makeevenfoot{myheadings}{\thepage}{}{}
-  \makeoddfoot{myheadings}{}{}{\thepage}
+  \makeevenfoot{myheadings}{\thepage}{\textsc{Harry Potter e i metodi della razionalità}}{}
+  \makeoddfoot{myheadings}{}{Capitolo\ \thechapter\ ·\ \leftmark}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -2041,63 +2041,114 @@ E il bullo del settimo anno si girò, sorridendo cupamente, mentre le ragazze
 \end_layout
 
 \begin_layout Standard
-Susan's eyes flew open and instantly she was rolling away from where she'd
- lain on the floor, her lungs still on fire and her whole body still aching
- from when she'd been hit, the battle had only moved forward a few seconds
- from what she could see, Hannah's body falling with her arm still stretched
- out toward Susan, “
+Gli occhi di Susan si spalancarono e subito si stava rotolando lontano da
+ dove era rimasta sdraiata sul pavimento, i suoi polmoni ancora in fiamme
+ e tutto il suo corpo ancora dolorante per essere stata colpita, la battaglia
+ era avanzata solo di pochi secondi da quello che poteva vedere, il corpo
+ di Hannah stava cadendo con il braccio ancora proteso verso di Susan, 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Glisseo!
 \emph default
-” shouted Hermione but the older boy just slashed his wand down leaving
- a trail of green glow behind and Hermione's Charm visibly disrupted into
- a shower of blue-white sparks, then in almost the same motion the bully
- said “
+
+\begin_inset Quotes frd
+\end_inset
+
+ gridò Hermione, ma il ragazzo più grande diede appena un fendente verso
+ il basso con la bacchetta lasciando dietro di sé una scia di bagliore verde
+ e l'incantesimo di Hermione fu visibilmente squarciato in una pioggia di
+ scintille bianco-azzurre, poi con quasi lo stesso movimento il bullo disse
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Stupefy!
 \emph default
-” and Hermione was blown backward and Susan summoned up all the magic she
- had left and shouted “
+
+\begin_inset Quotes frd
+\end_inset
+
+ e Hermione fu scaraventata all'indietro e Susan richiamò tutta la magia
+ che le era rimasta e gridò 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Innervate!
 \emph default
-” at Hermione's body even as the bully turned toward her, the bully's wand
- pointed in her direction again and then Padma yelled “
+
+\begin_inset Quotes frd
+\end_inset
+
+ al corpo di Hermione, anche mentre il bullo si voltò verso di lei, la bacchetta
+ del ragazzo puntata nuovamente verso di lei e poi Padma urlò 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Prismatis!
 \emph default
-” just before the bully shouted “
+
+\begin_inset Quotes frd
+\end_inset
+
+ appena prima che il bullo gridasse 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Impedimenta!
 \emph default
-”, the rainbow sphere forming
+
+\begin_inset Quotes frd
+\end_inset
+
+, la sfera arcobaleno che si formò 
 \emph on
- around the bully
+attorno al bullo
 \emph default
- and the seventh-year Slytherin staggered as his own hex was reflected back
- at him, but an instant later the bully's wand swept back to tap himself
- and then Padma's Prismatic Sphere shattered like a blown soap bubble as
- the bully's wand cut through it and “
+ e il Serpeverde del settimo anno barcollò mentre la sua maledizione fu
+ riflessa contro di lui, ma un istante dopo la bacchetta del bullo fece
+ un movimento circolare all'indietro a toccare sé stesso e poi la Sfera
+ prismatica di Padma fu mandata in frantumi come una bolla di sapone che
+ esplodesse mentre la bacchetta del bullo la squarciò e 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Innervate!
 \emph default
-” yelled Parvati at Hannah's body and Tracey and Lavender screamed at the
- same time, “
+
+\begin_inset Quotes frd
+\end_inset
+
+ urlò Parvati rivolta al corpo di Hannah e Tracey e Lavender urlarono allo
+ stesso tempo, 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Wingardium Leviosa!
 \emph default
-” 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
 
+\begin_inset space ~
+\end_inset
+
+--
 \end_layout
 
 \begin_layout Quote
@@ -2112,113 +2163,118 @@ status open
 \end_layout
 
 \begin_layout Standard
-Hannah Abbott held out her wand with a hand that trembled with exhaustion,
- she didn't have enough magic left for even one
+Hannah Abbott reggeva la sua bacchetta protesa con una mano che tremava
+ per la fatica, non le restava più abbastanza magia neppure per un 
 \emph on
- Innervate
+Innervate
 \emph default
-, now.
+, ora.
 \end_layout
 
 \begin_layout Standard
-The rest of the passageway was silent, scattered bodies lying across the
- ground, Padma and Tracey and Lavender, Hermione and Parvati in a heap against
- one wall, Susan standing in petrified rigor as her eyes tracked it all
- helplessly, even the Gryffindor boy lying sprawled and motionless (Hermione
- had woken him and he'd fought, but it hadn't been enough).
+Il resto del corridoio era silenzioso, corpi sparsi giacevano per terra,
+ Padma e Tracey e Lavender, Hermione e Parvati in un mucchio contro un muro,
+ Susan in piedi in una rigidità pietrificata mentre i suoi occhi seguivano
+ il tutto impotenti, persino il ragazzo Grifondoro giaceva scomposto e immobile
+ (Hermione l'aveva svegliato ed egli aveva combattuto, ma non era stato
+ abbastanza).
 \end_layout
 
 \begin_layout Standard
-It had been a very short battle.
+Era stata una battaglia molto breve.
 \end_layout
 
 \begin_layout Standard
-The bully was still smiling, the only signs of his exertion a wavering ripple
- in the blue glow surrounding him, and a few beads of sweat on his forehead.
+Il bullo stava ancora sorridendo, gli unici segni del suo sforzo un'increspatura
+ vacillante nel bagliore blu che lo circondava, e alcune gocce di sudore
+ sulla sua fronte.
 \end_layout
 
 \begin_layout Standard
-The bully raised his arm, wiped the sweat off his forehead, and stalked
- toward her like a man-shaped living Lethifold.
+Il bullo alzò il braccio, si asciugò il sudore dalla fronte, e iniziò a
+ camminare lentamente verso di lei come un Letalmanto vivente e dalla forma
+ umana.
 \end_layout
 
 \begin_layout Standard
-Hannah turned and fled, spun and ran with screams kept bound in her choking
- throat, sprinted past the fallen paneling of the fake brick wall, ran down
- the passageway with all the speed she could muster, weaving as much as
- she could 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
+Hannah si girò e fuggì,si voltò e corse con le grida trattenute nella sua
+ gola sul punto di soffocare, accelerò oltre il pannello caduto del falso
+ muro di mattone, corse giù per il passaggio con tutta la velocità che poté
+ raggiungere, zigzagando il più che poté
+\begin_inset space ~
+\end_inset
 
 --
 \end_layout
 
+\begin_layout Standard
+Giusto prima che Hannah arrivasse alla curva del passaggio, la voce del
+ bullo dietro di lei disse 
+\begin_inset Quotes fld
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Just before Hannah got to the turn in the passageway, the bully's voice
- from behind her said “
 \emph on
 Cluthe!
 \emph default
-” and she got awful cramps all through her legs, she fell down and slid
- and hit her head against the wall, only she didn't even notice the pain
- of the smack as she started to scream with the twisting muscles 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
+\begin_inset Quotes frd
+\end_inset
+
+ ed ella sentì crampi terribili lungo tutte le gambe, cadde e scivolò e
+ batté la testa contro il muro, solo che non sentì neppure il dolore per
+ l'impatto mentre iniziava a gridare per i muscoli che si contorcevano
+\begin_inset space ~
+\end_inset
 
 --
 \end_layout
 
+\begin_layout Standard
+Il bullo stava ancora camminando verso di lei, Hannah vide quando girò la
+ testa; si avvicinava lentamente, ancora con quel terribile sorriso.
+\end_layout
+
+\begin_layout Standard
+Ed ella rotolò, malgrado la pena mentre i muscoli delle sue gambe si annodavano
+ tra loro, si rotolò oltre l'angolo del passaggio, e gridò 
+\begin_inset Quotes fld
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-The bully was still stalking toward her, Hannah saw as she turned her head;
- approaching her slowly, still wearing that dreadful smile.
-\end_layout
-
-\begin_layout Standard
-And she rolled, despite the pain as her leg muscles knotted up around themselves
-, she rolled around the corner of the passageway, and screamed, “Go 
+Va' 
 \emph on
-away!
+via!
 \emph default
-”
-\end_layout
 
-\begin_layout Standard
-“I think not,” said the bully, his voice deep and scary like that of a grown
- man, sounding very close at hand now.
-\end_layout
-
-\begin_layout Standard
-The bully walked around the corner and Daphne Greengrass stabbed her Most
- Ancient Blade directly into his groin.
-\end_layout
-
-\begin_layout Standard
-There was a flash that lit up the whole corridor 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Penso di no
+\begin_inset Quotes frd
+\end_inset
+
+, disse il bullo, la sua voce profonda e spaventosa come quella di un uomo
+ adulto, risuonante molto vicina ora.
+\end_layout
+
+\begin_layout Standard
+Il bullo girò l'angolo e Daphne Greengrass gli immerse la sua Antichissima
+ Lama direttamente direttamente nell'inguine.
+\end_layout
+
+\begin_layout Standard
+Ci fu un lampo che illuminò l'intero corridoio
+\begin_inset space ~
+\end_inset
+
+--
 \end_layout
 
 \begin_layout Quote
@@ -2233,32 +2289,34 @@ status open
 \end_layout
 
 \begin_layout Standard
-It was with a subdued mien that seven girls left Madam Pomfrey's office,
- leaving one of their own behind in a hospital bed.
+Fu con un contegno sommesso che sette ragazze uscirono dall'ufficio di Madama
+ Pomfrey, lasciando una di loro dietro di sé in un letto d'ospedale.
 \end_layout
 
 \begin_layout Standard
-Hannah would be all right in about thirty-five minutes, the healer had said;
- torn muscles were easy to mend.
+Hannah sarebbe stata bene in circa trentacinque minuti, il aveva detto la
+ guaritrice; gli strappi muscolari erano facili da riparare.
 \end_layout
 
 \begin_layout Standard
-Daphne had done all the talking, and according to her, Hannah had suffered
- a mishap with a Road-Running Charm which had caused the leg cramps.
- Madam Pomfrey had given them a sharp look but hadn't argued, even though
- that Charm was around six years above their level.
+Daphne si era incaricata di parlare, e secondo lei, Hannah aveva subito
+ un incidente con un Incantesimo di Corri-Strada che aveva causato i crampi
+ alle gambe.
+ Madama Pomfrey aveva rivolto loro uno sguardo tagliente, ma non aveva discusso,
+ anche se quell'Incantesimo era circa sei anni al di sopra del loro livello.
 \end_layout
 
 \begin_layout Standard
-Madam Pomfrey had also given Daphne a potion to help with her state of total
- magical exhaustion, and warned her not to cast any spells for the next
- three hours.
- That, supposedly, was from Daphne using up too much magic trying to 
+Madama Pomfrey aveva anche dato Daphne una pozione per aiutarla col suo
+ stato di totale esaurimento magico, e l'aveva avvertita di non lanciare
+ incantesimi per le successive tre ore.
+ Cosa che, presumibilmente, derivava dal fatto che Daphne aveva usato troppa
+ magia cercando di lanciare 
 \emph on
 Finite
 \emph default
- Hannah, rather than the Most Ancient Blade drawing out all of her power
- to break the 
+ su Hannah, piuttosto che l'Antichissima Lama le aveva sottratto tutta la
+ sua energia per spezzare il 
 \emph on
 Protego
 \emph default
@@ -2266,40 +2324,25 @@ Protego
 \end_layout
 
 \begin_layout Standard
-The rest of them had decided not to say anything about the bruises under
- their robes until they could get some older girls to cast 
+Le restanti di loro avevano deciso di non dire nulla circa i lividi sotto
+ le loro vesti fino a che non avessero convinto alcune ragazze più grandi
+ a lanciare degli 
 \emph on
 Episkey
 \emph default
 .
- There were limits to what Daphne could talk around.
+ C'erano limiti a ciò a cui Daphne era in grado di trovare spiegazioni.
 \end_layout
 
 \begin_layout Standard
-The whole thing, Susan thought, had been too close, much too close.
- If the bully had so much as looked around the corner 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+L'intera faccenda, pensò Susan, era andata vicino ad essere un disastro,
+ troppo vicino.
+ Se il bullo avesse soltanto guardato oltre l'angolo -- se si fosse preso
+ un momento per rilanciare il suo Incantesimo di Protezione
+\begin_inset space ~
 \end_inset
 
- if he'd taken a moment to recast his Shielding Charm 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
