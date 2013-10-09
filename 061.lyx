@@ -47,9 +47,9 @@
 
 \usepackage{fontspec,microtype}
 \frenchspacing
-%\widowpenalties 2 10000 0
-%\clubpenalty 10000
-%\raggedbottom
+\widowpenalties 2 10000 0
+\clubpenalty 10000
+\raggedbottom
 \usepackage{indentfirst}
 \end_preamble
 \use_default_options true
@@ -63,7 +63,7 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans Fredericka the Great
+\font_sans Playfair Display
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -78,7 +78,7 @@ initials
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing other 1.1499999999999999
 \use_hyperref false
 \papersize custom
 \use_geometry true
@@ -110,12 +110,11 @@ initials
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\author 5381 "" 
 \end_header
 
 \begin_body
@@ -468,85 +467,19 @@ Aveva… perso alcune abitudini, nei dieci anni da quando l'Ordine della Fenice
 
 \begin_layout Standard
 Scintillando, Severus divenne visibile accanto a lei.
- La sua mano destra stava già tirando fuori una boccetta dalle
-\change_deleted 5381 1381074366
- 
-\change_unchanged
- vesti, la sua mano sinistra 
-\change_inserted 5381 1381074391
-era 
-\change_unchanged
-già distesa in un gesto di richiesta.
- 
-\change_deleted 5381 1381074445
-Ella g
-\change_inserted 5381 1381074446
-G
-\change_unchanged
-li 
-\change_deleted 5381 1381074450
-diede
-\change_inserted 5381 1381074452
-consegnò
-\change_unchanged
- il capello di Harry, 
-\change_inserted 5381 1381074473
-ch
-\change_unchanged
-e un attimo dopo
-\change_deleted 5381 1381074475
-,
-\change_unchanged
- 
-\change_deleted 5381 1381074477
-lo
-\change_inserted 5381 1381074477
-fu
-\change_unchanged
- lasci
-\change_deleted 5381 1381074479
-ò
-\change_inserted 5381 1381074480
-ato
-\change_unchanged
- cadere nella fiaschetta di Polisucco incompleto, 
-\change_deleted 5381 1381074492
-che
-\change_inserted 5381 1381074493
-il quale
-\change_unchanged
- cominciò subito a frizzare e a spumeggiare mentre si 
-\change_deleted 5381 1381074521
-stabilizzò
-\change_inserted 5381 1381074523
-stabilizzava
-\change_unchanged
- nella 
-\change_deleted 5381 1381074546
-potenza
-\change_inserted 5381 1381074548
-forza
-\change_unchanged
- che avrebbe permesso a Severus di interpretare la sua parte 
-\change_deleted 5381 1381074561
-come
-\change_inserted 5381 1381074561
-di
-\change_unchanged
- esca.
+ La sua mano destra stava già tirando fuori una boccetta dalle vesti, la
+ sua mano sinistra era già distesa in un gesto di richiesta.
+ Gli consegnò il capello di Harry, che un attimo dopo fu lasciato cadere
+ nella fiaschetta di Polisucco incompleto, il quale cominciò subito a frizzare
+ e a spumeggiare mentre si stabilizzava nella forza che avrebbe permesso
+ a Severus di interpretare la sua parte di esca.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Questo è 
-\change_deleted 5381 1381074623
-stato
-\change_inserted 5381 1381074609
- un
-\change_unchanged
- imprevisto
+Questo è un imprevisto
 \begin_inset Quotes frd
 \end_inset
 
@@ -559,17 +492,9 @@ Perché il nostro Preside non ha recuperato il signor Potter
 \emph on
 prima
 \emph default
-, mi chiedo, se era 
-\change_deleted 5381 1381074653
-intenzionato
-\change_inserted 5381 1381074656
-disposto persino
-\change_deleted 5381 1381074658
- ad arrivare
-\change_unchanged
- a piegare il Tempo? Non ci dovrebbe essere stato nulla che gli impedisse
- di farlo… in effetti, il tuo Patronus avrebbe dovuto trovare il signor
- Potter già al sicuro…
+, mi chiedo, se era disposto persino a piegare il Tempo? Non ci dovrebbe
+ essere stato nulla che gli impedisse di farlo… in effetti, il tuo Patronus
+ avrebbe dovuto trovare il signor Potter già al sicuro…
 \begin_inset Quotes frd
 \end_inset
 
@@ -577,37 +502,8 @@ disposto persino
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted 5381 1381074682
-Ella n
-\change_inserted 5381 1381074682
-N
-\change_unchanged
-on ci aveva pensato, 
-\change_deleted 5381 1381074698
-poiché 
-\change_unchanged
-un
-\change_inserted 5381 1381074700
-'
-\change_unchanged
-a
-\change_inserted 5381 1381074702
-ltra
-\change_unchanged
- 
-\change_deleted 5381 1381074704
-comprensione diversa
-\change_inserted 5381 1381074706
-illuminazione
-\change_unchanged
- era 
-\change_deleted 5381 1381074713
-saltata
-\change_inserted 5381 1381074714
-salita
-\change_unchanged
- in primo piano nella sua mente.
+Non ci aveva pensato, un'altra illuminazione era salita in primo piano nella
+ sua mente.
  Non era minimamente terrificante quanto il fatto che Bellatrix Black fosse
  fuggita da Azkaban, eppure
 \begin_inset space ~
@@ -628,21 +524,11 @@ mantello dell'invisibilità?
 \begin_inset Quotes frd
 \end_inset
 
- 
-\change_deleted 5381 1381074735
-ella 
-\change_unchanged
-disse.
+ disse.
 \end_layout
 
 \begin_layout Standard
-Il Maestro di Pozioni non rispose; si stava già 
-\change_deleted 5381 1381074745
-restringendo
-\change_inserted 5381 1381074747
-rimpicciolendo
-\change_unchanged
-.
+Il Maestro di Pozioni non rispose; si stava già rimpicciolendo.
 \end_layout
 
 \begin_layout Quote
@@ -657,33 +543,32 @@ rimpicciolendo
 \end_layout
 
 \begin_layout Standard
-Tic-snic, dlip-blip, ding-ring-ting-
+Tic-snic, dlip-blip, ding-ring-ting--
 \end_layout
 
 \begin_layout Standard
-Le dava ancora fastidio, anche uscì sbiadito dalla sua attenzione dopo un
- po'; e quando e se ella fosse diventata Preside, aveva intenzione di Silenziare
- il tutto.
- Quale Capo di Hogwarts, si chiese, era stato per primo così sconsiderato
- da creare un dispositivo che produceva 
+Le recava ancora fastidio, anche se dopo un po' usciva di mente; quando
+ e se fosse diventata Preside, aveva intenzione di Silenziare il tutto.
+ Quale Direttore di Hogwarts, si chiese, era stato inizialmente così sconsiderat
+o da creare un dispositivo che produceva 
 \emph on
 rumore
 \emph default
-, da passare ai propri successori?
+, da tramandare ai propri successori?
 \end_layout
 
 \begin_layout Standard
-Era seduta nell'ufficio del Preside con una scrivania rapidamente Trasfigurata
- di suo, occupandosi di alcuni delle centinaia di piccoli pezzi di documentazion
-e necessaria che tenevano Hogwarts lontana dal blocco totale; poteva perdersi
- in essi facilmente, e questo le impediva di pensare altre cose.
+Era seduta nell'ufficio del Preside con una propria scrivania rapidamente
+ Trasfigurata, occupandosi di alcune delle centinaia di piccole ma indispensabil
+i scartoffie che tenevano lontana Hogwarts dalla paralisi totale; poteva
+ perdersi in esse facilmente, e questo le impediva di pensare ad altre cose.
  Albus una volta aveva detto, in tono piuttosto ironico, che Hogwarts sembrava
- funzionare ancora più efficientemente quando c'era una crisi esterna cui
- ella cercasse di evitare di pensare…
+ funzionare ancora più efficientemente quando c'era una crisi esterna alla
+ quale ella cercasse di evitare di pensare…
 \end_layout
 
 \begin_layout Standard
-… dieci anni fa, quella era l'ultima volta che Albus l'aveva detto.
+… dieci anni fa, quella era stata l'ultima volta che Albus l'aveva detto.
 \end_layout
 
 \begin_layout Standard
@@ -691,16 +576,16 @@ Ci fu lo scampanellio che indicava l'avvicinarsi di un visitatore.
 \end_layout
 
 \begin_layout Standard
-Minerva continuò a leggere la pergamena corrente.
+Minerva continuò a leggere la pergamena che aveva sotto mano.
 \end_layout
 
 \begin_layout Standard
-La porta si spalancò di colpo, rivelando Severus Snape, che fece tre passi
- dentro e chiese senza la minima pausa, 
+La porta si spalancò di colpo, mostrando Severus Snape, che fece tre passi
+ entrando e chiese senza la minima pausa, 
 \begin_inset Quotes fld
 \end_inset
 
-Qualche messaggio da Malocchio?
+Notizie da Malocchio?
 \begin_inset Quotes frd
 \end_inset
 
@@ -708,13 +593,13 @@ Qualche messaggio da Malocchio?
 \end_layout
 
 \begin_layout Standard
-Albus si stava già alzando dalla sua sedia, anche mentre ella mise da parte
- le sue pergamene e fece svanire la scrivania.
+Albus si stava già alzando dalla sua sedia, mentre ella metteva da parte
+ le proprie pergamene e faceva svanire la scrivania.
  
 \begin_inset Quotes fld
 \end_inset
 
-Il Patronus di Moody sta facendo rapporto al me in Azkaban
+Il Patronus di Moody sta facendo rapporto al me stesso in Azkaban
 \begin_inset Quotes frd
 \end_inset
 
@@ -741,7 +626,7 @@ Nessuno ha cercato di prelevare il mio sangue con la forza
 \end_inset
 
 , disse Severus.
- Fece una rapida smorfia al posto di un sorriso.
+ Fece un rapido sorriso più simile a una smorfia.
  
 \begin_inset Quotes fld
 \end_inset
@@ -772,19 +657,19 @@ Cosa?
 \begin_inset Quotes fld
 \end_inset
 
-Mi ha riconosciuto come un impostore prima che potessi persino aprire la
- bocca, e alquanto ragionevolmente mi ha attaccato immediatamente, chiedendo
- di conoscere dove fosse il signor Potter
+Ha capito che ero un impostore prima che potessi persino aprire bocca, e
+ alquanto ragionevolmente mi ha assalito immediatamente, pretendendo di
+ sapere dove fosse il signor Potter
 \begin_inset Quotes frd
 \end_inset
 
 .
- Un'altra smorfia come sorriso.
+ Un altro sorriso simile a una smorfia.
  
 \begin_inset Quotes fld
 \end_inset
 
-Gridare che ero Severus Snape non è sembrava rassicurarlo, per qualche ragione.
+Gridare che ero Severus Snape non è sembrato rassicurarlo, per qualche ragione.
  Credo davvero che quell'uomo mi ucciderebbe per un siclo e darebbe cinque
  zellini di resto.
  Ho dovuto stordire il nostro buon professor Quirrell, cosa che non è stata
@@ -832,9 +717,9 @@ Mungo's?
  settimane prima di collassare, tale era il suo stato di esaurimento.
  Il tuo prezioso Professore di Difesa sta bene, Minerva, lo stordimento
  può averlo aiutato costringendolo a prendersi un paio di giorni di riposo.
- In seguito ho rifiutato l'offerta di usare la Polvere Volante per andare
- a Hogwarts, e sono tornato a Diagon Alley e ho vagato, ma nessuno è sembrato
- volere il sangue del signor Potter oggi
+ In seguito ho rifiutato l'offerta di usare la Polvere Volante per venire
+ a Hogwarts, e sono tornato a Diagon Alley e ho fatto una passeggiata, ma
+ nessuno è sembrato volere il sangue del signor Potter oggi
 \begin_inset Quotes frd
 \end_inset
 
@@ -845,7 +730,7 @@ Mungo's?
 \begin_inset Quotes fld
 \end_inset
 
-Il nostro Professore di Difesa è nelle migliori mani, ne sono certo
+Il nostro Professore di Difesa è nelle mani migliori, ne sono certo
 \begin_inset Quotes frd
 \end_inset
 
@@ -862,16 +747,17 @@ Faccende più importanti richiedono la nostra attenzione, Minerva
 \end_layout
 
 \begin_layout Standard
-Le ci volle uno sforzo considerevole per riportare indietro a forza la sua
- attenzione, ma si risedette, e Severus fece un gesto verso una sedia anche
- per lui, e tutti e tre si avvicinarono per iniziare il loro concilio.
+Le ci volle uno sforzo considerevole per riportare sotto controllo la propria
+ attenzione, ma si sedette nuovamente, e Severus produsse con un gesto una
+ sedia anche per sé, e tutti e tre si avvicinarono per iniziare il loro
+ concilio.
 \end_layout
 
 \begin_layout Standard
-Si sentì come un'impostora sotto Polisucco, a stare seduta con quei due.
- La guerra non era la sua arte, né il tramare.
+Si sentì come un impostore sotto Polisucco, a stare seduta con quei due.
+ La guerra non era la sua arte, né lo era il cospirare.
  Doveva sforzarsi per restare un passo avanti ai gemelli Weasley, e talvolta
- in quello falliva.
+ falliva.
  Era seduta lì, in fin dei conti, solo perché aveva udito la profezia…
 \end_layout
 
@@ -896,7 +782,7 @@ un mistero piuttosto allarmante.
 \end_layout
 
 \begin_layout Standard
-Minerva inspirò bruscamente.
+Minerva inspirò rumorosamente.
  
 \begin_inset Quotes fld
 \end_inset
@@ -920,18 +806,18 @@ Ho paura di sì
 \begin_inset Quotes frd
 \end_inset
 
-, disse il preside.
+, disse il Preside.
 \end_layout
 
 \begin_layout Standard
-Ella diede un'occhiata di fianco e vide che Severus sembrava perplesso come
+Diede un'occhiata a fianco a sé e vide che Severus sembrava perplesso come
  lei.
  
 \emph on
 Paura
 \emph default
- che il Signore Oscuro non stesse sorgendo ancora? Ella avrebbe dato quasi
- qualsiasi cosa perché quello fosse vero.
+ che il Signore Oscuro non stesse sorgendo di nuovo? Avrebbe dato quasi
+ qualsiasi cosa perché fosse vero.
 \end_layout
 
 \begin_layout Standard
@@ -942,24 +828,24 @@ Allora
 \begin_inset Quotes frd
 \end_inset
 
-, disse Albus pesantemente.
+, disse Albus con fatica.
  
 \begin_inset Quotes fld
 \end_inset
 
 Il nostro primo sospettato è Voldemort, sorto nuovamente e nel tentativo
  di resuscitare sé stesso.
- Ho studiato molti libri che vorrei non avevo letto, in cerca di ogni sua
- possibile via di ritorno, e ne ho trovate solo tre.
- La sua strada più forte verso la vita è la Pietra filosofale, che Flamel
- mi assicura che neppure Voldemort può creare da solo; attraverso quella
- strada sorgerebbe più grande e più terribile che mai.
+ Ho studiato molti libri che vorrei non aver letto, in cerca di ogni sua
+ possibile via per ritornare, e ne ho trovate solo tre.
+ La via più diretta verso la vita è la Pietra filosofale, che, mi assicura
+ Flamel, neppure Voldemort può creare da solo; attraverso quella strada
+ sorgerebbe più grande e più terribile che mai.
  Non avrei mai pensato che Voldemort fosse in grado di resistere alla tentazione
- della Pietra, ancor meno perché una trappola tanto evidente è una sfida
- alla sua arguzia.
- Ma la sua seconda via è quasi altrettanto forte: la carne del suo servo,
+ della Pietra, tanto più che una trappola così evidente è una sfida alla
+ sua arguzia.
+ Ma la sua seconda via è quasi altrettanto diretta: la carne del suo servo,
  data volontariamente; il sangue del suo nemico, preso con la forza; e l'osso
- del suo antenato, inconsapevolmente lasciato in eredità.
+ del suo antenato, lasciato inconsapevolmente in eredità.
  Voldemort è un perfezionista
 \begin_inset space ~
 \end_inset
@@ -974,9 +860,9 @@ Il nostro primo sospettato è Voldemort, sorto nuovamente e nel tentativo
 
 -- e avrebbe certamente cercato la combinazione più potente: la carne di
  Bellatrix Black, il sangue di Harry Potter, e l'osso di suo padre.
- L'ultima via di Voldemort è quella di sedurre una vittima e drenarle via
- la vita per un lungo periodo; nel qual caso Voldemort sarebbe debole rispetto
- alla sua precedente potenza.
+ L'ultima via di Voldemort è quella di sedurre una vittima e succhiarle
+ via la vita per un lungo periodo; nel qual caso Voldemort sarebbe debole
+ rispetto alla sua precedente potenza.
  Il suo movente per portare via Bellatrix è chiaro.
  E se la tiene in riserva, per utilizzarla solo nel caso in cui non possa
  impadronirsi della Pietra, questo spiegherebbe perché non è stato effettuato
