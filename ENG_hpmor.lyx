@@ -167,7 +167,7 @@
 
 
 \widowpenalties 2 10000 0
-\clubpenalty 10000
+%\clubpenalty 10000
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -178,7 +178,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Garamond Premier Pro
+\font_roman Adobe Garamond Pro
 \font_sans FoglihtenNo04
 \font_typewriter Inconsolata
 \font_default_family default
@@ -548,8 +548,7 @@ restoregeometry
 
 
 \size footnotesize
-Harry Potter © J.K.
- Rowling.
+Harry Potter © 1997 Joanne Rowling.
 \end_layout
 
 \begin_layout Standard
@@ -558,23 +557,7 @@ Harry Potter © J.K.
 \emph on
 Harry Potter and the Methods of Rationality
 \emph default
- © E.
- Yukowsky.
- Testo scaricato da 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{hpmor.com}
-\end_layout
-
-\end_inset
-
- il 16 marzo 2013, aggiornato all'11 ottobre 2013; controllate il sito per
- aggiornamenti e nuovi capitoli.
+ © 2010 Eliezer Yukowsky.
 \end_layout
 
 \begin_layout Standard
@@ -593,7 +576,7 @@ reflectbox{©}
 
 \end_inset
 
- Dinosaurusgede (
+ 2010 Dinosaurusgede (
 \begin_inset ERT
 status open
 
@@ -628,7 +611,7 @@ reflectbox{©}
 
 \end_inset
 
- Cato Philosophus (
+ 2013 Cato Philosophus (
 \begin_inset ERT
 status open
 
@@ -642,7 +625,27 @@ url{cato.philosophus@gmail.com}
 \end_inset
 
 ), rilasciata sotto licenza Creative Commons Attribution-Share Alike 3.0.
- Aggiornamenti sul sito 
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Testo originale versione inglese scaricato da 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{hpmor.com}
+\end_layout
+
+\end_inset
+
+ il 16 marzo 2013, aggiornato all'11 ottobre 2013; controllate il sito per
+ aggiornamenti e nuovi capitoli.
+ La traduzione è disponibile sul sito 
 \begin_inset ERT
 status open
 
@@ -656,7 +659,12 @@ url{sites.google.com/site/hpeimdr/home}
 \end_inset
 
 .
- Composto con LyX & 
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Libro composto con LyX & 
 \begin_inset ERT
 status open
 
