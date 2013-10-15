@@ -45,12 +45,33 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\usepackage{fontspec,microtype}
+%\usepackage{fontspec,microtype}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,stretch=10,shrink=10]{microtype}
+\SetTracking{encoding={*}, shape=sc}{40}
 \frenchspacing
-%\widowpenalties 2 10000 0
+\widowpenalties 2 10000 0
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+\usepackage{ifluatex,ifxetex}
+%\usepackage{libertine}
+\usepackage{tgadventor}
+\usepackage{ebgaramond}
+\ifluatex\else\ifxetex\else
+  \normalfont
+  \makeatletter
+  \input{TS1EBGaramond-LF.fd}
+  \input{TS1EBGaramond-OsF.fd}
+  \makeatother
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{m}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{n}{ <-> ssub * EBGaramond-OsF/m/n }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{it}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{n}{ <-> ssub * EBGaramond-OsF/m/n }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{it}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
+\fi\fi
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -62,18 +83,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Liberation Sans Narrow
-\font_typewriter Inconsolata
+\font_roman default
+\font_sans default
+\font_typewriter default
 \font_default_family default
-\use_non_tex_fonts true
+\use_non_tex_fonts false
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf2
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -214,7 +235,7 @@ Fawkes
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry, giusto mentre ella stava aprendo la bocca, 
+, disse Harry, proprio mentre ella stava aprendo la bocca, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -4013,9 +4034,9 @@ C'erano posti molto peggiori in cui restare intrappolati, Harry suppose.
 migliore
 \emph default
  in cui restare intrappolati di un antico castello con una struttura frattale
- in continua evoluzione, il che significava che saresti mai stato a corto
+ in continua evoluzione che implicava che non saresti mai stato a corto
  di luoghi da esplorare, pieno di persone interessanti e di libri interessanti
- e di conoscenze incredibilmente importanti sconosciute alla scienza babbana.
+ e di conoscenze incredibilmente importanti ignote alla scienza babbana.
 \end_layout
 
 \begin_layout Standard
@@ -4034,14 +4055,14 @@ lasciato scappare
 ottimale
 \emph default
 , non in tutti i regni del possibile, forse, ma certamente sul pianeta Terra
- reale, era il Posto del Massimo Divertimento.
+ reale, era il Luogo del Massimo Divertimento.
 \end_layout
 
 \begin_layout Standard
-Come potessero il castello e il suo parco sembrare così molto più piccoli,
- molto più limitanti, come potesse il resto del mondo essere diventato così
- molto più interessante e importante, l'istante in cui a Harry era stato
- detto che non gli era permesso di andarsene? Aveva trascorso qui 
+Come potevano sembrare così molto più piccoli e molto più limitanti il castello
+ e il suo parco, come poteva essere diventato così molto più interessante
+ e importante il resto del mondo, l'istante in cui a Harry era stato detto
+ che non gli era permesso di andarsene? Aveva trascorso qui dei 
 \emph on
 mesi
 \emph default
@@ -4059,29 +4080,29 @@ Tu
 \emph default
 conosci
 \emph on
- la ricerca sul tema
+ gli studi scientifici sull'argomento
 \emph default
-, osservò una parte di sé stesso, 
+, osservò una parte di lui, 
 \emph on
 sono solo i normali effetti della scarsità, come quella volta in cui non
- appena una contea mise fuorilegge i detergenti fosfati, persone che prima
- non se n'erano mai curate guidarono filo alla contea più vicina al fine
- di acquistare carichi enormi di detergenti fosfato, e le indagini mostrarono
- che essi valutavano i detergenti fosfati come più dolci e più efficaci
- e anche più facili da versare\SpecialChar \ldots{}
- e se si dà a dei bambini di due anni la possibili
-tà di scegliere tra un giocattolo facilmente accessibile e uno protetto
- da una barriera si può aggirare, loro ignorano il giocattolo facilmente
- accessibile e scelgono quello dietro la barriera\SpecialChar \ldots{}
- i venditori sanno che
- possono vendere le cose semplicemente dicendo al cliente che potrebbe non
- essere disponibile\SpecialChar \ldots{}
- era tutto nel libro di Cialdini 
+ appena una contea mise fuorilegge i detergenti con fosfati, persone che
+ prima non se n'erano mai curate guidarono fino alla contea più vicina per
+ acquistare quantità enormi di detergenti con fosfati, e i sondaggi mostrarono
+ che ritenevano che i detergenti con fosfati fossero più delicati e più
+ efficaci e anche più facili da versare\SpecialChar \ldots{}
+ e se si dà a dei bambini di due
+ anni la possibilità di scegliere tra un giocattolo facilmente raggiungibile
+ e uno protetto da una barriera che si può aggirare, loro ignorano il giocattolo
+ facilmente raggiungibile e scelgono quello dietro la barriera\SpecialChar \ldots{}
+ i venditori
+ sanno che possono vendere le cose dicendo semplicemente al cliente che
+ potrebbero non essere disponibili\SpecialChar \ldots{}
+ era tutto nel libro 
 \emph default
 Influence
 \emph on
-, tutto quello che senti in questo momento, l'erba è sempre più verde dal
- lato che non è permesso.
+ di Cialdini, tutto quello che provi in questo momento, l'erba è sempre
+ più verde dal lato che non è accessibile.
 \end_layout
 
 \begin_layout Standard
@@ -4103,7 +4124,7 @@ lasciato scappare
 \end_layout
 
 \begin_layout Standard
-Questo era in realtà il problema.
+In realtà era questo il problema.
 \end_layout
 
 \begin_layout Standard
@@ -4116,14 +4137,15 @@ c'era
 
 \begin_layout Standard
 Chi sapeva se Colui-Che-Non-Deve-Essere-Nominato esisteva ancora al di fuori
- dell'immaginazione di un vecchio mago che forse-non-fa-finta-di-essere-pazzo?
+ dell'immaginazione di un vecchio mago che forse-non-fa-solo-finta-di-essere-paz
+zo?
 \end_layout
 
 \begin_layout Standard
 Il corpo di Lord Voldemort era stato trovato completamente bruciato, non
  potevano davvero esserci cose come le anime.
- Come avrebbe potuto essere ancora vivo Lord Voldemort? Come faceva Silente
- a 
+ In che modo sarebbe potuto essere ancora vivo Lord Voldemort? Come faceva
+ Silente a 
 \emph on
 sapere
 \emph default
@@ -4137,7 +4159,7 @@ E se non ci fosse stato un Signore Oscuro, Harry non poteva sconfiggerlo,
 
 \begin_layout Standard
 \SpecialChar \ldots{}
- forse sarebbe stato legalmente autorizzato a fuggire dopo aver superato
+ forse sarebbe stato legalmente autorizzato a fuggire dopo aver completato
  il suo settimo anno, sei anni e quattro mesi e tre settimane da quel giorno.
  Non era 
 \emph on
@@ -4193,14 +4215,14 @@ Harry
 \emph on
 Sai
 \emph default
-, disse la parte di lui che affinava le sue abilità, 
+, disse la parte di lui che perfezionava le sue abilità, 
 \emph on
-non ti sei in un certo senso chiesto, una volta, come ogni professione different
-e abbia un modo differente di essere eccellente, come un insegnante eccellente
- non è come un idraulico eccellente; ma come tutti abbiano in comune alcune
- tecniche per non essere stupidi; e che una tra le più importanti di tali
- tecniche è quella di affrontare i tuoi piccoli errori prima che si trasformino
- in 
+non hai in un certo senso meditato, una volta, su come ogni professione
+ differente abbia un modo differente di essere eccellente, su come un insegnante
+ eccellente non sia simile a un idraulico eccellente; ma che tutte abbiano
+ in comune alcune tecniche per non essere stupidi; e che una tra le più
+ importanti di tali tecniche sia quella di affrontare i tuoi piccoli errori
+ prima che si trasformino in 
 \noun on
 grossi
 \noun default
@@ -4224,7 +4246,7 @@ La questione è
 \emph default
 , disse il suo controllore interno, 
 \emph on
-che la situazione sta peggiorando letteralmente minuto per minuto.
+che la situazione sta peggiorando letteralmente ogni minuto che passa.
  Il modo in cui le spie corrompono le persone è quello di far commettere
  loro un piccolo peccato, e poi usano il piccolo peccato per spingerle col
  ricatto a compiere un peccato più grande, e poi usano 
@@ -4240,13 +4262,13 @@ quel
 \begin_layout Standard
 
 \emph on
-Una volta non pensasti come la persona che era ricattata, se avesse potuto
- prevedere l'intero percorso, avrebbe semplicemente deciso di subire il
- pugno al primo passo, di prendersi la responsabilità di quel primo peccato?
- Non avevi deciso che avresti fatto questo, se qualcuno avesse mai provato
- a ricattarti per fare qualcosa di grosso allo scopo di tenere nascosto
- qualcosa di piccolo? Vedi la somiglianza in questo caso, Harry James Potter-Eva
-ns-Verres?
+Una volta non pensasti che la persona ricattata, se avesse potuto prevedere
+ l'intero corso degli eventi, avrebbe piuttosto preferito sopportare il
+ contraccolpo al primo passo, avrebbe preferito prendersi la responsabilità
+ di quel primo peccato? Non avevi deciso che avresti fatto questo, se qualcuno
+ avesse mai provato a ricattarti per fare qualcosa di grosso allo scopo
+ di tenere nascosto qualcosa di piccolo? Vedi la somiglianza in questo caso,
+ Harry James Potter-Evans-Verres?
 \end_layout
 
 \begin_layout Standard
@@ -4271,7 +4293,7 @@ esisteva
 
 \emph on
 Non pensi che saranno impressionati dalla tua onestà e razionalità e lungimiranz
-a nel fermare questo prima che cresca ancor di più?
+a nel fermare tutto questo prima che s'ingigantisca ancor di più?
 \end_layout
 
 \begin_layout Standard
@@ -4286,16 +4308,16 @@ non
 \begin_layout Standard
 I suoi piedi erranti lo portarono vicino a una finestra aperta, e Harry
  la raggiunse, e si appoggiò con le braccia sul davanzale, e fissò il terreno
- di Hogwarts da molto in alto.
+ di Hogwarts molto più in basso.
 \end_layout
 
 \begin_layout Standard
-Marrone che era gli alberi spogli, giallo che era l'erba morta, ghiaccio
- color ghiaccio che erano i torrenti congelati e ruscelli ghiacciati\SpecialChar \ldots{}
- qualunque
- ufficiale scolastico l'avesse soprannominata `La Foresta Proibita' davvero
- non aveva capito nulla di marketing, il nome faceva esattamente in modo
- che volessi andarci ancora di più.
+Il marrone degli alberi spogli, il giallo dell'erba morta, il ghiaccio color
+ ghiaccio dei torrenti congelati e dei ruscelli ghiacciati\SpecialChar \ldots{}
+ qualunque ufficiale
+ scolastico l'avesse soprannominata `La Foresta Proibita' davvero non aveva
+ capito nulla di marketing, il nome faceva in modo che desiderassi andarci
+ ancora più intensamente.
  Il sole stava tramontando nel cielo, poiché Harry stava ormai pensando
  da qualche ora, pensando per lo più agli stessi pensieri più e più volte,
  ma con differenze fondamentali ogni volta, come se i suoi pensieri non
@@ -4307,8 +4329,8 @@ Non riusciva ancora a credere di essere andato fino in
 \emph on
 fondo
 \emph default
- nella faccenda con Azkaban -- aveva spento il suo Patronus prima gli prendesse
- tutta la sua vita, aveva stordito un Auror, aveva capito come nascondere
+ nella faccenda di Azkaban -- aveva spento il suo Patronus prima che gli
+ consumasse tutta la vita, aveva stordito un Auror, aveva capito come nascondere
  Bella dai Dissennatori, aveva fronteggiato dodici Dissennatori e li aveva
  spaventati, aveva inventato un manico di scopa razzo-assistito, e l'aveva
  cavalcato -- era andato fino in 
@@ -4323,7 +4345,7 @@ una volta
 \emph on
 devo farlo\SpecialChar \ldots{}
  perché\SpecialChar \ldots{}
- ho promesso a Hermione che sarei tornato dal pranzo!
+ ho promesso a Hermione che sarei tornato da pranzo!
 \emph default
  La sentiva come un'opportunità irrimediabilmente persa; del tipo, dopo
  averlo fatto in modo sbagliato 
@@ -4422,22 +4444,22 @@ l'aveva
 \end_layout
 
 \begin_layout Standard
-Non per alcuna analisi costo-beneficio, questo era sicuro.
+Non a seguito di una qualche analisi costi-beneficî, questo era certo.
  Era stato troppo imbarazzato per tirar fuori un foglio di carta e iniziare
  a calcolare le utilità attese, aveva avuto paura che il professor Quirrell
- avrebbe smesso di rispettarlo se avesse detto di no o persino avesse esitato
- troppo ad aiutare una damigella in pericolo.
+ avrebbe smesso di rispettarlo se avesse detto di no o persino se avesse
+ esitato troppo ad aiutare una damigella in pericolo.
 \end_layout
 
 \begin_layout Standard
-Aveva pensato, in qualche parte profonda dentro di lui, che se il tuo insegnante
- misterioso ti offre la prima missione, la prima occasione, la chiamata
- all'avventura, e tu dici di 
+Aveva pensato, in qualche parte profonda dentro di lui, che se il suo insegnante
+ misterioso gli avesse offerto la sua prima missione, la prima occasione,
+ la chiamata all'avventura, ed egli avessi detto di 
 \emph on
 no
 \emph default
-, allora il tuo insegnante misterioso se ne va via disgustato, e non avresti
- mai un'altra possibilità di essere un eroe\SpecialChar \ldots{}
+, allora il suo insegnante misterioso se ne sarebbe andato via disgustato,
+ ed egli non avrebbe mai avuto un'altra possibilità di essere un eroe\SpecialChar \ldots{}
 
 \end_layout
 
@@ -4446,7 +4468,7 @@ no
  sì, era stato per questo.
  Col senno di poi, era stato per questo.
  Aveva iniziato a pensare che la sua vita avesse una trama e lì c'era un
- colpo di scena, invece di, oh, diciamo, lì c'era una proposta di 
+ colpo di scena, invece di, oh, diciamo, una proposta di 
 \emph on
 far evadere Bellatrix Black da Azkaban
 \emph default
@@ -4455,11 +4477,11 @@ far evadere Bellatrix Black da Azkaban
  di secondo in cui era stata presa, il suo cervello che aveva riconosciuto
  percettivamente la narrazione in cui diceva `no' come dissonante.
  E quando ci pensavi, non era un modo razionale per prendere le decisioni.
- Il motivo ulteriore del professor Quirrell di ottenere gli ultimi resti
- della perduta tradizione di Serpeverde, prima che Bellatrix morisse e quella
- fosse irrevocabilmente dimenticata, sembrava incredibilmente sana di mente
- a confronto; un beneficio commisurato con quello che era apparso al momento
- come un piccolo rischio.
+ Il motivo ulteriore del professor Quirrell, ottenere gli ultimi resti della
+ perduta tradizione di Serpeverde prima che fosse irrevocabilmente dimenticata
+ con la morte di Bellatrix, sembrava incredibilmente sano di mente a confronto;
+ un beneficio commisurato con quello che era apparso al momento come un
+ piccolo rischio.
 \end_layout
 
 \begin_layout Standard
@@ -4479,7 +4501,7 @@ questo
 \end_layout
 
 \begin_layout Standard
-Da molto in alto, abbastanza in alto che i singoli alberi sfocavano insieme,
+Da molto in alto, abbastanza in alto che i singoli alberi sfumavano insieme,
  Harry fissò la foresta.
 \end_layout
 
@@ -4492,19 +4514,19 @@ non voleva
  fossero arrabbiati con lui e magari che finissero uccisi in seguito dal
  Signore Oscuro.
  Avrebbe preferito essere intrappolato a Hogwarts per sei anni piuttosto
- che affrontare quello.
+ che affrontare questo.
  Ed era così che si sentiva.
- E così fu infatti utile, un sollievo, essere in grado di aggrapparsi a
- un singolo fattore decisivo, che era che se Harry avesse confessato, il
- professor Quirrell sarebbe andato ad Azkaban e morto lì.
+ E così fu utile, un sollievo, essere in grado di aggrapparsi a un singolo
+ fattore decisivo, secondo cui se Harry avesse confessato, il professor
+ Quirrell sarebbe andato ad Azkaban e sarebbe morto lì.
 \end_layout
 
 \begin_layout Standard
-(Un sussulto, una pausa, un balbettio nel respiro di Harry.)
+(Un sussulto, una pausa, un'interruzione nel respiro di Harry.)
 \end_layout
 
 \begin_layout Standard
-Se lo esprimevi in 
+Se la mettevi in 
 \emph on
 quel
 \emph default
@@ -4513,8 +4535,8 @@ quel
 \end_layout
 
 \begin_layout Standard
-Harry alzò gli occhi dalla Foresta Proibita, guardò il cielo limpido azzurro
- proibito.
+Harry alzò gli occhi dalla Foresta Proibita, guardò il limpido e azzurro
+ cielo proibito.
 \end_layout
 
 \begin_layout Standard
@@ -4526,7 +4548,7 @@ Guardò dalle lastre di vetro alla grande cosa ardente, alle cose soffici,
 \begin_layout Standard
 E\SpecialChar \ldots{}
  in realtà l'aiutò, l'aiutò parecchio, pensare che i suoi problemi non
- erano niente a confronto di essere ad Azkaban.
+ erano niente a confronto dell'essere ad Azkaban.
  Che c'erano persone al mondo che erano 
 \emph on
 veramente
@@ -4575,7 +4597,8 @@ sano di mente
 \end_layout
 
 \begin_layout Standard
-Ma solo il fatto che qualcosa sembrasse bello, non lo rendeva neppure 
+Ma il semplice fatto che qualcosa sembrasse bello non lo rendeva neppure
+ 
 \emph on
 sbagliato
 \emph default
@@ -4637,7 +4660,7 @@ pessimista
  -- se era veramente un problema, e non la saggezza superiore dell'esperienza.
  Ma a Harry sembrava che il professor Quirrell stesse costantemente interpretand
 o tutto alla peggiore luce possibile.
- Se avessi dato al professor Quirrell un bicchiere era pieno al 90%, avrebbe
+ Se avessi dato al professor Quirrell un bicchiere pieno al 90%, avrebbe
  detto che il 10% di parte vuota dimostrava che nessuno aveva 
 \emph on
 veramente
@@ -4646,7 +4669,7 @@ veramente
 \end_layout
 
 \begin_layout Standard
-Quella era un'analogia molto buona, ora che Harry ci pensava.
+Quella era un'analogia molto calzante, ora che Harry ci pensava.
  Non tutta la Gran Bretagna magica era come Azkaban, il bicchiere era ben
  più che mezzo pieno\SpecialChar \ldots{}
 
@@ -4700,7 +4723,7 @@ Quindi aveva progettato un esperimento per indagare
 l'obbedienza
 \emph default
 , per vedere se i tedeschi fossero, per qualche ragione, più soggetti a
- obbedire a ordini nocivi da parte di figure di autorità.
+ obbedire a ordini nocivi da parte delle autorità.
 \end_layout
 
 \begin_layout Standard
@@ -4709,12 +4732,12 @@ Prima aveva eseguito una versione pilota del suo esperimento su soggetti
 \end_layout
 
 \begin_layout Standard
-E dopo non si era preoccupati di provarlo in Germania.
+E dopo non si era dato pena di provarlo in Germania.
 \end_layout
 
 \begin_layout Standard
 Apparato sperimentale: una serie di 30 interruttori disposti in linea orizzontal
-e, con etichette che iniziavano da `15 volts' e salivano fino a `450 volts',
+e, con etichette che iniziavano da `15 volt' e salivano fino a `450 volt',
  con altre etichette per ciascun gruppo di quattro interruttori.
  Il primo gruppo di quattro etichettato `Trauma leggero', il sesto gruppo
  etichettato `Trauma di estrema intensità', il settimo gruppo etichettato
@@ -4727,26 +4750,26 @@ xxx'.
 \begin_layout Standard
 E un attore, un complice dello sperimentatore, e che era apparso ai veri
  soggetti come qualcuno di simile a loro: qualcuno che aveva risposto alla
- stessa pubblicità che cercava partecipanti in un esperimento sull'apprendimento
+ stessa pubblicità che cercava partecipanti ad un esperimento sull'apprendimento
 , e che aveva perso un sorteggio (truccato) ed era stato legato ad una sedia,
  insieme agli elettrodi.
- I veri soggetti sperimentali avevano subito un trauma leggero dagli elettrodi,
- giusto in modo che sapessero che funzionavano.
+ Ai veri soggetti sperimentali era stata inflitta una scossa leggera con
+ gli elettrodi, giusto in modo che sapessero che funzionavano.
 \end_layout
 
 \begin_layout Standard
 Al vero soggetto era stato detto che l'esperimento riguardava gli effetti
- delle punizioni sull'apprendimento e la memoria, che che parte dell'esperimento
+ delle punizioni sull'apprendimento e la memoria, e che parte dell'esperimento
  consisteva nel verificare se faceva una qualche differenza che genere di
  persona amministrasse le punizioni; e che la persona legata alla sedia
  avrebbe cercato di ricordare gruppi di coppie di parole, e che ogni volta
  che lo `studente' ne sbagliava una, l'`insegnante' doveva somministrargli
- un trauma sequenzialmente più forte.
+ un trauma progressivamente più forte.
 \end_layout
 
 \begin_layout Standard
 Al livello di 300 volt, l'attore avrebbe smesso di cercare di dare delle
- risposte e avrebbe iniziato a dare calci al muro, dopo do che lo sperimentatore
+ risposte e avrebbe iniziato a dare calci al muro, dopo di che lo sperimentatore
  avrebbe ordinato ai soggetti di considerare le non-risposte come risposte
  sbagliate e di continuare.
 \end_layout
@@ -4756,7 +4779,7 @@ Al livello di 315 volt i calci contro il muro sarebbero stati ripetuti.
 \end_layout
 
 \begin_layout Standard
-Dopo di quello nulla si sarebbe più udito.
+Dopo di che non si sarebbe più udito nulla.
 \end_layout
 
 \begin_layout Standard
@@ -4780,7 +4803,7 @@ Prima di eseguire l'esperimento, Milgram aveva descritto lo schema sperimentale,
 \emph on
 essi
 \emph default
- pensassero che sarebbero andati avanti fino al livello di 450- volt, che
+ pensassero che sarebbero andati avanti fino al livello di 450 volt, che
  percentuale dei soggetti avrebbero premuto l'ultimo dei due interruttori
  segnato con 
 \noun on
@@ -4798,12 +4821,12 @@ Il numero effettivo era stato 26 su 40.
 \end_layout
 
 \begin_layout Standard
-I soggetti avevano sudato, emesso gemiti, balbettato, riso nervosamente,
- si erano morsi le labbra, infilati le proprie unghie nella carne.
- Ma dietro incitamento dello sperimentatore, essi, la maggior parte di loro,
- aveva continuato a somministrare quelle che credevano essere scariche elettrich
-e dolorose, pericolose e possibilmente letali.
- Tutte fino alla fine.
+I soggetti avevano sudato, piagnucolato, balbettato, riso nervosamente,
+ si erano morsi le labbra, infilati le unghie nella carne.
+ Ma dietro incitamento dello sperimentatore, la maggior parte di loro aveva
+ continuato a somministrare quelle che credevano essere scariche elettriche
+ dolorose, pericolose e possibilmente letali.
+ Tutte, fino alla fine.
 \end_layout
 
 \begin_layout Standard
@@ -4841,7 +4864,7 @@ Harry sbatté le palpebre, allora, perché il suo cervello aveva appena fatto
  il collegamento tra l'esperimento di Milgram e ciò che Hermione aveva fatto
  il suo primo giorno di lezione di Difesa, aveva rifiutato di fare fuoco
  su di un compagno, anche quando l'Autorità aveva detto che doveva farlo,
- ella aveva tremato e aveva avuto paura, ma si era comunque rifiutata.
+ aveva tremato e aveva avuto paura, ma si era comunque rifiutata.
  Harry l'aveva visto accadere proprio davanti ai suoi occhi e ancora non
  aveva fatto la connessione fino ad allora\SpecialChar \ldots{}
 
@@ -4864,11 +4887,11 @@ i per Azkaban apparteneva all'oscurità tanto quanto Azkaban stessa.
 \end_layout
 
 \begin_layout Standard
-Se si riceveva un bicchiere mezzo vuoto e mezzo pieno, quello era il modo
- in cui la realtà era, quella era la verità ed era in quel modo; ma si aveva
- comunque la scelta di come 
+Se si riceveva un bicchiere mezzo vuoto e mezzo pieno, allora quello era
+ il modo in cui era la realtà, quella era la verità ed era in quel modo;
+ ma si aveva comunque la scelta di cosa 
 \emph on
-sentirsi
+provare
 \emph default
  a riguardo, se disperarsi per la metà vuota o gioire per l'acqua che era
  lì.
