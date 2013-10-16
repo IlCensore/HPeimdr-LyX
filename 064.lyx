@@ -10,9 +10,11 @@
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
-\makepagestyle{myh042.lyxeadings}
-  \makeevenhead{myheadings}{Capitolo\ \thechapter\ ·\ \leftmark}{}{}
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\small {Capitolo\ \thechapter\ ·\ \leftmark}}{}{}
+%  \makeevenhead{myheadings}{\large{\thechapter}\ ·\ \small {\leftmark}}{}{}
   \makeoddhead{myheadings}{}{}{}
+%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
   \makeevenfoot{myheadings}{\thepage}{}{}
   \makeoddfoot{myheadings}{}{}{\thepage}
 
@@ -45,12 +47,34 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\usepackage{fontspec,microtype}
+
+%\usepackage{fontspec,microtype}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\SetTracking{encoding={*}, shape=sc}{40}
 \frenchspacing
-%\widowpenalties 2 10000 0
+\widowpenalties 2 10000 0
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+\usepackage{ifluatex,ifxetex}
+\usepackage{libertine}
+%\usepackage{tgadventor}
+\usepackage{ebgaramond}
+\ifluatex\else\ifxetex\else
+  \normalfont
+  \makeatletter
+  \input{TS1EBGaramond-LF.fd}
+  \input{TS1EBGaramond-OsF.fd}
+  \makeatother
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{m}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{n}{ <-> ssub * EBGaramond-OsF/m/n }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{it}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{n}{ <-> ssub * EBGaramond-OsF/m/n }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{it}{ <-> ssub * EBGaramond-OsF/m/it }{}
+  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
+\fi\fi
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -62,23 +86,23 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Biolinum O
-\font_sans Linux Libertine O
-\font_typewriter Inconsolata
+\font_roman default
+\font_sans default
+\font_typewriter default
 \font_default_family default
-\use_non_tex_fonts true
+\use_non_tex_fonts false
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf2
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
-\spacing single
+\paperfontsize 11
+\spacing other 1.1499999999999999
 \use_hyperref false
 \papersize custom
 \use_geometry true
@@ -98,10 +122,11 @@ initials
 \end_index
 \paperwidth 6in
 \paperheight 9in
-\leftmargin 1.524cm
-\topmargin 2.324cm
-\rightmargin 3.048cm
-\bottommargin 3.048cm
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\headsep 0.15in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -151,8 +176,8 @@ lettrine[lines=2, lhang=0.33, loversize=0.25]{F}{rodo diede un'occhiata}
 
 \end_inset
 
- a tutti i visi, ma non erano rivolti a lui.
- Tutto il Consiglio sedeva con gli occhi bassi, come se fosse immerso in
+ a tutti i volti, ma non erano rivolti verso di lui.
+ L'intero Consiglio sedeva con gli occhi bassi, come se fosse immerso in
  pensieri profondi.
  Un grande spavento calò su di lui, come se stesse aspettando il pronunciamento
  di qualche sventura che aveva a lungo previsto e vanamente sperato potesse
