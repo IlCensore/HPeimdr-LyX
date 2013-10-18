@@ -75,6 +75,8 @@
   \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{it}{ <-> ssub * EBGaramond-OsF/m/it }{}
   \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
 \fi\fi
+
+\renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textsc{\textit{#1}}\ ---}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -2054,8 +2056,9 @@ HonoreDB
 \begin_layout Description
 
 \family sans
+Amleto
 \noun on
-Amleto 
+ 
 \noun default
 Intruso, abbandona questo strano scherzo,
 \begin_inset Newline newline
@@ -2069,7 +2072,7 @@ e del buon cuore del mio buon amico Orazio.
 \begin_inset Newline newline
 \end_inset
 
-Oppure, se hai vero titolo a questa forma amata,
+Oppure, se hai vero diritto a questa forma amata,
 \begin_inset Newline newline
 \end_inset
 
@@ -2087,46 +2090,31 @@ quando avevo sei anni e scarsi dalla mia fionda?
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Un unicorno in cotta di maglia.
+Fantasma Un unicorno in cotta di maglia.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Cosa.
+Amleto Cosa.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Dammi un giudizio.
+Fantasma Dammi un giudizio.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Padre, lo farò.
+Amleto Padre, lo farò.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- La mia ora è quasi giunta,
+Fantasma La mia ora è quasi giunta,
 \begin_inset Newline newline
 \end_inset
 
@@ -2140,28 +2128,19 @@ Dovrò arrendere me stesso.
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Sei tu afflitto?
+Amleto Sei tu afflitto?
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Sì, come sono tutti coloro che muoiono senza confessione.
+Fantasma Sì, come sono tutti coloro che muoiono senza confessione.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Come a ogni danese questo mi è stato insegnato.
+Amleto Come a ogni danese questo mi è stato insegnato.
 \begin_inset Newline newline
 \end_inset
 
@@ -2181,28 +2160,19 @@ siano poi puniti per il cattivo ordine del mondo\SpecialChar \ldots{}
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Non è stato il mondo a uccidermi, né un incidente di alcuna sorta.
+Fantasma Non è stato il mondo a uccidermi, né un incidente di alcuna sorta.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Cosa?
+Amleto Cosa?
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Se hai mai il tuo caro padre amato,
+Fantasma Se hai mai il tuo caro padre amato,
 \begin_inset Newline newline
 \end_inset
 
@@ -2212,47 +2182,32 @@ Vendica il suo ripugnante e più innaturale assassinio.
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Oh Dio.
+Amleto Oh Dio.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Il mio tempo è sempre più breve.
+Fantasma Il mio tempo è sempre più breve.
  Presterai orecchio alla storia?
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- No.
+Amleto No.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Cosa?
+Fantasma Cosa?
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Il mio amore per te mi chiama a vendicare la tua morte,
+Amleto Il mio amore per te mi chiama a vendicare la tua morte,
 \begin_inset Newline newline
 \end_inset
 
@@ -2302,19 +2257,13 @@ attraverso cui la morte stessa può essere fuggita?
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Intendi sfuggire l'Inferno?
+Fantasma Intendi sfuggire l'Inferno?
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Intendo negare l'Inferno a tutti!
+Amleto Intendo negare l'Inferno a tutti!
 \begin_inset Newline newline
 \end_inset
 
@@ -2332,10 +2281,7 @@ quando sarò il suo re immortale.
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Mi importa punto di queste cose.
+Fantasma Mi importa punto di queste cose.
 \begin_inset Newline newline
 \end_inset
 
@@ -2349,10 +2295,7 @@ tranne la vendetta sul mio assassino.
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Non sarai vendicato, a meno che non giuri:
+Amleto Non sarai vendicato, a meno che non giuri:
 \begin_inset Newline newline
 \end_inset
 
@@ -2379,10 +2322,7 @@ e questo è quanto.
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Accetto.
+Fantasma Accetto.
  Quando sarà ucciso mio fratello, versò il veleno nel mio orecchio,
 \begin_inset Newline newline
 \end_inset
@@ -2417,10 +2357,7 @@ a tutta l'umanità.
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- Invero non c'è nulla oltre i sogni della filosofia.
+Amleto Invero non c'è nulla oltre i sogni della filosofia.
 \begin_inset Newline newline
 \end_inset
 
@@ -2434,10 +2371,7 @@ L'uomo che devo uccidere -- mio zio il re?
 \begin_layout Description
 
 \family sans
-\noun on
-Fantasma
-\noun default
- Sì, quell'incestuoso, quella bestia adultera,
+Fantasma Sì, quell'incestuoso, quella bestia adultera,
 \begin_inset Newline newline
 \end_inset
 
@@ -2451,10 +2385,7 @@ Con la stregoneria del suo acume, con i doni traditori
 \begin_layout Description
 
 \family sans
-\noun on
-Amleto
-\noun default
- In fatti, egli possiede tali doni che quasi dispero,
+Amleto In fatti, egli possiede tali doni che quasi dispero,
 \begin_inset Newline newline
 \end_inset
 
@@ -2695,10 +2626,7 @@ Benvenuto nel mondo vero
 \begin_layout Description
 
 \family sans
-\noun on
-Morpheus
-\noun default
- A lungo non ho voluto crederci.
+Morpheus A lungo non ho voluto crederci.
  Poi ho visto quei campi con i miei occhi, le ho viste liquefare i morti
  affinché nutrissero i vivi per via endovenosa
 \begin_inset space ~
@@ -2710,10 +2638,7 @@ Morpheus
 \begin_layout Description
 
 \family sans
-\noun on
-Neo
-\noun default
- (
+Neo (
 \emph on
 educatamente
 \emph default
@@ -2723,19 +2648,13 @@ educatamente
 \begin_layout Description
 
 \family sans
-\noun on
-Morpheus
-\noun default
- Sì, Neo?
+Morpheus Sì, Neo?
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Neo
-\noun default
- Sono stato in silenzio per quanto ho potuto, ma provo una certa necessità
+Neo Sono stato in silenzio per quanto ho potuto, ma provo una certa necessità
  di esprimermi a questo punto.
  Il corpo umano è la fonte più inefficiente di energia che si possa immaginare.
  L'efficienza di una centrale elettrica nel convertire energia termica in
@@ -2761,10 +2680,7 @@ dati da mangiare ai vivi?
 \begin_layout Description
 
 \family sans
-\noun on
-Morpheus
-\noun default
- Dove hai sentito parlare 
+Morpheus Dove hai sentito parlare 
 \emph on
 tu
 \emph default
@@ -2774,20 +2690,14 @@ tu
 \begin_layout Description
 
 \family sans
-\noun on
-Neo
-\noun default
- Chiunque abbia seguito anche solo il corso di scienze del liceo dovrebbe
+Neo Chiunque abbia seguito anche solo il corso di scienze del liceo dovrebbe
  conoscere le leggi della termodinamica!
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Morpheus
-\noun default
- Dove sei andato al liceo, Neo?
+Morpheus Dove sei andato al liceo, Neo?
 \end_layout
 
 \begin_layout Standard
@@ -2804,19 +2714,13 @@ Pausa.
 \begin_layout Description
 
 \family sans
-\noun on
-Neo
-\noun default
- … dentro Matrix.
+Neo … dentro Matrix.
 \end_layout
 
 \begin_layout Description
 
 \family sans
-\noun on
-Morpheus
-\noun default
- Le macchine raccontano bugie eleganti.
+Morpheus Le macchine raccontano bugie eleganti.
 \end_layout
 
 \begin_layout Standard
@@ -2833,10 +2737,7 @@ Pausa.
 \begin_layout Description
 
 \family sans
-\noun on
-Neo
-\noun default
- (
+Neo (
 \emph on
 a voce bassa
 \emph default
@@ -2846,10 +2747,7 @@ a voce bassa
 \begin_layout Description
 
 \family sans
-\noun on
-Morpheus
-\noun default
- Non esiste una cosa simile, Neo.
+Morpheus Non esiste una cosa simile, Neo.
  L'universo non si basa sulla matematica.
 \end_layout
 
