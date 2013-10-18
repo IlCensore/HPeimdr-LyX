@@ -49,6 +49,7 @@
 }
 
 \chapterstyle{Bringhurst}
+%\chapterstyle{thatcher}
 
 
 % sections and subsections:
@@ -168,6 +169,9 @@
 
 \widowpenalties 2 10000 0
 %\clubpenalty 10000
+
+%% descrizioni senza bold
+\renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -178,8 +182,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Adobe Jenson Pro
-\font_sans FoglihtenNo04
+\font_roman Garamond Premier Pro
+\font_sans Linux Biolinum O
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
