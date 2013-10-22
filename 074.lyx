@@ -13,8 +13,8 @@
 \makepagestyle{myheadings}
   \makeevenhead{myheadings}{}{}{}
   \makeoddhead{myheadings}{}{}{}
-  \makeevenfoot{myheadings}{\thepage}{\textsc{Harry Potter e i metodi della razionalità}}{}
-  \makeoddfoot{myheadings}{}{Capitolo\ \thechapter\ ·\ \leftmark}{\thepage}
+  \makeevenfoot{myheadings}{\thepage}{Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\leftmark}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -175,7 +175,7 @@ Da dietro la porta chiusa dell'ufficio provenne un sussurro, che attraversò
 \begin_inset Quotes fld
 \end_inset
 
-Non è la mia ora di ufficio
+Non è la mia ora di ricevimento
 \begin_inset Quotes frd
 \end_inset
 
@@ -214,8 +214,8 @@ Mentre Harry si girava per andarsene, udì la porta che si apriva dietro
 \end_layout
 
 \begin_layout Standard
-Il professor Quirrell era seduto sulla sua sedia, la testa che appoggiata
- al supporto, mentre una pergamena fluttuava davanti a lui.
+Il professor Quirrell era seduto sulla sua sedia, la testa appoggiata al
+ supporto, mentre una pergamena fluttuava davanti a lui.
  Entrambe le mani del Professore di Difesa erano afflosciate sulla scrivania,
  come se fossero prive di forza.
  Sarebbe potuto essere un cadavere, se non fosse stato per gli occhi blu-ghiacci
@@ -223,122 +223,225 @@ o che si muovevano ancora, avanti e indietro, avanti e indietro.
 \end_layout
 
 \begin_layout Standard
-The parchment vanished, and was replaced by another so quickly it was like
- the material had only flickered.
+La pergamena svanì, e fu rimpiazzata da un'altra così rapidamente che fu
+ come se il materiale avesse solo sfarfallato.
 \end_layout
 
 \begin_layout Standard
-Then the lips moved as well.
- “And from this,” whispered the lips, “you infer what, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
+Poi anche le labbra si mossero.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Potter?”
+E da questo
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrarono, 
+\begin_inset Quotes fld
+\end_inset
+
+lei deduce cosa, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Harry was shaken by the sight, but his voice stayed even as he said, “That
- ordinary people do not always do nothing, and that Hermione Granger is
- in more danger from Slytherin House than you thought.”
+Harry era scosso dalla visione, ma la sua voce rimase salda mentre disse,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Che non sempre le persone ordinarie non fanno nulla, e che Hermione Granger
+ è in un pericolo ben maggiore a causa di Casa Serpeverde di quanto lei
+ non pensi, professore
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-The lips curved, ever so barely.
- “So you think I have failed in my grasp of human nature.
- But that is hardly the only possibility, boy.
- Do you see the other?”
+Le labbra s'incurvarono, appena percettibilmente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dunque ritiene che io mi sbagli nella mia comprensione della natura umana.
+ Ma difficilmente questa è l'unica possibilità, ragazzo.
+ Riesce a vedere l'altra?
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Harry furrowed his brows as he stared at the Defense Professor.
+Harry si accigliò mentre fissava il Professore di Difesa.
 \end_layout
 
 \begin_layout Standard
-“I tire of this,” the Defense Professor whispered.
- “You will stand there until you see it for yourself, or else leave.” As
- though Harry had stopped existing, the Defense Professor's eyes looked
- back to the parchment, once more scanning back and forth.
+\begin_inset Quotes fld
+\end_inset
+
+Questo mi stanca
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò il Professore di Difesa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Resterà lì finché non lo capirà da solo, o se ne sarà andato
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Come se Harry avesse smesso di esistere, gli occhi del Professore di Difesa
+ tornarono a guardare la pergamena, muovendosi avanti e indietro.
 \end_layout
 
 \begin_layout Standard
-It was six parchments later that Harry saw it, and said out loud, “You think
- your prediction failed because there was some other factor at work which
- was not in your model.
- Some reason why Slytherin House hates Hermione more than you realized.
- Like when the orbital calculations for Uranus were wrong, and the problem
- wasn't in Newton's Laws, it was that they didn't know about Neptune 
-\begin_inset ERT
-status open
+Fu sei pergamene dopo che Harry lo capì, e lo disse ad alta voce, 
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Lei pensa che la sua predizione sia fallita perché c'era in azione qualche
+ altro fattore che non era nel suo modello.
+ Qualche ragione per cui Casa Serpeverde odia Hermione più di quanto lei
+ non avesse capito.
+ Come quando i calcoli orbitali per Urano si rivelarono sbagliati, e il
+ problema non era nelle Leggi di Newton, ma che non erano a conoscenza dell'esis
+tenza di Nettuno
+\begin_inset space ~
+\end_inset
 
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-The parchment vanished, and was not replaced.
- The head rose from its lolling position then, facing Harry more directly,
- and the voice which issued forth was quiet, but not toneless.
- “I think, boy,” Professor Quirrell said softly, but in something approaching
- his normal voice, “that if all Slytherin House hated her so much, I would
- have seen it.
- And yet three formidable fighters of that House did something rather than
- nothing, at risk and at cost to themselves.
- What force could have moved them, or willed their motion?” The icy blue
- glitter of the Defense Professor's eyes met Harry's own gaze.
- “Some hand possessed of influence within Slytherin, perhaps.
- Then how would that hand have benefited itself by harm done to the girl
- and her followers?”
-\end_layout
-
-\begin_layout Standard
-“Um…” said Harry.
- “It would have to be someone threatened by Hermione somehow, or someone
- who would get the credit if she was hurt? I don't know anyone who fits
- that profile, but then I don't know much about anyone in Slytherin outside
- first-year.” The thought was also coming to Harry that deducing a hidden
- mastermind from a single mildly-unexpected attack seemed like insufficient
- evidence to support the prior improbability of the theory; but then it
+La pergamena scomparve, e non fu rimpiazzata.
+ Allora la testa si rialzò dalla sua posizione a penzoloni, rivolgendosi
+ più direttamente a Harry, e la voce che ne uscì era pacata, ma non senza
+ tono.
  
+\begin_inset Quotes fld
+\end_inset
+
+Io penso, ragazzo
+\begin_inset Quotes frd
+\end_inset
+
+, disse sommessamente il professor Quirrell, ma in un tono che si avvicinava
+ alla sua voce normale, 
+\begin_inset Quotes fld
+\end_inset
+
+che se l'intera Casa Serpeverde la odiasse così tanto, me ne sarei accorto.
+ Eppure tre combattenti formidabili di quella Casa hanno fatto qualcosa
+ piuttosto che niente, a proprio rischio e pericolo.
+ Quale forza potrebbe averli mossi, o dato volontà al loro muoversi?
+\begin_inset Quotes frd
+\end_inset
+
+ Il bagliore degli occhi blu-ghiaccio del Professore di Difesa incrociarono
+ lo sguardo di Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Qualche mano che gode di influenza all'interno di Serpeverde, forse.
+ Allora come avrebbe potuto quella mano avvantaggiarsi del nocumento arrecato
+ alla ragazza e alle sue seguaci?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ fece Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dovrebbe essere qualcuno minacciato in qualche modo da Hermione, o qualcuno
+ che riceverebbe il merito se le fosse fatto del male, forse? Non conosco
+ nessuno che corrisponda a tale profilo, ma del resto non so molto di nessuno
+ in Serpeverde al di fuori del primo anno
+\begin_inset Quotes frd
+\end_inset
+
+.
+ A Harry venne in mente il pensiero che dedurre l'esistenza di un misterioso
+ burattinaio da un singolo attacco leggermente inatteso sembrava essere
+ una prova insufficiente per sostenere l'improbabilità a priori della teoria;
+ ma del resto era il 
 \emph on
-was
+professor Quirrell
 \emph default
- Professor Quirrell who was doing the deducing…
+ che stava operando la deduzione\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-The Defense Professor was just looking at Harry, eyelids slightly lowered
- as though in impatience.
+Il Professore di Difesa stava fissando Harry, palpebre leggermente abbassate
+ come in segno di impazienza.
 \end_layout
 
 \begin_layout Standard
-“And yes,” said Harry, “I 
+\begin_inset Quotes fld
+\end_inset
+
+E sì
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+io 
 \emph on
-am
+sono
 \emph default
- sure that Draco Malfoy isn't behind it.”
+ sicuro che Draco Malfoy non sia dietro tutto questo
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-A hiss of outward air like a sigh.
- “He is the son of Lucius Malfoy, trained to the most exacting standards.
- Whatever you have seen of him, even in what seem to be unguarded moments
- when his mask slips and you trust that you have seen the truth beneath,
- even that may all be part of the face he chooses to show you.”
+Un'espirazione sibilante simile a un sospiro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Egli è il figlio di Lucius Malfoy, addestrato secondo i principi più rigorosi.
+ Qualunque cosa lei abbia visto di lui, anche in quelli che le sono sembrati
+ essere momenti in cui ha abbassato la guardia e ha lasciato cadere la maschera
+ e in cui lei crede di aver visto la verità sotto di essa, anche quello
+ potrebbe far parte del volto che egli sceglie di mostrarle
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
