@@ -13,8 +13,8 @@
 \makepagestyle{myheadings}
   \makeevenhead{myheadings}{}{}{}
   \makeoddhead{myheadings}{}{}{}
-  \makeevenfoot{myheadings}{\thepage}{Capitolo\ \thechapter}{}
-  \makeoddfoot{myheadings}{}{\leftmark}{\thepage}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
