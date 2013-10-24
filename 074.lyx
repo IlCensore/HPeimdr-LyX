@@ -45,12 +45,14 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\usepackage{fontspec,microtype}
+%\usepackage{fontspec,microtype}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
 \frenchspacing
-\widowpenalties 2 100 0
+\widowpenalties 2 10000 0
 \clubpenalty 100
 %\raggedbottom
 \usepackage{indentfirst}
+\usepackage{ebgaramond}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -62,23 +64,23 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans EB Garamond
-\font_typewriter Inconsolata
+\font_roman default
+\font_sans default
+\font_typewriter default
 \font_default_family default
-\use_non_tex_fonts true
+\use_non_tex_fonts false
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf2
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
-\spacing single
+\paperfontsize 11
+\spacing other 1.2
 \use_hyperref false
 \papersize custom
 \use_geometry true
@@ -98,10 +100,10 @@ initials
 \end_index
 \paperwidth 6in
 \paperheight 9in
-\leftmargin 1.83cm
-\topmargin 2.66cm
-\rightmargin 3.67cm
-\bottommargin 3.46cm
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -157,13 +159,13 @@ lettrine[lines=2, lhang=0.33, loversize=0.25]{H}{arry avanzò di un passo}
 
 \end_inset
 
-, poi di un altro, finché una sensazione di malessere non iniziò a pervaderlo,
+, poi di un altro, finché non iniziò a pervaderlo una sensazione di malessere,
  un'inquietudine nervosa.
 \end_layout
 
 \begin_layout Standard
-Non disse nulla, non alzò la mano; la pervasiva sensazione di malessere
- l'avrebbe detto per lui.
+Non disse nulla, non alzò la mano; la diffusa sensazione di malessere l'avrebbe
+ detto per lui.
 \end_layout
 
 \begin_layout Standard
@@ -983,27 +985,28 @@ me?
 \end_layout
 
 \begin_layout Standard
-And so it was on that very morning that Harry Potter went over to the Gryffindor
- table, and then the Slytherin table, and told both Houses that anyone who
- hurt Tracey Davis, regardless of what she was doing at the time, would,
- quote, learn the true meaning of Chaos, unquote.
+E così fu quella stessa mattina che Harry Potter si recò presso il tavolo
+ Grifondoro, e poi il tavolo Serpeverde, e disse ad entrambe le Case che
+ chiunque avesse fatto del male a Tracey Davis, indipendentemente da quello
+ che lei stesse facendo in quel momento, avrebbe, aperte virgolette, imparato
+ il vero significato del Caos, chiuse virgolette.
 \end_layout
 
 \begin_layout Standard
-It was with considerable restraint that Draco Malfoy managed to prevent
- himself from slamming his head repeatedly into his plate of toast.
+Fu con una considerevole moderazione che Draco Malfoy riuscì a impedirsi
+ di sbattere ripetutamente la testa nel suo piatto di pane tostato.
 \end_layout
 
 \begin_layout Standard
-They weren't exactly scientists, the bullies of Hogwarts.
+Non erano esattamente degli scienziati, i bulli di Hogwarts.
 \end_layout
 
 \begin_layout Standard
-But even 
+Ma persino 
 \emph on
-they
+loro
 \emph default
-, Draco knew, were going to want to test it.
+, Draco sapeva, avrebbero voluto metterlo alla prova.
 \end_layout
 
 \begin_layout Quote
@@ -1018,168 +1021,217 @@ they
 \end_layout
 
 \begin_layout Standard
-The Society for the Promotion of Heroic Equality for Witches hadn't 
+La Società per la Promozione dell'Uguaglianza Eroica per le Streghe non
+ l'aveva 
 \emph on
-announced
+annunciato
 \emph default
- it, it didn't seem like it would do any good to 
+, non era sembrato che fosse utile 
 \emph on
-announce
+annunciarlo
 \emph default
- it.
- But they had all quietly decided (or, in the case of Lavender, been shouted
- into it by all seven other girls) to take a break from fighting bullies
- for a while, at least until their Heads of House weren't looking at them
- quite so sharply anymore, and older students had stopped bumping Hermione
- into walls.
+.
+ Ma avevano quietamente deciso (o, nel caso di Lavender, erano state convinte
+ a forza di urla dalle altre sette ragazze) di prendersi una pausa dal combatter
+e i bulli per un po', almeno fino a quando i Presidi delle loro Case non
+ avessero smesso di guardarle così duramente, e gli studenti più grandi
+ non avessero smesso di spingere Hermione contro i muri.
 \end_layout
 
 \begin_layout Standard
-Daphne had 
+Daphne aveva 
 \emph on
-told
+detto
 \emph default
- Millicent that they were taking a break.
+ a Millicent che si sarebbero prese una pausa.
 \end_layout
 
 \begin_layout Standard
-And so it was with some puzzlement, a few days later, that Daphne looked
- at the parchment delivered to her at lunch, drawn in a hand so shaky it
- was almost unreadable, saying:
+E così fu con qualche perplessità, qualche giorno dopo, che Daphne guardò
+ alla pergamena consegnatale a pranzo, scritta con una mano così tremante
+ da essere quasi illeggibile, che diceva:
 \end_layout
 
 \begin_layout Quote
 
 \emph on
-2 this afternoon at the top of the stairs going up from the library REALLY
- IMPORTANT everyone has to be there 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- Millicent
+2 di questo pomeriggio alla sommità delle scale che salgono dalla biblioteca
+ 
+\noun on
+molto importante
+\noun default
+ tutte devono essere presenti -- Millicent
 \end_layout
 
 \begin_layout Standard
-Daphne looked around, but she couldn't see Millicent anywhere in the Great
- Hall.
+Daphne si guardò intorno, ma non poté vedere Millicent da nessuna parte
+ nella Sala Grande.
 \end_layout
 
 \begin_layout Standard
-“A message from your informant?” said Hermione, when Daphne told her.
- “That's odd 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
+Un messaggio dal tuo informatore?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Hermione, quando Daphne le parlò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo è strano -- 
+\emph on
+io
+\emph default
+ non ho
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non hai cosa?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Daphne, dopo che la ragazza Corvonero si era interrotta a metà frase.
+\end_layout
+
+\begin_layout Standard
+Il Generale Sunshine scosse la testa e disse, 
+\begin_inset Quotes fld
+\end_inset
+
+Ascolta, Daphne, penso che abbiamo bisogno di sapere da dove vengano questi
+ messaggi prima di continuare a seguirli.
+ Guarda cos'è successo l'ultima volta, com'è possibile che qualcuno 
+\emph on
+sapesse
+\emph default
+ dove quei tre bulli sarebbero stati, a meno che non facesse parte della
+ cosa?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non posso dire
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ iniziò Daphne.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voglio dire, non posso dire nulla, ma so da dove vengono i messaggi, e so
+ in che modo possa saperlo
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Hermione rivolse a Daphne un'
+\emph on
+occhiata
+\emph default
+ che, per un momento, fece assomigliare tremendamente la ragazza Corvonero
+ alla professoressa McGonagall.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uh uh
+\begin_inset Quotes frd
+\end_inset
+
+, fece Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E sai in che modo Susan si è improvvisamente trasformata in Supergirl?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Daphne scosse la testa e disse, 
+\begin_inset Quotes fld
+\end_inset
+
+No, ma penso che possa essere 
+\emph on
+davvero importante
+\emph default
+ che se riceviamo un messaggio che dice che dovremmo essere da qualche parte,
  
 \emph on
-I
+tutte quante si presentino
 \emph default
- didn't 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
-\end_layout
-
-\begin_layout Standard
-“You didn't what?” said Daphne, after the Ravenclaw girl had stopped in
- mid-sentence.
-\end_layout
-
-\begin_layout Standard
-The Sunshine General shook her head and said, “Listen, Daphne, I think we
- need to know where these messages come from before we keep following them.
- Look at what happened last time, how could anyone have 
+.
+ Daphne non aveva 
 \emph on
-known
+visto
 \emph default
- where those three bullies would be, unless they were in on it?”
+ cos'era successo a Susan dopo che aveva provato a contrastare la profezia
+ tenendo lontana Susan.
+ Ma le era stato 
+\emph on
+raccontato
+\emph default
+ in seguito, e ora Daphne aveva paura che\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-“I can't say 
-\begin_inset ERT
-status open
+Forse potesse aver\SpecialChar \ldots{}
 
-\begin_layout Plain Layout
-
---
 \end_layout
 
+\begin_layout Standard
+Potesse aver Rotto Qualcosa\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
 \end_inset
 
-” Daphne said.
- “I mean, I can't say anything, but I know where the messages come from,
- and I know how anyone can know.”
-\end_layout
+Uh uh
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Standard
-Hermione gave Daphne a 
-\emph on
-look
-\emph default
- that, for a moment, made the Ravenclaw girl look scarily like Professor
- McGonagall.
-\end_layout
-
-\begin_layout Standard
-“Uh huh,” said Hermione.
- “And do you know how Susan suddenly turned into Supergirl?”
-\end_layout
-
-\begin_layout Standard
-Daphne shook her head, and said, “No, but I think it might be
-\emph on
- really important
-\emph default
- that if we get a message saying we should be somewhere, 
-\emph on
-everyone has to be there
-\emph default
-.” Daphne hadn't
-\emph on
- seen
-\emph default
- what had happened with Susan, after Daphne had tried to avert the prophecy
- by keeping Susan away.
- But she'd been
-\emph on
- told
-\emph default
- about it afterward, and now Daphne was afraid that…
-\end_layout
-
-\begin_layout Standard
-She might have possibly…
-\end_layout
-
-\begin_layout Standard
-Might possibly have Broken Something…
-\end_layout
-
-\begin_layout Standard
-“Uh huh,” said Hermione, who was doing the McGonagall Stare again.
+, fece Hermione, che stava facendo ancora lo Sguardo McGonagall.
 \end_layout
 
 \begin_layout Quote
@@ -1194,32 +1246,34 @@ Might possibly have Broken Something…
 \end_layout
 
 \begin_layout Standard
-Nobody seemed to know where it had started, who had started it.
- If you'd tried tracing it afterward, tracked it back word by word and mutter
- by mutter, you probably would have found it all going in a huge circle.
+Nessuno sembrava sapere dove fosse iniziata, chi l'avesse iniziata.
+ Se si avesse provato a seguirlo a ritroso, tracciandolo all'indietro parola
+ per parola e borbottio per borbottio, probabilmente si sarebbe scoperto
+ che il tutto si muoveva in un enorme circolo.
 \end_layout
 
 \begin_layout Standard
-Peregrine Derrick was tapped on his shoulder as he left Potions that morning.
+Peregrine Derrick fu toccato sulla spalla mentre quella mattina lasciava
+ Pozioni.
 \end_layout
 
 \begin_layout Standard
-Jaime Astorga heard a whisper in his ear at lunch.
+Jaime Astorga udì un sussurro nell'orecchio a pranzo.
 \end_layout
 
 \begin_layout Standard
-Robert Jugson III discovered a tiny folded note under his plate.
+Robert Jugson III scoprì una minuscola nota ripiegata sotto il proprio piatto.
 \end_layout
 
 \begin_layout Standard
-Carl Sloper overheard two older Gryffindors whispering about it, and they
- gave him significant glances as they walked past.
+Carl Sloper udì per caso due Grifondoro più grandi che ne parlavano sussurrando,
+ ed essi gli indirizzarono degli sguardi significativi mentre lo superavano.
 \end_layout
 
 \begin_layout Standard
-Nobody seemed to know where the word began, or who had first spoken it,
- but it named the place, and it named the time, and it said that the color
- would be white.
+Nessuno sembrava sapere dove la voce fosse iniziata, o chi l'avesse formulata
+ per primo, ma riportava il posto, e riportava il tempo, e diceva che il
+ colore sarebbe stato bianco.
 \end_layout
 
 \begin_layout Quote
