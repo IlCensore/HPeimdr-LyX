@@ -6,8 +6,6 @@
 \begin_preamble
 \setcounter{chapter}{69}
 
-\usepackage{fmtcount}
-\usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
@@ -15,6 +13,7 @@
   \makeoddhead{myheadings}{}{}{}
   \makeevenfoot{myheadings}{\thepage}{}{}
   \makeoddfoot{myheadings}{}{}{\thepage}
+
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -40,14 +39,15 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
+
+
 \usepackage{fmtcount}
-\usepackage{changepage} %per cambiare la dimensione del paragrafo
-\usepackage{xcolor} %per il titolo in rosso
+\usepackage{graphicx}
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
 \usepackage{fontspec,microtype}
 \frenchspacing
-%\widowpenalties 2 10000 0
+\widowpenalties 2 10000 0
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
@@ -62,8 +62,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
-\font_sans Linux Biolinum O
+\font_roman EB Garamond
+\font_sans Ubuntu
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -184,8 +184,8 @@ interesse
 
 \begin_layout Standard
 Il vecchio mago si appoggiò allo schienale della sua enorme sedia, continuando
- a fissarla, i suoi occhi che sembravano piuttosto distratti sotto gli occhiali
- a mezzaluna.
+ a fissarla, i suoi occhi che sembravano piuttosto distratti dietro gli
+ occhiali a mezzaluna.
 \end_layout
 
 \begin_layout Standard
@@ -197,7 +197,7 @@ Questo mi ha messo di fronte a un dilemma, Albus
 \end_inset
 
 , disse la professoressa McGonagall.
- Il suo volto rimase piuttosto neutro, se ne assicurò.
+ Il suo volto rimase piuttosto neutro, si assicurò.
  
 \begin_inset Quotes fld
 \end_inset
@@ -232,8 +232,8 @@ Io\SpecialChar \ldots{}
 \end_inset
 
 , disse lentamente il vecchio mago.
- Le sue mani giocherellarono distrattamente con la sua barba d'argento,
- piccoli rapidi gesti.
+ Le sue mani giocherellarono distrattamente con la barba d'argento, piccoli
+ rapidi gesti.
 \end_layout
 
 \begin_layout Standard
@@ -284,7 +284,7 @@ E le voci di Hermione Granger, Padma Patil, Parvati Patil, Lavender Brown,
 
 
 \emph on
-Noi non vogliamo commiserazione, date alla strega la sua missione!
+Non vogliamo commiserazione, date a una strega la sua missione!
 \emph default
 
 \begin_inset Quotes frd
@@ -292,7 +292,7 @@ Noi non vogliamo commiserazione, date alla strega la sua missione!
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Quotes fld
@@ -328,7 +328,7 @@ La signorina Granger le sta vendendo per due sicli, e mi ha detto che fin'ora
 \begin_inset Quotes frd
 \end_inset
 
-, disse effervescente la professoressa McGonagall, 
+, disse bruscamente la professoressa McGonagall, 
 \begin_inset Quotes fld
 \end_inset
 
