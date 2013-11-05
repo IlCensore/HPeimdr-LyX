@@ -13,8 +13,8 @@
 \makepagestyle{myheadings}
   \makeevenhead{myheadings}{}{}{}
   \makeoddhead{myheadings}{}{}{}
-  \makeevenfoot{myheadings}{\thepage}{\textsc{Harry Potter e i metodi della razionalità}}{}
-  \makeoddfoot{myheadings}{}{Capitolo\ \thechapter\ ·\ \leftmark}{\thepage}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize \textsc{Harry Potter e i metodi della razionalità}}{}
+  \makeoddfoot{myheadings}{}{\footnotesize  Capitolo\ \thechapter\ ·\ \leftmark}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -179,16 +179,16 @@ textit{o zampillo di fuoco}}
 
  
 \emph on
-colse Hannah in pieno viso, gettandola gambe all'aria e facendo sbattere
- la sua testa direttamente contro il muro di pietra, dove il suo volto pallido
- sembrò indugiare per un istante, incorniciato dalle ciocche volanti dei
- suoi capelli castano-dorati, prima che crollasse a terra in un mucchio
+colse Hannah in pieno viso, gettandola gambe all'aria e mandando la sua
+ testa a sbattere direttamente contro il muro di pietra, dove il suo volto
+ pallido sembrò indugiare per un istante, incorniciato dalle ciocche svolazzanti
+ dei suoi capelli castano-dorati, prima che crollasse a terra in un mucchio
  di vesti, mentre la terza e ultima raffica di divampanti spirali verdi
  abbatté l'Incantesimo di Protezione del loro nemico.
 \end_layout
 
 \begin_layout Standard
-I giorni di marzo avanzarono di gran carriera, pieni di lezioni e studio
+I giorni di marzo avanzavano di gran carriera, pieni di lezioni e studio
  e compiti, colazione e pranzo e cena.
 \end_layout
 
@@ -197,8 +197,8 @@ I giorni di marzo avanzarono di gran carriera, pieni di lezioni e studio
 \emph on
 Il ragazzo Grifondoro le fissò tutte e otto, la tensione in ogni linea della
  struttura del suo corpo, il suo volto che lavorava senza suono; e poi le
- sue mani lasciarono le loro prese serrate sui risvolti del ragazzo Serpeverde,
- e se ne andò via senza che nessuno dicesse una parola.
+ sue mani rilasciarono la loro presa serrata sui risvolti del ragazzo Serpeverde
+, ed egli se ne andò via senza che nessuno dicesse una parola.
  (Insomma, Lavender fu sul punto di dire una parola -- la sua bocca si stava
  aprendo per l'indignazione, forse perché non aveva avuto l'occasione di
  declamare il suo discorso -- ma fortunatamente Hermione lo notò e fece
@@ -227,23 +227,23 @@ Innervate!
  disse la giovane voce di Susan Bones, e gli occhi di Hermione si spalancarono
  e le sue labbra inspirarono aria con un sussulto, i suoi polmoni che sembravano
  pesanti come se ci fosse un peso enorme appoggiato sul suo petto.
- Accanto a lei, Hannah era già seduta, tenendosi la testa tra le mani e
- facendo delle smorfie.
- Daphne le aveva avvertite che questa sarebbe stata una lotta `difficile',
- causando una certa trepidazione in Hermione, e in effetti in tutte loro.
+ Accanto a lei, Hannah era già seduta, e si teneva la testa tra le mani
+ e faceva delle smorfie.
+ Daphne le aveva avvertite che questo sarebbe stato un combattimenro `difficile'
+, causando una certa trepidazione in Hermione, e in effetti in tutte loro.
  Tranne forse in Susan, che si era semplicemente presentata all'ora stabilita
  per l'incontro, e aveva camminato al loro fianco senza parlare, e aveva
  combattuto il bullo del settimo anno fino a quando era rimasta l'ultima
  ragazza in piedi.
  Forse il Grifondoro era stato riluttante a combattere l'ultima figlia dei
- Bones, o forse Susan era semplicemente stata molto fortunata; in ogni caso,
- quando Hermione aveva cercato di mettersi nuovamente seduta, si era resa
- conto che il suo petto era sembrato pesante perché c'era, in effetti, un
- corpo piuttosto grande disteso sopra di lei.
+ Bones, o forse Susan era stata solo molto fortunata; in ogni caso, quando
+ Hermione aveva cercato di mettersi nuovamente seduta, si era resa conto
+ che il suo petto era sembrato pesante perché c'era, in effetti, un corpo
+ piuttosto grande disteso sopra di lei.
 \end_layout
 
 \begin_layout Standard
-E non bisogna dimenticare neppure la magia, anche se il momento effettivo
+E non si dovrebbe dimenticare neppure la magia, anche se il momento effettivo
  di lanciare un incantesimo formava solo una piccola parte della giornata.
  Era la motivazione principale di Hogwarts, dopo tutto.
 \end_layout
@@ -264,7 +264,7 @@ Va bene, che ne dite se ce ne andassimo in giro con gli skateboard?
 \end_inset
 
 Potremmo arrivare a destinazione molto più velocemente che camminando.
- E sembreremmo davvero impressionanti sugli skateboard, gli artefatti Babbani
+ E sembreremmo davvero impressionanti sugli skateboard, gli artefatti babbani
  possono non essere veloci come i manici di scopa ma sembrano più fighi
  -- dovremmo votare questa proposta
 \begin_inset space ~
@@ -278,7 +278,7 @@ Potremmo arrivare a destinazione molto più velocemente che camminando.
 \end_layout
 
 \begin_layout Standard
-Per quanto riguarda le restanti frazioni di tempo, li si sarebbe occupati
+Per quanto riguarda le restanti porzioni di tempo, le si sarebbe occupate
  in accordo alla propria natura: pettegolezzi sulle storie d'amore degli
  studenti degli anni superiori, o libri e sessioni di studio.
 \end_layout
@@ -309,8 +309,8 @@ Hogwarts: Una Storia
  pronunciato.
  Non riusciva ad abituarcisi, non riusciva proprio ad abituarsi ad essere
  odiata.
- Le faceva male proprio come ogni volta che succedeva, e in qualche modo
- faceva ancor più male provenendo da i Grifondoro che avrebbero
+ Le faceva male proprio come se ogni volta fosse la prima volta, e in qualche
+ modo faceva ancor più male provenendo dai Grifondoro che avrebbero
 \emph default
  dovuto
 \emph on
@@ -324,7 +324,7 @@ Harry aveva diviso otto dei suoi soldati tra gli altri eserciti, come ordinato;
 due
 \emph default
  Luogotenenti del Caos, mandando Dean Thomas al Dragon Army e poi scambiando
- Seamus Finnigan con lei per Blaise Zabini, che Harry aveva detto essere
+ con lei Seamus Finnigan per Blaise Zabini, che Harry aveva detto essere
  
 \begin_inset Quotes fld
 \end_inset
@@ -334,7 +334,7 @@ sottoutilizzato
 \end_inset
 
  in Sunshine.
- Lavender aveva scelto di unirsi alla maggioranza delle 
+ Lavender aveva scelto di unirsi alla maggioranza della 
 \noun on
 spues 
 \noun default
@@ -391,7 +391,7 @@ Certo?
 
 Sai che un razionalista non è mai certo di nulla, Hermione, neppure che
  due più due fa quattro.
- Non posso davvero leggere la mente di Malfoy, e se potessi, non potrei
+ Non posso realmente leggere la mente di Malfoy, e se potessi, non potrei
  essere certo che non sia un Occlumante perfetto.
  Tutto ciò che posso dire è basato su ciò che ho visto a proposito di Malfoy,
  è molto più plausibile di quanto Daphne Greengrass pensi, che egli stia
@@ -444,12 +444,12 @@ sono preoccupato per l'odio che Casa Serpeverde sembra stare sviluppando
 \begin_layout Standard
 Stavano sedendo nell'ufficio del Professore di Difesa, Harry il più lontano
  possibile dalla scrivania dell'insegnante (e la sensazione di disastro
- imminente era ancora evidente, anche allora), la libreria vuota che ancora
- incorniciava la testa che stava diventando calva del professor Quirrell.
- La tazza in equilibrio sulla coscia di Harry era piena dell'oscuro e probabilme
-nte costoso tè cinese del professor Quirrell, e diceva qualcosa del modo
- in cui Harry aveva pensato negli ultimi tempi che avesse avuto bisogno
- di prendere una decisione conscia per berlo.
+ imminente era comunque percepibile, anche così), la libreria vuota che
+ ancora incorniciava la calvizie incipiente del professor Quirrell.
+ La tazza in equilibrio sulla coscia di Harry era piena del misterioso e
+ probabilmente costoso tè cinese del professor Quirrell, e diceva qualcosa
+ del modo in cui Harry aveva pensato negli ultimi tempi il fatto che avesse
+ avuto bisogno di prendere una decisione conscia per berlo.
 \end_layout
 
 \begin_layout Standard
@@ -475,12 +475,12 @@ Sì, beh
 \begin_inset Quotes fld
 \end_inset
 
-ho intenzione di ignorarlo -- oh, la smetta, professor Quirrell, 
+farò finta di niente -- oh, la smetta, professor Quirrell, 
 \emph on
 lei
 \emph default
- ha progettato di ripristinare la reputazione di Casa Serpeverde sino almeno
- dal primo venerdì di quest'anno
+ ha progettato di ripristinare la reputazione di Casa Serpeverde almeno
+ sin dal primo venerdì di quest'anno
 \begin_inset Quotes frd
 \end_inset
 
@@ -489,7 +489,7 @@ lei
 
 \begin_layout Standard
 Forse ci fu un piccolo accenno di sorriso, alle estremità di quelle labbra
- pallide e sottili; e poi di nuovo, forse non ci fu.
+ pallide e sottili; ma poi, del resto, forse non ci fu.
  
 \begin_inset Quotes fld
 \end_inset
@@ -501,7 +501,7 @@ Penso che in fin dei conti Casa Serpeverde se la caverà egregiamente, signor
  I bulli di due Case, molti dei quali con famiglie potenti e ben introdotte,
  vedono la signorina Granger come una minaccia alla loro reputazione e una
  vergogna per il loro orgoglio.
- Per quanto quello sia un motivo forte per farle del male, impallidisce
+ Per quanto questo sia un motivo forte per farle del male, impallidisce
  di fronte alla pura invidia dei Grifondoro, che vedono un estraneo ottenere
  gli allori dell'eroismo che essi hanno sognato sin dall'infanzia
 \begin_inset Quotes frd
@@ -521,23 +521,23 @@ E poi ci sono quelli di Casa Serpeverde che sentono che il fantasma di Salazar
  Coloro che non ci credono ucciderebbero allegramente la signorina Granger
  per l'insulto.
  Mentre quei Serpeverde che si chiedono nell'intimo, in qualche luogo silenzioso
- dentro di sé, se potrebbe essere persino 
+ dentro di sé, se potrebbe essere addirittura 
 \emph on
 vero
 \emph default
 \SpecialChar \ldots{}
- il loro panico interno è qualcosa di scarsamente concepibile
+ il loro panico interiore è qualcosa di scarsamente concepibile
 \begin_inset Quotes frd
 \end_inset
 
 .
- Il professor Quirrell sorseggiò il proprio tè tranquillamente.
+ Il professor Quirrell sorseggiò tranquillamente il proprio tè.
  
 \begin_inset Quotes fld
 \end_inset
 
 Quando avrà più esperienza, signor Potter, vedrà queste conseguenze prima
- della formulazione dei suoi piani.
+ di formulare i suoi piani.
  Al momento attuale, lei è malconsigliato dalla sua ignoranza intenzionale
  di tutta la parte della natura umana che lei ritiene sgradevole
 \begin_inset Quotes frd
@@ -617,8 +617,8 @@ Non si preoccupi troppo, signor Potter.
 
 \begin_layout Standard
 La busta che il Sistema Serpeverde aveva recapitato a Daphne a pranzo non
- era firmata, come al solito; la pergamena all'interno indicava un tempo
- e un luogo e diceva, semplicemente, 
+ era firmata, come sempre; la pergamena all'interno indicava un tempo e
+ un luogo e diceva, semplicemente, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -635,13 +635,14 @@ Difficile
 
 \begin_layout Standard
 Non era quello che aveva preoccupato Daphne.
- Quello che aveva preoccupato Daphne era che Millicent non era sembrata
- guardare nella sua direzione o in quella di Tracey a pranzo quel giorno.
- Aveva semplicemente guardato davanti al piatto davanti a sé e mangiato.
- Millicent aveva alzato lo sguardo solo una volta,che Daphne notasse, nella
- direzione del tavolo Tassofrasso, e poi aveva rapidamente riabbassato lo
- sguardo; sebbene Daphne fosse troppo lontana da vedere l'espressione sul
- viso di Millicent, perché Millicent si era seduta lontana da lei e da Tracey.
+ Quello che aveva preoccupato Daphne era che quel giorno, a pranzo, Millicent
+ non era sembrata guardare nella sua direzione o in quella di Tracey.
+ Aveva solo guardato al piatto davanti a sé e mangiato.
+ Millicent aveva alzato lo sguardo solo una volta, che Daphne avesse visto,
+ nella direzione del tavolo Tassofrasso, e poi aveva rapidamente riabbassato
+ lo sguardo; sebbene Daphne fosse stata troppo lontana per vedere l'espressione
+ sul viso di Millicent, perché Millicent si era seduta lontana da lei e
+ da Tracey.
 \end_layout
 
 \begin_layout Standard
@@ -660,7 +661,7 @@ Ciò che Vedo deve accadere\SpecialChar \ldots{}
 \emph default
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 da cap 72
@@ -741,8 +742,8 @@ Cosa ci fai qui?
 
 \begin_layout Standard
 Il viso rotondo di Susan non cambiò, come se la ragazza Tassofrasso avesse
- improvvisamente sviluppato una sorta di esperta aria assente che la stessa
- Madre di Daphne usava.
+ improvvisamente sviluppato una specie di aria esperta e assente che la
+ stessa Madre di Daphne usava.
  
 \begin_inset Quotes fld
 \end_inset
@@ -855,7 +856,7 @@ Per me va bene
 \end_inset
 
 , disse Susan, che stava mantenendo uno sguardo fisso sull'altra estremità
- del corridoio lì dove si univa nel corridoio col pavimento piastrellato,
+ del corridoio lì dove si univa al corridoio col pavimento piastrellato,
  in cui era stato detto loro di aspettare il bullo.
  
 \begin_inset Quotes fld
@@ -888,11 +889,21 @@ Se cerco di cambiarlo, se
 \emph default
 chiunque
 \emph on
- cerca di cambiarlo, accadranno cose davvero terribili, spaventose, cattive,
+ cerca di cambiarlo, accadono cose davvero terribili, spaventose, cattive,
  estremamente brutte.
- E poi accadrà comunque
+ E poi ciò che ho Visto accade comunque
 \emph default
 \SpecialChar \ldots{}
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+da cap 72
+\end_layout
+
+\end_inset
+
  
 \begin_inset Quotes fld
 \end_inset
@@ -957,7 +968,7 @@ Daphne stava quasi per piangere, continuava a chiedersi se fosse stata lei
 \emph on
 causare
 \emph default
- questo, se cercare di cambiare il Fato lo stesse facendo avvenire in maniera
+ questo, se cercare di cambiare il Fato lo stesse facendo avverare in maniera
  
 \emph on
 peggiore
@@ -981,7 +992,7 @@ Daphne
 \begin_inset Quotes fld
 \end_inset
 
-vai a prendere un professore.
+vai a chiamare un professore.
  Corri
 \begin_inset Quotes frd
 \end_inset
@@ -1029,7 +1040,8 @@ Penso che vada peggio ogni volta che si cerca di combatterlo
 \end_inset
 
 , disse Daphne.
- Quello era il modo in cui funzionava nelle tragedie, ad ogni modo.
+ Quello era il modo in cui funzionavano le cose nelle tragedie, ad ogni
+ modo.
 \end_layout
 
 \begin_layout Standard
@@ -1063,7 +1075,7 @@ Ecco i bulli
 \begin_inset Quotes frd
 \end_inset
 
-, disse laconicamente Susa.
+, disse laconicamente Susan.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1090,17 +1102,17 @@ Tre
 \emph default
  bulli più grandi, gli occhi di Daphne riconobbero Reese Belka che era una
  dei principali luogotenenti in uno degli eserciti del settimo anno, e Randolph
- Lee che era il numero due nel club di duelli di Hogwarts, e peggio di tutto,
+ Lee che era il numero due nel club di duelli di Hogwarts, e ancora peggio,
  Robert Jugson III, del sesto anno, il cui padre era quasi certamente un
  Mangiamorte.
 \end_layout
 
 \begin_layout Standard
-Tutti e tre erano circondati da Incantesimi di Protezione, una foschia blu
- che risplendeva sotto la superficie con nastri di altro colore e mostrava
- sfaccettature irregolari al di sopra, scudi a più strati come se loro tre
- avessero pensato di stare combattendo duellanti seri e avessero speso energie
- di conseguenza.
+Tutti e tre erano circondati da Incantesimi di Protezione, foschie blu che
+ risplendevano sotto la superficie con nastri di altro colore e occasionalmente
+ mostravano esteriormente sfaccettature irregolari, scudi a più strati come
+ se loro tre avessero pensato di stare combattendo duellanti seri e avessero
+ speso le proprie energie di conseguenza.
 \end_layout
 
 \begin_layout Standard
@@ -1164,7 +1176,7 @@ Ma il corridoio dietro di loro e di fronte a loro era ora bloccato da un
 \begin_inset Quotes fld
 \end_inset
 
-Devo spiegare di cosa si tratti?
+Devo spiegare di che si tratta?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1175,13 +1187,13 @@ Devo spiegare di cosa si tratti?
 \begin_inset Quotes fld
 \end_inset
 
-Beh, giusto nell'evenienza, piccole seccature, e questo include lei signorina
+Bene, giusto nel caso, piccole seccature, e questo include lei signorina
  Greengrass, avete già dato abbastanza problemi e avete raccontato abbastanza
  bugie.
  Abbiamo portato la vostra piccola amica per essere sicuri che tutti sappiano
  che vi abbiamo prese tutte -- sebbene supponga che l'altra ragazza Corvonero
  si stia nascondendo dietro l'angolo o sia appesa al soffitto da qualche
- parte? Beh, è irrilevante.
+ parte, giusto? Beh, è irrilevante.
  Questa è la vostra
 \begin_inset space ~
 \end_inset
@@ -1272,7 +1284,7 @@ Jugsy, tesoro?
 \begin_inset Quotes fld
 \end_inset
 
-Credo che l'abbiamo già discusso.
+Ne abbiamo già parlato.
  Prima le battiamo, 
 \emph on
 poi
@@ -1352,8 +1364,8 @@ Che ne dici di leccarmi le scarpe, sanguemarcio, e
 \emph on
 una
 \emph default
- delle tue amiche può andarsene? Scegli qualunque ti piaccia di più, e lascia
- che le altre restino a farsi male
+ delle tue amiche può andarsene? Scegli chiunque ti stia più simpatica,
+ e lascia che le altre restino a farsi male
 \begin_inset Quotes frd
 \end_inset
 
@@ -1418,7 +1430,7 @@ Prismatis!
  e si formò il muro arcobaleno ma l'ardente scarica blu ci passò proprio
  nel mezzo come se non fosse neppure lì, il colpo mancò Susan per pochi
  centimetri, ci fu un turbinio di movimenti che Daphne non poté seguire
- durante il quale il piede di Belka le fu scalciato via da sotto di lei,
+ durante il quale il piede di Belka le fu calciato via da sotto le gambe,
  ma la strega più anziana semplicemente rotolò all'indietro per rimettersi
  in piedi e poi
 \begin_inset space ~
@@ -1444,17 +1456,17 @@ Pris-
 \end_layout
 
 \begin_layout Standard
-Tre scariche di fulgore picchiarono contro Susan all'unisono, che aveva
- la bacchetta alzata come se potesse rispondere loro e ci fu un lampo bianco
- quando le fatture colpirono il legno magico, ma poi le gambe di Susan tremarono
- violentemente e la mandarono a volare contro un muro del corridoio.
- La sua testa colpì con uno strano suono di qualcosa che si spezza, e poi
- Susan cadde giù e giacque immobile con la testa disposta in un angolo strano,
+Tre scariche di fulgore picchiarono all'unisono contro Susan, che aveva
+ la bacchetta alzata come se le potesse fermare, e ci fu un lampo bianco
+ quando gli incantesimi colpirono il legno magico, ma poi le gambe di Susan
+ tremarono violentemente e la mandarono a volare contro un muro del corridoio.
+ La sua testa impattò con lo strano suono di qualcosa che si spezza, e poi
+ Susan cadde giù e giacque immobile con la testa disposta ad un angolo strano,
  la bacchetta ancora stretta forte nella sua mano protesa.
 \end_layout
 
 \begin_layout Standard
-Ci fu un momento di silenzio congelato.
+Ci fu un momento di gelido silenzio.
 \end_layout
 
 \begin_layout Standard
@@ -1486,7 +1498,7 @@ Vitalis revelio
 \begin_inset Quotes fld
 \end_inset
 
-Probabilmente solo una clavicola rotta, dire.
+Probabilmente solo una clavicola rotta, direi.
  Bel tentativo, però
 \begin_inset Quotes frd
 \end_inset
@@ -1502,7 +1514,7 @@ Merlino, sono
 \emph on
 davvero
 \emph default
- scaltre
+ furbe
 \begin_inset Quotes frd
 \end_inset
 
@@ -1533,7 +1545,7 @@ Tonare!
 \begin_inset Quotes frd
 \end_inset
 
- gridò Daphne, sollevando la sua bacchetta sopra la sua testa e concentrandosi
+ gridò Daphne, sollevando la propria bacchetta sopra la testa e concentrandosi
  più intensamente di quanto avesse mai fatto in vita sua.
  
 \begin_inset Quotes fld
