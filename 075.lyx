@@ -54,6 +54,8 @@
 \usepackage{indentfirst}
 \usepackage{libertine}
 \usepackage{ebgaramond}
+
+\usepackage{inslrmin}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -3451,7 +3453,21 @@ se vuoi infrangere delle regole scolastiche o cose simili, puoi chiedermelo,
 \end_layout
 
 \begin_layout Quote
-\align left
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+color{black!78} 
+\backslash
+iminfamily 
+\end_layout
+
+\end_inset
+
 Non est salvatori salvator,
 \begin_inset Newline newline
 \end_inset
@@ -3465,17 +3481,22 @@ nec pater nec mater,
 \end_inset
 
 nihil supernum.
+\begin_inset ERT
+status open
 
-\begin_inset Newline newline
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
 
-\lang italian
----
-\begin_inset space ~
-\end_inset
+\end_layout
 
-Godric Gryffindor, 1202 
+\begin_layout Quote
+\align center
+Godric Grifondoro, 1202 
 \noun on
 e.v.
 \end_layout

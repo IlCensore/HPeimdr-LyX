@@ -7,6 +7,9 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{fmtcount}
 \usepackage{microtype}
+%insular minuscule, capitolo 75
+\usepackage{inslrmin}
+
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
@@ -182,7 +185,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Garamond Premier Pro
+\font_roman EB Garamond
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
 \font_default_family default
@@ -684,10 +687,34 @@ LaTeX
 \family sans
 Linux Biolinum
 \family default
- e 
+, 
 \family typewriter
 Inconsolata
 \family default
+ e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+iminfamily 
+\end_layout
+
+\end_inset
+
+Insular Minuscule
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
 .
 \end_layout
 
@@ -1622,6 +1649,13 @@ filename "074.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "075.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "076.lyx"
 
 \end_inset
 
