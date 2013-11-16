@@ -45,15 +45,15 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-%\usepackage{fontspec,microtype}
-\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
 \frenchspacing
-%\widowpenalties 2 10000 0
-%\clubpenalty 100
-%\raggedbottom
+\widowpenalties 2 10000 0
+\clubpenalty 100
+\raggedbottom
 \usepackage{indentfirst}
-\usepackage{libertine}
-\usepackage{ebgaramond}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -65,18 +65,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
+\font_roman Garamond Premier Pro
+\font_sans Gill Sans Std
 \font_typewriter default
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf2
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -575,8 +575,8 @@ Va bene, dimentichi la parte a proposito dell'insegnare lo ad aver paura
 \begin_inset Quotes fld
 \end_inset
 
-Penso ancora che lei dovrebbe non permettere che sia fatto del male a dei
- bambini per paura di cosa 
+Penso ancora che lei dovrebbe impedire che sia fatto del male a dei bambini
+ per paura di cosa 
 \emph on
 potrebbe
 \emph default
@@ -1621,209 +1621,368 @@ No! Non l'avrei fatto neppure a lui
 \end_layout
 
 \begin_layout Standard
-The old wizard stared at the young boy, who had straightened, and his face
- changed.
+Il vecchio mago fissò il giovane ragazzo, che si era raddrizzato, mutando
+ il proprio volto.
 \end_layout
 
 \begin_layout Standard
-“In other words,” the boy said, as though talking to himself without any
- other people in the room, “it's already known how to keep powerful Dark
- Wizards in prison, without using Dementors.
- People 
+\begin_inset Quotes fld
+\end_inset
+
+In altre parole
+\begin_inset Quotes frd
+\end_inset
+
+, disse il ragazzo, come se stesse parlando a sé stesso senza altre persone
+ nella stanza, 
+\begin_inset Quotes fld
+\end_inset
+
+si sa già come tenere in prigione dei potenti Maghi Oscuri, senza usare
+ i Dissennatori.
+ La gente 
 \emph on
-know
+sa
 \emph default
- they know that.”
+ di saperlo
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-“Harry…?”
-\end_layout
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-“No,” the boy said.
- The boy looked up, and his eyes were blazing like green fire.
- “I do not accept your answer, Headmaster.
- Fawkes gave me a mission, and I know now why Fawkes gave that mission to
- me, and not to you.
- You are willing to accept balances of power where the bad guys end up winning.
- I am not.”
-\end_layout
-
-\begin_layout Standard
-“That too is not an answer,” the old wizard said; his face showed nothing
- of his hurt, he had long practice in concealing pain.
- “Refusing to accept something does not change it.
- I wonder now if you are simply too young to understand this matter, Harry,
- despite your outward airs; only in children's fantasies can all battles
- be won, and not a single evil tolerated.”
-\end_layout
-
-\begin_layout Standard
-“And that's why I can destroy Dementors and you can't,” said the boy.
- “Because I believe that the darkness can be broken.”
-\end_layout
-
-\begin_layout Standard
-The old wizard's breath stopped in his throat.
-\end_layout
-
-\begin_layout Standard
-“The phoenix's price isn't inevitable,” the boy said.
- “It's not part of some deep balance built into the universe.
- It's just the parts of the problem where you haven't figured out yet how
- to cheat.”
-\end_layout
-
-\begin_layout Standard
-The old wizard's lips parted, and no words came forth.
-\end_layout
-
-\begin_layout Standard
-Silver light falling on shattered wands.
-\end_layout
-
-\begin_layout Standard
-“Fawkes gave me a mission,” the boy repeated, “and I will carry out that
- mission if I must break the entire Ministry to do it.
- That's the part of the answer that you're missing.
- You don't stop and say, 
-\emph on
-oh well, guess I can't possibly figure out any way to stop bullying in Hogwarts,
-\emph default
- and 
-\emph on
-leave
-\emph default
- it at that.
- You just keep looking until you figure out how to do it.
- If that requires breaking Lucius Malfoy's entire conspiracy,
-\emph on
- fine.
-\emph default
-”
-\end_layout
-
-\begin_layout Standard
-“And the true fight, the fight against Voldemort?” the old wizard said in
- an unsteady voice.
- “What will you do to win
-\emph on
- that
-\emph default
-, Harry? Will you break the whole world? Even if someday you gain such power,
- you are not yet beyond prices, and perhaps you never will be! For you to
- act this way 
-\emph on
-now
-\emph default
- is nothing short of madness!”
-\end_layout
-
-\begin_layout Standard
-“I asked Professor Quirrell why he'd laughed,” the boy said evenly, “after
- he awarded Hermione those hundred points.
- And Professor Quirrell said, these aren't his exact words, but it's pretty
- much what he said, that he'd found it tremendously amusing that the great
- and good Albus Dumbledore had been sitting there doing nothing as this
- poor innocent girl begged for help, while
-\emph on
- he
-\emph default
- had been the one to defend her.
- And he told me then that by the time good and moral people were done tying
- themselves up in knots, what they usually did was nothing; or, if they
- did act, you could hardly tell them apart from the people called bad.
- Whereas 
-\emph on
-he
-\emph default
- could help innocent girls any time he felt like it, because he wasn't a
- good person.
- And that I ought to remember that, any time I considered growing up to
- be good.”
-\end_layout
-
-\begin_layout Standard
-The old wizard did not show the force of the blow.
- Only a slight widening of his eyes would have betrayed it, if you had been
- watching him very closely.
-\end_layout
-
-\begin_layout Standard
-“Don't worry, Headmaster,” said the boy.
- “I haven't gotten my wires crossed.
- I know that I'm supposed to learn goodness from Hermione and Fawkes, not
- from Professor Quirrell and you.
- Which brings me to the actual reason why I came here.
- Hermione's time is too valuable to waste in detentions.
- Professor Snape will revoke it, claiming that I blackmailed him.”
-\end_layout
-
-\begin_layout Standard
-After a hesitation the old wizard nodded his head, the silver beard swaying
- slowly beneath.
- “That would not be best for
-\emph on
- her,
-\emph default
- Harry,” the old wizard said.
- “But the detention can be put down as being served with Professor Binns,
- and you and she can study together in his classroom.”
-\end_layout
-
-\begin_layout Standard
-“Fine,” the boy said.
- “I think that was all the business we had together, in the end.
- You may expect, the next time you seem to be working on the side of the
- bad guys or letting them win, that I will do whatever I think Fawkes would
- tell me to, regardless of how much trouble comes of it.
- I hope we're both clear on that.”
-\end_layout
-
-\begin_layout Standard
-Without another word, the boy turned and walked out of the room, through
- the open door of black metal, the words “
-\emph on
-Lumos!
-\emph default
-” and the light of his wand following a moment later.
-\end_layout
-
-\begin_layout Standard
-The old wizard stood there silent, silent amid the ruins of the lives which
- his own life had left behind.
- His wrinkled hand rose, shaking, to touch at his half-moon glasses 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Harry\SpecialChar \ldots{}
+?
+\begin_inset Quotes frd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-The boy poked his head back in.
- “Would you mind switching on the stairs, Headmaster? I'd rather not go
- through all the work again to leave the same way I came.”
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, disse il ragazzo.
+ Alzò lo sguardo, e i suoi occhi divamparono come fuoco verde.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non accetto la sua risposta, Preside.
+ Fawkes mi ha dato una missione, e ora so perché ha dato quella missione
+ a me, e non a lei.
+ Lei è disposto ad accettare equilibri di potere in cui i cattivi finiscono
+ per vincere.
+ Io no
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-“Go, Harry Potter,” the old wizard said.
- “The stairs will receive you.”
+\begin_inset Quotes fld
+\end_inset
+
+Anche quella non è una risposta
+\begin_inset Quotes frd
+\end_inset
+
+, disse il vecchio mago; ora il suo volto non mostrava affatto il suo dolore,
+ aveva fatto a lungo pratica nel nasconderlo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Rifiutarsi di accettare qualcosa non la cambia.
+ Mi chiedo ora se tu sia semplicemente troppo giovane per capire questo
+ argomento, Harry, malgrado le tue sembianze esteriori; solo nelle fantasie
+ dei bambini si possono vincere tutte le battaglie, e si può non tollerare
+ anche un solo male
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-(Some time later, an earlier version of Harry, who had invisibly waited
- next to the gargoyles since 9pm, followed the Deputy Headmistress through
- the opening that parted for her, stood quietly behind her on the turning
- stairs until they came to the top, and then, still under the Cloak, spun
- his Time-Turner thrice.)
+\begin_inset Quotes fld
+\end_inset
+
+Ed è per questo che io posso distruggere i Dissennatori e lei no.
+ Perché ritengo che l'oscurità possa essere fatta a pezzi
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il respiro del vecchio mago gli si fermò in gola.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Il prezzo della fenice non è inevitabile
+\begin_inset Quotes frd
+\end_inset
+
+, riprese il ragazzo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non è parte di un qualche equilibrio profondo insito nell'universo.
+ È solo una parte del problema in cui non ha ancora capito come barare
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Le labbra del vecchio mago si aprirono, e nessuna parola ne uscì.
+\end_layout
+
+\begin_layout Standard
+Luce argentea che cadeva su bacchette spezzate.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Fawkes mi ha dato una missione
+\begin_inset Quotes frd
+\end_inset
+
+, ripeté il ragazzo, 
+\begin_inset Quotes fld
+\end_inset
+
+e porterò a compimento quella missione anche se dovessi distruggere l'intero
+ Ministero per farlo.
+ Questa è parte della risposta che le manca.
+ Non si ferma a dire, 
+\emph on
+oh, beh, pare che non riesca a trovare alcun modo per fermare il bullismo
+ a Hogwarts
+\emph default
+, e 
+\emph on
+abbandona
+\emph default
+ lì.
+ Deve semplicemente continuare a cercare finché non trova un modo per farlo.
+ Se questo richiede fare a pezzi l'intera congiura di Lucius Malfoy, 
+\emph on
+bene
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E la vera lotta, la lotta contro Voldemort?
+\begin_inset Quotes frd
+\end_inset
+
+ disse il vecchio mago con voce tremante.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa farai per vincere 
+\emph on
+quella
+\emph default
+, Harry? Farai a pezzi il mondo intero? Anche se un giorno dovessi ottenere
+ un tale potere, tu non sei ancora al di là dei prezzi da pagare, e forse
+ non lo sarai mai! Che tu agisca in questo modo 
+\emph on
+ora
+\emph default
+ non è nulla di meno che pazzia!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho chiesto al professor Quirrell perché avesse riso
+\begin_inset Quotes frd
+\end_inset
+
+, disse con calma il ragazzo, 
+\begin_inset Quotes fld
+\end_inset
+
+dopo che aveva concesso a Hermione quei cento punti.
+ E il professor Quirrell ha detto, queste non sono le sue parole esatte,
+ ma è praticamente ciò che ha detto, che aveva trovato tremendamente divertente
+ che il grande e buon Albus Silente fosse stato seduto lì senza far nulla
+ mentre quella povera e innocente ragazza chiedeva aiuto, mentre 
+\emph on
+lui
+\emph default
+ era stato quello che l'aveva difesa.
+ E mi ha detto poi che quando le persone buone e morali finiscono di legarsi
+ strettamente, ciò che di solito fanno è niente; o, se invece agiscono,
+ è difficile distinguerle dalle persone considerate cattive.
+ Mentre 
+\emph on
+lui
+\emph default
+ può aiutare ragazze innocenti ogni volta che gli va, perché non è una persona
+ buona.
+ E che dovrei ricordarlo, ogni volta che esaminassi la possibilità di crescere
+ per diventare buono
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il vecchio mago non mostrò la forza del colpo.
+ Solo un leggero spalancarsi dei suoi occhi l'avrebbe tradito, se si fosse
+ stati a guardarlo molto da vicino.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non si preoccupi, Preside.
+ Non sono impazzito.
+ So che dovrei imparare la bontà da Hermione e Fawkes, non dal professor
+ Quirrell e da lei.
+ Il che mi porta alla vera ragione per cui sono venuto qui.
+ Il tempo di Hermione è troppo prezioso per essere sprecato in una detenzione.
+ Il professor Snape la revocherà, affermando che l'ho ricattato.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dopo un'esitazione, il vecchio mago fece cenno di sì con la testa, la barba
+ d'argento che ondeggiò lentamente sotto di essa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quello potrebbe essere la cosa migliore per 
+\emph on
+lei
+\emph default
+, Harry.
+ Ma la detenzione può essere considerata come scontata con il professor
+ Binns, ed ella e tu potreste studiare insieme nella sua aula
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Bene.
+ Penso che questo era tutto ciò che dovessimo discutere, in fin dei conti.
+ Si può attendere, la prossima volta che lei sembrerà operare dalla parte
+ dei cattivi o lasciarli vincere, che io faccia tutto ciò che pensi che
+ Fawkes mi direbbe di fare, a prescindere da quanti problemi ne derivino.
+ Spero che questo sia chiaro per tutti.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Senza proferir altra parola, il ragazzo si girò e uscì dalla stanza, attraverso
+ la porta di metallo nero aperta, la parola 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Lumos!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ e la luce dalla sua bacchetta che giunsero un momento più tardi.
+\end_layout
+
+\begin_layout Standard
+Il vecchio mago rimase lì in silenzio, in silenzio tra le rovine delle vite
+ che la sua stessa vita aveva lasciato dietro di sé.
+ La sua mano rugosa si alzò tremante, per toccare i suoi occhiali a mezzaluna
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+La testa del ragazzo rispuntò all'interno della stanza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Le dispiacerebbe far ripartire le scale, Preside? Preferirei non dover rifare
+ tutto il lavoro da capo per poter uscire nello stesso modo in cui sono
+ arrivato
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va', Harry Potter.
+ Le scale ti accoglieranno.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Qualche tempo dopo, una versione precedente di Harry, che aveva invisibilmente
+ atteso presso i gargoyle sin dalle 21, seguì la Vice Preside attraverso
+ l'apertura che si era aperta per lei, rimase silenziosamente dietro di
+ lei sulle scale girevoli finché non giunsero alla sommità, e poi, ancora
+ sotto il Mantello, girò tre volte il proprio Giratempo.)
 \end_layout
 
 \begin_layout Quote
