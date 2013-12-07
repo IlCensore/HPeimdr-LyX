@@ -48,9 +48,9 @@
 \usepackage{fontspec,microtype}
 %\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
 \frenchspacing
-\widowpenalties 2 10000 0
-\clubpenalty 100
-\raggedbottom
+\widowpenalties 2 1000 0
+\clubpenalty 10
+%\raggedbottom
 \usepackage{indentfirst}
 %\usepackage{libertine}
 %\usepackage{ebgaramond}
@@ -65,7 +65,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
+\font_roman Garamond Premier Pro
 \font_sans EB Garamond
 \font_typewriter Inconsolata
 \font_default_family default
@@ -765,7 +765,7 @@ osservato
 \begin_inset Quotes fld
 \end_inset
 
-Imperius, Obliazione, Incantesimo di Memoria Falsa, Legilimanzia.
+Imperius, Obliazione, Incantesimo di Falsa Memoria, Legilimanzia.
  Professoressa McGonagall, sto tralasciando qualsiasi incantesimo di controllo
  mentale che avrebbe potuto portare Hermione farlo o a farle credere di
  averlo fatto?
@@ -957,7 +957,7 @@ Una persona che sembrava Madam McJorgenson ci ha detto che un singolo Legilimens
 \begin_inset Quotes fld
 \end_inset
 
-Come dici tu, Harry, un Incantesimo di Memoria Falsa è una possibilità;
+Come dici tu, Harry, un Incantesimo di Falsa Memoria è una possibilità;
  i ricordi sono, quando l'incantesimo è lanciato alla perfezione, indistinguibil
 i da un ricordo vero
 \begin_inset space ~
@@ -1008,7 +1008,7 @@ Harry
 
 \begin_layout Standard
 Il vecchio mago continuò.
- «-- ma creare un Incantesimo di Memoria Falsa di tale qualità richiede
+ «-- ma creare un Incantesimo di Falsa Memoria di tale qualità richiede
  tanto tempo quanto la memoria vera.
  Creare un ricordo dettagliato di dieci minuti corrisponderebbe a dieci
  minuti di lavoro.
@@ -1061,10 +1061,10 @@ guidata
 \emph on
 primo
 \emph default
- Incantesimo di Memoria Falsa è stato lanciato su Hermione dopo che il professor
+ Incantesimo di Falsa Memoria è stato lanciato su Hermione dopo che il professor
  Snape le ha urlato contro, e le ha mostrato, ad esempio, Draco e il professor
  Snape che complottavano per ucciderla.
- Poi ieri sera quella Memoria Falsa è stata 
+ Poi ieri sera quella Falsa Memoria è stata 
 \emph on
 rimossa
 \emph default
@@ -1085,7 +1085,7 @@ Il Maestro di Pozioni era pensierosamente accigliato, gli occhi intenti.
 \emph on
 reazione
 \emph default
- a un Incantesimo di Memoria Falsa è difficile da prevedere in anticipo,
+ a un Incantesimo di Falsa Memoria è difficile da prevedere in anticipo,
  signor Potter, senza Legilimanzia.
  I soggetti non agiscono sempre come previsto, la prima volta che ricordano
  le false memorie.
@@ -2654,286 +2654,317 @@ L'aula di Divinazione era illuminata dalla fioca luce rossa di cento piccoli
 \end_layout
 
 \begin_layout Standard
-“The grim!” Professor Trelawney said in a quavering voice, as she peered
- into George Weasley's teacup.
- “The grim! It is a sign of death! One whom you know, George 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
- someone you know is to die! And soon 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+La mietitrice!
+\begin_inset Quotes frd
 \end_inset
 
- yes, it shall be quite soon, I think 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+ disse la professoressa Trelawney con voce tremante, mentre sbirciava nella
+ tazza di George Weasley.
+ 
+\begin_inset Quotes fld
 \end_inset
 
- unless of course it is later
+La mietitrice! È un segno di morte! Qualcuno che conosci, George -- qualcuno
+ che conosci dovrà morire! E presto -- sì, sarà alquanto presto, penso --
+ a meno che ovviamente non sia più tardi
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
-\end_inset
-
-”
-\end_layout
-
-\begin_layout Standard
-It would have been a good deal scarier, thought Fred and George, if she
- hadn't said the same thing to every single other student in their Divination
- class.
- They were hardly even thinking about it at this point; all their thoughts
- were on today's disaster 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-The trapdoor in the floor flew open with a bang that caused Professor Trelawney
- to shriek and spill George's tea all over his robes, and then an instant
- later Dumbledore was whooshing up out of the floor with a bird of fire
- upon his shoulder.
-\end_layout
-
-\begin_layout Standard
-“Fred!” the old wizard said commandingly.
- His robes were the black of a moonless night, his eyes hard like blue diamonds.
- “George! With me, now!”
-\end_layout
-
-\begin_layout Standard
-There was an collective gasp and by the time Fred and George were climbing
- down the ladder after the Headmaster, the entire class was already speculating
- what role they'd played in the attempted murder of Draco Malfoy.
-\end_layout
-
-\begin_layout Standard
-The trapdoor had hardly slammed shut above them before all nearby sounds
- muted and the old wizard spun on them and held out a hand and commanded,
- “Give me the map!”
-\end_layout
-
-\begin_layout Standard
-“M-map?” said Fred or George in total shock.
- They'd never even suspected that Dumbledore suspected.
- “Why, w-we don't know what you're
+Sarebbe stato molto più spaventoso, pensarono Fred e George, se non avesse
+ detto la stessa cosa a ogni altro singolo studente della loro classe di
+ Divinazione.
+ Ci pensavano a malapena, a quel punto; tutti i loro pensieri erano rivolti
+ al disastro della giornata
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
 \end_layout
 
+\begin_layout Standard
+La botola sul pavimento si aprì d'improvviso con un botto che fece gridare
+ la professoressa Trelawney e le fece rovesciare il tè di George tutto sulle
+ sue vesti, e poi un istante dopo Silente stava frusciando fuori dal pavimento
+ con un uccello di fuoco sulla propria spalla.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
 \end_inset
 
-”
+Fred!
+\begin_inset Quotes frd
+\end_inset
+
+ disse il vecchio mago in tono di comando.
+ Le sue vesti erano del nero di una notte senza luna, i suoi occhi duri
+ come diamanti blu.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+George! Con me, ora!
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“Hermione Granger is in trouble,” said the old wizard.
+Ci fu un rantolo collettivo e per quando Fred e George si trovarono a scendere
+ la scala dopo il Preside, l'intera classe stava già congetturando su quale
+ ruolo avessero svolto nel tentato omicidio di Draco Malfoy.
 \end_layout
 
 \begin_layout Standard
-“The Map is in our dorm,” George or Fred said immediately.
- “Just give us a few minutes to get it and we'll 
-\begin_inset ERT
-status open
+La botola si era appena richiusa rumorosamente sopra di loro che tutti i
+ suoni vicini si azzittirono e il vecchio mago si voltò e porgendo una mano
+ ordinò, 
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Plain Layout
+Datemi la mappa!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+M-mappa?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Fred o George completamente sconvolto.
+ Non avevano mai neppure sospettato che Silente sospettasse.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché, n-noi non sappiamo cosa lei stia
+\begin_inset space ~
+\end_inset
 
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-The wizard's arms swept them up as if they were hugging-pillows, there was
- a piercing cry and a flash of fire and then the three of them were in the
- third-year Gryffindor's boys' dorm.
+\begin_inset Quotes fld
+\end_inset
+
+Hermione Granger è nei guai
+\begin_inset Quotes frd
+\end_inset
+
+, disse il vecchio mago.
 \end_layout
 
 \begin_layout Standard
-A few moments later, Fred and George were handing over the Map to the Headmaster
-, wincing only slightly at the sacrilege of giving their precious piece
- of the Hogwarts security system to the person who actually owned it, and
- the old wizard was frowning at the apparent blankness.
+\begin_inset Quotes fld
+\end_inset
+
+La Mappa è nel nostro dormitorio
+\begin_inset Quotes frd
+\end_inset
+
+, disse immediatamente George o Fred.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ci dia solo pochi minuti per prenderla e noi
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“You've got to say,” they explained, “
+Le braccia del mago li raccolsero come se stringessero cuscini, ci fu un
+ grido acuto e una vampata di fuoco e poi tutti e tre furono nel dormitorio
+ Grifondoro dei ragazzi del terzo anno.
+\end_layout
+
+\begin_layout Standard
+Alcuni momenti dopo, Fred e George stavano consegnando la Mappa al Preside,
+ trasalendo solo un po' al sacrilegio di dare il loro prezioso pezzo del
+ sistema di sicurezza di Hogwarts alla persona che effettivamente ne era
+ il proprietario, e il vecchio mago era accigliato di fronte al fatto che
+ fosse apparentemente vuota.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Deve dire
+\begin_inset Quotes frd
+\end_inset
+
+, spiegarono, 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
-I solemnly swear that I am up to no good 
-\begin_inset ERT
-status open
+giuro solennemente di non avere buone intenzioni
+\emph default
 
-\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
 
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
 
-\emph default
-”
 \end_layout
 
 \begin_layout Standard
-“I decline to lie,” said the old wizard.
- He held the Map high and bellowed, “Hear me, Hogwarts! 
+\begin_inset Quotes fld
+\end_inset
+
+Mi rifiuto di mentire
+\begin_inset Quotes frd
+\end_inset
+
+, disse il vecchio mago.
+ Resse la Mappa in alto e ruggì, 
+\begin_inset Quotes fld
+\end_inset
+
+Ascoltami, Hogwarts! 
 \emph on
 Deligitor prodi!
 \emph default
-” An instant later the Headmaster was wearing the Sorting Hat, which looked
+
+\begin_inset Quotes frd
+\end_inset
+
+ Un istante dopo il Preside stava indossando il Cappello Smistatore, che
+ sembrava 
+\emph on
+terribilmente al suo posto
+\emph default
+ sopra la sua testa, come se Silente fosse sempre stato in attesa di un
+ cappello patchwork a punta per completare la propria esistenza.
+\end_layout
+
+\begin_layout Standard
+(Fred e George memorizzarono immediatamente quella frase, giusto nel caso
+ in cui funzionasse per qualcun altro oltre al Preside, e iniziarono a cercare
+ di pensare a burle che includesse il Cappello Smistatore.)
+\end_layout
+
+\begin_layout Standard
+Il vecchio mago non sprecò un momento prima di togliersi il Cappello Smistatore
+ dalla testa e girarlo sotto-sopra -- era difficile dirlo col Cappello rovesciat
+o, ma sembrò un po' seccato per il trattamento -- e poi vi infilò la mano
+ e ne estrasse una verga di cristallo.
+ Con questo strumento iniziò a tracciare dei disegni simili a rune sulla
+ Mappa, mormorando strani incantamenti che suonavano non esattamente latino
+ ed echeggiavano nelle loro orecchie in un modo stranamente raccapricciante.
+ Nel pieno del tracciamento di una runa alzò lo sguardo su entrambi, fissandoli
+ con un'occhiata acuta.
  
+\begin_inset Quotes fld
+\end_inset
+
+Ve la restituirò dopo, figli di Weasley.
+ Tornate a lezione
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì, Preside
+\begin_inset Quotes frd
+\end_inset
+
+, dissero, ed esitarono.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ah -- riguardo Hermione Granger, sarà davvero costretta a servire Draco
+ Malfoy per sempre come sua
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
-scarily right
+Andate
 \emph default
- upon his head, as though Dumbledore had always been waiting for a patchwork
- pointed hat to complete his existence.
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse il vecchio mago.
 \end_layout
 
 \begin_layout Standard
-(Fred and George immediately memorized this phrase, just in case it would
- work for somebody besides the Headmaster, and began trying to think of
- pranks that would involve the Sorting Hat.)
+Andarono.
 \end_layout
 
 \begin_layout Standard
-The old wizard wasted not a moment before sweeping the Sorting Hat off his
- head and turning it upside-down 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- it was hard to tell with the Hat upside-down, but it looked a bit cross
- at the treatment 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- and then plunged in his hand and drew out a crystal rod.
- With this instrument he began tracing rune-like patterns on the Map, muttering
- strange incantations that sounded not quite like Latin and echoed in their
- ears in an unusually creepy fashion.
- In the midst of tracing one rune he looked up at both of them, fixing them
- with a sharp glare.
- “I will return this to you later, sons of Weasley.
- Go back to class.”
-\end_layout
-
-\begin_layout Standard
-“Yes, Headmaster,” they said, and hesitated.
- “Ah 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
- about Hermione Granger, is she really going to be bound to serve Draco
- Malfoy forever as his 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-”
-\end_layout
-
-\begin_layout Standard
-“
+Quando fu solo nella stanza, il vecchio mago abbassò lo sguardo alla mappa,
+ che aveva ora tracciato su sé stessa un raffinato disegno a tratteggio
+ dei dormitori Grifondoro in cui erano, il piccolo 
 \emph on
-Go,
+Albus P.W.B.
+ Silente
 \emph default
-” said the old wizard.
+ scritto a mano l'unico nome rimasto lì dentro.
 \end_layout
 
 \begin_layout Standard
-They went.
-\end_layout
+Il vecchio mago levigò la mappa, vi si piegò sopra, e sussurrò, 
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-When he was alone in the room, the old wizard looked down at the map, which
- had now written upon itself a fine line drawing of the Gryffindor dorms
- in which they stood, the small handwritten
-\emph on
- Albus P.W.B.
- Dumbledore
-\emph default
- the only name left therein.
-\end_layout
+Trova Tom Riddle
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Standard
-The old wizard smoothed the map, bent over it, and whispered, “Find Tom
- Riddle.”
+.
 \end_layout
 
 \begin_layout Quote
@@ -2948,185 +2979,243 @@ The old wizard smoothed the map, bent over it, and whispered, “Find Tom
 \end_layout
 
 \begin_layout Standard
-The interrogation room at the Department of Magical Law Enforcement was
- usually lit by a small orange light, so that the Auror interrogating you
- would be leaning toward your uncomfortable metal chair with most of their
- face in shadow, preventing you from reading their expression, even as they
- read yours.
+La stanza degli interrogatori al Dipartimento per l'Applicazione della Legge
+ Magica era generalmente illuminata da una piccola luce arancione, in modo
+ che l'Auror che ti interrogava si chinasse verso la tua scomoda sedia di
+ metallo con la maggior parte della sua faccia nell'ombra, impedendoti di
+ leggere la sua espressione, proprio mentre leggeva la tua.
 \end_layout
 
 \begin_layout Standard
-As soon as Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
-\end_inset
-
-Quirrell had entered the room, the small orange light had dimmed and begun
- flickering like a candle about to be blown out by the wind.
- The room was now lit by a sourceless ice-colored glow which illuminated
- all of Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
-\end_inset
-
-Quirrell's pale skin like alabaster, except, somehow, his eyes, which stayed
- in darkness.
+Non appena il signor Quirrell era entrato nella stanza, la piccola luce
+ arancione si era affievolita e aveva iniziato a sfarfallare come una candela
+ sul punto di essere spenta dal vento.
+ La stanza era ora rischiarata da un bagliore senza fonte e color del ghiaccio
+ che illuminava tutta la pelle simile ad alabastro del signor Quirrell,
+ ad eccezione, in qualche modo, dei suoi occhi, che restarono nell'oscurità.
 \end_layout
 
 \begin_layout Standard
-The Auror on duty outside had surreptitiously tried to dispel this effect
- four times without the slightest success, despite the fact that Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
-\end_inset
-
-Quirrell had politely surrendered his wand upon being detained for interrogation
-, and had shown no sign of speaking any incantations nor exerting any other
- power.
+L'Auror di guardia fuori dalla stanza aveva furtivamente cercato di annullare
+ questo effetto quattro volte senza il minimo successo, malgrado il fatto
+ che il signor Quirrell aveva cortesemente consegnato la propria bacchetta
+ subito dopo essere stato trattenuto per l'interrogatorio, e non aveva mostrato
+ alcun segno di pronunciare qualsiasi incantamento né di esercitare qualunque
+ altro potere.
 \end_layout
 
 \begin_layout Standard
-“Quirinus… Quirrell,” drawled the man now sitting across from where the
- Defense Professor had waited courteously.
- The interrogator had tawny hair that swept back like a lion's mane, with
- yellowish eyes set into the sternly lined face of a man late in his tenth
- decade.
- The man was, at this moment, leafing through a large folder of parchments
- that he had taken from a black and very solid-looking briefcase after he
- had limped into the room and sat down, seeming not to look at the face
- of the man he was interrogating.
- He had not introduced himself.
+\begin_inset Quotes fld
+\end_inset
+
+Quirinus\SpecialChar \ldots{}
+ Quirrell
+\begin_inset Quotes frd
+\end_inset
+
+, disse strascicando l'uomo che ora era seduto dalla parte opposta a dove
+ il Professore di Difesa aveva atteso cortesemente.
+ L'interrogante aveva capelli fulvi che ricadevano all'indietro come la
+ criniera di un leone, con occhi giallastri incastonati nel volto severamente
+ solcato da rughe di un uomo nel suo decimo decennio avanzato.
+ Quell'uomo stava, in quel momento, sfogliando una grossa cartella di pergamene
+ che aveva preso da una valigetta nera dall'aspetto molto solido dopo essere
+ arrancato nella stanza ed essersi seduto, apparentemente senza guardare
+ il volto dell'uomo che stava interrogando.
+ Non si era presentato.
 \end_layout
 
 \begin_layout Standard
-After some further leafing through parchments, carried out in silence, the
- Auror spoke again.
- “Born the 26th of September, 1955, to Quondia Quirrell, of an acknowledged
- tryst with Lirinus Lumblung…” intoned the Auror.
- “Sorted into Ravenclaw… O.W.L.S.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
+Dopo aver sfogliato ancora un po' le pergamene, in totale silenzio, l'Auror
+ parlò nuovamente.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-quite good… N.E.W.T.S.
-\begin_inset ERT
-status open
+Nato il 26 settembre del 1955, da Quonda Quirrell, in seguito ad una relazione
+ riconosciuta con Lirinus Lumblung\SpecialChar \ldots{}
 
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-in Charms, Transfiguration… an Outstanding in Muggle Studies, impressive…
- Ancient Runes, and ah yes, Defense.
- An Outstanding in that as well.
- Went on to become quite the tourist, visiting all sorts of places.
- Portkey visas for Transylvania, the Forbidden Empire, the City of Endless
- Night… my my, 
+ intonò l'Auror.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Smistato in Corvonero\SpecialChar \ldots{}
+ 
+\noun on
+g.u.f.o.
+
+\noun default
+ piuttosto buoni\SpecialChar \ldots{}
+ 
+\noun on
+m.a.g.o.
+
+\noun default
+ in Incantesimi, Trasfigurazione\SpecialChar \ldots{}
+ un Eccezionale in Studi babbani, impressionante\SpecialChar \ldots{}
+
+ Rune antiche, e ah sì, Difesa.
+ Un Eccezionale anche in quello.
+ Divenuto un turista notevole, ha visitato ogni genere di posti.
+ Visti passaporta per la Transilvania, l'Impero proibito, la Città della
+ Notte Senza Fine\SpecialChar \ldots{}
+ accidenti, 
 \emph on
 Texas
 \emph default
-.” The man looked up from the portfolio, eyes narrowed.
- “What were you doing 
-\emph on
-there
-\emph default
-, Mr.
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
+\begin_inset Quotes frd
+\end_inset
 
-
-\backslash
+.
+ L'uomo alzò lo sguardo dalla cartella, gli occhi socchiusi.
  
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-Quirrell?”
-\end_layout
-
-\begin_layout Standard
-“Sightseeing, mostly in the Muggle areas,” the Defense Professor said easily.
- “As you say, I am quite the tourist.”
-\end_layout
-
-\begin_layout Standard
-The man listened to this with a frown, then looked back down, then up again.
- “I also see that you visited Fuyuki City in 1983.”
-\end_layout
-
-\begin_layout Standard
-The Defense Professor lifted an eyebrow in mild puzzlement.
- “What of it?”
-\end_layout
-
-\begin_layout Standard
-“What did you do in Fuyuki City?” The question snapped out razor-sharp.
-\end_layout
-
-\begin_layout Standard
-The Defense Professor frowned slightly.
- “Nothing of any account.
- I visited some better-known sights, some less-known sights, and aside from
- that, kept to myself.”
-\end_layout
-
-\begin_layout Standard
-“Really?” the Auror said softly.
- “I find that reply rather interesting.”
-\end_layout
-
-\begin_layout Standard
-“How so?” said the Defense Professor.
-\end_layout
-
-\begin_layout Standard
-“Because there was no visa listed for Fuyuki City.” The man slammed the folder
- shut.
- “You're not Quirinus Quirrell.
- Who the
+Cosa ci faceva 
 \emph on
- hell
+lì
 \emph default
- are you?”
+, signor Quirrell?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Un giro turistico, per lo più in aree babbane
+\begin_inset Quotes frd
+\end_inset
+
+, disse tranquillamente il Professore di Difesa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Come ha detto, sono un turista notevole
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+L'uomo ascoltò accigliato, poi tornò a guardare in basso, poi di nuovo in
+ alto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Vedo anche che ha visitato Fuyuki City nel 1983
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa alzò un sopracciglio leggermente sorpreso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E dunque?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cos'ha fatto a Fuyuki City?
+\begin_inset Quotes frd
+\end_inset
+
+ La domanda scattò fuori affilata come un rasoio.
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa si accigliò appena.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Nulla di alcuna importanza.
+ Ho visitato alcune attrazioni molto conosciute, alcune attrazioni meno
+ conosciute, e a parte ciò, me ne sono stato da solo
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Davvero?
+\begin_inset Quotes frd
+\end_inset
+
+ l'Auror disse a voce bassa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Trovo questa risposta piuttosto interessante
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+In che modo?
+\begin_inset Quotes frd
+\end_inset
+
+ disse il Professore di Difesa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Perché non c'era elencato alcun visto per Fuyuki City
+\begin_inset Quotes frd
+\end_inset
+
+.
+ L'uomo chiuse la cartella di scatto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lei non è Quirinus Quirrell.
+ Chi 
+\emph on
+diavolo
+\emph default
+ è lei?
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -3141,30 +3230,31 @@ The Defense Professor frowned slightly.
 \end_layout
 
 \begin_layout Standard
-The Potions Master walked quietly into the Ravenclaw girls' dorm, the first-year
- dorm room, a festive place where bronze and blue competed to be the color
- of stuffed animals, scarves and dresses, small bits of inexpensive jewelry,
- and posters of famous people.
- Hermione Granger's bed was easy to identify; it was the one that had been
- attacked by a book monster.
+Il Maestro di Pozioni entrò silenziosamente nel dormitorio delle ragazze
+ di Corvonero, nella stanza del primo anno, un posto festoso in cui bronzo
+ e blu erano in competizione per essere il colore degli animali di peluche,
+ sciarpe e vestiti, piccoli esemplari di gioielleria economica, e poster
+ di persone famose.
+ Il letto di Hermione Granger era facile da riconoscere; era quello che
+ era stato attaccato da un mostro dei libri.
 \end_layout
 
 \begin_layout Standard
-Nobody else seemed to be around, at that time of day, and a number of spells
- verified this.
+Nessun altro sembrava essere in giro, a quell'ora del giorno, e un certo
+ numero di incantesimi l'accertarono.
 \end_layout
 
 \begin_layout Standard
-The Potions Master searched under Hermione Granger's pillow, and beneath
- her bed, and then began going through her trunk, sorting through mentionable
- and unmentionable items without change of expression, and finally succeeded
- in drawing forth a set of papers describing places and times where bullies
- would be found, all of the papers signed only with an elaborate `S'.
+Il Maestro di Pozioni cercò sotto il cuscino di Hermione Granger, e sotto
+ il suo letto, e poi iniziò a esaminare il suo baule, scartabellando oggetti
+ menzionabili e non menzionabili senza mutare espressione, e infine riuscendo
+ a estrarne un pacchetto di fogli che descriveva posti e luoghi in cui si
+ sarebbero trovati i bulli, ciascuno firmato solo con una `S' elaborata.
 \end_layout
 
 \begin_layout Standard
-A brief burst of fire later, the papers were gone, and the Potions Master
- left to report the failure of his mission.
+Una rapida vampata di fuoco dopo, i fogli erano andati, e il Maestro di
+ Pozioni se ne andò per riferire del fallimento della sua missione.
 \end_layout
 
 \begin_layout Quote
@@ -3179,91 +3269,173 @@ A brief burst of fire later, the papers were gone, and the Potions Master
 \end_layout
 
 \begin_layout Standard
-The Defense Professor was sitting calmly with his hands still folded in
- his lap.
- “If you consult Headmaster Dumbledore,” said the Defense Professor, “you
- will find that he is well aware of this matter, and that I agreed to teach
- his Defense class on the explicit condition that no inquiry be made into
- my
+Il Professore di Difesa era tranquillamente seduto con le mani ancora raccolte
+ in grembo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se consultasse il preside Silente
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa, 
+\begin_inset Quotes fld
+\end_inset
+
+scoprirebbe che egli è ben informato di questa faccenda, e che ho accettato
+ di tenere le sue lezioni di Difesa all'esplicita condizione che nessuna
+ indagine dovesse essere aperta in riferimento alla mia
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-In a lightning motion, the interrogator whipped out his wand and spat “
+Con un movimento fulmineo, l'interrogante estrasse la propria bacchetta
+ ed esclamò 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
 Polyfluis Reverso!
 \emph default
-” at the same time that the Defense Professor sneezed, which somehow caused
- the mirror-silvered ray to disrupt in a shower of white sparks.
-\end_layout
 
-\begin_layout Standard
-“Pardon me,” the Defense Professor said politely.
-\end_layout
-
-\begin_layout Standard
-The smile that the Auror gave had absolutely no mirth in it.
- “So where's the real Quirinus Quirrell, eh? Under an Imperius in the bottom
- of a trunk somewhere, while you take a hair now and then for your illegal
- Polyjuice?”
-\end_layout
-
-\begin_layout Standard
-“You are making highly questionable assumptions,” the Defense Professor
- said with an edged voice.
- “What makes you think I did not steal his body outright using incredibly
- Dark magic?”
-\end_layout
-
-\begin_layout Standard
-This was followed by a certain pause.
-\end_layout
-
-\begin_layout Standard
-“I suggest,” the Auror said, “that you take this seriously, Mr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-Whoever-You-Are.”
+ proprio mentre il Professore di Difesa starnutiva, cosa che in qualche
+ modo fece sì che il raggio di un argento simile a specchio si arrestasse
+ in uno scroscio di scintille bianche.
 \end_layout
 
 \begin_layout Standard
-“I'm sorry,” said the Defense Professor, leaning back in his chair, “but
- I see little reason to humble myself on this particular occasion.
- What are you going to do, kill me?”
+\begin_inset Quotes fld
+\end_inset
+
+Chiedo scusa
+\begin_inset Quotes frd
+\end_inset
+
+, disse educatamente il Professore di Difesa.
 \end_layout
 
 \begin_layout Standard
-“I don't appreciate your humor,” the Auror said softly.
+Il sorriso che gli rivolse l'Auror non aveva assolutamente alcun allegria.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quindi dov'è il vero Quirinus Quirrell, eh? Sotto un Imperius sul fondo
+ di un baule da qualche parte, mentre gli prende un capello una volta ogni
+ tanto per il suo Polisucco illegale?
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“How unfortunate for you, Rufus Scrimgeour,” said the Defense Professor.
- “You have my deepest sympathy.” He tilted his head, seeming to study the
- interrogator; and even within the shadow of the ice-light, the eyes glinted.
+\begin_inset Quotes fld
+\end_inset
+
+Sta facendo delle supposizioni altamente discutibili
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa con una voce che tendeva all'irritato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa le fa pensare che non ho rubato direttamente il suo corpo usando magie
+ incredibilmente Oscure?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Questo fu seguito da una certa pausa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Suggerisco
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'Auror, 
+\begin_inset Quotes fld
+\end_inset
+
+che lei prenda la faccenda seriamente, signor Chiunque-Tu-Sia
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa, appoggiandosi alla sedia, 
+\begin_inset Quotes fld
+\end_inset
+
+ma vedo pochi motivi per sminuirmi in questa particolare occasione.
+ Cos'ha intenzione di fare, uccidermi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non apprezzo il suo umorismo
+\begin_inset Quotes frd
+\end_inset
+
+, disse sottovoce l'Auror.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi rincresce per lei, Rufus Scrimgeour
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ha la mia più profonda simpatia
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Inclinò la testa, apparentemente studiando l'interrogante; e persino all'intern
+o dell'ombra della luce gelida, gli occhi scintillarono.
 \end_layout
 
 \begin_layout Quote
@@ -3278,338 +3450,454 @@ Whoever-You-Are.”
 \end_layout
 
 \begin_layout Standard
-Padma stared down at her plate.
+Padma fissava il proprio piatto.
 \end_layout
 
 \begin_layout Standard
-“Hermione wouldn't just 
-\emph on
-do
-\emph default
- that!” yelled Mandy Brocklehurst, who was practically in tears, in fact
- she
-\emph on
- was
-\emph default
- in tears, her voice would have been loud enough to silence the Great Hall
- if it hadn't been for all the other students also screaming at each other.
- “I 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
- I bet Malfoy tried to 
-\begin_inset ERT
-status open
+Hermione non lo 
+\emph on
+farebbe!
+\emph default
 
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
- to
+ gridò Mandy Brocklehurst, che era praticamente in lacrime, in effetti 
 \emph on
- do
+era
 \emph default
- things to her
+ in lacrime, la sua voce sarebbe stata abbastanza alta da zittire la Sala
+ Grande se non fosse stato che anche tutti gli altri studenti stavano gridando
+ l'uno contro l'altro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Io -- scommetto che Malfoy ha cercato di -- di farle delle 
+\emph on
+cose
+\emph default
+
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-“Our General would 
+\begin_inset Quotes fld
+\end_inset
+
+Il nostro Generale non lo farebbe 
 \emph on
-never
+mai!
 \emph default
- do that!” Kevin Entwhistle yelled even louder than Mandy.
+
+\begin_inset Quotes frd
+\end_inset
+
+ Kevin Entwhistle strillò ancor più forte di Mandy.
 \end_layout
 
 \begin_layout Standard
-“Of course he would!” shouted Anthony Goldstein.
- “Malfoy's the son of a 
+\begin_inset Quotes fld
+\end_inset
+
+Invece sì!
+\begin_inset Quotes frd
+\end_inset
+
+ urlò Anthony Goldstein.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Malfoy è il figlio di un 
 \emph on
-Death Eater!
+Mangiamorte!
 \emph default
-”
+
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Padma stared down at her plate.
+Padma fissava il proprio piatto.
 \end_layout
 
 \begin_layout Standard
-Draco was the General of her army.
+Draco era il Generale del suo esercito.
 \end_layout
 
 \begin_layout Standard
-Hermione was the founder of S.P.H.E.W.
+Hermione era la fondatrice della 
+\noun on
+s.p.u.e.s
+\noun default
+.
 \end_layout
 
 \begin_layout Standard
-Draco had trusted her to be his second-in-command.
+Draco aveva avuto fiducia in lei nominandola sua vice-comandante.
 \end_layout
 
 \begin_layout Standard
-Hermione was her fellow Ravenclaw.
+Hermione era sua compagna in Corvonero.
 \end_layout
 
 \begin_layout Standard
-Both of them were her friends, maybe the two best friends she had.
+Entrambi erano suoi amici, forse i due amici migliori che avesse.
 \end_layout
 
 \begin_layout Standard
-Padma stared down at her plate.
- She was glad the Sorting Hat hadn't offered her Hufflepuff.
- If she'd been Sorted into Hufflepuff it would probably have been much more
- painful, trying to decide where her divided loyalties lay…
+Padma fissava il proprio piatto.
+ Era felice che il Cappello Smistatore non le avesse offerto Tassofrasso.
+ Se fosse stata Smistata in Tassofrasso sarebbe stato probabilmente molto
+ più penoso, cercare di decidere dove risiedesse la sua lealtà divisa\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-She blinked and realized that her vision had gotten blurry again, and raised
- a trembling hand to wipe once more at her eyes.
+Batté le palpebre e si accorse che la sua vista era diventata nuovamente
+ sfocata, e alzò una mano tremante per asciugarsi ancora una volta gli occhi.
 \end_layout
 
 \begin_layout Standard
-Morag MacDougal snorted so loudly it was audible even amid the pandemonium
- of lunch, and said in a loud voice, “I bet Granger
+Morag MacDougal tirò su col naso così forte che fu udibile persino nel mezzo
+ del pandemonio del pranzo, e disse a voce alta, 
+\begin_inset Quotes fld
+\end_inset
+
+Scommetto che Granger ha 
 \emph on
- cheated
+barato
 \emph default
- in her battle yesterday, I bet that's why Malfoy challenged her
+ nella battaglia di ieri, scommetto che è per questo che Malfoy l'ha sfidata
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
-”
+
 \end_layout
 
 \begin_layout Standard
-“All of you 
+\begin_inset Quotes fld
+\end_inset
+
+Tutti quanti 
 \emph on
-SHUT UP!
+\noun on
+state zitti!
 \emph default
-” roared Harry Potter, as he hit the table with his fists so hard that plates
- rattled all the way along it.
+\noun default
+
+\begin_inset Quotes frd
+\end_inset
+
+ ruggì Harry Potter, mentre colpì la tavola così forte con i pugni che i
+ piatti sbatterono per tutta la sua lunghezza.
 \end_layout
 
 \begin_layout Standard
-At any other time it would have gotten Professors reprimanding him, this
- time it just got a few nearby students to look.
+In qualunque altro momento gli avrebbe causato una ramanzina da parte dei
+ Professori, questa volta causò solo gli sguardi di pochi studenti vicini.
 \end_layout
 
 \begin_layout Standard
-“I'd wanted to eat lunch,” Harry Potter said, “and then get back to investigatin
-g, so I wasn't going to talk.
- But you're all being
+\begin_inset Quotes fld
+\end_inset
+
+Volevo pranzare
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry Potter, 
+\begin_inset Quotes fld
+\end_inset
+
+e poi tornare alle indagini, così non avevo intenzione di parlare.
+ Ma vi state tutti comportando da 
 \emph on
- silly
+stupidi
 \emph default
-, and when the truth comes out you're going to regret what you said about
- innocent people.
- Draco didn't do anything, Hermione didn't do anything, they were both False-Mem
-ory-Charmed!” Harry Potter's voice had been rising on the last words.
- “
+, e quando la verità salterà fuori rimpiangerete tutti quanti quello che
+ avete detto di persone innocenti.
+ Draco non ha fatto niente, Hermione non ha fatto niente, sono stati entrambi
+ vittime di un Incantesimo di Falsa Memoria!
+\begin_inset Quotes frd
+\end_inset
+
+ La voce di Harry Potter si era alzata su quelle ultime parole.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
 \emph on
-How is that not BLOODY OBVIOUS?
+Com'è possibile che questo non sia 
+\noun on
+dannatamente ovvio
+\noun default
+?
 \emph default
-”
+
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“You think we'll believe 
+\begin_inset Quotes fld
+\end_inset
+
+Pensi che crederemo a 
 \emph on
-that?
+questo?
 \emph default
-” Kevin Entwhistle yelled right back at him.
- “That's what everyone says! `I didn't do it, it was all just a False Memory
- Charm!' You think we're
+
+\begin_inset Quotes frd
+\end_inset
+
+ gli rispose gridando Kevin Entwhistle.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È quello che dicono tutti! `Non sono stato io, è tutto solo un Incantesimo
+ di Falsa Memoria!' Pensi che siamo 
 \emph on
- stupid?
+stupidi?
 \emph default
-”
+
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-And Morag nodded right along with him, with a condescending look.
+E Morag annuì per tutta la frase, con un'espressione sussiegosa.
 \end_layout
 
 \begin_layout Standard
-The look that came over Harry Potter's face then made Padma flinch.
+L'espressione che spuntò sul viso di Harry Potter fece trasalire Padma.
 \end_layout
 
 \begin_layout Standard
-“I see,” Harry Potter said, it wasn't a shout so Padma had to strain to
- hear it.
- “Professor Quirrell isn't here to explain to me how stupid people are,
- but I bet this time I can get it on my own.
- People do something dumb and get caught and are given Veritaserum.
- Not romantic master criminals, because 
+\begin_inset Quotes fld
+\end_inset
+
+Capisco
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry Potter, e non fu un urlo, così Padma dovette sforzarsi per
+ udirlo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il professor Quirrell non è qui per spiegarmi quanto siano stupide le persone,
+ ma scommetto che questa volta posso arrivarci da solo.
+ Le persone fanno qualcosa di ottuso e vengono prese e gli viene somministrato
+ il Veritaserum.
+ Non menti criminali romantiche, perché 
 \emph on
-they
+loro
 \emph default
- wouldn't get caught, 
+ non si farebbero prendere, 
 \emph on
-they
+loro
 \emph default
- would have learned Occlumency.
- Sad, pathetic, incompetent criminals get caught, and confess under Veritaserum,
- and they're desperate to stay out of Azkaban so they say they were False-Memory
--Charmed.
- Right? So your brain, by sheer Pavlovian association, links the idea of
- False Memory Charms to pathetic criminals with unbelievable excuses.
- You don't have to consider the specific details, your brain just 
+ avrebbero imparato l'Occlumanzia.
+ Sono i criminali tristi, patetici e incompetenti che vengono presi, e confessan
+o sotto Veritaserum, e sono disperati di restare fuori da Azkaban così dicono
+ che sono vittime di un Incantesimo di Falsa Memoria.
+ Giusto? Così il vostro cervello, per pura associazione pavloviana, collega
+ l'idea degli Incantesimi di Falsa Memoria a criminali patetici con scuse
+ inverosimili.
+ Non siete costretti a prendere in considerazione i dettagli specifici,
+ il vostro cervello si limita ad 
+\emph on
+associare schematicamente
+\emph default
+ le ipotesi ad un mucchio di cose a cui non credete, e avete finito lì.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+your brain just 
 \emph on
 pattern-matches
 \emph default
- the hypothesis into a bucket of things you don't believe, and you're done.
- Just like my father thought that magical hypotheses could never be believed,
- because he'd heard so many stupid people talking about magic.
- Believing a hypothesis that involves False Memory Charms is 
+ the hypothesis into a bucket of things you don't believe, and you're done
+\end_layout
+
+\end_inset
+
+ Proprio come mio padre pensava che alle ipotesi magiche non si potesse
+ mai credere, perché aveva sentito così tanta gente stupida parlare di magia.
+ Credere ad un'ipotesi che includa Incantesimi di Falsa Memoria è per 
 \emph on
-low-status
+sempliciotti
 \emph default
-.”
+
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-“What are you 
+\begin_inset Quotes fld
+\end_inset
+
+Che stai 
 \emph on
-blithering
+blaterando?
 \emph default
- about?” said Morag, looking down her nose at the Boy-Who-Lived.
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Morag, guardando dall'alto in basso il Ragazzo-Che-È-Sopravvissuto.
 \end_layout
 
 \begin_layout Standard
-“You think we'd believe anything 
-\emph on
-you
-\emph default
- say?” yelled a slightly older-looking Ravenclaw witch who Padma didn't
- recognize.
- “When 
-\emph on
-you
-\emph default
- turned Granger Dark?”
-\end_layout
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-“And I'm not going to complain,” Harry Potter said in an eerily calm voice,
- “about wizards not having any logic and believing the craziest things.
- Because I said that to Professor Quirrell once, and he just gave me this
+Pensi che crederemo a qualsiasi cosa 
+\emph on
+tu
+\emph default
+ dica?
+\begin_inset Quotes frd
+\end_inset
+
+ gridò una strega Corvonero appena più grande che Padma non riconobbe.
  
+\begin_inset Quotes fld
+\end_inset
+
+Quando sei stato 
 \emph on
-look
+tu
 \emph default
- and said that if I wasn't blinded by my upbringing I could think of a hundred
- more ridiculous things that lots of Muggles believe.
- What you're all doing is very human and very normal and doesn't make you
+ a rendere Oscura Granger?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E non ho intenzione di lamentarmi
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry Potter con una voce misteriosamente calma, 
+\begin_inset Quotes fld
+\end_inset
+
+del fatto che i maghi non abbiano alcuna razionalità e credano alle cose
+ più folli.
+ Perché l'ho detto al professor Quirrell una volta, ed egli si è limitato
+ a darmi questa 
+\emph on
+occhiata
+\emph default
+ e dirmi che se non fossi stato accecato dalla mia educazione avrei potuto
+ pensare a cento cose più ridicole a cui molti Babbani credono.
+ Ciò che tutti voi state facendo è molto umano e molto normale e non fa
+ di voi persone 
+\emph on
+insolitamente
+\emph default
+ cattive, quindi non ho intenzione di lamentarmi
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Il Ragazzo-Che-È-Sopravvissuto si alzò dalla propria panca.
  
-\emph on
-unusually
-\emph default
- bad people, so I'm not going to complain.” The Boy-Who-Lived rose up from
- his bench.
- “I'll see you all later.”
+\begin_inset Quotes fld
+\end_inset
+
+A dopo
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-And Harry Potter walked away from them, walked away from all of them.
+E Harry Potter si allontanò da loro, si allontanò da tutti loro.
 \end_layout
 
 \begin_layout Standard
-“You're not thinking he's 
+\begin_inset Quotes fld
+\end_inset
+
+Non stai pensando che abbia 
 \emph on
-right,
+ragione
 \emph default
- are you?” said Su Li from beside her, in a tone which made it clear what
+, vero?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Su Li accanto a lei, con un tono che rendeva palese cosa 
+\emph on
+ella
+\emph default
+ pensasse.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ disse Padma.
+ Le sue parole sembrarono incastrate nella gola, i suoi pensieri sembrarono
+ incastrati nella sua testa.
  
-\emph on
-she
-\emph default
- thought.
-\end_layout
-
-\begin_layout Standard
-“I 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
-” said Padma.
- Her words seemed to be caught in her throat, her thoughts seemed to be
- caught in her head.
- “I 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
---
-\end_layout
-
+Io -- voglio dire -- io
+\begin_inset space ~
 \end_inset
 
- I mean 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
 --
-\end_layout
-
+\begin_inset Quotes frd
 \end_inset
 
- I 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
---
-\end_layout
-
-\end_inset
-
-”
 \end_layout
 
 \begin_layout Quote
@@ -3624,123 +3912,129 @@ status open
 \end_layout
 
 \begin_layout Standard
-If you think hard enough you can do the impossible.
+Pensando abbastanza intensamente si poteva fare l'impossibile.
 \end_layout
 
 \begin_layout Standard
-(It had always been an article of faith with Harry.
- There'd been a time when he'd acknowledged the laws of physics as ultimate
- limitations, and now he suspected there were no true limits at all.)
+(Era sempre stato un articolo di fede per Harry.
+ C'era stato un tempo in cui aveva riconosciuto le leggi della fisica come
+ dei limiti ultimi, e ora sospettava che non vi fossero affatto veri limiti.)
 \end_layout
 
 \begin_layout Standard
-If you think 
+Pensando abbastanza 
 \emph on
-fast
+veloce
 \emph default
- enough you can sometimes do the impossible 
+ si poteva talvolta fare l'impossibile 
 \emph on
-quickly
+rapidamente
 \emph default
-…
+\SpecialChar \ldots{}
+
 \end_layout
 
 \begin_layout Standard
-…sometimes.
+\SpecialChar \ldots{}
+ talvolta.
 \end_layout
 
 \begin_layout Standard
-Only sometimes.
+Solo talvolta
 \end_layout
 
 \begin_layout Standard
-Not always.
+Non sempre.
 \end_layout
 
 \begin_layout Standard
-Not 
+Non in modo 
 \emph on
-reliably
+affidabile
 \emph default
 .
 \end_layout
 
 \begin_layout Standard
-The Boy-Who-Lived stared around the trophy room, surrounded by awards and
- cups and plates and shields and statues and medals kept behind thousands,
- perhaps tens of thousands, of crystal glass displays.
- For as many centuries as Hogwarts had existed, this room had been accumulating
- details.
- A week, a month, maybe even a year, wouldn't have sufficed to take the
- `examine' option on every item in the room.
- With Professor Flitwick gone, Harry had asked Professor Vector if there
- was any way to detect damage to the wards around the crystal cases, verify
- the residue that a real duel should have left behind.
- Harry had raced through the Hogwarts library looking for spells to tell
- the difference between old fingerprints and new fingerprints, or to detect
- lingering exhalations in a room.
- And all those attempts at playing detective had failed.
+Il Ragazzo-Che-È-Sopravvissuto guardò intorno a sé la stanza dei trofei,
+ circondato da premi e coppe e piatti e scudi e statue e medaglie conservati
+ dietro migliaia, forse decine di migliaia, di vetrine espositive di cristallo.
+ Per tutti i secoli in cui Hogwarts era esistita, questa stanza aveva accumulato
+ dettagli.
+ Una settimana, un mese, forse persino un anno, non sarebbero stati sufficienti
+ per scegliere l'opzione `esamina' su ciascun oggetto della stanza.
+ Col professor Flitwick lontano, Harry aveva chiesto alla professoressa
+ Vector se c'era qualunque modo di rilevare danni alle protezioni attorno
+ alle custodie di cristallo, di controllare i resti che un vero duello si
+ sarebbe dovuto lasciare dietro.
+ Harry aveva esaminato di corsa la biblioteca di Hogwarts cercando incantesimi
+ per distinguere impronte digitali vecchie da impronte digitali nuove, o
+ per rilevare espirazioni persistenti in una stanza.
+ Tutti quei tentativi di giocare all'investigatore erano falliti.
 \end_layout
 
 \begin_layout Standard
-There were no clues, none that he was smart enough to find.
+Non c'erano indizi, nessuno che egli fosse abbastanza intelligente da trovare.
 \end_layout
 
 \begin_layout Standard
-Professor Snape had said that the portkey led to an empty house in London,
- with no sign of anyone or anything else.
+Il professor Snape aveva detto che il passaporta portava ad una casa vuota
+ di Londra, con nessun segno di nessuna persona e né altro.
 \end_layout
 
 \begin_layout Standard
-Professor Snape hadn't found any notes in Hermione's dorm.
+Il professor Snape non aveva trovato alcuna nota nel dormitorio di Hermione.
 \end_layout
 
 \begin_layout Standard
-Headmaster Dumbledore had said that Voldemort's spirit was probably hiding
- out in the Chamber of Secrets where the Hogwarts security system couldn't
- find him.
- Harry had snuck into the Slytherin dungeons under the Cloak of Invisibility
- and spent the rest of the afternoon looking through all the obvious places,
- but he hadn't found anything snaky that answered back when spoken to.
- The entrance to the Chamber of Secrets, it seemed, hadn't been meant to
- be found in a day.
+Il preside Silente aveva detto che lo spirito di Voldemort si stava probabilment
+e nascondendo nella Camera dei Segreti dove il sistema di sicurezza di Hogwarts
+ non poteva trovarlo.
+ Harry si era introdotto nei sotterranei di Serpeverde sotto il Mantello
+ dell'Invisibilità e aveva passato il resto del pomeriggio a cercare in
+ tutti i luoghi scontati, ma non aveva trovato nulla di serpeggiante che
+ rispondesse se interrogato.
+ L'ingresso della Camera dei Segreti, apparentemente, non era stata pensata
+ per essere trovata in un giorno.
 \end_layout
 
 \begin_layout Standard
-Harry had talked to all of Hermione's friends that would still talk to him,
- and none of them had remembered Hermione saying anything specific about
- why she'd believed that Draco was plotting against her.
+Harry aveva parlato con tutti gli amici di Hermione che avrebbero ancora
+ parlato con lui, e nessuno di loro aveva ricordato Hermione dire alcunché
+ di specifico sul motivo per cui credeva che Draco stesse tramando contro
+ di lei.
 \end_layout
 
 \begin_layout Standard
-Professor Quirrell hadn't come back from the Ministry as of dinnertime.
- The older students seemed to think that this year's Defense Professor would
- probably end up being blamed for the incident, and fired for teaching Hogwarts
- students to be too violent.
- They'd talked about the Defense Professor as though he were already gone.
+All'ora di cena il professor Quirrell non era ancora tornato dal Ministero.
+ Gli studenti più grandi sembravano pensare che il Professore di Difesa
+ di quell'anno sarebbe probabilmente finito per essere incolpato dell'incidente,
+ e licenziato per aver insegnato agli studenti di Hogwarts ad essere troppo
+ violenti.
+ Avevano parlato del Professore di Difesa come se se ne fosse già andato.
 \end_layout
 
 \begin_layout Standard
-Harry had used up all six hours from his Time-Turner, and there were still
- no clues, and he had to go to sleep now if he wanted to be functional at
- Hermione's trial the next day.
+Harry aveva usato tutte le sei ore del suo Giratempo, e non c'erano ancora
+ indizi, e doveva andare a dormire ora se voleva essere efficiente al processo
+ di Hermione il giorno successivo.
 \end_layout
 
 \begin_layout Standard
-The Boy-Who-Destroyed-A-Dementor was standing in the middle of the Hogwarts
- trophy room, his wand dropped at his feet.
+Il Ragazzo-Che-Distrusse-Un-Dissennatore era in piedi nel mezzo della sala
+ dei trofei di Hogwarts, la bacchetta caduta ai suoi piedi.
 \end_layout
 
 \begin_layout Standard
-He was crying.
+Stava piangendo.
 \end_layout
 
 \begin_layout Standard
-Sometimes you call your brain and it doesn't answer.
+Talvolta chiedi aiuto al tuo cervello ed esso non risponde.
 \end_layout
 
 \begin_layout Standard
-The trial of Hermione Granger started on schedule the next day.
+Il processo di Hermione Granger iniziò puntualmente il giorno successivo.
 \end_layout
 
 \end_body
