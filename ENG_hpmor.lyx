@@ -1741,6 +1741,48 @@ filename "087.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage  % 
+\backslash
+phantomsection if hyperref is used
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{part}{Arco narrativo V}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+part*{Arco narrativo V}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "088.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -1833,6 +1875,13 @@ filename "NoteC.lyx"
 \begin_inset CommandInset include
 LatexCommand input
 filename "NoteD.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "NoteE.lyx"
 
 \end_inset
 
