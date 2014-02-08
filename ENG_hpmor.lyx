@@ -64,7 +64,8 @@
   \renewcommand*{\printchapternonum}{%
     \vphantom{\chapnumfont \@chapapp 1}\par
     \parbox{0.5in}{}\par}
-  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+%  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE}
   \renewcommand*{\printchaptertitle}[1]{%
     \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
