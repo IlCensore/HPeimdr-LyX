@@ -191,8 +191,8 @@
 
 
 \widowpenalties 2 10000 0
-\raggedbottom
-%\clubpenalty 10000
+%\raggedbottom
+\clubpenalty 10000
 
 %% descrizioni senza bold
 \renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
@@ -207,7 +207,7 @@ initials
 \inputencoding auto
 \fontencoding 
 \font_roman Garamond Premier Pro
-\font_sans Myriad Pro
+\font_sans Linux Biolinum O
 \font_typewriter Inconsolata
 \font_default_family default
 \use_non_tex_fonts true
@@ -246,6 +246,11 @@ initials
 \paperorientation portrait
 \suppress_date true
 \use_refstyle 1
+\branch Figure
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -592,6 +597,12 @@ Harry Potter and the Methods of Rationality
 \begin_layout Standard
 
 \size footnotesize
+\begin_inset Branch Figure
+status collapsed
+
+\begin_layout Standard
+
+\size footnotesize
 Illustrazioni 
 \begin_inset ERT
 status open
@@ -620,6 +631,11 @@ url{dinosaurusgede.deviantart.com}
 
 ), rilasciate sotto licenza Creative Commons Attribution-Non commercial
  3.0.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
