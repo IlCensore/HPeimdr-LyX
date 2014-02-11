@@ -48,9 +48,11 @@
 \usepackage{fontspec,microtype}
 %\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
 \frenchspacing
-\widowpenalties 2 1000 0
-\clubpenalty 10
+
+\widowpenalties 2 10000 0
 %\raggedbottom
+\clubpenalty 10000
+
 \usepackage{indentfirst}
 %\usepackage{libertine}
 %\usepackage{ebgaramond}
@@ -65,7 +67,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
+\font_roman Garamond Premier Pro
 \font_sans EB Garamond
 \font_typewriter Inconsolata
 \font_default_family default
@@ -156,24 +158,24 @@ lettrine[lines=2, lhang=-0.5, loversize=0.25]{V}{iaggiare con una fenice}
 
  era una sensazione completamente diversa dalle Apparizioni o dai passaporta.
  Prendevi fuoco -- provavi decisamente la sensazione di prendere fuoco,
- sebbene non vi fosse alcun dolore -- e invece ridurti in cenere, il fuoco
- ti bruciava tutto e 
+ sebbene non vi fosse alcun dolore -- e invece di ridurti in cenere, il
+ fuoco ti bruciava tutto e 
 \emph on
 diventavi
 \emph default
  fuoco, e poi svanivi in un posto e comparivi in una fiammata in un altro.
  Non causava nausea allo stomaco come i passaporta o le Apparizioni, ma
  era comunque un'esperienza piuttosto snervante.
- Se la verità sottostante del viaggio della fenice consisteva davvero nel
+ Se la verità sottostante al viaggio della fenice consisteva davvero nel
  diventare una specifica istanza di un Fuoco più generale, allora quello
- sembrava alludere alla possibilità di poter muoversi ardendo 
+ sembrava alludere alla possibilità di potersi muovere ardendo 
 \emph on
 ovunque
 \emph default
  -- anche in un lontano passato, o in un altro universo, o in due posti
  contemporaneamente.
  Avresti potuto svanire in un luogo e comparire con una fiammata in centinaia
- di altri, e il te stesso che era arrivato a Hogwarts avrebbe mai scoperto
+ di altri, e il te stesso che era arrivato a Hogwarts mai avrebbe scoperto
  la differenza.
  Anche se Harry aveva letto quello che aveva potuto sulle fenici, cercando
  di capire come ottenerne una propria, e non c'era stato alcun accenno a
@@ -185,26 +187,26 @@ tale
 \end_layout
 
 \begin_layout Standard
-Harry prese fuoco e svanì e riapparve tra le fiamme in qualche altro luogo;
- e così all'improvviso egli, e il Preside, e la forma senza sensi di Hermione
- Granger retta tra le braccia del Preside, stavano occupando un altro posto;
- con Fawkes sopra tutti loro.
- Una stanza calma e calda di luminose colonne di pietra, illuminata da luce
- solare su tutti e quattro i lati, popolata di bianchi letti disposti in
- lunghe file, quattro dei quali avevano dei veli silenziatori tutto attorno,
- e il resto vuoti.
+Harry prese fuoco e si spense e riapparve in una vampata in qualche altro
+ luogo; e così all'improvviso egli, e il Preside, e la forma priva di sensi
+ di Hermione Granger retta tra le braccia del Preside, stavano occupando
+ un altro posto; con Fawkes sopra tutti loro.
+ Una stanza calma e calda di luminose colonne di pietra, illuminata dalla
+ luce solare su tutti e quattro i lati, popolata di bianchi letti disposti
+ in lunghe file, quattro dei quali avevano dei veli silenziatori tirati
+ tutto attorno, mentre i restanti erano vuoti.
 \end_layout
 
 \begin_layout Standard
 In un angolo della visione di Harry, una Madam Pomfrey dall'espressione
  sorpresa si stava girando verso di loro.
  Silente sembrò non prestare alcuna attenzione all'esperta guaritrice, mentre
- abbassava lentamente Hermione in un bianco letto libero.
+ deponeva lentamente Hermione in un bianco letto libero.
 \end_layout
 
 \begin_layout Standard
 In un angolo lontano vi fu un lampo verde, e da dentro un camino uscì la
- professoressa McGonagall, spazzolandosi un po' della Metropolvere.
+ professoressa McGonagall, spazzolandosi un po' di Metropolvere.
 \end_layout
 
 \begin_layout Standard
@@ -236,8 +238,8 @@ Il giovane ragazzo si allontanò di un passo dal vecchio mago e poi si girò
 
 \begin_layout Standard
 I due non parlarono per un po', osservandosi l'un l'altro; come se tutto
- ciò che potessero dire potesse essere detto solo dagli sguardi, e non in
- alcun altro modo.
+ ciò che potessero dire potesse essere detto solo dagli sguardi, e in nessun
+ altro modo.
 \end_layout
 
 \begin_layout Standard
@@ -276,7 +278,7 @@ Possono forse abbandonare un padrone che sceglie il male invece del bene;
 \end_inset
 
 .
- Davvero severo, quell'antico sguardo.
+ Decisamente severo, quell'antico sguardo.
  
 \begin_inset Quotes fld
 \end_inset
@@ -306,8 +308,8 @@ Come la vita di Hermione Granger, opposta a centomila galeoni
 \end_inset
 
 .
- La rabbia e l'indignazione che Harry voleva mettere nella propria voce
- non erano del tutto lì, per qualche ragione, forse perché
+ La rabbia e l'indignazione che Harry voleva mettere nella voce non erano
+ esattamente lì, per qualche ragione, forse perché
 \begin_inset space ~
 \end_inset
 
@@ -414,7 +416,7 @@ Sì
 \begin_inset Quotes fld
 \end_inset
 
-Sono trasalito per la sofferenza di perdere tutto il denaro nel mio deposito.
+Sono trasalito a causa del dolore di perdere tutto il denaro nel mio deposito.
  Ma l'ho 
 \emph on
 fatto!
@@ -431,7 +433,7 @@ questo
 \begin_inset Quotes frd
 \end_inset
 
- L'indignazione che si era infiacchita nella voce di Harry ritornò.
+ Ritornò l'indignazione che era scemata dalla voce di Harry.
  
 \begin_inset Quotes fld
 \end_inset
@@ -440,8 +442,8 @@ Lei ha
 \emph on
 davvero
 \emph default
- assegnato un prezzo alla vita di Hermione Granger, e l'ha assegnato inferiore
- a centomila galeoni!
+ dato un prezzo alla vita di Hermione Granger, e l'ha dato inferiore a centomila
+ galeoni!
 \begin_inset Quotes frd
 \end_inset
 
@@ -602,8 +604,8 @@ Lei non ha mai avuto una moglie, non ha mai avuto una figlia, non ha mai
 \begin_layout Standard
 La mano sinistra del vecchio mago si strinse duramente sul polso di Harry,
  le dita ossute che scavarono nei muscoli ancora in via di sviluppo del
- braccio di Harry, e per un momento Harry fu paralizzato dal trauma del
- gesto, aveva dimenticato cosa significava che gli adulti erano più forti.
+ suo braccio, e per un momento Harry fu paralizzato dal trauma, aveva dimenticat
+o cosa significava il fatto che gli adulti erano più forti.
 \end_layout
 
 \begin_layout Standard
@@ -682,22 +684,22 @@ Il vecchio mago lo ignorò, trascinando Harry attraverso la stanza.
 \end_layout
 
 \begin_layout Standard
-Harry batté gli occhi per il turbamento; la fiala di fluido argenteo si
- era trovata vicino ad un'immagine di 
+Harry batté le palpebre per lo sconvolgimento; la fiala di fluido argenteo
+ si era trovata vicino a un'immagine di 
 \emph on
 Silente
 \emph default
-, o così era sembrato a Harry nel breve momento prima che fosse trascinato
- via.
+, o così gli era sembrato nel breve istante prima che fosse trascinato via.
 \end_layout
 
 \begin_layout Standard
 Al di là di tutti gli altri piedistalli, all'estremità più lontana della
- stanza, sorgeva una grande vasca con rune incise sopra che Harry non riconobbe.
- Il centro era una bassa depressione riempita di un liquido trasparente,
- e in esso il vecchio mago scaricò il contenitore di fluido argenteo, che
- immediatamente si espanse, vorticando, riempiendo l'intera vasca di un
- sinistro bianco luminoso.
+ stanza, si ergeva una grande vasca con sopra incise rune che Harry non
+ riconobbe.
+ La parte centrale era una bassa depressione riempita di un liquido trasparente,
+ e in esso il vecchio mago svuotò il contenitore di fluido argenteo, che
+ immediatamente si espanse, vorticando, facendo illuminare l'intera vasca
+ di un sinistro biancore.
 \end_layout
 
 \begin_layout Standard
