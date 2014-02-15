@@ -7,13 +7,10 @@
 \usepackage{fmtcount}
 \usepackage{graphicx}
 
-%\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
-%  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
   \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \thechapter}}{}
   \makeoddhead{myheadings}{}{\leftmark}{\thepage}
-%  \makeheadrule{myheadings}{\textwidth}{0.4pt}
   \makeevenfoot{myheadings}{}{}{}
   \makeoddfoot{myheadings}{}{}{}
 
@@ -22,7 +19,6 @@
   \renewcommand*{\chapterheadstart}{}
   \renewcommand*{\chapnumfont}{\normalfont}
   \renewcommand*{\printchaptername}{%
-%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
      \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
@@ -158,28 +154,17 @@ da cap 90, con modifica.
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace bigskip
+\begin_inset VSpace 22pt
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-lettrine[lines=2, lhang=-0.6, loversize=0.25,ante=
-\backslash
-guillemotleft]{O}{ra, giusto per essere}
-\end_layout
-
+\begin_inset Quotes fld
 \end_inset
 
- chiari
+Ora, giusto per essere chiari
 \begin_inset Quotes frd
 \end_inset
 
