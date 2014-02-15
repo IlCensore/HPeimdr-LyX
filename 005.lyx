@@ -6,6 +6,8 @@
 \begin_preamble
 \usepackage{fmtcount}
 \usepackage{graphicx}
+\frenchspacing
+
 
 %\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
@@ -62,6 +64,7 @@
   \null\vfil
   \secdef\@part\@spart}
 \makeatother
+\usepackage{microtype}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -73,7 +76,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
+\font_roman EB Garamond
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
 \font_default_family default
@@ -84,7 +87,7 @@ initials
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -109,10 +112,10 @@ initials
 \end_index
 \paperwidth 15.24cm
 \paperheight 22.86cm
-\leftmargin 2.345cm
-\topmargin 3.34cm
-\rightmargin 3.517cm
-\bottommargin 5.08cm
+\leftmargin 1.2in
+\topmargin 0.85in
+\rightmargin 1.2in
+\bottommargin 1.2in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -235,7 +238,7 @@ lettrine[lines=2, lhang=-1.5, loversize=0.25]{I}{}
 \noun on
 l Moke Shop era
 \noun default
- un piccolo e pittoresco negozio (qualcuno potrebbe persino dire carino)
+ un negozio piccolo e pittoresco (qualcuno potrebbe persino dire carino)
  nascosto dietro una bancarella di ortaggi che era dietro un negozio di
  guanti magici che era in una viuzza che deviava da una traversa di Diagon
  Alley.
@@ -350,8 +353,8 @@ destra
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall tornò a guardarlo una volta, ma Harry riuscì
- ad evitare di paralizzarsi o di trasalire, e lei non sembrò accorgersi
+Una volta la professoressa McGonagall tornò a guardarlo, ma Harry riuscì
+ a evitare di irrigidirsi o di trasalire, ed ella non sembrò accorgersi
  di niente.
  Sebbene non fosse 
 \emph on
@@ -382,7 +385,7 @@ Alleggerito di quindici galeoni (il doppio del prezzo di una bacchetta da
 \noun on
 qx
 \noun default
-31 in più, Harry si dire con la professoressa McGonagall verso la porta.
+31 in più, Harry si diresse con la professoressa McGonagall verso la porta.
  Questa formò una mano che li salutò mentre se ne andavano, protendendo
  il braccio in una maniera che fece sentire Harry un po' nauseato.
 \end_layout
@@ -467,7 +470,7 @@ Non è che mi ricordi di essere nato
 \end_inset
 
 .
- La sua mano attraversò la sua fronte.
+ La sua mano gli sfiorò la fronte.
  
 \begin_inset Quotes fld
 \end_inset
@@ -586,11 +589,11 @@ lei
 \begin_inset Quotes fld
 \end_inset
 
-Ora basta, signor Potter
+Ora basta, signor Potter.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -599,7 +602,7 @@ L'anziano uomo alzò la mano come per toccare Harry, ma poi la fece ricadere.
 \begin_inset Quotes fld
 \end_inset
 
-Sono semplicemente felice che sia vivo
+Sono semplicemente felice che tu sia vivo
 \begin_inset Quotes frd
 \end_inset
 
@@ -618,7 +621,7 @@ Grazie, Harry Potter.
 \end_layout
 
 \begin_layout Standard
-E il suo bastone ticchettò via, fuori dal vicolo e già per la strada principale
+E il suo bastone ticchettò via, fuori dal vicolo e giù per la strada principale
  di Diagon Alley.
 \end_layout
 
@@ -921,12 +924,12 @@ Sì?
 \begin_inset Quotes fld
 \end_inset
 
-Lei ha trionfato sul Signore Oscuro riuscendo ad essere più tremendo di
- quanto non fosse 
+Lei ha trionfato sul Signore Oscuro riuscendo a essere più tremendo di quanto
+ non fosse 
 \emph on
 lui
 \emph default
-, ed è sopravvissuto alla Maledizione Mortale riuscendo ad essere più terribile
+, ed è sopravvissuto alla Maledizione Mortale riuscendo a essere più terribile
  della Morte.
 \begin_inset Quotes frd
 \end_inset
@@ -940,10 +943,11 @@ lui
 
 Ah.
  Ah.
- Ah.
+ Ah
 \begin_inset Quotes frd
 \end_inset
 
+.
  Harry diede ancora un calcio al muro.
 \end_layout
 
@@ -1076,11 +1080,11 @@ Madam Malkin non la importunerà, e non permetterà che nessun altro la importun
 \begin_inset Quotes fld
 \end_inset
 
-Dove 
+Dove sta
 \emph on
-sta
-\emph default
  andando?
+\emph default
+
 \begin_inset Quotes frd
 \end_inset
 
@@ -1089,7 +1093,7 @@ sta
 \begin_inset Quotes fld
 \end_inset
 
-Giusto nel caso, sa, in cui qualcosa accadesse realmente
+Giusto nel caso, sa, in cui qualcosa accada davvero
 \begin_inset Quotes frd
 \end_inset
 
@@ -1138,7 +1142,7 @@ pretendo
 \end_layout
 
 \begin_layout Standard
-Madam Malkin era una vivace anziana signora che non proferì parola a proposito
+Madam Malkin era una vivace signora anziana che non proferì parola a proposito
  di Harry quando vide la cicatrice sulla sua fronte, e lanciò un'occhiata
  severa a un'assistente, quando la ragazza sembrò sul punto di dire qualcosa.
  Madam Malkin recuperò una serie di pezzi di stoffa animati che si contorcevano
@@ -1263,8 +1267,8 @@ Oh
 \end_layout
 
 \begin_layout Standard
-Una delle assistenti, quella che era sembrata riconoscere Harry, produsse
- un piccolo suono soffocato.
+Una delle assistenti, quella che era sembrata riconoscere Harry, emise un
+ piccolo suono soffocato.
 \end_layout
 
 \begin_layout Standard
@@ -1274,7 +1278,7 @@ Harry farfugliò.
 \end_inset
 
 Sono lieto di incontrarla, signor Malfoy.
- Proprio indicibilmente felice.
+ Proprio felice in maniera inesprimibile.
  E frequentare Hogwarts nel suo stesso anno! Manda il mio cuore in estasi
 \begin_inset Quotes frd
 \end_inset
@@ -1302,8 +1306,8 @@ io
 \end_inset
 
 , rimpallò l'altro ragazzo, accompagnando le parole con un sorriso simile
- a quello il più grande dei sovrani potrebbe concedere all'ultimo dei suoi
- sudditi, se questo soggetto fosse onesto, sebbene povero.
+ a quello che il più grande dei sovrani potrebbe concedere all'ultimo dei
+ suoi sudditi, se questo soggetto fosse onesto, sebbene povero.
 \end_layout
 
 \begin_layout Standard
@@ -1346,7 +1350,7 @@ tu
 \begin_layout Standard
 
 \emph on
-Oh, devo assolutamente provare questo numero sulla prossima persona che
+Oh, devo assolutamente provare questa risposta con la prossima persona che
  vorrà stringermi la mano.
 
 \emph default
@@ -1393,10 +1397,9 @@ Harry sorrise imbarazzato.
 \begin_inset Quotes fld
 \end_inset
 
-La professoressa McGonagall dice che io sono la persona più Corvonero che
- abbia mai conosciuto o di cui abbia sentito raccontare nelle leggende,
- tanto che Rowena in persona mi direbbe di uscire di più, qualunque cosa
- 
+La professoressa McGonagall dice che sono la persona più Corvonero che abbia
+ mai conosciuto o di cui abbia sentito raccontare nelle leggende, tanto
+ che Rowena in persona mi direbbe di uscire di più, qualunque cosa 
 \emph on
 questo
 \emph default
@@ -1802,8 +1805,8 @@ Io sono così, così onorato di conoscerla!
 \end_layout
 
 \begin_layout Standard
-Gli occhi scuri si spalancarono, lo shock per la sorpresa che sostituì la
- minaccia letale.
+Gli occhi scuri si spalancarono, il trauma per la sorpresa che sostituì
+ la minaccia letale.
 \end_layout
 
 \begin_layout Standard
@@ -2017,7 +2020,7 @@ fare
 Quale parte di `si faccia prendere le misure' le è sembrato significasse
  
 \emph on
-la prego di lanciare un Incantesimo di Confusione sull'intero universo!
+la prego di lanciare un Incantesimo Confundus sull'intero universo!
 \emph default
 
 \begin_inset Quotes frd
