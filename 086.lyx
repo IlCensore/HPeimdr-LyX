@@ -102,7 +102,7 @@ initials
 \paperwidth 6in
 \paperheight 9in
 \leftmargin 1.2in
-\topmargin 0.6in
+\topmargin 0.85in
 \rightmargin 1.2in
 \bottommargin 1.2in
 \secnumdepth 3
@@ -634,8 +634,6 @@ Ecco giungere il solo col potere di sconfiggere l'Oscuro Signore\SpecialChar \ld
  nato da
  chi lo ha tre volte sfidato, nato al morire del settimo mese\SpecialChar \ldots{}
 
-\size small
-
 \begin_inset Quotes frd
 \end_inset
 
@@ -644,8 +642,6 @@ Ecco giungere il solo col potere di sconfiggere l'Oscuro Signore\SpecialChar \ld
 status open
 
 \begin_layout Plain Layout
-
-\size small
 da cap 28
 \end_layout
 
@@ -684,14 +680,10 @@ Ma egli avrà un potere sconosciuto all'Oscuro Signore\SpecialChar \ldots{}
 \end_inset
 
 .
-\size small
-
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\size small
 da cap 28
 \end_layout
 
@@ -731,10 +723,17 @@ Ecco giungere il solo col potere di sconfiggere l'Oscuro Signore, nato da
 \begin_inset space ~
 \end_inset
 
---
-\size small
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{--»}
+\end_layout
+
 \end_inset
 
 
@@ -9584,6 +9583,22 @@ La professoressa McGonagall annuì fermamente.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{samepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 
 \emph on
@@ -9592,6 +9607,22 @@ Ipotesi: Severus Snape
 \end_inset
 
 (8 aprile 1992, 21:03)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{samepage}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
