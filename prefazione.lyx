@@ -151,6 +151,20 @@ addcontentsline{toc}{chapter}{Prefazione}
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Cos'è 
 \emph on
 Harry Potter e i metodi della razionalità
@@ -309,8 +323,8 @@ url{http://www.hpmorpodcast.com/}
 Harry Potter e i metodi della razionalità
 \emph default
  è ambientato durante il primo anno di Harry Potter a Hogwarts.
- La storia si suddivide in sei archi narrativi, [\SpecialChar \ldots{}
-]
+ La storia si suddivide in sei archi narrativi, che raggruppano più capitoli
+ in una sequenza più o meno coesa, separati da 
 \end_layout
 
 \begin_layout Standard
@@ -381,7 +395,7 @@ reference "chap:26Notare-la-confusione"
 
  si intitola 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand nameref
 reference "chap:26Notare-la-confusione"
 
 \end_inset

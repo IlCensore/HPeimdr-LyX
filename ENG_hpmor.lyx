@@ -70,9 +70,9 @@
     \chaptitlefont\textsc{##1}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 
-\chapterstyle{hpmor}
+%\chapterstyle{hpmor}
 %\chapterstyle{Bringhurst}
-%\chapterstyle{thatcher}
+\chapterstyle{thatcher}
 
 
 % sections and subsections:
@@ -208,7 +208,7 @@ initials
 \fontencoding 
 \font_roman Garamond Premier Pro
 \font_sans Linux Biolinum O
-\font_typewriter Inconsolata
+\font_typewriter Latin Modern Mono
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
@@ -222,8 +222,8 @@ initials
 \bibtex_command default
 \index_command default
 \float_placement bp
-\paperfontsize 11
-\spacing other 1.2
+\paperfontsize 10
+\spacing single
 \use_hyperref false
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
