@@ -2501,10 +2501,10 @@ Stanford marshmallow experiment
 
 .
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Wikipedia contributors, 
+Contributori di Wikipedia, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2530,7 +2530,7 @@ url{http://en.wikipedia.org/w/index.php?title=Delayed_gratification&oldid=600826
 
 \end_inset
 
- (accessed March 23, 2014).
+ (acceduto il 23 marzo 2014).
 \end_layout
 
 \end_inset
@@ -2550,7 +2550,111 @@ fantasy Mage Winds
 Capitolo 20 
 \begin_inset CommandInset ref
 LatexCommand nameref
-reference "DUPLICATA: chap:20_Teorema-di-Bayes"
+reference "chap:20_Teorema-di-Bayes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il 
+\emph on
+teorema
+\emph default
+ (o 
+\emph on
+regola
+\emph default
+) 
+\emph on
+di Bayes
+\emph default
+ è 
+\begin_inset Quotes fld
+\end_inset
+
+una legge sulle probabilità che descrive il modo corretto di incorporare
+ nuove prove nelle probabilità a priori per formare una stima della probabilità
+ aggiornata.
+ La razionalità bayesiana prende il suo nome da questo teorema, in quanto
+ esso è considerato il fondamento del ragionamento razionale coerente sotto
+ incertezza.
+ Il teorema prende generalmente la forma:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P\left(A\mid B\right)=\frac{P\left(B\mid A\right)P\left(A\right)}{P\left(B\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+dove 
+\begin_inset Formula $A$
+\end_inset
+
+ è la proposizione d'interesse, 
+\begin_inset Formula $B$
+\end_inset
+
+ è la prova osservata, 
+\begin_inset Formula $P\left(A\right)$
+\end_inset
+
+ e 
+\begin_inset Formula $P\left(B\right)$
+\end_inset
+
+ sono le probabilità a priori, e 
+\begin_inset Formula $P\left(A\mid B\right)$
+\end_inset
+
+ è la probabilità a posteriori di 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+Bayes' theorem
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+LessWrong
+\emph default
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://wiki.lesswrong.com/wiki/Bayes'_theorem}
+\end_layout
+
+\end_inset
+
+ (acceduto il 24 marzo 2014).
+\end_layout
 
 \end_inset
 
@@ -2559,41 +2663,192 @@ reference "DUPLICATA: chap:20_Teorema-di-Bayes"
 
 \begin_layout Standard
 
-\color red
-Teorema di Bayes:
-\end_layout
-
-\begin_layout Standard
-
-\color red
-euristica della rappresentatività (
 \emph on
-representativeness heuristic
+Euristica della rappresentatività
 \emph default
-)
+: 
+\begin_inset Quotes fld
+\end_inset
+
+un errore comune secondo il quale le persone determinano la probabilità
+ o la frequenza di un evento sulla base di assunzioni o di esperienze passate.
+ Questo modo di pensare è basato sull'idea che noi, in quanto persone, abbiamo
+ bisogno di categorizzare le nostre vite.
+ Talvolta, quando non riusciamo a inserire una situazione in una categoria
+ definita, continuiamo a cercare di trovare un significato assegnandola
+ a un livello secondario di un sistema organizzativo già completato.
+ Per esempio, forse abbiamo solo incontrato persone ricche che vivevano
+ in Connecticut… questa conoscenza ci porterà perciò a generalizzare che
+ la maggior parte delle persone in Connecticut siano ricche
+\begin_inset Quotes frd
+\end_inset
+
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Gillian Fournier, 
+\begin_inset Quotes fld
+\end_inset
+
+Representativeness Heuristic
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+PsychCentral
+\emph default
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://psychcentral.com/encyclopedia/2009/representativeness-heuristic/}
+\end_layout
+
+\end_inset
+
+ (acceduto il 24 marzo 2014).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
-\color red
-utilitarismo della preferenza (
+\emph on
+Utilitarismo della preferenza
+\emph default
+ (in inglese, 
 \emph on
 preference utilitarianism
 \emph default
-)
+): è la teoria morale secondo cui 
+\begin_inset Quotes fld
+\end_inset
+
+ciò che è bene è la soddisfazione dei desideri o la realizzazione delle
+ preferenze; e ciò che è male è la frustrazione dei desideri o delle preferenze.
+ Ciò che è desiderato o preferito generalmente non è una sensazione ma,
+ piuttosto, una situazione, come avere un amico o raggiungere un obiettivo.
+ [\SpecialChar \ldots{}
+] Gli utilitaristi che adottano questa teoria dei valori possono allora
+ affermare che un agente ha l'obbligo morale di compiere un atto se e solo
+ se quell'atto massimizza la soddisfazione dei desideri o la realizzazione
+ delle preferenze, a prescindere dal fatto che quell'atto causi sensazioni
+ di piacere
+\begin_inset Quotes frd
+\end_inset
+
+.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+Consequentialism
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+Stanford Encyclopedia of Philosophy
+\emph default
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://plato.stanford.edu/entries/consequentialism/}
+\end_layout
+
+\end_inset
+
+ (acceduto il 24 marzo 2014).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-\color red
 La rivolta di Atlante
 \emph default
- (
+ (in inglese: 
 \emph on
 Atlas Shrugged
 \emph default
-)
+): 
+\begin_inset Quotes fld
+\end_inset
+
+è un romanzo di genere filosofico e fantascientifico scritto da Ayn Rand
+ e pubblicato la prima volta nel 1957 negli Stati Uniti.
+ Il libro esplora un numero di temi filosofici che la Rand aveva sviluppato
+ nella sua teoria dell'oggettivismo, con forti critiche al collettivismo
+ ed alla società socialista, raccontando cosa possa succedere al mondo una
+ volta che quelli che l'autrice definiva 
+\emph on
+prime movers
+\emph default
+, ovvero i primi motori della società, le persone in grado di creare ricchezza
+ e progresso, stanche di essere schiave della collettività e di essere usurpate
+ del pieno controllo delle loro qualità, decidessero di ribellarsi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Contributori di Wikipedia, 
+\begin_inset Quotes fld
+\end_inset
+
+La rivolta di Atlante
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+Wikipedia, L'enciclopedia libera
+\emph default
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{it.wikipedia.org/w/index.php?title=La_rivolta_di_Atlante&oldid=63986644}
+\end_layout
+
+\end_inset
+
+ (acceduto il 24 marzo 2014).
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
