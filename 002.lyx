@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -60,7 +60,7 @@
 \makeatother
 \end_preamble
 \use_default_options true
-\master ENG_hpmor.lyx
+\master IT_hpmor1.lyx
 \begin_modules
 initials
 \end_modules
@@ -72,13 +72,13 @@ initials
 \font_roman Garamond Premier Pro
 \font_sans Myriad Pro
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -89,15 +89,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -344,7 +353,7 @@ Va bene, può rimettermi giù, ora
 \end_layout
 
 \begin_layout Standard
-Suo padre fu riportato con attenzione a terra.
+Suo padre fu premurosamente riportato a terra.
 \end_layout
 
 \begin_layout Standard
@@ -362,14 +371,14 @@ già
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry.
+, disse.
  
 \begin_inset Quotes fld
 \end_inset
 
-Penseresti che ci debba essere qualche tipo di evento mentale più drammatico
- associato all'aggiornamento delle credenze basato su un'osservazione di
- probabilità infinitesimale
+Si penserebbe che ci debba essere un qualche tipo di evento mentale ben
+ più drammatico associato all'aggiornamento delle credenze basato su di
+ un'osservazione di probabilità infinitesimale
 \begin_inset space ~
 \end_inset
 
@@ -387,7 +396,7 @@ sguardo.
 \begin_inset Quotes fld
 \end_inset
 
-Voglio dire, con lo scoprire che tutto ciò a cui credo è falso
+Voglio dire, allo scoprire che tutto ciò a cui credo è falso
 \begin_inset Quotes frd
 \end_inset
 
@@ -396,9 +405,9 @@ Voglio dire, con lo scoprire che tutto ciò a cui credo è falso
 
 \begin_layout Standard
 Sul serio, sarebbe dovuto essere più drammatico.
- Il suo cervello avrebbe dovuto scaricare per intero l'attuale collezione
- di ipotesi sull'universo, nessuna delle quali permetteva che un evento
- come questo accadesse.
+ Il suo cervello avrebbe dovuto cestinare per intero l'attuale collezione
+ di ipotesi sull'universo, nessuna delle quali permetteva accadesse che
+ un evento come quello.
  Ma invece il suo cervello sembrava aver detto, 
 \emph on
 Va bene, ho visto la professoressa di Hogwarts agitare la bacchetta e far
@@ -440,7 +449,7 @@ Ha eseguito l'esperimento decisivo.
 
  esitò.
  Non poteva trattenersi.
- In effetti, nelle circostanze presenti non 
+ In effetti, nelle circostanze correnti non 
 \emph on
 doveva
 \emph default
@@ -463,11 +472,11 @@ La professoressa McGonagall si trasformò in un gatto.
 
 \begin_layout Standard
 Harry balzò all'indietro senza pensarci, e arretrò così velocemente che
- inciampò su una pila di libri e atterrò duramente sul proprio fondo-schiena
+ inciampò in una pila di libri e atterrò duramente sul proprio fondo-schiena
  con un tonfo.
- Le sue mani erano scese ad attutire il colpo senza riuscirci completamente,
- e sentì una fitta d'avvertimento alla spalla quando il peso venne giù bruscamen
-te.
+ Le sue mani erano scese ad attutire il colpo senza riuscirci del tutto,
+ e sentì una fitta d'avvertimento alla spalla quando il peso andò giù bruscament
+e.
 \end_layout
 
 \begin_layout Standard
@@ -627,7 +636,7 @@ fisica
 \emph default
 .
  Tremila anni a risolvere i problemi grossi e complicati dividendoli in
- pezzi più piccoli, a scoprire che la musica dei pianeti era la stessa melodia
+ parti più piccole, a scoprire che la musica dei pianeti era la stessa melodia
  della mela che cade, a trovare che le vere leggi erano perfettamente universali
  e non avevano eccezioni in alcun luogo e che prendevano la forma di una
  matematica semplice che governava le parti più piccole, 
@@ -652,7 +661,7 @@ E poi una donna mutava in un gatto, e tutto finiva lì.
 
 \begin_layout Standard
 Un centinaio di domande combatterono per la precedenza sulle labbra di Harry,
- e quella vincitrice fuoriuscì: 
+ e quella vincitrice emerse: 
 \begin_inset Quotes fld
 \end_inset
 
@@ -660,8 +669,8 @@ E, e che genere di incantesimo è
 \emph on
 Wingardium Leviosa?
 \emph default
- Chi inventa le parole per questi incantesimi, i bambini della scuola dell'infan
-zia?
+ Chi inventa le parole di questi incantesimi, i bambini della scuola dell'infanz
+ia?
 \begin_inset Quotes frd
 \end_inset
 
@@ -676,7 +685,7 @@ Basta così, signor Potter
 \begin_inset Quotes frd
 \end_inset
 
-, disse la professoressa McGonagall seccamente, anche se i suoi occhi brillavano
+, disse seccamente la professoressa McGonagall, anche se i suoi occhi brillavano
  per il divertimento represso.
  
 \begin_inset Quotes fld
@@ -807,7 +816,7 @@ hmmmmm
 \end_inset
 
 Non riesco a ricordare di aver mai sentito parlare di una tale condizione,
- prima\SpecialChar \ldots{}
+ in precedenza\SpecialChar \ldots{}
 
 \begin_inset Quotes frd
 \end_inset
@@ -827,8 +836,44 @@ Controllerò con Madam Pomfrey per vedere se conosce qualche rimedio
 \begin_inset Quotes fld
 \end_inset
 
-No, sono certa che questo non sarà un problema -- troverò una soluzione
- in tempo.
+No, sono certa che questo non sarà un problema -- nel tempo troverò una
+ soluzione.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+nel tempo troverò una soluzione
+\begin_inset Quotes frd
+\end_inset
+
+ è un gioco di parole, troverà una soluzione 
+\emph on
+in time
+\emph default
+, ciò 
+\begin_inset Quotes fld
+\end_inset
+
+per tempo
+\begin_inset Quotes frd
+\end_inset
+
+, ma anche 
+\begin_inset Quotes fld
+\end_inset
+
+nel tempo
+\begin_inset Quotes frd
+\end_inset
+
+, dato che userà i Giratempo.
+\end_layout
+
+\end_inset
+
  Ora
 \begin_inset Quotes frd
 \end_inset
@@ -883,7 +928,25 @@ Oh
 \emph on
 questo
 \emph default
- che hai morso una professoressa di matematica al terzo anno
+ che in terza elementare
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nel 
+\begin_inset Quotes fld
+\end_inset
+
+terzo anno
+\begin_inset Quotes frd
+\end_inset
+
+ ha un altro significato nel sistema educativo britannico/americano?
+\end_layout
+
+\end_inset
+
+ hai morso una professoressa di matematica
 \begin_inset Quotes frd
 \end_inset
 
@@ -999,7 +1062,7 @@ Scusatemi
 \begin_inset Quotes frd
 \end_inset
 
-, disse Petunia, e fuggì attraverso la porta sul retro nel giardino, da
+, disse Petunia, e attraverso la porta sul retro fuggì nel giardino, da
  dove le sue risate erano chiaramente udibili.
 \end_layout
 
@@ -1050,7 +1113,7 @@ Bene
 \begin_inset Quotes frd
 \end_inset
 
-, disse la professoressa McGonagall sospirando, dopo che i genitori di Harry
+, disse sospirando la professoressa McGonagall, dopo che i genitori di Harry
  si erano ricomposti ed erano tornati.
  
 \begin_inset Quotes fld

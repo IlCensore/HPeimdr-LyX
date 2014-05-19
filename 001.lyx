@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -66,7 +66,7 @@
 \raggedbottom
 \end_preamble
 \use_default_options true
-\master ENG_hpmor.lyx
+\master IT_hpmor1.lyx
 \begin_modules
 initials
 \end_modules
@@ -78,13 +78,13 @@ initials
 \font_roman EB Garamond
 \font_sans Fredericka the Great
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -95,15 +95,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -739,7 +748,7 @@ Il professore si voltò e guardò in basso verso di lui, sdegnoso come al
 \end_inset
 
 Oh, andiamo, Harry.
- Davvero, la 
+ Sul serio, la 
 \emph on
 magia?
 \emph default
@@ -1153,13 +1162,13 @@ Harry aggiunse il loro indirizzo attuale, poi ripiegò la lettera e la mise
 h.j.p.e.v.
 
 \noun default
- Se doveva immergersi in quella follia, l'avrebbe fatto con stile.
+ Se doveva sprofondare in quella follia, l'avrebbe fatto con stile.
 \end_layout
 
 \begin_layout Standard
 \align block
 Poi aprì la porta e tornò al piano di sotto.
- Suo padre era seduto in salotto e leggeva un libro di matematica superiore
+ Suo padre era seduto in salotto e leggeva un libro di matematica avanzata
  per dimostrare quanto fosse intelligente; e sua madre era in cucina a preparare
  uno dei piatti preferiti di suo padre per dimostrare quanto fosse amorevole.
  Sembrava che non stessero affatto parlandosi.
@@ -1245,8 +1254,8 @@ Suo padre scosse appena la testa e continuò a leggere.
 Naturalmente
 \emph default
 , Harry pensò rivolto a sé stesso.
- La magia era qualcosa di disonorevole in cui solo le persone stupide credevano;
- se suo padre fosse arrivato a 
+ La magia era qualcosa di disonorevole in cui credevano solo le persone
+ stupide; se suo padre fosse arrivato a 
 \emph on
 mettere alla prova
 \emph default
@@ -1264,13 +1273,13 @@ associarsi
 
 \begin_layout Standard
 \align block
-Solo mentre Harry usciva con passo pesante dalla porta posteriore, verso
- il giardino sul retro, gli venne in mente che se un gufo fosse 
+Solo mentre Harry uscì con passo pesante dalla porta posteriore, diretto
+ al giardino sul retro, gli venne in mente che se un gufo fosse 
 \emph on
 davvero
 \emph default
- venuto giù e avesse afferrato la lettera, avrebbe avuto qualche problema
- a raccontarlo a papà.
+ sceso e avesse afferrato la lettera, avrebbe avuto qualche problema a raccontar
+lo a suo padre.
 \end_layout
 
 \begin_layout Standard
@@ -1282,8 +1291,8 @@ Ma -- beh -- questo non può accadere
 sul serio
 \emph on
 , giusto? Non importa ciò che il mio cervello sembra credere.
- Se un gufo dovesse realmente venire giù a prendere questa busta, avrei
- problemi molto più importanti di ciò che Papà potrebbe pensare.
+ Se un gufo dovesse realmente scendere a prendere questa busta, avrei problemi
+ molto più gravi di ciò che Papà potrebbe pensare.
 \end_layout
 
 \begin_layout Standard
@@ -1366,7 +1375,7 @@ Harry tirò giù la mano come se si fosse scottato e nascose la busta dietro
 
 \begin_layout Standard
 \align block
-Il volto dell'anziana signora fece capolino da sopra la vicina staccionata,
+Il volto dell'anziana signora fece capolino sopra la vicina staccionata,
  capelli grigi brizzolati che sfuggivano dalla retina.
  La signora Figg, occasionalmente sua bambinaia.
  

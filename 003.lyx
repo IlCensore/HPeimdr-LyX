@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -60,7 +60,7 @@
 \makeatother
 \end_preamble
 \use_default_options true
-\master ENG_hpmor.lyx
+\master IT_hpmor1.lyx
 \begin_modules
 initials
 \end_modules
@@ -72,13 +72,13 @@ initials
 \font_roman EB Garamond
 \font_sans Liberation Sans
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -89,15 +89,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -184,7 +193,7 @@ questo -- può essere che sia
 
 \begin_layout Standard
 Harry si avvicinò il più possibile al bancone del Paiolo Magico, sebbene
- gli arrivasse più o meno alla punta delle sopracciglia.
+ gli arrivasse più o meno alla sommità delle sopracciglia.
  Una domanda come 
 \emph on
 quella
@@ -404,7 +413,7 @@ Hm?
 \begin_inset Quotes frd
 \end_inset
 
- disse la professoressa McGonagall, sembrando un po' sorpresa; forse non
+ fece la professoressa McGonagall, sembrando un po' sorpresa; forse non
  si aspettava neppure lei che la domanda fosse quella.
  
 \begin_inset Quotes fld
@@ -445,9 +454,9 @@ E che non avrei dovuto stringergli la mano
 \begin_inset Quotes fld
 \end_inset
 
-E che cosa 
+E che cos
 \emph on
-era
+'era
 \emph default
 \SpecialChar \ldots{}
  quello?
@@ -551,7 +560,7 @@ Questo è sorprendentemente saggio da parte sua
 \begin_inset Quotes frd
 \end_inset
 
-, disse la professoressa McGonagall sommessamente.
+, disse sommessamente la professoressa McGonagall.
  
 \begin_inset Quotes fld
 \end_inset
@@ -582,7 +591,7 @@ Qualcosa di strano strinse il cuore di Harry.
 Che cosa\SpecialChar \ldots{}
  è accaduto 
 \emph on
-davvero?
+realmente?
 \emph default
 
 \begin_inset Quotes frd
@@ -607,7 +616,7 @@ Una sorta di travestimento
 \begin_inset Quotes fld
 \end_inset
 
-in modo che quello non accada di nuovo, fino a quando lei non sarà pronto
+in modo che non accada di nuovo, fino a quando lei non sarà pronto
 \begin_inset Quotes frd
 \end_inset
 
@@ -634,7 +643,7 @@ E avanzarono, insieme, entrando nel mondo dei maghi.
 \end_layout
 
 \begin_layout Standard
-C'erano mercanti ambulanti di Stivali Rimbalzanti (
+C'erano venditori ambulanti di Stivali Rimbalzanti (
 \begin_inset Quotes fld
 \end_inset
 
@@ -858,7 +867,10 @@ quando chiunque per strada potrebbe raccontarle la storia.
 \end_layout
 
 \begin_layout Standard
-E gli raccontò di Colui-Che-Non-Deve-Essere-Nominato, il Signore Oscuro,
+E gli raccontò di Colui-Che-Non-Deve-Essere-No\SpecialChar \-
+mi\SpecialChar \-
+na\SpecialChar \-
+to, il Signore Oscuro,
  Voldemort.
 \end_layout
 
@@ -987,7 +999,7 @@ Dovevate essere nascosti al sicuro, ma foste traditi.
  tutto finì.
  La Maledizione Mortale è formata da odio puro, e colpisce direttamente
  l'anima, separandola dal corpo.
- Non può essere bloccata, e chiunque ne è colpito, muore.
+ Non può essere bloccata, e chiunque ne sia colpito, muore.
  Ma tu sei sopravvissuto.
  Tu sei l'unica persona al mondo a essere sopravvissuta.
  La Maledizione Mortale rimbalzò e colpì il Signore Oscuro, lasciando solo
