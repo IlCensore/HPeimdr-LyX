@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -67,7 +67,7 @@
 \usepackage{microtype}
 \end_preamble
 \use_default_options true
-\master ENG_hpmor.lyx
+\master IT_hpmor1.lyx
 \begin_modules
 initials
 \end_modules
@@ -79,13 +79,13 @@ initials
 \font_roman EB Garamond
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -96,15 +96,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -226,11 +235,11 @@ Citato dal capitolo 87
 \noun on
 I
 \noun default
-l Moke Shop era un negozio piccolo e pittoresco (qualcuno potrebbe persino
- dire carino) nascosto dietro una bancarella di ortaggi che era dietro un
- negozio di guanti magici che era in una viuzza che deviava da una traversa
- di Diagon Alley.
- Purtroppo, il negoziante non era una vecchia megera avvizzita; solo una
+l Moke Shop era un negozio piccolo e pittoresco (qualcuno avrebbe potuto
+ dire persino carino) nascosto dietro una bancarella di ortaggi che era
+ dietro un negozio di guanti magici che era in una viuzza che deviava da
+ una traversa di Diagon Alley.
+ Purtroppo, la negoziante non era una vecchia megera avvizzita; solo una
  donna nervosa dall'aspetto giovanile, che indossava abiti di un giallo
  sbiadito.
  In quel momento stava porgendo una Moke Super Pouch 
@@ -249,7 +258,8 @@ insistito
 \emph default
  per andare lì subito, come prima cosa -- aveva insistito quanto più possibile
  pensasse di poter fare senza rendere sospettosa la professoressa McGonagall.
- Harry aveva qualcosa che aveva bisogno di mettere nella borsa appena possibile.
+ Harry aveva qualcosa che aveva bisogno di mettere nella borsa non appena
+ possibile.
  Non si trattava del sacchetto di galeoni che la professoressa McGonagall
  gli aveva consentito di prelevare da Gringotts.
  Erano tutti gli altri galeoni che Harry si era furtivamente infilato in
@@ -260,7 +270,7 @@ era
 \emph default
  trattato di un vero incidente, ma Harry non era mai stato il tipo da sprecare
  un'occasione\SpecialChar \ldots{}
- anche se si era trattato più che altro di un gesto impulsivo.
+ anche se era stato più che altro un gesto impulsivo.
  Da quel momento Harry stava portando goffamente la borsa di galeoni autorizzata
  vicino alla tasca dei suoi pantaloni, in modo che un eventuale tintinnio
  sembrasse provenire dal posto giusto.
@@ -616,7 +626,7 @@ E il suo bastone ticchettò via, fuori dal vicolo e giù per la strada principal
 \begin_layout Standard
 La professoressa si guardò intorno, con l'espressione tesa e severa.
  Anche Harry si guardò automaticamente intorno.
- Ma il vicolo sembrò vuoto, se non per le foglie cadute, e dall'imbocco
+ Ma il vicolo sembrava vuoto, se non per le foglie cadute, e dall'imbocco
  che conduceva a Diagon Alley si potevano vedere solo passanti che camminavano
  rapidamente.
 \end_layout
@@ -698,7 +708,7 @@ Suppongo che non ci sia alcuna possibilità che se dicessi
 \emph on
 errore fondamentale di attribuzione
 \emph default
- avrebbe idea di cosa intendessi
+ avrebbe idea di cosa parlassi
 \begin_inset Quotes frd
 \end_inset
 
@@ -733,7 +743,7 @@ Beh\SpecialChar \ldots{}
 \begin_inset Quotes frd
 \end_inset
 
- iniziò Harry, cercando di capire come descrivere quel particolare elemento
+ iniziò Harry, cercando di capire come descrivere quella particolare porzione
  di scienza babbana.
  
 \begin_inset Quotes fld
@@ -965,11 +975,11 @@ Madam Malkin's Robes
  aveva un ingresso autenticamente noioso, mattoni di un rosso ordinario
  e vetrine che esponevano semplici vesti nere.
  Non vesti che splendessero o si trasformassero o girassero, o diffondessero
- strani raggi che attraversassero la tua camicia e ti solleticassero.
+ strani raggi che attraversavano la tua camicia e ti solleticavano.
  Solo semplici vesti nere, questo era tutto quello che si poteva vedere
  attraverso la vetrina.
  La porta era tenuta aperta, come per far sapere che non c'erano segreti
- e nulla da nascondere.
+ né qualcosa da nascondere.
 \end_layout
 
 \begin_layout Standard
@@ -1081,7 +1091,7 @@ Dove sta
 \begin_inset Quotes fld
 \end_inset
 
-Giusto nel caso, sa, in cui qualcosa accada davvero
+Giusto nel caso, sa, in cui qualcosa accadesse davvero
 \begin_inset Quotes frd
 \end_inset
 
@@ -1144,7 +1154,7 @@ Accanto a Harry, un ragazzo pallido con un volto affilato e
 strafichissimi 
 \emph default
 capelli biondo-bianchi pareva essere nelle fasi finali di un processo simile.
- Una delle due assistenti di Malkin stava esaminando il ragazzo dai capelli
+ Una delle due assistenti della Malkin stava esaminando il ragazzo dai capelli
  bianchi e la veste a quadratini che indossava; di tanto in tanto toccava
  un angolo della veste con la sua bacchetta, e la veste si allungava o stringeva.
 \end_layout
@@ -1162,7 +1172,7 @@ Ciao
 \begin_inset Quotes fld
 \end_inset
 
-Anche tu a Hogwarts?
+Hogwarts anche tu?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1219,18 +1229,22 @@ Draco Malfoy
 \begin_inset Quotes fld
 \end_inset
 
-Allora 
+È proprio
 \emph on
-è proprio 
+ 
 \emph default
-lei! Draco Malfoy.
- Non -- non avrei mai pensato di ricevere questo onore, signore
+lei 
+\emph on
+allora!
+\emph default
+ Draco Malfoy.
+ Non -- non avrei mai pensato di avere questo onore, signore
 \begin_inset Quotes frd
 \end_inset
 
 .
  Harry desiderò di potersi far venire le lacrime agli occhi.
- Di solito gli altri iniziavano a piangere, a questo punto.
+ Di solito gli altri iniziavano a piangere, a quel punto.
 \end_layout
 
 \begin_layout Standard
@@ -1294,8 +1308,8 @@ io
 \end_inset
 
 , rimpallò l'altro ragazzo, accompagnando le parole con un sorriso simile
- a quello che il più grande dei sovrani potrebbe concedere all'ultimo dei
- suoi sudditi, se questo soggetto fosse onesto, sebbene povero.
+ a quello che il più sommo dei sovrani avrebbe potuto concedere all'ultimo
+ dei suoi sudditi, se questo soggetto fosse stato onesto, sebbene povero.
 \end_layout
 
 \begin_layout Standard
@@ -1392,8 +1406,8 @@ La professoressa McGonagall dice che sono la persona più Corvonero che abbia
 questo
 \emph default
  significhi, e che senza dubbio finirò nella Casa Corvonero, se il cappello
- non starà urlando troppo forte da impedire al resto di noi di capire tutte
- le parole, chiuse virgolette
+ non starà urlando troppo forte da impedire a noi altri di capire ogni singola
+ parola, chiuse virgolette
 \begin_inset Quotes frd
 \end_inset
 
@@ -1494,7 +1508,7 @@ Due dei miei genitori sono morti
 
 , disse Harry.
  Provò uno spasimo al cuore.
- Quando la metteva in questo modo -- 
+ Quando la metteva in quel modo -- 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1563,7 +1577,7 @@ Harry Potter?
 
 
 \emph on
-Quell'
+Quel 
 \emph default
 Harry
 \begin_inset space ~
@@ -1587,7 +1601,7 @@ Poi, con un entusiasmo scoppiettante,
 
 Harry Potter? 
 \emph on
-Quell'
+Quel 
 \emph default
 Harry Potter? Accidenti, ho sempre desiderato incontrarla!
 \begin_inset Quotes frd
@@ -1914,14 +1928,14 @@ E poi ci fu silenzio.
 
 \begin_layout Standard
 Nella mano sinistra della professoressa McGonagall c'era un piccolo bicchiere,
- scordato nella fretta inclinato su di un lato, che ora sgocciolava lentamente
+ scordato inclinato di lato nella fretta, che ora sgocciolava lentamente
  dell'alcol nella piccola pozza di vino rosso che aveva fatto la sua comparsa
  sul pavimento.
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall avanzò a grandi passi fino a trovarsi di fronte
- Madam Malkin.
+La professoressa McGonagall avanzò a grandi passi fino a trovarsi Madam
+ Malkin di fronte.
 \end_layout
 
 \begin_layout Standard
@@ -1932,12 +1946,12 @@ Madam Malkin
 \begin_inset Quotes frd
 \end_inset
 
-, disse la professoressa McGonagall con una voce calma.
+, disse la professoressa McGonagall con voce calma.
  
 \begin_inset Quotes fld
 \end_inset
 
-Cosa è accaduto qui?
+Cos'è accaduto qui?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1945,7 +1959,7 @@ Cosa è accaduto qui?
 \end_layout
 
 \begin_layout Standard
-Madam Malkin la osservò silenziosamente per quattro secondi e poi esplose
+Madam Malkin la osservò silenziosamente per quattro secondi e poi scoppiò
  a ridere.
  Si appoggiò pesantemente contro il muro, ansimando per le risate, e questo
  fece scatenare entrambe le sue assistenti, una delle quali cadde a carponi
@@ -2000,7 +2014,7 @@ fare
 \begin_inset Quotes frd
 \end_inset
 
- La professoressa McGonagall prese una pausa, respirando visibilmente.
+ La professoressa McGonagall si interruppe, respirando visibilmente.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2061,14 +2075,14 @@ Harry sospirò.
 \emph on
 entrambe
 \emph default
- cadute in ginocchio, e infine al proprio corpo ricoperto di nastri da misura.
+ cadute in ginocchio, e infine il proprio corpo ricoperto di nastri da misura.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Non ho ancora finito con le misure
+Non ho ancora finito di farmi prendere le misure
 \begin_inset Quotes frd
 \end_inset
 

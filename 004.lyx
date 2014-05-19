@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -60,7 +60,7 @@
 \makeatother
 \end_preamble
 \use_default_options true
-\master ENG_hpmor.lyx
+\master IT_hpmor1.lyx
 \begin_modules
 initials
 \end_modules
@@ -72,13 +72,13 @@ initials
 \font_roman EB Garamond
 \font_sans Life Savers
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -89,15 +89,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -434,7 +443,7 @@ Quindi non solo l'economia dei maghi è quasi completamente disaccoppiata
 
 \emph default
  La più grande economia babbana aveva un tasso di cambio oro-argento fluttuante,
- quindi ogni volta che il rapporto oro-argento babbano si allontanava di
+ quindi ogni volta che il rapporto babbano oro-argento si allontanava di
  più del 5% dal peso di diciassette sicli per un galeone, o l'oro o l'argento
  sarebbero dovuti essere drenati dall'economia dei maghi fino a rendere
  impossibile mantenere il tasso di cambio.
@@ -476,9 +485,9 @@ Ma la cosa triste è che probabilmente il loro modo è migliore.
 \end_layout
 
 \begin_layout Standard
-D'altro canto, un singolo gestore esperto di fondi speculativi sarebbe probabilm
-ente stato in grado di prendere possesso dell'intero mondo della magia in
- una settimana.
+D'altro canto, un unico esperto gestore di fondi speculativi sarebbe stato
+ probabilmente in grado di prendere possesso dell'intero mondo della magia
+ in una settimana.
  Harry archiviò questa nozione nel caso in cui fosse mai stato a corto di
  denaro, o avesse avuto una settimana libera.
 \end_layout
@@ -571,16 +580,16 @@ Venti galeoni d'oro pesavano un decimo di chilogrammo, più o meno? E l'oro
 \begin_layout Standard
 Niente male.
  Harry sorrise con una certa cupa soddisfazione.
- Era un peccato che fosse proprio nel mezzo della scoperta del meraviglioso
- e nuovo mondo della magia, e non potesse prendersi del tempo per esplorare
- il meraviglioso e nuovo mondo dell'essere ricco, che una rapida stima di
- Fermi sostenne essere circa un miliardo di volte meno interessante.
+ Era un peccato che fosse proprio nel mezzo della scoperta del nuovo e meravigli
+oso mondo della magia, e non potesse prendersi del tempo per esplorare il
+ nuovo e meraviglioso mondo dell'essere ricco, che una rapida stima di Fermi
+ sostenne essere circa un miliardo di volte meno interessante.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-Ad ogni modo, è l'ultima volta che spingo un taglia erba per una pidocchiosa
+Ad ogni modo, è l'ultima volta che spingo un tagliaerba per una pidocchiosa
  sterlina.
 \end_layout
 
@@ -622,7 +631,7 @@ Suo padre era l'ultimo erede di un'antica famiglia, signor Potter.
 \end_inset
 
 Parte di questo denaro potrebbe provenire dalle taglie poste su Tu-Sai-Chi,
- riscuotibili dal suo assass-- ah, da chiunque l'abbia sconfitto.
+ riscuotibili dal suo uccis-- ah, da chiunque l'abbia sconfitto.
  O quelle taglie potrebbero non essere state ancora riscosse.
  Non ne sono sicura
 \begin_inset Quotes frd
@@ -740,7 +749,7 @@ Tipo cosa?
 \begin_inset Quotes fld
 \end_inset
 
-Bauli il cui interno contiene più cose che il loro esterno?
+Bauli il cui interno contiene più del loro esterno?
 \begin_inset Quotes frd
 \end_inset
 
@@ -776,7 +785,7 @@ Sì, ma
 \begin_inset Quotes frd
 \end_inset
 
- supplicò.
+ supplicò Harry.
  
 \begin_inset Quotes fld
 \end_inset
@@ -864,7 +873,7 @@ freneticamente
  e forse una piccola collezione di fantascienza, se sarò in grado di assemblare
  qualcosa di dignitoso tra i cesti degli affari.
  O meglio ancora, renderò la cosa un po' più dolce per lei, va bene? Mi
- lasci comprare
+ lasci solo comprare
 \begin_inset space ~
 \end_inset
 
@@ -946,7 +955,7 @@ Una tradizione di famiglia.
 
 \begin_layout Standard
 Il corpo della professoressa McGonagall sembrò crollare, le spalle che si
- abbassarono dentro le sue vesti nere.
+ abbassarono sotto le sue vesti nere.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1082,17 +1091,18 @@ Non tiri troppo la corda, signor Potter
 \end_inset
 
 Ma oh, professoressa McGonagall, perché vuole rovinare la mia festa? Certamente
- questo è un giorno 
+ è un giorno 
 \emph on
 felice
 \emph default
-, in cui scopro tutte le cose magiche per la prima volta! Perché recitare
- la parte dell'adulto scontroso, quando invece potrebbe sorridere e ricordare
- la sua infanzia innocente, osservando l'espressione di gioia sul mio giovane
- volto mentre acquisto alcuni giocattolini usando una percentuale esigua
- della ricchezza che ho guadagnato sconfiggendo il più terribile mago che
- la Gran Bretagna abbia mai conosciuto, non che la stia accusando di essere
- ingrata o altro, eppure, cosa sono alcuni giocattoli rispetto a quello?
+ questo, in cui scopro tutte le cose magiche per la prima volta! Perché
+ recitare la parte dell'adulto scontroso, quando invece potrebbe sorridere
+ e ricordare la sua infanzia innocente, osservando l'espressione di gioia
+ sul mio giovane volto mentre acquisto alcuni giocattolini usando una percentual
+e esigua della ricchezza che ho guadagnato sconfiggendo il più terribile
+ mago che la Gran Bretagna abbia mai conosciuto, non che la stia accusando
+ di essere ingrata o altro, eppure, cosa sono alcuni giocattoli rispetto
+ a quello?
 \begin_inset Quotes frd
 \end_inset
 
