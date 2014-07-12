@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -155,25 +164,25 @@ Ora di pranzo.
 
 \begin_layout Standard
 Harry camminò pesantemente fino al tavolo Grifondoro quasi deserto, decidendo
- con un'occhiata che il pranzo quel giorno era 
+ con un'occhiata che il pranzo quel giorno sarebbe stato 
 \emph on
 breen
 \emph default
  e polpette di Roopo.
- La conversazione circostante, Harry poté inoltre udire, era relativa al
- Quidditch; un ambiente uditivo che si classificava in qualche modo peggiore
- del rumore di catene rugginose, ma migliore di ciò che il tavolo Corvonero
+ La conversazione circostante, Harry poté similmente udire, era relativa
+ al Quidditch; un ambiente uditivo che si classificava in qualche modo peggio
+ del rumore di catene rugginose, ma meglio di ciò che il tavolo Corvonero
  stava ancora 
 \emph on
 blaterando
 \emph default
  a proposito di Hermione.
- Casa Grifondoro, almeno, aveva esordito da una posizione meno comprensiva
- verso Draco Malfoy e aveva un maggior incentivo politico a desiderare che
- tutti si dimenticassero di certi fatti incresciosi; e se quello non era
- il motivo giusto per il silenzio, almeno era silenzio.
- Dean e Seamus e Lavender erano tutti partiti per le vacanze, ma almeno
- quello lasciava\SpecialChar \ldots{}
+ Casa Grifondoro, almeno, era partita da una posizione meno comprensiva
+ nei confronti di Draco Malfoy e aveva un maggior incentivo politico a desiderar
+e che tutti dimenticassero certi fatti incresciosi; e se quello non era
+ il motivo giusto per non parlarne, almeno non ne parlavano.
+ Dean e Seamus e Lavender erano tutti partiti per le vacanze, ma così quanto
+ meno rimanevano\SpecialChar \ldots{}
 
 \end_layout
 
@@ -185,13 +194,13 @@ Cos'era tutta quella confusione alla Tavola d'onore?
 \begin_inset Quotes frd
 \end_inset
 
- disse Harry alla mente di gruppo dei gemelli Weasley, mentre iniziava a
+ disse Harry alla mente-di-gruppo dei gemelli Weasley, mentre iniziava a
  riempirsi il piatto.
  
 \begin_inset Quotes fld
 \end_inset
 
-Sembrava che stesse finendo proprio quando sono entrato
+Sembrava che stesse finendo proprio mentre entravo
 \begin_inset Quotes frd
 \end_inset
 
@@ -243,11 +252,11 @@ Per non dire del signor Hagrid.
 Una rapida occhiata alla Tavola d'onore confermò che la Professoressa di
  Divinazione stava agitando freneticamente la sua bacchetta mentre il mezzo-giga
 nte tamponava le proprie vesti.
- Nessun altro sembrava fare molta attenzione, persino la professoressa McGonagal
+ Nessun altro sembrava fare molta attenzione, neppure la professoressa McGonagal
 l.
- Il professor Flitwick era come al solito in piedi sulla sua sedia, il Preside
- sembrava nuovamente assente (era stato via durante la maggior parte della
- vacanza), le professoresse Sprout e Sinistra e Vector stavano mangiando
+ Come al solito il professor Flitwick era in piedi sulla sua sedia, il Preside
+ sembrava nuovamente assente (era stato via durante la maggior parte delle
+ vacanze), le professoresse Sprout e Sinistra e Vector stavano mangiando
  nel loro solito gruppo, e
 \begin_inset space ~
 \end_inset
@@ -296,7 +305,7 @@ olo-faceva-di-strano, le mani che producevano tentativi impacciati ed esitanti
 \begin_inset Quotes fld
 \end_inset
 
-Eh, nulla
+Eh, niente
 \begin_inset Quotes frd
 \end_inset
 
@@ -305,7 +314,7 @@ Eh, nulla
 \begin_inset Quotes fld
 \end_inset
 
-Non sono del tutto abituato a Hogwarts, ancora
+Non mi sono del tutto abituato a Hogwarts, ancora
 \begin_inset Quotes frd
 \end_inset
 
@@ -313,9 +322,9 @@ Non sono del tutto abituato a Hogwarts, ancora
 \end_layout
 
 \begin_layout Standard
-Harry continuò a mangiare in un silenzio moderato, mentre vari Weasley discuteva
-no di una certa bizzarra sostanza che alterava la mente ed era chiamata
- Chudley Cannons.
+Harry continuò a mangiare in un moderato silenzio, mentre svariati Weasley
+ discutevano di una certa bizzarra sostanza psicotropa chiamata Chudley
+ Cannons.
 \end_layout
 
 \begin_layout Standard
@@ -326,13 +335,13 @@ Che genere di pensieri profondi e misteriosi stai pensando?
 \begin_inset Quotes frd
 \end_inset
 
- disse una strega dall'aspetto giovane e i capelli corti, seduta vicino.
+ disse una strega dall'aspetto giovane e dai capelli corti, seduta là vicino.
  
 \begin_inset Quotes fld
 \end_inset
 
-Voglio dire, sono solo curiosa.
- Sono Brienne, comunque
+Voglio dire, solo per curiosità.
+ Mi chiamo Brienne, comunque
 \begin_inset Quotes frd
 \end_inset
 
@@ -356,7 +365,7 @@ Allora
 conosci quei programmi di Intelligenza artificiale veramente semplici come
  
 \noun on
-eliza
+eliza,
 \noun default
  che sono programmati per usare parole all'interno di frasi sintatticamente
  corrette, solo che non contengono alcuna comprensione di ciò che le parole
@@ -391,7 +400,7 @@ Ne ho una dozzina nel mio baule
 \begin_inset Quotes fld
 \end_inset
 
-Bene, sono alquanto sicuro che la mia comprensione delle ragazze sia da
+Bene, sono piuttosto sicuro che la mia comprensione delle ragazze sia da
  qualche parte intorno a quel livello.
 \begin_inset Quotes frd
 \end_inset
@@ -409,7 +418,7 @@ Ci vollero alcuni secondi prima che Harry capisse che, no, l'intera Sala
 \emph on
 lui
 \emph default
-, e poi girò la testa e guardò intorno.
+, e poi girò la testa e si guardò intorno.
 \end_layout
 
 \begin_layout Standard
@@ -419,7 +428,7 @@ La figura che era appena entrata barcollando nella Sala Grande sembrava
  casuale di basso livello che Harry aveva spesso oltrepassato con facilità
  indossando il suo Dono della Morte di livello epico.
  (Una volta Harry aveva consultato i gemelli Weasley riguardo il giocare
- qualche genere di scherzo a questo bersaglio meritevole, al che Fred o
+ qualche genere di scherzo a questo meritevole bersaglio, al che Fred o
  George aveva tranquillamente fatto notare che il signor Filch non era mai
  stato visto usare una bacchetta, cosa che era strana, davvero, considerando
  quanti incantesimi sarebbero stati utili in quel ruolo, e quello ti faceva
@@ -517,9 +526,9 @@ Cosa ti è successo?
 \end_layout
 
 \begin_layout Standard
-Dalle enormi porte Argus Filch avanzò barcollando, la parte superiore del
+Argus Filch avanzò barcollando dalle enormi porte, la parte superiore del
  suo corpo segnata e punteggiata da piccole macchie cremisi come se qualcuno
- avesse schizzato una salsa da bistecca sul suo volto.
+ avesse schizzato della salsa barbecue sul suo volto.
  
 \begin_inset Quotes fld
 \end_inset
@@ -554,10 +563,10 @@ Minerva provò una stilettata di sconcerto nel suo altro sé, l'altra gatta
 \end_layout
 
 \begin_layout Standard
-Un frastuono originò dalla Sala Grande.
- Severus si alzò dalla Tavola d'onore, in qualche modo facendolo senza attirare
- alcuna attenzione visibile su di sé, e uscì a grandi passi dalle enormi
- porte senza proferire altra parola.
+Un frastuono nacque nella Sala Grande.
+ Severus si alzò dalla Tavola d'onore, in qualche modo senza attirare alcuna
+ attenzione apparente su di sé, e uscì a grandi passi dalle enormi porte
+ senza proferire altra parola.
 \end_layout
 
 \begin_layout Standard
@@ -597,7 +606,7 @@ Sembra che abbiamo una creatura pericolosa libera dentro Hogwarts
 \begin_inset Quotes fld
 \end_inset
 
-Chiederò a tutti voi di aiutare nelle ricerche nelle sale
+Chiederò a tutti voi di collaborare alle ricerche nei corridoi
 \begin_inset Quotes frd
 \end_inset
 
@@ -709,7 +718,7 @@ lei non è esperta in tattiche di battaglia, signora.
 \begin_inset Quotes fld
 \end_inset
 
-Chiedo scusa, Professore
+Le chiedo scusa, Professore
 \begin_inset Quotes frd
 \end_inset
 
@@ -721,12 +730,12 @@ Chiedo scusa, Professore
 \begin_inset Quotes fld
 \end_inset
 
-La triste esperienza mi ha insegnato che in occasioni come queste, non è
- il momento giusto di accogliere qualunque consiglio l'attuale Professore
- di Difesa possa offrire.
+Tristi esperienze mi hanno insegnato che occasioni simili non sono il momento
+ giusto per accogliere qualunque consiglio l'attuale Professore di Difesa
+ possa offrire.
  In effetti, penso che sia saggio che noi due cerchiamo il troll insieme,
  in modo che nessun sospetto possa essere rivoltole per qualsiasi evento
- deplorevole che possa accadere in quel lasso di tempo
+ deplorevole possa accadere in tali circostanze
 \begin_inset Quotes frd
 \end_inset
 
@@ -735,7 +744,7 @@ La triste esperienza mi ha insegnato che in occasioni come queste, non è
 
 \begin_layout Standard
 Senza alcuna esitazione, il Professore di Difesa si girò agilmente verso
- il tavolo Grifondoro e batté le mani con il suono simile a un pavimento
+ il tavolo Grifondoro e batté le mani con un suono simile a un pavimento
  che si crepa.
 \end_layout
 
@@ -800,7 +809,7 @@ Mi dispiace, signor Hagrid, ma -- lei non sarebbe al sicuro, dovrebbe restare
 \begin_inset Quotes frd
 \end_inset
 
-, Michelle sembrò meno dispiaciuta a questo riguardo, 
+, Michelle sembrò meno dispiaciuta riguardo a questo, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -900,8 +909,8 @@ Ah
 \end_inset
 
 , disse Sybill esitante.
- Al di sotto del suo trucco eccessivo e della confusione di scialli, la
- donna sembrava piuttosto pallida.
+ Sotto al suo trucco eccessivo e alla confusione di scialli, la donna sembrava
+ piuttosto pallida.
  
 \begin_inset Quotes fld
 \end_inset
@@ -926,15 +935,15 @@ Non dovrà combattere il troll
 \begin_inset Quotes frd
 \end_inset
 
-, disse Minerva seccamente, la sua pazienza messa alla prova come al solito
+, disse Minerva seccamente, la sua pazienza messa alla prova come sempre
  quando doveva trattare con la donna.
  
 \begin_inset Quotes fld
 \end_inset
 
 Resti semplicemente col Professore di Difesa e non lo perda di vista per
- un istante, deve essere in grado di testimoniare in seguito che è stata
- con lui per tutto il tempo
+ un istante, in seguito dovrà essere in grado di testimoniare di essere
+ stata con lui per tutto il tempo
 \begin_inset Quotes frd
 \end_inset
 
@@ -950,7 +959,7 @@ Rubeus, ti affido ogni responsabilità qui.
 \end_inset
 
 .
- L'enorme uomo si raddrizzò, perdendo la sua espressione cupa e annuendole
+ L'enorme uomo si raddrizzò, perdendo la sua espressione cupa e annuendo
  orgogliosamente.
 \end_layout
 
@@ -1029,7 +1038,7 @@ Tic
 
 \begin_layout Standard
 Mentre Harry fissava con occhi socchiusi il punto da cui i Professori erano
- usciti, chiedendosi cosa stesse davvero accadendo e cosa significasse,
+ usciti, chiedendosi cosa stesse accadendo realmente e cosa significasse,
  mentre gli studenti si unirono in una massa più difendibile e le bacchette
  entrarono in azione per far levitare i tavoli di lato, Harry ancora non
  se ne accorse.
@@ -1213,10 +1222,10 @@ Tic
 \end_layout
 
 \begin_layout Standard
-Harry si fece strada a spinta attraverso la folla stipata, passando di lato
- o attorno agli studenti più grandi e in un caso abbassandosi tra le loro
- gambe, finché non si ritrovò tra i Corvonero e poté verificare con certezza
- che, nisba, niente Hermione.
+Harry si fece strada a spinta attraverso la folla stipata, spostando di
+ lato o girando attorno agli studenti più grandi e in un caso passando sotto
+ le loro gambe, finché non si ritrovò tra i Corvonero e poté verificare
+ con certezza che, nisba, niente Hermione.
 \end_layout
 
 \begin_layout Standard
@@ -1344,11 +1353,11 @@ Perché furono manomessi, lo dice Silente.
 \end_inset
 
  Quello doveva essere sufficiente per permettere a Hermione di fuggire,
- anche se era orrenda su di un manico di scopa.
- Tutto ciò che doveva fare era salire su di una sezione di tetto, era una
- giornata serena e la luce del sole avrebbe dovuto essere negativa per il
+ anche se faceva schivo con un manico di scopa.
+ Tutto ciò che doveva fare era salire su di una parte del tetto, era una
+ giornata serena e la luce del sole avrebbe dovuto essere dannosa per il
  troll in qualche modo, Harry ricordava quella parte e perciò Hermione l'avrebbe
- ricordata esattamente.
+ ricordata con precisione.
  E certamente, anche se Hermione avesse voluto dare nuovamente prova di
  sé, non poteva essere tanto stupida da attaccare un troll di montagna.
 \end_layout
@@ -1421,9 +1430,9 @@ Ci fu una parte di lui che provò qualcosa di simile a un panico che cresceva
 \emph on
 diavolo
 \emph default
- aveva pensato Harry, lasciando che Hermione e Neville fossero tenuti dentro
- Hogwarts solo perché avevano ricevuto qualche stupido ninnolo, non avrebbero
- fermato chiunque avesse voluto 
+ aveva pensato Harry, lasciando che Hermione e Neville fossero tenuti all'intern
+o di Hogwarts solo perché avevano ricevuto qualche stupido ninnolo, non
+ avrebbero fermato chiunque avesse voluto 
 \emph on
 ucciderli
 \emph default
@@ -1467,7 +1476,7 @@ Tic
 \begin_layout Standard
 Harry riconobbe un esempio dello schema paura-dell'essere-imbarazzato che
  impediva alla maggior parte delle persone di fare mai qualcosa in condizioni
- di incertezza, e lo schiacciò duramente.
+ di incertezza, e lo schiacciò con fermezza.
  Anche così fu strano quanta forza di volontà fosse necessaria per chiamare
  a raccolta la decisione di gridare ad alta voce di fronte a tutti, se semplicem
 ente non aveva notato Hermione nella folla sarebbe stato imbarazzante\SpecialChar \ldots{}
@@ -1589,8 +1598,8 @@ Tic
 
 \begin_layout Standard
 Susan Bones e un ragazzo dai capelli rossi con una bacchetta dall'aspetto
- malconcio si fecero entrambi strada attraverso la folla, diretti allo stesso
- tempo verso Harry.
+ malconcio si fecero entrambi strada attraverso la folla, diretti contemporaneam
+ente verso Harry.
 \end_layout
 
 \begin_layout Standard
@@ -1748,7 +1757,7 @@ Ho un manico di scopa
  Ho bisogno di uno del settimo anno proveniente dagli eserciti che venga
  con me.
  Voleremo per i corridoi il più velocemente possibile alla ricerca di Hermione
- Grange, la tireremo su, e torneremo immediatamente.
+ Granger, la tireremo su, e torneremo immediatamente.
  Chi è con me?
 \begin_inset Quotes frd
 \end_inset
@@ -1757,7 +1766,7 @@ Ho un manico di scopa
 \end_layout
 
 \begin_layout Standard
-La Sala Grande si fece completamente silenziosa, allora.
+Allora la Sala Grande si fece completamente silenziosa.
 \end_layout
 
 \begin_layout Quote
@@ -2015,7 +2024,7 @@ buona scusa per non fare nulla
 \begin_inset Quotes fld
 \end_inset
 
-È in gioco la vita di uno studente
+È in gioco la vita di una studentessa
 \begin_inset Quotes frd
 \end_inset
 
@@ -2024,7 +2033,7 @@ buona scusa per non fare nulla
 \begin_inset Quotes fld
 \end_inset
 
-Potrebbe combattere il troll in questo momento.
+Potrebbe stare combattendo il troll in questo momento.
  Giusto per curiosità, questo significa qualcosa per lei?
 \begin_inset Quotes frd
 \end_inset
@@ -2097,7 +2106,7 @@ me?
 \begin_inset Quotes fld
 \end_inset
 
-Non sono stata nominata responsabile io qui! È stato indicato il signor
+Non sono stata nominata responsabile io qui! È stato nominato il signor
  Hagrid!
 \begin_inset Quotes frd
 \end_inset
@@ -2354,7 +2363,7 @@ Qualcosa si spezzò dentro Harry ed egli iniziò a camminare a grandi passi
  non si togliesse di mezzo come se fossero statue morbide.
  (Non corse, perché correre era un invito a che qualcuno lo fermasse.) Da
  qualche parte nella sua mente si stava muovendo in una stanza vuota piena
- di marionette meccaniche, il movimento delle labbra delle quali aveva prodotto
+ di marionette meccaniche, il cui movimento delle labbra aveva prodotto
  dei rumori senza significato da cui era stato 
 \emph on
 distratto
@@ -2390,7 +2399,7 @@ te
 
 .
  La voce di Rubeus Hagrid era dolente ma ferma, e le sue mani gigantesche
- poggiavano sui suoi fianchi come montacarichi.
+ lungo i fianchi simili a montacarichi.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2427,7 +2436,7 @@ Il lampo rosso si schiantò sul lato della testa di Hagrid e colse di sorpresa
 
 
 \emph on
-Cosa pensi di stare facendo!
+Cosa pensi di fare!
 \emph default
 
 \begin_inset Quotes frd
@@ -2466,7 +2475,7 @@ Incendium! Glisseo!
 
 \begin_layout Standard
 Le mani dell'uomo enorme, che ora stavano sventolando il fuoco nella sua
- barba, non riuscirono del tutto a reggerlo mentre egli cadde a terra, ma
+ barba, non riuscirono del tutto a proteggerlo quando cadde a terra, ma
  questo non era più importante perché ormai Harry l'aveva superato e
 \begin_inset space ~
 \end_inset
@@ -2734,8 +2743,8 @@ Sì!
 \begin_inset Quotes frd
 \end_inset
 
- e il gemello Weasley che stava parlando si fermò improvvisamente, entrambi
- i rossi che fissarono il vuoto con un'espressione assente.
+ e il gemello Weasley che stava parlando si fermò improvvisamente, entrambe
+ le teste rosse che fissavano il vuoto con un'espressione assente.
 \end_layout
 
 \begin_layout Standard
@@ -2835,12 +2844,12 @@ Noi
 \begin_inset Quotes frd
 \end_inset
 
- disse il gemello Weasley seduto più giù.
+ disse il gemello Weasley seduto più dietro.
  
 \begin_inset Quotes fld
 \end_inset
 
-Noi non riusciamo a ricordarlo!
+Non riusciamo a ricordarlo!
 \begin_inset Quotes frd
 \end_inset
 
@@ -3119,8 +3128,8 @@ Fermo!
 \end_inset
 
  gridò Madam Pince, comparendo troppo tardi da dietro le porte mentre Harry
- e i gemelli Weasley partirono di nuovo a razzo, fuori dalla vista della
- bibliotecaria.
+ e i gemelli Weasley partirono di nuovo a razzo, uscendo fuori dalla vista
+ della bibliotecaria.
  La pressione nella mente di Harry continuava a crescere, come una mano
  fisica che gli spremesse il petto, 
 \emph on
