@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -915,17 +924,26 @@ Lei è un Nato babbano.
  Non parlo di sangue, parlo di come ha passato gli anni della sua infanzia.
  C'è una libertà di pensiero in quello, vero.
  Ma c'è anche saggezza nella cautela del mondo dei maghi.
- Sono passati trecentoventitré anni sin da quando il paese dell'Italia magica
- è stato rovinato dalla follia di un uomo.
+ Sono passati trecentoventitré anni sin da quando i territori magici della
+ Sicilia furono rovinati
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-? forse l'eruzione dell'Etna del 1669...
+EY 2014-07-15; prima era 
+\begin_inset Quotes fld
+\end_inset
+
+il paese dell'Italia magica è stato rovinato
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \end_inset
 
+ dalla follia di un uomo.
  Tali incidenti erano più comuni negli anni in cui Hogwarts fu eretto.
  Ancora più comuni, nel periodo successivo a Merlino.
  Del periodo precedente a Merlino, poco resta da essere studiato.
