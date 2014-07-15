@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -151,20 +160,20 @@ Innervate
  La voce di Harry aveva parlato con distacco al Preside dell'acido Trasfigurato
  nella testa del troll (Silente aveva guardato giù dal bordo della terrazza
  e fatto un gesto prima di tornare) e poi del fatto che le menti dei gemelli
- Weasley erano state manipolate, tenendo una conversazione indipendente
+ Weasley erano state manipolate, portando avanti una conversazione indipendente
  che Harry ricordava ma non riusciva a elaborare.
 \end_layout
 
 \begin_layout Standard
-Harry era rimasto fermo sul corpo di Hermione, non si era mosso da quel
- punto, pensando il più velocemente possibile durante la sensazione di dissociaz
-ione e di tempo frammentato, chiedendosi se ci fosse qualcosa che avrebbe
- dovuto fare 
+Harry era rimasto fermo accanto al corpo di Hermione, non si era mosso da
+ quel punto, pensando il più velocemente possibile dentro quella sensazione
+ di dissociazione e di tempo frammentato, chiedendosi se ci fosse qualcosa
+ che avrebbe dovuto fare 
 \emph on
 in quel momento
 \emph default
 , qualche opportunità che stava passando irrevocabilmente.
- Qualche modo di ridurre l'ammontare di onnipotenza magica che sarebbe stata
+ Qualche modo di ridurre la quantità di onnipotenza magica che sarebbe stata
  necessaria in seguito.
  Un effetto-faro temporale per segnare quell'istante in vista di un successivo
  viaggio nel tempo, se prima o poi avesse trovato un modo di viaggiare indietro
@@ -173,11 +182,11 @@ in quel momento
  che era sembrata molto meno plausibile prima che Harry si fosse imbattuto
  nei Giratempo) e quelle teorie dicevano che non si poteva andare indietro
  a prima che la macchina del tempo fosse stata costruita -- una macchina
- del tempo relativistica manteneva funzionante un percorso continuo attraverso
+ del tempo relativistica manteneva in funzione un percorso continuo attraverso
  il tempo, non teletrasportava nulla.
- Ma Harry non vide nulla di utile che potesse fare usando gli incantesimi
+ Ma Harry non trovò niente di utile che potesse fare usando gli incantesimi
  nel suo dizionario, Silente non era molto collaborativo, e in ogni caso
- questo stava avvenendo diversi minuti dopo la posizione critica all'interno
+ tutto ciò stava avvenendo diversi minuti dopo la posizione critica all'interno
  del Tempo.
 \end_layout
 
@@ -191,8 +200,8 @@ Harry
 
 , sussurrò il Preside, poggiando la mano sulla spalla di Harry.
  Era svanito da dove si trovava, in piedi vicino ai gemelli Weasley, ed
- era comparso a fianco a Harry; George Weasley era stato teletrasportato
- in maniera discontinua da dove stava seduto a inginocchiato vicino al fianco
+ era comparso a fianco a Harry; da dove era seduto George Weasley era stato
+ teletrasportato in maniera discontinua fino a stare inginocchiato al fianco
  di suo fratello, e Fred stava ora giacendo dritto con gli occhi aperti
  e faceva delle smorfie quando respirava.
  
@@ -426,17 +435,17 @@ Hermione no -- no
 
 \begin_layout Standard
 Albus le diede un po' di tempo per piangere; e poi le disse che Harry Potter,
- che aveva visto morire la signorina Granger, si era seduto fuori dal magazzino
- dell'infermeria in cui i resti della signorina Granger erano tenuti, rifiutando
- di muoversi da quel punto, e dicendo a tutti coloro che gli parlavano di
- andarsene in modo che potesse pensare.
+ il quale aveva visto morire la signorina Granger, si era seduto fuori dal
+ magazzino dell'infermeria che ne ospitava i resti, rifiutando di muoversi
+ da quel punto, e dicendo a tutti coloro che gli parlavano di andarsene
+ in modo che potesse pensare.
 \end_layout
 
 \begin_layout Standard
 L'unica cosa che avesse strappato una reazione qualunque al ragazzo era
  stato quando Fawkes aveva provato a cantare per lui; Harry Potter aveva
- gridato alla fenice di non farlo, i suoi sentimenti erano reali, non voleva
- che la magia tentasse di 
+ gridato alla fenice di non farlo, che i suoi sentimenti erano reali, non
+ voleva che la magia tentasse di 
 \emph on
 guarirli
 \emph default
@@ -445,8 +454,8 @@ guarirli
 \end_layout
 
 \begin_layout Standard
-Albus pensò che ella potesse avere la migliore possibilità di arrivare a
- Harry Potter ora.
+Albus pensava che fosse lei ad avere la migliore possibilità di arrivare
+ a Harry Potter, ora.
 \end_layout
 
 \begin_layout Standard
@@ -456,8 +465,8 @@ Così dovette ricomporsi, e pulirsi il volto; ci sarebbe stato tempo in seguito
 \end_layout
 
 \begin_layout Standard
-Minerva McGonagall ricompose i pezzi disgiunti di sé stessa, si asciugò
- le lacrime un'ultima volta, e appoggiò la mano sulla maniglia della sezione
+Minerva McGonagall ricompose i pezzi separati di sé stessa, si asciugò le
+ lacrime un'ultima volta, e appoggiò la mano sulla maniglia della sezione
  dell'infermeria il cui magazzino posteriore era ora usato, per la seconda
  volta in quel secolo e per la quinta volta da quando il castello di Hogwarts
  era stato fatto sorgere, come il luogo di riposo di un promettente e giovane
@@ -504,7 +513,7 @@ Non poté pensare a nulla da dire.
 Per aiutarti -- non stai affatto bene
 \emph default
  -- ma non sapeva cosa dire, non c'era nulla che potesse immaginare di dire
- che avrebbe reso le cose migliori.
+ e che avrebbe migliorato le cose.
  Non si era preparata in anticipo prima di entrare nella stanza, non essendo
  stata al suo meglio.
 \end_layout
@@ -524,8 +533,8 @@ A cosa sta pensando?
 \end_layout
 
 \begin_layout Standard
-Harry fissò per metà lei e per metà oltre lei, una tensione che salì sul
- suo volto, mentre ella tratteneva il respiro.
+Harry fissò per metà lei e per metà oltre lei, una certa tensione che gli
+ salì sul volto, mentre ella tratteneva il respiro.
 \end_layout
 
 \begin_layout Standard
@@ -668,14 +677,14 @@ idiota
  invece di lanciare di nuovo il Patronus e chiamare Silente perché mandasse
  Fawkes!
 \emph default
- O se avessi semplicemente affrontato l'intero problema da un differente
- punto di vista -- se avessi cercato uno studente con un Giratempo per mandare
- indietro nel tempo un messaggio 
+ O se avessi solo affrontato l'intero problema da un punto di vista differente
+ -- se avessi cercato uno studente con un Giratempo per mandare indietro
+ nel tempo un messaggio 
 \emph on
 prima
 \emph default
- di scoprire quello che le stava accadendo, invece di finire con un risultato
- che non può essere alterato -- ho 
+ di scoprire quello che le stava accadendo, invece di arrivare a un risultato
+ che non può essere modificato -- ho 
 \emph on
 chiesto
 \emph default
@@ -797,15 +806,15 @@ Non è così che funziona la responsabilità, Professoressa
 \begin_inset Quotes fld
 \end_inset
 
-Quando compie un'analisi dei guasti, è inutile assegnare un guasto a una
- parte del sistema che in seguito non può cambiare, è come saltare giù da
- un precipizio e dare la colpa alla gravità.
+Quando compie un'analisi dei guasti, è inutile che attribuisca un guasto
+ a una parte del sistema che in seguito non può cambiare, è come saltare
+ giù da un precipizio e dare la colpa alla gravità.
  La gravità non cambierà la prossima volta.
- È inutile cercare di dare la responsabilità a persone che non muteranno
+ È inutile cercare di dare la responsabilità a persone che non modificheranno
  le loro azioni.
  Una volta che la guarda in questo modo, comprenderà che dare la colpa non
  serve mai a nulla a meno che non dia la colpa a sé stessa, perché lei è
- l'unica persona la cui azioni può cambiare dandole la colpa.
+ l'unica persona le cui azioni può cambiare assegnandole la colpa.
  Ecco perché Silente ha una stanza piena di bacchette rotte.
  Comprende questa parte, almeno
 \begin_inset Quotes frd
