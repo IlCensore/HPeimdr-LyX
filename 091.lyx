@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -156,14 +165,14 @@ status open
 \end_layout
 
 \begin_layout Standard
-Poco dopo, ci fu un altro bussare alla porta del magazzino.
+Poco dopo, vi fu un'altra bussata alla porta del magazzino.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Se davvero vi importa della mia sanità mentale
+Se davvero vi interessa la mia sanità mentale
 \begin_inset Quotes frd
 \end_inset
 
@@ -200,9 +209,9 @@ La porta si chiuse con uno scatto dietro Severus Snape.
 
 \begin_layout Standard
 Il Maestro di Pozioni di Hogwarts non aveva nulla della sua consueta arroganza,
- o persino dell'apparenza calcolatrice che assumeva normalmente nell'ufficio
- del Preside; il suo sguardo era strano, mentre guardava in basso verso
- il ragazzo a guardia di quella porta; i suoi pensieri imperscrutabili.
+ o persino dell'aria distaccata che assumeva regolarmente nell'ufficio del
+ Preside; il suo sguardo era strano, mentre guardava in basso verso il ragazzo
+ a guardia di quella porta; i suoi pensieri imperscrutabili.
 \end_layout
 
 \begin_layout Standard
@@ -261,7 +270,7 @@ Quasi
 \end_inset
 
 Sono io quello che ha messo le note sotto il cuscino della signorina Granger,
- dicendole dove trovare le risse in cui è intervenuta
+ dicendole dove trovare gli scontri in cui è intervenuta
 \begin_inset Quotes frd
 \end_inset
 
@@ -291,7 +300,7 @@ Non solo quello
 \end_inset
 
 .
- Ci fu una nota di dolore nella voce del Maestro di Pozioni che vi sembrò
+ C'era una nota di dolore nella voce del Maestro di Pozioni che vi sembrò
  aliena; era difficile immaginare che fosse la stessa voce acida che insegnava
  ai bambini a non mescolare una volta di più o si sarebbero fatti saltare
  in aria i polsi.
@@ -302,12 +311,12 @@ Non solo quello
 Avrei dovuto capirlo\SpecialChar \ldots{}
  molto prima, suppongo, eppure non l'ho proprio visto,
  completamente assorto da me stesso.
- Che io venissi scelto come Preside di Serpeverde\SpecialChar \ldots{}
- significa che Albus Silente
- aveva completamente perso la speranza che Casa Serpeverde potesse essere
- aiutata.
+ Il fatto che io sia stato scelto come Preside di Serpeverde\SpecialChar \ldots{}
+ significa che
+ Albus Silente aveva completamente perso la speranza che Casa Serpeverde
+ potesse essere aiutata.
  Sono certo che Silente debba aver provato, non posso immaginare che non
- abbia provato, quando si prese carico inizialmente di Hogwarts.
+ abbia provato, quando si è fatto carico inizialmente di Hogwarts.
  Deve essere stato un grave colpo per lui, quando in seguito una così gran
  parte di Serpeverde rispose alla chiamata del Signore Oscuro\SpecialChar \ldots{}
  non mi avrebbe
@@ -317,8 +326,8 @@ Avrei dovuto capirlo\SpecialChar \ldots{}
 \end_inset
 
 .
- Le spalle del Maestro di Pozioni scesero, sotto il suo mantello punteggiato
- e macchiato.
+ Le spalle del Maestro di Pozioni si abbassarono, sotto il suo mantello
+ punteggiato e macchiato.
  
 \begin_inset Quotes fld
 \end_inset
@@ -383,7 +392,7 @@ Adorabile
 \begin_inset Quotes fld
 \end_inset
 
-Grazie per averlo chiarito.
+Grazie per aver chiarito la cosa.
  È tutto?
 \begin_inset Quotes frd
 \end_inset
@@ -395,7 +404,7 @@ Grazie per averlo chiarito.
 \begin_inset Quotes fld
 \end_inset
 
-Intende dichiarare che la sua vita è ora in rovina e che non c'è altro per
+Intende affermare che la sua vita è ormai rovinata e che non c'è altro per
  lei se non la vendetta?
 \begin_inset Quotes frd
 \end_inset
@@ -496,7 +505,7 @@ Da cap.
 \end_layout
 
 \begin_layout Standard
-Era andata più o meno così, pensò il ragazzo, se si ricordava correttamente.
+Era andata più o meno così, pensò il ragazzo, se ricordava correttamente.
 \end_layout
 
 \begin_layout Quote
@@ -536,14 +545,14 @@ Harry continuava a fissare la propria bacchetta, che gli giaceva in grembo.
  Un rapido calcolo mentale disse che non c'era ragione di preoccuparsi,
  poiché se quello era l'accumulo di sei o sette mesi di danni, allora la
  durata normale di una vita non avrebbe consumato la bacchetta per intero.
- Sul momento, si sarebbe probabilmente preoccupato che il suo Giratempo
+ In quel momento, probabilmente si sarebbe preoccupato che il suo Giratempo
  gli fosse portato via se avesse gridato apertamente `Qualcuno ha un Giratempo?'
  nella Sala Grande, ma sarebbe stato abbastanza facile prendere l'impegno
  in anticipo di trovare, dopo pranzo, qualcuno che mandasse al professor
  Flitwick un messaggio indietro nel tempo di due ore, e allora il professor
- Flitwick avrebbe potuto semplicemente andare dritto da Hermione, o mandarle
- il proprio corvo Patronus, molto prima che il troll si fosse minimamente
- avvicinato a lei.
+ Flitwick avrebbe potuto andare dritto da Hermione, o mandarle il proprio
+ corvo Patronus, molto prima che il troll si fosse anche solo avvicinato
+ a lei.
  O quell'Harry alternativo avrebbe potuto aver già imparato che era troppo
  tardi -- aver sentito della morte di Hermione dopo pranzo e prima che avesse
  potuto far mandare qualche messaggio indietro nel tempo? Forse una linea
@@ -565,7 +574,7 @@ Harry continuava a fissare la propria bacchetta, che gli giaceva in grembo.
 amente potente, e certamente sarebbe stato conveniente se Harry avesse potuto
  semplicemente aggirare qualunque limitazione concettuale che impediva alla
  gente di inventare incantesimi come `Aggiusta Tutto Per Sempre', ma in
- qualche modo nulla era mai così facile quando la magia era coinvolta.
+ qualche modo nulla era mai così facile quando era in gioco la magia.
  Harry guardò nuovamente il proprio orologio meccanico, ma non era ancora
  il momento.
 \end_layout
@@ -575,7 +584,7 @@ Aveva cercato di lanciare l'Incantesimo Patronus, con l'intenzione di dire
  al suo Patronus di andare da Hermione Granger.
  Giusto nel caso che fosse tutta una bugia, un Incantesimo del Falso Ricordo
  o uno dei chissà quanti modi in cui ai maghi si potevano far chiudere gli
- occhi e dormire.
+ occhi e sognare.
  Giusto nel caso che l'Hermione reale fosse viva e trattenuta da qualche
  parte, malgrado la sensazione che la sua vita l'avesse lasciata.
  Giusto nel caso che vi fosse una vita dopo la morte e il Vero Patronus
@@ -604,7 +613,7 @@ ancora
 \end_layout
 
 \begin_layout Standard
-Il ragazzo seduto là guardò in su con uno sguardo mortale e agghiacciante.
+Il ragazzo là seduto guardò in su con uno sguardo mortale e agghiacciante.
 \end_layout
 
 \begin_layout Standard
@@ -742,16 +751,15 @@ Harry
 
 Papà, sai quei libri fantasy in cui l'eroe deve nascondere tutto dai suoi
  genitori perché loro, loro non capirebbero, reagirebbero stupidamente e
- si metterebbero in mezzo ai piedi dell'eroe? È un espediente narrativo,
- giusto, in modo che l'eroe debba risolvere tutto da solo invece di dirlo
- ai propri genitori.
+ intralcerebbero l'eroe? È un espediente narrativo, giusto, in modo che
+ l'eroe debba risolvere tutto da solo invece di dirlo ai propri genitori.
  Ti p-prego non essere quell'espediente narrativo, Papà, o anche tu, Mamma.
  Non\SpecialChar \ldots{}
  non interpretate quella parte.
  Non siate i genitori che non capiranno.
  N-non sgridatemi avanzando richieste genitoriali che non posso soddisfare.
  Perché sono finito per caso in uno stupido e sanguinario romanzo fantasy
- e ora Hermione -- n-non ho l'energia per sopportarlo.
+ e ora Hermione -- n-non ho la forza per sopportarlo.
 \begin_inset Quotes frd
 \end_inset
 
@@ -794,13 +802,13 @@ Mi d-dicono che il Signore Oscuro che ho sconfitto potrebbe essere ancora
  Così, potrebbe anche essere che il Preside della mia scuola, che è il mago
  più potente del mondo, sia impazzito.
  E, e prima di questo Hermione è stata incastrata per un tentato omicidio,
- non che qualcuno l'avrebbe raccontato ai suoi genitori o cose simili.
+ non che qualcuno l'abbia raccontato ai suoi genitori o cose simili.
  Lo studente del cui tentato omicidio è stata accusata era il figlio di
  Lucius Malfoy, che è il più potente politico della Gran Bretagna magica,
  e che è stato il numero due del Signore Oscuro.
  L'incarico di Professore di Difesa di questa scuola ha una maledizione,
- nessuno mai dura più di un anno, hanno un proverbio che dice che il Professore
- di Difesa è sempre un sospettato.
+ nessuno mai resiste più di un anno, hanno un proverbio che dice che il
+ Professore di Difesa è sempre un sospettato.
  Il Professore di Difesa di quest'anno è segretamente un mago misterioso
  che si è opposto al Signore Oscuro durante l'ultima guerra e che potrebbe
  essere o meno malvagio egli stesso.
@@ -816,7 +824,7 @@ Mi d-dicono che il Signore Oscuro che ho sconfitto potrebbe essere ancora
 \begin_inset Quotes fld
 \end_inset
 
-Penso che sia la parte principale della trama dannatamente stupida
+Penso che sia la parte principale di questa trama dannatamente stupida
 \begin_inset Quotes frd
 \end_inset
 
@@ -824,7 +832,7 @@ Penso che sia la parte principale della trama dannatamente stupida
 \end_layout
 
 \begin_layout Standard
-L'uomo, che aveva ascoltato in silenzio tutto ciò, si alzò.
+L'uomo, che aveva ascoltato tutto ciò in silenzio, si alzò.
  Mise una mano gentile sulla spalla del ragazzo.
  
 \begin_inset Quotes fld
@@ -852,7 +860,7 @@ La donna stava guardando il ragazzo, il suo volto che poneva una domanda.
 \end_layout
 
 \begin_layout Standard
-Il ragazzo le restituì lo sguardo e annuì.
+Il ragazzo ricambiò lo sguardo e annuì.
 \end_layout
 
 \begin_layout Standard
@@ -1260,7 +1268,7 @@ Dico sul serio, Papà.
  Nella Gran Bretagna magica ti è permesso di ricordare solo ciò che il governo
  pensa che dovresti ricordare, e ricordare l'esistenza della magia o che
  hai un figlio di nome Harry è un privilegio, non un diritto.
- E se loro lo facessero andrei a pezzi e trasformerei il Ministero in un
+ E se loro lo facessero andrei in pezzi e trasformerei il Ministero in un
  gigantesco cratere fumante.
  Mamma, tu sai come vanno le cose, devi assolutamente impedire a Papà di
  fare qualcosa di stupido
@@ -1361,7 +1369,7 @@ Il ragazzo si appoggiò al muro.
 \end_inset
 
 No, Papà, non mi sto trasformando in un adolescente.
- Ho controllato col mio cervello e pensa ancora che le ragazze siano melense.
+ Ho controllato col mio cervello e pensa ancora che le ragazze siano sdolcinate.
  Ma se questo è ciò che vuoi fingere, allora va bene.
  Forse starò meglio se non mi credi.
  È solo che
@@ -1411,8 +1419,8 @@ Hermione non mi piaceva in quel senso
 \end_inset
 
 Perché tutti quanti continuano a pensare che dovesse essere per quello?
- È irrispettoso per lei, pensare che potesse piacere a qualcuno solo in
- quel senso
+ È irrispettoso verso di lei lei, pensare che potesse piacere a qualcuno
+ solo in quel senso
 \begin_inset Quotes frd
 \end_inset
 
@@ -1425,8 +1433,8 @@ L'uomo deglutì visibilmente.
 \begin_inset Quotes fld
 \end_inset
 
-Comunque, figliolo, tieniti al sicuro mentre provvediamo a farti uscire
- da qui, questo è chiaro? Non metterti a pensare sul serio che sei passato
+Comunque, figliolo, resta al sicuro mentre provvediamo a farti uscire da
+ qui, questo è chiaro? Non metterti a pensare sul serio che sei passato
  al lato oscuro.
  So che hai avuto, ah, quelli che di solito chiamavo i tuoi momenti Ender
  Wiggin
