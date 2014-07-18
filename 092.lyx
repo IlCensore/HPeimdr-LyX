@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -164,7 +173,7 @@ Non c'era nient'altro da organizzare.
 \end_layout
 
 \begin_layout Standard
-Non c'era nient'altro da pensare.
+Non c'era nient'altro su cui riflettere.
 \end_layout
 
 \begin_layout Standard
@@ -215,7 +224,7 @@ Giunse infine a un bivio dove attendeva un ragazzo più grande con vesti
 Harry stava indossando il Mantello dell'Invisibilità, naturalmente, se l'era
  messo addosso dopo aver lasciato l'ufficio, rendendosi immune a quasi tutte
  le forme di rilevamento magico.
- Era inutile facilitare a chiunque il compito di trovarlo e ucciderlo.
+ Non aveva senso rendere facile a chiunque il compito di trovarlo e ucciderlo.
  E Harry si era quasi deciso a proseguire oltre senza darsi pena di scoprire
  cosa stesse accadendo, quando riconobbe il volto del ragazzo Serpeverde.
 \end_layout
@@ -327,7 +336,7 @@ mi sono sbagliato, vero?
 \end_inset
 
 Hai agito esattamente come avresti dovuto fare, in quelle circostanze.
- Sono stato io a essere sciocco.
+ Sono stato sciocco io.
 \begin_inset Quotes frd
 \end_inset
 
@@ -358,8 +367,8 @@ fossi
 \end_inset
 
  Non era neppure la domanda corretta, la domanda corretta era se Harry stesso
- avrebbe considerato Lesath come sufficiente allo scopo e fosse volato via
- sessanta secondi prima, ma comunque\SpecialChar \ldots{}
+ avrebbe considerato Lesath sufficiente allo scopo e fosse volato via sessanta
+ secondi prima, ma comunque\SpecialChar \ldots{}
 
 \end_layout
 
@@ -427,7 +436,7 @@ Lesath Lestrange s'inchinò e disse,
 \begin_inset Quotes fld
 \end_inset
 
-Sì, mio signore, seguirò i suoi ordini se posso, mio signore
+Sì, mio signore, eseguirò i suoi ordini se posso, mio signore
 \begin_inset Quotes frd
 \end_inset
 
@@ -449,7 +458,7 @@ Harry fissò il muro.
 
 \begin_layout Standard
 Aveva sinceramente pensato di aver già immaginato tutti i modi differenti
- in cui era stato stupido, dopo aver passato mezza giornata a pensarci.
+ in cui era stato stupido, dopo aver passato mezza giornata a rifletterci.
 \end_layout
 
 \begin_layout Standard
@@ -558,7 +567,7 @@ prossimo
 \end_layout
 
 \begin_layout Standard
-Harry stava iniziando a preoccuparsi di stare diventando pazzo.
+Harry iniziava a preoccuparsi di stare diventando pazzo.
  Le conversazioni che aveva con le voci nella sua testa non erano così,
  di solito.
 \end_layout
@@ -634,7 +643,7 @@ preoccupazione
  Parte di Minerva si chiese in maniera distaccata se Harry Potter avesse
  preso quell'abitudine dal suo Professore di Difesa, l'essere inconsapevole
  del dolore degli altri quando v'era qualcos'altro nella sua mente, o se
- era solo un difetto infantile da cui quest'uomo era in qualche modo stato
+ era solo un difetto infantile da cui quest'uomo era stato in qualche modo
  incapace di liberarsi crescendo.
 \end_layout
 
@@ -714,14 +723,13 @@ Il professor Quirrell iniziò a camminare a grandi passi all'interno dei
 \begin_inset Quotes fld
 \end_inset
 
-La signorina Granger era l'unica le cui preoccupazioni egli ascoltava veramente
- -- con lei andata -- tutti i freni alla sventatezza del ragazzo sono stati
- rimossi.
+La signorina Granger era l'unica di cui ascoltava veramente le preoccupazioni
+ -- scomparsa lei -- ogni freno alla sventatezza del ragazzo è stato rimosso.
  Lo capisco ora.
  Chi altro rimane? Il signor Longbottom? Il signor Potter non finge che
  siano dei pari.
  Flitwick? Il suo sangue goblin chiederebbe soltanto vendetta.
- Il signor Malfoy, se tornasse? A quale scopo? Snape? Un disastro che cammina.
+ Il signor Malfoy, se tornasse? A quale scopo? Snape? Un disastro ambulante.
  Silente? Pfah.
  Gli eventi sono già predisposti per la catastrofe, devono essere guidati
  lungo un corso che non seguirebbero naturalmente.
@@ -730,8 +738,8 @@ e? Cedric Diggory gli ha insegnato, ma cosa suggerirebbe il signor Diggory?
  Un'incognita.
  Il signor Potter ha passato molto tempo a parlare con Remus Lupin.
  A lui ho dedicato scarsa attenzione.
- Saprebbe Lupin le parole da pronunciare, l'atto che deve essere compiuto,
- il sacrificio che deve essere fatto per cambiare il corso del ragazzo?
+ Lupin saprebbe quali parole pronunciare, quale l'atto che deve essere compiuto,
+ quale il sacrificio che deve essere fatto per cambiare il corso del ragazzo?
 \begin_inset Quotes frd
 \end_inset
 
@@ -752,7 +760,7 @@ Remus Lupin confortava gli addolorati o fermava coloro che erano spinti
 \begin_inset Quotes fld
 \end_inset
 
-Non è un pensiero sbagliato
+Non è un'idea sbagliata
 \begin_inset Quotes frd
 \end_inset
 
@@ -783,8 +791,8 @@ James Potter
 \end_inset
 
 Il ragazzo non è molto simile a James Potter.
- È fiduciosa nel successo di questo piano? No, questa è la domanda sbagliata,
- non eravamo limitati a un solo piano.
+ Confida nel successo di questo piano? No, questa è la domanda sbagliata,
+ non siamo limitati a un solo piano.
  È certa che questo piano sarà 
 \emph on
 sufficiente
@@ -806,7 +814,7 @@ sufficiente
 \begin_inset Quotes fld
 \end_inset
 
-Le mie scuse, Professore
+Mi scusi, Professore
 \begin_inset Quotes frd
 \end_inset
 
@@ -846,8 +854,8 @@ Lei
 \emph on
 Lei
 \emph default
- sarebbe la prima a cui penserei dopo la signorina Granger, per fermare
- il ragazzo da una follia.
+ sarebbe la prima a cui penserei dopo la signorina Granger, per impedire
+ al ragazzo di compiere una follia.
  Ha già fatto tutto il possibile? Naturalmente no
 \begin_inset Quotes frd
 \end_inset
@@ -906,8 +914,8 @@ Sì, in effetti.
 \begin_layout Standard
 Magia pura, potere puro precipitarono nella stanza come il bagliore di un
  lampo, come un tuono che echeggiò nelle sue orecchie e che assordò tutti
- i suoi altri sensi, i fogli sulla sua scrivania scagliati da parte non
- da un qualunque vento evocato ma dalla pura forza bruta di un potere arcano.
+ i suoi altri sensi, i fogli sulla sua scrivania scagliati via non da un
+ qualunque vento evocato ma dalla pura forza bruta di un potere arcano.
 \end_layout
 
 \begin_layout Standard
@@ -936,8 +944,8 @@ pericoloso
 \emph default
 .
  È possibile che lei abbia già fatto tutto ciò che poteva.
- Eppure trovo che questo sia un evento davvero molto raro, e più spesso
- detto che fatto.
+ Eppure trovo che questo sia un evento davvero molto raro, e di cui si parla
+ più spesso di quanto avvenga.
  Sospetto piuttosto che lei abbia fatto solo ciò che fa solitamente.
  Non posso davvero comprendere cosa spinga gli altri a infrangere i propri
  limiti, poiché non ne ho mai avuti.
@@ -966,7 +974,7 @@ tutto ciò che poteva
 \begin_inset Quotes fld
 \end_inset
 
-Io sono una Grifondoro e non mi è dato di essere mossa dalla paura
+Io sono una Grifondoro e non sono solita essere spinta dalla paura
 \begin_inset Quotes frd
 \end_inset
 
@@ -997,7 +1005,7 @@ Trovo che la paura sia un'eccellente motivazione, e in effetti è la paura
  È mio giudizio professionale, parlando in qualità di mago erudito quasi
  allo stesso livello di Silente o di Colui-Che-Non-Deve-Essere-Nominato,
  che il ragazzo potrebbe unirsi ai ranghi di coloro i cui rituali sono incisi
- sulle lapidi dei paesi.
+ sulle lapidi delle nazioni.
  Questa non è un'oziosa preoccupazione, McGonagall, ho già udito parole
  che inducono la più grave delle apprensioni
 \begin_inset Quotes frd
@@ -1010,8 +1018,8 @@ Trovo che la paura sia un'eccellente motivazione, e in effetti è la paura
 \begin_inset Quotes fld
 \end_inset
 
-È pazzo? Pensa che il signor Potter possa -- questo è ridicolo.
- È impossibile che il signor Potter
+Lei è forse pazzo? Pensa che il signor Potter possa -- questo è ridicolo.
+ È impossibile che il signor Potter possa
 \begin_inset space ~
 \end_inset
 
@@ -1046,12 +1054,12 @@ farebbe
 \begin_inset Quotes fld
 \end_inset
 
-La sua scelta intenzionale non è necessaria.
+Una sua scelta deliberata non è necessaria.
  Raramente i maghi hanno intenzione di invocare la propria rovina.
  Il signor Potter può non darle l'impressione di essere particolarmente
  malvagio.
- Le sembra avventato, una volta che sia determinato circa un obiettivo?
- Ripeto ancora che ho una ragione specifica per la più grave delle apprensioni
+ Le sembra avventato, una volta che sia risoluto circa un obiettivo? Ripeto
+ ancora che ho una ragione specifica per la più grave delle apprensioni
  
 \emph on
 possibili!
@@ -1078,7 +1086,7 @@ Ha parlato di questo col Preside?
 \begin_inset Quotes fld
 \end_inset
 
-Quello sarebbe peggio che inutile.
+Questo sarebbe peggio che inutile.
  Silente non può arrivare al ragazzo.
  Nel migliore dei casi è abbastanza saggio da saperlo e non rendere le cose
  peggiori.
@@ -1099,12 +1107,12 @@ Lei
 
 Penso che mi consulterò con Severus Snape.
  Quell'uomo può essere un disastro ambulante, ma conosce la situazione,
- e potrebbe possedere una più completa comprensione dell'umore del ragazzo.
+ e potrebbe possedere una comprensione più completa dell'umore del ragazzo.
  Quanto a lei, signora, si immagini alla fine della sua vita, sapendo che
  la Gran Bretagna -- ma no, la Gran Bretagna non è il suo vero paese, giusto?
  Si immagini alla fine della sua vita mentre l'oscurità corrode i muri in
- declino di Hogwarts, sapendo che i suoi studenti morranno con lei, ricordando
- questo giorno e capendo che c'era qualcos'altro che avrebbe potuto fare
+ declino di Hogwarts, sapendo che i suoi studenti morranno con lei, ricordare
+ questo giorno e capire che c'era qualcos'altro che avrebbe potuto fare
 \begin_inset Quotes frd
 \end_inset
 
