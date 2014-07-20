@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -148,16 +157,16 @@ Il primo incontro
 \end_layout
 
 \begin_layout Standard
-Alle 6:07 del 17 aprile 1992, il sole stava appena sorgendo sopra l'orizzonte
+Alle 6:07 del 17 aprile 1992 il sole stava appena sorgendo sopra l'orizzonte
  visibile dal castello di Hogwarts, filtrando attraverso le tende chiuse
- del dormitorio dei ragazzi del primo anno di Corvonero per fornire una
- luce gentile, rosso-arancio per l'aurora e poco mutata dal tessuto bianco
- che copriva le finestre, che non svegliava ancora i ragazzi più abituati
- agli orari invernali.
+ all'interno del dormitorio dei ragazzi del primo anno di Corvonero per
+ fornire una luce gentile, rosso-arancio a causa dell'aurora e scarsamente
+ alterata dal tessuto bianco che copriva le finestre, non ancora capace
+ di svegliare i ragazzi, più abituati agli orari invernali.
 \end_layout
 
 \begin_layout Standard
-In un letto tra tanti, Harry Potter dormiva il sonno del giusto spossato.
+In un letto tra tanti, Harry Potter dormiva il sonno dei giusti spossati.
 \end_layout
 
 \begin_layout Standard
@@ -165,7 +174,7 @@ Silenziosamente la porta si aprì.
 \end_layout
 
 \begin_layout Standard
-Silenziosamente una figura camminò sul pavimento.
+Silenziosamente una figura attraversò la stanza camminando sul pavimento.
 \end_layout
 
 \begin_layout Standard
@@ -174,7 +183,7 @@ Quella figura giunse al letto di Harry Potter.
 
 \begin_layout Standard
 La figura stese una mano sulla spalla del ragazzo dormiente, che trasalì
- e stillò.
+ e strillò.
 \end_layout
 
 \begin_layout Standard
@@ -203,9 +212,9 @@ il Preside ha richiesto la sua presenza immediata
 \begin_layout Standard
 Lentamente il ragazzo si mise a sedere sul letto, le mani momentaneamente
  armeggianti sotto le coperte.
- Si era aspettato di sentirsi molto peggio, a svegliarsi quella mattina.
+ Si era aspettato di sentirsi molto peggio, risvegliandosi quella mattina.
  Sembrava\SpecialChar \ldots{}
- sbagliato, che il suo cervello funzionasse in quel momento, che
+ sbagliato, che in quel momento il suo cervello funzionasse, che
  i suoi pensieri fossero ancora in moto, che non fosse reso inabile dal
  piangere per almeno una settimana.
  Il ragazzo sapeva che quella non sarebbe stata una risposta adattiva, poiché
@@ -262,7 +271,7 @@ Meno di un minuto dopo -- il professor Flitwick l'aveva mandato dritto nell'uffi
 cio del Preside attraverso la Metropolvere interna di Hogwarts -- Harry
  si ritrovò, ancora in pigiama, a fronteggiare Albus Silente.
  Anche la Vicepreside era seduta in un'altra sedia, e il Maestro di Pozioni
- si era appostato là vicino tra gli strani congegni, colto da un enorme
+ era appostato là vicino in mezzo agli strani congegni, colto da un enorme
  sbadiglio proprio mentre Harry era entrato dal camino.
 \end_layout
 
@@ -284,9 +293,9 @@ prima di dire ciò che devo dire, ti riferisco che Hermione Granger è realmente
  Le pietre stesse hanno detto che una strega era morta.
  Ho verificato il suo corpo che giaceva là e quelli erano gli autentici
  resti mortali di Hermione Granger, non una bambola o qualcosa di somigliante.
- Non c'è modo conosciuto al mondo dei maghi attraverso cui la morte possa
- essere annullata.
- Detto questo, i resti Hermione Granger sono ora scomparsi dal magazzino
+ Non c'è alcun modo noto al mondo dei maghi attraverso cui si possa disfare
+ la morte.
+ Detto questo, i resti di Hermione Granger sono ora scomparsi dal magazzino
  in cui erano collocati, e dove tu hai fatto loro la guardia.
  Li hai presi tu, Harry Potter?
 \begin_inset Quotes frd
@@ -308,7 +317,7 @@ No
 \end_layout
 
 \begin_layout Standard
-Anche lo sguardo di Silente era sottile, sebbene non ostile.
+Anche lo sguardo di Silente era intento, sebbene non ostile.
  
 \begin_inset Quotes fld
 \end_inset
@@ -425,10 +434,10 @@ Quali sarebbero?
 \begin_inset Quotes fld
 \end_inset
 
-Se il nemico può notarla correre a consultare i gemelli Weasley durante
- le lezioni dopo che Hermione fu arrestata, e venire a sapere di quella
- mappa magica che lei dice essere stata rubata, allora il nemico può chiedersi
- perché stavo vegliando sul corpo di Hermione Granger.
+Se il nemico è in grado di notarla correre a consultare i gemelli Weasley
+ durante le lezioni dopo che Hermione fu arrestata, e venire a sapere di
+ quella mappa magica che lei ha detto essere stata rubata, allora il nemico
+ è in grado di chiedersi perché stavo vegliando sul corpo di Hermione Granger.
  Tocca a me.
  Ha organizzato la morte di Hermione con la speranza di riottenere il denaro
  da Lucius?
@@ -480,10 +489,10 @@ Sapeva o sospettava che Hermione Granger sarebbe morta?
 \end_inset
 
 Non lo sapevo.
- Quanto ai sospetti, l'ho messa nella posizione più strenuamente difesa
- in cui ho potuto, contro Voldemort.
- Non volevo la sua morte, né l'ho permessa, né ho progettato di beneficiarne,
- Harry Potter.
+ Quanto ai sospetti, l'ho collocata nella posizione più strenuamente difesa
+ a me possibile, contro Voldemort.
+ Non desideravo la sua morte, né l'ho permessa, né ho progettato di beneficiarne
+, Harry Potter.
  Ora mostrami la tua borsa.
 \begin_inset Quotes frd
 \end_inset
@@ -612,7 +621,7 @@ Devo esserne sicuro.
 \end_layout
 
 \begin_layout Standard
-Lentamente, Harry fece così, rimuovendo la gemma e ponendo l'anello dall'altra
+Lentamente, Harry eseguì, rimuovendo la gemma e ponendo l'anello dall'altra
  parte della scrivania.
 \end_layout
 
@@ -625,9 +634,9 @@ Silente puntò la sua bacchetta contro la gemma e
 \end_layout
 
 \begin_layout Standard
-Un'enorme e anonima roccia grigia saltò in aria dalla forza della sua improvvisa
- espansione, colpendo qualche barriera invisibile nell'aria al di sopra,
- e poi cadendo con un forte schianto sulla scrivania del Preside.
+Un'enorme e anonima roccia grigia saltò in aria a causa della forza della
+ sua improvvisa espansione, colpendo qualche barriera invisibile nell'aria
+ al di sopra, e poi cadendo con un forte schianto sulla scrivania del Preside.
 \end_layout
 
 \begin_layout Standard
@@ -911,8 +920,8 @@ Quindi questo era un tentativo di incastrare il professor Quirrell.
 modus operandi
 \emph default
  del nemico.
- Il troll mangia Hermione Granger, controlla le protezioni, oh guarda in
- realtà l'ha fatto il Professore di Difesa, come l'anno scorso\SpecialChar \ldots{}
+ Un troll mangia Hermione Granger, controlliamo le protezioni, oh guarda
+ in realtà l'ha fatto il Professore di Difesa, come l'anno scorso\SpecialChar \ldots{}
  no.
  No, non può essere giusto
 \begin_inset Quotes frd
@@ -970,15 +979,15 @@ Lentamente l'annebbiamento dovuto al sonno stava abbandonando la mente di
 
 \begin_layout Standard
 Secondo le norme letterarie consuete\SpecialChar \ldots{}
- il nemico non avrebbe dovuto esaminare
- ciò che avevi fatto, sabotare gli oggetti magici che avevi distribuito,
- e poi mandare un troll reso non rilevabile con metodi che gli eroi non
- potevano comprendere anche dopo i fatti, cosicché avresti potuto non difenderti
- affatto.
+ il nemico non avrebbe dovuto poter
+ esaminare ciò che avevi fatto, sabotare gli oggetti magici che avevi distribuit
+o, e poi mandare un troll reso irrilevabile con metodi che gli eroi non
+ potevano comprendere neppure dopo i fatti, cosicché avresti potuto anche
+ non difenderti per niente.
  In un libro, il punto di vista generalmente restava sui personaggi principali.
- Che un nemico aggirasse semplicemente tutto il lavoro dei protagonisti,
- come risultato di una pianificazione e di azioni presi letteralmente fuori
- dalla visuale, sarebbe stato un 
+ Un nemico che riuscisse a vanificare aggirandoli tutti gli sforzi dei protagoni
+sti, a seguito di un piano e di azioni compiute letteralmente fuori dalla
+ visuale, sarebbe stato un 
 \emph on
 diabolus ex machina
 \emph default
@@ -1015,8 +1024,9 @@ Il nemico sapeva perfettamente bene che sarebbe tornato indietro nel tempo
 
 .
  Harry chiuse gli occhi, pensando più intensamente, cercando di mettersi
- nelle scarpe del nemico.
- Avrebbe egli, o il suo lato oscuro, fatto qualcosa come -- 
+ nei panni del nemico.
+ Perché egli stesso, o il suo lato oscuro, avrebbero fatto qualcosa come
+ -- 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1041,9 +1051,10 @@ Come avrei fatto io
 In seguito, per ipotesi, le protezioni mostrano la professoressa Sinistra
  che uccide qualcuno.
  Pensiamo che le protezioni siano state ingannate di nuovo, ma in realtà
- la professoressa Sinistra è stata oggetto di Legilimanzia e 
+ la professoressa Sinistra è stata oggetto di Legilimanzia e l'ha fatto
+ 
 \emph on
-l'ha fatto
+davvero
 \emph default
 
 \begin_inset Quotes frd
@@ -1056,7 +1067,7 @@ l'ha fatto
 \begin_inset Quotes fld
 \end_inset
 
-A meno che quello sia esattamente ciò che il Signore Oscuro si aspetta che
+A meno che questo sia esattamente ciò che il Signore Oscuro si aspetta che
  pensiamo
 \begin_inset Quotes frd
 \end_inset
@@ -1105,7 +1116,7 @@ Sì
 \end_layout
 
 \begin_layout Standard
-Harry annuì vagamente.
+Harry annuì assorto.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1155,7 +1166,7 @@ e.
 \end_layout
 
 \begin_layout Standard
-Harry alzò una mano e si strofinò le sopracciglia, proprio sotto i capelli.
+Harry alzò una mano e si strofinò la fronte, proprio sotto i capelli.
 \end_layout
 
 \begin_layout Standard
@@ -1178,9 +1189,9 @@ cicatrice
 \emph on
  contenere il frammento dell'anima che sta tenendo ancorato al mondo il
  Signore Oscuro, in modo che egli non voglia uccidermi? Invece sta cercando
- di cacciare tutti i miei amici per indebolire il mio spirito in modo che
- lui possa prendere il controllo del mio corpo? Spiegherebbe la cosa della
- Rettilofonia.
+ di allontanare tutti i miei amici per indebolire il mio spirito in modo
+ che lui possa prendere il controllo del mio corpo? Spiegherebbe la cosa
+ della Rettilofonia.
  Il Cappello Smistatore potrebbe non essere in grado di rilevare un coso-lich-fi
 latterio.
  Problema palese 1, si suppone che il Signore Oscuro abbia prodotto il suo
@@ -1192,10 +1203,11 @@ latterio.
 \begin_layout Standard
 
 \emph on
-Sebbene anche Silente pensava che il mio sangue fosse un ingrediente cruciale
- in un rituale per ripristinare la forza piena del Signore Oscuro, cosa
- che richiederebbe tenermi vivo fino ad allora\SpecialChar \ldots{}
- ecco un pensiero allegro.
+Sebbene Silente abbia anche pensato che il mio sangue fosse un ingrediente
+ cruciale in un rituale per ripristinare pienamente le forze del Signore
+ Oscuro, cosa che richiederebbe tenermi vivo fino ad allora\SpecialChar \ldots{}
+ ecco un pensiero
+ allegro.
 \end_layout
 
 \begin_layout Standard
@@ -1242,8 +1254,8 @@ ora
  È chiaramente il prossimo bersaglio e nessuno studente del primo anno potrebbe
  sopravvivere a questo livello di attacchi.
  Siamo fortunati che Neville non sia stato assassinato ieri sera, il nemico
- non deve aspettare prima che abbiamo terminato il lutto per fare la prossima
- mossa
+ non deve aspettare che abbiamo terminato il nostro lutto prima di fare
+ la prossima mossa
 \begin_inset Quotes frd
 \end_inset
 
@@ -1343,13 +1355,13 @@ Fino al punto in cui lo porta via da qui lei stessa, indipendentemente da
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall chiuse brevemente i propri occhi.
+La professoressa McGonagall chiuse brevemente gli occhi.
  
 \begin_inset Quotes fld
 \end_inset
 
-Sì, ma certamente deve esserci qualche altro modo per essere responsabile
- senza minacce di azioni unilaterali
+Sì, ma certamente dovrebbe esistere qualche altro modo di essere responsabile
+ che non includa minacce di azioni unilaterali
 \begin_inset Quotes frd
 \end_inset
 
@@ -1447,7 +1459,7 @@ Ho davvero bisogno di far visita al bagno, e vorrei anche cambiarmi questo
 \begin_layout Quote
 \align center
 \begin_inset Graphics
-	filename ../../HPMOR/GitHub/fleur.png
+	filename fleur.png
 	scale 50
 
 \end_inset
@@ -1532,7 +1544,7 @@ Nulla di meglio
 
 
 \emph on
-Nihil ſupernum
+Nihil supernum
 \emph default
 
 \begin_inset Quotes frd
@@ -1545,7 +1557,7 @@ Nihil ſupernum
 
 Non è 
 \emph on
-proprio
+esattamente
 \emph default
  quello che significa
 \begin_inset Quotes frd
@@ -1593,8 +1605,8 @@ Spero che tu non la brami per te stesso, giovane Corvonero
 \begin_inset Quotes fld
 \end_inset
 
-Niente affatto, voglio solo accertarmi che lei non la stia tenendo definitivamen
-te nascosta ai suoi legittimi utilizzatori.
+Niente affatto, voglio solo accertarmi che lei non la stia sottraendo definitiva
+mente ai suoi legittimi utilizzatori.
  Così i gemelli Weasley sono l'Erede di Grifondoro, allora?
 \begin_inset Quotes frd
 \end_inset
@@ -1736,7 +1748,7 @@ Il Preside entrò nel fuoco verde, e svanì.
 \begin_layout Quote
 \align center
 \begin_inset Graphics
-	filename ../../HPMOR/GitHub/fleur.png
+	filename fleur.png
 	scale 50
 
 \end_inset
@@ -1864,7 +1876,7 @@ Appena più che inutili?
 
 
 \emph on
-Sensibilmente
+Decisamente
 \emph default
  meglio che inutili.
  Neville, hai compiuto un errore di giudizio.
@@ -1936,13 +1948,13 @@ Uau.
  Passerai delle settimane a ricordare quella cosa che hai fatto lì per sei
  secondi, lo so, ma nessun altro si darà pena di pensarci.
  Le altre persone passano molto meno tempo a pensare ai tuoi errori passati
- di quanto faccia tu, semplicemente perché tu non sei il centro dei loro
- mondi.
+ di quanto faccia tu, semplicemente perché tu non sei il centro del loro
+ mondo.
  Ti 
 \emph on
 garantisco
 \emph default
- che nessuno eccetto te ha persino 
+ che nessuno eccetto te ha neppure 
 \emph on
 preso in considerazione
 \emph default
