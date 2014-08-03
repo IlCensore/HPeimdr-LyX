@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -141,10 +150,10 @@ Domenica, 19 aprile, 18:34
 
 \begin_layout Standard
 Daphne Greengrass camminava silenziosamente verso la stanza Greengrass al
- di sotto dei sotterranei Serpeverde, il privilegio di un'Antica Casa; diretta
- ad accompagnarvi il proprio baule dall'Hogwarts Express, prima di unirsi
- agli altri studenti per cena.
- L'intera area riservata era stata tutta sua sin da quando Malfoy se n'era
+ di sotto dei sotterranei Serpeverde, il privilegio di un'Antica Casa; provenien
+te dall'Hogwarts Express e diretta là per lasciarvi il proprio baule, prima
+ di unirsi agli altri studenti per cena.
+ L'intera zona riservata era stata tutta sua sin da quando Malfoy se n'era
  andato.
  La sua mano, tenuta dietro di lei, faceva continuamente gesto di tenerle
  dietro al suo enorme baule tempestato di smeraldi, che sembrava esitante
@@ -164,9 +173,9 @@ C'era stata una lunga chiacchierata tra sua Madre e suo Padre, dopo che
 Sua Madre aveva detto che la cosa triste era che se solo uno studente fosse
  morto ogni anno, beh, quello avrebbe reso Hogwarts comunque più sicuro
  di Beauxbatons, per non parlare di Durmstrang.
- Per una giovane strega c'erano più modi di morire che il solo essere uccisa.
- Semplicemente, il Maestro di Trasfigurazioni di Beauxbatons non era allo
- stesso livello di McGonagall, aveva detto sua Madre.
+ Per una giovane strega c'erano più modi di morire dell'essere assassinata.
+ Il Maestro di Trasfigurazioni di Beauxbatons non era allo stesso livello
+ di McGonagall, aveva detto sua Madre.
 \end_layout
 
 \begin_layout Standard
@@ -175,8 +184,8 @@ Suo Padre aveva sobriamente notato quanto fosse importante per l'erede dei
  a scuola i loro figli (era la ragione per l'antica tradizione delle Nobili
  famiglie di sincronizzare la nascita dei loro eredi, per metterli nello
  stesso anno a Hogwarts, se fosse stato possibile).
- E suo Padre aveva detto che essere l'ereditiera di un'Antichissima Casa
- significava che non si poteva stare sempre lontano dai guai.
+ E suo Padre aveva detto che essere l'erede di un'Antichissima Casa significava
+ che non si poteva stare sempre lontano dai guai.
 \end_layout
 
 \begin_layout Standard
@@ -380,9 +389,9 @@ Malfoy!
 \begin_layout Standard
 Lentamente, come per non causare spavento, la figura in vesti argentee estrasse
  una bacchetta dal proprio abito.
- La mano di Daphne si irrigidì sulla propria bacchetta, ma poi ella riconobbe
- la posizione delle dita sulla bacchetta, la posa che la figura stava assumendo,
- e inspirò stupefatta
+ La mano di Daphne si irrigidì sulla propria, ma poi ella riconobbe la posizione
+ delle dita sulla bacchetta, la posa che la figura stava assumendo, e inspirò
+ stupefatta
 \begin_inset space ~
 \end_inset
 
@@ -437,7 +446,7 @@ Perché sapevo che la malattia che corrompe il cuore di Casa di Serpeverde,
  L'odio per i Nati babbani, o semplicemente per tutti.
  La gente pensa che questo sia tutto ciò in cui consiste ora Serpeverde,
  non scaltrezza e ambizione od onorevole nobiltà.
- E persino io so, perché è ovvio anche solo guardando, che Hermione Granger
+ E persino io so, perché è ovvio se solo la guardavi, che Hermione Granger
  non era debole quanto a magia
 \begin_inset Quotes frd
 \end_inset
@@ -613,7 +622,7 @@ Apparentemente, Harry Potter si era abituato a essere invisibile; avevano
  intravisto la sua mano solo brevemente, quando aveva porto loro la lista,
  scritta su di una strana non-pergamena.
  Harry aveva spiegato che, tutto considerato, non pensava davvero che fosse
- furbo che lui fosse 
+ astuto che lui fosse 
 \emph on
 trovabile
 \emph default
@@ -654,8 +663,8 @@ non
 \emph default
  sarà in grado di evadere quest'ordine direttamente, ma potrebbe conoscere
  qualcuno che può ottenere queste cose dal mondo babbano.
- E -- so che potrebbe costare di più, ma il numero minore possibile di persone
- dovrebbero sapere che Harry Potter è collegato a questa faccenda
+ E -- so che potrebbe costare di più, ma il minor numero possibile di persone
+ dovrebbe sapere che Harry Potter è collegato a questa cosa
 \begin_inset Quotes frd
 \end_inset
 
@@ -689,7 +698,7 @@ Cosa
 \begin_inset Quotes frd
 \end_inset
 
- disse Fred o George, mentre studiarono la lista.
+ disse Fred o George, mentre esaminavano la lista.
  
 \begin_inset Quotes fld
 \end_inset
@@ -728,7 +737,7 @@ metà
 \begin_inset Quotes fld
 \end_inset
 
--- beh, non riconosciamo niente di tutto ciò
+-- beh, non riconosciamo niente di tutto questo
 \begin_inset space ~
 \end_inset
 
@@ -795,7 +804,7 @@ permettete
 \emph on
 nulla
 \emph default
- di ciò che vi meritate, non so neppure come ringraziarmi adeguatamente,
+ di ciò che vi meritate, non so neppure come ringraziarvi adeguatamente,
  e tutto quello che posso fare è sperare che un giorno quando sarete più
  grandi sarete più saggi riguardo tutta questa faccenda e 
 \emph on
@@ -837,7 +846,7 @@ Per l'amor di dio, avete attaccato un troll per me e Fred si è rotto le
 
 \begin_layout Standard
 Entrambi si limitarono a scuotere le teste.
- Harry era rimasto quando essi gli avevano detto di scappare, e si era fatto
+ Harry era rimasto quando gli avevano detto di scappare, e si era fatto
  avanti per distrarre il troll dal mangiare George.
  Harry era il genere di persona, essi sapevano, che avrebbe pensato che
  una cosa simile non ripagava ciò che egli doveva ai gemelli Weasley, che
@@ -940,7 +949,7 @@ Ting.
 \end_layout
 
 \begin_layout Standard
-Produsse inizialmente altri chiacchiericci eccitati.
+Inizialmente questo causò altro chiacchiericcio eccitato.
  Alla Tavola d'onore, i vari Professori guardarono con perplessità verso
  il Preside nella sua grande sedia, ma il Preside non diede alcun segno,
  e così il corpo insegnanti non fece nulla.
@@ -981,7 +990,7 @@ siamo giunti a comprendere che ci sono forze maligne in azione dentro Hogwarts.
  sollevare la sua mano contro la nostra Casa; o forse lei e io siamo stati
  entrambi vittima dell'Incantesimo di Memoria.
  Ora noi diciamo che chiunque abbia osato usare in questo modo l'erede di
- Malfoy, è nemico della Casa Malfoy, sul quale noi avremo la nostra vendetta.
+ Malfoy, è il nemico di Casa Malfoy, sul quale noi avremo la nostra vendetta.
  E che affinché l'onore sia tutelato, abbiamo restituito tutto il denaro
  preso a Casa Potter, e cancellato ogni debito
 \begin_inset Quotes frd
@@ -996,11 +1005,11 @@ Allora Harry Potter parlò.
 \begin_inset Quotes fld
 \end_inset
 
-Casa Potter riconosce che è stato un errore onesto, e non conserva per Casa
- Malfoy alcuna ostilità.
+Casa Potter riconosce che è stato un errore sincero, e non mantiene alcuna
+ ostilità per Casa Malfoy.
  Crediamo e affermiamo pubblicamente che Casa Malfoy non è responsabile
  della morte di Hermione Granger.
- Chiunque abbia fatto del male a Hermione Granger è nemico di Casa Potter,
+ Chiunque abbia fatto del male a Hermione Granger è il nemico di Casa Potter,
  sul quale noi avremo la nostra vendetta.
  Entrambi
 \begin_inset Quotes frd
@@ -1011,7 +1020,7 @@ Casa Potter riconosce che è stato un errore onesto, e non conserva per Casa
 
 \begin_layout Standard
 Poi Harry Potter iniziò a ritornare alla tavola Corvonero, e il chiacchiericcio
- di puro e totale disorientamento che frantumava della realtà iniziò a esplodere
+ di un disorientamento puro e totale che frantumava la realtà iniziò a esplodere
 \begin_inset space ~
 \end_inset
 
@@ -1057,7 +1066,7 @@ Vi fu un silenzio terrorizzato nella Sala Grande, una sensazione che il
 \begin_inset Quotes fld
 \end_inset
 
-Mio padre, Owen Greengrass, col consenso e il pieno supporto di mia madre,
+Mio padre, Owen Greengrass, col consenso e il pieno sostegno di mia madre,
  la Lady della Nobile e Antichissima Casa di Greengrass
 \begin_inset Quotes frd
 \end_inset
@@ -1128,8 +1137,8 @@ Che insieme ad Alanna Howe costituiscono una maggioranza del Consiglio Direttivo
 \end_inset
 
 Hanno, per garantire la sicurezza di tutti gli studenti, inclusi i loro
- stessi figli, promulgato i seguenti Decreti Educativi riguardo la Scuola
- di Magia e Stregoneria di Hogwarts!
+ stessi figli, promulgato i seguenti Decreti Educativi per la Scuola di
+ Magia e Stregoneria di Hogwarts!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1233,8 +1242,8 @@ Entrate!
 \begin_layout Standard
 Le porte della Sala si aprirono di colpo, ed entrarono marciando nove Auror
  nell'equipaggiamento di cuoio rinforzato che usavano quando erano in servizio.
- In contemporanea si divisero, due Auror che assumevano posizione a ciascuno
- dei quattro tavoli, e l'ultimo che si mise di guardia alla Tavola d'onore.
+ Subito si divisero, due Auror che assumevano posizione a ciascuno dei quattro
+ tavoli, e l'ultimo che si mise di guardia alla Tavola d'onore.
  Ci furono altri gemiti.
 \end_layout
 
@@ -1253,7 +1262,7 @@ Terzo!
 \begin_inset Quotes fld
 \end_inset
 
-Di fronte a un nemico comune che non si tira indietro di fronte all'uccisione
+Dinanzi a un nemico comune che non si tira indietro di fronte all'uccisione
  di studenti di qualsiasi Casa, le quattro Case di Hogwarts devono unirsi
  e agire come un tutt'uno! Per rimarcare ciò, il sistema dei punti-Casa
  è temporaneamente sospeso! 
@@ -1281,9 +1290,9 @@ Quarto!
 \begin_inset Quotes fld
 \end_inset
 
-Tutti gli studenti non ancora partecipanti alle lezioni dopo-scuola del
- Professore di Difesa riceveranno un addestramento speciale in auto-difesa
- da istruttori Auror!
+Tutti gli studenti non partecipano ancora alle lezioni dopo-scuola del Professor
+e di Difesa riceveranno un addestramento speciale in auto-difesa da istruttori
+ Auror!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1327,20 +1336,20 @@ Sesto!
  Quando aveva scoperto cosa si progettava di fare, aveva avanzato la propria
  richiesta extra a sua Madre attraverso la Metropolvere.
  Anche con l'accordo raggiunto tra Lucius Malfoy e Amelia Bones -- un pensiero
- che la sua mente aveva ancora difficoltà ad afferrare -- il voto mutevole
+ che la sua mente aveva ancora difficoltà ad afferrare -- il voto oscillante
  dei Greengrass era stato comunque vitale, poiché Jugson e la sua fazione
  si erano rifiutati di appoggiare Malfoy.
  Per non parlare del fatto che Bones non si fidava di Malfoy, e Malfoy non
  si fidava di Bones.
- Allora sua Madre aveva preteso, e i Greengrass avevano ricevuto -- 
+ Allora sua Madre aveva preteso, e i Greengrass avevano ottenuto -- 
 \begin_inset Quotes fld
 \end_inset
 
 Poiché degli Incantesimi di Memoria sono stati usati su studenti senza che
- gli allarmi scattassero, è possibile che qualcuno nel corpo insegnanti
+ far scattare le protezioni, è possibile che qualcuno nel corpo insegnanti
  di Hogwarts sia coinvolto.
- Per tale motivo! La Forza Protettiva Ausiliaria riporta direttamente a
- mio padre, Lord Greengrass!
+ Per tale motivo! La Forza di Protezione Ausiliaria riporta direttamente
+ a mio padre, Lord Greengrass!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1420,7 +1429,7 @@ Ma sappiamo chi il nemico sta attaccando
 \begin_inset Quotes fld
 \end_inset
 
-Il nemico sta attaccando studenti di Hogwarts
+Il nemico sta attaccando gli studenti di Hogwarts
 \begin_inset Quotes frd
 \end_inset
 
