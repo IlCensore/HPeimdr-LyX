@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -65,16 +65,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans EB Garamond
+\font_roman Adobe Jenson Pro
+\font_sans FFScala-Caps
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -166,7 +175,7 @@ Gli alberi, i rami precedentemente nudi a causa dell'inverno, non erano
 \end_layout
 
 \begin_layout Standard
-Draco teneva una presa ferma sulla propria bacchetta.
+Draco manteneva una presa ferma sulla propria bacchetta.
 \end_layout
 
 \begin_layout Standard
@@ -225,7 +234,7 @@ Scommetto che ci penserete due volte a infrangere ancora una regola scolastica,
 \end_inset
 
 Eh sì\SpecialChar \ldots{}
- duro lavoro e dolore sono i migliori insegnanti se me lo chiedete\SpecialChar \ldots{}
+ lavoro duro e dolore sono i migliori insegnanti se me lo chiedete\SpecialChar \ldots{}
 
  È proprio un peccato che abbiano lasciato morire le vecchie punizioni\SpecialChar \ldots{}
  appenderv
@@ -268,7 +277,7 @@ Draco non stava prestando attenzione.
 Dietro di loro, una dei due Serpeverde più grandi che li seguiva fece un
  risolino, sebbene non disse nulla.
  Al suo fianco c'era l'altro, un ragazzo alto con un'impronta slava sul
- suo volto, e che parlava ancora con un accento.
+ volto, e che parlava ancora con un accento.
  Erano stati sorpresi per un'infrazione indipendente, che aveva a che fare
  col genere di cose di cui Tracey continuava a parlare, e sembravano essere
  nel loro terzo o quarto anno.
@@ -486,9 +495,9 @@ Il volto di Argus si illuminò di crudele soddisfazione.
 \begin_inset Quotes fld
 \end_inset
 
-Questi sono affari loro, no? Avrebbero dovuto pensare ai loro lupi mannari
- prima di ficcarsi nei guai, no? Mandali fuori da soli.
- Non sarei così amico con loro, Hagrid.
+Questi sono affari loro, no? Avrebbero dovuto pensare ai lupi mannari prima
+ di ficcarsi nei guai, no? Mandali fuori da soli.
+ Non sarei così amichevole con loro, Hagrid.
  Sono qui per essere puniti, dopo tutto
 \begin_inset Quotes frd
 \end_inset
@@ -504,7 +513,7 @@ Il mezzo-gigante emise un massiccio sospiro (suonò come se un a uomo normale
 \end_inset
 
 Hai fatto quello che avevi daffare.
- Da mo ce penzo io
+ Da mo ci penzo io
 \begin_inset Quotes frd
 \end_inset
 
@@ -543,8 +552,8 @@ Vabbé
 \begin_inset Quotes fld
 \end_inset
 
-ora, 'scoltate attentamente, perché è pericoloso quello che facciamo stanotte
- e non voglio che qualcuno abbia dei rischi.
+ora, 'scoltate bene, perché è pericoloso quello che facciamo stanotte e
+ non voglio che qualcuno abbia rischi.
  Venite là con me per un attimino
 \begin_inset Quotes frd
 \end_inset
@@ -603,7 +612,7 @@ No
 
 Filch ci ha dato la nota di punizione oggi a pranzo, a mezzogiorno.
  Il signor Hagrid non aspetterebbe così tanto per trovare un unicorno ferito,
- e se stessimo cercando una cosa simile, cercheremmo di giorno, quanto è
+ e se stessimo cercando una cosa simile, cercheremmo di giorno, quando è
  illuminato.
  Allora
 \begin_inset Quotes frd
@@ -677,7 +686,7 @@ e questo è Yuri Yuliy
 \begin_inset Quotes fld
 \end_inset
 
-La sua famiglia è in visita dalle terre ucraine, quindi è a Hogwarts solo
+La sua famiglia è in visita dalle terre ucraine, così è a Hogwarts solo
  per quest'anno
 \begin_inset Quotes frd
 \end_inset
@@ -776,7 +785,7 @@ Sono normali maghi quasi tutto il tempo, ricordate.
  Non possono essere nemmanco lupi, non sono abbastanza veloci da acchiappare
  un unicorno.
  Potenti creature magiche, sono gli unicorni, mai saputo di qualcuno che
- potesse fare male loro prima
+ può far male loro prima
 \begin_inset Quotes frd
 \end_inset
 
@@ -784,7 +793,7 @@ Sono normali maghi quasi tutto il tempo, ricordate.
 \end_layout
 
 \begin_layout Standard
-Draco ascoltava, pensando all'enigma quasi malgrado sé stesso.
+Draco ascoltava, pensando all'enigma quasi suo malgrado.
  
 \begin_inset Quotes fld
 \end_inset
@@ -919,8 +928,8 @@ Nella radura davanti a loro, visibile attraverso i rami intrecciati di una
  grande quercia, videro la creatura caduta, distesa bellissima e triste
  al suolo, la terra attorno a lei che brillava di un colore argento lunare
  per la pozza di sangue.
- L'unicorno non era bianco, ma blu chiaro, o così appariva sotto la luna
- e il cielo notturno.
+ L'unicorno non era bianco, ma azzurro, o così appariva sotto la luna e
+ il cielo notturno.
  Le sue gambe slanciate bloccate ad angoli inconsueti, ovviamente rotte,
  e la sua criniera sparsa sulle foglie scure, verde-nera ma con la lucentezza
  delle perle.
@@ -1040,7 +1049,7 @@ Incominciamo la nostra cerca da qua, l'ultimo posto dove ha colpito.
 
 \begin_layout Standard
 La Foresta era nera e silenziosa.
- Rubeus Hagrid aveva attenuato la luce del suo ombrello dopo che si erano
+ Rubeus Hagrid aveva smorzato la luce del suo ombrello dopo che si erano
  avviati, così che Draco e Tracey dovevano orientarsi con la luce della
  luna, non senza sporadici inciampi e cadute.
  Passarono oltre un troncone d'albero coperto di muschio, il suono di acqua
@@ -1324,7 +1333,7 @@ mettetevi dietro quell'albero!
 \end_layout
 
 \begin_layout Standard
-Hagrid afferrò Draco e Tracey e li spostò sollevandoli dal sentiero dietro
+Hagrid afferrò Draco e Tracey e sollevandoli dal sentiero li spostò dietro
  una torreggiante quercia.
  Estrasse un dardo e lo inserì nella sua balestra, sollevandola, pronto
  a scoccare.
@@ -1378,7 +1387,7 @@ In lontananza, una pioggia di scintille rosse illuminò l'aria.
 \begin_inset Quotes fld
 \end_inset
 
-Voi due restate qui!
+Voi due aspettate qui!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1387,7 +1396,7 @@ Voi due restate qui!
 \begin_inset Quotes fld
 \end_inset
 
-Rimanete dove siete, torno a prendervi!
+Rimanete dove state, torno a pigliarvi!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1405,7 +1414,7 @@ Draco e Tracey rimasero a guardarsi l'un l'altra, finché non udirono nulla
  Tracey sembrava spaventata, ma cercava di nasconderlo.
  Draco si stava sentendo più infastidito che altro.
  Si aveva la distinta impressione che Rubeus Hagrid, quando aveva concepito
- i propri piani per quella notte, non aveva passato neppure cinque secondi
+ i propri piani per quella notte, non avesse passato neppure cinque secondi
  a visualizzare le conseguenze se qualcosa fosse andato davvero storto.
 \end_layout
 
@@ -1478,7 +1487,7 @@ c'era
 \end_layout
 
 \begin_layout Standard
-Draco infilò la mano nelle sue vesti, e ne estrasse uno specchio.
+Draco infilò la mano nelle vesti, e ne estrasse uno specchio.
  Tamburellando sulla superficie apparve un uomo in vesti rosse, che si accigliò
  quasi immediatamente.
 \end_layout
@@ -1554,7 +1563,7 @@ Cerco il mangiatore di unicorni insieme al signor Hagrid
 
 , disse Draco, e spense lo specchio battendovi, e lo rimise nelle proprie
  vesti prima che l'Auror potesse chiedere qualunque cosa sulle punizioni
- o dire qualunque cosa riguardo il subirle senza lamentarsi.
+ o dire qualunque cosa riguardo lo scontarle senza lamentarsi.
 \end_layout
 
 \begin_layout Standard
@@ -1655,7 +1664,7 @@ lei
 
 \begin_layout Standard
 La sagoma della testa di Tracey si girò allontanandosi da lui, guardò altrove.
- Infine ella disse, con una voce più sottile, 
+ Infine ella disse, con una voce più bassa, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1681,22 +1690,22 @@ Un forte urlo echeggiò attraverso la foresta, un suono non-del-tutto-umano,
 
 
 \emph on
-No, imbecille!
+No, testona!
 \emph default
 
 \begin_inset Quotes frd
 \end_inset
 
  gridò Draco, gettandosi dietro di lei.
- Il suono era stato così sinistro che Draco non era assolutamente certo
+ Il suono era stato così misterioso che Draco non era assolutamente certo
  da dove fosse arrivato -- ma pensò che Tracey Davis potesse, in effetti,
  stare correndo dritto verso la fonte di quel grido sinistro.
 \end_layout
 
 \begin_layout Standard
 Dei rovi frustarono gli occhi di Draco, dovette tenere una mano di fronte
- al proprio viso per proteggersi da loro, cercando di non perdere la traccia
- di Tracey poiché sembrava ovvio che, se quella fosse stata un'opera teatrale,
+ al viso per proteggersi da loro, cercando di non perdere la traccia di
+ Tracey poiché sembrava ovvio che, se quella fosse stata un'opera teatrale,
  e loro fossero finiti per separarsi, 
 \emph on
 uno
@@ -1726,7 +1735,7 @@ Un altro unicorno giaceva a terra, circondato da una pozza di sangue argenteo
  visibile segnato da una chiazza rosa a forma di stella circondata da zone
  bianche.
  La visione lacerò il cuore di Draco, ancor più dell'altro unicorno perché
- gli occhi di questo stavano fissando vetrosi proprio lui, perché c'era
+ gli occhi di questo stavano fissando vetrosi proprio lui, e perché c'era
  una
 \begin_inset space ~
 \end_inset
@@ -1829,7 +1838,7 @@ tempo
 \end_layout
 
 \begin_layout Standard
-Correr via non aveva funzionato.
+Correre via non aveva funzionato.
 \end_layout
 
 \begin_layout Standard
@@ -1889,7 +1898,7 @@ Draco non poteva respirare, la paura più intensa che avesse mai provato
 \begin_layout Standard
 
 \emph on
-Harry Potter, che era rimasto intoccato, pilotò silenziosamente il suo manico
+Harry Potter, che era rimasto incolume, pilotò silenziosamente il suo manico
  di scopa verso il suolo
 \begin_inset space ~
 \end_inset
@@ -1920,7 +1929,7 @@ Corri!
 \begin_inset Quotes fld
 \end_inset
 
-Corri, Draco! Lo ritarderò io!
+Corri, Draco! Lo tratterrò io!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1938,9 +1947,9 @@ Non puoi combattere quella cosa da solo!
 \end_inset
 
  gridò a squarciagola Draco.
- Provava nausea allo stomaco, una sensazione di contorcimento che, riesaminando
- i suoi ricordi, sembrava allo stesso tempo dissimile e simile a un senso
- di colpa, come se provasse la sensazione ma non del tutto l'emozione.
+ Provava nausea allo stomaco, una sensazione di contorcimento che, andando
+ indietro con la memoria, sembrava allo stesso tempo simile e dissimile
+ a un senso di colpa, come se provasse la sensazione ma non del tutto l'emozione.
 \end_layout
 
 \begin_layout Standard
@@ -2088,7 +2097,7 @@ Avevo sinceramente pensato
 
 di aver bloccato quello specchio senza far scattare un allarme.
  Che ci facevano due Serpeverde del primo anno da soli nella Foresta Proibita?
- Il signor Malfoy ha più buon senso di così\SpecialChar \ldots{}
+ Il signor Malfoy ha più buon senso di questo\SpecialChar \ldots{}
  Che fiasco
 \begin_inset Quotes frd
 \end_inset
@@ -2176,7 +2185,7 @@ Con un atto di volontà, Harry fu in grado di vedere attraverso il Mantello
 \end_layout
 
 \begin_layout Standard
-Allora la voce di Harry disse, sembrando strana alle orecchie dell'Harry
+Allora la voce di Harry disse, suonando strana alle orecchie dell'Harry
  del presente, 
 \begin_inset Quotes fld
 \end_inset
@@ -2260,7 +2269,7 @@ Il professor Quirrell si allontanò a grandi passi, e Harry lo seguì e restò
 \end_layout
 
 \begin_layout Standard
-Camminarono attraverso il bosco in silenzio per un po', prima che Harry
+Camminarono in silenzio attraverso il bosco per un po', prima che Harry
  udisse deboli voci in lontananza.
  Il successivo gruppo di Auror, presumibilmente, dopo che il primo aveva
  perso i contatti.
@@ -2337,8 +2346,8 @@ Mi dispiace di non poterlo dire
 \end_inset
 
 , rispose Harry pacatamente.
- Il professor Quirrell era ancora uno dei principali sospettati, era un
- bene che egli non conoscesse i dettagli.
+ Il professor Quirrell era ancora uno dei principali sospettati, ed era
+ un bene per lui che non conoscesse i dettagli.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2442,8 +2451,8 @@ Il professor Quirrell sapeva di stare morendo.
 
 \begin_layout Standard
 Ovviamente era peggiorato durante l'intero anno scolastico.
- Ovviamente la malattia che continuava a peggiorare aveva una destinazione
- finale predicibile.
+ Ovviamente le malattie che continuavano a peggiorare avevano una destinazione
+ predicibile alla fine del loro percorso.
 \end_layout
 
 \begin_layout Standard
