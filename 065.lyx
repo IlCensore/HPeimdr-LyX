@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -62,35 +62,44 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Adobe Caslon Pro
-\font_sans Mukti Narrow
-\font_typewriter Inconsolata
+\font_roman Crimson
+\font_sans Lato
+\font_typewriter Linux Libertine Mono O
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
-\spacing single
+\paperfontsize 11
+\spacing other 1.3
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -166,10 +175,11 @@ Puoi provare a rispiegarlo? Sono ancora totalmente esterrefatta
 \begin_inset Quotes frd
 \end_inset
 
-, disse il ragazzo che tutti a scuola, ad eccezione di loro due, ora credevano
+, disse il ragazzo che ormai tutti a scuola, ad eccezione di loro due, credevano
  essere il suo vero amore.
  Il cucchiaio di Harry Potter mescolò distrattamente i suoi cereali da colazione
-; non ne aveva preso molti bocconi stamattina, che Hermione avesse visto.
+; non ne aveva mangiato molti bocconi quella mattina, che Hermione avesse
+ visto.
  
 \begin_inset Quotes fld
 \end_inset
@@ -183,17 +193,17 @@ Ogni cosa buona nel mondo porta all'esistenza del suo opposto.
 \end_layout
 
 \begin_layout Standard
-Hermione prese un altro boccone inosservato del suo pane tostato con burro
+Hermione mangiò un altro boccone inosservato del suo pane tostato con burro
  e cannella, e disse 
 \begin_inset Quotes fld
 \end_inset
 
 Com'è possibile che qualcuno 
 \emph on
-non comprenda
+non capisca
 \emph default
  che Fawkes pensa che tu sia una persona abbastanza buona da appollaiarsi
- sulla tua spalla? Non lo farebbe con un Mago Oscuro! Non lo farebbe e basta!
+ sulla tua spalla? Non lo farebbe con un Mago Oscuro! Non lo farebbe proprio!
 \begin_inset Quotes frd
 \end_inset
 
@@ -260,11 +270,11 @@ Pensaci in questo modo: un giorno salti la scuola, e racconti una bugia
 \begin_inset Quotes fld
 \end_inset
 
-
+Cos'hai 
 \emph on
-Che cosa
+fatto?
 \emph default
- hai fatto?
+
 \begin_inset Quotes frd
 \end_inset
 
@@ -306,18 +316,21 @@ continui
 \emph default
  a tentare di coprirle, prima o poi avrai persino bisogno di iniziare a
  mentire sulle leggi generali del pensiero.
- Come quando qualcuno sta vendendo un qualche tipo di medicina alternativa
+ Come quando qualcuno ti sta spacciando un qualche tipo di medicina alternativa
  che non funziona, e ogni studio sperimentale in doppio cieco confermerà
  che non funziona.
- Così se qualcuno vuole continuare a difendere la menzogna, devono portarti
- a rinnegare il metodo sperimentale.
+ Così se vuole 
+\emph on
+continuare
+\emph default
+ a difendere la menzogna, deve convincerti a rinnegare il metodo sperimentale.
  Ad esempio dicendo che il metodo sperimentale è solo per i tipi di medicina
  meramente 
 \emph on
 scientifici
 \emph default
-, non per un'incredibile medicina alternativa come la loro.
- O che una persona buona e virtuosa dovrebbe credere con tanta più forza
+, non per un'incredibile medicina alternativa come la sua.
+ O che una persona buona e virtuosa dovrebbe credere con tutta la forza
  che può, indipendentemente da ciò che dicono le prove.
  O che la verità non esiste e non che c'è nessuna realtà oggettiva.
  Molta saggezza popolare come questa non è solo 
@@ -331,8 +344,8 @@ sistematicamente
  sbagliata.
  Per ogni regola della razionalità che ti dice come trovare la verità, c'è
  qualcuno là fuori che ha bisogno che tu creda il contrario.
- Se una volta dici una bugia, d'allora in poi la verità sarà sempre tua
- nemica; e ci sono un sacco di persone là fuori che dicono bugie
+ Se racconti una bugia una volta, da quel momento in poi la verità sarà
+ sempre tua nemica; e ci sono un sacco di persone là fuori che dicono bugie
 \begin_inset space ~
 \end_inset
 
@@ -355,7 +368,7 @@ Cos'ha a che fare questo con Fawkes?
 \end_layout
 
 \begin_layout Standard
-Harry tolse il cucchiaio dai suoi cereali, e lo puntò in direzione del Tavolo
+Harry tolse il cucchiaio dai cereali, e lo puntò in direzione del Tavolo
  d'onore.
  
 \begin_inset Quotes fld
@@ -364,8 +377,8 @@ Harry tolse il cucchiaio dai suoi cereali, e lo puntò in direzione del Tavolo
 Il Preside ha una fenice, giusto? Ed è lo Stregone Capo del Wizengamot,
  no? Quindi ha degli avversari politici, come Lucius.
  Ora, credi che gli oppositori abbiano intenzione di darsi per vinti, perché
- Silente ha una fenice e loro no? Pensi che ammettano quantomeno che Fawkes
- sia la 
+ Silente ha una fenice e loro no? Pensi che ammettano anche solo che Fawkes
+ sia una 
 \emph on
 prova
 \emph default
@@ -380,9 +393,9 @@ inventare
 irrilevante
 \emph default
 .
- Come che le fenici seguono solo le persone che caricano direttamente contro
- chiunque pensino sia malvagio, in modo che l'avere una fenice significhi
- solo che sei un idiota o un pericoloso fanatico.
+ Come che le fenici seguono solo le persone che si lanciano dritte alla
+ carica contro chiunque pensino sia malvagio, in modo che l'avere una fenice
+ significhi solo che sei un idiota o un pericoloso fanatico.
  O che le fenici seguono solo le persone che sono puro Grifondoro, così
  Grifondoro che non hanno le virtù delle altre Case.
  Oppure che mostra solo quanto coraggio un animale magico pensa che tu abbia,
@@ -407,7 +420,7 @@ strano
  per valutare il loro livello di alfabetizzazione scientifica.
  Per ogni forza del Bene che esiste in questo universo, c'è qualcuno che
  beneficia del fatto che le persone la ignorino, o l'accantonino in un angolo
- da cui non possa arrivare a loro
+ da cui non possa influenzarle
 \begin_inset Quotes frd
 \end_inset
 
@@ -457,11 +470,10 @@ Harry Potter scrollò appena le spalle.
 Perché il cinismo affascina le persone? Perché sembra un segno di maturità,
  di sofisticazione, è come se avessi già visto ogni cosa e la sapessi lunga.
  O perché sminuire qualcosa ti dà la sensazione di innalzarti.
- Oppure non hanno loro stessi una fenice, quindi l'istinto politico gli
- dice che non c'è nessun vantaggio da ottenere dal dire cose positive sulle
- fenici.
+ Oppure tu stesso non hai una fenice, quindi l'istinto politico ti dice
+ che non c'è nessun vantaggio da ottenere dal dire cose positive sulle fenici.
  O perché essere cinico è come conoscere una verità segreta che la gente
- comune non conosce\SpecialChar \ldots{}
+ comune ignora\SpecialChar \ldots{}
 
 \begin_inset Quotes frd
 \end_inset
@@ -487,8 +499,8 @@ lui
 \begin_layout Standard
 Senza pensarci, Hermione guardò anche lei in direzione del Tavolo d'onore,
  ma la sedia del Professore di Difesa era ancora vuota, come era stata lunedì
- e martedì; la Vicepreside aveva annunciato solennemente, prima, che le
- lezioni di oggi del professor Quirrell sarebbero state annullate.
+ e martedì; la Vicepreside aveva annunciato solennemente, in precedenza,
+ che le lezioni di quel giorno del professor Quirrell sarebbero state annullate.
 \end_layout
 
 \begin_layout Standard
@@ -551,7 +563,7 @@ duro
  aveva gridato un Incantesimo Freddifiamma; e quando Harry si era alzato
  da terra, se n'era andato al proprio posto come se non fosse accaduto nulla
  di interessante.
- E quando per una volta ella aveva ottenuto un voto migliore di Harry al
+ E quando per una volta lei aveva ottenuto un voto migliore di Harry al
  compito di Trasfigurazione, più tardi quello stesso lunedì, Harry le aveva
  sorriso come per congratularsi con lei, invece di digrignare i denti; e\SpecialChar \ldots{}
 
@@ -619,13 +631,13 @@ Bene
 \end_inset
 
 , disse Padma.
- Con molta grazia bagnò una focaccina al gusto di cioccolato con una glassatura
- al gusto di focaccina.
+ Con molta grazia bagnò una focaccina al gusto di cioccolato con un po'
+ di glassatura al gusto di focaccina.
  
 \begin_inset Quotes fld
 \end_inset
 
-Penso che Dragon e Sunshine facciano meglio ad allearsi durante la prossima
+Penso che Dragon e Sunshine faranno meglio ad allearsi durante la prossima
  battaglia o il signor Potter ci 
 \emph on
 distruggerà
@@ -703,6 +715,20 @@ Né Padma né Anthony risposero.
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -998,8 +1024,8 @@ Sembra che sarò gettato in una guerra contro il Signore Oscuro in un futuro
  prossimo.
  Così, dato che sono nel suo ufficio, vorrei chiederle che il mio ciclo
  del sonno sia allungato fino a trenta ore al giorno.
- Neville Longbottom vuole iniziare ad esercitarsi nel duello, c'è un Tassofrasso
- più grande che si è offerto di insegnargli, e mi hanno invitato ad unirmi
+ Neville Longbottom vuole iniziare ad esercitarsi nei duelli, c'è un Tassofrasso
+ più grande che si è offerto di insegnargli, e mi hanno invitato a unirmi
  a loro.
  Per di più ci sono anche altre cose che vorrei imparare -- e se lei o il
  Preside pensate che debba studiare qualcosa in particolare, allo scopo
@@ -1215,11 +1241,11 @@ Chi le ha detto questa cosa, signor Potter?
 
  
 \emph on
-Non Albus -- certamente Albus non 
+Non Albus -- certamente Albus non direbbe 
 \emph default
-direbbe
+mai
 \emph on
- mai questa cosa a qualunque studente
+ questa cosa a qualunque studente
 \emph default
 
 \begin_inset space ~
@@ -1277,14 +1303,28 @@ Oh.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 L'infermeria di Hogwarts era uno spazio aperto e luminoso, inondato dalla
  luce del cielo su tutti e quattro i lati malgrado il fatto che fosse posizionat
 o esattamente al centro del castello.
- Dei letti bianchi si dipanavano in lunghe file, solo tre di loro occupati
+ Su lunghe file si dipanavano letti bianchi, solo tre dei quali occupati
  in quel momento.
  Un ragazzo e una ragazza più grandi su lati opposti, entrambi che giacevano
- immobili con gli occhi chiusi, probabilmente senza sensi e sotto influsso
- magico mentre qualche Incantesimo o Pozione di guarigione riconfigurava
+ immobili con gli occhi chiusi, probabilmente senza sensi e sotto influenza
+ magica mentre qualche Incantesimo o Pozione di guarigione riconfigurava
  i loro corpi in modi sgradevoli; il terzo occupante aveva la tendina avvolta
  attorno al suo letto, il che presumibilmente era una buona cosa.
  Madam Pomfrey l'aveva fatto avanzare con un forte spintone e gli aveva
@@ -1298,24 +1338,24 @@ o esattamente al centro del castello.
 \begin_layout Standard
 Dietro le file di letti c'erano cinque porte, che conducevano alle stanze
  private in cui tenevano i pazienti che sarebbero rimasti per giorni invece
- che per ore, ma le cui condizioni non giustificavano un trasferimento a
+ che per ore, ma le cui condizioni non giustificavano un trasferimento al
  St.
  Mungo's.
 \end_layout
 
 \begin_layout Standard
-Senza finestre, senza cielo, senza luce ad eccezione di una singola torcia
- senza fumo ad una delle pareti di pietra solida; quella era la stanza dietro
+Senza finestre, senza cielo, senza luce a eccezione di una singola torcia
+ senza fumo a una delle pareti di pietra solida; quella era la stanza dietro
  la porta di mezzo.
- Harry si era chiesto se i professori potessero chiedere a Hogwarts di cambiare
- sé stesso; o se l'infermeria avesse sempre avuto una stanza come quella
- disponibile, per le persone alle quali non piaceva la luce.
+ Harry si era chiesto se i professori potessero chiedere a Hogwarts di mutare;
+ o se l'infermeria avesse sempre avuto disponibile una stanza come quella,
+ per le persone alle quali non piaceva la luce.
 \end_layout
 
 \begin_layout Standard
 Nel centro della stanza, tra due spalliere uguali che sembravano essere
  state scolpite dallo stesso marmo grigio delle pareti, si trovava un letto
- da ospedale bianco, dal colore vagamente arancione alla luce senza fumo
+ da ospedale bianco, che sembrava vagamente arancione alla luce senza fumo
  delle torce; e all'interno di quel letto, con un lenzuolo bianco tirato
  su fino alle cosce e con indosso un camice da ospedale, il professor Quirrell
  sedeva con la schiena appena appoggiata contro la testiera del letto.
