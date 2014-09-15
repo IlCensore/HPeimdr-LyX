@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -62,16 +62,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman OFL Sorts Mill Goudy
-\font_sans Gill Sans Std
+\font_roman Minion Pro
+\font_sans Ubuntu
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,15 +82,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -157,7 +166,7 @@ Cap 65.
 \end_layout
 
 \begin_layout Standard
-Così il Professore di Difesa gli aveva detto; e mentre si poteva cavillare
+Questo gli aveva detto il Professore di Difesa; e mentre si poteva cavillare
  sui dettagli del proverbio, Harry comprendeva la debolezza dei Corvonero
  abbastanza bene da sapere che dovevi cercare di 
 \emph on
@@ -178,13 +187,13 @@ scegliere
 \emph default
 .
  Non rimandare perché si conosceva il momento giusto per fare ciò che era
- necessario, ma rimandare perché non si riusciva a decidere -- non c'era
- nessun piano astuto che lo richiedesse.
+ necessario, ma rimandare perché non si riusciva a decidere -- non esisteva
+ alcun piano astuto che lo richiedesse.
 \end_layout
 
 \begin_layout Standard
 A volte si poteva aver bisogno di ulteriori informazioni per decidere? Si,
- ma anche questo avrebbe potuto trasformarsi in un pretesto per rimandare;
+ ma anche questo si sarebbe potuto trasformare in un pretesto per rimandare;
  ed era 
 \emph on
 invitante
@@ -269,16 +278,15 @@ L'ufficio del Professore di Difesa era una piccola stanza, almeno quel giorno;
  stanza era diventa più scura, più lucida.
  Dietro la scrivania del Professore di Difesa stava il singolo scaffale
  vuoto che decorava da sempre la stanza, una libreria alta che si estendeva
- fin quasi dal pavimento al soffitto, con sette vuoti ripiani in legno.
- Harry aveva visto solo una volta il professor Quirrell prendere un libro
- da quegli scaffali vuoti, e mai l'aveva visto rimettervi nuovamente un
- libro.
+ dal pavimento fin quasi al soffitto, con sette ripiani in legno vuoti.
+ Solo una volta Harry aveva visto il professor Quirrell prendere un libro
+ da quegli scaffali vuoti, e mai l'aveva visto rimettervene uno.
 \end_layout
 
 \begin_layout Standard
 Il serpente verde oscillava sopra la seduta della sedia dietro la scrivania
- del Professore di Difesa, gli occhi senza palpebre fissavano Harry senza
- batter ciglio all'altezza dei suoi occhi.
+ del Professore di Difesa, gli occhi senza palpebre che fissavano Harry
+ all'altezza dei suoi occhi.
 \end_layout
 
 \begin_layout Standard
@@ -303,8 +311,8 @@ No
 
 \begin_layout Standard
 Il serpente verde piegò la testa, inclinandola leggermente; nessuna emozione
- fu trasmessa dal gesto, non che il talento da Rettilofono di Harry gli
- trasmettesse.
+ fu convogliata dal gesto, non che il talento da Rettilofono di Harry gli
+ comunicasse.
  
 \begin_inset Quotes fld
 \end_inset
@@ -333,7 +341,7 @@ Troppo pericolosso
 \end_inset
 
 , disse semplicemente Harry.
- Questo era vero che il Signore Oscuro fosse stato là fuori o meno.
+ Ciò era vero che il Signore Oscuro fosse stato là fuori o meno.
  Sforzarsi di decidere in anticipo gli aveva fatto capire che stava solo
  usando quella domanda senza risposta come una scusa per esitare; la decisione
  sensata era la stessa, in entrambi i casi.
@@ -352,8 +360,8 @@ Pensso che tu abbia imparato lezione ssbagliata, ragazzo, da precedente
  fallimento.
  Miei piani non ssono ssoliti fallire, e ultimo ssarebbe sstato completato
  impeccabilmente, sse non fossse sstato per tua sstupidità.
- Lezione giussta è sseguire i passsi lasciati per te da Sserpeverde più
- vecchio e ssaggio, addomesticare tuoi impulssi sselvaggi
+ Lezione giussta è sseguire percorsso tracciato per te da Sserpeverde più
+ vecchio e ssaggio, addomessticare tuoi impulssi sselvaggi
 \emph default
 
 \begin_inset Quotes frd
@@ -368,9 +376,8 @@ Pensso che tu abbia imparato lezione ssbagliata, ragazzo, da precedente
 \begin_inset Quotes fld
 \end_inset
 
-Lezione che ho imparato è non provare piani che farebbero penssare amico
- ragazza-bambina che io ssono cattivo o amico ragazzo-bambino che io ssono
- sstupido
+Lezione che ho imparato è non tentare piani che farebbero penssare amico
+ bambina che io ssono cattivo o amico bambino che io ssono sstupido
 \emph default
 
 \begin_inset Quotes frd
@@ -473,8 +480,8 @@ Avrebbero potuto far meglio di me
 
 
 \emph on
-Amico ragazzo-bambino avrebbe chiessto motivi ssegreti prima di acconssentire
- a ssalvare donna
+Amico bambino avrebbe chiessto motivi ssegreti prima di acconssentire a
+ ssalvare donna
 \begin_inset space ~
 \end_inset
 
@@ -506,8 +513,8 @@ Ssono felice che ora tu capissca quessto
 
 
 \emph on
-Informati ssempre dei vantaggi degli altri.
- Poi impara a informarti ssempre dei tuoi.
+Chiedi ssempre vantaggi di altri.
+ Poi impara a chiederti ssempre di tuoi.
  Sse mio piano non ti piace, qual è tuo?
 \emph default
 
@@ -545,7 +552,7 @@ I pozzi che erano gli occhi del serpente sembrarono quasi neri.
 
 \emph on
 Facile parlare ora.
- Quelli come te e me non tollerano esssere imprigionati.
+ Quelli come te e me non ssopportano di esssere imprigionati.
  Perderai pazienza molto prima del ssettimo anno, forsse alla fine di quessto.
  Elaborerò miei piani di consseguenza
 \emph default
@@ -598,10 +605,24 @@ regole
 \end_layout
 
 \begin_layout Standard
-Hannah Abbott sembrò più nervosa di quanto Hermione l'avesse mai vista (ad
- eccezione del giorno della fenice, il giorno in cui Bellatrix Black era
- evasa, che non sarebbe dovuto contare per nessuno).
- La ragazza Corvonero aveva fatto visita al tavolo Corvonero durante il
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hannah Abbott sembrava più nervosa di quanto Hermione l'avesse mai vista
+ (ad eccezione del giorno della fenice, il giorno in cui Bellatrix Black
+ era evasa, che non sarebbe dovuto contare per nessuno).
+ La ragazza Tassofrasso aveva fatto visita al tavolo Corvonero durante il
  pranzo, e aveva dato un colpetto sulla spalla di Hermione, e l'aveva quasi
  trascinata via
 \begin_inset space ~
@@ -629,7 +650,7 @@ Chi?
 \begin_inset Quotes frd
 \end_inset
 
- disse Hermione.
+ fece Hermione.
 \end_layout
 
 \begin_layout Standard
@@ -646,8 +667,8 @@ Cedric Diggory!
 tutti
 \emph default
  i corsi opzionali e ottiene voti migliori di chiunque, e ho sentito dire
- che studia duello da tutori professionisti durante l'estate, e una volta
- ha battuto 
+ che studia duello da insegnanti professionisti durante l'estate, e una
+ volta ha battuto 
 \emph on
 due
 \emph default
@@ -726,7 +747,7 @@ noi!
 \emph on
 Bellatrix Black!
 \emph default
- Ci passeranno attraverso come un Bolide in una pila di ciambelle!
+ Ci passeranno attraverso come un Bolide in un mucchio di ciambelle!
 \begin_inset Quotes frd
 \end_inset
 
@@ -753,7 +774,7 @@ non penso che qualche settimana di esercitazioni renda qualcuno un combattente
 \emph on
 sappiamo già
 \emph default
- come occuparci dei combattenti invincibili.
+ come trattare coi combattenti invincibili.
  Concentreremo il fuoco su di loro e andranno giù proprio come Draco
 \begin_inset Quotes frd
 \end_inset
@@ -849,7 +870,7 @@ dire
 \end_inset
 
 , disse Hermione, con l'esasperazione che stava tracimando dalla sua voce
- ora innalzatasi, stava sentendo questo genere di cose 
+ ora alzatasi di volume, stava sentendo questo genere di cose 
 \emph on
 da un'intera settimana
 \emph default
@@ -863,7 +884,7 @@ dopo
 \emph default
  che la Chaos Legion ci schiaccia 
 \emph on
-sul serio
+davvero
 \emph default
  prima di farci spaventare tanto da loro e 
 \emph on
@@ -884,7 +905,7 @@ Qualche momento dopo, Hermione stava tornando al suo posto a tavola con
 \emph on
 ella
 \emph default
- sapesses come fare.
+ sapesse come fare.
 \end_layout
 
 \begin_layout Standard
@@ -901,6 +922,20 @@ giù
 	filename fleur.png
 	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -932,11 +967,11 @@ geniale!
 \end_inset
 
  disse Cedric Diggory.
- Gli occhi del Super Tassofrasso baluginarono di maniacale entusiasmo, splendend
-o come il sudore sulla sua fronte mentre pestò il suo piede nel successivo
- passo di danza di una delle sue posizioni da duello.
- I suoi consueti passi leggeri erano mutati in battute più pesanti, cosa
- che avrebbe potuto avere a che fare con i pesi di metallo Trasfigurati
+ Gli occhi del Super Tassofrasso baluginavano di frenetico entusiasmo, splendend
+o come il sudore sulla sua fronte mentre egli batteva pesantemente i piedi
+ nel corso della danza di una delle sue posizioni da duello.
+ I suoi consueti passi leggeri erano mutati in una camminata più pesante,
+ cosa che avrebbe potuto avere a che fare con i pesi di metallo Trasfigurati
  che tutti loro avevano agganciato a braccia e gambe e che avevano fissato
  con una cinghia al petto.
  
