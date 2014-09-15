@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -65,13 +65,13 @@ initials
 \font_roman Linux Libertine O
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,15 +82,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -143,12 +152,12 @@ Ai livelli più alti di Hogwarts, dove stanze e corridoi mutavano quotidianament
 , dove il territorio stesso era incerto e non solo la mappa, dove la stabilità
  del castello iniziava a sfilacciarsi in sogni e caos senza mutare il suo
  stile architettonico o la sua apparente solidità -- ai livelli più alti
- di Hogwarts, una battaglia sarebbe presto stata combattuta.
+ di Hogwarts, una battaglia sarebbe stata presto combattuta.
 \end_layout
 
 \begin_layout Standard
 La presenza di così tanti studenti avrebbe stabilizzato i corridoi per un
- po' di tempo, per mezzo di una costante osservazione.
+ po' di tempo, in virtù dell'osservazione continuata.
  Le stanze e i corridoi di Hogwarts a volte si 
 \emph on
 muovevano
@@ -158,15 +167,15 @@ muovevano
 cambiati
 \emph default
 .
- Anche dopo otto secoli, Hogwarts era ancora un po' schivo a cambiare di
+ Anche dopo otto secoli, Hogwarts era ancora un po' restio a cambiare di
  fronte alla gente.
 \end_layout
 
 \begin_layout Standard
-Ma nonostante quella stabilità transitoria (il Professore di Difesa aveva
- detto) i livelli più alti di Hogwarts possedevano ancora un realismo militare:
- si doveva imparare il terreno ogni volta di nuovo, e controllare ogni stanzino
- alla ricerca di corridoi segreti ogni volta da capo.
+Ma nonostante quella stabilità transitoria (aveva detto il Professore di
+ Difesa), i livelli più alti di Hogwarts possedevano ancora un realismo
+ militare: si doveva imparare il terreno ogni volta di nuovo, e controllare
+ ogni stanzino alla ricerca di corridoi segreti ogni volta da capo.
 \end_layout
 
 \begin_layout Standard
@@ -199,23 +208,24 @@ Draco aveva un cattivo presentimento su ciò che sarebbe successo quando
  il Dragon Army avesse trovato la Chaos Legion.
  Harry Potter era cambiato da quando Bellatrix Black era evasa; l'Erede
  di Serpeverde aveva iniziato a sembrare davvero Signorile ora (e come aveva
- fatto il professor Quirrell a sapere che sarebbe successo?) Draco si sarebbe
+ fatto il professor Quirrell a sapere che sarebbe successo?), Draco si sarebbe
  sentito molto meglio con Hermione Granger al suo fianco con i suoi ventitré
  Soldati Raggio di sole a rimorchio, ma no, il Generale Sunshine si stava
  comportando in modo stupidamente orgoglioso e si stava rifiutando di accettare
  un aiuto contro il generale Potter.
- Voleva abbattere Potter da sola, gli aveva detto.
+ Voleva abbattere Potter lei stessa, gli aveva detto.
 \end_layout
 
 \begin_layout Standard
-La Nobile e Antichissima Casa Malfoy aveva conservato la sua influenza sulla
- Gran Bretagna per secoli comprendendo che non si poteva sempre essere 
+La Nobile e Antichissima Casa Malfoy aveva conservato per secoli la propria
+ influenza sulla Gran Bretagna comprendendo che non si poteva sempre essere
+ 
 \emph on
 il
 \emph default
  più potente.
  Talvolta un altro Signore era semplicemente più forte, e bisognava accontentars
-i per esserne 
+i di esserne 
 \emph on
 solo
 \emph default
@@ -224,11 +234,11 @@ solo
 \emph on
 notevole
 \emph default
- posizione di ricchezza e potere essendo per una dozzina di generazioni
- il secondo in comando.
+ posizione in termini di ricchezza e potere nel corso di una dozzina di
+ generazioni in cui eri il secondo in comando.
  Si doveva solo stare attenti, ogni volta, a non lasciare che la Casa fosse
  strascinata giù dalla caduta del Signore che si serviva.
- Quella era la tradizione Malfoy che secoli di esperienza avevano levigato\SpecialChar \ldots{}
+ Quella era la tradizione Malfoy che secoli di esperienza avevano perfezionato\SpecialChar \ldots{}
 
 \end_layout
 
@@ -265,8 +275,8 @@ Granger, evidentemente, non aveva mai ricevuto questa lezione dai suoi genitori,
 Quindi Draco si era segretamente incontrato col capitano Goldstein e il
  capitano Bones e il capitano Macmillan e avevano concordato di fare del
  loro meglio per assicurarsi che Dragon e Sunshine non si ingaggiassero
- a vicenda prima di aver iniziato il combattimento contro il più vasto pericolo
- costituito da Chaos.
+ a vicenda prima di aver iniziato il combattimento contro la minaccia più
+ grande costituita da Chaos.
 \end_layout
 
 \begin_layout Standard
@@ -314,15 +324,29 @@ dovevano
 \end_layout
 
 \begin_layout Standard
-Harry e Neville camminavano senza fretta per i corridoi, Harry guardando
- la bussola giallo-oro che puntava in direzione della posizione del Sunshine
- Regiment, e Neville tenendosi all'erta nel caso in cui si imbattessero
- in qualcun altro.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-I loro passi sarebbero risuonati un po' rimbombanti, se li si fosse ascoltati
- attentamente.
+Harry e Neville camminavano senza fretta per i corridoi, Harry guardando
+ la bussola giallo-oro che puntava in direzione della posizione del Sunshine
+ Regiment, e Neville restando all'erta nel caso in cui si imbattessero in
+ qualcun altro.
+\end_layout
+
+\begin_layout Standard
+I loro passi sarebbero risuonati un po' rimbombanti, se si fosse stati attentame
+nte in ascolto.
 \end_layout
 
 \begin_layout Standard
@@ -357,7 +381,7 @@ Harry annuì, mantenendo gli occhi fissi sulla bussola che conduceva a Sunshine;
 \end_inset
 
 Non volevo dire nulla davanti agli altri, ma un paio di settimane non sono
- molto tempo per metter su altri muscoli
+ abbastanza per metter su altri muscoli
 \begin_inset Quotes frd
 \end_inset
 
@@ -366,12 +390,11 @@ Non volevo dire nulla davanti agli altri, ma un paio di settimane non sono
 \begin_inset Quotes fld
 \end_inset
 
-E l'equilibrio è diverso, e penso che questa pesi 
+E l'equilibrio è diverso, e penso che questa in realtà pesi 
 \emph on
 di più
 \emph default
- in effetti, e questo non conta forse come una Trasfigurazione di un artefatto
- babbano?
+, e non conta forse come una Trasfigurazione di un artefatto babbano?
 \begin_inset Quotes frd
 \end_inset
 
@@ -383,30 +406,33 @@ di più
 \end_inset
 
 No.
- L'ho controllato in anticipo.
- Puoi vederlo sulle statue di Hogwarts, alcuni maghi 
+ L'ho verificato in anticipo.
+ Puoi vederla sulle statue di Hogwarts, alcuni maghi
 \emph on
-erano soliti
+ 
 \emph default
- indossarla, anche se volevano solo essere alla moda dei Secoli bui
+la indossavano 
+\emph on
+abitualmente
+\emph default
+, anche se volevano solo essere alla moda dei Secoli bui
 \begin_inset Quotes frd
 \end_inset
 
 .
- E siccome nessuno l'avrebbe mai provato se 
+ E per di più, siccome nessuno l'avrebbe mai provato se non si fosse 
 \emph on
-non avesse
+trovato
 \emph default
- dovuto combattere contro studenti del primo anno usando incantesimi deboli
- come la Fattura del Sonno, non era come dar via una buona idea, per di
- più.
+ a combattere contro studenti del primo anno usando incantesimi deboli come
+ la Fattura del Sonno, non era come rivelare una buona idea.
 \end_layout
 
 \begin_layout Standard
 Giunsero ad un bivio, uno fastidioso; nessuno dei due corridoi s'incurvava
- esattamente nel modo giusto per portarli in una rotta di intercettazione
- diretta verso il luogo in cui Sunshine sarebbe andato mentre seguiva la
- Chaos Legion che seguiva il Dragon Army.
+ esattamente nel modo giusto per portarli in una rotta di intercettazione,
+ verso il luogo che Sunshine avrebbe raggiunto mentre seguiva la Chaos Legion
+ che seguiva il Dragon Army.
  Quindi Harry scelse quella che sembrava la migliore delle due opzioni,
  e Neville lo seguì.
 \end_layout
@@ -448,7 +474,7 @@ Buona idea
 Camminarono faticosamente lungo il corridoio dal pavimento di pietra del
  livello superiore di Hogwarts, illuminato da finestre di vetro normale
  o colorato, di tanto in tanto passando oltre statue di streghe e draghi
- e persino il saltuario mago-cavaliere in corazza o cotta di maglia.
+ e persino l'occasionale mago-cavaliere in corazza o cotta di maglia.
 \end_layout
 
 \begin_layout Quote
@@ -457,6 +483,20 @@ Camminarono faticosamente lungo il corridoio dal pavimento di pietra del
 	filename fleur.png
 	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
