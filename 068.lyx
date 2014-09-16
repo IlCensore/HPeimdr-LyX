@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -65,13 +65,13 @@ initials
 \font_roman Linux Libertine O
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,15 +82,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -143,7 +152,7 @@ Hermione non si stava sentendo molto bene in quel momento, né si sentiva
  troppo Buona, c'era una sfera incandescente di rabbia che ardeva dentro
  di lei e si chiedeva se fosse qualcosa di simile all'oscurità di Harry
  (sebbene probabilmente non ci andasse neppure vicino) e non si sarebbe
- dovuta sentire così per un piccolo e stupido gioco ma
+ dovuta sentire così per uno stupido e insignificante gioco, ma
 \begin_inset space ~
 \end_inset
 
@@ -290,7 +299,7 @@ sconfitti
 \begin_inset Quotes fld
 \end_inset
 
-La signorina Greengrass non è svenuta a causa di una spossatezza magica
+La signorina Greengrass non è svenuta a causa di uno sfinimento magico
 \begin_inset Quotes frd
 \end_inset
 
@@ -338,9 +347,9 @@ Il professor Quirrell la guardò da sopra le dita che si toccavano.
 \begin_inset Quotes fld
 \end_inset
 
-Ovviamente ci sono modi in cui avrebbe potuto vincere, signorina Granger.
- Ci sono sempre, in ogni battaglia persa.
- Il mondo intorno a noi abbonda di opportunità, esplode di opportunità,
+Ovviamente esistono modi in cui avrebbe potuto vincere, signorina Granger.
+ Esistono sempre, in ogni battaglia persa.
+ Il mondo intorno a noi abbonda di opportunità, scoppia di opportunità,
  che quasi tutti ignorano perché richiederebbe loro di violare un pensiero
  abitudinario; in ogni battaglia mille ossa Tassofrasso attendono di essere
  affilate e usate come lance.
@@ -376,9 +385,9 @@ Ma lei, signorina Granger, ha avuto la sfortuna di ricordare come lanciare
  il loro morale è crollato quando lei è caduta.
  In seguito hanno continuato a lanciare le loro inutili Fatture Soporifere,
  governati dalle consuetudini di combattimento che sono state inculcate
- loro tramite l'addestramento, incapaci di rompere lo schema come ha fatto
+ loro tramite l'addestramento, incapaci di rompere gli schemi come ha fatto
  il signor Malfoy.
- Non riesco a capire del tutto cosa passi per la mente delle persone quando
+ Non riesco del tutto a capire cosa passi per la mente delle persone quando
  ripetono la stessa strategia fallimentare più e più volte, ma a quanto
  pare si tratta di un'intuizione incredibilmente rara quella che si possa
  provare qualcosa di diverso.
@@ -393,8 +402,8 @@ Ma lei, signorina Granger, ha avuto la sfortuna di ricordare come lanciare
 \end_inset
 
 Si percepiscono certe similitudini con il modo in cui cinquanta Mangiamorte
- abbiano dominato l'intera Gran Bretagna magica, e con il modo in cui il
- nostro amatissimo Ministero continui nel suo dominio
+ abbiano sottomesso l'intera Gran Bretagna magica, e con il modo in cui
+ il nostro amatissimo Ministero continui nel suo dominio
 \begin_inset Quotes frd
 \end_inset
 
@@ -506,9 +515,9 @@ ni
 \end_inset
 
 .
- Le parole erano ancora precise, ma lo sguardo negli occhi del professor
- Quirrell gelò il sangue di Hermione, anche se stava guardando Harry e non
- lei.
+ Le parole erano ancora meticolose, ma l'espressione negli occhi del professor
+ Quirrell gelò il sangue di Hermione, anche se stava lanciando un'occhiataccia
+ a Harry e non a lei.
  
 \begin_inset Quotes fld
 \end_inset
@@ -519,7 +528,7 @@ sospetto
 \emph default
 , signor Potter, che nel momento in cui desiderava isolare la signorina
  Granger e il signor Malfoy e costringerli a inseguirla sul tetto, lei sia
- stato in grado di annientare esattamente la quantità che desiderava delle
+ stato in grado di annientare esattamente la parte che desiderava delle
  loro forze riunite.
  In effetti, questo è il livello di prestazioni che mi 
 \emph on
@@ -529,7 +538,7 @@ aspettavo
 \emph on
 seccato
 \emph default
- di aver scoperto che lei si è trattenuto durante le mie lezioni per tutto
+ di aver scoperto che lei si è contenuto durante le mie lezioni per tutto
  questo tempo! Ho visto quello che lei è veramente in grado di fare, signor
  Potter.
  Lei si trova ben oltre il punto in cui il signor Malfoy o la signorina
@@ -537,7 +546,7 @@ seccato
  il contrario.
  Le dico questo, signor Potter, in qualità di suo professore: per imparare
  al massimo delle sue potenzialità, è necessario che lei eserciti le sue
- capacità in pieno e che non si trattenga per 
+ capacità in pieno e che non si contenga per 
 \emph on
 qualsiasi
 \emph default
@@ -553,7 +562,22 @@ qualsiasi
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -633,7 +657,7 @@ sospetto
 \begin_layout Standard
 La sensazione di bruciore stava strisciandole su per la gola, e quando avesse
  raggiunto i suoi occhi sarebbe scoppiata in lacrime, e da quel momento
- in poi sarebbe stata solo una ragazzina piagnucolona per loro due.
+ in poi per loro due sarebbe stata solo una ragazzina piagnucolona.
 \end_layout
 
 \begin_layout Standard
@@ -649,7 +673,7 @@ Quello
 \end_inset
 
  disse con insistenza la voce di Harry, non lo stava guardando ma la sua
- voce suonò come se avesse la sua testa girata verso di lei.
+ voce suonò come se avesse la testa girata verso di lei.
  
 \begin_inset Quotes fld
 \end_inset
@@ -659,8 +683,8 @@ Quello era -- ci ho provato molto più intensamente quella volta, c'era una
 \emph on
 dovevo
 \emph default
- farlo, così ho usato tutta una serie di trucchi che avevo conservato --
- e
+ farlo, così ho usato tutta una serie di trucchi che avevo tenuto da parte
+ -- e
 \begin_inset space ~
 \end_inset
 
@@ -758,7 +782,7 @@ tu
 \emph on
 me
 \emph default
- in tutte le mie lezioni ad eccezione di volo con la scopa!
+ in tutte le mie lezioni eccetto volo con la scopa!
 \begin_inset Quotes frd
 \end_inset
 
@@ -791,7 +815,8 @@ Non è giusto
 \emph on
 io
 \emph default
- non dovrei dover combattere il tuo lato oscuro, ho appena -- ho solo
+ non dovrei essere obbligata a combattere il tuo lato oscuro, ho appena
+ -- ho solo
 \begin_inset space ~
 \end_inset
 
@@ -803,7 +828,7 @@ io
 \emph on
 ho appena dodici anni
 \emph default
-, quello era ciò che pensò allora.
+, fu ciò che pensò in quel momento.
 \end_layout
 
 \begin_layout Standard
@@ -865,7 +890,7 @@ Io non\SpecialChar \ldots{}
 davvero
 \emph default
 , quella volta, so che ho detto che ero invincibile ma era solo per cercare
- di spaventarti, pensavo solo che vi avremmo rallentato per un po'
+ di spaventarti, pensavo solo che vi avremmo rallentati per un po'
 \begin_inset space ~
 \end_inset
 
@@ -898,7 +923,7 @@ Il professor Quirrell ha ragione?
 \begin_inset Quotes fld
 \end_inset
 
-Se ti avrò per amica, mi preoccuperò sempre di fare meglio di te perché
+Se ti avrò per amica, sarò sempre preoccupato di fare meglio di te perché
  so che ferirebbe i tuoi sentimenti? Non è giusto, Hermione!
 \begin_inset Quotes frd
 \end_inset
@@ -917,6 +942,7 @@ Inspirò e trattenne il fiato e corse, i suoi piedi che ticchettarono sulla
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -925,13 +951,28 @@ Inspirò e trattenne il fiato e corse, i suoi piedi che ticchettarono sulla
 \end_layout
 
 \begin_layout Standard
-Minerva stava esaminando le pergamene di Trasfigurazione da consegnare lunedì,
- e aveva appena assegnato un voto di duecento punti in negativo ad una pergamena
- del quinto anno con un errore che avrebbe potenzialmente ucciso qualcuno.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Minerva stava esaminando le pergamene di Trasfigurazione del compito di
+ lunedì, e aveva appena assegnato un voto di duecento punti in negativo
+ ad una pergamena del quinto anno con un errore che avrebbe potenzialmente
+ ucciso qualcuno.
  Durante il suo primo anno come professore era stata indignata per la follia
  degli studenti più grandi, ora era solo rassegnata.
- Alcune persone non solo non imparavano mai, non notavano mai che erano
- senza speranza, restavano allegri e desiderosi e continuavano a provare.
+ Alcune persone non solo non imparavano mai, non notavano mai di essere
+ senza speranza, restavano allegre e desiderose e continuavano a provare.
  A volte le credevano quando diceva loro, prima che lasciassero Hogwarts,
  che non avrebbero dovuto 
 \emph on
@@ -1056,7 +1097,22 @@ La ragazza iniziò a spiegare
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -1099,9 +1155,9 @@ Era
 \begin_layout Standard
 Solo che Hermione Granger aveva pensato; aveva pensato a lungo, dopo che
  non era stata più in grado di correre oltre ed era scivolata contro il
- muro con i suoi polmoni in fiamme, pensando mentre si raggomitolava in
- una palla con la schiena contro il muro di gelida pietra e le sue gambe
- tirate su e piangendo.
+ muro con i suoi polmoni in fiamme, aveva pensato mentre si era raggomitolata
+ in una palla, con la schiena contro il muro di gelida pietra e le sue gambe
+ tirate su e aveva pianto.
 \end_layout
 
 \begin_layout Standard
@@ -1131,7 +1187,7 @@ E aveva raccontato alla professoressa McGonagall di come Harry Potter era
  cambiato dal giorno in cui la fenice era stata sulla sua spalla, e di come
  la gente sembrasse vederla sempre più come qualcosa appartenente a Harry,
  e come era sembrato che Harry si stesse allontanando sempre di più da tutti
- gli altri nel loro anno scolastico e come girava talvolta con un'aria triste
+ gli altri nel loro anno scolastico e che talvolta girava con un'aria triste
  come se stesse perdendo qualcosa, ed 
 \emph on
 ella non sapeva più cosa fare
@@ -1160,8 +1216,8 @@ cercare
 \emph on
 non
 \emph default
- essere spaventata, di fare semplicemente qualsiasi cosa necessaria, e vedere
- cosa le sarebbe accaduto, non sarebbe potuta andare molto peggio.
+ essere spaventata, di fare semplicemente qualsiasi fosse cosa necessaria,
+ e vedere cosa le sarebbe accaduto, non sarebbe potuta andare molto peggio.
 \end_layout
 
 \begin_layout Standard
@@ -1234,10 +1290,9 @@ per favore riferisci al Preside quello che hai detto a me a proposito di
 \end_layout
 
 \begin_layout Standard
-Hermione iniziò a parlare, e malgrado la sua recente decisione la sua voce
- balbettò comunque un po' per il nervosismo, mentre descriveva come Harry
- fosse cambiato nelle ultime poche settimane da quando Fawkes era stato
- sulla sua spalla.
+Hermione iniziò a parlare, e malgrado la sua recente decisione, la sua voce
+ balbettò un po' per il nervosismo, mentre descriveva come Harry fosse cambiato
+ nelle ultime poche settimane da quando Fawkes era stato sulla sua spalla.
 \end_layout
 
 \begin_layout Standard
@@ -1460,7 +1515,7 @@ Il vecchio mago annuì lentamente.
 È davvero un mondo ingiusto quello in cui viviamo, signorina Granger.
  Tutto il mondo ora sa che sono stato io a sconfiggere Grindelwald, e pochi
  ricordano Elizabeth Beckett che morì per aprirmi un passaggio in modo che
- io potessi avanzare oltre.
+ io potessi avanzare.
  Eppure è ricordata.
  Harry Potter 
 \emph on
@@ -1614,7 +1669,7 @@ Questa è una richiesta ardua, signorina Granger
  l'avevano sorvolato; uno scudo sbiadito su cui era incisa l'araldica di
  Hogwarts, il leone e il serpente, e il tasso e il corvo, e parole impresse
  in latino il cui senso non aveva mai compreso.
- Poi, quando comprese dove si trovava quello scudo, e quanto antico sembrasse,
+ Poi, quando capì dove si trovava quello scudo, e quanto antico sembrasse,
  a Hermione venne improvvisamente in mente che quello potesse essere 
 \emph on
 l'originale
@@ -1680,7 +1735,7 @@ beh, disse che diventiamo ciò che siamo destinati a diventare seguendo i
 \end_inset
 
 .
- Il dito di Silente tamburellò sul leone, e poi tornò verso di lei.
+ Silente batté il dito sul leone, e poi si girò verso di lei.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1713,14 +1768,14 @@ Un Grifondoro direbbe che le persone non diventano ciò che dovrebbero essere
 
 La maggior parte delle persone 
 \emph on
-hanno
+ha
 \emph default
  paura, signorina Granger.
  Vivono le loro intere vite delimitate da una paura opprimente che taglia
  via ogni cosa che possano compiere, ogni cosa che potrebbero diventare.
  Paura di dire o fare la cosa sbagliata, paura di perdere le loro semplici
- proprietà, paura delle morte, e soprattutto paura di ciò che le altre persone
- penseranno di loro.
+ proprietà, paura della morte, e soprattutto paura di ciò che le altre persone
+ penserebbero di loro.
  Tale paura è una cosa estremamente terribile, signorina Granger, ed è terribilm
 ente importante saperlo.
  Ma non è ciò che Godric Grifondoro avrebbe detto.
@@ -1752,8 +1807,8 @@ giusta?
 \emph on
 quello
 \emph default
- è ciò che lei è davvero, e ovunque quel percorso porti, quello è chi lei
- è destinata ad essere
+ è ciò che lei è realmente, e ovunque quel percorso porti, quella è la persona
+ che lei è destinata ad essere
 \begin_inset Quotes frd
 \end_inset
 
@@ -1882,20 +1937,21 @@ perché
 \end_inset
 
 , disse il vecchio mago.
- I suoi occhi batterono diverse volte, sotto gli occhiali a mezzaluna, e
- il suo volto sembrò improvvisamente molto rugoso.
+ Le sue palpebre batterono diverse volte, sotto gli occhiali a mezzaluna,
+ e il suo volto sembrò improvvisamente molto rugoso.
  
 \begin_inset Quotes fld
 \end_inset
 
 Vede, signorina Granger, le persone non crescono a causa del tempo, le persone
- crescono quando sono poste in situazioni da adulti.
+ crescono quando sono calate in situazioni da adulti.
  Questo è quello che è successo a Harry Potter quella domenica.
  Gli è stato detto -- non deve condividere questa informazione con nessuno,
  comprenda -- gli è stato detto che avrebbe dovuto combattere qualcuno.
  Non posso dirle chi.
  Non posso dirle perché.
- Ma questo è quello che gli è accaduto, e perché ha bisogno dei suoi amici
+ Ma questo è quello che gli è accaduto, e il motivo per cui ha bisogno dei
+ suoi amici
 \begin_inset Quotes frd
 \end_inset
 
@@ -1950,7 +2006,7 @@ No
 \end_inset
 
 Non lei.
- Non posso dirti chi, o perché
+ Non posso dirle chi, o perché
 \begin_inset Quotes frd
 \end_inset
 
@@ -2079,15 +2135,16 @@ Harry Potter è speciale.
 \end_inset
 
 .
- Gli occhi blu furono improvvisamente penetranti dietro gli occhiali a mezzaluna
-, e si ricordò del giorno del Dissennatore, quando la voce di Silente aveva
- detto, nella sua mente, che egli sapeva del lato oscuro di Harry.
+ Gli occhi blu divennero improvvisamente penetranti dietro gli occhiali
+ a mezzaluna, e si ricordò del giorno del Dissennatore, quando la voce di
+ Silente aveva detto, nella sua mente, che egli sapeva del lato oscuro di
+ Harry.
 \end_layout
 
 \begin_layout Standard
 Hermione sollevò la mano e toccò quella della professoressa McGonagall,
  che era rimasta forte sulla sua spalla tutto quel tempo, e Hermione disse,
- e fu sorpresa che la sua voce non si rompesse in un pianto, 
+ e fu sorpresa che la sua voce non si spezzasse in un pianto, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2191,8 +2248,8 @@ Nessuna delle due parlò durante la discesa.
 \end_layout
 
 \begin_layout Standard
-Quando i gargoyle di Pietra Volante si spostarono di mezzo con un passo,
- ed entrambe uscirono nei corridoi di Hogwarts, la professoressa McGonagall
+Quando i gargoyle di Pietra Volante si fecero da parte con un passo, ed
+ entrambe uscirono nei corridoi di Hogwarts, la professoressa McGonagall
  finalmente parlò, e disse con un sussurro, 
 \begin_inset Quotes fld
 \end_inset
@@ -2207,10 +2264,10 @@ Sono terribilmente dispiaciuta, signorina Granger.
 \end_layout
 
 \begin_layout Standard
-Hermione diede un'occhiata verso di lei e vide che la professoressa McGonagall
- sembrava sul punto di scoppiare in lacrime\SpecialChar \ldots{}
- non letteralmente, ma il suo
- volto contratto dava quell'impressione.
+Hermione diede un'occhiata in alto verso di lei e vide che la professoressa
+ McGonagall sembrava sul punto di scoppiare in lacrime\SpecialChar \ldots{}
+ non letteralmente,
+ ma il suo volto contratto dava quell'impressione.
 \end_layout
 
 \begin_layout Standard
