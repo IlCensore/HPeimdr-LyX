@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -84,13 +84,13 @@ initials
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf2
 \output_sync 0
@@ -101,15 +101,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -152,6 +161,20 @@ iv
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:69Auto-realizzazione-p4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -210,15 +233,15 @@ nulla
 \emph default
 , nessun segno, attese per lunghi secondi e non udì alcun grido e non vide
  alcun fuoco, stava solo iniziando a chiedersi con una sensazione di nausea
- se avesse immaginato ogni cosa, quando udì una 
+ se avesse immaginato ogni cosa, quando udì strillare una 
 \emph on
 persona
 \emph default
- strillare.
+.
 \end_layout
 
 \begin_layout Standard
-Quando i suoi piedi in piena corsa voltarono l'angolo la sua mente assimilò
+Quando i suoi piedi voltarono l'angolo in piena corsa, la sua mente assimilò
  l'intera scena in uno sguardo, tre enormi ragazzi in vesti bordate di verde
  che si stavano già voltando verso di lei, e un ragazzo più basso e più
  piccolo in giallo, che se ne stava per aria, pendendo per un piede, retto
@@ -227,12 +250,12 @@ Quando i suoi piedi in piena corsa voltarono l'angolo la sua mente assimilò
 
 \begin_layout Standard
 Il Generale Sunshine non ci pensò nemmeno, coloro che si fermavano a pensare
- non avrebbero teso imboscate efficaci.
+ non tendevano imboscate molto efficaci.
 \end_layout
 
 \begin_layout Standard
-La sua bacchetta fu nella sua mano, le sue dita operarono la rotazione e
- le sue labbra dissero 
+La bacchetta fu nella sua mano, le sue dita operarono la rotazione e le
+ sue labbra dissero 
 \begin_inset Quotes fld
 \end_inset
 
@@ -338,7 +361,7 @@ mira
 \emph default
  del bullo non era stata minimamente buona come quella di Harry; e le venne
  il pensiero che forse i bulli e gli eserciti del professor Quirrell non
- andavano d'accordo.
+ erano compatibili.
 \end_layout
 
 \begin_layout Standard
@@ -437,7 +460,7 @@ Glisseo
 \begin_inset Quotes frd
 \end_inset
 
-, disse Hermione, rivolgendosi al pavimento.
+, disse Hermione, rivolta al pavimento.
 \end_layout
 
 \begin_layout Standard
@@ -448,9 +471,9 @@ Ohff
 \begin_inset Quotes frd
 \end_inset
 
- disse il bullo mentre i suoi piedi scomparvero da sotto di lui e 
+ fece il bullo mentre i suoi piedi scomparvero da sotto di lui e
 \emph on
-lasciò incredibilmente cadere la sua bacchetta
+ incredibilmente lasciò cadere la sua bacchetta
 \emph default
 .
 \end_layout
@@ -479,11 +502,11 @@ Somnium
 \end_layout
 
 \begin_layout Standard
-Respirava ancora a rantoli mentre strisciava verso il punto in cui il ragazzo
- Tassofrasso si stava mettendo a sedere, e gemendo e sfregando il proprio
- cranio lì dove era stato fatto cadere di testa sul pavimento; era una buona
- cosa che non fosse un Babbano, si rese conto Hermione, o si sarebbe potuto
- spezzare il collo.
+Stava ancora respidando a rantoli mentre strisciò verso il punto in cui
+ il ragazzo Tassofrasso si stava mettendo a sedere, e gemendo e sfregando
+ il proprio cranio lì dove era stato fatto cadere di testa sul pavimento;
+ era una buona cosa che non fosse un Babbano, si rese conto Hermione, o
+ si sarebbe potuto spezzare il collo.
  Non ci aveva davvero pensato.
 \end_layout
 
@@ -495,12 +518,12 @@ Uh
 \begin_inset Quotes frd
 \end_inset
 
-, disse il ragazzo, il colore dei suoi capelli era tale che lo si sarebbe
+, fece il ragazzo, il colore dei suoi capelli era tale che lo si sarebbe
  potuto chiamare `moretta' se fosse stato una ragazza, i suoi occhi di un
- marrone indistinguibile che in qualche modo sembrava proprio giusto per
- un Tassofrasso, non c'erano lacrime sul suo volto ma in qualche modo sembrava
+ marrone indistinguibile che in qualche modo sembrava appropriato per un
+ Tassofrasso, non c'erano lacrime sul suo volto ma in qualche modo sembrava
  pallido.
- Lo stimò essere del quarto anno circa, o del terzo.
+ Stimò che fosse del quarto anno circa, o del terzo.
 \end_layout
 
 \begin_layout Standard
@@ -528,7 +551,7 @@ Già
 \begin_inset Quotes frd
 \end_inset
 
-, disse lei.
+, ella rispose.
  
 \begin_inset Quotes fld
 \end_inset
@@ -615,8 +638,8 @@ Sono Michael Hopkins
 \begin_inset Quotes frd
 \end_inset
 
-, disse il ragazzo una volta che Hermione si era rimessa in piedi.
- Allungò la sua mano.
+, disse il ragazzo una volta che Hermione si fu rimessa in piedi.
+ Le porse mano.
  
 \begin_inset Quotes fld
 \end_inset
@@ -645,8 +668,8 @@ grazie
 
 \begin_layout Standard
 Hermione non era preparata per la scarica di euforia che la colpì in quel
- momento, salvando qualcuno in quel modo si era sentita meglio di quanto
- non si fosse sentita 
+ momento, salvare qualcuno in quel modo l'aveva fatta sentire meglio di
+ quanto non si fosse sentita 
 \emph on
 in tutta la sua vita
 \emph default
@@ -663,7 +686,7 @@ ente capì quanto
 \emph on
 grande
 \emph default
- fosse la differenza che era nata tra gli studenti di Hogwarts che si erano
+ fosse la differenza che era sorta tra gli studenti di Hogwarts che si erano
  iscritti a tutte le attività extra-curricolari del professor Quirrell,
  e gli studenti che avevano ricevuto anni di insegnamenti da parte dei peggiori
  professori che avessero mai insegnato.
@@ -732,7 +755,7 @@ permesso
 \end_layout
 
 \begin_layout Standard
-Poi Hermione diede un'occhiata nervosa lì dove i tre ragazzi più grandi
+Poi Hermione diede un'occhiata nervosa là dove i tre ragazzi più grandi
  giacevano senza sensi mentre la colpì la realizzazione che loro l'avevano
  
 \emph on
@@ -778,6 +801,17 @@ E ricordò la voce della professoressa McGonagall dire, `Lei
 ha
 \emph default
  dodici anni'.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Da cap.
+ 68.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -791,8 +825,8 @@ Chiese a Mike se avesse bisogno di andare nell'ufficio di Madam Pomfrey,
 \end_layout
 
 \begin_layout Standard
-E poi Hermione Granger se ne andò via passeggiando, allontanandosi dal mucchio
- di bulli senza sensi, assicurandosi di mettere sul proprio viso un sorriso
+E poi Hermione Granger se ne andò via passeggiando, allontanandosi dall'ammasso
+ di bulli privi di sensi, assicurandosi di mettere sul proprio viso un sorriso
  mentre camminava.
 \end_layout
 
@@ -816,6 +850,7 @@ Grifondoro!'
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -824,8 +859,22 @@ Grifondoro!'
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Stava ancora pensandoci quando scese per cena; l'euforia di salvare qualcuno
- non si era ancora consumata, e stava iniziando a preoccuparsi che avesse
+ non si era ancora esaurita, e stava iniziando a preoccuparsi che avesse
  rotto qualcosa nel suo cervello.
 \end_layout
 
@@ -962,7 +1011,7 @@ siamo già
 \end_layout
 
 \begin_layout Standard
-Hermione lo prese in considerazione.
+Hermione esaminò la cosa.
  Si era chiesta se Harry avrebbe detto qualcosa di Serpeverde o forse persino
  di Grifondoro, ma questo non sembrava adattarsi alla lista del Preside;
  e a Hermione venne in mente che potevano esserci molti più punti di vista
@@ -1031,16 +1080,16 @@ Ah\SpecialChar \ldots{}
 \begin_inset Quotes fld
 \end_inset
 
-Credo che molta gente possa fare delle cose quando il mondo le incanala
- a farle\SpecialChar \ldots{}
- come quando la gente si aspetta che tu le faccia, o quando richiede
+Credo che molta gente possa fare delle cose quando il mondo le induca a
+ farle\SpecialChar \ldots{}
+ come quando le persone si aspettano che tu le faccia, o quando richiede
  capacità che tu già possiedi, o se c'è un'autorità che ti controlla per
- rilevare i tuoi errori e assicurarsi che tu faccia la tua parte.
+ prendere nota dei tuoi errori e assicurarsi che tu faccia la tua parte.
  Ma problemi del genere sono stati già probabilmente risolti, sai, e non
  c'è bisogno di eroi.
  Quindi penso che le persone che chiamiamo `eroi' siano rare perché devono
- farsi tutto da sole mentre procedono lungo la loro strada, e la maggior
- parte delle persone non si trova a suo agio in questo.
+ farsi tutto da sole mentre procedono per la loro strada, e la maggior parte
+ delle persone non si trova a suo agio in questo.
  Perché me lo chiedi?
 \begin_inset Quotes frd
 \end_inset
@@ -1092,19 +1141,19 @@ Hermione raccontò la storia, che iniziò a espandersi in ondate di altri
  sussurri mentre parlava.
  (Anche se lasciò fuori la parte della fenice, perché sembrava una cosa
  privata tra loro due.
- Hermione si era sentita sorpresa, ripensandoci in seguito, che una fenice
- apparisse a qualcuno che 
+ Hermione si era sentita sorpresa, ripensandoci dopo, che una fenice apparisse
+ a qualcuno che 
 \emph on
 voleva
 \emph default
- essere un eroe; sembrò un po' egoista quando la pensava in quel modo; ma
- forse questo non era importante per le fenici fintanto che vedevano che
+ essere un eroe; sembrò un po' egoista quando la vedeva in quel modo; ma
+ forse questo non era importante per le fenici, fintanto che capivano che
  eri disposto ad aiutare la gente.)
 \end_layout
 
 \begin_layout Standard
-Quando ebbe terminato di parlare, Harry la fissò dall'altra parte della
- tavola e non disse una parola.
+Quando ebbe terminato di parlare, Harry la fissò dall'altro lato della tavola
+ e non disse una parola.
 \end_layout
 
 \begin_layout Standard
@@ -1116,7 +1165,7 @@ Mi dispiace per come mi sono comportata prima
 \end_inset
 
 , disse Hermione.
- Prese un sorso dal suo bicchiere di succo d'uva.
+ Bevette un sorso dal suo bicchiere di succo d'uva.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1163,8 +1212,8 @@ tu
 \end_inset
 
 Ne sono abbastanza certa.
- Del resto il mio nome è quasi un anagramma di `eroina' a parte un paio
- di lettere, non l'avevo mai notato fino a oggi.
+ Del resto, il mio nome è praticamente un anagramma di `eroina', a parte
+ un paio di lettere, non l'avevo mai notato fino a oggi.
 \begin_inset Quotes frd
 \end_inset
 
@@ -1176,8 +1225,8 @@ Ne sono abbastanza certa.
 \end_inset
 
 Essere un eroe non è tutto rose e fiori.
- Non l'essere un eroe vero, del tipo che gli adulti devono essere, non è
- così, non sarà così facile.
+ Non lo è essere un eroe vero, del tipo che gli adulti devono essere, non
+ è così, non sarà così facile.
 \begin_inset Quotes frd
 \end_inset
 
@@ -1199,8 +1248,8 @@ Lo so.
 \begin_inset Quotes fld
 \end_inset
 
-È duro e doloroso e devi prendere decisioni quando non ci sono affatto buone
- risposte
+È duro e doloroso e devi prendere decisioni quando non c'è nessuna risposta
+ giusta
 \begin_inset space ~
 \end_inset
 
@@ -1281,7 +1330,7 @@ Un improvviso sorriso illuminò il volto di Harry, un sorriso che era tanto
 \begin_inset Quotes fld
 \end_inset
 
-Questo finirà orribilmente dannatamente male, in qualche modo
+Questo finirà orribilmente, dannatamente male, in qualche modo
 \begin_inset Quotes frd
 \end_inset
 
@@ -1306,7 +1355,7 @@ Oh, lo so
 \end_inset
 
 , disse Hermione.
- Mangiò un altro morso di pane tostato.
+ Mangiò un altro boccone di pane tostato.
  
 \begin_inset Quotes fld
 \end_inset
@@ -1323,6 +1372,7 @@ A proposito di questo, Silente si è rifiutato di essere il mio misterioso
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1342,24 +1392,23 @@ Conseguenze
 \end_inset
 
 \SpecialChar \ldots{}
- e il professor Flitwick dice che la sua determinazione sembra irremovibile
+ e il professor Flitwick dice che la sua risolutezza sembra irremovibile
 \begin_inset Quotes frd
 \end_inset
 
 , disse fermamente Minerva, fissando il vecchio mago dalla barba d'argento
- che era responsabile di tutto questo.
- Albus Silente se ne stava semplicemente seduto in silenzio ad ascoltarla
- con uno sguardo distante e triste nei suoi occhi.
+ che era responsabile di tutto ciò.
+ Albus Silente se ne stava semplicemente seduto in silenzio ad ascoltarla,
+ con un'espressione distante e triste nei suoi occhi.
  
 \begin_inset Quotes fld
 \end_inset
 
 La signorina Granger non ha battuto ciglio quando il professor Flitwick
- l'ha minacciata di trasferirla a Grifondoro, ha semplicemente detto che
- se se ne fosse andata si sarebbe portata dietro tutti i suoi libri.
- Hermione Granger ha deciso che ha intenzione di essere un eroe e non accetterà
- un no come risposta.
- Dubito che l'avresti potuta spingere a farlo più efficacemente se ci avessi
+ l'ha minacciata di trasferirla a Grifondoro, ha detto solo che se se ne
+ fosse andata si sarebbe portata dietro tutti i suoi libri.
+ Hermione Granger ha deciso che sarà un eroe e non accetta un no come risposta.
+ Dubito che l'avresti potuta spingere a farlo più efficacemente, se ci avessi
  
 \emph on
 provato
@@ -1418,7 +1467,7 @@ dopo che hai avuto a che fare con il tuo trentesimo eroe o giù di lì, comprend
 \begin_inset Quotes frd
 \end_inset
 
-, con un breve sospiro, 
+, un breve sospiro, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1460,7 +1509,7 @@ se si dovesse fare male, ti giuro che questa volta io
 \begin_inset Quotes fld
 \end_inset
 
-Sarebbe giunta alla stessa conclusione a tempo debito
+Sarebbe giunta alla stessa decisione a tempo debito
 \begin_inset Quotes frd
 \end_inset
 
@@ -1469,7 +1518,7 @@ Sarebbe giunta alla stessa conclusione a tempo debito
 \begin_inset Quotes fld
 \end_inset
 
-Se qualcuno è destinato a diventare un eroe allora non ascolterà i nostri
+Se qualcuno è destinato a diventare un eroe, allora non ascolterà i nostri
  avvertimenti, Minerva, non importa quanto impegno ci metteremo.
  E considerato ciò, è meglio per Harry che la signorina Granger non resti
  troppo indietro rispetto a lui
@@ -1510,6 +1559,7 @@ Una pasticca al limone?
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1539,8 +1589,8 @@ Daphne Greengrass stava seduta in una comoda poltrona di cuoio nero, la
 \end_layout
 
 \begin_layout Standard
-Era stata preparata ad essere presa in giro per il fatto che le piacesse
- Neville Longbottom.
+Era stata pronta ad essere presa in giro per il fatto che le piacesse Neville
+ Longbottom.
  Si era aspettata di sentire molte battute beffarde sui Tassofrasso.
  Aveva pensato a intere 
 \emph on
@@ -1604,9 +1654,9 @@ In quel momento si riferivano a lei come alla Scintillante Principessa Unicorno
 
 \begin_layout Standard
 E qualche maledetta ragazza del sesto anno l'aveva colpita con una Fattura
- Scintillante, non sapeva neppure che ci 
+ Scintillante, non sapeva neppure che 
 \emph on
-fosse
+esistesse
 \emph default
  una cosa come la Fattura Scintillante, e il 
 \emph on
@@ -1616,10 +1666,10 @@ Finite Incantatem
 \emph on
 creduto
 \emph default
- fossero sue amiche (apparentemente si era sbagliata su questo) e poi aveva
+ fossero sue amiche (su questo apparentemente si era sbagliata) e poi aveva
  minacciato colei che aveva lanciato la fattura di un terribile terremoto
- politico causato da suo padre e ciononostante Daphne Greengrass stava ancora
- sedendo nella sala comune dei Serpeverde con la testa tra le mani, scintillando
+ politico causato da suo padre, e ciononostante Daphne Greengrass era ancora
+ seduta nella sala comune dei Serpeverde con la testa tra le mani, scintillando
  accesamente e chiedendosi come fosse finita per essere l'unica persona
  sana di mente a Hogwarts.
 \end_layout
@@ -1656,8 +1706,19 @@ Gazzetta del Profeta
 \end_inset
 
 Avete sentito la notizia? Il Wizengamot ha appena deliberato che `vediamo
- di cosa sei capace' costituisce una sfida legittima che va combattuta finché
- lo sfidante non cade a terra e si fa un sonnellino!
+ di cosa sei capace'
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Da cap.
+ 67.
+\end_layout
+
+\end_inset
+
+ costituisce una sfida legittima che va combattuta finché lo sfidante non
+ cade a terra e si fa un sonnellino!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1681,7 +1742,7 @@ Vediamo di cosa sei capace!
 \begin_inset Quotes frd
 \end_inset
 
- Poi Tracey si sdraiò sul suo sofà e iniziò a russare rumorosamente.
+ Poi Tracey si sdraiò sul sofà e iniziò a russare rumorosamente.
 \end_layout
 
 \begin_layout Standard
@@ -1690,7 +1751,7 @@ La testa scintillante di Daphne sprofondò ancor di più tra le sue mani luminos
 \begin_inset Quotes fld
 \end_inset
 
-Dopo che la mia famiglia prenderà il potere vi farò mettere tutti sotto
+Dopo che la mia famiglia prenderà il potere, vi farò mettere tutti sotto
  fatture anti-Materializzazione e vi spedirò via Metropolvere in fondo al
  mare
 \begin_inset Quotes frd
@@ -1743,7 +1804,7 @@ Ho udito qualcuno bussare!
 
 
 \emph on
-Bussare alla porta!
+Bussano alla porta!
 \emph default
 
 \begin_inset Quotes frd
@@ -1884,7 +1945,7 @@ ho deciso che non è giusto che misteriosi vecchi maghi diano una possibilità
 \end_layout
 
 \begin_layout Standard
-Ci fu un altro silenzio.
+Ci fu altro silenzio.
 \end_layout
 
 \begin_layout Standard
@@ -1933,7 +1994,22 @@ Io ci sto!
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
