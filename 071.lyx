@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -62,35 +62,44 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
+\font_roman EB Garamond
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
-\spacing single
+\paperfontsize 11
+\spacing other 1.3500000000000001
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -185,21 +194,21 @@ Non penso che sia quello che intende dire
 Avanzarono lentamente e con attenzione lungo i corridoi di Hogwarts, tutte
  e otto tenendo entrambe le orecchie aperte per il minimo rumore di Guai,
  proprio come se si trattasse di una battaglia e fossero alla ricerca di
- soldati nemici a cui tendere un'imboscata; solo in questo caso stavano
+ soldati nemici a cui tendere un'imboscata; solo che in questo caso stavano
  cercando dei bulli da Sgominare e vittime da Salvare nell'intervallo tra
  la fine dell'ora di colazione e quando Lavender e Parvati sarebbero dovute
  andare alla loro lezione di Erbologia.
 \end_layout
 
 \begin_layout Standard
-Lavender aveva sostenuto che se una ragazza del primo anno poteva sconfiggere
+Lavender aveva spiegato che se una ragazza del primo anno poteva sconfiggere
  tre bulli più grandi, allora otto ragazze del primo anno sarebbero dovute
  essere in grado di superare in uno scontro ventiquattro bulli più grandi
  in virtù della Moltiplicazione.
 \end_layout
 
 \begin_layout Standard
-A giudicare dal suo frenetico sputacchiare e agitare le mani, il generale
+A giudicare dal suo frenetico farfugliare e agitare di mani, il generale
  Granger non l'aveva trovato convincente.
 \end_layout
 
@@ -318,8 +327,8 @@ sperava
 
 \begin_layout Standard
 I corridoi di Hogwarts passavano oltre uno dopo l'altro, le loro mani in
- tensione non erano mai troppo lontane dalle loro bacchette, mentre pietra
- e legno e Torce Sempreardenti entravano nel loro campo visivo e poi passavano
+ tensione non erano mai troppo lontane dalle bacchette, mentre pietra e
+ legno e Torce Sempreardenti entravano nel loro campo visivo e poi passavano
  oltre.
  A un certo punto sentirono dei passi e trattennero il respiro, le mani
  che quasi andarono alle bacchette, ma era solo un solitario Corvonero più
@@ -348,7 +357,8 @@ diverso
  giù raggi di sole anche se non erano affatto vicino al tetto, e dopo che
  ebbero seguito quel passaggio superando qualche curva, esso le condusse
  ad un altro bagno dei ragazzi, chiaramente contrassegnato con una targa
- che mostra il profilo di una figura in ampie vesti che orinava in un cesso.
+ che mostrava il profilo di una figura in ampie vesti che orinava in un
+ cesso.
 \end_layout
 
 \begin_layout Standard
@@ -572,9 +582,9 @@ dice
 \end_layout
 
 \begin_layout Standard
-(La mente di Daphne cercò di scendere a compromesso con questa dichiarazione
- mentre lei ringraziava silenziosamente il Cappello Parlante di averla messa
- ben lontana da Grifondoro.)
+(La mente di Daphne cercò di afferrare quell'affermazione mentre ella ringraziav
+a silenziosamente il Cappello Parlante di averla messa ben lontana da Grifondoro.
+)
 \end_layout
 
 \begin_layout Standard
@@ -611,9 +621,9 @@ modo
 \end_layout
 
 \begin_layout Standard
-Daphne si trovava per caso lì dove guardando Parvati vedeva anche Hermione,
- quindi notò il cambiamento dell'espressione della ragazza Corvonero --
- e allora si ricordò che 
+Daphne si trovava per caso in una posizione da cui guardando Parvati vedeva
+ anche Hermione, quindi notò il cambiamento dell'espressione della ragazza
+ Corvonero -- e allora si ricordò che 
 \emph on
 anche
 \emph default
@@ -715,7 +725,7 @@ Avrebbe pagato cento galeoni per essere lì quando l'avessero raccontato
 \end_layout
 
 \begin_layout Standard
-Sebbene considerando quanto velocemente le voci si diffondessero per Hogwarts,
+Sebbene, considerando quanto velocemente le voci si diffondessero per Hogwarts,
  ora che Padma aveva vuotato il sacco, Millicent gliel'aveva probabilmente
  raccontato trenta minuti fa\SpecialChar \ldots{}
 
@@ -828,7 +838,22 @@ con noi!
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -846,7 +871,7 @@ Rivelava qualcosa, e qualcosa di piuttosto triste -- pensò Hermione Granger,
 qualcosa
 \emph default
 .
- E qualsiasi cosa Harry avesse fatto, sperava che 
+ E qualunque cosa Harry avesse fatto, sperava che 
 \emph on
 non funzionasse
 \emph default
