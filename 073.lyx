@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -63,15 +63,15 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans EB Garamond
+\font_sans Fontin SmallCaps
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,15 +82,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -152,7 +161,7 @@ name "chap:73AR-sacro-mondano-p8"
 \end_inset
 
 
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -170,9 +179,9 @@ viii
 
 \emph on
 Lo zampillo di fuoco colse Hannah in pieno viso, gettandola gambe all'aria
- e mandando la sua testa a sbattere direttamente contro il muro di pietra,
- dove il suo volto pallido sembrò indugiare per un istante, incorniciato
- dalle ciocche svolazzanti dei suoi capelli castano-dorati, prima che crollasse
+ e mandando la sua testa a sbattere dritta contro il muro di pietra, dove
+ il suo volto pallido sembrò indugiare per un istante, incorniciato dalle
+ ciocche svolazzanti dei suoi capelli castano-dorati, prima che ella crollasse
  a terra in un mucchio di vesti, mentre la terza e ultima raffica di divampanti
  spirali verdi abbatté l'Incantesimo di Protezione del loro nemico.
 \end_layout
@@ -185,10 +194,10 @@ I giorni di marzo avanzavano di gran carriera, pieni di lezioni e studio
 \begin_layout Standard
 
 \emph on
-Il ragazzo Grifondoro le fissò tutte e otto, la tensione in ogni linea della
- struttura del suo corpo, il suo volto che lavorava senza suono; e poi le
- sue mani rilasciarono la loro presa serrata sui risvolti del ragazzo Serpeverde
-, ed egli se ne andò via senza che nessuno dicesse una parola.
+Il ragazzo Grifondoro fissò loro otto, la tensione in ogni linea della struttura
+ del suo corpo, il suo volto che lavorava silenziosamente; e poi le sue
+ mani lasciarono la presa serrata sui risvolti del ragazzo Serpeverde, che
+ se ne andò via senza che nessuno dicesse una parola.
  (Insomma, Lavender fu sul punto di dire una parola -- la sua bocca si stava
  aprendo per l'indignazione, forse perché non aveva avuto l'occasione di
  declamare il suo discorso -- ma fortunatamente Hermione lo notò e fece
@@ -215,11 +224,11 @@ Innervate!
 \end_inset
 
  disse la giovane voce di Susan Bones, e gli occhi di Hermione si spalancarono
- e le sue labbra inspirarono aria con un sussulto, i suoi polmoni che sembravano
+ e le sue labbra inspirarono aria con un rantolo, i suoi polmoni che sembravano
  pesanti come se ci fosse un peso enorme appoggiato sul suo petto.
  Accanto a lei, Hannah era già seduta, e si teneva la testa tra le mani
  e faceva delle smorfie.
- Daphne le aveva avvertite che questo sarebbe stato un combattimenro `difficile'
+ Daphne le aveva avvertite che questo sarebbe stato un combattimento `difficile'
 , causando una certa trepidazione in Hermione, e in effetti in tutte loro.
  Tranne forse in Susan, che si era semplicemente presentata all'ora stabilita
  per l'incontro, e aveva camminato al loro fianco senza parlare, e aveva
@@ -233,7 +242,7 @@ Innervate!
 \end_layout
 
 \begin_layout Standard
-E non si dovrebbe dimenticare neppure la magia, anche se il momento effettivo
+E non si dovrebbe dimenticare neppure la magia, anche se il tempo effettivo
  di lanciare un incantesimo formava solo una piccola parte della giornata.
  Era la motivazione principale di Hogwarts, dopo tutto.
 \end_layout
