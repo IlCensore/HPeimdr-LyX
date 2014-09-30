@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -58,13 +58,13 @@ initials
 \font_roman Garamond Premier Pro
 \font_sans Frutiger LT Std
 \font_typewriter Latin Modern Mono
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -75,15 +75,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -434,7 +443,17 @@ Diversi studenti deglutirono.
 
 \begin_layout Standard
 La professoressa McGonagall si alzò e si avvicinò alla parete dietro la
- sua scrivania, che reggeva una tavola di legno bianca.
+ sua scrivania, che reggeva una tavola di legno levigata
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+bianca (EY, 2014-09-30)
+\end_layout
+
+\end_inset
+
+.
  
 \begin_inset Quotes fld
 \end_inset
@@ -445,9 +464,37 @@ Ci sono molte ragioni per cui Trasfigurazione è pericolosa, ma una ragiona
 \end_inset
 
 .
- Tirò fuori un pennarello apparentemente dal nulla, e disegnò delle lettere
- in rosso brillante; poi le sottolineò, usando lo stesso pennarello, in
- blu:
+ Tirò fuori una penna d'oca con una spessa estremità
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+un pennarello apparentemente dal nulla (EY, 2014-09-30)
+\end_layout
+
+\end_inset
+
+, e la usò per disegnare
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+disegnò (EY, 2014-09-30)
+\end_layout
+
+\end_inset
+
+ delle lettere in rosso
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ brillante (EY, 2014-09-30)
+\end_layout
+
+\end_inset
+
+; poi le sottolineò, usando lo stesso pennarello, in blu:
 \end_layout
 
 \begin_layout Quote
@@ -705,7 +752,17 @@ libera
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall prese un piccolo pezzo di legno dalla tasca.
+La professoressa McGonagall prese un piccolo blocchetto
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+pezzo (EY, 2014-09-30)
+\end_layout
+
+\end_inset
+
+ di legno dalla tasca.
  Con un tocco della sua bacchetta divenne una palla di vetro.
  Poi disse «
 \emph on
