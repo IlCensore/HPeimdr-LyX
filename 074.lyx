@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -68,13 +68,13 @@ initials
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf2
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -123,15 +132,7 @@ initials
 \begin_body
 
 \begin_layout Chapter
-Auto-realizzazione, intensificazione
-\begin_inset space ~
-\end_inset
-
-dei
-\begin_inset space ~
-\end_inset
-
-conflitti, parte
+Auto-realizzazione, intensificazione dei conflitti, parte
 \begin_inset space ~
 \end_inset
 
@@ -147,7 +148,7 @@ name "chap:74AR-intensificazione-conflitti-p9"
 \end_inset
 
 
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -198,7 +199,7 @@ non è ancora ora del nostro incontro.
 
 \begin_layout Standard
 Harry rimase calmo.
- Essere passato per Azkaban aveva ricalibrato la sua scala dei disordini
+ Essere passato per Azkaban aveva ricalibrato la sua scala dei turbamenti
  emotivi; e perdere un punto-Casa, che in precedenza aveva un valore di
  cinque su dieci, ora si trovava intorno a zero virgola tre.
  La voce di Harry era calma, mentre disse, 
@@ -274,7 +275,8 @@ Le labbra s'incurvarono, a malapena.
 \begin_inset Quotes fld
 \end_inset
 
-Dunque ritiene che io abbia errato nella mia comprensione della natura umana.
+Dunque ritiene che io abbia fallito nella mia comprensione della natura
+ umana.
  Ma difficilmente questa è l'unica possibilità, ragazzo.
  Riesce a vedere l'altra?
 \begin_inset Quotes frd
@@ -352,7 +354,7 @@ Io penso, ragazzo
 che se l'intera Casa Serpeverde la odiasse così tanto, me ne sarei accorto.
  Eppure tre combattenti formidabili di quella Casa hanno fatto qualcosa
  invece che niente, a proprio rischio e pericolo.
- Quale forza potrebbe averli mossi, o fornito la volontà al loro muoversi?
+ Quale forza potrebbe averli mossi, o aver voluto il loro gesto?
 \begin_inset Quotes frd
 \end_inset
 
@@ -385,10 +387,10 @@ Uhm\SpecialChar \ldots{}
 \begin_inset Quotes fld
 \end_inset
 
-Dovrebbe essere qualcuno minacciato in qualche modo da Hermione, o qualcuno
- che riceverebbe il merito se le fosse fatto del male, forse? Non conosco
- nessuno che corrisponda a tale profilo, ma del resto non so molto di nessuno
- in Serpeverde al di fuori del primo anno
+Dovrebbe essere qualcuno che in qualche modo è minacciato da Hermione, o
+ qualcuno che riceverebbe il merito se le fosse fatto del male, forse? Non
+ conosco nessuno che corrisponda a tale profilo, ma del resto non so molto
+ di nessuno in Serpeverde al di fuori del primo anno
 \begin_inset Quotes frd
 \end_inset
 
@@ -486,7 +488,8 @@ Harry entrò nella stanza.
 \begin_inset Quotes fld
 \end_inset
 
-Non era qualcosa che avrebbe dovuto dire ad alta voce in una lingua umana
+Non era qualcosa che avrebbe dovuto pronunciare ad alta voce in una lingua
+ umana
 \begin_inset Quotes frd
 \end_inset
 
@@ -536,7 +539,7 @@ Quando il Professore di Difesa parlò nuovamente, la sua voce era tornata
 \begin_inset Quotes fld
 \end_inset
 
-Suppongo che potrei farlo, e pietà per l'assassino
+Suppongo che potrei farlo, e provare pietà per l'assassino
 \begin_inset Quotes frd
 \end_inset
 
@@ -559,12 +562,12 @@ Ma questi piccoli giochi solleticano a malapena il mio interesse così come
 \begin_layout Standard
 Harry non sapeva affatto cosa dire.
  Aveva già visto il professor Quirrell d'umore furioso una o due volte in
- precedenza, ma ora sembrava più vuoto, e Harry non sapeva come reagire.
+ precedenza, ma ora sembrava più svuotato, e Harry non sapeva come reagire.
  
 \emph on
 Cosa la sta preoccupando, professor Quirrell?
 \emph default
- non poté chiederlo.
+ non poté chiedere.
 \end_layout
 
 \begin_layout Standard
@@ -580,7 +583,7 @@ trova
 \end_inset
 
  disse Harry alcuni momenti dopo, quando ebbe concluso che fosse una strategia
- apparentemente più sicura di ridirigere l'attenzione del professor Quirrell
+ apparentemente più sicura per ridirigere l'attenzione del professor Quirrell
  su cose positive.
  Citare i risultati di ricerche sperimentali, che avevano indagato l'efficacia
  del tenere un diario in cui annotare gli eventi di cui essere grati come
@@ -683,6 +686,20 @@ Non trovo più divertenti le sue preoccupazioni tanto quanto le trovavo in
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -981,7 +998,22 @@ me?
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -997,8 +1029,8 @@ E così fu quella stessa mattina che Harry Potter si recò presso il tavolo
 \end_layout
 
 \begin_layout Standard
-Fu con una considerevole capacità auto-controllo che Draco Malfoy riuscì
- a impedirsi di sbattere ripetutamente la testa nel suo piatto di pane tostato.
+Fu con un considerevole auto-controllo che Draco Malfoy riuscì a impedirsi
+ di sbattere ripetutamente la testa nel suo piatto di pane tostato.
 \end_layout
 
 \begin_layout Standard
@@ -1017,7 +1049,22 @@ loro
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
