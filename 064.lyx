@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -91,13 +91,13 @@ initials
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf2
 \output_sync 0
@@ -108,15 +108,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -965,9 +974,60 @@ dell'onestà!
 \begin_inset Quotes frd
 \end_inset
 
- Il pony scuro alzò la testa ancora più in alto, la criniera che soffiò
- come il vento nel cielo notturno del suo lungo collo, i suoi occhi che
- brillarono come stelle.
+ Twilight Sparkle
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\family sans
+Il pony scuro
+\end_layout
+
+\end_inset
+
+ alzò la testa ancora più in alto, la criniera che soffiò come il vento
+ nel cielo scuro
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\family sans
+notturno
+\end_layout
+
+\end_inset
+
+ del suo 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\family sans
+lungo
+\end_layout
+
+\end_inset
+
+ collo
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\family sans
+, i suoi occhi che brillarono come stelle
+\end_layout
+
+\end_inset
+
+.
  
 \begin_inset Quotes fld
 \end_inset
@@ -996,8 +1056,33 @@ creatività!
 \emph on
 dell'analisi!
 \emph default
- Marie-Susan, che ha voluto che la convincessimo delle nostre teorie prima
- di finanziare la nostra spedizione, rappresenta lo spirito\SpecialChar \ldots{}
+ Marie-Susan, che ha voluto che la convincessimo che avessimo ragione
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\family sans
+delle nostre teorie
+\end_layout
+
+\end_inset
+
+ prima di unirsi alla
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\family sans
+finanziare la
+\end_layout
+
+\end_inset
+
+ nostra spedizione, rappresenta lo spirito\SpecialChar \ldots{}
  della 
 \emph on
 revisione paritaria!
@@ -1014,20 +1099,53 @@ revisione paritaria!
 \begin_layout Standard
 
 \family sans
-L'esplosione di potere che scaturì fu come un vento di lava brillante, colpì
- Marie-Susan prima che il pony potesse persino sussultare, e le strappò
- via la carne dalle ossa e frantumò quelle ossa in cenere prima che qualcuna
- di loro avesse la possibilità di impennarsi per lo shock.
+L'esplosione di potere che scaturì fu come un vento di una notte senza luna
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+lava brillante
+\end_layout
+
+\end_inset
+
+, colpì Marie-Susan prima che il pony potesse persino sussultare, ed ella
+ svanì senza lasciare traccia
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+le strappò via la carne dalle ossa e frantumò quelle ossa in cenere
+\end_layout
+
+\end_inset
+
+ prima che qualcuna di loro avesse la possibilità di impennarsi per lo shock.
 \end_layout
 
 \begin_layout Standard
 
 \family sans
 Dalla materia oscura che si ergeva al centro del palco dove gli Elementi
- erano andati in frantumi, dalla ribollente follia e disperazione che circondava
- lo scarsamente riconoscibile contorno nero-vuoto di un cavallo, giunse
- una voce che sembrò oltrepassare tutte le orecchie e ardere come fuoco
- freddo, suonando direttamente nel cervello di ogni pony che udì:
+ erano andati in frantumi, dallo
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+dalla ribollente follia e disperazione che circondava lo
+\end_layout
+
+\end_inset
+
+ scarsamente riconoscibile contorno nero-vuoto di un cavallo, giunse una
+ voce che sembrò oltrepassare tutte le orecchie e ardere come fuoco freddo,
+ suonando direttamente nel cervello di ogni pony che udì:
 \end_layout
 
 \begin_layout Standard
@@ -1040,13 +1158,19 @@ Vi aspettavate che me ne restassi semplicemente lì e vi lasciassi terminare?
 \begin_layout Standard
 
 \family sans
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\family sans
 Le urla iniziarono, allora, a echeggiare attorno a quell'antica e abbandonata
  sala del trono; e Applejack cadde sul proprio ciuffo di fianco alla cenere
  ancora luminosa che era tutto ciò che restava delle ossa di Marie-Susan,
  sembrando troppo distrutta persino per singhiozzare.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \family sans
 Twilight Sparkle fissò l'orrore che una volta era stata Nightmare Moon,
@@ -1062,6 +1186,58 @@ realmente
  di una rivista prestigiosa.
  Tutti lo sapevano\SpecialChar \ldots{}
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Twilight Sparkle fissò lo spazio dove era stata Marie-Susan, dove non restava
+ neppure una traccia dell'unicorno.
+ 
+\emph on
+Lei -- è appena -- lei --
+\emph default
+ Nei recessi della sua mente, inascoltata, c'era la consapevolezza che Rarity
+ stava urlando.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Quella non era una disintegrazione
+\emph default
+, disse la voce di Nightmare.
+ 
+\emph on
+L'ho mandata da un'altra parte.
+\end_layout
+
+\begin_layout Standard
+L'urlo di Rarity si interruppe bruscamente.
+\end_layout
+
+\begin_layout Standard
+Twilight Sparkle si sentì come se il proprio urlo stesso solo iniziando.
+ Sette.
+ Ci volevano sette pony per usare gli Elementi dell'Indagine.
+ Tutti sapevano che non era importante quanto onesta, indagatrice, scettica,
+ creativa, analitica o curiosa tu fossi, ciò che 
+\emph on
+realmente
+\emph default
+ rendeva il tuo lavoro Scienza era quando pubblicavi i tuoi risultati su
+ di una rivista prestigiosa.
+ Tutti lo sapevano.
+ Poteva esserci più di un Elemento della Revisione Paritaria alla volta
+ -- quanto ci sarebbe voluto per trovarne un altro -- e Nightmare non sarebbe
+ rimasta semplicemente a guardare e a lasciaglielo fare
+\begin_inset space ~
+\end_inset
+
+--
 \end_layout
 
 \begin_layout Quote
