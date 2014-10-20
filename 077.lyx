@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -66,15 +66,15 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans Gill Sans Std
+\font_sans Ubuntu
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -131,7 +140,7 @@ name "chap:77AR-conseguenze"
 \end_inset
 
 
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -158,13 +167,13 @@ Il vecchio mago sedeva da solo alla propria scrivania, nel non-silenzio
  dell'ufficio del Preside, in mezzo agli innumerabili e inosservati congegni;
  le sue vesti di un giallo gentile, di un tessuto morbido, abiti dissimili
  da quelli che normalmente indossava in presenza di altri.
- La sua mano rugosa reggeva una penna che scricchiolava su di una pergamena
- dall'aria ufficiale.
+ La sua mano rugosa reggeva una penna che grattava su di una pergamena dall'aria
+ ufficiale.
  Se in qualche modo si fosse stati presenti per osservare il suo volto grinzoso,
  si sarebbe stati incapaci di dedurre qualcosa di più dell'uomo in sé di
  quanto non si fossero capiti i congegni misteriosi.
  Si sarebbe potuto osservare che quel volto sembrava un po' triste, un po'
- stanco, ma del resto Albus Silente sembrava sempre così quando era da solo.
+ stanco, ma del resto Albus Silente sembrava sempre così quando era solo.
 \end_layout
 
 \begin_layout Standard
@@ -173,8 +182,8 @@ Nel focolare della Metropolvere c'erano solo ceneri sparse senza alcun residuo
  di esistere.
  Sul piano materiale, la grande porta di quercia dell'ufficio era stata
  chiusa a chiave; oltre quella porta, la Scala Senza Fine restava immobile;
- al fondo di quella scala, i gargoyle che ne bloccavano l'accesso non si
- spostavano, la loro pseudo-vita ritiratasi lasciando solida roccia.
+ in fondo a quella scala, i gargoyle che ne bloccavano l'accesso non stavano
+ fluendo, la loro pseudo-vita si era ritirata lasciando solida roccia.
 \end_layout
 
 \begin_layout Standard
@@ -190,7 +199,7 @@ Poi, proprio mentre la penna era nel mezzo della composizione di una parola,
 Il vecchio mago saltò in piedi con una velocità che avrebbe sconvolto chiunque
  stesse guardando, abbandonando la penna a metà lettera sulla pergamena;
  come un fulmine discese sulla porta di quercia, le sue vesti gialle che
- vorticarono attorno a lui e la bacchetta dallo spaventoso potere che gli
+ gli vorticarono attorno e la bacchetta dallo spaventoso potere che gli
  saltò in mano
 \begin_inset space ~
 \end_inset
@@ -259,8 +268,13 @@ sic
 \end_layout
 
 \begin_layout Standard
-Il ragazzo entrò nell'ufficio, passo dopo passo, intenzionalmente, fin quando
- la porta si chiuse dolcemente dietro di lui.
+Il ragazzo entrò nell'ufficio, un passo dopo l'altro, in\SpecialChar \-
+ten\SpecialChar \-
+zio\SpecialChar \-
+nal\SpecialChar \-
+men\SpecialChar \-
+te,
+ fin quando la porta si chiuse dolcemente dietro di lui.
  
 \begin_inset Quotes fld
 \end_inset
@@ -468,10 +482,10 @@ sarebbe
  per i corridoi.
  Sarebbe giustizia per i suoi crimini passati, e lo farei solo se Jugson
  facesse la prima mossa.
- Dopotutto, lo scopo non è far sì che la gente abbia paura di me come di
- una variabile impazzita.
- È insegnare loro che i neutrali sono perfettamente al sicuro con me, e
- che provocarmi è incredibilmente pericoloso
+ Dopotutto, lo scopo non è quello di fare in modo che la gente abbia paura
+ di me come di una variabile impazzita.
+ È quello di insegnare loro che chi rimane neutrale è perfettamente al sicuro
+ con me, e che provocarmi è incredibilmente pericoloso
 \begin_inset Quotes frd
 \end_inset
 
@@ -515,7 +529,7 @@ No
 
 No, Harry, non deve accadere.
  Non hai ancora compreso il vero significato del combattere, ciò che accade
- realmente quando gli avversari si incontrano in battaglia.
+ realmente quando gli avversari si scontrano in battaglia.
  E così tu sogni, come fanno i giovani ragazzi, di insegnare ai tuoi avversari
  a temerti.
  Mi spaventa che tu, ad un'età tanto precoce, possa avere potere sufficiente
@@ -524,7 +538,7 @@ No, Harry, non deve accadere.
 \emph on
 alcuna
 \emph default
- curva di quel sentiero che non conduca nell'oscurità, Harry, nessuna.
+ svolta di quel sentiero che non conduca all'oscurità, Harry, nessuna.
  Quella è la via di un Signore Oscuro, per certo
 \begin_inset Quotes frd
 \end_inset
@@ -596,7 +610,7 @@ Gazzetta del Profeta
  Il mondo che ti circonda è più fragile di quanto sembri credere, e dobbiamo
  muoverci con estrema cura.
  La vecchia Guerra dei Maghi non è mai terminata, Harry, è semplicemente
- continuata con una forma differente; il re nero ha dormito, e Lucius Malfoy
+ continuata con una forma differente; il re nero dormiva, e Lucius Malfoy
  ha mosso i suoi pezzi per un certo tempo.
  Pensi che Lucius Malfoy ti consentirebbe a cuor leggero di prendere un
  pedone del suo colore?
@@ -699,7 +713,7 @@ Le ultime tre parole furono pronunciate con una voce chiara e particolare
 Tra l'antico scudo sul muro e la cappelliera del Cappello Smistatore, la
  pietra delle pareti iniziò a fluire e muoversi, riversandosi a formare
  due colonne e rivelando un varco tra di loro, un'apertura che mostrava
- un insieme di scale di pietra che conducevano in alto verso l'oscurità.
+ una rampa di scale di pietra che conducevano in alto verso l'oscurità.
 \end_layout
 
 \begin_layout Standard
@@ -731,7 +745,22 @@ Poiché sei andato molto oltre facendoti strada fin qui non invitato, puoi
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -796,14 +825,14 @@ La stanza sembrava costruita con metallo nero come la porta che vi si apriva.
  I muri erano neri, il pavimento era nero.
  Il soffitto sopra di loro era nero, eccezion fatta per un singolo globo
  di cristallo che pendeva dal soffitto su di una catena bianca, e splendeva
- di una brillante luce d'argento che sembrava come se fosse stata lanciata
+ di una brillante luce d'argento che appariva come se fosse stata lanciata
  ad imitazione della luce del Patronus, sebbene si potesse capire che non
  era l'originale.
 \end_layout
 
 \begin_layout Standard
 All'intero della stanza c'erano dei piedistalli di metallo nero, ciascuno
- reggente un'immagine in movimento, o un cilindro messo in verticale e mezzo
+ reggeva un'immagine in movimento, o un cilindro messo in verticale e mezzo
  pieno di un qualche liquido argenteo debolmente luccicante, o un piccolo
  oggetto solitario; una collana d'argento bruciata, un cappello schiacciato,
  un anello matrimoniale d'oro mai toccato.
@@ -874,8 +903,8 @@ Mi pare che tu non sappia nulla del prezzo della fenice.
 \end_inset
 
 .
- Non c'era rabbia nella voce del vecchio mago; l'impatto che espelleva il
- tuo fiato come cadendo da un manico di scopa era tutto nelle bacchette
+ Non c'era rabbia nella voce del vecchio mago; l'impatto che ti faceva espellere
+ il fiato come se fossi caduto da un manico di scopa era tutto nelle bacchette
  arse e spezzate, baluginanti gentilmente nella loro morte sotto la luce
  d'argento.
  
@@ -892,11 +921,11 @@ Altrimenti girati ed esci da questo luogo, ma allora non desidero più udirne
 
 \begin_layout Standard
 Harry non sapeva cosa dire.
- Non c'era stato nulla nella sua vita che fosse simile a questo, e tutte
+ Non c'era stato nulla nella sua vita che fosse simile a quello, e tutte
  le parole sembrarono scivolare via.
  Avrebbe trovato qualcosa da dire se l'avesse cercato, ma non poteva credere,
- in quel momento, che le parole sarebbero state significative.
- Non si sarebbe dovuti essere in grado di vincere ogni possibile discussione,
+ in quel momento, che le parole avrebbero avuto qualche significato.
+ Non avresti dovuto essere in grado di vincere ogni possibile discussione,
  solo perché delle persone erano morte per delle tue decisioni, eppure anche
  sapendolo sembrava come se non vi fosse nulla da dire.
  Non c'era nulla che Harry avesse alcun diritto di dire.
@@ -1072,7 +1101,7 @@ Pensava che il governo della Gran Bretagna babbana non dovesse controllare
  colpire, senza resistere, e quando gli inglesi non riuscirono più a sopportare
  di farlo, liberammo il suo Paese.
  Pensai che fosse una cosa davvero bella, quando lo lessi, pensai che fosse
- qualcosa di più elevato di tutte le guerre che chiunque avesse combattuto
+ qualcosa di più nobile di tutte le guerre che chiunque avesse combattuto
  con cannoni o spade.
  Che l'avessero fatto davvero, e che avesse 
 \emph on
@@ -1083,13 +1112,13 @@ realmente funzionato
 \end_inset
 
 .
- Harry prese un altro respiro.
+ Harry fece un altro respiro.
  
 \begin_inset Quotes fld
 \end_inset
 
 Solo in seguito scoprii che Gandhi disse alla sua gente, durante la Seconda
- guerra mondiale, che se i nazisti avessero li invasi, avrebbero dovuto
+ guerra mondiale, che se i nazisti li avessero invasi, avrebbero dovuto
  usare la non-violenza anche contro di loro.
  Ma allora i nazisti avrebbero sparato contro chiunque fosse stato davanti
  a loro.
@@ -1155,13 +1184,14 @@ Quello che voglio dire è
 
 , disse Harry, dopo una breve pausa per ricordare esattamente con chi stesse
  parlando, e abbattere con la forza la sensazione improvvisamente ritornata
- di essere un bambino ignorante che era impazzito per l'audacia che non
+ di essere un bambino ignorante che era impazzito per l'audacia, che non
  aveva nessun diritto di essere in quella stanza e nessun diritto di mettere
  in discussione Albus Silente su nulla, 
 \begin_inset Quotes fld
 \end_inset
 
-quello che voglio dire è che dire che la violenza è male non è una 
+quello che voglio dire è che affermare che la violenza è male non è una
+ 
 \emph on
 risposta
 \emph default
@@ -1206,10 +1236,10 @@ dovrebbe
 \emph default
  cercare di fermare il ladro, anche se il ladro potrebbe reagire e qualcuno
  potrebbe farsi male o persino essere ucciso.
- Anche se il ladro sta cercando solo di rubare della gioielleria, che è
- solo una 
+ Anche se il ladro sta cercando solo di rubare dei gioielli, che sono solo
+ delle 
 \emph on
-cosa
+cose
 \emph default
 .
  Perché se nessuno desse quanto meno 
@@ -1239,7 +1269,7 @@ cose
 
  Harry si interruppe.
  I suoi pensieri non erano in ordine come solitamente sostenevano di essere,
- in questa stanza.
+ in quella stanza.
  Sarebbe dovuto essere in grado di fornire una qualche spiegazione perfettamente
  logica in termini di teoria dei giochi, sarebbe quanto meno dovuto essere
  in grado di 
@@ -1455,7 +1485,7 @@ Grindelwald possedeva un dispositivo antico e terribile.
  Fin quando ne fosse stato in possesso, non avrei potuto infrangere le sue
  difese.
  Nel nostro duello non mi fu possibile vincere, solo combatterlo per lunghe
- ore finché non cadde per la stanchezza; e io ne sarei morto subito dopo,
+ ore finché non cadde per lo sfinimento; e io ne sarei morto subito dopo,
  se non fosse stato per Fawkes.
 \begin_inset Note Note
 status open
@@ -1611,7 +1641,22 @@ No! Non l'avrei fatto neppure a lui
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -1702,8 +1747,8 @@ Anche questa non è una risposta
 \end_inset
 
 Rifiutarsi di accettare qualcosa non la cambia.
- Mi chiedo ora se tu sia semplicemente troppo giovane per capire questo
- argomento, Harry, malgrado le tue sembianze esteriori; solo nelle fantasie
+ Mi chiedo ora se tu sia semplicemente troppo giovane per capire questa
+ questione, Harry, malgrado le tue sembianze esteriori; solo nelle fantasie
  dei bambini si possono vincere tutte le battaglie, e si può non tollerare
  anche un solo male
 \begin_inset Quotes frd
@@ -1779,9 +1824,9 @@ oh, beh, pare che non riesca a trovare alcun modo per fermare il bullismo
 \emph default
 , e 
 \emph on
-abbandonare
+fermarsi
 \emph default
- così.
+ là.
  Deve continuare a cercare finché non trova un modo per farlo.
  Se questo richiede fare a pezzi l'intera congiura di Lucius Malfoy, 
 \emph on
@@ -1987,6 +2032,7 @@ Va', Harry Potter.
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
