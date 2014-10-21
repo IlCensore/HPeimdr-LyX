@@ -6,7 +6,7 @@
 \begin_preamble
 \setcounter{chapter}{76}
 
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
@@ -40,7 +40,6 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
@@ -2051,7 +2050,7 @@ Conseguenze: il professor Quirrell e
 \end_layout
 
 \begin_layout Standard
-In una radura ombreggiata attendeva il Professore di Difesa, la sua schiena
+Il Professore di Difesa attendeva in una radura ombreggiata, la sua schiena
  appoggiata distrattamente contro la corteccia ruvida e grigia di un faggio
  torreggiante, sebbene ancora senza foglie in quei giorni di fine marzo,
  così che il suo tronco e la sua sommità sembravano un pallido braccio alzato
@@ -2093,7 +2092,7 @@ Buon pomeriggio
 
 \begin_layout Standard
 Una figura avvolta in un mantello nero divenne visibile con uno scintillio,
- la sua testa che si girò prima a sinistra e poi a destra.
+ la sua testa si girò prima a sinistra e poi a destra.
  Nella mano destra della figura, impugnata bassa, c'era una bacchetta di
  legno così grigio da essere quasi argenteo.
 \end_layout
@@ -2278,7 +2277,7 @@ Me ne parli
 
 \begin_layout Standard
 Ci fu una lunga pausa.
- Da qualche albero un gufo bubolò, il suono cospicuo in quel silenzio; nessuno
+ Da qualche albero un gufo bubolò, un suono cospicuo in quel silenzio; nessuno
  dei due uomini si allarmò o sobbalzò.
 \end_layout
 
@@ -2416,8 +2415,8 @@ Lei non sa nulla del genere
 \begin_inset Quotes fld
 \end_inset
 
-Non bleffi con me, Severus Snape; lo trovo irritante, e lei non è nella
- posizione di irritarmi.
+Non finga con me, Severus Snape; lo trovo irritante, e lei non è nella posizione
+ di irritarmi.
  Una singola occhiata rivelerebbe a qualsiasi mago competente che il Preside
  ha intessuto quel corridoio con una ridicola quantità di protezioni e reti,
  inneschi e trappole.
@@ -2606,9 +2605,9 @@ Ero solamente curioso.
 \begin_inset Quotes fld
 \end_inset
 
-Lei è congedato per ora, Severus Snape.
+Per ora lei è congedato, Severus Snape.
  Sebbene non mi dispiacerebbe fare un'altra chiacchierata, presto, se è
- disposto a dirmi onestamente verso chi sia diretta la sua lealtà.
+ disposto a dirmi onestamente a chi sia rivolta la sua lealtà.
  E intendo dire 
 \emph on
 onestamente
@@ -2626,6 +2625,7 @@ onestamente
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2672,11 +2672,11 @@ Oh, smettetela
 \end_layout
 
 \begin_layout Standard
-Non poteva ricordare di aver preso la decisione, c'erano stati solo i due
+Non poteva ricordare di aver preso la decisione, c'erano stati solo due
  ragazzi più grandi sul procinto di lanciare una fattura contro Millicent,
  la sala comune che guardava in silenzio, e poi la mano di Draco aveva semplicem
-ente estratto la sua bacchetta e lanciato la barriera, lasciando che il
- suo cuore si riempisse di adrenalina per lo spavento, mentre il suo povero
+ente estratto la sua bacchetta ed eretto la barriera, lasciando che il suo
+ cuore si riempisse di adrenalina per lo spavento, mentre il suo povero
  e triste cervello si tormentava freneticamente alla ricerca di spiegazioni
 \begin_inset space ~
 \end_inset
@@ -2736,7 +2736,7 @@ Perché la state proteggendo?
 \begin_inset Quotes fld
 \end_inset
 
-Così avete scoperto la mente dietro la congiura
+Così avete scoperto colei che tirava i fili della congiura
 \begin_inset Quotes frd
 \end_inset
 
@@ -2886,8 +2886,8 @@ Sudando ancor più copiosamente, Draco sollevò nuovamente la testa per guardare
 \end_inset
 
 Cosa diceva esattamente quella falsa nota? Era forse `Vi comando di avanzare
- nel nome della Signora Oscura Bulstrode' oppure `Per favore vediamoci qui,
- in amicizia Millicent'?
+ nel nome della Signora Oscura Bulstrode’ oppure `Per favore vediamoci qui,
+ in amicizia Millicent’?
 \begin_inset Quotes frd
 \end_inset
 
@@ -2933,8 +2933,8 @@ falso positivo
 \begin_inset Quotes fld
 \end_inset
 
-Può convincere le streghe ad andare lì, se qualcuna di loro è semplicemente
- 
+Può essere sufficiente a convincere le streghe ad andare là, se qualcuna
+ di loro è anche solo 
 \emph on
 amica
 \emph default
@@ -2959,7 +2959,22 @@ Fu solo con la coda dell'occhio che colse Gregory che lo fissava.
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -2975,12 +2990,12 @@ Gli occhi di Draco erano fermi sui suoi compiti di Astronomia, ma non riusciva
 \emph on
 non 
 \emph default
-avresti dovuto sapere come vagavano i pianeti.
+avresti dovuto sapere come si muovevano i pianeti.
  L'astronomia, un'arte nobile e prestigiosa, un segno di cultura e conoscenza;
- solo che i Babbani possedevano artefatti moderni segreti che potevano operarla
- un milione di miliardi di volte meglio, usando metodi che Harry aveva cercato
- di spiegare e che Draco ancora non poteva iniziare a capire, eccetto per
- il fatto che apparentemente non c'era neppure bisogno della 
+ solo che i Babbani possedevano artefatti moderni segreti che potevano praticarl
+a un milione di miliardi di volte meglio, usando metodi che Harry aveva
+ cercato di spiegare e che Draco ancora non poteva iniziare a capire, eccetto
+ per il fatto che apparentemente non c'era neppure bisogno della 
 \emph on
 magia
 \emph default
@@ -3004,7 +3019,7 @@ Draco guardò le immagini delle costellazioni, e si chiese se fosse così
 \begin_layout Standard
 Una volta Harry Potter gli aveva detto che sul campo di battaglia i soldati
  non combattevano realmente per il loro Paese.
- Il patriottismo avrebbe potuto portarli inizialmente sul campo di battaglia,
+ Il patriottismo avrebbe potuto portarli sul campo di battaglia al principio,
  ma una volta che erano lì, combattevano per proteggersi 
 \emph on
 l'un l'altro
@@ -3029,9 +3044,9 @@ esattamente
 Quello, aveva detto pensieroso Harry Potter, era stato probabilmente il
  motivo per cui i Mangiamorte si erano sgretolati il momento in cui il Signore
  Oscuro aveva lasciato questo mondo.
- Non erano stati abbastanza affettuosi 
+ Non erano stati abbastanza affezionati 
 \emph on
-l'uno con l'altro
+l'uno all'altro
 \emph default
 .
 \end_layout
@@ -3244,7 +3259,7 @@ questo
 \end_layout
 
 \begin_layout Standard
-La voce tremò, poi si ruppe.
+La voce tremò, poi si spezzò.
  Quando Draco alzò lo sguardo dai compiti, vide che delle lacrime stavano
  scorrendo dagli occhi di Gregory.
 \end_layout
@@ -3432,6 +3447,7 @@ Draco annuì nuovamente, ignorando la sensazione di vuoto dentro di sé per
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -3497,7 +3513,7 @@ non esistere
 
 \begin_layout Standard
 Harry non le aveva fatto alcuna domanda, ella aveva appena pronunciato la
- parola `invisibilità' che Harry stava estraendo il suo mantello dell'invisibili
+ parola `invisibilità’ che Harry stava estraendo il suo mantello dell'invisibili
 tà dalla borsa.
  Non le era stata data neppure una possibilità di spiegarsi a proposito
  del suo incontro estremamente segreto con Daphne e Millicent Bulstrode,
@@ -3586,8 +3602,8 @@ ricordasse
 \emph on
 l'avesse
 \emph default
- fatto sarebbe uscita come `lo scheletro è la chiave' e non `Susan Bones
- deve essere presente'.
+ fatto sarebbe uscita come `lo scheletro è la chiave’ e non `Susan Bones
+ deve essere presente’.
 \end_layout
 
 \begin_layout Standard
@@ -3641,7 +3657,7 @@ lei
 \begin_layout Standard
 Stava provando la stessa sensazione di disperazione che aveva avuto durante
  la battaglia prima di Natale, guardando i grafici di Zabini con tutte le
- linee colorate e le scatole e\SpecialChar \ldots{}
+ linee colorate e i rettangoli e\SpecialChar \ldots{}
  e aveva capito solo ora cosa significava
  il fatto che 
 \emph on
@@ -3825,7 +3841,7 @@ Poté sentire il proprio palmo già sudato e fu grata per le scanalature a
 \begin_inset Quotes fld
 \end_inset
 
-Bene, Signora Persona Incredibilmente Sospetta, cosa vole da me?
+Bene, Signora Persona Incredibilmente Sospetta, cosa vuole da me?
 \begin_inset Quotes frd
 \end_inset
 
@@ -3849,9 +3865,9 @@ Dovresti chiedere, piuttosto, cosa
 \emph on
 io
 \emph default
- posso offrire a 
+ posso offrire 
 \emph on
-te
+a te
 \emph default
 
 \begin_inset Quotes frd
@@ -3905,7 +3921,7 @@ Conoscenza
 .
  Questo è quello che posseggo.
  So quello che si sta svolgendo all'interno di questa scuola, tutti i piani
- nascosti e i giocatori, le risposte all'enigma.
+ nascosti e i partecipanti, le risposte all'enigma.
  Conosco la vera ragione della freddezza che vedi negli occhi di Harry Potter.
  Conosco la vera natura della misteriosa malattia del professor Quirrell.
  So chi Silente teme realmente
@@ -3920,7 +3936,7 @@ Conoscenza
 \end_inset
 
 Buon per te.
- Ma sai di che colore era il cavallo bianco di Napoleone?
+ Ma sai quante volte bisogna leccare per consumare un lecca-lecca?
 \begin_inset Quotes frd
 \end_inset
 
@@ -3950,7 +3966,7 @@ Centoottantasette
 \begin_inset Quotes frd
 \end_inset
 
-, disse lei.
+, continuò ella.
  
 \begin_inset Quotes fld
 \end_inset
@@ -4363,7 +4379,7 @@ Me lo devi! Dimmelo, e poi
 \begin_inset Quotes fld
 \end_inset
 
-E allora puoi andartene, credo.
+E allora potrai andartene, credo.
  Solo dimmi -- 
 \emph on
 perché
@@ -4372,8 +4388,17 @@ perché
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{--»}
+\end_layout
+
 \end_inset
 
 
@@ -4382,8 +4407,8 @@ perché
 \begin_layout Standard
 Forse non avrebbe dovuto rispondere; forse avrebbe dovuto girarsi e andarsene,
  o meglio ancora, prima lanciare un Muro Prismatico e poi gridare a pieni
- polmoni mentre correva; ma c'era una nota di vero dolore nella voce che
- la colpì, e così rispose.
+ polmoni mentre correva; ma in quella voce c'era una nota di vero dolore
+ che la colpì, e così rispose.
 \end_layout
 
 \begin_layout Standard
@@ -4394,8 +4419,9 @@ Perché sembri incredibilmente oscuro e spaventoso e sospetto
 \begin_inset Quotes frd
 \end_inset
 
-, disse Hermione, mantenendo la voce educata, mentre la sua bacchetta restava
- puntata contro il torreggiante mantello nero e la nebbia nera senza volto.
+, disse Hermione, mantenendo la voce sotto controllo, mentre la sua bacchetta
+ restava puntata contro il torreggiante mantello nero e la nebbia nera senza
+ volto.
 \end_layout
 
 \begin_layout Standard
