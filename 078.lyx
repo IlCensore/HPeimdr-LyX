@@ -1,12 +1,12 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{77}
 
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
@@ -40,7 +40,7 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -285,7 +294,7 @@ A fianco a Madam Longbottom era seduto nient'altro che lo Stregone Capo
 \end_layout
 
 \begin_layout Standard
-E infine, all'estremità destra, si trovava l'enigmatico Professore di Difesa
+E infine, all'estrema destra, si trovava l'enigmatico Professore di Difesa
  di Hogwarts, Quirinus Quirrell, che se ne stava appoggiato all'indietro
  sui sedili imbottiti come se stesse riposando; in apparenza completamente
  e naturalmente a proprio agio nella rarefatta compagnia del quorum dei
@@ -328,6 +337,7 @@ Il cielo sopra di loro era una solida massa di nuvole disperse all'interno
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -336,9 +346,23 @@ Il cielo sopra di loro era una solida massa di nuvole disperse all'interno
 \end_layout
 
 \begin_layout Standard
-Verso il suo punto di partenza designato in una certa foresta, il Sunshine
- Regiment marciava, sebbene somigliasse di più a una lenta camminata; non
- ci si sarebbe voluti stancare persino prima che la battaglia iniziasse,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diretto verso il suo punto di partenza designato in una certa foresta, il
+ Sunshine Regiment marciava, sebbene somigliasse di più a una lenta camminata;
+ non ci si sarebbe voluti stancare persino prima che la battaglia iniziasse,
  e le brezze di aprile erano fastidiosamente umide, sebbene fresche.
  Alla loro testa, una fiamma gialla vagava lentamente per l'aria, guidandoli
  secondo il loro ritmo.
@@ -353,7 +377,7 @@ Susan Bones continuava a lanciare occhiate preoccupate verso il Generale
  Hermione era stata persino assente alla Riunione Strategica Ufficiale del
  Sunshine Regiment, cosa che sembrava abbastanza comprensibile; ma quando
  dopo Susan le aveva offerto la propria solidarietà, Hermione aveva balbettato
- di aver perso traccia del tempo, cosa che non era affatto normale che lei
+ di aver perso traccia del tempo, cosa che non era affatto normale che ella
  dicesse, e la ragazza era sembrata stanca e spaventata come se avesse appena
  passato tre giorni in un bagno con un Dissennatore.
  Anche in quel momento, quando tutta la concentrazione del Generale Sunshine
@@ -444,7 +468,7 @@ Scusatemi
 \begin_inset Quotes fld
 \end_inset
 
-Sono più portato come maestro di strategia
+Sono più il tipo del genio della strategia
 \begin_inset Quotes frd
 \end_inset
 
@@ -459,7 +483,7 @@ Sono più portato come maestro di strategia
 \emph on
 Io
 \emph default
- sono più portato come maestro di strategia
+ sono il tipo del genio della strategia
 \begin_inset Quotes frd
 \end_inset
 
@@ -650,7 +674,7 @@ smettetela
 \noun on
 spues
 \noun default
-, questo è tutto ciò che intende il Generale Sunshine
+, questo è tutto ciò che il Generale Sunshine vuole dire
 \begin_inset Quotes frd
 \end_inset
 
@@ -712,7 +736,7 @@ Trovo inquietante la tua mancanza di scetticismo
 \end_inset
 
 .
- Sollevò la mano con pollice e medio che quasi si toccavano, puntata verso
+ Sollevò la mano con pollice e medio che quasi si toccavano, puntata contro
  Ernie.
 \end_layout
 
