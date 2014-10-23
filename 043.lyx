@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -64,13 +64,13 @@ initials
 \font_roman EB Garamond
 \font_sans Fredericka the Great
 \font_typewriter EB Garamond Initials
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -81,15 +81,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -1039,7 +1048,7 @@ Cos'hai visto?
 
 \begin_layout Standard
 Molti studenti non avevano risposto a Harry, quando aveva tentato di raccogliere
- dei dati; ma Seamus era Finnigan del Chaos, uno dei luogotenenti di Harry.
+ dei dati; ma Seamus era Finnigan del Caos, uno dei luogotenenti di Harry.
  Forse non era corretto, ma…
 \end_layout
 
