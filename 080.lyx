@@ -1,12 +1,12 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{79}
 
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
@@ -40,7 +40,7 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
@@ -68,13 +68,13 @@ initials
 \font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -85,15 +85,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -154,13 +163,13 @@ L'Antichissima Sala del Wizengamot è fredda e buia, con semicerchi concentrici
  di pietra che sorgono dalla parte centrale che si trova più in basso, e
  semplici panche di legno che poggiano su quei semicerchi elevati.
  Non c'è alcuna fonte di luce, ma l'aula è ben illuminata, senza causa o
- ragione apparente; è semplicemente un fatto nudo e crudo che l'aula sia
- ben illuminata.
+ ragione apparente; è soltanto un fatto puro e semplice che l'aula sia ben
+ illuminata.
  I muri come il pavimento sono di pietra, pietra scura, una qualche elegante
- e misteriosa coniugazione di roccia estremamente piacevole da guardare,
+ e misteriosa declinazione di roccia estremamente piacevole da guardare,
  con una consistenza levigata che sembra scorrere e scivolare sotto la sua
  superficie.
- Questa è l'Antichissima Sala, il luogo più antico del mondo dei maghi che
+ Questa è l'Antichissima Sala, il più antico luogo del mondo dei maghi che
  sia durato fino all'epoca moderna; ogni altro luogo di potere è stato distrutto
  in una guerra o in un'altra.
  Questa è la Sala del Wizengamot, che è antichissima perché le guerre terminaron
@@ -168,9 +177,9 @@ o con la costruzione di questo posto.
 \end_layout
 
 \begin_layout Standard
-Questa è la Sala del Wizengamot; ci sono luoghi più antichi, ma sono nascosti.
+Questa è la Sala del Wizengamot; ci sono luoghi più vecchi, ma sono nascosti.
  La leggenda sostiene che i muri di pietra scura furono evocati, creati,
- fatti esistere per un atto di volontà da Merlino, quando radunò i maghi
+ fatti esistere con un atto di volontà da Merlino, quando radunò i maghi
  più potenti rimasti al mondo e intimorendoli si fece accettare come loro
  capo.
  E quando (continua la leggenda) i Veggenti continuarono a profetare che
@@ -178,8 +187,8 @@ Questa è la Sala del Wizengamot; ci sono luoghi più antichi, ma sono nascosti.
  della sua magia, allora (racconta la storia) Merlino sacrificò la propria
  vita, e la propria magia, e il proprio tempo, per porre in effetto l'Interdetto
  di Merlino.
- Non fu un gesto senza costi, poiché un luogo come questo non poté essere
- eretto nuovamente da alcun potere ancora noto al genere dei maghi.
+ Non fu un gesto senza costi, poiché un luogo come questo non potrebbe essere
+ eretto nuovamente da alcun potere ancora noto alla genìa dei maghi.
  Né distrutto, poiché quelle mura di pietra scura attraverserebbero incolumi,
  e forse senza neppure riscaldarsi, il cuore di una esplosione nucleare.
  È un peccato che nessuno sappia più come realizzarle.
@@ -189,7 +198,7 @@ Questa è la Sala del Wizengamot; ci sono luoghi più antichi, ma sono nascosti.
 Nel più elevato dei semicerchi ascendenti del Wizengamot, sul più alto livello
  di pietra scura, c'è un podio.
  Su quel podio si trova un vecchio, col viso solcato da rughe e una barba
- argentea che si estende fin sotto la vita; questo è Albus Percival Wulfric
+ argentea che si estende fin sotto la vita; questi è Albus Percival Wulfric
  Brian Silente.
  La sua mano destra regge la bacchetta del potere, sulla sua spalla è posato
  un uccello di fuoco.
@@ -201,8 +210,8 @@ Nel più elevato dei semicerchi ascendenti del Wizengamot, sul più alto livello
  dalla sua vittoria su Grindelwald con una fenice brillantemente divampante
  al suo fianco.
  A sua volta ella aveva ricevuto la Linea dal perfezionista Nicodemus Capernaum,
- ciascun mago che la passava al proprio successore designato, sempre più
- indietro in una catena ininterrotta fino al giorno in cui Merlino sacrificò
+ ciascun mago che l'aveva passata al proprio successore designato, sempre
+ più indietro in una catena ininterrotta fino al giorno in cui Merlino sacrificò
  la propria vita.
  Fu così (nel caso ve lo steste chiedendo) che il Paese della Gran Bretagna
  magica riuscì a eleggere Cornelius Fudge come proprio Ministro, eppure
@@ -214,7 +223,7 @@ Nel più elevato dei semicerchi ascendenti del Wizengamot, sul più alto livello
  Stregone Capo è stato quello di esercitare la massima cautela nella sua
  scelta di persone che fossero sia buone che capaci di riconoscere buoni
  successori.
- Ci si aspetterebbe che questa catena di luce perdesse colpi, in qualche
+ Ci si aspetterebbe che questa catena luminosa perdesse colpi, in qualche
  punto lungo i secoli; che si smarrisse almeno una volta, e poi mai tornasse
  indietro.
  Ma non l'ha fatto.
@@ -284,10 +293,10 @@ Non all'interno dei semicerchi ascendenti, ma un po' di lato all'interno
  di un arcata sopraelevata per gli spettatori, vicino a una strega con un
  cappello a punta il cui volto è solcato da rughe di preoccupazione, siede
  un ragazzo vestito con le vesti nere più formali che possiede.
- I suoi occhi sono ghiaccio verde e distrazione, e rivolge a malapena lo
- sguardo su Lord e Lady che fanno animatamente il loro ingresso.
+ I suoi occhi sono ghiaccio verde e astrazione, e rivolgono a malapena il
+ loro sguardo a Lord e Lady che fanno animatamente il loro ingresso.
  Per lui sono solo una raccolta di mormoranti vesti color prugna per decorare
- panche di legno, uno sfondo visivo per il quadro dell'Antichissima Sala.
+ panche di legno, uno sfondo visuale per il quadro dell'Antichissima Sala.
  Se c'è un nemico qui, o qualcosa da manipolare, è meramente 
 \begin_inset Quotes fld
 \end_inset
@@ -299,7 +308,7 @@ il Wizengamot
 .
  Le ricche élite della Gran Bretagna magica hanno una forza collettiva,
  ma non l'attributo di agente individuale; i loro obiettivi sono troppo
- estranei e triviali affinché essi abbiano ruoli personali nel racconto.
+ estranei e triviali affinché essi abbiano ruoli individuali nel racconto.
  Ora, in questo particolare momento, al ragazzo le vesti color prugna non
  piacciono né dispiacciono, perché il suo cervello non assegna loro sufficiente
  qualità di agente per essere i soggetti di un giudizio morale.
@@ -318,7 +327,22 @@ Questa visione sta per cambiare.
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -391,8 +415,8 @@ troppo
 \end_layout
 
 \begin_layout Standard
-Harry aveva sempre posseduto quella sensazione di falsità a proposito dell'indig
-nazione politica, ma era strano quanto sembrasse molto più scontata, quando
+Harry aveva sempre provato quella sensazione di falsità a proposito dell'indigna
+zione politica, ma era strano quanto sembrasse molto più scontata, quando
  stavi leggendo una dozzina di articoli nella 
 \emph on
 Gazzetta del Profeta
@@ -497,7 +521,7 @@ Non farei questo a te
 
 Ancor meno a Hermione.
  Ma non ho conigli nel mio cilindro, Harry.
- Possiamo solo vedere ciò che Lucius Malfoy vuole
+ Possiamo solo vedere ciò che vuole Lucius Malfoy
 \begin_inset Quotes frd
 \end_inset
 
@@ -616,7 +640,7 @@ Ordine!
 \begin_inset Quotes fld
 \end_inset
 
-Metterò ordine qui!
+Esigo ordine!
 \begin_inset Quotes frd
 \end_inset
 
@@ -665,8 +689,8 @@ e al di sotto della sedia di Harry, così non fu prima che l'intero gruppo
 \end_layout
 
 \begin_layout Standard
-Harry scattò in piedi prima di poter anche solo pensare, fu solo l'improvvisa
- presa frenetica della professoressa McGonagall sul suo polso che impedì
+Harry scattò in piedi prima di poter anche solo pensare, fu soltanto l'improvvis
+a presa frenetica della professoressa McGonagall sul suo polso che impedì
  alla sua mano di andare alla bacchetta; e la Professoressa di Trasfigurazione
  sussurrò disperatamente, 
 \begin_inset Quotes fld
@@ -722,7 +746,7 @@ Lentamente, Harry Potter sedette di nuovo mentre la professoressa McGonagall
 \begin_layout Standard
 Ma a quel punto aveva già dichiarato guerra al Paese della Gran Bretagna
  magica, e l'idea che altre persone lo definissero un Signore Oscuro non
- sembrava più importante in un modo o nell'altro.
+ sembrava più importante, in un modo o nell'altro.
 \end_layout
 
 \begin_layout Standard
@@ -769,7 +793,7 @@ Ha qualcosa da dire, signor Potter?
 \begin_inset Quotes frd
 \end_inset
 
- domandò la donna, tanto allegramente come se quello non fosse un processo.
+ domandò la donna molto allegramente, come se quello non fosse un processo.
 \end_layout
 
 \begin_layout Standard
@@ -778,7 +802,7 @@ Anche altre persone lo stavano guardando ora.
 
 \begin_layout Standard
 Harry non poté parlare, sarebbe stato stupido pronunciare ad alta voce tutte
- le parole nella sua mente.
+ le parole contenute nella sua mente.
  Non riusciva a trovare qualcosa che anche Neville avrebbe potuto dire.
  Silente aveva avvertito Harry che se qualcun 
 \emph on
@@ -805,7 +829,7 @@ Il Preside ha detto che non dovrei parlare
 \end_inset
 
 , disse il ragazzo, non del tutto capace di tenere fuori l'acrimonia dalla
- sua voce.
+ voce.
 \end_layout
 
 \begin_layout Standard
@@ -1031,8 +1055,8 @@ servita
 \emph on
 progettare
 \emph default
- che questo accadesse -- avrebbe richiesto più che la malvagità, avrebbe
- richiesto 
+ che questo accadesse -- avrebbe richiesto più che malvagità, avrebbe richiesto
+ 
 \emph on
 vacuità
 \emph default
@@ -1045,9 +1069,9 @@ Harry alzò lo sguardo per un momento, allora, e vide che le vesti color
 \end_layout
 
 \begin_layout Standard
-Un po' più tardi, dopo che tutte le stelle nel cielo notturno si erano raffredda
-te e oscurate e l'ultima luce dell'Universo era ridotta a braci sputacchianti
- e divenuta nera, l'interrogatorio di Hermione terminò.
+Un po' più tardi, dopo che tutte le stelle nel cielo notturno si furono
+ raffreddate e oscurate e l'ultima luce dell'Universo fu ridotta a braci
+ sputacchianti e divenuta nera, l'interrogatorio di Hermione terminò.
 \end_layout
 
 \begin_layout Standard
@@ -1094,8 +1118,8 @@ Fino a quando lei non mi ha assalito in quella battaglia, non stavo tramando
 
 \begin_layout Standard
 Dalla gola di Hermione provenne un suono come se fosse stata appena schiacciata
- sotto un masso cadente, così grande da non poter piangere o respirare,
- solo emettere un piccolo sussulto triste.
+ sotto un masso, così grande da non poter piangere o respirare, solo emettere
+ un piccolo sussulto triste.
 \end_layout
 
 \begin_layout Standard
@@ -1137,7 +1161,7 @@ Mio figlio
 
 sembra aver dato ascolto a certe idee fuorvianti.
  È giovane -- e ha imparato, ora, ciò che abbiamo visto tutti come Paese,
- cosa tale follia porti in cambio
+ quali risultati porti tale follia
 \begin_inset Quotes frd
 \end_inset
 
@@ -1217,8 +1241,8 @@ me
 \end_layout
 
 \begin_layout Standard
-Quando la deposizione del testimone fu conclusa, le deliberazioni del Wizengamot
- iniziarono.
+Quando la deposizione del testimone fu conclusa, iniziarono le deliberazioni
+ del Wizengamot.
 \end_layout
 
 \begin_layout Standard
@@ -1235,13 +1259,14 @@ Le vesti color prugna dal lato della stanza di Silente erano silenziose,
  le presunte forze del bene risparmiavano il loro capitale politico per
  battaglie più vincibili.
  E Harry poté udire, come se il professor Quirrell fosse in piedi accanto
- a lui, una voce caustica nella sua mente, che gli spiegava che sarebbe
- stato scarsamente vantaggioso per i politici parlare, in quel momento.
+ a lui, una voce caustica nella sua mente, che gli spiegava che parlare
+ sarebbe stato scarsamente vantaggioso per i politici, in quel momento.
 \end_layout
 
 \begin_layout Standard
-Ma c'era un mago nella stanza la cui reputazione era abbastanza elevata
- da permettergli di pronunciare una parola di buon senso e cavarsela incolume.
+Ma c'era un mago nella stanza la cui reputazione era di un livello abbastanza
+ elevato da permettergli di pronunciare una parola di buon senso e cavarsela
+ incolume.
  Solo egli parlò per difendere Hermione, l'uomo con una luminosa fenice
  fiammeggiante sulla propria spalla.
 \end_layout
@@ -1269,7 +1294,7 @@ e delle proprie azioni.
 
 \begin_layout Standard
 Albus Silente disse che Hermione Granger era amata da tutto il corpo insegnante
- di Hogwarts, e aveva aiutato quattro ragazze Tassofrasso con i loro compiti
+ di Hogwarts, e aveva aiutato quattro ragazze Tassofrasso con i compiti
  di Incantesimi, e aveva ottenuto centotré punti per Corvonero nel corso
  dell'anno scolastico.
 \end_layout
@@ -1278,7 +1303,7 @@ Albus Silente disse che Hermione Granger era amata da tutto il corpo insegnante
 Albus Silente disse che nessuno che conoscesse Hermione Granger sarebbe
  stato null'altro che turbato da questi eventi.
  Che avevano udito, tutti quanti, l'orrore nella sua voce quando ella aveva
- riportato la propria testimonianza.
+ portato la propria testimonianza.
  E se qualche insolita pazzia l'aveva temporaneamente posseduta, allora
  -- la sua voce si alzò in un severo ordine -- non meritava nulla da loro
  eccetto simpatia e le attenzioni di un guaritore.
@@ -1321,8 +1346,8 @@ Basta così!
 \end_inset
 
 Per ciò che questa pazza donna ha cercato di fare a mio figlio -- per il
- debito di sangue a cui è tenuta per aver cercato di porre fine alla discendenza
- di una Nobile e Antichissima Casa -- io chiedo che sia
+ debito di sangue che ha contratto per aver cercato di porre fine alla discenden
+za di una Nobile e Antichissima Casa -- io chiedo che sia
 \begin_inset space ~
 \end_inset
 
@@ -1420,7 +1445,7 @@ Non avevo previsto di chiederlo.
 \end_layout
 
 \begin_layout Standard
-Si alzò un'enorme esultanza rabbiosa
+Si sollevò un'enorme esultanza rabbiosa
 \begin_inset space ~
 \end_inset
 
@@ -1472,7 +1497,7 @@ E farà
 \emph on
 lei
 \emph default
- la guardia ad Azkaban dopo che ella vi sarà andata, Lord Malfoy?
+ la guardia ad Azkaban dopo che vi sarà mandata, Lord Malfoy?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1530,23 +1555,23 @@ Non c'è alternativa a questo, Lucius? Possiamo ritirarci nel mio studio
 \end_layout
 
 \begin_layout Standard
-L'uomo alto dai lunghi capelli bianchi si girò, allora, a guardare il vecchio
+L'alto uomo dai lunghi capelli bianchi si girò, allora, a guardare il vecchio
  mago al suo podio; e i due si fissarono l'un l'altro per un lungo momento.
 \end_layout
 
 \begin_layout Standard
-Quando Lucius Malfoy parlò di nuovo la sua voce sembrò tremare, seppure
+Quando Lucius Malfoy parlò di nuovo, la sua voce sembrò tremare, seppure
  leggermente, come se il severo controllo su di essa stesse vacillando.
  
 \begin_inset Quotes fld
 \end_inset
 
-Richiede una compensazione, il sangue della mia famiglia.
+Necessita di una compensazione, il sangue della mia famiglia.
  A nessun prezzo venderò il debito di sangue dovuto a mio figlio.
  Non lo capiresti, tu che non hai mai avuto né amore né figlio tuo.
  Eppure, c'è più di un debito dovuto a Casa Malfoy, e penso che mio figlio,
- se fosse tra di noi, preferirebbe essere compensato per il sangue di sua
- madre invece che per il proprio.
+ se fosse tra le nostre file, preferirebbe essere compensato per il sangue
+ di sua madre invece che per il proprio.
  Confessa il tuo crimine al Wizengamot, come l'hai confessato a me, e io
 \begin_inset space ~
 \end_inset
@@ -1720,8 +1745,7 @@ Votiamo, amici miei.
 \end_inset
 
 .
- La voce divenne fredda, sull'ultima nota, la promessa insita in ciò molto
- chiara.
+ La voce divenne fredda sull'ultima nota, la promessa sottintesa molto chiara.
 \end_layout
 
 \begin_layout Standard
@@ -1824,7 +1848,22 @@ Lucius Malfoy
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -1849,8 +1888,8 @@ Nelle antiche e venerate sale del Wizengamot, le persone si guardarono intorno
 \end_layout
 
 \begin_layout Standard
-Non fu finché Lord Malfoy rispose a sua volta che la gente comprese persino
- dove avrebbe dovuto guardare.
+Non fu finché Lord Malfoy rispose a sua volta, che la gente comprese anche
+ solo dove avrebbe dovuto guardare.
 \end_layout
 
 \begin_layout Standard
@@ -1891,7 +1930,7 @@ Questa follia non le si addice, Lucius
 Le dodicenni non se ne vanno in giro a commettere omicidi.
  Lei è un Serpeverde e per di più intelligente.
  Sa che questo è un complotto.
- Hermione Granger è stata disposta su questa tavola da gioco con la forza,
+ Hermione Granger è stata collocata su questa tavola da gioco con la forza,
  da quella stessa mano che si nasconde dietro quel complotto.
  Senza dubbio era previsto che 
 \emph on
@@ -1918,7 +1957,7 @@ Una tempesta sembrò infuriare dentro Lucius, il volto sotto i capelli bianchi
 \begin_inset Quotes fld
 \end_inset
 
-Un complotto, dici?
+Un complotto, dice?
 \begin_inset Quotes frd
 \end_inset
 
@@ -1977,7 +2016,7 @@ Complotto -- o meno
 
 Questo lerciume sanguemarcio ha toccato mio figlio e per questo le metterò
  fine.
- Dovresti saperlo molto bene, 
+ Dovrebbe saperlo molto bene, 
 \emph on
 Harry Potter
 \emph default
@@ -2011,7 +2050,7 @@ antesimo di Raffreddamento del Sangue.
 
 E cosa importa 
 \emph on
-a te
+a lei
 \emph default
  del suo fato?
 \begin_inset Quotes frd
@@ -2024,7 +2063,7 @@ a te
 
 Qual è la 
 \emph on
-tua
+sua
 \emph default
  posta in gioco?
 \begin_inset Quotes frd
@@ -2046,8 +2085,8 @@ Lei è mia amica
 \end_inset
 
 come Draco è mio amico.
- È possibile che questo colpo fosse indirizzato a me, e niente affatto a
- Casa Malfoy
+ È possibile che questo colpo fosse diretto contro di me, e non contro Casa
+ Malfoy
 \begin_inset Quotes frd
 \end_inset
 
@@ -2060,7 +2099,7 @@ Di nuovo i muscoli si contrassero sul volto di Lucius.
 \begin_inset Quotes fld
 \end_inset
 
-E ora stai mentendo a me -- come hai mentito a mio figlio!
+E ora sta mentendo a me -- come ha mentito a mio figlio!
 \begin_inset Quotes frd
 \end_inset
 
@@ -2107,15 +2146,15 @@ Basta così!
 \begin_inset Quotes fld
 \end_inset
 
-Basta con le tue bugie.
- Basta con i tuoi 
+Basta con le sue bugie.
+ Basta con i suoi 
 \emph on
 giochetti!
 \emph default
- Non capisci -- non capiresti mai -- cosa significa il fatto che egli è
- mio figlio! Non mi si negherà questa vendetta! Non più! Mai più! Per il
- sangue che questa ragazza deve a Casa Malfoy, andrà ad Azkaban.
- E se mai scoprissi un'altra mano all'opera -- anche se fosse la tua --
+ Non capisce -- non capirebbe mai -- cosa significa il fatto che egli è
+ mio figlio! Questa vendetta non mi verrà negata! Non più! Mai più! Per
+ il sangue che questa ragazza deve a Casa Malfoy, andrà ad Azkaban.
+ E se mai scoprissi un'altra mano all'opera -- anche se fosse la sua --
  anche quella mano sarà tagliata!
 \begin_inset Quotes frd
 \end_inset
@@ -2127,7 +2166,7 @@ giochetti!
 \begin_inset Quotes fld
 \end_inset
 
-E se non hai di meglio da dire di questo -- taci, Harry Potter!
+E se non ha di meglio da dire di questo -- taccia, Harry Potter!
 \begin_inset Quotes frd
 \end_inset
 
@@ -2138,7 +2177,22 @@ E se non hai di meglio da dire di questo -- taci, Harry Potter!
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
 
 \end_inset
 
@@ -2220,8 +2274,8 @@ Seriamente
 \begin_inset Quotes fld
 \end_inset
 
-penso che la cosa sia andata abbastanza per le lunghe, non pensa, Lord Malfoy?
- Il ragazzo perderà le sue lezioni
+credo che la cosa sia andata abbastanza per le lunghe, non pensa, Lord Malfoy?
+ Il ragazzo farà tardi a lezione
 \begin_inset Quotes frd
 \end_inset
 
@@ -2264,9 +2318,9 @@ E Harry gridò nella propria mente, una frenetica richiesta d'aiuto a qualsiasi
  e aveva perso.
  E poi, con una disperazione finale e convulsa, Harry si gettò nel proprio
  lato oscuro, si spinse all'interno del proprio lato oscuro, impadronendosi
- della sua chiarezza mortale, offrendo al proprio lato oscuro tutto se solo
- avesse risolto questo problema per lui; e finalmente la calma letale giunse
- a ricoprirlo, il vero ghiaccio che infine rispose alla sua chiamata.
+ della sua chiarezza mortale, offrendo al proprio lato oscuro tutto, se
+ solo avesse risolto questo problema per lui; e finalmente la calma letale
+ giunse a ricoprirlo, il vero ghiaccio che infine rispose alla sua chiamata.
  Al di là di tutto il panico e di tutta la disperazione la sua mente iniziò
  a indagare ogni fatto di cui era a conoscenza, a ricordare ogni cosa che
  sapeva su Lucius Malfoy, sul Wizengamot, sulle leggi della Gran Bretagna
