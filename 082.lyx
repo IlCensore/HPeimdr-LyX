@@ -6,7 +6,7 @@
 \begin_preamble
 \setcounter{chapter}{81}
 
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
@@ -40,7 +40,6 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
@@ -67,7 +66,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
+\font_roman EB Garamond
 \font_sans EB Garamond
 \font_typewriter Inconsolata
 \font_math auto
@@ -181,11 +180,11 @@ tale
 \end_layout
 
 \begin_layout Standard
-Harry prese fuoco e si spense e riapparve in una vampata in qualche altro
- luogo; e così all'improvviso egli, e il Preside, e la forma priva di sensi
- di Hermione Granger retta tra le braccia del Preside, stavano occupando
- un altro posto; con Fawkes sopra tutti loro.
- Una stanza calma e calda di luminose colonne di pietra, illuminata dalla
+Harry prese fuoco e si spense e riapparve altrove in una vampata; e così
+ all'improvviso egli, e il Preside, e la forma priva di sensi di Hermione
+ Granger retta tra le braccia del Preside, stavano occupando un altro posto;
+ con Fawkes sopra tutti loro.
+ Una calma e calda stanza di luminose colonne di pietra, illuminata dalla
  luce solare su tutti e quattro i lati, popolata di bianchi letti disposti
  in lunghe file, quattro dei quali avevano dei veli silenziatori tirati
  tutto attorno, mentre i restanti erano vuoti.
@@ -209,10 +208,11 @@ Il vecchio mago si girò dal letto e passò nuovamente un braccio attorno
  in un'altra vampata di fiamme.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -221,8 +221,8 @@ Il vecchio mago si girò dal letto e passò nuovamente un braccio attorno
 \end_layout
 
 \begin_layout Standard
-Quando Harry si fu nuovamente e completamente illuminato, si trovava nell'uffici
-o del Preside, in mezzo ai rumori di una dozzina di inspiegabili aggeggi.
+Quando Harry si fu nuovamente acceso tutto, si trovava nell'ufficio del
+ Preside, in mezzo ai rumori di una dozzina di inspiegabili aggeggi.
 \end_layout
 
 \begin_layout Standard
@@ -237,7 +237,7 @@ I due non parlarono per un po', osservandosi l'un l'altro; come se tutto
 \end_layout
 
 \begin_layout Standard
-Infine il ragazzo scandì le parole lentamente e con precisione.
+Infine il ragazzo articolò le parole lentamente e con precisione.
 \end_layout
 
 \begin_layout Standard
@@ -325,7 +325,7 @@ Non sei affatto nella posizione di potermi dare lezioni su questo, Harry
 \begin_inset Quotes fld
 \end_inset
 
-O cos'era quell'espressione di riluttanza che ho visto sul tuo visto, lì
+O cos'era quell'espressione di riluttanza che ho visto sul tuo volto, lì
  nell'Antichissima Sala?
 \begin_inset Quotes frd
 \end_inset
@@ -427,7 +427,7 @@ questo
 \begin_inset Quotes frd
 \end_inset
 
- Ritornò l'indignazione che era scemata dalla voce di Harry.
+ L'indignazione che era scemata dalla voce di Harry ritornò.
  
 \begin_inset Quotes fld
 \end_inset
@@ -556,7 +556,7 @@ per quanto sia amata.
  Ci può essere solo un re sulla scacchiera, Harry Potter, solo un pezzo
  per salvare il quale sacrificheresti ogni altro pezzo.
  E Hermione Granger non è quel pezzo.
- Puoi starne certo, Harry Potter, in questo giorno potresti ben aver perso
+ Puoi starne certo, Harry Potter, in questo giorno potresti aver ben perso
  la tua guerra
 \begin_inset Quotes frd
 \end_inset
@@ -678,8 +678,8 @@ Il vecchio mago lo ignorò, trascinando Harry attraverso la stanza.
 \end_layout
 
 \begin_layout Standard
-Harry batté le palpebre per lo sconvolgimento; la fiala di fluido argenteo
- si era trovata vicino a un'immagine di 
+Harry batté le palpebre per lo stupore; la fiala di fluido argenteo si era
+ trovata vicino a un'immagine di 
 \emph on
 Silente
 \emph default
@@ -770,7 +770,7 @@ Quella era una richiesta che Harry non poteva rifiutare, e fece un passo
  in avanti e immerse la testa nell'acqua luminosa.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -786,8 +786,8 @@ Quella era una richiesta che Harry non poteva rifiutare, e fece un passo
 
 \emph on
 Harry stava sedendo dietro la scrivania dell'ufficio del Preside di Hogwarts,
- e le sue mani rugose che stringevano la sua testa erano segnate dall'età
- e da capelli bianchi.
+ e le mani rugose che stringevano la sua testa erano segnate dall'età e
+ da peli bianchi.
 \end_layout
 
 \begin_layout Standard
@@ -839,8 +839,8 @@ Non hai scelta
 
 \emph on
 Gli occhi si mossero, il campo visivo saltò verso un uomo che Harry non
- riconobbe, in abiti della sfumatura del cremisi degli Auror ma realizzati
- di cuoio duro con molte tasche.
+ riconobbe, in abiti della sfumatura del cremisi degli Auror, ma confezionati
+ in cuoio duro con molte tasche.
 \end_layout
 
 \begin_layout Standard
@@ -1002,10 +1002,11 @@ No -- lo dirò io stesso -- devo
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1023,7 +1024,7 @@ La transizione tra le due scene, tra la realtà vecchia di un decennio e
  il momento presente, fu un altro colpo alla mente di Harry; in qualche
  maniera la sua immersione nel passato l'aveva mandato alla deriva.
  Il vecchio a pezzi che singhiozzava nel proprio ufficio era stato un'altra
- persona in un'altra era, Harry aveva capito questo; qualcuno più debole
+ persona in un'altra era, quello Harry l'aveva capito; qualcuno più debole
 \begin_inset space ~
 \end_inset
 
@@ -1041,7 +1042,7 @@ l'ora
 \begin_layout Standard
 Terribile e severo stava l'antico mago, come se fosse scavato nella pietra;
  la barba intessuta di fili simili a ferro, occhiali a mezzaluna come specchi,
- e le pupille dietro di essi acute e inflessibili come diamanti neri.
+ e dietro di essi le pupille penetranti e inflessibili come diamanti neri.
 \end_layout
 
 \begin_layout Standard
@@ -1158,7 +1159,8 @@ Ed è vero?
 
 Quello che Draco ha detto, che Narcissa Malfoy non si era mai sporcata le
  mani, che era solo la moglie di Lucius? Era di supporto, questo lo capisco,
- ma non posso sostenere che questo meriti di essere 
+ ma non posso appoggiare l'idea che questo le abbia fatto meritare di essere
+ 
 \emph on
 bruciata viva
 \emph default
@@ -1178,12 +1180,12 @@ Nulla di meno li avrebbe convinti che avevo smesso con l'esitazione
 \end_inset
 
 .
- La voce del vecchio mago non tollerava alcuna domanda e alcun rifiuto.
+ La voce del vecchio mago non ammetteva alcuna domanda e alcuna negazione.
  
 \begin_inset Quotes fld
 \end_inset
 
-Sempre sono stato riluttante a fare ciò che dovevo, sempre sono stati altri
+Sono stato sempre riluttante a fare ciò che dovevo, sono stati sempre altri
  che hanno pagato il prezzo della mia pietà.
  Così Alastor mi disse sin dall'inizio, ma io non gli diedi ascolto.
  Tu, mi aspetto, ti dimostrerai migliore di me in tali decisioni
@@ -1232,7 +1234,7 @@ Se il mio avversario fosse stato Lucius, forse
 Mi dissero che Voldemort rise alla notizia, e proclamò ai suoi Mangiamorte
  che io ero finalmente cresciuto, ed ero infine un degno avversario.
  Forse aveva ragione.
- Dopo il giorno in cui condannai mio fratello a morte, iniziai a soppesare
+ Dopo il giorno in cui condannai a morte mio fratello, iniziai a soppesare
  coloro che mi seguivano, a confrontarli l'uno in relazione all'altro, a
  chiedermi chi avrei rischiato, e chi avrei sacrificato, a quale scopo.
  Fu strano quanti pezzi in meno persi, una volta che seppi quanto valessero
@@ -1249,8 +1251,8 @@ La mascella di Harry sembrò bloccata, come se ci volesse uno sforzo imponente
 \begin_inset Quotes fld
 \end_inset
 
-Ma del resto non è come se Lucius stesse deliberatamente prendendo Hermione
- per avere un riscatto
+Ma del resto non è che Lucius stesse deliberatamente prendendo Hermione
+ per ottenere un riscatto
 \begin_inset Quotes frd
 \end_inset
 
@@ -1260,7 +1262,7 @@ Ma del resto non è come se Lucius stesse deliberatamente prendendo Hermione
 \end_inset
 
 Dalla prospettiva di Lucius, qualcun altro ha rotto per primo la tregua.
- Quindi tenendo questo mente, quanti galeoni 
+ Quindi tenendo questo a mente, quanti galeoni 
 \emph on
 valeva
 \emph default
@@ -1323,7 +1325,7 @@ ecco la questione sulla quale ho riflettuto più e più volte.
 disse
 \emph default
  che morire di fronte alla culla non avrebbe salvato suo figlio.
- `Fatti da parte, stupida donna, se hai ancora un briciolo di buon senso!
+ `Fatti da parte, stupida donna, se hai ancora un briciolo di buon senso
 \begin_inset space ~
 \end_inset
 
@@ -1482,10 +1484,11 @@ Davvero non so perché sei ancora sulla sua spalla
 -- fuori dalla porta di quercia e nella spirale che girava senza fine.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1506,8 +1509,8 @@ Harry era arrivato nell'aula di Trasfigurazione prima di chiunque altro,
 \end_layout
 
 \begin_layout Standard
-Secondo l'orario delle lezioni, lezione di oggi era sulle Trasfigurazioni
- prolungate, tutte le regole che Harry aveva imparato a memoria all'epoca
+Secondo il programma delle lezioni, quella di quel giorno era sulle Trasfigurazi
+oni prolungate, tutte le regole che Harry aveva imparato a memoria all'epoca
  in cui stava Trasfigurando un'enorme roccia nel piccolo diamante che brillava
  al suo mignolo.
  Sarebbe stato un argomento teorico, piuttosto che pratico, per il resto
@@ -1566,12 +1569,12 @@ Zitto
 \begin_layout Standard
 
 \emph on
-Hai già letto a proposito degli esperimenti di Philip Tetlock sulle persone
- a cui è stato chiesto di scambiare un valore sacro per uno laico, come
- un amministratore di un ospedale che doveva scegliere tra spendere un milione
- di dollari per un fegato per salvare un bambino di cinque anni, e spendere
- il milione di dollari per acquistare altre attrezzature ospedaliere o pagare
- gli stipendi dei medici.
+Hai già letto degli esperimenti di Philip Tetlock sulle persone a cui è
+ stato chiesto di scambiare un valore sacro per uno laico, come un amministrator
+e di un ospedale che doveva scegliere tra spendere un milione di dollari
+ per un fegato per salvare un bambino di cinque anni, e spendere il milione
+ di dollari per acquistare altre attrezzature ospedaliere o pagare gli stipendi
+ dei medici.
  E i soggetti dell'esperimento si indignarono e volevano punire l'amministratore
  dell'ospedale anche solo per aver pensato a quella scelta.
  Ti ricordi di averlo letto, Harry Potter? Ti ricordi di aver pensato quanto
@@ -1704,12 +1707,11 @@ Di cosa hai paura?
 \begin_layout Standard
 Un vortice di immagini sembrò attraversare istantaneamente la mente di Harry,
  allora, il Silente passato che piangeva tra le proprie mani; la forma presente
- del vecchio mago, alta e terribile; una visione di Hermione che urlava
- nelle sue catene, nella sedia di metallo, mentre Harry l'abbandonava ai
- Dissennatori; e una fantasia di una donna con lunghi capelli bianchi (era
- somigliata al marito?) che crollava tra le fiamme della propria camera
- da letto, mentre una bacchetta era puntata su di lei e la luce arancione
- era riflessa da occhiali a mezzaluna.
+ del vecchio mago, alta e terribile; una visione di Hermione incatenata,
+ nella sedia di metallo, mentre Harry l'abbandonava ai Dissennatori; e una
+ fantasia di una donna con lunghi capelli bianchi (era somigliata al marito?)
+ che crollava tra le fiamme della propria camera da letto, mentre una bacchetta
+ era puntata su di lei e la luce arancione era riflessa da occhiali a mezzaluna.
 \end_layout
 
 \begin_layout Standard
@@ -1734,7 +1736,7 @@ effettivamente
 \emph on
 effettivamente
 \emph default
- sole e rose e felicità per tutti.
+ rose e fiori e felicità per tutti.
  La prescrizione del consequenzialismo era di intraprendere l'azione che
  portava le migliori conseguenze nette, non le azioni che avevano una conseguenz
 a positiva e che distruggevano tutto il resto lungo il percorso.
@@ -1760,7 +1762,7 @@ ogni qual volta c'era una ragione
 
 \begin_layout Standard
 Allora gli venne in mente un'ultima immagine: Lily Potter in piedi davanti
- alla culla del suo bambino a misurare le distanze tra i risultati -- il
+ alla culla del suo bambino a valutare le distanze tra i risultati -- il
  risultato finale se fosse rimasta e avesse cercato di maledire il suo nemico
  (Lily morta, Harry morto), il risultato finale se se ne fosse andata (Lily
  viva, Harry morto), soppesando le utilità attese, e compiendo l'unica scelta
