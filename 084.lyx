@@ -6,7 +6,6 @@
 \begin_preamble
 \setcounter{chapter}{83}
 
-\usepackage{fmtcount}
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
@@ -40,7 +39,7 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
@@ -161,9 +160,9 @@ Quando Hermione Granger si svegliò, si ritrovò distesa in un letto morbido
  sottile coltre.
  La memoria le diceva che ci sarebbe dovuta essere una tendina schermante
  sopra di lei, o tirata intorno al suo letto o aperta, e che il resto dei
- domini di Madam Pomfrey sarebbe stato al di là: gli altri letti, occupati
- o non occupati, e le luminose finestre impostate nella sinuosa pietra scolpita
- di Hogwarts.
+ domini di Madam Pomfrey ne sarebbe stato collocato al di là: gli altri
+ letti, occupati o non occupati, e le luminose finestre impostate nella
+ sinuosa pietra scolpita di Hogwarts.
 \end_layout
 
 \begin_layout Standard
@@ -175,7 +174,7 @@ Quando Hermione aprì gli occhi, la prima cosa che vide fu il volto della
  severo rivolto sempre verso l'esterno in direzione degli Auror.
  Il Preside di Corvonero aveva sicuramente passato troppo tempo con lei,
  e probabilmente era dovuto tornare a tenere le sue lezioni, invece di vegliare
- su di una condannata per un tentato omicidio.
+ su di una condannata per tentato omicidio.
 \end_layout
 
 \begin_layout Standard
@@ -211,8 +210,8 @@ Mi dispiace, signorina Granger.
  Sebbene non sia sempre stato così, abbiamo scoperto negli ultimi anni che
  è più saggio non parlare ai genitori dei Nati babbani di qualsiasi pericolo
  i loro bambini abbiano affrontato.
- Suggerirei anche a lei di restare in silenzio, se desidera restare a Hogwarts
- senza problemi da parte loro
+ Suggerirei anche a lei di rimanere in silenzio, se desidera restare a Hogwarts
+ senza che loro le diano problemi
 \begin_inset Quotes frd
 \end_inset
 
@@ -284,8 +283,8 @@ No, signorina Granger.
  Il signor Potter crede che lei sia stata sottoposta a Incantesimo di Memoria,
  che l'intero duello non sia mai avvenuto.
  Il Preside sospetta possano essere state in gioco magie persino più Oscure
- -- che la sua stessa mano possa aver lanciato l'incantesimo, ma non la
- sua volontà.
+ -- che possa essere stata la sua mano a lanciare l'incantesimo, ma non
+ la sua volontà.
  Anche il professor Snape ritiene la faccenda completamente incredibile,
  anche se può non essere in grado di dirlo pubblicamente.
  Si chiedeva se le potrebbero essere state somministrate droghe babbane
@@ -306,11 +305,11 @@ ivo, ma non riusciva a trovare l'energia per far propagare alcun cambiamento
 \begin_inset Quotes fld
 \end_inset
 
-Certamente 
+Certamente non ci crederà 
 \emph on
-lei
+lei!
 \emph default
- non ci crede!
+
 \begin_inset Quotes frd
 \end_inset
 
@@ -341,10 +340,10 @@ Ma io
  La sua eccellente memoria ripeté servizievolmente la scena per la millesima
  volta, Draco Malfoy che le diceva con un ghigno che non l'avrebbe mai battuto
  quando non fosse stato stanco, e poi aveva proceduto a dimostrarlo, danzando
- come un duellista tra i trofei protetti mentre ella si era freneticamente
+ come un duellista tra i trofei protetti mentre lei si era freneticamente
  mossa goffamente, e alla fine le aveva dato il colpo mortale con una fattura
  che l'aveva mandata a sbattere contro il muro e le aveva fatto uscire il
- sangue dalla guancia -- e poi -- ella aveva
+ sangue dalla guancia -- e poi -- lei aveva
 \begin_inset space ~
 \end_inset
 
@@ -598,8 +597,8 @@ Orribile
  cose prima che abbiano compiuto quattordici anni, quindi non le farò nuovamente
  quella predica.
  Dirò solo che lei ha appena avuto un'esperienza assolutamente terribile,
- alla quale è sopravvissuta tanto bene quanto avrebbe potuto fare qualsiasi
- strega nel suo anno.
+ alla quale è sopravvissuta meglio di quanto avrebbe potuto fare qualsiasi
+ strega del suo anno.
  Oggi le è permesso piangere quanto vuole.
  Domani lei tornerà di nuovo in classe
 \begin_inset Quotes frd
@@ -647,10 +646,11 @@ Vorrei parlare -- al Preside
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -703,7 +703,7 @@ Io
 \begin_inset Quotes frd
 \end_inset
 
- Improvvisamente Hermione non sapeva affatto che cosa dire.
+ Improvvisamente Hermione non sapeva affatto cosa dire.
  La gola si era bloccata, e tutto ciò che poteva fare era balbettare, 
 \begin_inset Quotes fld
 \end_inset
@@ -841,7 +841,7 @@ Harry mi ha promesso
 \end_inset
 
  La sua voce si fermò.
- La terribile verità era molto difficile da riferire.
+ Era molto difficile riferire quella terribile verità.
  
 \begin_inset Quotes fld
 \end_inset
@@ -856,8 +856,8 @@ Harry Potter mi ha promesso -- che non mi avrebbe mai aiutata -- se gli
 
 \begin_layout Standard
 Ci fu una pausa.
- I rumori lontani dell'infermeria che avevano accompagnato la professoressa
- McGonagall erano cessati, Hermione comprese, quando Silente l'aveva svegliata.
+ Hermione si accorse che i rumori lontani dell'infermeria, che avevano accompagn
+ato la professoressa McGonagall, erano cessati quando Silente l'aveva svegliata.
  Da dove giaceva nel letto poteva vedere solo il soffitto e la parte superiore
  delle finestre di un muro, ma nulla nel suo campo visivo si muoveva, e
  se c'erano suoni, non poteva sentirli.
@@ -1010,7 +1010,7 @@ Mia cara ragazza
 
 , disse Silente.
  Gli occhi blu dietro gli occhiali a mezzaluna mostravano una completa comprensi
-one della colpa di lei.
+one della sua colpa.
  
 \begin_inset Quotes fld
 \end_inset
