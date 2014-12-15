@@ -6,7 +6,6 @@
 \begin_preamble
 \setcounter{chapter}{85}
 
-\usepackage{fmtcount}
 \usepackage{graphicx}
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
@@ -40,7 +39,6 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
@@ -157,16 +155,13 @@ Toronto Magical Tribune:
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
-Intero Wizengamot britannico
+Intero Wizengamot britannico afferma
 \begin_inset Newline newline
 \end_inset
 
-afferma di aver visto
-\begin_inset Newline newline
-\end_inset
-
-`Ragazzo-Che-È-Sopravvissuto'
+di aver visto il `Ragazzo-Che-È-Sopravvissuto'
 \begin_inset Newline newline
 \end_inset
 
@@ -176,6 +171,7 @@ spaventare un Dissennatore
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
 Esperto di creature magiche:
 \begin_inset Newline newline
@@ -195,6 +191,7 @@ State chiaramente mentendo
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
 Francia e Germania accusano la Gran Bretagna
 \begin_inset Newline newline
@@ -213,6 +210,7 @@ New Zealand Spellcrafter's Diurnal Notice:
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
 Cosa ha fatto impazzire la Camera britannica?
 \begin_inset Newline newline
@@ -224,6 +222,7 @@ Il nostro Governo è il prossimo?
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
 Esperti elencano 28 ragioni
 \begin_inset Newline newline
@@ -242,6 +241,7 @@ American Mage:
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
 Tribù di licantropi saranno
 \begin_inset Newline newline
@@ -276,8 +276,9 @@ Il Cavillo:
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
-Malfoy scappa da Hogwarts
+Malfoy fugge da Hogwarts
 \begin_inset Newline newline
 \end_inset
 
@@ -341,12 +342,9 @@ nopagebreak
 \begin_layout Standard
 \align center
 
+\size small
 \noun on
-Trucco legale libera la
-\begin_inset Newline newline
-\end_inset
-
-
+Trucco legale libera la 
 \begin_inset Quotes fld
 \end_inset
 
@@ -381,10 +379,11 @@ end{samepage}
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -400,31 +399,6 @@ Ipotesi: Voldemort
 \end_inset
 
 (8 aprile 1992, 19:22)
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2598,25 +2572,12 @@ a in molti sensi.
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -3501,10 +3462,11 @@ Credo che stiamo per ricevere alcune notizie che la riguardano
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -3524,31 +3486,6 @@ Ipotesi: Hermione Granger
 
 \emph on
 (8 aprile 1992, 18:53)
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -4326,10 +4263,11 @@ noi
 Dean e Seamus annuirono solennemente.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -4346,31 +4284,6 @@ Ipotesi: G.
 \end_inset
 
 (8 aprile 1992, 20:08)
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -5469,25 +5382,12 @@ Andiamo, allora
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -5602,25 +5502,12 @@ Allora aveva mostrato circa le otto e trentacinque, e ora erano le nove
  e cinque.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -5758,25 +5645,12 @@ qualcosa
 --
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -5822,25 +5696,12 @@ Non posso credere neppure alla velocità dei suoi movimenti.
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -5862,25 +5723,12 @@ status open
 --
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -5915,25 +5763,12 @@ Mi scusi, Preside ma potrebbe farmi scendere le sue scale, e poi ritornar
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -6157,25 +5992,12 @@ nome di Merlino
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -6769,10 +6591,11 @@ Ipotesi: Gilderoy Lockhart,
 fine
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -6788,31 +6611,6 @@ Ipotesi: Silente
 \end_inset
 
 (9 aprile 1992, 17:32)
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -7972,10 +7770,11 @@ penso che dovrà perseguirlo lei stesso, signor Potter, senza aiuto da parte
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -7995,31 +7794,6 @@ Ipotesi: il Professore di Difesa
 
 \emph on
 (8 aprile 1992, 20:37)
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -9652,10 +9426,11 @@ non è
 La professoressa McGonagall annuì fermamente.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -9698,31 +9473,6 @@ status open
 
 \backslash
 end{samepage}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
 \end_layout
 
 \end_inset
@@ -10659,25 +10409,12 @@ fosse
 Ci fu un lungo silenzio.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -10735,25 +10472,12 @@ Qualcuno
  aveva mai visto il vero Severus Snape?
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -10870,25 +10594,12 @@ Va bene
  dei gargoyle che ritornavano a posto.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
