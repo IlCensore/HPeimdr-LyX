@@ -70,9 +70,9 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
+\font_roman Maxime Std
 \font_sans Linux Biolinum O
-\font_typewriter Inconsolata
+\font_typewriter Source Code Pro
 \font_math auto
 \font_default_family default
 \use_non_tex_fonts true
@@ -407,7 +407,7 @@ Warhammer 40.000
 .
  
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 terminare riferimenti rituale
@@ -745,10 +745,6 @@ reference "chap:86Verifica-ipotesi"
 \end_layout
 
 \begin_layout Standard
-tasso di riferimento (base rate);
-\end_layout
-
-\begin_layout Standard
 Il 
 \emph on
 gioco delle Venti domande
@@ -789,6 +785,38 @@ se, autore di diversi libri di rompicapi matematici e logici, come
 Qual è il titolo di questo libro?
 \emph default
 .
+\end_layout
+
+\begin_layout Standard
+Il problema della frequenza base (
+\emph on
+base rate
+\emph default
+ in inglese) è un errore logico legato alla tendenza a ignorare informazioni
+ legate alla frequenza base di un fenomeno quando siano presenti informazioni
+ specifiche ad un determinato caso.
+ L'esempio tipico è il cosiddetto 
+\begin_inset Quotes fld
+\end_inset
+
+problema del taxi
+\begin_inset Quotes frd
+\end_inset
+
+ di Tversky e Kahneman (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "judgementUnderUncertainity"
+
+\end_inset
+
+): in una città in cui l'85% dei taxi ha la livrea verde e il 15% la livrea
+ blu, un testimone che riconosce correttamente il colore di un taxi nell'80%
+ dei casi (e incorrettamente nel restante 20%) afferma di aver visto un
+ taxi blu; la maggior parte delle persone ritiene che la probabilità che
+ il taxi fosse veramente blu sia dell'80%, ma quando si tiene conto della
+ frequenza base dei taxi blu (15%) si scopre che tale probabilità è del
+ 41% circa.
 \end_layout
 
 \begin_layout Standard
@@ -859,7 +887,8 @@ Negima! Magister Negi Magi
 \end_layout
 
 \begin_layout Standard
-La pozione della resistenza al freddo è un oggetto del videogioco 
+La pozione della resistenza al freddo è un oggetto magico del videogioco
+ 
 \emph on
 Baldur's Gate
 \emph default
@@ -903,9 +932,17 @@ Important science note! The referenced work by Andrew Critch on hedonic
  awareness is not yet published science.
  It’s his private work that he developed at the University of Berkeley for
  a course on psychology for mathematicians; brought to the Center for Applied
- Rationality; and then developed into a CFAR workshop unit.
- Since the literary theory of HPMOR holds that Science Is Timeless, presumably
- in the MoR-verse Critch published in 1987 and Harry read about it.
+ Rationality; and then developed into a 
+\noun on
+cfar
+\noun default
+ workshop unit.
+ Since the literary theory of 
+\noun on
+hpmor
+\noun default
+ holds that Science Is Timeless, presumably in the MoR-verse Critch published
+ in 1987 and Harry read about it.
 \begin_inset Quotes frd
 \end_inset
 
