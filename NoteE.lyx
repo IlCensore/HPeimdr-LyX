@@ -70,9 +70,9 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
+\font_roman Arno Pro
 \font_sans Linux Biolinum O
-\font_typewriter Inconsolata
+\font_typewriter Source Code Pro
 \font_math auto
 \font_default_family default
 \use_non_tex_fonts true
@@ -218,15 +218,15 @@ ben oltre
 Ender's Game
 \emph default
 ; nell'originale inglese, questa frase di Harry è seguita da uno scambio
- di battute intraducibile, basato sull'omofonia tra il nome originale degli
- alieni noti come Scorpioni (
+ di battute intraducibile e dunque non tradotto, basato sull'omofonia tra
+ il nome originale degli alieni noti come Scorpioni (
 \emph on
 buggers
 \emph default
 ) e il termine volgare inglese che si riferisce agli omosessuali:
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset Quotes fld
 \end_inset
 
@@ -238,14 +238,14 @@ ben oltre
 \emph on
 buggers
 \emph default
- uccidono Valentine
+ uccidono Valentine.
 \begin_inset Quotes frd
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset Quotes fld
 \end_inset
 
@@ -256,7 +256,7 @@ Modera il linguaggio!
  disse la donna, e poi la sua mano volò a coprirle la bocca.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 Il ragazzo parlò stancamente.
  
 \begin_inset Quotes fld
@@ -312,7 +312,11 @@ Shambling Bone-Men
 \emph on
 fanfiction Harry Potter and the Wastelands of Time
 \emph default
- (
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -325,7 +329,12 @@ url{www.fanfiction.net/s/4068153/1/Harry-Potter-and-the-Wastelands-of-Time}
 
 \end_inset
 
-).
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -378,6 +387,8 @@ reference "chap:96Ruoli-p7"
 \end_layout
 
 \begin_layout Standard
+
+\family sans
 Per coloro che non hanno letto il canone: il cartello di legno è stato in
  qualche modo cambiato, ma l'iscrizione qui è la stessa che nell'originale
  di J.K.
@@ -388,6 +399,7 @@ Per coloro che non hanno letto il canone: il cartello di legno è stato in
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -458,19 +470,60 @@ reference "chap:100Misure-precauzionali-p1"
 \end_layout
 
 \begin_layout Standard
+◊
 \begin_inset Quotes fld
 \end_inset
 
-tutti sanno quello che succede quando c'è una ragazza e un lupo mannaro
+[...] tutti sanno quello che succede quando c'è una ragazza e un lupo mannaro
  e un vampiro tutti allo stesso tempo!
 \begin_inset Quotes frd
 \end_inset
 
- riferimento a Twilight
+ è un riferimento alla serie di libri e di film 
+\emph on
+Twilight
+\emph default
+, di Stephenie Meyer, in cui la protagonista è combattuta tra due spasimanti,
+ uno vampiro e l'altro lupo mannaro.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ma si veda 
+\emph on
+Luminosity
+\emph default
+ di Alicorn, una fan-fiction di 
+\emph on
+Twilight
+\emph default
+ con un'impostazione razionalistica mutuata proprio da 
+\emph on
+HPeimdr
+\emph default
+, per una versione migliore della storia (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://luminous.elcenia.com}
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-L'idra di Paris è un gioco di parole che fa riferimento all'
+◊L'idra di Paris è un gioco di parole che fa riferimento all'
 \begin_inset Quotes fld
 \end_inset
 
@@ -502,12 +555,13 @@ tagliata una testa
  L'interpretazione di Kirby-Paris del teorema di Goodstein dice che l'Idra
  sarà sempre e comunque infine uccisa (ridotta alla sola radice), ma che
  potrebbe volerci molto, molto tempo.
- L'idra di Buchholz è un riferimento a un simile gioco matematico, in cui
+ ◊L'idra di Buchholz è un riferimento a un simile gioco matematico, in cui
  l'idra è immancabilmente uccisa, ma non è possibile dimostrare l'impossibilità
  di essere sconfitti.
 \end_layout
 
 \begin_layout Standard
+◊
 \begin_inset Quotes fld
 \end_inset
 
@@ -540,7 +594,7 @@ reference "chap:102Prendersi-cura"
 \end_layout
 
 \begin_layout Standard
-A.K.
+◊A.K.
  McDowell (Evangeline Athanasia Katherine McDowell), anche nota come Dark
  Evangel, è un personaggio della serie anime e manga 
 \emph on
