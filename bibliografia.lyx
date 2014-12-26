@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -76,13 +76,13 @@ initials
 \font_roman EB Garamond
 \font_sans Griffy
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -93,15 +93,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -141,11 +150,260 @@ IEEEtranM
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 btprint "btPrintAll"
 bibfiles "bibliografia"
 options "savetrees"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Anime, manga & fumetti
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Homestuck
+\emph default
+, webcomic di Andrew Hussie.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{http://www.mspaintadventures.com/?s=6}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Magical Girl Lyrical Nanoha
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Il mio amico Totoro
+\emph default
+, film di animazione di Hayao Miyazaky (1988).
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Negima!: Magister Negi Magi
+\emph default
+, anime e manga di Ken Akamatsu.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Puella Magi Madoka Magica
+\emph default
+, un anime del Magica Quartet (2011).
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Watchmen
+\emph default
+, fumetto di Alan Moore e Dave Gibbons (1986--87).
+\end_layout
+
+\begin_layout Subsection*
+Fantascienza, fantasy & fantastico
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Baldur's Gate
+\emph default
+, videogioco fantasy
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Dungeons & Dragons
+\emph default
+ e 
+\emph on
+Advanced Dungeons & Dragon
+\emph default
+, giochi di ruolo fantasy di Gary Gygax.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Ender's Game
+\emph default
+, romanzi di Orson Scott Card.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Flubber
+\emph default
+, film di fantascienza (1997).
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Guerre Stellari
+\emph default
+, film di fantascienza di George Lucas.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+The Illuminatus Trilogy
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Little Fuzzy
+\emph default
+ (1962) di H.
+ Beam Piper
+\end_layout
+
+\begin_layout Itemize
+Mondo Disco, ambientazione di diversi romanzi fantascientifici di Terry
+ Pratchett.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Twilight
+\emph default
+, romanzi e film, di Stephenie Meyer.
+\end_layout
+
+\begin_layout Subsection*
+Fanfiction
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+A Black Comedy
+\emph default
+, fanfiction di Harry Potter scritta da nonjon.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://www.fanfiction.net/s/3401052/1/A-Black-Comedy}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Harry Potter and the Wastelands of Time
+\emph default
+, fanfiction di Harry Potter scritta da joe6991.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{www.fanfiction.net/s/4068153/1/Harry-Potter-and-the-Wastelands-of-Time}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+NGE Nobody Dies
+\emph default
+, fanfiction di 
+\emph on
+Evangelion
+\emph default
+ scritta da Gregg Landsman.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{https://www.fanfiction.net/s/5579457/1/NGE_Nobody_Dies}
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 

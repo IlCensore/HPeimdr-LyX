@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -73,13 +73,13 @@
 \font_roman Linux Libertine O
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -90,15 +90,24 @@
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -164,6 +173,24 @@ pagestyle{plain}
 \end_layout
 
 \begin_layout Section*
+Note dell'autore
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Nella versione in rete di questa opera, pubblicata su
+\emph default
+ 
+\emph on
+\noun on
+hpmor.com
+\noun default
+, vi sono dei commenti inseriti all'inizio di alcuni capitoli.
+ Sono stati raccolti qui di seguito.
+\end_layout
+
+\begin_layout Subsection*
 Scienza
 \end_layout
 
@@ -816,29 +843,6 @@ e richiesto.
  per simulare la sua memoria perfetta.
 \end_layout
 
-\begin_layout Section*
-Note
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Nella versione in rete di questa opera, pubblicata su
-\emph default
- 
-\emph on
-\noun on
-hpmor.com
-\noun default
-, vi sono dei commenti inseriti all'inizio di alcuni capitoli.
- Sono stati raccolti qui di seguito e segnalati dall'uso del 
-\family sans
-carattere senza grazie
-\family default
-, mentre in carattere con grazie sono riportate altre note curate dal traduttore.
- 
-\end_layout
-
 \begin_layout Subsection*
 Capitolo 1 
 \begin_inset CommandInset ref
@@ -852,8 +856,6 @@ reference "chap:01Una-giornata-molto"
 
 \begin_layout Standard
 \align left
-
-\family sans
 Avvertenza: J.K.
  Rowling detiene i diritti di Harry Potter, e nessuno detiene i diritti
  dei metodi della razionalità.
@@ -861,10 +863,9 @@ Avvertenza: J.K.
 
 \begin_layout Standard
 \align center
-
-\family sans
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -873,30 +874,12 @@ Avvertenza: J.K.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family sans
 È ampiamente ritenuto che questa narrazione inizi ad ingranare a partire
  dal capitolo 5 circa.
  Se non vi piace ancora dopo il capitolo 10, lasciate stare.
 \end_layout
 
 \begin_layout Standard
-
-\family sans
 Visitate 
 \noun on
 hpmor.com
@@ -905,8 +888,6 @@ hpmor.com
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 un sistema di notifiche email, un 
 \emph on
 feed
@@ -923,14 +904,10 @@ feed
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 le Note dell'autore correnti e aggiornamenti sullo stato di avanzamento;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 una deliziosa versione 
 \noun on
 pdf
@@ -939,8 +916,6 @@ pdf
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 un 
 \emph on
 mirror 
@@ -949,8 +924,6 @@ del testo senza pubblicità;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 ebooks in formato e
 \noun on
 pub
@@ -964,7 +937,6 @@ mobi
 
 \begin_layout Itemize
 
-\family sans
 \emph on
 podcast
 \emph default
@@ -973,7 +945,6 @@ podcast
 
 \begin_layout Itemize
 
-\family sans
 \emph on
 fanart
 \emph default
@@ -981,8 +952,6 @@ fanart
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 lista dei cammeo (personaggi battezzati in onore degli artisti di 
 \emph on
 fanart
@@ -991,26 +960,18 @@ fanart
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 fan-fanfiction di questa fanfiction;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 musica, canzoni e animazioni prodotte da fan;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 traduzioni amatoriali;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 parola chiave di 
 \noun on
 okc
@@ -1023,8 +984,6 @@ hpmor
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 collegamenti alla pagina di 
 \noun on
 tv t
@@ -1033,8 +992,6 @@ ropes e ai forum di discussione;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 pagina degli avvertimenti (avvertimenti riguardo possibili associazioni
  traumatiche per alcuni lettori; per evitare anticipazioni per la maggior
  parte dei lettori, 
@@ -1045,20 +1002,14 @@ non ci sono
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 come imparare ogni cosa che il personaggio principale conosce;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 offerte di lavoro in un'organizzazione non-profit collegata;
 \end_layout
 
 \begin_layout Itemize
-
-\family sans
 e tanto altro.
 \end_layout
 
@@ -1077,8 +1028,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-
-\family sans
 Questa storia 
 \emph on
 non è
@@ -1098,8 +1047,6 @@ universo parallelo
 \end_layout
 
 \begin_layout Standard
-
-\family sans
 Il testo contiene molti indizi: indizi ovvi, indizi non così ovvi, accenni
  realmente oscuri che sono stato scioccato quando alcuni lettori li hanno
  decodificati con successo, e una gran massa di prove lasciate in piena
@@ -1109,8 +1056,6 @@ Il testo contiene molti indizi: indizi ovvi, indizi non così ovvi, accenni
 \end_layout
 
 \begin_layout Standard
-
-\family sans
 Il ritmo della storia è quello di una narrazione seriale, ovvero quello
  di una serie televisiva che va non onda per un numero predeterminato di
  stagioni, i cui episodi sono scritti individualmente ma con un arco narrativo
@@ -1118,8 +1063,6 @@ Il ritmo della storia è quello di una narrazione seriale, ovvero quello
 \end_layout
 
 \begin_layout Standard
-
-\family sans
 La storia è stata convertita in inglese britannico fino al Capitolo
 \begin_inset space ~
 \end_inset
@@ -1128,8 +1071,6 @@ La storia è stata convertita in inglese britannico fino al Capitolo
 \end_layout
 
 \begin_layout Standard
-
-\family sans
 Tutta la scienza menzionata è scienza vera.
  Ma per favore tenete a mente che, oltre il reame della scienza, i punti
  di vista dei personaggi possono non essere quelli dell'autore.
@@ -1138,15 +1079,186 @@ Tutta la scienza menzionata è scienza vera.
  o pericolosamente a doppia lama.
 \end_layout
 
+\begin_layout Subsection*
+Capitolo 4 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:04L'ipotesi-del-mercato"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Come altri hanno notato, i romanzi sembrano essere inconsistenti riguardo
+ l'apparente potere d'acquisto di un galeone; ho scelto un valore consistente
+ e mi atterrò ad esso.
+ Cinque sterline per un galeone non va d'accordo con sette galeoni per una
+ bacchetta e i bambini che ricevano bacchette usate.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 6 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:06L'errore-di-pianificazione"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La sezione 
+\begin_inset Quotes fld
+\end_inset
+
+Conseguenze
+\begin_inset Quotes frd
+\end_inset
+
+ di questo capitolo fa parte della storia, 
+\emph on
+non è
+\emph default
+ un omake.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 7 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:07Reciprocità"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uau.
+ Un portavoce dell'agente letterario della Rowling ha detto che l'autrice
+ non ha problemi con l'esistenza della 
+\emph on
+fanfiction
+\emph default
+ fintanto che nessuno si fa pagare per essa e a tutti è chiaro che i diritti
+ d'autore originali appartengono a lei? Questo è davvero notevole da parte
+ sua.
+ Quindi grazie, 
+\noun on
+jkr
+\noun default
+, e tuo sia il regno!
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 7 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:07Reciprocità"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uau.
+ Un portavoce dell'agente letterario della Rowling ha detto che l'autrice
+ non ha problemi con l'esistenza della 
+\emph on
+fanfiction
+\emph default
+ fintanto che nessuno si fa pagare per essa e a tutti è chiaro che i diritti
+ d'autore originali appartengono a lei? Questo è davvero notevole da parte
+ sua.
+ Quindi grazie, 
+\noun on
+jkr
+\noun default
+, e tuo sia il regno!
+\end_layout
+
 \begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Sento il dovere di chiarire che alcune parti di questo capitolo non sono
+ da intendersi come 
+\begin_inset Quotes fld
+\end_inset
+
+attacchi a un personaggio
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Non è che io provi rancore per loro, la storia si scrive da sé, e una volta
+ che si iniziano a far cadere incudini su di un personaggio è difficile
+ fermarsi.
+\end_layout
+
+\begin_layout Standard
+Alcuni recensori hanno chiesto se la scienza in questa storia sia reale
+ o inventata.
+ Sì, è reale, e se guardate il mio profilo, troverete un link a un certo
+ sito di saggistica
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{lesswrong.org}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ che vi insegnerà più o meno tutto ciò che sa Harry James Potter-Evans-Verres,
+ 
+\emph on
+e altro ancora
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Grazie mille a 
+\emph on
+tutti
+\emph default
+ i miei recensori.
+ (Soprattutto Darkandus su Viridian Dreams, per il commento sorprendentemente
+ ispiratore 
+\begin_inset Quotes fld
+\end_inset
+
+I polmoni non sono fatti per interagire con il tè
+\begin_inset Quotes frd
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -1157,6 +1269,482 @@ status open
 
 %
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sento il dovere di chiarire che alcune parti di questo capitolo non sono
+ da intendersi come 
+\begin_inset Quotes fld
+\end_inset
+
+attacchi a un personaggio
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Non è che io provi rancore per loro, la storia si scrive da sé, e una volta
+ che si iniziano a far cadere incudini su di un personaggio è difficile
+ fermarsi.
+\end_layout
+
+\begin_layout Standard
+Alcuni recensori hanno chiesto se la scienza in questa storia sia reale
+ o inventata.
+ Sì, è reale, e se guardate il mio profilo, troverete un link a un certo
+ sito di saggistica
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{lesswrong.org}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ che vi insegnerà più o meno tutto ciò che sa Harry James Potter-Evans-Verres,
+ 
+\emph on
+e altro ancora
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Grazie mille a 
+\emph on
+tutti
+\emph default
+ i miei recensori.
+ (Soprattutto Darkandus su Viridian Dreams, per il commento sorprendentemente
+ ispiratore 
+\begin_inset Quotes fld
+\end_inset
+
+I polmoni non sono fatti per interagire con il tè
+\begin_inset Quotes frd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 8 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:08Errore-di-conferma"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un attento lettore mi ha chiesto se, nel caso in cui Luna sia una veggente,
+ questo racconto stia per diventare un HPDM bottom!Draco mpreg.
+ Mi dispiace di non poter avere a mia disposizione un carattere più grande
+ con cui dire 
+\series bold
+NO
+\series default
+.
+ Onestamente, non mi era venuto in mente che Luna potesse essere una 
+\emph on
+vera
+\emph default
+ veggente -- dovrò decidere se confermarlo o meno -- ma penso che possiamo
+ tutti presumere con sicurezza che se Luna 
+\emph on
+fosse
+\emph default
+ una veggente, abbia detto qualcosa come 
+\begin_inset Quotes fld
+\end_inset
+
+piantare un seme nell'oscurità
+\begin_inset Quotes frd
+\end_inset
+
+, e che Xenophilius, come sempre, l'abbia interpretato in un modo piuttosto
+ sbagliato.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 9 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:09Auto-consapevolezza,-Parte-I"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I quark di terza generazione erano chiamati anche 
+\begin_inset Quotes fld
+\end_inset
+
+verità
+\begin_inset Quotes frd
+\end_inset
+
+ e 
+\begin_inset Quotes fld
+\end_inset
+
+bellezza
+\begin_inset Quotes frd
+\end_inset
+
+ prima che 
+\begin_inset Quotes fld
+\end_inset
+
+top
+\begin_inset Quotes frd
+\end_inset
+
+ e 
+\begin_inset Quotes fld
+\end_inset
+
+bottom
+\begin_inset Quotes frd
+\end_inset
+
+ vincessero; il mio giorno di nascita è vicino a quello di Hermione, e quando
+ avevo undici anni, usavo 
+\begin_inset Quotes fld
+\end_inset
+
+verità
+\begin_inset Quotes frd
+\end_inset
+
+ e 
+\begin_inset Quotes fld
+\end_inset
+
+bellezza
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Quando la Parte I di questo capitolo fu pubblicata la prima volta, dissi
+ che a chiunque avesse indovinato di cosa parlava l'ultima frase prima del
+ successivo aggiornamento, avrei rivelato l'intero svolgimento successivo
+ della trama.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 11 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:11Omake-1,-2,"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Omake
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ è un supplemento non-canonico.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 13 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:13Porre-le-domande"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Non fatevi prendere dal panico.
+ Giuro solennemente che c'è una spiegazione logica, preformulata e compatibile
+ col canone per tutto ciò che accade in questo capitolo.
+ Si tratta di un enigma, si suppone che cerchiate di risolverlo, e in caso
+ contrario, basta leggere il prossimo capitolo.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 15 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:15Coscienziosità"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fatto storico del giorno: gli antichi Ebrei consideravano che il limite
+ di un giorno fosse il tramonto piuttosto che l'alba, quindi dicevano 
+\begin_inset Quotes fld
+\end_inset
+
+sera e mattina
+\begin_inset Quotes frd
+\end_inset
+
+ non 
+\begin_inset Quotes fld
+\end_inset
+
+mattino e sera
+\begin_inset Quotes frd
+\end_inset
+
+.
+ (E come molti recensori hanno notato la moderna Halakhah ebraica sostiene
+ la stessa cosa.)
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 25 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:25Trattenersi-dal-proporre"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poiché la scienza in questa storia è normalmente tutta corretta, includo
+ un avvertimento che nei capitolo 22--25 Harry ignora diverse possibilità,
+ la più importante delle quali è che ci sono molti geni magici ma che sono
+ tutti su di un solo cromosoma (cosa che non accadrebbe naturalmente, ma
+ il cromosoma potrebbe essere stato costruito).
+ In tal caso, lo schema ereditario sarebbe mendeliano, ma il cromosoma magico
+ potrebbe ancora essere degradato dal crossing-over cromosomico col suo
+ omologo non-magico.
+ (Harry ha letto a proposito di Mendel e dei cromosomi nel libri di storia
+ della scienza, ma non ha studiato abbastanza genetica vera e propria da
+ sapere del crossing-over cromosomico.
+ Ehi, ha solo undici anni.) Ad ogni modo, sebbene una moderna rivista di
+ scienza troverebbe molti peli nell'uovo, tutto ciò che Harry presenta come
+ forti prove sono infatti forti prove -- le altre possibilità sono improbabili.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 27 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:27Empatia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ruggero Bacone visse nel 
+\noun on
+xiii
+\noun default
+ secolo ed è accreditato come uno dei primi sostenitori del metodo scientifico.
+ Dare a uno scienziato il suo diario sperimentale è un po' come dare ad
+ uno scrittore la penna, non di Shakespeare, ma di qualcuno che ha aiutato
+ a inventare la scrittura.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 29 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:29Pensiero-egocentrico"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luosha fa notare che la teoria dell'empatia nel Capitolo 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:27Empatia"
+
+\end_inset
+
+ (usiamo il nostro cervello per simulare quello degli altri) non è esattamente
+ un fatto scientifico.
+ Le prove fin'ora puntano in quella direzione, ma non abbiamo ancora analizzato
+ i circuiti del cervello e dimostrato la teoria.
+ Similmente, le formulazioni atemporali della meccanica quantistica (alla
+ quale si allude nel Capitolo 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:28Riduzionismo"
+
+\end_inset
+
+) sono così leganti che sarei stupito se la teoria definitiva avesse dentro
+ il tempo, ma non è stato ancora stabilito.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 33 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:33Problemi-coord-I"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La versione della teoria della decisione usata in questo capitolo non è
+ quella dominante in campo accademico.
+ È basata su una cosa chiamata 
+\begin_inset Quotes fld
+\end_inset
+
+teoria della decisione senza tempo
+\begin_inset Quotes frd
+\end_inset
+
+ che è in corso di sviluppo per mano di (tra gli altri) Gary Drescher, Wei
+ Dai, Vladimir Nesov, e, beh...
+ (
+\emph on
+tossisce qualche volta
+\emph default
+) mia.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 64 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:64Omake4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se siete cinque ore oltre l'ora di andare a letto e state ancora leggendo
+ questo, posso suggerirvi di farvi un po' di sonno? La storia sarà ancora
+ qui domani\SpecialChar \ldots{}
+ a meno che, sapete, qualcosa di male le accada domani mattina
+ e ci sia solo un 404 a questo indirizzo e non vi rimanga nulla se non una
+ memoria sbiadita e un rimpianto eterno che non siete rimasti svegli più
+ a lungo a leggere mentre ne avevate ancora la possibilità\SpecialChar \ldots{}
+ ma ehi, quanto
+ è probabile che avvenga?
+\end_layout
+
+\begin_layout Standard
+Questa storia si propaga attraverso blog, tweet, passaparola, 
+\emph on
+favoriting
+\emph default
+, promozioni su forum, e aggiungendola a liste; e ricordate, se i lettori
+ prima di voi non avessero riservato un momento per farlo, probabilmente
+ non l'avreste scoperta.
+ Se questo non è abbastanza per motivarvi, allora lasciatemi aggiungere
+ che se non aiuterete a diffondere la razionalità, Hermione sarà triste.
+ Non volete che sia triste, giusto?
+\end_layout
+
+\begin_layout Standard
+Non dimenticate di visitare 
+\family typewriter
+LessWrong.com
+\family default
+ e di leggere le 
+\emph on
+Sequences
+\emph default
+, la vera esistenza di cui questa storia non è che un'ombra.
+ Raccomando di iniziare dalla sequenza 
+\emph on
+How to Actually Change Your Mind
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+E ora, con tutti gli universi posseduti dai rispettivi creatori, presento:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\noun on
+Omake files #4:
+\begin_inset Newline newline
+\end_inset
+
+Le altre fanfiction che avreste potuto leggere
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 96 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:96Ruoli-p7"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per coloro che non hanno letto il canone: il cartello di legno è stato in
+ qualche modo cambiato, ma l'iscrizione qui è la stessa che nell'originale
+ di J.K.
+ Rowling.
+\end_layout
+
+\begin_layout Section*
+Note del curatore
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 1 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:01Una-giornata-molto"
 
 \end_inset
 
@@ -1206,7 +1794,33 @@ Fatti con vero Flubber!
 \emph on
 Flubber -- Un professore tra le nuvole
 \emph default
- (1997).
+; 
+\begin_inset Quotes fld
+\end_inset
+
+Coltelli +3! Forchette +2! Cucchiai con un bonus di +4!
+\begin_inset Quotes frd
+\end_inset
+
+ è un riferimento agli oggetti magici del gioco di ruolo 
+\emph on
+Dungeons & Dragons
+\emph default
+; 
+\begin_inset Quotes fld
+\end_inset
+
+visori che coloravano tutto ciò che osservavi di verde
+\begin_inset Quotes frd
+\end_inset
+
+ sono simili agli occhiali con lenti colorate indossate dagli abitanti della
+ Città di Smeraldo, nel romanzo 
+\emph on
+Il meraviglioso mago di Oz
+\emph default
+ di L.
+ Frank Baum.
 \end_layout
 
 \begin_layout Standard
@@ -1288,39 +1902,6 @@ reference "chap:04L'ipotesi-del-mercato"
 \end_layout
 
 \begin_layout Standard
-Come altri hanno notato, i romanzi sembrano essere inconsistenti riguardo
- l'apparente potere d'acquisto di un galeone; ho scelto un valore consistente
- e mi atterrò ad esso.
- Cinque sterline per un galeone non va d'accordo con sette galeoni per una
- bacchetta e i bambini che ricevano bacchette dismesse.
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Una 
 \emph on
 stima di Fermi
@@ -1348,72 +1929,57 @@ reference "chap:06L'errore-di-pianificazione"
 \end_layout
 
 \begin_layout Standard
-La sezione 
 \begin_inset Quotes fld
 \end_inset
 
-Conseguenze
+Grande Giove!
 \begin_inset Quotes frd
 \end_inset
 
- di questo capitolo fa parte della storia, 
+ (
+\begin_inset Quotes fld
+\end_inset
+
+Great Scott!
+\begin_inset Quotes frd
+\end_inset
+
+ nell'originale) è l'esclamazione caratteristica di Doc Brown, personaggio
+ della serie di film 
 \emph on
-non è
+Ritorno al Futuro
 \emph default
- un omake.
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Quotes fld
-\end_inset
-
-(I genitori di Harry gli avevano cantato in effetti sempre e solo quei versi
- 
 \emph on
-in particolare
+Be prepared
 \emph default
- della canzone di Tom Lehrer, e Harry era beatamente inconsapevole di tutto
- il resto.)
-\begin_inset Quotes frd
-\end_inset
-
-, la canzone non è adatta ai bambini...
-\end_layout
-
-\begin_layout Standard
+ (
 \begin_inset Quotes fld
 \end_inset
 
-quindi tanto vale leggere qualcosa che Richard Feynman ha scritto
+Siate pronti
 \begin_inset Quotes frd
 \end_inset
 
+) è una canzone comica di Tom Lehrer, ispirata al motto dei boyscout statunitens
+i ma decisamente poco adatta ai bambini.
+\end_layout
 
+\begin_layout Standard
+Il baule di Harry corrisponde a 
+\begin_inset Quotes fld
+\end_inset
+
+il Bagaglio
+\begin_inset Quotes frd
+\end_inset
+
+, una cassa di legno magica e semi-senziente che compare nel Ciclo di Scuotivent
+o dei romanzi di Terry Pratchett ambientati su Mondo Disco.
 \end_layout
 
 \begin_layout Subsection*
@@ -1421,155 +1987,6 @@ Capitolo 7
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "chap:07Reciprocità"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-Uau.
- Un portavoce dell'agente letterario della Rowling ha detto che l'autrice
- non ha problemi con l'esistenza della 
-\emph on
-fanfiction
-\emph default
- fintanto che nessuno si fa pagare per essa e a tutti è chiaro che i diritti
- d'autore originali appartengono a lei? Questo è davvero notevole da parte
- sua.
- Quindi grazie, 
-\noun on
-jkr
-\noun default
-, e tuo sia il regno!
-\end_layout
-
-\begin_layout Quote
-\align center
-
-\family sans
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-Sento il dovere di chiarire che alcune parti di questo capitolo non sono
- da intendersi come 
-\begin_inset Quotes fld
-\end_inset
-
-attacchi a un personaggio
-\begin_inset Quotes frd
-\end_inset
-
-.
- Non è che io provi rancore per loro, la storia si scrive da sé, e una volta
- che si iniziano a far cadere incudini su di un personaggio è difficile
- fermarsi.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-Alcuni recensori hanno chiesto se la scienza in questa storia sia reale
- o inventata.
- Sì, è reale, e se guardate il mio profilo, troverete un link a un certo
- sito di saggistica
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\family sans
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{lesswrong.org}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- che vi insegnerà più o meno tutto ciò che sa Harry James Potter-Evans-Verres,
- 
-\emph on
-e altro ancora
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-Grazie mille a 
-\emph on
-tutti
-\emph default
- i miei recensori.
- (Soprattutto Darkandus su Viridian Dreams, per il commento sorprendentemente
- ispiratore 
-\begin_inset Quotes fld
-\end_inset
-
-I polmoni non sono fatti per interagire con il tè
-\begin_inset Quotes frd
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Quote
-\align center
-
-\family sans
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1614,63 +2031,6 @@ Capitolo 8
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "chap:08Errore-di-conferma"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-Un attento lettore mi ha chiesto se, nel caso in cui Luna sia una veggente,
- questo racconto stia per diventare un HPDM bottom!Draco mpreg.
- Mi dispiace di non poter avere a mia disposizione un carattere più grande
- con cui dire 
-\series bold
-NO
-\series default
-.
- Onestamente, non mi era venuto in mente che Luna potesse essere una 
-\emph on
-vera
-\emph default
- veggente -- dovrò decidere se confermarlo o meno -- ma penso che possiamo
- tutti presumere con sicurezza che se Luna 
-\emph on
-fosse
-\emph default
- una veggente, abbia detto qualcosa come 
-\begin_inset Quotes fld
-\end_inset
-
-piantare un seme nell'oscurità
-\begin_inset Quotes frd
-\end_inset
-
-, e che Xenophilius, come sempre, l'abbia interpretato in un modo piuttosto
- sbagliato.
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1780,97 +2140,6 @@ reference "chap:09Auto-consapevolezza,-Parte-I"
 \end_layout
 
 \begin_layout Standard
-
-\family sans
-I quark di terza generazione erano chiamati anche 
-\begin_inset Quotes fld
-\end_inset
-
-verità
-\begin_inset Quotes frd
-\end_inset
-
- e 
-\begin_inset Quotes fld
-\end_inset
-
-bellezza
-\begin_inset Quotes frd
-\end_inset
-
- prima che 
-\begin_inset Quotes fld
-\end_inset
-
-top
-\begin_inset Quotes frd
-\end_inset
-
- e 
-\begin_inset Quotes fld
-\end_inset
-
-bottom
-\begin_inset Quotes frd
-\end_inset
-
- vincessero; il mio giorno di nascita è vicino a quello di Hermione, e quando
- avevo undici anni, usavo 
-\begin_inset Quotes fld
-\end_inset
-
-verità
-\begin_inset Quotes frd
-\end_inset
-
- e 
-\begin_inset Quotes fld
-\end_inset
-
-bellezza
-\begin_inset Quotes frd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-Quando la Parte I di questo capitolo fu pubblicata la prima volta, dissi
- che a chiunque avesse indovinato di cosa parlava l'ultima frase prima del
- successivo aggiornamento, avrei rivelato l'intero svolgimento successivo
- della trama.
-\end_layout
-
-\begin_layout Quote
-\align center
-
-\family sans
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 I Dirdir sono una razza aliena all'interno del mondo creato dallo scrittore
  Jack Vance e descritto nel fantascientifico 
 \emph on
@@ -1885,11 +2154,16 @@ Ciclo dello Spazio conosciuto
 .
 \end_layout
 
+\begin_layout Standard
+Come nella versione canonica di Harry Potter, Sally-Anne Perks è Smistata
+ subito prima di Harry e poi non viene più vista o citata.
+\end_layout
+
 \begin_layout Subsection*
-Capitolo 11 
+Capitolo 12 
 \begin_inset CommandInset ref
 LatexCommand nameref
-reference "chap:11Omake-1,-2,"
+reference "chap:12Controllo-degli-impulsi"
 
 \end_inset
 
@@ -1897,41 +2171,45 @@ reference "chap:11Omake-1,-2,"
 \end_layout
 
 \begin_layout Standard
-
-\family sans
+La frase 
 \begin_inset Quotes fld
 \end_inset
 
-
-\emph on
-Omake
-\emph default
-
+forse posso trovare nuovi mezzi per spronarvi
 \begin_inset Quotes frd
 \end_inset
 
- è un supplemento non-canonico.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 13 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:13Porre-le-domande"
-
-\end_inset
-
-
+ di Quirinus Quirrell è una citazione di quella pronunciata da Darth Fener
+ ne 
+\emph on
+Il Ritorno dello Jedi
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
+Una delle note ricevute da Harry dice 
+\begin_inset Quotes fld
+\end_inset
 
-\family sans
-Non fatevi prendere dal panico.
- Giuro solennemente che c'è una spiegazione logica, preformulata e compatibile
- col canone per tutto ciò che accade in questo capitolo.
- Si tratta di un enigma, si suppone che cerchiate di risolverlo, e in caso
- contrario, basta leggere il prossimo capitolo.
+punti per lo stile: 10; punti per buon senso: -3.000.000
+\begin_inset Quotes frd
+\end_inset
+
+; il riferimento è a una frase pronunciata da Zaphod Beeblebrox ne 
+\emph on
+La guida galattica per autostoppisti
+\emph default
+: 
+\begin_inset Quotes fld
+\end_inset
+
+dieci e lode in stile, ma...
+ meno parecchi milioni in buon senso
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -2010,42 +2288,6 @@ Oh wad some power the giftie gie us / To see oursel's as others see us!
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 15 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:15Coscienziosità"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-Fatto storico del giorno: gli antichi Ebrei consideravano che il limite
- di un giorno fosse il tramonto piuttosto che l'alba, quindi dicevano 
-\begin_inset Quotes fld
-\end_inset
-
-sera e mattina
-\begin_inset Quotes frd
-\end_inset
-
- non 
-\begin_inset Quotes fld
-\end_inset
-
-mattino e sera
-\begin_inset Quotes frd
-\end_inset
-
-.
- (E come molti recensori hanno notato la moderna Halakhah ebraica sostiene
- la stessa cosa.)
 \end_layout
 
 \begin_layout Subsection*
@@ -2501,7 +2743,7 @@ Stanford marshmallow experiment
 
 .
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Contributori di Wikipedia, 
@@ -2936,16 +3178,7 @@ reference "chap:21Razionalizzazione"
 
 \begin_layout Standard
 Dr.
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
- 
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
 Seuss è stato uno scrittore di libri per bambini e un fumettista statunitense.
