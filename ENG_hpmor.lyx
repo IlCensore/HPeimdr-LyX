@@ -5,7 +5,7 @@
 \textclass memoir
 \begin_preamble
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{fmtcount}
+%\usepackage{fmtcount}
 \usepackage{microtype}
 %insular minuscule, capitolo 75
 \usepackage{inslrmin}
@@ -94,7 +94,6 @@
 
 
 
-\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 \usepackage{shapepar} %paragrafi con una certa forma
@@ -500,7 +499,7 @@ Cato Philosophus
 \begin_inset Newline newline
 \end_inset
 
-MMXIIII
+MMXV
 \end_layout
 
 \begin_layout Standard
@@ -541,7 +540,7 @@ Harry Potter © 1997 Joanne Rowling.
 \emph on
 Harry Potter and the Methods of Rationality
 \emph default
- © 2010 Eliezer Yukowsky.
+ © 2010--2015 Eliezer Yukowsky.
 \end_layout
 
 \begin_layout Standard
@@ -604,7 +603,7 @@ reflectbox{©}
 
 \end_inset
 
- 2013--2014 Cato Philosophus (
+ 2013--2015 Cato Philosophus (
 \begin_inset ERT
 status open
 
