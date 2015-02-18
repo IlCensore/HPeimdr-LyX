@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -60,13 +60,13 @@ initials
 \font_roman Garamond Premier Pro
 \font_sans Gill Sans Std
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -77,15 +77,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -1921,7 +1930,7 @@ Il Boccino rovina l'intero gioco
 \end_inset
 
 Tutto ciò che fanno gli altri giocatori finisce per essere irrilevante.
- Avrebbe più senso in modo preponderante comprare semplicemente un orologio.
+ Avrebbe decisamente più senso comprare semplicemente un orologio.
  È una di quelle cose incredibilmente stupide che non si notano perché si
  è cresciuti con esse, che le persone fanno solo perché tutti gli altri
  le fanno
