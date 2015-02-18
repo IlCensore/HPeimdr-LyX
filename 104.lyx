@@ -1,0 +1,1110 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{102}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans EB Garamond
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+La verità, parte 
+\noun on
+i
+\noun default
+, enigmi e risposte
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:104Verità-p1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\emph on
+13 giugno 1992
+\end_layout
+
+\begin_layout Standard
+Era l'ultima settimana di scuola a Hogwarts, e il professor Quirrell era
+ ancora vivo, a malapena.
+ Lo stesso Professore di Difesa sarebbe dovuto essere nel letto di un guaritore,
+ quel giorno, così come aveva fatto per quasi l'intera ultima settimana.
+\end_layout
+
+\begin_layout Standard
+La tradizione di Hogwarts prevedeva che gli esami fossero sostenuti la prima
+ settimana di giugno, che i risultati dell'esame fossero resi pubblici la
+ seconda settimana, e che nella terza settimana avessero luogo la Festa
+ del commiato di domenica e il viaggio fino a Londra sull'Hogwarts Express
+ di lunedì.
+\end_layout
+
+\begin_layout Standard
+Harry si era chiesto, tanto tempo prima quando aveva letto per la prima
+ volta di quel programma, cosa esattamente facessero gli studenti durante
+ il 
+\emph on
+resto
+\emph default
+ della seconda settimana di giugno, poiché `aspettare i risultati degli
+ esami’ non sembrava molto impegnativo; e la risposta l'aveva sorpreso quando
+ l'aveva scoperta.
+\end_layout
+
+\begin_layout Standard
+Ma ormai la seconda settimana di giugno era anch'essa terminata, ed era
+ sabato; non c'era rimasto altro in quell'anno che la Festa del commiato
+ il 14 e il viaggio sull'Hogwarts Express il 15.
+\end_layout
+
+\begin_layout Standard
+E a nulla era stata data risposta.
+\end_layout
+
+\begin_layout Standard
+E nulla era stato risolto.
+\end_layout
+
+\begin_layout Standard
+L'assassino di Hermione non era stato trovato.
+\end_layout
+
+\begin_layout Standard
+In qualche modo Harry aveva pensato che, certo, tutta la verità sarebbe
+ venuta fuori prima della fine dell'anno scolastico; come se quella fosse
+ la fine di un romanzo giallo e gli fosse stata promessa la soluzione del
+ mistero.
+ Certo doveva essere conosciuta per il momento in cui il Professore di Difesa...
+ fosse morto, non poteva essere permesso al professor Quirrell di 
+\emph on
+morire
+\emph default
+ senza conoscere la risposta, senza che tutto fosse risolto appropriatamente.
+ Non i voti agli esami, certamente non la morte, era solo la verità che
+ metteva la parola fine a una storia...
+\end_layout
+
+\begin_layout Standard
+Ma a meno di non credere all'ultima teoria di Draco Malfoy secondo cui la
+ professoressa Sprout aveva assegnato e corretto meno compiti all'epoca
+ in cui Hermione era stata incastrata per tentato omicidio, in tal modo
+ dimostrando che la professoressa Sprout aveva passato il tempo a preparare
+ il tutto, la verità restava sconosciuta.
+\end_layout
+
+\begin_layout Standard
+E invece, come se il mondo avesse priorità che erano più simili al modo
+ in cui le altre persone la pensavano, l'anno stava per terminare con una
+ decisiva partita di Quidditch.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nell'aria sopra lo stadio, distanti figure su manici di scopa picchiavano
+ e piroettavano e volteggiavano l'una attorno all'altra.
+ Il tetraedro troncato rosso-porporino che era la Pluffa era preso al volo,
+ gettato, bloccato, e occasionalmente lanciato attraverso degli anelli fluttuant
+i, accompagnato da urla di trionfo o di costernazione che scuotevano lo
+ stadio.
+ Vesti bordate di blu e verde e giallo e rosso urlavano con l'entusiasmo
+ che le persone provano così facilmente quando nessuna azione è richiesta
+ a loro personalmente.
+\end_layout
+
+\begin_layout Standard
+Era la prima partita di Quidditch a cui Harry aveva assistito a Hogwarts,
+ e aveva già deciso che sarebbe stata l'ultima.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Davies ha la Pluffa!
+\begin_inset Quotes frd
+\end_inset
+
+ gridò la voce amplificata di Lee Jordan.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono altri dieci punti per Corvonero tra sette...
+ sei...
+ cinque...
+ per dindirindina, li ha già segnati! Dritto nel mezzo dell'anello centrale!
+ Non ho mai visto una tale sequenza di centri -- richiedo ora che Davies
+ diventi Capitano l'anno prossimo dopo che Bortan si ritirerà
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La voce di Lee fu interrotta bruscamente e la voce amplificata della professores
+sa McGonagall disse, 
+\begin_inset Quotes fld
+\end_inset
+
+Questo riguarda la squadra Corvonero, signor Jordan.
+ Si limiti alla partita, prego
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E i Serpeverde entrano in possesso -- Flint trasmette la Fluffa all'adorabile
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Signor Jordan!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+All'appena accettabile Sharon Vizcaino, i cui capelli formano una scia dietro
+ di lei come una cometa mentre divampa verso la difesa Corvonero -- ora
+ con due Bolidi all'inseguimento ravvicinato! Pucey è in coda a Sharon --
+ cosa stai facendo, Inglebee? -- e lei scarta bruscamente in aria per evitare
+ -- 
+\noun on
+quello è forse il Boccino? Vai, Cho Chang, vai, Higgs è già -- cosa state
+ combinando voi due?
+\noun default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Si calmi, signor Jordan!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+\begin_inset Quotes fld
+\end_inset
+
+E come dovrei fare a calmarmi? Quello è stata la peggiore azione a vuoto
+ che abbia mai visto!
+\noun default
+ E il Boccino è andato -- forse per sempre, dopo essere stato mancato così
+ goffamente -- Pucey che si stava dirigendo verso le porte, Inglebee neppure
+ lontanamente vicino a lui
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In una distante era della storia, forse in quello che era stato un mondo
+ completamente differente, il professor Quirrell aveva promesso di far sì
+ che la Coppa delle Case fosse assegnata a Serpeverde o a Corvonero.
+ O forse, in qualche modo, a entrambe; poiché aveva promesso che tre desideri
+ sarebbero stati accordati.
+ Fino a quel momento le cose sembravano andar bene per due su tre.
+\end_layout
+
+\begin_layout Standard
+Se ci si fosse limitati al punteggio corrente, Tassofrasso stava conducendo
+ la competizione per la Coppa delle Case di qualcosa come cinquecento punti,
+ grazie al fatto che gli studenti di Tassofrasso facevano i loro compiti
+ e 
+\emph on
+si tenevano fuori dai guai
+\emph default
+.
+ Sembrava che il professor Snape avesse strategicamente sottratto un numero
+ alquanto elevato di punti da Tassofrasso per, ehm, gli ultimi sette anni
+ o giù di lì.
+ Casa Serpeverde, campione in carica per gli ultimi sette anni, aveva ancora
+ a proprio vantaggio una certa 
+\emph on
+generosità
+\emph default
+ del suo Preside della Casa nell'assegnare punti; e questo era sufficiente
+ a metterla testa-a-testa con la Casa Corvonero, domicilio degli scolasticamente
+ vincenti.
+ Grifondoro era molto indietro all'ultimo posto, come si confaceva alla
+ Casa dei non conformisti; Grifondoro aveva il profilo di Serpeverde quando
+ si trattava di studiare e compiere monellerie, solo senza il vantaggio
+ del professor Snape.
+ Persino Fred e George avevano chiuso l'anno a malapena in pareggio.
+\end_layout
+
+\begin_layout Standard
+Casa Corvonero e Casa Serpeverde avevano entrambe bisogno di molti punti
+ provenienti da 
+\emph on
+qualche parte
+\emph default
+ se una qualunque delle due voleva raggiungere Tassofrasso nei successivi
+ due giorni.
+\end_layout
+
+\begin_layout Standard
+E per quanto ognuno ne sapesse, il professor Quirrell non aveva fatto una
+ singola cosa che portasse al risultato scontato.
+ Stava prendendo corpo da solo, ora che un Professore di Hogwarts solitario
+ aveva insegnato un corso sulla risoluzione creativa dei problemi.
+\end_layout
+
+\begin_layout Standard
+La partita finale di Quidditch dell'anno era tra Corvonero e Serpeverde.
+ Precedentemente durante l'anno, il vantaggio iniziale a Quidditch di Grifondoro
+ era svanito dopo che il loro nuovo Cercatore, Emmet Shear, era caduto da
+ un manico di scopa forse guasto durante la sua seconda partita.
+ Ciò aveva anche resa necessaria una frettolosa riprogrammazione delle partite
+ successive.
+\end_layout
+
+\begin_layout Standard
+Questa, l'ultima partita dell'anno, non sarebbe terminata finché il Boccino
+ non fosse stato catturato.
+\end_layout
+
+\begin_layout Standard
+I punteggi di Quidditch si sommavano direttamente al totale dei punti della
+ Casa.
+\end_layout
+
+\begin_layout Standard
+E con sorpresa di tutti, in quel giorno sembrava che i Cercatori di Serpeverde
+ e di Corvonero proprio...
+ non...
+ riuscissero...
+ a prendere...
+ il Boccino.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\noun on
+Il Boccino era praticamente sopra di te, idiota cecato!
+\noun default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Moderi il linguaggio, signor Jordan, o l'allontanerò da questa partita!
+ Sebbene 
+\emph on
+fosse
+\emph default
+ un'azione terribile, ammetto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry doveva ammettere che Lee Jordan e la professoressa McGonagall avessero
+ un numero comico meraviglioso, con Jordan come spalla e la professoressa
+ McGonagall che interpretava la donna seria; ora a Harry dispiaceva un po'
+ di esserselo perso nelle precedenti partite di Quidditch.
+ Era un aspetto della professoressa McGonagall che non aveva mai visto prima.
+\end_layout
+
+\begin_layout Standard
+Alcuni posti più in basso rispetto a dove Harry sedeva nella sezione Tassofrasso
+ delle tribune di Quidditch, si attardava la forma mastodontica di Cedric
+ Diggory.
+ Il Super Tassofrasso aveva osservato la più recente quasi-collisione-aerea
+ tra Cho Chang e Terence Higgs con l'occhio diligente di un mago che era
+ a sua volta Cercatore e Capitano di Quidditch.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Il Cercatore Corvonero è nuovo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Cedric.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma Higgs è al suo settimo anno.
+ Ci ho giocato contro.
+ È meglio di così
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Pensi che sia una strategia?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese uno dei Tassofrasso seduti di fianco a Cedric.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Avrebbe un senso se Serpeverde avesse bisogno di qualche punto in più per
+ essere in vantaggio per la Coppa di Quidditch
+\begin_inset Quotes frd
+\end_inset
+
+, rispose Cedric.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma Serpeverde ci ha già battuti per il titolo.
+ Che cosa stanno pensando di fare? Potevano vincere in questo momento!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La partita era iniziata alle sei in punto del pomeriggio.
+ Una tipica partita sarebbe durata fino alle sette o giù di lì, quando sarebbe
+ stata ora di cena.
+ Giugno in Scozia significava luce solare in abbondanza; il tramonto non
+ era prima delle dieci.
+\end_layout
+
+\begin_layout Standard
+Erano le otto e sei minuti di sera, secondo l'orologio di Harry, quando
+ Serpeverde ebbe appena segnato altri dieci punti, portando il punteggio
+ sul 170 a 140, quando Cedric Diggory saltò in piedi dal suo sedile e gridò
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Quei bastardi!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Già!
+\begin_inset Quotes frd
+\end_inset
+
+ gridò un giovane ragazzo al suo fianco, saltando anch'egli in piedi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Chi pensano di essere, a segnare quei punti?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non quello!
+\begin_inset Quotes frd
+\end_inset
+
+ gridò Cedric Diggory.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Stanno -- stanno cercando di 
+\emph on
+rubarci la Coppa!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ma non siamo più in corsa per la
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non la Coppa di Quidditch! La Coppa delle Case!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La voce si diffuse, tra urla di sdegno.
+\end_layout
+
+\begin_layout Standard
+Quello fu il segnale per Harry.
+\end_layout
+
+\begin_layout Standard
+Harry chiese educatamente a una strega Tassofrasso seduta a fianco a lui,
+ e a un altro Tassofrasso seduto una fila più in su di lui, se potessero
+ farsi da parte.
+ Poi estrasse dalla propria borsa un rotolo enorme, e lo srotolò in uno
+ striscione alto due metri che fissò a mezz'aria.
+ L'incantesimo era stato gentilmente fornito da un Corvonero del sesto anno
+ che aveva la reputazione di saperne meno di Harry sul Quidditch.
+\end_layout
+
+\begin_layout Standard
+In enormi lettere viola brillante, lo striscione recitava:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\noun on
+comprate un orologio
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+2
+\begin_inset space \thinspace{}
+\end_inset
+
+:
+\begin_inset space \thinspace{}
+\end_inset
+
+06
+\begin_inset space \thinspace{}
+\end_inset
+
+:
+\begin_inset space \thinspace{}
+\end_inset
+
+47
+\end_layout
+
+\begin_layout Standard
+Sotto c'era un Boccino, con una 
+\noun on
+x
+\noun default
+ rossa lampeggiante sovrimposta.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Secondo, dopo secondo, dopo secondo, il cronometro avanzava.
+\end_layout
+
+\begin_layout Standard
+Mentre il cronometro saliva, sembrò esserci un numero incredibile di Tassofrasso
+ che avevano deciso che volevano sedersi vicino allo striscione di Harry.
+\end_layout
+
+\begin_layout Standard
+Mentre la partita si trascinava oltre le nove, sembrarono esserci anche
+ molti Grifondoro.
+\end_layout
+
+\begin_layout Standard
+Mentre il sole tramontava e Harry iniziava a usare Lumos per leggere i propri
+ libri -- aveva rinunciato a seguire la partita vera e propria ormai da
+ molto -- vi era un numero rilevante di Corvonero che avevano tradito il
+ patriottismo per la sanità mentale.
+\end_layout
+
+\begin_layout Standard
+E la professoressa Sinistra.
+\end_layout
+
+\begin_layout Standard
+E la professoressa Vector.
+\end_layout
+
+\begin_layout Standard
+E mentre le stelle iniziarono a spuntare, il professor Flitwick.
+\end_layout
+
+\begin_layout Standard
+La decisiva partita di Quidditch finale dell'anno...
+ continuò a trascinarsi oltre.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una delle cose che Harry non aveva previsto, quando aveva deciso di fare
+ tutto ciò, era stato che sarebbe stato ancora là fuori alle -- Harry diede
+ un'occhiata al suo orologio -- undici e zero quattro della sera.
+ Stava ora leggendo un libro di testo di Trasfigurazione del sesto anno;
+ o meglio, aveva fissato aperto con dei pesi il libro, illuminato da un
+ tubetto di luce chimica, mentre egli faceva uno degli esercizi.
+ La settimana precedente, quando i Corvonero che si stavano diplomando discuteva
+no i risultati dei loro 
+\noun on
+m.a.g.o.
+\noun default
+, a Harry era capitato di ascoltare che gli allenamenti di Trasfigurazione
+ degli anni superiori includevano diversi `esercizi di sagomatura’ che si
+ basavano più sul controllo e sul pensiero preciso che sulla pura potenza;
+ e Harry si era prontamente prefisso di impararli, colpendosi duro sulla
+ fronte per non aver precedentemente cercato di leggere 
+\emph on
+tutti
+\emph default
+ i libri di testo degli anni successivi.
+ La professoressa McGonagall aveva approvato che Harry facesse un esercizio
+ di sagomatura che includeva il controllo del modo in cui un oggetto di
+ Trasfigurazione approcciasse la sua forma finale -- per esempio, Trasfigurare
+ una piuma in modo che la rachide crescesse per prima, e solo successivamente
+ la barba.
+ Harry stava eseguendo un esercizio analogo con le matite, facendo crescere
+ per prima la mina, circondandola poi di legno e infine facendo formare
+ la gomma sulla sommità.
+ Come Harry aveva sospettato, concentrare la sua attenzione e la sua magie
+ in una porzione in particolare della trasformazione in atto della matita
+ si era dimostrato simile alla disciplina mentale utilizzata nella Trasfigurazio
+ne parziale -- cosa che avrebbe potuto essere effettivamente usata per simulare
+ lo stesso effetto, trasfigurando parzialmente solo gli strati esterni dell'ogge
+tto.
+ Quel modo si stava dimostrando più facile, però.
+\end_layout
+
+\begin_layout Standard
+Harry terminò la sua matita e alzò lo sguardo sulla partita di Quidditch,
+ che era, eh già, ancora fantasticamente noiosa.
+ Lee Jordan stava commentando in un tono di monotono disgusto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Altri dieci punti -- olà -- urrà -- e ora qualcuno prende nuovamente possesso
+ della Fluffa -- chiedetemi se mi interessa chi sia
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Quasi nessuno di quelli rimasti sugli spalti stava facendo attenzione a
+ qualcuno dei due, poiché tutti quelli che si erano trattenuti nello stadio
+ sembravano aver scoperto uno sport nuovo e più interessante, il dibattito
+ su come emendare le regole della Coppa delle Case e/o del Quidditch.
+ La discussione era diventata accaldata fino al punto in cui tutti i Professori
+ presenti erano a mala pena in grado di tenere l'ordine a un solo passo
+ dal combattimento aperto.
+ Questa discussione, sfortunatamente, aveva decisamente più di due fazioni.
+ Alcuni maledetti ficcanaso stavano proponendo alternative apparentemente
+ ragionevoli all'eliminazione completa del Boccino, e questo stava minacciando
+ di frammentare il voto e di fiaccare la spinta in favore della riforma.
+\end_layout
+
+\begin_layout Standard
+Col senno di poi, pensò Harry, sarebbe stato bello far srotolare a Draco
+ nel lato Serpeverde uno striscione che dicesse `
+\noun on
+I Boccini sono fantastici
+\noun default
+', per impartire una polarizzazione al dibattito.
+ Harry aveva strizzato gli occhi in direzione della sezione Serpeverde,
+ in precedenza, ma non era stato in grado di trovare Draco da nessuna parte
+ sugli spalti.
+ Severus Snape, che avrebbe potuto essere abbastanza solidale da giocare
+ il ruolo della perfida opposizione, era altrettanto impossibile da trovare.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+ disse una voce vicina a lui.
+\end_layout
+
+\begin_layout Standard
+A fianco alla sedia di Harry stava in piedi un ragazzo Tassofrasso più basso
+ ma più anziano, qualcuno che mai in precedenza era salito all'attenzione
+ di Harry, che gli porgeva una busta di pergamena in bianco con della cera
+ colata sul davanti.
+ Anche la cera era in bianco, senza alcuna impronta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Che cos'è?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sono 
+\emph on
+io
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse il ragazzo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Con la busta che lei mi ha dato.
+ So che ha detto di non rivolgerle la parola, ma
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Allora non rivolgermela
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+\end_layout
+
+\begin_layout Standard
+Il ragazzo gettò a Harry la busta e se ne andò via, apparentemente offeso.
+ Ciò fece sussultare un po' Harry, ma probabilmente non era stata una decisione
+ 
+\emph on
+sbagliata
+\emph default
+ considerando le questioni temporali...
+\end_layout
+
+\begin_layout Standard
+Poi Harry ruppe l'anonimo sigillo di cera ed estrasse il contenuto della
+ busta.
+ Era una pergamena invece della carta babbana che Harry si sarebbe aspettato,
+ ma la scrittura su di essa era la sua personale, anche se vergata con una
+ piuma invece che con una penna.
+ La pergamena diceva:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Attento alla costellazione,
+\begin_inset Newline newline
+\end_inset
+
+e aiuta colui che osserva le stelle.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Oltrepassa non visto i confederati dei mangia-vita,
+\begin_inset Newline newline
+\end_inset
+
+e il saggio e i benintenzionati.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Sei, e sette in un quadrato,
+\begin_inset Newline newline
+\end_inset
+
+nel luogo che è proibito e dannatamente stupido.
+\end_layout
+
+\begin_layout Standard
+Harry lo memorizzò con uno sguardo, poi ripiegò di nuovo il foglio e lo
+ rimise nel proprio mantello esalando un altro sospiro.
+ `Attento alla costellazione’, sul serio? Harry si sarebbe aspettato che
+ un enigma lasciato da sé stesso a sé stesso sarebbe stato più facile da
+ interpretare...
+ sebbene alcune parti fossero abbastanza scontate.
+\end_layout
+
+\begin_layout Standard
+Chiaramente l'Harry del futuro era stato preoccupato che quel foglio fosse
+ intercettato, e mentre l'Harry del presente non avrebbe comunemente pensato
+ agli Auror locali come a `coloro in combutta con i Dissennatori di Azkaban’,
+ forse quella era stato il modo migliore di dire `Auror’ senza potenzialmente
+ informare chiunque altro leggesse quella pergamena e facesse poi del proprio
+ meglio per decrittarla.
+ Ritradurre l'idioma dal Serpentese che aveva usato durante l'Incidente
+ a Azkaban...
+ funzionava, ritenne Harry.
+\end_layout
+
+\begin_layout Standard
+La nota aveva detto che il professor Quirrell aveva bisogno di aiuto, e
+ qualunque cosa quella fosse doveva passare inosservata agli Auror, e a
+ Silente e McGonagall e Flitwick.
+ Poiché erano già coinvolti dei Giratempo, la soluzione scontata era di
+ allontanarsi verso il bagno, viaggiare indietro nel tempo, e tornare alla
+ partita subito dopo averla lasciata.
+\end_layout
+
+\begin_layout Standard
+Harry iniziò ad alzarsi dal proprio sedile, poi esitò.
+ Il suo lato Tassofrasso stava osservando qualcosa sul lasciarsi dietro
+ la scorta di Auror e sul non dire nulla alla professoressa McGonagall,
+ e si stava chiedendo se il suo sé futuro si stesse comportando da 
+\emph on
+stupido
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Harry dispiegò nuovamente la pergamena, e diede un'altra occhiata ai contenuti.
+\end_layout
+
+\begin_layout Standard
+A un esame più attento, i versi-enigma non dicevano che Harry non poteva
+ portarsi dietro 
+\emph on
+nessuno
+\emph default
+.
+ Draco Malfoy...
+ mancava dalla partita di Quidditch perché l'Harry del futuro, ore nel passato,
+ aveva portato Draco con sé come aiuto? Ma quello non aveva senso, non c'era
+ un granché di miglioramento marginale della sicurezza nel portarsi dietro
+ un altro primino...
+\end_layout
+
+\begin_layout Standard
+...
+\begin_inset space ~
+\end_inset
+
+Draco Malfoy sarebbe stato certamente presente, a prescindere dalle proprie
+ preferenze personali sul Quidditch, per assistere alla conquista della
+ Coppa delle Case da parte di Serpeverde.
+ Gli era forse successo qualcosa?
+\end_layout
+
+\begin_layout Standard
+Improvvisamente Harry non si sentiva più stanco.
+\end_layout
+
+\begin_layout Standard
+Un gocciolio di adrenalina iniziò a scorrere dentro Harry, ma no, quello
+ non sarebbe stato come nel caso del troll.
+ Il messaggio aveva 
+\emph on
+detto
+\emph default
+ a Harry quando presentarsi.
+ Harry non sarebbe arrivato in ritardo, non questa volta.
+\end_layout
+
+\begin_layout Standard
+Harry diede un'occhiata verso il luogo dove Cedric Diggory si guardava avanti
+ e indietro, visibilmente combattuto tra una nidiata di Corvonero che sostenevan
+o che il Boccino doveva essere mantenuto perché era tradizionale e le regole
+ erano regole, e un branco di Tassofrasso che dicevano che non era giusto
+ che il Cercatore fosse più importante degli altri giocatori.
+\end_layout
+
+\begin_layout Standard
+Cedric Diggory era stato un eccellente insegnante di duello per Harry e
+ Neville, e Harry aveva pensato che avessero stabilito una buona relazione.
+ Cosa più importante, uno studente che seguiva tutti i corsi facoltativi
+ avrebbe avuto il suo Giratempo personale.
+ Forse Harry poteva cercare di convincere Cedric ad andare indietro nel
+ tempo con lui? Il Super Tassofrasso sembrava una buona bacchetta di scorta
+ da avere al proprio fianco in qualunque genere di situazione delicata...
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
