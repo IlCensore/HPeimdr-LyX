@@ -1,0 +1,443 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{104}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans EB Garamond
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+La verità, parte 
+\noun on
+ii
+\noun default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:105Verità-p2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tom Riddle.
+\end_layout
+
+\begin_layout Standard
+Le parole sembravano echeggiare nella testa di Harry, suscitando risonanze
+ che morivano altrettanto rapidamente, schemi interrotti che cercavano di
+ completarsi e fallivano.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tom Riddle è un
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tom Riddle era il
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Riddle
+\end_layout
+
+\begin_layout Standard
+C'erano altre priorità a occupare l'attenzione di Harry.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell stava puntando una pistola contro di lui.
+\end_layout
+
+\begin_layout Standard
+E per qualche ragione Lord Voldemort non aveva ancora fatto fuoco.
+\end_layout
+
+\begin_layout Standard
+La voce di Harry uscì più simile a un gracidio.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cos'è che vuole da me?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+La sua morte
+\begin_inset Quotes frd
+\end_inset
+
+, rispose il professor Quirrell, 
+\begin_inset Quotes fld
+\end_inset
+
+non è chiaramente quello che sto per dire, poiché ho avuto parecchio occasioni
+ per ucciderla se avessi voluto.
+ La fatidica battaglia tra Lord Voldemort e il Ragazzo-Che-È-Sopravvissuto
+ è un parto dell'immaginazione di Silente.
+ So dove trovare la casa della sua famiglia a Oxford, e ho familiarità con
+ il concetto di fucile da cecchino.
+ Sarebbe morto prima ancora di toccare una bacchetta.
+ Spero che questo sia chiaro per lei, Tom?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cristallino
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Harry.
+ Il suo corpo stava ancora tremando, eseguendo programmi più adatti a sfuggire
+ a una tigre che a lanciare delicati incantesimi o a 
+\emph on
+pensare
+\emph default
+.
+ Ma Harry poteva pensare a una cosa che la persona che stava puntandogli
+ contro una pistola ovviamente voleva che facesse, a una domanda che quella
+ persona stava aspettando che gli rivolgesse, e Harry fece così.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché mi sta chiamando Tom?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell lo osservò con risolutezza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché la sto 
+\emph on
+chiamando
+\emph default
+ Tom? Risponda.
+ Il suo intelletto non è tutto quello che avevo sperato che fosse, ma dovrebbe
+ essere sufficiente per questo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La bocca di Harry sembrò conoscere la risposta prime che il suo cervello
+ riuscisse a concentrarsi sulla domanda.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tom Riddle è il suo nome.
+ Il nostro nome.
+ È ciò che Lord Voldemort è, o era, o -- qualcosa.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell annuì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Meglio.
+ Lei ha già sconfitto il Signore Oscuro, la prima e unica volta che ci riuscirà.
+ Ho già distrutto tutto a eccezione di un residuo di Harry Potter, eliminando
+ la differenza tra i nostri spiriti e permettendoci di risiedere nello stesso
+ mondo.
+ Ora che è chiaro per lei che la battaglia tra noi due è una bugia, può
+ agire sensatamente per far progredire i suoi interessi.
+ O può non farlo.
+\begin_inset Quotes frd
+\end_inset
+
+ La pistola oscillò leggermente in avanti, facendo comparire un pizzicorio
+ di sudore sulla fronte di Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lasci cadere la sua bacchetta.
+ 
+\emph on
+Ora
+\emph default
+.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry la lasciò cadere.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Si allontani dalla bacchetta
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+Harry obbedì.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Si porti le mani al collo
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, 
+\begin_inset Quotes fld
+\end_inset
+
+e rimuova il suo Giratempo, toccandolo solo per la catena.
+ Ponga il Giratempo al suolo, poi si allontani anche da esso.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry fece anche quello.
+ Anche nella sua condizione di turbamento, la sua mente continuò a cercare
+ un modo per girare il Giratempo durante quel gesto, un movimento improvviso
+ che lo avrebbe fatto vincere; ma Harry sapeva che il professor Quirrell
+ si sarebbe già immaginato al posto di Harry, alla ricerca delle stesse
+ possibili opportunità.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Si tolga la borsa e disponga anch'essa al suolo, poi si allontani.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry lo fece.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Molto bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ora.
+ È giunto il momento che io ottenga la Pietra filosofale.
+ Intendo portarmi dietro questi quattro studenti del primo anno, adeguatamente
+ Obliati dei loro ricordi più recenti in modo che rammentino comunque il
+ loro scopo originale.
+ Snape lo controllerò e lo porrò a guardia di questa porta.
+ Dopo che il lavoro di oggi sarà compiuto, intendo uccidere Snape per i
+ tradimenti che ha commesso nei confronti della mia altra identità.
+ I tre bambini-rampolli intendo portarli in seguito con me, per modellare
+ le loro future lealtà.
+ E sappia questo, ho preso degli ostaggi.
+ Ho già messo in azione un incantesimo che ucciderà centinaia di studenti
+ di Hogwarts, inclusi molti che lei chiama amici.
+ Posso fermare quell'incantesimo usando la Pietra, se avessi successo nell'entra
+rne in possesso.
+ Se fossi fermato prima di allora, o se scegliessi di non interrompere l'incante
+simo, centinaia di studenti morranno.
+\begin_inset Quotes frd
+\end_inset
+
+ La voce del professor Quirrell era ancora mite.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Percepisce già qualche interesse che abbia in gioco, ragazzo? Sorriderei
+ a sentirla dire `no’, ma sarebbe sperare troppo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
