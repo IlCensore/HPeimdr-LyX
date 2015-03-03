@@ -1,0 +1,633 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{105}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans EB Garamond
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+La verità, parte 
+\noun on
+i
+\noun default
+v
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:106Verità-p3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le foglie spiraleggianti della gigantesca dieffenbachia erano simili al
+ terriccio di una foresta sotto le scarpe di Harry, non salde come cemento,
+ ma sostenenti il suo peso.
+ Harry mantenne uno sguardo circospetto sui viticci, ma questi rimasero
+ passivi.
+\end_layout
+
+\begin_layout Standard
+Quando Harry raggiunse il fondo della frondosa scala a chiocciola, improvvisamen
+te i viticci si slanciarono ad afferrare le braccia e le gambe di Harry.
+\end_layout
+
+\begin_layout Standard
+Dopo una breve lotta, Harry si permise di lasciarsi andare.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Interessante
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, mentre scendeva fluttuando dall'alto, senza
+ toccare alcuna delle foglie o dei viticci della pianta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Noto che lei sembra non avere alcun problema a perdere con una pianta.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry osservò più da vicino il Professore di Difesa, vedendolo ora senza
+ le lenti del panico.
+ Il professor Quirrell era eretto e si muoveva, volando senza apparente
+ difficoltà; la sensazione di sventura attorno a lui era forte.
+ Ma i suoi occhi erano ancora infossati nel suo cranio, le sue braccia magre
+ ed emaciate.
+ La malattia 
+\emph on
+non era
+\emph default
+ stata un inganno, e l'ipotesi ovvia era che il Professore di Difesa aveva
+ recentemente mangiato un altro unicorno per recuperare temporaneamente
+ un po' di forza.
+\end_layout
+
+\begin_layout Standard
+E il Professore di Difesa stava inoltre parlando come la maschera del professor
+ Quirrell, non come Lord Voldemort, cosa che poteva non essere negativa
+ dal punto di vista di Harry.
+ Non sapeva perché -- a meno che il Professore di Difesa non avesse ancora
+ bisogno di lui per qualcosa -- ma certamente sembrava nell'interesse di
+ Harry stare al gioco.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi ha lasciato finire apposta in questa trappola, Professore
+\begin_inset Quotes frd
+\end_inset
+
+, rispose Harry, proprio nel modo in cui avrebbe parlato al professor Quirrell.
+ 
+\emph on
+Ruoli, maschere, ricordagli di come è stato tra di noi\SpecialChar \ldots{}
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Per conto mio, avrei usato il mio manico di scopa.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Forse.
+ Come risponderebbe a questa prova un ordinario studente del primo anno?
+ Se avesse la sua bacchetta, vale a dire.
+\begin_inset Quotes frd
+\end_inset
+
+ La pianta stava ora allungando i viticci verso il professor Quirrell, ma
+ egli stava librandosi proprio oltre la loro portata.
+\end_layout
+
+\begin_layout Standard
+Harry si era ormai ricordato che la professoressa Sprout aveva parlato della
+ pianta Tranello del Diavolo, che il libro di testo di Erbologia aveva detto
+ gradire luoghi freschi e bui come le grotte -- sebbene come quello potesse
+ essere vero per una pianta dotata di foglie era un mistero per tutti.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tirando a indovinare, direi che questa è una pianta Tranello del Diavolo
+ e che potrebbe ritirarsi davanti alla luce o al calore.
+ Quindi forse un primino potrebbe usare Lumos? Oggi userei 
+\emph on
+Inflammare
+\emph default
+, ma non ho imparato quell'incantesimo fino a maggio.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una piroetta della bacchetta del Professore di Difesa, e un ventaglio di
+ spruzzi di un liquido ne fuoriuscì, colpendo la pianta vicino alla base
+ dei suoi viticci, impattando con un tonfo sommesso e poi con un sommesso
+ sibilo.
+ Tutti i viticci che stavano toccando Harry si ritirarono freneticamente
+ e iniziarono a battere contro le crescenti ferite che stavano comparendo
+ sulla superficie della pianta, come se cercassero di rimuovere lo stimolo
+ doloroso; qualcosa della pianta dava l'impressione che stesse gridando
+ silenziosamente.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell finì di essere trasportato in basso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ora ha paura della luce, del calore, dell'acido e di me.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry discese le ultime foglie fino al pavimento, dopo un'attenta occhiata
+ alle proprie vesti e poi al pavimento per assicurarsi che l'acido non fosse
+ schizzato da qualche parte.
+ Harry aveva iniziato a sospettare che il professor Quirrell stesse cercando
+ di sottolineare qualcosa, in qualche modo, ma Harry non sapeva di cosa
+ potesse trattarsi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Pensavo che fossimo in una missione, Professore.
+ Non posso fermarla, ma è 
+\emph on
+astuto
+\emph default
+ perdere tutto questo tempo prendendomi in giro?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh, abbiamo tempo
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, sembrando divertito.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Scoppierebbe un bel baccano se fossimo scoperti qui, vigilati da un Inferius.
+ Lei non si è comportato come se avesse sentito tale baccano alla sua partita
+ di Quidditch, prima di arrivare in questo momento e di parlare a Snape
+ così come ha fatto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un accenno di gelo ricoprì Harry, mentre comprendeva quel punto.
+ Qualunque cosa facesse per battere il professor Quirrell avrebbe dovuto
+ 
+\emph on
+non
+\emph default
+ gettare nello scompiglio la scuola, o quanto meno la partita di Quidditch,
+ perché 
+\emph on
+non aveva
+\emph default
+ gettato nello scompiglio la partita di Quidditch.
+ Anche se fosse stato possibile radunare abbastanza forze da sopraffare
+ Lord Voldemort, non sarebbe stato facile farlo senza che la professoressa
+ McGonagall o il professor Flitwick o tutti gli altri alla partita di Quidditch
+ se ne accorgessero\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Combattere un nemico intelligente era difficile.
+\end_layout
+
+\begin_layout Standard
+E anche così\SpecialChar \ldots{}
+ anche così a Harry sembrava che se si fosse messo nelle scarpe
+ del professor Quirrell, non si sarebbe messo a conversare tranquillamente
+ e a fare giochetti mentali.
+ Il professor Quirrell stava guadagnando 
+\emph on
+qualcosa
+\emph default
+ perdendo tempo in quel luogo.
+ Ma cosa? C'era forse qualche altro processo che doveva continuare fino
+ al termine?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Per inciso, mi ha già tradito?
+\begin_inset Quotes frd
+\end_inset
+
+ disse il professor Quirrell.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non ti ho ancora tradito
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò Harry.
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa fece un gesto con la pistola che ora stava tenendo
+ nella mano sinistra, e Harry avanzò per primo verso la grande porta di
+ legno alla fine della stanza, e l'aprì.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La camera successiva era più piccola in diametro, con un soffitto più alto.
+ La luce che splendeva dalle nicchie arcuate era bianca, invece che blu.
+\end_layout
+
+\begin_layout Standard
+Attorno a loro ronzavano centinaia di chiavi alate, che battevano freneticamente
+ le ali per aria.
+ Dopo averle guardate per pochi secondi, divenne chiaro che solo una singola
+ chiave era del colore dorato di un Boccino -- sebbene si stesse muovendo
+ più lentamente di un Boccino in un vero gioco di Quidditch.
+\end_layout
+
+\begin_layout Standard
+All'altra estremità della stanza c'era una porta contenente una toppa grande
+ e prominente.
+\end_layout
+
+\begin_layout Standard
+Contro il muro di sinistra era appoggiato un manico di scopa, il cavallo
+ da lavoro della scuola, lo Scopalinda 7.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Professore
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, fissando in alto gli stormi e le nuvole di chiavi ronzanti,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+ha detto che avrebbe risposto alle mie domande.
+ Esattamente, che cosa sta accadendo? Se pensa di aver salvaguardato una
+ porta così che non si apra senza una chiave, tiene la chiave in un posto
+ sicuro e dà una copia a chi è autorizzato a entrare.
+ Non dà 
+\emph on
+delle ali alle chiavi
+\emph default
+ per poi 
+\emph on
+lasciare un manico di scopa appoggiato al muro
+\emph default
+.
+ Quindi che diamine stiamo facendo qui e cosa sta succedendo? È una supposizione
+ evidente che lo specchio magico è l'unico fattore reale che protegge la
+ Pietra, ma perché tutto questo -- e perché incoraggiare dei primini a venire
+ qui?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sinceramente non ne sono sicuro
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa.
+ Era entrato nella stanza e si era collocato ben alla destra di Harry, mantenend
+o la distanza tra di loro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma risponderò, come ho detto che avrei fatto.
+ L'approccio di Silente è di fare una dozzina di cose che sembrano folli,
+ e poi di queste solo otto, o forse nove, celano un significato recondito.
+ La mia ipotesi è che Silente intenda far sembrare che sono invitato a mandare
+ al mio posto uno studente.
+ Proprio in modo che Lord Voldemort, così come Silente lo concepisce, sia
+ meno tentato di pensarsi intelligente nel farlo.
+ Immagini la prima volta che Silente ha considerato come proteggere la Pietra.
+ Immagini Silente che valuta se mettere dei veri pericoli a guardia dello
+ Specchio.
+ Lo immagini immaginare qualche giovane studente andare a sbattere contro
+ quei pericoli dietro mio ordine.
+ Penso che questo sia ciò che Silente vuole evitare, facendo sembrare che
+ questa strategia sia sollecitata, e non così astuta.
+ A meno che, ovviamente, io non abbia frainteso ciò che Silente pensa che
+ Lord Voldemort penserà.
+\begin_inset Quotes frd
+\end_inset
+
+ Il professor Quirrell fece un grande sorriso, e sembrò proprio naturale,
+ su di lui, come ogni altro sorriso che avesse mostrato a Harry in precedenza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tramare non viene naturale a Silente, ma egli ci prova perché deve.
+ In tale compito Silente profonde intelligenza, dedizione, la capacità di
+ imparare dai suoi errori, e una completa mancanza di talento innato.
+ Egli è meravigliosamente difficile da prevedere anche solo per questa ragione.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry si voltò da un'altra parte, guardando la porta sul lato opposto della
+ stanza.
+ 
+\emph on
+Per lui non era un gioco, Professore.
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La mia ipotesi è che la soluzione prevista per gli studenti del primo anno
+ sia di ignorare il manico di scopa e usare 
+\emph on
+Wingardium Leviosa
+\emph default
+ per prendere la chiave, poiché non è una partita di Quidditch e non ci
+ sono regole che lo proibiscano.
+ Che tipo di incantesimo assurdamente esagerato vi scatenerà contro, invece?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu un breve silenzio, se non per il ronzio delle chiavi.
+\end_layout
+
+\begin_layout Standard
+Harry si allontanò di diversi passi dal professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Probabilmente non avrei dovuto chiederlo, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh, no
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che sia qualcosa di alquanto ragionevole da dire al più potente Mago
+ Oscuro del mondo quando si trova a meno di una dozzina di passi da te.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell si rimise la bacchetta nella manica della sua altra
+ mano, la mano che talvolta reggeva la pistola.
+\end_layout
+
+\begin_layout Standard
+Poi il Professore di Difesa portò la mano alla bocca e ne tolse quello che
+ sembrò essere un dente.
+ Lanciò il falso dente alto per aria, e quando venne giù, si era trasformato
+ in una bacchetta che suscitò una strana sensazione di riconoscimento nella
+ mente di Harry, come se qualche parte di lui riconoscesse in quella bacchetta
+ una\SpecialChar \ldots{}
+ parte di sé\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tredici pollici e mezzo, tasso, con un nucleo di piuma di fenice
+\emph default
+.
+ Harry aveva memorizzato l'informazione quando il fabbricante di bacchette
+ Olli-qualcosa l'aveva fornita, perché era sembrato che potesse essere Pertinent
+e-alla-trama.
+ L'evento, e il pensiero che vi soggiaceva, sembravano essere entrambi distanti
+ una vita.
+\end_layout
+
+\end_body
+\end_document
