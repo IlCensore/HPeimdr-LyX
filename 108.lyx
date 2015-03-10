@@ -1,0 +1,569 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{107}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans EB Garamond
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+La verità, parte 
+\noun on
+v
+\noun default
+, risposte ed enigmi
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:108Verità-p5"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa aveva preparato un calderone, facendolo fluttuare
+ al suo posto con un cenno della bacchetta, un altro cenno che vi accese
+ sotto un fuoco.
+ Un rapido gesto rotatorio del dito del Professore di Difesa aveva messo
+ in movimento un cucchiaio dal manico lungo, che aveva continuato a mescolare
+ il calderone senza essere retto.
+ Ora il Professore di Difesa stava soppesando un grosso mucchietto di fiori
+ presi da un grosso vaso, quelli che Harry ipotizzava fossero campanule;
+ i petali indaco apparivano luminosi alla luce bianca dei muri, e ricurvi
+ all'interno in una maniera che dava l'impressione di un desiderio di riservatez
+za.
+ Il primo di questi fiori era stato subito aggiunto alla pozione, ma poi
+ il calderone aveva continuato a mescolarsi da solo per un po'.
+\end_layout
+
+\begin_layout Standard
+Il Professore di Difesa aveva assunto una posizione da cui poteva vedere
+ Harry ruotando appena la testa, e Harry sapeva di essere all'interno della
+ visione periferica del Professore di Difesa.
+\end_layout
+
+\begin_layout Standard
+In un angolo una fenice Fiendfyre attendeva, mentre parte della pietra vicina
+ iniziava a lustrarsi mentre si squagliava in una superficie più liscia.
+ Le ali ardenti gettavano una luce cremisi che dava a tutto ciò che era
+ nella stanza una tonalità sanguigna, e si rifletteva in balenii scarlatti
+ dagli oggetti di vetro.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Il tempo si consuma
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ponga le sue domande, se ne ha.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Perché, professor Quirrell, perché, perché deve essere in questo modo, perché
+ fare di sé stesso il mostro, perché Lord Voldemort, so che lei può non
+ volere le mie stesse cose, ma non posso immaginare cosa lei possa volere
+ e che faccia di 
+\emph default
+questo
+\emph on
+ il modo migliore di ottenerla\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Quello era ciò che il cervello di Harry voleva sapere.
+\end_layout
+
+\begin_layout Standard
+Ciò che Harry aveva 
+\emph on
+bisogno
+\emph default
+ di sapere era\SpecialChar \ldots{}
+ una via d'uscita da ciò che sarebbe successo dopo.
+ Ma il Professore di Difesa aveva detto che non avrebbe parlato dei suoi
+ piani futuri.
+ Era già abbastanza strano che il Professore di Difesa fosse disposto a
+ parlare di 
+\emph on
+qualcosa
+\emph default
+, quello doveva contraddire una delle sue Regole\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sto pensando
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry ad alta voce.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell sorrise appena.
+ Stava usando un pestello per frantumare il primo ingrediente magico della
+ pozione, un esagono rosso raggiante.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Capisco 
+\emph on
+quasi
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Professore di Difesa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma non pensi troppo, ragazzino.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Obiettivi: Evitare che Lord Voldemort faccia del male alle persone, trovare
+ un modo di ucciderlo o neutralizzarlo, ma prima procurarsi la Pietra e
+ risuscitare Hermione\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\SpecialChar \ldots{}
+
+\begin_inset space ~
+\end_inset
+
+convincere il professor Quirrell a 
+\noun on
+fermarsi
+\noun default
+\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+Harry deglutì, rimandando giù l'emozione, cercando di non consentire alle
+ lacrime di raggiungere i suoi occhi.
+ Le lacrime non avrebbero probabilmente fatto una buona impressione su Lord
+ Voldemort.
+ Il professor Quirrell si stava già accigliando, sebbene in base alla direzione
+ del suo sguardo stesse esaminando una foglia colorata nelle sfumature vivide
+ del bianco, del verde e del viola.
+\end_layout
+
+\begin_layout Standard
+Non c'era alcun modo evidente di raggiungere qualcuno degli obiettivi, non
+ ancora.
+ Tutto ciò che Harry poteva fare era porre le domande che sembravano più
+ probabilmente poter fornire informazioni utili, anche se Harry non aveva
+ ancora un piano.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Quindi ci limitiamo a chiedere qualunque cosa ci sembri più interessante?
+\emph default
+ chiese il lato Corvonero di Harry.
+ 
+\emph on
+Io ci sto.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Stai zitto
+\emph default
+, disse Harry alla voce; e poi, dopo un'ulteriore riflessione, decise che
+ non avrebbe più finto che fosse là.
+\end_layout
+
+\begin_layout Standard
+Quattro argomenti vennero in mente a Harry quali priorità dal punto di vista
+ della curiosità su cose importanti.
+ Quattro domande, allora, quattro argomenti principali, a cui cercare di
+ trovare posto mentre quella pozione era ancora in preparazione.
+\end_layout
+
+\begin_layout Standard
+Quattro domande\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Faccio la mia prima domanda
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa è accaduto realmente nella notte del 31 ottobre 1981?
+\begin_inset Quotes frd
+\end_inset
+
+ 
+\emph on
+Perché quella notte fu differente da tutte le altre notti\SpecialChar \ldots{}
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi piacerebbe ascoltare l'intera storia, per favore.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La questione di come e perché Lord Voldemort fosse sopravvissuto alla sua
+ morte apparente sembrava verosimilmente importare nei piani a venire.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi aspettavo che lo chiedesse
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell, lasciando cadere una campanula e una pietra
+ bianca luccicante nella pozione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tanto per iniziare, tutto ciò che le dissi sull'incantesimo horcrux è vero;
+ come dovrebbe realizzare, poiché parlai in Serpentese.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Nell'arco di secondi dopo che ebbe imparato i dettagli dell'incantesimo,
+ lei percepì la falla centrale, e iniziò a meditare su come l'incantesimo
+ potesse essere migliorato.
+ Pensa che il giovane Tom Riddle fosse in qualche modo differente?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry scosse la testa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ebbene, lo era
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ogni qualvolta sono stato tentato di disperare di lei, mi sono rammentato
+ di quanto fossi idiota al doppio della sua età.
+ Quando avevo quindici anni mi feci un horcrux nel modo in cui un certo
+ libro mi aveva mostrato, usando la morte di Abigail Myrtle sotto lo sguardo
+ del basilisco di Serpeverde.
+ Decisi di creare un nuovo horcrux ogni anno dopo aver lasciato Hogwarts,
+ e di considerare quello il mio piano di riserva se le mie altre speranze
+ di immortalità non fossero state portate a compimento.
+ A posteriori, il giovane Tom Riddle si stava attaccando a qualunque cosa.
+ Il pensiero di produrre un horcrux 
+\emph on
+migliore
+\emph default
+, di non essere appagato dell'incantesimo che avevo già imparato\SpecialChar \ldots{}
+ questo
+ pensiero non mi sovvenne fino a quando non compresi la stupidità delle
+ persone ordinarie, e realizzai quali loro follie avessi imitato.
+ Ma col tempo imparai l'abitudine che lei ha ereditato da me, di chiedere
+ in ogni situazione come possa essere fatto meglio.
+ Essere contento dell'incantesimo che avevo imparato da un libro, quando
+ assomigliava solo vagamente a ciò che veramente volevo? Assurdo! E così
+ mi misi in cammino per creare un incantesimo migliore.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Possiede la vera immortalità, ora?
+\begin_inset Quotes frd
+\end_inset
+
+ Harry era cosciente che, anche con tutto il resto in moto, quella era una
+ questione più importante della guerra e della strategia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Certo
+\begin_inset Quotes frd
+\end_inset
+
+, disse il professor Quirrell.
+ Fece una pausa nel suo lavoro di Pozioni e si girò per guardare in pieno
+ Harry; c'era un'espressione di esultanza negli occhi dell'uomo che Harry
+ non vi aveva mai visto prima.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+In tutte le Arti più Oscure che potei trovare, in tutti i segreti interdetti
+ dei quali il Mostro di Serpeverde mi ha fornito le chiavi, in tutte le
+ tradizioni preservate tra i maghi, trovai solo indizi e frammenti di ciò
+ di cui avevo bisogno.
+ Così lo ritessetti e lo rifeci, e concepii un nuovo rituale basato su nuovi
+ principi.
+ Conservai quel rituale ardente nella mia mente per anni, perfezionandolo
+ nella mia immaginazione, meditando sul suo significato e operando fini
+ aggiustamenti, attendendo che l'intenzione si stabilizzasse.
+ Finalmente osai invocare il mio rituale, un rituale sacrificale inventato,
+ basato su di un principio indimostrato da tutta la magia conosciuta.
+ E io vissi, e vivo ancora.
+\begin_inset Quotes frd
+\end_inset
+
+ Il Professore di Difesa parlò con quieto trionfo, come se l'atto in sé
+ fosse così grande che nessuna parola potesse rendergli giustizia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Uso ancora la parola `horcrux’, ma solo per sentimentalismo.
+ È una cosa interamente nuova, la più grande di tutte le mie creazioni.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+In qualità di una delle mie domande a cui ha detto avrebbe dato risposta,
+ le chiedo ora come lanciare quell'incantesimo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Rifiutato.
+\begin_inset Quotes frd
+\end_inset
+
+ Il Professore di Difesa si rigirò verso la propria pozione, lasciandovi
+ cadere una piuma bianca punteggiata di grigio e una campanula.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Avevo pensato di insegnarglielo forse quando fosse stato più grande, poiché
+ nessun Tom Riddle sarebbe stato altrimenti soddisfatto; ma ho cambiato
+ idea.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
