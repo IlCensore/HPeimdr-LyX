@@ -98,7 +98,7 @@
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 \usepackage{shapepar} %paragrafi con una certa forma
 \usepackage{url}%url lunga
-\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+%\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
 
 \makeatletter
 \renewcommand\part{%
@@ -939,27 +939,14 @@ status open
 
 
 \backslash
-cleardoublepage  % 
-\backslash
-phantomsection if hyperref is used
+cleardoublepage
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-addcontentsline{toc}{part}{Arco narrativo 
-\backslash
-textsc{i}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-part*{Arco narrativo 
-\backslash
-textsc{i}}
+part{Harry James Potter-Evans-Verres e i Metodi della razionalità}
 \end_layout
 
 \end_inset
@@ -1158,27 +1145,14 @@ status open
 
 
 \backslash
-cleardoublepage  % 
-\backslash
-phantomsection if hyperref is used
+cleardoublepage
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-addcontentsline{toc}{part}{Arco narrativo 
-\backslash
-textsc{ii}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-part*{Arco narrativo 
-\backslash
-textsc{ii}}
+part{Harry James Potter-Evans-Verres e la Legione del Chaos}
 \end_layout
 
 \end_inset
@@ -1315,27 +1289,14 @@ status open
 
 
 \backslash
-cleardoublepage  % 
-\backslash
-phantomsection if hyperref is used
+cleardoublepage
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-addcontentsline{toc}{part}{Arco narrativo 
-\backslash
-textsc{iii}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-part*{Arco narrativo 
-\backslash
-textsc{iii}}
+part{Harry James Potter-Evans-Verres e le Ombre della Morte}
 \end_layout
 
 \end_inset
@@ -1546,27 +1507,14 @@ status open
 
 
 \backslash
-cleardoublepage  % 
-\backslash
-phantomsection if hyperref is used
+cleardoublepage
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-addcontentsline{toc}{part}{Arco narrativo 
-\backslash
-textsc{iv}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-part*{Arco narrativo 
-\backslash
-textsc{iv}}
+part{Hermione Jean Granger e il Richiamo della Fenice}
 \end_layout
 
 \end_inset
@@ -1725,6 +1673,26 @@ filename "085.lyx"
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+part{Harry James Potter-Evans-Verres e il Nemico finale}
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "086.lyx"
@@ -1735,42 +1703,6 @@ filename "086.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "087.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cleardoublepage  % 
-\backslash
-phantomsection if hyperref is used
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{part}{Arco narrativo 
-\backslash
-textsc{v}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-part*{Arco narrativo 
-\backslash
-textsc{v}}
-\end_layout
 
 \end_inset
 
@@ -1862,6 +1794,26 @@ filename "099.lyx"
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+part{Harry James Potter-Evans-Verres e la Pietra filosofale}
+\end_layout
+
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "100.lyx"
@@ -1926,13 +1878,6 @@ filename "106.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "107.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "108.lyx"
 
 \end_inset
 
