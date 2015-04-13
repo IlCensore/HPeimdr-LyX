@@ -1,0 +1,318 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{111}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Lato
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Fallimento, parte 
+\noun on
+ii
+\noun default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:112Fallimento-p2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Proprio mentre Harry stava sollevando la pistola, aveva 
+\emph on
+saputo
+\emph default
+ che stava facendo un errore, il suo prosencefalo lo capì e cercò di fermare
+ la sua mano, ma in qualche modo quella nauseante certezza non si propagò
+ abbastanza velocemente da impedire al suo dito di tirare il grilletto
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+L'eco dei colpi si spense all'interno del cimitero.
+\end_layout
+
+\begin_layout Standard
+Una frazione di secondo prima che Harry avesse premuto il grilletto, Voldemort
+ aveva mosso velocemente la bacchetta verso il basso, e un ampio muro di
+ terra era sorto fra di loro dal terreno del cimitero, intercettando tutti
+ e tre i proiettili.
+\end_layout
+
+\begin_layout Standard
+Un istante dopo di ciò, il dolore era divampato nella cicatrice di Harry,
+ una sensazione strisciante si era avvicinata alla sua pelle; e poi la borsa
+ di Harry, i vestiti, la pistola, tutto tranne la sua bacchetta erano scomparsi,
+ lasciandolo nudo a eccezione della bacchetta ancora nella mano destra,
+ e gli occhiali che aveva incantato perché rimanessero incollati al suo
+ naso.
+ L'anello d'acciaio al suo mignolo sinistro era stato sfilato tanto bruscamente
+ da graffiare la pelle, portando con sé il gioiello Trasfigurato.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quello
+\begin_inset Quotes frd
+\end_inset
+
+, disse la voce di Voldemort da dietro il muro di terra, 
+\begin_inset Quotes fld
+\end_inset
+
+era 
+\emph on
+assolutamente
+\emph default
+ prevedibile.
+ Pensa davvero che lo griderei ad alta voce in modo che lei lo senta, se
+ la mia immortalità potesse essere interrotta? Davvero, stupido bambino?
+ Abbassi la bacchetta, non la alzi mai più, o morrà sul posto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+perché LV non toglie a Harry la bacchetta?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry deglutì, e puntò la bacchetta verso il basso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sarebbe stato deluso di me
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, la sua voce ora insolitamente acuta, 
+\begin_inset Quotes fld
+\end_inset
+
+se avessi perso un'occasione del genere, voglio dire.
+\begin_inset Quotes frd
+\end_inset
+
+ Non c'era tempo per pensare, e la bocca di Harry stava operando col pilota
+ automatico per cercare di placare un signore malvagio che avrebbe potuto
+ avere sentimenti paterni per te e il cui assassinio avevi appena fallito.
+\end_layout
+
+\begin_layout Standard
+Voldemort uscì da dietro il muro di terra, mostrando quel sorriso orribile
+ che sembrava contenere troppi denti.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Avevo promesso di non sollevare la mia mano o la mia bacchetta contro di
+ lei, bambino, se lei non avesse sollevato la sua mano o la sua bacchetta
+ contro di me.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho usato dei proiettili
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, la sua voce ancora acuta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non sono un pugno o un incantesimo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+La mia maledizione la pensa diversamente.
+ Questo è il pezzo del rompicapo che lei non ha compreso.
+ Pensava che avrei lasciato la pace tra noi alla mera fortuna? Prima di
+ creare lei, ho invocato una maledizione su di me e su tutti gli altri Tom
+ Riddle che sarebbero discesi da me.
+ Una maledizione per imporre che nessuno di noi avrebbe minacciato l'immortalità
+ degli altri, fintanto che l'altro non facesse alcun tentativo contro la
+ nostra.
+ Tipico di tale ridicolo fiasco, la maledizione sembra aver finito per vincolare
+ me, ma non aver avuto alcuna presa sull'infante dall'io così perduto.
+\begin_inset Quotes frd
+\end_inset
+
+ Una bassa e letale risatina.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ma hai tentato di mettere fine a mia vita proprio adessso, sstupido bambino.
+ Ora maledizione è invalida, e possso ucciderti non appena lo dessidero.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
