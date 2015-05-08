@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -76,13 +76,13 @@ initials
 \font_roman Arno Pro
 \font_sans Electra LT Std
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -93,15 +93,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -662,8 +671,9 @@ veramente
 \emph on
 molto
 \emph default
- riconoscente, e tu non avresti dovuto preoccuparti che Severus entri furtivamen
-te nella tua stanza del dormitorio di notte con delle pozioni interessanti».
+ riconoscente, e tu non avresti dovuto preoccuparti che Severus entrasse
+ furtivamente nella tua stanza del dormitorio di notte con delle pozioni
+ interessanti».
 \end_layout
 
 \begin_layout Standard
@@ -1158,7 +1168,7 @@ dovete
 \emph default
  imparare le arti marziali a un livello tale da impressionare anche un Babbano.
  Passo ora a dare prova di una certa tecnica di vitale importanza, che ho
- imparato in un 
+ appreso in un 
 \emph on
 dojo
 \emph default
@@ -1987,7 +1997,7 @@ Ci furono altre risate, sebbene il professor Quirrell non sorridesse.
 \end_layout
 
 \begin_layout Standard
-Harry si sentì come se stesse combattendo contro un anaconda, cercando di
+Harry si sentì come se stesse combattendo contro un'anaconda, cercando di
  obbligare la conversazione all'interno di uno stretto percorso che avrebbe
  fatto comprendere alle persone che non era un Signore Oscuro, dopo tutto\SpecialChar \ldots{}
 
@@ -2787,13 +2797,13 @@ concepibile
 Non ci fu una singola origine, nessuno iniziò per primo, gli applausi cominciaro
 no tutti contemporaneamente come il rombo fragoroso di un tuono.
 \begin_inset Branch Figure
-status open
+status collapsed
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
