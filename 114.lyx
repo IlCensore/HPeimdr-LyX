@@ -1,0 +1,1173 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{113}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Lato
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Taci e fa' l'impossibile
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:114Taci-e-fai-limpossibile"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La luna gibbosa che si stagliava alta nel cielo sereno, le stelle e la scia
+ della Via Lattea visibili in tutta la loro maestà dentro l'oscurità, tutte
+ loro illuminavano il cimitero per rendere testimonianza dalle loro distanze
+ inimmaginabili.
+\end_layout
+
+\begin_layout Standard
+Nel momento in cui Harry aveva capito che non c'era modo di salvare tutti,
+ le sue voci mentali erano cadute, divenute una sola, un singolo scopo che
+ prese possesso di ogni frazione della sua mente.
+\end_layout
+
+\begin_layout Standard
+Cinquanta secondi.
+\end_layout
+
+\begin_layout Standard
+Quaranta secondi.
+\end_layout
+
+\begin_layout Standard
+Gli occhi di Harry tracciarono lentamente un percorso per aria, finché il
+ suo sguardo non atterrò sul primo Mangiamorte, il più vicino a lui.
+\end_layout
+
+\begin_layout Standard
+Trenta secondi?
+\end_layout
+
+\begin_layout Standard
+Venti secondi?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Tempo è quassi finito
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ sibilò Voldemort.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Conossco ssegreti che tu vorressti conosscere
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibiliò Harry.
+ Non guardava direttamente il Signore Oscuro mentre parlava.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ma conosscenza più importante per te, pensso, ssarebbe mie idee ssu come
+ mondo potrebbe esssere disstrutto.
+ Eppure, dirti quessti penssieri potrebbe portare a disstruzione di mondo.
+ Non conossco profezia, ma sse c'è profezia, quessto rende molto più probabile
+ di normale che qualssiassi azione io compia posssa avere quell'effetto.
+ O dirti quessti penssieri potrebbe prevenire disstruzione di mondo, poiché
+ tu ssembri davvero motivato a evitarla.
+ Non mi è permessso prendere tale decissione da ssolo.
+ Avrei bissogno di ssvegliare e conssultare amico ragazza-bambino.
+ Voto lo richiede.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vi fu una lunga pausa.
+ Il Signore Oscuro, che fluttuava al di sopra e alle spalle della curva
+ dei Mangiamorte con le bacchette puntate, iniziò a ridere come Salazar
+ Serpeverde aveva pensato che un serpente dovesse ridere, freddo divertimento
+ sotto forma di un sibilo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ssai come disstruggere mondo, allora?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non possso cercare deliberatamente di immaginare metodo.
+ Potressti avere modo per far rubare miei penssieri a tuo sservitore.
+ Voto proibissche.
+ Ma ssosspetto che potrei trovare modo, sse ragazza-bambino dicesse di provare.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gli occhi di Harry vagarono lentamente verso un altro Mangiamorte, e poi
+ un altro.
+\end_layout
+
+\begin_layout Standard
+Altra risata serpentesca.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Furbo.
+ Ti faccio miei complimenti per aver penssato a quessta tattica.
+ Ma no.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sso che è fasstidioso, ma con mondo e tua eternità in gioco, non dovressti
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Risschio maggiore per mondo a introdurre tali complicazioni, ritardando
+ tua fine.
+ Sstudierò io sstessso sscienze babbane, pensserò a tutto ciò che potressti
+ immaginare.
+ Ora racconta ssegreti che puoi riferirmi, o quessto ha fine.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lentamente lo sguardo di Harry vagò attraverso il cimitero in un preciso
+ arco, ignorando il Signore Oscuro eccetto come una nerezza fluttuante nella
+ sua visione periferica.
+ La sua bocca continuò a parlare con solo metà della sua attenzione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ho penssato a idea che potressti non aver conssiderato, maesstro.
+ Tuo tentativo di uccidermi potrebbe fallire in certo modo sspecifico malgrato
+ tutte tue precauzioni, forsse portarmi a disstruggere mondo in sseguito.
+ Normalmente non lo conssidererei probabile, ma con profezia ssotto mano,
+ potrebbe esssere cossì.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Voldemort si fermò, per aria.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Come?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non ssono obbligato a dirtelo.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una fredda rabbia iniziò a fremere attraverso quella risposta serpentesca.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ssebbene io capissca bene tua dissperazione e tentativo di asstuzia, questo
+ inizia a infasstidirmi.
+ Non mi tratterrò da ucciderti, poiché quello è risschio ancor più grande.
+ Non dirmi tuoi penssieri è risschio di disstruggere mondo.
+ Parla!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+No.
+ Voto non mi obbliga a compiere nesssuna azione.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il Signore Oscuro fissava giù in basso Harry Potter, che alzò lo sguardo
+ su quel volto arrabbiato solo un istante prima che i suoi occhi tornassero
+ al successivo Mangiamorte.
+ Alcuni di loro stavano leggermente cambiando postura, ma restavano fermi,
+ e non dicevano alcuna parola mentre tenevano puntate le bacchette.
+ Le maschere di teschio d'argento non potevano essere lette.
+\end_layout
+
+\begin_layout Standard
+Poi il Signore Oscuro iniziò a ridacchiare nuovamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sstai penssando di ssopravvivere alla tua morte, forsse? No, bambino, miei
+ horcrux non ssono collegati anche a te.
+ Lo ssaprei sse lo fosssero.
+ O c'è altra ragione per cui penssi di poter ssopravvivere ai miei modi
+ di garantire tua morte?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry non si permise di essere distratto.
+ I ripetuti fallimenti non erano importanti, portavano semplicemente alla
+ successiva azione nella catena -- ma 
+\emph on
+aveva ancora bisogno di un'altra azione
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ora rivela ssegreto
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibiliò il Signore Oscuro, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+o io
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes fld
+\end_inset
+
+Mangia-vita ti cercheranno ssempre, ti odieranno ssempre, ti insseguiranno
+ ovunque tu vada, se ciò che ho appena fatto ha avuto ssuccessso, ho fatto
+ in modo che esssi siano indirizzati contro di te! Incantessimo Guardiano
+ ssegreto ssarà ssempre al di là di tua portata per molto tempo a venire,
+ forsse per ssempre! Migliore difessa contro mangia-vita morirebbe con me!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Quessto inizia a esssere trisste...
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ si affievolì la voce del Signore Oscuro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ah.
+ Capissco.
+ Mangia-vita risspondono ad asspettative.
+ Tu mi dici che mi daranno caccia, io mi asspetto che mi diano caccia, esssi
+ mi danno caccia.
+ Quessto è raro, ma non ssenza precedenti.
+ Ssegreto preziosso, ssì.
+ Possso vedere molti ussi.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ Un sorriso crudele.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ti permetterò di sscegliere una perssona da ssalvare.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Me sstessso.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ti direi di morire con dignità, ma conosscendo me sstessso, sso che ssarebbe
+ inutile.
+ Hai appena ssprecato mio gentile dono per infasstidirmi, e io lo ritiro.
+ Qualche altro ssegreto?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ssì, e anche molto interesssanti.
+ Alcuni li sscoprirai difficilmente da ssolo, non per molto tempo e forsse
+ mai.
+ Sse dico che ho rivelato tutto ciò che possso ssenza risschiare mondo,
+ non tormenterai nesssuno dei miei amici o famigliari? Tutto quessto disscorso
+ è nato perché non mi hai lassciato modo di ssalvare tutti.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il Signore Oscuro rimase fermo in aria per un lungo momento.
+\end_layout
+
+\begin_layout Standard
+E gli occhi di Harry continuarono a muoversi lentamente lungo tutto il cimitero,
+ mentre la sua mano rimase stretta sulla sua bacchetta.
+\end_layout
+
+\begin_layout Standard
+Nel momento in cui Harry aveva capito che non c'era modo di salvare tutti
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Non poteva pronunciare alcun incantesimo.
+ Ma la Trasfigurazione era senza parole.
+\end_layout
+
+\begin_layout Standard
+Non c'era materiale a contatto con l'estremità della sua bacchetta tranne
+ l'aria, che non poteva essere trasfigurata.
+ Ma Voldemort non conosceva la Trasfigurazione parziale, che Harry poteva
+ utilizzare per trasfigurare un po' di materiale dalla sua stessa bacchetta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sstai temporeggiando
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse il Signore Oscuro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ssolo per rimandare morte? O con qualche altro sscopo?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry non disse nulla, l'altra sua opera rallentò mentre la sua mente cercava
+ una continuazione della conversazione che avrebbe funzionato anche contro
+ la volontà del Signore Oscuro
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Parla e dimmi tuo sscopo, o la finiamo qui e tuoi amici ssoffrono per tutta
+ loro vita!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Abbasssa arma babbana e non puntare bacchetta in mia direzione
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò Harry, mettendo quanto più freddo pericolo che poté nella sua voce
+ da serpente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non dare ordini a sservitori.
+ Possseggo davvero capacità che non conossci.
+ Possso ussare una di queste capacità per caussare enorme essplossione quassi
+ isstantaneamente, ssenza pronunciare incantamento.
+ Ucciderebbe tuo nuovo corpo, tutti sservitori, Pietra sscaraventata chi
+ sa dove.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al suo livello attuale di pratica Harry poteva Trasfigurare un millimetro
+ cubo alla velocità con cui poteva applicare la sua volontà e la sua magia.
+\end_layout
+
+\begin_layout Standard
+Un millimetro cubo di antimateria.
+\end_layout
+
+\begin_layout Standard
+Non era una minaccia di fine-del-mondo.
+\end_layout
+
+\begin_layout Standard
+Voldemort sarebbe potuto essere stato scolpito nella pietra.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sstai bluffando, in qualche modo.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non ssto bluffando.
+ Ssto parlando in lingua di sserpenti, ti dico, possso farlo quassi isstantaneam
+ente, prima che qualssiasi incantessimo posssa esssere lanciato contro di
+ me, pensso.
+ Conossci ancora molta poca sscienza.
+ Potere che comanderei è più forte di processso che alimenta sstelle.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Voto ti fermerà
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, sibilò Voldemort.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non puoi risschiare mondo.
+ Non prendere risschi, nesssuno, con idee asstute!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non risschierei mondo.
+ Ho sstimato dimenssione essplosione, neppure lontanamente cossì forte.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Tu 
+\noun on
+non
+\noun default
+ lo ssai, ssciocco! Non puoi esssere 
+\noun on
+ssicuro
+\noun default
+!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ Il sibilo di Voldemort stava diventando più acuto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ssono ragionevolmente ssicuro.
+ Voto non mi fermerà.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+C'era una furia crescente nell'espressione di Voldemort, e tuttavia il suo
+ sibilo comunicava un pizzico di paura.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Causserò dolore oltre ogni immaginazione a tutto ciò che ami
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Sstai zitto.
+ Ignoro tutte queste minacce, ora, come teoria di giochi dice che dovrei
+ fare.
+ Ssola ragione per cui mi minacci è che ti asspetti che io rissponda.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ Anche quello Harry l'aveva veramente compreso solo all'ultimo momento.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Offrimi qualcossa che voglio, maesstro.
+ Per tuo nuovo corpo, per posssesso continuato di Pietra, per vite di tuoi
+ sservitori.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La bocca di Harry funzionava automaticamente, la sua vera attenzione era
+ altrove.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Al chiaro di luna risplende un piccolo frammento d'argento, una frazione
+ di una linea...
+\emph default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da un punto minuscolo all'estremità della bacchetta di Harry, un millimetro
+ cubo di ancoraggio, allungato in una linea sottile di seta di ragno Trasfigurat
+a.
+ Si sarebbe rotta subito, se tirata; sarebbe rimasta inosservata, se per
+ caso qualcuno ne avesse notato il luccichio.
+ Meno di un decimo di millimetro in sezione trasversale, la forma minuscola
+ costituita dalla linea distesa della seta di ragno era qualcosa che Harry
+ poteva trasfigurare rapidamente, dieci centimetri di lunghezza da un millimetro
+ cubo di volume totale; e Harry poteva Trasfigurare un millimetro cubo in
+ una frazione di secondo.
+ Stava forzando la Trasfigurazione verso l'esterno, estendendola attraverso
+ l'aria più velocemente possibile senza rischiare la trasformazione.
+\end_layout
+
+\begin_layout Standard
+La linea tracciata dalla seta di ragno passava intorno al cappuccio di un
+ Mangiamorte al livello del collo, e tornava allo schema dei fili.
+\end_layout
+
+\begin_layout Standard
+Il volto di Voldemort era ormai impassibile.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Non devi usscire da qui vivo.
+ Anche perssone ragionevoli conssiderate buone ssarebbero d'accordo, quessto
+ te lo dico in parlata di sserpenti.
+ Ma tutti tuoi amici li tratterò gentilmente e li proteggerò ssotto mio
+ regno, sse accetti di morire qui come perssona buona dovrebbe fare.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'ultimo Mangiamorte fu avvolto.
+ Lo schema della seta di ragno era completo.
+ La rete era stata disegnata con passanti attorno a tutti i colli dei Mangiamort
+e.
+ Le estremità di quei passanti erano stati ancorati ad un cerchio centrale;
+ e a sua volta quel cerchio centrale aveva tre fili che si estendevano attravers
+o il suo centro.
+ L'intero disegno toccava ancora la linea di ancoraggio che si estendeva
+ dalla bacchetta di Harry.
+\end_layout
+
+\begin_layout Standard
+Nel corso dei successivi secondi, quei fili quasi invisibili di luce lunare
+ riflessa divennero neri.
+\end_layout
+
+\begin_layout Standard
+Filamenti più sottili, più forti, e più affilati del filo d'acciaio; nanotubi
+ di carbonio intrecciati, ogni singolo tubo interamente una singola molecola.
+\end_layout
+
+\begin_layout Standard
+Harry sibiliò, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Voglio che tu prometta anche di trattare gentilmente nazioni ssotto tuo
+ regno.
+ Non accetterò meno di quessto.
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Voldemort fluttuava ancora per aria, la faccia da serpente che mostrava
+ una furia nascente.
+\end_layout
+
+\begin_layout Standard
+Gli ultimi due fili si allungarono dal disegno scuro, intrecci neri già
+ sotto forma di nanotubi.
+ Si muovevano leggermente attraverso l'aria verso l'Oscuro Signore stesso,
+ verso la manica appena sopra la mano sinistra di Voldemort che teneva la
+ pistola, verso la manica sopra la mano destra che teneva la bacchetta di
+ tasso, fili posti inizialmente in alto per dare loro il tempo di scivolare
+ lentamente verso il basso attraverso l'aria.
+ I fili facevano un giro, ripiegavano su sé stessi, intrecciavano nodi scorsoi.
+ Iniziarono a stringersi, avvicinandosi alla manica, mentre Harry li Trasfigurav
+a più corti
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Harry sentì nei recessi della propria mente il solletico del potere di Voldemort
+ che iniziava a toccare il suo; nello stesso momento, gli occhi del Signore
+ Oscuro si spalancarono, la sua bocca si aprì.
+\end_layout
+
+\begin_layout Standard
+E Harry Trasfigurò i fili neri che si estendevano attraverso il centro del
+ disegno fino a un quarto della loro dimensione precedente, rimpicciolendo
+ il cerchio, strattonando duramente tutto ciò che vi era attaccato, stringendo
+ i cappi.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(Vesti nere, che cadono.)
+\emph default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry non guardò là, non vide le maschere che cadevano, il sangue, nei recessi
+ della sua mente sentì le esplosioni della magia come l'aveva sentita quando
+ Hermione era morta ma le ignorò, gli occhi di Harry videro solo le mani
+ e la bacchetta e la pistola del Signore Oscuro che cadevano verso il basso,
+ e poi la bacchetta di Harry stava alzandosi, puntando
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Harry gridò, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+\noun on
+Stuporfy!
+\emph default
+\noun default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La folgore rossa del colore della Fattura Stordente s'involò verso Voldemort,
+ sfolgorando attraverso il cimitero quasi più velocemente di quanto l'occhio
+ potesse vedere.
+\end_layout
+
+\begin_layout Standard
+Senza alcuna esitazione, nonostante le sue ferite, il Signore Oscuro scartò
+ per aria in basso e a destra.
+\end_layout
+
+\begin_layout Standard
+E la folgore rossa dello Stordente Scartante segreto del professor Flitwick
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+da cap.
+ 86
+\end_layout
+
+\end_inset
+
+ girò a mezz'aria e andò a urtare contro Voldemort.
+\end_layout
+
+\begin_layout Standard
+Il dolore che balenò nella cicatrice di Harry fu bruciante, lo fece gridare,
+ e una nebbia rossa apparve in tutto il suo campo visivo, e malgrado tutto
+ Harry fece cadere la bacchetta per il dolore e la pura e semplice fatica.
+\end_layout
+
+\begin_layout Standard
+Quando Harry lasciò andare la bacchetta, il dolore cominciò a schiarirsi
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\end_body
+\end_document
