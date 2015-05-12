@@ -1,0 +1,264 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{113}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Taci e fa' l'impossibile, parte 
+\noun on
+ii
+\noun default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:115Taci-e-fai-limpossibile-p2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Qualcosa di simile a uno stato di fuga era discesa sulla mente di Harry.
+ Lo stato assoluto gli era in parte svanito da dosso, in parte rimasto con
+ lui.
+ Elementi della sua mente erano intorpiditi, forse intorpiditi deliberatamente
+ da qualche parte che era abbastanza intelligente da predire che cosa sarebbe
+ accaduto altrimenti.
+ Quello che aveva appena fatto
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Il pensiero fu spento, facendo spazio per la consapevolezza di altre cose.
+\end_layout
+
+\begin_layout Standard
+Harry era in piedi in mezzo a un cimitero disordinato, lapidi sparse senza
+ ordine.
+\end_layout
+
+\begin_layout Standard
+Alla luce della luna e delle stelle, si poteva vedere che le vesti nere
+ erano disseminate sul terreno, circondate da consistenze che non corrispondevan
+o alla terra del cimitero circostante, umidità tinta di rosso al chiaro
+ di luna.
+ Alcune teste si erano allontanate dai cappucci delle vesti che le avevano
+ circondate, rivelando capelli che erano lunghi o corti, scuri o chiari,
+ che era tutto quello che poteva essere visto alla luce lunare.
+ Le maschere d'argento erano rimaste al loro posto, facendo sì che tutti
+ i capelli spuntassero da teschi invece che da volti umani
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Il pensiero fu spento, facendo spazio per la consapevolezza di altre cose.
+\end_layout
+
+\begin_layout Standard
+Una ragazza in una uniforme di Hogwarts bordata di rosso dormiva su di un
+ altare.
+ Vicino all'altare, le cose di Harry giacevano ammonticchiate.
+\end_layout
+
+\begin_layout Standard
+Sul terreno era disteso un pallido uomo troppo alto dal volto inumano, sangue
+ che si riversava dai moncherini dei suoi polsi.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non appena il Signore Oscuro Voldemort si risveglierà, distruggerà tutto
+ ciò che ami.
+ Silente non è più qui a fermarlo.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non può essere imprigionato, poiché egli può abbandonare il suo corpo in
+ qualunque momento.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non può essere ucciso definitivamente, non senza distruggere più di cento
+ horcrux, uno dei quali è la placca della Pioneer.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Materiali: una bacchetta, questa volta ti è permesso puntarla e parlare.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Hai cinque minuti.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Risolvi.
+\end_layout
+
+\begin_layout Standard
+Harry barcollò verso l'altare, vi si inginocchiò accanto, e raccolse la
+ sua borsa.
+\end_layout
+
+\begin_layout Standard
+Camminò verso il luogo in cui giaceva Voldemort.
+\end_layout
+
+\begin_layout Standard
+La sensazione di preoccupazione era diminuita, dopo che Voldemort era stato
+ reso privo di sensi dalla fattura.
+ Ora, mentre Harry si avvicinava, sorse fino a un'altezza terrificante,
+ facendo divampare anche il dolore nella sua cicatrice.
+ 
+\end_layout
+
+\end_body
+\end_document
