@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -65,13 +65,13 @@ initials
 \font_roman Garamond Premier Pro
 \font_sans Bulmer BT
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,15 +82,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -129,7 +138,7 @@ Stanford Prison Experiment, cognizione vincolata, parte
 viii
 \noun default
 
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -957,25 +966,22 @@ Prigione
 
 
 \emph on
-la prigione con i mangiatori di vita, eravamo qui per ssalvare una donna,
- lei e io.
- Lei ha cercato di uccidere l'uomo vigilante, io ho bloccato il ssuo incantessim
-o mortale, c'è sstata una rissonanza tra di noi… lei è ssvenuto, ho dovuto
- ssconfiggere l'uomo vigilante da me… il mio Incantessimo guardiano è sstato
- disspersso, i mangiatori di vita potevano dire ai vigilanti che la donna
- era sscappata.
- C'è qualcuno qui che può percepire il mio Incantessimo guardiano, probabilmente
- il presside… quindi ho dovuto dissperdere il mio Incantessimo guardiano,
- trovare un modo diversso di nascondere lei e la donna dai mangiatori di
- vita ssenza Incantessimo guardiano, imparare a proteggere me ssenza Incantessim
-o guardiano, sspaventare mangiatori di vita ssenza Incantessimo guardiano,
- poi trovare nuovo piano di fuga per lei e la donna, e infine, praticare
- un foro nel muro sspessso della prigione anche sse ssono ssolo sstudente
- del primo anno.
- Non c'è tempo per sspiegare, deve andare via ora.
- Sse non ci vedesssimo più, maesstro, allora ssono sstato felice di conoscerla
- per un po' di tempo, ssebbene lei ssia probabilmente malvagio.
- È bello avere la posssibilità di dire quessto: Arrivederci
+prigione con mangiatori di vita, eravamo qui per ssalvare donna, tu e io.
+ Tu hai cercato di uccidere uomo vigilante, io ho bloccato tuo incantessimo
+ mortale, c'è sstata rissonanza tra di noi… tu sei ssvenuto, ho dovuto ssconfigg
+ere uomo vigilante da solo… mio Incantessimo guardiano è sstato disspersso,
+ mangiatori di vita potevano dire a vigilanti che donna era sscappata.
+ C'è qualcuno qui che può percepire mio Incantessimo guardiano, probabilmente
+ Presside… quindi ho dovuto dissperdere mio Incantessimo guardiano, trovare
+ modo diversso di nascondere te e donna da mangiatori di vita ssenza Incantessim
+o guardiano, imparare a proteggere me ssenza Incantessimo guardiano, sspaventare
+ mangiatori di vita ssenza Incantessimo guardiano, poi trovare nuovo piano
+ di fuga per te e donna, e infine, praticare un foro nel muro sspessso di
+ prigione anche sse ssono ssolo sstudente di primo anno.
+ Non c'è tempo per sspiegare, devi andare via ora.
+ Sse non ci vedesssimo più, maesstro, allora ssono sstato felice di conoscerti
+ per un po' di tempo, ssebbene tu ssia probabilmente malvagio.
+ È bello avere posssibilità di dire quessto: Arrivederci
 \emph default
 
 \begin_inset Quotes frd
@@ -1001,7 +1007,7 @@ Sali
 Aveva deciso di conservare i ricordi.
  Da una parte, erano importanti.
  Dall'altra, egli e il Professore di Difesa avevano iniziato a pianificare
- questa cosa una settimana prima, e Harry non aveva intenzione di obliare
+ questa cosa una settimana prima, e Harry non aveva intenzione di Obliare
  per intero l'ultima settimana, 
 \emph on
 o
@@ -1060,7 +1066,7 @@ Piano di fuga è pericolosso
 
 
 \emph on
-Mia vita non è in pericolo, ssolo ssua e della donna.
+Mia vita non è in pericolo, ssolo tua e di donna.
  Cossì io ressto, mi conssegno
 \emph default
 
@@ -1115,9 +1121,9 @@ Bellatrix salì sul manico di scopa; Harry poté percepire (ma non vedere)
 
 
 \emph on
-Non mi fido più di lei
+Non mi fido più di 
 \emph default
-
+te
 \begin_inset Quotes frd
 \end_inset
 
@@ -1128,7 +1134,7 @@ Non mi fido più di lei
 
 
 \emph on
-Non da quando ha tentato di uccidere l'uomo protettore
+Non da quando hai tentato di uccidere uomo protettore
 \emph default
 
 \begin_inset Quotes frd
@@ -1144,7 +1150,7 @@ E il serpente sibilò,
 
 
 \emph on
-Non ho cercato di uccidere l'uomo protettore! Ssei sstupido, ragazzo? Uccidere
+Non ho cercato di uccidere uomo protettore! Ssei sstupido, ragazzo? Uccidere
  lui non avrebbe alcun ssenso, malvagio o no!
 \emph default
 
@@ -1169,10 +1175,10 @@ Il sibilo del serpente era ora più furioso di quanto Harry avesse mai udito
 
 \emph on
 Ucciderlo? Avesssi cercato di ucciderlo ssarebbe sstato morto entro pochi
- ssecondi, sstupido ragazzo, non era alla mia altezza! Ho cercato di ssottomette
-rlo, di dominarlo, di obbligarlo a lasciar cadere gli sscudi attorno alla
- ssua mente, avevo bissogno di leggerla, di ssapere chi attendeva la ssua
- risspossta, di imparare i dettagli per l'incantessimo di memoria
+ ssecondi, sstupido ragazzo, non era a mia altezza! Ho cercato di ssottometterlo
+, di dominarlo, di obbligarlo a lasciar cadere sscudi attorno a ssua mente,
+ avevo bissogno di leggerla, di ssapere chi attendeva ssua risspossta, di
+ imparare dettagli per incantessimo di memoria
 \emph default
 
 \begin_inset space ~
@@ -1191,7 +1197,7 @@ rlo, di dominarlo, di obbligarlo a lasciar cadere gli sscudi attorno alla
 
 
 \emph on
-Lei ha lanciato incantessimo mortale!
+Hai lanciato incantessimo mortale!
 \emph default
 
 \begin_inset Quotes frd
@@ -1221,7 +1227,7 @@ Ssapevo avrebbe schivato!
 
 
 \emph on
-La ssua vita valeva cossì poco? E sse non avessse sschivato?
+Ssua vita valeva cossì poco? E sse non avessse sschivato?
 \emph default
 
 \begin_inset Quotes frd
@@ -1236,7 +1242,7 @@ La ssua vita valeva cossì poco? E sse non avessse sschivato?
 
 
 \emph on
-L'avrei sspinto via con la mia sstesssa magia, sstupido ragazzo!
+L'avrei sspinto via con mia sstesssa magia, sstupido ragazzo!
 \emph default
 
 \begin_inset Quotes frd
@@ -1270,7 +1276,7 @@ Assino ritardato d'un cosspiratore
 
 \emph on
 abile imbecille, asstuto idiota, folle di un Sserpeverde non addesstrato,
- la tua ssfiducia fuori luogo ha rovinato
+ tua ssfiducia fuori luogo ha rovinato
 \begin_inset space ~
 \end_inset
 
@@ -1289,14 +1295,14 @@ abile imbecille, asstuto idiota, folle di un Sserpeverde non addesstrato,
 
 
 \emph on
-Quessto non è il momento giussto per discutere
+Quessto non è momento giussto per discutere
 \emph default
 
 \begin_inset Quotes frd
 \end_inset
 
 , osservò placidamente Harry.
- L'onda di sollievo che cercava di indondarlo era annullata dall'aumento
+ L'onda di sollievo che cercava di inondarlo era annullata dall'aumento
  di tensione.
  
 \begin_inset Quotes fld
@@ -1304,9 +1310,9 @@ Quessto non è il momento giussto per discutere
 
 
 \emph on
-Poiché non possso arrabbiarmi con lei in maniera appropriata, ssenza aprire
- me sstessso ai mangiatori di vita.
- Bissogna ssbrigarssi, qualcuno potrebbe aver udito il rumore
+Poiché non possso arrabbiarmi con te in maniera appropriata, ssenza aprire
+ me sstessso a mangiatori di vita.
+ Bissogna ssbrigarssi, qualcuno potrebbe aver udito rumore
 \begin_inset space ~
 \end_inset
 
@@ -1325,7 +1331,7 @@ Poiché non possso arrabbiarmi con lei in maniera appropriata, ssenza aprire
 
 
 \emph on
-Sspiega il piano di fuga
+Sspiega piano di fuga
 \emph default
 
 \begin_inset Quotes frd
@@ -1362,12 +1368,12 @@ Ci furono alcuni brevi sibili, l'equivalente serpentesco di un'esplosione
 
 
 \emph on
-Di' alla donna di guardare altrove, lancia magia di ssilenzio, metti Incantessim
-o guardiano fuori dalla porta.
- Mi trassformerò, aggiungerò alcuni rapidi miglioramenti alla tua invenzione,
- darò alla donna una pozione di emergenza in modo che posssa proteggerci,
- mi trassformerò di nuovo prima che tu disssolva Incantessimo.
- Il piano ssarà più ssicuro, allora
+Di' a donna di guardare altrove, lancia magia di ssilenzio, metti Incantessimo
+ guardiano fuori da porta.
+ Mi trassformerò, aggiungerò alcuni rapidi miglioramenti a tua invenzione,
+ darò a donna pozione di emergenza in modo che posssa proteggerci, mi trassforme
+rò di nuovo prima che tu disssolva Incantessimo.
+ Piano ssarà più ssicuro, allora
 \emph default
 
 \begin_inset Quotes frd
@@ -1409,13 +1415,13 @@ che guaritore per donna ci asspetta davvero?
 
 
 \emph on
-Ussa il tuo buon ssensso, ragazzo! Ssupponi che io ssia malvagio.
- Mettere fino all'usso di te qui non è ovviamente quello che avevo pianificato.
+Ussa tuo buon ssensso, ragazzo! Ssupponi che io ssia malvagio.
+ Mettere fino a usso di te qui non è ovviamente quello che avevo pianificato.
  Misssione è obiettivo di opportunità, inventata dopo che ho vissto tuo
  Incantessimo guardiano, intera faccenda doveva passsare inossservata, nasscosst
 a quando lasciato posto per mangiare.
- Ovviamente vedrai perssona che pretende di esssere guaritore all'arrivo!
- Ssi torna al possto per mangiare dopo, piano originale continua indissturbato!
+ Ovviamente vedrai perssona che pretende di esssere guaritore ad arrivo!
+ Ssi torna a possto per mangiare dopo, piano originale continua indissturbato!
 \emph default
 
 \begin_inset Quotes frd
@@ -1454,7 +1460,7 @@ Quindi
 
 
 \emph on
-qual è il ssuo piano per me, precissamente?
+qual è tuo piano per me, precissamente?
 \emph default
 
 \begin_inset Quotes frd
@@ -1481,8 +1487,8 @@ Hai detto niente tempo
 
 
 \emph on
-ma il piano è che tu governi paesse, ovviamente, anche tuo giovane nobile
- amico ha capito ormai, chiedi a lui al ritorno sse vuoi.
+ma piano è che tu governi paesse, ovviamente, anche tuo giovane nobile amico
+ ha capito ormai, chiedi a lui a ritorno sse vuoi.
  Non dirò di più ora, è tempo di volare, non di parlare
 \emph default
 
