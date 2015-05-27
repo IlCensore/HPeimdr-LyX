@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -60,13 +60,13 @@ initials
 \font_roman Garamond Premier Pro
 \font_sans Fredericka the Great
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -77,15 +77,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -520,13 +529,13 @@ status open
 Quando Blaise girò l'angolo lungo la strada per l'ufficio, vide che il professor
  Quirrell era già appoggiato al muro.
 \begin_inset Branch Figure
-status open
+status collapsed
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -553,7 +562,7 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2004,7 +2013,7 @@ Thinking Physics
 \emph on
 maledetto idiota
 \emph default
- che si rifiutava di togliergli i suoi libri da davanti agli occhi riusciva
+ che si rifiutava di lasciare i suoi libri senza poterli sorvegliare riusciva
  a 
 \emph on
 chiudere la bocca
@@ -2105,14 +2114,14 @@ Potter!
 \end_layout
 
 \begin_layout Standard
-Il Professore di Difesa era più folle di Silente, nessun futuro salvatore
- del mondo sarebbe mai potuto essere così 
+Il Professore di Difesa era più folle di Silente: nessun futuro salvatore
+ del mondo avrebbe mai potuto essere così 
 \emph on
 infantile
 \emph default
  e 
 \emph on
-indecoroso
+indecoroso,
 \emph default
  a qualsiasi età.
 \end_layout
@@ -2149,8 +2158,8 @@ spiegaaaarlo
 \begin_layout Standard
 Le dita di Draco stavano diventando bianche lì dove stringeva il libro.
  Essere picchiato e coperto di sputi non poteva affatto richiedere tutto
- questo autocontrollo, e se non si fosse vendicato di Harry presto, avrebbe
- fatto qualcosa di incriminante
+ questo autocontrollo, e se non si fosse vendicato di Harry al più presto,
+ avrebbe fatto qualcosa di incriminante
 \begin_inset space ~
 \end_inset
 
@@ -2161,7 +2170,7 @@ Le dita di Draco stavano diventando bianche lì dove stringeva il libro.
 \begin_inset Quotes fld
 \end_inset
 
-Poi 
+Dunque 
 \emph on
 quale
 \emph default
