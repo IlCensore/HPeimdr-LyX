@@ -1,0 +1,813 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{113}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Arno Pro
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Qualcosa da proteggere: Minerva McGonagall
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:117Qualcosa-da-proteggere-Minerva-McGonagall"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La mattina successiva era arrivata, e tutti gli studenti si erano riuniti
+ silenziosamente attorno alle quattro Tavole di Hogwarts, Harry James Potter-Eva
+ns-Verres tra di loro.
+ Era crollato per la stanchezza la notte precedente e si era svegliato la
+ mattina dopo nell'infermeria, ancora istupidito, con la Pietra filosofale
+ sotto il calzino sinistro.
+\end_layout
+
+\begin_layout Standard
+Sembrava come se la Tavola d'Onore fosse stata spazzata via da una pestilenza.
+\end_layout
+
+\begin_layout Standard
+Il trono di Silente era scomparso, senza essere rimpiazzato, lasciando il
+ centro della Tavola d'Onore vuoto.
+\end_layout
+
+\begin_layout Standard
+Severus Snape stava sedendo su di una sedia fluttuante, l'equivalente magico
+ di una sedia a rotelle.
+\end_layout
+
+\begin_layout Standard
+La professoressa Sprout era assente.
+ Secondo quello che era stato detto a Harry la sera precedente, un Legilimens
+ del tribunale l'avrebbe esaminata per verificare se rimanesse qualche altra
+ costrizione, ma probabilmente non sarebbe stata presentata alcuna accusa.
+ Harry aveva enfatizzato alla professoressa McGonagall e agli Auror, il
+ più chiaramente possibile, che la professoressa Sprout era probabilmente
+ solo una vittima.
+ Il Ragazzo-Che-È-Sopravvissuto aveva dichiarato di non aver visto prova
+ di una colpa intenzionale da parte di Sprout nella mente di Voldemort.
+\end_layout
+
+\begin_layout Standard
+Il professor Flitwick era assente, presumibilmente era ancora a fianco a
+ Hermione.
+\end_layout
+
+\begin_layout Standard
+La professoressa Sinistra era assente e Harry non sapeva perché o dove fosse.
+\end_layout
+
+\begin_layout Standard
+Il torpore che circondava la mente di Harry era come una coperta isotermica,
+ protettiva anche se non confortevole.
+ Nella sua mente c'erano scene di vesti nere che cadevano e di sangue che
+ sgorgava, che apparivano per un istante prima di essere spinte indietro.
+ Le avrebbe elaborare in un secondo momento, non ora.
+ Un'altra volta sarebbe stata meglio, l'Harry del futuro avrebbe avuto un
+ vantaggio comparativo nell'affrontarle.
+\end_layout
+
+\begin_layout Standard
+Da qualche parte dentro di Harry c'era la paura che 
+\emph on
+non avrebbe
+\emph default
+ fatto male, che non ci sarebbe stato nessun prezzo da pagare.
+ Ma anche quella paura poté essere rimandata al futuro.
+\end_layout
+
+\begin_layout Standard
+La colazione non era apparsa sui tavoli.
+ Gli studenti seduti vicino a Harry stavano aspettando in un silenzio spaventato.
+ Ai gufi era stato vietato di entrare o uscire da Hogwarts sin dalla notte
+ precedente.
+\end_layout
+
+\begin_layout Standard
+Le porte della Sala Grande si aprirono ancora una volta, e vi avanzò attraverso
+ la vicepreside Minerva McGonagall.
+ Indossava abiti di un nero formale, e la sua testa era nuda, spoglia del
+ suo solito cappello da strega.
+ I capelli grigio-castano-biondi erano acconciati in una treccia arrotolata,
+ come per prepararli per un cappello da indossare in seguito; ma per il
+ momento Harry vide la sua testa nuda per la prima volta.
+\end_layout
+
+\begin_layout Standard
+Minerva McGonagall arrivò al leggio che si trovava davanti alla Tavola d'Onore.
+\end_layout
+
+\begin_layout Standard
+Tutti gli occhi erano su di lei.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Temo di avere molte notizie
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva.
+ La sua voce era triste, nella sua precisione scozzese.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E la maggior parte di esse è terribile.
+ Primo.
+ Il motivo per cui sono io a parlare con voi è che il Preside di Hogwarts,
+ Albus
+\begin_inset Quotes frd
+\end_inset
+
+, la sua voce si fermò, 
+\begin_inset Quotes fld
+\end_inset
+
+Percival Wulfric Brian Silente, è perduto.
+ Tu-Sai-Chi l'ha intrappolato fuori del Tempo, e non sappiamo se potrà mai
+ essere riportato di nuovo tra noi.
+ Abbiamo, abbiamo perduto, quello che potrebbe essere stato, il più grande
+ Preside, che Hogwarts abbia mai avuto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un sussurro d'orrore nacque tra le tavolate, senza sussulti o gemiti udibili,
+ solo il suono di molte inspirazioni; per lo più da Grifondoro, e alcune
+ anche da Tassofrasso e Corvonero.
+ La nefasta notizia era già nota, ma ora era stata confermata anche da parte
+ delle autorità.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Secondo.
+ Tu-Sai-Chi è tornato brevemente, ma è morto ancora una volta.
+ Tutto ciò che è rimasto di lui erano le sue mani strette intorno alla gola
+ della signorina Granger.
+ Non c'è più alcuna minaccia da parte sua, o almeno così riteniamo.
+\begin_inset Quotes frd
+\end_inset
+
+ Minerva McGonagall fece un altro respiro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Terzo.
+ Il professor Quirrell è morto con la bacchetta in mano, affrontando Tu-Sai-Chi.
+ È stato trovato non lontano da dove Tu-Sai-Chi è morto ancora una volta,
+ una vittima della Maledizione Mortale di Tu-Sai-Chi.
+\begin_inset Quotes frd
+\end_inset
+
+ Un altro sussurro di orrore confermato, ora da tutte e quattro le tavolate.
+\end_layout
+
+\begin_layout Standard
+Minerva fece un altro respiro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La scorsa notte abbiamo perso anche quello che potrebbe essere stato il
+ più grande Professore di Difesa nella storia di Hogwarts.
+ I suoi meriti scolastici da soli...
+ Il nostro Professore di Difesa è stato noto con molti nomi, ma il suo vero
+ nome era David Monroe.
+ Poiché era l'ultimo della Nobile e Antichissima Casa di Monroe, il suo
+ funerale -- il suo secondo funerale, e quello vero -- si terrà dinanzi
+ all'Antichissima Sala del Wizengamot, tra due giorni.
+ Eppure si terrà altresì una veglia per il Professore di Difesa di Hogwarts,
+ per il nostro professor Quirrell, in questo castello.
+ Anche quell'uomo è morto come insegnante di Hogwarts, tanto nobilmente
+ quanto un insegnante di Hogwarts abbia mai fatto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry ascoltò in silenzio, rimandando giù le lacrime che gli salivano ancora
+ agli occhi.
+ Non era nemmeno vero, per non dire inaspettato; e tuttavia sentirlo faceva
+ ancora male.
+ Seduto accanto a lui, Anthony Goldstein mise una mano confortante sulla
+ mano di Harry, e Harry la lasciò lì.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quarto.
+ Una notizia estremamente inattesa e lieta.
+ Hermione Granger è viva e in piena salute, sana corpo e di mente.
+ La signorina Granger è in osservazione al St.
+ Mungo's per verificare la presenza di eventuali inattese complicazioni
+ per qualunque cosa le sia accaduta, ma sembra progredire incredibilmente
+ bene considerando la sua condizione precedente.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Avrebbe dovuto causare applausi scroscianti da Corvonero e Grifondoro, se
+ la notizia fosse giunta come parte di un qualsiasi altro insieme di notizie,
+ o se fosse stata più inattesa.
+ Così com'era, Harry vide qualche sorriso, ma furono brevi.
+ Forse avevano esultato di gioia in precedenza, ma al momento c'era solo
+ silenzio.
+ Harry lo capì.
+ Non era il momento dell'esultanza, non quello.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Infine
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Minerva McGonagall esitò, poi alzò la voce.
+ «Temo di avere la notizia più grave possibile da condividere con alcuni
+ dei nostri studenti.
+ Sembra che Tu-Sai-Chi abbia chiamato a sé quelli che una volta erano stati
+ i suoi seguaci; e molti di loro hanno obbedito, forse per una lealtà terribilme
+nte mal indirizzata, o temendo per le loro famiglie se si fossero rifiutati.
+ Un sacrificio era necessario, a quanto pare, per completare la risurrezione
+ di Tu-Sai-Chi; o forse Tu-Sai-Chi ha incolpato i suoi ex-seguaci per la
+ sua sconfitta.
+ Trentasette corpi sono stati trovati, più seguaci di quanti si ritenesse
+ che Tu-Sai-Chi avesse al di fuori Azkaban.
+ Temo
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Minerva McGonagall vacillò di nuovo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Temo che tra i defunti vi siano i genitori di molti dei nostri studenti
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+no no no no no no 
+\noun on
+no no no no
+\end_layout
+
+\begin_layout Standard
+Come se a causa di qualche terribile calamita, gli occhi di Harry furono
+ attratti verso l'immagine di orrore assoluto che era il volto di Draco
+ Malfoy, proprio mentre la confortante imbottitutra di cotone intorno ai
+ pensieri di Harry fu strappata via come un velo sottile.
+\end_layout
+
+\begin_layout Standard
+Come poteva non aver pensato, come poteva non aver capito
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Da qualche parte sullo sfondo, qualcuno stava già urlando, eppure la sala
+ sembrava molto silenziosa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sheila, Flora, e Hestia Carrow.
+ Hanno perso entrambi i loro genitori la notte scorsa.
+ Studenti che hanno perduto i loro padri includono Robert Jugson.
+ Ethan Jugson.
+ Sara Jugson.
+ Michael MacNair.
+ Riley e Randy Rookwood.
+ Lily Lu.
+ Sasha Sproch.
+ Daniel Gibson.
+ Jason Gross.
+ Elsie Ambrose
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Forse Lucius l'aveva capito, forse era abbastanza intelligente da starsene
+ alla lontana, forse aveva capito che era stato Voldemort a colpire Draco
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+-- Theodore Nott.
+ Vincent Crabbe.
+ Gregory Goyle.
+ Draco Malfoy.
+ Questo conclude la lista.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uno studente seduto alla tavola di Grifondoro lanciò un singolo urrà, e
+ fu immediatamente schiaffeggiato da una strega Grifondoro seduta là vicino
+ talmente forte che un Babbano avrebbe perso un dente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Trenta punti da Grifondoro e detenzione per il primo mese del prossimo anno
+\begin_inset Quotes frd
+\end_inset
+
+, disse la professoressa McGonagall, la sua voce abbastanza dura da spezzare
+ la pietra.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Bugie!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ strillò un alto Serpeverde, che si era alzato dalla sua tavola.
+ 
+\emph on
+
+\begin_inset Quotes fld
+\end_inset
+
+Bugie! Bugie! Il Signore Oscuro tornerà, e lui, lui insegnerà a tutti voi
+ il significato di
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Signor Jugson
+\begin_inset Quotes frd
+\end_inset
+
+, disse la voce di Severus Snape.
+ Anch'essa era vacillante, non suonava affatto come quella del Maestro di
+ Pozioni, e non era alta, eppure il Serpeverde si azzittì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Robert.
+ Il Signore Oscuro ha ucciso tuo padre.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Robert Jugson emise un urlo di una furia terrificante e si girò per fuggire
+ via dalla stanza, e Draco Malfoy si ripiegò su sé stesso come una casa
+ che crolla e fece rumori che nessuno udì, perché in quel momento inizò
+ il chiacchiericcio.
+\end_layout
+
+\begin_layout Standard
+Harry si alzò di quindici centimetri dalla panca e poi si fermò.
+\end_layout
+
+\begin_layout Standard
+cosa vorresti dire a Draco non c'è niente che tu possa dire a Draco non
+ puoi andare lì ora e fingere di essere il suo amico
+\end_layout
+
+\begin_layout Standard
+vuoi aggiustare le cose vuoi migliorare le cose ma non puoi aggiustare le
+ cose non c'è modo che tu possa aggiustare le cose quello che hai fatto
+ a lui quello che hai fatto a Vincent a Gregory quello che hai fatto a Theodore
+\end_layout
+
+\begin_layout Standard
+Attorno a Harry il mondo si sfocò, egli vide a malapena Padma Patil alzarsi
+ e farsi strada verso il tavolo dei Serpeverde e Draco, o Seamus che si
+ incamminava verso Theodore.
+\end_layout
+
+\begin_layout Standard
+E poiché Harry aveva letto la collezione di fantasy e fantascienza di suo
+ padre, poiché aveva già letto quella scena dozzine di volte quando era
+ accaduta ad altri protagonisti, nella mente di Harry vi fu l'immagine di
+ Malocchio Moody, dell'uomo pieno di cicatrici chiamato Alastor.
+ E l'immagine di Malocchio stava dicendo, proprio nella stessa voce che
+ aveva usato per parlare ad Albus Silente nel ricordo, che i Mangiamorte
+ stavano puntando le loro bacchette contro Harry, che avevano rinunciato
+ alla protezione deontologica spettante alle brave persone e si erano resi
+ bersagli se fosse esistita una ragione valida per sacrificarli.
+ Che era stato necessario per salvare gli innocenti genitori di Harry dalla
+ tortura e da Azkaban, che era stato necessario per proteggere il mondo
+ da Voldemort.
+ Che i normali Auror e giudici dovevano compiere gesti molto più questionabili
+ moralmente che uccidere Mangiamorte giurati e colpevoli di crimini di sangue
+ che puntassero le bacchette contro di loro, nel corso dei loro ordinari
+ compiti per riportare la giustizia che erano meno lampanti ma comunque
+ necessari alla società.
+ Se non fosse stato giusto fare ciò che Harry aveva fatto, se non fosse
+ stato giusto compiere gesti 
+\emph on
+molto
+\emph default
+ più ambigui moralmente di quello che Harry aveva compiuto, allora la società
+ come la conoscevano gli esseri umani non poteva esistere.
+ Nessuno dotato di buon senso poteva incolpare Harry per averlo fatto, Neville
+ non l'avrebbe incolpato, la professoressa McGonagall non l'avrebbe incolpato,
+ Silente non l'avrebbe incolpato, persino Hermione avrebbe detto che era
+ stata la cosa giusta da fare una volta che l'avesse saputo.
+\end_layout
+
+\begin_layout Standard
+E tutto quello era vero.
+\end_layout
+
+\begin_layout Standard
+Proprio come era anche vero che qualche parte della mente di Harry aveva
+ stimato che spazzare via l'élite politica dei puristi del sangue avrebbe
+ reso più semplice e conveniente la successiva ricostruzione della Gran
+ Bretagna magica.
+ Non era stata una considerazione importante, ma era stata comunque stimata
+ in quegli istanti di rapida riflessione, un controllo sulle conseguenze
+ a lungo termine per verificare se fossero considerate catastrofiche, e
+ una decisione che era stata in effetti valutata come piuttosto positiva.
+ E quel controllo aveva dimenticato che i Mangiamorte avevano dei figli
+ a Hogwarts o che uno di loro indossava il volto del padre di Draco.
+ Non avrebbe cambiato nulla.
+ Non avrebbe cambiato proprio nulla.
+ Ma quella era la verità della stima che la mente di Harry aveva effettuato,
+ avendo solo pochi secondi per pensare.
+\end_layout
+
+\begin_layout Standard
+Almeno Harry poteva, se i parenti sopravvissuti dei Mangiamorte fossero
+ stati in guai finanziari di qualunque genere, fare qualcosa a riguardo
+ abbastanza facilmente.
+ Trasfigurare l'oro, e usare la Pietra per renderlo permanente -- a meno
+ che produrre tutto quell'oro fosse stato problematico per l'economia dei
+ maghi nel suo insieme, o avesse originato delle obiezioni da parte dei
+ goblin che non comprendevano l'economia monetaristica del mercato -- sebbene
+ Harry non era certo sprovvisto di servizi utili da vendere
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+Altra imbottitura di cotone veniva strappata via in quel momento dai pensieri
+ di Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sembra verosimile
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva, la sua voce non era alta ma passò attraverso tutti gli
+ altri suoni, 
+\begin_inset Quotes fld
+\end_inset
+
+che la notte scorsa alcuni dei nostri studenti siano stati privati di coloro
+ che erano stati nominati loro tutori.
+ Se doveste finire con l'essere sotto la tutela di Hogwarts, per favore
+ sappiate che prenderò le responsabilità della mia posizione con estrema
+ serietà.
+ Vi sarà rivolta ogni cortesia.
+ I depositi della vostra famiglia saranno gestiti bene e onestamente.
+ Al meglio delle mie capacità, tratterò ciascuno di voi come se fosse mio
+ figlio -- e vi proteggerò quanto proteggerei i miei stessi figli, non di
+ più non di meno.
+ Spero che questo sia chiaro 
+\emph on
+\noun on
+a chiunque dentro Hogwarts
+\emph default
+\noun default
+.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gli studenti annuirono rapidamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva.
+ La sua voce si riabbassò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Allora c'è ancora un'altra cosa che va fatta.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con un'espressione triste e solenne, la professoressa Sinistra emerse da
+ un ingresso laterale.
+ Stava indossando vesti bianche invece del suo usuale marrone, e invece
+ del suo consueto cappello da strega, stava indossando un cappello quadrato
+ a molti tasselli i cui colori si erano per lo più ingrigiti.
+\end_layout
+
+\begin_layout Standard
+Nelle sue mani, la professoressa Sinistra portava il Cappello Smistatore.
+\end_layout
+
+\begin_layout Standard
+Con l'aria di qualcuno che seguisse una cerimonia che non era cambiata nei
+ secoli, Aurora Sinistra si inginocchiò, su un ginocchio, davanti a Minerva
+ McGonagall, offrendole il Cappello Smistatore con entrambe le mani.
+\end_layout
+
+\begin_layout Standard
+Minerva McGonagall prese il Cappello Smistatore dalle mani della professoressa
+ Sinistra, e se lo pose in testa.
+\end_layout
+
+\begin_layout Standard
+Ci fu un lungo silenzio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\noun on
+Preside!
+\noun default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Poiché Albus Silente non è morto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva, la sua voce così bassa che gli studenti si sforzarono di
+ udirla, 
+\begin_inset Quotes fld
+\end_inset
+
+ma ci è stato solo sottratto, accetto questa posizione nella funzione di
+ Preside ad interim soltanto -- fino al ritorno di Silente.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un grido penetrante lacerò la Sala Grande, e Fawkes fu là, volando sopra
+ tutte le Quattro Tavole in un lento arco a spirale.
+ Passò sopra ciascuna delle tavolate, canticchiando con la sua voce d'uccello,
+ un mormorio di fedeltà assoluta che sarebbe sopravvissuto alla morte di
+ fuochi meramente fisici.
+ 
+\emph on
+Aspettate
+\emph default
+, sembrava dire il mormorio.
+ 
+\emph on
+Aspettate il suo ritorno, e siate leali.
+\end_layout
+
+\begin_layout Standard
+Fawkes girò attorno a Minerva McGonagall tre volte, le ali piumate che svolazzar
+ono attorno a lei mentre le lacrime iniziarono scivolare silenziosamente
+ lungo le sue guance; poi l'uccello volò via fuori da una finestra sora
+ la Sala, e scomparve.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,404 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{113}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Arno Pro
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Qualcosa da proteggere: professor Quirrell
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:118Qualcosa-da-proteggere-professor-Quirrell"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il Sole splendeva sul verde scozzese, baluginanti scintille di bianco riflesso
+ da ogni goccia di rugiada passante o foglia riflettente che si trovava
+ per caso disposta correttamente, un cielo blu sereno per un funerale.
+\end_layout
+
+\begin_layout Standard
+Harry aveva declinato l'invito a pronunciare l'elogio.
+ L'aveva declinato la seconda volta.
+ Il professor Flitwick gliel'aveva chiesto settimane prima, a maggio, per
+ dare a Harry il tempo di scrivere le sue parole prima che fosse necessario
+ pronunciarle; e Harry aveva detto di no, anche allora.
+\end_layout
+
+\begin_layout Standard
+Così ricadde su di un Grifondoro del sesto anno Oliver Habryka, che aveva
+ il quarto totale più alto di punti Quirrell tra tutti gli studenti, e che
+ era stato Generale di un esercito.
+ Il ragazzo diciassettenne era alto e non particolarmente bello nelle vesti
+ completamente nere; invece di una cravatta rossa, stava indossando una
+ cravatta viola simile a quelle che talvolta il professor Quirrell aveva
+ preferito.
+\end_layout
+
+\begin_layout Standard
+Parlando, in quelle circostanze, 
+\emph on
+ex tempore
+\emph default
+.
+ Gli elogi precedenti, scritti ben in anticipo, erano stati scartati; Oliver
+ Habryka aveva una pergamena nella mano sinistra, ma non la stava guardando
+ affatto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Il professor Quirrell era molto ammalato
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'alto ragazzo, la voce vacillante che cadeva sulla quiete degli
+ studenti, occasionalmente rotta da un singhiozzo soppresso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che se il professor Quirrell fosse stato in grado di combattere nel
+ pieno delle proprie forze, Tu-Sai-Chi non l'avrebbe potuto sconfiggere
+ facilmente, e forse niente affatto.
+ Dicono che David Monroe sia stato l'unico di cui Tu-Sai-Chi abbia mai avuto
+ paura, ai suoi tempi.
+ Ma
+\begin_inset Quotes frd
+\end_inset
+
+, la voce di Oliver si ruppe, 
+\begin_inset Quotes fld
+\end_inset
+
+il professor Quirrell non era nel pieno delle sue forze.
+ Era molto ammalato.
+ Aveva problemi a camminare da solo.
+ Ed è andato a fronteggiare il Signore Oscuro, da solo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu una pausa, allora, mentre gli studenti piansero per un po'.
+\end_layout
+
+\begin_layout Standard
+Oliver si asciugò le lacrime con la manica, e parlò ancora.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non sappiamo con esattezza cosa sia accaduto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Oliver.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Immagino che il Signore Oscuro lo abbia deriso.
+ Forse ha preso in giro il Professore, per averlo sfidato quando non poteva
+ tenersi in piedi.
+ Beh, adesso non ride più, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci furono dei fieri cenni con la testa da parte degli studenti; di tutti
+ quelli che Harry poteva vedere, da Grifondoro a Serpeverde.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Forse il Signore Oscuro conosceva qualche modo di curare il professor Quirrell,
+ Tu-Sai-Chi è tornato dai morti dopo tutto.
+ Forse ha offerto al professor Quirrell la sua vita se l'avesse servito.
+ Il professor Quirrell ha sorriso, e ha detto al Signore Oscuro che era
+ giunto il momento per loro di giocare a un gioco chiamato `Chi è il mago
+ più pericoloso del mondo'.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Se non le sai, non ti inventare le cose.
+
+\emph default
+ Ma Harry non disse niente.
+ Era ciò che Lord Voldemort avrebbe potuto tentare, era ciò che il professor
+ Quirrell avrebbe potuto rispondere.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E non ci stanno dicendo tutto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Oliver, 
+\begin_inset Quotes fld
+\end_inset
+
+ma possiamo indovinare cos'è accaduto dopo.
+ Sappiamo tutti che Hermione Granger, che era uno degli studenti migliori
+ del Professore, era stata uccisa da un troll, in precedenza, deve essere
+ stato il Signore Oscuro a farlo accadere, proprio come l'ha incastrata
+ per l'Incantesimo di Raffreddamento del Sangue.
+ Il professor Quirrell sapeva che il Signore Oscuro era dietro a questo,
+ così ha rubato il corpo della signorina Granger e l'ha conservato, tenendolo
+ al sicuro
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Non gli si poteva dare la colpa per quello
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Poi il professor Quirrell è andato ad affrontare il Signore Oscuro.
+ Il Signore Oscuro ha ucciso il professor Quirrell.
+ E Hermione Granger è tornata in vita.
+ Dicono che sia viva e sana ora, e forse qualcosa di più.
+ Quando il Signore Oscuro ha cercato di catturarla, tutto ciò che in seguito
+ è rimasto di lui sono state le sue vesti bruciate e le sue mani attorno
+ alla gola della signorina Granger.
+ Proprio come Harry Potter è stato protetto dalla Maledizione Mortale dall'amore
+ e dal sacrificio di sua madre, la volontà del professor Quirrell di andare,
+ a fronteggiare, il Signore Oscuro da solo, deve aver richiamato, lo spirito
+ di Hermione Granger, indietro da, da ovunque, lei fosse
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ la voce di Oliver si stava rompendo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non proprio così
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry dalla prima fila delle sedie, anche la sua voce roca.
+ 
+\emph on
+Doveva
+\emph default
+ dire qualcosa a quel punto, prima che andasse tutto fuori controllo.
+ Se non era già fuori controllo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+David Monroe era un mago potente, più potente di quanto chiunque, eccetto
+ lui e io, sapesse.
+ Non penso che si possa riportare qualcuno indietro dai morsi solo sacrificando
+ sé stessi.
+ Nessuno dovrebbe provare a farlo in quel modo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una storia così bella.
+ Sarebbe dovuta essere vera.
+ 
+\emph on
+Sarebbe dovuta essere vera.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non so molto della persona dietro il Professore
+\begin_inset Quotes frd
+\end_inset
+
+, disse Oliver Habryla, dopo aver ripreso nuovamente controllo di sé stesso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+So che David Monroe non era un uomo felice.
+ Non poté mai lanciare un Incantesimo Patronus.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
