@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -56,15 +56,15 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman EB Garamond
-\font_sans EB Garamond
+\font_sans Gentium Plus
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -75,15 +75,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -219,7 +228,7 @@ Presto vi furono dei suoni, mentre la classe cominciò a riempirsi.
 \emph on
 Cosa
 \emph default
- ci stai facendo 
+ ci fai 
 \emph on
 tu
 \emph default
@@ -241,7 +250,7 @@ tu
 \emph on
 servitori
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -254,7 +263,7 @@ Il ragazzo dai capelli biondo-bianchi sorrise con un certo compiacimento
  e fece un cenno dietro di sé.
  «Potter, ti presento il signor Crabbe», la sua mano si mosse da Muscolo
  a Bilanciato, «il signor Goyle.
- Vincent, Gregory, questo è Harry Potter».
+ Vincent, Gregory, questo è Harry Potter.»
 \end_layout
 
 \begin_layout Standard
@@ -380,7 +389,7 @@ Ho paura, Potter, che il primo passo sia quello di essere Smistati in Serpeverde
 
 \begin_layout Standard
 «-- e poi che le vostre famiglie abbiano stretto un accordo da ben prima
- che nasceste».
+ che nasceste.»
 \end_layout
 
 \begin_layout Standard
@@ -392,7 +401,7 @@ Harry guardò il signor Crabbe e il signor Goyle.
 
 \begin_layout Standard
 «Uhm… aspetta», disse Harry.
- «Questo è stato organizzato 
+ «Tutto questo è stato organizzato 
 \emph on
 anni
 \emph default
@@ -415,7 +424,7 @@ Il signor Goyle tirò fuori uno stuzzicadenti e iniziò a pulirsi i denti,
 non dovevi
 \emph default
  crescere conoscendo le tue guardie del corpo, e che dovevi incontrarle
- solo il tuo primo giorno di scuola».
+ solo il tuo primo giorno di scuola.»
 \end_layout
 
 \begin_layout Standard
@@ -469,7 +478,7 @@ hanno fatto pratica
 \end_layout
 
 \begin_layout Standard
-«Er capo t'haddetto che te devi da sta' muto», brontolò il signor Crabbe.
+«Il capo t'ha detto che te devi stare muto», brontolò il signor Crabbe.
  Il signor Goyle addentò lo stuzzicadenti, tenendolo in bocca, e usò una
  mano per scrocchiare le nocche dell'altra.
 \end_layout
@@ -497,7 +506,7 @@ Ma nel momento in cui Draco diede loro le spalle per rivolgersi di nuovo
 \emph on
 imbecilli
 \emph default
- ti hanno recato».
+ ti hanno recato.»
 \end_layout
 
 \begin_layout Standard
@@ -512,7 +521,7 @@ Io
 miei
 \emph default
  servitori agissero.
- Voglio dire, se avessi qualche servitore».
+ Voglio dire, se avessi qualche servitore.»
 \end_layout
 
 \begin_layout Standard
@@ -520,8 +529,8 @@ Draco rimase a bocca aperta.
 \end_layout
 
 \begin_layout Standard
-«Ahò, a Gregory, ma che gnente gnente questo 'sta a provà de portarce via
- dar capo nostro, ahò?»
+«Oh, Gregory, ma che questo sta provando a portarci via dal capo nostro,
+ oh?»
 \end_layout
 
 \begin_layout Standard
@@ -537,7 +546,7 @@ Draco rimase a bocca aperta.
 \end_layout
 
 \begin_layout Standard
-«Che ce 'sta 'affà 
+«Che ce fa 
 \emph on
 questo
 \emph default
@@ -558,17 +567,14 @@ Smettetela
 \emph on
 ordine
 \emph default
-».
- Con uno sforzo visibile, trasferì l'attenzione nuovamente su Harry.
+.» Con uno sforzo visibile, trasferì l'attenzione nuovamente su Harry.
  «Ad ogni modo, che ci fai alla lezione di Difesa dei Serpeverde?»
 \end_layout
 
 \begin_layout Standard
 Harry aggrottò la fronte.
- «Aspetta».
- La sua mano andò alla borsa.
- «Orario».
- Guardò sulla pergamena.
+ «Aspetta.» La sua mano andò alla borsa.
+ «Orario.» Guardò sulla pergamena.
  «Difesa, 14:30, e ora sono le…» Harry guardò il proprio orologio meccanico,
  che faceva le 11:23.
  «14:23, a meno che non abbia perso traccia del tempo.
@@ -603,14 +609,14 @@ loro
 
 \begin_layout Standard
 «Hm», fece Harry.
- «Il professor Quirrell ha infatti detto… ho dimenticato le sue parole esatte…
- che avrebbe ignorato alcune delle convenzioni didattiche di Hogwarts.
- Forse ha solo combinato tutti i corsi».
+ «In effetti il professor Quirrell ha detto… ho dimenticato le sue parole
+ esatte… che avrebbe ignorato alcune delle convenzioni didattiche di Hogwarts.
+ Forse ha solo combinato tutti i corsi.»
 \end_layout
 
 \begin_layout Standard
-«Huh», disse Draco.
- «Sei il primo Corvonero qui dentro».
+«Huh», fece Draco.
+ «Sei il primo Corvonero qui dentro.»
 \end_layout
 
 \begin_layout Standard
@@ -629,7 +635,7 @@ Harry batté le palpebre.
 
 \begin_layout Standard
 Draco emise un suono beffardo.
- «Non avresti potuto sederti più lontano dall'insegnante se ci avessi provato».
+ «Non avresti potuto sederti più lontano dall'insegnante se ci avessi provato.»
  Il ragazzo dai capelli biondi si fece un po' più vicino.
  «Comunque, è vero quello che hai detto a Derrick e alla sua cricca?»
 \end_layout
@@ -639,7 +645,7 @@ Draco emise un suono beffardo.
 \end_layout
 
 \begin_layout Standard
-«L'hai colpito con una torta?»
+«L'hai colpito con una torta.»
 \end_layout
 
 \begin_layout Standard
@@ -649,8 +655,7 @@ Draco emise un suono beffardo.
 
 \begin_layout Standard
 «Che non stava facendo nulla di scaltro o ambizioso e che era una vergogna
- per Salazar Serpeverde».
- Draco stava fissando Harry intensamente.
+ per Salazar Serpeverde.» Draco stava fissando Harry intensamente.
 \end_layout
 
 \begin_layout Standard
@@ -658,7 +663,7 @@ Draco emise un suono beffardo.
  «Penso fosse qualcosa di più simile a `è questa una specie di piano incredibilm
 ente intelligente che ti garantirà un vantaggio futuro o è davvero una disgrazia
  per la memoria di Salazar Serpeverde come sembra' o qualcosa del genere.
- Non ricordo le parole esatte».
+ Non ricordo le parole esatte.»
 \begin_inset Note Note
 status open
 
