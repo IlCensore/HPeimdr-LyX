@@ -6,13 +6,14 @@
 \begin_preamble
 \usepackage{fmtcount}
 \usepackage{graphicx}
+\usepackage{titlesec}
 
 %\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \makepagestyle{myheadings}
 %  \makeevenhead{myheadings}{\thepage}{\textsc{\chaptername\ \Numberstringnum{\thechapter}}}{}
   \makeevenhead{myheadings}{}{\textsc{\chaptername\ \thechapter}}{}
-  \makeoddhead{myheadings}{}{\leftmark}{}
+  \makeoddhead{myheadings}{}{}{}
 %  \makeheadrule{myheadings}{\textwidth}{0.4pt}
   \makeevenfoot{myheadings}{\thepage}{}{}
   \makeoddfoot{myheadings}{}{}{\thepage}
@@ -55,8 +56,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Frutiger LT Std
+\font_roman Adobe Caslon Pro
+\font_sans Quattrocento Sans
 \font_typewriter Latin Modern Mono
 \font_math auto
 \font_default_family default
@@ -225,11 +226,11 @@ Frigideiro!
 \emph default
 » disse di nuovo Hermione dal banco accanto a lui.
  La sua acqua era ghiaccio solido e c'erano cristalli bianchi che si stavano
- formando sul bordo del suo bicchiere.
- Pareva essere totalmente concentrata sul proprio lavoro e niente affatto
- consapevole che gli altri studenti la fissavano con occhi carichi di odio,
- cosa che era (a) una dimostrazione di una pericolosa disattenzione da parte
- sua o (b) un'interpretazione perfetta portata al livello di arte sopraffina.
+ formando sul bordo del bicchiere.
+ Sembrava essere totalmente concentrata sul proprio lavoro e niente affatto
+ consapevole che gli altri studenti la fissavano con occhi carichi d'odio,
+ cosa che era (a) una dimostrazione di pericolosa disattenzione da parte
+ sua o (b) un'interpretazione perfetta elevata al livello di arte sopraffina.
 \end_layout
 
 \begin_layout Standard
@@ -265,16 +266,15 @@ Giunti a lunedì, Harry si stava indirizzando verso il fondo della classe,
 \end_layout
 
 \begin_layout Standard
-Il professor Flitwick era in piedi sopra il banco di una degli altri Nati
- babbani e stava sommessamente correggendo il modo in cui teneva la sua
- bacchetta.
+Il professor Flitwick stava in piedi sopra il banco di una degli altri Nati
+ babbani e stava sommessamente correggendo il modo in cui impugnava la bacchetta.
 \end_layout
 
 \begin_layout Standard
 Harry guardò Hermione.
  Deglutì.
- Era l'ovvio ruolo per lei nello schema delle cose… «Hermione?» Harry disse
- timidamente.
+ Nello schema delle cose, era il ruolo scontato per lei… «Hermione?» Harry
+ disse timidamente.
  
 \begin_inset Quotes fld
 \end_inset
@@ -316,25 +316,11 @@ Non mi importa se si tratta di concorrenza sleale.
  Hermione Granger.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -350,15 +336,15 @@ status open
 , disse la professoressa McGonagall.
  Non c'era alcuna traccia di levità sul volto della vecchia strega austera.
  «Chiunque combini pasticci nel mio corso se ne andrà per non tornare più.
- Siete stati avvertiti».
+ Siete stati avvertiti.»
 \end_layout
 
 \begin_layout Standard
-La sua bacchetta discese a battere sulla scrivania, che dolcemente si rimodellò
+La sua bacchetta scese a battere sulla cattedra, che dolcemente si rimodellò
  in un maiale.
  Un paio di studenti Nati babbani emisero piccoli guaiti.
  Il maiale si guardò intorno e sbuffò, sembrava confuso, e poi divenne nuovament
-e una scrivania.
+e una cattedra.
 \end_layout
 
 \begin_layout Standard
@@ -378,18 +364,18 @@ La Professoressa di Trasfigurazione guardò la classe intorno a sé, e poi
 
 \begin_layout Standard
 «Non c'è bisogno di chiedere scusa, signor Potter, se foste stati tenuti
- a leggerlo in anticipo vi sarebbe stato detto di farlo».
- McGonagall batté le dita sulla scrivania di fronte a lei.
- «Signor Potter, le andrebbe di indovinare se questa è una scrivania che
+ a leggerlo in anticipo vi sarebbe stato detto di farlo.» McGonagall batté
+ le dita sulla cattedra di fronte a lei.
+ «Signor Potter, le andrebbe di indovinare se questa è una cattedra che
  ho trasfigurato in un maiale, o se inizialmente era un maiale e ho brevemente
  rimosso la Trasfigurazione? Se avesse letto il primo capitolo del libro
- di testo, lo saprebbe».
+ di testo, lo saprebbe.»
 \end_layout
 
 \begin_layout Standard
 Harry aggrottò leggermente la fronte.
  «Direi che sarebbe più semplice iniziare con un maiale, in quanto se si
- partisse da una scrivania, potrebbe non sapere come stare in piedi».
+ partisse da una cattedra, potrebbe non sapere come stare in piedi.»
 \end_layout
 
 \begin_layout Standard
@@ -406,7 +392,7 @@ non
  Se vi pongo una qualunque domanda, non importa quanto ovvia o elementare,
  e rispondete `Non ne sono sicuro', non la valuterò a vostro sfavore e chiunque
  rida perderà punti per la sua Casa.
- Sa dirmi perché questa regola esiste, signor Potter?»
+ Sa dirmi perché esiste questa regola, signor Potter?»
 \end_layout
 
 \begin_layout Standard
@@ -415,7 +401,7 @@ non
 Poiché un singolo errore a Trasfigurazione può essere incredibilmente pericoloso.
 
 \emph default
- «No».
+ «No.»
 \end_layout
 
 \begin_layout Standard
@@ -426,7 +412,7 @@ Poiché un singolo errore a Trasfigurazione può essere incredibilmente pericolo
  per massimizzare la vostra capacità da adulti.
  Quindi è una materia pericolosa, e dovreste essere alquanto spaventati
  dall'idea di commettere degli errori, perché nessuno dei miei studenti
- è mai stato ferito seriamente e io sarò 
+ si è mai fatto male seriamente e io sarò 
 \emph on
 estremamente offesa
 \emph default
@@ -443,7 +429,7 @@ Diversi studenti deglutirono.
 
 \begin_layout Standard
 La professoressa McGonagall si alzò e si avvicinò alla parete dietro la
- sua scrivania, che reggeva una tavola di legno levigata
+ cattedra, che reggeva una tavola di legno levigata
 \begin_inset Note Note
 status open
 
@@ -458,12 +444,11 @@ bianca (EY, 2014-09-30)
 \begin_inset Quotes fld
 \end_inset
 
-Ci sono molte ragioni per cui Trasfigurazione è pericolosa, ma una ragiona
- domina su tutte le altre
+Ci sono molte ragioni per cui Trasfigurazione è pericolosa, ma una ragione
+ domina su tutte le altre.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Tirò fuori una penna d'oca con una spessa estremità
 \begin_inset Note Note
 status open
@@ -494,7 +479,7 @@ status open
 
 \end_inset
 
-; poi le sottolineò, usando lo stesso pennarello, in blu:
+; poi le sottolineò, usando la stessa penna, in blu:
 \end_layout
 
 \begin_layout Quote
@@ -561,10 +546,10 @@ immagino
  e in tutta quell'acqua che è stata assorbita dai tessuti del mio corpo
  -- che fosse polpa di legno o legno pieno o…» La sua comprensione della
  magia lo tradì.
- Non era in grado di comprendere in che modo il legno si mappasse nell'acqua,
- tanto per cominciare, quindi non riusciva a capire che cosa sarebbe accaduto
- dopo che le molecole d'acqua fossero state rimescolate in seguito ai normali
- moti termici e la magia fosse svanita e la mappatura invertita.
+ Non era in grado di capire in che modo il legno si mappasse nell'acqua,
+ tanto per cominciare, quindi non riusciva a comprendere che cosa sarebbe
+ accaduto dopo che le molecole d'acqua fossero state rimescolate in seguito
+ ai normali moti termici e la magia fosse svanita e la mappatura invertita.
 \end_layout
 
 \begin_layout Standard
@@ -575,13 +560,13 @@ Il volto di McGonagall era severo.
 \begin_inset space ~
 \end_inset
 
-Mungo's Hospital, per avere una minima speranza di sopravvivere.
- Per favore, aprite i vostri libri di testo a pagina 5».
+Mungo's Hospital, per avere una minima speranza di sopravvivenza.
+ Per favore, aprite i vostri libri di testo a pagina 5.»
 \end_layout
 
 \begin_layout Standard
-Anche senza che alcun suono provenisse dalla foto in movimento, si poteva
- capire che la donna con la pelle orribilmente scolorita stava urlando.
+Anche se nessun suono proveniva dalla foto in movimento, si poteva capire
+ che la donna con la pelle orribilmente scolorita stava urlando.
 \end_layout
 
 \begin_layout Standard
@@ -619,9 +604,10 @@ irrecuperabili!
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall si chinò in avanti, con il viso molto duro.
+La professoressa McGonagall si inclinò in avanti, l'espressione sul viso
+ molto severa.
  «Assolutamente mai, in nessuna circostanza, Trasfigurerete qualunque cosa
- in un liquido o gas.
+ in un liquido o in un gas.
  Niente acqua, niente aria.
  Nulla di simile all'acqua, nulla di simile all'aria.
  Anche se non va bevuto.
@@ -720,7 +706,7 @@ guerra
 \emph default
  permanente con tutti i falsari magici.
  Non manderanno degli Auror.
- Manderanno un esercito».
+ Manderanno un esercito.»
 \end_layout
 
 \begin_layout Standard
@@ -739,8 +725,8 @@ specialmente voi stessi
 \emph default
 .
  Vi farebbe ammalare gravemente e persino morire, a seconda di come vi Trasfigur
-ereste e per quanto tempo manterreste il cambiamento».
- La professoressa McGonagall fece una pausa.
+ereste e per quanto tempo manterreste il cambiamento.» La professoressa McGonagal
+l fece una pausa.
  «Il signor Potter sta alzando la mano perché ha visto una trasformazione
  Animagus -- precisamente un umano trasformarsi in un gatto e poi riassumere
  la propria forma.
@@ -748,7 +734,7 @@ ereste e per quanto tempo manterreste il cambiamento».
 \emph on
 libera
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
@@ -768,7 +754,7 @@ pezzo (EY, 2014-09-30)
 \emph on
 Crystferrium!
 \emph default
-» e la palla di vetro divenne una sfera di acciaio.
+» e la palla di vetro divenne una sfera d'acciaio.
  La toccò con la bacchetta per l'ultima volta e la sfera d'acciaio divenne
  un pezzo di legno ancora una volta.
  «
@@ -777,13 +763,13 @@ Crystferrium
 \emph default
  trasforma un soggetto di vetro solido in un bersaglio di acciaio solido
  di forma simile.
- Non può fare il contrario, né può trasformare una scrivania in un maiale.
+ Non può fare il contrario, né può trasformare una cattedra in un maiale.
  La forma più generale di Trasfigurazione -- Trasfigurazione libera, che
  imparerete qui -- è in grado di trasformare qualunque soggetto in qualunque
  bersaglio, per lo meno per quanto riguarda la forma fisica.
  Per questo motivo, Trasfigurazione libera deve essere eseguita senza parole.
  Usare degli Incantesimi richiederebbe parole differenti per ciascuna differente
- trasformazione tra soggetto e bersaglio».
+ trasformazione tra soggetto e bersaglio.»
 \end_layout
 
 \begin_layout Standard
@@ -806,7 +792,7 @@ sin dal principio
 \emph default
 , cosa che richiede che lanciate l'incantesimo senza parole, tenendo la
  forma del soggetto, la forma del bersaglio, e la trasformazione all'interno
- della vostra mente».
+ della vostra mente.»
 \end_layout
 
 \begin_layout Standard
@@ -847,7 +833,7 @@ originale
 
 Mungo's.
  E se vi Trasfigurerete in un corpo adulto, allora, quando la Trasfigurazione
- cesserà, voi morirete».
+ cesserà, voi morirete.»
 \end_layout
 
 \begin_layout Standard
@@ -877,9 +863,9 @@ Sì
 La professoressa McGonagall scosse la testa.
  «Signor Potter, anche gli oggetti inanimati subiscono piccoli cambiamenti
  interni nel corso del tempo.
- In seguito non ci sarebbero cambiamenti visibili nel vostro corpo, e per
- il primo minuto non vi accorgereste di nulla.
- Ma in un'ora vi ammalereste, e in un giorno sareste morti».
+ Non ci sarebbero cambiamenti visibili nel vostro corpo, e per il primo
+ minuto non vi accorgereste di nulla.
+ Ma in un'ora vi ammalereste, e in un giorno sareste morti.»
 \end_layout
 
 \begin_layout Standard
@@ -887,7 +873,7 @@ La professoressa McGonagall scosse la testa.
 \emph on
 immaginare
 \emph default
- che la scrivania era in origine una scrivania e non un maiale», disse Harry,
+ che la cattedra era in origine una cattedra e non un maiale», disse Harry,
  «ma solo se avessi fatto l'ipotesi 
 \emph on
 ulteriore
@@ -917,7 +903,7 @@ sembrare
 «Ora ripetete dopo di me», disse la professoressa McGonagall.
  «Non proverò mai a Trasfigurare nessun soggetto vivo, specialmente me stesso,
  se non specificatamente istruito a farlo usando un Incantesimo specializzato
- o una pozione».
+ o una pozione.»
 \end_layout
 
 \begin_layout Standard
@@ -950,7 +936,7 @@ a senza che nulla di male accada, non la proverò io stesso.»
 
 \begin_layout Standard
 «Se violerò una qualunque di queste regole non studierò più Trasfigurazione
- durante il mio periodo a Hogwarts.»
+ durante la mia permanenza a Hogwarts.»
 \end_layout
 
 \begin_layout Standard
@@ -958,7 +944,7 @@ a senza che nulla di male accada, non la proverò io stesso.»
  disse la professoressa McGonagall.
  «E ora, iniziamo con dei fiammiferi come soggetti e degli aghi come bersagli…
  mettete via le vostre bacchette, con `iniziamo' intendevo dire inizierete
- a prendere appunti».
+ a prendere appunti.»
 \end_layout
 
 \begin_layout Standard
@@ -976,7 +962,7 @@ Alla fine della lezione, Hermione aveva un fiammifero argenteo e il resto
 La professoressa McGonagall le assegnò un altro punto per Corvonero.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -988,28 +974,13 @@ La professoressa McGonagall le assegnò un altro punto per Corvonero.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Dopo che la lezione di Trasfigurazione fu terminata, Hermione andò al banco
- di Harry, proprio mentre Harry stava mettendo via i propri libri nella
- borsa.
+ di Harry, proprio mentre Harry stava rimettendo i libri nella borsa.
 \end_layout
 
 \begin_layout Standard
 «Sai», disse Hermione con un'espressione innocente sul viso, «ho guadagnato
- due punti per Corvonero oggi».
+ due punti per Corvonero oggi.»
 \end_layout
 
 \begin_layout Standard
@@ -1022,13 +993,13 @@ Dopo che la lezione di Trasfigurazione fu terminata, Hermione andò al banco
 sette
 \emph default
  punti», continuò lei.
- «Credo semplicemente di non essere intelligente come te».
+ «Credo semplicemente di non essere intelligente come te.»
 \end_layout
 
 \begin_layout Standard
 Harry finì di inserire i propri compiti nella borsa e si girò verso Hermione
  con gli occhi socchiusi.
- Si era davvero dimenticato di questo.
+ Si era davvero dimenticato di quello.
 \end_layout
 
 \begin_layout Standard
@@ -1040,7 +1011,7 @@ sbatté le ciglia
  «Abbiamo lezioni tutti i giorni, però.
  Mi chiedo quanto tempo ti ci vorrà per trovare qualche altro Tassofrasso
  da salvare? Oggi è lunedì.
- Quindi hai fino a giovedì».
+ Quindi hai fino a giovedì.»
 \end_layout
 
 \begin_layout Standard
@@ -1049,7 +1020,7 @@ I due si fissarono l'un l'altro negli occhi, senza battere ciglio.
 
 \begin_layout Standard
 Harry parlò per primo.
- «Naturalmente capisci che questo significa guerra».
+ «Naturalmente capisci che questo significa guerra.»
 \end_layout
 
 \begin_layout Standard
@@ -1067,7 +1038,7 @@ Tutti gli altri studenti stavano ora guardando con occhi affascinati.
  Madam Pomfrey ha approvato il suo suggerimento per prevenire le rotture
  nei suoi Cancelletti ruotanti, e l'idea è quella di finire il lavoro entro
  la fine della prossima settimana.
- Direi che questo merita… diciamo dieci punti per Corvonero».
+ Direi che questo meriti… diciamo dieci punti per Corvonero.»
 \end_layout
 
 \begin_layout Standard
@@ -1094,10 +1065,10 @@ indiscutibilmente
  un modo per proteggerlo, ma i Cancelletti ruotanti sono costosi, e il Preside
  
 \emph on
-non è 
+non è stato
 \emph default
-stato contento l'ultima volta che se n'è rotto uno».
- La professoressa McGonagall sembrò pensierosa.
+ contento l'ultima volta che se n'è rotto uno.» La professoressa McGonagall
+ sembrò pensierosa.
  «Accidenti, mi chiedo se qualche altro studente abbia mai guadagnato diciassett
 e punti nel suo primo giorno di lezioni.
  Devo controllare, ma sospetto che questo sia un nuovo primato.
@@ -1131,10 +1102,9 @@ prossima
 perda
 \emph default
  dei punti prima di allora.
- Rivolgendosi a un insegnante in maniera irriguardosa, per esempio».
- La professoressa McGonagall mise un dito sulla propria guancia e sembrò
- riflettere.
- «Mi aspetto che lei raggiunga i numeri negativi prima della fine di venerdì».
+ Rivolgendosi a un'insegnante in maniera irriguardosa, per esempio.» La professor
+essa McGonagall appoggiò un dito sulla guancia e sembrò riflettere.
+ «Mi aspetto che lei raggiunga i numeri negativi prima della fine di venerdì.»
 \end_layout
 
 \begin_layout Standard
@@ -1149,7 +1119,7 @@ La bocca di Harry si chiuse di scatto.
  Solo il numero di punti e la faccenda del primato… e se qualcuno dovesse
  venire da lei per essere aiutato e fosse deluso che non ha neppure iniziato
  a leggere i suoi libri di testo, potrebbe sempre mandarlo dalla signorina
- Granger».
+ Granger.»
 \end_layout
 
 \begin_layout Standard
@@ -1164,7 +1134,7 @@ Professoressa!
 La professoressa McGonagall la ignorò.
  «Accipicchia, mi chiedo quanto ci vorrà alla signorina Granger per fare
  qualcosa che meriti un annuncio a cena? Non vedo l'ora di scoprirlo, qualunque
- cosa sia».
+ cosa sia.»
 \end_layout
 
 \begin_layout Standard
@@ -1180,7 +1150,7 @@ Harry ed Hermione, di tacito e comune accordo, si voltarono e si precipitarono
 
 \begin_layout Standard
 «Naturalmente», disse Hermione.
- «Non vorrei che rimanessi ancora più indietro nello studio».
+ «Non vorrei che rimanessi ancora più indietro nello studio.»
 \end_layout
 
 \begin_layout Standard
@@ -1217,7 +1187,7 @@ uno
 \end_layout
 
 \begin_layout Standard
-«Ho le lezioni ora, che tu non hai avuto, ma i fine-settimana sono liberi,
+«Ho le lezioni ora, che tu non hai avuto, ma i fine settimana sono liberi,
  quindi… limite di otto per quattro diviso epsilon per epsilon che tende
  a zero più… 10:47 di domenica.»
 \end_layout
