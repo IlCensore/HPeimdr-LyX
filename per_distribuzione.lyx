@@ -202,9 +202,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman EB Garamond
+\font_roman Arno Pro
 \font_sans Linux Biolinum O
-\font_typewriter Inconsolata
+\font_typewriter Latin Modern Mono
 \font_math auto
 \font_default_family default
 \use_non_tex_fonts true
@@ -357,13 +357,7 @@ Harry Potter e i metodi della razionalità
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\family sans
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
+\begin_inset VSpace vfill
 \end_inset
 
 
@@ -371,15 +365,19 @@ Harry Potter e i metodi della razionalità
 
 \begin_layout Standard
 \align center
+
+\emph on
 Volume 
 \noun on
 i
-\emph on
+\emph default
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\noun on
 Harry James Potter-Evans-Verres e i Metodi della razionalità
 \end_layout
 
@@ -398,20 +396,20 @@ Harry James Potter-Evans-Verres e i Metodi della razionalità
 
 \begin_layout Standard
 \align center
+
+\emph on
 Volume 
 \noun on
 ii
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
-Harry James Potter-Evans-Verres e
+
 \emph default
- 
-\emph on
-la Legione del Chaos
+\noun on
+Harry James Potter-Evans-Verres e la Legione del Chaos
 \end_layout
 
 \begin_layout Standard
@@ -429,15 +427,19 @@ la Legione del Chaos
 
 \begin_layout Standard
 \align center
+
+\emph on
 Volume 
 \noun on
 iii
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Harry James Potter-Evans-Verres e le Ombre della Morte
 \end_layout
 
@@ -456,15 +458,19 @@ Harry James Potter-Evans-Verres e le Ombre della Morte
 
 \begin_layout Standard
 \align center
+
+\emph on
 Volume 
 \noun on
 iv
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Hermione Jean Granger e il Richiamo della Fenice
 \end_layout
 
@@ -483,15 +489,19 @@ Hermione Jean Granger e il Richiamo della Fenice
 
 \begin_layout Standard
 \align center
+
+\emph on
 Volume 
 \noun on
 v
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Harry James Potter-Evans-Verres e il Nemico finale
 \end_layout
 
@@ -510,15 +520,19 @@ Harry James Potter-Evans-Verres e il Nemico finale
 
 \begin_layout Standard
 \align center
+
+\emph on
 Volume 
 \noun on
 vi
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Harry James Potter-Evans-Verres e la Pietra filosofale
 \end_layout
 
@@ -551,46 +565,68 @@ status open
 \begin_layout Plain Layout
 
 {
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
 color{Maroon}
 \end_layout
 
 \begin_layout Plain Layout
 
+
+\backslash
+centering
 \end_layout
 
-\end_inset
+\begin_layout Plain Layout
 
+
+\backslash
+scshape
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{0.618
+\backslash
+linewidth}{!}{Harry Potter}
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Plain Layout
 
-\size giant
-\noun on
-Harry Potter
+{
+\backslash
+Huge e i}
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Plain Layout
 
-\size huge
-\noun on
-e i 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Plain Layout
 
-\size huge
-\noun on
-Metodi della razionalità
+
+\backslash
+resizebox{
+\backslash
+linewidth}{!}{Metodi della Razionalità}
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -610,7 +646,7 @@ Volume
 \noun on
 i
 \noun default
-:
+
 \begin_inset Newline newline
 \end_inset
 
@@ -744,7 +780,20 @@ Il sito internet del progetto di traduzione è
 \begin_inset Newline newline
 \end_inset
 
-sites.google.com/site/hpeimdr/home/
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{sites.google.com/site/hpeimdr/home/}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -761,7 +810,20 @@ Il sito internet dell'opera originale è
 \begin_inset Newline newline
 \end_inset
 
-hpmor.com
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{hpmor.com}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -810,14 +872,44 @@ reflectbox{©}
 
 \end_inset
 
- 2013--2015 Cato Philosophus (cato.philosophus@gmail.com)
+ 2013--2015 Cato Philosophus
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{cato.philosophus@gmail.com}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
 Questa opera è stata rilasciata con licenza Creative Commons Attribuzione
  -- Condividi allo stesso modo 3.0 Italia; per leggere una copia della licenza
- visita il sito web creativecommons.org/licenses/by-sa/3.0/it/ o spedisci
- una lettera a Creative Commons, PO Box 1866, Mountain View, 
+ visita il sito web 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{creativecommons.org/licenses/by-sa/3.0/it/}
+\end_layout
+
+\end_inset
+
+ o spedisci una lettera a Creative Commons, PO Box 1866, Mountain View,
+ 
 \noun on
 ca
 \noun default
