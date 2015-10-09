@@ -10,7 +10,8 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\footnotesize Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+%  \makeevenhead{myheadings}{\footnotesize Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{}
   \makeevenfoot{myheadings}{\thepage}{}{}
   \makeoddfoot{myheadings}{}{}{\thepage}
@@ -335,20 +336,6 @@ Harry Potter e i metodi della razionalità
 \end_layout
 
 \begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \align center
 
 \size large
@@ -357,7 +344,7 @@ Harry Potter e i metodi della razionalità
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace vfill
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -559,6 +546,13 @@ Eliezer Yudkowsky
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -633,6 +627,13 @@ par
 }
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
 \end_inset
 
 
