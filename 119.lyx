@@ -1,0 +1,4166 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{118}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Arno Pro
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Qualcosa da proteggere: Albus Silente
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:119Qualcosa-da-proteggere-Silente"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry era davanti ai gargoyle che facevano la guardia all'ufficio del Preside
+ -- no, della Preside.
+ Era stato convocato dalla professoressa Sinistra, gli era stato detto che
+ era un'emergenza, ma l'ingresso non si apriva per lui.
+\end_layout
+
+\begin_layout Standard
+Un esperimento aveva mostrato che la Pietra rendeva permanente una Trasfigurazio
+ne ogni tre minuti e cinquantaquattro secondi, indipendentemente dalla dimension
+e dell'oggetto Trasfigurato.
+ Solo una volta, reggendo la Pietra filosofale alla luce della torcia elettrica
+ più potente che avesse in uno sgabuzzino altrimenti buio, Harry aveva pensato
+ di aver visto un allineamento di minuscoli punti all'interno del pezzo
+ di vetro cremisi; ma non era stato in grado di vederlo di nuovo, e ora
+ sospettava di esserselo immaginato.
+ La Pietra non aveva altri poteri che Harry potesse rilevare, né rispondeva
+ ad alcun tentativo di comando mentale.
+\end_layout
+
+\begin_layout Standard
+Harry si era dato fino a mezzogiorno dell'indomani per capire come iniziare
+ a usare la Pietra senza che venisse presa da qualcun altro, cercando di
+ non pensare a ciò che stava ancora accadendo, a ciò che era sempre accaduto,
+ nel frattempo.
+\end_layout
+
+\begin_layout Standard
+In ritardo di dieci minuti, arrivò Minerva McGonagall, muovendosi con passo
+ veloce.
+ Le sue braccia erano piene di carte, ed ella stava nuovamente indossando
+ il Cappello Smistatore.
+\end_layout
+
+\begin_layout Standard
+I gargoyle, con un breve suono di pietra che macina, si inchinarono profondament
+e davanti a lei.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+La nuova parola d'ordine è ‘Provvisorietà'
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva ai gargoyle, ed essi si fecero da parte.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono dispiaciuta, signor Potter, sono stata trattenuta da
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Comprendo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Minerva impegnò la lunga scalinata a spirale, salendola invece di attendere
+ di essere trasportata, Harry da presso dietro di lei.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ci stiamo incontrando con Amelia Bones, Direttrice del Dipartimento per
+ l'Applicazione della Legge Magica; con Alastor Moody, che ha conosciuto;
+ e con Bartemius Crouch, Direttore del Dipartimento della Cooperazione Magica
+ Internazionale
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva mentre saliva.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono gli eredi di Silente tanto quanto lo siamo lei e io.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Come -- come sta Hermione?
+\begin_inset Quotes frd
+\end_inset
+
+ Harry non aveva avuto l'opportunità di chiederlo fino a quel momento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Filius ha detto che sembrava piuttosto scioccata, cosa che suppongo non
+ sia sorprendente.
+ Ha chiesto dove fosse lei, le è stato detto che era a una partita di Quidditch,
+ ha chiesto dove fosse realmente, e si è rifiutata di parlare con chiunque
+ a proposito di ciò che è accaduto finché non le fosse permesso di parlare
+ con lei.
+ È stata portata al St.
+ Mungo's, dove
+\begin_inset Quotes frd
+\end_inset
+
+, la Preside sembrava ora alquanto sconcertata, 
+\begin_inset Quotes fld
+\end_inset
+
+un consueto Incantesimo di diagnosi ha mostrato che la signorina Granger
+ è un sano unicorno in condizioni fisiche eccellenti se non per il fatto
+ che la sua chioma ha bisogno di essere pettinata.
+ Incantesimi per rilevare magia in atto l'hanno ogni volta riconosciuta
+ come costantemente nell'atto di trasformarsi in un'altra forma.
+ C'è stato un Indicibile che è apparso prima che Filius lo, ah, rimuovesse.
+ Ha lanciato certi incantesimi che probabilmente non avrebbe dovuto conoscere,
+ e ha dichiarato che l'anima di Hermione era in condizioni ottime ma almeno
+ a un miglio di distanza dal suo corpo.
+ A quel punto i guaritori anziani si sono arresi.
+ Attualmente ella è sola in una cella con topi e mosche
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cosa?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi scusi, signor Potter, è il gergo delle Trasfigurazioni.
+ La signorina Granger è in una stanza di isolamento con una gabbia di topi
+ addomesticati e una scatola di mosche che si riprodurranno in un solo giorno.
+ La logica suggerisce che quale che sia il mistero sottostante la sua risurrezio
+ne, ha lasciato dietro di sé un'emanazione che sta spingendo gli incantesimi
+ dei guaritori a dare risultati senza senso.
+ Ma se non dovesse accadere nulla ai topi e alla nuova generazione di mosche,
+ la signorina Granger sarà dichiarata sicura da far ritornare a Hogwarts
+ quando si veglierà domani mattina.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry non era ancora certo...
+ non era 
+\emph on
+per niente
+\emph default
+ certo, di ciò che Hermione avrebbe pensato dell'essere stata fatta risorgere,
+ quanto meno in quelle particolari circostanze.
+ Non pensava davvero che Hermione lo avrebbe sgridato per aver fatto male.
+ Quello era semplicemente il cervello di Harry che cercava di immaginarla
+ come uno stereotipo.
+ Harry si era sentito legittimamente sfinito e incapace di ragionare correttamen
+te quando gli era venuta in mente quella storia di copertura, e Hermione
+ avrebbe probabilmente capito quella parte.
+ Ma non riusciva a immaginare cosa Hermione 
+\emph on
+avrebbe
+\emph default
+ pensato...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi chiedo come si sentirà la signorina Granger riguardo all'aver sconfitto
+ anche lei Tu-Sai-Chi
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva pensierosa, salendo i gradini in movimento abbastanza velocement
+e che a Harry venne il fiatone a starle dietro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E del fatto che la gente crede a cose molto interessanti sul suo conto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Forse non l'avrei dovuta sottoporre a tutto questo.
+ Ma bisognava dare alla gente qualcosa a cui credere o solo il cielo sa
+ cosa si sarebbero inventati.
+ Sentirsi colpevoli per questo sarebbe stupido.
+ Credo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Vuole dire, perché lei si è sempre auto-identificata come un normale genio
+ scolastico, e ora un po' di gente pensa a lei come alla Ragazza-Che-È-Risuscita
+ta e tutti vogliono stringerle la mano?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Harry.
+ 
+\emph on
+Anche se non ricorda di aver fatto nulla per meritarselo.
+ Anche se è stato tutto lavoro di qualcun altro e sacrificio di altre persone,
+ e lei ne sta ricevendo il merito.
+ Anche se non sente di aver fatto qualcosa di realmente degno del modo in
+ cui le altre persone la trattano, e non è sicura se potrà mai essere all'altezz
+a della persona che loro immaginano.
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cavolo, non so, non riesco a immaginare cosa si provi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Raggiunsero entrambi la sommità della scalinata, ed entrarono nell'ufficio
+ pieno di dozzine di strani oggetti, tutti rivolti verso una grande scrivania
+ e un possente trono dietro di essa.
+\end_layout
+
+\begin_layout Standard
+La mano di Minerva passò su uno di quegli oggetti, quello con le oscigliatrici
+ dorate, i suoi occhi si chiusero brevemente.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Da cap.
+ 17.
+\end_layout
+
+\end_inset
+
+ Minerva si tolse il Cappello Smistatore e lo mise su di una cappelliera
+ che reggeva tre pantofole per piede sinistro.
+ Trasformò il possente trono in una semplice sedia imbottita e la grande
+ scrivania in una tavola rotonda, attorno alla quale spuntarono altre quattro
+ sedie.
+\end_layout
+
+\begin_layout Standard
+Harry osservò tutto ciò con uno strano groppo in gola.
+ Sapeva, senza che nessuno di loro due avesse detto nulla, che ci sarebbe
+ dovuta essere più cerimonia per il cambiamento delle sedie, per il cambiamento
+ del tavolo.
+ Molta più cerimonia, per la prima volta che la Preside si sedeva nel suo
+ nuovo ufficio.
+ Ma qualunque fosse la ragione, non c'era tempo, e Minerva McGonagall stava
+ mettendo tutto da parte per fare prima.
+\end_layout
+
+\begin_layout Standard
+Un'oscillazione della bacchetta di Minerva accese la Metropolvere nel camino,
+ proprio mentre ella si sedeva sulla sedia che era stata di Silente.
+\end_layout
+
+\begin_layout Standard
+Harry scelse silenziosamente una delle sedie attorno al tavolo, sedendosi
+ alla sinistra di Minerva.
+\end_layout
+
+\begin_layout Standard
+Quasi immediatamente, la Metropolvere divampò smeraldina e fece spuntar
+ fuori in un mulinello Alastor Moody, che piroettò con la bacchetta alzata,
+ scandagliando l'intera stanza apparentemente con uno sguardo solo, e poi
+ puntò la sua bacchetta direttamente contro Harry e disse 
+\begin_inset Quotes fld
+\end_inset
+
+Avada Kedavra.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Era accaduto così velocemente, e l'aveva colto talmente di sorpresa, che
+ la bacchetta di Harry non era neppure alzata a metà quando Alastor Moody
+ ebbe terminato l'incantamento.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Giusto per sicurezza
+\begin_inset Quotes frd
+\end_inset
+
+, disse Alastor alla Preside, la cui bacchetta era ora puntata contro di
+ lui, la sua bocca aperta come per pronunciare parole che ella non riusciva
+ trovare.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voldie avrebbe tentato di schivare, se avesse preso possesso del corpo del
+ ragazzo la notte scorsa.
+ Ho ancora bisogno di controllare la ragazza Granger, comunque.
+\begin_inset Quotes frd
+\end_inset
+
+ Alastor Moody andò alla destra di Minerva e si sedette.
+\end_layout
+
+\begin_layout Standard
+Harry aveva pensato, in quella frazione di secondo, di provare a generare
+ senza parole un bagliore Patronus argenteo con la bacchetta; ma questa
+ non era stata in posizione in tempo per intercettare, neppure lontanamente.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Beh, se prima mi stavo sentendo invincibile, questo mi mette al mio posto.
+ Che preziosa lezione di vita, signor Moody.
+\end_layout
+
+\begin_layout Standard
+Poi la Metropolvere divampò nuovamente verde, e sputò fuori la più vecchia,
+ arcigna e dura strega che Harry avesse mai visto, come carne essiccata
+ a cui fosse stata data forma umana.
+ La vecchia strega non aveva la bacchetta in mano, ma proiettava un'aria
+ di autorevolezza che era più forte e severa di quella di Silente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questa è la direttrice Amelia Bones, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse la preside McGonagall, che aveva riacquistato la propria compostezza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Stiamo ancora aspettando il direttore Crouch
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Il cadavere di Bartemius Crouch junior è stato identificato tra i Mangiamorte
+ deceduti
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'anziana strega senza preambolo, mentre continuava a dirigersi
+ verso le sedie.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ci ha presi completamente alla sprovvista, e temo che Bartemius sia in profondo
+ lutto, per entrambe le ragioni.
+ Oggi non sarà con noi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry tenne dentro di sé il proprio sussulto.
+\end_layout
+
+\begin_layout Standard
+Amelia Bones si accomodò in una sedia, alla destra di Moody.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Preside McGonagall
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'anziana strega, di nuovo senza esitazione o pausa, 
+\begin_inset Quotes fld
+\end_inset
+
+la Linea Ininterrotta di Merlino, che Silente ha lasciato a me in reggenza,
+ non sta rispondendo alla mia mano.
+ Il Wizengamot deve avere uno Stregone Capo che sia degno di fiducia, 
+\emph on
+subito
+\emph default
+; diverse questioni sono in cambiamento continuo in Gran Bretagna.
+ Devo sapere ciò che Silente ha fatto, immediatamente!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cacchio
+\begin_inset Quotes frd
+\end_inset
+
+, mormorò Moody.
+ Il suo mal'occhio stava ruotando impazzito.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non va bene, non va bene per niente.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì, bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva McGonagall, che sembrava piuttosto ansiosa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non posso dirlo con certezza.
+ Albus -- bene, chiaramente aveva avuto qualche indizio che sarebbe potuto
+ non sopravvivere a questa guerra.
+ Ma non penso che si aspettasse che la signorina Granger tornasse indietro
+ dai morti e uccidesse Voldemort solo qualche ora dopo.
+ Non penso che Albus se l'aspettasse affatto.
+ Non sono proprio certa di come funzioneranno ora le sue disposizioni
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia Bones si alzò a metà dalla sedia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Vuole lasciar intendere che la ragazza 
+\emph on
+Granger
+\emph default
+ potrebbe aver ereditato la Linea Ininterrotta di Merlino? Questa è una
+ 
+\emph on
+catastrofe!
+\emph default
+ Ha dodici anni, non è stata messa alla prova -- certamente Albus non sarebbe
+ stato così irresponsabile da lasciare la Linea a chiunque avesse avuto
+ la ventura di sconfiggere Voldemort senza sapere 
+\emph on
+chi!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh, semplificando
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva.
+ Le sue dita squadrarono le pratiche che si era portata dietro, e che ora
+ giacevano sul tavolo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Albus 
+\emph on
+pensava
+\emph default
+ di sapere chi avrebbe sconfitto Voldemort.
+ C'era una profezia a riguardo, una verificata, che ora sembra in quiescenza,
+ o -- non lo so, Madam Bones! Ho una lettera per il signor Potter che devo
+ dargli nell'eventualità della morte o altra dipartita di Albus, e poi un'altra
+ lettera che Albus disse che il signor Potter sarebbe stato in grado di
+ aprire solo dopo che avesse sconfitto Voldemort.
+ Non sono sicura di ciò che accadrà ora.
+ Forse la signorina Granger sarà in grado di aprirla, o forse non potrà
+ mai essere aperta
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Aspettate
+\begin_inset Quotes frd
+\end_inset
+
+, disse Malocchio Moody.
+ Infilò la mano nelle sue vesti, ed estrasse una bacchetta lunga, grigia
+ e nodosa che Harry riconobbe; era la bacchetta di Silente, di una forma
+ e uno stile dissimili da qualunque altra bacchetta dentro Hogwarts.
+ Moody depose la bacchetta sul tavolo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Prima di procedere oltre, Albus mi ha lasciato un paio di istruzioni.
+ Raccogli la bacchetta, ragazzo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry esitò, pensando.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Albus Silente si è sacrificato per me.
+ Si fidava di Moody.
+ Probabilmente questa non è una trappola.
+\end_layout
+
+\begin_layout Standard
+Poi Harry iniziò ad allungare la mano per prendere la bacchetta.
+\end_layout
+
+\begin_layout Standard
+Essa saltò su e volò attraverso il tavolo, nella mano di Harry.
+ E nel momento in cui le dita di Harry strinsero l'impugnatura, fu come
+ se sentisse una canzone, un peana di gloria e battaglia che risuonava nella
+ sua mente.
+ Un'onda di fuoco bianco scorse lungo l'impugnatura e sopra il legno, amplifican
+dosi mentre si muoveva, esplodendo dalla punta in un eccezionale getto di
+ scintille.
+ Attraverso il legno sotto le sue dita scorreva una sensazione di forza
+ e di pericolo controllato, come un lupo alla catena.
+\end_layout
+
+\begin_layout Standard
+Harry stava anche ricevendo l'impressione di un distinto scetticismo, come
+ se la bacchetta avesse un qualche livello di consapevolezza, e si stesse
+ chiedendo come diavolo fosse finita impugnata da uno studente del primo
+ anno di Hogwarts.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Già
+\begin_inset Quotes frd
+\end_inset
+
+, disse Malocchio Moody a quegli sguardi confusi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Così non è stata la signorina Granger a sconfiggere Voldie, allora.
+ Non ci avevo creduto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cosa.
+\begin_inset Quotes frd
+\end_inset
+
+ Amelia Bones pronunciò la parola inespressivamente.
+\end_layout
+
+\begin_layout Standard
+Malocchio Moody le rivolse un cenno rispettoso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Albus disse che questa bacchetta va a chi batte il suo padrone precedente.
+ La strappò al vecchio Grindie, lui.
+ Poi Voldie ha battuto Albus, ieri.
+ È necessario che lo dica esplicitamente, Amelia?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia Bones stava fissando Harry, la sua bocca spalancata.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questo potrebbe non essere corretto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Mandò giù un altro groppo di quel tremendo senso di colpa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cioè, Voldemort mi ha usato come ostaggio perché io, sono stato stupido,
+ e Silente si è consegnato per salvare me, forse la bacchetta pensa che
+ questo conti come se io avessi battuto Silente.
+ Uhm, in effetti ho battuto Voldemort, però.
+ L'ho sconfitto.
+ Ma penso che sia meglio che nessuno abbia la minima idea che io fossi là.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bip.
+ Tic.
+ Uirr.
+ Ding.
+ Put.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Quello
+\emph default
+ deve aver richiesto un 
+\emph on
+qualche
+\emph default
+ sforzo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Malocchio.
+ L'uomo coperto di cicatrici inclinò lentamente la testa, un gesto di profondo
+ rispetto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non sentirti in colpa per aver perso Albus e David e Flamel, figliolo, indipende
+ntemente da quanto tu sia stato stupido.
+ Alla fine hai vinto.
+ Tutti noi insieme non ci siamo mai riusciti.
+ Solo per sicurezza, figliolo, tu e David avete distrutto anche l'horcrux
+ di Voldie? E sei 
+\emph on
+certo
+\emph default
+ che fosse quello vero?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry esitò, soppesando le probabili conseguenze della fiducia, i possibili
+ disastri del silenzio, e poi scosse la testa in risposta a Moody.
+ Aveva deciso di parlare almeno a McGonagall di ciò che si trovava ora all'inter
+no della sua scuola, comunque.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voldemort aveva\SpecialChar \ldots{}
+ parecchi horcrux, in effetti.
+ Così invece l'ho Obliato della maggior parte dei suoi ricordi, e poi l'ho
+ Trasfigurato in questo.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry alzò la mano, e indicò silenziosamente lo smeraldo sul suo anello.
+\end_layout
+
+\begin_layout Standard
+Splat.
+ Boing.
+ Splat.
+ Splat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uh
+\begin_inset Quotes frd
+\end_inset
+
+, fece Moody, appoggiandosi nuovamente allo schienale.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Minerva e io metteremo alcuni allarmi e incantesimi su quel tuo anello,
+ figliolo, se non ti dispiace.
+ Giusto nel caso in cui un giorno dovessi dimenticarti di mantenere la tua
+ Trasfigurazione.
+ E non andare a dare la caccia a qualche altro Mago Oscuro, mai, limitati
+ a vivere una vita tranquilla e pacifica.
+\begin_inset Quotes frd
+\end_inset
+
+ L'uomo coperto di cicatrici prese un fazzoletto e asciugò le perle di sudore
+ che erano apparse sulla sua fronte.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma ben fatto, ragazzo, sia tu sia David, che egli possa riposare in pace.
+ Questa è stata una sua idea, giusto? Ben fatto, dico io.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Infatti
+\begin_inset Quotes frd
+\end_inset
+
+, disse Amelia Bones, che aveva ormai riguadagnato la sua compostezza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tutti noi abbiamo verso voi due un gigantesco debito di gratitudine.
+ Ma ripeto ancora una volta che c'è una faccenda urgente che riguarda la
+ Linea Ininterrotta di Merlino.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io ritengo
+\begin_inset Quotes frd
+\end_inset
+
+, disse lentamente Minerva McGonagall, 
+\begin_inset Quotes fld
+\end_inset
+
+che sia meglio che dia le lettere di Albus al signor Potter, proprio ora.
+\begin_inset Quotes frd
+\end_inset
+
+ Sulla sommità della sua pila di fogli si trovava ora una busta di pergamena,
+ e un rotolo di pergamena avvolto e sigillato con un nastro grigio.
+\end_layout
+
+\begin_layout Standard
+La Preside diede a Harry la busta, come prima cosa, e Harry l'aprì.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Se stai leggendo questo, Harry Potter, allora io sono caduto per mano di
+ Voldemort, e l'impresa ora giace nelle tue mani.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Per quanto possa sconvolgerti venire a conoscenza di ciò, questa è la fine
+ che in cuor mio ho desiderato che venisse a compimento.
+ Poiché mentre scrivo questo, appare ancora possibile che Voldemort possa
+ cadere per mano mia.
+ E poi, col tempo, io stesso diventerò l'oscurità che tu dovrai superare,
+ per giungere nella pienezza del tuo potere.
+ Poiché una volta fu detto che potrai aver bisogno di sollevare la tua mano
+ contro il tuo mentore, colui che ti ha fatto, che tu amavi; fu detto che
+ potresti essere la mia rovina.
+ Se stai leggendo queste parole, allora tutto ciò non è mai giunto a compimento,
+ e ne sono lieto.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Anche così, Harry, vorrei risparmiartela, la lotta solitaria contro Voldemort.
+ Scrivo questo, votandomi a tenerti a riparo il più a lungo che mi sia possibile
+, non importa quale sia il prezzo finale per me stesso.
+ Ma se avessi fallito, allora sappi che ne sono lieto, a mio egoistico modo.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Con la mia dipartita, non è rimasto nessun altro a opporsi a Voldemort da
+ pari a pari eccetto te.
+ La sua ombra cadrà lunga e terribile sulla Gran Bretagna magica, e molti
+ soffriranno e morranno per essa.
+ Quell'ombra non si solleverà finché non distruggerai la sua origine, finché
+ non purificherai il cuore dell'oscurità.
+ Come dovrai farlo, io non lo so.
+ Se Voldemort non conosce il potere che impugni, neppure lo conosco io.
+ Devi trovare quel potere dentro di te, devi imparare a brandirlo, devi
+ diventare il giudice finale di Voldemort, e ti imploro di non compiere
+ l'errore di mostrargli pietà.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+La mia bacchetta, che ti ho lasciato in custodia di Moody, non devi osare
+ brandire contro Voldemort.
+ Poiché quando il padrone di quella bacchetta è sconfitto, essa passa a
+ sua volta al vincitore.
+ Quando avrai sconfitto il mio vincitore, allora la bacchetta risponderà
+ davvero alla tua mano; ma se cercherai di puntarla contro Voldemort prima
+ di allora, essa ti tradirà certamente.
+ Tienila lontano dalla stretta di Voldemort a ogni costo.
+ Dovrei suggerirti di non impugnare affatto quella bacchetta, eppure è uno
+ strumento di grande potere, di cui potresti aver bisogno in qualche caso
+ disperato.
+ Ma se la impugni devi temere il suo tradimento in ogni momento.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+In mia assenza, il Wizengamot cadrà inevitabilmente in mano a Malfoy.
+ Ho trasmesso a te la Linea Ininterrotta di Merlino, con Amelia Bones come
+ tua reggente, finché non diventerai maggiorenne od otterrai il tuo potere.
+ Ma ella non può opporsi a Malfoy a lungo, non con me scomparso e Voldemort
+ ritornato a consigliarlo.
+ Presto, ritengo, il Ministero cadrà, e Hogwarts diventerà l'ultima fortezza.
+ A Minerva ho lasciato le chiavi di Hogwarts, ma tu solo ne sei il principe,
+ ed ella ti aiuterà in qualunque modo potrà.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Ora Alastor comanda l'Ordine della Fenice.
+ Presta molta attenzione alle sue parole, sia ai suoi consigli sia alle
+ sue confidenze.
+ È uno dei rimpianti più grandi della mia vita il non aver ascoltato Alastor
+ più frequentemente e più presto.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Che tu sconfiggerai infine Voldemort, io non ho dubbi.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Poiché quello sarà solo l'inizio del destino della tua vita.
+ Anche di questo sono certo.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Quando avrai sconfitto Voldemort, quando avrai salvato questo paese, allora,
+ spero, potrai avventurarti verso il vero significato dei tuoi giorni.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Allora affrettati a iniziare.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Tuo in morte (o in quello che è),
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Silente.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+P.S.
+ Le parole d'ordine sono ‘il prezzo della fenice', ‘il fato della fenice',
+ e ‘l'uovo della fenice', pronunciate dentro il mio ufficio.
+ Minerva può spostare quelle stanze là dove ti sarà più facile raggiungerle.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry ripiegò la pergamena e la rimise dentro la busta, pensierosamente
+ corrucciato, poi prese dalla Preside il rotolo col nastro grigio.
+ Quando la lunga bacchetta grigia in mano a Harry toccò il nastro, esso
+ cadde immediatamente; e Harry srotolò il rotolo, e lo lesse.
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Caro Harry James Potter-Evans-Verres:
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+se stai leggendo questo messaggio, hai sconfitto Voldemort.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Congratulazioni.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Spero che tu abbia avuto un po' di tempo per festeggiare prima di aprire
+ questo rotolo, perché le notizie al suo interno non sono allegre.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Durante la Prima guerra dei maghi, giunse un momento in cui compresi che
+ Voldemort stava vincendo, che presto avrebbe avuto ogni cosa in suo pugno.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+In quel momento estremo, andai al Dipartimento dei Misteri e invocai una
+ parola d'accesso che non era mai stata pronunciata nella storia della Linea
+ Ininterrotta di Merlino, feci una cosa proibita eppure non completamente
+ proibita.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Ascoltai ogni profezia che era stata registrata.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+E così venni a sapere che i miei problemi erano ben più gravi di Voldemort.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Da alcuni veggenti e sensitivi era provenuto un coro sempre più forte di
+ pronostici secondo cui questo mondo è condannato alla distruzione.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+E tu, Harry James Potter-Evans-Verres, sei uno di coloro profetizzati a
+ distruggerlo.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Secondo giustizia, avrei dovuto porre fine alla tua linea delle possibilità,
+ impedirti di nascere mai, così come feci del mio meglio per porre fine
+ a tutte le altre possibilità che appresi in quel giorno di terribile consapevol
+ezza.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Eppure nel tuo caso, Harry, e solo nel tuo caso, le profezie della tua apocaliss
+e hanno delle scappatoie, sebbene quelle scappatoie siano molto flebili.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Sempre ‘egli porrà fine al mondo', non ‘egli porrà fine alla vita'.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Anche quando fu detto che avresti fatto a pezzi le stesse stelle nel cielo,
+ non fu detto che avresti fatto a pezzi le persone.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+E così, essendo chiaro che questo mondo non sia fatto per durare, ho scommesso
+ letteralmente tutto su di te, Harry James Potter-Evans-Verres.
+ Non c'erano profezie su come il mondo potesse essere salvato, così ho trovato
+ le profezie che offrivano scappatoie alla distruzione; e ho portato in
+ essere le strane e complesse condizioni affinché quelle profezie si compissero.
+ Ho assicurato che Voldemort scoprisse una in particolare tra quelle profezie,
+ e così (proprio come avevo temuto) condannai i tuoi genitori a morte e
+ feci di te ciò che sei.
+ Scrissi uno strano indizio nel libro di testo di Pozioni di tua madre,
+ senza avere alcuna idea di perché dovessi farlo; e ciò si dimostrò indicare
+ a Lily come aiutare sua sorella, e assicurò che tu guadagnassi il sincero
+ amore di Petunia Evans.
+ Mi intrufolai invisibile nella tua camera da letto a Oxford e ti somministrai
+ la pozione che è destinata agli studenti dotati di Giratempo, per estendere
+ il tuo ciclo giornaliero di due ore.
+ Quando avevi sei anni frantumai una roccia che stava sul tuo davanzale,
+ e fino a questo giorno non riesco a concepire perché.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Tutto nella speranza disperata che tu potessi farci passare attraverso l'occhio
+ del ciclone, ponendo in qualche modo fine a questo mondo eppure portandone
+ fuori vivi i suoi abitanti.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Ora che hai passato l'esame preliminare di sconfiggere Voldemort, metto
+ tutto nelle tue mani, tutti gli strumenti che sono in grado di darti.
+ La Linea Ininterrotta di Merlino, il comando dell'Ordine della Fenice,
+ tutta la mia ricchezza e tutti i miei tesori, la Bacchetta di Sambuco tra
+ i Doni della Morte, la lealtà di quelli tra i miei amici che potranno prestarmi
+ ascolto.
+ Ho lasciato Hogwarts alle cure di Minerva, poiché non penso che potrai
+ avere tempo per esso, ma anche quello sarà tuo se glielo chiederai.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Una cosa non ti concedo, e questa sono le profezie.
+ Al momento della mia dipartita, esse saranno distrutte, e nessuna sarà
+ registrata in futuro, poiché è stato detto che tu non dovrai posare il
+ tuo sguardo su di esse.
+ Se pensi che questo sia frustrante, credimi quando ti dico che anche la
+ tua arguzia non può comprendere quale frustrazione ti è stata risparmiata.
+ Io morirò, o sarò da te perduto, o in qualche altro modo ti sarò tolto
+ -- le profezie sono oscure, naturalmente -- senza mai sapere neppure una
+ volta cosa il futuro contiene veramente, o perché devo fare ciò che faccio.
+ È tutta una pazzia criptica e ti va bene a esserne privato.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Ci può essere solo un re sulla scacchiera.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Ci può essere solo un pezzo il cui valore è al di là di ogni prezzo.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Quel pezzo non è il mondo, sono gli abitanti del mondo, maghi e Babbani
+ insieme, goblin ed elfi domestici e tutti gli altri.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Fintanto che un residuo qualunque nel nostro genere sopravviverà, quel pezzo
+ sarà ancora in gioco, anche se le stelle dovessero morire nel cielo.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+E se quel pezzo fosse perduto, il gioco finirebbe.
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Conosci il valore di tutti i tuoi altri pezzi, e gioca per vincere.
+\end_layout
+
+\begin_layout Quote
+\align center
+
+\emph on
+-- Albus
+\end_layout
+
+\begin_layout Quote
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry resse il rotolo di pergamena per un lungo tempo, fissando il nulla.
+\end_layout
+
+\begin_layout Standard
+Allora.
+\end_layout
+
+\begin_layout Standard
+C'erano volte in cui la frase ‘Questo spiega tutto' non sembrava davvero
+ in grado di esprimere il concetto, ma a ogni modo, quello spiegava tutto.
+\end_layout
+
+\begin_layout Standard
+Con aria assente, Harry arrotolò la pergamena nel proprio pugno, continuando
+ a fissare il nulla.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cosa dice?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Amelia Bones.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+È una lettera di confessione
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Si scopre che è stato Silente a uccidere la mia pietra domestica.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non è il momento di scherzare!
+\begin_inset Quotes frd
+\end_inset
+
+ gridò l'anziana strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È lei l'autentico possessore della Linea Ininterrotta di Merlino?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry distrattamente, la sua mente occupata con pensieri che erano,
+ secondo qualunque quantificazione oggettiva, immensamente più importanti.
+\end_layout
+
+\begin_layout Standard
+La vecchia strega era seduta immobile nella sua sedia.
+ Girò la testa, e incrociò lo sguardo con Minerva McGonagall.
+\end_layout
+
+\begin_layout Standard
+Nel frattempo il cervello di Harry, che stava tenendo in gioco contemporaneament
+e troppe possibilità su troppi orizzonti temporali, alcuni dei quali comportavan
+o letteralmente miliardi di anni e procedure di disassemblamento stellare,
+ dichiarò bancarotta cognitiva e ricominciò da capo.
+ 
+\emph on
+Va bene, qual è la prima cosa che devo fare per salvare il mondo...
+ no facciamola ancora più locale, cosa devo fare 
+\emph default
+oggi
+\emph on
+...
+ oltre a scoprire cosa fare, cioè, e farei meglio a non ritardare prima
+ di andare a vedere qualunque cosa Silente mi abbia lasciato nella stanza
+ dell'Uovo della Fenice...
+\end_layout
+
+\begin_layout Standard
+Harry alzò lo sguardo dalla pergamena arrotolata e guardò la professoressa-
+ la preside McGonagall, Malocchio Moody, e la vecchia strega dall'aspetto
+ coriaceo, come se li vedesse per la prima volta.
+ Sebbene egli stesse in fatti vedendo Amelia Bones per lo più per la prima
+ volta.
+\end_layout
+
+\begin_layout Standard
+Amelia Bones, capo del Dipartimento per l'Applicazione della Legge Magica,
+ che Albus Silente aveva ritenuto essere degna di guidare il Wizengamot
+ quanto meno temporaneamente.
+ La sua cooperazione sarebbe stata inestimabile, forse 
+\emph on
+necessaria
+\emph default
+, per...
+ per qualunque cosa dovesse arrivare sul cammino di Harry.
+ Silente aveva scelto lei, ed egli aveva letto profezie che Harry non aveva
+ visto.
+\end_layout
+
+\begin_layout Standard
+Amelia Bones, che aveva pensato di essere stata nominata reggente della
+ Linea Ininterrotta di Merlino e scelta come prossimo Stregone Capo, solo
+ per scoprire che invece quella posizione era andata, apparentemente, a
+ un ragazzo undicenne.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ora tu
+\emph default
+, disse la voce di Tassofrasso dentro la sua testa, 
+\emph on
+ora tu sarai gentile.
+ Non la tua solita variante di maledettamente idiota.
+ Perché il destino del mondo potrebbe dipendere da ciò.
+ Non lo sappiamo neppure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sono terribilmente dispiaciuto per tutto ciò
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry Potter, poi si fermò per vedere che effetto avrebbe prodotto
+ quella dichiarazione gentile, se mai ne avesse prodotto uno.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Minerva sembra pensare
+\begin_inset Quotes frd
+\end_inset
+
+, disse la vecchia strega, 
+\begin_inset Quotes fld
+\end_inset
+
+che lei non si offenderà per parole oneste.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì.
+ La sua parte Corvonero voleva includere l'avvertenza circa il fatto che
+ quello fosse diverso dal tentativo palese di denigrarti, lamentandosi al
+ contempo che eri intollerante delle critiche, ma Tassofrasso pose il veto.
+ Qualunque cosa avesse da dire, Harry l'avrebbe ascoltata.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non desidero parlar male di coloro che sono dipartiti
+\begin_inset Quotes frd
+\end_inset
+
+, disse la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma da tempo immemore, la Linea Ininterrotta di Merlino è passata a coloro
+ che hanno dimostrato 
+\emph on
+ampiamente
+\emph default
+ di essere, non solo persone buone, ma abbastanza sagge da distinguere successor
+i che siano a loro volta sia buoni sia saggi.
+ Una singola interruzione, in qualunque punto della catena, e la successione
+ potrebbe deviare e non tornare mai indietro! È stato un atto folle quello
+ di Silente di passarle la Linea a un'età così giovane, anche avendola resa
+ condizionale alla sua sconfitta di Tu-Sai-Chi.
+ Una macchia sull'eredità di Silente, questo è come sarà vista.
+\begin_inset Quotes frd
+\end_inset
+
+ La vecchia strega esitò, i suoi occhi stavano ancora guardando Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che sia meglio che nessuno al di fuori di questa stanza ne venga mai
+ a conoscenza.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm
+\begin_inset Quotes frd
+\end_inset
+
+, fece Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lei...
+ non ha una grande opinione di Silente, deduco?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Pensavo...
+\begin_inset Quotes frd
+\end_inset
+
+ disse la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Beh.
+ Albus Silente era un mago migliore di me, una 
+\emph on
+persona
+\emph default
+ migliore di me, in più modi di quanti possa facilmente contare.
+ Ma quell'uomo aveva i suoi difetti.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Perché, uhm.
+ Cioè.
+ Silente 
+\emph on
+sapeva
+\emph default
+ ogni cosa che lei ha appena detto.
+ Sul mio essere giovane e su come funzioni la Linea.
+ Lei si sta comportando come se pensasse che Silente fosse all'oscuro di
+ questi fatti, o li stesse ignorando, quando prese le sue decisioni.
+ È vero che talvolta la gente stupida, come me, prende decisioni così folli.
+ Ma non Silente.
+ Lui 
+\emph on
+non era
+\emph default
+ pazzo.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry deglutì, sforzandosi di allontanare un'improvvisa umidità dai suoi
+ occhi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso...
+ sto iniziando a capire...
+ Silente era l'unica persona sana di mente, in tutto questo, per tutto questo
+ tempo.
+ 
+\emph on
+L'unica
+\emph default
+ che stava facendo le cose giuste per qualcosa di anche solo lontanamente
+ simile alle ragioni giuste...
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Madam Bones stava maledicendo sottovoce, basse e disperate imprecazioni
+ che stavano facendo sussultare Minerva McGonagall.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry impotente.
+\end_layout
+
+\begin_layout Standard
+Malocchio stava ghignando, il volto coperto di cicatrici contorto in un
+ sorriso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho sempre saputo che Albus avesse in mente 
+\emph on
+qualcosa
+\emph default
+ di cui non ha mai detto nulla a tutti noi.
+ Ragazzo, non hai idea di quanto sia difficile per me non usare il mio Occhio
+ su quel rotolo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry spinse rapidamente il rotolo nella propria borsa mokeskin.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Alastor
+\begin_inset Quotes frd
+\end_inset
+
+, disse Amelia.
+ La voce della vecchia strega stava salendo di volume.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sei un uomo di buon senso, non puoi pensare che il ragazzo sia in grado
+ di sostituire Silente! Non 
+\emph on
+oggi!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Silente
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, il nome aveva uno strano sapore sulla sua lingua, 
+\begin_inset Quotes fld
+\end_inset
+
+ha davvero fatto un'ipotesi sbagliata, quando ha preso le sue decisioni.
+ Pensava che avremmo combattuto Voldemort per anni, tutti noi insieme.
+ Non sapeva che avrei sconfitto Voldemort immediatamente.
+ È stata la cosa giusta da fare, da parte mia, ha salvato parecchie vite
+ rispetto al combattere una lunga battaglia.
+ Ma Silente pensava che voi avreste avuto anni per imparare a conoscermi,
+ a fidarvi di me...
+ e invece è finito tutto in una sera.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry inspirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non potete semplicemente 
+\emph on
+fingere
+\emph default
+ che abbiamo combattuto Voldemort per anni e mi sono guadagnato la vostra
+ fiducia e tutto il resto? Così che io non sia penalizzato per aver vinto
+ più rapidamente di quanto Silente si aspettasse?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lei è ancora uno studente del primo anno di Hogwarts!
+\begin_inset Quotes frd
+\end_inset
+
+ disse la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non 
+\emph on
+può
+\emph default
+ prendere il posto di Silente, quali che fossero le sue intenzioni!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Giusto, la faccenda del ‘sembri un undicenne'.
+\begin_inset Quotes frd
+\end_inset
+
+ La mano di Harry si alzò, strofinò il suo naso là dove si trovavano gli
+ occhiali.
+ 
+\emph on
+Suppongo che potrei semplicemente usare la Pietra, cambiarmi in modo da
+ sembrare novantenne...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non sono una stupida
+\begin_inset Quotes frd
+\end_inset
+
+, disse la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+So che lei non è un normale bambino.
+ L'ho vista parlare con Lucius Malfoy, l'ho guardata spaventare un Dissennatore,
+ e ho assistito quando Fawkes ha esaudito la sua preghiera.
+ Chiunque con un po' di saggezza l'abbia vista davanti al Wizengamot --
+ e intendo dire me e al più altre due persone -- avrebbe potuto indovinare
+ che lei aveva assorbito qualche parte dell'anima lacerata di Tu-Sai-Chi
+ la notte della sua non-morte, ma che l'aveva controllata e aveva virato
+ la sua conoscenza a buoni fini.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu una breve pausa nella stanza.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh, sì, naturalmente
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva McGonagall.
+ Sospirò, accasciandosi un po' nella sedia della Preside.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa che Albus chiaramente sapeva 
+\emph on
+sin dal principio
+\emph default
+, ma di cui si è premurosamente astenuto dall'avvertirmi 
+\emph on
+in qualunque modo
+\emph default
+.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Giusto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Moody.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+L'avevo capito.
+ Già.
+ Perfettamente ovvio.
+ Non ero affatto confuso.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Credo che sia abbastanza vicino alla realtà
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quindi, uhm.
+ Qual è il problema, esattamente?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Il problema
+\begin_inset Quotes frd
+\end_inset
+
+, rispose Amelia Bones, la sua voce perfettamente calma, 
+\begin_inset Quotes fld
+\end_inset
+
+è che lei è una miscela ribollente e instabile di uno studente del primo
+ anno di Hogwarts e di Tu-Sai-Chi.
+\begin_inset Quotes frd
+\end_inset
+
+ Fece una pausa, come aspettando qualcosa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Su questo sto migliorando
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, poiché ella sembrava aspettare la sua risposta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Alquanto rapidamente, in effetti.
+ Cosa più importante, non è qualcosa che Silente non sapesse.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La vecchia strega continuò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dar via la sua fortuna e contrarre un debito con Lucius Malfoy per tenere
+ la sua migliore amica fuori da Azkaban, dimostra tanto il suo carattere
+ morale virtuoso, quanto che non è in grado di riunire il Wizengamot.
+ Ora posso capire che lei abbia fatto la cosa giusta per sé stesso, la cosa
+ che doveva fare per mantenere la presa sulla sua sanità mentale e tenere
+ a bada la sua intima oscurità.
+ Ma fece anche una cosa che l'erede di Merlino non deve fare.
+ Un condottiero sentimentale può essere molto peggiore di uno egoista.
+ Albus, padrone e servo di una fenice, era a malapena in grado di sopravvivere
+ -- e persino lui le si oppose quel giorno.
+\begin_inset Quotes frd
+\end_inset
+
+ Amelia fece un gesto in direzione di Malocchio Moody.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Alastor ha la durezza.
+ Ha la scaltrezza.
+ Non ha ancora il talento per governare.
+ Lei, Harry Potter, non ha ancora la severità, la capacità di compiere un
+ sacrificio, per dirigere nemmeno l'Ordine della Fenice.
+ Ed essendo ciò che lei è, lei 
+\emph on
+non deve tentare
+\emph default
+ di essere quella persona.
+ Non ora, non alla sua età.
+ Allinei e fonda la sua anima separata nel tempo che le è necessario, se
+ mai ne fosse capace.
+ Non cerchi di essere lo Stregone Capo mentre lo sta facendo.
+ Se Albus ha pensato che fosse una buona idea, si stava fabbricando una
+ storia più facile a spese del senso pratico del mondo reale.
+ E io sono convinta che quell'uomo avesse questo problema.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gli occhi di Harry si erano un po' spalancati, sentendo tutto ciò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Uhm...
+ cosa esattamente pensa che stia succedendo qui?
+\begin_inset Quotes frd
+\end_inset
+
+ Harry batté col dito sopra il proprio orecchio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Immagino che dentro di lei vi sia l'anima di un ragazzo che resta onesto
+ e sincero, raccogliendo la propria volontà per domare il frammento dello
+ spirito di Voldemort che cerca di consumarlo, proprio mentre gli urla contro
+ che è sentimentale e debole -- ha forse ridacchiato, proprio ora?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi scusi.
+ Ma seriamente, non è mai stato 
+\emph on
+così
+\emph default
+ brutto.
+ Più simile ad avere parecchie cattive abitudini che si devono perdere.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ahem
+\begin_inset Quotes frd
+\end_inset
+
+, fece la preside McGonagall.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Signor Potter, penso che all'inizio di quest'anno 
+\emph on
+fosse
+\emph default
+ così brutto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cattive abitudini che si incatenavano e si innescavano l'un l'altra.
+ Sì, quelle sono un problema un po' più grosso.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry sospirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E lei, Madam Bones...
+ ehm.
+ Mi scusi se mi sbaglio.
+ Ma è mia opinione che lei si senta un po' agitata per il fatto che la Linea
+ sia andata a un undicenne, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non nel modo in cui lei pensa
+\begin_inset Quotes frd
+\end_inset
+
+, disse con calma la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sebbene sia naturale che lei sospetti di me.
+ La posizione dello Stregone Capo non è una che troverei piacevole, anche
+ a paragone degli orrori dell'Applicazione della Legge Magica.
+ Albus mi convinse a riguardo, e vorrei dire che ebbi bisogno di un certo
+ atto di convincimento, ma la verità è che non sprecai il suo tempo in una
+ discussione che mi aspettavo di perdere.
+ Sapevo che avrei odiato il compito, e sapevo che l'avrei svolto comunque.
+ Minerva dice che lei ha una certa quantità di buon senso, specialmente
+ quando gli altri glielo ricordano.
+ Si può davvero immaginare in piedi sull'alto podio del Wizengamot? È sicuro
+ che non si tratti di qualche resto di Tu-Sai-Chi che si immagina adatto
+ per quella posizione, o che addirittura la desidera?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry si tolse gli occhiali e si massaggiò la fronte.
+ La sua cicatrice gli faceva ancora un po' male, dal danno che aveva causato
+ quando l'aveva stuzzicata, il giorno prima, fino a farla sanguinare in
+ un modo adeguatamente drammatico.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho un po' di buon senso, e sì, essere Stregone Capo sembra un'enorme quantità
+ di seccature e un lavoro che, in realtà, non mi è adatto neppure lontanamente.
+ Il problema è.
+ Uhm.
+ Non sono sicuro che la Linea di Merlino si limiti a essere qualcosa di
+ collegato al ruolo di Stregone Capo.
+ C'è, uhm.
+ Sospetto....
+ che ci sia dell'altra roba strana che è collegata ad essa.
+ E che Silente volesse che mi prendessi la responsabilità per...
+ l'altra roba.
+ E che l'altra roba sia...
+ probabilmente piuttosto 
+\emph on
+incredibilmente
+\emph default
+ importante.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cacchio
+\begin_inset Quotes frd
+\end_inset
+
+, fece Moody.
+ Poi ripeté, 
+\begin_inset Quotes fld
+\end_inset
+
+Cacchio.
+ Ragazzino, pensi che dovresti anche solo dire questa cosa a noi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non lo so
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se c'era un manuale utente, non ci ho dato ancora un'occhiata.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cacchio.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E se queste altre faccende richiedessero severità e sacrificio?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Amelia Bones, ancora con calma.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se la mettessero alla prova come è stato messo alla prova davanti al Wizengamot?
+ Sono vecchia, Harry Potter, e non sono priva di conoscenze riguardo ai
+ misteri.
+ Lei ha visto come sono stata in grado di percepire la sua natura quasi
+ con un'occhiata.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Amelia
+\begin_inset Quotes frd
+\end_inset
+
+, intervenne Malocchio Moody.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa sarebbe successo se tu avessi dovuto combattere Tu-Sai-Chi ieri notte?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La vecchia strega scrollò le spalle.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sarei morta, direi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Avresti 
+\emph on
+perso
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse Alastor Moody.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E il Ragazzo-Che-È-Sopravvissuto non ha soltanto tolto di mezzo Voldie,
+ l'ha imbastita in maniera tale che la sua buona amica Hermione Granger
+ tornasse 
+\emph on
+indietro dalla morte
+\emph default
+ nello stesso momento in cui Voldie si è risuscitato.
+ Non c'è modo né in cielo né in terra che quello sia stato un caso, e non
+ penso neppure che sia stata un'idea di David.
+ Amy, la verità è, nessuno di noi sa cosa il custode dell'eredità di Merlino
+ deve 
+\emph on
+fare
+\emph default
+.
+ Ma noi non siamo folli nel modo giusto per questo genere di cazzate.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia Bones si accigliò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Alastor, sai che mi sono occupata di cose strane in passato.
+ Me ne sono occupata piuttosto bene, secondo me.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Già.
+ Ti sei 
+\emph on
+occupata
+\emph default
+ delle cazzate in modo da poter tornare alla tua vita reale.
+ Non sei il genere di pazzo che costruisce un castello di cazzate e ci abita
+ dentro.
+\begin_inset Quotes frd
+\end_inset
+
+ Moody sospirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Amy, a un certo livello tu sai esattamente perché Albus ha dovuto lasciare
+ chissà quale lavoro al povero ragazzo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I pugni della vecchia strega si contrassero sul tavolo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Hai una qualche idea del 
+\emph on
+disastro
+\emph default
+ che sarebbe per la Gran Bretagna? Chiamami folle, ma non posso accettare
+ questo risultato! Ho lavorato troppo a lungo per questo giorno per vederlo
+ cadere completamente a pezzi ora, di tutti i momenti proprio 
+\emph on
+ora!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Scusatemi
+\begin_inset Quotes frd
+\end_inset
+
+, disse la preside McGonagall, sembrando piuttosto precisa e scozzese.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+C'è qualche ragione per cui il signor Potter non possa semplicemente dare
+ istruzioni alla Linea che Madam Bones è la sua reggente per la posizione
+ di Stregone Capo, ma non per tutto ciò che concerne il Dipartimento dei
+ Misteri, fino alla sua maggiore età? Se Albus ha potuto dire alla Linea
+ di nominare un reggente solo fino alla sconfitta di Voldemort, è chiaramente
+ in grado di seguire ordini complessi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lentamente, quell'improvviso colpo di maglio di buon senso fu assorbito
+ da ciascuno dei presenti.
+\end_layout
+
+\begin_layout Standard
+Harry aprì la bocca per concordare nel nominare Amelia Bones sua reggente
+ per le faccende relative al Wizengamot, e poi esitò di nuovo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm
+\begin_inset Quotes frd
+\end_inset
+
+, fece Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Uhm.
+ Madam Bones, preferirei di gran lunga se lei si facesse carico di gestire
+ il Wizengamot al mio posto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+In questo concordiamo
+\begin_inset Quotes frd
+\end_inset
+
+, disse la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Facciamo sì che sia sancito?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ma
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fu come se gli altri si afflosciassero un po', frustrati.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Qual è il problema, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese la Preside, con una voce che indicava come sperasse che non fosse
+ nulla di serio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm.
+ Penso che vi siano un paio di cose che potrei dover fare molto presto che
+ potrebbero...
+ dimostrarsi politicamente controverse, e in cambio della consegna del potere
+ politico della Linea a Madam Bones ho intenzione di chiedere la sua...
+ uhm, cooperazione su certe cose.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia Bones scambiò un'altra lunga occhiata con Minerva McGonagall.
+ Poi tornò a guardare Harry Potter.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sono indignata per la sua richiesta!
+\begin_inset Quotes frd
+\end_inset
+
+ disse Amelia Bones.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La sua esitazione mi dice che lei è debole e non è abituato alla negoziazione,
+ e che probabilmente rinuncerà se dovessi resistere.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry chiuse gli occhi.
+\end_layout
+
+\begin_layout Standard
+Un Harry 
+\emph on
+leggermente
+\emph default
+ accennato di oscurità li aprì.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+mi lasci riformulare la frase.
+ Non intendo interferire con il suo lavoro su base giornaliera o anche mensile,
+ ma non posso semplicemente buttar via la responsabilità finale che Silente
+ mi ha lasciato.
+ Non le manderò via gufo delle pergamene bizzarre di punto in bianco, ci
+ potrà essere prima una discussione, ma a un certo punto potrei doverle
+ dare un ordine.
+ Se dovesse disubbidire all'ordine potrei dover riprendere le funzioni del
+ Wizengamot della Linea e assumere un controllo diretto.
+ Riesce a sopportarlo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E se rispondessi di no?
+\begin_inset Quotes frd
+\end_inset
+
+ disse la vecchia strega.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Leggero, leggero quell'accenno di oscurità...
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non ho pronta un'alternativa a lei.
+ Potrei iniziare chiedendo ad Augusta Longbottom chi pensa che possa essere
+ adatto e partire da lì.
+ Ma potrebbe essere importante mantenere quanto più possibile il piano di
+ Silente, poiché non conosco esattamente perché egli ha fatto le cose che
+ ha fatto, ed egli pensava che Amelia Bones dovesse essere Stregone Capo
+ per un certo tempo.
+ Non ho intenzione di ricorrere al nome di Merlino con lei, ma...
+ no, ignori questa frase, ho 
+\emph on
+intenzione
+\emph default
+ di ricorrere al nome di Merlino con lei, questo potrebbe essere o meno
+ follemente importante.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La vecchia strega rifletté per un po' di tempo, i suoi occhi che andavano
+ da persona a persona intorno al tavolo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non ne sono soddisfatta
+\begin_inset Quotes frd
+\end_inset
+
+, disse dopo un po'.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma il Wizengamot deve essere riportato presto all'ordine.
+ Per ora sarà sufficiente.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lentamente la vecchia strega mise la mano nelle proprie vesti, ed estrasse
+ una corta verga di pietra, pietra scura.
+\end_layout
+
+\begin_layout Standard
+Pose la verga sul tavolo davanti a Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Prenda ciò che è suo
+\begin_inset Quotes frd
+\end_inset
+
+, disse.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E poi la prego di ridarmelo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry allungò la mano per prenderla.
+\end_layout
+
+\begin_layout Standard
+Nel momento in cui le dita di Harry toccarono per la prima volta la pietra
+ scura
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+-- non avvenne nulla.
+\end_layout
+
+\begin_layout Standard
+Beh, forse Merlino non era stato propenso al melodramma.
+ Questo avrebbe spiegato perché la sua eredità finale aveva l'aspetto di
+ una piccola verga scura senza pretese.
+ Se quello era tutto ciò che era necessario alla sua funzione, quello era
+ tutto ciò che ci sarebbe stato.
+\end_layout
+
+\begin_layout Standard
+Harry prese la Linea, accigliandosi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Vorrei nominare Amelia Bones quale mia reggente per le funzioni relative
+ al Wizengamot.
+\begin_inset Quotes frd
+\end_inset
+
+ Poi, cogliendolo il pensiero che aveva bisogno di uno specifico punto di
+ interruzione per definire una reggenza, Harry aggiunse, 
+\begin_inset Quotes fld
+\end_inset
+
+Finché non dirò che l'ho ripresa.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poi Harry fece una smorfia.
+ Aveva sperato qualcosa di più dalla Linea, ma era solo una chiave per posti
+ nel Dipartimento dei Misteri dove erano conservate cose interessanti.
+ o per sigilli in cui Merlino e i suoi successori avevano nascosto cose
+ che non sarebbero dovute essere distrutte ma che sarebbero dovute essere
+ tenute lontane dalla circolazione generale.
+ A parte quello, la Linea non faceva granché.
+\end_layout
+
+\begin_layout Standard
+La Linea non ti permetteva neppure di aggirare l'Interdetto di Merlino.
+ No, neppure se era in gioco il destino della galassia.
+ Neppure se la persona sembrava sana di mente, aveva pronunciato un Voto
+ Infrangibile, e credeva onestamente che il mondo sarebbe andato altrimenti
+ distrutto.
+\end_layout
+
+\begin_layout Standard
+Merlino aveva sognato un lungo percorso, un mondo che sarebbe durato per
+ eoni e non solo secoli.
+ Il mondo non aveva alcun motivo di non durare 
+\emph on
+per sempre
+\emph default
+, se i poteri realmente pericolosi fossero stati rimossi e tenuti lontani.
+ Al contrario, una singola scappatoia nelle protezioni rendeva la distruzione
+ del mondo solo una questione di tempo.
+ Un giorno la Linea di Merlino sarebbe passata alla persona sbagliata.
+ Poteva rifiutare i palesemente indegni, ma prima o poi sarebbe finita in
+ mani troppo sottilmente imperfette da essere riconosciute dalla Linea stessa.
+ Quello era inevitabile, quando si trattava di esseri umani, e Harry aveva
+ bisogno di tenerlo a mente prima di sigillare qualcosa là dove i futuri
+ detentori della Linea potessero recuperarla -- il disastro del suo inevitabile
+ abuso 
+\emph on
+in futuro
+\emph default
+ doveva essere superato dai suoi benefici nel corso delle prossime poche
+ migliaia di anni.
+\end_layout
+
+\begin_layout Standard
+Harry emise un corto e triste sospiro, sommessamente.
+ 
+\emph on
+Merlino, idiota...
+\end_layout
+
+\begin_layout Standard
+Pensare ciò non fece aprire nessuna protezione finale.
+\end_layout
+
+\begin_layout Standard
+Non c'era nulla attualmente in fiamme nel Dipartimento dei Misteri, così
+ Harry collocò attentamente la Linea di nuovo sul tavolo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Grazie
+\begin_inset Quotes frd
+\end_inset
+
+, disse la vecchia strega.
+ Raccolse la verga di pietra scura.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sapete come dovrei usarla per richiamare il Wizengamot all'ordine, o --
+ come non detto, vedrò di batterla sul podio.
+ Questo mi sembra abbastanza scontato.
+ Per il resto del paese, naturalmente, io sono lo Stregone Capo per quanto
+ chiunque sappia eccetto noi quattro.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry esitò.
+ Poi immaginò i gufi che avrebbe ricevuto se qualcuno avesse saputo che
+ gli era permesso di anticipare le decisioni dello Stregone Capo, e cosa
+ quello avrebbe fatto al potere di negoziazione di Amelia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Va bene.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia rimise la verga nelle proprie vesti.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non dirò che è stato un piacere fare affari con lei, Ragazzo-Che-È-Sopravvissuto
+, ma sarebbe potuto essere molto peggio.
+ La ringrazio sinceramente per questo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry era già preoccupato dell'esatto rapporto di poteri, per il modo in
+ cui Madam Bones stava agendo.
+ Gli altri avevano, piuttosto logicamente, dedotto che era stato per lo
+ più David Monroe a progettare il modo di sconfiggere Voldemort, il che
+ significava che lo stavano ancora sottovalutando.
+ Poteva volerci una crisi di un qualche tipo, con Harry che la risolveva
+ per una volta bene invece di rovinare tutto, prima che Amelia Bones iniziasse
+ a rispettare la sua autorità.
+ O anche solo semplicemente crederci, in effetti...
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Allora
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Qualche stranezza per me che avreste portato a Silente quando c'era lui?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia sembrò pensierosa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Poiché lo chiede....
+ posso pensare a tre cose, infatti.
+ Primo, non abbiamo la minima nozione di quale rituale sia stato usato per
+ sacrificare i Mangiamorte e far risorgere Tu-Sai-Chi.
+ Non corrisponde ad alcuna leggenda conosciuta, e le tracce magiche lasciate
+ dal rituale sono state cancellate.
+ Per quanto possono dire i miei Auror, le teste di tutti quanti sono cadute
+ dai colli per cause naturali.
+ Eccetto per Walden McNair, che è stato ucciso da un fuoco magico dopo aver
+ lanciato una Maledizione Mortale dalla propria bacchetta.
+ Un rituale in effetti molto misterioso.
+\begin_inset Quotes frd
+\end_inset
+
+ Stava rivolgendo a Harry Potter uno sguardo piuttosto 
+\emph on
+preciso
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Harry valutò la cosa, scegliendo attentamente le parole.
+ Voldemort aveva detto di aver messo delle protezioni, così Harry era stato
+ sicuro di non essere osservato da Auror con Giratempo, eppure...
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che questa sia una faccenda che non dovreste investigare troppo a
+ fondo, Madam Bones.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La vecchia strega accennò un ghigno.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non possiamo essere visti prendere troppo alla leggere un'indagine su così
+ tanti Nobili decessi, Harry Potter.
+ Quando l'ho sentita raccontare la sua particolare versione della resistenza
+ finale di David, mi sono assicurata di mandare investigatori che considero
+ 
+\emph on
+affidabili
+\emph default
+ per la consueta qualità del loro lavoro.
+ Auror Nobbs e Auror Colon, in effetti, che sono ampiamente rispettati al
+ di fuori del mio Dipartimento.
+ Ho trovato il loro rapporto una lettura piuttosto affascinante.
+\begin_inset Quotes frd
+\end_inset
+
+ Amelia fece una pausa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+C'è una possibilità che Augustus Rookwood abbia lasciato un fantasma
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Esorcizzatelo prima che qualcuno ci parli
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, cosciente dell'improvviso martellamento del suo cuore.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì, signore
+\begin_inset Quotes frd
+\end_inset
+
+, disse ironicamente la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Disturberò un po' l'ancoraggio dell'anima, e nessuno si accorgerà di nulla
+ quando non riuscirà a materializzarsi.
+ La seconda faccenda è che è stato trovato un braccio umano ancora vivente
+ tra le cose del Signore Oscuro
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Bellatrix
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ La sua mente aveva fatto un salto all'indietro, compiuto il collegamento
+ che un trauma in corso aveva sfumato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che sia il braccio di Bellatrix Black.
+\begin_inset Quotes frd
+\end_inset
+
+ 
+\emph on
+Lesath Lestrange non è stato nominato tra quelli che hanno perso un genitore.
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Oh, diavolo.
+ È ancora là fuori, no? Potete usare il suo braccio per rintracciarla in
+ qualche modo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia Bones aveva adottato un'espressione amareggiata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Capisco.
+ Come stavo dicendo, un braccio umano ancora vivente è stato trovato tra
+ le cose del Signore Oscuro, ma si è dimostrato facile da incenerire.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quale 
+\emph on
+idiota
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Harry si fermò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+No, 
+\emph on
+non
+\emph default
+ un idiota.
+ Perché distruggere immediatamente oggetti Oscuri è una prassi del Dipartimento.
+ A causa di passate esperienze con anelli che sarebbero dovuti essere davvero
+ gettati subito in un vulcano.
+ Giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Moody e Amelia annuirono in unisono.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ottima intuizione, figliolo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Moody.
+\end_layout
+
+\begin_layout Standard
+Poteva sembrare letterariamente inevitabile che la stupidità passata di
+ Harry sarebbe tornata a perseguitarlo in un qualche modo orribile in seguito,
+ ma non c'era ragione per non cercare di sovvertire la trama.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi aspetto che ci abbiate già pensato
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+ma l'ovvio passo successivo è quello di pubblicare il vostro equivalente
+ di un bollettino internazionale per una strega magra cui manca il braccio
+ sinistro.
+ Oh, e aggiungete venticinquemila Galeoni promessi da me -- Preside, va
+ bene, la prego di fidarsi di me su questo -- a qualunque ricompensa venga
+ offerta.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ben detto.
+\begin_inset Quotes frd
+\end_inset
+
+ La vecchia strega si chinò leggermente in avanti.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La terza e ultima faccenda...
+ c'era un elemento veramente enigmatico negli eventi di ieri sera, e sono
+ curiosa di vedere cosa ne capirà lei, Harry Potter.
+ Tra i cadaveri sono stati trovati la testa e il corpo di Sirius Black.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Cosa?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ gridò Moody, alzandosi a metà dalla sedia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Pensavo fosse ad Azkaban!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E così è
+\begin_inset Quotes frd
+\end_inset
+
+, disse Madam Bones.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Abbiamo controllato subito.
+ Le guardie di Azkaban hanno riferito che Sirius Black era ancora nella
+ sua cella.
+ La testa e il corpo di Black sono stati trasportati all'obitorio del St.
+ Mungo's, e mostrano la stessa causa di decesso degli altri Mangiamorte,
+ vale a dire, la sua testa si è staccata spontaneamente.
+ Mi è stato anche riferito che Sirius Black è, a stamattina, seduto nell'angolo
+ della sua cella dondolandosi avanti e indietro con la testa tra le mani.
+ Non è stato trovato nessun altro Mangiamorte duplicato.
+ Per ora.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu una pausa riempita da oggetti ticchettanti e ululanti, mentre le persone
+ consideravano la faccenda.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ah...
+\begin_inset Quotes frd
+\end_inset
+
+ fece Minerva.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo non è possibile neppure secondo i parametri di possibilità di Tu-Sai-Chi.
+ O no?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Avrei pensato anch'io così quando avevo la tua età, cara
+\begin_inset Quotes frd
+\end_inset
+
+, disse Amelia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È la sesta cosa più strana che abbia mai visto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Capisci, figliolo?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Moody.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo genere di cose è il motivo per cui nessuno, neppure io, può essere
+ abbastanza paranoico.
+\begin_inset Quotes frd
+\end_inset
+
+ L'uomo coperto di cicatrici inclinò la testa, sembrando pensieroso, mentre
+ il suo occhio blu brillante continuava a ruotare in continuazione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Fratello gemello, nascosto dal resto del mondo? Walpurga Black ha dato alla
+ luce due gemelli, non poteva sopportare di ucciderne uno, sapeva che il
+ vecchio Pollux l'avrebbe preteso...
+ nah, non ci credo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Qualche idea, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Amelia Bones.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+O questa è un'altra faccenda in cui il mio Dipartimento non dovrebbe investigare
+ troppo da vicino?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry chiuse gli occhi e pensò.
+\end_layout
+
+\begin_layout Standard
+Sirius Black aveva dato la caccia a Peter Pettigrew, invece di fuggire dal
+ paese come avrebbe suggerito il buon senso.
+\end_layout
+
+\begin_layout Standard
+Black era stato trovato in mezzo alla strada, circondato da cadaveri, che
+ rideva.
+\end_layout
+
+\begin_layout Standard
+Nulla era rimasto di Pettigrew eccetto un dito.
+\end_layout
+
+\begin_layout Standard
+Pettigrew era stato una spia per la Luce, non un doppio agente ma qualcuno
+ che si intrufolava in giro e scopriva cose.
+\end_layout
+
+\begin_layout Standard
+Una delle teorie cospirazioniste su Pettigrew era stata che egli fosse un
+ Animagus, poiché era stato bravo a rovistare alla ricerca di segreti anche
+ durante i suoi anni a Hogwarts.
+\end_layout
+
+\begin_layout Standard
+I Dissennatori fiaccavano tutta la magia vicina a loro.
+\end_layout
+
+\begin_layout Standard
+Il professor Quirrell aveva detto qualcosa a proposito di un particolare
+ tipo di magia che riarrangiava la carne come un fabbro Babbano che rimodella
+ il metallo con martello e pinze...
+\end_layout
+
+\begin_layout Standard
+Harry aprì di nuovo gli occhi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Peter Pettigrew era un Metamorphmagus segreto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il volto di Amelia Bones cambiò.
+ Emise un singolo gracidio e ricadde nella sedia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì, in effetti\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse lentamente Minerva.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sirius Black ha lanciato un Confundus su Peter Pettigrew
+\begin_inset Quotes frd
+\end_inset
+
+, spiegò pazientemente la voce di Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+per obbligarlo a cambiare forma e fingere di essere Black.
+ Quando il Confundus si consumò, Peter era già dentro Azkaban e non poté
+ ritornare alla forma originale.
+ Gli Auror sono abituati a sentire dire alla gente dentro Azkaban assolutamente
+ qualunque cosa per uscire, quindi non ascoltarono quando Peter Pettigrew
+ urlava questo fatto ripetutamente finché la sua voce non si consumò.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Persino il volto di Malocchio Moody mostrò l'orrore, allora.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+A posteriori
+\begin_inset Quotes frd
+\end_inset
+
+, disse la voce di Harry, che sembrava star operando interamente in automatico,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+vi sareste dovuti insospettire quando siete riusciti a trascinare 
+\emph on
+quel
+\emph default
+ Mangiamorte ad Azkaban senza un processo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Pensavamo che Malfoy fosse distratto
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò la vecchia strega.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Che stesse cercando solo di salvare sé stesso.
+ Ci furono altri Mangiamorte che riuscimmo a catturare allora, come Bellatrix
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì, sentendo come se la sua testa e il suo collo si muovessero
+ con i fili di una marionetta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il servitore più fanatico e devoto del Signore Oscuro, un naturale nucleo
+ d'opposizione per chiunque contestasse il controllo dei Mangiamorte da
+ parte di Lucius.
+ Pensavate che Lucius fosse distratto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Tiratelo fuori da là
+\begin_inset Quotes frd
+\end_inset
+
+, disse Minerva McGonagall.
+ La sua voce si alzò fino a diventare un urlo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Tiratelo fuori da là!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia Bones si alzò in piedi dalla sedia, piroettò verso la Metropolvere
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ferma.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tutti guardarono Harry con stupore, nessuno più di Minerva McGonagall.
+\end_layout
+
+\begin_layout Standard
+Qualcos'altro sembrava aver preso possesso della voce di Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ci sono quattro cose che dobbiamo ancora discutere.
+ Un uomo innocente è stato dentro Azkaban per dieci anni, otto mesi e quattordic
+i giorni.
+ Può stare là per qualche minuto in più.
+ Tanto sono urgenti quelle quattro cose.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lei
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ sussurrò Amelia Bones.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non dovrebbe cercare di essere questa persona, alla sua età
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Primo.
+ Penso che dovrei leggere tutti i verbali di polizia di ogni altro Mangiamorte
+ che è andato ad Azkaban 
+\emph on
+mentre Lucius era distratto
+\emph default
+.
+ Può compilarli per stanotte?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Entro un'ora
+\begin_inset Quotes frd
+\end_inset
+
+, disse Amelia Bones.
+ Sembrava grigia.
+\end_layout
+
+\begin_layout Standard
+Harry annuì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Secondo.
+ Azkaban è finita.
+ Dovrete iniziare ora i preparativi per spostare i prigionieri a Nurmengard
+ o in altre prigioni sicure senza Dissennatori, e per fornire trattamenti
+ per la loro esposizione ai Dissennatori.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io
+\begin_inset Quotes frd
+\end_inset
+
+, disse Amelia.
+ La vecchia strega sembrava abbattuta, diminuita.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non...
+ non penso, che anche con questo...
+ scandalo, che il resto del Wizengamot si piegherà...
+ e i Dissennatori devono essere nutriti, non tanto quanto li abbiamo nutriti,
+ ma devono ricevere delle vittime, o vagheranno per il mondo, dando la caccia
+ agli innocenti...
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non importa cosa dice il Wizengamot
+\begin_inset Quotes frd
+\end_inset
+
+, rispose Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ la voce di Harry si strozzò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Harry fece un respiro profondo, si calmò.
+ Pensò di poter ora vedere la forma del futuro immediato, di poterla vedere
+ dispiegarsi davanti a lui come un percorso dorato illuminato di luce solare.
+ 
+\emph on
+Era scritto anche questo, nel libro del Tempo che non devo vedere?
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Perché se ho ragione a proposito di ciò che accadrà dopo, allora molto presto,
+ Hermione Granger, la Ragazza-Che-È-Risuscitata, andrà ad Azkaban a distruggere
+ tutti i Dissennatori che sono là.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Impossibile!
+\begin_inset Quotes frd
+\end_inset
+
+ sbottò Malocchio Moody.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Merlino
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Amelia Bones.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Oh, Merlino caro.
+ È questo che è accaduto al Dissennatore che Silente ha ‘perduto'.
+ È per questo che hanno paura di lei -- e ora anche della ragazza?
+\begin_inset Quotes frd
+\end_inset
+
+ La sua voce tremò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cos'è questo, cos'è tutto questo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Se Hermione credesse che la Morte può essere sconfitta
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Che lo credesse o meno prima, ora ci crederà.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Un passaporta autorizzato per Azkaban sarebbe apprezzato
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ la voce di Harry si ruppe di nuovo.
+ Lacrime scorrevano giù per le sue guance.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non può morire.
+ Io ho il suo horcrux.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ma Hermione non ha bisogno di saperlo.
+ Almeno non per un'altra settimana.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Se volesse rischiare la sua stessa vita per porre fine a questo
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sebbene io creda, che possa farcela, da sola fin là...
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Harry?
+\begin_inset Quotes frd
+\end_inset
+
+ disse la preside McGonagall.
+\end_layout
+
+\begin_layout Standard
+Harry stava ora piangendo, grandi respiri irregolari che uscivano a forza
+ dal suo corpo.
+ Ma non smise di parlare.
+ Da qualche parte là fuori Peter Pettigrew stava aspettando mentre Harry
+ piangeva.
+\end_layout
+
+\begin_layout Standard
+Da qualche parte là fuori, tutti aspettavano mentre egli piangeva.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Terzo.
+ Da qualche parte all'interno delle protezioni di Hogwarts.
+ In una posizione altamente difendibile.
+ Ma dove casi di emergenza possano essere trasportati via passaporta dall'estern
+o delle protezioni.
+ Dovrà esserci un o-o-ospedale di alta sicurezza.
+ Con guardie molto potenti, che abbiano prestato Voti Infrangibili, non,
+ non mi interessa quanto oro ci voglia per pagare i Voti, sinceramente non
+ importa più.
+ E, e Alastor Moody progetterà l'architettura di sicurezza, e farà le cose
+ davvero in grande quanto a paranoia senza essere vincolato da un budget
+ o dalla ragione o dal buon senso, solo deve aprire 
+\emph on
+presto
+\emph default
+.
+\begin_inset Quotes frd
+\end_inset
+
+ Non riusciva a smettere di parlare per piangere.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse la Preside, 
+\begin_inset Quotes fld
+\end_inset
+
+entrambi pensano che tu sia impazzito, non ti conoscono abbastanza per capire
+ che non è così.
+ Devi rallentare e spiegarti.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Invece Harry infilò la mano nella borsa e fece con le dita segni di lettere,
+ e ne sollevò fuori, le dita sotto sforzo, un pezzo d'oro da cinque chili,
+ più largo del suo pugno, da quando aveva fatto i suoi esperimenti quella
+ mattina.
+ Fece un tonfo forte, quando cadde sul tavolo.
+\end_layout
+
+\begin_layout Standard
+Moody allungò la mano e vi batté su con la bacchetta, e poi la sua voce
+ emise un suono incomprensibile.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questo è il suo fondo iniziale, Alastor, se avesse bisogno di soldi subito.
+ Nicholas Flames non ha creato la Pietra filosofale, l'ha rubata, Silente
+ non conosceva la storia segreta ma Monroe sì.
+ Una volta che sai come funziona, la Pietra è in grado di effettuare una
+ reintegrazione a salute e gioventù complete ogni duecentotrentaquattro
+ secondi.
+ Trecentosessanta persone al giorno.
+ Centotrentaquattromila guarigioni all'anno.
+ Dovrebbe essere sufficiente per impedire, a tutti i maghi ovunque, e a
+ tutti i goblin e gli elfi domestici e chiunque altro, di morire.
+ Di vecchiaia, o qualunque altra cosa.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry si stava asciugando le lacrime, ancora e ancora.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Flamel aveva le mani più insanguinate di cento Voldemort, per tutte le persone
+ che avrebbe potuto salvare e non ha salvato.
+ Per tutto questo tempo, Moody, la Pietra filosofale avrebbe potuto guarire
+ tutte le sue cicatrici e ridarle indietro la sua gamba, ogni volta che
+ Flamel avesse voluto.
+ Silente non lo sapeva.
+ Sono sicuro che non lo sapeva.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry fece un sorriso malfermo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non posso immaginarla come una strega adolescente, Madam Bones, ma scommetto
+ che le donerebbe.
+ Le darà più energia per cercare di impedire al Wizengamot di infastidirmi,
+ perché se si facessero l'idea che la Pietra è qualcosa di cui possono impicciar
+si in qualunque modo, tassare, regolare, non m'importa, Hogwarts secederà
+ dalla Gran Bretagna e diventerà una nazione a parte.
+ Preside, Hogwarts non è più dipendente dal Ministero per l'oro, o se è
+ per questo per il cibo.
+ Può riformare il programma di studi a suo piacimento.
+ Penso che potremmo voler introdurre qualche altro corso avanzato, presto,
+ specialmente in studi Babbani.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Vai 
+\emph on
+piano!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Minerva McGonagall.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quarto
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry, e poi si fermò.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Quarto.
+ Iniziate i preparativi per uno smantellamento ordinato dello Statuto di
+ Segretezza e per fornire guarigioni magiche su scala di massa al mondo
+ Babbano.
+ Coloro che si opporranno a questo programma in qualunque modo potranno
+ vedersi negati i servizi della Pietra...
+\end_layout
+
+\begin_layout Standard
+Le labbra di Harry non potevano muoversi.
+ Non non volevano, 
+\emph on
+non potevano
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Con sei miliardi di Babbani a pensare creativamente su come usare la magia...
+\end_layout
+
+\begin_layout Standard
+Trasfigurare antimateria era solo una idea.
+ Non era neppure la più distruttiva.
+ C'erano anche i buchi neri e gli strangelet caricati negativamente.
+ E se i buchi neri non potevano essere Trasfigurati perché non 
+\emph on
+esistevano già
+\emph default
+ secondo la definizione della magia all'interno di un qualche raggio spaziale,
+ c'era il semplice Trasfigurare tante e tante armi nucleari e la Peste Nera
+ che potesse riprodursi prima che la Trasfigurazione si consumasse e Harry
+ non aveva neppure pensato al problema per cinque minuti ma non importava
+ perché aveva già pensato ad abbastanza cose.
+ Qualcuno ci avrebbe pensato, qualcuno avrebbe parlato, qualcuno l'avrebbe
+ provato.
+ La probabilità era tanto vicina alla certezza da non fare alcuna differenza.
+\end_layout
+
+\begin_layout Standard
+Cosa sarebbe accaduto se avessi Trasfigurato un millimetro cubico di quark
+ up, solo i quark up senza alcun quark down per legarsi a essi? Harry non
+ lo sapeva neppure, e i quark up erano certamente un tipo di sostanza che
+ già esisteva.
+ Tutto ciò che sarebbe stato necessario era un singolo Babbano che conoscesse
+ i nomi dei sei quark e decidesse di provarci.
+ Quello poteva essere l'orologio che avrebbe ticchettato il tempo mancante
+ alla profetizzata fine del mondo.
+\end_layout
+
+\begin_layout Standard
+Harry avrebbe provato a negare il pensiero, a cancellarlo inventando delle
+ scuse.
+\end_layout
+
+\begin_layout Standard
+Non poteva fare neppure quello.
+\end_layout
+
+\begin_layout Standard
+Non era una cosa-che-Harry-Potter-avrebbe-fatto.
+\end_layout
+
+\begin_layout Standard
+Come acqua che scorre in discesa, Harry Potter non avrebbe corso rischi
+ quando si trattava di non distruggere il mondo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quarto?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Amelia Bones, che aveva l'aspetto di chi fosse stato colpito più
+ volte in viso con un pianeta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Qual è il quarto?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non importa
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ La sua voce non si ruppe.
+ Non si raggomitolò per piangere.
+ C'erano ancora delle vite che poteva salvare ed esse avevano la precedenza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non importa.
+ Stregone Capo Bones, ho messo la reggenza del Wizengamot nelle sue mani.
+ La prego di usare tale posizione per annunciare a livello internazionale
+ che il potere curativo della Pietra sarà presto reso disponibile a tutti,
+ e che nel frattempo, tutti i pazienti moribondi devono essere tenuti in
+ vita a ogni costo, quale che sia la magia necessaria.
+ Questo annuncio è la sua priorità assoluta.
+ Quando avrà fatto, potrà salvare Peter Pettigrew e dire al suo vecchio
+ Dipartimento di iniziare i preparativi per chiudere Azkaban.
+ Poi per favore faccia preparare la lista completa dei Mangiamorte arrestati
+ e di cosa si disse ai loro processi e se Lucius sembrò stranamente disinteressa
+to a difenderli.
+ Grazie.
+ È tutto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Amelia Bones si voltò senza un'altra parola, e si lanciò verso la Metropolvere
+ come se lei stessa fosse in fiamme.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E qualcuno
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, la sua voce che si ruppe ora che tutto era in moto, e piangere
+ non portava via tempo, sebbene la vasta maggioranza delle vite in gioco
+ si era dimostrata non ancora salvabile, 
+\begin_inset Quotes fld
+\end_inset
+
+qualcuno deve, qualcuno avverta Remus Lupin.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

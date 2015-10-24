@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -55,16 +55,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Hypatia Sans Pro
-\font_typewriter Inconsolata
+\font_roman Arno Pro
+\font_sans Berenis ADF Pro SC
+\font_typewriter Warnock Pro
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -75,15 +75,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -161,8 +170,8 @@ e adiacente alla scrivania c'era un labirinto di stipetti di legno di tutte
  infilati dentro, ed era in qualche modo molto chiaro che la professoressa
  McGonagall sapesse esattamente cosa contenesse ciascuno stipetto, anche
  se nessun altro poteva dire altrettanto.
- Una singola pergamena si trovava sulla scrivania vera e propria, che era,
- a parte quello, vuota.
+ Una singola pergamena si trovava sulla scrivania vera e propria, che era
+ per il resto vuota.
  Dietro la scrivania c'era una porta chiusa sbarrata da diverse serrature.
 \end_layout
 
@@ -286,11 +295,10 @@ Bene
 \begin_inset Quotes fld
 \end_inset
 
-Nessuno ci sta ascoltando
+Nessuno ci sta ascoltando.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Il suo volto era alquanto contratto.
 \end_layout
 
@@ -301,7 +309,7 @@ Ah, già, si aspetta che io la ricatti riguardo la profezia.
 \end_layout
 
 \begin_layout Standard
-Eh, Harry avrebbe dovuto affrontare quella questione qualche altro giorno.
+Eh, Harry sarebbe dovuto tornare su quella questione qualche altro giorno.
 \end_layout
 
 \begin_layout Standard
@@ -332,11 +340,11 @@ Uhm… Penso che vi sia un incantesimo supplementare sul Cappello Smistatore,
 \end_inset
 
 e diceva: `Saluti da Serpeverde a Serpeverde, se volessi cercare i miei
- segreti, parla al mio serpente'
+ segreti, parla al mio serpente'.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -357,11 +365,11 @@ Così…
 \begin_inset Quotes fld
 \end_inset
 
-ha deciso di venire direttamente da me e parlarmene
+ha deciso di venire direttamente da me e parlarmene.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -379,19 +387,19 @@ Beh, sì, naturalmente
 \begin_inset Quotes fld
 \end_inset
 
-Invece di, diciamo, cercare di fare una ricerca io stesso, o parlarne con
- qualche altro bambino
+Invece di, diciamo, mettermi alla ricerca io stesso, o parlarne con qualche
+ altro bambino.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Io… capisco
+Comprendo...
 \begin_inset Quotes frd
 \end_inset
 
@@ -427,11 +435,11 @@ Poi aprirei l'ingresso nuovamente e loro entrerebbero con molta cautela,
  Potrei entrare successivamente per dare uno sguardo, o se avessero bisogno
  di me per aprire qualcos'altro, ma ciò avverrebbe solo dopo che l'area
  fosse dichiarata sicura e che avessero scattato fotografie di come appariva
- il tutto prima che la gente calpestasse il loro inestimabile sito storico
+ il tutto prima che la gente calpestasse il loro inestimabile sito storico.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -466,24 +474,24 @@ che lei sottovaluti
 \emph on
 di molto
 \emph default
- la rarità del buon senso, signor Potter
+ la rarità del buon senso, signor Potter.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Questo sembrava quasi giusto.
+Quello sembrava quasi giusto.
  Sebbene… 
 \begin_inset Quotes fld
 \end_inset
 
-Un Tassofrasso avrebbe detto la stessa cosa
+Un Tassofrasso avrebbe detto la stessa cosa.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -496,11 +504,11 @@ Anche
 \emph on
 questo
 \emph default
- è vero
+ è vero.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -556,11 +564,11 @@ Signor Potter
 
 cinque decenni fa è stata l'ultima volta che uno studente è morto tra le
  mura di Hogwarts, e io sono ora certa che cinque decenni fa sia stata l'ultima
- volta che qualcuno ha sentito quel messaggio
+ volta che qualcuno ha sentito quel messaggio.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -577,11 +585,10 @@ estremante
 \emph on
 di alcun genere
 \emph default
- a riguardo senza consultarla, professoressa McGonagall
+ a riguardo senza consultarla, professoressa McGonagall.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Fece una pausa.
  
 \begin_inset Quotes fld
@@ -595,11 +602,10 @@ un altro
 \emph default
  incantesimo, un Quietus che si attivi brevemente proprio quando il Cappello
  è rimosso dalla testa di uno studente, potrebbe funzionare come toppa.
- Ecco fatto, niente più studenti morti
+ Ecco fatto, niente più studenti morti.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Harry annuì con soddisfazione.
 \end_layout
 
@@ -614,11 +620,11 @@ Non
 posso
 \emph default
  assegnarle abbastanza punti senza assegnare definitivamente la Coppa delle
- Case a Corvonero
+ Case a Corvonero.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -635,11 +641,11 @@ Uhm
 \end_inset
 
 Uhm.
- Preferirei non guadagnare tutti quei punti
+ Preferirei non guadagnare tutti quei punti.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -668,11 +674,11 @@ Perché sarebbe semplicemente troppo triste, sa? Come… come quando stavo
  Mi sta bene ottenere molti punti, più di chiunque altro, persino, ma se
  guadagno abbastanza da essere decisivo nella vittoria della Coppa delle
  Case tutto da solo, allora sarebbe come se portassi Casa Corvonero tutta
- sulle mie spalle, e questo è troppo triste
+ sulle mie spalle, e questo è troppo triste.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -682,12 +688,12 @@ Perché sarebbe semplicemente troppo triste, sa? Come… come quando stavo
 \end_layout
 
 \begin_layout Standard
-Harry scosse la testa nuovamente.
+Harry scosse di nuovo la testa.
  «Non è giusto nei confronti degli altri se guadagno punti per cose da grandi
  di cui io posso essere parte e loro no.
  In che modo Terry Boot dovrebbe guadagnare cinquanta punti per aver riferito
  un sussurro che ha sentito dal Cappello Smistatore? Non sarebbe affatto
- imparziale».
+ imparziale.»
 \end_layout
 
 \begin_layout Standard
@@ -729,7 +735,7 @@ molto
 «Così sia», disse la professoressa McGonagall, «ma ho qualcos'altro di molto
  speciale da darle.
  Comprendo che le ho fatto un grosso torto nel giudicarla, signor Potter.
- Per favore, attenda qui».
+ Per favore, attenda qui.»
 \end_layout
 
 \begin_layout Standard
@@ -763,11 +769,11 @@ Harry accettò la sua nuova collanina, sorridendo.
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall prese un respiro.
+La professoressa McGonagall fece un respiro.
  «Signor Potter, questo è un oggetto che è normalmente prestato solo a bambini
  che si siano già dimostrati altamente responsabili, allo scopo di aiutarli
- con degli orari scolastici complicati».
- McGonagall esitò, come se stesse per aggiungere qualcosa.
+ con degli orari scolastici complicati.» McGonagall esitò, come se stesse
+ per aggiungere qualcosa.
  «
 \emph on
 Devo
@@ -778,7 +784,7 @@ segreta
 \emph default
  e che non deve rendere nota la sua esistenza a nessun altro studente, o
  lasciarsi vedere mentre lo usa.
- Se questo non è accettabile per lei, può restituirmelo ora».
+ Se questo non è accettabile per lei, può restituirmelo ora.»
 \end_layout
 
 \begin_layout Standard
@@ -793,8 +799,8 @@ Cancelletto ruotante
 \emph default
  ed è usato per curare una malattia magica non contagiosa e molto rara chiamata
  Duplicazione Spontanea.
- Lo indossi sotto i tuoi vestiti, e se non ha nessuna ragione di mostrarlo
- ad alcuno, non ha neppure nessuna ragione di considerarlo un tremendo segreto.
+ Lo indossi sotto i tuoi vestiti, e se non ha alcuna ragione di mostrarlo
+ a qualcuno, non ha neppure alcuna ragione di considerarlo un tremendo segreto.
  I Cancelletti ruotanti non sono interessanti.
  Comprende, signor Potter?»
 \end_layout
@@ -940,7 +946,7 @@ La professoressa McGonagall gli rivolse uno sguardo di affettuosa tolleranza.
 così
 \emph default
  pericolosi.
- Non li daremmo a dei bambini se lo fossero».
+ Non li affideremmo a dei bambini se lo fossero.»
 \end_layout
 
 \begin_layout Standard
@@ -956,7 +962,7 @@ venuto in mente
 non
 \emph default
  mi manderà nel Medioevo dove travolgerò Gutenberg con un carro tirato da
- cavalli impedendo l'Illuminismo? Perché, sa com'è, odio quando mi succede».
+ cavalli impedendo l'Illuminismo? Perché, sa com'è, odio quando mi succede.»
 \end_layout
 
 \begin_layout Standard
@@ -970,7 +976,7 @@ si che non stesse per ruotare.
  può assolutamente accadere, signor Potter.
  Il Giratempo non può essere usato per muoversi più di sei ore all'indietro
  nel tempo.
- Non può essere usato più di sei volte in qualunque giorno».
+ Non può essere usato più di sei volte in qualunque giorno.»
 \end_layout
 
 \begin_layout Standard
@@ -1015,13 +1021,13 @@ lasciare esposta la clessidra
 \emph on
 prevenire che ciò accada
 \emph default
-».
+.»
 \end_layout
 
 \begin_layout Standard
 McGonagall sembrò alquanto colpita.
  «Questa è un'idea eccellente, signor Potter.
- Ne informerò il Ministero».
+ Ne informerò il Ministero-»
 \end_layout
 
 \begin_layout Standard
@@ -1097,14 +1103,14 @@ Harry si prese un momento per esaminare la questione.
 \end_layout
 
 \begin_layout Standard
-«Quindi…» disse Harry lentamente.
- «Si è semplicemente scoperto che l'universo… è per puro caso autoconsistente,
+«Dunque…» disse Harry lentamente.
+ «Si è scoperto che l'universo… del tutto casualmente è autoconsistente,
  in qualche modo, anche se comprende i viaggi nel tempo.
  Se io e il mio futuro me stesso interagissimo, allora osserverei gli stessi
  eventi come entrambi i me stesso, anche se, al mio primo passaggio, il
- mio futuro me stesso sta agendo sulla base di una conoscenza completa di
- cose che, dalla mia prospettiva, non sono ancora accadute…» la voce di
- Harry si spense per l'inadeguatezza semantica del suo lessico.
+ mio futuro me stesso starebbe agendo sulla base di una conoscenza completa
+ di cose che, dal mio punto di vista, non sono ancora accadute…» la voce
+ di Harry si spense per l'inadeguatezza semantica del suo lessico.
 \end_layout
 
 \begin_layout Standard
@@ -1118,7 +1124,7 @@ siano
  il percorso con sé stesso, per esempio, la prima versione dovrebbe farsi
  da parte e chiudere gli occhi in un certo istante -- ha già un orologio,
  bene -- cosicché il sé stesso del futuro possa passare.
- È tutto nell'opuscolo».
+ È tutto nell'opuscolo.»
 \end_layout
 
 \begin_layout Standard
@@ -1132,7 +1138,7 @@ ignora
 
 \begin_layout Standard
 La professoressa McGonagall contrasse le labbra.
- «Mi risulta che questo possa rivelarsi alquanto sconcertante».
+ «Mi risulta che questo possa rivelarsi alquanto sconcertante.»
 \end_layout
 
 \begin_layout Standard
@@ -1145,7 +1151,7 @@ Sorrise tollerante.
 \emph on
 cosa simile
 \emph default
- se fosse mai accaduta».
+ se fosse mai accaduta.»
 \end_layout
 
 \begin_layout Standard
@@ -1165,7 +1171,7 @@ La professoressa McGonagall rise di cuore.
  su quel volto severo.
  «Sta avendo un altro momento `si è mutata in un gatto', dico bene, signor
  Potter? Probabilmente non vuol sentirselo dire, ma è alquanto simpaticamente
- carino».
+ dolce.»
 \end_layout
 
 \begin_layout Standard
@@ -1230,7 +1236,7 @@ certo!
 \emph on
 forza
 \emph default
- l'accadimento di eventi divertenti, ti fa solamente 
+ l'avverarsi di eventi divertenti, ti fa solamente 
 \emph on
 provare l'impulso di bere
 \emph default
@@ -1280,7 +1286,7 @@ Gli occhi della professoressa McGonagall si accesero.
 deve
 \emph default
  davvero insegnare alcune di queste teorie babbane a Hogwarts, signor Potter.
- Sembrano molto affascinanti, anche se sono completamente sbagliate».
+ Sembrano molto affascinanti, anche se sono completamente sbagliate.»
 \end_layout
 
 \begin_layout Standard
@@ -1296,7 +1302,7 @@ La professoressa McGonagall gli offrì alcune ulteriori amenità, richiese
 \end_layout
 
 \begin_layout Standard
-«Gaahhhrrrraa…» disse Harry.
+«Gaahhhrrrraa…» fece Harry.
 \end_layout
 
 \begin_layout Standard
@@ -1347,12 +1353,11 @@ nulla
 
 \begin_layout Standard
 Fino a quel momento, Harry aveva tenuto fede all'ammonimento di E.T.
- Jaynes che se eri ignorante riguardo a un fenomeno, questo era un fatto
- riguardante il tuo stato mentale, non il fenomeno in sé; che la tua incertezza
- era un fatto riguardante te, non un fatto riguardante qualunque cosa a
- proposito della quale tu fossi incerto; che l'ignoranza esisteva nella
- mente, non nella realtà; che una mappa vuota non corrispondeva a un territorio
- vuoto.
+ Jaynes secondo cui se eri ignorante riguardo a un fenomeno, questo era
+ un fatto riguardante il tuo stato mentale, non il fenomeno in sé; che la
+ tua incertezza era un fatto che riguardava te, non la cosa su cui eri incerto;
+ che l'ignoranza esisteva nella mente, non nella realtà; che una mappa vuota
+ non corrispondeva a un territorio vuoto.
  C'erano domande misteriose, ma una risposta misteriosa era una contraddizione
  in termini.
  Un fenomeno poteva essere misterioso 
@@ -1366,11 +1371,11 @@ per
 
 \begin_layout Standard
 Così Harry aveva esaminato la magia e si era rifiutato di farsi intimidire.
- La gente non aveva senso storico, imparava chimica e biologia e astronomia
- e pensava che queste materie fossero state da sempre oggetto della scienza,
- che 
+ Le persone non avevano una sensibilità storica, imparavano chimica e biologia
+ e astronomia e pensavano che queste materie fossero state da sempre oggetto
+ della scienza, che 
 \emph on
-non erano mai state
+non fossero mai state
 \emph default
  misteriose.
  Le stelle erano state dei misteri, una volta.
@@ -1386,8 +1391,8 @@ infinitamente
 \emph on
 dal non sapere una certa cosa
 \emph default
-.) Ogni mistero mai risolto era stato un rompicapo sin dagli albori della
- specie umana fino al momento in cui qualcuno l'aveva risolto.
+.) Ogni mistero che fosse stato risolto era stato un rompicapo sin dagli
+ albori della specie umana fino al momento in cui qualcuno l'aveva risolto.
 \end_layout
 
 \begin_layout Standard
@@ -1415,7 +1420,7 @@ antiquati neuroni tempo-lineari
 \begin_layout Standard
 Dal lato positivo, lo SpiriTè, che era sembrato onnipotente e incredibile,
  si era dimostrato dotato di una spiegazione più semplice.
- Che lui aveva mancato 
+ A cui non aveva pensato 
 \emph on
 semplicemente
 \emph default
@@ -1431,11 +1436,11 @@ riuscito
 \end_layout
 
 \begin_layout Standard
-Harry diede uno sguardo al suo orologio.
+Harry diede uno sguardo al proprio orologio.
  Erano quasi le 11, era andato a letto all'una della notte precedente, quindi
  in condizioni normali quella notte sarebbe andato a dormire alle 3.
- Per poter andare a dormire alle 22 e svegliarsi alle 7, avrebbe dovuto
- tornare indietro di tre ore in tutto.
+ Per poter andare a dormire alle 22 e svegliarsi alle 7, sarebbe dovuto
+ tornare indietro di cinque ore in tutto.
  Il che voleva dire che se avesse voluto tornare al dormitorio intorno alle
  6 del mattino, prima che chiunque fosse sveglio, avrebbe dovuto sbrigarsi
  e…
@@ -1491,7 +1496,7 @@ Beh, stava perdendo tempo e c'erano appena trenta ore in una giornata.
 alcune
 \emph default
  delle cose che doveva fare, e avrebbe indovinato il resto, come la torta,
- mentre ci lavorava.
+ mentre ci lavorava su.
  Non c'era motivo di scoraggiarsi.
  Non poteva ottenere nulla bloccato lì nel 
 \emph on
@@ -1500,25 +1505,11 @@ futuro
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1593,7 +1584,7 @@ In futuro dovrò accontentarmi della Disillusione, temo.
 
 \emph on
 Senza dubbio stai già pensando a ogni sorta di meraviglioso scherzo, come
- quelli che tuo padre commise ai suoi tempi.
+ quelli che tuo padre praticò ai suoi tempi.
  Se ogni sua malefatta fosse nota, tutte le donne in Grifondoro si riunirebbero
  per profanare la sua tomba.
  Non cercherò di impedire che la storia si ripeta, ma stai 
@@ -1601,8 +1592,23 @@ Senza dubbio stai già pensando a ogni sorta di meraviglioso scherzo, come
 estremamente
 \noun default
  attento a non farti scoprire.
- Se Silente vedesse una possibilità di possedere uno dei Doni della Morte,
- non se la farebbe scappare fino all'ultimo dei suoi giorni.
+ Se Silente intravvedesse la possibilità di possedere uno dei Doni della
+ Morte, non se la farebbe scappare
+\emph default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Citato in cap.
+ 17.
+\end_layout
+
+\end_inset
+
+
+\emph on
+ fino all'ultimo dei suoi giorni.
 \end_layout
 
 \begin_layout Quote
@@ -1629,7 +1635,7 @@ status open
 La nota non era firmata.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1641,29 +1647,15 @@ La nota non era firmata.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 «Aspettate», disse Harry fermandosi all'improvviso mentre gli altri ragazzi
  stavano per lasciare il dormitorio Corvonero.
  «Scusatemi, c'è qualcos'altro che devo fare col mio baule.
- Vi seguirò a colazione tra un paio di minuti».
+ Vi seguirò a colazione tra un paio di minuti.»
 \end_layout
 
 \begin_layout Standard
 Terry Boot guardò Harry accigliato.
- «Faresti meglio a non pensare di mettere le mani nella nostra roba».
+ «Faresti meglio a non pensare di mettere le mani nella nostra roba.»
 \end_layout
 
 \begin_layout Standard
@@ -1672,11 +1664,11 @@ Harry alzò una mano.
  che intendo solamente accedere a oggetti che io stesso posseggo, che non
  ho intenzione di giocare scherzi o altre cose discutibili contro nessuno
  di voi, e che non prevedo che queste intenzioni cambino prima che io scenda
- nella Sala Grande per colazione
+ nella Sala Grande per colazione.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1691,7 +1683,7 @@ Terry aggrottò la fronte.
 \begin_layout Standard
 «Non ti preoccupare», disse Penelope Clearwater, che era lì per guidarli.
  «Non c'erano scappatoie.
- Ben formulata, Potter, dovresti fare l'avvocato».
+ Ben formulata, Potter, dovresti fare l'avvocato.»
 \end_layout
 
 \begin_layout Standard
@@ -1706,18 +1698,17 @@ prefetto
 
 \emph default
  «Grazie», disse.
- «Credo».
+ «Credo.»
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Quando cercherai di raggiungere la Sala Grande, ti perderai
+Quando cercherai di raggiungere la Sala Grande, ti perderai.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Penelope lo disse come fosse un fatto semplice e indiscutibile.
  
 \begin_inset Quotes fld
@@ -1744,11 +1735,11 @@ fermati
 \emph on
 questo se rimani all'interno del castello
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1782,22 +1773,21 @@ Cosa,
 tutto
 \emph default
  quello? Ci vorrebbero settimane.
- Lo imparerai strada facendo
+ Lo imparerete strada facendo.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Si girò per andarsene, seguita dagli altri studenti.
  
 \begin_inset Quotes fld
 \end_inset
 
 Se non ti vedo a colazione entro trenta minuti, Potter, darò inizio alle
- ricerche
+ ricerche.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1813,7 +1803,7 @@ E solo per un impulso malizioso, Harry mise il Mantello nella borsa di Harry-1,
  sapendo che perciò era già nel suo.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1825,23 +1815,9 @@ E solo per un impulso malizioso, Harry mise il Mantello nella borsa di Harry-1,
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-«Posso provvedere affinché il messaggio sia passato a Cornelion Flubberwalt»,
- disse il dipinto di un uomo dall'aria aristocratica e, in fatti, con un
- naso perfettamente normale.
+«Posso provvedere affinché il messaggio sia consegnato a Cornelion Flubberwalt»,
+ disse il dipinto di un uomo dall'aria aristocratica e, in effetti, con
+ un naso perfettamente normale.
  «Ma posso chiedere da dove proviene 
 \emph on
 originariamente?
@@ -1853,7 +1829,7 @@ originariamente?
 Harry alzò le spalle con ingegnosa impotenza.
  «Mi è stato detto che è stato pronunciato da una voce cavernosa che è risuonata
  da un vuoto nell'aria stessa, un vuoto che si era aperto su di un feroce
- abisso».
+ abisso.»
 \begin_inset Note Note
 status open
 
@@ -1866,25 +1842,11 @@ da cap 13
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1898,7 +1860,7 @@ status open
 \emph on
 di tutti!
 \emph default
- Non puoi prendere un'intera torta e mettertela in borsa!»
+ Non puoi prendere un'intera torta e mettertela nella borsa!»
 \end_layout
 
 \begin_layout Standard
@@ -1908,25 +1870,11 @@ di tutti!
  Aveva bisogno di arrivare alla classe di Erbologia un po' in anticipo.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1960,41 +1908,27 @@ Anzi, devo chiederle di far finta che questa conversazione non sia mai avvenuta.
  Non è facile spaventarmi o intimidirmi, e non penso che oseranno ferire
  seriamente il Ragazzo-Che-È-Sopravvissuto.
  Anche se… non le sto chiedendo di correre per i corridoi, ma apprezzerei
- se non si attardasse lungo la strada».
+ se non si attardasse lungo la strada.»
 \end_layout
 
 \begin_layout Standard
 La professoressa Sprout lo guardò per un lungo istante, poi la sua espressione
  si addolcì.
  «Faccia attenzione, Harry Potter.
- E… grazie».
+ E… grazie.»
 \end_layout
 
 \begin_layout Standard
 «Abbia solo cura di non arrivare tardi», disse Harry.
  «E ricordi, quando arriverà, lei non si aspetterà di vedermi e questa conversaz
-ione non è mai avvenuta».
+ione non è mai avvenuta.»
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -2020,11 +1954,11 @@ Ciao
 \begin_inset Quotes fld
 \end_inset
 
-Io sono il Ragazzo-Che-È-Sopravvissuto
+Io sono il Ragazzo-Che-È-Sopravvissuto.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard

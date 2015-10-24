@@ -1,0 +1,843 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{120}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Arno Pro
+\font_sans Myriad Pro
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.3500000000000001
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Qualcosa da proteggere: Severus Snape
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:121Qualcosa-da-proteggere-Severus-Snape"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un'atmosfera cupa pervadeva l'ufficio della Preside.
+ Minerva era tornata dopo aver lasciato Draco e Narcissa/Nancy al St.
+ Mungo's, dove stavano visitando Lady Malfoy per verificare se un decennio
+ di vita da Babbana avesse arrecato qualche danno alla sua salute; e Harry
+ era venuto nuovamente nell'ufficio della Preside e poi...
+ non era stato in grado di pensare a qualche priorità.
+ C'era così 
+\emph on
+tanto
+\emph default
+ da fare, così tante cose, che persino la preside McGonagall sembrava non
+ sapere da dove cominciare, e certamente non lo sapeva Harry.
+ In quel momento Minerva stava ripetutamente scrivendo parole sulla pergamena
+ per poi cancellarle con un gesto della mano, e Harry aveva chiuso gli occhi
+ per concentrarsi.
+ C'era forse una qualche 
+\emph on
+successiva
+\emph default
+ prima cosa che doveva avvenire...
+\end_layout
+
+\begin_layout Standard
+Ci fu un colpo alla grande porta di quercia che era stata di Silente, e
+ la Preside l'aprì con una parola.
+\end_layout
+
+\begin_layout Standard
+L'uomo che entrò nell'ufficio della Preside sembrava consunto, aveva dismesso
+ la sedia a rotelle ma continuava a camminare con un'andatura claudicante.
+ Indossava vesti nere che erano semplici, eppure pulite e senza macchie.
+ Sulla sua spalla sinistra stava appeso uno zaino, di robusto cuoio grigio
+ decorato con una filigrana argentea che reggeva quattro pietre verdi simili
+ a perle.
+ Sembrava uno zaino pienamente incantato, uno che potesse contenere l'arredo
+ di una casa babbana.
+\end_layout
+
+\begin_layout Standard
+Una sola occhiata, e Harry comprese.
+\end_layout
+
+\begin_layout Standard
+La preside McGonagall sedeva paralizzata dietro la sua nuova scrivania.
+\end_layout
+
+\begin_layout Standard
+Severus Snape le rivolse un cenno con la testa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cosa significa questo?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese la Preside, sembrando...
+ piena di tristezza, come se avesse compreso, con una sola occhiata, proprio
+ come aveva fatto Harry.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dimetto dal mio incarico di Maestro di Pozioni di Hogwarts
+\begin_inset Quotes frd
+\end_inset
+
+, disse semplicemente l'uomo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non resterò a incassare la paga dell'ultimo mese.
+ Se ci sono studenti che sono stati particolarmente feriti a causa mia,
+ potrà usare il denaro a loro beneficio.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Lui sa
+\emph default
+.
+ Il pensiero venne in mente a Harry, ed egli non sarebbe stato in grado
+ di dire a parole 
+\emph on
+cosa
+\emph default
+ il Maestro di Pozioni ormai sapeva; eccetto che era chiaro che Severus
+ lo sapeva.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Severus\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+ iniziò la preside McGonagall.
+ La sua voce sembrò svuotata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Professor Severus Snape, lei potrebbe non comprendere ora quanto sia difficile
+ trovare Maestri di Pozioni che possano insegnare in tutta sicurezza ai
+ Babbani, o Professori abbastanza scaltri da mantenere Casa Serpeverde nella
+ minima parvenza d'ordine\SpecialChar \ldots{}
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'uomo inclinò nuovamente la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che non sia necessario dirlo a lei, Preside, ma raccomando nei termini
+ più forti che il prossimo Preside di Serpeverde sia completamente diverso
+ da me.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Severus, tu hai fatto solo quello che Albus ti ha detto di fare! Puoi restare
+ e agire in maniera diversa!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Preside
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ Anche la voce sembrava svuotata, e Harry si sorprese di ciò, in quanto
+ non aveva conosciuto Severus Snape così bene.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se vuole andare, credo che dovrebbe lasciarlo andare.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Silente lo stava usando.
+ Forse non esattamente nel modo in cui il professor Quirrell pensava, forse
+ era la profezia piuttosto che sabotare Serpeverde, ma Silente lo stava
+ comunque usando.
+ C'erano cose che si sarebbero potute dire a Severus molto tempo fa, per
+ liberarlo.
+ È chiaro perché Silente non si è arrischiato a farlo, ma comunque, Severus
+ non è stato usato gentilmente.
+ Persino la sua cecità e il suo dolore sono stati usati, in modo che non
+ comprendesse le conseguenze delle sue azioni in qualità di Maestro di Pozioni...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+È un bene trovarla qui, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse Severus.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ci sono dei conti ancora aperti tra noi due.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry non sapeva cosa dire, quindi si limitò ad annuire.
+\end_layout
+
+\begin_layout Standard
+Severus parve avere qualche difficoltà a parlare, mentre restò davanti a
+ loro due con lo zaino grigio sulla spalla.
+ Infine, sembrò trovare le parole che era venuto a pronunciare.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sua madre.
+ Lily.
+ Ella era
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lo so
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, attraverso il groppo in gola.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non c'è bisogno che lei lo dica.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lily era una strega buona e onesta, signor Potter.
+ Non vorrei che lei pensasse diversamente a causa di qualsiasi parola io
+ possa averle detto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Severus?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+ disse Minerva McGonagall, apparentemente scioccata come se fosse stata
+ morsa dalle sue stesse scarpe.
+\end_layout
+
+\begin_layout Standard
+L'ex Maestro di Pozioni mantenne lo sguardo su Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Più di un ostacolo si frappose tra me e Lily, in particolare i miei sconsiderati
+ tentativi di cercare di accattivarmi i favori dei puristi del sangue della
+ mia casa.
+ Se ho fatto sembrare come se un errore su di un campo fangoso abbia deciso
+ tutto, se ho finto che ella non avesse nessuna ragione se non la superficialità
+ per non amarmi, spero che i suoi libri le abbiano anche insegnato perché
+ i folli possano dire cose simili.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+L'hanno fatto
+\begin_inset Quotes frd
+\end_inset
+
+, rispose Harry.
+ Stava guardando l'elegante zaino grigio sulla spalla sinistra di Severus
+ Snape, incapace di incrociare lo sguardo del Maestro di Pozioni.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+L'hanno fatto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ad ogni modo
+\begin_inset Quotes frd
+\end_inset
+
+, continuò l'ex Maestro di Pozioni, 
+\begin_inset Quotes fld
+\end_inset
+
+temo di non aver altro da dire riguardo a suo padre oltre a quello che le
+ ho già raccontato.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Severus!
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'ex Maestro di Pozioni sembrò avere occhi solo per Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il Marchio Oscuro sul mio braccio non è morto, né la profezia è stata soddisfatt
+a da quella storia che lei ha raccontato davanti alla massa.
+ Come ha fatto a distruggere tutto a eccezione di un residuo del Signore
+ Oscuro?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry esitò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho Obliato la maggior parte dei suoi ricordi e...
+ l'ho sigillato, credo che i maghi direbbero così.
+ Anche se il sigillo dovesse spezzarsi, egli non tornerà indietro come sé
+ stesso.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Severus si accigliò brevemente e poi scrollò le spalle.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Suppongo sia accettabile.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Professor Snape
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, perché anche quella era ormai una sua responsabilità, 
+\begin_inset Quotes fld
+\end_inset
+
+l'Ordine della Fenice è in debito con lei per i servizi che ci ha reso.
+ Sono in una posizione eccellente per ripagarli, sia finanziariamente sia
+ magicamente.
+ Giusto nel caso in cui voglia iniziare la sua prossima vita in una posizione
+ di ricchezza, o con capelli migliori, o cose simili.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Strane parole da rivolgere a qualcuno come me
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'ex Maestro di Pozioni con una parlata sommessa e strascicata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono andato dal Signore Oscuro con l'intenzione di vendergli la profezia
+ in cambio dell'amore di Lily per me, per mezzo di qualunque oscurità fosse
+ necessaria per ottenerlo.
+ Questo è qualcosa che difficilmente si dovrebbe perdonare a cuor leggero.
+ E poi, negli anni successivi quando ero Maestro di Pozioni...
+ di quello ha fatto esperienza lei stesso.
+ Pensa che i miei servigi all'Ordine della Fenice abbiano ripagato tutti
+ i miei peccati?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Tutte le persone sono guaste
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, nonostante le parole gli si incastrassero in gola.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Fanno sempre degli errori.
+ Almeno lei ha cercato di ripagarli.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Forse
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'ex Maestro di Pozioni.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il mio ultimo dovere era quello di fallire nel fare la guardia alla Pietra,
+ di essere abbattuto.
+ Questo ho fatto, e sono sopravvissuto, cosa che non mi sarei mai aspettato
+ accadesse.
+\begin_inset Quotes frd
+\end_inset
+
+ Severus era appoggiato alla porta attraverso la quale era entrato, spostando
+ il peso dalla gamba sinistra.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non avrei pensato di chiedere il suo perdono, ma visto che lei l'ha offerto
+ così liberamente, l'accetterò con gratitudine.
+ Da questo giorno in poi desidero adottare modi meno scortesi, e penso che
+ possa farlo meglio ricominciando da zero.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lacrime luccicarono sul naso e le guance di Minerva McGonagall, quando ella
+ parlò la sua voce fu senza speranza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Certamente puoi ricominciare dentro Hogwarts.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Severus scosse la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Troppi studenti mi ricorderebbero come il malvagio Maestro di Pozioni.
+ No, Minerva.
+ Andrò in qualche posto nuovo, e assumerò un nome nuovo, e troverò qualcuno
+ di nuovo da amare.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Severus Snape
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, perché era sua responsabilità dirlo, 
+\begin_inset Quotes fld
+\end_inset
+
+ogni sua volontà è stata soddisfatta?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+L'assassino di Lily è stato sconfitto
+\begin_inset Quotes frd
+\end_inset
+
+, disse l'uomo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono soddisfatto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La Preside abbassò la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Stai bene, Severus
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho un ultimo consiglio
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se lo vuole.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Qual è?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Severus Snape.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ruminare sul passato può contribuire alla depressione.
+ Ha il mio totale permesso di non pensare mai al suo passato, mai.
+ Non dovrebbe pensare che sia sua responsabilità nei confronti di Lily di
+ sopportare la propria colpa per lei, o niente di simile.
+ Si concentri solo sul suo futuro e su qualunque persona nuova lei incontri.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Terrò la sua saggezza in considerazione
+\begin_inset Quotes frd
+\end_inset
+
+, disse Severus in modo neutrale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Inoltre, provi una marca differente di shampoo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un sorriso sarcastico attraversò il volto di Severus, e Harry pensò che
+ potesse essere stato, per la prima volta, il vero sorriso di quell'uomo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Crepa, Potter.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry rise.
+\end_layout
+
+\begin_layout Standard
+Severus rise.
+\end_layout
+
+\begin_layout Standard
+Minerva stava singhiozzando.
+\end_layout
+
+\begin_layout Standard
+Senza dire nient'altro, l'uomo libero prese un pizzico di Metropolvere,
+ e la gettò nel camino dell'ufficio, ed entrò a grandi passi nella fiamma
+ verde sussurrando qualcosa che nessuno colse; e quella fu l'ultima volta
+ che qualcuno sentì mai parlare di Severus Snape.
+\end_layout
+
+\end_body
+\end_document

@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -39,7 +39,7 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
+\usepackage{microtype}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
@@ -57,15 +57,15 @@ initials
 \font_roman EB Garamond
 \font_sans Linux Biolinum O
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -74,15 +74,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -143,7 +152,7 @@ Sembravano esserci anche diversi pipistrelli che svolazzavano per la stanza.
 \end_layout
 
 \begin_layout Standard
-Quello era il luogo in cui, come avrebbero registrato un giorno gli storici
+Quello era il luogo in cui, come avrebbero ricordato un giorno gli storici
  del futuro -- 
 \emph on
 se
@@ -170,29 +179,29 @@ Harry stava andando meglio nei corsi, ora, almeno in quelli che considerava
 \emph on
 sul serio
 \emph default
- i corsi che ne valevano la pena, non semplicemente facendo i compiti ogni
+ i corsi che ne valevano la pena, non limitandosi a fare i compiti ogni
  giorno, ma usando il suo tempo libero per imparare più di quanto fosse
  necessario, per leggere altri libri oltre a quelli di testo, cercando di
- padroneggiare la materia e non limitarsi a mandare a memoria le risposte
+ padroneggiare la materia e di non limitarsi a mandare a memoria le risposte
  per gli esami, cercando di eccellere.
  Non era una pratica comune al di fuori di Corvonero.
  E ora persino 
 \emph on
 dentro
 \emph default
- Corvonero, i contendenti che gli erano rimasti erano Padma Patil (i cui
- genitori provenivano da una cultura non di lingua inglese e che dunque
- le avevano inculcato una vera etica del lavoro), Anthony Goldstein (appartenent
-e a un certo gruppo etnico che aveva vinto il 25% dei premi Nobel), e naturalmen
-te, avanzando a grandi passi ben al di sopra di tutti come un titano che
- passeggia in mezzo a un branco di cuccioli, Hermione Granger.
+ Corvonero, gli avversari rimasti erano Padma Patil (i cui genitori provenivano
+ da una cultura non di lingua inglese e, dunque le avevano inculcato una
+ vera etica del lavoro), Anthony Goldstein (appartenente a un certo gruppo
+ etnico che aveva vinto il 25% dei premi Nobel), e naturalmente, avanzando
+ a grandi passi ben al di sopra di tutti come un titano che passeggia in
+ mezzo a un branco di cuccioli, Hermione Granger.
 \end_layout
 
 \begin_layout Standard
 Per effettuare quel particolare esperimento era necessario che il soggetto
  sperimentale imparasse sedici nuovi incantesimi, da solo, senza aiuti o
  correzioni.
- Questo significava che il soggetto fosse Hermione.
+ Questo implicava che il soggetto fosse Hermione.
  Punto.
 \end_layout
 
@@ -257,7 +266,7 @@ Sei sicura
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry vincendo quello che sembrava un groppo in gola, 
+, disse Harry disse attraverso quello che sembrava un groppo in gola, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -296,11 +305,11 @@ oo
 \emph default
 , 
 \emph on
-eh
+e
 \emph default
 , e 
 \emph on
-ee
+y
 \emph default
 .
  Dovrebbero stare come 3 a 2 a 2, non come 3 a 1 a 1.
@@ -327,7 +336,7 @@ Oogely boogely!
 
 \begin_layout Standard
 Il pipistrello si materializzò con solo un'ala e si avvitò pateticamente
- verso il suolo, cadendo di peso in un moto circolare sulla pietra grigia.
+ verso il suolo, cadendo di peso sulla pietra grigia in un moto circolare.
 \end_layout
 
 \begin_layout Standard
@@ -430,11 +439,11 @@ oo,
 \emph default
  
 \emph on
-eh,
+e,
 \emph default
  ed 
 \emph on
-ee
+y
 \emph default
  in un rapporto di 3 a 1 a 2, o il pipistrello non risplenderà? 
 \emph on
@@ -485,29 +494,28 @@ Tump.
 
 \begin_layout Standard
 Harry aveva riflettuto per un po' sulla natura della magia, e poi aveva
- formulato una serie di esperimenti basati sulla premessa che virtualmente
+ concepito una serie di esperimenti basati sulla premessa che virtualmente
  tutto quello che i maghi credevano a proposito della magia fosse sbagliato.
 \end_layout
 
 \begin_layout Standard
 Non potevi 
 \emph on
-davvero
+realmente
 \emph default
- dover dire `Wingardium Leviosa' precisamente in quel modo per far levitare
- qualcosa, perché, insomma, `Wingardium Leviosa'? L'universo avrebbe controllato
- che dicessi `Wingardium Leviosa' esattamente nel modo corretto e in caso
- contrario non avrebbe fatto levitare la piuma?
+ dover dire `Wingardium Leviosa' proprio in quel modo per far levitare qualcosa,
+ perché, e dai, `Wingardium Leviosa'?! L'universo avrebbe controllato che
+ dicessi `Wingardium Leviosa' esattamente nel modo giusto e in caso contrario
+ non avrebbe fatto levitare la piuma?
 \end_layout
 
 \begin_layout Standard
 No.
  Ovviamente non era così, una volta che ci riflettevi sul serio.
- Qualcuno, probabilmente effettivamente un bambino in età prescolare, ma
- ad ogni modo un praticante di magia di lingua inglese, che aveva pensato
- che `Wingardium Leviosa' suonasse tutto svolazzante e fluttuante, aveva
- originariamente pronunciato quelle parole mentre lanciava l'incantesimo
- per la prima volta.
+ Qualcuno, probabilmente davvero un bambino in età prescolare, ma ad ogni
+ modo un praticante di magia di lingua inglese, che aveva pensato che `Wingardiu
+m Leviosa' suonasse tutto svolazzi e levitazioni, aveva in origine pronunciato
+ quelle parole mentre lanciava l'incantesimo per la prima volta.
  E poi aveva detto a tutti che era necessario farlo.
 \end_layout
 
@@ -559,7 +567,7 @@ Blondot rispose che probabilmente avevano tarato i loro apparati in maniera
 \end_layout
 
 \begin_layout Standard
-Un giorno Blondot stava dando una dimostrazione dei Raggi-N.
+Un giorno Blondot stava tenendo una dimostrazione sui Raggi-N.
  Le luci erano state spente, e il suo assistente aveva dichiarato ad alta
  voce l'illuminazione e l'oscuramento dello schermo mentre Blondot effettuava
  le sue manipolazioni.
@@ -572,7 +580,7 @@ Era una dimostrazione consueta, e tutti i risultati stavano andando come
 
 \begin_layout Standard
 Anche se uno scienziato americano di nome Robert Wood aveva segretamente
- sottratto il prisma di alluminio dall'interno dell'apparato di Blondot.
+ rimosso il prisma di alluminio dall'interno dell'apparato di Blondot.
 \end_layout
 
 \begin_layout Standard
@@ -599,13 +607,17 @@ Il peccato di Blondot era stato evidente, a posteriori.
 \emph on
 non
 \emph default
- sapesse cosa stavano provando o quando lo stessero provando, prima di chiedergl
-i di descrivere la luminosità dello schermo.
+ 
+\emph on
+sapesse
+\emph default
+ cosa stavano provando o quando lo stessero provando, prima di chiedergli
+ di descrivere la luminosità dello schermo.
  Tutto qui.
 \end_layout
 
 \begin_layout Standard
-Oggi era noto come 
+Correntemente era noto come 
 \begin_inset Quotes fld
 \end_inset
 
@@ -627,7 +639,7 @@ arrabbiati
 
 .
  Avresti dovuto scattare loro delle foto dopo che erano stati colpiti dal
- manganello, e poi passare le foto a un gruppo di giudici, che avrebbero
+ manganello, e poi mostrare le foto a un gruppo di giudici, che avrebbero
  classificato quanto ciascuna persona fosse arrabbiata su di una scala da
  1 a 10, ovviamente 
 \emph on
@@ -646,13 +658,13 @@ pensavi
 \emph default
  che sarebbero dovuti essere più arrabbiati dopo essere stati colpiti con
  i manganelli rossi.
- Avresti semplicemente dovuto offrire loro 20 sterline, attirarli nella
- stanza dell'esperimento, colpirli con un manganello, il colore scelto ovviament
-e a caso, e scattare la foto.
+ Avresti semplicemente dovuto offrir loro 20 sterline, attirarli nella stanza
+ dell'esperimento, colpirli con un manganello, il colore scelto ovviamente
+ a caso, e scattare la foto.
  Anzi, a colpire col manganello e a scattare la foto sarebbe dovuto essere
- un assistente che non fosse a conoscenza dell'ipotesi, in modo che non
- sembrasse aspettarsi una certa risposta, non colpisse più o meno forte,
- o attendesse di scattare la foto al momento giusto.
+ un assistente che non fosse a conoscenza dell'ipotesi, in modo da non sembrare
+ di aspettarsi una certa risposta, non colpisse più o meno forte, o attendesse
+ di scattare la foto al momento giusto.
 \end_layout
 
 \begin_layout Standard
@@ -693,7 +705,7 @@ esattamente nell'ordine giusto
 \emph default
  per lanciare un incantesimo.
  E, Harry aveva ipotizzato, il processo di obbedire a quelle istruzioni,
- di controllare di eseguirle esattamente, probabilmente 
+ di controllare di seguirle esattamente, probabilmente 
 \emph on
 causava
 \emph default
@@ -773,12 +785,12 @@ Oogely boogely
 \end_layout
 
 \begin_layout Standard
-Non che la tua convinzione fosse 
+Non era che la tua convinzione fosse 
 \emph on
 irrilevante
 \emph default
 .
- Non che 
+ Non era che 
 \emph on
 solo
 \emph default
@@ -796,8 +808,8 @@ Se non le dicevi affatto quello che l'incantesimo avrebbe dovuto fare, avrebbe
 \end_layout
 
 \begin_layout Standard
-Se sapeva in termini molto vaghi cosa l'incantesimo avrebbe dovuto fare,
- o se si sbagliava solo in parte, allora l'incantesimo avrebbe funzionato
+Se avesse saputo in termini molto vaghi cosa l'incantesimo avrebbe dovuto
+ fare, o se si sbagliava solo in parte, allora l'incantesimo avrebbe funzionato
  come originariamente descritto nel libro, non nel modo in cui le era stato
  detto che avrebbe dovuto funzionare.
 \end_layout
@@ -830,7 +842,7 @@ volesse
 tu
 \emph default
  pensassi che la pronuncia dovesse essere più di quanto non gli importasse
- cosa provavi a proposito della gravità.
+ cosa pensavi a proposito della gravità.
 \end_layout
 
 \begin_layout Standard
@@ -944,11 +956,11 @@ intenzione di farlo
 \begin_inset Quotes fld
 \end_inset
 
-Non mi sembrava carino
+Non mi sembrava carino.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1099,11 +1111,11 @@ Harry appoggiò la testa contro i mattoni.
 \end_inset
 
 Niente.
- Devo tornare indietro e formulare esperimenti differenti
+ Devo tornare indietro e formulare esperimenti differenti.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1311,11 +1323,11 @@ Grande!
 \end_inset
 
 Mi è piaciuto questo esperimento.
- Ci ha insegnato tante cose e ci ho messo appena un'oretta
+ Ci ha insegnato tante cose e ci ho messo appena un'oretta.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1333,25 +1345,11 @@ Aaaaaaaaaaaaaahhhhhhhhhhhhhhh!
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1410,11 +1408,11 @@ Hermione Granger
 \emph on
 Non fare domande
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1489,11 +1487,11 @@ la gente sa che ti sono amico, non sanno della Cospirazione, naturalmente,
 \emph on
 io
 \emph default
- faccio una brutta figura quando tu fai cose di questo genere
+ faccio una brutta figura quando tu fai cose del genere.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1503,12 +1501,12 @@ Il viso di Harry Potter si fece più teso.
 \end_inset
 
 Chiunque in Serpeverde non riesca a capire il concetto di agire cortesemente
- verso le persone che in realtà non ti piacciono dovrebbe essere fatto a
- pezzi e dato da mangiare ai serpenti domestici
+ verso le persone che in realtà non ti piacciono, dovrebbe essere fatto
+ a pezzi e dato in pasto ai serpenti domestici.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1523,17 +1521,16 @@ non ci riescono
 \begin_inset Quotes frd
 \end_inset
 
-, disse Draco, con una voce grave.
+, disse Draco, con una voce seria.
  
 \begin_inset Quotes fld
 \end_inset
 
 La maggior parte delle persone sono stupide, e devi comunque fare bella
- figura con loro
+ figura con loro.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Harry Potter 
 \emph on
 doveva
@@ -1549,9 +1546,9 @@ Che cosa importa
 \emph on
 a te 
 \emph default
-di cosa pensano gli altri? Hai davvero intenzione di vivere la tua vita
- dovendo spiegare tutto quello che fai ai più stupidi idioti in Serpeverde,
- permettendo a 
+di ciò pensano gli altri? Hai davvero intenzione di vivere la tua vita dovendo
+ spiegare tutto quello che fai ai più stupidi idioti in Serpeverde, permettendo
+ a 
 \emph on
 loro
 \emph default
@@ -1573,8 +1570,8 @@ Toglierebbe alla vita tutto il divertimento
 tu
 \emph default
  non hai mai pensato la stessa cosa quando qualcuno in Serpeverde si è dimostrat
-o troppo stupido per respirare, che è al di sotto della dignità di un Malfoy
- doverli assecondare.
+o troppo stupido per respirare, che doverlo assecondare è al di sotto della
+ dignità di un Malfoy.
 \begin_inset Quotes frd
 \end_inset
 
@@ -1616,11 +1613,11 @@ esattamente
 \emph on
 Tutti
 \emph default
- devono preoccuparsi di ciò che gli altri pensano
+ devono preoccuparsi di ciò che gli altri pensano.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1640,7 +1637,7 @@ istintivamente
 \emph on
 ti importa davvero
 \emph default
-, e non come risultato di calcolo a sangue freddo.
+, e non come risultato di un calcolo a sangue freddo.
  Ricorda, sono stato picchiato e fatto oggetto di bullismo da parte di Serpeverd
 e più grandi per quindici minuti, e poi mi sono alzato e gentilmente li
  ho perdonati.
@@ -1656,11 +1653,11 @@ non possiedo un serpente domestico
 \emph default
 .
  Quindi non ho alcun motivo di preoccuparmi di che cosa pensino riguardo
- a come conduco il mio duello con Hermione Granger
+ a come conduco il mio duello con Hermione Granger.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1673,16 +1670,16 @@ Draco non strinse i pugni per la frustrazione.
 \begin_inset Quotes frd
 \end_inset
 
-, disse Draco, mantenendo la sua voce calma, invece di gridare.
+, disse mantenendo la sua voce calma, invece di gridare.
  
 \begin_inset Quotes fld
 \end_inset
 
-Se non ti piace, spingila giù per le scale
+Se non ti piace, spingila giù per le scale.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1830,11 +1827,11 @@ devi
  di abbassare il livello del mio gioco in Corvonero, in modo tu non faccia
  una brutta figura associandoti a me.
  Di' a Serpeverde che stai stringendo i denti mentre fai finta di essere
- mio amico
+ mio amico.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1860,11 +1857,11 @@ Ad ogni modo
 
 Parlando della tua immagine.
  Ho paura di avere brutte notizie.
- Rita Skeeter ha sentito alcune storie su di te e ha fatto alcune domande
+ Rita Skeeter ha sentito alcune storie su di te e ha fatto alcune domande.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1907,11 +1904,11 @@ Gazzetta del Profeta
 Questo è il giornale a cui le persone prestano davvero attenzione.
  Rita Skeeter scrive di personaggi famosi, e come dice lei, usa la sua penna
  per bucare le reputazioni troppo gonfiate.
- Se non troverà nessuna voce su di te, ne scriverà di sue
+ Se non troverà nessuna voce su di te, ne scriverà di sue.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1972,11 +1969,11 @@ Questo non è un suggerimento.
  Questo non è il mio consiglio.
  È solo il modo in cui le cose sono.
  Mio padre potrebbe quasi certamente insabbiare tale articolo.
- Ma ti costerebbe
+ Ma ti costerebbe.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1991,15 +1988,15 @@ Ma invece Harry Potter scosse la testa, sorridendo sotto il cappuccio.
 \begin_inset Quotes fld
 \end_inset
 
-Non ho intenzione di cercare di ostacolare Rita Skeeter
+Non ho intenzione di cercare di ostacolare Rita Skeeter.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Draco non cercò neppure di mantenere l'incredulità lontana dalla voce.
+Draco non tentò neppure di mantenere l'incredulità lontana dalla voce.
  
 \begin_inset Quotes fld
 \end_inset
@@ -2033,11 +2030,11 @@ Mi interessa meno di quanto potresti pensare
 \end_inset
 
 Ma ho i miei modi di trattare con persone come Skeeter.
- Non mi serve l'aiuto di Lucius
+ Non mi serve l'aiuto di Lucius.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2095,7 +2092,7 @@ Frigideiro! Frigideiro! Frigideiro! Frigideiro! Frigideiro!
 
 \begin_layout Standard
 Poi Harry Potter abbassò la bacchetta, anche se la sua mano sembrò un po'
- tremante, e la rimise nelle sue vesti.
+ tremante, e la rimise nelle vesti.
 \end_layout
 
 \begin_layout Standard
@@ -2117,11 +2114,11 @@ Allora
 \end_inset
 
 La scienza.
- Mi dirai qualcosa sul sangue
+ Mi dirai qualcosa sul sangue.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2169,14 +2166,14 @@ Harry Potter sorrise malvagiamente sotto il cappuccio, e rispose,
 \begin_inset Quotes fld
 \end_inset
 
-Dimmelo tu
+Dimmelo tu.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -2188,25 +2185,11 @@ Dimmelo tu
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Draco aveva sentito parlare di una cosa chiamata il Metodo socratico, che
  consisteva nell'insegnare facendo domande (dal nome di un antico filosofo
  che era stato troppo intelligente per essere un vero e proprio Babbano
  e, quindi, era stato un mago purosangue camuffato).
- Uno dei suoi precettori avevano usato molto l'insegnamento socratico.
+ Uno dei suoi precettori aveva usato molto l'insegnamento socratico.
  Era stato fastidioso ma efficace.
 \end_layout
 
@@ -2249,15 +2232,15 @@ non
 \emph on
 era
 \emph default
- una trappola, era semplicemente una regola riguardo il modo in cui gli
- scienziati operavano, dovevi provare a confutare le tue stesse teorie,
- e se avevi fatto un tentativo onesto e fallito, quella era una vittoria.
+ una trappola, era semplicemente una regola riguardo il modo di operare
+ degli scienziati, dovevi provare a confutare le tue stesse teorie, e se
+ avevi fatto un tentativo onesto e avevi fallito, quella era una vittoria.
 \end_layout
 
 \begin_layout Standard
 Draco aveva tentato di sottolinearne la sconcertante stupidità suggerendo
  che la chiave per sopravvivere a un duello fosse lanciare Avada Kedavra
- sui tuoi piedi e mancare.
+ sui tuoi piedi e mancarli.
 \end_layout
 
 \begin_layout Standard
@@ -2350,7 +2333,7 @@ avrebbe
  che fosse esattamente quello che era successo.
  Harry Potter aveva sostenuto che egli stesso voleva solo sapere 
 \emph on
-come il sangue funzionasse davvero
+come il sangue funzionasse realmente
 \emph default
  e che a tale scopo aveva bisogno di vedere il purismo del sangue 
 \emph on
@@ -2520,7 +2503,7 @@ Il volto del dottor Potter fece un ottimo lavoro nel contorcersi in preda
 \end_layout
 
 \begin_layout Standard
-Questa parte era 
+Quella parte era 
 \emph on
 divertente
 \emph default
@@ -2529,9 +2512,9 @@ divertente
 \end_layout
 
 \begin_layout Standard
-Il dottor Potter si alzò dalla sedia, si accasciò sgomento, e si trascinò
- fuori, e si trasformò in Harry Potter, che indirizzò a Draco un pollice
- in su, e poi si trasformò di nuovo nel dottor Potter, che ora si avvicinava
+Il dottor Potter si alzò dalla sedia, si accasciò sgomento, si trascinò
+ fuori, e si trasformò in Harry Potter, che rivolse a Draco un pollice in
+ su, e poi si trasformò di nuovo nel dottor Potter, che ora si avvicinava
  con un sorriso zelante.
 \end_layout
 
@@ -2551,7 +2534,8 @@ Sull'ereditarietà dell'abilità magica
 \align center
 
 \emph on
-Dottor H.J.
+Dottor H.
+ J.
  Potter-Evans-Verres, Istituto
 \begin_inset space ~
 \end_inset
@@ -2636,11 +2620,11 @@ mi chiedevo se la
 Rivista dei risultati irriproducibili
 \emph default
  potrebbe prendere in considerazione per la pubblicazione il mio articolo
- intitolato `Sull'ereditarietà dell'abilità magica'
+ intitolato `Sull'ereditarietà dell'abilità magica'.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2733,13 +2717,13 @@ troppo
 \emph default
  bravo.
  Altre due prove, e poi alla terza si fa sul serio, senza interruzioni in
- mezzo, ti attaccherò direttamente e allora dovrai rifiutare l'articolo
+ mezzo, ti attaccherò frontalmente e allora dovrai rifiutare l'articolo
  in base al suo contenuto effettivo, ricorda, i tuoi rivali scientifici
- ti stanno osservando
+ ti stanno osservando.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2807,11 +2791,11 @@ Sull'ereditarietà dell'abilità magica
 
 Ho deciso di permettere alla sua rivista di pubblicarlo, e l'ho preparato
  in perfetto accordo con le vostre istruzioni in modo che possiate pubblicarlo
- rapidamente
+ rapidamente.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2832,11 +2816,11 @@ Il Mangiamorte decise di scovare e uccidere il dottor Potter dopo che la
 \begin_inset Quotes fld
 \end_inset
 
-Mi faccia dare un'occhiata, prego
+Mi faccia dare un'occhiata, prego.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2887,11 +2871,11 @@ Gli elfi domestici stanno rubando la nostra magia?
 \emph on
 sono
 \emph default
- altre ipotesi plausibili
+ altre ipotesi plausibili.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2989,9 +2973,9 @@ Dannazione, dannazione, dannazione!
 
 \begin_layout Standard
 L'allarme nella voce di Harry Potter fu contagioso.
- Senza nemmeno pensarci, la mano di Draco entrò nella sua veste e afferrò
- la sua bacchetta.
- Aveva pensato che la casa di Malfoy fosse 
+ Senza nemmeno pensarci, la mano di Draco s'infilò nella sua veste e afferrò
+ la bacchetta.
+ Aveva pensato che la Casa di Malfoy fosse 
 \emph on
 al sicuro
 \emph default
@@ -3082,7 +3066,7 @@ Io\SpecialChar \ldots{}
 
 \begin_layout Standard
 «Mi hai detto che nessuno ha mai eguagliato i quattro fondatori di Hogwarts.
- Quindi è in corso da almeno otto secoli, giusto? Non riesci a ricordare
+ Quindi è in atto da almeno otto secoli, giusto? Non riesci a ricordare
  di aver sentito che i problemi sono apparsi improvvisamente cinque secoli
  fa, o qualcosa di simile?
 \begin_inset Quotes frd
@@ -3098,11 +3082,11 @@ Draco stava cercando freneticamente di pensare.
 \end_inset
 
 Ho sempre sentito dire che nessuno era bravo come Merlino e poi dopo che
- nessuno era bravo come i fondatori di Hogwarts
+ nessuno era bravo come i fondatori di Hogwarts.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3191,8 +3175,8 @@ non ce l'avessero
 \emph on
 davvero
 \emph default
- accadendo, poi un giorno ti sveglierai la mattina e scoprirai che la tua
- bacchetta è solo un bastoncino di legno!
+ accadendo, poi una mattina ti sveglierai e scoprirai che la tua bacchetta
+ è solo un bastoncino di legno!
 \begin_inset Quotes frd
 \end_inset
 
@@ -3291,11 +3275,11 @@ Non sarebbe
 \emph on
 giusto
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3395,11 +3379,11 @@ Ciò che è vero è già così
 \begin_inset Quotes fld
 \end_inset
 
-ammetterlo non peggiora le cose
+ammetterlo non peggiora le cose.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3441,11 +3425,10 @@ non
 Prima
 \emph default
  vogliamo semplicemente scoprire cosa sta realmente succedendo, quale sia
- il mondo in cui effettivamente viviamo
+ il mondo in cui effettivamente viviamo.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Harry tornò al suo lavoro, scarabocchiò un altro po', e poi girò la pergamena
  in modo che Draco potesse vederla.
  Draco si chinò sulla scrivania e Harry avvicinò la luce verde.
@@ -3558,11 +3541,11 @@ Ora, quando hai a che fare con un problema molto confuso e non hai idea
  alcuni test molto semplici, cose che puoi verificare subito.
  Abbiamo bisogno di test rapidi che distinguano tra queste ipotesi.
  Osservazioni che risulterebbero differenti per almeno una di esse rispetto
- a tutte le altre
+ a tutte le altre.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3608,11 +3591,10 @@ Mettiamo insieme 6 con 2 e chiamiamola l'ipotesi del sangue per il momento.
  5 è improbabile per la stessa ragione, nessun calo improvviso, i Babbani
  non stavano facendo nulla 800 anni fa.
  4 assomiglia 2 e 5 assomiglia a 1, in ogni caso.
- Quindi a grandi linee dovremmo cercare di distinguere tra 1, 2, e 3
+ Quindi a grandi linee dovremmo cercare di distinguere tra 1, 2, e 3.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Harry rivoltò la pergamena verso sé stesso, tracciò un ellisse attorno
  a quei tre numeri, la rigirò.
  
@@ -3716,11 +3698,10 @@ Draco immaginò
 \begin_inset Quotes fld
 \end_inset
 
-Incantesimi che prima funzionavano ora non funzionano più
+Incantesimi che prima funzionavano ora non funzionano più.
 \begin_inset Quotes frd
 \end_inset
 
-.
  
 \emph on
 I maghi si svegliano e scoprono che le loro bacchette sono pezzi di legno\SpecialChar \ldots{}
@@ -3784,11 +3765,10 @@ Harry annuì con decisione.
 \begin_inset Quotes fld
 \end_inset
 
-È un test
+È un test.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Scrisse sulla pergamena sotto 
 \emph on
 Test:
@@ -3923,9 +3903,9 @@ L'espressione di Draco si contorse mentre cercava di ricordare.
 \begin_inset Quotes fld
 \end_inset
 
-Non riesco a rammentare di aver sentito nulla a proposito del Signore Oscuro,
- ma mi pare che si supponga che Silente abbia fatto qualcosa di incredibile
- in occasione dei suoi 
+Non riesco a ricordare di aver sentito niente sul Signore Oscuro, ma mi
+ pare che si supponga che Silente abbia fatto qualcosa di incredibile in
+ occasione dei suoi 
 \noun on
 g.u.f.o.
 
@@ -3947,18 +3927,17 @@ Harry fece una smorfia, ancora passeggiando.
 \end_inset
 
 Potrebbe essere semplicemente che studiassero molto.
- Eppure, se gli studenti del primo anno imparavano le stesse magie e sembrava
+ Eppure, se gli studenti del primo anno imparavano le stesse magie e sembravano
  all'incirca tanto potenti allora quanto oggi, potremmo considerarla una
  prova 
 \emph on
 debole
 \emph default
  in favore di 1 rispetto a 2\SpecialChar \ldots{}
- un attimo, aspetta
+ un attimo, aspetta.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Harry si fermò improvvisamente.
  
 \begin_inset Quotes fld
@@ -3972,11 +3951,10 @@ Ho un altro test che potrebbe distinguere tra 1 e 2.
 combiniamo
 \emph default
  la mia prova e il tuo test ed entrambi rispondono allo stesso modo, sarebbe
- un forte indizio in direzione della risposta
+ un indizio forte riguardo alla risposta.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Harry si mise quasi a correre nuovamente alla scrivania, prese la pergamena
  e scrisse:
 \end_layout
@@ -4057,11 +4035,11 @@ Draco si sedette di nuovo e frugò nella sua borsa dei libri in cerca di
 \begin_inset Quotes fld
 \end_inset
 
-Vai avanti
+Procedi.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4148,7 +4126,7 @@ ma perché
 Ha a che fare con uno dei segreti del sangue che gli scienziati hanno già
  scoperto.
  Te lo spiegherò quando sarai tornato.
- Dividiamoci e incontriamoci nuovamente qui tra un'ora, vale a dire alle
+ Separiamoci e incontriamoci nuovamente qui tra un'ora, vale a dire alle
  18:22.
  Siamo pronti?
 \begin_inset Quotes frd

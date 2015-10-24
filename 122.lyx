@@ -1,0 +1,4851 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{121}
+
+%\usepackage{fmtcount}
+\usepackage{graphicx}
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{\footnotesize Capitolo\ \thechapter}{}
+  \makeoddfoot{myheadings}{}{\footnotesize \leftmark}{\thepage}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+%     \centerline{\chapnumfont \textsc{\chaptername\ \Numberstringnum{\thechapter}}}}
+%     \centerline{\chapnumfont \textsc{\chaptername\ \thechapter}}}
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{%
+%    \par\centerline{\parbox{0.5in}{\hrulefill}}\par}
+%    \par\parbox{0.5in}{\hrulefill}\par}
+    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
+  \renewcommand*{\printchaptertitle}[1]{%
+%    \centering \chaptitlefont\textsc{##1}}}
+    \chaptitlefont\textsc{##1}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+\chapterstyle{hpmor}
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\usepackage{xcolor} %per il titolo in rosso
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+
+\usepackage{fontspec,microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+\frenchspacing
+\widowpenalties 2 100000 0
+\clubpenalty 1000
+\raggedbottom
+\usepackage{indentfirst}
+%\usepackage{libertine}
+%\usepackage{ebgaramond}
+
+
+
+%%per rimuovere legatura Th, rallenta un po', forse serve solo per versione inglese
+%\usepackage{selnolig}
+%\nolig{Th}{T|h} % suppress "Th" ligature globally
+\end_preamble
+\use_default_options true
+\master ENG_hpmor.lyx
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman EB Garamond
+\font_sans Linux Biolinum O
+\font_typewriter Inconsolata
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.35
+\use_hyperref false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch Note a margine
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 6in
+\paperheight 9in
+\leftmargin 1.2in
+\topmargin 0.6in
+\rightmargin 1.2in
+\bottommargin 1.2in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Qualcosa da proteggere: Hermione Granger
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:122Qualcosa-da-proteggere-Hermione-Granger"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+E fu sera e fu mattina, l'ultimo giorno.
+ 15 giugno 1992.
+\end_layout
+
+\begin_layout Standard
+La prima luce mattutina, un momento prima dell'alba e del sorgere del Sole,
+ stava appena illuminando il cielo.
+ A est di Hogwarts, dove il Sole sarebbe sorto, quella vaghissima sfumatura
+ di grigio rendeva a malapena visibile l'orizzonte collinoso oltre gli spalti
+ di Quidditch.
+\end_layout
+
+\begin_layout Standard
+La terrazza-piattaforma di pietra su cui Harry era ora seduto sarebbe stata
+ abbastanza alta da poter vedere l'alba oltre le colline più in basso; l'aveva
+ chiesto lui, quando aveva descritto il suo nuovo ufficio.
+\end_layout
+
+\begin_layout Standard
+In quel momento Harry era seduto a gambe incrociate su di un cuscino, e
+ le gelide brezze pre-mattutine si muovevano sul suo volto e sulle sue mani
+ esposte.
+ Aveva ordinato agli elfi domestici di portare su il trono luccicante del
+ suo precedente ufficio di Generale del Chaos...
+ e poi aveva detto agli elfi di rimetterlo a posto, quando gli era capitato
+ di iniziare a preoccuparsi del luogo da cui provenisse il suo gusto per
+ le decorazioni e se Voldemort avesse in precedenza posseduto un trono simile.
+ Il che, di per sé, non era un argomento decisivo -- sedere su di un trono
+ luccicante per passare in rassegna le terre sotto Hogwarts non era 
+\emph on
+immorale
+\emph default
+, in qualunque modo la filosofia morale di Harry potesse metterla -- ma
+ Harry aveva deciso che doveva prendersi del tempo e pensarci.
+ Nel frattempo, dei semplici cuscini sarebbero stati sufficienti.
+\end_layout
+
+\begin_layout Standard
+Nella stanza di sotto, collegata al tetto da una semplice scala di legno,
+ c'era il nuovo ufficio di Harry all'interno di Hogwarts.
+ Una stanza ampia, circondata da finestre che coprivano tutto il muro su
+ tutti e quattro i lati per accogliere la luce solare; attualmente spoglia
+ di arredamento se non per quattro sedie e una scrivania.
+ Harry aveva detto alla preside McGonagall ciò che stava cercando, e la
+ preside McGonagall aveva indossato il Cappello Smistatore e poi aveva riferito
+ a Harry la sequenza di svolte e salite che l'avrebbero portato là dove
+ voleva essere.
+ Abbastanza in alto dentro Hogwarts che il castello non sarebbe dovuto essere
+ così alto, abbastanza in alto dentro Hogwarts che nessuno guardando dal
+ di fuori avrebbe visto un pezzo di castello corrispondente al luogo dove
+ Harry ora si trovava.
+ Sembrava una precauzione elementare contro i cecchini che non c'era motivo
+ di non prendere.
+\end_layout
+
+\begin_layout Standard
+Sebbene, d'altra parte, Harry non aveva la minima idea di dove fosse attualmente
+ in nessun senso reale.
+ Se il suo ufficio non poteva essere visto dai terreni al di sotto, allora
+ come faceva Harry a vedere i terreni, come facevano i fotoni ad andare
+ dal paesaggio fino a lui? Sul lato occidentale dell'orizzonte, le stelle
+ luccicavano ancora, limpide nell'aria prima dell'alba.
+ Quei fotoni erano forse i veri fotoni che erano stati emessi da enormi
+ fornaci di plasma a una distanza inimmaginabile? O Harry stava ora sedendo
+ all'interno di una qualche visione sognante del castello di Hogwarts? O
+ tutto quello era, senza nessun'altra spiegazione, ‘solo magia'? Aveva bisogno
+ di far funzionare meglio l'elettricità vicino la magia, così avrebbe potuto
+ fare esperimenti accendendo laser verso il basso e verso l'alto.
+\end_layout
+
+\begin_layout Standard
+E sì, Harry aveva il suo ufficio all'interno di Hogwarts, ora.
+ Non aveva ancora nessun titolo ufficiale, ma il Ragazzo-Che-È-Sopravvissuto
+ era ormai una vera istituzione della Scuola di Magia e Stregoneria di Hogwarts,
+ la prossima sede della Pietra filosofale e l'unico istituto magico del
+ mondo di autentica istruzione superiore.
+ Non era del tutto al sicuro, ma la professoressa Vector aveva impostato
+ alcuni Incantesimi e alcune Rune per schermare l'ufficio e il suo tetto
+ contro la possibilità di origliare.
+\end_layout
+
+\begin_layout Standard
+Harry sedeva sul suo cuscino, vicino all'estremità del tetto del suo ufficio,
+ e guardava giù in basso gli alberi e i laghi e i prati in fiore.
+ Molto al di sotto stavano carrozze immobili, non ancora attaccate a cavalli
+ scheletrici.
+ Piccole barche ricoprivano la sponda, pronte a trasportare gli studenti
+ più giovani al di là del lago quando fosse venuta l'ora.
+ L'Hogwarts Express era arrivato durante la notte, e ora le carrozze e l'enorme
+ e antiquato propulsore attendevano dall'altra parte del lago meridionale.
+ Tutto era pronto per portare gli studenti a casa dopo la Festa del commiato
+ di quella mattina.
+\end_layout
+
+\begin_layout Standard
+Harry guardò al di là del lago, la grande e antiquata locomotiva su cui
+ non sarebbe salito per tornare a casa, questa volta.
+ Ancora una volta.
+ C'erano una strana tristezza e della preoccupazione in quel pensiero, come
+ se Harry stesse già iniziando a sentire la mancanza di esperienze volte
+ a legare 
+\emph on
+con gli altri studenti della sua età
+\emph default
+ -- sempre che fosse possibile dire così, visto che una parte significativa
+ di Harry era nata nel 1926.
+ La notte precedente, nella sala comune di Corvonero, a Harry era sembrato
+ che la distanza tra lui e gli altri studenti fosse, ebbene sì, aumentata
+ ancor di più.
+ Sebbene potesse essere dovuto solo alle domande che Padma Patil e Anthony
+ Goldstein, tutti eccitati, si erano rivolti l'un l'altra sulla Ragazza-Che-È-Ri
+suscitata, il fuoco rapido di speculazioni che aveva mitragliato l'aria
+ da Corvonero a Corvonero.
+ Harry conosceva le risposte, conosceva tutte le risposte, e non era stato
+ in grado di svelarle.
+\end_layout
+
+\begin_layout Standard
+C'era una parte di Harry che era tentata di salire sull'Hogwarts Express
+ e poi di tornare a Hogwarts via Metropolvere.
+ Ma quando Harry immaginava di trovare nello scompartimento altri cinque
+ studenti, e poi di passare le successive otto ore a mantenere segreti con
+ Neville o Padma o Dean o Tracey o Lavender...
+ non sembrava una prospettiva attraente.
+ Harry sentiva di doverlo fare allo scopo di Socializzare con gli Altri
+ Bambini, ma 
+\emph on
+non voleva
+\emph default
+ farlo.
+ Avrebbe potuto incontrare di nuovo tutti all'inizio dell'anno scolastico
+ successivo, quando ci sarebbero stati altri argomenti di cui avrebbe potuto
+ parlare liberamente.
+\end_layout
+
+\begin_layout Standard
+Guardò al di là del lago, verso sud, quella enorme e vecchia locomotiva,
+ e pensò al resto della propria vita.
+\end_layout
+
+\begin_layout Standard
+Al Futuro.
+\end_layout
+
+\begin_layout Standard
+La profezia che la lettera di Silente aveva menzionato e secondo cui avrebbe
+ fatto a pezzi le stelle del cielo...
+ beh, 
+\emph on
+quello
+\emph default
+ sembrava ottimistico.
+ Era stata un'interpretazione scontata per chiunque fosse cresciuto con
+ l'educazione giusta.
+ Descriveva un futuro in cui l'umanità aveva trionfato, più o meno.
+ Non era quello a cui Harry solitamente pensava quando alzava lo sguardo
+ alle stelle, ma da un punto di vista veramente 
+\emph on
+adulto
+\emph default
+, le stelle erano enormi ammassi di preziose materie prime, il che significava
+ che la tua specie era riuscita a diventare grande.
+\end_layout
+
+\begin_layout Standard
+A meno che la profezia non si riferisse a qualcosa di completamente diverso.
+ Silente avrebbe potuto interpretare male le parole di qualche veggente...
+ ma il suo messaggio per Harry era stato formulato come se vi fosse stata
+ una profezia secondo cui Harry avrebbe 
+\emph on
+personalmente
+\emph default
+ fatto a pezzi le stelle, in un futuro prossimo.
+ Il che sembrava potenzialmente più preoccupante, sebbene non fosse certo
+ che accadesse, o che fosse una cosa negativa se fosse stata vera...
+\end_layout
+
+\begin_layout Standard
+Harry si lasciò scappare un sospiro.
+ Aveva iniziato a capire, nelle lunghe ore prima che il sonno lo cogliesse
+ la notte precedente, ciò che l'ultimo messaggio di Silente aveva implicato.
+\end_layout
+
+\begin_layout Standard
+Guardare indietro agli eventi dell'anno scolastico 1991--1992 di Hogwarts
+ era niente di meno che agghiacciante fin dentro le ossa, ora che Harry
+ comprendeva ciò che stava osservando.
+\end_layout
+
+\begin_layout Standard
+Non era solo che Harry aveva frequentemente goduto della compagnia del suo
+ buon amico Lord Voldemort.
+ Non era neppure 
+\emph on
+per lo più
+\emph default
+ quello.
+\end_layout
+
+\begin_layout Standard
+Era la visione di una sottile linea del Tempo che Albus Silente aveva pilotato
+ attraverso il piccolo buco della serratura del fato, un filo esilissimo
+ di possibilità infilato nella cruna di un ago.
+\end_layout
+
+\begin_layout Standard
+Le profezie avevano ordinato a Silente di far copiare l'intelligenza di
+ Tom Riddle nel cervello di un mago neonato che sarebbe poi cresciuto imparando
+ la scienza babbana.
+ Cosa rivelava ciò sulla verosimile conformazione del Futuro, se 
+\emph on
+quella
+\emph default
+ era la prima o la migliore strategia che i veggenti avevano potuto trovare
+ che 
+\emph on
+non
+\emph default
+ conducesse alla catastrofe?
+\end_layout
+
+\begin_layout Standard
+Harry poteva ora guardare indietro al Voto Infrangibile che aveva pronunciato,
+ e ipotizzare che se non fosse stato per quel Voto, un disastro si sarebbe
+ potuto già mettere in moto il giorno prima, quando Harry aveva desiderato
+ abbattere lo Statuto Internazionale di Segretezza.
+ Il che a sua volta suggeriva con forza che le molte profezie che Silente
+ aveva letto e le cui istruzioni aveva seguito avevano in qualche modo assicurat
+o che Harry e Voldemort collidessero 
+\emph on
+precisamente nel modo giusto
+\emph default
+ per far sì che Voldemort obbligasse Harry a pronunciare il Voto Infrangibile.
+ Che il Voto Infrangibile era stato parte del piccolo buco della serratura
+ del Tempo, uno degli improbabili prerequisiti per permettere alla gente
+ della Terra di sopravvivere.
+\end_layout
+
+\begin_layout Standard
+Un Voto il cui unico scopo era di proteggere tutti dall'attuale 
+\emph on
+stupidità
+\emph default
+ di Harry.
+\end_layout
+
+\begin_layout Standard
+Era come guardare una videocassetta di un quasi-incidente stradale che ti
+ aveva coinvolto, in cui ricordavi una macchina mancarti di pochi centimetri,
+ e il video ti mostrava 
+\emph on
+anche
+\emph default
+ che qualcuno aveva lanciato un sassolino esattamente nel modo preciso per
+ cui un enorme camion mancasse quella quasi-collisione, e se quel qualcuno
+ non avesse lanciato quel sassolino allora tu e tutta la tua famiglia nell'autom
+obile e il tuo 
+\emph on
+intero pianeta
+\emph default
+ sareste stati colpiti dal camion, che, nella metafora, rappresentava la
+ tua 
+\emph on
+assoluta inconsapevolezza
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Harry era stato 
+\emph on
+avvertito
+\emph default
+, a un certo livello aveva 
+\emph on
+saputo
+\emph default
+ o il Voto non l'avrebbe fermato, eppure aveva 
+\emph on
+comunque
+\emph default
+ fatto quasi la scelta sbagliata e distrutto il mondo.
+ Harry poteva guardarsi indietro ora e vedere che, sì, l'Harry-alternativo
+ senza Voto avrebbe avuto qualche problema ad accettare il ragionamento
+ che diceva che non potevi portare le guarigioni magiche ai Babbani il più
+ velocemente possibile.
+ Se poi l'Harry-alternativo avesse riconosciuto il pericolo, l'avrebbe razionali
+zzato, avrebbe cercato di trovare qualche modo intelligente di aggirare
+ il problema e rifiutarsi di accettare di 
+\emph on
+metterci qualche anno in più per farlo
+\emph default
+, e così il mondo sarebbe terminato.
+ Persino dopo tutti gli avvertimenti che Harry aveva ricevuto, non avrebbe
+ 
+\emph on
+comunque
+\emph default
+ funzionato senza il Voto Infrangibile.
+\end_layout
+
+\begin_layout Standard
+Un esile filo del Tempo, infilato nella cruna di un ago.
+\end_layout
+
+\begin_layout Standard
+Harry non sapeva cosa fare di quella rivelazione.
+ Non era il genere di situazione per gestire la quale gli esseri umani avevano
+ evoluto delle emozioni.
+ Tutto ciò che Harry poteva fare era contemplare quanto fosse andato vicino
+ al disastro, quanto poteva tornare 
+\emph on
+ancora
+\emph default
+ vicino al disastro, se quel Voto avesse fosse stato destinato a essere
+ attivato più di una volta, e pensare...
+\end_layout
+
+\begin_layout Standard
+Pensare...
+\end_layout
+
+\begin_layout Standard
+‘Non voglio che questo accada di nuovo' non sembrava il pensiero corretto.
+ Non aveva mai 
+\emph on
+voluto
+\emph default
+ distruggere il mondo, tanto per cominciare.
+ Non gli erano mancati sentimenti protettivi per la popolazione sapiente
+ della Terra, quei sentimenti protettivi erano stati il 
+\emph on
+problema
+\emph default
+, in un certo senso.
+ Ciò che era mancato a Harry era qualche frammento di una visione chiara,
+ del voler riconoscere coscientemente ciò che aveva già saputo dentro di
+ sé.
+\end_layout
+
+\begin_layout Standard
+E tutta la faccenda di Harry che aveva passato l'ultimo anno a diventare
+ intimo col Professore di Difesa non deponeva neppure un granché a favore
+ del suo intelletto.
+ Sembrava puntare allo stesso problema, persino.
+ C'erano cose che Harry aveva saputo o fortemente sospettato a qualche livello,
+ ma che non aveva mai promosso alla sua attenzione cosciente.
+ E così aveva fallito ed era quasi morto.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Devo alzare il livello del mio gioco.
+\end_layout
+
+\begin_layout Standard
+Quello era il pensiero che Harry stava cercando.
+ Doveva fare meglio di così, diventare una persona meno stupida di così.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Devo alzare il livello del mio gioco, o fallirò.
+\end_layout
+
+\begin_layout Standard
+Silente aveva distrutto le registrazioni nella Stanza delle Profezie e aveva
+ fatto sì che non ne fossero registrate altre.
+ Apparentemente c'era stata una profezia che aveva detto che Harry non avrebbe
+ dovuto esaminare quelle profezie.
+ E l'ovvio pensiero successivo, che poteva essere o non essere vero, era
+ che salvare il mondo fosse 
+\emph on
+al di là delle possibilità delle istruzioni profetiche
+\emph default
+.
+ Che vincere avrebbe richiesto piani troppo complessi per i messaggi dei
+ veggenti, o che per qualche motivo la Divinazione non poteva vederli.
+ Se vi fosse stato un modo per Silente di salvare il mondo da solo, allora
+ la profezia avrebbe probabilmente detto a Silente come farlo.
+ Invece le profezie aveva detto a Silente come creare le precondizioni affinché
+ esistesse una persona di un certo tipo; una persona, forse, che avrebbe
+ potuto superare una sfida più difficile di quanto una profezia avrebbe
+ potuto risolvere direttamente.
+ Era per questo che Harry era stato lasciato da solo, a pensare senza alcuna
+ guida profetica.
+ Se tutto ciò che Harry avesse fatto fosse stato seguire ordini misteriosi
+ da parte di profezie, allora non sarebbe maturato nella persona che avrebbe
+ potuto portare a termine quel compito sconosciuto.
+\end_layout
+
+\begin_layout Standard
+E proprio in quel momento, Harry James Potter-Evans-Verres era ancora una
+ catastrofe ambulante che aveva avuto bisogno di essere vincolato da un
+ Voto Infrangibile per impedirgli di mettere 
+\emph on
+immediatamente
+\emph default
+ la Terra su di un percorso inevitabile verso la distruzione 
+\emph on
+dopo che era stato già messo in guardia contro di questo
+\emph default
+.
+ Era accaduto 
+\emph on
+letteralmente ieri
+\emph default
+, solo un giorno dopo che aveva aiutato Voldemort a prendere quasi il possesso
+ di tutto il pianeta.
+\end_layout
+
+\begin_layout Standard
+Una certa frase di Tolkien continuava a girare nella mente di Harry, la
+ parte in cui Frodo indossava l'anello sul Monte Fato, e Sauron capiva improvvis
+amente quale 
+\emph on
+idiota completo
+\emph default
+ fosse stato.
+ ‘E la vastità della sua follia fu infine svelata', o comunque fosse scritto.
+\end_layout
+
+\begin_layout Standard
+C'era un salto enorme tra chi Harry doveva diventare, e chi era in quel
+ momento.
+\end_layout
+
+\begin_layout Standard
+E Harry non credeva che tempo, esperienze di vita, e pubertà si sarebbero
+ presi cura di quello automaticamente, sebbene sarebbero potuti essere d'aiuto.
+ Sebbene se Harry fosse potuto crescere e diventare un adulto che stesse
+ a 
+\emph on
+questo
+\emph default
+ sé come un normale adulto stava a un normale undicenne, allora forse 
+\emph on
+quello
+\emph default
+ sarebbe stato sufficiente a indirizzarlo verso il piccolo buco della serratura
+ del Tempo...
+\end_layout
+
+\begin_layout Standard
+Doveva crescere, in qualche modo, e non c'era nessun percorso tradizionale
+ predefinito affinché ci riuscisse.
+\end_layout
+
+\begin_layout Standard
+A Harry sovvenne il pensiero di un'altra opera narrativa, più oscura di
+ Tolkien:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Puoi arrivare alla maestria solo attraverso la pratica delle tecniche che
+ hai imparato, affrontando sfide e comprendendole, usando pienamente gli
+ strumenti che ti sono stati insegnati, finché non ti andranno in frantumi
+ tra le mani e ti ritroverai abbandonato nel mezzo del naufragio più completo...
+ Non posso creare dei maestri, non ho mai saputo come creare dei maestri.
+ Vai, allora, e fallisci...
+ Sei stato forgiato in qualcosa che potrebbe sopravvivere al naufragio,
+ determinato a rifondare la tua Arte.
+ Non posso creare maestri, ma se non ti fosse stato insegnato, le tue possibilit
+à sarebbero state minori.
+ La via superiore inizia dopo che l'Arte sembra venirti meno; sebbene la
+ realtà sarà che sarai stato tu a venire meno alla tua Arte.
+\end_layout
+
+\begin_layout Standard
+Il problema non era che Harry avesse imboccato il percorso 
+\emph on
+sbagliato
+\emph default
+, non era che la strada per la sanità mentale si trovasse da qualche parte
+ al di fuori della scienza.
+ Ma leggere articoli scientifici non era stato 
+\emph on
+sufficiente
+\emph default
+.
+ Tutti gli articoli di psicologia cognitiva sugli errori conosciuti del
+ cervello umano e cose simili erano stati 
+\emph on
+d'aiuto
+\emph default
+, ma non erano stati 
+\emph on
+sufficienti
+\emph default
+.
+ Non era riuscito a raggiungere quello che stava iniziando a capire essere
+ un livello 
+\emph on
+sorprendentemente
+\emph default
+ alto, l'essere così incredibilmente, inconcepibilmente razionale da iniziare
+ realmente a 
+\emph on
+fare le cose giuste
+\emph default
+, invece di possedere un linguaggio pratico per descrivere a posteriori
+ tutto ciò che avevi appena fatto di sbagliato.
+ Harry poteva ora guardarsi indietro e applicare concetti come ‘ragionamento
+ motivato'
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Nota
+\end_layout
+
+\end_inset
+
+ per capire dove si era smarrito nel corso dell'ultimo anno.
+ Questo aveva una sua importanza, quando si trattava di essere più sano
+ di mente in futuro.
+ Era meglio che non avere la minima idea di cosa avesse fatto di sbagliato.
+ Ma non si trattava ancora di essere la persona che poteva passare attraverso
+ lo stretto buco della serratura del Tempo, la forma adulta la cui 
+\emph on
+possibilità
+\emph default
+ Silente era stato istruito dai veggenti a creare.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Ho bisogno di pensare più velocemente, di crescere più velocemente...
+ Quanto sono solo, quanto sarò solo? Sto facendo forse lo stesso errore
+ che ho fatto durante la prima battaglia del professor Quirrell, quando
+ non capii che Hermione aveva dei capitani? L'errore che feci quando non
+ dissi a Silente della sensazione di sventura, una volta che ebbi compreso
+ che probabilmente Silente non era pazzo o cattivo?
+\end_layout
+
+\begin_layout Standard
+Sarebbe stato d'aiuto se i Babbani avessero avuto dei corsi per questo genere
+ di cose, ma non ce li avevano.
+ Forse Harry poteva reclutare Daniel Kahneman, mettere in scena la sua morte,
+ ringiovanirlo con la Pietra, e incaricarlo di inventare metodi di addestramento
+ migliore...
+\end_layout
+
+\begin_layout Standard
+Harry estrasse la Bacchetta di Sambuco dalle proprie vesti, osservò nuovamente
+ il legno grigio scuro che Silente gli aveva trasmesso.
+ Harry aveva 
+\emph on
+cercato
+\emph default
+ di pensare più rapidamente questa volta, aveva tentato di completare lo
+ schema sottinteso dal Mantello dell'Invisibilità e dalla Pietra della Risurrezi
+one.
+ Il Mantello dell'Invisibilità aveva posseduto il potere leggendario di
+ nascondere chi lo indossava, e il potere nascosto di permettere a chi lo
+ portava di nascondersi alla Morte stessa nella forma dei Dissennatori.
+ La Pietra della Risurrezione aveva il potere leggendario di evocare un'immagine
+ del morto, e poi Voldemort l'aveva incorporato nel suo sistema horcrux
+ per permettere al suo spirito di muoversi liberamente.
+ Il secondo Dono della Morte era un componente potenziale di un sistema
+ di vera immortalità che Cadmus Peverell non aveva mai completato, forse
+ a causa del fatto che aveva un'etica.
+\end_layout
+
+\begin_layout Standard
+E poi c'era il terzo Dono della Morte, la Bacchetta di Sambuco di Antioch
+ Peverell, che la leggenda diceva passare da mago a mago più forte, e che
+ rendeva il suo possessore invincibile contro i comuni attacchi; quella
+ era la caratteristica nota e manifesta...
+\end_layout
+
+\begin_layout Standard
+La Bacchetta di Sambuco che era appartenuta a Silente, il quale aveva tentato
+ di impedire la Morte del mondo stesso.
+\end_layout
+
+\begin_layout Standard
+Lo scopo del passaggio continuo della Bacchetta di Sambuco nelle mani del
+ vincitore poteva essere quello di trovare il più forte mago vivente e renderlo
+ ancora più potente, nel caso in cui vi fosse stata una qualunque minaccia
+ all'intera specie; poteva essere segretamente uno strumento per sconfiggere
+ la Morte nella sua forma di distruttrice dei mondi.
+\end_layout
+
+\begin_layout Standard
+Ma se c'era qualche altro potere più grande rinchiuso all'interno della
+ Bacchetta di Sambuco, esso non si era manifestato a Harry solo perché aveva
+ formulato quell'ipotesi.
+ Harry aveva sollevato la Bacchetta di Sambuco e le aveva parlato, dichiarandosi
+ un discendente di Peverell che accettava l'impresa della sua famiglia;
+ aveva promesso alla Bacchetta di Sambuco che avrebbe fatto del suo meglio
+ per salvare il mondo dalla Morte, e avrebbe proseguito la missione di Silente.
+ E la Bacchetta di Sambuco non aveva risposto più forte di prima alla sua
+ mano, respingendo il suo tentativo di saltare avanti nella storia.
+ Forse Harry doveva di scagliare il suo primo vero colpo contro la Morte
+ dei mondi, prima che la Bacchetta di Sambuco lo riconoscesse; così come
+ l'erede di Ignotus Peverell aveva già sconfitto l'ombra della Morte, e
+ l'erede di Cadmus Peverell era già sopravvissuto alla morte del suo corpo,
+ quando i loro rispettivi Doni della Morte avevano rivelato i propri segreti.
+\end_layout
+
+\begin_layout Standard
+Quanto meno Harry era riuscito a indovinare che, contrariamente alla leggenda,
+ la Bacchetta di Sambuco non conteneva un nucleo di ‘crine di Thestral'.
+ Harry aveva visto i Thestral, e questi erano cavalli scheletrici dalla
+ pelle liscia e nessuna criniera visibile sulle loro teste a forma di teschio,
+ nessun ciuffo sulle loro code ossute.
+ Ma quale nucleo ci fosse veramente all'interno della Bacchetta di Sambuco,
+ Harry non si era ancora sentito di sapere; né era stato mai in grado di
+ trovare, da nessuna parte sulla Bacchetta di Sambuco, il circolo-triangolo-line
+a dei Doni della Morte che sarebbe dovuto essere presente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non credo
+\begin_inset Quotes frd
+\end_inset
+
+, mormorò Harry alla Bacchetta di Sambuco, 
+\begin_inset Quotes fld
+\end_inset
+
+che potresti semplicemente dirmelo, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Non giunse nessuna risposta dalla bacchetta dai nodi globulari; solo una
+ sensazione di gloria e di potere controllato, che l'osservava scetticamente.
+\end_layout
+
+\begin_layout Standard
+Harry sospirò, e rimise la bacchetta più potente del mondo di nuovo nelle
+ sue vesti scolastiche.
+ Ci sarebbe arrivato, prima o poi, e sperabilmente in tempo.
+\end_layout
+
+\begin_layout Standard
+Forse più velocemente, se vi fosse stato qualcuno ad aiutarlo nella ricerca.
+\end_layout
+
+\begin_layout Standard
+Harry era a un qualche livello consapevole -- no, doveva smettere di essere
+ consapevole delle cose a un qualche livello e iniziare a essere consapevole
+ e basta -- Harry era esplicitamente e consciamente consapevole che stava
+ meditando sul Futuro per distrarsi dall'imminente arrivo di Hermione Granger.
+ Che avrebbe ricevuto un certificato di buona salute dal St.
+ Mungo's, quando si fosse svegliata molto presto quella mattina, e che sarebbe
+ poi tornata a Hogwarts via Metropolvere col professor Flitwick.
+ In seguito avrebbe detto al professor Flitwick che aveva bisogno di parlare
+ subito con Harry Potter.
+ A tal proposito c'era stata una nota di Harry stesso, quando Harry si era
+ svegliato più tardi quella mattina col sole già sorto sul dormitorio Corvonero.
+ Aveva letto la nota, e poi era tornato indietro col Giratempo all'ora dell'alba
+ quando Hermione Granger sarebbe arrivata.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Non sarà davvero arrabbiata con me.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+...
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Dico sul serio.
+ Hermione non è quel genere di persona.
+ Forse lo era all'inizio dell'anno ma è troppo consapevole di sé per ricascarci
+ ora.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+...
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Che vuol dire ‘...'? Se hai qualcosa da dire, voce interna, dillo e basta!
+ Stiamo cercando di essere più consapevoli dei nostri processi mentali,
+ ricordi?
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il cielo era diventato completamente grigio-bluastro, l'alba poco prima
+ del sorgere del sole, quando Harry udì il suono dei passi provenire dalla
+ scala che si apriva sul suo nuovo ufficio.
+ Frettolosamente, Harry si alzò in piedi e iniziò a spazzolarsi le vesti;
+ e poi, comprendendo cosa stava facendo, interruppe quei gesti nervosi.
+ Aveva appena sconfitto Voldemort, dannazione, non doveva essere così nervoso.
+\end_layout
+
+\begin_layout Standard
+La testa e i riccioli castani della giovane strega comparvero nell'apertura
+ e sbirciarono intorno.
+ Poi ella sorse ancora, sembrò quasi correre su per i gradini delle scale,
+ come se stesse camminando lungo un normale marciapiede, ma verticalmente;
+ Harry avrebbe potuto sbattere le palpebre e perderselo, il modo in cui
+ una sua scarpa si posò sul gradino più alto della scala e poi ella fu sul
+ tetto un istante dopo.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Hermione
+\emph default
+.
+ Le labbra di Harry si mossero attorno alla parola, ma non emisero alcun
+ suono.
+\end_layout
+
+\begin_layout Standard
+C'era stato qualcosa che Harry aveva voluto dire, ma gli era del tutto passato
+ di mente.
+\end_layout
+
+\begin_layout Standard
+Passò forse un quarto di minuto, sul tetto, prima che Hermione Granger parlasse.
+ Stava indossando un'uniforme dal bordo blu, ora, e la cravatta a strisce
+ blu e bronzo della sua Casa corretta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione Granger, una voce terribilmente familiare che quasi gli
+ fece salire le lacrime agli occhi, 
+\begin_inset Quotes fld
+\end_inset
+
+prima che ti faccia tutte le domande, vorrei iniziare ringraziandoti tanto
+ per, uhm, qualunque cosa tu abbia fatto.
+ Dico sul serio, davvero.
+ Grazie.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Hermione
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, e deglutì.
+ La frase 
+\emph on
+posso avere il permesso di abbracciarti
+\emph default
+, che Harry aveva immaginato di usare come battuta iniziale, sembrò impossibile
+ da pronunciare.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Bentornata.
+ Aspetta finché non metto su qualche incantesimo per la riservatezza.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry prese la Bacchetta di Sambuco dalle sue vesti, estrasse dalla sua
+ borsa un libro che aprì a un segno, e poi pronunciò attentamente 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Homenum Revelio
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, insieme ad altri due Incantesimi di sicurezza recentemente acquisiti che
+ Harry si era scoperto a mala pena capace di lanciare se impugnava la Bacchetta
+ di Sambuco.
+ Non era molto, ma era una sicurezza marginalmente migliore che affidarsi
+ soltanto alla professoressa Vector.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Hai la bacchetta di Silente
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ La sua voce era sommessa, e sembrò tanto forte quanto una valanga nella
+ ferma aria dell'alba.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E puoi usarla per lanciare incantesimi del quarto anno?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì, prendendo nota mentalmente di stare maggiormente attento a
+ chi altro lo vedesse farlo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Va bene se ti abbraccio?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione si mosse leggera verso di lui; i suoi movimenti erano peculiarmente
+ repentini, più aggraziati di quanto fossero stati in precedenza.
+ I suoi gesti sembravano irraggiare l'aura di qualcosa di puro e intatto,
+ ricordando ancora a Harry quanto placida Hermione fosse sembrata quando
+ stava dormendo sull'altare di Voldemort
+\begin_inset space ~
+\end_inset
+
+--
+\end_layout
+
+\begin_layout Standard
+La consapevolezza colpì Harry come una tonnellata di mattoni, o almeno quanto
+ un chilogrammo di mattoni.
+\end_layout
+
+\begin_layout Standard
+E Harry abbracciò Hermione, sentendo quanto molto 
+\emph on
+viva
+\emph default
+ ella sembrasse.
+ Si sentì di piangere, e lo soppresse, perché non sapeva se fosse soltanto
+ l'aura di lei che lo stava influenzando o meno.
+\end_layout
+
+\begin_layout Standard
+Le braccia di Hermione erano molto delicate attorno a lui, eccessivamente
+ leggere nella loro pressione, come se ella stesse deliberatamente facendo
+ attenzione a non spezzare il corpo di lui a metà come uno stuzzicadenti
+ usato.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Allora
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, una volta che Harry l'ebbe lasciata andare.
+ Il suo giovane volto sembrava molto serio, e allo stesso tempo puro e innocente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non ho detto agli Auror che tu eri là, o che è stato il professor Quirrell
+ e non Tu-Sai-Chi a uccidere tutti i Mangiamorte.
+ Il professor Flitwick ha permesso loro di darmi solo una goccia di Veritaserum,
+ così non dovevo parlare.
+ Ho solo detto loro che il troll era l'ultima cosa che ricordavo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ah
+\begin_inset Quotes frd
+\end_inset
+
+, fece Harry.
+ Si era scoperto a fissare in qualche modo il naso di Hermione, invece dei
+ suoi occhi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Cosa pensi che sia accaduto, esattamente?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh
+\begin_inset Quotes frd
+\end_inset
+
+, fece Hermione Granger pensierosa, 
+\begin_inset Quotes fld
+\end_inset
+
+sono stata mangiata da un troll, cosa che francamente preferirei non fare
+ di nuovo, e poi c'è stato un 
+\emph on
+bang
+\emph default
+ molto forte e le mie gambe erano tornate, e stavo giacendo su di un altare
+ di pietra, nel mezzo di un cimitero, in un'oscura foresta illuminata dalla
+ luce lunare che non avevo mai visto prima, con le mani mozzate di qualcuno
+ strette attorno alla mia gola.
+ Qunidi vede, signor Potter, trovandomi in una situazione così strana e
+ oscura e spaventosa, non ho fatto lo stesso errore che feci l'ultima volta
+ con Tracey.
+ Sapevo 
+\emph on
+fin dal primo momento
+\emph default
+ che sei stato tu.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ottima decisione.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho chiamato il tuo nome, ma non hai risposto
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi sono messa a sedere e una delle mani insanguinate è scivolata lungo la
+ mia camicia, lasciandosi dietro dei piccoli pezzi di carne.
+ Non ho urlato, però, anche quando mi sono guardata intorno e ho visto tutte
+ le teste e i corpi e ho capito cosa fosse quell'odore.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione si fermò, fece un altro respiro profondo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho visto le maschere di teschio e ho capito che le persone morte erano state
+ Mangiamorte.
+ Sapevo da subito che il Professore di Difesa era stato là con te e li aveva
+ uccisi tutti, ma non ho notato che anche il corpo del professor Quirrell
+ fosse lì.
+ Non ho capito che fosse lui neppure quando ho visto il professor Flitwick
+ controllare il corpo.
+ Sembrava...
+ diverso, da morto.
+\begin_inset Quotes frd
+\end_inset
+
+ La voce di Hermione si fece più bassa.
+ Sembrava più umile, in qualche modo, in un modo che Harry non riusciva
+ a ricordare di aver visto spesso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dicono che David Monroe abbia sacrificato la sua vita per riportarmi indietro,
+ nello stesso modo in cui tua madre si è sacrificata per te, così che il
+ Signore Oscuro esplodesse di nuovo quando avesse cercato di toccarmi.
+ Sono alquanto sicura che non sia tutta la verità, ma...
+ ho pensato tante cose cattive sul nostro Professore di Difesa che non avrei
+ mai dovuto pensare.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm
+\begin_inset Quotes frd
+\end_inset
+
+, fece Harry.
+\end_layout
+
+\begin_layout Standard
+Hermione annuì solennemente, le sue mani strette davanti a sé come in un
+ gesto di penitenza.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+So che probabilmente sei troppo gentile per dirmi le cose che avresti il
+ diritto di dirmi ora, così le dirò per te, Harry.
+ Tu aveva ragione riguardo al professor Quirrell, e io avevo torto.
+ Me l'avevi detto.
+ David Monroe era un po' Oscuro e tanto Serpeverde, ed è stato infantile
+ da parte mia pensare che questo fosse la stessa cosa che essere malvagio.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ah...
+\begin_inset Quotes frd
+\end_inset
+
+ fece Harry.
+ Quello era molto difficile da dire.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+In effetti, il resto del mondo non conosce questa parte, neppure la Preside.
+ Ma in realtà avevi ragione al centododici percento sul fatto che lui fosse
+ malvagio, e terrò a mente per il futuro che sebbene ‘Oscuro' e ‘malvagio'
+ possano non essere tecnicamente la stessa cosa, c'è una gran bella correlazione
+ statistica.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, e si fece di nuovo silenziosa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non stai dicendo che me l'avevi detto?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Harry.
+ Il suo modello mentale di Hermione stava gridando: 
+\noun on
+Te l'avevo detto! Non te l'avevo detto, signor Potter? Non te l'avevo detto?
+ Il professor Quirrell è malvaaaagiooo, ti dissi, ma 
+\emph on
+tu non mi hai dato retta!
+\end_layout
+
+\begin_layout Standard
+La vera Hermione si limitò a scuotere la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+So che ci tenevi molto a lui
+\begin_inset Quotes frd
+\end_inset
+
+, disse a bassa voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Poiché avevo ragione dopo tutto...
+ sapevo che ci saresti stato molto male dopo che si fosse scoperto che il
+ professor Quirrell era malvagio, e quello non sarebbe stato un buon momento
+ per dirti che te l'avevo detto.
+ Cioè, questo è quello che decisi quando riflettei su quella parte mesi
+ fa.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Grazie, signorina Granger.
+
+\emph default
+ Harry era felice che l'avesse detto, però, altrimenti non sarebbe sembrata
+ Hermione.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Allora, signor Potter
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione Granger, battendo le dita sulla propria veste all'altezza
+ delle cosce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Dopo che la medi-strega mi ha prelevato il sangue, ha smesso di farmi male
+ subito, e quando ho lavato via il poco di sangue che era rimasto sul mio
+ braccio, non ho potuto trovare dove l'ago mi aveva bucata.
+ Ho piegato del metallo del mio letto senza sforzarmi troppo, e sebbene
+ non abbia avuto ancora la possibilità di provarlo, mi sento come se dovessi
+ essere in grado di correre molto 
+\emph on
+veloce
+\emph default
+.
+ Le mie unghie sono bianco-perla e luminose sebbene non ricordi di averle
+ dipinte.
+ E anche i miei denti hanno quell'aspetto, il che, essendo figlia di dentisti,
+ mi rende nervosa.
+ Quindi non per essere ingrata, ma esattamente cosa hai fatto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhm
+\begin_inset Quotes frd
+\end_inset
+
+, fece Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E mi aspetto che tu ti stia anche chiedendo perché irraggi un'aura di purezza
+ e innocenza, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io 
+\noun on
+cosa
+\noun default
+?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questa parte non è stata una mia idea.
+ Onestamente.
+\begin_inset Quotes frd
+\end_inset
+
+ La voce di Harry si fece piccina.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Per favore non uccidermi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione Granger alzò le mani davanti al proprio volto, fissando in modo
+ quasi strabico le proprie dita.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Harry, stai dicendo...
+ cioè, il mio irraggiare innocenza e l'essere così veloce e aggraziata e
+ il fatto che i miei denti siano bianco perlacei...
+ è di 
+\emph on
+alicorno
+\emph default
+ che sono fatte le mie unghie?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Alicorno?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+È il termine per il corno di unicorno, signor Potter.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione Granger sembrò cercare di mangiucchiarsi le unghie, senza grande
+ successo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Allora, credo che se riporti una ragazza indietro dai morti lei finisca
+ per essere, come l'aveva chiamata Daphne, una Scintillante Principessa
+ Unicorno
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dal cap.
+ 69.
+\end_layout
+
+\end_inset
+
+?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non è proprio quello che è successo
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, sebbene ci andasse spaventosamente vicino.
+\end_layout
+
+\begin_layout Standard
+Hermione tolse il dito dalla bocca, e aggrottò le sopracciglia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non posso neppure mordermela.
+ Signor Potter, ha considerato i problemi ora che è letteralmente impossibile
+ per me tagliarmi le unghie delle mani e dei piedi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+I gemelli Weasley hanno una spada magica che dovrebbe funzionare
+\begin_inset Quotes frd
+\end_inset
+
+, propose Harry spontaneamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io penso
+\begin_inset Quotes frd
+\end_inset
+
+, disse con fermezza Hermione Granger, 
+\begin_inset Quotes fld
+\end_inset
+
+che mi piacerebbe sapere l'intera storia dietro tutto questo, signor Potter.
+ Perché conoscendo lei e conoscendo il professor Quirrell, so che c'era
+ una specie di 
+\emph on
+piano
+\emph default
+ in atto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry fece un respiro profondo.
+ Poi espirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace è...
+ segretato.
+ Potrei dirtelo se studiassi Occlumanzia, ma...
+ vorresti farlo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Voglio studiare Occlumanzia?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Hermione, sembrando un po' stupita.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quella è roba da almeno sesto anno, no?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io l'ho imparata
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho iniziato con una motivazione inconsueta, ma dubito che questo importi
+ davvero sul lungo termine.
+ Voglio dire, sono sicuro che tu possa imparare l'analisi matematica se
+ studiassi molto, a prescindere da quale sia l'età a cui i Babbani la imparano
+ di solito.
+ La questione è, uhm.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry stava avendo problemi a controllare il proprio respiro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La questione è, vuoi ancora fare...
+ quel genere di cose.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione si voltò, e guardò là dove il cielo si stava schiarendo a est.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Vuoi dire
+\begin_inset Quotes frd
+\end_inset
+
+, disse ella sommessamente, 
+\begin_inset Quotes fld
+\end_inset
+
+voglio ancora essere un eroe ora che mi ha procurato una morte orribile
+ già una volta.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì, poi disse 
+\begin_inset Quotes fld
+\end_inset
+
+Sì
+\begin_inset Quotes frd
+\end_inset
+
+ perché Hermione non si stava girando verso di lui, sebbene la parola sembrasse
+ incastrata nella sua gola.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ci ho pensato su
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È stata, in effetti, una morte eccezionalmente cruenta e dolorosa.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io, uhm.
+ Ho preparato alcune cose 
+\emph on
+giusto nel caso in cui
+\emph default
+ volessi ancora essere un eroe.
+ Ci sono state alcune brevi finestre di opportunità in cui non ho avuto
+ il tempo di consultarti, non potevo lasciarmi vedere da te perché mi aspettavo
+ che dopo ti somministrassero il Veritaserum.
+ Ma se la cosa non ti piace, posso disfare la maggior parte delle cose che
+ ho fatto e puoi semplicemente ignorare il resto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione annuì distratta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Come far credere a tutti che io...
+ Harry, ho fatto 
+\emph on
+davvero
+\emph default
+ qualcosa a Tu-Sai-Chi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No, quello l'ho fatto tutto io, sebbene ti prego di non dirlo a nessuno.
+ Solo perché tu lo sappia, quella volta che si dice che il Ragazzo-Che-È-Sopravv
+issuto sconfisse Voldemort, la notte di Halloween del 1981, quella fu una
+ vittoria di Silente e lui ha lasciato che tutti pensassero che fossi stato
+ io.
+ Così ora ho sconfitto il Signore Oscuro una volta, e una volta ne ho avuto
+ il merito.
+ Tutto è pari alla fine dei conti, credo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione continuò a guardare a est.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non sono del tutto a mio agio con questa storia
+\begin_inset Quotes frd
+\end_inset
+
+, disse dopo un po'.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+La gente che pensa che io abbia sconfitto il Signore Oscuro Voldemort, quando
+ non ho fatto proprio nulla...
+ oh, questa è la stessa cosa che hai passato tu, no?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Già.
+ Mi dispiace avertelo imposto.
+ Ero...
+ beh, stavo cercando di creare per te un'identità separata nella mente della
+ gente, credo.
+ C'era solo quell'opportunità e tutto è stato quasi 
+\emph on
+affrettato
+\emph default
+ e...
+ mi sono accorto dopo che forse non avrei dovuto farlo, ma era troppo tardi.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry si schiarì la gola.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sebbene, uhm.
+ Se ti senti di fare qualcosa che sia veramente degno di ciò che la gente
+ pensa della Ragazza-Che-È-Risuscitata, uhm.
+ Potrei avere un'idea per quello che potresti fare.
+ Molto presto, se ti va.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione Granger gli stava rivolgendo 
+\emph on
+un'occhiata
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ma non 
+\emph on
+devi
+\emph default
+ farlo!
+\begin_inset Quotes frd
+\end_inset
+
+ disse frettolosamente Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Puoi semplicemente ignorare tutta questa faccenda ed essere il miglior studente
+ di Corvonero! Se questo è quello che preferisci.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sta cercando di usare la psicologia inversa su di me, signor Potter?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No! Davvero!
+\begin_inset Quotes frd
+\end_inset
+
+ Harry fece un respiro profondo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sto 
+\emph on
+cercando
+\emph default
+ di non decidere la tua vita per te.
+ Ho pensato di capire, ieri, ho pensato di capire cosa potrebbe esserci
+ ora per te -- ma poi ho ricordato quanta parte di quest'anno ho passato
+ a essere un totale idiota.
+ Ho pensato a certe cose che Silente mi ha detto.
+ Ho capito realmente che non fosse il mio ruolo quello di decidere.
+ Che puoi fare tutto ciò che vuoi con la tua vita, e soprattutto, che la
+ scelta deve essere tua.
+ Forse 
+\emph on
+non vuoi
+\emph default
+ essere un eroe dopo di questo, forse vuoi diventare una grande ricercatrice
+ magica perché è questo che Hermione Granger è stata tutto questo tempo,
+ indipendentemente da ciò di cui sono fatte le tue unghie ora.
+ O potresti andare all'Istituto delle Streghe di Salem in America invece
+ che a Hogwarts.
+ Non mentirò dicendoti che questo mi piacerebbe, ma è davvero una decisione
+ tua.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry si girò verso l'orizzonte e fece un ampio gesto con la mano, come
+ per indicare tutto il mondo che si distendeva oltre Hogwarts.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Puoi andare 
+\emph on
+ovunque
+\emph default
+ da qui.
+ Puoi fare 
+\emph on
+qualunque cosa
+\emph default
+ con la tua vita.
+ Se vuoi essere un ricco tritone di sessant'anni, posso realizzarlo.
+ Dico sul serio.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione annuì lentamente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sono curiosa di sapere come riusciresti a farlo, esattamente, ma ciò che
+ voglio non è far fare cose 
+\emph on
+per
+\emph default
+ me.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry sospirò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Capisco.
+ Uhm...
+\begin_inset Quotes frd
+\end_inset
+
+ esitò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso...
+ se saperlo ti aiuta...
+ nel mio caso, 
+\emph on
+molte
+\emph default
+ cose sono state predisposte per me.
+ Da Silente, per lo più, ma anche dal professor Quirrell.
+ Forse il potere di guadagnarti il tuo approccio alla vita è esso stesso
+ qualcosa che devi guadagnarti.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh, questo suona molto saggio
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Come avere dei genitori che pagano per mandarmi all'università, così che
+ un giorno io possa avere il mio lavoro.
+ Il professor Quirrell che mi riporta in vita come Scintillante Principessa
+ Unicorno
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dal cap.
+ 69.
+\end_layout
+
+\end_inset
+
+ e tu che dici a tutti che mi sono sbarazzata del Signore Oscuro Voldemort
+ sono del tutto simili, in realtà.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace 
+\emph on
+davvero
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+So che avrei dovuto farlo diversamente, ma...
+ non avevo molto tempo per pensare ed ero esausto e non ragionavo correttamente
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ti sono riconoscente, Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, la sua voce ora più bassa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sei troppo severo con te stesso, per giunta.
+ Non prendermi sul serio quando sono beffarda con te.
+ Non voglio essere il genere di ragazza che torna indietro dalla morte,
+ e poi inizia a lamentarsi di quali super-poteri ha ricevuto e del fatto
+ che le sue unghie di alicorno sono della sfumatura sbagliata di bianco
+ perla.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione si era girata, stava nuovamente guardando a oriente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma, signor Potter...
+ se io decidessi 
+\emph on
+davvero
+\emph default
+ che morire di una morte orribile non è sufficiente a farmi riconsiderare
+ le mie scelte di vita...
+ non che lo stia affermando, non ancora..
+ allora dopo che succede?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Faccio del mio meglio per sostenere le tue scelte di vita
+\begin_inset Quotes frd
+\end_inset
+
+, disse con fermezza Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Qualunque esse siano.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Hai già un'impresa bella pronta per me, secondo me.
+ Una bella impresa sicura dove non c'è modo che mi faccia di nuovo male.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry si strofinò le palpebre, sentendosi stanco dentro.
+ Era come se potesse udire la voce di Albus Silente dentro la propria testa.
+ 
+\emph on
+Perdonami, Hermione Granger...
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi dispiace, Hermione.
+ Se sceglierai quel sentiero, dovrò comportarmi alla Silente con te, e non
+ dirti alcune cose.
+ Manipolarti, anche se solo per un breve periodo.
+ Credo davvero che vi sia qualcosa che tu possa essere in grado di fare
+ ora, qualcosa di reale, qualcosa all'altezza di ciò che la gente pensa
+ della Ragazza-Che-È-Risuscitata...
+ che potresti avere un destino, persino...
+ ma in fin dei conti è solo un'ipotesi, so molto di meno di quanto sapesse
+ Silente.
+ Sei disposta a rischiare la vita che hai appena riavuto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione si girò a guardarlo, i suoi occhi che si spalancarono per la sorpresa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Rischiare la mia vita?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry non annuì, perché sarebbe stata una vera e propria bugia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sei disposta a farlo?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese invece.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+L'impresa che penso possa essere il tuo destino -- e no, non sono a conoscenza
+ di profezie specifiche, è solo un'ipotesi -- implica roba letteralmente
+ da discesa all'Inferno.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Pensavo...
+\begin_inset Quotes frd
+\end_inset
+
+ disse Hermione.
+ Sembrò incerta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Pensavo che certamente dopo questo, tu e la professoressa McGonagall non
+ mi avreste...
+ sai...
+ lasciato fare mai più qualcosa di minimamente pericoloso.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry non disse niente, sentendosi colpevole per il falso credito relazionale
+ che stava ricevendo.
+ Si dava infatti il caso che Hermione lo stesse modellando con estrema precision
+e, e che se non fosse stato per il fatto che Hermione aveva un horcrux,
+ la superficie del pianeta Venere sarebbe dovuta scendere a temperature
+ nell'ordine della frazione del Kelvin prima che Harry provasse questa cosa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Su di una scala da zero a cento, 
+\emph on
+quanto
+\emph default
+ letteralmente stiamo parlando di una discesa all'Inferno?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Hermione.
+ La ragazza sembrava ora un po' preoccupata.
+\end_layout
+
+\begin_layout Standard
+Harry calibrò mentalmente le sue scale, ricordando Azkaban.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Direi forse ottantasette?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sembra qualcosa che dovrei fare quando sarò 
+\emph on
+più grande
+\emph default
+, Harry.
+ C'è una differenza fra essere un eroe ed essere completamente folle.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry scosse la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non penso che il rischio cambierebbe un granché
+\begin_inset Quotes frd
+\end_inset
+
+, disse, lasciando da parte la questione di quanto fosse quel rischio, 
+\begin_inset Quotes fld
+\end_inset
+
+ed è il genere di cose che è meglio fare prima, se mai qualcuno dovesse
+ farlo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E i miei genitori non hanno diritto di voto.
+ O sì?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry scrollò le spalle.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sappiamo entrambi come voterebbero, e puoi tenerne conto se ti va.
+ Uhm, ho detto di non informare il dottore e la dottoressa Granger del fatto
+ che tu sei viva.
+ Lo scopriranno dopo che sarai tornata dalla tua missione, se sceglierai
+ di accettarla.
+ Sembra un po'...
+ più gentile per i nervi dei tuoi genitori, ricevono solo una sorpresa piacevole
+, invece di doversi preoccupare per, uhm, altre cose.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ehi, sei stato molto premuroso
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È bello che tu sia così preoccupato per i loro sentimenti.
+ Posso pensarci per qualche minuto, per favore?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry fece un gesto verso il cuscino che aveva disposto di fronte al proprio,
+ e Hermione vi si mosse sopra con fluida eleganza, e si sedette a guardare
+ oltre il ciglio del castello, irraggiando ancora tranquillità in ogni direzione.
+ Dovevano fare realmente qualcosa per quello, forse pagare qualcuno per
+ inventare una Pozione Anti-Purezza.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Devo decidere senza sapere quale sia la missione?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Hermione.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh 
+\emph on
+diavolo
+\emph default
+ no
+\begin_inset Quotes frd
+\end_inset
+
+, fece Harry, pensando a una conversazione simile prima del suo viaggio
+ ad Azkaban.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo è il genere di cose che devi scegliere liberamente, se poi finisci
+ per farlo.
+ Voglio dire, è un vero e proprio requisito della missione.
+ Se mi dirai che vuoi ancora essere un eroe, ti eacconterò della missione
+ in seguito -- quando avrai avuto tempo di mangiare e parlare con le persone
+ e rimetterti un po' -- e deciderai allora se è qualcosa che vuoi fare.
+ E verificheremo in anticipo se tornare dalla morte ti permette di lanciare
+ l'incantesimo che i maghi normali pensano sia impossibile, 
+\emph on
+prima
+\emph default
+ che tu vada là fuori.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione annuì, e tornò a essere silenziosa.
+\end_layout
+
+\begin_layout Standard
+Il cielo si era illuminato ulteriormente quando Hermione parlò di nuovo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho paura
+\begin_inset Quotes frd
+\end_inset
+
+, disse, quasi in un sussurro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non di morire un'altra volta, o non 
+\emph on
+solo
+\emph default
+ di quello.
+ Ho paura che non sarò abbastanza brava.
+ Ho avuto la mia possibilità di sconfiggere un troll, e invece sono solo
+ morta
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Quello era un troll trasformato in un'arma da Voldemort, inoltre aveva sabotato
+ i tuoi oggetti magici, tanto per dire.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Io sono morta.
+ E tu hai ucciso il troll, in qualche modo, penso di ricordare quella parte,
+ non ti ha neppure rallentato.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione non stava piangendo, nessuna lacrima luccicava sulle sue guance,
+ si limitò a guardare in lontananza verso il cielo che si schiariva là dove
+ sarebbe sorto il Sole.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E poi mi hai riportata indietro dalla morte come Scintillante Principessa
+ Unicorno
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Dal cap.
+ 69.
+\end_layout
+
+\end_inset
+
+.
+ Io 
+\emph on
+so
+\emph default
+ che non avrei potuto farlo.
+ Ho paura che non sarò 
+\emph on
+mai
+\emph default
+ in grado di farlo, non importa cosa la gente pensi di me.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questa situazione è il punto di partenza del tuo viaggio, credo
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+ Harry si fermò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Scusami, non dovrei cercare di influenzare la tua decisione.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò Hermione, osservando ancora le colline sotto di lei.
+ Alzò la voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+No, Harry, voglio sentirlo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Okay.
+ Uhm.
+ Penso che questo sia il punto da cui 
+\emph on
+cominci
+\emph default
+.
+ Tutto ciò che è accaduto finora...
+ ti pone nello stesso punto da cui ho cominciato io a settembre, quando
+ pensavo di essere solo un bambino prodigio, e poi scoprii che avevo qualcosa
+ di nuovo di cui essere all'altezza.
+ Se non stessi confrontando te stessa con
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+i miei schemi cognitivi adulti copiati da Tom Riddle
+\emph default
+, 
+\begin_inset Quotes fld
+\end_inset
+
+il mio lato oscuro...
+ allora saresti la stella più brillante nel firmamento di Corvonero, che
+ ha organizzato la propria squadra per combattere i bulli e ha mantenuto
+ la propria sanità mentale malgrado gli attacchi di Voldemort, il tutto
+ mentre aveva solo dodici anni.
+ Ho controllato, hai avuto voti migliori di quelli di Silente 
+\emph on
+nel suo
+\emph default
+ primo anno.
+\begin_inset Quotes frd
+\end_inset
+
+ 
+\emph on
+Tralasciando il voto di Difesa, perché quello era solo Voldemort che si
+ comportava da Voldemort.
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ora hai qualche potere, e una reputazione di cui essere all'altezza, e il
+ mondo sta per assegnarti alcuni compiti difficili.
+ È qui che tutto 
+\emph on
+inizia
+\emph default
+ per te, proprio come iniziò per me.
+ Non ti sottovalutare.
+\begin_inset Quotes frd
+\end_inset
+
+ E poi Harry chiuse strettamente la bocca, perché stava 
+\emph on
+tentando di convincere Hermione
+\emph default
+ e quello non era giusto.
+ Almeno era riuscito a fermarsi prima della parte in cui le chiedeva, se
+ 
+\emph on
+lei
+\emph default
+ non poteva essere un eroe con tutte quelle cose a suo vantaggio, chi esattament
+e pensava che l'avrebbe fatto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sai
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione rivolta all'orizzonte, ancora senza guardare Harry, 
+\begin_inset Quotes fld
+\end_inset
+
+ho avuto una conversazione simile a questa col professor Quirrell, una volta,
+ riguardo all'essere un eroe.
+ Era dell'altra opinione, ovviamente.
+ Ma a parte quello, questo sembra come quando lui discuteva con me, in qualche
+ modo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry mantenne le labbra fermamente chiuse.
+ Lasciare che la gente prendesse le proprie decisioni era difficile, perché
+ significava che erano autorizzate a prendere quelle 
+\emph on
+sbagliate
+\emph default
+, ma doveva essere fatto comunque.
+\end_layout
+
+\begin_layout Standard
+Hermione parlò con attenzione, i bordi blu della sua uniforme di Hogwarts
+ ora sembravano più luminosi a contrasto con le sue vesti nere mentre il
+ cielo attorno a loro diventava più chiaro; non c'erano più stelle a occidente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il professor Quirrell mi disse, mi raccontò che era stato un eroe, una volta.
+ Ma la gente non lo aiutava abbastanza, così rinunciò e se ne andò a fare
+ cose più interessanti.
+ Dissi al professor Quirrell che non era stato giusto farlo -- quello che
+ dissi veramente fu ‘questo è orribile'.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Citato da cap.
+ 84.
+\end_layout
+
+\end_inset
+
+ Il professor Quirrell disse che, sì, forse era una persona terribile, ma
+ allora la gente che non ci provava mai neanche a essere un eroe? Erano
+ ancora peggiori di lui? E non seppi cosa rispondere.
+ Voglio dire, è sbagliato dire che solo gli eroi stile-Grifondoro sono persone
+ buone -- sebbene penso che la prospettiva del professor Quirrell fosse
+ più che altro che solo le persone con grandi ambizioni hanno il diritto
+ di respirare.
+ E io non lo credevo.
+ Ma sembrava anche sbagliato 
+\emph on
+smettere
+\emph default
+ di essere un eroe, andarsene via come aveva fatto lui.
+ Così me ne stetti semplicemente là, sembrando stupida.
+ Ma ora so cosa avrei dovuto dirgli allora.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry controllò il proprio respiro.
+\end_layout
+
+\begin_layout Standard
+Hermione si alzò dal cuscino, e si girò a fronteggiare Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho finito di fare l'eroina
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione Granger con il cielo orientale che si illuminava dietro
+ di lei.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non avrei mai dovuto imboccare quel genere di ragionamento.
+ Semplicemente ci sono persone che fanno ciò che possono, qualunque cosa
+ possono.
+ E ci sono anche persone che non provano neppure a fare ciò che possono,
+ e sì, quelle persone stanno facendo qualcosa di sbagliato.
+ Non proverò mai più a essere un eroe.
+ Non 
+\emph on
+penserò
+\emph default
+ in termini eroici se ci riesco.
+ Ma non farò nulla di meno di quello che posso -- o non molto di meno, voglio
+ dire, sono solo un essere umano.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry non aveva mai capito cosa ci sarebbe dovuto essere di misterioso
+ nella Monna Lisa, ma se avesse potuto scattare una foto del sorriso rassegnato/
+gioioso di Hermione proprio in quel momento, aveva la sensazione che avrebbe
+ potuto guardarlo per ore senza comprenderlo, e che Silente avrebbe potuto
+ capirlo con un'occhiata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non imparerò la mia lezione.
+ 
+\emph on
+Sarò
+\emph default
+ così stupida.
+ E continuerò a cercare di fare la maggior parte di ciò che posso fare,
+ o almeno 
+\emph on
+qualcosa
+\emph default
+ di ciò che -- oh, sai volgio dire.
+ Anche se significasse rischiare la mia vita ancora una volta, fintanto
+ che ne valga il rischio e non sia, sai, 
+\emph on
+effettivamente
+\emph default
+ stupido.
+ Questa è la mia risposta.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione fece un respiro profondo, il suo viso determinato.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Allora, c'è qualcosa che posso fare?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry aveva un nodo in gola.
+ Mise la mano nella propria borsa, e fece segno 
+\noun on
+m-a-n-t-e-l-l-o
+\noun default
+ con le dita perché non poteva parlare, ed estrasse il riversamento fuligginoso
+ del Mantello dell'Invisibilità, offrendolo a Hermione per l'ultima volta.
+ Harry dovette forzare le parole dalla sua gola.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo è il Vero Mantello dell'Invisibilità
+\begin_inset Quotes frd
+\end_inset
+
+, disse quasi in un sussurro, 
+\begin_inset Quotes fld
+\end_inset
+
+il Dono della Morte tramandato da Ignotus Peverell ai suoi eredi, i Potter.
+ E ora a te
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Harry!
+\begin_inset Quotes frd
+\end_inset
+
+ disse Hermione.
+ Le sue mani volarono a incrociarsi sul suo petto, come per proteggersi
+ dall'attacco di quel dono.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non devi farlo!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Devo
+\emph default
+ farlo.
+ Ho lasciato quella parte del percorso che mi permette di essere un eroe,
+ non posso più mettere me stesso in pericolo andando all'avventura, mai
+ più.
+ E tu...
+ puoi.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry alzò la mano che non stava reggendo il Mantello, e si asciugò gli
+ occhi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo è stato creato per te, credo.
+ Per la persona che stai per diventare.
+\begin_inset Quotes frd
+\end_inset
+
+ 
+\emph on
+Un'arma per combattere la Morte, nella sua forma di ombra della disperazione
+ che si proietta sulle menti umane e le svuota delle loro speranze per il
+ futuro; la combatterai, mi aspetto, sotto altre forme oltre ai Dissennatori...
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non ti do in prestito, mio Mantello, ma ti consegno, a Hermione Jean Granger.
+ Proteggila per sempre.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lentamente, Hermione allungò la mano, e prese possesso del Mantello, sembrando
+ come se cercasse di non piangere essa stessa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Grazie
+\begin_inset Quotes frd
+\end_inset
+
+, sussurrò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Penso...
+ anche se l'ho fatta finita col concetto di eroismo...
+ penso che tu sia sempre stato, sin dal giorno in cui ti ho incontrato,
+ il mio misterioso vecchio mago.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E io penso
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, la sua gola semi-chiusa, 
+\begin_inset Quotes fld
+\end_inset
+
+anche se ora rinneghi quel modo di pensare, io penso che tu sia sempre stata
+ destinata a diventare, sin dall'inizio della storia, l'eroe.
+\begin_inset Quotes frd
+\end_inset
+
+ 
+\emph on
+Chi deve diventare Hermione Granger, quale forma adulta deve assumere quando
+ crescerà, per passare attraverso lo stretto buco della serratura del Tempo?
+ Non conosco la risposta neppure a questo, non più di quanto riesca a immaginate
+ il mio me stesso adulto.
+ Ma i suoi prossimi passi avanti sembrano più chiari dei miei...
+\end_layout
+
+\begin_layout Standard
+Harry lasciò andare il Mantello, ed esso passò dalle sue mani a quelle di
+ lei.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sta cantando
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sta cantando per me.
+\begin_inset Quotes frd
+\end_inset
+
+ Alzò la mano, e asciugò i propri occhi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non posso credere che tu l'abbia fatto, Harry.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'altra mano di Harry uscì dalla sua borsa, ora reggendo una lunga catena
+ d'oro, all'estremità della quale penzolava un guscio dorato chiuso.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E questa è la tua macchina del tempo personale.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ci fu una pausa, durante la quale il pianeta Terra ruotò ancora un po' lungo
+ la sua orbita.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cosa?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Hermione.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Un Giratempo, come lo chiamano loro.
+ Hogwarts ne ha una scorta che distribuisce ad alcuni studenti, ne ho avuto
+ uno all'inizio dell'anno per curare il mio disturbo del sonno.
+ Permette all'utente di tornare indietro nel tempo, fino a sei incrementi
+ da un'ora, che ho usato per ottenere sei ore ulteriori di studio ogni giorno.
+ E per svanire dalla lezione di Pozioni e così via.
+ Non ti preoccupare, un Giratempo non può cambiare la storia o generare
+ paradossi che distruggono l'universo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sei riuscito a stare al passo con me nei corsi studiando sei ore in più
+ al giorno usando una 
+\emph on
+macchina del tempo
+\emph default
+.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione Granger sembrava aver difficoltà con quel concetto, per una qualche
+ ragione incomprensibile.
+\end_layout
+
+\begin_layout Standard
+Harry assunse un'espressione perplessa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+C'è qualcosa di strano in questo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione allungò la mano e prese la collana d'oro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Credo di 
+\emph on
+no secondo le abitudini dei maghi
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+, disse.
+ Per qualche ragione la sua voce suonò piuttosto tagliente.
+ Si mise la catenina attorno al collo, infilandosi la clessidra dentro la
+ camicia.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Mi sento davvero meglio ora, riguardo allo stare al tuo passo, però, grazie
+ per questo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry si schiarì la voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Inoltre, poiché Voldemort ha spazzato via la Casa di Monroe e poi, per quanto
+ ne sanno tutti, tu li hai vendicati uccidendo Voldemort, ho convinto Amelia
+ Bones a far passare per direttissima una legge da ciò che è rimasto del
+ Wizengamot, dicendo che Granger è ora una Nobile Casa della Gran Bretagna.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Prego?
+\begin_inset Quotes frd
+\end_inset
+
+ fece Hermione.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Il che, inoltre, fa di te l'unico erede di una Nobil Casa, che significa
+ che per ottenere la tua maggiore età legale devi solo superare i tuoi Giudizi
+ Unici per Fattucchiere Ordinario, che ho fatto in modo che avremo alla
+ fine dell'estate così che avremo del tempo per studiarli, prima.
+ Se per te va bene, ovviamente.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione Granger stava emettendo un qualche genere di rumore acuto che,
+ in un dispositivo meno organico, avrebbe indicato un malfunzionamento del
+ motore.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Ho due mesi per studiare per i miei 
+\noun on
+g.u.f.o.
+\noun default
+?
+\emph default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Hermione, è un esame studiato in modo tale che la maggior parte dei quindicenni
+ possano passarlo.
+ Quindicenni 
+\emph on
+normali
+\emph default
+.
+ Possiamo ottenere un voto utile a passare l'esame col livello di potere
+ di un debole studente del terzo anno se impariamo l'insieme giusto di incantesi
+mi, e questo è tutto ciò di cui avremo bisogno per i corsi avanzati.
+ Sebbene dovrai accontentarti di prendere degli Accettabile invece dei tuoi
+ soliti Eccezionale.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I rumori acuti che provenivano da Hermione Granger salirono di tonalità.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Eccoti la tua bacchetta.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry la prese dalla propria borsa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+E la tua borsa mokeskin, mi sono assicurato che ci abbiano rimesso tutto
+ ciò che c'era quando sei morta.
+\begin_inset Quotes frd
+\end_inset
+
+ Quella borsa Harry la estrasse da una normale tasca delle sue vesti, perché
+ era riluttante a mettere una 
+\emph on
+borsa conservante
+\emph default
+ all'interno di una 
+\emph on
+borsa conservante,
+\emph default
+ indipendentemente quanto si pensasse fosse innocuo, una volta che entrambi
+ i dispositivi fossero stati creati seguendo tutte le precauzioni di sicurezza.
+\end_layout
+
+\begin_layout Standard
+Hermione si riprese la propria bacchetta, e poi la propria borsa, e quei
+ movimenti in qualche modo riuscirono a sembrare aggraziati anche se le
+ sue dita erano un po' malferme.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Vediamo, cos'altro...
+ il giuramento che hai prestato prima a Casa Potter diceva che dovevi servirla
+ solo fino `al giorno in cui morirai', quindi ora sei libera e svincolata.
+ E subito dopo la tua morte ho fatto sì che i Malfoy dichiarassero pubblicamente
+ che tu sei scagionata da tutte le accuse nel tentato omicidio di Draco.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh, grazie ancora, Harry.
+ È stato molto gentile da parte tua, e loro, credo.
+\begin_inset Quotes frd
+\end_inset
+
+ Stava facendo scorrere ripetutamente le sue dita tra i riccioli castani,
+ come se, riordinando i propri capelli, potesse riportare la sanità mentale
+ nella sua vita.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+E ultimo, ma non meno importante, ho fatto iniziare ai goblin i lavori per
+ la costruzione di una camera di sicurezza dentro Gringotts per Casa Granger
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Non vi ho messo denaro dentro, perché questo era qualcosa per il quale potevo
+ aspettare a chiedertelo, prima.
+ Ma se hai intenzione di essere un supereroe che se ne va in giro a raddrizzare
+ alcuni tipi di torti, sarà molto d'aiuto se la gente ti considererà parte
+ dello strato sociale più elevato e, uhm, penso che potrebbe essere d'aiuto
+ se pensassero che puoi permetterti degli avvocati.
+ Posso mettere nella tua camera di sicurezza tutto l'oro che vuoi, poiché
+ da quando Voldemort ha ucciso Nicholas Flamel, ho finito per entrare in
+ possesso della Pietra Filosofale.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Mi sento come se dovessi svenire
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione con una voce acuta, 
+\begin_inset Quotes fld
+\end_inset
+
+solo che non posso farlo a causa dei miei super-poteri e a proposito 
+\emph on
+perché
+\emph default
+ ce li ho?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Se per te va bene, le tue lezioni di Occlumanzia inizieranno mercoledì col
+ signor Bester, può lavorare con te una volta al giorno.
+ Fino ad allora, penso che sia meglio che le vere origini dei tuoi poteri
+ non diventino note solo perché un Legilimante ti ha guardata negli occhi.
+ Voglio dire, ovviamente c'è una normale spiegazione magica, nulla di 
+\emph on
+sopra
+\emph default
+-soprannaturale, ma la gente in effetti tende a venerare la propria ignoranza
+ e, beh, penso che la Ragazza-Che-È-Risuscitata sarà molto più efficace
+ se resta un mistero.
+ Una volta che sarai in grado di tenere lontano il signor Bester e battere
+ il Veritaserum, ti racconterò tutti gli antefatti, te lo prometto, incluso
+ tutti i segreti che non potrai mai raccontare a nessun altro.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sembra perfetto.
+ Quasi non ne vedo l'ora.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sebbene dovrai prendere un Voto Infrangibile di non fare nulla che possa
+ distruggere il mondo prima che io ti possa raccontare le parti più pericolose
+ della storia.
+ Voglio dire, altrimenti non posso 
+\emph on
+letteralmente
+\emph default
+ dirtelo, perché anch'io ho preso un Voto Infrangibile.
+ Ti sta bene?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Certo.
+ Perché non dovrebbe starmi bene? Non vorrei comunque distruggere il mondo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Hai bisogno di sederti di nuovo?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry, sentendosi allarmato per il modo in cui Hermione stava oscillando
+ leggermente, come se seguendo il ritmo delle parole che venivano pronunciate.
+\end_layout
+
+\begin_layout Standard
+Hermione Granger fece diversi respiri profondi.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+No, mi sento fantasticamente.
+ C'è qualcos'altro che dovrei sapere?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questo è quanto.
+ Ho finito, almeno per ora.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry fece una pausa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Capisco che vorresti fare le cose da sola, non avere qualcun altro che le
+ fa per te.
+ È solo che...
+ sarai un tipo di eroe molto più serio, e l'unica scelta sana di mente è
+ che io ti fornisca tutti i vantaggi che posso
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lo capisco molto bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ora che ho realmente perso un combattimento e sono morta.
+ Prima non lo capivo, ma ora sì.
+\begin_inset Quotes frd
+\end_inset
+
+ La brezza scompigliò i capelli castani di Hermione e scosse le sue vesti,
+ facendola sembrare ancora più placida nell'aria dell'alba, mentre alzava
+ una mano e la stringeva con attenzione in un pugno.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Se farò questa cosa, la farò 
+\emph on
+bene
+\emph default
+.
+ Abbiamo bisogno di misurare quanto duramente posso dare un pugno, e quanto
+ in alto posso saltare, e trovare un modo sicuro di verificare se le mie
+ unghie possono uccidere i Letalmanto come il corno di un vero unicorno,
+ e dovrei allenarmi a schivare gli incantesimi da cui non posso farmi colpire
+ e...
+ e sembra che tu possa forse fare in modo che io riceva un addestramento
+ da Auror, tipo da chiunque abbia insegnato a Susan Bones.
+\begin_inset Quotes frd
+\end_inset
+
+ Ora Hermione stava sorridendo di nuovo, una strana luce nei suoi occhi
+ che avrebbe lasciato perplesso Silente per ore e che Harry avrebbe compreso
+ immediatamente, non senza una fitta di preoccupazione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Oh! E voglio iniziare a portare con me delle armi babbane, forse nascoste
+ in modo che nessuno sappia che ce le ho.
+ Ho pensato alle granate incendiarie quando stavo combattendo il troll,
+ ma sapevo che non potevo Trasfigurarle abbastanza velocemente, anche dopo
+ che ebbi smesso di curarmi di obbedire alle regole.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ho la sensazione
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry imitando l'accento scozzese della professoressa McGonagall
+ il meglio che poté, 
+\begin_inset Quotes fld
+\end_inset
+
+che dovrei fare qualcosa a riguardo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh, è troppo, troppo, 
+\noun on
+troppo
+\noun default
+ tardi per questo, signor Potter.
+ Dimmi, puoi procurarmi un bazooka? Il lanciarazzi, voglio dire, non la
+ gomma da masticare? Scommetto che non si aspetterebbero 
+\emph on
+questo
+\emph default
+ da una giovane ragazza, specialmente se irraggio un'aura di innocenza e
+ purezza.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry con calma, 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+ora
+\emph default
+ inizi a terrorizzarmi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione interruppe il suo esperimento di equilibrio sulla punta della sua
+ scarpa sinistra, il braccio disteso in una direzione e la gamba destra
+ che si allungava nell'altra, come una ballerina.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Davvero? Stavo proprio pensando che non vedo cosa io possa fare che la Squadra
+ per l’Applicazione per la Legge sulla Magia
+\emph on
+ 
+\emph default
+non potrebbe fare.
+ Hanno manici di scopa per la mobilità e incantesimi che colpiscono più
+ duramente di quanto potrei fare io.
+\begin_inset Quotes frd
+\end_inset
+
+ Riportò aggraziatamente la gamba a terra.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voglio dire, ora che posso provare un paio di cose senza preoccuparmi di
+ chi stia osservando, inizio a pensare che mi piace davvero davvero 
+\emph on
+davvero
+\emph default
+ tanto avere super-poteri.
+ Ma continuo a non capire come potrei vincere un combattimento che il professor
+ Flitwick non potrebbe vincere, a meno che non preveda di prendere qualche
+ Mago Oscuro di sorpresa.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Puoi correre rischi che altre persone non dovrebbero, e riprovarci con la
+ conoscenza di ciò che ti ha ucciso.
+ Puoi fare esperimenti con nuovi incantesimi, più di quanto chiunque altro
+ possa provare senza morire con certezza.
+
+\emph default
+ Ma Harry non poteva dire nulla di ciò, ancora, quindi invece disse, 
+\begin_inset Quotes fld
+\end_inset
+
+Penso che vada bene pensare più al futuro, e non solo a ciò che puoi fare
+ in questo istante.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione saltò alta in aria, batté tra di loro i talloni per tre volte mente
+ discendeva, e atterrò sulle punte, in posizione perfetta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma hai detto che c'era qualcosa che posso fare subito.
+ O mi stavi solo mettendo alla prova?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Quello
+\emph default
+ è un caso speciale
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry sentendo il brivido dell'aria dell'alba sulla sua pelle.
+ Aveva sempre di meno voglia di giungere al momento in cui avrebbe dovuto
+ dire a super-Hermione che la sua Ordalia avrebbe previsto che fronteggiasse
+ il suo incubo letteralmente peggiore, in condizioni in cui tutta la sua
+ forza fisica recentemente scoperta sarebbe stata inutile.
+\end_layout
+
+\begin_layout Standard
+Hermione annuì, poi rivolse lo sguardo a oriente.
+ Contemporaneamente andò verso il lato del tetto e si sedette, i piedi che
+ penzolavano oltre il bordo.
+ Anche Harry andò al suo fianco e si sedette, a gambe incrociate e più indietro
+ rispetto al bordo.
+\end_layout
+
+\begin_layout Standard
+In lontananza, una brillante sfumatura di rosso stava sorgendo sopra le
+ colline a oriente di Hogwarts.
+\end_layout
+
+\begin_layout Standard
+Osservare l'inizio dell'alba fece sentire meglio Harry, in qualche modo.
+ Fintanto che il Sole fosse stato nel cielo, le cose sarebbero andate bene,
+ a un certo livello, del tipo che non aveva ancora distrutto il Sole.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Allora
+\begin_inset Quotes frd
+\end_inset
+
+, fece Hermione.
+ La sua voce si alzò un po'.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+A proposito del futuro, Harry.
+ Ho avuto tempo di pensare a parecchie cose mentre stavo aspettando dentro
+ St.
+ Mungo's, e...
+ forse mi comporto da stupida, ma c'è una questione di cui vorrei ancora
+ conoscere la risposta.
+ Ricordi l'ultima cosa di cui abbiamo parlato insieme? Prima, voglio dire?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Cosa?
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry senza capire.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh...
+ È stato due mesi fa per te...
+ mi sa che non te ne ricordi, allora.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+E Harry ricordò.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non avere paura!
+\begin_inset Quotes frd
+\end_inset
+
+ disse Hermione, mentre una specie di mezzo-gorgoglio strozzato giungeva
+ dalla gola di Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ti prometto che qualunque cosa dirai, non scoppierò in lacrime e scapperò
+ via a farmi mangiare di nuovo da un troll! So che è stato meno di due giorni
+ per me, ma penso che morire abbia fatto sì che molte cose per cui mi agitavo
+ siano diventate meno importanti, a paragone con ciò che ho passato!
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh
+\begin_inset Quotes frd
+\end_inset
+
+, fece Harry, e ora la sua voce era acuta.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Si tratta di un buon uso di un grave trauma, presumo?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Solo che, vedi, 
+\emph on
+ci stavo
+\emph default
+ ancora pensando, Harry, perché per me non è passato affatto molto tempo
+ dalla nostra ultima conversazione, e non abbiamo finito di parlare, il
+ che ammetto è stato tutto per colpa mia, per aver perso il controllo delle
+ mie emozioni e poi essere mangiata da un troll, cosa che decisamente non
+ ho intenzione di fare di nuovo.
+ Ho pensato di doverti rassicurare che questa cosa non accadrà ogni volta
+ che dirai la cosa sbagliata a una ragazza.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione non smetteva di muoversi, inclinandosi da una parte e dall'altra
+ da seduta, facendo leggermente avanti e indietro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma, beh, anche la maggior parte delle persone che 
+\emph on
+sono
+\emph default
+ innamorate non fanno letteralmente un centesimo di ciò che hai fatto per
+ me.
+ Allora, signor Harry James Potter-Evans-Verres, se non è amore, voglio
+ sapere esattamente cosa sono per te.
+ Non l'hai mai detto.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Questa è un'ottima domanda
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, controllando il panico nascente.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ti dispiace se ci penso un po' su?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Poco a poco, una porzione sempre maggiore del disco violentemente brillante
+ diventava visibile oltre le colline.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Hermione
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry quando il Sole fu a metà strada sopra l'orizzonte, 
+\begin_inset Quotes fld
+\end_inset
+
+hai mai formulato un'ipotesi per spiegare il mio misterioso lato oscuro?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Solo quella scontata
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, scalciando le sue gambe leggermente oltre il bordo del
+ tetto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ho pensato che forse quando Tu-Sai-Chi è morto proprio vicino a te, per
+ caso ha emesso quel flusso di magia che crea un fantasma, e una parte di
+ esso si è impresso sul tuo cervello invece che sul pavimento.
+ Ma non mi è mai suonato giusto, come se fosse solo una spiegazione arguta
+ che non era realmente 
+\emph on
+vera
+\emph default
+, e ha ancora meno senso se Tu-Sai-Chi non morì quella notte.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Niente male
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Immaginiamo questo scenario per ora.
+\begin_inset Quotes frd
+\end_inset
+
+ Il suo razionalista interno si stava guardando indietro e si stava imbarazzando
+ 
+\emph on
+di nuovo
+\emph default
+ per quanto fosse riuscito a ignorare completamente ipotesi come quella.
+ Non era corretta ma era 
+\emph on
+ragionevole
+\emph default
+ e Harry non aveva mai pensato a un modello causale così concreto, si era
+ limitato solo a sospettare vagamente una connessione.
+\end_layout
+
+\begin_layout Standard
+Hermione annuì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Probabilmente lo sai già, ma ho pensato di dirlo comunque per sicurezza:
+ non sei Voldemort, Harry.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Lo so.
+ E 
+\emph on
+questo
+\emph default
+ è quello che significhi per me.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry fece un respiro, notando come fosse ancora doloroso dirlo ad alta
+ voce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voldemort...
+ non era una persona felice.
+ Non so se sia mai stato felice, anche un solo giorno della sua vita.
+\begin_inset Quotes frd
+\end_inset
+
+ 
+\emph on
+Non ha mai potuto lanciare l'Incantesimo Patronus.
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questa è una ragione per cui i suoi schemi cognitivi non si sono impossessati
+ di me, il mio lato oscuro non sembrava un bel posto in cui stare, non veniva
+ rinforzato positivamente.
+ Essere tuo amico significava che la mia vita non doveva svolgersi nel modo
+ in cui si era svolta quella di Voldemort.
+ Ed ero alquanto solo prima di Hogwarts, sebbene all'epoca non me ne fossi
+ accorto, quindi...
+ sì, potrei essere stato leggermente più disperato di riportarti indietro
+ dalla morte rispetto al mio coetaneo medio.
+ Sebbene sostenga anche che la mia decisione sia stata un ragionamento morale
+ strettamente normativo, e se le altre persone si danno meno da fare per
+ i loro amici, è un problema loro, non mio.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Capisco
+\begin_inset Quotes frd
+\end_inset
+
+, disse sommessamente Hermione.
+ Esitò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Harry, non prenderla male, ma questo non mi mette al cento per cento a mio
+ agio.
+ È una grossa responsabilità che non ho scelto io, e non penso che sia salutare
+ per te addossarla a una sola persona.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry annuì.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Lo so.
+ Ma riguardo a questo c'è dell'altro che sto cercando di spiegarti.
+ C'era una profezia che riguardava la mia vittoria su Voldemort
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Una 
+\emph on
+profezia?
+\emph default
+ C'era una 
+\emph on
+profezia
+\emph default
+ su di te? Dici sul serio, Harry?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Sì, lo so.
+ Comunque, una parte diceva, `E l'Oscuro Signore lo segnerà come suo eguale,
+ ma egli avrà un potere sconosciuto all'Oscuro Signore'.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+da cap.
+ 28
+\end_layout
+
+\end_inset
+
+ Secondo te, cosa significava?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Uhmmm
+\begin_inset Quotes frd
+\end_inset
+
+, fece Hermione.
+ Batté pensierosamente le dita sulla pietra del tetto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il tuo misterioso lato oscuro è il marchio di Tu-Sai-Chi su di te che ti
+ ha reso il suo eguale.
+ Il potere a lui sconosciuto...
+ era il metodo scientifico, giusto?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Harry scosse la testa.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Questo è quello che anch'io ho pensato all'inizio -- che sarebbe stata la
+ scienza babbana, o i metodi della razionalità.
+ Ma...
+\begin_inset Quotes frd
+\end_inset
+
+ Harry espirò.
+ Il Sole era ormai sorto completamente al di sopra delle colline.
+ Era imbarazzante da dire, ma l'avrebbe detto comunque.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Il professor Snape, che originariamente sentì la profezia -- sì, è successo
+ anche questo -- il professor Snape disse che non pensava che potesse essere
+ solo la scienza, che il `potere sconosciuto all'Oscuro Signore'
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+da cap.
+ 28
+\end_layout
+
+\end_inset
+
+ doveva essere qualcosa di ancora più estraneo a Voldemort che semplicemente
+ quello.
+ Anche se ci penso nei termini della razionalità, beh, è risultato che la
+ persona che Voldemort era realmente
+\begin_inset Quotes frd
+\end_inset
+
+, 
+\emph on
+perché, professor Quirrell, perché
+\emph default
+, il pensiero che continuava a procurare fitte di dolore al cuore di Harry,
+ 
+\begin_inset Quotes fld
+\end_inset
+
+sarebbe stata in grado anche lei di imparare i metodi della razionalità,
+ se avesse letto gli stessi articoli scientifici che ho letto io.
+ Eccetto, forse, per un'ultima cosa...
+\begin_inset Quotes frd
+\end_inset
+
+ Harry fece un respiro.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Alla fine di tutto, durante il mio scontro finale con Voldemort, ha minacciato
+ di mandare i miei genitori, e i miei amici, ad Azkaban.
+ A meno che non avessi trovato dei segreti interessanti da rivelargli, una
+ persona salvata per ogni segreto.
+ Ma sapevo che non sarei stato in grado di trovare abbastanza segreti per
+ salvare tutti.
+ E nel momento in cui non vidi più nessun altro modo di salvare tutti...
+ è stato allora che ho davvero iniziato a pensare.
+ Forse per la prima volta in vita mia, ho iniziato a pensare.
+ Ho pensato più velocemente di Voldemort, anche se lui era più grande di
+ me e più intelligente, perché...
+ perché avevo una 
+\emph on
+ragione per pensare
+\emph default
+.
+ Voldemort aveva un impulso a essere immortale, aveva una fortissima preferenza
+ a non morire, ma quello non era un desiderio positivo, era una 
+\emph on
+paura
+\emph default
+, e Voldemort ha fatto degli errori a causa di quella paura.
+ Penso che il potere sconosciuto a Voldemort...
+ fosse che io avevo qualcosa da proteggere.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh, Harry
+\begin_inset Quotes frd
+\end_inset
+
+, disse gentilmente Hermione.
+ Esitò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+È questo che sono per te, allora? La cosa che proteggi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No, voglio dire, la ragione per cui ti sto dicendo questo, è che Voldemort
+ non stava minacciando di mettere 
+\emph on
+te
+\emph default
+ dentro Azkaban.
+ Anche se avesse conquistato il mondo intero, tu saresti stata al sicuro.
+ Aveva già fatto una promessa vincolante di non farti del male, perché,
+ uhm, per alcune ragioni.
+ Così nel momento della mia crisi finale, quando mi sono spinto in profondità
+ e ho trovato il potere sconosciuto a Voldemort, l'ho fatto per proteggere
+ tutti tranne te.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hermione valutò la notizia, un lento sorriso si diffuse sul suo volto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Beh, Harry.
+ Questa è la cosa meno romantica che abbia mai sentito.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Prego.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No, davvero, è 
+\emph on
+realmente
+\emph default
+ d'aiuto.
+ Voglio dire, rende il tutto meno simile al comportamento di un molestatore.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Già, è vero?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si scambiarono un cenno d'intesa, entrambi palesemente più rilassati, e
+ osservarono l'alba insieme.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Stavo pensando
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, la sua voce divenuta bassa, 
+\begin_inset Quotes fld
+\end_inset
+
+all'Harry Potter alternativo, alla persona che sarei potuto essere se Voldemort
+ non avesse attaccato i miei genitori.
+\begin_inset Quotes frd
+\end_inset
+
+ 
+\emph on
+Se Tom Riddle non avesse cercato di copiare sé stesso su di me.
+
+\emph default
+ 
+\begin_inset Quotes fld
+\end_inset
+
+L'altro Harry Potter non sarebbe stato altrettanto intelligente, credo.
+ Probabilmente non avrebbe studiato molta scienza babbana, anche se sua
+ madre era una Nata babbana.
+ Ma l'altro Harry Potter sarebbe stato...
+ capace di provare calore umano, che avrebbe ereditato da James Potter e
+ Lily Evans, avrebbe provato interesse per le altre persone e avrebbe tentato
+ di salvare i suoi amici, so che questo sarebbe dovuto essere vero, perché
+ è qualcosa che Lord Voldemort non ha mai fatto, sai...
+\begin_inset Quotes frd
+\end_inset
+
+ Gli occhi di Harry si stavano inumidendo.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Quindi quella parte deve essere, il residuo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+da cap.
+ 28
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il Sole era ben al di sopra dell'orizzonte ormai, la luce dorata li illuminava
+ entrambi, gettando ombre lunghe dall'altra parte della piattaforma del
+ tetto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Penso che tu vada bene così come sei
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Voglio dire, l'altro Harry Potter sarebbe potuto essere un bravo ragazzo,
+ forse, ma mi sembra che avrei dovuto pensare io per lui.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Dando retta all'ereditarietà, l'alter-Harry sarebbe andato a Grifondoro
+ come i suoi genitori, e voi due non sareste diventati amici.
+ Sebbene James Potter e Lily Evans furono entrambi Caposcuola di Hogwarts
+ a loro tempo, quindi lui non sarebbe stato 
+\emph on
+così
+\emph default
+ male.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Posso a mala pena immaginarlo.
+ Harry James Potter, Smistato in Grifondoro, aspirante giocatore di Quidditch
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+No.
+ Proprio no.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Passato alla storia come aiutante di Hermione Jean Granger, che avrebbe
+ mandato in giro il signor Potter a ficcarsi nei guai per lei, e poi avrebbe
+ risolto il mistero dalla biblioteca leggendo libri e usando la sua incredibile
+ memoria.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Ti piace proprio questo universo alternativo, no?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Forse sarebbe il migliore amico di Ron Weasley, il ragazzo più 
+\emph on
+intelligente
+\emph default
+ di Grifondoro, e combatterebbero fianco a fianco nel mio esercito nel corso
+ di Difesa, e dopo si aiuterebbero a vicenda nei loro compiti
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Va bene, basta così, questa cosa inizia a darmi i brividi.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Scusa
+\begin_inset Quotes frd
+\end_inset
+
+, disse Hermione, sebbene stesse ancora sorridendo a sé stessa, sembrando
+ assorta in una qualche visione privata.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Scuse accettate
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry ironicamente.
+\end_layout
+
+\begin_layout Standard
+Il Sole sorse ancora un po' nel cielo.
+\end_layout
+
+\begin_layout Standard
+Dopo un po', Hermione parlò.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Pensi
+\emph default
+ che ci innamoreremo l'una dell'altro in futuro?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non ne so più di te, Hermione.
+ Ma perché dovrebbe trattarsi di questo? Seriamente, perché deve sempre
+ trattarsi di questo?
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+But why does it have to be about that? Seriously, why does it always have
+ to be about that?
+\end_layout
+
+\end_inset
+
+ Forse quando saremo più grandi ci innamoreremo e forse no.
+ Forse resteremo innamorati e forse no.
+\begin_inset Quotes frd
+\end_inset
+
+ Harry girò appena la testa, il Sole ardeva sulla sua guancia ed egli non
+ si era messo la crema solare.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Indipendentemente da come andrà, non dovremmo forzare le nostre vite all'interno
+ di uno schema.
+ Penso che quando la gente cerca di 
+\emph on
+imporre
+\emph default
+ degli schemi a questo genere di cose, è allora che finisce per essere infelice.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Nessuno schema imposto?
+\begin_inset Quotes frd
+\end_inset
+
+ chiese Hermione.
+ I suoi occhi avevano assunto un'espressione birichina.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Sembra un modo più complicato di dire 
+\emph on
+nessuna regola
+\emph default
+.
+ Il che credo mi sembri molto più sensato di quanto avrebbe fatto all'inizio
+ di quest'anno.
+ Se devo essere una Scintillante Principessa Unicorno ed avere la mia macchina
+ del tempo personale, tanto vale rinunciare alle regole, suppongo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non sto dicendo che le regole siano sempre sbagliate, specialmente quando
+ sono veramente adatte alle persone, invece di essere imitate ciecamente
+ come nel Quidditch.
+ Ma non eri tu ad aver rigettato lo schema dell'`eroe' in favore del fare
+ semplicemente ciò che potevi?
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Suppongo di sì.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione girò la testa per guardare in basso i terreni sotto Hogwarts,
+ poiché il Sole era troppo luminoso da guardare ormai -- sebbene, Harry
+ pensò, le retine di Hermione sarebbero sempre guarite ora, per lei soltanto
+ era sicuro guardare direttamente la luce.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Tu hai detto, Harry, che pensavi che io sia sempre stata destinata a essere
+ l'eroe.
+ Ci ho riflettuto, e sospetto che tu abbia completamente torto.
+ Se questo fosse ciò che 
+\emph on
+doveva
+\emph default
+ essere, le cose sarebbero state in generale molto più facili.
+ Fare solo le cose che puoi fare -- devi 
+\emph on
+far sì
+\emph default
+ che accada, devi sceglierlo, ancora e poi ancora.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Potrebbe non essere in contrasto col tuo destino di eroe
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry, pensando alle teorie compatibiliste del libero arbitrio,
+ e alle profezie che non avrebbe dovuto consultare allo scopo di soddisfarle.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Ma possiamo parlare di questo dopo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Devi sceglierlo
+\begin_inset Quotes frd
+\end_inset
+
+, ripeté Hermione.
+ Si sollevò sulle mani, e poi risaltò in piedi all'indietro sul tetto, alzandosi
+ con un movimento fluido.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Proprio come sto scegliendo di fare questo.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Niente baci!
+\begin_inset Quotes frd
+\end_inset
+
+ disse Harry, sollevandosi in piedi di scatto e preparandosi a schivare;
+ sebbene gli venne in mente che la Ragazza-Che-È-Risuscitata sarebbe stata
+ molto, molto più veloce.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non proverò mai più a baciarla, signor Potter.
+ Non finché non sarà lei a chiedermelo, se mai lo farà.
+ Ma ci sono tutti questi sentimenti d'affetto che traboccano dentro di me
+ e mi sento come se potessi esplodere se non faccio 
+\emph on
+qualcosa
+\emph default
+, anche se ora mi accorgo che è malsano se le ragazze non conoscono altro
+ modo di esprimere gratitudine per i ragazzi a parte dare loro un bacio.
+\begin_inset Quotes frd
+\end_inset
+
+ Hermione estrasse la bacchetta e la porse di traverso, nella posizione
+ che aveva usato per pronunciare il suo giuramento di fedeltà a Casa Potter
+ davanti al Wizengamot.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Oh 
+\emph on
+diavolo
+\emph default
+ no
+\begin_inset Quotes frd
+\end_inset
+
+, disse Harry.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Hai capito cosa c'è voluto per sottrarti a quel giuramento 
+\emph on
+l'ultima
+\emph default
+ volta
+\begin_inset space ~
+\end_inset
+
+--
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Non saltare alle conclusioni, tu.
+ Non stavo per giurare di nuovo lealtà alla tua Casa.
+ Devi iniziare a fidarti del fatto che io sia ragionevole se hai intenzione
+ di essere il mio misterioso giovane mago.
+ Ora prego porgi la tua bacchetta.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lentamente, Harry estrasse la Bacchetta di Sambuco e la incrociò con i dieci-pol
+lici-e-tre-quarti di legno di vite di Hermione, respingendo un'ultima preoccupaz
+ione sul fatto che ella stesse facendo la scelta sbagliata.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Puoi almeno non dire niente riguardo al `finché morte non mi colga', perché
+ ho accennato al fatto che ho la Pietra filosofale ora? O qualcosa riguardo
+ alla `fine del mondo e della sua magia'? Sono molto più nervoso riguardo
+ a frasi del genere rispetto a quanto ero prima.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Su di un tetto pavimentato in lastre quadrate di pietra, il brillante Sole
+ mattutino splende su due non-più-davvero-bambini, entrambi in vesti bordate
+ di blu, che si fronteggiano l'un l'altra attraverso bacchette incrociate.
+ Una ha occhi marroni sotto caotici riccioli castani, e irraggia un'aura
+ di forza e bellezza che non è sola magia; l'altro ha occhi verdi dietro
+ gli occhiali, con spettinati capelli neri sopra una cicatrice recentemente
+ irritata.
+ Sotto di loro, una torre di pietra che nessuno ricorda di aver visto dal
+ livello del terreno si allunga verso il basso fino all'ampia base del castello
+ di Hogwarts.
+ Molto al di sotto di loro sono visibili le colline verdi, e il lago.
+ In lontananza un'enorme linea rossa e nera di carrozze e una locomotiva,
+ apparentemente minuscola da quella distanza, un treno né babbano né totalmente
+ magico.
+ Il cielo è quasi privo di nuvole, a eccezione di vaghe sfumature bianco-arancio
+ni là dove ciuffi di condensa riflettono la luce solare.
+ Una leggera brezza trasporta il frizzante freddo dell'alba, e l'umidità
+ del mattino; ma l'enorme e risplendente globo dorato è ormai sorto alto
+ sull'orizzonte, e la sua incandescenza irraggia calore su qualunque cosa
+ tocchi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Beh, forse dopo di questo sarai meno nervoso
+\begin_inset Quotes frd
+\end_inset
+
+, dice l'eroe al proprio enigmatico mago.
+ Ella sa di non conoscere l'intera storia, ma il frammento di verità che
+ possiede brilla luminoso come la luce del sole dentro di lei, riscaldandola
+ intimamente così come il Sole riscalda il suo volto.
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Io 
+\emph on
+scelgo
+\emph default
+ di farlo, questa volta.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\lang english
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sulla mia vita e la mia magia io giuro amicizia a Harry Potter,
+\begin_inset Newline newline
+\end_inset
+
+Di aiutarlo e di fidarmi di lui,
+\begin_inset Newline newline
+\end_inset
+
+Di stare con lui e, uhm, di stare al suo fianco,
+\begin_inset Newline newline
+\end_inset
+
+E talvolta di andare là dove lui non può andare,
+\begin_inset Newline newline
+\end_inset
+
+Fino al giorno in cui la morte non mi coglierà davvero, se mai lo farà,
+ voglio dire,
+\begin_inset Newline newline
+\end_inset
+
+E se il mondo o la sua magia finiranno, ce ne occuperemo insieme.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\lang english
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Questa è la fine di Harry Potter e i metodi della razionalità.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Non scriverò alcun seguito io stesso; ho detto ciò che avevo intenzione
+ di dire, e ho terminato.
+ Avete il mio consenso entusiasta per scrivere all'interno di questo mondo,
+ se lo desiderate.
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Sono felice di aver scritto questo libro per voi, e sono onorato che l'abbiate
+ letto.
+
+\emph default
+ 
+\emph on
+Molti di voi si sono dichiarati miei amici, e questa consapevolezza brilla
+ affettuosamente dentro di me..
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Vi auguro di vivere a lungo, e di prosperare --
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+\noun on
+Expecto Patronum!
+\end_layout
+
+\end_body
+\end_document

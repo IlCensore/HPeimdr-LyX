@@ -205,7 +205,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding \font_roman Garamond Premier Pro
-\font_roman Crimson
+\font_roman EB Garamond
 \font_sans Linux Biolinum O
 \font_typewriter Liberation Mono
 \font_math auto
@@ -635,8 +635,7 @@ url{hpmor.com}
 
 \end_inset
 
- il 16 marzo 2013, aggiornato all'11 febbraio 2014; controllate il sito
- per aggiornamenti e nuovi capitoli.
+; controllate il sito per aggiornamenti e nuovi capitoli.
  La traduzione è disponibile sul sito 
 \begin_inset ERT
 status open
@@ -1961,6 +1960,47 @@ filename "117.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "118.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "119.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "120.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "121.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "122.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage cleardoublepage
 \end_inset
 
@@ -1995,7 +2035,7 @@ backmatter
 
 \family sans
 \size largest
-Note e glossario
+Note e bibliografia
 \end_layout
 
 \begin_layout Standard
@@ -2006,7 +2046,7 @@ status open
 
 
 \backslash
-addcontentsline{toc}{part}{Note}
+addcontentsline{toc}{part}{Note e bibliografia}
 \end_layout
 
 \end_inset
@@ -2076,6 +2116,13 @@ filename "NoteD.lyx"
 \begin_inset CommandInset include
 LatexCommand input
 filename "NoteE.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "NoteF.lyx"
 
 \end_inset
 

@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -78,13 +78,13 @@ initials
 \font_roman Linux Libertine O
 \font_sans Linux Libertine Display O
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -95,15 +95,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -197,7 +206,7 @@ divertendo troppo
 
 \begin_layout Standard
 Aveva fatto meglio di lui in ogni singolo corso che avevano seguito.
- (Fatta eccezione per volo con la scopa che era come ginnastica, non contava.)
+ (Fatta eccezione per volo con la scopa, che era come ginnastica, non contava.)
  Aveva guadagnato 
 \emph on
 veri
@@ -219,12 +228,12 @@ vero
 \end_layout
 
 \begin_layout Standard
-Se fossi stato buono, non avresti dovuto godere così tanto a vincere.
+Se fosse stata buona, non avrebbe dovuto godere così tanto a vincere.
 \end_layout
 
 \begin_layout Standard
-Era iniziato il giorno del viaggio in treno, anche se alla tempesta c'era
- voluto un po' per placarsi.
+Era iniziato il giorno del viaggio in treno, anche se a quella tempesta
+ c'era voluto un po' per placarsi.
  Era stato solo quella notte sul tardi che Hermione aveva cominciato a rendersi
  conto di 
 \emph on
@@ -269,7 +278,7 @@ più divertente
 Le erano sempre piaciuti i sorrisi che gli insegnanti le rivolgevano quando
  faceva qualcosa correttamente.
  Aveva sempre amato osservare la lunga fila di spuntature su di un compito
- perfettamente risolto.
+ svolto in maniera perfetta.
  Ma ora, quando andava bene a lezione, dava casualmente un'occhiata in giro
  e osservava fugacemente Harry Potter che digrignava i denti, e la cosa
  le faceva venir voglia di scoppiare a cantare come in un film Disney.
@@ -284,7 +293,7 @@ Hermione era preoccupata di stare diventando Cattiva.
 \end_layout
 
 \begin_layout Standard
-E poi le venne un pensiero che spazzò via tutte le sue paure.
+E poi le sovvenne un pensiero che spazzò via tutte le sue paure.
 \end_layout
 
 \begin_layout Standard
@@ -375,10 +384,9 @@ E l'intera sala comune di Corvonero stava guardando.
 \end_layout
 
 \begin_layout Standard
-Non erano solo gli studenti del primo anno, la notizia si era diffusa come
- un fulmine e una buona metà dei Corvonero avevano affollato la stanza,
- spremuti nei divani e appoggiati alle librerie e seduti sui braccioli delle
- sedie.
+Non erano solo studenti del primo anno, la notizia si era diffusa come un
+ fulmine e una buona metà dei Corvonero avevano affollato la stanza, spremuti
+ nei divani e appoggiati alle librerie e seduti sui braccioli delle sedie.
  Tutti e sei i prefetti erano lì, inclusa la Caposcuola di Hogwarts.
  Qualcuno aveva avuto bisogno di lanciare un Incantesimo Rinfresca-Aria
  solo per far sì che vi fosse sufficiente ossigeno.
@@ -581,7 +589,7 @@ Homo sapiens
 \emph default
  ripercorreranno la storia della galassia e si chiederanno come possa essere
  andato tutto così male, concluderanno che l'errore originale fu quando
- qualcuno insegnò a Hermione Granger a leggere».
+ qualcuno insegnò a Hermione Granger a leggere.»
 \end_layout
 
 \begin_layout Standard
@@ -599,7 +607,7 @@ Cosa?
 \end_layout
 
 \begin_layout Standard
-«Hai perso la scommessa», spiegò Hermione, «quindi devi pagare pegno».
+«Hai perso la scommessa», spiegò Hermione, «quindi devi pagare pegno.»
 \end_layout
 
 \begin_layout Standard
@@ -608,7 +616,7 @@ Cosa?
 
 \begin_layout Standard
 «Davvero?» disse Hermione Granger.
- Mise un'espressione pensierosa sul proprio viso.
+ Il suo viso assunse un'espressione pensierosa.
  Poi, come se l'idea le fosse venuta in mente solo in quel momento, «Votiamo,
  allora.
  Tutti coloro che in Corvonero pensano che Harry Potter debba pagare pegno,
@@ -660,25 +668,11 @@ E ci furono cenni d'assenso impazienti da parte di tutte le ragazze alle
  quali Penelope Clearwater aveva parlato del piano di Hermione.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -713,7 +707,7 @@ La sagoma si voltò lentamente per osservarlo, rivelando un viso ombroso
 
 \begin_layout Standard
 A Draco questo incontro piaceva già.
- Doveva mantenere la fredda luce verde, rendere entrambi più alti, dare
+ Doveva mantenere la fredda luce verde, rendere entrambi più alti, fornire
  loro cappucci e maschere, spostarli da un'aula a un cimitero, e sarebbe
  stato identico all'inizio della metà delle storie che gli amici di suo
  padre raccontavano sui Mangiamorte.
@@ -731,11 +725,11 @@ Voglio che tu sappia, Draco Malfoy
 \begin_inset Quotes fld
 \end_inset
 
-che non biasimo te per la mia recente sconfitta
+che non biasimo te per la mia recente sconfitta.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -798,11 +792,11 @@ vinto
 \emph on
 perso
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -825,11 +819,10 @@ Comprendo
 \begin_inset Quotes fld
 \end_inset
 
-Sono dispiaciuto
+Sono dispiaciuto.
 \begin_inset Quotes frd
 \end_inset
 
-.
  Non c'era altro che 
 \emph on
 potesse
@@ -848,7 +841,7 @@ dire
  vestito con tali indumenti quali mi sono stati forniti, visitando luoghi
  di Hogwarts tanto affascinanti come una piccola cascata gorgogliante quello
  che mi è sembrato muco, accompagnato da un gruppo di altre ragazze che
- si sono ostinate in attività così utili quanto cospargere il nostro cammino
+ si sono ostinate in attività tanto utili quanto cospargere il nostro cammino
  con petali di rosa Trasfigurati.
  Sono stato a un appuntamento, rampollo dei Malfoy.
  Il mio 
@@ -860,11 +853,11 @@ primo
 \emph on
 E quando vorrò riscuotere quel favore, tu lo ripagherai
 \emph default
-
+.
 \begin_inset Quotes frd
 \end_inset
 
-.
+
 \begin_inset Branch Figure
 status collapsed
 
@@ -949,7 +942,7 @@ Draco annuì solennemente.
 \end_layout
 
 \begin_layout Standard
-«Ritieni», disse Draco, «che qualcosa di triste dovrebbe accadere alla ragazza
+«Credi», disse Draco, «che dovrebbe accadere qualcosa di triste alla ragazza
  Granger
 \begin_inset space ~
 \end_inset
@@ -995,9 +988,8 @@ Non ci sarà nessun secondo appuntamento
 \end_inset
 
 , disse la sagoma illuminata di verde, con una voce così temibile che sembrò
- non solo simile a un Mangiamorte, ma ad Amycus Carrow in quell'occasione,
- subito prima che suo Padre gli dicesse di smetterla, che non era il Signore
- Oscuro.
+ non solo simile a un Mangiamorte, ma ad Amycus Carrow quella volta, subito
+ prima che suo Padre gli dicesse di smetterla, che non era il Signore Oscuro.
 \begin_inset Note Note
 status collapsed
 
@@ -1012,7 +1004,7 @@ La voce di Harry può ricordare un'imitazione del Signore Oscuro.
 
 \begin_layout Standard
 Naturalmente era ancora la voce acuta e bianca di un giovane ragazzo, e
- combinata con le 
+ associata alle 
 \emph on
 parole pronunciate
 \emph default
@@ -1029,12 +1021,12 @@ fosse
 \begin_layout Standard
 «Ma parliamo di cose più allegre», disse la figura ombreggiata di verde.
  «Parliamo di conoscenza e di potere.
- Draco Malfoy, parliamo di Scienza».
+ Draco Malfoy, parliamo di Scienza.»
 \end_layout
 
 \begin_layout Standard
 «Sì», disse Draco.
- «Parliamo».
+ «Parliamo.»
 \end_layout
 
 \begin_layout Standard
@@ -1126,7 +1118,7 @@ settimana affollata
 \begin_layout Standard
 «Ci sono molte cose che io stesso devo fare per consolidare il mio potere
  in Serpeverde», disse Draco, «per non parlare dei compiti.
- Forse dovremmo semplicemente iniziare nel mese di ottobre?»
+ Forse dovremmo iniziare a ottobre?»
 \end_layout
 
 \begin_layout Standard
@@ -1148,7 +1140,7 @@ Draco scosse la testa.
 \end_layout
 
 \begin_layout Standard
-«Allora questo è sistemato.
+«Allora questo è determinato.
  Imparerai la matematica, prima o poi, ma non subito, credo.
  La terza opzione è che ti insegni la genetica e l'evoluzione e l'ereditarietà,
  ciò che potresti chiamare il sangue
@@ -1171,7 +1163,7 @@ La figura annuì.
 \end_layout
 
 \begin_layout Standard
-«Allora scoprirò come far dire alla prova sperimentale la risposta 
+«Allora scoprirò come far dare alla prova sperimentale la risposta 
 \emph on
 giusta!
 \emph default
@@ -1191,7 +1183,7 @@ Ci fu una pausa, come se la figura in ombra fosse rimasta lì, con la bocca
 \emph on
 puoi
 \emph default
- far sì che la risposta risulti qualunque cosa tu voglia».
+ far sì che la risposta sia qualunque cosa tu voglia.»
 \end_layout
 
 \begin_layout Standard
@@ -1199,10 +1191,10 @@ puoi
 \emph on
 sempre
 \emph default
- far sì che la risposta risulti quella che vuoi», disse Draco.
+ far sì che la risposta sia quella che vuoi», disse Draco.
  Quella era stata praticamente la prima cosa che i suoi precettori gli avevano
  insegnato.
- «È solo una questione di trovare gli argomenti giusti».
+ «È solo una questione di trovare gli argomenti giusti.»
 \end_layout
 
 \begin_layout Standard
@@ -1228,7 +1220,7 @@ razionalizzazione
 quindi
 \emph default
 , la Luna è fatta di formaggio', e poi tornar in cima per scriverci sopra
- ogni tipo di arguta argomentazione.
+ ogni genere di argomentazione scaltra.
  Ma o la Luna è fatta di formaggio o non lo è.
  Nel momento in cui hai scritto l'ultima linea, era già vero o già falso.
  Che l'intero foglio di carta finisca per contenere la conclusione giusta
@@ -1352,7 +1344,7 @@ tu
 \begin_layout Standard
 Draco fissò la figura ammantata dall'ombra per un po', con gli occhi socchiusi.
  «Bella trappola, Harry», disse.
- «Dovrò ricordarmela, è nuova».
+ «Dovrò ricordarmela, è nuova.»
 \end_layout
 
 \begin_layout Standard
@@ -1366,10 +1358,9 @@ io non so
  Ma non si comprende l'universo discutendo con lui o dicendogli di tornare
  con una risposta diversa la prossima volta.
  Quando indossi le vesti dello scienziato devi dimenticare tutta la tua
- politica e le discussioni e le fazioni e i partiti, mettere a tacere gli
- attaccamenti disperati della tua mente, e desiderare solo di ascoltare
- la risposta della Natura».
- La figura ombrosa fece una pausa.
+ politica e le discussioni e le fazioni e i partiti, mettere a tacere le
+ posizioni disperatamente arroccate della tua mente, e desiderare solo di
+ ascoltare la risposta della Natura.» La figura ombrosa fece una pausa.
  «La maggior parte delle persone non può farlo.
  Ecco perché è difficile.
  Sei sicuro che non vorresti piuttosto studiare il cervello?»
@@ -1378,19 +1369,18 @@ io non so
 \begin_layout Standard
 «E se ti dicessi che preferirei studiare il cervello», disse Draco, con
  la voce ora dura, «andresti in giro a dire alla gente che ho avuto paura
- di quello che avrei scoperto».
+ di quello che avrei scoperto.»
 \end_layout
 
 \begin_layout Standard
 «No», disse la figura ombrosa.
- «Non farei nulla del genere».
+ «Non farei nulla del genere.»
 \end_layout
 
 \begin_layout Standard
-«Ma potresti eseguire lo stesso tipo di prove da solo, e se ottenessi la
- risposta sbagliata, non sarei lì a dirti qualcosa prima che la mostrassi
- a qualcun altro».
- La voce di Draco era ancora dura.
+«Ma potresti fare lo stesso tipo di prove da solo, e se ottenessi la risposta
+ sbagliata, non sarei lì a dirti qualcosa prima che la mostrassi a qualcun
+ altro.» La voce di Draco era ancora dura.
 \end_layout
 
 \begin_layout Standard
@@ -1414,11 +1404,11 @@ faresti?
 \emph on
 io 
 \emph default
-sapere chi ricattare o cosa potremmo chiedere loro? Draco, ripeto ancora
+sapere chi ricattare o cosa potremmo chiedere loro? Draco, ti ripeto ancora
  una volta che questa non è una trappola che ho creato per te.
  Almeno non per te personalmente.
  Se la tua posizione politica fosse stata diversa, ti starei chiedendo che
- cosa succederebbe se la prova mostrasse che i purosangue sono più forti».
+ cosa succederebbe se la prova mostrasse che i purosangue sono più forti.»
 \end_layout
 
 \begin_layout Standard
@@ -1448,10 +1438,10 @@ La figura, ombrosa e illuminata di verde, attese.
 
 \begin_layout Standard
 Non ci volle molto tempo per pensarci, però.
- Scartando tutte le parti disorientanti\SpecialChar \ldots{}
+ Se scartavi tutte le parti disorientanti\SpecialChar \ldots{}
  allora Harry Potter stava progettando
  di trafficare con qualcosa che avrebbe potuto provocare un gigantesco sconvolgi
-mento politico, e sarebbe stato folle andarsene semplicemente via e lasciare
+mento politico, e sarebbe stato folle andarsene via e basta, e lasciare
  che facesse tutto da solo.
  «Studieremo il sangue», disse Draco.
 \end_layout
@@ -1462,7 +1452,7 @@ mento politico, e sarebbe stato folle andarsene semplicemente via e lasciare
 Eccellente
 \emph default
 », disse la figura, e sorrise.
- «Complimenti per essere disposto a fare la domanda».
+ «Complimenti per essere disposto a fare la domanda.»
 \end_layout
 
 \begin_layout Standard
@@ -1489,7 +1479,7 @@ molto
 
 \begin_layout Standard
 Ci fu una breve pausa, e poi la figura annuì.
- «Giusta osservazione».
+ «Giusta osservazione.»
 \end_layout
 
 \begin_layout Standard
@@ -1528,15 +1518,14 @@ non devo
  Sarebbe come se un potente mago ti svelasse le porte che non devono essere
  aperte e i sigilli che non devono essere spezzati, prima che tu abbia dimostrat
 o di possedere l'intelligenza e la disciplina necessarie per sopravvivere
- ai pericoli minori».
+ ai pericoli minori.»
 \end_layout
 
 \begin_layout Standard
 Un brivido scese lungo la schiena di Draco, che tremò involontariamente.
  Sapeva che era stato visibile anche nella penombra.
  «Va bene», disse Draco.
- «Comprendo».
- Suo Padre gliel'aveva detto molte volte.
+ «Comprendo.» Suo Padre gliel'aveva detto molte volte.
  Quando un mago più potente ti diceva che non eri pronto a sapere, non dovevi
  curiosare oltre, se volevi vivere.
 \end_layout
@@ -1566,7 +1555,11 @@ iniziati
 \emph on
 non
 \emph default
- avessero parlato, gli scienziati del paese 
+ 
+\emph on
+avessero
+\emph default
+ parlato, gli scienziati del paese 
 \emph on
 nemico
 \emph default
@@ -1582,7 +1575,7 @@ loro
 \emph on
 noi
 \emph default
- non abbiamo intenzione di ripetere lo stesso errore».
+ non abbiamo intenzione di ripetere lo stesso errore.»
 \end_layout
 
 \begin_layout Standard
@@ -1592,7 +1585,7 @@ noi
 Noi
 \emph default
  non lo faremo.
- Noi siamo maghi, e studiare la scienza non ci rende Babbani».
+ Noi siamo maghi, e studiare la scienza non ci rende Babbani.»
 \end_layout
 
 \begin_layout Standard
@@ -1602,8 +1595,7 @@ Noi
 nostra
 \emph default
  Scienza, una Scienza magica, e questa Scienza possiederà tradizioni più
- intelligenti fin dal principio».
- La voce si fece dura.
+ intelligenti fin dal principio.» La voce si fece dura.
  «La conoscenza che condivido con te sarà insegnata insieme alle discipline
  per accettare la verità, il livello di questa conoscenza sarà vincolato
  ai tuoi progressi in quelle discipline, e non condividerai tale conoscenza
@@ -1646,11 +1638,11 @@ cominciava
 \emph default
  a sembrare piuttosto interessante.
  I Mangiamorte avevano tentato di prendere il potere facendo in modo di
- essere più spaventosi di chiunque altro, e in realtà non avevano ancora
+ essere più terrificanti di chiunque altro, e in realtà non avevano ancora
  vinto.
  Forse era il momento di provare a governare usando i segreti, piuttosto.
  «E il nostro gruppo rimane nascosto il più a lungo possibile, e tutti al
- suo interno devono accettare le nostre regole».
+ suo interno devono accettare le nostre regole.»
 \end_layout
 
 \begin_layout Standard
@@ -1762,7 +1754,7 @@ mbox{--»}
 Dimentica quello che ho detto
 \emph default
 », disse Draco, il sudore diffusosi improvvisamente per tutto il corpo.
- Aveva bisogno di una diversione, 
+ Aveva bisogno di un diversivo, 
 \emph on
 velocemente
 \emph default
@@ -1792,7 +1784,7 @@ intelligente!
 
 \begin_layout Standard
 «Ce l'ho!» disse improvvisamente la figura ombrosa.
- «Non lo capirai ora, ma fidati, è adatto».
+ «Non lo capirai ora, ma fidati, è adatto.»
 \end_layout
 
 \begin_layout Standard
@@ -1809,7 +1801,7 @@ E in piedi in mezzo ai banchi polverosi in un'aula inutilizzata nei sotterranei
 \emph on
 Cospirazione bayesiana
 \emph default
-».
+.»
 \begin_inset Branch Figure
 status collapsed
 
@@ -1872,25 +1864,11 @@ Cospirazione bayesiana
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1974,7 +1952,7 @@ Ti sei fatto un nemico potente.
  Snape gode della lealtà, dell'ammirazione e della paura di tutti a Casa
  Serpeverde.
  Non puoi fidarti di chiunque appartenga a quella Casa ora, che venga a
- te in veste amichevole o temibile.
+ te in veste amichevole o tremenda.
 \end_layout
 
 \begin_layout Quote
@@ -1992,9 +1970,9 @@ D'ora in poi non devi fissare gli occhi di Snape.
 \emph on
 Affinché tu possa trovare un po' di tempo in più in cui studiare Occlumanzia,
  ho allegato due galeoni, che sono il prezzo delle soluzioni degli esami
- e dei compiti a casa per il primo anno del corso di Storia della magia
- (il professor Binns ha dato gli stessi esami e gli stessi compiti ogni
- anno da quando è morto).
+ e dei compiti a casa per il primo anno del corso di Storia della Magia
+ (da quando è morto il professor Binns ha dato gli stessi esami e gli stessi
+ compiti ogni anno).
  I tuoi nuovi amici, i gemelli Weasley, dovrebbero essere in grado di venderti
  una copia.
  Va da sé che è necessario non farti prendere con essi in tuo possesso.
@@ -2004,10 +1982,10 @@ Affinché tu possa trovare un po' di tempo in più in cui studiare Occlumanzia,
 
 \emph on
 Del professor Quirrell so poco.
- È un Serpeverde e un professore di Difesa, e queste sono due prove contro
+ È un Serpeverde e un professore di Difesa, e questi sono due indizi contro
  di lui.
  Considera attentamente ogni consiglio che ti dà, e non dirgli nulla che
- non desideri sia diffuso.
+ non desideri sia reso noto.
 \end_layout
 
 \begin_layout Quote
@@ -2099,28 +2077,14 @@ entrambi
 
 \begin_layout Standard
 Harry ficcò tutto nella borsa, alzò il Quietus, tirò la coperta sopra la
- testa e morì.
+ testa e si spense.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -2145,7 +2109,7 @@ esattamente una settimana
 \begin_layout Standard
 E gli venne un pensiero\SpecialChar \ldots{}
  Harry non sapeva se questo fosse un modo valido
- di pensare a proposito dell'universo, non sapeva più nulla, ma 
+ di pensare riguardo all'universo, non sapeva più nulla, ma 
 \emph on
 sembrava possibile
 \emph default
@@ -2166,7 +2130,7 @@ Non gli fossero successe abbastanza cose interessanti durante la settimana
 \end_layout
 
 \begin_layout Standard
-Quando ebbe finito di fare colazione, Harry aveva deciso di andare dritto
+Per quando ebbe finito di fare colazione, Harry aveva deciso di andare dritto
  in camera sua e nascondersi nel livello inferiore del suo baule e non parlare
  con nessuno fino alle 10:03.
 \end_layout
@@ -2235,8 +2199,7 @@ I gemelli Weasley arrivarono, sorridendo allegramente.
 \begin_layout Standard
 «Ciao, Fred», disse Harry debolmente.
  Uno dei gemelli annuì.
- «Ciao, George».
- L'altro gemello annuì.
+ «Ciao, George.» L'altro gemello annuì.
 \end_layout
 
 \begin_layout Standard
@@ -2320,7 +2283,7 @@ completato in capitolo 89
 \end_layout
 
 \begin_layout Standard
-Silente era saltato fuori dal suo trono ed era corso dritto oltre la Tavola
+Silente era saltato fuori dal suo trono ed era corso dritto oltre il Tavolo
  d'onore e aveva afferrato la donna che pronunciava quelle parole terribili,
  Fawkes era apparso in un lampo e tutti e tre erano scomparsi in uno schiocco
  di fuoco.
@@ -2384,7 +2347,7 @@ di chi
 \end_layout
 
 \begin_layout Standard
-E con una sorda e plumbea sensazione, Harry si rese conto chi 
+E con una sorda e plumbea sensazione, Harry si rese conto di chi 
 \emph on
 non era
 \emph default
@@ -2409,7 +2372,7 @@ cosa?
 \end_layout
 
 \begin_layout Standard
-«Mi pare che Trelawney stesse per dire qualcosa che iniziava per `S', poco
+«Mi pare che Trelawney stesse per dire qualcosa che iniziava per `s', poco
  prima che il Preside l'afferrasse».
 \end_layout
 
@@ -2440,7 +2403,7 @@ Sembrava piuttosto improbabile a Harry, a meno che il mondo non contenesse
 \begin_layout Standard
 «No», disse uno studente che avrebbe potuto essere al settimo anno, accigliato
  e torvo.
- «Non succedono».
+ «Non succedono.»
 \end_layout
 
 \begin_layout Standard
@@ -2454,8 +2417,7 @@ Harry scrollò le spalle.
 \emph on
 non è
 \emph default
- il tuo compleanno!» disse lo stesso studente che aveva obiettato precedentement
-e.
+ il tuo compleanno!» disse lo stesso studente che aveva obiettato in precedenza.
 \end_layout
 
 \begin_layout Standard
@@ -2475,34 +2437,20 @@ Ho avuto una
 \emph on
 settimana molto lunga
 \emph default
-
-\begin_inset Quotes frd
-\end_inset
-
 .
-\end_layout
-
-\begin_layout Quote
-\align center
-
-\color blue
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
+\begin_inset Quotes frd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\align center
 
-\begin_layout Plain Layout
-
-%
-\end_layout
+\color blue
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
 
 \end_inset
 
@@ -2537,7 +2485,7 @@ Harry tirò un sospiro di sollievo, e cautamente tolse la coperta dalla testa.
 \end_layout
 
 \begin_layout Standard
-Pochi istanti dopo, era emerso nell'aria del suo dormitorio illuminata vividamen
+Pochi istanti dopo, era emerso nell'aria del suo dormitorio illuminato vividamen
 te dal sole.
 \end_layout
 
@@ -2554,13 +2502,13 @@ Harry trovò una bella e ampia scrivania, avvicinò una comoda sedia, e si
 \end_layout
 
 \begin_layout Standard
-Mamma e papà avevano detto a Harry senza mezzi termini che, mentre avrebbero
+Mamma e papà avevano detto a Harry senza mezzi termini che, sebbene avrebbero
  capito il suo entusiasmo di allontanarsi da casa e dai suoi genitori, avrebbe
  dovuto scrivere loro 
 \emph on
 ogni settimana senza fallo
 \emph default
-, giusto in modo che sapessero che era vivo, illeso, e fuori dal carcere.
+, giusto in modo che sapessero che era vivo, illeso, e ancora a piede libero.
 \end_layout
 
 \begin_layout Standard
@@ -2642,34 +2590,13 @@ Sarà meglio che mi fermi qui.
 \begin_layout Quote
 
 \emph on
-Il vostro figlio amorevole,
+Vostro figlio che vi ama tanto,
 \end_layout
 
 \begin_layout Quote
 
 \emph on
 Harry James Potter-Evans-Verres.
-\end_layout
-
-\begin_layout Standard
-
-\size footnotesize
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\size footnotesize
-\begin_inset Graphics
-	filename tailpiece15.png
-
-\end_inset
-
-
 \end_layout
 
 \end_body

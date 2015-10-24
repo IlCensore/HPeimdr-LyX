@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -17,16 +17,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
+\font_roman TeX Gyre Termes
 \font_sans Linux Biolinum O
 \font_typewriter Latin Modern Mono
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -37,15 +37,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -169,16 +178,16 @@ Corvonero
 \begin_layout Standard
 Harry guardò brevemente il suo nuovo compagno di Casa, più un rapido sguardo
  al viso che altro.
- Stava ancora cercando di riprendere il controllo di sé dopo il suo incontro
- con i fantasmi.
+ Stava ancora cercando di riprendere il controllo di sé dopo l'incontro
+ coi fantasmi.
  La cosa triste, la cosa veramente triste, la cosa veramente davvero triste
  era che 
 \emph on
 sembrava
 \emph default
  essere in grado di riprendere nuovamente il controllo.
- Sembrava fuori luogo.
- Come se ci avesse dovuto mettere almeno un giorno.
+ Gli sembrava fuori luogo.
+ Come se avesse dovuto metterci almeno un giorno.
  Forse una vita intera.
  Forse, semplicemente, non riuscirci mai.
 \end_layout
@@ -277,7 +286,7 @@ mezzosangue
 \end_layout
 
 \begin_layout Standard
-Uno sguardo gelido dalla giovane ragazza prefetto.
+Uno sguardo gelido della giovane ragazza prefetto.
  «Il Professore ha in effetti antenati goblin
 \begin_inset space ~
 \end_inset
@@ -471,8 +480,9 @@ Hermione giunse al tavolo Corvonero e ricevette la doverosa accoglienza;
  Harry si chiese se il benvenuto sarebbe stato più forte o più tiepido,
  se avessero avuto una qualche idea di che genere di concorrenza avevano
  accolto al loro tavolo.
- Harry conosceva pi greco fino a 3,141592, perché una precisione di una
- parte su un milione era sufficiente per la maggior parte degli scopi pratici.
+ Harry conosceva le cifre di pi greco fino a 3,141592, perché una precisione
+ di una parte su un milione era sufficiente per la maggior parte degli scopi
+ pratici.
  Hermione conosceva cento cifre di pi greco perché era il numero di cifre
  che era stato stampato sul retro del suo libro di testo di matematica.
 \end_layout
@@ -508,7 +518,7 @@ Malfoy, Draco!
 \begin_inset Quotes frd
 \end_inset
 
- andò a Serpeverde, e Harry tirò un piccolo sospiro di sollievo.
+ andò a Serpeverde, e Harry fece un piccolo sospiro di sollievo.
  Era 
 \emph on
 sembrato 
@@ -516,6 +526,16 @@ sembrato
 qualcosa di scontato, ma non potevi mai sapere quale minuscolo evento potesse
  sconvolgere il corso del tuo piano magistrale.
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap 11
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -566,12 +586,12 @@ tà di provare il panico da palcoscenico.
 \end_layout
 
 \begin_layout Standard
-Harry si sbarazzò immediatamente di quella sensazione.
- Stanze piene di persone che lo fissavano sarebbero dovute diventare qualcosa
- a cui fosse abituato, se voleva vivere nella Gran Bretagna magica, o più
- in generale fare qualsiasi altra cosa interessante in vita sua.
- Appuntando sul proprio viso un sorriso sicuro di sé e falso, alzò un piede
- per fare un passo avanti
+Si sbarazzò immediatamente di quella sensazione.
+ Una stanza piena di persone che lo fissavano era qualcosa a cui avrebbe
+ dovuto abituarsi, se voleva vivere nella Gran Bretagna magica, o più in
+ generale fare qualsiasi altra cosa interessante in vita sua.
+ Atteggiando il viso a un sorriso sicuro di sé e falso, alzò un piede per
+ fare un passo avanti
 \begin_inset space ~
 \end_inset
 
@@ -595,7 +615,7 @@ Harry Potter!
 \end_inset
 
  gridò l'altro gemello Weasley, e un attimo dopo l'intero tavolo Grifondoro,
- e poco dopo una buona parte di Corvonero e Tassofrasso, si unì al grido.
+ e poco dopo una buona parte di Corvonero e Tassofrasso si unì al grido.
 \end_layout
 
 \begin_layout Standard
@@ -612,27 +632,13 @@ E Harry Potter avanzò.
  era troppo tardi per cambiare il proprio ritmo senza sembrare goffo.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 
 \color blue
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -726,10 +732,10 @@ nza.
  Un debole sorriso giocava sulle sue labbra.
  Stava guardando in direzione di Harry Potter, non della tavola di Grifondoro,
  e le sue mani reggevano i resti accartocciati di quello che era stato un
- calice di vino.
+ calice da vino.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 
 \color blue
@@ -743,28 +749,14 @@ nza.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Harry Potter avanzò con un sorriso stampato, sentendosi dentro entusiasta
- e allo stesso tempo, in qualche modo, male.
+Harry Potter avanzò con un sorriso stampato in viso, sentendo dentro di
+ sé entusiasmo e allo stesso tempo, in qualche modo, pena.
 \end_layout
 
 \begin_layout Standard
 Lo stavano acclamando per un'impresa che aveva compiuto quando aveva appena
  un anno.
- Un'impresa che non aveva realmente portato a termine.
+ Un'impresa che non aveva compiuto realmente.
  In qualche luogo, in qualche modo, il Signore Oscuro era ancora vivo.
  Avrebbero acclamato così forte se l'avessero saputo?
 \end_layout
@@ -779,9 +771,8 @@ era già
 
 \begin_layout Standard
 E Harry li avrebbe protetti ancora.
- Se c'era davvero una profezia e questo fosse quello che diceva.
- Anzi, in realtà a prescindere da quello che qualunque maledetta profezia
- dicesse.
+ Se c'era davvero una profezia e quello fosse ciò che diceva.
+ Anzi, in realtà a prescindere da ciò che qualunque maledetta profezia dicesse.
 \end_layout
 
 \begin_layout Standard
@@ -795,9 +786,9 @@ Tutte quelle persone credevano in lui e lo sostenevano -- Harry non poteva
 come
 \emph default
  l'avesse ottenuta.
- Egli avrebbe -- assolutamente, sicuramente, non importa quanto tempo ci
- avrebbe messo e persino se questo l'avesse ucciso -- soddisfatto le loro
- aspettative.
+ Egli sarebbe stato -- assolutamente, sicuramente, non importa quanto tempo
+ ci avrebbe messo e persino se questo l'avesse ucciso -- all'altezza delle
+ loro aspettative.
  E poi sarebbe andato oltre e avrebbe 
 \emph on
 superato
@@ -850,6 +841,16 @@ Oh, sono il Cappello Smistatore e non provo scorno, se dormo un anno e lavoro
 \emph default
 \SpecialChar \ldots{}
 )
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in capp 10 e 11
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -858,14 +859,24 @@ Quando ci fu nuovamente silenzio nella stanza, Harry sedette sullo sgabello
 \emph on
 con cura
 \emph default
- sulla propria testa il telepatico manufatto di una magia dimenticata vecchio
- di 800 anni.
+ sulla propria testa il telepatico manufatto vecchio di 800 anni, prodotto
+ di una magia dimenticata.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in capp 10 e 11
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Pensò più intensamente che poté: 
 \emph on
-Non Smistarmi ancora! Ho delle domande che ho bisogno di farti! Sono mai
+Non Smistarmi subito! Ho delle domande che ho bisogno di farti! Sono mai
  stato Obliato? Hai Smistato il Signore Oscuro quando era un bambino e puoi
  parlarmi dei suoi punti deboli? Mi puoi dire perché ho avuto la bacchetta
  sorella di quella del Signore Oscuro? Il fantasma del Signore Oscuro è
@@ -879,7 +890,7 @@ Non Smistarmi ancora! Ho delle domande che ho bisogno di farti! Sono mai
 status open
 
 \begin_layout Plain Layout
-citato in cap 10
+citato in capp 10 e 11
 \end_layout
 
 \end_inset
@@ -891,6 +902,16 @@ citato in cap 10
 Nel silenzio dello spirito di Harry, dove prima non c'era mai stata altra
  voce che una, giunse una seconda voce non familiare, che sembrava chiaramente
  preoccupata:
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap 10
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -904,6 +925,16 @@ Oh, cielo.
 \emph default
 
 \begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap 10
+\end_layout
+
 \end_inset
 
 

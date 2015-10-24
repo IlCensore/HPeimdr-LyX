@@ -4,18 +4,14 @@
 \begin_header
 \textclass memoir
 \begin_preamble
-\setcounter{chapter}{37}
-
 \usepackage[usenames,dvipsnames]{xcolor}
-%\usepackage{fmtcount}
 \usepackage{microtype}
-%insular minuscule, capitolo 75
-\usepackage{inslrmin}
 
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\footnotesize Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+%  \makeevenhead{myheadings}{\footnotesize Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{}
   \makeevenfoot{myheadings}{\thepage}{}{}
   \makeoddfoot{myheadings}{}{}{\thepage}
@@ -100,7 +96,7 @@
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 \usepackage{shapepar} %paragrafi con una certa forma
 \usepackage{url}%url lunga
-%\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
 
 \makeatletter
 \renewcommand\part{%
@@ -206,10 +202,10 @@ initials
 \language italian
 \language_package default
 \inputencoding auto
-\fontencoding \font_roman Garamond Premier Pro
-\font_roman EB Garamond
+\fontencoding 
+\font_roman Arno Pro
 \font_sans Linux Biolinum O
-\font_typewriter Liberation Mono
+\font_typewriter Latin Modern Mono
 \font_math auto
 \font_default_family default
 \use_non_tex_fonts true
@@ -218,13 +214,13 @@ initials
 \font_sf_scale 100
 \font_tt_scale 100
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
 \float_placement bp
 \paperfontsize 10
-\spacing onehalf
+\spacing other 1.3
 \use_hyperref false
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
@@ -265,13 +261,12 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 6in
-\paperheight 9in
-\leftmargin 1.2in
-\topmargin 0.85in
-\rightmargin 1.2in
-\bottommargin 1.2in
-\headsep 0.15in
+\paperwidth 13.97cm
+\paperheight 21.59cm
+\leftmargin 1in
+\topmargin 0.8in
+\rightmargin 1in
+\bottommargin 1in
 \secnumdepth 3
 \tocdepth 0
 \paragraph_separation indent
@@ -324,12 +319,6 @@ newgeometry{left=1.69cm,bottom=2.493cm}
 
 \size larger
 Harry Potter e i metodi della razionalità
-\begin_inset Newline newline
-\end_inset
-
-
-\noun on
-iii
 \end_layout
 
 \begin_layout Standard
@@ -347,28 +336,15 @@ iii
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \align center
 
+\size large
 \noun on
 Harry Potter e i metodi della razionalità
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\family sans
-\size small
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -377,16 +353,18 @@ Harry Potter e i metodi della razionalità
 \begin_layout Standard
 \align center
 
-\size small
+\emph on
 Volume 
 \noun on
 i
-\emph on
+\emph default
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\noun on
 Harry James Potter-Evans-Verres e i Metodi della razionalità
 \end_layout
 
@@ -394,7 +372,6 @@ Harry James Potter-Evans-Verres e i Metodi della razionalità
 \align center
 
 \family sans
-\size small
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -407,28 +384,25 @@ Harry James Potter-Evans-Verres e i Metodi della razionalità
 \begin_layout Standard
 \align center
 
-\size small
+\emph on
 Volume 
 \noun on
 ii
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
-Harry James Potter-Evans-Verres e
+
 \emph default
- 
-\emph on
-la Legione del Chaos
+\noun on
+Harry James Potter-Evans-Verres e la Legione del Chaos
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \family sans
-\size small
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -441,16 +415,18 @@ la Legione del Chaos
 \begin_layout Standard
 \align center
 
-\size small
+\emph on
 Volume 
 \noun on
 iii
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Harry James Potter-Evans-Verres e le Ombre della Morte
 \end_layout
 
@@ -458,7 +434,6 @@ Harry James Potter-Evans-Verres e le Ombre della Morte
 \align center
 
 \family sans
-\size small
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -471,16 +446,18 @@ Harry James Potter-Evans-Verres e le Ombre della Morte
 \begin_layout Standard
 \align center
 
-\size small
+\emph on
 Volume 
 \noun on
 iv
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Hermione Jean Granger e il Richiamo della Fenice
 \end_layout
 
@@ -488,7 +465,6 @@ Hermione Jean Granger e il Richiamo della Fenice
 \align center
 
 \family sans
-\size small
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -501,16 +477,18 @@ Hermione Jean Granger e il Richiamo della Fenice
 \begin_layout Standard
 \align center
 
-\size small
+\emph on
 Volume 
 \noun on
 v
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Harry James Potter-Evans-Verres e il Nemico finale
 \end_layout
 
@@ -518,7 +496,6 @@ Harry James Potter-Evans-Verres e il Nemico finale
 \align center
 
 \family sans
-\size small
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -531,16 +508,18 @@ Harry James Potter-Evans-Verres e il Nemico finale
 \begin_layout Standard
 \align center
 
-\size small
+\emph on
 Volume 
 \noun on
 vi
-\emph on
 \noun default
 
 \begin_inset Newline newline
 \end_inset
 
+
+\emph default
+\noun on
 Harry James Potter-Evans-Verres e la Pietra filosofale
 \end_layout
 
@@ -567,40 +546,81 @@ Eliezer Yudkowsky
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\backslash
-color{Maroon}
-\end_layout
-
+\begin_inset VSpace medskip
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\size giant
-\noun on
-Harry Potter
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\size huge
-\noun on
-e i metodi della razionalità
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{Maroon}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+scshape
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{0.618
+\backslash
+linewidth}{!}{Harry Potter}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Huge e i}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{
+\backslash
+linewidth}{!}{Metodi della Razionalità}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -613,17 +633,28 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 
 \emph on
-Volume terzo
-\emph default
+Volume 
 \noun on
-:
+i
+\noun default
+
 \begin_inset Newline newline
 \end_inset
 
-Harry James Potter e i le Ombre della Morte
+
+\emph default
+\noun on
+Harry James Potter-Evans-Verres e i Metodi della razionalità
 \end_layout
 
 \begin_layout Standard
@@ -672,33 +703,6 @@ Cato Philosophus
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\emph on
-\begin_inset Branch Figure
-status collapsed
-
-\begin_layout Standard
-\align center
-
-\emph on
-Illustrazioni di
-\emph default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\noun on
-Dinosaurusgede
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset VSpace vfill
 \end_inset
 
@@ -719,7 +723,9 @@ Cato Philosophus
 \begin_inset Newline newline
 \end_inset
 
-MMXV
+
+\noun on
+mmxv
 \end_layout
 
 \begin_layout Standard
@@ -775,7 +781,20 @@ Il sito internet del progetto di traduzione è
 \begin_inset Newline newline
 \end_inset
 
-sites.google.com/site/hpeimdr/home/
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{sites.google.com/site/hpeimdr/home/}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -792,7 +811,20 @@ Il sito internet dell'opera originale è
 \begin_inset Newline newline
 \end_inset
 
-hpmor.com
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{hpmor.com}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -841,16 +873,44 @@ reflectbox{©}
 
 \end_inset
 
- 2013--2015 Cato Philosophus (cato.philosophus@gmail.com)
+ 2013--2015 Cato Philosophus
 \begin_inset Newline newline
 \end_inset
 
 
-\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{cato.philosophus@gmail.com}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Questa opera è stata rilasciata con licenza Creative Commons Attribuzione
  -- Condividi allo stesso modo 3.0 Italia; per leggere una copia della licenza
- visita il sito web creativecommons.org/licenses/by-sa/3.0/it/ o spedisci
- una lettera a Creative Commons, PO Box 1866, Mountain View, 
+ visita il sito web 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{creativecommons.org/licenses/by-sa/3.0/it/}
+\end_layout
+
+\end_inset
+
+ o spedisci una lettera a Creative Commons, PO Box 1866, Mountain View,
+ 
 \noun on
 ca
 \noun default
@@ -897,7 +957,7 @@ Linux Biolinum
 \family default
 , e 
 \family typewriter
-Liberation Mono
+Inconsolata
 \family default
 .
 \end_layout
@@ -936,27 +996,8 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cleardoublepage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
+\begin_layout Chapter*
+Prefazione
 \end_layout
 
 \begin_layout Standard
@@ -967,7 +1008,7 @@ status open
 
 
 \backslash
-pagestyle{empty}
+addcontentsline{toc}{chapter}{Prefazione}
 \end_layout
 
 \end_inset
@@ -976,7 +1017,62 @@ pagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+Cosa è 
+\emph on
+Harry Potter e i metodi della razionalità
+\emph default
+ e perché dovresti leggerlo?
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Harry Potter e i metodi della razionalità
+\emph default
+ è una 
+\begin_inset Quotes fld
+\end_inset
+
+fanfic
+\begin_inset Quotes frd
+\end_inset
+
+ di Harry Potter, ovvero un racconto ambientato nel mondo creato da J.K.
+ Rowling scritto da un appassionato dell'opera, invece che dall'autrice
+ originale.
+ Si tratta di un universo parallelo, in cui alcuni eventi sono accaduti
+ in maniera differente da quella canonica -- la zia di Harry ha sposato
+ il professore di biochimica di Oxford Michael Verres, e i due hanno adottato
+ Harry, il cui nome è quindi Harry James Potter-Evans-Verres; i genitori
+ adottivi amano Harry e l'hanno aiutato a sviluppare la sua passione per
+ la scienza e quella per la fantascienza.
+ A partire da queste variazioni, l'autore ha sviluppato un racconto coerente
+ e certamente differente da quello della Rowling.
+\end_layout
+
+\begin_layout Standard
+Non si tratta di un'opera adatta a tutti.
+ Non è stata scritta per un pubblico di bambini o di adolescenti, ma di
+ adulti; non si fa remore a sottolineare e smantellare le incongruenze e
+ l'irrazionalità di alcune parti dell'opera della Rowling; è piena di riferiment
+i scientifici, e in generale i suoi personaggi tendono a comportarsi in
+ maniera molto razionale.
+ Lo stesso autore ha suggerito di leggere almeno i primi cinque capitoli,
+ per capire di cosa si tratta, e di abbandonare la lettura se dopo il decimo
+ capitolo l'opera dovesse continuare a non piacere.
+\end_layout
+
+\begin_layout Standard
+Il libro che avete fra le mani, 
+\emph on
+Harry James Potter-Evans-Verres e i Metodi della razionalità
+\emph default
+, è il primo volume; spero che vi piaccia abbastanza da continuare a leggere
+ il resto della storia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
 \end_inset
 
 
@@ -990,7 +1086,7 @@ status open
 
 
 \backslash
-pagestyle{empty}
+pagestyle{myheadings}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1000,76 +1096,12 @@ pagestyle{empty}
 mainmatter
 \end_layout
 
-\begin_layout Plain Layout
-
-
-\backslash
-newgeometry{left=1.69cm,bottom=2.493cm}
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\size larger
-Harry James Potter-Evans-Verres e le Ombre della Morte
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill*
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-restoregeometry
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{myheadings}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand include
+filename "001.lyx"
 
 \end_inset
 
@@ -1079,112 +1111,7 @@ pagestyle{myheadings}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "038.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "039.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "040.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "041.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "042.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "043.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "044.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "045.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "046.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "047.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "048.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "049.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "050.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "051.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "052.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "053.lyx"
+filename "002.lyx"
 
 \end_inset
 
@@ -1194,77 +1121,7 @@ filename "053.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "054.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "055.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "056.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "057.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "058.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "059.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "060.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "061.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "062.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "063.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "064.lyx"
+filename "003.lyx"
 
 \end_inset
 
@@ -1272,29 +1129,9 @@ filename "064.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{empty}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-backmatter
-\end_layout
+\begin_inset CommandInset include
+LatexCommand include
+filename "004.lyx"
 
 \end_inset
 
@@ -1302,23 +1139,9 @@ backmatter
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\family sans
-\size largest
-Note e bibliografia
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{part}{Note e bibliografia}
-\end_layout
+\begin_inset CommandInset include
+LatexCommand include
+filename "005.lyx"
 
 \end_inset
 
@@ -1326,54 +1149,147 @@ addcontentsline{toc}{part}{Note e bibliografia}
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace vfill*
+\begin_inset CommandInset include
+LatexCommand include
+filename "006.lyx"
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset CommandInset include
+LatexCommand include
+filename "007.lyx"
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset CommandInset include
+LatexCommand include
+filename "008.lyx"
 
-\begin_layout Plain Layout
+\end_inset
 
 
-\backslash
-pagestyle{myheadings}
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "009.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "010.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "011.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "012.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "013.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "014.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "015.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "016.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "017.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "018.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "019.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "020.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "021.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
 \end_inset
 
 
 \end_layout
 
 \begin_layout Chapter*
-Note
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "NoteC.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
-filename "bibliografia.lyx"
-
-\end_inset
-
-
+Postfazione
 \end_layout
 
 \begin_layout Standard
@@ -1384,7 +1300,7 @@ status open
 
 
 \backslash
-clearpage
+addcontentsline{toc}{chapter}{Postfazione}
 \end_layout
 
 \end_inset
@@ -1393,7 +1309,79 @@ clearpage
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+Siamo alla fine del primo volume di 
+\emph on
+Harry Potter e i metodi della razionalità
+\emph default
+.
+ E ora?
+\end_layout
+
+\begin_layout Standard
+Il resto della traduzione italiana è disponibile sul sito 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{sites.google.com/site/hpeimdr/home/}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Questa edizione è autoprodotta e distribuita gratuitamente, se il libro
+ vi è piaciuto passatelo in giro; se non vi è piaciuto, passatelo in giro
+ lo stesso, magari a qualcun altro piacerà.
+ Un buon sistema di distribuzione potrebbe essere quello del 
+\emph on
+Bookcrossing
+\emph default
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{bookcrossing.com}
+\end_layout
+
+\end_inset
+
+, che vi permetterà di seguire il percorso compiuto dal libro.
+\end_layout
+
+\begin_layout Standard
+La stampa dei volumi successivi dell'opera potrebbe essere o meno disponibile,
+ in quanto la pubblicazione dell'edizione inglese di quest'opera è stata
+ accettata dagli agenti di J.K.
+ Rowling a patto che non vi fosse lucro; per tanto non è possibile vendere
+ i libri.
+ Contattatemi all'indirizzo 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{cato.philosophus@gmail.com}
+\end_layout
+
+\end_inset
+
+ per maggiori informazioni.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -1434,22 +1422,18 @@ small
 \backslash
 diamondpar{Qui termina 
 \backslash
-textit{Harry James Potter-Evans-Verres e le ombre della morte}, volume terzo
- di 
-\backslash
-textit{Harry Potter e i metodi della razionalità}.
- Grazie a Eneasz Brodski della drammatizzazione radiofonica e ai suoi collaborat
-ori, il cui lavoro è stato sia divertente sia motivante (questo è il mio
- contributo alla diffusione della razionalità, non voglio che Hermione sia
- triste!); alla comunità di 
+textit{Harry Potter e i metodi della razionalità, Volume I}.
+ Grazie a Dinosaurusgede per la divertente ed emozionante arte; a Eneasz
+ Brodski e ai suoi collaboratori per la loro drammatizzazione radiofonica,
+ che è stata sia divertente sia motivante (questo è il mio contributo alla
+ diffusione della razionalità, non voglio che Hermione sia triste!); alla
+ comunità di 
 \backslash
 LaTeX e LyX, senza la quale questo lavoro sarebbe stato impossibile.
  Ultimo nell'elenco ma primo per importanza, un grazie di cuore a Eliezer
- Yudkowsky per il meraviglioso mondo di 
-\backslash
-textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
- in parti uguali.
- Questa traduzione è dedicata a mio fratello e a mia madre.}
+ Yudkowsky per il meraviglioso mondo di HPMOR, che mi ha regalato diverse
+ ore di divertimento e riflessione in parti uguali.
+ Questo lavoro è dedicato a mio fratello e a mia madre.}
 \end_layout
 
 \end_inset
@@ -1472,49 +1456,6 @@ textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
 	lyxscale 30
 	scale 80
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cleardoublepage
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
 \end_inset
 
 
