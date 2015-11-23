@@ -306,7 +306,7 @@ frontmatter
 
 
 \backslash
-newgeometry{left=1.69cm,bottom=2.493cm}
+newgeometry{top=0.5in,left=0.5in,right=0.5in,bottom=1.0in}
 \end_layout
 
 \end_inset
@@ -729,22 +729,6 @@ mmxv
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-restoregeometry
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -895,8 +879,7 @@ url{cato.philosophus@gmail.com}
 \end_inset
 
 Questa opera è stata rilasciata con licenza Creative Commons Attribuzione
- -- Condividi allo stesso modo 3.0 Italia; per leggere una copia della licenza
- visita il sito web 
+ -- Condividi allo stesso modo 3.0 Italia (
 \begin_inset ERT
 status open
 
@@ -909,16 +892,7 @@ url{creativecommons.org/licenses/by-sa/3.0/it/}
 
 \end_inset
 
- o spedisci una lettera a Creative Commons, PO Box 1866, Mountain View,
- 
-\noun on
-ca
-\noun default
- 94042, 
-\noun on
-usa
-\noun default
-.
+)
 \end_layout
 
 \begin_layout Standard
@@ -960,6 +934,22 @@ Linux Biolinum
 Latin Modern Mono
 \family default
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
