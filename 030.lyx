@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -70,13 +70,13 @@ initials
 \font_roman EB Garamond
 \font_sans Gill Sans Std
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc true
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -87,15 +87,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -486,7 +495,7 @@ width "80text%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -775,7 +784,7 @@ Il generale Potter camminò (non marciò) verso il luogo in cui le sue forze
 \begin_inset Quotes fld
 \end_inset
 
-Tutti gli stormi a rapporto
+Tutte le unità riferiscano
 \begin_inset Quotes frd
 \end_inset
 
@@ -788,7 +797,7 @@ Tutti gli stormi a rapporto
 \begin_inset Quotes fld
 \end_inset
 
-Capo rosso a rapporto
+Capo rosso, sono pronto
 \begin_inset Quotes frd
 \end_inset
 
@@ -799,7 +808,7 @@ Capo rosso a rapporto
 \begin_inset Quotes fld
 \end_inset
 
-Rosso cinque a rapporto
+Rosso cinque, sono pronto
 \begin_inset Quotes frd
 \end_inset
 
@@ -810,7 +819,7 @@ Rosso cinque a rapporto
 \begin_inset Quotes fld
 \end_inset
 
-Capo verde a rapporto
+Capo verde, sono pronto
 \begin_inset Quotes frd
 \end_inset
 
@@ -821,7 +830,7 @@ Capo verde a rapporto
 \begin_inset Quotes fld
 \end_inset
 
-Verde quarantuno a rapporto
+Verde quarantuno, sono pronto
 \begin_inset Quotes frd
 \end_inset
 
@@ -1007,7 +1016,7 @@ Draco aveva deciso di non pretendere il saluto finché non avessero vinto
 \end_layout
 
 \begin_layout Standard
-Ma i suoi soldati erano già sufficientemente dritti, specie i Grifondoro,
+Ma i suoi soldati erano già sufficientemente impettiti, specie i Grifondoro,
  e Draco si chiedeva se avesse davvero bisogno di aspettare.
  Gregory aveva ascoltato in silenzio, e riferito che l'offerta di Draco
  di affiancare Harry Potter durante la lezione di Difesa, quella volta che
@@ -1137,7 +1146,7 @@ Mie truppe, non vi mentirò, la nostra situazione oggi è davvero fosca.
  una lampadina.
  Beh, credetemi, è una cosa brutta.
  Ma se dobbiamo cadere, cadiamo combattendo, come eroi, in modo che mentre
- l'oscurità avanzerà, potremmo pensare tra noi, 
+ l'oscurità avanza, potremo pensare tra noi, 
 \emph on
 almeno ci siamo divertiti
 \emph default
@@ -1385,7 +1394,7 @@ Una forza numerosa che concentrasse il fuoco su di una forza meno numerosa
  in grado di portare con sé.
  
 \emph on
-Sconfitte separatamente
+Sconfitta in dettaglio
 \emph default
  era il termine militare per ciò che avveniva quando si dividevano le proprie
  forze in quel mondo.
@@ -1546,7 +1555,7 @@ nessuno
 \emph on
 le altre
 \emph default
- persone non erano così, non che Neville avesse mai notato.
+ persone non erano così, almeno per quanto Neville avesse mai notato.
 \end_layout
 
 \begin_layout Standard
@@ -1727,8 +1736,9 @@ Harry fissò i corpi sparsi per la foresta.
  Qualcosa dentro di lui era un po' nauseata, e dovette ricordare a sé stesso
  che stavano solo dormendo.
  C'erano delle ragazze tra i caduti, e questo lo rendeva in qualche modo
- peggiore, e doveva stare attento a non menzionarlo mai di fronte a Hermione
- o gli Auror avrebbero ritrovato i suoi resti infilati in una 
+ peggiore, e avrebbe dovuto stare attento a non menzionarlo mai di fronte
+ a Hermione o gli Auror avrebbero ritrovato i suoi resti infilati in una
+ 
 \emph on
 piccola
 \emph default
@@ -1930,7 +1940,7 @@ Disciplina contro Caos.
 \end_layout
 
 \begin_layout Standard
-Non sarebbe dovuto essere un combattimento troppo impegnativo.
+Non avrebbe dovuto essere un combattimento troppo impegnativo.
 \end_layout
 
 \begin_layout Quote
@@ -2123,8 +2133,8 @@ Sangue per il dio del sangue!
 
 
 \emph on
-Teschi per il trono di teschi! Iä! Shub-Niggurath! Il cancello del nemico
- è di lato!
+Teschi per il trono di teschi! Iä! Shub-Niggurath! La porta del nemico è
+ di lato!
 \emph default
 
 \begin_inset Quotes frd
@@ -2749,7 +2759,7 @@ status open
 
 \begin_layout Standard
 Quando gli occhi di Harry si aprirono nuovamente, si trovò a riposare in
- una posizione confortabile con le mani piegate sul petto, reggendo la sua
+ una posizione confortevole con le mani piegate sul petto, reggendo la sua
  bacchetta come un eroe caduto.
 \end_layout
 
@@ -2786,8 +2796,8 @@ Quattro dei suoi soldati reggevano le loro bacchette in direzione di una
 Harry sospettava che avrebbe ricevuto una ramanzina da qualcuno sul non
  consumare la propria magia fino al punto di perdere i sensi per un gioco
  di bambini.
- Ma non aveva ferito il signor Goyle quando aveva perso la sua tempera,
- e quella era la cosa importante.
+ Ma non aveva ferito il signor Goyle quando aveva perso la calma, e quella
+ era la cosa importante.
 \end_layout
 
 \begin_layout Standard
@@ -2857,7 +2867,7 @@ Uhm…
 \end_inset
 
 Ho lanciato un Incantesimo soporifero contro lo scudo ed è rimbalzato e
- ha colpito Lavender, voglio dire l'angolo non sarebbe dovuto essere quello
+ ha colpito Lavender, voglio dire l'angolo non avrebbe dovuto essere quello
  giusto ma l'ha fatto comunque…
 \begin_inset Quotes frd
 \end_inset
@@ -3238,7 +3248,7 @@ Sì
 \begin_inset Quotes fld
 \end_inset
 
-mi dispiace
+mi dispiacerebbe
 \begin_inset Quotes frd
 \end_inset
 

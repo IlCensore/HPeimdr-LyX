@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -59,13 +59,13 @@ initials
 \font_roman Linux Biolinum O
 \font_sans Warnock Pro
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -76,15 +76,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -169,8 +178,8 @@ Er capo nun è de bon'umore, oggi, sta' 'n campana
 
 \begin_layout Standard
 Draco avrebbe spellato vivo quell'idiota e mandato indietro il suo corpo
- scuoiato con una richiesta di un servo più intelligente, ad esempio un
- gerbillo morto.
+ scuoiato insieme alla domanda per un servo più intelligente, ad esempio
+ un gerbillo morto.
 \end_layout
 
 \begin_layout Standard
@@ -323,9 +332,9 @@ Harry Potter sorrise leggermente.
 \begin_inset Quotes fld
 \end_inset
 
-Mi sono scusato profusamente, cosa che ha reso il professor Flitwick estremament
-e severo, e poi ho detto al professor Flitwick che l'intera faccenda era,
- in effetti, estremamente seria, segreta e 
+Mi sono scusato profusamente, cosa che ha reso lo sguardo del professor
+ Flitwick estremamente severo, e poi ho detto al professor Flitwick che
+ l'intera faccenda era, in effetti, estremamente seria, segreta e 
 \emph on
 delicata
 \emph default
@@ -398,8 +407,8 @@ costoso
 \end_layout
 
 \begin_layout Standard
-Sebbene, poiché Draco non sarebbe potuto diventare un Mangiamorte ora, non
- era così prezioso come suo Padre pensava.
+Sebbene, poiché egli ora non avrebbe più potuto diventare un Mangiamorte,
+ Draco non fosse poi così prezioso come suo Padre pensava.
 \end_layout
 
 \begin_layout Standard
@@ -911,9 +920,9 @@ reale
 
 \begin_layout Standard
 A Draco venne il pensiero che Harry Potter potesse essere stato cresciuto
- in un posto così strano che ora fosse essenzialmente una creatura magica,
+ in un posto così strano da averlo reso essenzialmente una creatura magica,
  più che un mago.
- Draco semplicemente non poteva indovinare cosa Harry avrebbe detto o fatto
+ Draco non riusciva davvero a immaginare cosa Harry avrebbe detto o fatto
  ora.
 \end_layout
 
@@ -1064,7 +1073,7 @@ Draco non dovette fingere di essere senza parole.
 Una volta suo Padre l'aveva portato a vedere un'opera teatrale intitolata
  
 \emph on
-La Tragedia della Luce
+La Tragedia di Luce
 \emph default
 , a proposito di questo Serpeverde 
 \emph on
@@ -1121,7 +1130,7 @@ status open
 Una volta suo Padre l'aveva portato a vedere un'opera teatrale intitolata
  
 \emph on
-La Tragedia della Luce
+La Tragedia di Luce
 \emph default
 , a proposito di questo Serpeverde 
 \emph on
