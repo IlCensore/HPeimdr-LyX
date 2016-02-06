@@ -202,7 +202,7 @@ initials
 \language italian
 \language_package default
 \inputencoding auto
-\fontencoding 
+\fontencoding
 \font_roman Arno Pro
 \font_sans Linux Biolinum O
 \font_typewriter Latin Modern Mono
@@ -220,7 +220,7 @@ initials
 \index_command default
 \float_placement bp
 \paperfontsize 10
-\spacing other 1.3
+\spacing other 1.15
 \use_hyperref false
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
@@ -263,10 +263,10 @@ initials
 \end_index
 \paperwidth 13.97cm
 \paperheight 21.59cm
-\leftmargin 1in
-\topmargin 0.8in
-\rightmargin 1in
-\bottommargin 1in
+\leftmargin 2.886cm
+\topmargin 2.328cm
+\rightmargin 2.886cm
+\bottommargin 2.328cm
 \secnumdepth 3
 \tocdepth 0
 \paragraph_separation indent
@@ -306,7 +306,7 @@ frontmatter
 
 
 \backslash
-newgeometry{left=1.69cm,bottom=2.493cm}
+newgeometry{top=0.5in,left=0.5in,right=0.5in,bottom=1.0in}
 \end_layout
 
 \end_inset
@@ -354,7 +354,7 @@ Harry Potter e i metodi della razionalità
 \align center
 
 \emph on
-Volume 
+Volume
 \noun on
 i
 \emph default
@@ -385,7 +385,7 @@ Harry James Potter-Evans-Verres e i Metodi della razionalità
 \align center
 
 \emph on
-Volume 
+Volume
 \noun on
 ii
 \noun default
@@ -416,7 +416,7 @@ Harry James Potter-Evans-Verres e la Legione del Chaos
 \align center
 
 \emph on
-Volume 
+Volume
 \noun on
 iii
 \noun default
@@ -447,7 +447,7 @@ Harry James Potter-Evans-Verres e le Ombre della Morte
 \align center
 
 \emph on
-Volume 
+Volume
 \noun on
 iv
 \noun default
@@ -478,7 +478,7 @@ Hermione Jean Granger e il Richiamo della Fenice
 \align center
 
 \emph on
-Volume 
+Volume
 \noun on
 v
 \noun default
@@ -509,7 +509,7 @@ Harry James Potter-Evans-Verres e il Nemico finale
 \align center
 
 \emph on
-Volume 
+Volume
 \noun on
 vi
 \noun default
@@ -643,7 +643,7 @@ par
 \align center
 
 \emph on
-Volume 
+Volume
 \noun on
 i
 \noun default
@@ -726,22 +726,6 @@ Cato Philosophus
 
 \noun on
 mmxv
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-restoregeometry
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -851,7 +835,7 @@ are copyright and trademark Warner Bros.
 \emph on
 Harry Potter and the Methods of Rationality
 \emph default
- 
+
 \begin_inset Newline newline
 \end_inset
 
@@ -860,7 +844,7 @@ Harry Potter and the Methods of Rationality
 
 \begin_layout Standard
 \align center
-Traduzione italiana 
+Traduzione italiana
 \begin_inset ERT
 status open
 
@@ -895,8 +879,7 @@ url{cato.philosophus@gmail.com}
 \end_inset
 
 Questa opera è stata rilasciata con licenza Creative Commons Attribuzione
- -- Condividi allo stesso modo 3.0 Italia; per leggere una copia della licenza
- visita il sito web 
+ -- Condividi allo stesso modo 3.0 Italia (
 \begin_inset ERT
 status open
 
@@ -909,16 +892,7 @@ url{creativecommons.org/licenses/by-sa/3.0/it/}
 
 \end_inset
 
- o spedisci una lettera a Creative Commons, PO Box 1866, Mountain View,
- 
-\noun on
-ca
-\noun default
- 94042, 
-\noun on
-usa
-\noun default
-.
+)
 \end_layout
 
 \begin_layout Standard
@@ -934,7 +908,7 @@ usa
 
 \begin_layout Standard
 \align center
-Libro composto con LyX & 
+Libro composto con LyX &
 \begin_inset ERT
 status open
 
@@ -951,15 +925,31 @@ LaTeX
 \begin_inset Newline newline
 \end_inset
 
- usando EB Garamond, 
+ usando Arno Pro,
 \family sans
 Linux Biolinum
 \family default
-, e 
+, e
 \family typewriter
-Inconsolata
+Latin Modern Mono
 \family default
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1017,7 +1007,7 @@ addcontentsline{toc}{chapter}{Prefazione}
 \end_layout
 
 \begin_layout Standard
-Cosa è 
+Cosa è
 \emph on
 Harry Potter e i metodi della razionalità
 \emph default
@@ -1025,11 +1015,7 @@ Harry Potter e i metodi della razionalità
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-Harry Potter e i metodi della razionalità
-\emph default
- è una 
+Innanzitutto, si tratta di una
 \begin_inset Quotes fld
 \end_inset
 
@@ -1037,38 +1023,36 @@ fanfic
 \begin_inset Quotes frd
 \end_inset
 
- di Harry Potter, ovvero un racconto ambientato nel mondo creato da J.K.
- Rowling scritto da un appassionato dell'opera, invece che dall'autrice
- originale.
- Si tratta di un universo parallelo, in cui alcuni eventi sono accaduti
+ di Harry Potter, ovvero di un racconto ambientato nel mondo creato da J.K.
+ Rowling, ma scritto da un appassionato invece che dall'autrice originale.
+ È collocato in un universo parallelo in cui alcuni eventi si sono svolti
  in maniera differente da quella canonica -- la zia di Harry ha sposato
- il professore di biochimica di Oxford Michael Verres, e i due hanno adottato
- Harry, il cui nome è quindi Harry James Potter-Evans-Verres; i genitori
- adottivi amano Harry e l'hanno aiutato a sviluppare la sua passione per
- la scienza e quella per la fantascienza.
+ un professore di biochimica di Oxford, e i due genitori adottivi di Harry
+ lo amano e l'hanno aiutato a sviluppare una forte passione per la scienza
+ e la fantascienza.
  A partire da queste variazioni, l'autore ha sviluppato un racconto coerente
- e certamente differente da quello della Rowling.
+ e certamente diverso da quello originale, ma al contempo molto affascinante
+ e avvincente.
 \end_layout
 
 \begin_layout Standard
-Non si tratta di un'opera adatta a tutti.
- Non è stata scritta per un pubblico di bambini o di adolescenti, ma di
- adulti; non si fa remore a sottolineare e smantellare le incongruenze e
- l'irrazionalità di alcune parti dell'opera della Rowling; è piena di riferiment
-i scientifici, e in generale i suoi personaggi tendono a comportarsi in
- maniera molto razionale.
- Lo stesso autore ha suggerito di leggere almeno i primi cinque capitoli,
- per capire di cosa si tratta, e di abbandonare la lettura se dopo il decimo
- capitolo l'opera dovesse continuare a non piacere.
+Non si tratta di un'opera adatta a tutti: è pensata per lettori adulti;
+ non si fa remore a sottolineare e smantellare le incongruenze dell'opera
+ della Rowling; è piena di riferimenti scientifici; e, caratteristica fondamenta
+le, in generale i suoi personaggi si comportano come persone reali e non
+ come stereotipi letterari.
+ Al tempo stesso, non è un normale romanzo: oltre ad avere una trama interessant
+e, è un mistero intrigante che in quanto lettore sei invitato a risolvere
+ e una successione di spunti di riflessione che non mancheranno di coinvolgerti.
 \end_layout
 
 \begin_layout Standard
-Il libro che avete fra le mani, 
+Il libro che avete fra le mani,
 \emph on
 Harry James Potter-Evans-Verres e i Metodi della razionalità
 \emph default
-, è il primo volume; spero che vi piaccia abbastanza da continuare a leggere
- il resto della storia.
+, è il primo volume di quest'opera; spero che vi piaccia abbastanza da continuar
+e a leggere il resto della storia.
 \end_layout
 
 \begin_layout Standard
@@ -1309,7 +1293,7 @@ addcontentsline{toc}{chapter}{Postfazione}
 \end_layout
 
 \begin_layout Standard
-Siamo alla fine del primo volume di 
+Siamo alla fine del primo volume di
 \emph on
 Harry Potter e i metodi della razionalità
 \emph default
@@ -1318,7 +1302,7 @@ Harry Potter e i metodi della razionalità
 \end_layout
 
 \begin_layout Standard
-Il resto della traduzione italiana è disponibile sul sito 
+Il resto della traduzione italiana è disponibile sul sito
 \begin_inset ERT
 status open
 
@@ -1338,11 +1322,11 @@ url{sites.google.com/site/hpeimdr/home/}
 Questa edizione è autoprodotta e distribuita gratuitamente, se il libro
  vi è piaciuto passatelo in giro; se non vi è piaciuto, passatelo in giro
  lo stesso, magari a qualcun altro piacerà.
- Un buon sistema di distribuzione potrebbe essere quello del 
+ Un buon sistema di distribuzione potrebbe essere quello del
 \emph on
 Bookcrossing
 \emph default
-, 
+,
 \begin_inset ERT
 status open
 
@@ -1364,7 +1348,7 @@ La stampa dei volumi successivi dell'opera potrebbe essere o meno disponibile,
  accettata dagli agenti di J.K.
  Rowling a patto che non vi fosse lucro; per tanto non è possibile vendere
  i libri.
- Contattatemi all'indirizzo 
+ Contattatemi all'indirizzo
 \begin_inset ERT
 status open
 
@@ -1420,14 +1404,14 @@ status open
 \backslash
 small
 \backslash
-diamondpar{Qui termina 
+diamondpar{Qui termina
 \backslash
 textit{Harry Potter e i metodi della razionalità, Volume I}.
  Grazie a Dinosaurusgede per la divertente ed emozionante arte; a Eneasz
  Brodski e ai suoi collaboratori per la loro drammatizzazione radiofonica,
  che è stata sia divertente sia motivante (questo è il mio contributo alla
  diffusione della razionalità, non voglio che Hermione sia triste!); alla
- comunità di 
+ comunità di
 \backslash
 LaTeX e LyX, senza la quale questo lavoro sarebbe stato impossibile.
  Ultimo nell'elenco ma primo per importanza, un grazie di cuore a Eliezer
