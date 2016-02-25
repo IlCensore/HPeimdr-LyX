@@ -10,8 +10,8 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-%  \makeevenhead{myheadings}{\footnotesize Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
-  \makeevenhead{myheadings}{Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeevenhead{myheadings}{\footnotesize Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+%  \makeevenhead{myheadings}{Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
   \makeoddhead{myheadings}{}{}{}
   \makeevenfoot{myheadings}{\thepage}{}{}
   \makeoddfoot{myheadings}{}{}{\thepage}
@@ -203,7 +203,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding 
-\font_roman Arno Pro
+\font_roman EB Garamond
 \font_sans Linux Biolinum O
 \font_typewriter Latin Modern Mono
 \font_math auto
@@ -219,7 +219,7 @@ initials
 \bibtex_command default
 \index_command default
 \float_placement bp
-\paperfontsize 10
+\paperfontsize 11
 \spacing other 1.15
 \use_hyperref false
 \pdf_bookmarks true
@@ -264,9 +264,10 @@ initials
 \paperwidth 13.97cm
 \paperheight 21.59cm
 \leftmargin 2.886cm
-\topmargin 2.328cm
+\topmargin 1.438cm
 \rightmargin 2.886cm
 \bottommargin 2.328cm
+\headsep 0.5cm
 \secnumdepth 3
 \tocdepth 0
 \paragraph_separation indent
@@ -593,6 +594,13 @@ linewidth}{!}{Harry Potter}
 
 \begin_layout Plain Layout
 
+
+\backslash
+medskip{}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -600,6 +608,13 @@ linewidth}{!}{Harry Potter}
 {
 \backslash
 Huge e i}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip{}
 \end_layout
 
 \begin_layout Plain Layout
