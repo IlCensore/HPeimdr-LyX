@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -64,13 +64,13 @@ initials
 \font_roman EB Garamond
 \font_sans Griffy
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -81,15 +81,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -275,7 +284,8 @@ Il Cavillo
 \align center
 
 \emph on
-SENSITIVA SBRONZA SVELA SEGRETI:
+\noun on
+sensitiva sbronza svela segreti:
 \begin_inset ERT
 status open
 
@@ -290,7 +300,7 @@ status open
 
 \end_inset
 
-IL SIGNORE OSCURO STA PER TORNARE,
+il signore oscuro sta per tornare,
 \end_layout
 
 \begin_layout Standard
@@ -372,7 +382,8 @@ Un quotidiano volò a mezz'aria e colpì le dita di Harry, che lo dispiegò.
 \align center
 
 \emph on
-SENSITIVA SBRONZA SVELA SEGRETI:
+\noun on
+sensitiva sbronza svela segreti:
 \begin_inset ERT
 status open
 
@@ -387,7 +398,7 @@ status open
 
 \end_inset
 
-IL SIGNORE OSCURO STA PER TORNARE,
+il signore oscuro sta per tornare,
 \begin_inset ERT
 status open
 
@@ -402,7 +413,7 @@ status open
 
 \end_inset
 
-HA SPOSATO DRACO MALFOY
+ha sposato draco malfoy
 \end_layout
 
 \begin_layout Standard
@@ -1774,7 +1785,7 @@ Voglio solo accertarmi di non corromperti
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png

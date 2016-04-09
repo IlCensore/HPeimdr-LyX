@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass memoir
@@ -60,13 +60,13 @@ initials
 \font_roman Garamond Premier Pro
 \font_sans Fredericka the Great
 \font_typewriter Inconsolata
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -77,15 +77,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -237,7 +246,7 @@ ad hominem
 perché
 \emph default
  lo dicevano i fascisti.
- Ma professor Quirrell, non può far prendere il Marchio di un dittatore
+ Ma professor Quirrell, non può far assumere il Marchio di un dittatore
  a tutte le persone di un Paese! È un singolo punto di vulnerabilità! Guardi,
  mettiamola in questo modo.
  Supponga che il nemico lanci un Imperius su chiunque controlli il Marchio
@@ -264,8 +273,9 @@ I maghi potenti non sono facili da sottomettere all'Imperius
 \begin_inset Quotes fld
 \end_inset
 
-E se non è in grado di trovare un capo degno, è spacciato in ogni caso.
- Ma capi degni esistono; la domanda è se la gente li seguirà
+E se non è in grado di trovare un condottiero degno, è spacciato in ogni
+ caso.
+ Ma condottieri degni esistono; la domanda è se la gente li seguirà
 \begin_inset Quotes frd
 \end_inset
 
@@ -376,7 +386,7 @@ ridicolo
 uno qualunque
 \emph default
  dei Ministri della Magia eletti in quel periodo avrebbe potuto prendere
- il posto di Silente! La forza scorre dai maghi potenti e dai loro seguaci,
+ il posto di Silente! La forza emana dai maghi potenti e dai loro seguaci,
  non dalle elezioni e dai folli che eleggono.
  Questa è la lezione della storia recente della Gran Bretagna magica; e
  io dubito che la prossima guerra le impartirà una lezione differente.
@@ -472,7 +482,7 @@ Non sono un amico di Albus Silente
 \begin_inset Quotes fld
 \end_inset
 
-Ma egli non è un bambino, e non è sembrato pensare che le mie preoccupazioni
+Ma lui non è un bambino, e non è sembrato pensare che le mie preoccupazioni
  fossero infantili, né che avrei dovuto aspettare prima di renderle note
 \begin_inset Quotes frd
 \end_inset
@@ -488,28 +498,14 @@ Oh, dunque ora prende le imbeccate dal Preside, giusto?
 \begin_inset Quotes frd
 \end_inset
 
- e si alzò da dietro la scrivania.
+ e si alzò in piedi dietro la scrivania.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -734,8 +730,8 @@ Capisco
 Signor Zabini, se un evento simile dovesse accadere ancora, può contattarmi
  direttamente.
  Ho i miei modi per proteggere i miei amici.
- Ora, un'ultima domanda: anche con tutto il potere che ha preso nelle sue
- mani, forzare un pareggio sarebbe stato difficile.
+ Ora, un'ultima domanda: anche con tutto il potere che ha concentrato nelle
+ sue mani, forzare un pareggio sarebbe stato difficile.
  Silente le ha dato istruzioni su chi avrebbe dovuto altrimenti vincere?
 \begin_inset Quotes frd
 \end_inset
@@ -772,7 +768,7 @@ Come pensavo
 
 Per la sua carriera futura, signor Zabini, non le suggerisco di provare
  alcuna trama così complicata.
- Hanno la tendenza a fallire
+ Tendono a fallire
 \begin_inset Quotes frd
 \end_inset
 
@@ -819,26 +815,12 @@ lui
 Blaise non attese altre parole, si voltò e corse via.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -903,9 +885,9 @@ Deve imparare a sfocare la sua visione fino a vedere la foresta oscurata
  è terminata in un pareggio perfetto.
  Questo genere di cose accade solo nelle storie, signor Potter, e c'è solo
  una persona in questa scuola che pensa in termini di storie.
- C'era un piano strano e complicato, che lei avrebbe dovuto comprendere
- essere insolito per il giovane Serpeverde che ha affrontato.
- Ma c'è una persona in questa scuola che gestisce piani così complicati,
+ C'era un piano strano e complicato, che lei avrebbe dovuto capire essere
+ insolito per il giovane Serpeverde che ha affrontato.
+ Ma c'è una persona in questa scuola che ordisce trame così complicate,
  e il suo nome non è Zabini.
  Vi ho avvertiti che c'era un agente quadruplo; lei sapeva che Zabini era
  almeno un agente triplo, e avrebbe dovuto intuire che c'erano forti probabilità
@@ -919,7 +901,7 @@ Deve imparare a sfocare la sua visione fino a vedere la foresta oscurata
 \end_layout
 
 \begin_layout Standard
-A Harry non importava nulla degli esami, ora.
+A Harry non importava nulla delle prove, ormai.
  
 \begin_inset Quotes fld
 \end_inset
@@ -951,7 +933,7 @@ La risata del professor Quirrell fu mesta.
 
 Forse il Preside pensava che la rivalità fosse buona per il suo eroe prediletto
  e sperava di vederla continuare.
- Per il bene superiore, capisca.
+ Per il bene superiore, lei comprende.
  O forse semplicemente era folle.
  Vede, signor Potter, tutti sanno che la follia di Silente è una maschera,
  che è un sano di mente che pretende di essere folle.
@@ -997,7 +979,7 @@ Cappello e mantello
  mentre Harry rimase ancora lì a bocca aperta.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1073,7 +1055,7 @@ stessero lontani dal pericolo
  più o meno un piccolo numero di compagni.
  Se il prossimo conflitto col Signore Oscuro fosse giunto fino al punto
  di una Seconda guerra dei Maghi che uccidesse tante persone e coinvolgesse
- l'intero Paese, questo avrebbe significato che Harry 
+ l'intero Paese, ciò avrebbe voluto dire che Harry 
 \emph on
 aveva già fallito
 \emph default
