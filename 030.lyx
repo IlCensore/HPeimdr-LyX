@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{29}
@@ -67,16 +69,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Gill Sans Std
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Gill Sans Std"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc true
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -284,6 +286,11 @@ width "80text%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
@@ -382,6 +389,11 @@ width "80text%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
@@ -495,14 +507,19 @@ width "80text%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size footnotesize
-Harry aveva calorosamente suggerito a Hermione [\SpecialChar \ldots{}
+Harry aveva calorosamente suggerito a Hermione [\SpecialChar ldots
 ] che avrebbe dovuto scegliere
- qualcosa di spaventoso [\SpecialChar \ldots{}
+ qualcosa di spaventoso [\SpecialChar ldots
 ], come 
 \emph on
 Blood Commandos
@@ -601,11 +618,11 @@ scoppiasse
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- e quello era stato più che sufficiente.
+– e quello era stato più che sufficiente.
 \end_layout
 
 \begin_layout Standard
@@ -932,6 +949,10 @@ avessero
 \begin_layout Standard
 Ma il generale Granger era quella imprevedibile, e Harry non poteva muoversi
  prima di sapere come si sarebbe mossa lei.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1096,6 +1117,10 @@ Ricordate tutto ciò che io e il signor Crabbe e il signor Goyle vi abbiamo
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1187,6 +1212,10 @@ almeno ci siamo divertiti
  Grazie, grazie a tutti voi.
  E ricordate, il nostro obiettivo non è solo abbattere il nemico, è terrorizzarl
 o.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1220,6 +1249,10 @@ Un gigantesco gong rimbombante echeggiò per la foresta.
 
 \begin_layout Standard
 E il Sunshine Regiment iniziò a marciare.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1255,7 +1288,7 @@ La tensione crebbe e crebbe, mentre Harry e gli altri diciannove soldati
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1288,7 +1321,7 @@ si alla massima velocità sotto la copertura della foresta; e appena Harry
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1322,7 +1355,7 @@ E i Caotici uscirono lentamente dalla foresta
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1338,7 +1371,11 @@ Scopa in avvicinamento dalla direzione di Granger!
 \begin_inset Quotes fld
 \end_inset
 
-Credo che sia Capo verde, ha fatto la picchiata e il tonneau!
+Credo che sia Capo verde, ha fatto la picchiata e il 
+\emph on
+tonneau
+\emph default
+!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1380,7 +1417,7 @@ Ha diviso le sue forze, cosa diavolo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1438,6 +1475,10 @@ Attenderemo fino al rapporto dello Stormo rosso, e poi andremo a oscurare
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1488,6 +1529,10 @@ Poi Draco comprese.
 \begin_layout Standard
 Una delle due forze dei Raggi di sole avrebbe cambiato direzione, ed entrambe
  avrebbero effettuato una manovra convergente su… chi?
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1826,6 +1871,10 @@ Che una cosa sia chiara a tutti, questo non è stato un vero combattimento.
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1954,6 +2003,10 @@ Disciplina contro Caos.
 
 \begin_layout Standard
 Non sarebbe dovuto essere un combattimento troppo impegnativo.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2020,7 +2073,7 @@ e possibile.
 La prima cosa che il generale Potter aveva fatto, durante la loro sessione
  di addestramento, era stato far fare loro fuoco mentre entrambi i contendenti
  stavano correndo velocemente, o entrambi stavano fermi e miravano con cura,
- o uno si stava muovendo e l'altro restava fermo -- l'incantesimo opposto
+ o uno si stava muovendo e l'altro restava fermo – l'incantesimo opposto
  della Fattura del Sonno era semplice, sebbene non fossero autorizzati a
  usarlo durante le vere battaglie.
  Il generale Potter aveva registrato attentamente tutto ciò che era accaduto,
@@ -2085,7 +2138,7 @@ Un sapore pungente riempì la bocca di Neville.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2111,7 +2164,7 @@ Carica
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
 \begin_inset Quotes frd
@@ -2168,27 +2221,27 @@ Neville vide la breve espressione di paura sul viso di Wayne Hopkins, mentre
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- Neville lasciò cadere lo Scudo Semplice e fece fuoco contro Wayne
+– Neville lasciò cadere lo Scudo Semplice e fece fuoco contro Wayne
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- mancò
+– mancò
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- le sue gambe in corsa andarono 
+– le sue gambe in corsa andarono 
 \emph on
 dritto
 \emph default
@@ -2197,11 +2250,11 @@ dritto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- senza neppure pensarci, Neville si gettò a capofitto verso il fondo della
+– senza neppure pensarci, Neville si gettò a capofitto verso il fondo della
  foresta mentre tre voci gridarono 
 \begin_inset Quotes fld
 \end_inset
@@ -2376,7 +2429,7 @@ Neville aprì gli occhi, si tirò in piedi un po' dolorante, e poi puntò la
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2448,7 +2501,7 @@ quello
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2518,7 +2571,7 @@ Somnium!
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2542,7 +2595,7 @@ Io sono Neville, l'ultimo rampollo dei Longbottom!
 
 
 \emph on
-Neville del Caos! Affrontatemi se osa--
+Neville del Caos! Affrontatemi se osa–
 \emph default
 
 \begin_inset Quotes frd
@@ -2554,6 +2607,10 @@ Neville del Caos! Affrontatemi se osa--
 \begin_layout Standard
 (Quando in seguito Neville si svegliò, gli fu riferito che il Dragon Army
  aveva preso quello come il segnale del contrattacco.)
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2672,7 +2729,7 @@ spiegarlo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2703,7 +2760,7 @@ La bacchetta di Harry si alzò, mettendo a fuoco il signor Goyle, la mente
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2712,34 +2769,38 @@ La bacchetta di Harry si alzò, mettendo a fuoco il signor Goyle, la mente
 \begin_inset Quotes fld
 \end_inset
 
-Luminos\SpecialChar \-
-luminos\SpecialChar \-
-luminos\SpecialChar \-
-luminos\SpecialChar \-
-luminos\SpecialChar \-
-luminos\SpecialChar \-
-lu\SpecialChar \-
-mi\SpecialChar \-
-nos\SpecialChar \-
-lu\SpecialChar \-
-mi\SpecialChar \-
-nos\SpecialChar \-
-lu\SpecialChar \-
-mi\SpecialChar \-
-nos\SpecialChar \-
-lu\SpecialChar \-
-mi\SpecialChar \-
-nos\SpecialChar \-
-lu\SpecialChar \-
-mi\SpecialChar \-
-nos\SpecialChar \-
-lu\SpecialChar \-
+Luminos\SpecialChar softhyphen
+luminos\SpecialChar softhyphen
+luminos\SpecialChar softhyphen
+luminos\SpecialChar softhyphen
+luminos\SpecialChar softhyphen
+luminos\SpecialChar softhyphen
+lu\SpecialChar softhyphen
+mi\SpecialChar softhyphen
+nos\SpecialChar softhyphen
+lu\SpecialChar softhyphen
+mi\SpecialChar softhyphen
+nos\SpecialChar softhyphen
+lu\SpecialChar softhyphen
+mi\SpecialChar softhyphen
+nos\SpecialChar softhyphen
+lu\SpecialChar softhyphen
+mi\SpecialChar softhyphen
+nos\SpecialChar softhyphen
+lu\SpecialChar softhyphen
+mi\SpecialChar softhyphen
+nos\SpecialChar softhyphen
+lu\SpecialChar softhyphen
 m
-i\SpecialChar \-
+i\SpecialChar softhyphen
 nos
 \emph default
---
+–
 \begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3043,7 +3104,7 @@ Protego
 \end_layout
 
 \begin_layout Standard
-Il lato positivo -- o dalla prospettiva di Harry, il lato negativo -- era
+Il lato positivo – o dalla prospettiva di Harry, il lato negativo – era
  che si trattava di un incantesimo più facile da imparare, più facile da
  lanciare, e molto più facile da mantenere per lungo tempo.
 \end_layout
@@ -3150,7 +3211,7 @@ Una coperta sottile e ripiegata uscì dalla borsa di Harry.
 
 \begin_layout Standard
 Harry si sedette vicino allo scudo luccicante, e si tirò la coperta sulla
- testa in modo che nessuno potesse vedere ciò che faceva -- eccetto Draco,
+ testa in modo che nessuno potesse vedere ciò che faceva – eccetto Draco,
  ovviamente.
 \end_layout
 
@@ -3382,7 +3443,7 @@ Ha risvegliato i suoi soldati! Perché il professor Quirrell
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -3503,6 +3564,10 @@ Bene
 
 , disse la voce del generale Granger, e una spirale di energia verde divampò
  fuori dal bosco e mandò in frantumi lo scudo di Draco.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -3601,7 +3666,7 @@ Posso fare qualunque cosa se studio abbastanza intensamente
 \begin_inset Quotes fld
 \end_inset
 
-Aah, ora questa è una str--
+Aah, ora questa è una str–
 \begin_inset Quotes frd
 \end_inset
 

@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{56}
@@ -62,16 +64,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Bulmer BT
-\font_typewriter Inconsolata
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Bulmer BT"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,15 +84,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -129,7 +140,7 @@ Stanford Prison Experiment, cognizione vincolata, parte
 vii
 \noun default
 
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -198,7 +209,7 @@ Mio Signore
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -208,11 +219,11 @@ Mio Signore
 \begin_inset Quotes fld
 \end_inset
 
-I Dissennatori -- stanno arrivando -- posso sentirli, mio Signore
+I Dissennatori – stanno arrivando – posso sentirli, mio Signore
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -271,7 +282,7 @@ Trova un modo di sconfiggere i Dissennatori che non richieda il mio Incantesimo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -320,7 +331,7 @@ La vuota attrazione sembrò risucchiarlo con più forza, mentre egli formulava
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -376,11 +387,11 @@ I Dissennatori stavano arrivando.
 \begin_inset Quotes fld
 \end_inset
 
-Mio Signore, lei -- non dovrebbe rischiare per me -- riprenda il suo Mantello
+Mio Signore, lei – non dovrebbe rischiare per me – riprenda il suo Mantello
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -429,7 +440,7 @@ Per un istante Harry prese in considerazione di sacrificare Bellatrix per
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -476,7 +487,7 @@ Gli agenti razionali non dovrebbero accettare questo specie di processo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -496,7 +507,7 @@ Persino io penso che sia un'idea stupida e sono il tuo lato Grifondoro.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Quote
@@ -562,7 +573,7 @@ uno
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -675,7 +686,7 @@ Non pensare a loro come a creature, pensa a loro come a oggetti psicosensibili,
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -707,7 +718,7 @@ indipendentemente da quanto fosse dannoso in quel caso speciale e unico
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -786,7 +797,7 @@ Un momento dopo, Harry comprese che avrebbe dovuto dire che Bellatrix era
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -803,7 +814,7 @@ aspettative
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -837,7 +848,7 @@ o lei, involontariamente
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -859,7 +870,7 @@ Io, io la amo, addio, mio Signore
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -901,7 +912,7 @@ Fermatevi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -912,13 +923,13 @@ Ma continuarono a scivolare in avanti, e Harry non poté impedirsi di temere
 non 
 \emph default
 sarebbe stato in grado di fermarli, e mentre notava sé stesso che lo pensava,
- dubitò ancor di più -- aveva bisogno di più tempo per prepararsi, avrebbe
+ dubitò ancor di più – aveva bisogno di più tempo per prepararsi, avrebbe
  davvero dovuto fare pratica controllando un solo Dissennatore in una gabbia,
  per prima cosa
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -943,7 +954,7 @@ tutti
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1069,24 +1080,24 @@ L'ho trovato!
 \emph on
 Chi?
 \emph default
- pensò Amelia, mentre si voltò per vedere Silente tornare, reggendo tra
+ pensò Amelia, mentre si voltò per vedere Dumbledore tornare, reggendo tra
  le braccia
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- l'unica vista, l'unica persona, che non si sarebbe mai aspettata di vedere
+– l'unica vista, l'unica persona, che non si sarebbe mai aspettata di vedere
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- un uomo in vesti rosse e lacere, dall'aspetto bruciacchiato come se avesse
+– un uomo in vesti rosse e lacere, dall'aspetto bruciacchiato come se avesse
  combattuto una piccola guerra, il sangue seccato su molte ferite.
  I suoi occhi erano aperti, e stava masticando una barretta di cioccolato,
  stretta nella sua unica mano vivente.
@@ -1122,13 +1133,22 @@ State in guardia!
 \begin_inset Quotes fld
 \end_inset
 
-Controllateli entrambi per il Polisucco -- esaminate Bahry in cerca di piccoli
+Controllateli entrambi per il Polisucco – esaminate Bahry in cerca di piccoli
  Animagi o di trappole
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{-->>}
+\end_layout
+
 \end_inset
 
 
@@ -1229,7 +1249,7 @@ Può essere, mio Signore, che nella sua nuova forma, lei abbia iniziato a
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1269,6 +1289,10 @@ Harry avanzò a grandi passi, senza ascoltare i rantoli che giungevano da
  a cui avesse bisogno di iniziare a pensare prima che il guaritore psichiatrico
  iniziasse a de-programmarla, era credere che il Signore Oscuro potesse
  mai ricambiare il suo amore.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1332,7 +1356,7 @@ chiunque nel loro gruppo sia capace di lanciare l'Incantesimo Patronus è
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1364,7 +1388,7 @@ noi
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1437,7 +1461,7 @@ Non mi costa nulla eccetto la possibilità di ottenere la mia vendetta
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1467,8 +1491,8 @@ e non diranno perché, né dove
 \end_layout
 
 \begin_layout Standard
-Silente si rivolse all'ardente fenice d'argento sulla propria spalla, la
- cui luce illuminava l'intero corridoio, e ricevette un silenzioso cenno
+Dumbledore si rivolse all'ardente fenice d'argento sulla propria spalla,
+ la cui luce illuminava l'intero corridoio, e ricevette un silenzioso cenno
  della testa in risposta.
  
 \begin_inset Quotes fld
@@ -1478,7 +1502,7 @@ Neppure io posso rilevarli
 \begin_inset Quotes frd
 \end_inset
 
-, disse Silente.
+, disse Dumbledore.
  Poi scrollò le spalle.
  
 \begin_inset Quotes fld
@@ -1550,7 +1574,7 @@ Non l'ha appena detto sul serio
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1582,7 +1606,7 @@ Lui può farlo impunemente
 
 è 
 \emph on
-Silente
+Dumbledore
 \emph default
 , neppure il Fato lo prende più sul serio
 \begin_inset Quotes frd
@@ -1609,6 +1633,10 @@ E questo
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1639,7 +1667,7 @@ Harry giaceva completamente immobile sulla dura panca che fungeva da letto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1655,11 +1683,11 @@ Ascoltando nel silenzio, Harry udì i rapidi passi avvicinarsi; fecero una
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- proseguirono.
+– proseguirono.
 \end_layout
 
 \begin_layout Standard
@@ -1690,7 +1718,11 @@ Ora la questione era solo se ci sarebbe stato o meno abbastanza tempo prima
 \begin_inset space ~
 \end_inset
 
---
+–
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1748,7 +1780,7 @@ Ho esaminato la cella di Bellatrix, e ho trovato una bambola della morte
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1766,11 +1798,11 @@ Furono interrotti da un urlo della fenice rosso-dorata, e tutti i suoi Auror
 \begin_inset Quotes fld
 \end_inset
 
--- in una condizione alquanto angosciante
+– in una condizione alquanto angosciante
 \begin_inset Quotes frd
 \end_inset
 
-, disse pacatamente Silente.
+, disse pacatamente Dumbledore.
  Per un momento gli occhi blu furono molto freddi sotto gli occhiali a mezzaluna.
  
 \begin_inset Quotes fld
@@ -1795,7 +1827,7 @@ Io
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1836,6 +1868,10 @@ Alcuni dei prigionieri più recenti avevano ancora rimasugli della loro magia,
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1858,8 +1894,8 @@ Lumos
 , guardò il suo orologio, e fu sconvolto dal vedere che erano passati quasi
  un'ora e trenta minuti.
  Quanto di quel tempo era trascorso da quando qualcuno aveva aperto la porta
- e poi l'aveva chiusa di nuovo -- Harry non aveva guardato in quella direzione,
- ovviamente -- quello non poteva indovinarlo.
+ e poi l'aveva chiusa di nuovo – Harry non aveva guardato in quella direzione,
+ ovviamente – quello non poteva indovinarlo.
 \end_layout
 
 \begin_layout Standard
@@ -1889,7 +1925,7 @@ Puoi parlare ora
 \begin_inset Quotes fld
 \end_inset
 
-È stato Silente a guardare su di noi.
+È stato Dumbledore a guardare su di noi.
 \begin_inset Quotes frd
 \end_inset
 
@@ -2040,11 +2076,11 @@ Ma mio Signore…
 \begin_inset Quotes fld
 \end_inset
 
-Gli Auror -- hanno i loro manici di scopa, mio Signore, e sono veloci
+Gli Auror – hanno i loro manici di scopa, mio Signore, e sono veloci
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2062,7 +2098,7 @@ Harry ascoltò, era come aveva pensato.
 
 \begin_layout Standard
 E poi Harry si alzò dal pavimento della cella, si recò all'estremità lontana
- delle celle, e toccò con la sua bacchetta la superficie dura del muro --
+ delle celle, e toccò con la sua bacchetta la superficie dura del muro –
  il muro di Azkaban, il metallo solido che li separava dall'esposizione
  diretta al pozzo dei Dissennatori.
 \end_layout
