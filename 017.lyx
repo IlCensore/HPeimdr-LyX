@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{16}
@@ -75,16 +77,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Lato
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Lato"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -508,6 +510,10 @@ Fu alquanto difficile per lui concentrarsi sul leggere il libro di testo
 
 \begin_layout Standard
 Fu così che cominciò il giovedì di Harry.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2363,6 +2369,10 @@ La voce di Harry si affievolì.
 Nella sua mano la Ricordella stava brillando di un rosso intenso, ardendo
  come un sole in miniatura che getta ombre sul terreno nella piena luce
  del giorno.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3111,6 +3121,10 @@ Esca dal mio ufficio!
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3148,12 +3162,12 @@ Dopo essere tornato dall'ufficio della professoressa McGonagall alle sale
 \end_layout
 
 \begin_layout Standard
-Sentendosi piuttosto ansioso, aveva chiesto al professor Flitwick se il
- Preside avesse detto di cosa si trattava.
+Con una certa ansia, aveva chiesto al professor Flitwick se il Preside avesse
+ detto di cosa si trattava.
 \end_layout
 
 \begin_layout Standard
-Il professor Flitwick aveva alzato le spalle in maniera impotente.
+Il professor Flitwick aveva alzato le spalle sentendosi impotente.
 \end_layout
 
 \begin_layout Standard
@@ -3206,7 +3220,7 @@ nte strano, ma non ha mai fatto alcun male a uno studente, e non credo lo
 \begin_inset Quotes fld
 \end_inset
 
-Cerchi di ricordarlo sempre e non si lascerà prendere dal panico!
+Cerchi di ricordarlo sempre e non si lasci prendere dal panico!
 \begin_inset Quotes frd
 \end_inset
 
@@ -3227,9 +3241,9 @@ Buona fortuna!
 
  squittì il professor Flitwick, si chinò verso il gargoyle e disse qualcosa
  che Harry, in qualche modo, non sentì neppure.
- (Ovviamente, la parola d'accesso non sarebbe stata un granché se l'avessi
- potuta sentire pronunciare.) E il gargoyle di pietra si mosse di lato con
- un movimento molto naturale e ordinario che Harry trovò alquanto sconvolgente,
+ (Ovviamente, la parola d'accesso non sarebbe stata un granché se fosse
+ stato possibile sentirla.) E il gargoyle di pietra si mosse di lato con
+ un movimento molto naturale e ordinario, che Harry trovò alquanto sconvolgente,
  poiché il gargoyle continuò a sembrare pietra solida e immobile per tutto
  il tempo.
 \end_layout
@@ -3257,13 +3271,13 @@ Salga!
 
 \begin_layout Standard
 Harry mise piuttosto nervosamente il piede sulla scala, e si trovò, per
- qualche ragione che il suo cervello non sembrava affatto in grado di visualizza
-re, a muoversi verso l'alto.
+ qualche ragione che il suo cervello non sembrava affatto in grado di immaginare
+, a muoversi verso l'alto.
 \end_layout
 
 \begin_layout Standard
 Il gargoyle dietro di lui tornò al proprio posto con un tonfo, le scale
- a chiocciola continuarono a ruotare e Harry continuò a essere sempre più
+ a chiocciola continuarono a ruotare e Harry continuò a salire sempre più
  in alto, e dopo un periodo piuttosto vertiginoso, Harry si trovò di fronte
  a una porta di quercia con un grifone battente in ottone.
 \end_layout
@@ -3284,9 +3298,9 @@ E Harry vide la stanza più interessante che avesse mai visto in vita sua.
 C'erano minuscoli meccanismi metallici che ronzavano o ticchettavano o cambiavan
 o lentamente forma o emettevano piccoli sbuffi di fumo.
  C'erano dozzine di fluidi misteriosi in dozzine di contenitori dalla forma
- strana, tutti gorgoglianti, ribollenti, trasudanti, mutanti colore, o formanti
- arrangiamenti interessanti che scomparivano mezzo secondo dopo che li avevi
- notati.
+ strana, tutti gorgoglianti, ribollenti, trasudanti, cangianti, o che assumevano
+ disposizioni interessanti che scomparivano mezzo secondo dopo che le avevi
+ notate.
  C'erano oggetti che sembravano orologi con molte lancette, con numeri incisi
  o in lingue irriconoscibili.
  C'era un bracciale con incastonato un cristallo lenticolare che brillava
@@ -3986,7 +4000,7 @@ Ah
 \begin_inset Quotes fld
 \end_inset
 
-Avevo ragione\SpecialChar \ldots{}
+Avevo ragione\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -4685,6 +4699,11 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
@@ -6255,6 +6274,10 @@ Harry si voltò di scatto e si precipitò verso l'uscita alla massima velocità,
 no su sé stessi, in un momento appena fu sul fondo e il gargoyle si spostò
  da parte e Harry uscì sparato fuori dalla tromba delle scale come una palla
  di cannone.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
