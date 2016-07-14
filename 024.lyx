@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{23}
@@ -56,16 +58,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Biolinum O
-\font_sans Warnock Pro
-\font_typewriter Inconsolata
+\font_roman "default" "Linux Biolinum O"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -76,15 +78,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -188,7 +199,7 @@ o stranamente sghembi, come se non fossero stati indossati nel modo giusto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -371,21 +382,21 @@ Sono stato prontamente trascinato nell'ufficio del Preside
 
 \begin_layout Standard
 Ora Draco stava tremando.
- Se Dumbledore avesse portato Harry Potter davanti al Wizengamot, volente o
- meno, e avesse fatto testimoniare sotto Veritaserum al Ragazzo-Che-È-Sopravviss
-uto che Draco l'aveva torturato\SpecialChar \ldots{}
+ Se Dumbledore avesse portato Harry Potter davanti al Wizengamot, volente
+ o meno, e avesse fatto testimoniare sotto Veritaserum al Ragazzo-Che-È-Sopravvi
+ssuto che Draco l'aveva torturato\SpecialChar ldots
  troppe persone amavano Harry Potter, suo
  Padre avrebbe potuto 
 \emph on
 perdere
 \emph default
- quel voto\SpecialChar \ldots{}
+ quel voto\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-Suo Padre sarebbe stato in grado di convincere Dumbledore a non farlo, ma sarebbe
- stato 
+Suo Padre sarebbe stato in grado di convincere Dumbledore a non farlo, ma
+ sarebbe stato 
 \emph on
 costoso
 \emph default
@@ -432,12 +443,12 @@ Dumbledore ha dedotto immediatamente che eri stato tu.
 \begin_layout Standard
 Lo scenario peggiore possibile.
  Se Dumbledore non avesse immaginato chi l'aveva fatto, avrebbe potuto non
- rischiare una Legilimanzia solo per scoprirlo\SpecialChar \ldots{}
+ rischiare una Legilimanzia solo per scoprirlo\SpecialChar ldots
  ma se Dumbledore 
 \emph on
 sapeva
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
@@ -539,7 +550,7 @@ il Preside ha detto al professor Flitwick che quella era, infatti, una questione
 \emph on
 mia
 \emph default
- idea e non qualcosa che il Preside mi avesse imposto, quindi il professor
+ idea e non qualcosa che il Preside mi aveva imposto, quindi il professor
  Flitwick si è girato e ha iniziato a fare la predica 
 \emph on
 a me
@@ -559,15 +570,15 @@ entrambi
  dicendo che non gli importava quello che stavamo architettando insieme,
  ma questo non doveva succedere più fintanto che fossi rimasto nella Casa
  Corvonero o mi avrebbe cacciato via e sarei potuto andare a Grifondoro,
- a cui tutto questo 
+ a cui apparteneva tutto questo 
 \emph on
-Silentare
+Dumbledoreggiare
 \emph default
- apparteneva
+
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -619,7 +630,7 @@ E Draco comprese la domanda che sarebbe dovuta essere ovvia, e che uccise
 \begin_inset Quotes fld
 \end_inset
 
-Perché\SpecialChar \ldots{}
+Perché\SpecialChar ldots
  non l'hai fatto?
 \begin_inset Quotes frd
 \end_inset
@@ -746,7 +757,7 @@ Ti sei risvegliato come scienziato, ora
 , aveva detto Harry, 
 \emph on
 e anche se non imparerai mai a usare il tuo potere, sarai sempre, in cerca,
- di modi, per mettere alla prova, le tue convinzioni\SpecialChar \ldots{}
+ di modi, per mettere alla prova, le tue convinzioni\SpecialChar ldots
 
 \emph default
  Quelle parole infauste, dette tra rantoli di agonia, avevano continuato
@@ -758,7 +769,7 @@ Se Harry
 \emph on
 stesse
 \emph default
- fingendo di essere l'amico pentito che aveva accidentalmente ferito qualcuno\SpecialChar \ldots{}
+ fingendo di essere l'amico pentito che aveva accidentalmente ferito qualcuno\SpecialChar ldots
 
 \end_layout
 
@@ -813,7 +824,7 @@ Stupido
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -842,7 +853,7 @@ piano
  era che ti insegnassi perché per te è sempre meglio conoscere la verità,
  e poi avremmo tentato insieme di scoprire la verità a proposito del sangue,
  e qualunque fosse stata la risposta l'avremmo accettata.
- Ieri\SpecialChar \ldots{}
+ Ieri\SpecialChar ldots
  ho precipitato gli eventi
 \begin_inset Quotes frd
 \end_inset
@@ -891,7 +902,7 @@ giusto, è quello che Lucius
 \emph on
 dovrebbe
 \emph default
- fare -- affrontare il problema dalla 
+ fare – affrontare il problema dalla 
 \emph on
 sua
 \emph default
@@ -962,8 +973,8 @@ Beh
 \begin_inset Quotes fld
 \end_inset
 
-sei l'erede di Lucius, e che tu ci creda o meno, Dumbledore crede che io appartenga
- a lui.
+sei l'erede di Lucius, e che tu ci creda o meno, Dumbledore crede che io
+ appartenga a lui.
  Quindi potremmo crescere e combattere le loro battaglie l'uno contro l'altro.
  O potremmo fare qualcos'altro
 \begin_inset Quotes frd
@@ -993,7 +1004,7 @@ dovuto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1017,7 +1028,7 @@ no!
 \begin_inset Quotes fld
 \end_inset
 
-No\SpecialChar \ldots{}
+No\SpecialChar ldots
 ?
 \begin_inset Quotes frd
 \end_inset
@@ -1044,12 +1055,12 @@ nostro
 \emph default
  mondo, non vogliamo distruggerlo.
  Ma immagina, diciamo, che Lucius pensi che la Cospirazione sia un tuo strumento
- e che tu sia dalla sua parte, Dumbledore pensi che la Cospirazione sia un
- mio strumento e che io sia dalla sua parte, Lucius pensi che tu abbia convinto
- con l'inganno me e Dumbledore a credere che la Cospirazione sia mia, Dumbledore
- pensi che io abbia convinto con l'inganno te e Lucius a credere che la
- Cospirazione sia tua, e così entrambi ci aiutino ma solo in modi tali che
- l'altro non se ne accorga
+ e che tu sia dalla sua parte, Dumbledore pensi che la Cospirazione sia
+ un mio strumento e che io sia dalla sua parte, Lucius pensi che tu abbia
+ convinto con l'inganno me e Dumbledore a credere che la Cospirazione sia
+ mia, Dumbledore pensi che io abbia convinto con l'inganno te e Lucius a
+ credere che la Cospirazione sia tua, e così entrambi ci aiutino ma solo
+ in modi tali che l'altro non se ne accorga
 \begin_inset Quotes frd
 \end_inset
 
@@ -1113,6 +1124,11 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
@@ -1127,7 +1143,7 @@ La Tragedia della Luce
 \emph on
 incredibilmente
 \emph default
- intelligente chiamato Luce\SpecialChar \ldots{}
+ intelligente chiamato Luce\SpecialChar ldots
 
 \end_layout
 
@@ -1238,7 +1254,7 @@ che ne pensi del piano?
 \begin_inset Quotes fld
 \end_inset
 
-È scaltro\SpecialChar \ldots{}
+È scaltro\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -1338,7 +1354,7 @@ poteva
 \emph on
 funzionare
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
@@ -1398,7 +1414,7 @@ Ma ti prego di comprendere, Draco, che in fin dei conti volevo solo che
 
 \begin_layout Standard
 Un incrocio con due vie, ma solo una facile da ripercorrere all'indietro
- in seguito, se Draco avesse cambiato idea\SpecialChar \ldots{}
+ in seguito, se Draco avesse cambiato idea\SpecialChar ldots
 
 \end_layout
 
@@ -1505,7 +1521,7 @@ Meglio che non vada come l'ultima volta
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1588,7 +1604,7 @@ Acquistare quella borsa per Granger ha quasi esaurito l'oro che sono riuscito
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1603,13 +1619,13 @@ Che cosa.
 \begin_inset Quotes fld
 \end_inset
 
--- e McGonagall ha la chiave del deposito, o forse ora ce l'ha Dumbledore.
+– e McGonagall ha la chiave del deposito, o forse ora ce l'ha Dumbledore.
  E stavo per dare inizio a un piano che potrebbe necessitare di una certa
  somma, così mi stavo chiedendo se sapessi come posso accedere
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1637,7 +1653,7 @@ Draco, non sei tenuto a
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1663,7 +1679,7 @@ Harry indicò l'ammontare e Draco non riuscì a impedire del tutto allo sconcert
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1696,7 +1712,7 @@ Mi dispiace, non avrei dovuto chiederti
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1801,6 +1817,10 @@ puoi
 \begin_layout Standard
 Draco si rivolse alcune parole molto brutte, ma era troppo tardi per dire
  di no.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2084,7 +2104,7 @@ La roba con le persone
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2113,7 +2133,7 @@ Invece, Harry sarebbe sopravvissuto, in modo che Draco potesse dirgli che
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2165,7 +2185,7 @@ La vendetta perfetta.
 \end_layout
 
 \begin_layout Standard
-A meno che\SpecialChar \ldots{}
+A meno che\SpecialChar ldots
 
 \end_layout
 
@@ -2193,7 +2213,7 @@ Draco non aveva le parole per descrivere con esattezza cosa ci fosse di
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2215,11 +2235,11 @@ Profondità di ricorsione
 \end_layout
 
 \begin_layout Standard
--- ma poteva immaginare che genere di piani implicasse.
+– ma poteva immaginare che genere di piani implicasse.
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  a meno che tutto quello fosse esattamente ciò che Harry 
 \emph on
 voleva
@@ -2245,7 +2265,7 @@ eccetto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2268,6 +2288,10 @@ così
  Quel genere di cose non accadevano nella vita reale, solo nelle sciocche
  storie della buonanotte di suo Padre, in cui folli gargoyle finivano sempre
  per aiutare i piani dell'eroe ogni volta che cercavano di fermarlo.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2393,12 +2417,12 @@ o l'anziano alfa, Yeroen, con l'aiuto di un giovane scimpanzé recentemente
  in suo aiuto, distraendoli ogni volta che si fosse sviluppato un conflitto
  tra Luit e Yeroen.
  E col tempo Luit aveva vinto, ed era diventato il nuovo alfa, con Nikkie
- a ricoprire il ruolo di secondo più potente\SpecialChar \ldots{}
+ a ricoprire il ruolo di secondo più potente\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  sebbene non ci fosse voluto molto tempo a Nikkie per formare un'alleanza
  con lo sconfitto Yeroen, rovesciare Luit, e diventare il 
 \emph on
@@ -2413,12 +2437,16 @@ Ti faceva davvero apprezzare a che cosa milioni di anni di ominidi che avevano
 \emph on
  l'un l'altro 
 \emph default
-in astuzia -- una corsa agli armamenti evolutiva senza limiti -- avevano
- portato lungo la strada verso una capacità mentale accresciuta.
+in astuzia – una corsa agli armamenti evolutiva senza limiti – avevano portato
+ lungo la strada verso una capacità mentale accresciuta.
 \end_layout
 
 \begin_layout Standard
 Perché, sai, un essere umano l'avrebbe chiaramente capito in anticipo.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2472,7 +2500,7 @@ Quindi Draco avrebbe imparato tutti i metodi della razionalità di Harry,
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \end_body
