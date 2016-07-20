@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -55,16 +57,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Gentium Plus
-\font_typewriter Ubuntu Mono
-\font_math auto
+\font_roman "default" "Crimson"
+\font_sans "default" "Gentium Plus"
+\font_typewriter "default" "Ubuntu Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -170,7 +172,7 @@ differente
 Si trattava, per cominciare, della più grande aula che avesse visto a Hogwarts,
  analoga all'aula di un'università di prestigio, con livelli sovrapposti
  di banchi che fronteggiavano un gigantesco palco piatto di marmo bianco.
- L'aula era situata in alto nel castello -- al quinto piano -- e Harry sapeva
+ L'aula era situata in alto nel castello – al quinto piano – e Harry sapeva
  che quella era tutta la spiegazione che avrebbe ricevuto su come un'aula
  di quelle dimensioni potesse trovarvi posto.
  Stava diventando chiaro che Hogwarts semplicemente 
@@ -192,7 +194,7 @@ o appoggiato sopra.
 Al centro della gigantesca piattaforma, su di una piccola pedana di marmo
  scuro, c'era la solitaria scrivania dell'insegnante.
  Alla quale era seduto Quirrell, accasciato sulla sedia, la testa che ciondolava
- all'indietro, sbavando leggermente sopra le vesti.
+ all'indietro, sbavandosi leggermente le vesti.
 \end_layout
 
 \begin_layout Standard
@@ -206,20 +208,20 @@ Harry era arrivato a quella lezione così presto che nessun altro studente
  era ancora lì.
  (Il vocabolario era imperfetto quando si trattava di descrivere il viaggio
  nel tempo; in particolare, mancava di qualsiasi parola capace di esprimere
- quanto fosse comodo.) Quirrell non sembrava essere… funzionale… in quel
+ quanto fosse comodo.) Quirrell non sembrava essere… funzionante… in quel
  momento, e Harry non aveva particolarmente voglia di avvicinarglisi, comunque.
 \end_layout
 
 \begin_layout Standard
-Scelse un posto, s'inerpicò fino ad esso, si sedette, e recuperò il libro
- di testo di Difesa.
- Era arrivato a circa sette ottavi -- aveva avuto intenzione di finirlo
- prima di quella lezione, in realtà, ma stava rimanendo indietro col programma
+Scelse un posto, s'inerpicò fino ad esso, si sedette, e prese il libro di
+ testo di Difesa.
+ Era arrivato a circa sette ottavi – aveva avuto intenzione di finirlo prima
+ di quella lezione, in realtà, ma stava rimanendo indietro col programma
  e aveva già usato il Giratempo due volte, quel giorno.
 \end_layout
 
 \begin_layout Standard
-Presto vi furono dei suoni, mentre la classe cominciò a riempirsi.
+Presto iniziarono a udirsi dei suoni, mentre la classe cominciò a riempirsi.
  Harry li ignorò.
 \end_layout
 
@@ -301,7 +303,7 @@ Ho paura, Potter, che il primo passo sia quello di essere Smistati in Serpeverde
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \begin_inset Branch Figure
 status collapsed
 
@@ -336,6 +338,11 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
@@ -365,7 +372,7 @@ Ho paura, Potter, che il primo passo sia quello di essere Smistati in Serpeverde
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \end_inset
@@ -388,7 +395,7 @@ Ho paura, Potter, che il primo passo sia quello di essere Smistati in Serpeverde
 \end_layout
 
 \begin_layout Standard
-«-- e poi che le vostre famiglie abbiano stretto un accordo da ben prima
+«– e poi che le vostre famiglie abbiano stretto un accordo da ben prima
  che nasceste.»
 \end_layout
 
@@ -434,7 +441,7 @@ Questo cancellò il ghigno dal volto di Draco.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -450,7 +457,7 @@ anni
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -458,7 +465,7 @@ Draco fece una smorfia.
 \end_layout
 
 \begin_layout Standard
-«-- e cosa peggiore, 
+«– e cosa peggiore, 
 \emph on
 loro
 \emph default
@@ -552,8 +559,8 @@ Draco rimase a bocca aperta.
 
 \begin_layout Standard
 «Oh, non me lo sognerei neppure», disse Harry tranquillamente.
- «È solo una cosa da tenere a mente se il vostro datore di lavoro attuale
- sembrasse ingrato.
+ «È solo una cosa da ricordare nel caso in cui il vostro datore di lavoro
+ attuale vi sembrasse ingrato.
  Inoltre, non fa mai male avere altre offerte, mentre si stanno negoziando
  le proprie condizioni di lavoro, giusto?»
 \end_layout
@@ -672,7 +679,7 @@ Draco emise un suono beffardo.
 \end_layout
 
 \begin_layout Standard
-«Questo… mi suona abbastanza corretto», disse Harry.
+«Questo… mi pare abbastanza corretto», disse Harry.
  «Penso fosse qualcosa di più simile a `è questa una specie di piano incredibilm
 ente intelligente che ti garantirà un vantaggio futuro o è davvero una disgrazia
  per la memoria di Salazar Serpeverde come sembra' o qualcosa del genere.
@@ -790,13 +797,17 @@ Oh, sarà molto divertente destreggiarsi tra tutto ciò, già lo sento.
 L'aula si stava riempiendo rapidamente di tutti e quattro i colori delle
  rifiniture: verde, rosso, giallo e blu.
  Draco e i suoi due amici sembravano impegnati a cercare di ottenere tre
- posti contigui in prima fila -- già occupati, ovviamente.
+ posti contigui in prima fila – già occupati, ovviamente.
  Il signor Crabbe e il signor Goyle si erano fatti vigorosamente minacciosi,
  ma non sembrò che facesse molto effetto.
 \end_layout
 
 \begin_layout Standard
 Harry si chinò sul suo libro di testo di Difesa e continuò a leggere.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -820,7 +831,7 @@ Alle 14:35, quando la maggior parte dei posti era occupata e nessun altro
 \begin_layout Standard
 Harry fu colto di sorpresa, sia dall'improvvisa apparizione del volto del
  professor Quirrell sia dalla somiglianza con la televisione babbana.
- C'era qualcosa di nostalgico e di triste in quello, sembrava tanto un pezzo
+ C'era qualcosa di nostalgico e di triste in quello, sembrava tanto un frammento
  di casa eppure non lo era veramente…
 \end_layout
 
@@ -857,7 +868,7 @@ Il professor Quirrell sorrideva blandamente.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -866,7 +877,7 @@ Qualcuno emise un suono soffocato.
 \end_layout
 
 \begin_layout Standard
-«-- potrebbero aver avuto l'impressione che, anche se questo corso è chiamato
+«– potrebbero aver avuto l'impressione che, anche se questo corso è chiamato
  Difesa Contro le Arti Oscure, in realtà riguardi la difesa dalle Farfalle
  Incubo, che causano sogni moderatamente brutti, o dalle Lumache Acide,
  che possono dissolvere completamente una trave di legno di due pollici,
@@ -877,7 +888,7 @@ Qualcuno emise un suono soffocato.
 Il professor Quirrell si alzò, spingendo indietro la sedia dalla scrivania.
  Lo schermo sul banco di Harry seguiva ogni sua mossa.
  Il professor Quirrell avanzò a grandi passi verso la parte anteriore della
- classe, e urlò: 
+ classe, e gridò: 
 \end_layout
 
 \begin_layout Standard
@@ -897,11 +908,11 @@ Vi furono sussulti da parte degli studenti.
  suo olfatto è così acuto che può dire da lontano se la sua preda è parte
  di un branco, o sola e vulnerabile! Cosa più temibile di tutte, il Troll
  è l'unica tra le creature magiche che sostiene continuamente una sorta
- di Trasfigurazione su sé stessa -- si sta sempre trasformando nel proprio
+ di Trasfigurazione su sé stessa – si sta sempre trasformando nel proprio
  corpo.
  Se riuscite in qualche modo a strappare il suo braccio ne farà crescere
  un altro in pochi secondi! Fuoco e acido producono un tessuto cicatriziale
- che può confondere temporaneamente i poteri rigenerativi di un Troll --
+ che può confondere temporaneamente i poteri rigenerativi di un Troll –
  per un'ora o due! Sono abbastanza intelligenti da usare i bastoni come
  strumenti! Il Troll di montagna è la terza macchina per uccidere più perfetta
  di tutta la Natura! Una sola Maledizione Mortale lo abbatterà.»
@@ -919,9 +930,9 @@ Il professor Quirrell sorrideva piuttosto cupamente.
  Questo, miei giovani apprendisti, è il tipo di conoscenza inutile che non
  troverete mai nelle mie lezioni.
  Non si incontrano Troll di montagna in pieno giorno! L'idea di utilizzare
- la luce solare per fermarli è dovuta a sciocchi autori di libri di testo
- che cercano di far mostra della loro padronanza delle minuzie a scapito
- della praticità.
+ la luce solare per fermarli è dovuta a degli sciocchi autori di libri di
+ testo che cercano di far mostra della propria padronanza delle minuzie
+ a scapito della praticità.
  Solo perché c'è un modo ridicolmente oscuro di affrontare i Troll di montagna
  non significa che dovreste effettivamente provare a usarlo! La Maledizione
  Mortale non è bloccabile, è inarrestabile e funziona ogni singola volta
@@ -951,7 +962,7 @@ Le labbra del professor Quirrell erano fissate in una linea sottile.
 \begin_inset Quotes fld
 \end_inset
 
-Vi insegnerò a malincuore abbastanza banalità per ottenere un voto sufficiente
+Vi insegnerò a malincuore abbastanza banalità da ottenere un voto sufficiente
  ai vostri esami del primo anno sulle parti imposte dal Ministero.
  Dal momento che l'esatto voto su queste sezioni non farà alcuna differenza
  per la vostra vita futura, chiunque voglia un voto superiore alla sufficienza
@@ -985,7 +996,7 @@ ata da Grifondoro, e di più da Serpeverde, ma la maggior parte degli studenti
 \begin_layout Standard
 Il professor Quirrell fece il gesto di troncare, e l'applauso morì istantaneamen
 te.
- «Molte grazie», disse il professor Quirrell.
+ «Molte grazie», riprese.
  «Ora gli avvisi pratici.
  Ho combinato tutti i miei corsi di Magia da Battaglia del primo anno in
  uno solo, cosa che mi permette di offrirvi il doppio del tempo in classe
@@ -993,7 +1004,7 @@ te.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1001,7 +1012,7 @@ Si udirono dei rantoli di orrore.
 \end_layout
 
 \begin_layout Standard
-«-- un aumento del carico per il quale vi compenserò non assegnandovi alcun
+«– un aumento di carico per il quale vi compenserò non assegnandovi alcun
  compito a casa.»
 \end_layout
 
@@ -1058,10 +1069,10 @@ rell.
  Preferisco che i miei studenti sappiano come stanno andando più frequentemente
  di così.
  E nelle rare occasioni in cui vi offrirò una prova scritta, si correggerà
- da sola man mano che la compilerete, e se sbaglierete troppe domande in
- relazione tra loro, il test vi mostrerà i nomi degli studenti che hanno
- risposto correttamente a quelle domande, e questi studenti saranno in grado
- di guadagnare punti-Quirrell aiutandovi.»
+ da sola man mano che la compilerete, e se sbaglierete troppe domande collegate
+ tra di loro, il test vi mostrerà i nomi degli studenti che hanno risposto
+ correttamente a quelle domande, e questi studenti saranno in grado di guadagnar
+e punti-Quirrell aiutandovi.»
 \end_layout
 
 \begin_layout Standard
@@ -1077,7 +1088,7 @@ rell varranno un punto-Casa.
  che preferireste davvero saltare? Scoprirete che posso essere molto flessibile
  per favorire gli studenti che hanno accumulato abbastanza punti-Quirrell.
  I punti-Quirrell determineranno il rango di generale degli eserciti.
- E per Natale -- appena prima delle vacanze natalizie -- accorderò a qualcuno
+ E per Natale – appena prima delle vacanze natalizie – accorderò a qualcuno
  un desiderio.
  Ogni impresa relativa alla scuola che rientri nei limiti del mio potere,
  della mia influenza o, sopratutto, della mia ingegnosità.
@@ -1088,12 +1099,13 @@ rell varranno un punto-Casa.
 \end_layout
 
 \begin_layout Standard
-Quello sarebbe stato Harry.
+Quello studente sarebbe stato Harry.
 \end_layout
 
 \begin_layout Standard
-«Ora lasciate i vostri libri e oggetti sui vostri banchi -- saranno al sicuro,
- gli schermi veglieranno su di loro per voi -- e scendete su questa piattaforma.
+«Ora lasciate i vostri libri e i vostri oggetti sui banchi – saranno al
+ sicuro, gli schermi veglieranno su di loro per voi – e scendete su questa
+ piattaforma.
  È il momento di giocare a un gioco chiamato `Chi è lo studente più pericoloso
  della classe'.»
 \end_layout
@@ -1204,7 +1216,7 @@ dong
 \begin_inset Quotes frd
 \end_inset
 
- dal trono grave, che significava che l'aveva colpita quasi in pieno.
+ dal tono grave, che significava che l'aveva colpita quasi in pieno.
 \end_layout
 
 \begin_layout Standard
@@ -1242,7 +1254,7 @@ Ma-ha-su!
 
 \begin_layout Standard
 Il professor Quirrell era in piedi sulla pedana rialzata al centro della
- piattaforma, e si appoggiava appena alla sua cattedra con una mano.
+ piattaforma, e si appoggiava appena alla cattedra con una mano.
 \end_layout
 
 \begin_layout Standard
@@ -1253,7 +1265,7 @@ Il professor Quirrell era in piedi sulla pedana rialzata al centro della
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1261,7 +1273,7 @@ Oh blah blah blah.
 \end_layout
 
 \begin_layout Standard
-«--
+«–
 \begin_inset space ~
 \end_inset
 
@@ -1333,7 +1345,7 @@ Nessuno parve pensare nulla in quel momento.
 \end_inset
 
  disse il professor Quirrell.
- Si voltò verso Hermione, e fece un gesto a indicando genericamente la classe.
+ Si voltò verso Hermione, e fece un gesto, indicando genericamente la classe.
  «Scelga uno studente a piacere e gli lanci contro la Fattura d'Attacco
  Semplice Sumera.»
 \end_layout
@@ -1346,7 +1358,7 @@ Hermione rimase paralizzata sul posto.
 «Forza», disse il professor Quirrell con tranquillità.
  «Ha lanciato questo incantesimo in maniera perfetta per oltre cinquanta
  volte.
- Non causa danni permanenti né è così doloroso.
+ Non causa danni permanenti e non è poi così doloroso.
  Fa male quanto un pugno forte e dura appena pochi secondi.» La voce del
  professor Quirrell si fece più dura.
  «Questo è un ordine diretto del suo professore, signorina Granger.
@@ -1354,8 +1366,8 @@ Hermione rimase paralizzata sul posto.
 \end_layout
 
 \begin_layout Standard
-Il volto di Hermione era distorto dall'orrore e la bacchetta stava tremando
- nella sua mano.
+Il volto di Hermione era distorto dall'orrore e la bacchetta le stava tremando
+ in mano.
  Le dita di Harry stavano stringendo con forza la sua bacchetta per simpatia.
  Anche se poteva capire ciò che il professor Quirrell stava cercando di
  fare.
@@ -1371,7 +1383,7 @@ Il volto di Hermione era distorto dall'orrore e la bacchetta stava tremando
 \end_layout
 
 \begin_layout Standard
-Harry fissò Hermione, volendo che guardasse nella sua direzione.
+Harry fissò Hermione, desiderando che guardasse nella sua direzione.
  La sua mano destra stava battendo con leggerezza sul suo petto.
  
 \emph on
@@ -1379,8 +1391,8 @@ Scegli me, non ho paura…
 \end_layout
 
 \begin_layout Standard
-La bacchetta di Hermione si contrasse nella sua mano; poi il suo volto si
- rilassò ed ella abbassò la bacchetta lungo il fianco.
+La bacchetta di Hermione le si contrasse in mano; poi il suo volto si rilassò
+ ed ella abbassò la bacchetta lungo il fianco.
 \end_layout
 
 \begin_layout Standard
@@ -1426,7 +1438,7 @@ ragione
 «Dunque», disse il professor Quirrell.
  «È chiaro che Hermione Granger non è lo studente più pericoloso della classe.
  Chi pensate che possa essere, in realtà, la persona più pericolosa qui
- dentro? -- A parte me, naturalmente.»
+ dentro? – A parte me, naturalmente.»
 \end_layout
 
 \begin_layout Standard
@@ -1462,7 +1474,7 @@ Harry avrebbe provato a fermarlo se ci fosse stato il tempo, ma con un singolo,
 Mahasu!
 \emph default
 » come se fosse stata un'unica sillaba e Hermione stava dicendo «Ahi!» e
- poi basta.
+ poi tutto fu terminato.
 \end_layout
 
 \begin_layout Standard
@@ -1480,7 +1492,7 @@ Alla fine Draco rispose,
 \begin_inset Quotes fld
 \end_inset
 
-Perché lei risaltava di più.
+Perché spiccava di più.
 \begin_inset Quotes frd
 \end_inset
 
@@ -1575,8 +1587,8 @@ Harry si fermò abbondantemente prima della pedana, e il professor Quirrell
 \end_layout
 
 \begin_layout Standard
-«La cosa ironica è», disse il professor Quirrell, «che tutti voi avete guardato
- la persona giusta per le ragioni completamente sbagliate.
+«La cosa ironica», disse il professor Quirrell, «è che tutti voi avete guardato
+ la persona giusta per le ragioni del tutto sbagliate.
  Voi state pensando», le labbra del professor Quirrell si contorsero, «che
  Harry Potter abbia sconfitto il Signore Oscuro, e che quindi debba essere
  molto pericoloso.
@@ -1586,7 +1598,7 @@ Harry si fermò abbondantemente prima della pedana, e il professor Quirrell
  poco a che fare con le capacità marziali del signor Potter.
  Ma dopo aver sentito alcune voci riguardo un Corvonero che avrebbe fronteggiato
  cinque Serpeverde più grandi, ho interrogato diversi testimoni e sono giunto
- alla conclusione che Harry Potter sarebbe stato il mio studente più pericoloso.»
+ alla conclusione che Harry Potter sia il mio studente più pericoloso.»
 \end_layout
 
 \begin_layout Standard
@@ -1601,7 +1613,7 @@ Un'ondata di adrenalina si riversò attraverso Harry, facendolo stare in
 \begin_inset space ~
 \end_inset
 
---» Harry iniziò a dire.
+–» iniziò a dire Harry.
 \end_layout
 
 \begin_layout Standard
@@ -1670,7 +1682,7 @@ Aha!
  Il pavimento può essere rimosso per creare una buca con degli spuntoni,
  il soffitto può essere fatto crollare su qualcuno, le mura possono servire
  come materia prima per una Trasfigurazione in un gran numero di oggetti
- letali -- coltelli, per esempio.»
+ letali – coltelli, per esempio.»
 \end_layout
 
 \begin_layout Standard
@@ -1688,15 +1700,15 @@ ordinario
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
-«Non lo aggiungerò alla conta.»
+«Non lo includerò nella conta.»
 \end_layout
 
 \begin_layout Standard
-«-- ma il loro sangue può anche essere usato per annegare qualcuno.
+«– ma il loro sangue può anche essere usato per annegare qualcuno.
  I Corvonero sono noti per i loro cervelli, ma i loro organi interni potrebbero
  essere venduti al mercato nero per una somma sufficiente ad assoldare un
  sicario.
@@ -1729,7 +1741,7 @@ Ormai il resto della classe fissava Harry con un certo orrore.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1751,7 +1763,7 @@ Ormai il resto della classe fissava Harry con un certo orrore.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1763,7 +1775,7 @@ Ormai il resto della classe fissava Harry con un certo orrore.
  «Dieci punti-Quirrell per un punto-Casa, giusto? Avrebbe potuto permettermi
  di andare avanti finché non avessi vinto la Coppa delle Case, non ho neppure
  iniziato con gli usi inconsueti di tutto ciò che ho nelle mie tasche» o
- la stessa mokeskin, e non poteva parlare del Giratempo o del mantello dell'invi
+ la stessa mokeskin, e non poteva parlare del Giratempo o del Mantello dell'Invi
 sibilità, ma ci doveva essere 
 \emph on
 qualcosa
@@ -1820,7 +1832,7 @@ Harry sussultò per la sorpresa.
  del suo nemico.
  Cosa che avrebbe molto più probabilmente rotto la sua bacchetta, che ucciso
  il suo nemico! In breve, signor Potter, temo che le sue proposte siano
- state uniformemente terribili.»
+ state universalmente terribili.»
 \end_layout
 
 \begin_layout Standard
@@ -1884,7 +1896,7 @@ Cosa? Un attimo, non poteva essere vero… Harry provò un'improvvisa sensazione
 \end_inset
 
 , disse il professor Quirrell, «è il motivo per il quale le idee del signor
- Potter erano così strane e inutili -- perché ha dovuto spingersi in profondità
+ Potter erano così strane e inutili – perché ha dovuto spingersi in profondità
  nell'inattuabile per soddisfare il suo obiettivo di 
 \emph on
 uccidere il nemico
@@ -1902,8 +1914,8 @@ volontà di uccidere
  Serpeverde più grandi.
  Draco Malfoy non ce l'ha, non ancora.
  Difficilmente il signor Malfoy si tirerebbe indietro dal discutere di un
- ordinario assassinio, ma persino lui era scioccato -- sì, lo era, signor
- Malfoy, stavo guardando il suo volto -- quando il signor Potter ha descritto
+ ordinario assassinio, ma persino lui era scioccato – sì, lo era, signor
+ Malfoy, stavo guardando il suo volto – quando il signor Potter ha descritto
  come usare i corpi dei suoi compagni di classe come materia prima.
  Ci sono meccanismi censori dentro la vostra mente che vi fanno trasalire
  a un pensiero simile.
@@ -1919,7 +1931,7 @@ meramente
 volontà di uccidere
 \emph default
  fa di Harry Potter lo `Studente più pericoloso della classe'.
- Un ultimo punto per lui -- no, facciamo un punto per Corvonero -- per questo
+ Un ultimo punto per lui – no, facciamo un punto per Corvonero – per questo
  requisito indispensabile per un vero mago combattente.»
 \end_layout
 
@@ -1950,7 +1962,7 @@ non sono uno psicopatico, sono solo molto creativo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1974,7 +1986,7 @@ lo farà
 \emph default
  prima che io dichiari terminata la lezione di oggi.
  In caso contrario, inizierò a sottrarre punti-Casa, e continuerò a sottrarli
- finché non lo farà.»
+ finché non l'avrà fatto.»
 \end_layout
 
 \begin_layout Standard
@@ -2019,7 +2031,7 @@ ovvia
 \end_layout
 
 \begin_layout Standard
-Harry girò la bacchetta e disse «
+Harry ruotò la bacchetta e disse «
 \emph on
 Ma-ha-su!
 \emph default
@@ -2081,7 +2093,7 @@ Harry si girò verso il professor Quirrell, dovevano parlare
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2102,7 +2114,7 @@ te svegliato se Harry l'avesse pungolato un paio di volte.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
