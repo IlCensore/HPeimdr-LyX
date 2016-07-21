@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -38,13 +40,14 @@
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 \chapterstyle{hpmor}
 
-\usepackage{fmtcount}
 \usepackage{changepage} %per cambiare la dimensione del paragrafo
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 \usepackage{shapepar} %paragrafi con una certa forma
 \usepackage{url}%url lunga
 \renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\usepackage{microtype}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -56,16 +59,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Adobe Caslon Pro
-\font_sans Quattrocento Sans
-\font_typewriter Latin Modern Mono
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Alegreya Sans"
+\font_typewriter "default" "Latin Modern Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -149,6 +152,7 @@ name "chap:15Coscienziosità"
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Quotes fld
 \end_inset
 
@@ -177,7 +181,7 @@ Harry si sentiva veramente, veramente preso in giro.
 \begin_layout Standard
 C'erano centinaia di romanzi fantasy sparsi per casa Verres.
  Harry ne aveva letti un bel po'.
- E iniziava a essere evidente che avesse un misterioso lato oscuro.
+ E iniziava a essere evidente che egli avesse un misterioso lato oscuro.
  Così, dopo che il bicchiere d'acqua si era rifiutato di cooperare le prime
  volte, Harry aveva gettato uno sguardo in giro per l'aula di Incantesimi
  per assicurarsi che nessuno lo stesse osservando, e poi aveva fatto un
@@ -230,7 +234,7 @@ Frigideiro!
  Sembrava essere totalmente concentrata sul proprio lavoro e niente affatto
  consapevole che gli altri studenti la fissavano con occhi carichi d'odio,
  cosa che era (a) una dimostrazione di pericolosa disattenzione da parte
- sua o (b) un'interpretazione perfetta elevata al livello di arte sopraffina.
+ sua o (b) una perfetta interpretazione elevata al livello di arte sopraffina.
 \end_layout
 
 \begin_layout Standard
@@ -259,15 +263,16 @@ sua
 \end_layout
 
 \begin_layout Standard
-Giunti a lunedì, Harry si stava indirizzando verso il fondo della classe,
- una posizione per cui stava socievolmente rivaleggiando con tutti gli altri
- studenti educati da Babbani tranne Hermione.
+Arrivati a lunedì, Harry era indirizzato dritto verso il fondo della classe,
+ una posizione per cui stava amichevolmente rivaleggiando con tutti gli
+ altri studenti educati da Babbani tranne Hermione.
  Che era tutta sola e senza rivali in testa, poverina.
 \end_layout
 
 \begin_layout Standard
 Il professor Flitwick stava in piedi sopra il banco di una degli altri Nati
- babbani e stava sommessamente correggendo il modo in cui impugnava la bacchetta.
+ babbani e le stava sommessamente correggendo il modo in cui impugnava la
+ bacchetta.
 \end_layout
 
 \begin_layout Standard
@@ -279,7 +284,7 @@ Harry guardò Hermione.
 \begin_inset Quotes fld
 \end_inset
 
-Hai una vaga idea di quello che potrei fare di sbagliato?
+Hai mica idea di cosa sto sbagliando?
 \begin_inset Quotes frd
 \end_inset
 
@@ -293,13 +298,13 @@ Gli occhi di Hermione si illuminarono di una terribile luce di disponibilità
 
 \begin_layout Standard
 Cinque minuti più tardi, l'acqua di Harry sembrava notevolmente più fredda
- rispetto alla temperatura ambiente ed Hermione gli aveva dato un paio di
- pacche sulle spalle verbali e detto di pronunciare con più attenzione la
- volta successiva, e se n'era andata per aiutare qualcun altro.
+ rispetto alla temperatura ambiente, Hermione gli aveva dato un paio di
+ pacche sulle spalle verbali e detto di pronunciare la formula con più attenzion
+e, e se n'era andata per aiutare qualcun altro.
 \end_layout
 
 \begin_layout Standard
-Il professor Flitwick le aveva concesso un punto per averlo aiutato.
+Il professor Flitwick le aveva assegnato un punto per averlo aiutato.
 \end_layout
 
 \begin_layout Standard
@@ -314,6 +319,10 @@ Non mi importa se si tratta di concorrenza sleale.
  So esattamente quello che farò con due ore in più ogni giorno.
  Andrò a sedermi nel mio baule e studierò fino a quando sarò alla pari con
  Hermione Granger.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -340,7 +349,7 @@ Non mi importa se si tratta di concorrenza sleale.
 \end_layout
 
 \begin_layout Standard
-La sua bacchetta scese a battere sulla cattedra, che dolcemente si rimodellò
+La sua bacchetta discese a battere sulla cattedra, che dolcemente si rimodellò
  in un maiale.
  Un paio di studenti Nati babbani emisero piccoli guaiti.
  Il maiale si guardò intorno e sbuffò, sembrava confuso, e poi divenne nuovament
@@ -380,7 +389,7 @@ Harry aggrottò leggermente la fronte.
 
 \begin_layout Standard
 La professoressa McGonagall scosse la testa.
- «Non glie ne faccio una colpa, signor Potter, ma la risposta corretta è
+ «Non gliene faccio una colpa, signor Potter, ma la risposta corretta è
  che a Trasfigurazione 
 \emph on
 non
@@ -388,7 +397,7 @@ non
  ci interessa tirare a indovinare.
  Le risposte sbagliate saranno valutate con estrema severità, le domande
  lasciate in bianco saranno valutate con grande indulgenza.
- Dovete imparare a riconoscere ciò che non conoscete.
+ Dovete imparare a riconoscere ciò che non sapete.
  Se vi pongo una qualunque domanda, non importa quanto ovvia o elementare,
  e rispondete `Non ne sono sicuro', non la valuterò a vostro sfavore e chiunque
  rida perderà punti per la sua Casa.
@@ -412,11 +421,11 @@ Poiché un singolo errore a Trasfigurazione può essere incredibilmente pericolo
  per massimizzare la vostra capacità da adulti.
  Quindi è una materia pericolosa, e dovreste essere alquanto spaventati
  dall'idea di commettere degli errori, perché nessuno dei miei studenti
- si è mai fatto male seriamente e io sarò 
+ si è mai fatto male seriamente e io ne sarei 
 \emph on
 estremamente offesa
 \emph default
- se foste la prima classe a 
+ se voi foste la prima classe a 
 \emph on
 rovinare questo mio primato
 \emph default
@@ -544,7 +553,7 @@ immagino
 \emph default
  che ci possa essere… del legno nel mio stomaco, e nel mio flusso sanguigno
  e in tutta quell'acqua che è stata assorbita dai tessuti del mio corpo
- -- che fosse polpa di legno o legno pieno o…» La sua comprensione della
+ – che fosse polpa di legno o legno pieno o…» La sua comprensione della
  magia lo tradì.
  Non era in grado di capire in che modo il legno si mappasse nell'acqua,
  tanto per cominciare, quindi non riusciva a comprendere che cosa sarebbe
@@ -578,7 +587,7 @@ Anche se nessun suono proveniva dalla foto in movimento, si poteva capire
  Sono i guardiani di Azkaban.
  Vi succhiano via la magia, la vita e qualunque pensiero felice abbiate.
  La figura a pagina 7 ritrae il criminale dieci anni dopo, al suo rilascio.
- Noterete che è morto -- sì, signor Potter?»
+ Noterete che è morto – sì, signor Potter?»
 \end_layout
 
 \begin_layout Standard
@@ -593,7 +602,7 @@ sostenere
 \begin_layout Standard
 «No», disse la professoressa McGonagall con voce piatta.
  «Sostenere una Trasfigurazione è un drenaggio costante della vostra magia
- che scala con le dimensioni della forma dell'obbiettivo.
+ che scala con le dimensioni della forma del bersaglio.
  E avreste bisogno di rimettervi in contatto col bersaglio ogni poche ore,
  cosa che è, in un caso come questo, impossibile.
  Disastri come questo sono 
@@ -604,12 +613,12 @@ irrecuperabili!
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall si inclinò in avanti, l'espressione sul viso
- molto severa.
+La professoressa McGonagall si chinò in avanti, l'espressione sul viso molto
+ severa.
  «Assolutamente mai, in nessuna circostanza, Trasfigurerete qualunque cosa
  in un liquido o in un gas.
  Niente acqua, niente aria.
- Nulla di simile all'acqua, nulla di simile all'aria.
+ Niente di simile all'acqua, Niente di simile all'aria.
  Anche se non va bevuto.
  I liquidi 
 \emph on
@@ -621,11 +630,11 @@ evaporano
 e mai qualunque cosa che in linea di principio possa finire nel corpo di
  qualcuno in qualunque modo.
  Niente cibo.
- Nulla che 
+ Niente che 
 \emph on
 sembri
 \emph default
- del cibo.
+ cibo.
  Neppure per un divertente scherzetto in cui volete dire alle vittime della
  vostra torta di fango prima che la mangino realmente.
  Non lo farete mai.
@@ -700,7 +709,7 @@ ne durante tutta la vostra permanenza a Hogwarts.
 «Non Trasfigurerete mai nulla che sembri del denaro, incluso il denaro babbano»,
  disse la professoressa McGonagall.
  «I goblin hanno dei metodi per scoprire chi l'ha fatto.
- E per quanto riguarda la legge, la nazione goblin è in stato di 
+ E dal punto di vista legale, la nazione goblin è in stato di 
 \emph on
 guerra
 \emph default
@@ -728,7 +737,7 @@ specialmente voi stessi
 ereste e per quanto tempo manterreste il cambiamento.» La professoressa McGonagal
 l fece una pausa.
  «Il signor Potter sta alzando la mano perché ha visto una trasformazione
- Animagus -- precisamente un umano trasformarsi in un gatto e poi riassumere
+ Animagus – precisamente un umano trasformarsi in un gatto e poi riassumere
  la propria forma.
  Ma una trasformazione Animagus non è una Trasfigurazione 
 \emph on
@@ -764,8 +773,8 @@ Crystferrium
  trasforma un soggetto di vetro solido in un bersaglio di acciaio solido
  di forma simile.
  Non può fare il contrario, né può trasformare una cattedra in un maiale.
- La forma più generale di Trasfigurazione -- Trasfigurazione libera, che
- imparerete qui -- è in grado di trasformare qualunque soggetto in qualunque
+ La forma più generale di Trasfigurazione – Trasfigurazione libera, che
+ imparerete qui – è in grado di trasformare qualunque soggetto in qualunque
  bersaglio, per lo meno per quanto riguarda la forma fisica.
  Per questo motivo, Trasfigurazione libera deve essere eseguita senza parole.
  Usare degli Incantesimi richiederebbe parole differenti per ciascuna differente
@@ -815,9 +824,8 @@ limitato
 non è
 \emph default
  sicura.
- Il vostro corpo muterà mentre è Trasfigurato -- respirare, per esempio,
- implica una perdita costante della materia del corpo in favore dell'aria
- circostante.
+ Il vostro corpo muterà mentre è Trasfigurato – respirare, per esempio,
+ implica una perdita costante di materia dal corpo all'aria circostante.
  Quando la Trasfigurazione si estingue e il vostro corpo cerca di ritornare
  alla sua forma 
 \emph on
@@ -855,7 +863,7 @@ Sì
 
 \begin_layout Standard
 «È possibile trasfigurare un soggetto vivente in un bersaglio che è statico,
- come una moneta -- no, mi scusi, mi dispiace, diciamo in una semplice sfera
+ come una moneta – no, mi scusi, mi dispiace, diciamo in una semplice sfera
  di acciaio?»
 \end_layout
 
@@ -886,7 +894,7 @@ sembrare
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -960,6 +968,10 @@ Alla fine della lezione, Hermione aveva un fiammifero argenteo e il resto
 
 \begin_layout Standard
 La professoressa McGonagall le assegnò un altro punto per Corvonero.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -984,7 +996,7 @@ Dopo che la lezione di Trasfigurazione fu terminata, Hermione andò al banco
 \end_layout
 
 \begin_layout Standard
-«Già», disse laconicamente Harry.
+«Già», rispose laconicamente Harry.
 \end_layout
 
 \begin_layout Standard
@@ -992,30 +1004,30 @@ Dopo che la lezione di Trasfigurazione fu terminata, Hermione andò al banco
 \emph on
 sette
 \emph default
- punti», continuò lei.
+ punti», continuò ella.
  «Credo semplicemente di non essere intelligente come te.»
 \end_layout
 
 \begin_layout Standard
 Harry finì di inserire i propri compiti nella borsa e si girò verso Hermione
  con gli occhi socchiusi.
- Si era davvero dimenticato di quello.
+ Se n'era davvero dimenticato.
 \end_layout
 
 \begin_layout Standard
-Lei gli 
+Ella gli 
 \emph on
 sbatté le ciglia
 \emph default
 .
  «Abbiamo lezioni tutti i giorni, però.
- Mi chiedo quanto tempo ti ci vorrà per trovare qualche altro Tassofrasso
+ Mi domando, quanto tempo ti ci vorrà per trovare qualche altro Tassofrasso
  da salvare? Oggi è lunedì.
  Quindi hai fino a giovedì.»
 \end_layout
 
 \begin_layout Standard
-I due si fissarono l'un l'altro negli occhi, senza battere ciglio.
+I due si fissarono l'un l'altra negli occhi, senza battere ciglio.
 \end_layout
 
 \begin_layout Standard
@@ -1187,7 +1199,7 @@ uno
 \end_layout
 
 \begin_layout Standard
-«Ho le lezioni ora, che tu non hai avuto, ma i fine settimana sono liberi,
+«Ora ho le lezioni, che tu non hai avuto, ma i fine settimana sono liberi,
  quindi… limite di otto per quattro diviso epsilon per epsilon che tende
  a zero più… 10:47 di domenica.»
 \end_layout
