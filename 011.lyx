@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -45,23 +47,15 @@
 \usepackage{url}%url lunga
 \renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
 
-\makeatletter
-\renewcommand\part{%
-  \if@openright
-    \cleardoublepage
-  \else
-    \clearpage
-  \fi
-  \thispagestyle{empty}%
-  \if@twocolumn
-    \onecolumn
-    \@tempswatrue
-  \else
-    \@tempswafalse
-  \fi
-  \null\vfil
-  \secdef\@part\@spart}
-\makeatother
+
+
+
+\newcommand\nomarkerfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -73,16 +67,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
-\font_sans Linux Biolinum O
-\font_typewriter TlwgMono
-\font_math auto
+\font_roman "default" "Linux Libertine O"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Linux Libertine Mono O"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -157,6 +151,23 @@ name "chap:11Omake-1,-2,"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nomarkerfootnote{N.d.T.: sebbene prosegua la normale numerazione, questo capitolo
+ non fa parte della linea narrativa, è stato scritto solo per divertimento.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 
 \family sans
@@ -183,8 +194,6 @@ Omake
 \end_inset
 
  è un supplemento non-canonico.
- [N.d.T.: questo capitolo non fa parte della linea narrativa, è stato scritto
- per divertimento.]
 \end_layout
 
 \end_inset
@@ -203,11 +212,11 @@ Cosa succede se cambi Harry ma lasci tutti gli altri personaggi uguali
 \begin_layout Standard
 
 \family sans
-Dumbledore sbirciò oltre la propria scrivania verso il giovane Harry, brillando
+Dumbledore osservava il giovane Harry al di là della scrivania, brillando
  in maniera gentile.
  Il ragazzo era venuto da lui con uno sguardo terribilmente teso sul suo
- volto infantile -- Dumbledore sperava che, qualunque fosse la questione, non
- fosse 
+ volto infantile – Dumbledore sperava che, qualunque fosse la questione,
+ non fosse 
 \emph on
 troppo
 \emph default
@@ -237,7 +246,7 @@ Harry James Potter-Evans-Verres si sporse in avanti sulla sedia, sorridendo
 Preside, ho provato un dolore acuto alla mia cicatrice durante la Cerimonia
  dello Smistamento.
  Considerando come e dove ho ricevuto questa cicatrice, non mi è sembrato
- il genere di cosa che dovessi semplicemente ignorare.
+ il genere di cosa che dovessi ignorare.
  In un primo momento ho pensato che fosse dovuto al professor Snape, ma
  ho seguito il metodo sperimentale baconiano che consiste nel trovare le
  condizioni sia per la presenza sia per l'assenza del fenomeno, e ho scoperto
@@ -247,13 +256,13 @@ Preside, ho provato un dolore acuto alla mia cicatrice durante la Cerimonia
 \emph on
 possa
 \emph default
- essere qualcosa di più innocuo, penso che dovremmo presumere per il momento
- il peggio, che si tratti di Tu-Sai-Chi -- aspetti, non si spaventi così,
+ essere qualcosa di più innocente, penso che dovremmo presumere per il momento
+ il peggio, che si tratti di Tu-Sai-Chi – aspetti, non si spaventi così,
  questa è invece un'occasione inestimabile
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -275,13 +284,12 @@ Omake
 \family sans
 \emph on
 Questo era il finale originale del capitolo 9.
- È stato sostituito perché -- sebbene sia piaciuto a molti lettori -- molti
+ È stato sostituito perché – sebbene sia piaciuto a molti lettori – molti
  altri hanno dimostrato allergie 
 \emph default
 massive
 \emph on
- all'inserimento di canzoni nelle fanfic, per ragioni che su cui non dovrei
- dilungarmi.
+ all'inserimento di canzoni nel testo, per ragioni su cui non dovrei dilungarmi.
  Non volevo allontanare i lettori prima che raggiungessero il capitolo 10.
 \end_layout
 
@@ -319,13 +327,13 @@ Lee Jordan
 \begin_layout Standard
 
 \family sans
-Draco andò a Serpeverde, e Harry fece un piccolo sospiro di sollievo.
+Draco andò a Serpeverde, e Harry tirò un piccolo sospiro di sollievo.
  Era 
 \emph on
 sembrato 
 \emph default
-qualcosa di scontato, ma non potevi mai sapere quale minuscolo evento potesse
- sconvolgere il corso del tuo piano magistrale.
+scontato, ma non potevi mai sapere quale minuscolo evento potesse sconvolgere
+ il corso del tuo piano magistrale.
 \begin_inset Note Note
 status open
 
@@ -343,7 +351,7 @@ dal capitolo 9
 \begin_layout Standard
 
 \family sans
-Stavano arrivando alle `P' ora\SpecialChar \ldots{}
+Stavano arrivando alle `P' ora\SpecialChar ldots
 
 \end_layout
 
@@ -361,7 +369,7 @@ E là al tavolo Grifondoro, era in atto una conversazione bisbigliata.
 
 
 \emph on
-E se non gli piace?
+E se non gli piacesse?
 \emph default
 
 \begin_inset Quotes frd
@@ -382,7 +390,7 @@ Non ha alcun diritto di non farselo piacere
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
 \begin_inset Quotes frd
@@ -399,11 +407,11 @@ Non ha alcun diritto di non farselo piacere
 
 
 \emph on
--- non dopo lo scherzo che ha giocato a
+– non dopo lo scherzo che ha giocato a
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
 \begin_inset Quotes frd
@@ -420,11 +428,11 @@ Non ha alcun diritto di non farselo piacere
 
 
 \emph on
--- Neville Longbottom, questo è il suo nome
+– Neville Longbottom, questo è il suo nome
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
 \begin_inset Quotes frd
@@ -441,7 +449,7 @@ Non ha alcun diritto di non farselo piacere
 
 
 \emph on
--- è un bersaglio più che legittimo ora.
+– è un bersaglio più che legittimo ora.
 \emph default
 
 \begin_inset Quotes frd
@@ -480,7 +488,7 @@ Abbiamo provato a sufficienza
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
 \begin_inset Quotes frd
@@ -497,7 +505,7 @@ Abbiamo provato a sufficienza
 
 
 \emph on
--- nelle ultime tre ore.
+– nelle ultime tre ore.
 \emph default
 
 \begin_inset Quotes frd
@@ -520,7 +528,7 @@ oh per favore
 \noun default
  fai che non sia un Grifondoro
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
  Fece un respiro profondo, e chiamò:
 \end_layout
 
@@ -559,9 +567,9 @@ La testa di Minerva si girò di scatto, era sconvolta, e identificò il rumore
 \emph on
 erano in piedi sul tavolo
 \emph default
- soffiando in una qualche sorta di piccoli strumenti che tenevano premuti
+ soffiando in una qualche specie di piccoli strumenti che tenevano premuti
  contro le Loro labbra.
- La sua mano iniziò a scendere verso la sua bacchetta, per lanciare un 
+ La sua mano iniziò a scendere verso la bacchetta, per lanciare un 
 \emph on
 Silencio
 \emph default
@@ -578,14 +586,14 @@ Dumbledore rideva sommessamente.
 
 \family sans
 Gli occhi di Minerva tornarono a Harry Potter, che aveva appena iniziato
- a uscire dalla gruppo prima di incespicare e fermarsi.
+ a uscire dal gruppo prima di incespicare e fermarsi.
 \end_layout
 
 \begin_layout Standard
 
 \family sans
-Poi il giovane ragazzo riprese a camminare, muovendo le sue gambe in strani
- e ampi movimenti, e ondeggiando le braccia avanti e indietro e schioccando
+Poi il giovane ragazzo riprese a camminare, muovendo le gambe in movimenti
+ strani e ampi, e ondeggiando le braccia avanti e indietro e schioccando
  le dita, in sincronia con la Loro musica.
 \end_layout
 
@@ -744,6 +752,12 @@ Vi furono urla di incoraggiamento, specie dal tavolo dei Grifondoro, e altri
  studenti tirarono fuori i loro strumenti anti-musicali.
  I ronzii detestabili raddoppiarono in volume e costruirono un altro terribile
  crescendo:
+\family default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -757,7 +771,7 @@ I ain't afraid of Dark Lords!
 \begin_layout Standard
 
 \family sans
-Minerva gettò uno sguardo a entrambi i lati del Tavolo d'onore, timorosa
+Minerva lanciò un'occhiata a entrambi i lati del Tavolo d'onore, timorosa
  di guardare ma con un'ottima idea di ciò che avrebbe visto.
 \end_layout
 
@@ -765,11 +779,18 @@ Minerva gettò uno sguardo a entrambi i lati del Tavolo d'onore, timorosa
 
 \family sans
 Trelawney si stava freneticamente sventagliando, Flitwick guardava con curiosità
-, Hagrid batteva le mani al ritmo della musica, Sprout aveva un aspetto
- severo, e Quirrell fissava il ragazzo con un divertimento sardonico.
- Subito alla sua sinistra, Dumbledore seguiva la musica canticchiando; e subito
- alla sua destra, Snape stringeva il suo calice di vino vuoto, le nocche
- bianche, con tanta forza che lo spesso argento si stava lentamente deformando.
+, Hagrid batteva le mani al ritmo della musica, Sprout aveva un'espressione
+ severa, e Quirrell fissava il ragazzo con sardonico divertimento.
+ Subito alla sua sinistra, Dumbledore seguiva la musica canticchiando; e
+ subito alla sua destra, Snape stringeva il suo calice di vino vuoto, le
+ nocche bianche, con tanta forza che lo spesso argento si stava lentamente
+ deformando.
+\family default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -884,6 +905,11 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
@@ -893,10 +919,10 @@ status open
 \begin_inset Quotes fld
 \end_inset
 
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \emph on
- Old bat in a cape?\SpecialChar \ldots{}
+ Old bat in a cape?\SpecialChar ldots
 
 \emph default
 
@@ -939,22 +965,22 @@ Poi, con un improvviso rantolo d'orrore, guardò in direzione di Snape,
 certamente
 \emph default
  egli avrebbe compreso che il giovane Potter non aveva alcuna idea di ciò
- cui quello faceva riferimento
+ a cui quella strofa si riferiva
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 
 \family sans
-Il volto di Snape era andato oltre la rabbia in una sorta di piacevole indiffere
-nza.
+Il volto di Snape era andato oltre la rabbia, in una sorta di piacevole
+ indifferenza.
  Un debole sorriso giocava sulle sue labbra.
  Stava guardando in direzione di Harry Potter, non della tavola di Grifondoro,
  e le sue mani reggevano i resti accartocciati di quello che era stato un
- calice di vino\SpecialChar \ldots{}
+ calice di vino\SpecialChar ldots
 
 \end_layout
 
@@ -1006,7 +1032,7 @@ E Harry li avrebbe protetti ancora.
 \begin_layout Standard
 
 \family sans
-Tutte quelle persone credevano in lui e lo sostenevano -- Harry non poteva
+Tutte quelle persone credevano in lui e lo sostenevano – Harry non poteva
  sopportare che questo fosse un inganno.
  Brillare intensamente e poi spegnersi come tanti altri bambini prodigio.
  Essere una delusione.
@@ -1016,8 +1042,8 @@ Tutte quelle persone credevano in lui e lo sostenevano -- Harry non poteva
 come
 \emph default
  l'avesse ottenuta.
- Egli sarebbe stato -- assolutamente, sicuramente, non importa quanto tempo
- ci avrebbe messo e persino se questo l'avesse ucciso -- all'altezza delle
+ Lui sarebbe stato – assolutamente, sicuramente, non importa quanto tempo
+ ci avrebbe messo e persino se questo l'avesse ucciso – all'altezza delle
  loro aspettative.
  E poi sarebbe andato oltre e avrebbe 
 \emph on
@@ -1054,9 +1080,9 @@ I ain't afraid of Dark Lords!
 
 \family sans
 Harry fece l'ultimo passo verso il Cappello Smistatore.
- Rivolse un profondo inchino all'Ordine del Caos alla tavola di Grifondoro,
+ Rivolse un profondo inchino verso l'Ordine del Caos alla tavola di Grifondoro,
  poi si girò e rivolse un altro profondo inchino all'altro lato della sala,
- e attese che gli applausi e le risatine si spegnessero\SpecialChar \ldots{}
+ e attese che gli applausi e le risatine si spegnessero\SpecialChar ldots
 
 \end_layout
 
@@ -1084,12 +1110,12 @@ non è mai avvenuto prima
 
 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 \family sans
-N.d.T.: Qui l'autore si riferisce alle parole finali del capitolo 9.
+N.d.T.: qui l'autore si riferisce alle parole finali del capitolo 9.
 \end_layout
 
 \end_inset
@@ -1112,7 +1138,7 @@ non è mai avvenuto prima
  Tutti coloro che vogliono prendere qualcuna delle mie idee e svilupparle,
  in particolare l'ultima, sono i benvenuti.
  E prima di ricevere 100 lamentele indignate, sì, sono ben cosciente che
- il corpo legislativo del Regno Unito è la House of Commons in Parlamento.
+ il corpo legislativo del Regno Unito è la House of Commons del Parlamento.
 \end_layout
 
 \begin_layout Standard
@@ -1131,7 +1157,7 @@ non è mai avvenuto prima
 \begin_layout Standard
 
 \family sans
-\SpecialChar \ldots{}
+\SpecialChar ldots
  si chiese se il Cappello Smistatore fosse realmente 
 \emph on
 cosciente
@@ -1144,7 +1170,7 @@ cosciente
 Oh, sono il Cappello Smistatore e non provo scorno, se dormo un anno e lavoro
  un giorno
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \begin_inset Note Note
 status open
@@ -1169,7 +1195,7 @@ Quando ci fu nuovamente silenzio nella stanza, Harry sedette sullo sgabello
 con cura
 \emph default
  sulla propria testa il telepatico manufatto vecchio di 800 anni, prodotto
- di una magia dimenticata e.
+ di una magia dimenticata.
 \begin_inset Note Note
 status open
 
@@ -1270,7 +1296,7 @@ Corvonero
 
 \emph on
 Oh, cielo.
- Questo non è mai avvenuto prima\SpecialChar \ldots{}
+ Questo non è mai avvenuto prima\SpecialChar ldots
 
 \emph default
 
@@ -1301,7 +1327,7 @@ Sono allergico al tuo shampoo
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1383,7 +1409,7 @@ chi sarà il Preside di Casa Grifondoro?
 \emph on
 doveva
 \emph default
- porre fine a questa cosa in qualche modo\SpecialChar \ldots{}
+ porre fine a questa cosa in qualche modo\SpecialChar ldots
 
 \end_layout
 
@@ -1481,8 +1507,8 @@ Il Cappello Smistatore urlò, un terribile suono ad alta frequenza che echeggiò
  nella Sala Grande e obbligò la maggior parte degli studenti a mettersi
  le mani sulle orecchie.
  Con un ululato di disperazione, saltò giù dalla testa di Harry Potter e
- rimbalzò sul pavimento, trascinandosi assieme alla propria falda, e riuscì
- a raggiungere metà strada verso il Tavolo d'onore prima di esplodere.
+ rimbalzò sul pavimento, trascinandosi sulle proprie falde, e riuscì ad
+ arrivare a metà strada verso il Tavolo d'onore prima di esplodere.
 \end_layout
 
 \begin_layout Standard
@@ -1520,7 +1546,7 @@ Serpeverde!
 \family sans
 Vedendo lo sguardo di orrore sul volto di Harry Potter, Fred Weasley pensò
  più veloce di quanto non avesse mai fatto in vita sua.
- In un singolo movimento estrasse la sua bacchetta, sussurrò
+ In un singolo movimento estrasse la bacchetta, sussurrò
 \emph on
  
 \emph default
@@ -1609,7 +1635,7 @@ Grifondoro!
 
 \emph on
 Oh, cielo.
- Questo non è mai avvenuto prima\SpecialChar \ldots{}
+ Questo non è mai avvenuto prima\SpecialChar ldots
 
 \emph default
 
@@ -1689,7 +1715,7 @@ Dopo di che non ci volle molto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1704,6 +1730,12 @@ Root
 \noun default
 !
 \begin_inset Quotes frd
+\end_inset
+
+
+\family default
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1731,7 +1763,7 @@ Root
 
 \emph on
 Oh, cielo.
- Questo non è mai avvenuto prima\SpecialChar \ldots{}
+ Questo non è mai avvenuto prima\SpecialChar ldots
 
 \emph default
 
@@ -1756,8 +1788,8 @@ Cosa?
 
 
 \emph on
-Ho dovuto dire in passato ad alcune studentesse che erano madri -- ti si
- spezzerebbe il cuore sapere cosa ho visto nelle loro menti -- ma questa
+Ho dovuto dire in passato ad alcune studentesse che erano madri – ti si
+ spezzerebbe il cuore sapere cosa ho visto nelle loro menti – ma questa
  è la prima volta che devo dire a qualcuno che è padre
 \emph default
 .
@@ -1824,7 +1856,7 @@ Ma abbiamo solo undici anni
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1852,7 +1884,7 @@ M-m-ma gli uomini non possono rimanere incinti
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1922,6 +1954,12 @@ Corvonero!
 
  dichiarò il Cappello che si trovava ancora sul suo capo.
  Era stato ancor più divertente della sua prima idea.
+\family default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1990,7 +2028,7 @@ A giudicare dagli sguardi inorriditi che spuntavano sui volti attorno a
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2081,7 +2119,7 @@ Camera dei Deputati
 
 \emph on
 Oh, cielo.
- Questo non è mai avvenuto prima\SpecialChar \ldots{}
+ Questo non è mai avvenuto prima\SpecialChar ldots
 
 \emph default
 
@@ -2263,28 +2301,28 @@ Khaaannnn!
 Al Tavolo d'onore, Dumbledore continuava a sorridere benignamente; sommessi
  suoni metallici giungevano occasionalmente dalla direzione di Snape mentre
  compattava svogliatamente i resti contorti di quello che era stato un pesante
- calice da vino; e Minerva McGonagall stringeva il podio con una stretta
- che le sbiancava le nocche, sapendo che il caos contagioso di Harry Potter
+ calice da vino; e Minerva McGonagall stringeva il podio con una presa che
+ le sbiancava le nocche, sapendo che il caos contagioso di Harry Potter
  aveva infettato lo stesso Cappello Smistatore.
 \end_layout
 
 \begin_layout Standard
 
 \family sans
-Scenario dopo scenario furono riprodotti nella testa di Minerva, ciascuno
- peggiore del precedente.
+Possibilità dopo possibilità andarono in scena nella testa di Minerva, ciascuna
+ peggiore della precedente.
  Il Cappello avrebbe detto che Harry era troppo bilanciato tra le Case per
  essere Smistato, e deciso che apparteneva a tutte loro.
  Il Cappello avrebbe proclamato che la mente di Harry era troppo strana
  per essere Smistata.
  Il Cappello avrebbe preteso che Harry fosse espulso da Hogwarts.
  Il Cappello era caduto in coma.
- Il Cappello avrebbe insistito che una Casa del Destino completamente nuova
+ Il Cappello avrebbe insistito che una Casa del Destino totalmente nuova
  fosse creata solo per accogliere Harry Potter, e 
 \emph on
 Dumbledore l'avrebbe obbligata a farlo
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
@@ -2292,13 +2330,13 @@ Dumbledore l'avrebbe obbligata a farlo
 
 \family sans
 Minerva ricordò cosa Harry le aveva detto in quel disastroso viaggio a Diagon
- Alley, riguardo\SpecialChar \ldots{}
- l'errore di pianificazione, le parve che fosse\SpecialChar \ldots{}
+ Alley, riguardo\SpecialChar ldots
+ l'errore di pianificazione, le parve che fosse\SpecialChar ldots
  e come le
  persone fossero di solito troppo ottimiste, anche quando pensavano di essere
  pessimiste.
- Era il genere di informazione che predava la tua mente, prendendovi dimora
- e generando incubi\SpecialChar \ldots{}
+ Era il genere di informazione che ghermiva la tua mente, prendendovi dimora
+ e generando incubi\SpecialChar ldots
 
 \end_layout
 
@@ -2315,17 +2353,17 @@ peggiore
 \begin_layout Standard
 
 \family sans
-Beh\SpecialChar \ldots{}
+Beh\SpecialChar ldots
  nello 
 \emph on
 scenario più pessimistico
 \emph default
 , il Cappello avrebbe assegnato Harry ad una Casa completamente nuova.
- Dumbledore avrebbe insistito che fosse ella a occuparsene -- creare una Casa
- completamente nuova solo per lui -- e avrebbe dovuto ri-arrangiare tutto
- l'orario delle lezioni il primo giorno dell'anno scolastico.
+ Dumbledore avrebbe insistito che fosse ella a occuparsene – creare una
+ Casa completamente nuova solo per lui – e avrebbe dovuto ri-arrangiare
+ tutto l'orario delle lezioni il primo giorno dell'anno scolastico.
  E Dumbledore l'avrebbe rimossa dall'incarico di Preside della Casa Grifondoro,
- per darlo al\SpecialChar \ldots{}
+ per darlo al\SpecialChar ldots
  professor Binns, il fantasma di Storia; ed ella sarebbe stata
  nominata Preside della Casa del Destino di Harry; e avrebbe inutilmente
  tentato di dare ordini ai bambini, togliendo punti su punti senza alcun
@@ -2348,11 +2386,11 @@ In tutta onestà Minerva non vedeva come vi potesse essere qualcosa di peggiore
 \begin_layout Standard
 
 \family sans
-E anche nel caso peggiore in assoluto -- non importava 
+E anche nel caso peggiore in assoluto – non importava 
 \emph on
 cosa
 \emph default
- sarebbe accaduto con Harry -- sarebbe finito tutto in sette anni.
+ sarebbe accaduto a Harry – tutto sarebbe finito tutto di lì a sette anni.
 \end_layout
 
 \begin_layout Standard
@@ -2428,7 +2466,7 @@ Stavo Smistando Harry Potter nel posto di Hogwarts cui più appartiene, vale
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
