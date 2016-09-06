@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -73,16 +75,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans TeX Gyre Adventor
-\font_typewriter Latin Modern Mono
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "TeX Gyre Adventor"
+\font_typewriter "default" "Latin Modern Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -178,6 +180,7 @@ In questo capitolo
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \emph on
 Alcuni
@@ -270,6 +273,11 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
@@ -439,7 +447,7 @@ Aaaaaaarrrgh tutto questo non ha alcun senso!
 \end_layout
 
 \begin_layout Standard
-La strega accanto a lui alzò un sopracciglio altero.
+La strega accanto a lui sollevò un sopracciglio altero.
  
 \begin_inset Quotes fld
 \end_inset
@@ -483,7 +491,7 @@ mia
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -546,13 +554,13 @@ parola!
  Anche dopo che me la dice, non posso fare nessuna nuova predizione! È esattamen
 te come dire `flogisto' o `
 \emph on
-elan vital
+élan vital
 \emph default
-' o `emergenza' o `complessità'!»
+' o `comportamento emergente' o `complessità'!»
 \end_layout
 
 \begin_layout Standard
-La strega vestita di nero si mise a ridere forte.
+La strega vestita di nero iniziò a ridere fragorosamente.
  «Ma 
 \emph on
 è
@@ -569,12 +577,12 @@ Harry si abbatté un po'.
 \begin_layout Standard
 «Con tutto il rispetto, signor Potter, io sono abbastanza sicura di non
  capirlo.
- A meno che -- questa è solo una supposizione, badi bene -- lei stia cercando
+ A meno che – questa è solo una supposizione, badi bene – lei stia cercando
  di conquistare il mondo?»
 \end_layout
 
 \begin_layout Standard
-«No! Voglio dire sì -- beh, 
+«No! Voglio dire sì – beh, 
 \emph on
 no!
 \emph default
@@ -588,11 +596,11 @@ no!
 
 \begin_layout Standard
 Harry considerò tristemente la Conferenza di Dartmouth sull'Intelligenza
- Artificiale nel 1956.
- Era stata la prima conferenza sul tema, quella che aveva coniato la frase
- «Intelligenza Artificiale».
+ Artificiale del 1956.
+ Era stata la prima conferenza sul tema, quella che aveva coniato la locuzione
+ «intelligenza artificiale».
  Avevano individuato i problemi chiave, come far capire ai computer il linguaggi
-o naturale, come insegnare loro a imparare e come migliorare sé stessi.
+o naturale, come insegnare loro a imparare e a migliorare sé stessi.
  Avevano indicato, in assoluta serietà, che progressi significativi su tali
  problemi sarebbero potuti essere ottenuti da dieci scienziati che avessero
  lavorato insieme per due mesi.
@@ -661,10 +669,10 @@ La professoressa McGonagall strinse le labbra, poi scrollò le spalle.
 Harry scosse la testa.
  «Tecnologia e scienza non sono affatto la stessa cosa.
  E provare molti modi diversi di fare qualcosa non è lo stesso che sperimentare
- per capire le regole.» C'erano state molte persone che avevano cercato di
+ per capire le leggi.» C'erano state molte persone che avevano cercato di
  inventare macchine volanti provando un sacco di cose-con-le-ali, ma solo
  i fratelli Wright avevano costruito una galleria del vento per misurare
- la portanza\SpecialChar \ldots{}
+ la portanza\SpecialChar ldots
  «Ehm, quanti bambini cresciuti da Babbani 
 \emph on
 avete
@@ -686,14 +694,14 @@ Dieci?
 \end_layout
 
 \begin_layout Standard
-Il mondo babbano aveva una popolazione di sei miliardi e in crescita.
+Il mondo babbano aveva una popolazione di sei miliardi, in crescita.
  Se eri uno su un milione, ce n'erano sette come te a Londra e un migliaio
  in più in Cina.
  Era inevitabile che la popolazione babbana producesse 
 \emph on
 alcuni
 \emph default
- undicenni che conoscessero il calcolo infinitesimale -- Harry sapeva di
+ undicenni che conoscessero il calcolo infinitesimale – Harry sapeva di
  non essere il solo.
  Aveva incontrato altri prodigi nelle competizioni matematiche.
  In realtà era stato meticolosamente surclassato da concorrenti che probabilment
@@ -735,8 +743,8 @@ creativo
 \end_layout
 
 \begin_layout Standard
-Ma\SpecialChar \ldots{}
- nel mondo dei maghi\SpecialChar \ldots{}
+Ma\SpecialChar ldots
+ nel mondo dei maghi\SpecialChar ldots
 
 \end_layout
 
@@ -744,7 +752,7 @@ Ma\SpecialChar \ldots{}
 Dieci bambini allevati da Babbani all'anno, tutti che avevano terminato
  la loro istruzione babbana all'età di undici anni? E la professoressa McGonagal
 l poteva essere di parte, ma aveva sostenuto che Hogwarts era la più grande
- e la più eminente scuola di magia nel mondo\SpecialChar \ldots{}
+ e la più eminente scuola di magia nel mondo\SpecialChar ldots
  e istruiva solo fino all'età
  di diciassette anni.
 \end_layout
@@ -778,7 +786,7 @@ le, che anche se maghi e streghe avevano fatto del loro meglio per capirla,
 \end_layout
 
 \begin_layout Standard
-Oppure\SpecialChar \ldots{}
+Oppure\SpecialChar ldots
 
 \end_layout
 
@@ -808,7 +816,7 @@ richiedevano
 \end_layout
 
 \begin_layout Standard
-Ma Harry non riuscì ugualmente a fermare l'ampio sorriso che deformava così
+Ma Harry non riuscì comunque a fermare l'ampio sorriso che deformava così
  tanto le sue guance, che gli stavano iniziando a fare male.
 \end_layout
 
@@ -816,11 +824,11 @@ Ma Harry non riuscì ugualmente a fermare l'ampio sorriso che deformava così
 Harry aveva sempre avuto paura di finire come uno di quei bambini prodigio
  che non avevano mai concluso nulla, e che trascorrevano il resto della
  loro vita a vantarsi di quanto fossero stati bravi all'età di dieci anni.
- Ma del resto, la maggior parte dei geni adulti non concludeva ugualmente
+ Ma del resto, la maggior parte dei genî adulti non concludeva ugualmente
  nulla.
  C'erano probabilmente un migliaio di persone intelligenti come Einstein
  per ciascun Einstein vero e proprio, nella storia.
- Perché quegli altri geni non avevano messo le mani sulla cosa di cui avevano
+ E quegli altri genî non avevano messo le mani sulla cosa di cui avevano
  assolutamente bisogno per raggiungere la grandezza.
  Non avevano mai trovato un problema importante.
 \end_layout
@@ -842,7 +850,7 @@ Io, Harry James Potter-Evans-Verres, rivendico ora questo territorio in
 \end_layout
 
 \begin_layout Standard
-Fulmini e tuoni omisero completamente di illuminare e rimbombare nel cielo
+Fulmini e tuoni omisero completamente di sfolgorare e rimbombare nel cielo
  terso.
 \end_layout
 
@@ -864,10 +872,10 @@ Fulmini e tuoni omisero completamente di illuminare e rimbombare nel cielo
 \end_layout
 
 \begin_layout Standard
-«La ignori, passerà.
- Ooh, carino!» Harry mise i suoi pensieri di conquista del mondo temporaneamente
- in attesa e scattò verso un negozio con un espositore esterno, e la professores
-sa McGonagall lo seguì.
+«La ignori, le passerà.
+ Ooh, carino!» Harry mise temporaneamente in sospeso i propri pensieri di
+ conquista del mondo e scattò verso un negozio con un espositore esterno,
+ e la professoressa McGonagall lo seguì.
 \end_layout
 
 \begin_layout Standard
@@ -884,7 +892,7 @@ sa McGonagall lo seguì.
 \end_layout
 
 \begin_layout Standard
-Harry aveva ora acquistato gli ingredienti per le pozioni e il calderone,
+Harry aveva ormai acquistato gli ingredienti per le pozioni e il calderone,
  e, oh, un paio di accessori.
  Oggetti che sembravano le cose giuste da portare nella Borsa Conservante
  di Harry (alias Moke Super Pouch 
@@ -897,7 +905,7 @@ qx
 \end_layout
 
 \begin_layout Standard
-Harry sinceramente non capiva perché la professoressa McGonagall sembrasse
+Sinceramente Harry non capiva perché la professoressa McGonagall sembrasse
  così 
 \emph on
 sospettosa
@@ -906,8 +914,8 @@ sospettosa
 \end_layout
 
 \begin_layout Standard
-In quel momento, Harry era in un negozio abbastanza costoso da essere posto
- lungo la tortuosa strada principale di Diagon Alley.
+In quel momento si trovavano in un negozio abbastanza costoso da essere
+ posto lungo la tortuosa strada principale di Diagon Alley.
  Il negozio aveva una parte anteriore aperta, con la merce disposta su scaffalat
 ure di legno inclinate, e protetta solo da tenui bagliori grigi e da una
  commessa giovanile in una versione molto ridotta delle vesti da strega,
@@ -949,9 +957,9 @@ Antidoto per Confondimorso
 \end_layout
 
 \begin_layout Standard
-«Per cinque galeoni è un acquisto certo, non è d'accordo?» chiese alla professor
-essa McGonagall, e la commessa adolescente che si librava là vicino annuì
- con entusiasmo.
+«Per cinque galeoni è un acquisto scontato, non è d'accordo?» chiese alla
+ professoressa McGonagall, e la commessa adolescente che si librava là vicino
+ annuì con entusiasmo.
 \end_layout
 
 \begin_layout Standard
@@ -1060,7 +1068,7 @@ citato in cap.
 \end_layout
 
 \begin_layout Standard
-Questa battuta esilarante non riuscì a tranquillizzare la strega, che stava
+Quella battuta esilarante non riuscì a tranquillizzare la strega, che stava
  rivolgendogli lo Sguardo del Fato.
 \end_layout
 
@@ -1107,12 +1115,12 @@ con che razza di bambini folli è abituata a trattare?
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
-A questo punto la Vicepreside s'intromise dicendo qualcosa del tipo che
- se quello 
+A quel punto la Vicepreside s'intromise dicendo qualcosa del tipo che se
+ quello 
 \emph on
 l'avesse fatto
 \emph default
@@ -1122,7 +1130,7 @@ l'avesse fatto
 \end_layout
 
 \begin_layout Standard
-«-- ho intenzione di andare in Corvonero.
+«– ho intenzione di andare in Corvonero.
  E se davvero pensa che stia progettando di fare qualcosa di pericoloso,
  allora, onestamente, non mi ha capito 
 \emph on
@@ -1157,7 +1165,7 @@ eventualità impreviste
 \emph on
 Siate pronti! Questa è la canzone di marcia dei Boy Scout! Siate pronti!
  Mentre marciate attraverso la vita! Non siate nervosi, non siate agitati,
- non siate timorosi -- siate pronti!
+ non siate timorosi – siate pronti!
 \emph default
 »
 \end_layout
@@ -1173,9 +1181,8 @@ in particolare
 \end_layout
 
 \begin_layout Standard
-La posizione della professoressa McGonagall si ammorbidì leggermente --
- anche se per lo più ciò avvenne quando Harry disse che era destinato a
- Corvonero.
+La posizione della professoressa McGonagall si ammorbidì leggermente – anche
+ se per lo più ciò avvenne quando Harry disse che era destinato a Corvonero.
  «Per che genere di 
 \emph on
 eventualità
@@ -1200,7 +1207,7 @@ Perché non eri preparato?
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1212,7 +1219,7 @@ Harry udì gemere la commessa, e alzò lo sguardo per vederla mentre lo fissava
 \begin_layout Standard
 
 \emph on
-Che cosa\SpecialChar \ldots{}
+Che cosa\SpecialChar ldots
 ?
 \end_layout
 
@@ -1239,31 +1246,31 @@ Quietus
 \begin_layout Standard
 
 \emph on
-Che cosa ho fatto di sbagliato\SpecialChar \ldots{}
+Che cosa ho fatto di sbagliato\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
 La professoressa McGonagall si voltò a osservare Harry.
- Non aveva la completa Espressione da Rimprovero da adulto, ma la sua espression
-e era piatta, controllata.
+ Non aveva la completa Espressione da Rimprovero da adulto, ma l'atteggiamento
+ del suo volto era piatto, controllato.
  «Deve ricordare, signor Potter», disse, «che c'è stata una guerra in questo
  Paese non più di dieci anni fa.
  Tutti hanno perso qualcuno, e parlare di amici che muoiono tra le tue braccia
- -- non va fatto con leggerezza.»
+ – non va fatto con leggerezza.»
 \end_layout
 
 \begin_layout Standard
-«Io -- io non volevo
+«Io – io non volevo
 \begin_inset space ~
 \end_inset
 
---» L'implicazione cadde come un sasso nell'immaginazione eccezionalmente
+–» L'implicazione cadde come un sasso nell'immaginazione eccezionalmente
  vivida di Harry.
- Aveva parlato di qualcuno che esalava il suo ultimo respiro -- e poi la
- commessa era fuggita -- e la guerra era finita dieci anni prima, quindi
+ Aveva parlato di qualcuno che esalava il suo ultimo respiro – e poi la
+ commessa era fuggita – e la guerra era finita dieci anni prima, quindi
  la ragazza avrebbe avuto al massimo di otto o nove anni, quando, quando,
- «Mi dispiace, io non volevo\SpecialChar \ldots{}
+ «Mi dispiace, io non volevo\SpecialChar ldots
 » Harry si sentì soffocare, e si voltò per sfuggire
  allo sguardo dell'anziana strega, ma c'era un muro di terra che bloccava
  la sua strada e non aveva ancora la sua bacchetta.
@@ -1291,7 +1298,7 @@ Qualcosa di simile è accaduto a
 \begin_inset space ~
 \end_inset
 
---» e poi Harry chiuse le labbra e mise una mano sulla bocca per sicurezza.
+–» e poi Harry chiuse le labbra e mise una mano sulla bocca per sicurezza.
 \end_layout
 
 \begin_layout Standard
@@ -1313,7 +1320,7 @@ e fare in modo che non fosse mai accaduto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1353,7 +1360,7 @@ perché?
 \end_layout
 
 \begin_layout Standard
-«Signor Potter\SpecialChar \ldots{}
+«Signor Potter\SpecialChar ldots
 » la voce della vecchia strega si affievolì.
  Poi sospirò, e si inginocchiò accanto a lui.
  «Signor Potter», disse ora con dolcezza, «non è responsabilità sua prendersi
@@ -1376,13 +1383,13 @@ sì!
 \emph on
 Nessun luogo
 \emph default
- è perfettamente sicuro! E se i miei genitori avessero un attacco di cuore
- o fossero coinvolti in un incidente quando tornerò a casa per Natale --
- Madam Pomfrey non sarà lì, avrò bisogno di un kit di guarigione tutto mio
+ è del tutto sicuro! E se i miei genitori avessero un attacco di cuore o
+ avessero un incidente quando tornerò a casa per Natale – Madam Pomfrey
+ non sarà lì, avrò bisogno di un kit di guarigione tutto mio
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1390,7 +1397,7 @@ Nessun luogo
 \emph on
 cosa
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 » disse la professoressa McGonagall.
  Si alzò e guardò giù verso Harry, con un'espressione divisa tra il fastidio
  e la preoccupazione.
@@ -1411,8 +1418,8 @@ Sì
 \begin_layout Standard
 La professoressa McGonagall aprì la bocca, poi la richiuse.
  La strega si massaggiò la radice del naso, l'espressione pensierosa.
- «Signor Potter\SpecialChar \ldots{}
- se dovessi offrirle di stare ad ascoltarla per un po'\SpecialChar \ldots{}
+ «Signor Potter\SpecialChar ldots
+ se dovessi offrirle di stare ad ascoltarla per un po'\SpecialChar ldots
  ci
  sarebbe qualcosa che desidererebbe raccontarmi?»
 \end_layout
@@ -1429,16 +1436,16 @@ La professoressa McGonagall aprì la bocca, poi la richiuse.
 \begin_layout Standard
 Harry la guardò perplesso.
  Si trattava di un assioma auto-evidente.
- «Beh\SpecialChar \ldots{}
+ «Beh\SpecialChar ldots
 » iniziò Harry lentamente.
  Cercò di organizzare i pensieri.
  Come 
 \emph on
 poteva
 \emph default
- spiegarsi con una professoressa-strega, quando ella non conosceva neppure
- le basi? «Ricercatori babbani hanno scoperto che le persone sono sempre
- molto ottimiste, rispetto alla realtà.
+ spiegarsi con una professoressa-strega, che non conosceva neppure le basi?
+ «Ricercatori babbani hanno scoperto che le persone sono sempre molto ottimiste,
+ rispetto alla realtà.
  Del tipo, dicono che ci vorranno due giorni per terminare qualcosa e ci
  vogliono dieci giorni, oppure dicono che ci vorranno due mesi e ci vogliono
  più di 35 anni.
@@ -1456,7 +1463,7 @@ ibili.
 normale
 \emph default
 , egli immaginerà quella che sembra la linea di massima probabilità a ciascun
- passo lungo il percorso -- tutto va secondo i piani, senza sorprese.
+ passo lungo il percorso – tutto va secondo i piani, senza sorprese.
  Ma effettivamente, dal momento che più della metà degli studenti non rispettò
  la scadenza che erano sicuri al 99% di rispettare, la realtà offre solitamente
  risultati un po' peggiori rispetto allo `scenario peggiore'.
@@ -1492,7 +1499,7 @@ sottostimare
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1534,7 +1541,7 @@ La professoressa McGonagall strinse con le dita la radice del naso, inspirò
 \end_layout
 
 \begin_layout Standard
-«Uhm\SpecialChar \ldots{}
+«Uhm\SpecialChar ldots
 » iniziò Harry.
  Fece un respiro profondo.
  «C'erano stati alcuni scippi nel nostro quartiere, e mia madre mi chiese
@@ -1569,7 +1576,7 @@ altro
 \emph on
 sembra 
 \emph default
-gran che», si difese Harry.
+un gran che», si difese Harry.
  «Ma fu uno di quei momenti cruciali di una vita, sa? Voglio dire, 
 \emph on
 sapevo
@@ -1595,14 +1602,14 @@ pregai
 la mise sul ridere
 \emph default
 .
- Tutto ciò che dicevo, lei lo considerava come una specie di scherzo\SpecialChar \ldots{}
+ Tutto ciò che dicevo, lei lo considerava come una specie di scherzo\SpecialChar ldots
 » Harry
  costrinse la rabbia nera a ritirarsi nuovamente.
  «In quel momento mi resi conto che tutti quelli che avrebbero dovuto proteggerm
-i erano in realtà folli, e che non mi avrebbero ascoltato, non importava
- quanto li pregassi, e che non avrei potuto mai fare affidamento su di loro
- per fare qualcosa nel modo giusto.» A volte non era sufficiente essere bene
- intenzionati, a volte si doveva essere sani di mente\SpecialChar \ldots{}
+i erano in realtà folli, e che non mi avrebbero ascoltato, non importa quanto
+ li pregassi, e che non avrei potuto mai fare affidamento su di loro per
+ fare qualcosa nel modo giusto.» A volte non era sufficiente essere bene
+ intenzionati, a volte si doveva essere sani di mente\SpecialChar ldots
 
 \end_layout
 
@@ -1642,7 +1649,7 @@ Harry non si piaceva quando era arrabbiato.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1651,7 +1658,7 @@ Harry non si piaceva quando era arrabbiato.
 
 \begin_layout Standard
 La strega si fermò e lo guardò fermamente.
- «E se dicessi di no -- che è troppo costoso e non ne avrà bisogno -- allora
+ «E se dicessi di no – che è troppo costoso e non ne avrà bisogno – allora
  che succederebbe?»
 \end_layout
 
@@ -1697,6 +1704,10 @@ La bacchetta nella mano della strega disegnò una forma circolare, e i rumori
 \begin_layout Standard
 Harry rimase a bocca aperta per la sorpresa.
  Poi si affrettò dietro di lei, quasi inciampando nella sua corsa improvvisa.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1726,7 +1737,7 @@ Il negozio era come l'avevano lasciato, articoli riconoscibili e irriconoscibili
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1768,8 +1779,8 @@ Era davvero piuttosto inquietante vedere come il Bordo Allargante ingoiasse
 \end_layout
 
 \begin_layout Standard
-Quando la borsa ebbe finito di\SpecialChar \ldots{}
- mangiare\SpecialChar \ldots{}
+Quando la borsa ebbe finito di\SpecialChar ldots
+ mangiare\SpecialChar ldots
  il suo acquisto conquistato con
  molta fatica, Harry poté giurare di averle sentito fare un ruttino.
  Quello 
@@ -1777,7 +1788,7 @@ Quando la borsa ebbe finito di\SpecialChar \ldots{}
 doveva
 \emph default
  essere stato inserito volutamente.
- L'ipotesi alternativa era troppo orribile da contemplare\SpecialChar \ldots{}
+ L'ipotesi alternativa era troppo orribile da contemplare\SpecialChar ldots
  infatti Harry
  non riusciva nemmeno 
 \emph on
@@ -1793,12 +1804,12 @@ a pensare
 La professoressa McGonagall indicò un negozio che sembrava fosse stato costruito
  con della carne, invece che con i mattoni, e rivestito di pelliccia, invece
  che di pittura.
- «Gli animali domestici di piccola taglia sono ammessi a Hogwarts -- potrebbe
+ «Gli animali domestici di piccola taglia sono ammessi a Hogwarts – potrebbe
  prendere un gufo per inviare le lettere, per esempio
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1900,7 +1911,7 @@ Potrei
 \begin_inset space ~
 \end_inset
 
---» Harry si fermò di colpo.
+–» Harry si fermò di colpo.
 \end_layout
 
 \begin_layout Standard
@@ -2021,7 +2032,7 @@ azzardi
 \emph on
 insinuazioni
 \emph default
- a nessun'altro! 
+ a nessun altro! 
 \emph on
 Nessuno
 \emph default
@@ -2058,7 +2069,7 @@ Non si azzardi a minacciare la mia famiglia con questa storia! Non le lascerò
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2123,7 +2134,7 @@ niente
 \emph on
 molto
 \emph default
- simile\SpecialChar \ldots{}
+ simile\SpecialChar ldots
  a quello che farebbe qualcuno che ha trascorso i suoi primi undici
  anni chiuso in una cantina.
  Non nella famiglia amorevole che ho conosciuto.» La professoressa McGonagall
@@ -2190,7 +2201,7 @@ Un brivido scese lungo la schiena di Harry.
 \emph on
 Quella
 \emph default
- ipotesi\SpecialChar \ldots{}
+ ipotesi\SpecialChar ldots
  
 \emph on
 non poteva
@@ -2202,7 +2213,7 @@ non poteva
 \begin_layout Standard
 «In effetti no», concesse la professoressa McGonagall.
  «Ci sarebbe voluto qualcuno del mondo dei maghi.
- Non c'è\SpecialChar \ldots{}
+ Non c'è\SpecialChar ldots
  non c'è modo di esserne certi, temo.»
 \end_layout
 
@@ -2236,7 +2247,7 @@ Le sopracciglia di Harry salirono verso il cielo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2247,7 +2258,7 @@ Le sopracciglia di Harry salirono verso il cielo
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -2263,8 +2274,8 @@ Le sopracciglia di Harry salirono verso il cielo
 \begin_layout Standard
 «I bambini non sono fatti per essere troppo più intelligenti dei loro genitori»,
  disse Harry.
- «O troppo più sani di mente, forse -- mio padre potrebbe probabilmente
- superarmi in arguzia se lui, sa, 
+ «O troppo più sani di mente, forse – mio padre potrebbe probabilmente superarmi
+ in arguzia se lui, sa, 
 \emph on
 provasse
 \emph default
@@ -2273,7 +2284,7 @@ provasse
 \begin_inset space ~
 \end_inset
 
---» Harry si fermò.
+–» Harry si fermò.
  «Sono troppo intelligente, Professoressa.
  Non ho nulla da dire ai bambini normali.
  Gli adulti non mi rispettano a sufficienza per parlare veramente con me.
@@ -2291,7 +2302,7 @@ isolato
  E sono troppo intelligente per guardare ai miei genitori nel modo in cui
  i bambini sono progettati per fare.
  I miei genitori mi amano, ma non si sentono obbligati a rispondere alla
- ragione, e qualche volta mi sento come se loro fossero i bambini -- bambini
+ ragione, e qualche volta mi sento come se loro fossero i bambini – bambini
  che 
 \emph on
 non vogliono ascoltare
@@ -2320,6 +2331,10 @@ Harry annuì con decisione.
 considerata
 \emph default
 , no?»
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2361,7 +2376,7 @@ In quel momento, essi stavano uscendo da Ollivander's, e Harry stava fissando
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2402,7 +2417,7 @@ E
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2482,10 +2497,10 @@ La sua mano sinistra andò a toccare la sua cicatrice.
 \end_layout
 
 \begin_layout Standard
-Cosa\SpecialChar \ldots{}
+Cosa\SpecialChar ldots
  
 \emph on
-esattamente\SpecialChar \ldots{}
+esattamente\SpecialChar ldots
 
 \end_layout
 
@@ -2537,7 +2552,7 @@ E cosa pensa del mondo dei maghi?
 \begin_inset Quotes fld
 \end_inset
 
-Dovrei pensare a tutto ciò che ho visto della magia\SpecialChar \ldots{}
+Dovrei pensare a tutto ciò che ho visto della magia\SpecialChar ldots
  a tutto ciò che ora
  so essere possibile, e a tutto ciò che ora so essere una bugia, e tutto
  il lavoro davanti a me per comprenderlo.
@@ -2576,7 +2591,7 @@ Harry annuì.
 \end_inset
 
 Sì.
- È semplicemente\SpecialChar \ldots{}
+ È semplicemente\SpecialChar ldots
  
 \emph on
 strano
@@ -2624,7 +2639,7 @@ Ma conto sul fatto che questo non sarà un problema.
 \begin_inset Quotes fld
 \end_inset
 
-Ad ogni modo\SpecialChar \ldots{}
+Ad ogni modo\SpecialChar ldots
  è quasi sufficiente a farmi sperare che vi siano 
 \emph on
 alcune
@@ -2788,7 +2803,7 @@ davvero
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2817,7 +2832,7 @@ scherzando
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2898,7 +2913,7 @@ Signor Potter
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2981,7 +2996,7 @@ Signor Potter
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2992,7 +3007,7 @@ Signor Potter
 \begin_inset Quotes fld
 \end_inset
 
-Almeno mi dica che non c'è davvero una profezia\SpecialChar \ldots{}
+Almeno mi dica che non c'è davvero una profezia\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -3116,7 +3131,7 @@ undici anni
 \end_inset
 
 E perciò subumano.
- Le chiedo scusa\SpecialChar \ldots{}
+ Le chiedo scusa\SpecialChar ldots
  per un momento l'avevo 
 \emph on
 dimenticato
@@ -3191,7 +3206,7 @@ incerta
 \emph on
 Giustizia e ragione sono destinate entrambe a fallire.
  Devi trovare qualcosa che hai e che lei vuole, o qualcosa che tu puoi fare,
- e che lei teme\SpecialChar \ldots{}
+ e che lei teme\SpecialChar ldots
 
 \end_layout
 
@@ -3343,7 +3358,7 @@ Capirei se volesse prendersi del tempo per pensare alla mia
 \emph on
 offerta
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
  ma l'avviso di una cosa
 \begin_inset Quotes frd
 \end_inset
@@ -3360,7 +3375,7 @@ Non provi a usare quell'incantesimo di Obliazione su di me.
 \emph on
 ricordassi
 \emph default
- di essermelo mandato\SpecialChar \ldots{}
+ di essermelo mandato\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -3375,8 +3390,8 @@ Il volto di McGonagall lavorò, mentre le sue espressioni si scambiavano
 \begin_inset Quotes fld
 \end_inset
 
-Io\SpecialChar \ldots{}
- non stavo pensando di Obliarla, signor Potter\SpecialChar \ldots{}
+Io\SpecialChar ldots
+ non stavo pensando di Obliarla, signor Potter\SpecialChar ldots
  ma perché avrebbe dovuto
  
 \emph on
@@ -3386,7 +3401,7 @@ inventare
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -3402,7 +3417,7 @@ L'ho pensato mentre leggevo un libro di fantascienza babbana, e ho detto
 \emph on
 bene, nel caso servisse
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
  E no, non le dirò che segnale è, non sono stupido.
 \begin_inset Quotes frd
 \end_inset
@@ -3478,6 +3493,10 @@ Citato in cap.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3514,7 +3533,7 @@ Harry aveva fatto le sue domande, e aveva gravitato verso un baule di legno
  fuori per rivelare compartimenti profondi come l'intero baule.
  Un coperchio con quattro serrature, ognuna delle quali avrebbe rivelato
  uno spazio diverso all'interno.
- E -- questa era la parte più importante -- una maniglia sul fondo che faceva
+ E – questa era la parte più importante – una maniglia sul fondo che faceva
  scivolare fuori un telaio contenente una scala che portava giù in una piccola
  stanza illuminata, la quale poteva contenere, Harry stimò, circa dodici
  librerie.
@@ -3580,7 +3599,7 @@ Mi dispiace, giovanotto
 \end_layout
 
 \begin_layout Standard
-Harry la osservò, chiedendosi\SpecialChar \ldots{}
+Harry la osservò, chiedendosi\SpecialChar ldots
 
 \end_layout
 
@@ -3605,7 +3624,7 @@ allora possiamo andare, presumo.
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  
 \emph on
 non aveva
@@ -3617,13 +3636,13 @@ pensato
 \emph default
  invece di lasciare che la sua rabbia esplodesse.
  Poteva essere semplicemente perché c'era un Signore Oscuro immortale da
- combattere -- perché aveva bisogno della buona volontà di Harry.
+ combattere – perché aveva bisogno della buona volontà di Harry.
  Ma la maggior parte degli adulti non sarebbe stata in grado di pensare
  neppure quello; non avrebbero affatto considerato le 
 \emph on
 conseguenze future
 \emph default
-, se qualcuno di uno status inferiore si fosse rifiutato di obbedire loro\SpecialChar \ldots{}
+, se qualcuno di uno status inferiore si fosse rifiutato di obbedire loro\SpecialChar ldots
 
 \end_layout
 
@@ -3654,7 +3673,7 @@ Non mi ha ascoltato
 \emph on
 io avrei preso più oro, ma lei non mi ha ascoltato
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
  Concentrando tutto il suo mondo sulla McGonagall e sulla necessità di piegare
  quella conversazione alla propria volontà, parlò.
 \end_layout
@@ -3664,7 +3683,7 @@ io avrei preso più oro, ma lei non mi ha ascoltato
 i per un baule.
  Ecco perché non si è presa il disturbo di avvertirmi prima che scendessero
  a novantasette.
- Il che è proprio il genere di cose che le ricerche dimostrano -- questo
+ Il che è proprio il genere di cose che le ricerche dimostrano – questo
  è quello che succede quando le persone pensano di essersi lasciate un 
 \emph on
 piccolo
@@ -3700,7 +3719,7 @@ Ma, giovanotto
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -3731,18 +3750,18 @@ arrabbiano
 veramente importante
 \emph default
  da fare, non sarei in grado di fidarmi di lei.
- Anche se ascoltasse con profondo interesse ciò che le dicessi -- perché
+ Anche se ascoltasse con profondo interesse ciò che le dicessi – perché
  anche questo fa parte del ruolo di qualcuno che interpreta la 
 \emph on
 parte
 \emph default
- dell'adulto interessato -- non cambierebbe mai le sue azioni, non si comportere
-bbe mai realmente in modo differente, a causa di qualcosa che le avessi
- detto io.»
+ dell'adulto interessato – non cambierebbe mai le sue azioni, non si comportereb
+be mai realmente in modo differente, a causa di qualcosa che le avessi detto
+ io.»
 \end_layout
 
 \begin_layout Standard
-Il commesso li stava guardando entrambi con palese affascinazione.
+Il commesso li stava guardando entrambi con palese affascinamento.
 \end_layout
 
 \begin_layout Standard
@@ -3754,7 +3773,7 @@ Il commesso li stava guardando entrambi con palese affascinazione.
 
 \begin_layout Standard
 Harry annuì e continuò.
- «Quindi -- supponga che io abbia il modo di prelevare altri galeoni dal
+ «Quindi – supponga che io abbia il modo di prelevare altri galeoni dal
  mio deposito 
 \emph on
 senza
@@ -3802,8 +3821,8 @@ non avessimo
 \begin_inset Quotes fld
 \end_inset
 
-Suppongo\SpecialChar \ldots{}
- di sì\SpecialChar \ldots{}
+Suppongo\SpecialChar ldots
+ di sì\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -3842,7 +3861,7 @@ Dove
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -3998,7 +4017,7 @@ chiunque
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -4029,12 +4048,12 @@ Il commesso, nuovamente mellifluo, indicò in direzione di una porta inserita
 \end_inset
 
 Posso domandare chi sia quella persona, Madam McGonagall? Presumo sia un
- Serpeverde -- del terzo anno, forse? -- e di famiglia illustre, ma non
- ho riconosciuto
+ Serpeverde – del terzo anno, forse? – e di famiglia illustre, ma non ho
+ riconosciuto
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -4049,6 +4068,10 @@ Il rumore della porta del bagno che si chiudeva interruppe le sue parole,
  L'intero corpo di Harry era ricoperto di sudore, che aveva impregnato i
  suoi abiti babbani, sebbene, quanto meno, non si vedesse attraverso le
  vesti da mago.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4072,7 +4095,7 @@ Il sole stava tramontando ed era effettivamente molto tardi, quando si trovarono
 \emph on
 terribile
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 ) Una volta arrivato dall'altra parte, Harry raggiunse una cabina telefonica
  e chiamò suo padre.
  Non aveva bisogno di preoccuparsi che il suo bagaglio venisse rubato, apparente
@@ -4097,7 +4120,7 @@ Quindi le nostre strade si dividono qui, per ora
 \begin_inset Quotes fld
 \end_inset
 
-Questo è stato il giorno più strano della mia vita da\SpecialChar \ldots{}
+Questo è stato il giorno più strano della mia vita da\SpecialChar ldots
  diversi anni.
  Sin dal giorno in cui venni a sapere che un bambino aveva sconfitto Tu-Sai-Chi.
  Oggi mi chiedo, guardandomi indietro, se quello sia stato l'ultimo giorno
@@ -4197,7 +4220,7 @@ Questa donna sarebbe potuta essere l'adulto più sano di mente che Harry
  abbastanza folle da dirlo ad alta voce.
  
 \emph on
-E quale sarebbe un nome appropriato per questo gruppo\SpecialChar \ldots{}
+E quale sarebbe un nome appropriato per questo gruppo\SpecialChar ldots
 ? I Mangiamangiamorte?
 \end_layout
 
@@ -4218,7 +4241,7 @@ E, signor Potter, riguardo alla sua bacchetta
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -4399,6 +4422,10 @@ Chi è?
 \begin_layout Standard
 Non ci fu risposta, e quando Harry si girò, la professoressa McGonagall
  se n'era andata.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
