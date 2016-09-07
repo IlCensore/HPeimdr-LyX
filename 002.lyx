@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -69,16 +71,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Myriad Pro
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Myriad Pro"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -177,6 +179,7 @@ da cap 90, con modifica.
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Quotes fld
 \end_inset
 
@@ -362,7 +365,7 @@ Harry si passò una mano tra i capelli.
 \emph on
 già
 \emph default
- stata convinta, ma\SpecialChar \ldots{}
+ stata convinta, ma\SpecialChar ldots
  
 \begin_inset Quotes fld
 \end_inset
@@ -382,7 +385,7 @@ Si penserebbe che ci debba essere un qualche tipo di evento mentale ben
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -442,7 +445,7 @@ Non è tenuta a farlo
 \end_inset
 
 Ha eseguito l'esperimento decisivo.
- Ma\SpecialChar \ldots{}
+ Ma\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -651,7 +654,7 @@ era
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -815,7 +818,7 @@ hmmmmm
 \end_inset
 
 Non riesco a ricordare di aver mai sentito parlare di una tale condizione,
- in passato\SpecialChar \ldots{}
+ in passato\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -834,8 +837,7 @@ Controllerò con Madam Pomfrey per vedere se conosce qualche rimedio.
 \begin_inset Quotes fld
 \end_inset
 
-No, sono certa che questo non sarà un problema -- nel tempo troverò una
- soluzione.
+No, sono certa che questo non sarà un problema – nel tempo troverò una soluzione.
 \begin_inset Note Note
 status collapsed
 

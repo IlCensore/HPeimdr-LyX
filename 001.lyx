@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -74,16 +76,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Arno Pro
-\font_sans Aquatico
-\font_typewriter Comic Neue Angular
-\font_math auto
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Aquatico"
+\font_typewriter "default" "Comic Neue Angular"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -157,7 +159,7 @@ name "chap:01Una-giornata-molto"
 \size small
 \emph on
 Al chiaro di luna risplende un piccolo frammento d'argento, una frazione
- di una linea\SpecialChar \ldots{}
+ di una linea\SpecialChar ldots
 
 \begin_inset Note Note
 status open
@@ -192,7 +194,7 @@ da cap 114
 \begin_inset Newline newline
 \end_inset
 
-\SpecialChar \ldots{}
+\SpecialChar ldots
  sangue fuoriesce a litri, e qualcuno urla una parola.
 \begin_inset Note Note
 status open
@@ -217,6 +219,7 @@ da cap 114
 \end_layout
 
 \begin_layout Standard
+\noindent
 \align block
 
 \noun on
@@ -308,11 +311,11 @@ Questo è assurdo!
 \begin_inset Quotes fld
 \end_inset
 
-Erano al nostro matrimonio -- sono venuti da noi a Natale
+Erano al nostro matrimonio – sono venuti da noi a Natale
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -337,7 +340,7 @@ Ma è vero, ho visto cose
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -360,7 +363,7 @@ Cara, capisco che tu non abbia familiarità con la letteratura scettica.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -376,7 +379,7 @@ Non si trattava di cucchiai piegati
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -407,7 +410,7 @@ Non posso dirtelo.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -417,11 +420,11 @@ Non posso dirtelo.
 \end_inset
 
 Ascolta, Michael.
- Non sono -- sempre stata così
+ Non sono – sempre stata così
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -431,7 +434,7 @@ Ascolta, Michael.
 \end_inset
 
 Lily ha fatto questo.
- Perché -- perché l'ho 
+ Perché – perché l'ho 
 \emph on
 implorata
 \emph default
@@ -441,7 +444,7 @@ implorata
 \emph on
 sempre
 \emph default
- stata più bella di me, e io\SpecialChar \ldots{}
+ stata più bella di me, e io\SpecialChar ldots
  ero stata cattiva con lei, per questo motivo,
  e quando ebbe anche la 
 \emph on
@@ -472,7 +475,7 @@ Delle lacrime stavano salendo agli occhi di Petunia.
 
 E Lily mi rispondeva di no, e si inventava le scuse più ridicole, come che
  il mondo sarebbe finito se fosse stata gentile con sua sorella, o che un
- centauro le aveva detto di non farlo -- le scuse più ridicole, e la odiavo
+ centauro le aveva detto di non farlo – le scuse più ridicole, e la odiavo
  per questo.
  E quando mi ero appena laureata, uscivo con questo ragazzo, Vernon Dursley,
  era grasso ed era l'unico ragazzo che mi rivolgesse la parola.
@@ -526,7 +529,7 @@ cedette.
  Mi disse che sarebbe stato pericoloso, e risposi che non mi importava più,
  e bevetti quella pozione e caddi ammalata per settimane, ma quando tornai
  in salute la mia pelle si era schiarita e la mia figura si era finalmente
- riempita e io\SpecialChar \ldots{}
+ riempita e io\SpecialChar ldots
  ero bellissima, le persone erano 
 \emph on
 gentili
@@ -544,7 +547,7 @@ e dopo di questo non potei più odiare mia sorella, specie quando scoprii
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -570,7 +573,7 @@ ti sei ammalata, hai preso peso mentre riposavi a letto, e la tua pelle
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -729,7 +732,7 @@ loro?
 \begin_inset Quotes fld
 \end_inset
 
-Ah\SpecialChar \ldots{}
+Ah\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -827,7 +830,7 @@ tu
 La bocca di Harry si contorse per l'amarezza.
  Era trattato bene, probabilmente meglio di quanto la maggior parte dei
  padri genetici trattassero i propri figli.
- Era stato mandato nelle migliori scuole elementari -- e quando quello non
+ Era stato mandato nelle migliori scuole elementari – e quando quello non
  aveva funzionato, aveva avuto precettori provenienti dall'inesauribile
  riserva degli studenti squattrinati.
  Era stato sempre incoraggiato a studiare qualunque cosa catturasse la sua
@@ -875,16 +878,16 @@ La fisica di Feynman
 .
  Lì c'è una citazione secondo cui i filosofi dicono molto su ciò di cui
  la scienza avrebbe assolutamente bisogno, ed è tutto sbagliato, perché
- nella scienza l'unica regola è che l'osservazione è l'arbitro finale --
+ nella scienza l'unica regola è che l'osservazione è l'arbitro finale –
  che devi solo osservare il mondo e riferire ciò che vedi.
- Uhm\SpecialChar \ldots{}
+ Uhm\SpecialChar ldots
  a memoria non riesco a ricordare dove trovare qualcosa che dica che
  l'ideale della scienza sia di risolvere le cose con gli esperimenti anziché
  con le discussioni
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -927,7 +930,7 @@ Non voglio vincere una discussione con tuo padre.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1038,12 +1041,12 @@ Non credere a tutto quello che pensi
 
 \begin_layout Standard
 \align block
-Ma questa bizzarra certezza\SpecialChar \ldots{}
+Ma questa bizzarra certezza\SpecialChar ldots
  Harry stava scoprendo di aspettarsi proprio
  che, insomma, un professore di Hogwarts si presentasse e agitasse una bacchetta
  e della magia ne uscisse fuori.
  La strana certezza non stava facendo alcuno sforzo per premunirsi contro
- la propria falsificazione -- non stava inventando delle scuse anticipate
+ la propria falsificazione – non stava inventando delle scuse anticipate
  per spiegare il motivo per cui non ci sarebbe stato alcun professore, o
  per cui il professore sarebbe stato in grado solo di piegare i cucchiai.
 \end_layout
@@ -1099,6 +1102,10 @@ status open
 %
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1206,6 +1213,10 @@ status open
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1264,7 +1275,7 @@ Sua madre si voltò dal lavandino per fissarlo, sembrando turbata.
 \begin_inset Quotes fld
 \end_inset
 
-Non -- non lo so, penso che tu debba semplicemente avere un gufo magico.
+Non – non lo so, penso che tu debba semplicemente avere un gufo magico.
 \begin_inset Quotes frd
 \end_inset
 
@@ -1324,7 +1335,7 @@ osservare
 \emph on
 associarsi
 \emph default
- ad essa\SpecialChar \ldots{}
+ ad essa\SpecialChar ldots
 
 \end_layout
 
@@ -1343,7 +1354,7 @@ davvero
 \align block
 
 \emph on
-Ma -- beh -- questo non può accadere 
+Ma – beh – questo non può accadere 
 \emph default
 sul serio
 \emph on
@@ -1368,7 +1379,7 @@ Gridare
 \emph on
 Lettera per Hogwarts!
 \emph default
- mentre teneva una busta per aria nel mezzo del suo giardino sarebbe stato\SpecialChar \ldots{}
+ mentre teneva una busta per aria nel mezzo del suo giardino sarebbe stato\SpecialChar ldots
 
  in effetti piuttosto imbarazzante, ora che ci pensava.
 \end_layout
@@ -1387,7 +1398,7 @@ No.
 \begin_inset Quotes fld
 \end_inset
 
-Lettera --
+Lettera –
 \begin_inset Quotes frd
 \end_inset
 
@@ -1460,7 +1471,7 @@ Nulla
 \begin_inset Quotes fld
 \end_inset
 
-Solo -- mettendo alla prova una teoria molto stupida
+Solo – mettendo alla prova una teoria molto stupida
 \begin_inset space ~
 \end_inset
 
