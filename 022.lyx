@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{21}
@@ -46,24 +48,21 @@
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
-\begin_modules
-initials
-\end_modules
 \maintain_unincluded_children false
 \language italian
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Linux Biolinum O
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "EauTest"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -91,7 +90,7 @@ initials
 \use_indices false
 \paperorientation portrait
 \suppress_date true
-\justification true
+\justification false
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -99,10 +98,10 @@ initials
 \end_index
 \paperwidth 6in
 \paperheight 9in
-\leftmargin 2.345cm
-\topmargin 3.34cm
-\rightmargin 3.517cm
-\bottommargin 5.08cm
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -153,11 +152,11 @@ Sembravano esserci anche diversi pipistrelli che svolazzavano per la stanza.
 
 \begin_layout Standard
 Quello era il luogo in cui, come avrebbero ricordato un giorno gli storici
- del futuro -- 
+ del futuro – 
 \emph on
 se
 \emph default
- l'intero progetto fosse mai giunto a qualcosa -- era iniziato lo studio
+ l'intero progetto fosse mai giunto a dei risultati – era iniziato lo studio
  scientifico della magia, con due giovani studenti del primo anno di Hogwarts.
 \end_layout
 
@@ -166,7 +165,7 @@ Harry James Potter-Evans-Verres, teorico.
 \end_layout
 
 \begin_layout Standard
-E Hermione Jean Granger, sperimentatrice e soggetto sperimentale.
+Ed Hermione Jean Granger, sperimentatrice e soggetto sperimentale.
 \end_layout
 
 \begin_layout Standard
@@ -538,15 +537,15 @@ C'era una vecchia storia che gli scienziati si tramandavano, un racconto
 
 \begin_layout Standard
 Poco dopo la scoperta dei Raggi-X, un eminente fisico francese di nome Prosper-R
-ené Blondlot -- che era stato il primo a misurare la velocità delle onde
- radio e a dimostrare che si propagavano alla velocità della luce -- aveva
+ené Blondlot – che era stato il primo a misurare la velocità delle onde
+ radio e a dimostrare che si propagavano alla velocità della luce – aveva
  annunciato la scoperta di un nuovo incredibile fenomeno, i Raggi-N, che
  avrebbero causato una leggera luminescenza in uno schermo.
  Bisognava osservare attentamente per vederla, ma era lì.
  I Raggi-N avevano ogni genere di interessanti caratteristiche.
  Potevano essere curvati dall'alluminio e focalizzati da un prisma di alluminio
  fino a colpire un filo trattato col solfuro di cadmio, che avrebbe poi
- brillato debolmente al buio\SpecialChar \ldots{}
+ brillato debolmente al buio\SpecialChar ldots
 
 \end_layout
 
@@ -671,7 +670,7 @@ pensavi
 Blondot aveva distrutto la propria reputazione con un errore che gli avrebbe
  fatto ottenere una bocciatura e probabilmente una risata di derisione da
  parte del tecnico di laboratorio in un corso universitario in progettazione
- di esperimenti\SpecialChar \ldots{}
+ di esperimenti\SpecialChar ldots
  nel 1991.
 \end_layout
 
@@ -727,12 +726,12 @@ non avrebbe
 \emph on
 altro
 \emph default
- modo\SpecialChar \ldots{}
+ modo\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  se avessi fatto la cosa semplice ma sbagliata, e avessi provato a verificare
  formule alternative 
 \emph on
@@ -761,17 +760,17 @@ Che cosa sarebbe successo se avessi dato a Hermione una lista di incantesimi
 \end_layout
 
 \begin_layout Standard
-Beh, in quel caso, era venuto fuori che\SpecialChar \ldots{}
+Beh, in quel caso, era venuto fuori che\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  Harry stava avendo dei problemi a credere a quei risultati...
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  se dicevi a Hermione di pronunciare 
 \begin_inset Quotes fld
 \end_inset
@@ -1007,7 +1006,7 @@ Grazie.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1236,7 +1235,7 @@ che quando si tratta di fare vera ricerca di base su un problema che ti
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1284,7 +1283,7 @@ segale
 \begin_inset Quotes fld
 \end_inset
 
-Mmm\SpecialChar \ldots{}
+Mmm\SpecialChar ldots
  va bene
 \begin_inset Quotes frd
 \end_inset
@@ -1341,6 +1340,10 @@ Aaaaaaaaaaaaaahhhhhhhhhhhhhhh!
 \noun default
 
 \begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1691,7 +1694,7 @@ In Corvonero saprebbero
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2172,6 +2175,10 @@ Dimmelo tu.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2522,6 +2529,10 @@ Il dottor Potter si alzò dalla sedia, si accasciò sgomento, si trascinò
 \begin_layout Standard
 Il dottor Potter si sedette e presentò al dottor Malfoy un pezzo di pergamena
  su cui era scritto:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2636,7 +2647,7 @@ Draco osservò la pergamena, sorridendo mentre prendeva in considerazione
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2658,7 +2669,7 @@ Per un momento vi fu genuina incredulità sul volto del dottor Potter.
 \begin_inset Quotes fld
 \end_inset
 
-Ah\SpecialChar \ldots{}
+Ah\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -2677,7 +2688,7 @@ e dunque
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2766,7 +2777,7 @@ E poi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2803,7 +2814,7 @@ Ho deciso di permettere alla sua rivista di pubblicarlo, e l'ho preparato
 Il Mangiamorte decise di scovare e uccidere il dottor Potter dopo che la
  sua missione fosse stata compiuta.
  Il dottor Malfoy mantenne sul volto un sorriso cortese, dal momento che
- i suoi rivali lo stavano guardando, e disse\SpecialChar \ldots{}
+ i suoi rivali lo stavano guardando, e disse\SpecialChar ldots
 
 \end_layout
 
@@ -2812,7 +2823,7 @@ Il Mangiamorte decise di scovare e uccidere il dottor Potter dopo che la
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  
 \begin_inset Quotes fld
 \end_inset
@@ -2843,7 +2854,7 @@ Lei, ah, deve prendere in considerazione altre possibili spiegazioni per
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2887,7 +2898,7 @@ Draco stava cercando furiosamente di ordinare al suo cervello di pensare,
 sostenevano
 \emph default
  che ci fosse per il declino della specie magica, Draco non si era mai preso
- la briga di chiederlo\SpecialChar \ldots{}
+ la briga di chiederlo\SpecialChar ldots
 
 \end_layout
 
@@ -3056,8 +3067,8 @@ se la magia sta svanendo dal mondo capiremo quanto velocemente sta svanendo
 \begin_inset Quotes fld
 \end_inset
 
-Io\SpecialChar \ldots{}
- non lo so\SpecialChar \ldots{}
+Io\SpecialChar ldots
+ non lo so\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -3130,7 +3141,7 @@ Babbani
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -3207,7 +3218,7 @@ Solo un bastoncino di legno
 \emph default
 .
  Draco poteva immaginare come sarebbe stato prendere la bacchetta e provare
- a lanciare un incantesimo e scoprire che non accadeva nulla\SpecialChar \ldots{}
+ a lanciare un incantesimo e scoprire che non accadeva nulla\SpecialChar ldots
 
 \end_layout
 
@@ -3251,7 +3262,7 @@ in ogni caso
 \emph on
 famiglia
 \emph default
- che avevano perso, se fosse stato tutto per niente\SpecialChar \ldots{}
+ che avevano perso, se fosse stato tutto per niente\SpecialChar ldots
 
 \end_layout
 
@@ -3308,7 +3319,7 @@ Ma, ma, è troppo orribile credere che
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -3433,6 +3444,20 @@ Prima
  Harry tornò al suo lavoro, scarabocchiò un altro po', e poi girò la pergamena
  in modo che Draco potesse vederla.
  Draco si chinò sulla scrivania e Harry avvicinò la luce verde.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap.
+ 23
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -3666,10 +3691,10 @@ Draco mandò giù il groppone e iniziò a fissare il foglio.
 \end_layout
 
 \begin_layout Standard
-La magia sta svanendo\SpecialChar \ldots{}
- i maghi si stanno incrociando con i Babbani\SpecialChar \ldots{}
+La magia sta svanendo\SpecialChar ldots
+ i maghi si stanno incrociando con i Babbani\SpecialChar ldots
  la conoscenza
- si sta perdendo\SpecialChar \ldots{}
+ si sta perdendo\SpecialChar ldots
 
 \end_layout
 
@@ -3705,7 +3730,7 @@ Incantesimi che prima funzionavano ora non funzionano più.
 
  
 \emph on
-I maghi si svegliano e scoprono che le loro bacchette sono pezzi di legno\SpecialChar \ldots{}
+I maghi si svegliano e scoprono che le loro bacchette sono pezzi di legno\SpecialChar ldots
 
 \end_layout
 
@@ -3742,7 +3767,7 @@ Come appare il mondo quando è la conoscenza a essere perduta?
 \begin_inset Quotes fld
 \end_inset
 
-Le persone non sanno neppure come lanciare gli Incantesimi\SpecialChar \ldots{}
+Le persone non sanno neppure come lanciare gli Incantesimi\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -3836,7 +3861,7 @@ Se erano in grado di lanciare Incantesimi molto più potenti, il sangue era
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -3870,7 +3895,7 @@ No, aspetta, potrebbe ancora funzionare.
  magica.
  Allora se la magia circostante si indebolisce, gli incantesimi potenti
  sarebbero i primi a svanire, ma gli incantesimi che tutti imparano nel
- loro primo anno rimarrebbero gli stessi\SpecialChar \ldots{}
+ loro primo anno rimarrebbero gli stessi\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -3883,7 +3908,7 @@ No, aspetta, potrebbe ancora funzionare.
 Non è una prova molto buona, più che altro distingue lo svanire della magia
  potente dallo svanire della magia in generale, e il sangue di qualcuno
  potrebbe essere troppo debole per la magia potente ma abbastanza forte
- per gli incantesimi più semplici\SpecialChar \ldots{}
+ per gli incantesimi più semplici\SpecialChar ldots
  Draco, sai se i maghi più potenti all'interno
  di uno 
 \emph on
@@ -3905,15 +3930,15 @@ L'espressione di Draco si contorse mentre cercava di ricordare.
 \end_inset
 
 Non riesco a ricordare di aver sentito niente sul Signore Oscuro, ma mi
- pare che si supponga che Dumbledore abbia fatto qualcosa di incredibile in
- occasione dei suoi 
+ pare che si supponga che Dumbledore abbia fatto qualcosa di incredibile
+ in occasione dei suoi 
 \noun on
 g.u.f.o.
 
 \noun default
- di Trasfigurazione al quinto anno\SpecialChar \ldots{}
+ di Trasfigurazione al quinto anno\SpecialChar ldots
  Credo che anche altri maghi potenti siano
- stati bravi quando erano a Hogwarts\SpecialChar \ldots{}
+ stati bravi quando erano a Hogwarts\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -3934,7 +3959,7 @@ Potrebbe essere semplicemente che studiassero molto.
 \emph on
 debole
 \emph default
- in favore di 1 rispetto a 2\SpecialChar \ldots{}
+ in favore di 1 rispetto a 2\SpecialChar ldots
  un attimo, aspetta.
 \begin_inset Quotes frd
 \end_inset
@@ -3964,10 +3989,10 @@ combiniamo
 
 \emph on
 B.
- Gli studenti del primo anno del passato lanciavano lo stesso genere di
- incantesimi, con la stessa potenza, di oggi? (Prova debole in favore di
- 1 piuttosto che 2, ma anche il sangue potrebbe causare la perdita delle
- sole magie potenti.)
+ In passato gli studenti del primo anno lanciavano lo stesso tipo di incantesimi
+, e con la stessa potenza, di oggi? (Prova debole in favore di 1 piuttosto
+ che 2, ma anche il sangue potrebbe causare la perdita delle sole magie
+ potenti.)
 \end_layout
 
 \begin_layout Quote
@@ -4047,8 +4072,8 @@ Procedi.
 \begin_inset Quotes fld
 \end_inset
 
-Trova dei ritratti che conoscevano una coppia di Maghinò sposati -- non
- fare quella faccia, Draco, è un'informazione importante.
+Trova dei ritratti che conoscevano una coppia di Maghinò sposati – non fare
+ quella faccia, Draco, è un'informazione importante.
  Basta chiedere a ritratti recenti che fossero Grifondoro o qualcosa del
  genere.
  Trova dei ritratti che conoscevano una coppia di Maghinò sposati abbastanza
@@ -4113,7 +4138,7 @@ ma perché
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
