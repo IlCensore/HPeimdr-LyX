@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -193,6 +195,14 @@
 
 %% descrizioni senza bold
 \renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
+
+%% note a pie' pagina senza asterisco
+\newcommand\nomarkerfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -202,17 +212,17 @@ initials
 \language italian
 \language_package default
 \inputencoding auto
-\fontencoding 
-\font_roman Crimson
-\font_sans Linux Biolinum O
-\font_typewriter Latin Modern Mono
-\font_math auto
+\fontencoding \font_roman "default" "Crimson"
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Latin Modern Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -265,7 +275,7 @@ initials
 \paperheight 21.59cm
 \leftmargin 2.8cm
 \topmargin 1.4cm
-\rightmargin 2.8cm
+\rightmargin 2.7cm
 \bottommargin 2.3cm
 \headsep 0.5cm
 \secnumdepth 3
@@ -854,7 +864,7 @@ Harry Potter and the Methods of Rationality
 \begin_inset Newline newline
 \end_inset
 
-© 2010--2015 Eliezer Yukowsky
+© 2010–2015 Eliezer Yukowsky
 \end_layout
 
 \begin_layout Standard
@@ -872,7 +882,7 @@ reflectbox{©}
 
 \end_inset
 
- 2013--2015 Cato Philosophus
+ 2013–2015 Cato Philosophus
 \begin_inset Newline newline
 \end_inset
 
@@ -894,7 +904,7 @@ url{cato.philosophus@gmail.com}
 \end_inset
 
 Questa opera è stata rilasciata con licenza Creative Commons Attribuzione
- -- Condividi allo stesso modo 3.0 Italia (
+ – Condividi allo stesso modo 3.0 Italia (
 \begin_inset ERT
 status open
 
@@ -923,7 +933,8 @@ url{creativecommons.org/licenses/by-sa/3.0/it/}
 
 \begin_layout Standard
 \align center
-Libro composto con LyX & 
+Libro composto con \SpecialChar LyX
+ & 
 \begin_inset ERT
 status open
 
@@ -1022,6 +1033,7 @@ addcontentsline{toc}{chapter}{Prefazione}
 \end_layout
 
 \begin_layout Standard
+\noindent
 Cosa è 
 \emph on
 Harry Potter e i metodi della razionalità
@@ -1041,8 +1053,8 @@ fanfic
  di Harry Potter, ovvero di un racconto ambientato nel mondo creato da J.K.
  Rowling, ma scritto da un appassionato invece che dall'autrice originale.
  È collocato in un universo parallelo in cui alcuni eventi si sono svolti
- in maniera differente da quella canonica -- la zia di Harry ha sposato
- un professore di biochimica di Oxford, e i due genitori adottivi di Harry
+ in maniera differente da quella canonica – la zia di Harry ha sposato un
+ professore di biochimica di Oxford, e i due genitori adottivi di Harry
  lo amano e l'hanno aiutato a sviluppare una forte passione per la scienza
  e la fantascienza.
  A partire da queste variazioni, l'autore ha sviluppato un racconto coerente
@@ -1101,6 +1113,22 @@ mainmatter
 \begin_inset CommandInset include
 LatexCommand include
 filename "001.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+openany
+\end_layout
 
 \end_inset
 
@@ -1308,6 +1336,7 @@ addcontentsline{toc}{chapter}{Postfazione}
 \end_layout
 
 \begin_layout Standard
+\noindent
 Siamo alla fine del primo volume di 
 \emph on
 Harry Potter e i metodi della razionalità
@@ -1363,7 +1392,7 @@ La stampa dei volumi successivi dell'opera potrebbe essere o meno disponibile,
  accettata dagli agenti di J.K.
  Rowling a patto che non vi fosse lucro; per tanto non è possibile vendere
  i libri.
- Contattatemi all'indirizzo 
+ Per maggiori informazioni contattatemi all'indirizzo 
 \begin_inset ERT
 status open
 
@@ -1376,7 +1405,7 @@ url{cato.philosophus@gmail.com}
 
 \end_inset
 
- per maggiori informazioni.
+.
 \end_layout
 
 \begin_layout Standard
@@ -1430,8 +1459,10 @@ textit{Harry Potter e i metodi della razionalità, Volume I}.
 \backslash
 LaTeX e LyX, senza la quale questo lavoro sarebbe stato impossibile.
  Ultimo nell'elenco ma primo per importanza, un grazie di cuore a Eliezer
- Yudkowsky per il meraviglioso mondo di HPMOR, che mi ha regalato diverse
- ore di divertimento e riflessione in parti uguali.
+ Yudkowsky per il meraviglioso mondo di 
+\backslash
+textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
+ in parti uguali.
  Questo lavoro è dedicato a mio fratello e a mia madre.}
 \end_layout
 
