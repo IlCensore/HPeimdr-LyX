@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -70,16 +72,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
-\font_sans Purisa
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Linux Libertine O"
+\font_sans "default" "Purisa"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -289,11 +291,11 @@ mo di Asch
 \end_layout
 
 \begin_layout Standard
-Alfred Tarski (1902--1983) è stato un matematico, logico e filosofo polacco
+Alfred Tarski (1902–1983) è stato un matematico, logico e filosofo polacco
  trasferitosi negli Stati Uniti.
- Per i suoi risultati nell'ambito della matematica -- inclusa la metamatematica,
+ Per i suoi risultati nell'ambito della matematica – inclusa la metamatematica,
  la teoria degli insiemi, la teoria della misura, la teoria dei modelli
- e l'algebra generale -- è considerato fra i maggiori logici della storia,
+ e l'algebra generale – è considerato fra i maggiori logici della storia,
  insieme ad Aristotele, Gottlob Frege e Kurt Gödel.
  In particolare è considerato il risolutore del paradosso del mentitore.
  Eugene Gendlin è un filosofo e uno psicoterapista statunitense, inventore
@@ -362,6 +364,35 @@ url{http://wiki.lesswrong.com/wiki/Litany_of_Gendlin}
 \end_layout
 
 \begin_layout Subsection*
+Capitolo 23 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:23Credere-di-credere"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+❧
+\begin_inset space ~
+\end_inset
+
+Il mind flayer e il ❧
+\begin_inset space ~
+\end_inset
+
+beholder (anche noto come 
+\emph on
+occhio tiranno
+\emph default
+) sono mostri del gioco di ruolo 
+\emph on
+Dungeons & Dragons.
+\end_layout
+
+\begin_layout Subsection*
 Capitolo 24 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -387,7 +418,7 @@ La politica degli scimpanzé.
  [1982], 1984, Laterza.
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:de-Waal1984"
+name "subsec:de-Waal1984"
 
 \end_inset
 

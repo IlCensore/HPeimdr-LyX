@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{22}
@@ -54,16 +56,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Arno Pro
-\font_sans Purisa
-\font_typewriter Inconsolata
+\font_roman "default" "Crimson"
+\font_sans "default" "Marcellus"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -74,15 +76,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -113,9 +124,17 @@ initials
 
 \begin_layout Chapter
 Credere di credere
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:23Credere-di-credere"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Quotes fld
 \end_inset
 
@@ -123,30 +142,30 @@ E Janet era una Maganò
 \begin_inset Quotes frd
 \end_inset
 
-, disse il ritratto di una donna bassa con un cappello bordato d'oro.
+, disse il ritratto di una donna bassa con un cappello dal bordo dorato.
 \end_layout
 
 \begin_layout Standard
-Draco se l'appuntò.
- Erano solo ventotto, ma era il momento di tornare indietro e riunirsi a
- Harry.
+Draco l'aggiunse agli appunti.
+ Erano solo ventotto, ma era giunto il momento di tornare indietro e riunirsi
+ a Harry.
 \end_layout
 
 \begin_layout Standard
 Aveva avuto bisogno di chiedere ad altri ritratti di aiutarlo a tradurre,
- l'inglese era cambiato molto, ma i ritratti più antichi avevano descritto
- magie del primo anno che sembravano dannatamente simili a quelle che avevano
- oggi.
- Draco aveva riconosciuto circa la metà di esse e l'altra metà non sembrava
- affatto più potente.
+ col passare del tempo l'inglese era cambiato molto, ma i ritratti più antichi
+ avevano descritto magie del primo anno che sembravano dannatamente simili
+ a quelle che avevano oggi.
+ Draco ne aveva riconosciuto circa la metà e l'altra metà non sembrava affatto
+ più potente.
 \end_layout
 
 \begin_layout Standard
-La sensazione di nausea allo stomaco era cresciuta con ogni risposta fino
- a quando finalmente, incapace di sopportarla oltre, se n'era andato via
+Con ogni risposta era cresciuta la sensazione di nausea allo stomaco, fino
+ a quando alla fine, incapace di sopportarla oltre, se n'era andato piuttosto
  a porre ad altri ritratti la strana domanda di Harry Potter sui matrimoni
- tra Maghinò, piuttosto.
- I primi cinque ritratti non conoscevano nessuno e alla fine aveva chiesto
+ tra Maghinò.
+ I primi cinque ritratti non ne conoscevano nessuno e alla fine aveva chiesto
  a quei ritratti di chiedere ai 
 \emph on
 loro
@@ -155,8 +174,8 @@ loro
 \emph on
 loro
 \emph default
- conoscenti e così era riuscito a trovare alcune persone che avevano effettivame
-nte ammesso di essere amici di Maghinò.
+ conoscenti e così era riuscito a trovare qualcuno che aveva effettivamente
+ ammesso di essere amico di alcuni Maghinò.
 \end_layout
 
 \begin_layout Standard
@@ -172,7 +191,7 @@ I piedi di Draco erano pesanti mentre camminava per i corridoi di Hogwarts.
  Continuava a pensare che non voleva sapere nulla di tutto ciò, non voleva
  essere coinvolto in niente di tutto questo, non voleva fosse responsabilità
  sua, voleva lasciare che lo facesse Harry Potter, se la magia si stava
- spegnendo lasciare che se ne occupasse Harry Potter\SpecialChar \ldots{}
+ spegnendo lasciare che se ne occupasse Harry Potter\SpecialChar ldots
 
 \end_layout
 
@@ -182,12 +201,12 @@ Ma Draco sapeva che non era giusto.
 
 \begin_layout Standard
 I freddi sotterranei di Serpeverde, le grigie mura di pietra, di solito
- a Draco piaceva l'atmosfera, ma ora sembrava troppo simile allo sbiadire.
+ a Draco piaceva quell'atmosfera, ma ora sembrava troppo simile allo sbiadire.
 \end_layout
 
 \begin_layout Standard
-La sua mano sulla maniglia della porta, Harry Potter già dentro e in attesa,
- con indosso il mantello col cappuccio.
+La sua mano fu sulla maniglia della porta, Harry Potter già dentro e in
+ attesa, con indosso il mantello col cappuccio.
 \end_layout
 
 \begin_layout Standard
@@ -234,7 +253,7 @@ Dannazione.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -249,7 +268,7 @@ Draco si colpì in fronte, ricordando.
 \begin_inset Quotes fld
 \end_inset
 
---
+–
 \begin_inset space ~
 \end_inset
 
@@ -272,7 +291,7 @@ Draco fece il gesto di consegnargli la pergamena
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -331,8 +350,8 @@ Il segreto del sangue
 \emph on
 vedere
 \emph default
- se disponi di microscopi, che sono come telescopi solo che guardare le
- cose molto piccole, invece che molto lontane.
+ se disponi di microscopi, che sono come i telescopi solo che servono a
+ guardare le cose molto piccole, invece che molto lontane.
  E quella ricetta ha due copie di tutto, sempre, nel caso in cui una copia
  sia danneggiata.
  Immagina due lunghe file di pezzi di carta.
@@ -405,8 +424,8 @@ e il bambino riceve tutti e dieci i pezzi che dicono `alto' e viene fuori
 
 \begin_layout Standard
 Draco ascoltava con la bocca aperta.
- Come avevano fatto in nome di Merlino i Babbani a capire tutto questo?
- Potevano 
+ Come avevano fatto in nome di Merlino i Babbani a capire tutto ciò? Potevano
+ 
 \emph on
 vedere
 \emph default
@@ -443,11 +462,11 @@ molti
  Ma probabilmente uno non molto potente.
  Se iniziassi con molti maghi potenti e questi si sposassero solo tra di
  loro, resterebbero potenti.
- Ma se iniziassero a sposare Nati babbani che fossero appena magici, o Maghinò\SpecialChar \ldots{}
-
- capisci? Il sangue non si mescolerebbe perfettamente, sarebbe un bicchiere
- di ciottoli, non un bicchiere d'acqua, perché questo è proprio il modo
- in cui funziona il sangue.
+ Ma se iniziassero a sposare Nati babbani che fossero a malapena magici,
+ o addirittura Maghinò\SpecialChar ldots
+ capisci? Il sangue non si mescolerebbe perfettamente,
+ sarebbe un bicchiere di ciottoli, non un bicchiere d'acqua, perché questo
+ è proprio il modo in cui funziona il sangue.
  Ci sarebbero ancora maghi potenti di tanto in tanto, quando per caso ottenesser
 o molte carte magiche.
  Ma non sarebbero così potenti come i più potenti maghi del passato
@@ -501,12 +520,12 @@ un
  Una copia dice `magico' e una copia dice `non magico'.
  O entrambe le copie dicono `non magico'.
  Maghi, Maghinò e Babbani.
- I Nati babbani non sarebbe davvero nati da Babbani, sarebbero nati da due
- Maghinò, due genitori ciascuno con una copia magica che fossero cresciuti
+ I Nati babbani non sarebbe davvero figli di Babbani, sarebbero nati da
+ due Maghinò, due genitori ciascuno con una copia magica che fossero cresciuti
  nel mondo babbano.
  Ora immagina che una strega sposi un Magonò.
- Ogni bambino riceverà una carta che dice `magico' dalla madre, sempre,
- non importa quale pezzo venga scelta a caso, entrambi dicono `magico'.
+ Ogni figlio riceverà una carta che dice `magico' dalla madre, sempre, non
+ importa quale pezzo venga scelto a caso, entrambi dicono `magico'.
  Ma come quando si lancia una moneta, la metà delle volte il bambino avrà
  una carta che dice `magico' dal padre, e la metà delle volte il bambino
  otterrà la carta del padre che dice `non magico'.
@@ -551,7 +570,7 @@ In questo caso
 intrinsecamente
 \emph default
  meno potenti, non a causa della perdita degli incantesimi, ma perché le
- persone non possono lanciarli\SpecialChar \ldots{}
+ persone non possono lanciarli\SpecialChar ldots
  allora forse stanno mangiando i cibi sbagliati
  o qualcosa del genere.
  Ma se è andata costantemente peggio da oltre 800 anni, allora questo potrebbe
@@ -587,7 +606,7 @@ Cosa succede quando due Maghinò si sposano.
  Stessa cosa se due Maghinò si sposassero.
  Un quarto dei figli riceverebbero magico e magico, e sarebbero maghi.
  Un quarto riceverebbero non-magico e non-magico, e sarebbero Babbani.
- L'altra metà sarebbero Maghinò.
+ La metà restante sarebbero Maghinò.
  È uno schema molto antico e classico.
  Fu individuato dall'indimenticato Gregor Mendel, e fu il primo indizio
  mai scoperto su come funzionasse la ricetta.
@@ -620,8 +639,8 @@ Ventotto bambini.
 \end_layout
 
 \begin_layout Standard
-Non era sicuro del numero esatto, ma era abbastanza sicuro circa un quarto
- fossero stati maghi.
+Non era sicuro del numero esatto, ma era abbastanza sicuro che circa un
+ quarto fossero stati maghi.
 \end_layout
 
 \begin_layout Standard
@@ -691,7 +710,7 @@ Il mio esperimento è fallito, ricordi? Ho bisogno che tu progetti un altro
 \begin_inset Quotes fld
 \end_inset
 
-Io, io\SpecialChar \ldots{}
+Io, io\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -710,7 +729,7 @@ Non posso farlo Harry, è troppo per me
 \end_layout
 
 \begin_layout Standard
-Sguardo di Harry era feroce.
+Lo sguardo di Harry fu feroce.
  
 \begin_inset Quotes fld
 \end_inset
@@ -800,7 +819,7 @@ stessero
  Allora avrebbero saputo con certezza che la magia stava svanendo, e c'era
  una parte di Draco che era già sicura che sarebbe stato esattamente quello
  che avrebbero scoperto.
- Non voleva vederlo, non voleva saperlo\SpecialChar \ldots{}
+ Non voleva vederlo, non voleva saperlo\SpecialChar ldots
 
 \end_layout
 
@@ -818,6 +837,10 @@ Forza
  andare a cercare qualcuno molto vecchio e lo scopriremo subito! Abbiamo
  i cappucci, se qualcuno ci vedesse potremmo semplicemente scappare! Andiamo!
 \begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -859,7 +882,7 @@ Era un grande ritratto, ma sembrava che le tre persone al suo interno stessero
 \noun on
 xii
 \noun default
- secolo, vestito con fasce di stoffa nera; il quale parlava con una giovane
+ secolo, vestito con drappi di stoffa nera; il quale parlava con una giovane
  donna dall'aria triste del 
 \noun on
 xiv
@@ -897,13 +920,13 @@ Non c'era nulla di sconosciuto sulla lista, tranne che per una specie di
 \emph on
 mind flayer
 \emph default
- che, annotò il traduttore, era stata infine sterminata da Harold Shea,
- e quelli non sembravano spaventosi neppure la metà di un Dissennatore.
+ che, chiosò il traduttore, era stata sterminata definitivamente da Harold
+ Shea, e quelli non sembravano spaventosi neppure la metà di un Dissennatore.
 \end_layout
 
 \begin_layout Standard
-Le creature magiche erano potenti ora tanto quanto lo erano sempre state,
- a quanto pareva.
+Le creature magiche erano potenti ora tanto quanto lo erano sempre state
+ in passato, a quanto sembrava.
 \end_layout
 
 \begin_layout Standard
@@ -940,14 +963,28 @@ Harry alzò un dito e il vecchio terminò la lista.
 \end_layout
 
 \begin_layout Standard
-Poi Harry ringraziò tutti i ritratti per l'aiuto -- Draco, praticamente
- in automatico, fece la stessa cosa e con più grazia -- e si diressero verso
+Poi Harry ringraziò tutti i ritratti per l'aiuto – Draco, praticamente in
+ automatico, fece la stessa cosa e con più grazia – e si diressero verso
  l'aula.
 \end_layout
 
 \begin_layout Standard
 E Harry tirò fuori la pergamena originaria con le ipotesi, e iniziò a scribacchi
 are.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato da cap.
+ 22
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -1034,7 +1071,7 @@ A.
 Risultato
 \bar default
 : inconcludente a causa dell'Interdetto di Merlino.
- Non sono noti incantesimi non più lanciabili, ma potrebbero semplicemente
+ Non si conoscono incantesimi non più lanciabili, ma potrebbero semplicemente
  non essere stati tramandati.
 \end_layout
 
@@ -1042,10 +1079,10 @@ Risultato
 
 \emph on
 B.
- Gli studenti del primo anno del passato lanciavano lo stesso genere di
- incantesimi, con la stessa potenza, di oggi? (Prova debole in favore di
- 1 piuttosto che 2, ma anche il sangue potrebbe causare la perdita delle
- sole magie potenti.) 
+ In passato gli studenti del primo anno lanciavano lo stesso tipo di incantesimi
+, e con la stessa potenza, di oggi? (Prova debole in favore di 1 piuttosto
+ che 2, ma anche il sangue potrebbe causare la perdita delle sole magie
+ potenti.) 
 \bar under
 Risultato
 \bar default
@@ -1106,17 +1143,17 @@ A ha fallito
 \begin_inset Quotes fld
 \end_inset
 
-B è una prova debole in favore di 1 su 2.
+B è una prova debole in favore di 1 rispetto a 2.
  C falsifica 2.
  D falsifica 1.
  4 era improbabile e anche B è contro 4.
  5 era improbabile e D va contro di essa.
  6 è falsificata insieme a 2.
  Il che lascia solo 3.
- Interdetto di Merlino o no, non ho realmente trovato qualunque incantesimo
- conosciuto che non possa essere lanciato.
- Quindi, quando metti tutto insieme, sembra che la conoscenza stia andando
- perduta
+ Interdetto di Merlino o no, non ho trovato nessun incantesimo conosciuto
+ che non possa essere lanciato.
+ Quindi, una volta messo tutto insieme, sembra che si stia perdendo la conoscenz
+a della magia
 \begin_inset Quotes frd
 \end_inset
 
@@ -1128,11 +1165,11 @@ E la trappola si chiuse di scatto.
 \end_layout
 
 \begin_layout Standard
-Non appena il panico scomparve, non appena Draco capì che la magia 
+Non appena il panico scomparve, non appena Draco realizzò che la magia 
 \emph on
 non stava
 \emph default
- svanendo, ci vollero cinque interi secondi per comprendere.
+ svanendo, gli ci vollero cinque interi secondi per capire.
 \end_layout
 
 \begin_layout Standard
@@ -1144,7 +1181,7 @@ Draco si spinse lontano dalla scrivania e si alzò in piedi con tale forza
 \begin_inset Quotes fld
 \end_inset
 
-Così è stato tutto solo uno stupido scherzo, allora.
+Quindi è stato solo uno stupido scherzo, allora.
 \begin_inset Quotes frd
 \end_inset
 
@@ -1152,13 +1189,13 @@ Così è stato tutto solo uno stupido scherzo, allora.
 \end_layout
 
 \begin_layout Standard
-Harry Potter lo fissò per un momento, ancora seduto.
+Harry Potter lo fissò per un momento, restando seduto.
  Quando parlò, la sua voce era tranquilla.
  
 \begin_inset Quotes fld
 \end_inset
 
-È stata una prova onesta, Draco.
+È stata una verifica onesta, Draco.
  Se avesse dato un risultato diverso, l'avrei accettato.
  Non è qualcosa in cui imbroglierei.
  Mai.
@@ -1168,7 +1205,7 @@ Harry Potter lo fissò per un momento, ancora seduto.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1183,7 +1220,7 @@ Oh
 \begin_inset Quotes frd
 \end_inset
 
-, disse Draco, la rabbia che cominciava a sentirsi nella sua voce, 
+, disse Draco, nella sua voce si cominciava a notare la rabbia, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -1211,9 +1248,9 @@ sapevo
 \begin_inset Quotes fld
 \end_inset
 
-Ammetto che sospettavo.
- Hermione Granger era troppo potente, avrebbe dovuto essere a malapena magica
- e non lo era, come poteva una Nata babbana essere il miglior mago di Hogwarts?
+Ammetto di aver sospettato.
+ Hermione Granger è troppo potente, avrebbe dovuto essere a malapena magica
+ e non lo è, come poteva una Nata babbana essere il miglior mago di Hogwarts?
  E sta anche ricevendo i voti migliori nei compiti, è una coincidenza troppo
  grande che la stessa ragazza sia la più forte magicamente 
 \emph on
@@ -1222,17 +1259,18 @@ e
  accademicamente, a meno che non ci sia una singola causa.
  L'esistenza di Hermione Granger suggeriva che ci fosse solo una cosa che
  ti rende un mago, qualcosa che hai o che non hai, e che le differenze di
- forza derivano da quanto sappiamo e da quanto ci alleniamo.
- E non c'erano corsi differenti per purosangue e Nati babbani, e così via.
- C'erano troppi modi in cui il mondo non sarebbe stato nel modo in cui era
+ forza derivino da quanto sappiamo e da quanto ci alleniamo.
+ E poi non ci sono corsi differenziati per purosangue e Nati babbani, e
+ così via.
+ Ci sono troppi modi in cui il mondo non sarebbe stato nel modo in cui è,
  se tu avessi avuto ragione.
  Ma Draco, non ho visto nulla che non potessi vedere anche tu.
- Non ho eseguito alcuna prova di cui non ti abbia parlato.
+ Non ho fatto alcuna prova di cui non ti abbia parlato.
  Non ho imbrogliato, Draco.
- Volevo che noi trovassimo la risposta insieme.
+ Volevo che trovassimo la risposta insieme.
  E non ho mai pensato che la magia potesse stare svanendo dal mondo fino
  a quando non l'hai detto tu.
- È stata un'idea spaventosa anche per me
+ È stata un'idea terrificante anche per me
 \begin_inset Quotes frd
 \end_inset
 
@@ -1243,7 +1281,7 @@ e
 \begin_inset Quotes fld
 \end_inset
 
-Quello che è
+Non importa
 \begin_inset Quotes frd
 \end_inset
 
@@ -1254,8 +1292,8 @@ Quello che è
 \begin_inset Quotes fld
 \end_inset
 
-Tu affermi che non hai intenzione di andartene in giro a dire a chiunque
- di tutto ciò
+Tu affermi che non hai intenzione di andartene in giro a rivelare tutto
+ ciò a qualcuno
 \begin_inset Quotes frd
 \end_inset
 
@@ -1266,7 +1304,7 @@ Tu affermi che non hai intenzione di andartene in giro a dire a chiunque
 \begin_inset Quotes fld
 \end_inset
 
-Non senza consultare te prima
+Non senza consultare te, prima
 \begin_inset Quotes frd
 \end_inset
 
@@ -1276,7 +1314,7 @@ Non senza consultare te prima
 \begin_inset Quotes fld
 \end_inset
 
-Draco, cerco di essere gentile per quanto possibile, ma 
+Draco, per quanto possibile sto cercando di essere gentile, ma 
 \emph on
 il mondo si è semplicemente rivelato non essere in quel modo
 \emph default
@@ -1307,8 +1345,8 @@ Draco si voltò di scatto, sentendo una sensazione di bruciore in gola, la
 \emph on
 era
 \emph default
- piaciuto, e quel pensiero non lo rallentò per un momento mentre si diresse
- verso la porta dell'aula.
+ piaciuto, e quel pensiero non lo rallentò neppure per un momento mentre
+ si dirigeva verso la porta dell'aula.
 \end_layout
 
 \begin_layout Standard
@@ -1319,7 +1357,7 @@ E la voce di Harry Potter giunse, ora più forte, e preoccupata:
 \begin_inset Quotes fld
 \end_inset
 
-Draco\SpecialChar \ldots{}
+Draco\SpecialChar ldots
  
 \emph on
 non puoi
@@ -1354,7 +1392,7 @@ Ma c'era già il gelo lungo la schiena di Draco.
 \end_layout
 
 \begin_layout Standard
-Egli sapeva anche prima che Harry Potter lo dicesse.
+Egli lo sapeva anche prima che Harry Potter lo dicesse.
 \end_layout
 
 \begin_layout Standard
@@ -1362,7 +1400,7 @@ Egli sapeva anche prima che Harry Potter lo dicesse.
 \end_inset
 
 Del diventare uno scienziato.
- Hai messo in dubbio una delle tue convinzioni, non una piccola convinzione,
+ Hai messo in dubbio una delle tue convinzioni, non una convinzione minore,
  ma qualcosa che aveva un grande significato per te.
  Hai fatto gli esperimenti, hai raccolto i dati, e il risultato ha dimostrato
  che la tua convinzione era sbagliata.
@@ -1411,12 +1449,12 @@ Non è vero!
 \begin_inset Quotes fld
 \end_inset
 
-Non ho sacrificato la convinzione.
+Non ho sacrificato quella convinzione.
  Ci credo ancora!
 \begin_inset Quotes frd
 \end_inset
 
- La sua voce era sempre più forte, e il gelo stava peggiorando.
+ La sua voce era sempre più alta, e il gelo si stava intensificando.
 \end_layout
 
 \begin_layout Standard
@@ -1426,7 +1464,7 @@ Harry Potter scosse la testa.
 \begin_inset Quotes fld
 \end_inset
 
-Draco\SpecialChar \ldots{}
+Draco\SpecialChar ldots
  Mi dispiace, Draco, tu 
 \emph on
 non
@@ -1443,37 +1481,38 @@ non
 
 Te lo dimostrerò.
  Immagina che qualcuno ti dica che ha un drago in casa sua.
- Dici loro che vuoi vederlo.
- Rispondono che è un drago invisibile.
- Dici bene, lo ascolterò muoversi.
- Rispondono che è un drago inudibile.
- Dici che getterai un po' di farina per aria e vedrai la sagoma del drago.
- Rispondono che il drago è permeabile alla farina.
- E la cosa significativa è che quelle persone sanno, 
+ Gli dici che vuoi vederlo.
+ Ti risponde che è un drago invisibile.
+ Gli dici bene, lo ascolterò muoversi.
+ Ti risponde che è un drago silenzioso.
+ Gli dici che lancerai un po' di farina per aria e vedrai la sagoma del
+ drago.
+ Ti risponde che il drago è permeabile alla farina.
+ E la cosa significativa è che quella persona sa, 
 \emph on
 in anticipo
 \emph default
-, esattamente quali risultati sperimentali dovranno spiegare.
+, esattamente quali risultati sperimentali dovrà spiegare.
  
 \emph on
-Sanno
+Sa
 \emph default
- che tutto andrà come se il drago non ci fosse, sanno 
+ che tutto andrà come se il drago non ci fosse, sa 
 \emph on
 in anticipo
 \emph default
- quali scuse dovranno fornire.
+ quali scuse dovrà fornire.
  Quindi forse 
 \emph on
-dicono
+dice
 \emph default
- che ci sia un drago.
+ che c'è un drago.
  Forse 
 \emph on
-credono
+crede
 \emph default
  di credere che ci sia un drago, si chiama credere-di-credere.
- Ma non ci credono realmente.
+ Ma non ci crede realmente.
  Puoi sbagliarti a proposito di ciò in cui credi, la maggior parte delle
  persone non si rende conto che c'è una differenza tra credere in qualcosa
  e pensare che sia giusto crederci
@@ -1481,17 +1520,18 @@ credono
 \end_inset
 
 .
- Harry Potter si era ora alzato dalla scrivania, e aveva fatto qualche passo
+ Harry Potter si era alzato dalla scrivania, e aveva fatto qualche passo
  verso Draco.
  
 \begin_inset Quotes fld
 \end_inset
 
-E Draco, non credi più al purismo del sangue, ti dimostrerò che non ci credi.
- Se il purismo del sangue è vero, allora Hermione Granger non è comprensibile,
- quindi cosa potrebbe spiegarla? Forse è un'orfana di maghi allevata da
- Babbani, proprio come me? Potrei andare da Granger e chiederle di vedere
- le foto dei suoi genitori, per vedere se gli assomiglia.
+E Draco, tu non credi più al purismo del sangue, ti dimostrerò che non ci
+ credi.
+ Se il purismo del sangue fosse vero, allora Hermione Granger non sarebbe
+ spiegabile, quindi cosa potrebbe giustificarla? Forse è un'orfana di maghi
+ allevata da Babbani, proprio come me? Potrei andare da Granger e chiederle
+ di vedere le foto dei suoi genitori, per vedere se gli assomiglia.
  Ti aspetteresti che fosse diversa? Dovremmo eseguire questa prova?
 \begin_inset Quotes frd
 \end_inset
@@ -1523,15 +1563,14 @@ Si somiglieranno lo stesso
 \begin_inset Quotes fld
 \end_inset
 
-Vedi.
- Sai già quale risultato dell'esperimento dovrai spiegare.
- Se credessi ancora nel purismo del sangue diresti, certo, andiamo a dare
+Capisci? Sai già quale risultato dell'esperimento dovrai giustificare.
+ Se credessi ancora nel purismo del sangue, diresti ``certo, andiamo a dare
  un'occhiata, scommetto che non somiglierà ai suoi genitori, è troppo potente
  per essere una vera Nata babbana
 \begin_inset space ~
 \end_inset
 
---
+–''
 \begin_inset Quotes frd
 \end_inset
 
@@ -1544,9 +1583,9 @@ Vedi.
 
 
 \emph on
-L'avranno
+Devono
 \emph default
- messa con i suoi parenti!
+ averla messa con i suoi parenti!
 \begin_inset Quotes frd
 \end_inset
 
@@ -1557,8 +1596,8 @@ L'avranno
 \begin_inset Quotes fld
 \end_inset
 
-Gli scienziati possono fare degli esami per verificare con certezza se qualcuno
- è il vero figlio di suo padre.
+Gli scienziati possono fare degli esami per provare con certezza che qualcuno
+ è figlio di suo padre.
  Granger probabilmente accetterebbe di farlo se pagassi abbastanza la sua
  famiglia.
  
@@ -1601,7 +1640,7 @@ di quello che hai fatto?
 \begin_inset Quotes frd
 \end_inset
 
- Draco balzò in avanti e afferrò Harry per il colletto del suo abito.
+ Draco si lanciò in avanti e afferrò Harry per il colletto.
  La sua voce divenne un urlo, sembrò insopportabilmente alta nell'aula chiusa
  e nel silenzio.
  
@@ -1632,7 +1671,7 @@ Avevi una convinzione.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1641,8 +1680,8 @@ Avevi una convinzione.
 
 \begin_layout Standard
 Le dita della mano destra di Draco si serrarono in un pugno e quella mano
- scese giù e inarrestabile esplose verso l'alto e colpì Harry Potter alla
- mascella così forte che il suo corpo andò a schiantarsi su di un banco
+ scese in basso e poi inarrestabile esplose verso l'alto e colpì Harry Potter
+ alla mascella così forte che il suo corpo andò a schiantarsi su di un banco
  e poi a terra.
 \end_layout
 
@@ -1693,7 +1732,7 @@ Draco, mi dispiace, non pensavo che sarebbe successo prima di qualche mese,
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1755,7 +1794,7 @@ Per un momento il pensiero che suo Padre non sapesse giunse come un sollievo.
 \end_layout
 
 \begin_layout Standard
-E poi la rabbia autentica cominciò a montare.
+E poi cominciò a montare la vera rabbia.
 \end_layout
 
 \begin_layout Standard
@@ -1800,7 +1839,7 @@ davvero
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1844,8 +1883,8 @@ po' meno speciale
 \begin_layout Standard
 Harry sussultò.
  Il ragazzo aprì la bocca, come per dire `mi dispiace', e poi la chiuse,
- apparentemente ripensandoci, il che fu o molto intelligente o molto fortunato,
- perché Draco avrebbe potuto tentare di ucciderlo.
+ apparentemente ripensandoci, dimostrando di essere o molto intelligente
+ o molto fortunato, perché Draco avrebbe potuto tentare di ucciderlo.
 \end_layout
 
 \begin_layout Standard
@@ -1866,8 +1905,8 @@ Avresti dovuto avvertimi!
 \begin_inset Quotes fld
 \end_inset
 
-L'ho\SpecialChar \ldots{}
- l'ho fatto\SpecialChar \ldots{}
+L'ho\SpecialChar ldots
+ l'ho fatto\SpecialChar ldots
  ogni volta che ho parlato del potere, ti ho parlato del
  suo prezzo.
  Ho detto, dovrai ammettere di sbagliarti.
@@ -1879,7 +1918,7 @@ o.
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1915,8 +1954,8 @@ Tu lo chiami un avvertimento? Quando stiamo facendo un rituale che richiede
 \begin_inset Quotes fld
 \end_inset
 
-Io\SpecialChar \ldots{}
- io\SpecialChar \ldots{}
+Io\SpecialChar ldots
+ io\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -1947,13 +1986,13 @@ Su di una cosa ti sbagli
 \begin_inset Quotes frd
 \end_inset
 
-, disse Draco, con una voce fatale.
+, disse Draco, con un tono fatale.
  
 \begin_inset Quotes fld
 \end_inset
 
 Granger non è lo studente più forte di Hogwarts.
- Lei è solo quella che prende i voti migliori a lezione.
+ È solo quello che prende i voti più alti.
  Stai per scoprire la differenza
 \begin_inset Quotes frd
 \end_inset
@@ -1962,12 +2001,12 @@ Granger non è lo studente più forte di Hogwarts.
 \end_layout
 
 \begin_layout Standard
-Un shock improvviso apparve sul viso di Harry, che cercò di rotolare rapidamente
- in piedi
+Una paura improvvisa apparve sul viso di Harry, che cercò di rotolare rapidament
+e in piedi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2027,7 +2066,7 @@ Questo è un incantesimo di tortura
 
 Serve a strappare informazioni alle persone.
  Lo lascerò su di te e chiuderò la porta dietro di me quando me ne andrò.
- Forse imposterò l'incantesimo di chiusura in modo da svanire dopo alcune
+ Forse lancerò l'incantesimo di chiusura in modo che svanisca dopo poche
  ore.
  Forse non svanirà prima che tu muoia qui dentro.
  Divertiti
@@ -2069,11 +2108,11 @@ La mano di Draco che reggeva la bacchetta divenne pallida, ma la sua mira
 \begin_inset Quotes fld
 \end_inset
 
-Solo affinché tu lo sappia
+Per tua informazione
 \begin_inset Quotes frd
 \end_inset
 
-, disse Harry tra i denti stretti, 
+, disse Harry tra i denti serrati, 
 \begin_inset Quotes fld
 \end_inset
 
@@ -2093,8 +2132,8 @@ lo farai.
 
 \emph default
  Un giorno.
- Ormai hai aperto gli occhi come scienziato, ora, e anche se non imparerai
- mai a usare il tuo potere, sarai sempre
+ Hai aperto gli occhi come scienziato, ormai, e anche se non imparerai mai
+ a usare il tuo potere, sarai sempre
 \begin_inset Quotes frd
 \end_inset
 
@@ -2106,7 +2145,7 @@ in cerca, di modi, per mettere alla prova, le tue convinzioni
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2115,8 +2154,8 @@ in cerca, di modi, per mettere alla prova, le tue convinzioni
 
 \begin_layout Standard
 Il movimento all'indietro di Draco fu meno agile, allora, e un po' più veloce,
- e dovette impegnarsi per tenere la bacchetta su Harry mentre allungava
- la mano all'indietro per aprire la porta e uscire dall'aula.
+ e dovette impegnarsi per mantenere la bacchetta puntata su Harry mentre
+ allungava la mano all'indietro per aprire la porta e uscire dall'aula.
 \end_layout
 
 \begin_layout Standard
@@ -2137,6 +2176,10 @@ Quietus
 
 \begin_layout Standard
 E poi se ne andò.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2190,8 +2233,8 @@ Finite Incantatem
 \end_layout
 
 \begin_layout Standard
-Alcune fatture richiedevano antidoti specifici o non saresti stato in grado
- di annullarle, o forse era soltanto che Draco era molto più forte.
+Alcune fatture richiedevano contro-fatture specifiche o non saresti stato
+ in grado di annullarle, o forse semplicemente Draco era molto più forte.
 \end_layout
 
 \begin_layout Standard
@@ -2210,7 +2253,7 @@ Aaaaahhhh!
 \end_layout
 
 \begin_layout Standard
-La mano di Harry cominciava a fargli davvero male, ora, e quello interferiva
+La mano di Harry cominciava a fargli davvero male, ormai, e ciò interferiva
  con i suoi tentativi di pensare in maniera creativa.
 \end_layout
 
@@ -2222,9 +2265,9 @@ Ma pochi urli dopo, Harry comprese quello che doveva fare.
 La sua borsa, sfortunatamente, era dal lato sbagliato del suo corpo, e ci
  vollero un po' di contorsioni per raggiungerla, specie mentre il suo altro
  braccio si agitava di riflesso, nel tentativo inarrestabile di scagliare
- lontano la fonte del dolore.
- Quando finalmente ci riuscì, l'altro braccio era riuscito a gettar via
- la sua bacchetta ancora una volta.
+ lontano l'origine del dolore.
+ Quando finalmente ci riuscì, l'altro braccio aveva gettato via la sua bacchetta
+ ancora una volta.
 \end_layout
 
 \begin_layout Standard
@@ -2250,7 +2293,7 @@ Sul pavimento, la luce verde era troppo fioca per poter vedere.
 Harry non era in grado di alzarsi in piedi.
  Non era in grado di strisciare.
  Rotolò sul pavimento fino al punto dove pensava che fosse la sua bacchetta,
- e non c'era, e con l'unica mano riuscì a sollevarsi abbastanza in alto
+ e non c'era, e con una sola mano riuscì a sollevarsi abbastanza in alto
  per vederla, e rotolò lì, e recuperò la bacchetta, e rotolò nuovamente
  indietro al punto in cui il kit medico era rimasto aperto.
  Aveva emesso un discreto numero di urli, e vomitato un po'.
@@ -2342,7 +2385,7 @@ piano
 \emph default
  non aveva previsto che accadesse prima di dicembre o giù di lì, dopo che
  Harry avesse insegnato a Draco le tecniche per non negare l'evidenza quando
- l'avesse vista.
+ l'avesse osservata.
 \end_layout
 
 \begin_layout Standard
@@ -2352,12 +2395,12 @@ Ma aveva notato l'espressione di terrore sul volto di Draco, aveva compreso
 già
 \emph default
  prendendo in seria considerazione un'altra ipotesi, e aveva colto l'occasione.
- Un singolo caso di vera curiosità aveva lo steso potere di redenzione nella
- razionalità che un singolo caso di vero amore aveva nei film.
+ Un singolo caso di vera curiosità aveva lo stesso potere di redenzione
+ nella razionalità che un singolo caso di vero amore aveva nei film.
 \end_layout
 
 \begin_layout Standard
-Ripensandoci, Harry si era dato ore per fare la più importante scoperta
+Ripensandoci, Harry si era concesso ore per fare la più importante scoperta
  nella storia della magia, e mesi per penetrare le barriere mentali immature
  di un undicenne.
  Questo poteva indicare che Harry avesse qualche tipo di seria carenza cognitiva
@@ -2367,7 +2410,7 @@ Ripensandoci, Harry si era dato ore per fare la più importante scoperta
 \begin_layout Standard
 Sarebbe andato all'Inferno della Scienza per ciò che aveva fatto? Harry
  non ne era sicuro.
- Aveva pianificato di mantenere la mente di Draco concentrata sulla possibilità
+ Aveva previsto di mantenere la mente di Draco concentrata sulla possibilità
  che la magia stesse svanendo, di assicurarsi che Draco eseguisse quelle
  parti dell'esperimento che sembrassero puntare inizialmente in quella direzione.
  Aveva atteso fino a quando non aveva terminato di spiegare la genetica
@@ -2385,7 +2428,7 @@ E poi c'era stata la parte
 \emph on
 successiva
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
@@ -2415,11 +2458,11 @@ Era giunto il momento di mettere alla prova l'incantesimo di chiusura di
 
 \begin_layout Standard
 Il primo passo era quello di provare semplicemente a girare la maniglia.
- Draco avrebbe potuto bluffare.
+ Draco avrebbe potuto bleffare.
 \end_layout
 
 \begin_layout Standard
-Draco non aveva bluffato.
+Draco non aveva bleffato.
 \end_layout
 
 \begin_layout Standard
@@ -2440,7 +2483,7 @@ Finite Incantatem
 \end_layout
 
 \begin_layout Standard
-Quindi Harry provò ancora, e questa volta sembrò effettivo.
+Quindi Harry provò ancora, e questa volta sembrò efficace.
  Ma un'altra torsione della maniglia mostrò che non aveva funzionato.
  Nessuna sorpresa.
 \end_layout
@@ -2448,7 +2491,8 @@ Quindi Harry provò ancora, e questa volta sembrò effettivo.
 \begin_layout Standard
 Era giunto il momento di usare le armi pesanti.
  Harry prese un respiro profondo.
- Questo incantesimo era uno dei più potenti che avesse imparato finora.
+ Quell'incantesimo era uno dei più potenti che avesse imparato fino a quel
+ momento.
 \end_layout
 
 \begin_layout Standard
@@ -2467,7 +2511,7 @@ Alohomora!
 \end_layout
 
 \begin_layout Standard
-Harry vacillò un po' dopo averlo detto.
+Harry vacillò un po' dopo averlo pronunciato.
 \end_layout
 
 \begin_layout Standard
@@ -2475,22 +2519,22 @@ E la porta della classe continuò a non aprirsi.
 \end_layout
 
 \begin_layout Standard
-Il che sconvolse Harry.
- Non aveva avuto intenzione di avvicinarsi minimamente al corridoio proibito
+Il che sconcertò Harry.
+ Non aveva avuto la minima intenzione di avvicinarsi al corridoio proibito
  di Dumbledore, ovviamente.
- Ma un incantesimo per aprire le serrature magiche era sembrato un tipo
+ Ma un incantesimo per aprire le serrature magiche era sembrato un genere
  di incantesimo utile in ogni caso, e così Harry l'aveva imparato.
- Il corridoio proibito di Dumbledore aveva forse lo scopo di attirare le persone
- così stupide da non notare che la sua protezione era peggiore di quella
- che avrebbe potuto metterci Draco Malfoy?
+ Il corridoio proibito di Dumbledore aveva forse lo scopo di attirare le
+ persone così stupide da non notare che la sua protezione era peggiore di
+ quella che avrebbe potuto metterci Draco Malfoy?
 \end_layout
 
 \begin_layout Standard
 La paura si stava insinuando nuovamente nel sistema di Harry.
  Il cartellino nel kit medico aveva detto che il Telo Intorpidente poteva
  essere utilizzato in sicurezza per un massimo di 30 minuti.
- Dopo di che si sarebbe staccato spontaneamente, e non essere riutilizzabile
- per 24 ore.
+ Dopo di che si sarebbe staccato spontaneamente, e non sarebbe stato utilizzabil
+e di nuovo per 24 ore.
  In quel momento erano le 18:51.
  Aveva indossato il Telo Intorpidente circa cinque minuti prima.
 \end_layout
@@ -2505,7 +2549,7 @@ Così Harry fece un passo indietro, ed esaminò la porta.
 Harry non conosceva alcun incantesimo dall'effetto esplosivo, trinciante
  e contundente, e Trasfigurare un esplosivo avrebbe violato la regola contro
  la Trasfigurazione di cose che dovessero prendere fuoco.
- Un acido era un liquido e avrebbe prodotto dei fumi\SpecialChar \ldots{}
+ Un acido era un liquido e avrebbe prodotto dei fumi\SpecialChar ldots
 
 \end_layout
 
@@ -2533,7 +2577,7 @@ Dopo due minuti il cardine non era minimamente cambiato.
 \end_layout
 
 \begin_layout Standard
-Chiunque avesse progettato l'incantesimo di chiusura di Draco, aveva pensato
+Chiunque avesse creato l'incantesimo di chiusura di Draco, aveva pensato
  anche a quello.
  O la porta era parte di Hogwarts e il castello era immune.
 \end_layout
@@ -2545,8 +2589,8 @@ Uno sguardo mostrò che le pareti erano di solida pietra.
  Non si poteva Trasfigurare indipendentemente una parte di qualcosa che
  era un unico solidale; Harry avrebbe avuto bisogno di provare a Trasfigurare
  l'intera parete, cosa che avrebbe richiesto ore o forse giorni di sforzo
- continuo, sempre che ci fosse riuscito, e se la parete non era contigua
- al resto dell'intero castello\SpecialChar \ldots{}
+ continuo, sempre che ci fosse riuscito, e se la parete non fosse stata
+ connessa al resto dell'intero castello\SpecialChar ldots
 
 \end_layout
 
@@ -2570,7 +2614,7 @@ La sua mente brillantemente creativa gli aveva appena offerto il geniale
  suggerimento secondo cui Harry avrebbe potuto tagliarsi via la mano usando
  il seghetto nella cassetta degli attrezzi conservata nella sua borsa, cosa
  molto dolorosa, ovviamente, ma che sarebbe potuta essere meno dolorosa
- dell'incantesimo del tormento di Draco, poiché i nervi sarebbero andati;
+ dell'incantesimo di tortura di Draco, poiché i nervi sarebbero andati;
  e aveva dei lacci emostatici nel kit di guarigione.
 \end_layout
 
@@ -2588,16 +2632,16 @@ Voleva
 \emph on
 uscire
 \emph default
- da quest'aula, voleva uscire da quest'aula 
+ da quell'aula, voleva uscire da quell'aula 
 \emph on
-ora
+subito
 \emph default
-, non voleva attendere lì urlando per due ore finché non avesse potuto usare
- il Giratempo, aveva bisogno di 
+, non voleva aspettare lì dentro, urlando per due ore finché non avesse
+ potuto usare il Giratempo, aveva bisogno di 
 \emph on
 uscire
 \emph default
- e trovare qualcuno che rimuovesse l'incantesimo di tortura dalla sua mano\SpecialChar \ldots{}
+ e trovare qualcuno che rimuovesse l'incantesimo di tortura dalla sua mano\SpecialChar ldots
 
 \end_layout
 
@@ -2640,7 +2684,7 @@ status open
 \begin_layout Standard
 Il dormitorio Serpeverde era per lo più vuoto.
  Gli altri erano a cena.
- Per qualche ragione, Draco stesso non si sentiva molto affamato.
+ Per qualche ragione, Draco stesso non provava molta fame.
 \end_layout
 
 \begin_layout Standard
@@ -2683,7 +2727,7 @@ Da qualche parte nei sotterranei, un ragazzo che era davvero piaciuto a
  Draco non aveva mai ferito qualcuno che gli piacesse, prima.
  Punire persone che se lo meritavano sarebbe dovuto essere divertente, ma
  invece sembrava solo malato nel profondo.
- Suo Padre non l'aveva avvertito di quello, e Draco si chiese se fosse una
+ Suo Padre non l'aveva avvertito di ciò, e Draco si chiese se fosse una
  dura lezione che chiunque doveva imparare crescendo, o se Draco era semplicemen
 te debole.
 \end_layout
@@ -2708,7 +2752,8 @@ Draco sarebbe dovuto tornare da Harry Potter perché non c'era altro luogo
  dove andare per lui.
  E se Harry Potter gli avesse detto che non lo voleva, Draco non sarebbe
  stato niente, solo un patetico ragazzino che non sarebbe potuto mai essere
- un Mangiamorte, mai entrare nella fazione di Dumbledore, mai imparare la scienza.
+ un Mangiamorte, mai entrare nella fazione di Dumbledore, mai imparare la
+ scienza.
 \end_layout
 
 \begin_layout Standard
@@ -2783,9 +2828,9 @@ status open
 
 \begin_layout Standard
 Harry lasciò cadere i resti del suo seghetto a terra.
- I cardini d'ottone si erano dimostrati resistenti, neppure scalfiti, e
- Harry stava cominciando a sospettare che persino l'atto disperato di Trasfigura
-re acidi o esplosivi per aprire quella porta sarebbe fallito.
+ I cardini d'ottone si erano dimostrati resistenti, neppure una scalfitura,
+ e Harry stava cominciando a sospettare che persino l'atto disperato di
+ Trasfigurare acidi o esplosivi per aprire quella porta sarebbe fallito.
  La cosa positiva era che il tentativo aveva distrutto il seghetto.
 \end_layout
 
@@ -2795,7 +2840,7 @@ Il suo orologio sosteneva che fossero le 19:02, con meno di quindici minuti
  nella sua borsa che avevano bisogno di essere distrutte, e sentì che un
  altro accesso di lacrime stava per sgorgare.
  Se solo, quando il suo Giratempo si fosse aperto, fosse potuto tornare
- indietro e 
+ indietro a 
 \emph on
 impedire
 \emph default
@@ -2803,7 +2848,7 @@ impedire
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2819,12 +2864,11 @@ Non era la prima volta che era rimasto chiuso in una stanza.
 \end_layout
 
 \begin_layout Standard
-La professoressa McGonagall gli aveva già detto il modo corretto di farlo.
+La professoressa McGonagall gli aveva già spiegato il modo corretto di farlo.
 \end_layout
 
 \begin_layout Standard
-… e gli aveva anche detto di non usare il Giratempo per questo genere di
- cose.
+… e gli aveva anche detto di non usare il Giratempo per quel genere di cose.
 \end_layout
 
 \begin_layout Standard
@@ -2880,7 +2924,7 @@ Ho ricevuto una nota che diceva che eri rinchiuso qui dentro
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
