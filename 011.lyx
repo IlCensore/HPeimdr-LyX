@@ -159,8 +159,14 @@ status open
 
 
 \backslash
-nomarkerfootnote{N.d.T.: sebbene prosegua la normale numerazione, questo capitolo
- non fa parte della linea narrativa, è stato scritto solo per divertimento.}
+nomarkerfootnote{
+\backslash
+textsf{N.d.T.: sebbene prosegua la normale numerazione, questo capitolo non
+ fa parte della linea narrativa, è stato scritto solo per divertimento;
+ in lingua giapponese «
+\backslash
+textit{omake}» indica materiale da un autore che non fa parte del canone
+ delle sue opere.}}
 \end_layout
 
 \end_inset
@@ -175,29 +181,6 @@ nomarkerfootnote{N.d.T.: sebbene prosegua la normale numerazione, questo capitol
 \emph on
 Omake
 \emph default
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-
-\family sans
-\begin_inset Quotes fld
-\end_inset
-
-
-\emph on
-Omake
-\emph default
-
-\begin_inset Quotes frd
-\end_inset
-
- è un supplemento non-canonico.
-\end_layout
-
-\end_inset
-
  #1: 72 ore alla vittoria (ovvero 
 \begin_inset Quotes fld
 \end_inset
@@ -212,8 +195,8 @@ Cosa succede se cambi Harry ma lasci tutti gli altri personaggi uguali
 \begin_layout Standard
 
 \family sans
-Dumbledore osservava il giovane Harry al di là della scrivania, brillando
- in maniera gentile.
+Dumbledore stava osservando il giovane Harry dall'altra parte della scrivania,
+ brillando in maniera gentile.
  Il ragazzo era venuto da lui con uno sguardo terribilmente teso sul suo
  volto infantile – Dumbledore sperava che, qualunque fosse la questione,
  non fosse 
