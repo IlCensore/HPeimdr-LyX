@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -75,16 +77,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Arno Pro
-\font_sans Warnock Pro
-\font_typewriter Ubuntu Mono
-\font_math auto
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "Ubuntu Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -153,6 +155,7 @@ name "chap:21Razionalizzazione"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Hermione Granger era preoccupata di stare diventando Cattiva.
 \begin_inset Note Note
 status open
@@ -187,7 +190,7 @@ Cattivi
 \end_inset
 
  erano il professor Snape, il professor Quirrell e Draco Malfoy.
- Harry Potter\SpecialChar \ldots{}
+ Harry Potter\SpecialChar ldots
  era uno dei quei casi particolari in cui 
 \emph on
 non potevi
@@ -201,7 +204,7 @@ Ma per quanto riguardava
 \emph on
 sé stessa
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
@@ -260,12 +263,12 @@ Prima di incontrare Harry Potter non c'era mai stato nessuno che avesse
 \end_layout
 
 \begin_layout Standard
-E adesso\SpecialChar \ldots{}
+E adesso\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  adesso stava 
 \emph on
 vincendo
@@ -433,7 +436,7 @@ proprio da lui
 \emph on
 finito di leggere
 \emph default
- in precedenza la seconda metà del libro\SpecialChar \ldots{}
+ in precedenza la seconda metà del libro\SpecialChar ldots
 
 \end_layout
 
@@ -476,7 +479,7 @@ che mi era rimasta solo la metà di un libro, e che mi sono imbattuto in
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -552,7 +555,7 @@ Lo Sguardo di Fuoco Fiammeggiante di Harry divenne ancor più caldo.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -675,6 +678,10 @@ rendete conto
 \begin_layout Standard
 E ci furono cenni d'assenso impazienti da parte di tutte le ragazze alle
  quali Penelope Clearwater aveva parlato del piano di Hermione.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -751,7 +758,7 @@ sarebbe dovuto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -795,8 +802,8 @@ avrei
 vinto
 \emph default
 .
- E non\SpecialChar \ldots{}
- invece\SpecialChar \ldots{}
+ E non\SpecialChar ldots
+ invece\SpecialChar ldots
  
 \emph on
 perso
@@ -902,12 +909,17 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size footnotesize
-«Ho appena trascorso due intere ore alla presenza di Hermione Granger, [\SpecialChar \ldots{}
+«Ho appena trascorso due intere ore alla presenza di Hermione Granger, [\SpecialChar ldots
 ]
  Sono stato a un appuntamento, rampollo dei Malfoy.
  Il mio 
@@ -956,7 +968,7 @@ Draco annuì solennemente.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1093,7 +1105,7 @@ imparare
 fare
 \emph default
  nulla.
- Poteva sempre interrompere le lezioni in qualsiasi momento\SpecialChar \ldots{}
+ Poteva sempre interrompere le lezioni in qualsiasi momento\SpecialChar ldots
 
 \end_layout
 
@@ -1169,7 +1181,7 @@ Draco scosse la testa.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1296,7 +1308,7 @@ come il sangue funziona realmente
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1335,7 +1347,7 @@ più forti?
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1372,7 +1384,7 @@ Draco fissò la figura ammantata dall'ombra per un po', con gli occhi socchiusi.
 \begin_layout Standard
 La figura ombrosa scosse la testa.
  «Non è una trappola, Draco.
- Ricorda -- 
+ Ricorda – 
 \emph on
 io non so
 \emph default
@@ -1411,7 +1423,7 @@ io non so
 
 \begin_layout Standard
 Draco fece una pausa.
- Non se l'era aspettato, aveva pensato di aver visto la trappola, ma\SpecialChar \ldots{}
+ Non se l'era aspettato, aveva pensato di aver visto la trappola, ma\SpecialChar ldots
  «Lo
  
 \emph on
@@ -1460,7 +1472,7 @@ La figura, ombrosa e illuminata di verde, attese.
 
 \begin_layout Standard
 Non ci volle molto tempo per pensarci, però.
- Se scartavi tutte le parti disorientanti\SpecialChar \ldots{}
+ Se scartavi tutte le parti disorientanti\SpecialChar ldots
  allora Harry Potter stava progettando
  di trafficare con qualcosa che avrebbe potuto provocare un gigantesco sconvolgi
 mento politico, e sarebbe stato folle andarsene via e basta, e lasciare
@@ -1520,7 +1532,7 @@ quel
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1560,7 +1572,7 @@ La figura chinò il capo.
  In principio, semplicemente non compresero il concetto di conoscenza pericolosa
 , e pensarono che si potesse parlare liberamente di tutte le cose conosciute.
  Quando le loro ricerche divennero pericolose, riferirono ai loro politici
- cose che sarebbero dovute restare segrete -- non guardarmi così, Draco,
+ cose che sarebbero dovute restare segrete – non guardarmi così, Draco,
  non fu soltanto stupidità.
  Dovevano essere abbastanza intelligenti da scoprire quei segreti, del resto.
  Ma erano Babbani, era la prima volta che avevano trovato qualcosa di 
@@ -1589,7 +1601,7 @@ nemico
 \emph on
 loro
 \emph default
- politici\SpecialChar \ldots{}
+ politici\SpecialChar ldots
 » La frase rimase sospesa in modo significativo.
  «Non distrussero il mondo.
  Ma ci andarono vicino.
@@ -1681,7 +1693,7 @@ Ci fu una breve pausa.
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1696,7 +1708,7 @@ proprio pensando
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1708,7 +1720,7 @@ a cosa
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1724,7 +1736,7 @@ stupido!
 \begin_inset space ~
 \end_inset
 
---» disse la figura ombrosa.
+–» disse la figura ombrosa.
 \end_layout
 
 \begin_layout Standard
@@ -1766,7 +1778,7 @@ mbox{--»}
 \begin_inset space ~
 \end_inset
 
---»
+–»
 \end_layout
 
 \begin_layout Standard
@@ -1779,16 +1791,16 @@ Dimentica quello che ho detto
 \emph on
 velocemente
 \emph default
- -- «E come ci chi\SpecialChar \-
-a\SpecialChar \-
-me\SpecialChar \-
-re\SpecialChar \-
+ – «E come ci chi\SpecialChar softhyphen
+a\SpecialChar softhyphen
+me\SpecialChar softhyphen
+re\SpecialChar softhyphen
 mo? I Mangiascienza?»
 \end_layout
 
 \begin_layout Standard
 «No», disse lentamente la figura ombrosa.
- «Non suona bene\SpecialChar \ldots{}
+ «Non suona bene\SpecialChar ldots
 »
 \end_layout
 
@@ -1817,7 +1829,7 @@ In quel momento Draco avrebbe accettato anche `Masticatori di Malfoy', purché
 \begin_layout Standard
 E in piedi in mezzo ai banchi polverosi in un'aula inutilizzata nei sotterranei
  di Hogwarts, la sagoma illuminata di verde di Harry Potter allargò platealmente
- le braccia e disse: «Questo giorno segnerà l'alba della\SpecialChar \ldots{}
+ le braccia e disse: «Questo giorno segnerà l'alba della\SpecialChar ldots
  
 \emph on
 Cospirazione bayesiana
@@ -1857,12 +1869,17 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size small
-«Questo giorno segnerà l'alba della\SpecialChar \ldots{}
+«Questo giorno segnerà l'alba della\SpecialChar ldots
  
 \emph on
 Cospirazione bayesiana
@@ -1925,7 +1942,7 @@ venerdì
  il guscio protettivo si era aperto, e poi aveva utilizzato le quattro ore
  restanti sul Giratempo per tornare alle 17 e collassare dal sonno.
  Si era svegliato intorno alle 2 di sabato mattina, come previsto, e aveva
- letto per le successive dodici ore di fila\SpecialChar \ldots{}
+ letto per le successive dodici ore di fila\SpecialChar ldots
  e ancora non era stato sufficiente.
  E ora Harry sarebbe andato a dormire piuttosto presto per i prossimi giorni,
  fino a quando il suo ciclo di sonno non si fosse nuovamente riallineato.
@@ -2034,7 +2051,7 @@ Per favore, stai più attento in futuro, Harry Potter.
 \begin_layout Quote
 
 \emph on
---- Babbo Natale
+— Babbo Natale
 \end_layout
 
 \begin_layout Standard
@@ -2049,13 +2066,13 @@ sembrava
  essere un ottimo consiglio.
  Certo Harry non aveva intenzione di imbrogliare nel corso di Storia, anche
  se gli avessero dato una scimmia morta come professore.
- Ma la Legilimanzia di Severus\SpecialChar \ldots{}
+ Ma la Legilimanzia di Severus\SpecialChar ldots
  chiunque avesse inviato quella nota era al
  corrente di parecchi segreti importanti ed era disposto a raccontarli a
  Harry.
- La nota lo stava ancora mettendo in guardia contro la possibilità che Dumbledore
- rubasse il mantello, ma a quel punto onestamente Harry non aveva idea se
- fosse un brutto segno, sarebbe potuto essere solo un errore ragionevole.
+ La nota lo stava ancora mettendo in guardia contro la possibilità che Dumbledor
+e rubasse il mantello, ma a quel punto onestamente Harry non aveva idea
+ se fosse un brutto segno, sarebbe potuto essere solo un errore ragionevole.
 \end_layout
 
 \begin_layout Standard
@@ -2064,8 +2081,8 @@ Pareva che ci fosse una sorta di intrigo in atto all'interno di Hogwarts.
 \emph on
 confrontato le storie
 \emph default
- tra Dumbledore e il mittente della nota, avrebbe potuto tirare fuori un quadro
- 
+ tra Dumbledore e il mittente della nota, avrebbe potuto tirare fuori un
+ quadro 
 \emph on
 combinato
 \emph default
@@ -2073,19 +2090,23 @@ combinato
 \emph on
 entrambi
 \emph default
- fossero stati d'accordo su qualcosa, allora\SpecialChar \ldots{}
+ fossero stati d'accordo su qualcosa, allora\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
- evabbè\SpecialChar \ldots{}
+\SpecialChar ldots
+ evabbè\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
 Harry ficcò tutto nella borsa, alzò il Quietus, tirò la coperta sopra la
  testa e si spense.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2115,18 +2136,18 @@ esattamente una settimana
 \end_layout
 
 \begin_layout Standard
-E gli venne un pensiero\SpecialChar \ldots{}
+E gli venne un pensiero\SpecialChar ldots
  Harry non sapeva se questo fosse un modo valido
  di pensare riguardo all'universo, non sapeva più nulla, ma 
 \emph on
 sembrava possibile
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-Che\SpecialChar \ldots{}
+Che\SpecialChar ldots
 
 \end_layout
 
@@ -2157,20 +2178,20 @@ Avrebbe dovuto scappare urlando.
 \end_layout
 
 \begin_layout Standard
-Di qualunque cosa si trattasse\SpecialChar \ldots{}
- poteva benissimo essere\SpecialChar \ldots{}
+Di qualunque cosa si trattasse\SpecialChar ldots
+ poteva benissimo essere\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \begin_inset space ~
 \end_inset
 
 il 
 \emph on
-gran finale\SpecialChar \ldots{}
+gran finale\SpecialChar ldots
 
 \end_layout
 
@@ -2235,7 +2256,7 @@ E George prese, da dietro le spalle di Fred
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2282,7 +2303,7 @@ Colui che distruggerà persino
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 »
 \begin_inset Note Note
@@ -2308,19 +2329,19 @@ completato in capitolo 89
 \end_layout
 
 \begin_layout Standard
-Dumbledore era saltato fuori dal suo trono ed era corso dritto oltre il Tavolo
- d'onore e aveva afferrato la donna che pronunciava quelle parole terribili,
- Fawkes era apparso in un lampo e tutti e tre erano scomparsi in uno schiocco
- di fuoco.
+Dumbledore era saltato fuori dal suo trono ed era corso dritto oltre il
+ Tavolo d'onore e aveva afferrato la donna che pronunciava quelle parole
+ terribili, Fawkes era apparso in un lampo e tutti e tre erano scomparsi
+ in uno schiocco di fuoco.
 \end_layout
 
 \begin_layout Standard
-Ci fu una pausa traumatizzata\SpecialChar \ldots{}
+Ci fu una pausa traumatizzata\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  seguita dal movimento delle teste che si voltarono in direzione di Harry
  Potter.
 \end_layout
@@ -2402,7 +2423,7 @@ cosa?
 \end_layout
 
 \begin_layout Standard
-«Come\SpecialChar \ldots{}
+«Come\SpecialChar ldots
  `spirito'? `Sole'?»
 \end_layout
 
@@ -2467,6 +2488,10 @@ settimana molto lunga
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2497,7 +2522,7 @@ E Harry era seduto nel livello sotterraneo del suo baule, chiuso a chiave
 \end_layout
 
 \begin_layout Standard
-10:03, ma giusto per essere sicuri\SpecialChar \ldots{}
+10:03, ma giusto per essere sicuri\SpecialChar ldots
 
 \end_layout
 
@@ -2542,20 +2567,20 @@ Harry fissò il foglio di carta bianco.
 \emph on
 Vediamo
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-Dopo aver lasciato i suoi genitori alla stazione ferroviaria, aveva\SpecialChar \ldots{}
+Dopo aver lasciato i suoi genitori alla stazione ferroviaria, aveva\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  fatto conoscenza con un ragazzo cresciuto da Darth Vader, fatto amicizia
  con i tre burloni più famigerati di Hogwarts, incontrato Hermione, e poi
- c'era stato l'incidente con il Cappello Smistatore\SpecialChar \ldots{}
+ c'era stato l'incidente con il Cappello Smistatore\SpecialChar ldots
  lunedì aveva ricevuto
  una macchina del tempo per curare il suo disturbo del sonno, ottenuto un
  leggendario mantello dell'invisibilità da un benefattore sconosciuto, salvato
@@ -2565,22 +2590,22 @@ Dopo aver lasciato i suoi genitori alla stazione ferroviaria, aveva\SpecialChar 
 \emph on
 Frigideiro
 \emph default
- nella lezione di Incantesimi, e iniziato la sua rivalità con Hermione\SpecialChar \ldots{}
+ nella lezione di Incantesimi, e iniziato la sua rivalità con Hermione\SpecialChar ldots
  martedì
  aveva fatto conoscenza con Astronomia insegnata dalla professoressa Aurora
  Sinistra, che era interessante, e con Storia della Magia insegnata da un
- fantasma che avrebbe dovuto essere esorcizzato e sostituito con un registratore\SpecialChar \ldots{}
+ fantasma che avrebbe dovuto essere esorcizzato e sostituito con un registratore\SpecialChar ldots
 
- mercoledì, era stato dichiarato lo Studente Più Pericoloso della Classe\SpecialChar \ldots{}
+ mercoledì, era stato dichiarato lo Studente Più Pericoloso della Classe\SpecialChar ldots
 
- giovedì, meglio non pensarci nemmeno a giovedì\SpecialChar \ldots{}
+ giovedì, meglio non pensarci nemmeno a giovedì\SpecialChar ldots
  venerdì, l'incidente della
  lezione di Pozioni, seguito dal suo ricatto al Preside, seguito dal Professore
  di Difesa che l'aveva fatto picchiare a lezione, seguito dal Professore
  di Difesa che si era rivelato l'essere umano più fantastico che camminasse
- sulla faccia della Terra\SpecialChar \ldots{}
+ sulla faccia della Terra\SpecialChar ldots
  sabato aveva perso una scommessa ed era andato
- al suo primo appuntamento e aveva iniziato la redenzione di Draco\SpecialChar \ldots{}
+ al suo primo appuntamento e aveva iniziato la redenzione di Draco\SpecialChar ldots
  e poi
  quella mattina la profezia incompleta della professoressa Trelawney che
  poteva o non poteva indicare che un Signore Oscuro immortale stava per
@@ -2588,7 +2613,7 @@ Frigideiro
 \end_layout
 
 \begin_layout Standard
-Harry organizzò mentalmente il materiale, e iniziò a scrivere.
+Harry riorganizzò mentalmente il tutto e iniziò a scrivere.
 \end_layout
 
 \begin_layout Quote

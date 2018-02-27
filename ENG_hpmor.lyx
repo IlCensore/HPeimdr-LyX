@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -205,16 +207,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding \font_roman Garamond Premier Pro
-\font_roman EB Garamond
-\font_sans Linux Biolinum O
-\font_typewriter Liberation Mono
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Liberation Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -315,6 +317,10 @@ newgeometry{left=1.69cm,bottom=2.493cm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -350,6 +356,10 @@ Harry Potter e i metodi della razionalità
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -371,6 +381,10 @@ status open
 color{Maroon}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -540,7 +554,7 @@ Harry Potter © 1997 Joanne Rowling.
 \emph on
 Harry Potter and the Methods of Rationality
 \emph default
- © 2010--2015 Eliezer Yukowsky.
+ © 2010–2015 Eliezer Yukowsky.
 \end_layout
 
 \begin_layout Standard
@@ -603,7 +617,7 @@ reflectbox{©}
 
 \end_inset
 
- 2013--2015 Cato Philosophus (
+ 2013–2015 Cato Philosophus (
 \begin_inset ERT
 status open
 
@@ -655,7 +669,8 @@ url{sites.google.com/site/hpeimdr/home}
 \begin_layout Standard
 
 \size footnotesize
-Libro composto con LyX & 
+Libro composto con \SpecialChar LyX
+ & 
 \begin_inset ERT
 status open
 
@@ -864,6 +879,10 @@ newgeometry{left=1.69cm,bottom=2.493cm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -945,7 +964,7 @@ cleardoublepage
 
 
 \backslash
-part{Harry James Potter-Evans-Verres e i Metodi della razionalità}
+part{Harry James Potter-Evans-Verres e i metodi della razionalità}
 \end_layout
 
 \end_inset
@@ -1295,7 +1314,7 @@ cleardoublepage
 
 
 \backslash
-part{Harry James Potter-Evans-Verres e le Ombre della Morte}
+part{Harry James Potter-Evans-Verres e le ombre della morte}
 \end_layout
 
 \end_inset
@@ -1513,7 +1532,7 @@ cleardoublepage
 
 
 \backslash
-part{Hermione Jean Granger e il Richiamo della Fenice}
+part{Hermione Jean Granger e il richiamo della fenice}
 \end_layout
 
 \end_inset
@@ -1686,7 +1705,7 @@ cleardoublepage
 
 
 \backslash
-part{Harry James Potter-Evans-Verres e il Nemico finale}
+part{Harry James Potter-Evans-Verres e il nemico finale}
 \end_layout
 
 \end_inset
@@ -1807,7 +1826,7 @@ cleardoublepage
 
 
 \backslash
-part{Harry James Potter-Evans-Verres e la Pietra filosofale}
+part{Harry James Potter-Evans-Verres e la pietra filosofale}
 \end_layout
 
 \end_inset
@@ -2028,6 +2047,10 @@ backmatter
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2219,6 +2242,10 @@ textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
  in parti uguali.}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 

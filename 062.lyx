@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{61}
@@ -62,16 +64,16 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans EB Garamond
-\font_typewriter Inconsolata
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "EB Garamond"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,15 +84,24 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -197,7 +208,7 @@ Non avevano il diritto, non avevano nessun diritto di scaricarlo su di un
  Sapeva cosa il Preside aveva deciso per lui quel giorno, poiché a lei era
  stato detto di occuparsi dei preparativi; e se fosse stata lei alla stessa
  età si sarebbe infuriata e avrebbe gridato e pianto e sarebbe stata inconsolabi
-le per settimane, e\SpecialChar \ldots{}
+le per settimane, e\SpecialChar ldots
 
 \end_layout
 
@@ -237,7 +248,7 @@ La terribile voce cavernosa rimbombata dalla gola di Sybill Trelawney, la
 E anche così sembrava ancora vero, che se ci fosse stato qualunque undicenne
  sull'intera Terra che potesse portare questo peso, quel ragazzo si stava
  avvicinando al suo ufficio ora.
- E se ella avesse detto qualcosa come `povero Harry' di fronte a lui\SpecialChar \ldots{}
+ E se ella avesse detto qualcosa come `povero Harry' di fronte a lui\SpecialChar ldots
  beh,
  a lui non sarebbe piaciuto.
 \end_layout
@@ -250,7 +261,7 @@ Quindi ora devo trovare qualche maniera di uccidere un Mago Oscuro immortale
 , aveva detto Harry il giorno che era venuto a saperlo la prima volta.
  
 \emph on
-Vorrei davvero che me l'avesse detto prima che iniziassi a fare le compere\SpecialChar \ldots{}
+Vorrei davvero che me l'avesse detto prima che iniziassi a fare le compere\SpecialChar ldots
 
 \begin_inset Note Note
 status open
@@ -337,12 +348,12 @@ Minerva stava avendo qualche problema a incrociare il suo sguardo.
 fargli
 \emph default
  questo, come potevano affidarlo a un ragazzo di undici anni, questa guerra,
- questo destino, questa profezia\SpecialChar \ldots{}
+ questo destino, questa profezia\SpecialChar ldots
  e non si 
 \emph on
 fidavano
 \emph default
- nemmeno di lui\SpecialChar \ldots{}
+ nemmeno di lui\SpecialChar ldots
 
 \end_layout
 
@@ -500,7 +511,7 @@ Quanto a lungo avrebbe dovuto attendere prima che Harry Potter andasse indietro
 
 \begin_layout Standard
 Non doveva attendere affatto, in effetti; se l'aveva fatto, allora era già
- accaduto\SpecialChar \ldots{}
+ accaduto\SpecialChar ldots
 
 \end_layout
 
@@ -508,10 +519,9 @@ Non doveva attendere affatto, in effetti; se l'aveva fatto, allora era già
 Minerva seppe, allora, che stava rimandando perché era nervosa, e quella
  consapevolezza la intristì.
  Pestifero, sì, indicibilmente e impensabilmente pestifero con tutta la
- prudenza e la lungimiranza di un masso che cade -- non sapeva con quale
+ prudenza e la lungimiranza di un masso che cade – non sapeva con quale
  inganno il ragazzo avesse indotto il Cappello a non Smistarlo in Grifondoro
- a cui evidentemente apparteneva -- ma niente affatto oscuro o dannoso,
- mai.
+ a cui evidentemente apparteneva – ma niente affatto oscuro o dannoso, mai.
  Sotto quel suo essere pestifero la sua bontà scorreva tanto profonda e
  sincera quanto quella dei gemelli Weasley, sebbene neppure la Maledizione
  Cruciatus avrebbe potuto farglielo dire ad alta voce.
@@ -540,6 +550,10 @@ Vai dal professor Flitwick, e riportami la sua riposta dopo che gli hai
 \end_inset
 
 .
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -563,7 +577,7 @@ Un'ora prima, avendo usato l'ultimo giro rimasto al suo Giratempo dopo aver
 E si incamminò verso i sotterranei di Serpeverde, camminando quanto più
  velocemente le sue gambe invisibili potessero reggere, sebbene non corresse.
  Fortunatamente l'ufficio della Vicepreside era già ad un piano inferiore
- di Hogwarts\SpecialChar \ldots{}
+ di Hogwarts\SpecialChar ldots
 
 \end_layout
 
@@ -693,22 +707,22 @@ Margaret avrebbe aperto la
  sua
 \emph default
  busta, e avrebbe trovato cinque sicli con una busta da lasciar cadere in
- una classe inutilizzata\SpecialChar \ldots{}
+ una classe inutilizzata\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  
 \emph on
 dopo
 \emph default
- aver usato il suo Giratempo per tornare indietro di cinque ore\SpecialChar \ldots{}
+ aver usato il suo Giratempo per tornare indietro di cinque ore\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  e a quel punto avrebbe trovato altri cinque sicli che l'aspettavano, se
  fosse arrivata lì rapidamente.
 \end_layout
@@ -746,10 +760,10 @@ Una parte della tensione abbandonò Harry mentre camminava a grandi passi
 sapendo
 \emph default
  che aveva già avuto successo.
- Ora restava solo il confronto con Dumbledore, e poi avrebbe terminato la giornata\SpecialChar \ldots{}
-
- sarebbe andato presso i gargoyles del Preside alle 21, poiché farlo alle
- 20 sarebbe stato più sospetto.
+ Ora restava solo il confronto con Dumbledore, e poi avrebbe terminato la
+ giornata\SpecialChar ldots
+ sarebbe andato presso i gargoyles del Preside alle 21, poiché
+ farlo alle 20 sarebbe stato più sospetto.
  In questo modo avrebbe potuto affermare di aver capito male ciò che la
  professoressa McGonagall aveva inteso per 
 \begin_inset Quotes fld
@@ -759,7 +773,7 @@ dopo
 \begin_inset Quotes frd
 \end_inset
 
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \end_layout
 
@@ -777,6 +791,10 @@ Così Harry si ritirò ancora un po' più in profondità nel suo lato oscuro,
 \begin_layout Standard
 La resa dei conti sarebbe arrivata, ma talvolta bisognava prendere a prestito
  tutto ciò che si poteva oggi, e lasciare che i pagamenti scadessero domani.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -807,7 +825,7 @@ La porta di quercia si aprì
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -953,7 +971,7 @@ Nessuna delle due parti di Harry riuscì a pensare a nulla da dire in risposta,
 Ho iniziato a ricostituire l'Ordine della Fenice che ti servirà, ho allertato
  le poche anime che possono e devono comprendere: Amelia Bones, Alastor
  Moody, Bartemius Crouch, alcuni altri.
- Della profezia -- sì, c'è una profezia -- non ho detto loro, ma sanno che
+ Della profezia – sì, c'è una profezia – non ho detto loro, ma sanno che
  Voldemort è tornato, e sanno che tu stai per giocare un certo ruolo vitale.
  Loro ed io combatteremo la tua guerra durante i suoi primordi meno intensi,
  mentre tu diventi più forte, e forse più saggio, qui a Hogwarts
@@ -982,7 +1000,7 @@ La parte interiore di Harry stava urlando e sbattendo la testa contro muri
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -999,7 +1017,10 @@ Poi Harry disse,
 Il Signore degli Anelli
 \emph default
  di J.R.R.
- Tolkien
+\begin_inset space \thinspace{}
+\end_inset
+
+Tolkien
 \begin_inset Quotes frd
 \end_inset
 
@@ -1135,7 +1156,7 @@ Allora lo dirò chiaramente
 \end_inset
 
 Frodo sarebbe dovuto essere immediatamente portato a Gran Burrone da Gandalf
- in persona -- e Frodo non avrebbe dovuto mai lasciare Gran Burrone senza
+ in persona – e Frodo non avrebbe dovuto mai lasciare Gran Burrone senza
  una scorta.
  Non ci sarebbe dovuta essere la notte di terrore a Brea, niente Tumulilande,
  niente Colle Vento dove Frodo fu ferito, avrebbero potuto perdere la loro
@@ -1258,7 +1279,7 @@ Mi dispiace, Harry
 \begin_inset Quotes fld
 \end_inset
 
-I tuoi genitori ne capiranno la necessità, spero; ma in caso contrario\SpecialChar \ldots{}
+I tuoi genitori ne capiranno la necessità, spero; ma in caso contrario\SpecialChar ldots
  ho
  paura che non possano fare appello; la legge, per quanto ingiusta, non
  li riconosce come tuoi guardiani.
@@ -1271,8 +1292,8 @@ I tuoi genitori ne capiranno la necessità, spero; ma in caso contrario\SpecialC
 \end_layout
 
 \begin_layout Standard
-Harry si girò, guardò la porta, non poteva più guardare Dumbledore, non poteva
- fidarsi del proprio stesso volto.
+Harry si girò, guardò la porta, non poteva più guardare Dumbledore, non
+ poteva fidarsi del proprio stesso volto.
 \end_layout
 
 \begin_layout Standard
@@ -1333,8 +1354,8 @@ Non credo.
 \begin_layout Standard
 Allora Harry si voltò nuovamente, e vide una freddezza sul volto del vecchio
  mago che si accordava con il cambiamento nella sua voce, gli occhi azzurri
- di Dumbledore erano diventati duri come l'acciaio dietro gli occhiali, non
- si accordava alla persona ma si accordava alle vesti nere formali.
+ di Dumbledore erano diventati duri come l'acciaio dietro gli occhiali,
+ non si accordava alla persona ma si accordava alle vesti nere formali.
 \end_layout
 
 \begin_layout Standard
@@ -1428,12 +1449,12 @@ Comprendo
 \begin_inset Quotes fld
 \end_inset
 
-voglio dire\SpecialChar \ldots{}
- un po' ci stavo pensando comunque\SpecialChar \ldots{}
+voglio dire\SpecialChar ldots
+ un po' ci stavo pensando comunque\SpecialChar ldots
  mi chiedevo se potessi convincere
  lei e i miei genitori a lasciarmi a Hogwarts durante l'estate come gli
  orfani, in modo da poter consultare la biblioteca qui, in ogni caso è più
- interessante a Hogwarts\SpecialChar \ldots{}
+ interessante a Hogwarts\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -1463,7 +1484,7 @@ Un urlo penetrante tagliò l'aria
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1482,7 +1503,7 @@ Fawkes
 
 
 \emph default
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1510,14 +1531,14 @@ Che c'è, Fawkes?
  Il vero Harry, provando la stessa terribile nausea di quando la professoressa
  McGonagall aveva espresso la propria fiducia in lui, pensò, 
 \emph on
-Sono diventato malvagio oggi, Fawkes? Non pensavo di essere malvagio\SpecialChar \ldots{}
+Sono diventato malvagio oggi, Fawkes? Non pensavo di essere malvagio\SpecialChar ldots
  Mi
  odi adesso? Se sono diventato qualcosa che una fenice odia, forse dovrei
  arrendermi ora, mollare tutto ora e confessare
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1536,7 +1557,7 @@ Trafisse tutte le difese di Harry come una spada al calor bianco attraverso
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1555,7 +1576,7 @@ che vuole che io, faccia, qualcosa, per, i prigionieri, in Azkaban
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1601,11 +1622,11 @@ Lei è andato ad Azkaban
 \begin_inset Quotes fld
 \end_inset
 
-ha portato Fawkes con lei, ha visto -- lei ha visto -- lei era 
+ha portato Fawkes con lei, ha visto – lei ha visto – lei era 
 \emph on
 lì
 \emph default
-, ha visto -- 
+, ha visto – 
 \emph on
 \noun on
 perché non ha fatto niente? Perché non li ha fatti uscire?
@@ -1621,8 +1642,8 @@ perché non ha fatto niente? Perché non li ha fatti uscire?
 \begin_layout Standard
 Quando gli strumenti smisero di vibrare, Harry si rese conto che Fawkes
  aveva urlato allo stesso tempo del suo grido, che la fenice fronteggiava
- ormai Dumbledore volando al fianco di Harry, la testa rosso-dorata allo stesso
- livello della sua.
+ ormai Dumbledore volando al fianco di Harry, la testa rosso-dorata allo
+ stesso livello della sua.
 \end_layout
 
 \begin_layout Standard
@@ -1669,11 +1690,11 @@ l'avesse
 \begin_inset Quotes fld
 \end_inset
 
-Stanno male -- dobbiamo aiutarli
+Stanno male – dobbiamo aiutarli
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1745,7 +1766,7 @@ sono
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1794,8 +1815,8 @@ Percival
 \begin_inset Quotes fld
 \end_inset
 
-Percival Dumbledore, mio padre, Harry, mio padre è morto ad Azkaban! Lo so,
- lo so che è un orrore! 
+Percival Dumbledore, mio padre, Harry, mio padre è morto ad Azkaban! Lo
+ so, lo so che è un orrore! 
 \emph on
 Ma cosa vuoi che faccia?
 \emph default
@@ -1820,15 +1841,15 @@ Ci fu una pausa, e la voce tremante di Harry disse:
 \begin_inset Quotes fld
 \end_inset
 
-Fawkes non sa nulla di governi, vuole solo che lei -- porti fuori i prigionieri
- -- dalle loro celle -- e lui l'aiuterà a combattere, se qualcuno le si
- opporrà -- e -- e così farò io, Preside! Verrò con lei e distruggerò qualsiasi
- Dissennatore che si avvicini! Ci preoccuperemo delle ricadute politiche
- in seguito, scommetto che lei e io insieme potremmo cavarcela
+Fawkes non sa nulla di governi, vuole solo che lei – porti fuori i prigionieri
+ – dalle loro celle – e lui l'aiuterà a combattere, se qualcuno le si opporrà
+ – e – e così farò io, Preside! Verrò con lei e distruggerò qualsiasi Dissennato
+re che si avvicini! Ci preoccuperemo delle ricadute politiche in seguito,
+ scommetto che lei e io insieme potremmo cavarcela
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1880,12 +1901,12 @@ Può portare fuori i Dissennatori dove posso arrivare a loro?
 \begin_inset Quotes fld
 \end_inset
 
-Li faccia uscire in gruppi di quindici -- penso di poterne distruggere tanti
+Li faccia uscire in gruppi di quindici – penso di poterne distruggere tanti
  alla volta, senza farmi male
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1898,13 +1919,13 @@ Il vecchio mago scosse la testa.
 \begin_inset Quotes fld
 \end_inset
 
-È stato abbastanza difficile giustificare la perdita di uno di essi -- me
- ne potrebbero dare un altro, ma mai due -- sono considerati beni nazionali,
+È stato abbastanza difficile giustificare la perdita di uno di essi – me
+ ne potrebbero dare un altro, ma mai due – sono considerati beni nazionali,
  Harry, armi in caso di guerra
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1944,12 +1965,12 @@ Gli occhi del vecchio mago si spalancarono, mentre fissava il ragazzo con
 \begin_inset Quotes fld
 \end_inset
 
-Harry\SpecialChar \ldots{}
+Harry\SpecialChar ldots
  queste sono le tue parole, o quelle del Professore di Difesa
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -1985,7 +2006,7 @@ qualcosa
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2032,7 +2053,7 @@ Ed è possibile opporsi alla volontà dei tuoi simili apertamente o in segreto,
 odiarli
 \emph default
 , senza dichiararli malvagi e nemici! Non credo che la gente di questo paese
- si meriti questo da te, Harry! E anche se alcuni di loro lo meritano --
+ si meriti questo da te, Harry! E anche se alcuni di loro lo meritano –
  cosa mi dici dei bambini, degli studenti di Hogwarts, delle tante persone
  buone mescolate con quelle cattive?
 \begin_inset Quotes frd
@@ -2098,7 +2119,7 @@ celle
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2122,7 +2143,7 @@ Non fu fino a quando era sceso fino a metà strada che notò la differenza,
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2137,7 +2158,7 @@ Fawkes?
 \end_layout
 
 \begin_layout Standard
--- la fenice era ancora sulla sua spalla, appollaiata lì come l'aveva vista
+– la fenice era ancora sulla sua spalla, appollaiata lì come l'aveva vista
  un paio di volte sulla spalla di Dumbledore.
 \end_layout
 
@@ -2149,7 +2170,7 @@ Harry guardò di nuovo quegli occhi, fiamme rosse nel fuoco dorato.
 \begin_inset Quotes fld
 \end_inset
 
-Tu non sei la mia fenice ora\SpecialChar \ldots{}
+Tu non sei la mia fenice ora\SpecialChar ldots
  o sì?
 \begin_inset Quotes frd
 \end_inset
@@ -2173,12 +2194,12 @@ Oh
 \begin_inset Quotes fld
 \end_inset
 
-sono contento di sentirlo, Fawkes, perché non credo -- il Preside -- non
- credo che se lo meriti
+sono contento di sentirlo, Fawkes, perché non credo – il Preside – non credo
+ che se lo meriti
 \begin_inset space ~
 \end_inset
 
---
+–
 \begin_inset Quotes frd
 \end_inset
 
@@ -2193,7 +2214,7 @@ Harry si fermò, fece un respiro.
 \begin_inset Quotes fld
 \end_inset
 
-Non credo che si meriti questo, Fawkes, stava cercando di fare la cosa giusta\SpecialChar \ldots{}
+Non credo che si meriti questo, Fawkes, stava cercando di fare la cosa giusta\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
