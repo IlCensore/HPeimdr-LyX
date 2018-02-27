@@ -9,6 +9,9 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{microtype}
 
+\newfontfamily\fontcapitolo[SmallCapsFont={Alegreya SC},Ligatures=Discretionary,Contextuals=Swash]{TeX Gyre Pagella}
+
+
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
@@ -59,15 +62,17 @@
      \chapnumfont \textsc{\chaptername\ \thechapter}}
   \renewcommand*{\chapternamenum}{}
   \renewcommand*{\printchapternum}{}
-  \renewcommand*{\afterchapternum}{%
-    \par\parbox{0.5in}{}\par}
+  \renewcommand*{\afterchapternum}{\par\parbox{0.5in}{}\par}
+%  \renewcommand*{\afterchapternum}{\parbox{0.5in}{} }
   \renewcommand*{\printchapternonum}{%
     \vphantom{\chapnumfont \@chapapp 1}\par
     \parbox{0.5in}{}\par}
-%  \renewcommand*{\chaptitlefont}{\normalfont\LARGE\sffamily}
   \renewcommand*{\chaptitlefont}{\normalfont\LARGE}
+%  \renewcommand*{\chaptitlefont}{\fontcapitolo\Huge}
   \renewcommand*{\printchaptertitle}[1]{%
-    \chaptitlefont\textsc{##1}}}
+    \chaptitlefont{\textsc{##1}}}}
+%    \chaptitlefont{\fontcapitolo\textit{{##1}}}}}
+%    \chaptitlefont\raisebox{-3pt}{\textit{##1}}}}
   \renewcommand*{\afterchaptertitle}{\par\vspace\par}
 
 \chapterstyle{hpmor}
@@ -190,7 +195,7 @@
 
 
 \widowpenalties 2 10000 0
-%\raggedbottom
+\raggedbottom
 \clubpenalty 10000
 
 %% descrizioni senza bold
@@ -577,7 +582,7 @@ medskip{}
 
 {
 \backslash
-Huge e i}
+Large e i}
 \end_layout
 
 \begin_layout Plain Layout
@@ -670,10 +675,17 @@ Basato sull'opera di
 \begin_inset Newline newline
 \end_inset
 
+J.
+\begin_inset space \thinspace{}
+\end_inset
+
+K.
+\begin_inset space \thinspace{}
+\end_inset
+
 
 \noun on
-J.K.
- Rowling
+Rowling
 \end_layout
 
 \begin_layout Standard
@@ -1006,8 +1018,15 @@ fanfic
 \begin_inset Quotes frd
 \end_inset
 
- di Harry Potter, ovvero di un racconto ambientato nel mondo creato da J.K.
- Rowling, ma scritto da un appassionato invece che dall'autrice originale.
+ di Harry Potter, ovvero di un racconto ambientato nel mondo creato da J.
+\begin_inset space \thinspace{}
+\end_inset
+
+K.
+\begin_inset space \thinspace{}
+\end_inset
+
+Rowling, ma scritto da un appassionato invece che dall'autrice originale.
  È collocato in un universo parallelo in cui alcuni eventi si sono svolti
  in maniera differente da quella canonica – la zia di Harry ha sposato un
  professore di biochimica di Oxford, e i due genitori adottivi di Harry
@@ -1019,14 +1038,13 @@ fanfic
 \end_layout
 
 \begin_layout Standard
-Non si tratta di un'opera adatta a tutti: è rivolta a lettori adulti; non
- si fa remore a sottolineare e smantellare le incongruenze dell'opera della
- Rowling; è piena di riferimenti scientifici; e, caratteristica fondamentale,
- in generale i suoi personaggi si comportano come persone reali e non come
- stereotipi letterari.
+Non si tratta di un'opera adatta a tutti: è pensata per lettori adulti,
+ non si fa remore a sottolineare le incongruenze dell'opera della Rowling,
+ è piena di riferimenti scientifici e, cosa fondamentale, i suoi personaggi
+ si comportano come persone reali e non come stereotipi letterari.
  Al tempo stesso, non è un normale romanzo: la sua trama contiene alcuni
- misteri che in quanto lettore sei invitato a risolvere e una successione
- di spunti di riflessione che non mancheranno di coinvolgerti.
+ misteri che in quanto lettore devi risolvere e una serie di spunti su cui
+ sei invitato a riflettere.
 \end_layout
 
 \begin_layout Standard
@@ -1345,8 +1363,15 @@ url{bookcrossing.com}
 \begin_layout Standard
 La stampa dei volumi successivi dell'opera potrebbe essere o meno disponibile,
  in quanto la pubblicazione dell'edizione inglese di quest'opera è stata
- accettata dagli agenti di J.K.
- Rowling a patto che non vi fosse lucro; per tanto non è possibile vendere
+ accettata dagli agenti di J.
+\begin_inset space \thinspace{}
+\end_inset
+
+K.
+\begin_inset space \thinspace{}
+\end_inset
+
+Rowling a patto che non vi fosse lucro; per tanto non è possibile vendere
  i libri.
  Per maggiori informazioni contattatemi all'indirizzo 
 \begin_inset ERT
