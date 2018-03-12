@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -70,16 +72,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
-\font_sans Linux Biolinum O
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Linux Libertine O"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -136,1818 +138,6 @@
 
 \begin_body
 
-\begin_layout Chapter*
-Note
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{Note}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{plain}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Note dell'autore
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Nella versione in rete di questa opera, pubblicata su
-\emph default
- 
-\emph on
-\noun on
-hpmor.com
-\noun default
-, vi sono dei commenti inseriti all'inizio di alcuni capitoli.
- Sono stati raccolti qui di seguito.
-\end_layout
-
-\begin_layout Subsection*
-Scienza
-\end_layout
-
-\begin_layout Standard
-Tutta la scienza menzionata in 
-\emph on
-Metodi
-\emph default
- è convenzionale, eccetto dove diversamente specificato (se ricordo bene,
- gli unici due usi di teorie non-convenzionali sono la fisica senza tempo
- di Barbour nel capitolo 28 e la mia teoria della decisione senza tempo
- nel capitolo 33).
- Ogni volta che è stato possibile, ho menzionato la terminologia convenzionale
- all'interno del libro, in modo da facilitarne la ricerca.
- In un qualche momento futuro potrei compilare una lista completa di tutti
- i riferimenti scientifici in 
-\emph on
-Metodi
-\emph default
-, ma non l'ho ancora fatto.
-\end_layout
-
-\begin_layout Standard
-Ecco un elenco per i primi cinque capitoli.
-\end_layout
-
-\begin_layout Description
-Capitolo
-\begin_inset space ~
-\end_inset
-
-1 Le frasi di Feynman cui Harry fa riferimento si possono trovare in Richard
- Phillips Feynman, Robert B.
- Leighton, Matthew Linzee Sands, 
-\emph on
-Six Easy Pieces: Essentials of Physics Explained by Its Most Brilliant Teacher
-\emph default
-, Basic Books, 2012, verso metà di pagina 35, iniziando con 
-\begin_inset Quotes fld
-\end_inset
-
-Philosophers, incidentally\SpecialChar \ldots{}
-
-\begin_inset Quotes frd
-\end_inset
-
- Il 
-\begin_inset Quotes fld
-\end_inset
-
-Cold reading
-\begin_inset Quotes frd
-\end_inset
-
-
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://en.wikipedia.org/wiki/Cold_reading}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- è una pratica comune dei sensitivi fasulli, regolarmente replicata dagli
- scettici per dimostrare che non necessita di alcuna lettura della mente.
- Piegare i cucchiai
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://www.wikihow.com/Bend-a-Spoon}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- è ancora più facile.
- Quando Harry pensa a come suo padre si stia restio a mettere alla prova
- la magia perché gli parrebbe di associarsi con un'idea di scarso prestigio,
- sta sottoscrivendo la visione Hansoniana-cinica della `credenza' come affiliazi
-one.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://hanson.gmu.edu/belieflikeclothes.html}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- Inoltre, impilare blocchetti due-per-quattro o vecchie scatole di Kleenex
- sul retro degli scaffali di una libreria funziona davvero, allo scopo di
- rendere leggibili la fila posteriore di titoli -- io stesso lo faccio a
- casa mia.
-\end_layout
-
-\begin_layout Description
-Capitolo
-\begin_inset space ~
-\end_inset
-
-2 
-\begin_inset Quotes fld
-\end_inset
-
-Si potrebbe pensare che ci debba essere qualche tipo di evento mentale drammatic
-o associato con l'aggiornamento delle credenze basato su un'osservazione
- di probabilità infinitesimale
-\begin_inset space ~
-\end_inset
-
---
-\begin_inset Quotes frd
-\end_inset
-
- In un senso bayesiano, essere testimoni di un'osservazione alla quale si
- è assegnata una probabilità molto bassa può (e dovrebbe) causare un cambiamento
- di credenze molto vasto.
- Per i lettori con propensione alla matematica, leggere 
-\emph on
-An Intuitive Explanation of Bayesian Reasoning
-\emph default
-
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://yudkowsky.net/rational/bayes}
-\end_layout
-
-\end_inset
-
-, oppure 
-\emph on
-Sequences
-\emph default
-, Cato Philosophus, Roma, 2013.
-\end_layout
-
-\end_inset
-
- può aiutare ad apprezzare ciò di cui sta parlando Harry – come la teoria
- della probabilità si comporta in presenza di un'osservazione 
-\begin_inset Quotes fld
-\end_inset
-
-impossibile
-\begin_inset Quotes frd
-\end_inset
-
- (per i lettori meno matematici, l'articolo è stato riscritto in modo da
- renderlo molto più accessibile).
- Nel discorso 
-\begin_inset Quotes fld
-\end_inset
-
-Si è trasformata in un gatto!
-\begin_inset Quotes frd
-\end_inset
-
- di Harry, 
-\begin_inset Quotes fld
-\end_inset
-
-Non è solo una regola arbitraria, è implicita nella forma dell'hamiltoniana
- quantistica!
-\begin_inset Quotes frd
-\end_inset
-
- si riferisce al fatto che la Conservazione dell'Energia è il coniugato
- secondo il Teorema di Noether
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://it.wikipedia.org/wiki/Teorema_di_Noether}.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- del fatto che le leggi della meccanica quantistica sono invarianti rispetto
- alla traslazione del tempo.
- Non c'è alcun modo semplice di spiegarlo, eccetto che affermare che la
- Conservazione dell'Energia sembra essere inserita nelle leggi della fisica
- ad un livello estremamente profondo – non è solo che non conosciamo alcuna
- forza particolare che la violi; abbiamo ragione di credere che nessuna
- forza dovrebbe violarla.
- E a beneficio di ogni insegnante di matematica della seconda elementare,
- ecco a voi i 
-\noun on
-logaritmi
-\noun default
-.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{https://www.khanacademy.org/math/algebra/logarithms-tutorial/logarithm_basics/
-v/introduction-to-logarithms}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Capitolo
-\begin_inset space ~
-\end_inset
-
-3 
-\begin_inset Quotes fld
-\end_inset
-
-Comparing Reality to Its Alternatives
-\begin_inset Quotes frd
-\end_inset
-
- (
-\begin_inset Quotes fld
-\end_inset
-
-Confrontare la realtà con le sue alternative) è il titolo di un articolo
- di Kahneman e Dale Miller, che descrive (tra le altre cose) come talvolta
- la gente cerchi di comprendere il mondo reale confrontandolo con qualcos'altro,
- come una situazione ideale perfetta.
- Un articolo più chiaramente in argomento sarebbe stato quello di Miller,
- 
-\begin_inset Quotes fld
-\end_inset
-
-Counterfactual thought, regret, and superstition: How to avoid kicking yourself
-\begin_inset Quotes frd
-\end_inset
-
- (
-\begin_inset Quotes fld
-\end_inset
-
-Pensiero contro-fattuale, rimorso, e superstizione: Come evitare di prendersi
- a calci
-\begin_inset Quotes frd
-\end_inset
-
-), ma credo di aver confuso i due titoli mentre stavo scrivendo il Capitolo
- 3.
- Oltre a questo, l'effetto dello spettatore su LessWrong
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://lesswrong.com/lw/9j/bystander_apathy/}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- e Wikipedia,
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://en.wikipedia.org/wiki/Bystander_effect}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- e la diffusione della responsabilità.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://en.wikipedia.org/wiki/Diffusion_of_responsibility}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Capitolo
-\begin_inset space ~
-\end_inset
-
-4 Ipotesi del mercato efficiente.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://it.wikipedia.org/wiki/Efficienza_del_mercato}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- Arbitraggio.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://www.borsaitaliana.it/notizie/sotto-la-lente/arbitraggio.htm}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- Stime di Fermi.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://it.wikipedia.org/wiki/Problema_di_Fermi}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- Se siete mai stati tentati di investire in un fondo comune, o peggio, di
- scegliere voi stessi le azioni, allora 
-\emph on
-per l'amor di Merlino 
-\noun on
-non fatelo
-\emph default
-\noun default
- finché non avrete completamente assimilato le ragioni per le quali i mercati
- sono, in prima approssimazione, anti-induttivi
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://lesswrong.com/lw/yv/markets_are_antiinductive/}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- -- se i prezzi degli immobili 
-\begin_inset Quotes fld
-\end_inset
-
-sono sempre cresciuti
-\begin_inset Quotes frd
-\end_inset
-
-, questo dice molto poco sulla possibilità che crescano in futuro.
-\end_layout
-
-\begin_layout Description
-Capitolo
-\begin_inset space ~
-\end_inset
-
-5 L'errore fondamentale di attribuzione.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://it.wikipedia.org/wiki/Errore_fondamentale_di_attribuzione}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- Anche noto come 
-\begin_inset Quotes fld
-\end_inset
-
-errore di corrispondenza
-\begin_inset Quotes frd
-\end_inset
-
-.
- Penso che il capitolo sia stato sufficientemente in grado di illustrarlo,
- quindi non dirò altro.
-\end_layout
-
-\begin_layout Standard
-Per imparare quasi
-\emph on
- tutto
-\emph default
- quello che Harry sa, correntemente la miglior soluzione gratuita in rete
- è leggersi le 
-\emph on
-Sequences
-\emph default
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{http://wiki.lesswrong.com/wiki/Sequences}
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
- su LessWrong.com – due anni di articoli di blog che hanno provato a introdurre
- tutto ciò che pensavo che un razionalista avesse bisogno di conoscere nel
- 2007, a partire da una teoria della conoscenza di base, teoria della probabilit
-à bayesiana, errori cognitivi, psicologia evoluzionista, psicologia sociale,
- per giungere nei reami più arcani del riduzionismo e della meccanica quantistic
-a demistificata.
- Che ci crediate o meno, Harry è autorizzato ad attingere a circa metà delle
- 
-\emph on
-Sequences
-\emph default
- più semplici – se le conoscesse tutte, sarebbe un personaggio troppo potente
- e rovinerebbe la storia.
-\end_layout
-
-\begin_layout Standard
-Per coloro che preferiscono i libri tradizionali, sto cercando di scriverne
- uno – sebbene il progetto sia correntemente sospeso mentre lavoro al Center
- for Modern Rationality.
- Nel frattempo, alcune buone introduzioni generali sono, in ordine di difficoltà
- tecnica:
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-Le armi della persuasione
-\emph default
- di Robert Cialdini o 
-\emph on
-Prevedibilmente irrazionale
-\emph default
- di Dan Ariely
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-Rational Choice in an Uncertain World
-\emph default
- di Robyn Dawes
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-Judgment Under Uncertainty: Heuristics and Biases
-\emph default
- – un volume curato da Tversky e Kahneman
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Fatto divertente: quando Harry pensa a qualcosa di scientifico, mi impongo
- di scriverne la descrizione a memoria, così da non dargli un irrealistica
- capacità di ricordare.
- Per esempio, nel Capitolo
-\begin_inset space ~
-\end_inset
-
-2 Harry cita Feynman che parla di ciò che i filosofi dicono che sia assolutament
-e richiesto.
- La citazione originale delle lezioni di Feynman usa la locuzione `assolutamente
- necessario'.
- Effettuo i controlli successivamente, in modo da essere sicuro che non
- vi siano errori che invalidano il discorso, ma non mentro scrivo la prima
- bozza.
- Quando scrivo il punto di vista di Hermione, leggo in anticipo gli originali
- per simulare la sua memoria perfetta.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 1 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:01Una-giornata-molto"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align left
-Avvertenza: J.K.
- Rowling detiene i diritti di Harry Potter, e nessuno detiene i diritti
- dei metodi della razionalità.
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-È ampiamente ritenuto che questa narrazione inizi ad ingranare a partire
- dal capitolo 5 circa.
- Se non vi piace ancora dopo il capitolo 10, lasciate stare.
-\end_layout
-
-\begin_layout Standard
-Visitate 
-\noun on
-hpmor.com
-\noun default
- per:
-\end_layout
-
-\begin_layout Itemize
-un sistema di notifiche email, un 
-\emph on
-feed
-\emph default
- 
-\noun on
-rss
-\noun default
-, e i 
-\emph on
-feed
-\emph default
- Twitter per i nuovi capitoli;
-\end_layout
-
-\begin_layout Itemize
-le Note dell'autore correnti e aggiornamenti sullo stato di avanzamento;
-\end_layout
-
-\begin_layout Itemize
-una deliziosa versione 
-\noun on
-pdf
-\noun default
- fatta da appassionati in forma di libro;
-\end_layout
-
-\begin_layout Itemize
-un 
-\emph on
-mirror 
-\emph default
-del testo senza pubblicità;
-\end_layout
-
-\begin_layout Itemize
-ebooks in formato e
-\noun on
-pub
-\noun default
- e 
-\noun on
-mobi
-\noun default
-;
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-podcast
-\emph default
- della storia;
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-fanart
-\emph default
- in grandi quantità;
-\end_layout
-
-\begin_layout Itemize
-lista dei cammeo (personaggi battezzati in onore degli artisti di 
-\emph on
-fanart
-\emph default
-);
-\end_layout
-
-\begin_layout Itemize
-fan-fanfiction di questa fanfiction;
-\end_layout
-
-\begin_layout Itemize
-musica, canzoni e animazioni prodotte da fan;
-\end_layout
-
-\begin_layout Itemize
-traduzioni amatoriali;
-\end_layout
-
-\begin_layout Itemize
-parola chiave di 
-\noun on
-okc
-\noun default
-upid per i lettori di 
-\noun on
-hpmor
-\noun default
-;
-\end_layout
-
-\begin_layout Itemize
-collegamenti alla pagina di 
-\noun on
-tv t
-\noun default
-ropes e ai forum di discussione;
-\end_layout
-
-\begin_layout Itemize
-pagina degli avvertimenti (avvertimenti riguardo possibili associazioni
- traumatiche per alcuni lettori; per evitare anticipazioni per la maggior
- parte dei lettori, 
-\emph on
-non ci sono
-\emph default
- avvertimenti nella storia);
-\end_layout
-
-\begin_layout Itemize
-come imparare ogni cosa che il personaggio principale conosce;
-\end_layout
-
-\begin_layout Itemize
-offerte di lavoro in un'organizzazione non-profit collegata;
-\end_layout
-
-\begin_layout Itemize
-e tanto altro.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Questa storia 
-\emph on
-non è
-\emph default
- una narrazione con un singolo punto di divergenza -- esiste un punto primario
- di distacco, in qualche momento del passato, ma anche altre alterazioni.
- La migliore definizione che ho sentito per questa storia è 
-\begin_inset Quotes fld
-\end_inset
-
-universo parallelo
-\begin_inset Quotes frd
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-Il testo contiene molti indizi: indizi ovvi, indizi non così ovvi, accenni
- realmente oscuri che sono stato scioccato quando alcuni lettori li hanno
- decodificati con successo, e una gran massa di prove lasciate in piena
- vista.
- Questa è una narrazione razionalista; i suoi misteri sono risolubili, e
- sono pensati per essere risolti.
-\end_layout
-
-\begin_layout Standard
-Il ritmo della storia è quello di una narrazione seriale, ovvero quello
- di una serie televisiva che va non onda per un numero predeterminato di
- stagioni, i cui episodi sono scritti individualmente ma con un arco narrativo
- che conduce verso una conclusione definitiva.
-\end_layout
-
-\begin_layout Standard
-La storia è stata convertita in inglese britannico fino al Capitolo
-\begin_inset space ~
-\end_inset
-
-17, e ulteriore revisione linguistica è in corso.
-\end_layout
-
-\begin_layout Standard
-Tutta la scienza menzionata è scienza vera.
- Ma per favore tenete a mente che, oltre il reame della scienza, i punti
- di vista dei personaggi possono non essere quelli dell'autore.
- Non tutto quello che il protagonista fa è una lezione di saggezza, e un
- suggerimento offerto da un personaggio più oscuro può essere inaffidabile
- o pericolosamente a doppia lama.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 4 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:04L'ipotesi-del-mercato"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Come altri hanno notato, i romanzi sembrano essere inconsistenti riguardo
- l'apparente potere d'acquisto di un galeone; ho scelto un valore consistente
- e mi atterrò ad esso.
- Cinque sterline per un galeone non va d'accordo con sette galeoni per una
- bacchetta e i bambini che ricevano bacchette usate.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 6 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:06L'errore-di-pianificazione"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-La sezione 
-\begin_inset Quotes fld
-\end_inset
-
-Conseguenze
-\begin_inset Quotes frd
-\end_inset
-
- di questo capitolo fa parte della storia, 
-\emph on
-non è
-\emph default
- un omake.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 7 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:07Reciprocità"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Uau.
- Un portavoce dell'agente letterario della Rowling ha detto che l'autrice
- non ha problemi con l'esistenza della 
-\emph on
-fanfiction
-\emph default
- fintanto che nessuno si fa pagare per essa e a tutti è chiaro che i diritti
- d'autore originali appartengono a lei? Questo è davvero notevole da parte
- sua.
- Quindi grazie, 
-\noun on
-jkr
-\noun default
-, e tuo sia il regno!
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Sento il dovere di chiarire che alcune parti di questo capitolo non sono
- da intendersi come 
-\begin_inset Quotes fld
-\end_inset
-
-attacchi a un personaggio
-\begin_inset Quotes frd
-\end_inset
-
-.
- Non è che io provi rancore per loro, la storia si scrive da sé, e una volta
- che si iniziano a far cadere incudini su di un personaggio è difficile
- fermarsi.
-\end_layout
-
-\begin_layout Standard
-Alcuni recensori hanno chiesto se la scienza in questa storia sia reale
- o inventata.
- Sì, è reale, e se guardate il mio profilo, troverete un link a un certo
- sito di saggistica
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{lesswrong.org}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- che vi insegnerà più o meno tutto ciò che sa Harry James Potter-Evans-Verres,
- 
-\emph on
-e altro ancora
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-Grazie mille a 
-\emph on
-tutti
-\emph default
- i miei recensori.
- (Soprattutto Darkandus su Viridian Dreams, per il commento sorprendentemente
- ispiratore 
-\begin_inset Quotes fld
-\end_inset
-
-I polmoni non sono fatti per interagire con il tè
-\begin_inset Quotes frd
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Sento il dovere di chiarire che alcune parti di questo capitolo non sono
- da intendersi come 
-\begin_inset Quotes fld
-\end_inset
-
-attacchi a un personaggio
-\begin_inset Quotes frd
-\end_inset
-
-.
- Non è che io provi rancore per loro, la storia si scrive da sé, e una volta
- che si iniziano a far cadere incudini su di un personaggio è difficile
- fermarsi.
-\end_layout
-
-\begin_layout Standard
-Alcuni recensori hanno chiesto se la scienza in questa storia sia reale
- o inventata.
- Sì, è reale, e se guardate il mio profilo, troverete un link a un certo
- sito di saggistica
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-url{lesswrong.org}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- che vi insegnerà più o meno tutto ciò che sa Harry James Potter-Evans-Verres,
- 
-\emph on
-e altro ancora
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-Grazie mille a 
-\emph on
-tutti
-\emph default
- i miei recensori.
- (Soprattutto Darkandus su Viridian Dreams, per il commento sorprendentemente
- ispiratore 
-\begin_inset Quotes fld
-\end_inset
-
-I polmoni non sono fatti per interagire con il tè
-\begin_inset Quotes frd
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 8 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:08Errore-di-conferma"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Un attento lettore mi ha chiesto se, nel caso in cui Luna sia una veggente,
- questo racconto stia per diventare un 
-\noun on
-hpdm
-\noun default
- bottom!Draco mpreg.
- Mi dispiace di non poter avere a mia disposizione un carattere più grande
- con cui dire 
-\series bold
-NO
-\series default
-.
- Onestamente, non mi era venuto in mente che Luna potesse essere una 
-\emph on
-vera
-\emph default
- veggente -- dovrò decidere se confermarlo o meno -- ma penso che possiamo
- tutti presumere con sicurezza che se Luna 
-\emph on
-fosse
-\emph default
- una veggente, abbia detto qualcosa come 
-\begin_inset Quotes fld
-\end_inset
-
-piantare un seme nell'oscurità
-\begin_inset Quotes frd
-\end_inset
-
-, e che Xenophilius, come sempre, l'abbia interpretato in un modo piuttosto
- sbagliato.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 9 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:09Auto-consapevolezza,-Parte-I"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-I quark di terza generazione erano chiamati anche 
-\begin_inset Quotes fld
-\end_inset
-
-verità
-\begin_inset Quotes frd
-\end_inset
-
- e 
-\begin_inset Quotes fld
-\end_inset
-
-bellezza
-\begin_inset Quotes frd
-\end_inset
-
- prima che 
-\begin_inset Quotes fld
-\end_inset
-
-top
-\begin_inset Quotes frd
-\end_inset
-
- e 
-\begin_inset Quotes fld
-\end_inset
-
-bottom
-\begin_inset Quotes frd
-\end_inset
-
- vincessero; il mio giorno di nascita è vicino a quello di Hermione, e quando
- avevo undici anni, usavo 
-\begin_inset Quotes fld
-\end_inset
-
-verità
-\begin_inset Quotes frd
-\end_inset
-
- e 
-\begin_inset Quotes fld
-\end_inset
-
-bellezza
-\begin_inset Quotes frd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Quando la Parte I di questo capitolo fu pubblicata la prima volta, dissi
- che a chiunque avesse indovinato di cosa parlava l'ultima frase prima del
- successivo aggiornamento, avrei rivelato l'intero svolgimento successivo
- della trama.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 11 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:11Omake-1,-2,"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Quotes fld
-\end_inset
-
-
-\emph on
-Omake
-\emph default
-
-\begin_inset Quotes frd
-\end_inset
-
- è un supplemento non-canonico.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 13 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:13Porre-le-domande"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Non fatevi prendere dal panico.
- Giuro solennemente che c'è una spiegazione logica, preformulata e compatibile
- col canone per tutto ciò che accade in questo capitolo.
- Si tratta di un enigma, si suppone che cerchiate di risolverlo, e in caso
- contrario, basta leggere il prossimo capitolo.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 15 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:15Coscienziosità"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Fatto storico del giorno: gli antichi Ebrei consideravano che il limite
- di un giorno fosse il tramonto piuttosto che l'alba, quindi dicevano 
-\begin_inset Quotes fld
-\end_inset
-
-sera e mattina
-\begin_inset Quotes frd
-\end_inset
-
- non 
-\begin_inset Quotes fld
-\end_inset
-
-mattino e sera
-\begin_inset Quotes frd
-\end_inset
-
-.
- (E come molti recensori hanno notato la moderna Halakhah ebraica sostiene
- la stessa cosa.)
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 25 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:25Trattenersi-dal-proporre"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Poiché la scienza in questa storia è normalmente tutta corretta, includo
- un avvertimento che nei capitolo 22--25 Harry ignora diverse possibilità,
- la più importante delle quali è che ci sono molti geni magici ma che sono
- tutti su di un solo cromosoma (cosa che non accadrebbe naturalmente, ma
- il cromosoma potrebbe essere stato costruito).
- In tal caso, lo schema ereditario sarebbe mendeliano, ma il cromosoma magico
- potrebbe ancora essere degradato dal crossing-over cromosomico col suo
- omologo non-magico.
- (Harry ha letto a proposito di Mendel e dei cromosomi nel libri di storia
- della scienza, ma non ha studiato abbastanza genetica vera e propria da
- sapere del crossing-over cromosomico.
- Ehi, ha solo undici anni.) Ad ogni modo, sebbene una moderna rivista di
- scienza troverebbe molti peli nell'uovo, tutto ciò che Harry presenta come
- forti prove sono infatti forti prove -- le altre possibilità sono improbabili.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 27 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:27Empatia"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Ruggero Bacone visse nel 
-\noun on
-xiii
-\noun default
- secolo ed è accreditato come uno dei primi sostenitori del metodo scientifico.
- Dare a uno scienziato il suo diario sperimentale è un po' come dare ad
- uno scrittore la penna, non di Shakespeare, ma di qualcuno che ha aiutato
- a inventare la scrittura.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 29 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:29Pensiero-egocentrico"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Luosha fa notare che la teoria dell'empatia nel Capitolo 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:27Empatia"
-
-\end_inset
-
- (usiamo il nostro cervello per simulare quello degli altri) non è esattamente
- un fatto scientifico.
- Le prove fin'ora puntano in quella direzione, ma non abbiamo ancora analizzato
- i circuiti del cervello e dimostrato la teoria.
- Similmente, le formulazioni atemporali della meccanica quantistica (alla
- quale si allude nel Capitolo 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:28Riduzionismo"
-
-\end_inset
-
-) sono così leganti che sarei stupito se la teoria definitiva avesse dentro
- il tempo, ma non è stato ancora stabilito.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 33 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:33Problemi-coord-I"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-La versione della teoria della decisione usata in questo capitolo non è
- quella dominante in campo accademico.
- È basata su una cosa chiamata 
-\begin_inset Quotes fld
-\end_inset
-
-teoria della decisione senza tempo
-\begin_inset Quotes frd
-\end_inset
-
- che è in corso di sviluppo per mano di (tra gli altri) Gary Drescher, Wei
- Dai, Vladimir Nesov, e, beh...
- (
-\emph on
-tossisce qualche volta
-\emph default
-) mia.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 64 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:64Omake4"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Se siete cinque ore oltre l'ora di andare a letto e state ancora leggendo
- questo, posso suggerirvi di farvi un po' di sonno? La storia sarà ancora
- qui domani\SpecialChar \ldots{}
- a meno che, sapete, qualcosa di male le accada domani mattina
- e ci sia solo un 404 a questo indirizzo e non vi rimanga nulla se non una
- memoria sbiadita e un rimpianto eterno che non siete rimasti svegli più
- a lungo a leggere mentre ne avevate ancora la possibilità\SpecialChar \ldots{}
- ma ehi, quanto
- è probabile che avvenga?
-\end_layout
-
-\begin_layout Standard
-Questa storia si propaga attraverso blog, tweet, passaparola, 
-\emph on
-favoriting
-\emph default
-, promozioni su forum, e aggiungendola a liste; e ricordate, se i lettori
- prima di voi non avessero riservato un momento per farlo, probabilmente
- non l'avreste scoperta.
- Se questo non è abbastanza per motivarvi, allora lasciatemi aggiungere
- che se non aiuterete a diffondere la razionalità, Hermione sarà triste.
- Non volete che sia triste, giusto?
-\end_layout
-
-\begin_layout Standard
-Non dimenticate di visitare 
-\family typewriter
-LessWrong.com
-\family default
- e di leggere le 
-\emph on
-Sequences
-\emph default
-, la vera esistenza di cui questa storia non è che un'ombra.
- Raccomando di iniziare dalla sequenza 
-\emph on
-How to Actually Change Your Mind
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-E ora, con tutti gli universi posseduti dai rispettivi creatori, presento:
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\noun on
-Omake files #4:
-\begin_inset Newline newline
-\end_inset
-
-Le altre fanfiction che avreste potuto leggere
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 96 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:96Ruoli-p7"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Per coloro che non hanno letto il canone: il cartello di legno è stato in
- qualche modo cambiato, ma l'iscrizione qui è la stessa che nell'originale
- di J.K.
- Rowling.
-\end_layout
-
-\begin_layout Subsection*
-Capitolo 113 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "chap:113Esame-finale"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\family sans
-\size footnotesize
-Questo è il vostro esame finale.
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\family sans
-\size footnotesize
-Avete 60 ore.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-La vostra soluzione deve quanto meno permettere a Harry di evitare la morte
- immediata, malgrado sia nudo, abbia in mano solo la propria bacchetta,
- e fronteggi 36 Mangiamorte più un Lord Voldemort completamente risorto.
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\family sans
-Se una soluzione praticabile sarà pubblicata prima delle 
-\emph on
-12:01
-\begin_inset space \thinspace{}
-\end_inset
-
-
-\noun on
-am
-\noun default
- Pacific Time
-\emph default
- (8:01
-\emph on
-
-\begin_inset space \thinspace{}
-\end_inset
-
-
-\emph default
-\noun on
-am utc
-\noun default
-) di martedì 3 marzo 2015, la storia continuerà fino al capitolo 121.
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\family sans
-Altrimenti avrete un finale più breve e più triste.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-Tenete in mente le seguenti cose:
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-1.
-\begin_inset space ~
-\end_inset
-
-Harry deve riuscirci con le proprie forze.
- La cavalleria non sta arrivando.
- Tutti quelli che potrebbero voler aiutare Harry pensano che sia ad una
- partita di Quidditch.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-2.
-\begin_inset space ~
-\end_inset
-
-Harry può usare solo capacità che la storia ha già mostrato che egli ha;
- non può sviluppare una Legilimanzia senza parole e senza bacchetta in 60
- secondi.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-3.
-\begin_inset space ~
-\end_inset
-
-Voldemort è cattivo e non può essere convinto a essere buono; la funzione
- di utilità del Signore Oscuro non può essere cambiata parlandogli.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-4.
-\begin_inset space ~
-\end_inset
-
-Se Harry alza la bacchetta o parla in qualunque modo eccetto che in Serpentese,
- i Mangiamorte faranno imediatamente fuoco su di lui.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-5.
-\begin_inset space ~
-\end_inset
-
-Se la linea temporale più semplice è una in cui Harry muore -- se Harry
- non può mettere mano sul proprio Giratempo senza l'aiuto di un Giratempo
- -- allora il Giratempo non entra in gioco.
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\size footnotesize
-6.
-\begin_inset space ~
-\end_inset
-
-È impossibile dire bugie in Serpentese.
- 
-\end_layout
-
-\begin_layout Standard
-\align block
-
-\family sans
-\size footnotesize
-Rispettando questi vincoli, Harry può raggiungere il suo pieno potenziale
- di razionalista, ora o mai più, indipendentemente dai suoi errori precedenti.
-\end_layout
-
-\begin_layout Standard
-\align block
-
-\family sans
-\size footnotesize
-Naturalmente ‘soluzione razionale', se state usando correttamente la parola
- ‘razionale', è solo un modo inutilmente fantasioso di dire ‘la soluzione
- migliore' o ‘la soluzione che preferisco' o ‘la soluzione che penso che
- dovremmo usare', e normalmente dovreste usare una delle ultime formulazioni.
- (Abbiamo bisogno della parola ‘razionale' quando parliamo dei modi di ragionare
-, indipendentemente dalle singole soluzioni.)
-\end_layout
-
-\begin_layout Standard
-\align block
-
-\family sans
-\size footnotesize
-E in base al Principio di Vinge, se sapete esattamente cosa farebbe una
- mente intelligente, dovete essere voi stessi almeno altrettanto intelligenti.
- Chiedere a qualcuno 
-\begin_inset Quotes fld
-\end_inset
-
-Quale sarebbe la mossa migliore per un giocatore ottimale?
-\begin_inset Quotes frd
-\end_inset
-
- dovrebbe produrre risposte non migliori di 
-\begin_inset Quotes fld
-\end_inset
-
-Quale pensi che sia la migliore?
-\begin_inset Quotes frd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-
-\family sans
-\size footnotesize
-Quindi quello che intendo, in pratica, quando dico che Harry può raggiungere
- il suo pieno potenziale di razionalista, è che Harry può risolvere questo
- problema nel modo in cui 
-\noun on
-voi
-\noun default
- lo risolvereste.
- Quindi se siete in grado di dirmi esattamente come fare qualcosa, a Harry
- è permesso pensarlo.
-\end_layout
-
-\begin_layout Standard
-\align block
-
-\family sans
-\size footnotesize
-Ma non è una soluzione dire, per esempio, 
-\begin_inset Quotes fld
-\end_inset
-
-Harry dovrebbe persuadere Voldemort a lasciarlo andare
-\begin_inset Quotes frd
-\end_inset
-
- se non potete immaginare voi stessi come farlo.
-\end_layout
-
 \begin_layout Section*
 Note del curatore
 \end_layout
@@ -1989,7 +179,7 @@ reference "chap:01Una-giornata-molto"
 \end_layout
 
 \begin_layout Standard
-❧
+☞
 \begin_inset space ~
 \end_inset
 
@@ -2025,6 +215,11 @@ reference "chap:03Confrontare-la-realtà"
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2034,9 +229,14 @@ Fatti con vero Flubber!
 
 : Flubber è il nome di un essere sintetico elastico nel film 
 \emph on
-Flubber -- Un professore tra le nuvole
+Flubber – Un professore tra le nuvole
 \emph default
-; 
+.
+ ☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2048,11 +248,16 @@ Coltelli +3! Forchette +2! Cucchiai con un bonus di +4!
 \emph on
 Dungeons & Dragons
 \emph default
-; 
+.
+ ☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
-visori che coloravano tutto ciò che osservavi di verde
+Visori che coloravano tutto ciò che osservavi di verde
 \begin_inset Quotes frd
 \end_inset
 
@@ -2066,6 +271,11 @@ Il meraviglioso mago di Oz
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2073,7 +283,7 @@ Il meraviglioso mago di Oz
 \emph on
 L'effetto dello spettatore
 \emph default
-, [\SpecialChar \ldots{}
+, [\SpecialChar ldots
 ] l'esperimento di Latane e Darley che aveva mostrato che era più probabile
  ricevere aiuto se si aveva un attacco epilettico di fronte a una persona
  che di fronte a tre.
@@ -2081,7 +291,7 @@ L'effetto dello spettatore
 \emph on
 Diffusione della responsabilità
 \emph default
- [\SpecialChar \ldots{}
+ [\SpecialChar ldots
 ]
 \begin_inset Quotes frd
 \end_inset
@@ -2144,7 +354,11 @@ reference "chap:04L'ipotesi-del-mercato"
 \end_layout
 
 \begin_layout Standard
-Una 
+Una ☞
+\begin_inset space ~
+\end_inset
+
+
 \emph on
 stima di Fermi
 \emph default
@@ -2171,6 +385,11 @@ reference "chap:06L'errore-di-pianificazione"
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2195,6 +414,10 @@ Ritorno al Futuro
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
 
 \emph on
 Be prepared
@@ -2212,7 +435,11 @@ i ma decisamente poco adatta ai bambini.
 \end_layout
 
 \begin_layout Standard
-Il baule di Harry corrisponde a 
+Il baule di Harry corrisponde a ☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2225,6 +452,11 @@ o dei romanzi di Terry Pratchett ambientati su Mondo Disco.
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2247,10 +479,15 @@ reference "chap:07Reciprocità"
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
-[\SpecialChar \ldots{}
+[\SpecialChar ldots
 ] un esperimento aveva dimostrato che un dono incondizionato di $
 \begin_inset space \thinspace{}
 \end_inset
@@ -2276,7 +513,7 @@ Large Monetary Incentives and their Effect on Mail Survey Response Rates
 \emph on
 Public Opin Q
 \emph default
- (1992) 56 (4): 442--453 doi:10.1086/269336.
+ (1992) 56 (4): 442–453 doi:10.1086/269336.
 \end_layout
 
 \begin_layout Subsection*
@@ -2291,6 +528,11 @@ reference "chap:08Errore-di-conferma"
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2333,6 +575,10 @@ Dungeons & Dragons
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
 L'esperimento 2-4-6 (in inglese 
 \emph on
 2-4-6 task
@@ -2393,13 +639,21 @@ reference "chap:09Auto-consapevolezza,-Parte-I"
 \end_layout
 
 \begin_layout Standard
-I Dirdir sono una razza aliena all'interno del mondo creato dallo scrittore
+I ☞
+\begin_inset space ~
+\end_inset
+
+Dirdir sono una razza aliena all'interno del mondo creato dallo scrittore
  Jack Vance e descritto nel fantascientifico 
 \emph on
 Ciclo di Tschai
 \emph default
 .
- I Burattinai, anche noti come Burattinai di Pierson, sono una razza aliena
+ I ☞
+\begin_inset space ~
+\end_inset
+
+Burattinai, anche noti come Burattinai di Pierson, sono una razza aliena
  inserita dall'autore fantascientifico Larry Niven nel 
 \emph on
 Ciclo dello Spazio conosciuto
@@ -2408,8 +662,12 @@ Ciclo dello Spazio conosciuto
 \end_layout
 
 \begin_layout Standard
-Come nella versione canonica di Harry Potter, Sally-Anne Perks è Smistata
- subito prima di Harry e poi non viene più vista o citata.
+Come nella versione canonica di Harry Potter, ☞
+\begin_inset space ~
+\end_inset
+
+Sally-Anne Perks è Smistata subito prima di Harry e poi non viene più vista
+ o citata.
 \end_layout
 
 \begin_layout Subsection*
@@ -2424,7 +682,11 @@ reference "chap:12Controllo-degli-impulsi"
 \end_layout
 
 \begin_layout Standard
-La frase 
+La frase ☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2441,7 +703,11 @@ Il Ritorno dello Jedi
 \end_layout
 
 \begin_layout Standard
-Una delle note ricevute da Harry dice 
+Una delle note ricevute da Harry dice ☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2477,7 +743,11 @@ reference "chap:14L'ignoto-e-l'inconoscibile"
 \end_layout
 
 \begin_layout Standard
-La 
+La ☞
+\begin_inset space ~
+\end_inset
+
+
 \emph on
 macchina di Turing
 \emph default
@@ -2485,7 +755,11 @@ macchina di Turing
  di un nastro di lunghezza infinita secondo un insieme prefissato di regole
  ben definite; è utilizzata nell'ambito della teoria della calcolabilità
  e per lo studio della complessità degli algoritmi.
- La 
+ La ☞
+\begin_inset space ~
+\end_inset
+
+
 \emph on
 macchina di Turing con oracolo
 \emph default
@@ -2503,12 +777,20 @@ supermacchina
 \end_layout
 
 \begin_layout Standard
-Edwin Thompson Jaynes è stato un professore di fisica alla Washington University
-, particolarmente attivo nella divulgazione dell'interpretazione bayesiana
- della probabilità.
+Edwin Thompson ☞
+\begin_inset space ~
+\end_inset
+
+Jaynes è stato un professore di fisica alla Washington University, particolarmen
+te attivo nella divulgazione dell'interpretazione bayesiana della probabilità.
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2516,7 +798,7 @@ Edwin Thompson Jaynes è stato un professore di fisica alla Washington Universit
 \emph on
 Oh volesse un potere darci il piccolo dono
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
 \begin_inset Quotes frd
 \end_inset
@@ -2555,7 +837,11 @@ reference "chap:16Pensiero-laterale"
 \end_layout
 
 \begin_layout Standard
-Wikipedia definisce il 
+Wikipedia definisce il ☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2835,8 +1121,15 @@ Questa è un'altra definizione tecnica.
 \end_layout
 
 \begin_layout Standard
-Ben Kenobi e Luke (Skywalker) sono due personaggi della saga fantascientifica
- 
+Ben ☞
+\begin_inset space ~
+\end_inset
+
+Kenobi e ☞
+\begin_inset space ~
+\end_inset
+
+Luke (Skywalker) sono due personaggi della saga fantascientifica 
 \emph on
 Guerre stellari
 \emph default
@@ -2857,11 +1150,15 @@ reference "chap:17Localizzare-le-ipotesi"
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:017-PNP"
+name "subsec:017-PNP"
 
 \end_inset
 
-Nel calendario romano, le 
+Nel calendario romano, le ☞
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset Quotes fld
 \end_inset
 
@@ -2920,8 +1217,8 @@ url{http://www.sapere.it/enciclopedia/gerarchia+(etologia).html}
 \emph on
 Gerarchia (etologia)
 \emph default
- -- Rapporto reciproco di supremazia e subordinazione che caratterizza l'organiz
-zazione sociale di un gruppo di animali, di norma appartenenti alla stessa
+ – Rapporto reciproco di supremazia e subordinazione che caratterizza l'organizz
+azione sociale di un gruppo di animali, di norma appartenenti alla stessa
  specie.
  Gerarchie di dominanza, o ordinamenti gerarchici, sono particolarmente
  comuni negli animali che formano associazioni individualizzate, nelle quali
@@ -2953,7 +1250,7 @@ stiche, ma talvolta anche altri caratteri individuali hanno un ruolo importante.
 \end_layout
 
 \begin_layout Standard
-❧
+☞
 \begin_inset space ~
 \end_inset
 
@@ -2961,7 +1258,7 @@ stiche, ma talvolta anche altri caratteri individuali hanno un ruolo importante.
 \begin_inset Quotes fld
 \end_inset
 
-Zabriscan Fontema
+Zabriskan Fontema
 \begin_inset Quotes frd
 \end_inset
 
@@ -2994,7 +1291,7 @@ reference "chap:19Gratificazione-differita"
 \end_layout
 
 \begin_layout Standard
-La ❧
+La ☞
 \begin_inset space ~
 \end_inset
 
@@ -3076,7 +1373,7 @@ url{http://en.wikipedia.org/w/index.php?title=Delayed_gratification&oldid=600826
 \end_layout
 
 \begin_layout Standard
-❧
+☞
 \begin_inset space ~
 \end_inset
 
@@ -3107,7 +1404,7 @@ reference "chap:20_Teorema-di-Bayes"
 \end_layout
 
 \begin_layout Standard
-Il ❧
+Il ☞
 \begin_inset space ~
 \end_inset
 
@@ -3223,6 +1520,10 @@ url{http://wiki.lesswrong.com/wiki/Bayes'_theorem}
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
 
 \emph on
 Euristica della rappresentatività
@@ -3283,6 +1584,10 @@ url{http://psychcentral.com/encyclopedia/2009/representativeness-heuristic/}
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
 
 \emph on
 Utilitarismo della preferenza
@@ -3299,7 +1604,7 @@ ciò che è bene è la soddisfazione dei desideri o la realizzazione delle
  preferenze; e ciò che è male è la frustrazione dei desideri o delle preferenze.
  Ciò che è desiderato o preferito generalmente non è una sensazione ma,
  piuttosto, una situazione, come avere un amico o raggiungere un obiettivo.
- [\SpecialChar \ldots{}
+ [\SpecialChar ldots
 ] Gli utilitaristi che adottano questa teoria dei valori possono allora
  affermare che un agente ha l'obbligo morale di compiere un atto se e solo
  se quell'atto massimizza la soddisfazione dei desideri o la realizzazione
@@ -3346,6 +1651,10 @@ url{http://plato.stanford.edu/entries/consequentialism/}
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
 
 \emph on
 La rivolta di Atlante
@@ -3413,6 +1722,10 @@ url{it.wikipedia.org/w/index.php?title=La_rivolta_di_Atlante&oldid=63986644}
 \end_layout
 
 \begin_layout Standard
+☞
+\begin_inset space ~
+\end_inset
+
 
 \emph on
 Negazione plausibile
@@ -3496,16 +1809,27 @@ reference "chap:21Razionalizzazione"
 \end_layout
 
 \begin_layout Standard
-Dr.
+☞
 \begin_inset space ~
+\end_inset
+
+Dr.
+\begin_inset space \thinspace{}
 \end_inset
 
 Seuss è stato uno scrittore di libri per bambini e un fumettista statunitense.
 \end_layout
 
 \begin_layout Standard
-David Criswell è il direttore dell'Institute for Space Systems Operations
- della University of Huston ed è il proponente dello 
+☞
+\begin_inset space ~
+\end_inset
+
+David Criswell è il direttore dell'
+\emph on
+Institute for Space Systems Operations della University of Huston
+\emph default
+ ed è il proponente dello 
 \emph on
 star lifting
 \emph default
