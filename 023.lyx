@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -66,6 +66,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -95,6 +97,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -109,7 +112,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -135,11 +141,11 @@ name "chap:23Credere-di-credere"
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E Janet era una Maganò
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ritratto di una donna bassa con un cappello dal bordo dorato.
@@ -210,31 +216,31 @@ La sua mano fu sulla maniglia della porta, Harry Potter era già dentro e
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gli antichi incantesimi del primo anno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che cosa hai scoperto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono più potenti delle magie che usiamo ora.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -243,7 +249,7 @@ Non sono più potenti delle magie che usiamo ora.
 \begin_layout Standard
 Il pugno di Harry Potter colpì la scrivania, duramente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dannazione.
@@ -254,7 +260,7 @@ Dannazione.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -265,7 +271,7 @@ Draco si colpì in fronte, ricordando.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 –
@@ -280,7 +286,7 @@ che impedisce a chiunque di ottenere informazioni sugli incantesimi potenti
  Ma se non è possibile leggerli nei vecchi libri, perché qualcuno dovrebbe
  preoccuparsi di tramandarli oralmente dopo che hanno smesso di funzionare?
  Hai ottenuto le informazioni relative alle coppie di Maghinò?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -297,7 +303,7 @@ Draco fece il gesto di consegnargli la pergamena
 \begin_layout Standard
 Ma Harry Potter alzò una mano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Legge della scienza, Draco.
@@ -316,7 +322,7 @@ prima
  che mi mostri i dati.
  Questa è la regola.
  Indossa il tuo mantello e sediamoci.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -331,15 +337,15 @@ Harry Potter si sedette a una scrivania con frammenti di carta disposti
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il segreto del sangue
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, un'espressione intensa sul suo volto, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è una cosa chiamata acido desossiribonucleico.
@@ -361,7 +367,7 @@ vedere
  avrà due pezzi di carta in ogni posizione della fila.
  Due copie di tutto, una da tua madre, una da tuo padre, e quando hai dei
  figli, ricevono un pezzo di carta da te a caso in ogni posizione.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -370,19 +376,19 @@ vedere
 \begin_layout Standard
 Mentre Harry parlava, le sue dita si muovevano sui ritagli di carta accoppiati,
  puntando a un elemento della coppia quando disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 da tua madre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , all'altro quando disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 da tuo padre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -393,7 +399,7 @@ da tuo padre
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ora, quando si tratta di qualcosa come l'essere alti o bassi, ci sono molte
@@ -416,7 +422,7 @@ e il bambino riceve tutti e dieci i pezzi che dicono `alto' e viene fuori
  L'acido desossiribonucleico è costituito da tante piccole parti, come un
  bicchiere di ciottoli invece di un bicchiere d'acqua.
  Ecco perché un bambino non è sempre esattamente una media dei genitori.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -433,15 +439,15 @@ vedere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 supponiamo che, proprio come con la statura, ci siano molti piccoli posti
@@ -470,7 +476,7 @@ molti
  Ci sarebbero ancora maghi potenti di tanto in tanto, quando per caso ottenesser
 o molte carte magiche.
  Ma non sarebbero così potenti come i più potenti maghi del passato.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -483,7 +489,7 @@ Draco annuì lentamente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -491,12 +497,12 @@ Draco annuì lentamente.
 Ma
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questa è solo 
@@ -540,7 +546,7 @@ un
  posto nella ricetta che fa di te un mago, allora la magia non è come un
  bicchiere di ciottoli che possono mescolarsi.
  È come un unico sassolino magico, una pietra dello stregone.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -554,11 +560,11 @@ Harry dispose tre coppie di fogli fianco a fianco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In questo caso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, «o hai due pietre o non ce le hai.
@@ -575,7 +581,7 @@ intrinsecamente
  o qualcosa del genere.
  Ma se è andata costantemente peggio da oltre 800 anni, allora questo potrebbe
  significare che la magia sta scomparendo dal mondo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -590,12 +596,12 @@ Harry dispose altre due coppie di pezzi di carta l'uno a fianco dell'altro,
 
 \begin_layout Standard
 «E questo mi porta alla previsione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa succede quando due Maghinò si sposano.
@@ -619,7 +625,7 @@ Cosa succede quando due Maghinò si sposano.
  un indizio forte.
  Questa è la prova che ti ho fatto fare.
  Ora vediamo i tuoi dati.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -644,23 +650,23 @@ Non era sicuro del numero esatto, ma era abbastanza sicuro che circa un
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei maghi su ventotto bambini
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter dopo un momento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, è così, dunque.
  E quelli del primo anno lanciavano gli stessi incantesimi allo stesso livello
  di potenza otto secoli fa, inoltre.
  Il tuo test e il mio test hanno dato lo stesso risultato.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -671,11 +677,11 @@ Ci fu un lungo silenzio nell'aula.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E adesso?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sussurrò Draco.
@@ -686,43 +692,43 @@ Non era mai stato così terrorizzato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è ancora detto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dichiarò Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il mio esperimento è fallito, ricordi? Ho bisogno che tu progetti un altro
  esperimento, Draco.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io, io\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  balbettò Draco.
  La sua voce stava per rompersi dall'emozione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non posso farlo Harry, è troppo per me.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -731,7 +737,7 @@ Non posso farlo Harry, è troppo per me.
 \begin_layout Standard
 Lo sguardo di Harry fu feroce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, puoi farlo, perché devi.
@@ -739,7 +745,7 @@ Sì, puoi farlo, perché devi.
  Draco, c'è qualche modo di misurare direttamente la forza della magia?
  Un modo che non abbia nulla a che fare con il sangue dei maghi o gli incantesim
 i che impariamo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -750,16 +756,16 @@ La mente di Draco era completamente svuotata.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutto ciò che ha un effetto sulla magia ha un effetto sui maghi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma allora non possiamo dire se sono i maghi o la magia.
@@ -768,18 +774,18 @@ Ma allora non possiamo dire se sono i maghi o la magia.
 non è
 \emph default
  un mago?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le creature magiche, ovviamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco senza nemmeno pensarci.
@@ -788,7 +794,7 @@ Le creature magiche, ovviamente
 \begin_layout Standard
 Harry Potter sorrise lentamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco, è 
@@ -796,7 +802,7 @@ Draco, è
 geniale
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -826,7 +832,7 @@ stessero
 \begin_layout Standard
 Harry Potter era già a metà strada dalla porta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -836,7 +842,7 @@ Forza
 , Draco! C'è un ritratto non lontano da qui, dobbiamo solo chiedergli di
  andare a cercare qualcuno molto vecchio e lo scopriremo subito! Abbiamo
  i cappucci, se qualcuno ci vedesse basterebbe scappare! Andiamo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -931,11 +937,11 @@ La nausea allo stomaco di Draco stava diminuendo, e ora si sentiva solo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco mentre il vecchio stava traducendo un elenco di tutti gli
@@ -944,11 +950,11 @@ Harry
 beholder
 \emph default
 , 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che cosa significa questo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1127,16 +1133,16 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A ha fallito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 B è una prova debole in favore di 1 rispetto a 2.
@@ -1150,7 +1156,7 @@ B è una prova debole in favore di 1 rispetto a 2.
  che non possa essere lanciato.
  Quindi, una volta messo tutto insieme, sembra che si stia perdendo la conoscenz
 a della magia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1174,11 +1180,11 @@ Draco si spinse lontano dalla scrivania e si alzò in piedi con tale forza
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora è stato solo uno stupido scherzo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1188,7 +1194,7 @@ Allora è stato solo uno stupido scherzo.
 Harry Potter lo fissò per un momento, restando seduto.
  Quando parlò, la sua voce era tranquilla.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È stata una verifica onesta, Draco.
@@ -1202,33 +1208,33 @@ Harry Potter lo fissò per un momento, restando seduto.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, nella sua voce si cominciava a notare la rabbia, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non sapevi come sarebbe andata a finire?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non 
@@ -1236,12 +1242,12 @@ Non
 sapevo
 \emph default
  nulla che tu non sapessi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, ancora calmo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ammetto di aver sospettato.
@@ -1267,47 +1273,47 @@ e
  E non ho mai pensato che la magia potesse stare sparendo dal mondo fino
  a quando non l'hai detto tu.
  È stata un'idea terrificante anche per me.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non importa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  Stava impegnandosi con molta forza a controllare la propria voce e non
  urlare contro Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu hai detto che non intendi andartene in giro a raccontare tutto questo
  a qualcuno.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non senza consultare te, prima
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Aprì le mani in un gesto di supplica.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco, per quanto possibile sto cercando di essere gentile, ma 
@@ -1315,20 +1321,20 @@ Draco, per quanto possibile sto cercando di essere gentile, ma
 il mondo si è semplicemente rivelato non essere in quel modo
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene.
  Allora tu e io abbiamo finito.
  Me ne andrò e dimenticherò tutto quello che è accaduto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1350,7 +1356,7 @@ E la voce di Harry Potter giunse, ora più forte, e preoccupata:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco\SpecialChar ldots
@@ -1360,7 +1366,7 @@ non puoi
 \emph default
  dimenticare.
  Non lo capisci? Quello era il tuo sacrificio.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1369,7 +1375,7 @@ non puoi
 \begin_layout Standard
 Draco si fermò a metà strada e si voltò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Di che 
@@ -1377,7 +1383,7 @@ Di che
 cosa
 \emph default
  stai parlando?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1392,7 +1398,7 @@ E seppe anche prima che Harry Potter parlasse.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Del diventare uno scienziato.
@@ -1401,12 +1407,12 @@ Del diventare uno scienziato.
  Hai fatto gli esperimenti, hai raccolto i dati, e il risultato ha dimostrato
  che la tua convinzione era sbagliata.
  Hai visto i risultati e hai capito cosa volevano dire.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Harry Potter stava vacillando.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ricorda, Draco, non puoi sacrificare una 
@@ -1421,14 +1427,14 @@ falsa
 \emph default
  convinzione che il sangue dei maghi si stava mescolando e diventando sempre
  più debole.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1436,17 +1442,17 @@ falsa
 Non è vero!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ho sacrificato quella convinzione.
  Io ci credo ancora!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La sua voce era sempre più alta, e il gelo si stava intensificando.
@@ -1456,7 +1462,7 @@ Non ho sacrificato quella convinzione.
 Harry Potter scosse la testa.
  La sua voce uscì in un sussurro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco\SpecialChar ldots
@@ -1465,12 +1471,12 @@ Draco\SpecialChar ldots
 non
 \emph default
  ci credi, non più.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Harry si alzò di nuovo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Te lo dimostrerò.
@@ -1510,13 +1516,13 @@ crede
  Puoi sbagliarti a proposito di ciò in cui credi, la maggior parte delle
  persone non si rende conto che c'è una differenza tra credere in qualcosa
  e pensare che sia giusto crederci.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry Potter si era alzato dalla scrivania, e aveva fatto qualche passo
  verso Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E Draco, tu non credi più al purismo del sangue, ti dimostrerò che non ci
@@ -1526,34 +1532,34 @@ E Draco, tu non credi più al purismo del sangue, ti dimostrerò che non ci
  allevata da Babbani, proprio come me? Potrei andare da Granger e chiederle
  di vedere le foto dei suoi genitori, per vedere se gli assomiglia.
  Ti aspetti che sia diversa? Facciamo questa prova?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'avranno messa con i suoi parenti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, con voce tremante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si somiglieranno lo stesso.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisci? Sai già quale risultato dell'esperimento dovrai giustificare.
@@ -1564,14 +1570,14 @@ Capisci? Sai già quale risultato dell'esperimento dovrai giustificare.
 \end_inset
 
 –''
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1579,14 +1585,14 @@ Capisci? Sai già quale risultato dell'esperimento dovrai giustificare.
 Devono
 \emph default
  averla messa con i suoi parenti!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gli scienziati possono fare degli esami per provare con certezza che qualcuno
@@ -1613,7 +1619,7 @@ aspetterai sempre di veder accadere
  esattamente ciò che accadrebbe se ci fosse solo una cosa che facesse di
  te un mago.
  Quello era il tuo sacrificio per diventare uno scienziato.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1622,7 +1628,7 @@ aspetterai sempre di veder accadere
 \begin_layout Standard
 Il respiro di Draco era irregolare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti rendi conto 
@@ -1630,14 +1636,14 @@ Ti rendi conto
 di quello che hai fatto?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Draco si lanciò in avanti e afferrò Harry per il colletto.
  La sua voce divenne un urlo, sembrò insopportabilmente alta nell'aula chiusa
  e nel silenzio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1645,7 +1651,7 @@ di quello che hai fatto?
 Ti rendi conto di quello che hai fatto?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1654,7 +1660,7 @@ Ti rendi conto di quello che hai fatto?
 \begin_layout Standard
 La voce di Harry era scossa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avevi una convinzione.
@@ -1665,7 +1671,7 @@ Avevi una convinzione.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1679,7 +1685,7 @@ Le dita della mano destra di Draco si serrarono in un pugno e quella mano
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1687,12 +1693,12 @@ Le dita della mano destra di Draco si serrarono in un pugno e quella mano
 Idiota!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  urlò Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1700,22 +1706,22 @@ Idiota!
 Idiota! Idiota!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Harry da terra, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco, mi dispiace, non pensavo che sarebbe successo prima di qualche mese,
@@ -1726,24 +1732,24 @@ Draco, mi dispiace, non pensavo che sarebbe successo prima di qualche mese,
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E mio Padre?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco.
  La sua voce tremava dalla rabbia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avevi intenzione preparare anche 
@@ -1755,7 +1761,7 @@ lui
 importava
 \emph default
  cosa sarebbe successo dopo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1767,16 +1773,16 @@ importava
 a lui
 \emph default
 !
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, alzando la voce per la preoccupazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è uno scienziato! Hai promesso, Draco!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1791,36 +1797,36 @@ E poi cominciò a montare la vera rabbia.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Così avevi previsto che gli mentissi e gli dicessi che ci credo ancora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, con voce tremante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovrò sempre mentirgli, e ora quando sarò grande non potrò essere un Mangiamorte
 , e non sarò nemmeno in grado di dirgli perché no.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se tuo padre ti ama davvero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Harry da terra, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ti amerà ancora anche se non diventerai un Mangiamorte, e sembra che tuo
@@ -1833,14 +1839,14 @@ davvero
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il 
@@ -1848,13 +1854,13 @@ Il
 tuo
 \emph default
  patrigno è uno scienziato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  Le parole gli uscirono acuminate come coltelli.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se 
@@ -1867,7 +1873,7 @@ tu
 po' meno speciale
 \emph default
  per lui.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1888,14 +1894,14 @@ Harry sussultò.
 Avresti dovuto avvertimi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ho\SpecialChar ldots
@@ -1912,23 +1918,23 @@ o.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu lo chiami un avvertimento?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Draco stava urlando, ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1937,31 +1943,31 @@ Tu lo chiami un avvertimento? Quando stiamo facendo un rituale che richiede
  un sacrificio permanente?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io\SpecialChar ldots
  io\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il ragazzo sul pavimento deglutì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse non era chiaro.
  Mi dispiace.
  Ma ciò che può essere distrutto dalla verità dovrebbe esserlo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1972,22 +1978,22 @@ Colpirlo non era abbastanza.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Su di una cosa ti sbagli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, con un tono fatale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Granger non è lo studente più forte di Hogwarts.
  È solo quello che prende i voti più alti.
  Stai per scoprire la differenza.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2007,7 +2013,7 @@ Era già troppo tardi per lui.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2015,7 +2021,7 @@ Era già troppo tardi per lui.
 Expelliarmus!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2026,7 +2032,7 @@ La bacchetta di Harry volò attraverso la stanza.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2034,7 +2040,7 @@ La bacchetta di Harry volò attraverso la stanza.
 Gom jabbar!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2045,16 +2051,16 @@ Un impulso di oscurità colpì la mano sinistra di Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è un incantesimo di tortura
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Serve a strappare informazioni alle persone.
@@ -2063,7 +2069,7 @@ Serve a strappare informazioni alle persone.
  ore.
  Forse non svanirà prima che tu muoia qui dentro.
  Divertiti.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2078,7 +2084,7 @@ Draco scivolò agilmente all'indietro, la bacchetta ancora puntata su Harry.
 \begin_layout Standard
 La sofferenza stava già comparendo sul volto di Harry Potter mentre parlò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I Malfoy sono al di sopra delle legge sulla magia per i minori, dico bene?
@@ -2086,7 +2092,7 @@ I Malfoy sono al di sopra delle legge sulla magia per i minori, dico bene?
  È perché ti sei già allenato.
  All'inizio eri debole tanto quanto ognuno di noi.
  La mia predizione è sbagliata?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2098,15 +2104,15 @@ La mano di Draco che reggeva la bacchetta divenne pallida, ma la sua mira
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per tua informazione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry tra i denti serrati, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 se mi avessi detto che avevo torto, ti sarei stato ad ascoltare.
@@ -2127,11 +2133,11 @@ lo farai.
  Un giorno.
  Hai aperto gli occhi come scienziato, ormai, e anche se non imparerai mai
  a usare il tuo potere, sarai sempre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry rantolò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 in cerca, di modi, per mettere alla prova, le tue convinzioni
@@ -2139,7 +2145,17 @@ in cerca, di modi, per mettere alla prova, le tue convinzioni
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ripetuto in cap 24
+\end_layout
+
 \end_inset
 
 
@@ -2197,7 +2213,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2205,7 +2221,7 @@ status open
 Aaahhhhh! Finite Incantatem! Aaaahhh!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2227,7 +2243,7 @@ Alcune fatture richiedevano contro-fatture specifiche o non saresti stato
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2235,7 +2251,7 @@ Alcune fatture richiedevano contro-fatture specifiche o non saresti stato
 Aaaaahhhh!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2260,7 +2276,7 @@ La sua borsa, sfortunatamente, era dal lato sbagliato del suo corpo, e ci
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Kit 
@@ -2268,7 +2284,7 @@ Kit
 ahhhhh
 \emph default
  medico! Kit medico!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2354,11 +2370,11 @@ Non aveva ancora redento Draco, neppure lontanamente.
  Contrariamente a quanto Draco stesso potesse ora credere, era ancora il
  figlio di un Mangiamorte, in tutto e per tutto.
  Ancora un ragazzo che era cresciuto pensando che uno 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 stupro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fosse qualcosa che facessero i ragazzi più grandi e fighi.
@@ -2455,7 +2471,7 @@ Draco non aveva bleffato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2463,7 +2479,7 @@ Draco non aveva bleffato.
 Finite Incantatem
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Harry venne fuori piuttosto rauca, e poté sentire che l'incantesimo
@@ -2484,7 +2500,7 @@ Era giunto il momento di usare le armi pesanti.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2492,7 +2508,7 @@ Era giunto il momento di usare le armi pesanti.
 Alohomora!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2895,16 +2911,16 @@ Alle 19:07, la porta si aprì.
 \begin_layout Standard
 Il viso barbuto del professor Flitwick sembrava piuttosto preoccupato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutto bene, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce stridula del Preside di Corvonero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho ricevuto una nota che diceva che eri rinchiuso qui dentro
@@ -2912,7 +2928,7 @@ Ho ricevuto una nota che diceva che eri rinchiuso qui dentro
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
