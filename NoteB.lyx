@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -82,6 +82,8 @@
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -111,6 +113,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -125,7 +128,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -175,19 +181,19 @@ indice
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La realtà è quella cosa che, anche se smetti di crederci, non svanisce
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (in inglese, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 reality is that which, when you stop believing in it, doesn't go away
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ), da Philip K.
@@ -221,13 +227,13 @@ L'effetto Lake Wobegon è un sinonimo della superiorità illusoria (in inglese,
 illusory superiority
 \emph default
 ), 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 un bias cognitivo che spinge le persone a sovrastimare le proprie qualità
  e abilità positive e a sottostimare le proprie qualità negative, in rapporto
  agli altri
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -236,11 +242,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Contributori di Wikipedia, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Illusory superiority
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -275,12 +281,12 @@ Lake Wobegon effect
 A Prairie Home Companion
 \emph default
  di Garrison Keillor, in cui 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 tutte le donne sono forti, tutti gli uomini sono di bell'aspetto, e tutti
  i bambini sono sopra la media
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -304,12 +310,12 @@ indice
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ricordami prima o poi di parlarti di una cosa chiamata Esperimento sul conformis
 mo di Asch
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ; ne parleranno nel capitolo 84.
@@ -365,11 +371,11 @@ Gendlin è un filosofo e uno psicoterapista statunitense, inventore di procedure
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Litany of Tarski
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -390,11 +396,11 @@ url{http://wiki.lesswrong.com/wiki/Litany_of_Tarski}
 \end_inset
 
  (acceduto il 29 marzo 2014); 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Litany of Gendlin
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -553,6 +559,49 @@ reference "chap:24L'ipotesi-dell'intelligenza-mach"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indice
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\emph on
+La Tragedia di Luce
+\emph default
+ è un riferimento alla serie di 
+\emph on
+manga
+\emph default
+, 
+\emph on
+anime
+\emph default
+ e film dal vivo giapponese 
+\emph on
+Death Note
+\emph default
+, il cui protagonista – chiamato Light, ovvero «Luce» – possiede un blocco
+ note su cui scrive il nome delle persone che intende uccidere, e che muoiono
+ per un effetto demoniaco nel modo in cui Light desidera; il suo avversario
+ è un misterioso investigatore identificato con la lettera `
+\emph on
+L
+\emph default
+', «Elle».
+\end_layout
+
+\begin_layout Standard
 
 \color red
 Profondità di ricorsione.
@@ -646,11 +695,11 @@ indice
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 velloso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (in inglese: 
@@ -687,11 +736,11 @@ indice
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E allora furono in…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è un riferimento a 
@@ -724,11 +773,11 @@ Eric Drexler
 
 \begin_layout Standard
 Dorotea Senjak è 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 The Lady
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  nella serie fantasy 
@@ -786,11 +835,11 @@ J.K.
 Harry Potter e l'Ordine della Fenice
 \emph default
 , capitolo 37 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La Profezia perduta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , p.
@@ -798,11 +847,11 @@ La Profezia perduta
 \end_inset
 
 777, citato in 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Profezia di Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -863,7 +912,7 @@ reference "chap:30Lavorare-gruppi_I"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -875,7 +924,7 @@ Sangue per il dio del sangue!
 Teschi per il trono di teschi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è il grido di guerra degli adepti del dio Khorne nel mondo del gioco 
@@ -884,7 +933,7 @@ Warhammer 40.000
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -892,7 +941,7 @@ Warhammer 40.000
 Iä! Shub-Niggurath!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è l'invocazione alla dea Shub-Niggurath del panteon lovercraftiano come
@@ -902,7 +951,7 @@ L'orrore di Dunwich
 \emph default
  (1928).
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -910,11 +959,11 @@ L'orrore di Dunwich
 Il cancello del nemico è di lato!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (traduzione dell'originale 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -922,7 +971,7 @@ Il cancello del nemico è di lato!
 The enemy gate is sideways!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ) è una frase del ciclo di fantascienza 
@@ -1001,7 +1050,7 @@ reference "chap:33Problemi-coord-I"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1013,7 +1062,7 @@ In ogni città
  malattia dell'anima
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Procopio, 
@@ -1028,21 +1077,21 @@ i
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Eran birbizzi i borogovi.
  / E il momo ratso ultragrattava
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è la traduzione italiana (di Adriana Valori-Piperno, edizione Newton Compton)
  dei versi 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 All mimsy were the borogoves, / And the mome raths outgrabe
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  della prima strofa di 
@@ -1064,19 +1113,19 @@ Attraverso lo specchio e quel che Alice vi trovò
 \emph default
 ).
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Eran Birbizzi i Borogovi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è anche il titolo italiano del racconto di fantascienza 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mimsy Were the Borogoves
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  di Lewis Padgett (pseudonimo di Henry Kuttner e C.L.
@@ -1100,7 +1149,7 @@ Problema di Newcomb
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1108,7 +1157,7 @@ Problema di Newcomb
 Perché state tutti a testa in giù?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è una citazione da 
@@ -1119,7 +1168,7 @@ Il gioco di Ender
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1127,7 +1176,7 @@ Il gioco di Ender
 Arcobaleni e unicorni!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è un riferimento alla serie 
@@ -1135,7 +1184,7 @@ Arcobaleni e unicorni!
 Mio Mini Pony
 \emph default
 ; 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1143,7 +1192,7 @@ Mio Mini Pony
 Il Capro Nero dai mille cuccioli!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è un riferimento a Shub-Niggurath.
@@ -1170,11 +1219,11 @@ Storia del Terzo Reich
 The Rise and Fall of the Third Reich
 \emph default
 , 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ascesa e la caduta del Terzo Reich
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ) è un saggio storico pubblicato nel 1960 da William Lawrence Shirer.
