@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{24}
@@ -54,26 +56,28 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Biolinum O
-\font_sans Warnock Pro
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Traiano"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 10
+\paperfontsize 12
 \spacing single
 \use_hyperref false
-\papersize custom
-\use_geometry true
+\papersize default
+\use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -93,6 +97,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -107,7 +112,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -199,7 +207,7 @@ La magia veniva da un'altra parte.
 
 \begin_layout Standard
 (Al tavolo di Corvonero c'era un ragazzo che stava fissando il vuoto, mentre
- la sua mano destra automaticamente raccoglieva col cucchiaio del cibo di
+ la sua mano destra raccoglieva automaticamente col cucchiaio del cibo di
  scarsa importanza e lo metteva nella sua bocca, qualunque cosa vi fosse
  davanti a lui.
  L'avresti probabilmente potuto sostituire con un mucchietto di terra e
@@ -226,31 +234,83 @@ Corvonero
 \end_layout
 
 \begin_layout Standard
-C'erano altre sequenze logiche che conducevano alla stessa conclusione.
+C'erano altre linee di pensiro logiche che conducevano alla stessa conclusione.
  Un macchinario 
 \emph on
 complesso
 \emph default
  era sempre universale all'interno di una specie che si riproducesse sessualment
 e.
- Se il gene B faceva affidamento sul gene A, allora A doveva essere utile
- di per sé, e assurgere da solo fino alla quasi universalità all'interno
- del pool genico, prima che B fosse abbastanza utile da conferire un vantaggio
- in fitness.
- Quando poi B fosse stato universale si avrebbe avuta una variante A* che
- faceva affidamento su B, e poi C che faceva affidamento su A* e B, poi
- B* che si basava su C, finché l'intera macchina sarebbe caduta a pezzi
- se si fosse rimosso un singolo pezzo.
+ Se il gene 
+\noun on
+b
+\noun default
+ faceva affidamento sul gene 
+\noun on
+a
+\noun default
+, allora 
+\noun on
+a
+\noun default
+ doveva essere utile di per sé, e arrivare da solo alla quasi universalità
+ all'interno del pool genico, prima che 
+\noun on
+b
+\noun default
+ fosse abbastanza utile da conferire un vantaggio in fitness.
+ Quando poi 
+\noun on
+b
+\noun default
+ fosse stato universale si avrebbe avuta una variante 
+\noun on
+a
+\noun default
+* che faceva affidamento su 
+\noun on
+b
+\noun default
+, e poi 
+\noun on
+c
+\noun default
+ che faceva affidamento su 
+\noun on
+a
+\noun default
+* e 
+\noun on
+b
+\noun default
+, poi 
+\noun on
+b
+\noun default
+* che si basava su 
+\noun on
+c
+\noun default
+, finché l'intera macchina sarebbe caduta a pezzi se si fosse rimosso un
+ singolo pezzo.
  Ma doveva accadere tutto 
 \emph on
 incrementalmente
 \emph default
- -- l'evoluzione non guardava mai in avanti, l'evoluzione non avrebbe mai
- iniziato a sostenere B per 
+ – l'evoluzione non guardava mai in avanti, l'evoluzione non avrebbe mai
+ iniziato a spingere 
+\noun on
+b
+\noun default
+ per 
 \emph on
 preparare
 \emph default
- A a diventare universale in una fase successiva.
+ 
+\noun on
+a
+\noun default
+ a diventare universale in una fase successiva.
  L'evoluzione era il mero fatto storico che, chiunque fossero stati gli
  organismi che avessero effettivamente avuto il maggior numero di figli,
  i loro geni sarebbero stati più frequenti nella generazione successiva.
@@ -273,7 +333,7 @@ indipendente
 \emph on
 universale
 \emph default
- all'interno di una specie che si riproducesse sessualmente -- ad eccezione
+ all'interno di una specie che si riproducesse sessualmente – ad eccezione
  di un mucchietto di 
 \emph on
 varianti non
@@ -345,14 +405,14 @@ Alohomora
 \emph default
 .
  Molti elementi che puntavano tutti nella stessa direzione: la si sarebbe
- potuta chiamare indirizzamento all'obbiettivo, o in un linguaggio più semplice,
- significatività.
+ potuta chiamare orientamento all'obbiettivo, o in un linguaggio più semplice,
+ intenzionalità.
 \end_layout
 
 \begin_layout Standard
-C'erano solo due cause note per la complessità significativa.
+C'erano solo due cause note per la complessità intenzionale.
  La selezione naturale, che produceva cose come le farfalle.
- E l'ingegneria intenzionale, che produceva cose come le automobili.
+ E l'ingegneria, che produceva cose come le automobili.
 \end_layout
 
 \begin_layout Standard
@@ -364,8 +424,9 @@ La magia non sembrava qualcosa che fosse nata attraverso l'auto-replicazione.
 \end_layout
 
 \begin_layout Standard
-Qualche ingegnere pensante, allora, aveva creato la Fonte della Magia, e
- le aveva detto di prestare attenzione ad un particolare marcatore del 
+Qualche ingegnere intelligente, allora, aveva creato la Fonte della Magia,
+ e le aveva detto di prestare attenzione a un particolare marcatore del
+ 
 \noun on
 dna
 \noun default
@@ -375,20 +436,20 @@ dna
 \begin_layout Standard
 Lo scontato pensiero successivo fu che questo aveva qualcosa a che fare
  con 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Atlantide
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-Harry aveva precedentemente chiesto a Hermione informazioni a riguardo --
- sul treno per Hogwarts, dopo averla sentita nominare da Draco -- e per
- quanto ne sapeva lei, nulla era noto oltre alla parola stessa.
+Harry aveva precedentemente chiesto a Hermione informazioni a riguardo –
+ sul treno per Hogwarts, dopo averne sentito parlare da Draco – e per quanto
+ ne sapeva lei, nulla era noto oltre alla parola stessa.
 \end_layout
 
 \begin_layout Standard
@@ -411,7 +472,7 @@ Quella linea di ragionamento continuava: Atlantide era stata una civiltà
 \begin_layout Standard
 E secondo una logica simile: le parole che un mago pronunciava, i movimenti
  della bacchetta, non erano abbastanza complicati di per sé per far sorgere
- gli effetti degli incantesimi da zero -- non nello stesso modo in cui tre
+ gli effetti degli incantesimi da zero – non nello stesso modo in cui tre
  miliardi di coppie di basi del 
 \noun on
 dna
@@ -447,7 +508,7 @@ E conduceva inevitabilmente a un'unica conclusione finale.
 
 \begin_layout Standard
 Gli antichi progenitori dei maghi, migliaia di anni prima, avevano detto
- alla Fonte della Magia di far levitare gli oggetti solo se avessi detto\SpecialChar \ldots{}
+ alla Fonte della Magia di far levitare gli oggetti solo se avessi detto\SpecialChar ldots
 
 \end_layout
 
@@ -461,9 +522,9 @@ Harry si accasciò sul tavolo della colazione, appoggiando stancamente la
 \end_layout
 
 \begin_layout Standard
-C'era un aneddoto risalente agli albori dell'Intelligenza Artificiale --
+C'era un aneddoto risalente agli albori dell'Intelligenza Artificiale –
  quando avevano appena incominciato e nessuno aveva ancora compreso che
- il problema sarebbe stato difficile -- a proposito di un professore che
+ il problema sarebbe stato difficile – a proposito di un professore che
  aveva delegato a uno dei suoi studenti la soluzione del problema della
  visione dei computer.
 \end_layout
@@ -478,8 +539,11 @@ Questo avrebbe potuto prendergli un po' di tempo.
 \end_layout
 
 \begin_layout Standard
-Perché richiedeva uno sforzo maggiore lanciare l'incantesimo Alohomora,
- se era come premere un bottone?
+Perché richiedeva uno sforzo maggiore lanciare l'incantesimo 
+\emph on
+Alohomora
+\emph default
+, se era come premere un bottone?
 \end_layout
 
 \begin_layout Standard
@@ -535,27 +599,27 @@ infinitamente
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi scusi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse dalle sue spalle una voce attesa in toni molto inattesi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Con suo comodo, il signor Malfoy le chiede il favore di una conversazione
-\begin_inset Quotes frd
+Con suo comodo, il signor Malfoy le chiede il favore di una conversazione.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -564,24 +628,24 @@ Harry non si strozzò con i suoi cereali da colazione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Scusi 
+Scusa 
 \emph on
 me
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non voleva dire forse `Er capo te vole parlà'?
-\begin_inset Quotes frd
+Non volevi dire forse `Er capo te vole parlà'?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -590,56 +654,55 @@ Non voleva dire forse `Er capo te vole parlà'?
 \begin_layout Standard
 Il signor Crabbe non sembrò contento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Il signor Malfoy mi ha dato istruzioni di parlare in maniera corretta
-\begin_inset Quotes frd
+Il signor Malfoy mi ha dato istruzioni di parlare in maniera corretta.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non posso sentirla
-\begin_inset Quotes frd
+Non posso sentirti
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non sta parlando in maniera corretta
-\begin_inset Quotes frd
+Non stai parlando in maniera corretta.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Tornò alla sua tazza di piccoli fiocchi di cristallo blu e deliberatamente
  ne mangiò un altro cucchiaio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Er capo te vole parlà
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , giunse una voce minacciosa da dietro di lui.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-È mejo che 'o vai a trovà, si capisci che è mejo pe' te
-\begin_inset Quotes frd
+È mejo se ce vai, si capisci cosa è mejo pe' te.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -669,7 +732,7 @@ Atto 1
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una 
@@ -677,7 +740,7 @@ Una
 ragione?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse l'antico mago.
@@ -685,7 +748,7 @@ ragione?
  Il ragazzo davanti a lui era stata la vittima, e certamente non aveva bisogno
  di essere spaventato ancora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non c'è 
@@ -696,19 +759,19 @@ che possa scusare
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ciò che ho fatto io a lui è stato peggiore.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -717,7 +780,7 @@ Ciò che ho fatto io a lui è stato peggiore.
 \begin_layout Standard
 L'antico mago si irrigidì per l'improvviso orrore.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry, 
@@ -725,14 +788,14 @@ Harry,
 cos'hai fatto?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho indotto Draco con l'inganno a credere che l'avessi indotto con l'inganno
@@ -740,7 +803,7 @@ Ho indotto Draco con l'inganno a credere che l'avessi indotto con l'inganno
  del sangue.
  E questo ha significato che non potrà essere un Mangiamorte da grande.
  Ha perso tutto, Preside.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -753,15 +816,15 @@ Ci fu una quiete prolungata nell'ufficio, rotta solo dai sommessi sbuffi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ohimè
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'antico mago, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 mi sento 
@@ -778,7 +841,7 @@ a questo punto
 \emph on
 mostrandogli vera amicizia e gentilezza
 \emph default
-
+.
 \begin_inset Note Note
 status collapsed
 
@@ -789,14 +852,14 @@ stesse parole di Fred e George, qui sotto
 \end_inset
 
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -808,7 +871,7 @@ Ah!
 questo
 \emph default
  avesse potuto funzionare.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -818,7 +881,7 @@ questo
 L'antico mago sospirò.
  Questo lo stava portando troppo lontano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dimmi, Harry.
@@ -831,14 +894,14 @@ venuto in mente
 inappropriato
 \emph default
  nel proporsi di redimere qualcuno con bugie e inganni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ho fatto senza raccontare alcuna bugia diretta, e stiamo parlando di Draco
@@ -846,18 +909,17 @@ L'ho fatto senza raccontare alcuna bugia diretta, e stiamo parlando di Draco
 \emph on
 appropriato
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il ragazzo sembrava alquanto compiaciuto.
 \end_layout
 
 \begin_layout Standard
 L'antico mago scosse la testa per la disperazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E 
@@ -865,11 +927,11 @@ E
 questo
 \emph default
  è l'eroe.
- Siamo tutti spacciati
-\begin_inset Quotes frd
+ Siamo tutti spacciati.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Quote
@@ -910,11 +972,11 @@ L'ora era le tre del mattino, e Fred e George stavano intraprendendo il
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come sta andando?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Fred a voce bassa.
@@ -926,38 +988,38 @@ Come sta andando?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ancora guasto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Entrambi, o
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quello intermittente si è aggiustato ancora da solo.
  L'altro è lo stesso di sempre.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -980,7 +1042,7 @@ non buono
 
 \begin_layout Standard
 E i gemelli Weasley non avevano intenzione di consegnare la Mappa a Dumbledore.
- Sarebbe stato un insulto imperdonabile ai Malandrini -- i quattro sconosciuti
+ Sarebbe stato un insulto imperdonabile ai Malandrini – i quattro sconosciuti
  che erano riusciti a rubare un componente del 
 \emph on
 sistema di sicurezza di Hogwarts
@@ -1035,21 +1097,21 @@ Fred e George aspettarono.
 Dopo non molto tempo, un magro e anziano signore con un pigiama nero si
  arrampicò giù per i gradini che conducevano alla cantina, sbadigliando.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ciao, ragazzi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Ambrosius Flume.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non vi aspettavo questa notte.
  Già finite le scorte?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1060,36 +1122,36 @@ Fred e George decisero che Fred avrebbe parlato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non esattamente, signor Flume
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Speravamo che potesse aiutarci con qualcosa molto più\SpecialChar \ldots{}
- interessante
-\begin_inset Quotes frd
+Speravamo che potesse aiutarci con qualcosa molto più\SpecialChar ldots
+ interessante.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ehi, ragazzi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Flume con un tono severo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 spero che non mi abbiate svegliato solo per farvi dire ancora una volta
@@ -1099,8 +1161,8 @@ spero che non mi abbiate svegliato solo per farvi dire ancora una volta
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1109,11 +1171,11 @@ spero che non mi abbiate svegliato solo per farvi dire ancora una volta
 \begin_layout Standard
 George estrasse un oggetto dalle sue vesti, e lo passò senza parlare a Flume.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha visto questo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Fred.
@@ -1134,21 +1196,21 @@ Il prossimo Signore Oscuro?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non posso credere a quel Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sbottò Flume.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Attaccare il ragazzo quando ha appena undici anni! Quell'uomo andrebbe macinato
  e usato per fare cioccolatini!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1160,10 +1222,10 @@ Fred e George sbatterono le palpebre all'unisono.
 \emph on
  Malfoy
 \emph default
- era dietro Rita Skeeter? Harry Potter non li aveva avvisati della cosa\SpecialChar \ldots{}
+ era dietro Rita Skeeter? Harry Potter non li aveva avvisati della cosa\SpecialChar ldots
 
  il che certamente significava che Harry non lo sapeva.
- Non li avrebbe mai coinvolti, se l'avesse saputo\SpecialChar \ldots{}
+ Non li avrebbe mai coinvolti, se l'avesse saputo\SpecialChar ldots
 
 \end_layout
 
@@ -1177,22 +1239,22 @@ bisogno
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Flume
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred pacatamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-il Ragazzo-Che-È-Sopravvissuto ha bisogno del suo aiuto
-\begin_inset Quotes frd
+il Ragazzo-Che-È-Sopravvissuto ha bisogno del suo aiuto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1204,19 +1266,19 @@ Poi si lasciò sfuggire un sospiro.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Flume, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 cosa volete?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1247,32 +1309,32 @@ Quando Rita Skeeter era concentrata su di una preda succulenta, non tendeva
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Skeeter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo, sembrando piuttosto severo e freddo per qualcuno il cui
  volto era così giovane.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Che coincidenza incontrarla qui
-\begin_inset Quotes frd
+Che coincidenza incontrarla qui.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si faccia da parte, bellimbusto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sbottò Rita, e cercò di aggirarlo.
@@ -1287,37 +1349,37 @@ L'uomo sul suo cammino rispecchiò il movimento così perfettamente che fu
 \begin_layout Standard
 Gli occhi di Rita si socchiusero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi pensa di essere?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Davvero insensato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , l'uomo disse seccamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sarebbe stato saggio memorizzare il volto del Mangiamorte travestito che
  sta addestrando Harry Potter per essere il prossimo Signore Oscuro.
  Del resto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , un sorriso sottile, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1325,11 +1387,11 @@ Sarebbe stato saggio memorizzare il volto del Mangiamorte travestito che
 quello
 \emph default
  sembra davvero qualcuno in cui non vorrebbe imbattersi per strada, specie
- dopo averlo attaccato malevolmente sul giornale
-\begin_inset Quotes frd
+ dopo averlo attaccato malevolmente sul giornale.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1359,11 +1421,11 @@ No, quello non era importante, doveva essere in un certo luogo in un certo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si faccia da parte!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Rita, e cercò di allontanare Quirrell dalla sua strada.
@@ -1375,20 +1437,20 @@ Si faccia da parte!
 Quirrell sollevò la manica sinistra della sua veste, mostrando il braccio
  sinistro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Osservi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 nessun Marchio Oscuro.
  Vorrei che il suo giornale pubblicasse una ritrattazione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1399,15 +1461,15 @@ Rita si fece scappare una risata di incredulità.
  Ovviamente quell'uomo non era un vero Mangiamorte.
  Il giornale non l'avrebbe pubblicato se lo fosse stato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se lo scordi, bellimbusto.
- Ora vada a farsi un giro
-\begin_inset Quotes frd
+ Ora vada a farsi un giro.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1419,33 +1481,33 @@ Poi sorrise.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Skeeter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 avevo sperato di trovare una qualche leva che si sarebbe dimostrata convincente.
- Eppure scopro che non posso negarmi semplicemente il piacere di distruggerla
-\begin_inset Quotes frd
+ Eppure scopro che non posso negarmi semplicemente il piacere di distruggerla.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci hanno provato.
  Ora si faccia da parte, bellimbusto, o troverò qualche Auror e la farò
  arrestare per ostruzione a giornalismo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1454,11 +1516,11 @@ Ci hanno provato.
 \begin_layout Standard
 Quirrell le rivolse un piccolo in chino, e poi le passò oltre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Arrivederci, Rita Skeeter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce da dietro di lei.
@@ -1495,23 +1557,23 @@ Atto 4
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace, non contare su di me
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lee Jordan.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Sono più il tipo del ragno gigante
-\begin_inset Quotes frd
+Sono più il tipo del ragno gigante.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1540,8 +1602,8 @@ surreali
  appoggiati sulle porte.
  (Fred e George si scambiarono occhiate d'interesse, a quello non avevano
  mai pensato.) Harry Potter aveva invocato l'immagine dello scherzo che avevano
- tirato a Neville -- sulla base del quale, Harry aveva menzionato con qualche
- rimorso, il Cappello Smistatore l'aveva strapazzato -- ma che doveva aver
+ tirato a Neville – sulla base del quale, Harry aveva menzionato con qualche
+ rimorso, il Cappello Smistatore l'aveva strapazzato – ma che doveva aver
  fatto 
 \emph on
 dubitare
@@ -1571,7 +1633,7 @@ Siete con me?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Conta su di 
@@ -1579,7 +1641,7 @@ Conta su di
 noi
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred, o forse George, poiché era indubbio che Godric Grifondoro
@@ -1617,7 +1679,7 @@ stesse parole di Dumbledore, qui sopra
 \end_inset
 
 .
- Fortunatamente questo non sembrava più necessario -- sebbene non fossero
+ Fortunatamente questo non sembrava più necessario – sebbene non fossero
  
 \emph on
 completamente
@@ -1626,39 +1688,39 @@ completamente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse uno dei gemelli, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 di che si tratta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Rita Skeeter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sapete chi è?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1669,11 +1731,11 @@ Fred e George annuirono, accigliati.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sta facendo domande su di me.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1684,11 +1746,11 @@ Non era una buona notizia.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potete indovinare cosa voglio che facciate?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1697,27 +1759,27 @@ Potete indovinare cosa voglio che facciate?
 \begin_layout Standard
 Fred e George si guardarono l'un l'altro, un po' perplessi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vuoi che le rifiliamo qualcuna delle nostre caramelle più interessanti?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, no, 
@@ -1733,7 +1795,7 @@ voi
 voi?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1748,18 +1810,18 @@ Ampi sorrisi nacquero lentamente sui volti di Fred e George.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Inventeremmo voci su noi stessi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , risposero.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1767,12 +1829,12 @@ Inventeremmo voci su noi stessi
 Esattamente
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, con un ampio sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma non possono essere voci 
@@ -1798,30 +1860,30 @@ sappiano
 dopo
 \emph default
  far uscire la prova che era falsa.
- E naturalmente -- dato che questi sono i requisiti -- la storia deve essere
+ E naturalmente – dato che questi sono i requisiti – la storia deve essere
  la più 
 \emph on
 ridicola
 \emph default
  possibile, ed essere comunque pubblicata.
  Capite cosa voglio che facciate?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non proprio…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Fred o George disse lentamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vuoi che 
@@ -1829,14 +1891,14 @@ Vuoi che
 inventiamo
 \emph default
  la storia?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio che facciate 
@@ -1844,21 +1906,21 @@ Voglio che facciate
 tutto
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono alquanto occupato ora, e poi voglio poter dire sinceramente che non
  avevo idea di cosa sarebbe successo.
- Sorprendetemi
-\begin_inset Quotes frd
+ Sorprendetemi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1868,31 +1930,31 @@ Per un attimo vi fu un sorriso maligno sui volti di Fred e George.
 \begin_layout Standard
 Poi tornarono seri.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma Harry, non sappiamo davvero come fare nulla di tutto questo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora scopritelo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho fiducia in voi.
@@ -1913,19 +1975,19 @@ potete
 ditemelo
 \emph default
 , e proverò con qualcun altro, o lo farò io stesso.
- Se avete un'idea davvero buona -- sia sulla storia ridicola, sia su come
- convincere Rita Skeeter e i suoi redattori a pubblicarla -- allora potete
+ Se avete un'idea davvero buona – sia sulla storia ridicola, sia su come
+ convincere Rita Skeeter e i suoi redattori a pubblicarla – allora potete
  procedere a realizzarla.
  Ma non scegliete qualcosa di mediocre.
  Se non riuscite a trovare qualcosa di 
 \emph on
 fantastico
 \emph default
-, ditelo
-\begin_inset Quotes frd
+, ditelo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1933,34 +1995,34 @@ Fred e George si scambiarono occhiate preoccupate.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non riesco a pensare a niente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Neppure io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi dispiace
-\begin_inset Quotes frd
+Mi dispiace.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2025,15 +2087,15 @@ Un
 \emph default
  insieme di gruppi di risoluzione dei problemi aveva ricevuto l'istruzione
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non proporre soluzioni finché il problema non è stato discusso il più profondame
-nte possibile senza suggerirne alcuna
-\begin_inset Quotes frd
+nte possibile senza suggerirne alcuna.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2103,11 +2165,11 @@ decenni
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualche domanda?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
@@ -2118,22 +2180,22 @@ Fred e George si guardarono l'un l'altro.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non riesco a pensare a niente.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Neppure io.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2142,14 +2204,14 @@ Neppure io.
 \begin_layout Standard
 Harry tossì gentilmente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non avete chiesto il vostro tetto di spesa
-\begin_inset Quotes frd
+Non avete chiesto il vostro tetto di spesa.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2161,16 +2223,16 @@ Tetto di spesa?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrei dirvi l'ammontare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma penso che 
@@ -2181,11 +2243,11 @@ questo
 \emph on
 motivante
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2193,7 +2255,7 @@ Le mani di Harry andarono sotto le sue vesti, e tirarono fuori
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2201,18 +2263,18 @@ Fred e George quasi caddero, sebbene fossero già seduti per terra.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non spendetelo tanto per spenderlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Sul pavimento in pietra di fronte a loro, luccicava una somma di denaro
  assolutamente ridicola.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spendetelo solo se l'idea fantastica lo richiede; e ciò che l'idea fantastica
@@ -2224,15 +2286,15 @@ Spendetelo solo se l'idea fantastica lo richiede; e ciò che l'idea fantastica
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2240,16 +2302,16 @@ Spendetelo solo se l'idea fantastica lo richiede; e ciò che l'idea fantastica
 Non possiamo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  esplose uno dei gemelli.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non accettiamo denaro per queste cose!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2258,15 +2320,15 @@ Non accettiamo denaro per queste cose!
 \begin_layout Standard
 (I gemelli non prendevano denaro per fare cose illegali.
  Senza che Ambrosius Flume lo sapesse, rivendevano tutta la sua merce con
- margine zero, Fred e George volevano essere in grado di testimoniare --
- sotto Veritaserum se necessario -- che non erano sciacalli criminali, ma
+ margine zero, Fred e George volevano essere in grado di testimoniare –
+ sotto Veritaserum se necessario – che non erano sciacalli criminali, ma
  solo fornitori di un servizio pubblico.)
 \end_layout
 
 \begin_layout Standard
 Harry li guardò corrucciato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma vi sto chiedendo metterci un vero impegno in questa cosa.
@@ -2275,11 +2337,11 @@ Ma vi sto chiedendo metterci un vero impegno in questa cosa.
 ancora
 \emph default
  come un favore a un amico.
- Non posso semplicemente assoldare qualcuno per questo genere di cose
-\begin_inset Quotes frd
+ Non posso semplicemente assoldare qualcuno per questo genere di cose.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2287,16 +2349,16 @@ Fred e George scossero le loro teste.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vi farò dei costosi regali di Natale, e se proverete a restituirmeli li
@@ -2319,11 +2381,11 @@ questo
 \emph on
 non riuscite a pensare a niente di fantastico
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2333,27 +2395,27 @@ Harry si alzò, sorridendo, e si girò per andarsene mentre Fred e George
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, un'ultima cosa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tenete fuori il professore Quirrell da qualunque cosa facciate.
  Non gli piace la pubblicità.
  So che sarebbe più facile convincere la gente a credere a cose strane riguardo
  al Professore di Difesa che a chiunque altro, e mi dispiace esservi d'intralcio
-, ma per favore, tenetene fuori il professore Quirrell
-\begin_inset Quotes frd
+, ma per favore, tenetene fuori il professore Quirrell.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2361,19 +2423,19 @@ E Harry si girò di nuovo e fece qualche passo in più
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Guardò indietro un'ultima volta, e disse, piano, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Grazie
-\begin_inset Quotes frd
+Grazie.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2385,120 +2447,120 @@ Ci fu una lunga pausa dopo che se ne fu andato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse uno.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'altro.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Al Professore di Difesa non piace la pubblicità, no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry non ci conosce molto bene, no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, non ci conosce.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma non useremo il suo denaro per quello, naturalmente.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Naturalmente no, non sarebbe giusto.
  Ci occuperemo del Professore di Difesa separatamente.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Convinceremo qualcuno a Grifondoro a scrivere a Skeeter, e dire…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 … che la sua manica si è sollevata una volta a lezione di Difesa e che ha
  visto il Marchio Oscuro…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 … e che sta probabilmente insegnando a Harry Potter ogni genere di cose
  spaventose…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 … e che è il peggior Professore di Difesa che chiunque ricordi persino a
@@ -2508,64 +2570,64 @@ mancando
 \emph default
  di insegnarci, sta sbagliando tutto, l'esatto contrario di come dovrebbe
  essere…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 … come quando ha affermato che puoi lanciare la Maledizione Mortale solo
  usando l'amore, cosa che la rende piuttosto inutile.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi piace questa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scommetto che piacerà anche al Professore di Difesa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In effetti ha il senso dell'umorismo.
  Non ci avrebbe chiamati come ha fatto se non avesse il senso dell'umorismo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2582,23 +2644,23 @@ Come li ha chiamati?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma saremo davvero in grado di portare a termine il lavoro di Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry ha detto di discutere il problema prima di provare a risolverlo, quindi
  facciamolo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2610,44 +2672,44 @@ I gemelli Weasley decisero che George sarebbe stato quello entusiasta mentre
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sembra tutto contraddittorio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vuole che sia abbastanza ridicolo che tutti ridano di Skeeter e sappiano
  che è falso, e vuole che Skeeter ci creda.
- Non possiamo fare entrambe le cose allo stesso tempo
-\begin_inset Quotes frd
+ Non possiamo fare entrambe le cose allo stesso tempo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovremo falsificare delle prove per convincere Skeeter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quella era una soluzione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Fred.
@@ -2658,15 +2720,15 @@ Valutarono la cosa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma io non penso che dovremmo essere 
@@ -2674,7 +2736,7 @@ ma io non penso che dovremmo essere
 così
 \emph default
  fiscali a riguardo, e tu?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2685,43 +2747,43 @@ I gemelli scrollarono le spalle impotenti.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi le prove false devono essere abbastanza buone da convincere Skeeter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Possiamo farlo davvero da soli?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non dobbiamo farlo da soli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George, e indicò il mucchio di denaro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Possiamo pagare altre persone per aiutarci
-\begin_inset Quotes frd
+Possiamo pagare altre persone per aiutarci.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2729,53 +2791,53 @@ I gemelli misero su un'espressione pensierosa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo potrebbe consumare il denaro di Harry molto velocemente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-È molto denaro per noi, ma non è molto denaro per qualcuno come Flume
-\begin_inset Quotes frd
+È molto denaro per noi, ma non è molto denaro per qualcuno come Flume.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse la gente ci farà uno sconto se sa che è per Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma la cosa più importante è che, qualunque cosa facciamo, deve essere 
 \emph on
 impossibile
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Fred sbatté le palpebre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa intendi con 
@@ -2783,14 +2845,14 @@ Cosa intendi con
 impossibile?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Così impossibile che non ci ficchiamo nei guai, perché nessuno crederebbe
@@ -2801,29 +2863,29 @@ Così impossibile che non ci ficchiamo nei guai, perché nessuno crederebbe
 \emph on
 migliore di Harry
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Gli occhi di Fred erano spalancati per lo stupore.
  Questo accadeva qualche volta, tra di loro, ma non spesso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma perché?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Erano scherzi.
@@ -2855,25 +2917,25 @@ Snape
 Noi 
 \emph default
 siamo i migliori burloni di Hogwarts, ci arrenderemo senza neppure lottare?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È il Ragazzo-Che-È-Sopravvissuto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E 
@@ -2891,18 +2953,18 @@ sfidando
 lui
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha ragione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Fred, sentendosi piuttosto nervoso.
@@ -2914,7 +2976,7 @@ talvolta
  che accadeva sembrava innaturale, come se almeno uno di loro due stesse
  facendo qualcosa di sbagliato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stiamo parlando di 
@@ -2923,58 +2985,58 @@ Harry Potter
 \emph default
 .
  Può fare l'impossibile.
- Noi no
-\begin_inset Quotes frd
+ Noi no.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si, possiamo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E dobbiamo essere ancora 
 \emph on
 più
 \emph default
- impossibili di lui
-\begin_inset Quotes frd
+ impossibili di lui.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse Fred.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È quello che farebbe Godric Grifondoro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse George.
@@ -2986,26 +3048,26 @@ E quello risolse la questione, e i due gemelli tornarono a… qualunque cosa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene, allora
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
--- pensiamoci.
-\begin_inset Quotes frd
+– pensiamoci.
+\begin_inset Quotes crd
 \end_inset
 
 
