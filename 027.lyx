@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -70,6 +70,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -99,6 +101,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -113,7 +116,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -142,7 +148,7 @@ Non era un giorno qualunque, quello in cui vedevi Harry Potter supplicare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -150,7 +156,7 @@ Non era un giorno qualunque, quello in cui vedevi Harry Potter supplicare.
 Per favooore
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , gemette Harry Potter.
@@ -163,7 +169,7 @@ Fred e George scossero ancora le teste, sorridendo.
 \begin_layout Standard
 C'era un'espressione di agonia sul volto di Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma io vi ho 
@@ -176,7 +182,7 @@ detto
 sono autorizzato
 \emph default
  a dirvi del Cappello Smistatore o della Rimodella o del professor Snape…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -187,26 +193,26 @@ Fred e George scossero le spalle e si girarono per andarsene.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se dovessi mai capirlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dissero i gemelli Weasley, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-assicurati di farcelo sapere
-\begin_inset Quotes frd
+assicurati di farcelo sapere.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -214,7 +220,7 @@ assicurati di farcelo sapere
 Siete cattivi! Siete entrambi cattivi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -231,7 +237,7 @@ Poi svoltarono un angolo e i loro visi si afflosciarono.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non credo che le ipotesi di Harry
@@ -239,18 +245,18 @@ Non credo che le ipotesi di Harry
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 – ti abbiano dato alcuna idea, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  si chiesero contemporaneamente a vicenda, e poi le loro spalle si afflosciarono
@@ -402,11 +408,11 @@ incredibile
 \emph default
  qualità.
  I gemelli Weasley avevano provato i loro nuovi monocoli sul corridoio 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 proibito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  del terzo piano, facendo una rapida escursione fino allo specchio magico
@@ -470,11 +476,11 @@ Harry era in una stanza bianca, senza finestre, senza tratti distintivi,
 \begin_layout Standard
 La stanza era schermata contro le intercettazioni, e l'uomo aveva lanciato
  esattamente ventisette incantesimi prima di dire persino 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Salve, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -486,11 +492,11 @@ Era stranamente appropriato che l'uomo in nero stesse per cercare di leggere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si prepari
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo senza tono.
@@ -746,11 +752,11 @@ Dire che Kimball Kinnison era certo del risultato sarebbe stato un eufemismo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono pronto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Kimball Kinnison con una sfumatura di nervosismo che era assolutamente
@@ -758,7 +764,7 @@ Sono pronto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -766,7 +772,7 @@ Sono pronto
 Legilimens
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il mago dalle vesti nere.
@@ -784,7 +790,7 @@ sue
 \emph default
  palpebre ne erano state mosse.
  La sua voce non era altrettanto priva di tono quando disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Ragazzo-Che-È-Sopravvissuto ha un 
@@ -792,7 +798,7 @@ Il Ragazzo-Che-È-Sopravvissuto ha un
 misterioso lato oscuro?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -803,17 +809,17 @@ La vampa salì lentamente su per le guance di Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo.
  Il suo volto era ora perfettamente rilassato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi scusi, signor Potter, è un bene che lei conosca i suoi pregi, ma questo
@@ -836,14 +842,14 @@ Harry scosse la testa, mentre arrossiva violentemente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora faccia più attenzione la prossima volta.
  Lo scopo non è creare un'immagine perfetta il suo primo giorno di lezione.
  Lo scopo è imparare dove siano le sue superfici.
  Si prepari.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -866,7 +872,7 @@ Harry strinse i denti.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -874,7 +880,7 @@ Harry strinse i denti.
 Legilimens.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -930,11 +936,11 @@ Era la loro quarta giornata, una domenica sera.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Salve, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse in modo inespressivo il telepate, dopo aver lanciato l'intera serie
@@ -942,57 +948,56 @@ Salve, signor Potter
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Salve, signor Bester
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse stancamente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Togliamoci subito di mezzo lo shock iniziale, le va?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È riuscito a sorprendermi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse l'uomo, sembrando ora alquanto interessato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Bene, allora
-\begin_inset Quotes frd
+Bene, allora.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Puntò la sua bacchetta e fissò gli occhi di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
 Legilimens
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1001,7 +1006,7 @@ Ci fu una pausa, e poi il mago dalle vesti nere sobbalzò come se qualcuno
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Signore Oscuro è 
@@ -1009,13 +1014,13 @@ Il Signore Oscuro è
 vivo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse con la voce strozzata.
  I suoi occhi divennero improvvisamente feroci.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1024,7 +1029,7 @@ Dumbledore si rende invisibile e si intrufola nelle stanze del dormitorio
  delle ragazze?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1036,66 +1041,66 @@ Harry sospirò e guardò in basso verso il proprio orologio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo.
  Non aveva ancora completamente riassunto l'assenza di espressione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei crede sinceramente che scoprirà le regole segrete della magia e diventerà
- onnipotente
-\begin_inset Quotes frd
+ onnipotente.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Già
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry pacatamente, ancora guardando l'orologio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono 
 \emph on
 così
 \emph default
- presuntuoso
-\begin_inset Quotes frd
+ presuntuoso.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chissà.
  Sembra che il Cappello Smistatore pensi che lei sarà il prossimo Signore
  Oscuro.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E 
@@ -1109,43 +1114,42 @@ non
  diventarlo, e ha visto che abbiamo già avuto una lunga discussione sulla
  sua volontà o meno di insegnarmi Occlumanzia, e alla fine ha deciso di
  farlo, quindi possiamo semplicemente iniziare?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo esattamente sei secondi dopo, come l'ultima volta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Si prepari
-\begin_inset Quotes frd
+Si prepari.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Fece una pausa, e poi disse, la sua voce piuttosto assorta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sebbene 
 \emph on
 vorrei
 \emph default
- poter ricordare quel trucco con l'oro e l'argento
-\begin_inset Quotes frd
+ poter ricordare quel trucco con l'oro e l'argento.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1154,10 +1158,6 @@ Harry si stava scoprendo molto turbato da quanto fossero riproducibili i
  e le esponevi agli stessi stimoli.
  Scacciava illusioni che un buon riduzionista non avrebbe dovuto avere,
  tanto per cominciare.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -1312,11 +1312,11 @@ l'intero anno
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovremmo ucciderli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry a Hermione, che stava camminando al suo fianco con un'aria
@@ -1324,23 +1324,23 @@ Dovremmo ucciderli
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi? La squadra di Quidditch?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stavo pensando a chiunque sia coinvolto in qualunque modo col Quidditch
  in qualunque luogo, ma la squadra di Corvonero sarebbe un inizio, sì.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1349,7 +1349,7 @@ Stavo pensando a chiunque sia coinvolto in qualunque modo col Quidditch
 \begin_layout Standard
 Le labbra di Hermione si contrassero con disapprovazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu 
@@ -1357,55 +1357,55 @@ Tu
 sai
 \emph default
  che uccidere le persone è sbagliato, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene, stavo solo controllando.
  Iniziamo dal Cacciatore.
  Ho letto alcuni gialli di Agatha Christie, sai come possiamo metterla su
  un treno?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Due studenti che organizzano un omicidio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse una voce asciutta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Molto sconcertante
-\begin_inset Quotes frd
+Molto sconcertante.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1429,38 +1429,38 @@ lui
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Corri, Harry!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-I ragazzi non dovrebbero correre pericoli
-\begin_inset Quotes frd
+I ragazzi non dovrebbero correre pericoli.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Severus Snape sorrise mestamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Divertente.
- Le chiedo un momento del suo tempo, Potter, se può strapparsi dai suoi
- amoreggiamenti con la signorina Granger
-\begin_inset Quotes frd
+ Le chiedo un momento del suo tempo, Potter, se può scollarsi dai suoi amoreggia
+menti con la signorina Granger.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1470,63 +1470,62 @@ Improvvisamente vi fu un'espressione di grande preoccupazione sul volto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, non si preoccupi, signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce serica di Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Le prometto di restituirle il suo spasimante senza mutilazioni
-\begin_inset Quotes frd
+Le prometto di restituirle il suo spasimante senza mutilazioni.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il suo sorriso svanì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ora Potter e io stiamo per allontanarci per avere una conversazione privata,
  solo noi due.
  Spero che sia chiaro che lei non è invitata, ma giusto per precauzione,
  lo consideri un ordine di un professore di Hogwarts.
- Sono certo che una brava ragazzina come lei non disobbedirebbe
-\begin_inset Quotes frd
+ Sono certo che una brava ragazzina come lei non disobbedirebbe.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 E Severus si girò e ritornò dietro l'angolo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Viene, Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la sua voce.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry a Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Posso semplicemente andarmene e seguirlo e lasciare 
@@ -1535,18 +1534,18 @@ a te
 \emph default
  il compito di capire cosa dovrei dire per essere certo che tu non sia preoccupa
 ta e offesa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, la sua voce che tremava.
@@ -1559,26 +1558,22 @@ La risata di Severus echeggiò da dietro l'angolo.
 \begin_layout Standard
 Harry chinò la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse lentamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 davvero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e se ne andò per raggiungere il Maestro di Pozioni.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -1607,11 +1602,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dunque
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -1622,37 +1617,37 @@ Dunque
  misura in cui Harry poteva applicare il concetto di direzionalità a Hogwarts,
  si stavano allontanando dalle aree frequentate.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Di che si tratta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non credo che lei possa spiegare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus seccamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-perché voi due stavate progettando di uccidere Cho Chang
-\begin_inset Quotes frd
+perché voi due stavate progettando di uccidere Cho Chang.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non credo che 
@@ -1660,26 +1655,26 @@ Non credo che
 lei
 \emph default
  possa spiegare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry seccamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 in qualità di ufficiale del sistema scolastico di Hogwarts, perché catturare
  una zanzara dorata sia considerato un risultato accademico meritevole di
- centocinquanta punti-Casa
-\begin_inset Quotes frd
+ centocinquanta punti-Casa.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Un sorriso attraversò le labbra di Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Povero me, e io che pensavo che lei dovesse essere perspicace.
@@ -1688,11 +1683,11 @@ Povero me, e io che pensavo che lei dovesse essere perspicace.
  non contassero per la Coppa delle Case allora nessuno di loro sarebbe affatto
  interessato ai punti-Casa.
  Sarebbe semplicemente una oscura competizione per studenti come lei e la
- signorina Granger
-\begin_inset Quotes frd
+ signorina Granger.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1775,11 +1770,11 @@ Preside della Casa Serpeverde
 \begin_layout Standard
 Dumbledore era sembrato pensare che Severus gli appartenesse, e non c'era
  stato nulla che lo contraddicesse; il Maestro di Pozioni era stato 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 spaventoso ma non abusivo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , come promesso.
@@ -1796,28 +1791,28 @@ Harry si morse quietamente il labbro.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una volta conoscevo un ragazzo che adorava veramente il Quidditch
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Era un completo idiota.
- Proprio come lei e io ci aspetteremmo, entrambi
-\begin_inset Quotes frd
+ Proprio come lei e io ci aspetteremmo, entrambi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cos'
@@ -1825,18 +1820,18 @@ Cos'
 è 
 \emph default
 questo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese lentamente Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pazienza, Potter.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1863,7 +1858,7 @@ Svoltarono e poi svoltarono ancora, e giunsero ad un vicolo cieco, un semplice
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1871,7 +1866,7 @@ Svoltarono e poi svoltarono ancora, e giunsero ad un vicolo cieco, un semplice
 Quietus
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, come pure qualche altra cosa.
@@ -1883,29 +1878,28 @@ Harry si appoggiò al muro, braccia conserte sul petto, e osservò il volto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi sta fissando negli occhi, Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Severus Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le sue lezioni di Occlumanzia non possono essere progredite così tanto da
  permetterle di bloccare la Legilimanzia.
  Ma forse sono progredite abbastanza da permetterle di rilevarla.
- Poiché non posso saperlo, non rischierò di farlo
-\begin_inset Quotes frd
+ Poiché non posso saperlo, non rischierò di farlo.
+\begin_inset Quotes crd
 \end_inset
 
-.
  L'uomo accennò un sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E lo stesso varrà per Dumbledore, credo.
@@ -1914,11 +1908,11 @@ E lo stesso varrà per Dumbledore, credo.
 \emph on
 ora
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1926,15 +1920,15 @@ Gli occhi di Harry si spalancarono involontariamente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tanto per cominciare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, gli occhi che gli brillavano, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 vorrei chiederle di promettere di non parlare della nostra conversazione
@@ -1947,11 +1941,11 @@ nessuno
  Che ci credano o meno, è insignificante.
  Per quanto concerne Dumbledore e McGonagall, sto infrangendo la fiducia
  che Draco ripone in me, e nessuno di noi due ritiene appropriato discuterne
- ulteriormente i particolari
-\begin_inset Quotes frd
+ ulteriormente i particolari.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1960,22 +1954,22 @@ Il cervello di Harry tentò di calcolare le ramificazioni e le implicazioni
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ebbene?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il Maestro di Pozioni.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry lentamente.
@@ -1990,55 +1984,55 @@ comunque
 \emph default
  potuto riferirne a nessuno i contenuti.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Prometto
-\begin_inset Quotes frd
+Prometto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Severus stava attentamente osservando Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una volta ha detto nell'ufficio del Preside che non avrebbe tollerato il
  bullismo o l'abuso.
  E così mi sono chiesto, Harry Potter.
  Esattamente quanto assomiglia a suo padre?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A meno che non stiamo parlando di Michael Verres-Evans
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-la risposta è che so molto poco di James Potter
-\begin_inset Quotes frd
+la risposta è che so molto poco di James Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Severus annuì, come rivolto a sé stesso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è un Serpeverde del quinto anno.
@@ -2052,11 +2046,11 @@ Lei
  potrebbe aiutarlo, forse.
  Se lo desiderasse.
  Non le sto chiedendo un favore, e non gliene dovrò restituire uno.
- È solo una possibilità di fare ciò che desidera
-\begin_inset Quotes frd
+ È solo una possibilità di fare ciò che desidera.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2064,16 +2058,16 @@ Harry stava fissando Severus, pensando.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si chiede se sia una trappola?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Severus, un accenno di sorriso che gli attraversò le labbra.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo è.
@@ -2083,11 +2077,11 @@ Non lo è.
 \emph default
  una prova.
  La chiami curiosità da parte mia.
- Ma i problemi di Lesath sono reali, come la mia difficoltà a intervenire
-\begin_inset Quotes frd
+ Ma i problemi di Lesath sono reali, come la mia difficoltà a intervenire.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2104,21 +2098,21 @@ E se, per di più, anche suo padre aveva protetto gli studenti dai prepotenti…
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi parli di Lesath.
  Perché è oggetto di bullismo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2127,7 +2121,7 @@ Mi parli di Lesath.
 \begin_layout Standard
 Il volto si Severus perse l'accenno di sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensa che vi siano delle 
@@ -2135,43 +2129,43 @@ Pensa che vi siano delle
 ragioni
 \emph default
 , Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse no
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma mi è venuto in mente che potrebbe aver spinto un'insignificante ragazza
- sanguemarcio giù per le scale
-\begin_inset Quotes frd
+ sanguemarcio giù per le scale.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lesath Lestrange
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, la sua voce ora gelida, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è il figlio di Bellatrix Black, la più fanatica e malvagia servitrice del
@@ -2182,42 +2176,33 @@ Lesath Lestrange
  Longbottom.
  Tutti e tre scontano l'ergastolo ad Azkaban.
  I Longbottom furono resi folli dai ripetuti Cruciatus e sono nel reparto
- degli incurabili di 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-St.
-\backslash
- Mungo's
-\end_layout
-
+ degli incurabili di St.
+\begin_inset space \thinspace{}
 \end_inset
 
-.
+Mungo's.
  Qualcuna di queste è una buona ragione per perseguitarlo, Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è per niente una ragione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, ancora pacatamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E Lesath stesso non ha fatto nulla di male, che lei sappia?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2226,24 +2211,24 @@ E Lesath stesso non ha fatto nulla di male, che lei sappia?
 \begin_layout Standard
 L'accenno di sorriso attraversò nuovamente le labbra di Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è più santo di chiunque altro.
  Ma non ha spinto alcuna ragazza sanguemarcio giù per le scale, non che
- io abbia mai saputo
-\begin_inset Quotes frd
+ io abbia mai saputo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 O visto nella sua mente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -2252,16 +2237,16 @@ O visto nella sua mente
 \begin_layout Standard
 L'espressione di Severus fu gelida.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ho invaso la sua riservatezza, Potter.
  Ho guardato dentro i Grifondoro, piuttosto.
- È semplicemente un bersaglio conveniente per le loro piccole soddisfazioni
-\begin_inset Quotes frd
+ È semplicemente un bersaglio conveniente per le loro piccole soddisfazioni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2271,31 +2256,31 @@ Una gelida scossa di rabbia corse giù per la schiena di Harry, e dovette
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E lei pensa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che l'intervento di Harry Potter, il Ragazzo-Che-È-Sopravvissuto, potrebbe
- essere efficace
-\begin_inset Quotes frd
+ essere efficace.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Infatti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus Snape, e disse a Harry quando e dove i Grifondoro progettavano
@@ -2362,7 +2347,7 @@ Quattro ragazzi con vesti bordate di rosso stanno ridendo, e un ragazzo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2370,7 +2355,7 @@ Quattro ragazzi con vesti bordate di rosso stanno ridendo, e un ragazzo
 Cosa state facendo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  dice la voce di un sesto ragazzo.
@@ -2383,16 +2368,16 @@ I quattro ragazzi dalle vesti bordate di rosso si girano di scatto, e il
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dice il più bello dei ragazzi con le vesti bordate di rosso, sembrando
  sollevato, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sei 
@@ -2401,7 +2386,7 @@ tu
 \emph default
 .
  Hey, Lessy, sai chi è questo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2418,7 +2403,7 @@ Non c'è alcuna risposta dal ragazzo sul pavimento, che sta cercando di smettere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2426,7 +2411,7 @@ Non c'è alcuna risposta dal ragazzo sul pavimento, che sta cercando di smettere
 Smettila!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  grida il sesto ragazzo.
@@ -2435,15 +2420,15 @@ Smettila!
 \begin_layout Standard
 Il ragazzo con le vesti bordate di rosso barcolla mentre interrompe il calcio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dice, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e 
@@ -2451,7 +2436,7 @@ e
 tu
 \emph default
  sai chi è questo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2460,27 +2445,23 @@ tu
 \begin_layout Standard
 Il respiro del sesto ragazzo sembra strano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lesath Lestrange
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dice, il respiro rotto in brevi ansimi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e 
 \emph on
 lui
 \emph default
- non ha fatto nulla ai miei genitori, aveva cinque anni
-\begin_inset Quotes frd
-\end_inset
-
-.
-\begin_inset Separator latexpar
+ non ha fatto nulla ai miei genitori, aveva cinque anni.
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2521,7 +2502,7 @@ Avrebbe dovuto semplicemente dire di no a Harry Potter.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché 
@@ -2529,13 +2510,13 @@ Perché
 tu
 \emph default
  lo stai difendendo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse quello bello, lentamente, sembrando perplesso con appena un accenno
  di offesa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È un 
@@ -2547,31 +2528,30 @@ Serpeverde
 \emph on
 Lestrange
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È un ragazzo che ha perso i suoi genitori
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville Longbottom.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-So cosa significa
-\begin_inset Quotes frd
+So cosa significa.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Non sapeva da dove fossero venute le parole.
  Sembrava troppo forte, come qualcosa che Harry Potter avrebbe detto.
 \end_layout
@@ -2581,7 +2561,7 @@ Il tremito continuò, però.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2593,7 +2573,7 @@ Chi
 tu?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse quello bello, iniziando a sembrare arrabbiato.
@@ -2616,7 +2596,7 @@ Neville non poté dirlo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Credo che sia un 
@@ -2624,7 +2604,7 @@ Credo che sia un
 traditore
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse uno degli altri Grifondoro, e vi fu un improvvisa sensazione cedimento
@@ -2643,23 +2623,23 @@ Quello bello fece un passo avanti, e gli altri tre lo seguirono.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi è questo che vi interessa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville, sorpreso di quanto salda fosse la sua voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non vi importa se sia Lesath Lestrange o Neville Longbottom
-\begin_inset Quotes frd
+Non vi importa se sia Lesath Lestrange o Neville Longbottom.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2668,22 +2648,22 @@ Lesath Lestrange si fece scappare un rantolo improvviso, da dove stava giacendo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il male è male
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ringhiò lo stesso ragazzo che aveva parlato prima, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-e se sei amico del male, anche tu sei male
-\begin_inset Quotes frd
+e se sei amico del male, anche tu sei male.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2698,48 +2678,48 @@ Lesath si alzò, traballante, in piedi.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Amici
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville.
  Ora la sua voce si stava alzando un po' di tono.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, ho degli amici.
- Uno di loro è il Ragazzo-Che-È-Sopravvissuto
-\begin_inset Quotes frd
+ Uno di loro è il Ragazzo-Che-È-Sopravvissuto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Un paio di Grifondoro sembrarono improvvisamente preoccupati.
  Quello bello non batté ciglio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry Potter non è qui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, la sua voce dura, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e se lo fosse, non credo che gli piacerebbe vedere un Longbottom che difende
- un Lestrange
-\begin_inset Quotes frd
+ un Lestrange.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2771,7 +2751,7 @@ La sua voce venne fuori sorprendentemente chiara, tutto sommato.
  Harry James Potter-Evans-Verres.
  Per il debito che hai con me e il potere del tuo vero nome ti invoco, apro
  la via per te, ti chiamo a manifestarti davanti a me.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2798,25 +2778,25 @@ Quello bello iniziò a ridacchiare, e questo diede il via agli altri tre.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry Potter sarebbe dovuto comparire da dietro l'angolo o qualcosa del
  genere?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse quello bello.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh.
- Pare che ti abbia rifilato un bidone
-\begin_inset Quotes frd
+ Pare che ti abbia rifilato un bidone.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2828,11 +2808,11 @@ Gli altri tre seguirono a ranghi serrati.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ahem
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter da dietro di loro, appoggiato alla parete vicino alla
@@ -2851,16 +2831,16 @@ Harry Potter si fece avanti di scatto, mettendosi tra Lesath Lestrange e
  Osservò col suo guardo glaciale i ragazzi con le vesti bordate di rosso,
  e infine i suoi occhi si posarono su quello bello, il capobanda.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Carl Sloper
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Credo di aver compreso questa situazione in pieno.
@@ -2875,11 +2855,11 @@ lei
 \emph default
 .
  Se su questa circostanza sono male informato, signor Sloper, le suggerisco
- di correggermi immediatamente
-\begin_inset Quotes frd
+ di correggermi immediatamente.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2893,7 +2873,7 @@ affermato
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma è un 
@@ -2901,14 +2881,14 @@ Ma è un
 Lestrange
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il capobanda.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È un ragazzo che 
@@ -2916,7 +2896,7 @@ Lestrange
 ha perso i suoi genitori
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, la sua voce che divenne ancor più gelida.
@@ -2927,16 +2907,16 @@ Questa volta tutti e tre gli altri Grifondoro trasalirono.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avete visto che Neville non voleva che tormentaste un ragazzo innocente
@@ -2948,7 +2928,7 @@ anche
 \emph default
  il Ragazzo-Che-È-Sopravvissuto pensa che stiate sbagliando, che quello
  che avete fatto oggi è stato un terribile errore, farebbe qualche differenza?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2967,31 +2947,31 @@ non
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Carl
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse uno di loro, deglutendo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse dovremmo andare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dicono che sarai il prossimo Signore Oscuro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il capobanda, fissando Harry.
@@ -3000,18 +2980,17 @@ Dicono che sarai il prossimo Signore Oscuro
 \begin_layout Standard
 Un ghigno attraversò il volto di Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dicono anche che sono segretamente fidanzato con Ginevra Weasley e che c'è
- una profezia sulla nostra conquista della Francia
-\begin_inset Quotes frd
+ una profezia sulla nostra conquista della Francia.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il sorriso scomparve.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Poiché è determinato a forzare la mano, signor Carl Sloper, mi lasci chiarire
@@ -3021,34 +3000,34 @@ Poiché è determinato a forzare la mano, signor Carl Sloper, mi lasci chiarire
 Lasciate in pace Lesath
 \emph default
 .
- Verrò a saperlo, se non lo fate
-\begin_inset Quotes frd
+ Verrò a saperlo, se non lo fate.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Così Lessy ti ha spifferato tutto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse freddamente il capobanda.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Certo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose seccamente Harry Potter, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e mi ha anche detto quello che avete fatto oggi dopo la lezione di Incantesimi,
@@ -3058,7 +3037,7 @@ e mi ha anche detto quello che avete fatto oggi dopo la lezione di Incantesimi,
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3069,11 +3048,11 @@ La bocca del capobanda si aprì per lo stupore.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Eeh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse uno degli altri Grifondoro in una voce dal tono alto, e girò su
@@ -3086,45 +3065,45 @@ E allora furono in sei.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ecco il giovane appena intelligente che se n'è andato.
  Il resto di voi potrebbe imparare dall'esempio di Bertram Kirke, prima
- che vi ficchiate, diciamo, nei guai
-\begin_inset Quotes frd
+ che vi ficchiate, diciamo, nei guai.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stai minacciandoci di fare la spia contro di noi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il Grifondoro bello, la sua voce che cercava di sembrare arrabbiata,
  invece che vacillante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Succedono brutte cose agli spioni
-\begin_inset Quotes frd
+Succedono brutte cose agli spioni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3134,7 +3113,7 @@ Gli altri due Grifondoro iniziarono ad arretrare lentamente.
 \begin_layout Standard
 Harry Potter iniziò a ridere.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, non l'ha detto sul serio.
@@ -3148,7 +3127,7 @@ Me?
 \emph default
  Ora, in tutta onestà, crede davvero di incutere più paura di Peregrine
  Derrick, Severus Snape o, persino, di Tu-Sai-Chi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3161,26 +3140,26 @@ Anche il capobanda sobbalzò.
 \begin_layout Standard
 Harry Potter alzò la mano, le dita in posizione, e tutti e tre i Grifondoro
  fecero un salto all'indietro, e uno di loro sbottò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vedete
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 qui è quando io schiocco le dita e voi diventate parte di una storia divertentis
@@ -3196,11 +3175,11 @@ sima che sarà raccontata questa sera a cena con molte risate nervose.
  amici all'interno di questa scuola di non fare niente a proposito? Questa
  volta la salteremo.
  Quindi fatevi avanti.
- Picchiatemi
-\begin_inset Quotes frd
+ Picchiatemi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3223,20 +3202,20 @@ E allora furono in tre.
 \begin_layout Standard
 Harry Potter inspirò profondamente, poi espirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uau
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come va, Neville?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3245,35 +3224,35 @@ Come va, Neville?
 \begin_layout Standard
 La voce di Neville venne fuori come uno squittio ad alta frequenza.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Okay, 
 \emph on
 questo
 \emph default
- è stato proprio figo
-\begin_inset Quotes frd
+ è stato proprio figo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Un ghigno passò sul volto di Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche 
 \emph on
 tu
 \emph default
- eri piuttosto figo, sai
-\begin_inset Quotes frd
+ eri piuttosto figo, sai.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3291,11 +3270,11 @@ Harry si girò verso Lesath Lestrange
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stai bene, Lestrange?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Neville prima che Harry potesse aprire la bocca.
@@ -3311,16 +3290,16 @@ Lesath Lestrange si girò lentamente, e fissò Neville, il suo volto teso,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensi di sapere come ci si senta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Lesath, la sua voce alta e tremolane.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3346,7 +3325,7 @@ ri le avranno già mangiato quel pensiero
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3364,14 +3343,14 @@ Lesath si girò verso Harry Potter, i cui occhi erano pieni di orrore.
 \begin_layout Standard
 Lesath si gettò sul pavimento di fronte a Harry Potter, toccò per terra
  con la fronte, e sussurrò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi aiuti, Signore
-\begin_inset Quotes frd
+Mi aiuti, Signore.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3381,7 +3360,7 @@ Ci fu un terribile silenzio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dicono che può fare qualunque cosa, per favore, per favore mio Signore,
@@ -3391,11 +3370,12 @@ Dicono che può fare qualunque cosa, per favore, per favore mio Signore,
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -3426,27 +3406,27 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lesath
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce rotta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lesath, non posso, non posso proprio fare cose come quelle, sono solo stupidi
- trucchi
-\begin_inset Quotes frd
+ trucchi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3454,12 +3434,12 @@ Lesath, non posso, non posso proprio fare cose come quelle, sono solo stupidi
 No!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lesath, la sua voce alta e disperata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ho 
@@ -3471,7 +3451,7 @@ visto
 può!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3480,12 +3460,12 @@ può!
 \begin_layout Standard
 Harry deglutì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lesath, ho organizzato il tutto con Neville, l'abbiamo organizzato tutto
  in anticipo, chiediglielo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3504,7 +3484,7 @@ Quando Lesath alzò lo sguardo dal pavimento, il suo volto era terrificante,
  e la sua voce venne fuori con uno strillo che provocò dolore alle orecchie
  di Neville.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3515,14 +3495,14 @@ Tu figlio di un sanguemarcio! Potresti farla uscire di lì, è solo che non
  che quello sia il suo posto!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non 
@@ -3530,12 +3510,12 @@ Non
 posso!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, la sua voce tanto disperata quanto quella di Lesath.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è una questione di quello che voglio, non ne ho il 
@@ -3543,7 +3523,7 @@ Non è una questione di quello che voglio, non ne ho il
 potere!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3569,71 +3549,71 @@ Harry guardò Neville.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uau
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville pacatamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non sembrava essere molto riconoscente per essere stato salvato
-\begin_inset Quotes frd
+Non sembrava essere molto riconoscente per essere stato salvato.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensava che potessi aiutarlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce rauca.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Aveva avuto delle speranze per la prima volta da anni
-\begin_inset Quotes frd
+Aveva avuto delle speranze per la prima volta da anni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Neville deglutì, e lo disse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi dispiace
-\begin_inset Quotes frd
+Mi dispiace.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che–?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, sembrando completamente confuso.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ero riconoscente quando mi hai salvato
@@ -3641,40 +3621,40 @@ Non ero riconoscente quando mi hai salvato
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ogni singola cosa che dicesti allora era vera
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Ragazzo-Che-È-Sopravvissuto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Neville, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-non lo era
-\begin_inset Quotes frd
+non lo era.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3683,34 +3663,34 @@ Si rivolsero simultaneamente dei brevi sorrisi tristi, ciascuno condiscendente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So che questo non era vero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 so che non avrei potuto fare nulla se tu non fossi stato qui, ma grazie
- per avermi permesso di fingere
-\begin_inset Quotes frd
+ per avermi permesso di fingere.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Finiscila.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3721,22 +3701,22 @@ Harry aveva dato le spalle a Neville, e stava guardando fuori dalla finestra
 \begin_layout Standard
 Un pensiero completamente ridicolo venne a Neville.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti senti in colpa perché non puoi far uscire i genitori di Lesath da Azkaban?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -3747,40 +3727,40 @@ Passarono alcuni secondi.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei stupido.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ne sono cosciente.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Devi fare letteralmente 
@@ -3788,7 +3768,7 @@ Devi fare letteralmente
 tutto
 \emph default
  quello che qualcuno ti chiede?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3797,7 +3777,7 @@ tutto
 \begin_layout Standard
 Il Ragazzo-Che-È-Sopravvissuto si girò e guardò nuovamente Neville.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3805,17 +3785,17 @@ Il Ragazzo-Che-È-Sopravvissuto si girò e guardò nuovamente Neville.
 Fare?
 \emph default
  No.
- Sentirmi in colpa per non farlo? Sì
-\begin_inset Quotes frd
+ Sentirmi in colpa per non farlo? Sì.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Neville stava avendo dei problemi a trovare le parole.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quando il Signore Oscuro morì, Bellatrix Black era letteralmente la persona
@@ -3846,16 +3826,16 @@ mbox{--»}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lo so
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lo capisco, ma
@@ -3879,7 +3859,7 @@ mbox{--»}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No! Tu 
@@ -3895,24 +3875,24 @@ ragione
 lontanamente
 \emph default
  la cosa peggiore che abbia fatto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Neville stava tremando.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Ragazzo-Che-È-Sopravvissuto, i suoi occhi distanti mentre fissavano
  qualcos'altro, qualche altro luogo che Neville non poteva immaginare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrebbe esistere una soluzione incredibilmente intelligente che renda possibile
@@ -3922,78 +3902,74 @@ Potrebbe esistere una soluzione incredibilmente intelligente che renda possibile
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu hai dei problemi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Tu pensi che dovresti essere ciò che Lesath Lestrange pensa che tu sia
-\begin_inset Quotes frd
+Tu pensi che dovresti essere ciò che Lesath Lestrange pensa che tu sia.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Già
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Ragazzo-Che-È-Sopravvissuto, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 questa è la descrizione precisa.
  Ogni volta che qualcuno grida una richiesta d'aiuto e io non posso rispondere,
- mi sento in colpa per non essere Dio
-\begin_inset Quotes frd
+ mi sento in colpa per non essere Dio.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Neville non comprese esattamente, ma… 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non sembra una buona cosa
-\begin_inset Quotes frd
+Non sembra una buona cosa.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisco di avere un problema, e so cosa devo fare per risolverlo, va bene?
- Ci sto lavorando su
-\begin_inset Quotes frd
-\end_inset
-
-.
-\begin_inset Separator latexpar
+ Ci sto lavorando su.
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4045,11 +4021,11 @@ E allora fu da solo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ahem
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Severus Snape dalle sue spalle.
@@ -4069,23 +4045,23 @@ L'alto uomo untuoso nelle vesti macchiate stava appoggiato al muro nella
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un eccellente mantello dell'invisibilità, Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , biascicò il Maestro di Pozioni.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Si spiegano molte cose
-\begin_inset Quotes frd
+Si spiegano molte cose.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4093,26 +4069,26 @@ Oh, dannazione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E forse sono stato in compagnia di Dumbledore troppo a lungo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , aggiunse Severus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma non posso che chiedermi se quello non sia 
 \emph on
 il
 \emph default
- Mantello dell'Invisibilità
-\begin_inset Quotes frd
+ Mantello dell'Invisibilità.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4126,37 +4102,37 @@ esattamente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, è possibile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Confido nel fatto che ne comprenderebbe le implicazioni, se lo fosse
-\begin_inset Quotes frd
+Confido nel fatto che ne comprenderebbe le implicazioni, se lo fosse.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La voce di Severus fu condiscendente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ha nessuna idea di ciò di cui sto parlando, vero, Potter? Un tentativo
- piuttosto goffo di cercare di estorcermi delle informazioni
-\begin_inset Quotes frd
+ piuttosto goffo di cercare di estorcermi delle informazioni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4201,54 +4177,54 @@ usato in cap.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi ha osservato per tutto il tempo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Disillusione, credo che sia chiamata
-\begin_inset Quotes frd
+Disillusione, credo che sia chiamata.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Un accenno di sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Sarebbe stato folle da parte mia rischiare minimamente che lei venisse ferito
-\begin_inset Quotes frd
+Sarebbe stato folle da parte mia rischiare minimamente che lei venisse ferito.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E voleva vedere i risultati della prova di prima mano
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora.
  Sono come mio padre?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4258,7 +4234,7 @@ Allora.
 L'uomo assunse un'espressione stranamente triste, che sembrò aliena sul
  suo volto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Direi piuttosto, Harry Potter, che lei assomigli
@@ -4290,112 +4266,112 @@ Fissò Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lestrange l'ha chiamata figlio di un sanguemarcio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse lentamente Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non è sembrato darle molto fastidio
-\begin_inset Quotes frd
+Non è sembrato darle molto fastidio.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry aggrottò la fronte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non in quelle circostanze, no
-\begin_inset Quotes frd
+Non in quelle circostanze, no.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'aveva appena aiutato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
  I suoi occhi osservavano Harry con decisione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E gliel'ha detto in faccia.
  Certamente non si tratta di qualcosa che perdonerebbe facilmente, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Aveva appena fatto un'esperienza piuttosto straziante.
  E non penso che essere aiutato da ragazzi del primo anno abbia fatto bene
  al suo orgoglio, per di più.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo che sia stato abbastanza facile perdonare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, e la sua voce era strana, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 poiché Lestrange non significa molto per lei.
  È solo uno strano Serpeverde.
  Se fosse stato un amico, forse, si sarebbe sentito molto più ferito da
- quello che ha detto
-\begin_inset Quotes frd
+ quello che ha detto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se fosse stato un amico
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-sarebbe stata una ragione in più per perdonarlo
-\begin_inset Quotes frd
+sarebbe stata una ragione in più per perdonarlo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4411,37 +4387,37 @@ Poi Severus sorrise, sembrando all'improvviso nuovamente rilassato, e tutta
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei è una persona che perdona facilmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, ancora sorridendo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo che il suo padre adottivo, Michael Verres-Evans, sia stato colui
- che gliel'ha insegnato
-\begin_inset Quotes frd
+ che gliel'ha insegnato.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Più che altro la collezione di fantascienza e fantasy di Papà
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una specie di quinto genitore per me, in effetti.
@@ -4451,51 +4427,51 @@ Una specie di quinto genitore per me, in effetti.
  possa dire chi.
  Non è stato difficile mettermi nei suoi panni.
  E sono stati i miei libri a dirmi anche come comportarmi.
- I buoni perdonano
-\begin_inset Quotes frd
+ I buoni perdonano.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Severus emise una risata allegra e divertita.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi dispiace ma non so molto di ciò che fanno i buoni
-\begin_inset Quotes frd
+Mi dispiace ma non so molto di ciò che fanno i buoni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry lo osservò.
  Questo era piuttosto triste, in verità.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Le presterò alcuni romanzi con dentro personaggi buoni, se le va
-\begin_inset Quotes frd
+Le presterò alcuni romanzi con dentro personaggi buoni, se le va.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le vorrei chiedere un consiglio su di un argomento
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, la sua voce disinvolta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Conosco un altro Serpeverde del quinto anno che è stato oggetto di prepotenze
@@ -4506,22 +4482,22 @@ Conosco un altro Serpeverde del quinto anno che è stato oggetto di prepotenze
  Lui si scusò, molte volte, ma lei non lo perdonò mai.
  Ha qualche idea su cosa lui potesse fare o dire, per ottenere dalla ragazza
  il perdono che lei ha concesso a Lestrange?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ehm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 basandomi solo su queste informazioni, non sono sicuro che fosse 
@@ -4531,7 +4507,7 @@ lui
  ad avere il problema principale.
  Gli avrei detto di non frequentare qualcuno così incapace di perdonare.
  Supponga che si sposassero, potrebbe immaginare la vita di quella famiglia?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4542,7 +4518,7 @@ Ci fu una pausa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, ma ella era 
@@ -4550,17 +4526,17 @@ Oh, ma ella era
 in grado
 \emph default
  di perdonare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus con una voce divertita.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Del resto, in seguito, divenne la fidanzata del bullo.
  Mi dica, perché perdonò il bullo, e non la vittima?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4569,7 +4545,7 @@ Del resto, in seguito, divenne la fidanzata del bullo.
 \begin_layout Standard
 Harry scrollò le spalle.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tirando a indovinare, perché il bullo aveva ferito gravemente 
@@ -4583,7 +4559,7 @@ lei
 , e per lei questo era molto più imperdonabile, in qualche modo.
  O, per evitare soluzioni troppo elaborate, forse il bullo era bello? O
  comunque ricco?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4594,27 +4570,27 @@ Ci fu un'altra pausa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì ad entrambe le domande
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Severus.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Eccole la risposta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non che io abbia mai frequentato il liceo, ma i miei libri mi fanno capire
@@ -4625,11 +4601,11 @@ Non che io abbia mai frequentato il liceo, ma i miei libri mi fanno capire
  Era superficiale, in altre parole.
  Dica a chiunque fosse il ragazzo che lei non era degna di lui e che ha
  bisogno di dimenticare e andare avanti, e che la prossima volta frequentasse
- ragazze che siano profonde invece che carine
-\begin_inset Quotes frd
+ ragazze che siano profonde invece che carine.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4641,12 +4617,12 @@ Severus fissò Harry in silenzio, i suoi occhi che brillavano.
 \begin_layout Standard
 Harry iniziava a sentirsi un po' nervoso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm, non che io abbia alcuna esperienza in merito, ovviamente, ma credo
  che sarebbe ciò che un consigliere saggio direbbe nei miei libri
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4661,76 +4637,76 @@ Era probabilmente il momento giusto per cambiare argomento.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho passato la sua prova, qualunque essa fosse?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ritengo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che non dovrebbero esserci altre conversazioni tra di noi, Potter, e lei
- sarà incredibilmente saggio a non parlare mai di questa con nessuno
-\begin_inset Quotes frd
+ sarà incredibilmente saggio a non parlare mai di questa con nessuno.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry sbatté le palpebre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le spiacerebbe dirmi cos'ho fatto di sbagliato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi ha offeso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-E non mi fido più della sua scaltrezza
-\begin_inset Quotes frd
+E non mi fido più della sua scaltrezza.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4738,37 +4714,36 @@ Harry fissò Severus, colto piuttosto alla sprovvista.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma mi ha dato un consiglio in buona fede
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus Snape, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-e quindi le restituirò un vero consiglio
-\begin_inset Quotes frd
+e quindi le restituirò un vero consiglio.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La sua voce era quasi perfettamente salda.
  Come un filo teso quasi perfettamente orizzontale, malgrado il peso massiccio
  che penda dal suo centro, da un milione di tonnellate di tensione che tirano
  da entrambi i lati.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei è stato prossimo a morire oggi, Potter.
  In futuro, non condivida mai la sua saggezza con qualcuno, a meno che non
- sappia esattamente ciò di cui parlate entrambi
-\begin_inset Quotes frd
+ sappia esattamente ciò di cui parlate entrambi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4776,7 +4751,7 @@ Finalmente la mente di Harry fece la connessione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -4788,7 +4763,7 @@ Lei
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4803,22 +4778,22 @@ prossimo a morire
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-ero io
-\begin_inset Quotes frd
+ero io.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4838,31 +4813,31 @@ Perdi.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo sapevo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi d–
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
@@ -4877,26 +4852,26 @@ Harry rimase lì in silenzio, la sua mente che cercava freneticamente qualche
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I suoi libri l'hanno tradita, Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, ancora con quella voce tesa da un milione di tonnellate
  di tensione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non le hanno detto l'unica cosa che aveva bisogno di sapere.
  Non può imparare dalle storie ciò che significa perdere colei che si ama.
- È qualcosa che non potrà mai capire senza provarlo lei stesso
-\begin_inset Quotes frd
+ È qualcosa che non potrà mai capire senza provarlo lei stesso.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \begin_inset Note Note
 status open
 
@@ -4910,24 +4885,24 @@ Citato in cap 91.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mio padre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Harry.
  Era la sua congettura migliore, l'unica cosa che potesse salvarlo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mio padre ha provato a proteggerla dai bulli
-\begin_inset Quotes frd
+Mio padre ha provato a proteggerla dai bulli.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4940,23 +4915,23 @@ E andò oltre.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Arrivederci, Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, senza girarsi mentre usciva.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Avremo molto poco da dirci da oggi in poi
-\begin_inset Quotes frd
+Avremo molto poco da dirci da oggi in poi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4965,23 +4940,23 @@ E giunto alla svolta, l'uomo si fermò, e senza girarsi, pronunciò un'ultima
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suo padre era il bullo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus Snape, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e ciò che sua madre vide in lui era qualcosa che non compresi mai davvero
- fino a oggi
-\begin_inset Quotes frd
+ fino a oggi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
