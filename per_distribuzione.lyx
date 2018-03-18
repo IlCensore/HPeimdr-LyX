@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -7,7 +7,6 @@
 \textclass memoir
 \begin_preamble
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{microtype}
 
 \newfontfamily\fontcapitolo[SmallCapsFont={Alegreya SC},Ligatures=Discretionary,Contextuals=Swash]{TeX Gyre Pagella}
 
@@ -194,9 +193,13 @@
 
 
 
-\widowpenalties 2 10000 0
-\raggedbottom
-\clubpenalty 10000
+%\raggedbottom
+%\widowpenalties 2 10000 0
+%\clubpenalty 10000
+
+\widowpenalties 2 100 0
+\clubpenalty 100
+
 
 %% descrizioni senza bold
 \renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
@@ -208,6 +211,16 @@
   \addtocounter{footnote}{-1}%
   \endgroup
 }
+
+
+%% indice lemmi
+\newfontfamily\fontindicelemmi{EB Garamond}
+\newcommand\indicelemmi{
+\begingroup
+\fontindicelemmi
+\char"2767
+\endgroup
+}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -218,7 +231,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding \font_roman "default" "Crimson"
-\font_roman "default" "Minion Pro"
+\font_roman "default" "Arno Pro"
 \font_sans "default" "Linux Biolinum O"
 \font_typewriter "default" "Fira Mono"
 \font_math "auto" "auto"
@@ -227,7 +240,9 @@ initials
 \font_sc false
 \font_osf true
 \font_sf_scale 100 100
-\font_tt_scale 100 85
+\font_tt_scale 100 80
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -267,6 +282,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \branch Figure
 \selected 0
 \filename_suffix 0
@@ -287,7 +303,10 @@ initials
 \tocdepth 0
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -335,6 +354,12 @@ newgeometry{top=1.52in,left=1.27in,right=1.27in,bottom=1.52in}
 
 \size larger
 Harry Potter e i metodi della razionalità
+\begin_inset Newline newline
+\end_inset
+
+
+\noun on
+i
 \end_layout
 
 \begin_layout Standard
@@ -411,7 +436,7 @@ Harry James Potter-Evans-Verres
 \begin_inset Newline newline
 \end_inset
 
-e la Legione del Chaos
+e la Legione del Caos
 \end_layout
 
 \begin_layout Standard
@@ -1011,11 +1036,11 @@ Harry Potter e i metodi della razionalità
 
 \begin_layout Standard
 Innanzitutto, si tratta di una 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 fanfic
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  di Harry Potter, ovvero di un racconto ambientato nel mondo creato da J.
@@ -1282,10 +1307,87 @@ filename "021.lyx"
 
 \end_layout
 
+\begin_layout Chapter*
+Note
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Note}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begingroup
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+fontsize{9pt}{10pt}
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "NoteA.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+endgroup
+\end_layout
 
 \end_inset
 
