@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -66,7 +66,7 @@
 \makeatother
 \end_preamble
 \use_default_options true
-\master ENG_hpmor.lyx
+\master per_distribuzione.lyx
 \maintain_unincluded_children false
 \language italian
 \language_package default
@@ -82,6 +82,8 @@
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -111,6 +113,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -125,7 +128,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -167,7 +173,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -175,7 +181,7 @@ indicelemmi
 Non credere a tutto quello che pensi
 \emph default
 , aveva detto uno dei suoi libri
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : 
@@ -218,11 +224,11 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fatti con vero Flubber!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : Flubber è il nome di un essere sintetico elastico nel film 
@@ -248,11 +254,11 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Coltelli +3! Forchette +2! Cucchiai con un bonus di +4!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è un riferimento agli oggetti magici del gioco di ruolo 
@@ -278,11 +284,11 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Visori che coloravano tutto ciò che osservavi di verde
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sono simili agli occhiali con lenti colorate indossate dagli abitanti della
@@ -312,7 +318,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -329,7 +335,7 @@ Diffusione della responsabilità
 \emph default
  [\SpecialChar ldots
 ]
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : colpiti dal caso dell'assassinio di Kitty Genovese (1964), che non fu
@@ -341,7 +347,7 @@ Diffusione della responsabilità
 effetto dello spettatore
 \emph default
  (
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -349,7 +355,7 @@ effetto dello spettatore
 bystander effect
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ), causato dal fenomeno di 
@@ -357,7 +363,7 @@ bystander effect
 diffusione della responsabilità
 \emph default
  (
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -365,13 +371,14 @@ diffusione della responsabilità
 diffusion of responsibility
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ) in presenza di più persone (
 \begin_inset CommandInset citation
 LatexCommand cite
 key "bystanderEffect"
+literal "true"
 
 \end_inset
 
@@ -451,7 +458,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -459,11 +466,11 @@ indicelemmi
 Grande Giove!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -471,7 +478,7 @@ Grande Giove!
 Great Scott!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  nell'originale) è l'esclamazione caratteristica di Doc Brown, personaggio
@@ -504,11 +511,11 @@ indicelemmi
 Be prepared
 \emph default
  (
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Siate pronti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ) è una canzone comica di Tom Lehrer, ispirata al motto dei boyscout statunitens
@@ -600,7 +607,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 [\SpecialChar ldots
@@ -613,16 +620,16 @@ indicelemmi
 \end_inset
 
 50 per convincere la gente a compilare dei sondaggi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : riferimento all'articolo Jeannine M.
  James & Richard Bolstein, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Large Monetary Incentives and their Effect on Mail Survey Response Rates
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -661,7 +668,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -676,7 +683,7 @@ png
 , questo è il problema
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : Harry fa riferimento al mondo dei giochi di ruolo, in cui i personaggi
@@ -734,15 +741,16 @@ esperimento 2-4-6
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Wason1960QJEP"
+literal "true"
 
 \end_inset
 
 ); si veda Eliezer Yudkowsky, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Positive Bias: Look Into the Dark
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -929,7 +937,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -937,13 +945,36 @@ indicelemmi
 forse posso trovare nuovi mezzi per spronarvi
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- di Quirinus Quirrell è una citazione di quella pronunciata da Darth Fener
+ di Quirinus Quirrell è una citazione di quella pronunciata da Darth Vader
  ne 
 \emph on
 Il Ritorno dello Jedi
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+Capitolo 13 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "Ref: chap:13Porre-le-do…"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Molte delle frasi dette dalla signora nel ritratto sono simili a quelle
+ del Gatto del Cheshire da 
+\emph on
+Alice nel Paese delle Meraviglie
 \emph default
 .
 \end_layout
@@ -967,7 +998,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -975,7 +1006,7 @@ indicelemmi
 punti per lo stile: 10; punti per buon senso: -3.000.000
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ; il riferimento è a una frase pronunciata da Zaphod Beeblebrox ne 
@@ -983,12 +1014,12 @@ punti per lo stile: 10; punti per buon senso: -3.000.000
 La guida galattica per autostoppisti
 \emph default
 : 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 dieci e lode in stile, ma...
  meno parecchi milioni in buon senso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1055,11 +1086,11 @@ macchina di Turing con oracolo
  è una variante della macchina di Turing con un nastro supplementare, l'oracolo,
  che le permette di sapere con una singola istruzione se una certa parola
  fa parte di un certo vocabolario, fungendo così da 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 supermacchina
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ausiliaria.
@@ -1109,7 +1140,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1118,7 +1149,7 @@ Oh volesse un potere darci il piccolo dono
 \emph default
 \SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : è una poesia di Robert Burns, 
@@ -1126,7 +1157,7 @@ Oh volesse un potere darci il piccolo dono
 To a Louse
 \emph default
 , del 1786, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1137,7 +1168,7 @@ Oh wad some power the giftie gie us / To see oursel's as others see us!
 \emph default
 \lang italian
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1173,7 +1204,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1181,7 +1212,7 @@ indicelemmi
 pensiero laterale
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  nel seguente modo:
@@ -1190,11 +1221,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Da 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensiero Laterale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -1273,22 +1304,22 @@ url{http://edwdebono.com/lateral.htm}
 
 \size footnotesize
 Ho inventato il termine 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 pensiero laterale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  nel 1967.
  Fu inizialmente usato in un libro intitolato 
 \lang english
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 The Use of Lateral Thinking
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (Jonathan Cape, London) 
@@ -1303,11 +1334,11 @@ status open
 \end_inset
 
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 New Think
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (Basic Books, New York)
@@ -1349,12 +1380,12 @@ Ci sono diversi modi di definire il pensiero laterale, che variano dal tecnico
 \emph on
 1.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non puoi scavare una buca in un posto differente scavando la stessa buca
  più in profondità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1375,11 +1406,11 @@ Questo significa che impegnarsi di più nella stessa direzione potrebbe non
 \emph on
 2.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il pensiero laterale serve a cambiare concetti e percezioni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1406,7 +1437,7 @@ Con la logica si parte da alcuni ingredienti, proprio come nel giocare a
 \emph on
 3.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il cervello in quanto sistema informativo auto-organizzato forma percorsi
@@ -1416,7 +1447,7 @@ Il cervello in quanto sistema informativo auto-organizzato forma percorsi
  tale movimento `laterale'.
  Gli strumenti sono basati su di una comprensione dei sistemi informativi
  auto-organizzati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1435,14 +1466,14 @@ Questa è una definizione tecnica che dipende da una comprensione dei sistemi
 \emph on
 4.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In ogni sistema auto-organizzato c'è la necessità di allontanarsi dall'ottimo
  locale per muoversi verso un ottimo più globale.
  Le tecniche del pensiero laterale, come la provocazione, sono progettate
  per aiutare quel cambiamento
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1517,12 +1548,55 @@ reference "chap:17Localizzare-le-ipotesi"
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:017-PNP"
+La professoressa 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
 
 \end_inset
 
+
+\begin_inset space ~
+\end_inset
+
+Blake trovata in uno stanzino con non meno di cinque Serpeverde del quinto
+ anno è un riferimento ad Anita Blake, protagonista della serie di romanzi
+ di Laurell K.
+\begin_inset space \thinspace{}
+\end_inset
+
+Hamilton; la professoressa 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Summers che si rivela un totale fallimento è un riferimento a Buffy Anne
+ Summers, protagonista della serie multimediale 
+\emph on
+Buffy – L'Ammazza Vampiri
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
 Nel calendario romano, le 
 \begin_inset ERT
 status open
@@ -1546,6 +1620,139 @@ Idi
 \emph default
  di un mese si riferivano al 15° giorno di marzo, maggio, luglio e ottobre,
  e al 13° giorno di tutti gli altri giorni.
+\end_layout
+
+\begin_layout Standard
+Il cubo che fa 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\emph on
+blorple… blorple… blorple
+\emph default
+ nello studio del Preside è un riferimento al gioco testuale 
+\emph on
+Spellbreaker
+\emph default
+; sempre nell'ufficio del preside sono conservati una 
+\emph on
+lente della civiltà
+\emph default
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Quotes cld
+\end_inset
+
+un bracciale con incastonato un cristallo lenticolare che brillava di mille
+ colori
+\begin_inset Quotes crd
+\end_inset
+
+) dalla serie di romanzi 
+\emph on
+Lensman
+\emph default
+ di E.
+\begin_inset space \thinspace{}
+\end_inset
+
+E.
+\begin_inset space \thinspace{}
+\end_inset
+
+Smith, il 
+\emph on
+Sacro Graal
+\emph default
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Quotes cld
+\end_inset
+
+una tazza di legno riempita con quello che sembrava sangue
+\begin_inset Quotes crd
+\end_inset
+
+) nella versione di 
+\emph on
+Indiana Jones e l'ultima crociata
+\emph default
+ di Steven Spielberg, e il 
+\emph on
+Falcone Maltese
+\emph default
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Quotes cld
+\end_inset
+
+la statua di un falco incrostato in smalto nero
+\begin_inset Quotes crd
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Subsection*
@@ -1683,14 +1890,47 @@ E.
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Doc
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- Smith.
+ Smith; la 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Quotes cld
+\end_inset
+
+grande palla di polvere con occhi e piedi
+\begin_inset Quotes crd
+\end_inset
+
+ è un riferimento a un personaggio del 
+\emph on
+webcomic
+\emph default
+ 
+\emph on
+User Friendly
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -1702,6 +1942,36 @@ reference "chap:19Gratificazione-differita"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Il discorso 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Quotes cld
+\end_inset
+
+Voi chiedete: qual è il nostro obiettivo?
+\begin_inset Quotes crd
+\end_inset
+
+ di Harry è ripreso dal primo discorso di Winston Churchill in qualità di
+ Primo Ministro alla Camera dei Comuni, il 13 maggio 1940.
 \end_layout
 
 \begin_layout Standard
@@ -1723,7 +1993,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1731,7 +2001,7 @@ indicelemmi
 gratificazione differita
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (in inglese: 
@@ -1743,7 +2013,7 @@ o
 deferred gratification
 \emph default
 ) è 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 l'abilità di resistere alla tentazione di una ricompensa immediata e attendere
@@ -1761,7 +2031,7 @@ Stanford marshmallow experiment
 \emph default
 , che ha gettato luce sui risultati a lungo termine dell'abilità di una
  persona a differire la gratificazione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1770,11 +2040,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Contributori di Wikipedia, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Delayed gratification
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -1861,7 +2131,7 @@ indicelemmi
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1877,11 +2147,11 @@ regola
 di Bayes
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 una legge sulle probabilità che descrive il modo corretto di incorporare
@@ -1931,7 +2201,7 @@ dove
 \end_inset
 
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1939,11 +2209,11 @@ dove
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bayes' theorem
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -1993,7 +2263,7 @@ indicelemmi
 Euristica della rappresentatività
 \emph default
 : 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 un errore comune secondo il quale le persone determinano la probabilità
@@ -2006,7 +2276,7 @@ un errore comune secondo il quale le persone determinano la probabilità
  Per esempio, forse abbiamo solo incontrato persone ricche che vivevano
  in Connecticut… questa conoscenza ci porterà perciò a generalizzare che
  la maggior parte delle persone in Connecticut siano ricche
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2015,11 +2285,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Gillian Fournier, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Representativeness Heuristic
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -2073,7 +2343,7 @@ Utilitarismo della preferenza
 preference utilitarianism
 \emph default
 ): è la teoria morale secondo cui 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ciò che è bene è la soddisfazione dei desideri o la realizzazione delle
@@ -2086,7 +2356,7 @@ ciò che è bene è la soddisfazione dei desideri o la realizzazione delle
  se quell'atto massimizza la soddisfazione dei desideri o la realizzazione
  delle preferenze, a prescindere dal fatto che quell'atto causi sensazioni
  di piacere
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2094,11 +2364,11 @@ ciò che è bene è la soddisfazione dei desideri o la realizzazione delle
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Consequentialism
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -2152,7 +2422,7 @@ La rivolta di Atlante
 Atlas Shrugged
 \emph default
 ): 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è un romanzo di genere filosofico e fantascientifico scritto da Ayn Rand
@@ -2167,7 +2437,7 @@ prime movers
 , ovvero i primi motori della società, le persone in grado di creare ricchezza
  e progresso, stanche di essere schiave della collettività e di essere usurpate
  del pieno controllo delle loro qualità, decidessero di ribellarsi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2176,11 +2446,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Contributori di Wikipedia, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La rivolta di Atlante
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -2235,7 +2505,7 @@ Negazione plausibile
 plausible deniability
 \emph default
 ): 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è un termine coniato dalla 
@@ -2255,7 +2525,7 @@ cia
  a causa dell'assenza di prove che possano confermare la loro partecipazione,
  anche se erano personalmente coinvolti o almeno volontariamente ignoranti
  di tali azioni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2264,11 +2534,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Contributori di Wikipedia, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Plausible deniability
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -2366,11 +2636,11 @@ Institute for Space Systems Operations della University of Huston
 star lifting
 \emph default
  (
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 aspirazione stellare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ), una tecnica teorica per l'estrazione di materia da una stella allo scopo
