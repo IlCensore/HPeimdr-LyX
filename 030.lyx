@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -79,6 +79,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf5
 \output_sync 0
@@ -108,6 +110,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -122,7 +125,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -207,7 +213,7 @@ piccola
  toppa.
  Se volevi che i tuoi soldati indossassero, diciamo, fasce colorate in modo
  da potersi riconoscere a distanza, e rischiare che il nemico mettesse le
- mani sulle fasce, era tutto nelle tue mani.
+ mani sulle fasce, stava al tuo giudizio.
 \end_layout
 
 \begin_layout Standard
@@ -233,7 +239,7 @@ Quindi ora Harry stava combattendo contro il Dragon Army.
 \end_layout
 
 \begin_layout Standard
-Questo probabilmente non era un buon segno.
+Quello probabilmente non era un buon segno.
 \end_layout
 
 \begin_layout Standard
@@ -241,11 +247,12 @@ Come loro insegna, invece della scontata testa di drago che soffia fuoco,
  Draco aveva scelto di optare per delle fiamme.
  Elegante, velato, mortale: 
 \emph on
-Questo è quello che rimane dopo il nostro passaggio
+Questo è quello che resta dopo il nostro passaggio
 \emph default
 .
  Molto Malfoy.
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -318,7 +325,20 @@ Questo è quello che rimane dopo il nostro passaggio
 \begin_layout Standard
 Harry, dopo aver preso in considerazione scelte alternative come 
 \emph on
-501st Provisional Battalion
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nth{501}
+\end_layout
+
+\end_inset
+
+ Provisional Battalion
 \emph default
  e 
 \emph on
@@ -341,8 +361,9 @@ Era
 \emph on
 universalmente
 \emph default
- ritenuto che questo non fosse un buon segno.
+ accettato che quello non fosse un buon segno.
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -457,6 +478,7 @@ Sunshine Regiment
 \begin_layout Standard
 La loro insegna era un viso sorridente.
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -729,11 +751,11 @@ Harry aveva diviso l'esercito in 6 squadre da 4 soldati ciascuna, ogni squadra
  una buona idea in quel momento, di disobbedire a ogni ordine che avessero
  ricevuto, incluso quello… a meno che Harry o il Suggeritore di Squadra
  facessero precedere all'ordine 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Merlino dice
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , nel qual caso avresti dovuto obbedire effettivamente.
@@ -782,11 +804,11 @@ Il generale Potter camminò (non marciò) verso il luogo in cui le sue forze
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutti gli stormi a rapporto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il generale Potter.
@@ -795,65 +817,65 @@ Tutti gli stormi a rapporto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capo rosso a rapporto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Seamus Finnigan, che non aveva idea di cosa significasse.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Rosso cinque a rapporto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dean Thomas, che aveva desiderato dirlo per tutta la sua vita.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capo verde a rapporto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Theodore Nott piuttosto formalmente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Verde quarantuno a rapporto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey Davis.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vi voglio in volo l'istante in cui sentiamo la campana
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il generale Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ingaggiate, ripeto, non ingaggiate il nemico.
  Se sotto il fuoco, effettuate manovre di evasione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -864,7 +886,7 @@ non si lanciavano
  incantesimi soporiferi contro i manici di scopa; si lanciava un incantesimo
  che dava un bagliore rosso temporaneo a tutto ciò che colpiva.
  Se si colpiva la scopa o il pilota, erano fuori dalla competizione.) 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capo rosso e Rosso cinque, volate verso l'esercito di Malfoy il più velocemente
@@ -880,18 +902,18 @@ davvero
 \emph default
  bisogno di quelle informazioni.
  Per il Caos!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per il Caos!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fecero eco i quattro con differenti gradi di entusiasmo.
@@ -998,11 +1020,11 @@ Chaos e Sunshine non avrebbero capito cosa li aveva colpiti.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Attenzione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il generale Malfoy.
@@ -1077,17 +1099,17 @@ Era quasi giunta l'ora, e quello significava che era giunta l'ora per il
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La battaglia sta per iniziare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  La sua voce era calma e precisa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ricordate tutto ciò che io e il signor Crabbe e il signor Goyle vi abbiamo
@@ -1097,7 +1119,7 @@ Ricordate tutto ciò che io e il signor Crabbe e il signor Goyle vi abbiamo
  Granger e il Sunshine Regiment non saranno letali.
  Noi siamo disciplinati, noi siamo letali, noi siamo i Draghi.
  La battaglia sta per iniziare, e noi stiamo per vincerla
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1287,7 +1309,7 @@ amica
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1295,7 +1317,7 @@ amica
 Sparpagliatevi e fate fuoco!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì il generale Potter, e poi fece seguire l'azione alle parole, precipitando
@@ -1309,20 +1331,20 @@ si alla massima velocità sotto la copertura della foresta; e appena Harry
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Libero!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò una voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stanno tornando indietro!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1343,16 +1365,16 @@ E i Caotici uscirono lentamente dalla foresta
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scopa in avvicinamento dalla direzione di Granger!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  urlò un'altra voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Credo che sia Capo verde, ha fatto la picchiata e il 
@@ -1360,7 +1382,7 @@ Credo che sia Capo verde, ha fatto la picchiata e il
 tonneau
 \emph default
 !
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1372,23 +1394,23 @@ Alcuni momenti dopo Theodore Nott si tuffò giù dal cielo e accostò nel mezzo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Granger ha diviso le sue forze in due!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Nott mentre si librava sulla sua scopa.
  C'era del sudore che macchiava la sua uniforme, e tutta la riservatezza
  era scomparsa dalla sua voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sta attaccando entrambi gli eserciti! Due scope coprono ciascuna forza,
  mi hanno inseguito fino a metà strada!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1441,21 +1463,21 @@ Sarebbe stato un anno lungo nel corso di Difesa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry ad alta voce, in modo che l'esercito potesse sentire.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Attenderemo fino al rapporto dello Stormo rosso, e poi andremo a oscurare
  un po' di Raggi di sole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1556,14 +1578,14 @@ Neville Longbottom marciava attraverso la foresta in direzione del reparto
 
 \begin_layout Standard
 Harry aveva detto molte cose a Neville in privato, iniziando con 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sai, Neville, se vuoi diventare così fantastico come il Neville immaginario
  che vive nella tua testa ma a cui non è permesso fare nulla perché sei
  spaventato, allora dovresti davvero arruolarti negli eserciti del professor
  Quirrell
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1637,11 +1659,11 @@ E Neville iniziò a cantare sottovoce la Canzone del Caos.
 \begin_layout Standard
 Il motivo era quello che un Babbano avrebbe riconosciuto come la Marcia
  imperiale di John Williams, anche nota come il 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tema di Darth Vader
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ; e le parole che Harry aveva aggiunto erano facili da ricordare.
@@ -1796,7 +1818,7 @@ Metà dell'esercito Sunshine non era stato un avversario impegnativo per
  Ma non era possibile fare fuoco e mantenere uno scudo contemporaneamente,
  e i soldati di Harry avevano semplicemente mirato alle gambe.
  Tutti i Raggi di sole tranne uno erano caduti appena le grida 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1804,7 +1826,7 @@ Metà dell'esercito Sunshine non era stato un avversario impegnativo per
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  avevano riempito l'aria.
@@ -1832,16 +1854,16 @@ entrambe
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, alzando la voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che una cosa sia chiara a tutti, questo non è stato un vero combattimento.
@@ -1851,14 +1873,10 @@ Che una cosa sia chiara a tutti, questo non è stato un vero combattimento.
  questo.
  Sarà molto più divertente.
  Muoviamoci
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -1903,43 +1921,43 @@ davvero
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potter sta arrivando
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Gregory senza alcuna traccia della sua solita pronuncia strascicata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hanno ancora tutte e quattro le loro scope, vuole che le elimini?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse seccamente Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Combattere sopra il loro esercito è un vantaggio troppo grande in loro favore,
  faranno fuoco su di te da terra e persino tu potresti non essere in grado
  di schivarli tutti.
  Aspetta fin quando le forze non ingaggeranno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1961,21 +1979,21 @@ La vera battaglia, sapevano tutti, sarebbe stata con Harry Potter.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Preparatevi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì Draco alle sue truppe.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 State vicini ai vostri commilitoni, agite come un'unità, fate fuoco appena
  il nemico è a portata!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2024,21 +2042,21 @@ L'adrenalina stava pompando sempre di più nel sangue di Neville finché sentì
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci stiamo avvicinando
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il generale Potter in una voce alta appena il giusto da giungere
  all'intero esercito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È il momento di sparpagliarsi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2078,26 +2096,26 @@ Questa volta, Neville giurò silenziosamente a sé stesso, la sua voce non
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Alzare gli scudi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il generale Potter, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 potenza ai deflettori frontali
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2105,7 +2123,7 @@ potenza ai deflettori frontali
 Contego
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , mormorò l'esercito, e le schermature circolari spuntarono di fronte alle
@@ -2126,7 +2144,7 @@ Un sapore pungente riempì la bocca di Neville.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2134,12 +2152,12 @@ Un sapore pungente riempì la bocca di Neville.
 All'attacco!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  giunse un grido da lontano, la voce di Draco Malfoy, e il generale Potter
  ruggì, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2151,7 +2169,7 @@ Carica
 –
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2165,7 +2183,7 @@ Tutta l'adrenalina nel sangue di Neville fu rilasciata, e le sue gambe presero
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2173,12 +2191,12 @@ Tutta l'adrenalina nel sangue di Neville fu rilasciata, e le sue gambe presero
 Sangue per il dio del sangue!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Neville.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2187,7 +2205,7 @@ Teschi per il trono di teschi! Iä! Shub-Niggurath! Il cancello del nemico
  è di lato!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2240,7 +2258,7 @@ dritto
 \begin_layout Standard
 – senza neppure pensarci, Neville si gettò a capofitto verso il fondo della
  foresta mentre tre voci gridarono 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2248,7 +2266,7 @@ dritto
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2262,20 +2280,20 @@ Fece male, pietre dure e stecchi duri scavarono in Neville mentre rotolava,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Smettetela!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò una voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sparateci, siamo Draghi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2305,7 +2323,7 @@ Neville contò fino a venti nella sua testa, poi aprì d'un colpo gli occhi.
 \begin_layout Standard
 I tre Draghi erano molto vicini a lui, le loro teste ruotavano rapidamente
  mentre urla di 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2313,11 +2331,11 @@ I tre Draghi erano molto vicini a lui, le loro teste ruotavano rapidamente
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2325,7 +2343,7 @@ Somnium!
 Teschi per il trono di teschi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  riempivano l'aria intorno a loro.
@@ -2335,7 +2353,7 @@ Teschi per il trono di teschi!
 \begin_layout Standard
 La bacchetta di Neville era ancora nella sua mano, e non ci volle un grande
  sforzo per puntarla agli anfibi di un ragazzo e sussurrare 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2343,7 +2361,7 @@ La bacchetta di Neville era ancora nella sua mano, e non ci volle un grande
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2355,7 +2373,7 @@ Neville chiuse rapidamente gli occhi e rilassò la mano mentre sentì il ragazzo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2363,7 +2381,7 @@ Neville chiuse rapidamente gli occhi e rilassò la mano mentre sentì il ragazzo
 Da dov'è venuta?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò la voce di Justin Finch-Fletchley, e Neville sentì dei fruscii sul
@@ -2372,7 +2390,7 @@ Da dov'è venuta?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2380,12 +2398,12 @@ Da dov'è venuta?
 Riformare i ranghi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rimbombò la voce di Malfoy.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2393,7 +2411,7 @@ Riformare i ranghi!
 A me, tutti, non lasciate che vi disperdano!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2417,7 +2435,7 @@ Neville aprì gli occhi, si tirò in piedi un po' dolorante, e poi puntò la
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2425,12 +2443,12 @@ Neville aprì gli occhi, si tirò in piedi un po' dolorante, e poi puntò la
 Ventriliquio
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Neville, puntando la bacchetta di lato a Justin e all'altro ragazzo,
  e poi gridò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2438,7 +2456,7 @@ Ventriliquio
 Per Cthulhu e la gloria!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2448,7 +2466,7 @@ Per Cthulhu e la gloria!
 Justin e l'altro ragazzo si fermarono bruscamente, girarono gli scudi verso
  la direzione in cui Neville aveva spostato il suo grido di battaglia, e
  quello fu il momento in cui grida multiple di 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2456,7 +2474,7 @@ Justin e l'altro ragazzo si fermarono bruscamente, girarono gli scudi verso
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  riempirono l'aria e l'altro ragazzo cadde prima che Neville ebbe finito
@@ -2464,7 +2482,7 @@ Somnium!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2472,7 +2490,7 @@ Somnium!
 L'ultimo è mio!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Neville, e poi iniziò a scattare dritto verso Justin, che era stato
@@ -2489,7 +2507,7 @@ quello
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2497,7 +2515,7 @@ quello
 Attacco speciale, Balzo Caotico!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  urlò Neville mentre correva, e sentì il proprio corpo farsi più leggero,
@@ -2516,7 +2534,7 @@ sopra
 \emph default
  lo scudo dell'altro ragazzo e puntò la sua bacchetta in basso alla forma
  che passava sotto di lui e gridò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2524,7 +2542,7 @@ sopra
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2544,11 +2562,11 @@ Neville non riuscì a riportare del tutto i piedi nella posizione corretta
 \begin_layout Standard
 E Neville si alzò in piedi, ansimando.
  Sapeva che si sarebbe dovuto muovere, molti stavano gridando 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Somnium!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  tutto intorno a lui
@@ -2559,7 +2577,7 @@ Somnium!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2567,14 +2585,14 @@ Somnium!
 Io sono Neville, l'ultimo rampollo dei Longbottom!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Neville al cielo sopra di lui, reggendo la bacchetta puntata verso
  l'alto come a sfidare l'ardente volta celeste, sapendo che nulla dopo quel
  giorno sarebbe stato mai lo stesso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2582,7 +2600,7 @@ Io sono Neville, l'ultimo rampollo dei Longbottom!
 Neville del Caos! Affrontatemi se osa–
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2630,7 +2648,7 @@ La ragazza di fianco a Harry crollò al suolo, prendendosi il colpo indirizzato
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2638,7 +2656,7 @@ La ragazza di fianco a Harry crollò al suolo, prendendosi il colpo indirizzato
 Luminos!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò uno dei ragazzi vicino Harry, che non era stato in grado di ricostituire
@@ -2750,7 +2768,7 @@ La bacchetta di Harry si alzò, mettendo a fuoco il signor Goyle, la mente
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Luminos\SpecialChar softhyphen
@@ -2780,7 +2798,7 @@ i\SpecialChar softhyphen
 nos
 \emph default
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2832,11 +2850,11 @@ magia
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il generale è sveglio!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò qualcuno, e Harry sbatté le palpebre e mise a fuoco in quella direzione.
@@ -2901,33 +2919,33 @@ o freddamente a Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dov'è il quinto soldato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse un ragazzo il cui nome Harry non riusciva al momento a ricordare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho lanciato un Incantesimo soporifero contro lo scudo ed è rimbalzato e
  ha colpito Lavender, voglio dire l'angolo non sarebbe dovuto essere quello
  giusto ma l'ha fatto comunque…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2938,15 +2956,15 @@ Draco stava facendo un sorrisetto all'interno dello scudo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fammi indovinare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry guardando Draco direttamente negli occhi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 quel fantastico piccolo trio è la formazione usata dai maghi militari profession
@@ -2957,7 +2975,7 @@ isti? Composti da soldati addestrati che possono facilmente colpire bersagli
 tuoi
 \emph default
  soldati?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2968,16 +2986,16 @@ Il sorrisetto era scomparso dal volto di Draco, che ora era duro e arcigno.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sai
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con leggerezza, sapendo che nessuno degli altri avrebbe compreso
  il reale messaggio che passava tra loro due, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 serve proprio per dimostrare che devi sempre mettere in discussione tutto
@@ -2985,7 +3003,7 @@ serve proprio per dimostrare che devi sempre mettere in discussione tutto
  fatto, e se abbia o meno senso che anche tu lo faccia in un certo contesto.
  Non dimenticare di applicare quel consiglio alla vita reale, tra parentesi.
  E grazie per i bersagli raggruppati e che si muovevano lentamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3015,7 +3033,7 @@ corrette
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non hai ancora 
@@ -3023,16 +3041,16 @@ Non hai ancora
 vinto
 \emph default
 , generale Potter!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sbraitò Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse consumeremo tutto il tempo, e i professor Quirrell sancirà il pareggio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3059,20 +3077,20 @@ E Harry non poteva prendersela col professor Quirrell per non aver ancora
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualcuno sa qualcosa dell'incantesimo di protezione del generale Malfoy?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3110,20 +3128,20 @@ A Harry venne l'idea di usare Wingardium Leviosa per ammucchiare pesanti
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sono cose come incantesimi specializzati di perforazione degli scudi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3215,11 +3233,11 @@ Poco dopo, i Legionari del Caos udirono il suono di dita che schioccavano,
  seguito dal rumore di un crepitio proveniente da sotto la coperta.
  Lo scudo iniziò a risplendere più intensamente, e la voce di Harry disse,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non distraetevi, per favore, occhi sul generale Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3257,7 +3275,7 @@ Tutti i suoi soldati erano ancora lì e gettavano freneticamente occhiate
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3265,22 +3283,22 @@ Tutti i suoi soldati erano ancora lì e gettavano freneticamente occhiate
 Contego
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, e i suoi soldati fecero lo stesso, ma Harry non sapeva neppure
  in quale direzione lo scudo sarebbe dovuto essere puntato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualcuno ha visto da dov'è venuto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Scossero la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E generale Malfoy, ti dispiacerebbe dirmi se 
@@ -3288,26 +3306,26 @@ E generale Malfoy, ti dispiacerebbe dirmi se
 tu
 \emph default
  hai eliminato il generale Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco acidamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3326,15 +3344,15 @@ La mente di Harry iniziò a calcolare, Draco all'interno dello scudo, Draco
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sai, generale Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry ad alta voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 avresti dovuto davvero aspettare ad attaccare fino a dopo che avessi combattuto
@@ -3344,7 +3362,7 @@ avresti dovuto davvero aspettare ad attaccare fino a dopo che avessi combattuto
 tutti
 \emph default
  i superstiti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3372,7 +3390,7 @@ E fu allora che il canto spaventoso, inquietante e allegro iniziò a salire,
 \end_layout
 
 \begin_layout Quote
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3386,7 +3404,7 @@ Non spaventarti, non esser mesto,
 Ti faremo male solo se sei molesto,…
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3407,7 +3425,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3415,12 +3433,12 @@ status open
 Granger ha barato!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sbottò Draco da dentro lo scudo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha risvegliato i suoi soldati! Perché il professor Quirrell
@@ -3428,44 +3446,44 @@ Ha risvegliato i suoi soldati! Perché il professor Quirrell
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fammi indovinare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la nausea che già rimestava nel suo stomaco.
  Odiava davvero perdere.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È stata una battaglia molto facile, giusto? Cadevano come mosche?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Li abbiamo abbattuti tutti al primo attacco
@@ -3494,19 +3512,19 @@ L'espressione di sconvolta comprensione si diffuse da Draco ai Legionari
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non li abbiamo abbattuti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3517,33 +3535,33 @@ Figure mimetizzate stavano apparendo dagli spazi tra gli alberi.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Alleati?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Alleati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce del generale Granger, e una spirale di energia verde divampò
@@ -3593,16 +3611,16 @@ davvero
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è un trucco, no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, lo sforzo ora evidente nella sua voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3617,7 +3635,7 @@ Deve
 Nessuno è così bravo in tutto!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3632,29 +3650,29 @@ Il generale Granger diede un'occhiata ai suoi Soldati Raggio di sole, poi
 
 \begin_layout Standard
 E il generale Granger disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Posso fare qualunque cosa se studio abbastanza intensamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Aah, ora questa è una str–
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3662,7 +3680,7 @@ Aah, ora questa è una str–
 Somnium.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3673,7 +3691,7 @@ Harry crollò al suolo a metà frase.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3681,7 +3699,7 @@ Harry crollò al suolo a metà frase.
 Sunshine vince
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , intonò l'enorme voce del professor Quirrell, che sembrava arrivare da
@@ -3689,18 +3707,18 @@ Sunshine vince
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La dolcezza ha trionfato!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò il generale Granger.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3708,7 +3726,7 @@ La dolcezza ha trionfato!
 Urrà!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  urlarono i Soldati Raggio di sole.
@@ -3716,18 +3734,18 @@ Urrà!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E qual è la morale della battaglia di oggi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il generale Granger.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3735,7 +3753,7 @@ E qual è la morale della battaglia di oggi?
 Possiamo fare qualunque cosa se studiamo abbastanza intensamente!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
