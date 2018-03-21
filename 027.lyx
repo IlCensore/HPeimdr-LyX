@@ -60,9 +60,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Linux Libertine O"
+\font_roman "default" "Warnock Pro"
 \font_sans "default" "Linux Biolinum O"
-\font_typewriter "default" "Inconsolata"
+\font_typewriter "default" "Tlwg Mono"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
@@ -70,7 +70,7 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
+\use_microtype true
 \use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
@@ -78,7 +78,7 @@ initials
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize custom
 \use_geometry true
@@ -118,8 +118,8 @@ initials
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style swiss
-\dynamic_quotes 0
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -144,6 +144,7 @@ name "chap:27Empatia"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Non era un giorno qualunque, quello in cui vedevi Harry Potter supplicare.
 \end_layout
 
@@ -159,7 +160,7 @@ Per favooore
 \begin_inset Quotes crd
 \end_inset
 
-, gemette Harry Potter.
+, gemette Harry.
 \end_layout
 
 \begin_layout Standard
@@ -181,7 +182,7 @@ detto
 \emph on
 sono autorizzato
 \emph default
- a dirvi del Cappello Smistatore o della Rimodella o del professor Snape…
+ a dirvi del Cappello Smistatore o della Ricordella o del professor Snape…
 \begin_inset Quotes crd
 \end_inset
 
@@ -325,8 +326,8 @@ Harry Potter segretamente fidanzato con Luna Lovegood
 \end_layout
 
 \begin_layout Standard
-Chiunque avessero assoldato, glielo avrebbe raccontato una volta che la
- prescrizione fosse scaduta, sperarono disperatamente.
+Chiunque avessero assoldato, glielo avrebbe raccontato una volta che il
+ divieto di divulgazione fosse scaduto, sperarono disperatamente.
  Ma nel frattempo era terribile, avevano realizzato il loro più grande scherzo
  di sempre, forse il più grande scherzo nella storia degli scherzi, e 
 \emph on
@@ -382,7 +383,10 @@ Harry
 \end_layout
 
 \begin_layout Standard
-Non fu sorprendente che Rita Skeeter e il redattore della Gazzetta del Profeta
+Non era sorprendente che Rita Skeeter e il redattore della 
+\emph on
+Gazzetta del Profeta
+\emph default
  fossero entrambi svaniti e fossero probabilmente in un altro paese, ormai.
  
 \emph on
@@ -534,7 +538,7 @@ infine
 \end_layout
 
 \begin_layout Standard
-Per imparare la contromossa, l'Occlumanzia, il primo passo era immaginarsi
+Per imparare la contromossa, l'Occlumanzia, il primo passo era immaginare
  di essere una persona differente, fingere quanto meglio si fosse capaci,
  immergersi interamente nella personalità alternativa.
  Non avresti dovuto farlo per sempre, ma all'inizio era questo il modo in
@@ -569,9 +573,9 @@ Occlumante perfetto
 \emph on
 anticipo
 \emph default
- rispetto a ogni tentativo, rispondendo alle interrogazioni tanto velocemente
- quanto ti erano poste, così che il Legilimens avrebbe attraversato le tue
- superfici e avrebbe visto una mente indistinguibile da chiunque stessi
+ rispetto a ogni tentativo, rispondendo ai tentativi di indagine tanto rapidamen
+te quanto erano formulati, così che il Legilimens avrebbe attraversato le
+ tue superfici e avrebbe visto una mente indistinguibile da chiunque stessi
  pretendendo di essere.
 \end_layout
 
@@ -663,13 +667,13 @@ una volta
 \emph on
 una volta
 \emph default
-, Harry non era stato imbrogliato a proposito dei poteri misteriosi.
+, Harry non era stato imbrogliato a proposito dei suoi poteri misteriosi.
 \end_layout
 
 \begin_layout Standard
 Dopo quasi un mese di lavoro, e più per un capriccio che per un effettivo
  presentimento, Harry aveva deciso di farsi prendere dalla rabbia gelida
- e poi di riprovare gli esercizio del libro di Occlumanzia.
+ e poi di riprovare gli esercizi del libro di Occlumanzia.
  A quel punto aveva quasi abbandonato ogni speranza a riguardo, ma gli era
  comunque sembrato che valesse la pena fare un rapido tentativo
 \begin_inset space ~
@@ -705,7 +709,7 @@ Severus fece una pausa, sembrando alquanto soddisfatto di sé stesso.
 \emph default
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Da Capitolo 18
@@ -835,6 +839,10 @@ Mi scusi, signor Potter, è un bene che lei conosca i suoi pregi, ma questo
  in piedi una barriera di Occlumanzia funzionante al suo primo tentativo.
  Questo è semplicemente ridicolo.
  Ha sentito qualcosa mentre leggevo la sua mente?
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1044,7 +1052,7 @@ Harry sospirò e guardò in basso verso il proprio orologio.
 \begin_inset Quotes cld
 \end_inset
 
-E così
+Dunque
 \begin_inset Quotes crd
 \end_inset
 
@@ -1432,7 +1440,7 @@ lui
 \begin_inset Quotes cld
 \end_inset
 
-Corri, Harry!
+Scappa, Harry!
 \begin_inset Quotes crd
 \end_inset
 
@@ -1528,7 +1536,7 @@ Uhm
 \begin_inset Quotes cld
 \end_inset
 
-Posso semplicemente andarmene e seguirlo e lasciare 
+Posso andarmene e seguirlo e lasciare 
 \emph on
 a te
 \emph default
@@ -1682,7 +1690,7 @@ Povero me, e io che pensavo che lei dovesse essere perspicace.
  o li detesta così tanto da non provarci nemmeno? Se i punteggi del Quidditch
  non contassero per la Coppa delle Case allora nessuno di loro sarebbe affatto
  interessato ai punti-Casa.
- Sarebbe semplicemente una oscura competizione per studenti come lei e la
+ Sarebbe semplicemente un'oscura competizione per studenti come lei e la
  signorina Granger.
 \begin_inset Quotes crd
 \end_inset
@@ -1815,7 +1823,7 @@ Era un completo idiota.
 \begin_inset Quotes cld
 \end_inset
 
-Cos'
+Cosa 
 \emph on
 è 
 \emph default
@@ -2192,7 +2200,7 @@ Mungo's.
 \begin_inset Quotes cld
 \end_inset
 
-Non è per niente una ragione
+Non sono neppure una ragione
 \begin_inset Quotes crd
 \end_inset
 
@@ -2285,10 +2293,6 @@ Infatti
 
 , disse Severus Snape, e disse a Harry quando e dove i Grifondoro progettavano
  di giocare la loro prossima partitina.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -2553,7 +2557,7 @@ So cosa significa.
 \end_inset
 
  Non sapeva da dove fossero venute le parole.
- Sembrava troppo forte, come qualcosa che Harry Potter avrebbe detto.
+ Sembrava troppo sfacciato, simile a qualcosa che Harry Potter avrebbe detto.
 \end_layout
 
 \begin_layout Standard
@@ -2568,7 +2572,7 @@ Il tremito continuò, però.
 \emph on
 Chi
 \emph default
- pensi di essere 
+ credi di essere 
 \emph on
 tu?
 \emph default
@@ -2582,7 +2586,7 @@ tu?
 \begin_layout Standard
 
 \emph on
-Io sono Neville, l'ultimo rampollo della Nobile e Antichissima Casa Longbottom
+Io sono Neville, ultimo rampollo della Nobile e Antichissima Casa Longbottom
 \emph default
 
 \begin_inset space ~
@@ -2607,7 +2611,7 @@ traditore
 \begin_inset Quotes crd
 \end_inset
 
-, disse uno degli altri Grifondoro, e vi fu un improvvisa sensazione cedimento
+, disse uno degli altri Grifondoro, e vi fu un'improvvisa sensazione cedimento
  nello stomaco di Neville.
 \end_layout
 
@@ -2659,7 +2663,7 @@ Il male è male
 \begin_inset Quotes cld
 \end_inset
 
-e se sei amico del male, anche tu sei male.
+e se tu e il male siete amici, anche tu sei malvagio.
 \begin_inset Quotes crd
 \end_inset
 
@@ -2959,11 +2963,11 @@ Carl
 \begin_inset Quotes cld
 \end_inset
 
-Forse dovremmo andare
+Forse dovremmo andare.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3051,11 +3055,11 @@ La bocca del capobanda si aprì per lo stupore.
 \begin_inset Quotes cld
 \end_inset
 
-Eeh
+Eep
 \begin_inset Quotes crd
 \end_inset
 
-, disse uno degli altri Grifondoro in una voce dal tono alto, e girò su
+, fece uno degli altri Grifondoro con una voce dal tono alto, e girò su
  sé stesso e corse via, svoltando l'angolo.
  I suoi passi ticchettarono rapidamente via spegnendosi.
 \end_layout
@@ -3256,9 +3260,9 @@ tu
 \end_layout
 
 \begin_layout Standard
-Neville sapeva che Harry Potter lo diceva soltanto, per cercare di farlo
- sentire orgoglioso, eppure diede inizio ad una sensazione di calore nel
- suo petto.
+Neville sapeva che Harry Potter lo diceva solo per dire, per cercare di
+ farlo sentire orgoglioso, eppure fece nascere una sensazione di calore
+ nel suo petto.
 \end_layout
 
 \begin_layout Standard
@@ -3609,14 +3613,14 @@ Che–?
 \begin_inset Quotes crd
 \end_inset
 
- disse Harry, sembrando completamente confuso.
+ fece Harry, sembrando completamente confuso.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes cld
 \end_inset
 
-Non ero riconoscente quando mi hai salvato
+Non ti sono stato riconoscente quando mi hai salvato
 \begin_inset space ~
 \end_inset
 
@@ -3699,7 +3703,7 @@ Harry aveva dato le spalle a Neville, e stava guardando fuori dalla finestra
 \end_layout
 
 \begin_layout Standard
-Un pensiero completamente ridicolo venne a Neville.
+A Neville venne in mente un pensiero completamente ridicolo.
  
 \begin_inset Quotes cld
 \end_inset
@@ -3785,7 +3789,7 @@ Il Ragazzo-Che-È-Sopravvissuto si girò e guardò nuovamente Neville.
 Fare?
 \emph default
  No.
- Sentirmi in colpa per non farlo? Sì.
+ Sentirmi in colpa se non lo faccio? Sì.
 \begin_inset Quotes crd
 \end_inset
 
