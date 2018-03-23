@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -46,8 +46,6 @@
 \usepackage{shapepar} %paragrafi con una certa forma
 \usepackage{url}%url lunga
 \renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
-
-\usepackage{microtype}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -69,6 +67,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -98,6 +98,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -112,7 +113,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -153,7 +157,7 @@ name "chap:15Coscienziosità"
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -161,7 +165,7 @@ name "chap:15Coscienziosità"
 Frigideiro!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -281,11 +285,11 @@ Harry guardò Hermione.
  Nello schema delle cose, era il ruolo scontato per lei… «Hermione?» Harry
  disse timidamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai mica idea di cosa sto sbagliando?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -339,7 +343,7 @@ Non mi importa se si tratta di concorrenza sleale.
 \begin_layout Standard
 «La Trasfigurazione è una delle magie più complesse e pericolose che imparerete
  a Hogwarts
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
@@ -450,12 +454,12 @@ bianca (EY, 2014-09-30)
 
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sono molte ragioni per cui Trasfigurazione è pericolosa, ma una ragione
  domina su tutte le altre.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Tirò fuori una penna d'oca con una spessa estremità
@@ -665,11 +669,11 @@ Questo è ben chiaro a ogni singolo studente?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dissero o mormorarono o sussurrarono.
@@ -680,6 +684,17 @@ Sì
 ne durante tutta la vostra permanenza a Hogwarts.
  Ripetete con me.
  Non Trasfigurerò mai nulla in un liquido o in un gas.»
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Citato in cap.
+ 28.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -698,6 +713,17 @@ ne durante tutta la vostra permanenza a Hogwarts.
 \begin_layout Standard
 «Non Trasfigurerò mai nulla che sembri del cibo o qualunque altra cosa che
  finisce all'interno di un corpo umano.»
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Citato in cap.
+ 28.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
