@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{31}
@@ -45,7 +47,6 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-\usepackage{microtype}
 \frenchspacing
 \widowpenalties 2 10000 0
 \clubpenalty 10000
@@ -61,36 +62,48 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Gill Sans Std
-\font_typewriter Inconsolata
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "Fira Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 85
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
-\default_output_format pdf5
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -105,7 +118,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -130,53 +146,54 @@ name "chap:32Interludio"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\noindent
+\begin_inset Quotes cld
 \end_inset
 
 Ma Preside
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, parte della sua disperazione che trapelò nella sua voce,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 lasciare tutti i miei beni patrimoniali in un unico deposito non diversificato
- pieno di monete d'oro -- è folle, Preside! È come, non so, fare esperimenti
+ pieno di monete d'oro – è folle, Preside! È come, non so, fare esperimenti
  di Trasfigurazione senza consultare un'autorità riconosciuta! Non si fanno
  queste cose col denaro!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Dal volto rugoso del vecchio mago -- sotto un cappello da ricorrenza festiva
+Dal volto rugoso del vecchio mago – sotto un cappello da ricorrenza festiva
  simile a una catastrofica collisione automobilistica tra macchine di tessuto
- verde e rosso -- un'espressione seria e triste fece capolino indirizzata
+ verde e rosso – un'espressione seria e triste fece capolino indirizzata
  a Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace, Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e ti chiedo scusa, ma permetterti di controllare le tue finanze ti darebbe
- troppa libertà di azione
-\begin_inset Quotes frd
+ troppa libertà di azione.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -185,15 +202,15 @@ La bocca di Harry si aprì e non ne uscì alcun suono.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti permetterò di prelevare cinque galeoni per i regali di Natale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che è più di quanto qualsiasi ragazzo della tua età dovrebbe spendere, ma
@@ -201,15 +218,15 @@ che è più di quanto qualsiasi ragazzo della tua età dovrebbe spendere, ma
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -217,12 +234,12 @@ che è più di quanto qualsiasi ragazzo della tua età dovrebbe spendere, ma
 Non posso credere che l'abbia detto davvero!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  le parole esplosero dalla bocca di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -230,23 +247,23 @@ Non posso credere che l'abbia detto davvero!
 Ammette
 \emph default
  di essere così manipolatorio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Manipolatorio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il vecchio mago, sorridendo appena.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, sarei manipolatorio se 
@@ -257,33 +274,19 @@ non
  È piuttosto semplice, Harry.
  Non sei ancora in grado di giocare la partita, e sarebbe folle permetterti
  di gestire migliaia di galeoni con i quali potresti rovesciare il tavolo
- da gioco
-\begin_inset Quotes frd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
+ da gioco.
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
 
 \end_inset
 
@@ -303,8 +306,8 @@ sgargianti
  che gli occhi erano aggrediti quasi altrettanto severamente quanto le orecchie;
  ed era chiaro, dalla sconcertante varietà degli acquirenti, che Diagon
  Alley era considerata un'attrazione internazionale.
- C'erano streghe bendate come mummie in gigantesche fasciature di tessuto,
- e maghi in cappelli a cilindro formali e accappatoio, e giovani bambini
+ C'erano streghe avvolte in grandi fasce di tessuto simili a mummie in accappato
+io, e maghi in cappelli a cilindro formali e accappatoio, e giovani bambini
  appena in grado di camminare che erano decorati con luci che brillavano
  quasi quanto i negozi stessi, mentre i genitori li portavano per mano attravers
 o quel magico paese delle meraviglie e permettevano loro di strillare a
@@ -319,11 +322,11 @@ E nel mezzo di tutta quella luce e vivacità, una nota della notte più nera;
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, con un'espressione di sgradevole disgusto,
@@ -331,11 +334,11 @@ No
  orribile, ma che era moralmente ripugnante, tanto per cominciare.
  Era il genere di aspetto arcigno che una persona ordinaria avrebbe potuto
  assumere dopo aver affondato i denti in un polpettone, e scoperto che era
- marcio e fatto con dei gattini.
+ marcio e fatto con carne di gattini.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, 
@@ -343,58 +346,58 @@ Oh,
 suvvia
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Deve avere 
 \emph on
-una qualche
+qualche
 \emph default
- idea
-\begin_inset Quotes frd
+ idea.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, le sue labbra disposte in una linea sottile,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ho accettato di fungere da suo guardiano in questa escursione.
  Non ho accettato di darle dei consigli sulla sua scelta di regali.
- Non festeggio il Natale, signor Potter
-\begin_inset Quotes frd
+ Non festeggio il Natale, signor Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E il Natale di Newton?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse allegramente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Isaac Newton nacque 
@@ -402,11 +405,11 @@ Isaac Newton nacque
 davvero
 \emph default
  il 25 dicembre, a differenza di qualche altra figura storica che potrei
- nominare
-\begin_inset Quotes frd
+ nominare.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -414,46 +417,46 @@ La cosa non impressionò il professor Quirrell.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ascolti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace, ma devo trovare qualcosa di 
 \emph on
 speciale
 \emph default
- per Fred e George e non ho idea delle mie opzioni
-\begin_inset Quotes frd
+ per Fred e George e non ho idea delle mie opzioni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Il professor Quirrell produsse un ronzio pensieroso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrebbe chiedere quali membri della loro famiglia detestino maggiormente,
  e poi assoldare un assassino.
  Conosco un membro di un certo governo in esilio che è alquanto competente,
- e che le farebbe uno sconto sull'assassinio di più Weasley
-\begin_inset Quotes frd
+ e che le farebbe uno sconto sull'assassinio di più Weasley.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -461,22 +464,22 @@ Potrebbe chiedere quali membri della loro famiglia detestino maggiormente,
 Questo
 \emph default
  Natale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry abbassando la voce ad un registro più grave, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 fai ai tuoi amici il dono… della 
 \emph on
 morte
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -485,19 +488,19 @@ Quello fece sorridere il professor Quirrell.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-almeno non ha suggerito di prendere loro un topo domestico --
-\begin_inset Quotes frd
+almeno non ha suggerito di prendere loro un topo domestico –
+\begin_inset Quotes crd
 \end_inset
 
  la bocca di Harry si chiuse di scatto, e si rammaricò per quelle parole
@@ -505,39 +508,38 @@ almeno non ha suggerito di prendere loro un topo domestico --
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scusi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il professor Quirrell.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nulla
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse subito Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-una storia lunga e stupida
-\begin_inset Quotes frd
+una storia lunga e stupida.
+\begin_inset Quotes crd
 \end_inset
 
-.
  E raccontarla sembrava in qualche modo sbagliato, forse perché Harry temeva
  che il professor Quirrell avrebbe riso anche se Bill Weasley 
 \emph on
 non fosse
 \emph default
- stato curato e tutto rimesso a posto…
+ stato curato e completamente recuperato…
 \end_layout
 
 \begin_layout Standard
@@ -551,15 +553,15 @@ dov'era stato
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Senta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sto cercando di 
@@ -577,7 +579,7 @@ consolidare la loro lealtà nei miei confronti
 molto
 \emph default
  grati…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  la voce di Harry andò a spegnersi in maniera invitante.
@@ -591,25 +593,25 @@ Queste cose bisogna solo promuoverle nel modo giusto.
 Camminarono per un bel pezzo prima che il professor Quirrell parlasse ancora,
  la sua voce che praticamente trasudava disgusto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I gemelli Weasley usano bacchette di seconda mano, signor Potter.
- Si ricorderebbero della sua generosità ad ogni Incantesimo che lanciassero
-\begin_inset Quotes frd
+ Si ricorderebbero della sua generosità ad ogni Incantesimo che lanciassero.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry batté le mani in un'involontaria eccitazione.
  Mettere il denaro a loro nome presso Ollivander, e dire al signor Ollivander
- di non rimborsarlo mai -- no, ancora meglio, di mandarlo a Lucius Malfoy
+ di non rimborsarlo mai – no, ancora meglio, di mandarlo a Lucius Malfoy
  se i gemelli Weasley non si fossero presentati prima dell'inizio del loro
  prossimo anno scolastico.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È 
@@ -617,7 +619,7 @@ Harry batté le mani in un'involontaria eccitazione.
 brillante
 \emph default
 , professore!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -626,32 +628,31 @@ brillante
 \begin_layout Standard
 Il professor Quirrell non sembrò apprezzare il complimento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo di poter tollerare il Natale con 
 \emph on
 quello
 \emph default
- spirito, signor Potter, sebbene solo a malapena
-\begin_inset Quotes frd
+ spirito, signor Potter, sebbene solo a malapena.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Poi accennò un sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Naturalmente questo le costerà quattordici galeoni, e lei ne ha solo cinque
-\begin_inset Quotes frd
+Naturalmente questo le costerà quattordici galeoni, e lei ne ha solo cinque.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -659,23 +660,23 @@ Naturalmente questo le costerà quattordici galeoni, e lei ne ha solo cinque
 Cinque
 \emph default
  galeoni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry storcendo il naso per lo sdegno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Con chi pensa di avere a che fare, il Preside?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Credo che semplicemente non gli sia capitato di temere le conseguenze del
@@ -689,19 +690,19 @@ fatto
  se non mi fossi girato annoiato dall'altra parte mentre lei, in una fitta
  di puerile stizza, si è messo a contare uno a uno gli zellini per un valore
  di cinque galeoni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, il modo più semplice sarebbe stato prendere a prestito del denaro da
  Draco Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -710,14 +711,14 @@ Beh, il modo più semplice sarebbe stato prendere a prestito del denaro da
 \begin_layout Standard
 Il professor Quirrell rise sommessamente per un breve istante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Sia serio, signor Potter
-\begin_inset Quotes frd
+Sia serio, signor Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -727,16 +728,15 @@ Ne prendo debitamente nota
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Probabilmente avrei fatto qualche apparizione come celebrità.
- Non avrei fatto ricorso a qualcosa di economicamente dirompente solo per
- delle piccole spese
-\begin_inset Quotes frd
+ Non avrei fatto ricorso a qualcosa di economicamente dannoso solo per delle
+ piccole spese.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Harry aveva controllato, e gli 
 \emph on
 sarebbe
@@ -776,57 +776,57 @@ quindi era stato molto contento quando il professor Quirrell era risultato
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spero davvero che quei cinque galeoni siano sufficienti, dato che li ha
  contati così attentamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dubito che il Preside sarà così sollecito nell'affidarmi la chiave del suo
- deposito una seconda volta, quando avrà scoperto che sono stato imbrogliato
-\begin_inset Quotes frd
+ deposito una seconda volta, quando avrà scoperto che sono stato imbrogliato.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono sicuro che ha fatto del suo meglio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con profonda gratitudine.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha bisogno di assistenza per trovare un luogo sicuro in cui custodire tutti
  quegli zellini, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, più o meno.
  Conosce qualche buona opportunità di investimento, professor Quirrell?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
