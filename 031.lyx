@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{30}
@@ -57,36 +59,48 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Gill Sans Std
-\font_typewriter Inconsolata
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "Fira Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 85
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
-\paperfontsize 12
+\paperfontsize 11
 \spacing single
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -101,7 +115,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -143,8 +160,8 @@ Conseguenze
 \begin_layout Standard
 \noindent
 Harry percorreva avanti e indietro il suo ufficio da generale, che fungeva
- splendidamente da stanza per camminare, non avendo nessun altro uso per
- quanto ne sapesse lui.
+ splendidamente da stanza per camminare, non avendo nessun altro uso a lui
+ conosciuto.
 \end_layout
 
 \begin_layout Standard
@@ -194,13 +211,13 @@ Ad Harry mancava qualcosa, qualcosa davvero importante, e la sua mente girava
 Alla fine sospirò.
  Non stava andando da nessuna parte su quella faccenda, e doveva imparare
  la Fattura Perforante da Hermione o da qualcun altro prima della prossima
- battaglia -- il professor Quirrell aveva spiegato a Harry, la voce divertita
+ battaglia – il professor Quirrell aveva spiegato a Harry, la voce divertita
  ma con una netta venatura di minaccia, che 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 nessun oggetto magico eccetto quelli che vi fornisco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  includeva la tecnologia babbana, non importava che quella 
@@ -217,26 +234,12 @@ Le battaglie valevano molti punti-Quirrell se eri un generale, e Harry doveva
  darsi da fare se voleva vincere il desiderio di Natale del professor Quirrell.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -262,7 +265,7 @@ Come?
 \end_layout
 
 \begin_layout Standard
-A posteriori era stato un tipo di idea tanto ovvia quanto lo sono i piani
+A posteriori era stato un genere di idea tanto ovvia quanto lo sono i piani
  astuti, ma 
 \emph on
 non era previsto
@@ -310,19 +313,19 @@ rivelato
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Draco disse ad alta voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Noto che sono confuso
-\begin_inset Quotes frd
+Noto che sono confuso.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -364,8 +367,8 @@ Perciò, probabilmente non l'aveva fatto.
 \begin_layout Standard
 
 \emph on
-Prometto di non aiutare il generale Granger in qualunque modo di cui voi
- due non siate a conoscenza
+Prometto di non aiutare il generale Granger in nessun modo di cui voi due
+ non siate a conoscenza
 \emph default
 .
 \begin_inset Note Note
@@ -390,7 +393,7 @@ Ed era lì.
 \end_layout
 
 \begin_layout Standard
-Proprio nella lista di persone e di equipaggiamento assegnato a ciascuno
+Proprio nella lista di persone e di equipaggiamenti assegnati a ciascuno
  dei tre eserciti.
 \end_layout
 
@@ -415,10 +418,10 @@ vista
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -431,132 +434,118 @@ vista
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
+La luce del sole pomeridiano si riversava nell'ufficio del Sunshine Regiment,
+ illuminando il generale Granger nella sua sedia come se risplendesse di
+ un'aura dorata.
 \end_layout
 
 \begin_layout Standard
-La luce del sole pomeridiano si riversava giù nell'ufficio del Sunshine
- Regiment, illuminando il generale Granger nella sua sedia come se risplendesse
- di un'aura dorata.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quanto ci vorrà a Malfoy per capirlo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il generale Granger.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non molto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse il colonnello Blaise Zabini.
+, rispose il colonnello Blaise Zabini.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrebbe averlo già fatto.
  Quanto ci vorrà a Potter per capirlo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'eternità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il generale Granger, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 a meno che Malfoy non glielo dica, o che uno dei suoi soldati non lo capisca.
- Harry Potter semplicemente non pensa in quella maniera
-\begin_inset Quotes frd
+ Harry Potter semplicemente non pensa in quella maniera.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Davvero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il capitano Ernie Macmillan, alzando lo sguardo da uno dei tavoli
  all'angolo al quale veniva stracciato a scacchi dal capitano Ron Weasley.
  (Avevano riportato indietro tutte le altre sedie dopo che Malfoy se n'era
  andato, ovviamente.) 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio dire, mi sembra alquanto ovvio.
  Chi vorrebbe provare a trovare tutte le idee da solo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Hermione esattamente nell'istante in cui Zabini disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Malfoy
-\begin_inset Quotes frd
+Malfoy.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Malfoy pensa di essere decisamente migliore di chiunque altro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò Zabini.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E Harry… non 
@@ -564,7 +553,7 @@ E Harry… non
 vede
 \emph default
  la maggior parte delle altre persone in quel modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
@@ -584,50 +573,50 @@ veniva in mente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ad ogni modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capitani Goldstein e Weasley, avete il compito di formulare idee strategiche
  per la nostra prossima battaglia.
- Capitani Macmillan e Susan -- scusatemi, volevo dire Macmillan e Bones
- -- provate ad escogitare qualche tattica che potremmo usare, e anche qualunque
+ Capitani Macmillan e Susan – scusatemi, volevo dire Macmillan e Bones –
+ provate ad escogitare qualche tattica che potremmo usare, e anche qualunque
  addestramento che pensate potremmo provare.
  Oh, e complimenti per la sua canzone da marcia, capitano Goldstein, credo
  che sia stato un notevole extra per l'
 \emph on
 esprit de corps
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa farà lei?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Susan.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E il colonnello Zabini?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -636,7 +625,7 @@ E il colonnello Zabini?
 \begin_layout Standard
 Hermione si alzò dalla sedia, stiracchiandosi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cercherò di capire cosa stia pensando Harry Potter e il colonnello Zabini
@@ -644,18 +633,18 @@ Cercherò di capire cosa stia pensando Harry Potter e il colonnello Zabini
  nuovamente a voi dopo che saremo venuti a capo di qualcosa.
  Farò due passi mentre penso.
  Zabini, vuoi venire con me?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, Generale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse rigidamente Zabini.
@@ -663,7 +652,7 @@ Sì, Generale
 
 \begin_layout Standard
 Non l'aveva inteso come un ordine.
- Hermione sospirò a sé stessa.
+ Hermione sospirò un po' tra sé e sé.
  Ci sarebbe voluto un po' per abituarsi, e sebbene la prima idea di Zabini
  aveva certamente funzionato, non era 
 \emph on
