@@ -13,10 +13,10 @@
 
 \renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
 \makepagestyle{myheadings}
-  \makeevenhead{myheadings}{\thechapter\ ·\ \leftmark}{}{}
-  \makeoddhead{myheadings}{}{}{\thepage}
-  \makeevenfoot{myheadings}{}{}{}
-  \makeoddfoot{myheadings}{}{}{}
+  \makeevenhead{myheadings}{Capitolo \thechapter\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{\textit{Harry James Potter-Evans-Verres \& la Legione del Caos}}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
 
 \makechapterstyle{hpmor}{%
   \chapterstyle{default}
@@ -48,16 +48,16 @@
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
 %\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
-\usepackage[activate={true,nocompatibility},final,factor=1100,stretch=10,shrink=10]{microtype}
+%\usepackage[activate={true,nocompatibility},final,factor=1100,stretch=10,shrink=10]{microtype}
 % activate={true,nocompatibility} - activate protrusion and expansion
 % final - enable microtype; use "draft" to disable
 % tracking=true, kerning=true, spacing=true - activate these techniques
 % factor=1100 - add 10% to the protrusion amount (default is 1000)
 % stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
-\frenchspacing
 \widowpenalties 2 10000 0
 \clubpenalty=10000
 \raggedbottom
+\usepackage[super]{nth}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -69,9 +69,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "EB Garamond"
-\font_sans "default" "Gill Sans Std"
-\font_typewriter "default" "Inconsolata"
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "UM Typewriter"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
@@ -79,15 +79,15 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
+\use_microtype true
 \use_dash_ligatures false
 \graphics default
-\default_output_format pdf5
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing other 1.15
 \use_hyperref false
 \papersize custom
 \use_geometry true
@@ -127,8 +127,8 @@ initials
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style swiss
-\dynamic_quotes 0
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -161,6 +161,7 @@ name "chap:30Lavorare-gruppi_I"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Il giorno era domenica 3 novembre, e presto le tre grandi potenze del loro
  anno scolastico, Harry Potter, Draco Malfoy e Hermione Granger, avrebbero
  iniziato la lotta per il dominio supremo.
@@ -168,8 +169,8 @@ Il giorno era domenica 3 novembre, e presto le tre grandi potenze del loro
 
 \begin_layout Standard
 (Harry era leggermente infastidito dal modo in cui il Ragazzo-Che-È-Sopravvissut
-o era stato retrocesso dal dominio supremo a uno dei tre rivali eguali solo
- iscrivendosi alla competizione, ma si aspettava di riottenerlo presto.)
+o era stato retrocesso dal predominio supremo a uno dei tre rivali eguali
+ solo iscrivendosi alla competizione, ma si aspettava di riottenerlo presto.)
 \end_layout
 
 \begin_layout Standard
@@ -185,7 +186,7 @@ Tutti gli studenti che non erano effettivamente
 arruolati
 \emph default
  in un esercito del primo anno erano accampati nelle vicinanze e osservavano
- attraverso degli schermi messi su dal professor Quirrell.
+ attraverso degli schermi eretti dal professor Quirrell.
  Fatta eccezione per tre Grifondoro del quarto anno, che erano al momento
  ammalati e confinati nei letti guaritori da Madam Pomfrey.
  A parte loro, tutti erano lì.
@@ -197,8 +198,8 @@ Gli studenti non indossavano le loro vesti scolastiche d'ordinanza, ma uniformi
  e rifornito in quantità sufficiente e in una varietà di taglie adatta a
  tutti.
  Il problema non era che gli studenti si sarebbero preoccupati di macchie
- e strappi, a quello servivano gli Incantesimi.
- Ma come il professor Quirrell aveva spiegato ai sorpresi nati maghi, vesti
+ e strappi, gli Incantesimi servivano a quello.
+ Ma come il professor Quirrell aveva spiegato ai sorpresi nati-maghi, vesti
  eleganti e dignitose non erano efficaci per nascondersi nelle foreste o
  per schivare nelle vicinanze degli alberi.
 \end_layout
@@ -213,7 +214,7 @@ piccola
  toppa.
  Se volevi che i tuoi soldati indossassero, diciamo, fasce colorate in modo
  da potersi riconoscere a distanza, e rischiare che il nemico mettesse le
- mani sulle fasce, stava al tuo giudizio.
+ mani sulle tue fasce, stava al tuo giudizio.
 \end_layout
 
 \begin_layout Standard
@@ -225,8 +226,8 @@ Dragon Army
 \end_layout
 
 \begin_layout Standard
-Draco ebbe una crisi di rabbia e disse che avrebbe decisamente confuso tutti
- quanti.
+A Draco era venuto un colpo e aveva detto che avrebbe decisamente confuso
+ tutti quanti.
 \end_layout
 
 \begin_layout Standard
@@ -243,11 +244,11 @@ Quello probabilmente non era un buon segno.
 \end_layout
 
 \begin_layout Standard
-Come loro insegna, invece della scontata testa di drago che soffia fuoco,
- Draco aveva scelto di optare per delle fiamme.
+Come loro insegna, invece della scontata testa di drago sputa-fuoco, Draco
+ aveva optato per delle fiamme.
  Elegante, velato, mortale: 
 \emph on
-Questo è quello che resta dopo il nostro passaggio
+Questo è ciò che resta dopo il nostro passaggio
 \emph default
 .
  Molto Malfoy.
@@ -456,11 +457,11 @@ universalmente
 \end_layout
 
 \begin_layout Standard
-Harry aveva calorosamente suggerito a Hermione che i giovani ragazzi che
- servivano sotto di lei fossero probabilmente nervosi per il fatto che fosse
- una ragazza con la fama di essere gentile, e che avrebbe dovuto scegliere
- qualcosa di spaventoso che li avrebbe rassicurati circa la sua tempra e
- li rendesse orgogliosi si essere parte del suo esercito, come 
+Harry aveva seriamente avvisato Hermione che i giovani ragazzi che servivano
+ sotto di lei fossero probabilmente nervosi per il fatto che fosse una ragazza
+ con la fama di essere gentile, e che avrebbe dovuto scegliere qualcosa
+ di spaventoso che li avrebbe rassicurati circa la sua tempra e li rendesse
+ orgogliosi si essere parte del suo esercito, come 
 \emph on
 Blood Commandos
 \emph default
@@ -596,8 +597,8 @@ Harry osservò i suoi ventitré soldati, tutti che indossavano le stesse uniform
 \end_layout
 
 \begin_layout Standard
-Ed ecco, Harry sorrise, perché comprese in cosa consisteva questa parte
- del piano magistrale del professor Quirrell; e Harry lo stava sfruttando
+Ed ecco, Harry sorrise, perché aveva compreso in cosa consisteva quella
+ parte del piano magistrale del professor Quirrell; e Harry lo stava sfruttando
  pienamente anche per i 
 \emph on
 propri
@@ -633,8 +634,8 @@ scoppiasse
 
 \begin_layout Standard
 L'ostilità era iniziata nel momento in cui i due gruppi erano venuti a conoscenz
-a ciascuno dell'esistenza dell'altro all'interno del parco nazionale, gli
- insulti che erano stati lanciati già al primo incontro.
+a l'uno dell'esistenza dell'altro all'interno del parco nazionale, furono
+ lanciati insulti già al primo incontro.
  Si erano dati il nome di Aquile e di Crotali (non avevano avuto bisogno
  di darsi dei nomi quando avevano pensato di essere i soli all'interno del
  parco) e avevano proseguito sviluppando degli stereotipi di gruppo contrastanti
@@ -694,10 +695,10 @@ non
 \end_layout
 
 \begin_layout Standard
-Erano cose come questa che rassicuravano Harry che il professor Quirrell,
- malgrado la sua artificiosa aria Oscura e la sua pretesa di neutralità
- nel conflitto tra Bene e Male, stesse segretamente sostenendo il Bene,
- anche se Harry non l'avrebbe mai detto ad altra voce.
+Erano cose come quella che rassicuravano Harry che il professor Quirrell,
+ malgrado la sua artefatta aria Oscura e la sua pretesa di neutralità nel
+ conflitto tra Bene e Male, stesse segretamente sostenendo il Bene, anche
+ se Harry non l'avrebbe mai detto ad altra voce.
 \end_layout
 
 \begin_layout Standard
@@ -874,11 +875,10 @@ Vi voglio in volo l'istante in cui sentiamo la campana
 \end_inset
 
 Non ingaggiate, ripeto, non ingaggiate il nemico.
- Se sotto il fuoco, effettuate manovre di evasione
+ Se sotto il fuoco, effettuate manovre di evasione.
 \begin_inset Quotes crd
 \end_inset
 
-.
  (Ovviamente 
 \emph on
 non si lanciavano
@@ -895,7 +895,7 @@ Capo rosso e Rosso cinque, volate verso l'esercito di Malfoy il più velocemente
  Capo verde, fai la stessa cosa con l'esercito di Granger.
  Verde quarantuno, vola sopra di noi e fai attenzione a qualunque scopa
  o soldato nemico si avvicini, tu e soltanto tu sei autorizzata a fare fuoco.
- E ricordate, non ho detto `Merlino dice' per nessuno di questi ordini,
+ E ricordate, non ho detto ``Merlino dice'' per nessuno di questi ordini,
  ma abbiamo 
 \emph on
 davvero
@@ -955,31 +955,13 @@ avessero
 \begin_layout Standard
 Ma il generale Granger era quella imprevedibile, e Harry non poteva muoversi
  prima di sapere come si sarebbe mossa lei.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1123,31 +1105,13 @@ Ricordate tutto ciò che io e il signor Crabbe e il signor Goyle vi abbiamo
 \end_inset
 
 .
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1218,31 +1182,13 @@ almeno ci siamo divertiti
  Grazie, grazie a tutti voi.
  E ricordate, il nostro obiettivo non è solo abbattere il nemico, è terrorizzarl
 o.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1255,31 +1201,13 @@ Un gigantesco gong rimbombante echeggiò per la foresta.
 
 \begin_layout Standard
 E il Sunshine Regiment iniziò a marciare.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1476,36 +1404,18 @@ Va bene
 \end_inset
 
 Attenderemo fino al rapporto dello Stormo rosso, e poi andremo a oscurare
- un po' di Raggi di sole
+ un po' di Raggi di sole.
 \begin_inset Quotes crd
-\end_inset
-
-.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
 
 \end_inset
 
@@ -1535,31 +1445,13 @@ Poi Draco comprese.
 \begin_layout Standard
 Una delle due forze dei Raggi di sole avrebbe cambiato direzione, ed entrambe
  avrebbero effettuato una manovra convergente su… chi?
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1584,11 +1476,11 @@ Harry aveva detto molte cose a Neville in privato, iniziando con
 Sai, Neville, se vuoi diventare così fantastico come il Neville immaginario
  che vive nella tua testa ma a cui non è permesso fare nulla perché sei
  spaventato, allora dovresti davvero arruolarti negli eserciti del professor
- Quirrell
+ Quirrell.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1771,25 +1663,11 @@ immaginazione che diveniva realtà,
 e dalle sue labbra sgorgava una temibile canzone di sventura.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1872,32 +1750,18 @@ Che una cosa sia chiara a tutti, questo non è stato un vero combattimento.
  Il vero combattimento oggi è contro il Dragon Army e non sarà affatto come
  questo.
  Sarà molto più divertente.
- Muoviamoci
+ Muoviamoci.
 \begin_inset Quotes crd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	scale 50
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
 
 \end_inset
 
@@ -1956,11 +1820,11 @@ No
 Combattere sopra il loro esercito è un vantaggio troppo grande in loro favore,
  faranno fuoco su di te da terra e persino tu potresti non essere in grado
  di schivarli tutti.
- Aspetta fin quando le forze non ingaggeranno
+ Aspetta fin quando le forze non ingaggeranno.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2005,31 +1869,13 @@ Disciplina contro Caos.
 
 \begin_layout Standard
 Non sarebbe dovuto essere un combattimento troppo impegnativo.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -2055,11 +1901,11 @@ Ci stiamo avvicinando
 \begin_inset Quotes cld
 \end_inset
 
-È il momento di sparpagliarsi
+È il momento di sparpagliarsi.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2107,11 +1953,11 @@ Alzare gli scudi
 \begin_inset Quotes cld
 \end_inset
 
-potenza ai deflettori frontali
+potenza ai deflettori frontali.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2609,31 +2455,13 @@ Neville del Caos! Affrontatemi se osa–
 \begin_layout Standard
 (Quando in seguito Neville si svegliò, gli fu riferito che il Dragon Army
  aveva preso quello come il segnale del contrattacco.)
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -2808,25 +2636,11 @@ nos
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -3002,11 +2816,11 @@ serve proprio per dimostrare che devi sempre mettere in discussione tutto
  ciò che vedi fare ai tuoi modelli comportamentali, e chiederti perché viene
  fatto, e se abbia o meno senso che anche tu lo faccia in un certo contesto.
  Non dimenticare di applicare quel consiglio alla vita reale, tra parentesi.
- E grazie per i bersagli raggruppati e che si muovevano lentamente
+ E grazie per i bersagli raggruppati e che si muovevano lentamente.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3049,11 +2863,11 @@ vinto
 \begin_inset Quotes cld
 \end_inset
 
-Forse consumeremo tutto il tempo, e i professor Quirrell sancirà il pareggio
+Forse consumeremo tutto il tempo, e i professor Quirrell sancirà il pareggio.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3236,11 +3050,11 @@ Poco dopo, i Legionari del Caos udirono il suono di dita che schioccavano,
 \begin_inset Quotes cld
 \end_inset
 
-Non distraetevi, per favore, occhi sul generale Malfoy
+Non distraetevi, per favore, occhi sul generale Malfoy.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3324,11 +3138,11 @@ Sì
 \begin_inset Quotes cld
 \end_inset
 
-mi dispiace
+mi dispiace.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3361,11 +3175,11 @@ avresti dovuto davvero aspettare ad attaccare fino a dopo che avessi combattuto
 \emph on
 tutti
 \emph default
- i superstiti
+ i superstiti.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3523,11 +3337,11 @@ No
 \begin_inset Quotes cld
 \end_inset
 
-non li abbiamo abbattuti
+non li abbiamo abbattuti.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3568,25 +3382,11 @@ Bene
  fuori dal bosco e mandò in frantumi lo scudo di Draco.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -3653,11 +3453,11 @@ E il generale Granger disse,
 \begin_inset Quotes cld
 \end_inset
 
-Posso fare qualunque cosa se studio abbastanza intensamente
+Posso fare qualunque cosa se studio abbastanza intensamente.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
