@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{33}
@@ -57,25 +59,27 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Gill Sans Std
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Vollkorn [UKWN]"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
-\default_output_format pdf5
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing onehalf
 \use_hyperref false
-\papersize custom
+\papersize default
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -96,6 +100,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -110,7 +115,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -143,23 +151,23 @@ name "chap:34Problemi-coord-II"
 \end_layout
 
 \begin_layout Standard
-Minerva e Dumbledore avevano applicato il loro talento combinato per far comparire
- il grande palco verso cui ora Quirrell arrancava lentamente; era, al suo
- interno, di legno robusto, ma le superfici esterne brillavano di luccicante
- marmo intarsiato di platino e tempestato di gemme dei colori di ciascuna
- Casa.
+\noindent
+Minerva e Dumbledore avevano combinato il loro talento per erigere il grande
+ palco verso cui ora Quirrell arrancava lentamente; era, al suo interno,
+ di legno robusto, ma le superfici esterne brillavano di luccicante marmo
+ intarsiato di platino e tempestato di gemme dei colori di ciascuna Casa.
  Né lei né il Preside erano minimamente all'altezza dei Fondatori di Hogwarts,
  ma l'illusione doveva durare solo poche ore.
  Normalmente Minerva si godeva quelle rare occasioni in cui aveva l'opportunità
- di stancarsi con vaste Trasfigurazioni; ma questa volta aveva portato a
- termine il proprio lavoro con l'orribile sensazione di stare scavando la
- propria tomba.
+ di stancarsi con vaste Trasfigurazioni; ma questa volta aveva completato
+ il proprio lavoro con l'orribile sensazione di star scavando la propria
+ fossa.
 \end_layout
 
 \begin_layout Standard
 Ma Minerva si stava sentendo un po' meglio, ora.
- C'era stato un breve momento in cui l'esplosione sarebbe potuta arrivare;
- ma Dumbledore era già in piedi e stava applaudendo calorosamente, e nessuno
+ C'era stato un breve momento in cui sarebbe potuta avvenire l'esplosione;
+ ma Dumbledore era già stato in piedi ad applaudire calorosamente, e nessuno
  si era dimostrato abbastanza folle da insorgere di fronte al Preside.
 \end_layout
 
@@ -175,25 +183,11 @@ Blaise Zabini aveva fatto fuoco su sé stesso in nome di Sunshine, e il punteggi
  finale era stato 254 a 254 a 254.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -202,14 +196,14 @@ status open
 
 \begin_layout Standard
 Dietro il palco, in attesa di salire, tre bambini si stavano fissando l'un
- l'altro con furia mischiata a frustrazione.
+ l'altro con rabbia mista a frustrazione.
  Non aiutava che fossero ancora umidi per essere stati ripescati dal lago,
  e che gli Incantesimi di Riscaldamento non sembrassero sufficienti a compensare
  la frizzante aria di dicembre, o forse era semplicemente il loro umore.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Basta 
@@ -217,12 +211,12 @@ Basta
 così
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Granger.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ce la faccio 
@@ -230,34 +224,34 @@ Non ce la faccio
 più!
 \emph default
  Basta traditori!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono completamente d'accordo con lei, signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse glaciale Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Quel che è troppo è troppo
-\begin_inset Quotes frd
+Quel che è troppo è troppo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E cosa pensate di farci, 
@@ -265,23 +259,23 @@ E cosa pensate di farci,
 voi due?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  reagì Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il professor Quirrell ha già detto che non proibirà le spie!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le proibiremo noi 
@@ -289,7 +283,7 @@ Le proibiremo noi
 per lui
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse risolutamente Draco.
@@ -298,28 +292,14 @@ per lui
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -331,10 +311,10 @@ Il palco era davvero ben realizzato, quanto meno per una struttura temporanea;
  i costruttori non erano caduti nella solita trappola di essere impressionati
  dalla propria illusione di opulenza, e sapevano qualcosa di architettura
  e di stili visivi.
- Da dove Draco si trovava, nel luogo naturale in cui sarebbe dovuto essere,
- gli studenti che guardavano l'avrebbero visto circondato dall'aura debolmente
- luccicante degli smeraldi; e Granger, in piedi lì dove Draco le aveva fatto
- impercettibilmente segno di andare, sarebbe stata circondata dall'aura
+ Lì dove Draco si trovava, nel posto scontato in cui sarebbe dovuto essere,
+ gli studenti che guardavano l'avrebbero visto con un'aureola formata dal
+ tenue luccichio degli smeraldi; e Granger, in piedi lì dove Draco le aveva
+ fatto impercettibilmente segno di andare, sarebbe stata circondata dall'aura
  degli zaffiri di Corvonero.
  Per quanto riguardava Harry Potter, Draco non lo stava osservando in quel
  momento.
@@ -352,23 +332,23 @@ Il professor Quirrell si era… risvegliato, o qualunque cosa fosse quello
 \begin_layout Standard
 Infine il professor Quirrell alzò lo sguardo dalle buste.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Bene
-\begin_inset Quotes frd
+Beh
+\begin_inset Quotes crd
 \end_inset
 
-, disse il Professore di Difesa.
+, fece il Professore di Difesa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Questo è seccante
-\begin_inset Quotes frd
+Questo è seccante.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -376,53 +356,53 @@ Un leggero risolino attraversò la folla, con una sfumatura pungente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Suppongo che tutti voi stiate chiedendovi cosa farò, giusto? Non ho molta
- scelta; dovrò fare ciò che è giusto.
- Sebbene prima ci sia un discorsetto che vorrei fare, e prima di quello,
+Suppongo che vi stiate tutti chiedendo cosa farò, giusto? Non ho molta scelta;
+ dovrò fare ciò che è giusto.
+ Sebbene prima ci sia un piccolo discoro che vorrei fare, e prima di quello,
  mi pare che il signor Malfoy e la signorina Granger abbiano qualcosa da
- condividere
-\begin_inset Quotes frd
+ condividere.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Draco sbatté le palpebre, poi lui e Granger si scambiarono rapide occhiate
- -- 
+ – 
 \emph on
 posso?
 \emph default
- -- 
+ – 
 \emph on
 certo, fai pure
 \emph default
- -- e Draco alzò la voce.
+ – e Draco alzò la voce.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il generale Granger e io vorremmo dichiarare entrambi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco nel suo tono più formale, sapendo che era amplificato e udibile,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che non accetteremo più l'aiuto di alcun traditore.
  E se, in qualsiasi battaglia, scoprissimo che Potter ha accettato traditori
- dai nostri eserciti, uniremo le nostre forze per schiacciarlo
-\begin_inset Quotes frd
+ dai nostri eserciti, uniremo le nostre forze per schiacciarlo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -433,24 +413,24 @@ Incassa questo, Generale Chaos!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono pienamente d'accordo col generale Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Granger in piedi accanto a lui, la sua voce chiara e forte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nessuno di noi due si avvarrà di traditori, e se il generale Potter lo farà,
- lo spazzeremo via dal campo di battaglia
-\begin_inset Quotes frd
+ lo spazzeremo via dal campo di battaglia.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -458,54 +438,53 @@ Vi fu un mormorio di sorpresa proveniente dagli studenti che osservavano.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Molto bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il loro Professore di Difesa, sorridendo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-C'è voluto davvero molto, a voi due, ma comunque bisogna congratularsi con
- voi per averci pensato prima di ogni altro generale
-\begin_inset Quotes frd
+Vi ci è voluto davvero molto, ma comunque bisogna congratularsi con voi
+ per averci pensato prima di ogni altro generale.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Ci volle un momento prima che fosse assimilato
+Ci volle un momento prima di comprenderlo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In futuro, signor Malfoy, signorina Granger, prima di venire nel mio ufficio
- con una richiesta qualunque, considerate se per voi c'è un modo di ottenerla
- senza il mio aiuto.
+ con una richiesta qualunque, valutate se c'è un modo di ottenerla senza
+ il mio aiuto.
  Non dedurrò punti-Quirrell in questa occasione, ma la prossima volta potreste
- aspettarvi di perderne l'intera cinquantina
-\begin_inset Quotes frd
+ aspettarvi di perderne l'intera cinquantina.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il professor Quirrell mostrava un ghigno divertito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E cos'ha da dire a proposito, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -523,15 +502,15 @@ controllato
 \begin_layout Standard
 Infine Harry Potter parlò, la sua voce piatta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La Chaos Legion è ancora felice di accettare traditori.
- Ci vediamo sul campo di battaglia
-\begin_inset Quotes frd
+ Ci vediamo sul campo di battaglia.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -543,16 +522,16 @@ Draco sapeva che lo stupore era palese sul proprio volto; ci furono mormorii
 \begin_layout Standard
 Il volto di Granger era arrabbiato, e diventava sempre più arrabbiato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse con un tono tagliente, come se pensasse di essere un insegnante,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sta per caso 
@@ -560,23 +539,23 @@ sta per caso
 cercando
 \emph default
  di essere odioso?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Quasi certamente no
-\begin_inset Quotes frd
+Certamente no
+\begin_inset Quotes crd
 \end_inset
 
 , disse con calma Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non vi costringerò a farlo tutte le volte.
@@ -588,14 +567,13 @@ Non vi costringerò a farlo tutte le volte.
  Sapete, dubito che Hermione Granger, la più brillante stella accademica
  di Hogwarts, e Draco, figlio di Lucius, rampollo della Nobile e Antichissima
  Casa Malfoy, possano lavorare insieme per sconfiggere il loro nemico comune,
- Harry Potter
-\begin_inset Quotes frd
+ Harry Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Un sorriso divertito attraversò il volto di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse farò ciò che Draco ha provato con Zabini, e scriverò una lettera a
@@ -603,15 +581,15 @@ Forse farò ciò che Draco ha provato con Zabini, e scriverò una lettera a
 \emph on
 lui
 \emph default
- pensa di tutto questo
-\begin_inset Quotes frd
+ pensa di tutto questo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -619,7 +597,7 @@ lui
 Harry!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Granger, sembrando assolutamente sconcertata, e molti nel pubblico
@@ -628,7 +606,7 @@ Harry!
 
 \begin_layout Standard
 Draco controllò la rabbia che scorreva dentro di sé.
- Quella era stata una mossa 
+ Era stata una mossa 
 \emph on
 stupida
 \emph default
@@ -645,11 +623,11 @@ ora
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se pensi che mio padre, Lord Malfoy, possa essere manipolato così facilmente
@@ -658,18 +636,18 @@ Se pensi che mio padre, Lord Malfoy, possa essere manipolato così facilmente
 te
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse gelidamente Draco, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-riceverai una sorpresa, Harry Potter
-\begin_inset Quotes frd
+riceverai una sorpresa, Harry Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -688,37 +666,37 @@ non avrebbe
 \emph on
 davvero
 \emph default
- stato un sincero infortunio, ma era strano pensare di averlo fatto.
+ stato un errore ingenuo, ma era strano pensare di averlo fatto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora datevi da fare e sconfiggete il cattivo Generale Chaos
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, sembrando ancora divertito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non posso vincere contro entrambi i vostri eserciti -- non se lavorerete
+Non posso vincere contro entrambi i vostri eserciti – non se lavorerete
  
 \emph on
 davvero
 \emph default
  insieme.
- Ma mi chiedo se per caso posso farvi rompere prima di allora
-\begin_inset Quotes frd
+ Ma mi chiedo se per caso posso farvi rompere prima di allora.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ci riuscirai, e noi ti 
@@ -726,7 +704,7 @@ Non ci riuscirai, e noi ti
 schiacceremo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco Malfoy.
@@ -737,75 +715,74 @@ E a fianco a lui, Hermione Granger annuì fermamente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell dopo che il silenzio sbalordito si fu protratto
  per un po'.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Questo 
+Non era 
 \emph on
-non era
+così
 \emph default
- il modo in cui mi aspettavo che questa conversazione andasse
-\begin_inset Quotes frd
+ che mi aspettavo che andasse questa conversazione.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il Professore di Difesa sembrava piuttosto intrigato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In verità, signor Potter, mi aspettavo che lei ammettesse la sconfitta immediata
 mente e con un sorriso, e poi annunciasse che aveva compreso da tempo la
  lezione che volevo impartire ma che aveva deciso di non rovinarla agli
  altri.
- In effetti, avevo scritto il mio discorso in questo senso, signor Potter
-\begin_inset Quotes frd
+ In effetti, avevo scritto il mio discorso in questo senso, signor Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry Potter si limitò ad alzare le spalle.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, e null'altro.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, non si preoccupi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Anche questo sarà utile
-\begin_inset Quotes frd
+Andrà bene anche così.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -817,30 +794,30 @@ E il professor Quirrell voltò le spalle ai tre bambini, e si raddrizzò sul
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se non fosse stato per Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, la sua voce frizzante e fredda come dicembre,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Tu-Sai-Chi avrebbe vinto
-\begin_inset Quotes frd
+Tu-Sai-Chi avrebbe vinto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Il silenzio fu istantaneo, e totale.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -852,30 +829,16 @@ Il silenzio fu istantaneo, e totale.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ingannatevi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Signore Oscuro 
@@ -892,25 +855,25 @@ vincendo
  contro un Paese di migliaia.
  Questo è più che ridicolo! Non ci sono voti abbastanza bassi per giudicare
  tale incompetenza!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Il volto del preside Dumbledore si accigliò; e sui volti del pubblico vi fu
- perplessità; e il completo silenzio proseguì.
+Il volto del preside Dumbledore si accigliò; e sui volti del pubblico vi
+ fu perplessità; e il completo silenzio proseguì.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capite ora come accadde? L'avete visto oggi.
  Ho permesso i tradimenti, e non ho dato ai generali mezzi per limitarli.
  Avete visto i risultati.
- Trame intelligenti e tradimenti intelligenti, finché l'ultimo soldato rimasto
+ Complotti ingegnosi e tradimenti ingegnosi, finché l'ultimo soldato rimasto
  sul campo di battaglia non si è sparato! Non 
 \emph on
 potete
@@ -921,7 +884,7 @@ potete
 qualunque
 \emph default
  nemico esterno che fosse stato unito al suo interno.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -929,20 +892,20 @@ qualunque
 
 \begin_layout Standard
 Il professor Quirrell si chinò in avanti sul podio, la sua voce ora piena
- di una intensità triste.
+ di un'intensità triste.
  La sua mano destra si aprì, dita distese e allargate.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La divisione è debolezza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa.
  La sua mano si chiuse a pugno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'unità è forza.
@@ -965,17 +928,17 @@ uniti
 \emph default
 , contrapposti ad una terra divisa.
  Un Signore Oscuro e cinquanta Mangiamorte avrebbero sconfitto un intero
- Paese, col potere del Marchio Oscuro
-\begin_inset Quotes frd
+ Paese, col potere del Marchio Oscuro.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La voce del professor Quirrell era cupa e dura.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I vostri genitori avrebbero 
@@ -984,7 +947,7 @@ potuto
 \emph default
  ripagarli con la stessa moneta.
  Non lo fecero.
- Ci fu un uomo di nome Yermy Wibble che chiese alla nazione a istituire
+ Ci fu un uomo di nome Yermy Wibble che chiese alla nazione di istituire
  la leva, sebbene non fosse abbastanza visionario da suggerire un Marchio
  della Gran Bretagna.
  Yermy Wibble sapeva cosa gli sarebbe successo; e sperò che la sua morte
@@ -993,14 +956,13 @@ potuto
  Le loro pelli vuote non ispirarono altro che paura, e nessuno osò parlare
  ancora.
  E i vostri genitori avrebbero pagato le conseguenze della loro spregevole
- codardia, se non fossero stati salvati da un infante di un anno di vita
-\begin_inset Quotes frd
+ codardia, se non fossero stati salvati da un infante di un anno di vita.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il volto del professor Quirrell mostrò un disprezzo completo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un drammaturgo l'avrebbe chiamato un 
@@ -1011,17 +973,17 @@ deus ex machina
 \lang italian
 , poiché essi non fecero nulla per meritare la loro salvezza.
  Colui-Che-Non-Deve-Essere-Nominato potrebbe non aver meritato di vincere,
- ma non abbiate dubbi, i vostri genitori meritarono di perdere
-\begin_inset Quotes frd
+ ma non abbiate dubbi, i vostri genitori meritarono di perdere.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La voce del Professore di Difesa risuonò ferrea.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E sappiate questo: i vostri genitori non hanno imparato nulla! La nazione
@@ -1039,25 +1001,25 @@ e esposti davanti a voi oggi? Perché posso dirvi cosa faranno i vostri genitori
  quando il giorno dell'oscurità giungerà! Posso dirvi quale lezione hanno
  imparato! Hanno imparato a nascondersi come codardi e non fare nulla mentre
  aspettano che Harry Potter li salvi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Ci fu un'espressione di curiosità negli occhi del preside Dumbledore; e altri
- studenti guardarono il loro Professore di Difesa con sconcerto e rabbia
- e stupore.
+Ci fu un'espressione di curiosità negli occhi del preside Dumbledore; e
+ altri studenti guardarono il loro Professore di Difesa con sconcerto e
+ rabbia e stupore.
 \end_layout
 
 \begin_layout Standard
 Gli occhi del professor Quirrell erano ora freddi come la sua voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ricordatevi questo, e ricordatevelo con cura.
+Ricordatevi questo, e ricordatevelo bene.
  Colui-Che-Non-Deve-Essere-Nominato voleva governare questo Paese, per tenerlo
  per sempre nella sua crudele stretta.
  Ma almeno voleva governare un Paese 
@@ -1067,7 +1029,7 @@ vivo
 , non un cumulo di ceneri! Ci sono stati Signori Oscuri che erano folli,
  che desideravano solo fare del mondo una pira funebre! Ci sono state guerre
  in cui un intero Paese ha marciato contro un altro! I vostri genitori hanno
- quasi perso contro una cinquantina, che intendevano prendere questo Paese
+ quasi perso contro cinquanta nemici, che intendevano prendere questo Paese
  vivo! Quanto velocemente sarebbero stati schiacciati da un nemico più numeroso
  di loro, un nemico a cui interessasse solo la loro distruzione? Questo
  predico: quando la prossima minaccia sorgerà, Lucius Malfoy affermerà che
@@ -1077,11 +1039,11 @@ vivo
  Poiché quando il Signore Oscuro perì, Lucius Malfoy non unificò i Mangiamorte,
  essi andarono in pezzi in un istante, fuggirono come cani bastonati e si
  tradirono l'un l'altro! Lucius Malfoy non è abbastanza forte per essere
- un vero Signore, Oscuro o altro
-\begin_inset Quotes frd
+ un vero Signore, Oscuro o altro.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1090,15 +1052,15 @@ I pugni di Draco Malfoy erano così stretti da essere diventati bianchi,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non credo che sarà Lucius Malfoy a salvarvi.
@@ -1106,15 +1068,15 @@ non credo che sarà Lucius Malfoy a salvarvi.
  molto presto che non è così.
  Non vi faccio nessuna raccomandazione, miei studenti.
  Ma dico che se un intero Paese trovasse un capo così potente come il Signore
- Oscuro, ma onorevole e puro, e prendesse il suo Marchio; allora potrebbero
+ Oscuro, ma onorevole e puro, e prendesse il suo Marchio; allora potrebbe
  schiacciare qualunque Signore Oscuro come un insetto, e tutto il resto
- del nostro diviso mondo magico non potrebbe minacciarli.
+ del nostro diviso mondo magico non potrebbe minacciarlo.
  E se qualche nemico più grande si levasse contro di noi in una guerra di
- sterminio, allora solo un mondo magico unito potrebbe sopravvivere
-\begin_inset Quotes frd
+ sterminio, allora solo un mondo magico unito potrebbe sopravvivere.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1130,7 +1092,7 @@ Il Preside si alzò dalla sua sedia, il suo volto ora severo, non dicendo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non dico 
@@ -1138,12 +1100,12 @@ Non dico
 quale
 \emph default
  minaccia verrà
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma non vivrete le vostre intere vite in pace, non se la storia passata del
@@ -1156,15 +1118,15 @@ Ma non vivrete le vostre intere vite in pace, non se la storia passata del
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1172,7 +1134,7 @@ Ma non vivrete le vostre intere vite in pace, non se la storia passata del
 Ora basta!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Albus Dumbledore.
@@ -1184,46 +1146,46 @@ Ci fu silenzio.
 
 \begin_layout Standard
 Il professor Quirrell lentamente girò la testa per fissare lì dove Albus
- Dumbledore si ergeva nella furia della sua stregoneria; i loro sguardi si
- incontrarono, e una tensione senza suono premette come un peso su tutti
+ Dumbledore si ergeva nella furia della sua stregoneria; i loro sguardi
+ si incontrarono, e una tensione senza suono premette come un peso su tutti
  gli studenti, mentre ascoltavano e non osavano muoversi.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche lei ha deluso questo Paese
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-E lei conosce il pericolo tanto bene quanto me
-\begin_inset Quotes frd
+E lei conosce il pericolo tanto bene quanto me.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questi non sono discorsi per le orecchie degli studenti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore con una voce che salì pericolosamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Né per le bocche dei professori!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1231,22 +1193,22 @@ Né per le bocche dei professori!
 
 \begin_layout Standard
 Allora il professor Quirrell parlò sardonicamente: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci furono molti discorsi pronunciati per le orecchie degli adulti, mentre
  il Signore Oscuro avanzava.
  E gli adulti applaudirono ed esultarono, e se ne tornarono a casa essendosi
- goduti lo spettacolo del giorno.
+ goduti lo spettacolo giornaliero.
  Ma le obbedirò, Preside, e non farò altri discorsi che lei non gradisca.
  La mia lezione è semplice.
  Continuerò a non fare nulla riguardo ai traditori, e vederemo cosa gli
  studenti saranno in grado di fare da soli, quando non si aspettano che
- i professori li salvino
-\begin_inset Quotes frd
+ i professori li salvino.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1254,15 +1216,15 @@ E poi il professor Quirrell si rigirò verso gli studenti, la bocca contratta
  in un sorriso beffardo che sembrò dissipare la terribile pressione come
  un dio che soffiasse per disperdere le nuvole.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma per favore, siate gentili con coloro che hanno tradito fino a oggi.
- Si stavano solo divertendo
-\begin_inset Quotes frd
+ Si stavano solo divertendo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1302,7 +1264,7 @@ E ancora più strana, l'ovvia implicazione: il professor Quirrell credeva
 Harry
 \emph default
  potesse farlo.
- Il Professore di Difesa aveva affermato di non fare alcuna raccomandazione,
+ Il Professore di Difesa aveva detto di non voler fare alcuna raccomandazione,
  ma aveva menzionato Harry Potter più e più volte nel suo discorso; altri
  avrebbero già pensato la stessa cosa di Draco.
 \end_layout
@@ -1314,7 +1276,7 @@ Era ridicolo.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1329,7 +1291,7 @@ Il ragazzo che ha fronteggiato Snape e ha vinto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1342,7 +1304,7 @@ o contro la sua famiglia adottiva
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1373,22 +1335,22 @@ E poi ci fu un rinnovato silenzio da parte della folla, mentre il professor
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-il suo desiderio è che… Serpeverde vinca la Coppa delle Case
-\begin_inset Quotes frd
+il suo desiderio è che… Serpeverde vinca la Coppa delle Case.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1396,46 +1358,46 @@ Ci fu una pausa confusa da parte del pubblico.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, professore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco con voce chiara, sapendo che era nuovamente amplificata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se non può farlo, allora qualcos'altro per Serpeverde
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non assegnerò ingiustamente punti-Casa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  Si batté la guancia, sembrando pensieroso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il che rende il suo desiderio sufficientemente difficile da essere interessante.
  Vorrebbe dire qualcosa sulla sua motivazione, signor Malfoy?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1453,27 +1415,27 @@ Draco distolse lo sguardo dal Professore di Difesa e guardò in direzione
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Sono Serpeverde, capiranno
-\begin_inset Quotes frd
+Sono Serpeverde, capiranno.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1491,21 +1453,21 @@ Draco si girò nuovamente per guardare il professor Quirrell, e fu sorpreso
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E per quanto riguarda la signorina Granger…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il professor Quirrell.
  Ci fu il suono di una busta strappata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il suo desiderio è che… Corvonero vinca la Coppa delle Case?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1517,26 +1479,25 @@ Ci furono molte risate dal pubblico, inclusa una risatina di Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Granger, sembrando come se stesse improvvisamente incespicando durante
  un discorso mandato a memoria, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 volevo dire che…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-.
  Fece un respiro profondo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'erano soldati da ogni Casa nel mio esercito, e non intendo mancare loro
@@ -1550,47 +1511,47 @@ C'erano soldati da ogni Casa nel mio esercito, e non intendo mancare loro
  e Helga Tassofrasso crearono le quattro Case di Hogwarts, in primo luogo.
  Sono il generale di Sunshine, ma ancora prima sono Hermione Granger di
  Corvonero, e sono orgogliosa di far parte di una Casa che è antica di ottocento
- anni
-\begin_inset Quotes frd
+ anni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ben detto, signorina Granger!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce rimbombante di Dumbledore.
 \end_layout
 
 \begin_layout Standard
-Harry Potter era accigliato, e qualcosa si mosse lievemente ai margini della
- capacità di riconoscimento di Draco.
+Harry Potter era accigliato, e qualcosa fece un lieve solletico ai margini
+ della capacità di riconoscimento di Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un sentimento interessante, signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma ci sono momenti in cui è bene che un Serpeverde abbia amici in Corvonero,
  o che un Grifondoro abbia amici in Tassofrasso.
- Sicuramente sarebbe meglio se potesse fare affidamento sia sui suoi amici
- della sua Casa, sia sui suoi amici del suo esercito, vero?
-\begin_inset Quotes frd
+ Sicuramente sarebbe meglio se potesse fare affidamento sia sugli amici
+ della sua Casa, sia sugli amici del suo esercito, vero?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1607,15 +1568,15 @@ Il professor Quirrell annuì, come rivolto a sé stesso, e poi si girò verso
  Al fianco di Draco, Harry Potter divenne visibilmente teso mentre il Professore
  di Difesa estrasse la pergamena.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E il signor Potter desidera che
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1632,11 +1593,11 @@ Poi, senza alcun mutamento di espressione sul suo volto, la pergamena proruppe
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La prego di limitarsi al possibile, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, sembrando molto brusco.
@@ -1654,23 +1615,23 @@ In nome di Merlino, cos'ha chiesto?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spero davvero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che abbia formulato un altro desiderio, se non avessi potuto concederle
- quello
-\begin_inset Quotes frd
+ quello.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1680,26 +1641,25 @@ Ci fu un'altra pausa.
 \begin_layout Standard
 Harry fece un respiro profondo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-ma ne ho già pensato un altro
-\begin_inset Quotes frd
+ma ne ho già pensato un altro.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Harry Potter si girò per guardare il pubblico, e la sua voce divenne ferma
  mentre parlava.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La gente ha paura dei traditori a causa del danno diretto che il traditore
@@ -1715,31 +1675,31 @@ La gente ha paura dei traditori a causa del danno diretto che il traditore
  Ho detto loro di agire nel modo che avrebbe creato la maggiore sfiducia
  e confusione, e obbligato i generali a intraprendere le azioni più costose
  per cercare di impedir loro di farlo di nuovo.
- Quando ci sono solo pochi traditori e un intero Paese che si oppone loro,
- è ragionevole pensare che ciò che pochi traditori possono fare possa essere
- meno dannoso di ciò che l'intero Paese fa per fermarli, che la cura possa
- essere peggiore della malattia
+ Quando ci sono solo pochi traditori e un intero Paese che gli si oppone,
+ è ragionevole pensare che ciò che pochi traditori possono fare sia meno
+ dannoso di ciò che l'intero Paese fa per fermarli, che la cura possa essere
+ peggiore della malattia
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa, la sua voce improvvisamente tagliente,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 la lezione della storia è che lei si sbaglia.
@@ -1758,30 +1718,30 @@ non
 Ha
 \emph default
  un desiderio da esprimere, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se non le dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce mite di Albus Dumbledore, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 mi piacerebbe sentire ciò che il Ragazzo-Che-È-Sopravvissuto ha da dire.
- Ha molta più esperienza di chiunque altro tra noi nel porre fine alle guerre
-\begin_inset Quotes frd
+ Ha molta più esperienza di chiunque altro tra noi nel porre fine alle guerre.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1792,7 +1752,7 @@ Alcune persone risero, ma non molte.
 Lo sguardo di Harry Potter si spostò su Dumbledore, e sembrò per un momento
  cogitabondo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sto dicendo che ha torto, professor Quirrell.
@@ -1809,46 +1769,46 @@ anche
  Se si è divisi si è vulnerabili in un certo modo; ma quando cerchi di unirti,
  allora hai di fronte altri rischi, e altre penalizzazioni, e anche il nemico
  cercherà di sfruttarli.
- Non può fermarsi a pensare solo ad un livello della partita
-\begin_inset Quotes frd
+ Non può fermarsi a pensare solo ad un livello della partita.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Anche la semplicità ha molto di cui essere elogiata, signor Potter
-\begin_inset Quotes frd
+Anche la semplicità ha grandi meriti, signor Potter
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce senza tono del Professore di Difesa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spero davvero che lei abbia imparato qualcosa oggi a proposito delle strategie
  più complicate dell'unire la sua gente e attaccare il suo nemico.
  E se tutto questo non è connesso in qualche modo col suo desiderio, sarò
- alquanto irritato
-\begin_inset Quotes frd
+ alquanto irritato.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è stato abbastanza difficile farsi venire in mente un desiderio che simbolizzi
@@ -1878,15 +1838,15 @@ prima
  stupide le regole.
  Quindi il mio desiderio, per simbolizzare cosa accade quando le persone
  si uniscono nella direzione sbagliata, è che a Hogwarts si giochi a Quidditch
- senza il Boccino
-\begin_inset Quotes frd
+ senza il Boccino.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1896,23 +1856,23 @@ Cosa?
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridarono cento voci dal pubblico, mentre la bocca di Draco rimase aperta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Boccino rovina l'intero gioco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutto ciò che fanno gli altri giocatori finisce per essere irrilevante.
@@ -1923,8 +1883,8 @@ Tutto ciò che fanno gli altri giocatori finisce per essere irrilevante.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1949,8 +1909,8 @@ Ma per allora la voce di Harry Potter non poteva più essere udita, poiché
 
 \begin_layout Standard
 Il tumulto terminò circa quindici secondi più tardi, dopo che un gigantesco
- getto di fuoco schizzò fuori dalla torre più alta di Hogwarts con il suono
- di cento tuoni.
+ getto di fuoco proruppe dalla torre più alta di Hogwarts con il suono di
+ cento tuoni.
  Draco non sapeva che Dumbledore potesse fare 
 \emph on
 quello
@@ -1959,24 +1919,23 @@ quello
 \end_layout
 
 \begin_layout Standard
-Gli studenti tornarono a sedersi con molta attenzione e calma.
+Gli studenti tornarono a sedersi molto cautamente e silenziosamente.
 \end_layout
 
 \begin_layout Standard
 Il professor Quirrell stava ridendo, senza pausa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E così sia, signor Potter.
- Sarà come desidera
-\begin_inset Quotes frd
+ Sarà come desidera.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il Professore di Difesa fece deliberatamente una pausa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Naturalmente, ho promesso 
@@ -1984,44 +1943,44 @@ Naturalmente, ho promesso
 un
 \emph default
  piano astuto.
- E questo è quello che tutti e tre voi otterrete
-\begin_inset Quotes frd
+ E questo è quello che tutti e tre voi otterrete.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-In precedenza Draco si era mezzo aspettato queste parole, ma ora giunsero
- comunque come un trauma; scambiò rapidi sguardi con Granger, sarebbero
- stati degli alleati scontati, ma i loro desideri erano in diretto contrasto
+In precedenza Draco si era mezzo aspettato quelle parole, ma quando giunsero
+ fu comunque un colpo; scambiò rapidi sguardi con Granger, sarebbero stati
+ degli alleati scontati, ma i loro desideri erano in diretto contrasto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vuole dire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che dovremo concordare un unico desiderio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, quello sarebbe chiedere 
@@ -2029,16 +1988,16 @@ Oh, quello sarebbe chiedere
 troppo
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voi tre non avete un nemico comune, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2050,22 +2009,22 @@ E per un breve momento, così veloce che Draco pensò di averlo potuto immaginar
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-voglio dire che concederò tre desideri usando un solo piano
-\begin_inset Quotes frd
+voglio dire che concederò tre desideri usando un solo piano.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2073,16 +2032,16 @@ Ci fu un silenzio confuso.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non può farlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry senza tono di fianco a Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Neppure 
@@ -2099,20 +2058,20 @@ logicamente impossibile
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  e poi Harry si interruppe.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei è troppo giovane di parecchi anni per dirmi quello che posso fare, signor
  Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, con un rapido accenno di sorriso.
@@ -2121,7 +2080,7 @@ Lei è troppo giovane di parecchi anni per dirmi quello che posso fare, signor
 \begin_layout Standard
 Poi il Professore di Difesa si rigirò verso gli studenti che osservavano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In verità, non ho fiducia nella vostra capacità di imparare la lezione di
@@ -2129,25 +2088,25 @@ In verità, non ho fiducia nella vostra capacità di imparare la lezione di
  Andate a casa, e godetevi il vostro tempo con le vostre famiglie, o quello
  che resta di esse, mentre sono ancora vivi.
  La mia famiglia è morta da molto tempo per mano del Signore Oscuro.
- Vi rivedrò tutti quando riprenderanno le lezioni
-\begin_inset Quotes frd
+ Vi rivedrò tutti quando riprenderanno le lezioni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Nel silenzio ammutolito che ne risultò, mentre il professor Quirrell si
  stava già voltando per scendere dal palco, Draco udì la voce del Professore
  di Difesa dire, sommessamente e non più amplificata, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ma a lei, signor Potter, vorrei parlare ora
-\begin_inset Quotes frd
+Ma a lei, signor Potter, vorrei parlare ora.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \end_body
