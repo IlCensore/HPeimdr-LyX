@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -87,6 +87,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -116,6 +118,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -130,7 +133,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -229,13 +235,23 @@ O
 gni centimetro delle pareti è coperto da una libreria.
  Ciascuna libreria ha sei scaffali, che arrivano quasi fino al soffitto.
  Alcuni scaffali sono pieni fino all'orlo di libri dalla copertina rigida
- impilati: scienza, matematica, storia, e tutto il resto.
+ impilati: scienza, matematica, storia e tutto il resto.
  Altri scaffali hanno due file di fantascienza brossurata, con la fila di
  libri posteriore rialzata su vecchie scatole di fazzoletti o listelli di
  legno, così che sia possibile vederla sopra i libri davanti a essa.
  E non è ancora sufficiente.
  Libri traboccano dai tavoli e dalle poltrone e formano dei mucchietti sotto
  alle finestre.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+citato in cap 36
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -268,11 +284,11 @@ Il professore e sua moglie parlano l'uno con l'altra molto bruscamente,
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stai scherzando
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Michael a Petunia.
@@ -281,21 +297,21 @@ Stai scherzando
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mia sorella era una strega
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ripeté Petunia.
  Sembrava spaventata, ma tenne duro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suo marito era un mago.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -303,16 +319,16 @@ Suo marito era un mago.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è assurdo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  affermò Michael con decisione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Erano al nostro matrimonio – sono venuti da noi a Natale
@@ -320,7 +336,7 @@ Erano al nostro matrimonio – sono venuti da noi a Natale
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -328,16 +344,16 @@ Erano al nostro matrimonio – sono venuti da noi a Natale
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avevo detto loro che tu dovevi essere tenuto all'oscuro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Petunia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma è vero, ho visto cose
@@ -345,7 +361,7 @@ Ma è vero, ho visto cose
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -355,7 +371,7 @@ Ma è vero, ho visto cose
 \align block
 Il professore alzò gli occhi al cielo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cara, capisco che tu non abbia familiarità con la letteratura scettica.
@@ -368,7 +384,7 @@ Cara, capisco che tu non abbia familiarità con la letteratura scettica.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -376,7 +392,7 @@ Cara, capisco che tu non abbia familiarità con la letteratura scettica.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non si trattava di cucchiai piegati
@@ -384,7 +400,7 @@ Non si trattava di cucchiai piegati
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -392,11 +408,11 @@ Non si trattava di cucchiai piegati
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Di cosa, allora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -406,7 +422,7 @@ Di cosa, allora?
 \align block
 Petunia si morse il labbro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non posso dirtelo.
@@ -415,12 +431,12 @@ Non posso dirtelo.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Deglutì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ascolta, Michael.
@@ -429,12 +445,12 @@ Ascolta, Michael.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Fece un gesto verso sé stessa, come a indicare la propria figura flessuosa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lily ha fatto questo.
@@ -461,7 +477,7 @@ implorata
  di usare un po' di quella magia su di me in modo che potessi essere bella
  anch'io, anche se non avrei potuto avere la sua magia, almeno sarei potuta
  essere bella.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -474,7 +490,7 @@ Lacrime stavano salendo agli occhi di Petunia.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E Lily mi rispondeva di no, e si inventava le scuse più ridicole, come che
@@ -518,15 +534,15 @@ Petunia si fermò.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ad ogni modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , riprese con voce sommessa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 cedette.
@@ -539,11 +555,11 @@ cedette.
 gentili
 \emph default
  con me
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , la sua voce si incrinò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e dopo di questo non potei più odiare mia sorella, specie quando scoprii
@@ -552,7 +568,7 @@ e dopo di questo non potei più odiare mia sorella, specie quando scoprii
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -560,15 +576,15 @@ e dopo di questo non potei più odiare mia sorella, specie quando scoprii
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cara
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Michael con gentilezza, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ti sei ammalata, hai preso peso mentre riposavi a letto, e la tua pelle
@@ -578,7 +594,7 @@ ti sei ammalata, hai preso peso mentre riposavi a letto, e la tua pelle
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -586,20 +602,20 @@ ti sei ammalata, hai preso peso mentre riposavi a letto, e la tua pelle
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Era una strega
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ripeté Petunia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ho visto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -607,17 +623,17 @@ L'ho visto.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Petunia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Michael.
  Il fastidio si stava lentamente insinuando nella sua voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu 
@@ -626,7 +642,7 @@ sai
 \emph default
  che questo non può essere vero.
  Devo realmente spiegarti perché?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -637,7 +653,7 @@ sai
 Petunia si tormentava le mani.
  Sembrava essere sul punto di piangere.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Amore mio, so che non posso vincere una discussione con te, ma ti prego,
@@ -663,7 +679,7 @@ mbox{--»}
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -671,7 +687,7 @@ mbox{--»}
 Papà! Mamma!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -687,7 +703,7 @@ I due si fermarono e guardarono Harry come se si fossero dimenticati che
 \align block
 Harry fece un respiro profondo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mamma, i 
@@ -695,7 +711,7 @@ Mamma, i
 tuoi
 \emph default
  genitori non usavano la magia, vero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -703,11 +719,11 @@ tuoi
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Petunia, l'espressione perplessa.
@@ -715,7 +731,7 @@ No
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora nessuno nella tua famiglia sapeva niente della magia quando Lily
@@ -725,7 +741,7 @@ Allora nessuno nella tua famiglia sapeva niente della magia quando Lily
 loro?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -733,17 +749,17 @@ loro?
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fece Petunia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ci mandarono solo una lettera.
@@ -767,11 +783,11 @@ mbox{--»}
 
  Gli occhi di Petunia guizzarono in direzione di Michael.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci fece vedere un po' di magia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -779,17 +795,17 @@ Ci fece vedere un po' di magia.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora non è necessario che litighiate per questo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con sicurezza.
  Sperando che quella volta, almeno quella volta, lo ascoltassero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se fosse vero, potremmo far venire qui un professore di Hogwarts e osservare
@@ -797,7 +813,7 @@ Se fosse vero, potremmo far venire qui un professore di Hogwarts e osservare
  E se non fosse così, Mamma dovrà ammettere che è falsa.
  È per questo che esiste il metodo sperimentale, per non dover prendere
  decisioni solo con le discussioni.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -808,7 +824,7 @@ Se fosse vero, potremmo far venire qui un professore di Hogwarts e osservare
 Il professore si voltò e guardò in basso verso di lui, sdegnoso come al
  solito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, andiamo, Harry.
@@ -823,7 +839,7 @@ tu
  fossi abbastanza saggio da non prendere questa cosa sul serio, figliolo,
  anche se hai solo dieci anni.
  La magia è praticamente la cosa meno scientifica che ci sia!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -862,16 +878,16 @@ A volte Harry avrebbe voluto urlare contro suo padre.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mamma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se vuoi vincere questa discussione con Papà, guarda nel secondo capitolo
@@ -892,7 +908,7 @@ La fisica di Feynman
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -902,7 +918,7 @@ La fisica di Feynman
 \align block
 Sua madre guardò giù verso di lui e sorrise.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, Harry.
@@ -925,7 +941,7 @@ mbox{--»}
 
  la sua testa si rialzò per fissare suo marito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non voglio vincere una discussione con tuo padre.
@@ -935,7 +951,7 @@ Non voglio vincere una discussione con tuo padre.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -964,22 +980,22 @@ quelle
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Andrò nella mia stanza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , annunciò Harry.
  La sua voce tremava un po'.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per favore, cercate di non litigare troppo per questa faccenda, Mamma, Papà,
  sapremo presto di che si tratta, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -987,11 +1003,11 @@ Per favore, cercate di non litigare troppo per questa faccenda, Mamma, Papà,
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Certo, Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il padre, e sua madre gli diede un bacio rassicurante, e poi continuaron
@@ -1255,20 +1271,20 @@ non litigare
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mamma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry in quel silenzio snervante, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ho intenzione di mettere alla prova l'ipotesi.
  Secondo la tua teoria, come mando un gufo a Hogwarts?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1278,11 +1294,11 @@ ho intenzione di mettere alla prova l'ipotesi.
 \align block
 Sua madre si voltò dal lavandino per fissarlo, sembrando turbata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non – non lo so, penso che tu debba semplicemente avere un gufo magico.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1300,21 +1316,21 @@ oh, quindi non c'è modo di verificare la tua teoria, allora
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, in qualche modo la lettera è arrivata qui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 quindi la porterò fuori e griderò `lettera per Hogwarts!' e vedrò se un
  gufo la preleva.
  Papà, vuoi venire a vedere?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1401,11 +1417,11 @@ No.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lettera –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, ma in realtà gli venne più simile a un gracidio sussurrato.
@@ -1414,7 +1430,7 @@ Lettera –
 \begin_layout Standard
 \align block
 Harry rinvigorì la propria volontà e gridò al cielo vuoto, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1422,7 +1438,7 @@ Harry rinvigorì la propria volontà e gridò al cielo vuoto,
 Lettera per Hogwarts! Posso avere un gufo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1430,11 +1446,11 @@ Lettera per Hogwarts! Posso avere un gufo?
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese la voce sconcertata di una donna, uno dei suoi vicini.
@@ -1453,11 +1469,11 @@ Il volto di un'anziana signora spuntò sopra la vicina staccionata, capelli
  grigi brizzolati che sfuggivano dalla retina.
  La signora Figg, saltuariamente sua bambinaia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa stai facendo, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1465,16 +1481,16 @@ Cosa stai facendo, Harry?
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nulla
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con voce strozzata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Solo – mettendo alla prova una teoria molto stupida
@@ -1499,11 +1515,11 @@ mbox{--»}
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai ricevuto la tua lettera di accettazione da Hogwarts?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1516,16 +1532,16 @@ Harry rimase paralizzato.
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dissero le labbra di Harry poco dopo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho ricevuto una lettera da Hogwarts.
@@ -1551,7 +1567,7 @@ mbox{--»}
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma tu 
@@ -1564,7 +1580,7 @@ non hai
 cosa
 \emph default
  una certa persona deve aver pensato, per mandarti solo la lettera ordinaria.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1580,19 +1596,19 @@ Un braccio rugoso si allungò da sopra la staccionata, e aprì una mano in
 
 \begin_layout Standard
 \align block
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lascia fare a me, caro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la signora Figg, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e in un attimo o due farò venire qualcuno.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1611,11 +1627,11 @@ Ci fu un lungo silenzio nel giardino.
 \begin_layout Standard
 \align block
 E poi la voce di un ragazzo disse, calma e pacata, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 

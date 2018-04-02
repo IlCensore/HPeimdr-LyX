@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{35}
@@ -57,36 +59,48 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Fredericka the Great
-\font_typewriter Inconsolata
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "Perpetua Std"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
+\paperfontsize 11
 \spacing single
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -101,7 +115,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -115,7 +132,7 @@ initials
 \begin_body
 
 \begin_layout Chapter
-Differenziali di status
+Differenziazioni di status
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:36Differenziali-status"
@@ -126,22 +143,30 @@ name "chap:36Differenziali-status"
 \end_layout
 
 \begin_layout Standard
-Un disorientamento straziante, era questo quello che si provava a uscire
- dal Binario Nove e Tre Quarti verso il resto della Terra, il mondo che
- Harry aveva una volta pensato essere l'unico mondo reale.
+\noindent
+Un disorientamento straziante, era ciò che si provava a uscire dal Binario
+ Nove e Tre Quarti verso il resto della Terra, il mondo che Harry aveva
+ una volta pensato essere l'unico mondo reale.
  Persone vestite con camicie casual e pantaloni, invece delle vesti più
  dignitose dei maghi e delle streghe.
- Accumuli di spazzatura sparsi qua e là vicino le panchine.
+ Cumuli di spazzatura sparsi qua e là vicino le panchine.
  Un odore dimenticato, i fumi della benzina combusta, crudo e tagliente
  nell'aria.
  L'atmosfera della stazione ferroviaria di King's Cross, meno luminosa e
  allegra di Hogwarts o Diagon Alley; la gente sembrava più piccola, più
  paurosa, e probabilmente avrebbe scambiato con entusiasmo i suoi problemi
  col dover affrontare un mago oscuro.
- Harry voleva lanciare Scourgify per la sporcizia, ed Everto per la spazzatura,
- e se avesse conosciuto la formula, un Incantesimo Testa-Bolla così non
- avrebbe dovuto respirare l'aria.
- Ma non poteva usare la sua bacchetta, in questo luogo…
+ Harry voleva lanciare 
+\emph on
+Scourgify
+\emph default
+ per la sporcizia, ed 
+\emph on
+Everto
+\emph default
+ per la spazzatura, e se avesse conosciuto la formula, un Incantesimo Testa-Boll
+a per non dover respirare l'aria.
+ Ma non poteva usare la sua bacchetta, in quel luogo…
 \end_layout
 
 \begin_layout Standard
@@ -150,18 +175,10 @@ Così, comprese Harry, era come ci si sentiva a passare da un Paese del Primo
 \end_layout
 
 \begin_layout Standard
-Solo era lo 
-\begin_inset Quotes fld
-\end_inset
-
-Zeresimo
-\begin_inset Quotes frd
-\end_inset
-
- mondo che Harry aveva lasciato, il mondo dei maghi, degli Incantesimi di
- Pulizia e degli elfi domestici; dove, tra le arti dei guaritori e la tua
- stessa magia, potevi raggiungere i centosettanta anni di età prima che
- la vecchiaia iniziasse a raggiungerti.
+Solo era lo ``Zeresimo'' mondo che Harry aveva lasciato, il mondo dei maghi,
+ degli Incantesimi di Pulizia e degli elfi domestici; dove, tra le arti
+ dei guaritori e la tua stessa magia, potevi raggiungere i centosettant'anni
+ di età prima che la vecchiaia iniziasse a raggiungerti.
 \end_layout
 
 \begin_layout Standard
@@ -174,9 +191,9 @@ E la Londra non magica, la Terra babbana, alla quale Harry era temporaneamente
 
 \begin_layout Standard
 Senza neppure pensarci, la testa di Harry si girò e i suoi occhi guizzarono
- dietro di lui per vedere il baule di legno che stava affrettandosi dietro
- di lui, inosservato da tutti i Babbani, i tentacoli artigliati che offrivano
- una rapida conferma che, no, non si era immaginato tutto…
+ dietro di lui per vedere il baule di legno che stava affrettandosi a seguirlo,
+ inosservato da tutti i Babbani, i tentacoli artigliati che offrivano una
+ rapida conferma che, no, non si era immaginato tutto…
 \end_layout
 
 \begin_layout Standard
@@ -200,11 +217,11 @@ Non sapevano…
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiamò una magra donna bionda la cui pelle perfettamente liscia e senza
@@ -213,7 +230,7 @@ Harry?
 \emph on
 era
 \emph default
- magia, non ne conosceva i segni prima ma li poteva vedere ora.
+ magia, non ne aveva riconosciuto i segni prima ma li poteva vedere ora.
  E qualunque genere di pozione potesse durare così a lungo, sarebbe dovuta
  essere estremamente pericolosa, perché la maggior parte delle streghe non
  l'assumevano esse stesse, non erano così disperate…
@@ -224,7 +241,7 @@ Gli occhi di Harry si stavano inumidendo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -232,15 +249,15 @@ Gli occhi di Harry si stavano inumidendo.
 Harry?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- gridò un uomo più anziano, con del grasso che si accumulava sul suo stomaco,
- vestito con ostentata noncuranza accademica con un gilet nero gettato sopra
- una camicia grigio-verde scuro, qualcuno che sarebbe sempre stato un professore
- ovunque fosse andato, che sarebbe certamente stato uno dei maghi più brillanti
- della sua generazione, se fosse nato con due copie di quel gene, invece
- di zero…
+ gridò un uomo dall'aspetto più anziano, con del grasso che gli si accumulava
+ sullo stomaco, vestito con ostentata noncuranza accademica con un gilet
+ nero gettato sopra una camicia grigio-verde scuro, qualcuno che sarebbe
+ sempre stato un professore ovunque fosse andato, che sarebbe certamente
+ stato uno dei maghi più brillanti della sua generazione, se fosse nato
+ con due copie di quel gene, invece di zero…
 \end_layout
 
 \begin_layout Standard
@@ -257,7 +274,7 @@ Lo raggiunsero, non correndo, ma con un passo regolare e dignitoso; quella
 
 \begin_layout Standard
 Il sorriso sul volto di suo padre non era molto ampio, d'altra parte suo
- padre non si concedeva mai ampi sorrisi; era, almeno, tanto ampio quanto
+ padre non si concedeva mai ampi sorrisi; era, almeno, più ampio di quanto
  Harry l'avesse mai visto, più ampio di quando arrivava un nuovo finanziamento,
  o di quando uno dei suoi studenti otteneva una nomina, e non si poteva
  chiedere un sorriso più ampio di quello.
@@ -269,20 +286,20 @@ Mamma stava sbattendo ripetutamente gli occhi, e stava cercando di sorridere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse suo padre mentre si avvicinava a grandi passi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai già fatto qualche scoperta rivoluzionaria?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -302,7 +319,7 @@ altro
 \emph on
 sapeva
 \emph default
- cosa si provava ad essere presi sul serio da persone come il preside Dumbledore
+ cosa si provava a essere presi sul serio da persone come il preside Dumbledore
  e il professor Quirrell.
 \end_layout
 
@@ -314,23 +331,23 @@ E fu in quel momento che Harry comprese che il Ragazzo-Che-È-Sopravvissuto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scusatemi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse Harry, la sua voce che tremava, 
-\begin_inset Quotes fld
+, disse Harry, la voce che tremava, 
+\begin_inset Quotes cld
 \end_inset
 
 sto per scoppiare a piangere ora, non significa che ci sia nulla che vada
- male a scuola
-\begin_inset Quotes frd
+ male a scuola.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -340,23 +357,23 @@ Harry iniziò a muoversi in avanti, e poi si fermò, indeciso tra l'abbracciare
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse suo padre, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sei un ragazzo davvero sciocco, signor Verres
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e prese gentilmente Harry per le spalle e lo spinse nelle braccia di sua
@@ -365,22 +382,21 @@ sei un ragazzo davvero sciocco, signor Verres
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ciao, Mamma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con voce tremante, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-sono tornato
-\begin_inset Quotes frd
+sono tornato.
+\begin_inset Quotes crd
 \end_inset
 
-.
  E l'abbracciò, in mezzo ai rumori meccanici e all'odore di benzina combusta;
  e Harry iniziò a piangere, perché sapeva che niente 
 \emph on
@@ -389,25 +405,11 @@ poteva
  tornare indietro, tanto meno lui.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -444,21 +446,35 @@ E poi la porta davanti si aprì e Harry entrò nel loro salotto, sbattendo
 
 \emph on
 Ogni centimetro delle pareti è coperto da una libreria.
- Ogni libreria ha sei scaffali, che arrivano quasi fino al soffitto.
- Alcuni scaffali sono pieni fino all'orlo di libri dalla copertina rigida:
- scienza, matematica, storia, e tutto il resto.
- Altri scaffali hanno due file di fantascienza brossurata, con la fila posterior
-e di libri rialzata su vecchie scatole di fazzoletti o listelli di legno,
- così che sia possibile vedere la fila posteriore sopra i libri davanti
- a essa.
- E non è ancora abbastanza.
- Libri traboccano sui tavoli e sulle poltrone e formano dei mucchietti sotto
- alle finestre…
+ Ciascuna libreria ha sei scaffali, che arrivano quasi fino al soffitto.
+ Alcuni scaffali sono pieni fino all'orlo di libri dalla copertina rigida
+ impilati: scienza, matematica, storia e tutto il resto.
+ Altri scaffali hanno due file di fantascienza brossurata, con la fila di
+ libri posteriore rialzata su vecchie scatole di fazzoletti o listelli di
+ legno, così che sia possibile vederla sopra i libri davanti a essa.
+ E non è ancora sufficiente.
+ Libri traboccano dai tavoli e dalle poltrone e formano dei mucchietti sotto
+ alle finestre...
+\emph default
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+da cap.
+ 1; nella versione inglese c'è qualche differenza, ma potrebbe essere dovuta
+ alla revisione del testo in inglese britannico, effettuata per il cap.
+ 1 ma non per questo
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-La famiglia Verres era proprio come l'aveva lasciata, solo con più libri,
- che era anche come l'aveva lasciata.
+Casa Verres era proprio come l'aveva lasciata, solo con più libri, che era
+ anche proprio come l'aveva lasciata.
 \end_layout
 
 \begin_layout Standard
@@ -473,27 +489,27 @@ aspettato lui
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Abbiamo rimosso il letto dalla tua stanza per far spazio ad altre librerie
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse suo padre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Puoi dormire nel tuo baule, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -501,23 +517,23 @@ Puoi dormire nel tuo baule, giusto?
 Tu
 \emph default
  puoi dormire nel mio baule
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A proposito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse suo padre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Poi cosa hanno 
@@ -525,22 +541,22 @@ Poi cosa hanno
 fatto
 \emph default
  per il tuo ciclo del sonno?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Magia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, andando direttamente alla porta che si apriva sulla sua camera
- da letto, giusto nel caso in cui suo Padre 
+ da letto, giusto nel caso in cui Papà 
 \emph on
 non stesse
 \emph default
@@ -548,15 +564,15 @@ non stesse
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questa non è una spiegazione!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il professor Verres-Evans, proprio mentre Harry gridò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -564,32 +580,17 @@ Questa non è una spiegazione!
 Hai usato tutto lo spazio libero sulle mie librerie?
 \emph default
 
-\begin_inset Quotes frd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
 
 \end_inset
 
@@ -601,30 +602,16 @@ Harry aveva passato il 23 dicembre acquistando oggetti babbani che non riusciva
  a Trasfigurare; suo padre era stato impegnato e aveva detto che Harry sarebbe
  avuto dovuto andare a piedi o prendere l'autobus, cosa che andava perfettamente
  bene a Harry.
- Alcune persone al negozio di ferramenta avevano indirizzato a Harry degli
- sguardi interrogativi, ma aveva detto con una voce innocente che suo padre
- stava facendo le compere lì vicino ed era molto impegnato e l'aveva mandato
- a prendere delle cose (reggendo una lista scritta attentamente con una
- calligrafia mezzo illeggibile da adulto); e in fin dei conti, i soldi erano
- soldi.
+ Alcune persone al negozio di ferramenta avevano rivolto a Harry degli sguardi
+ interrogativi, ma aveva detto con una voce innocente che suo padre stava
+ facendo le compere lì vicino ed era molto impegnato e l'aveva mandato a
+ prendere delle cose (reggendo una lista scritta attentamente con una calligrafi
+a mezzo illeggibile da adulto); e in fin dei conti, i soldi erano soldi.
 \end_layout
 
 \begin_layout Standard
 Avevano decorato l'albero di Natale insieme, e Harry aveva messo la piccola
- fata danzante sulla sommità (due sicli e cinque zellini da Gambol 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-&
-\end_layout
-
-\end_inset
-
- Japes).
+ fata danzante sulla sommità (due sicli e cinque zellini da Gambol & Japes).
 \end_layout
 
 \begin_layout Standard
@@ -632,7 +619,7 @@ Gringotts aveva prontamente cambiato i galeoni con denaro di carta, ma non
  sembrava avere alcun modo semplice di trasferire grandi quantità di oro
  in denaro babbano non sospetto ed esentasse su di un conto numerato in
  una banca svizzera.
- Questo aveva piuttosto danneggiato il piano di Harry di versare il denaro
+ Quello aveva alquanto danneggiato il piano di Harry di versare il denaro
  che si era auto-rubato in un giudizioso assortimento composto da un 60%
  di fondi indicizzati internazionali e un 40% di Berkshire Hathaway.
  Al momento, Harry aveva diversificato un po' di più i suoi beni sgattaiolando
@@ -646,19 +633,19 @@ sempre
 \end_layout
 
 \begin_layout Standard
-Parte del 24 dicembre era passato col professore che leggeva i libri di
+Parte del 24 dicembre era passato col Professore che leggeva i libri di
  Harry e poneva domande.
  La maggior parte degli esperimenti che suo padre aveva suggerito erano
  poco pratici, almeno per il momento; di quelli restanti, Harry ne aveva
  già fatti parecchi.
  (
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, Papà, ho verificato cosa sarebbe successo se a Hermione fosse stata
  data una pronuncia modificata e non avesse saputo se era stata cambiata
  o meno, è stato proprio il primo esperimento che ho fatto, Papà!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 )
@@ -675,7 +662,7 @@ Infusi e pozioni magiche
 \end_layout
 
 \begin_layout Standard
-Al che suo padre aveva dichiarato che la magia era non scientifica.
+Al che suo padre aveva dichiarato che la magia era non-scientifica.
 \end_layout
 
 \begin_layout Standard
@@ -683,8 +670,8 @@ Harry era ancora un po' scioccato all'idea di indicare una parte della
 \emph on
 realtà
 \emph default
- e definirla non scientifica.
- Suo padre sembrava pensare che il conflitto tra le sue intuizioni e l'universo
+ e definirla non-scientifica.
+ Papà sembrava pensare che il conflitto tra le sue intuizioni e l'universo
  significasse che l'universo aveva un problema.
 \end_layout
 
@@ -725,7 +712,7 @@ pensato, quella era la cosa triste.
 \begin_layout Standard
 Non che Harry avesse alcuna intenzione di lasciare che 
 \emph on
-questo
+quello
 \emph default
  accadesse, naturalmente.
 \end_layout
@@ -735,26 +722,11 @@ E poi fu la tarda giornata del 24 dicembre, e furono in viaggio verso la
  loro cena della vigilia di Natale.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
-	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -766,8 +738,9 @@ La casa era enorme, non secondo gli standard di Hogwarts, ma certamente
  secondo gli standard di ciò che avresti avuto se tuo padre fosse stato
  un eminente professore che cercava di vivere a Oxford.
  Due piani di mattoni che baluginavano al sole del tramonto, con finestre
- su finestre e una singola, alta finestra che saliva su, più alta di quanto
- dovrebbe essere un vetro, quello sarebbe stato davvero un gigantesco salotto…
+ su finestre e una singola, alta finestra che si ergeva più di quanto doveva
+ poter fare una lastra di vetro, quello doveva essere davvero un salotto
+ gigantesco…
 \end_layout
 
 \begin_layout Standard
@@ -776,11 +749,11 @@ Harry fece un respiro profondo, e suonò il campanello.
 
 \begin_layout Standard
 Ci fu una voce lontana che disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tesoro, puoi pensarci tu?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -797,64 +770,63 @@ E poi la porta si aprì per rivelare un uomo gioviale, dalle guance grassocce
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dottor Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse il padre di Harry in maniera spiccia, prima che Harry potesse persino
- parlare.
+ disse vivacemente il padre di Harry, prima che Harry potesse persino parlare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono Michael, e questi sono Petunia e nostro figlio Harry.
  Il cibo è nel baule magico
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, e Papà fece un gesto vago dietro di sé -- non proprio nella direzione
- del baule, a dire il vero.
+, e Papà fece un gesto vago dietro di sé – non proprio nella direzione del
+ baule, a dire il vero.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Certo, prego, entrate
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Leo Granger.
  Fece un passo avanti e prese la bottiglia di vino dalle mani distese del
  Professore, con un 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  biascicato, e poi fece un passo indietro e fece segno in direzione del
  salotto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Accomodatevi.
  E
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , la sua testa si girò verso il basso per rivolgersi a Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 tutti i giocattoli sono giù dabbasso in cantina, sono sicuro che Herm sarà
  giù tra poco, è la prima porta alla tua destra
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e indicò un corridoio.
@@ -866,29 +838,28 @@ Harry lo fissò appena per un momento, conscio di stare impedendo ai suoi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Giocattoli?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry con una voce argentina, gli occhi spalancati.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Adoro i giocattoli!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Ci fu un'ispirazione da parte di sua madre dietro di lui, e Harry entrò
- a grandi passi nella casa, riuscendo a non pestare troppo duramente mentre
- camminava.
+Ci fu un'inspirazione di sua madre dietro di lui, e Harry entrò a grandi
+ passi nella casa, riuscendo a non pestare troppo duramente mentre camminava.
 \end_layout
 
 \begin_layout Standard
@@ -906,45 +877,26 @@ Il salotto era tanto largo quanto era sembrato dall'esterno, con un enorme
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perbacco!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questa casa è grande! Spero di non perdermi!
-\begin_inset Quotes frd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
 
 \end_inset
 
@@ -959,15 +911,8 @@ La dottoressa Roberta Granger si sentiva piuttosto nervosa mentre sopraggiungeva
  dai loro ospiti, la famiglia Verres, che avevano adottato un ragazzo chiamato
  Harry.
  Il quale era noto al mondo dei maghi come il Ragazzo-Che-È-Sopravvissuto.
- E che era anche l'unico ragazzo che Hermione avesse mai chiamato 
-\begin_inset Quotes fld
-\end_inset
-
-carino
-\begin_inset Quotes frd
-\end_inset
-
-, o se per questo notato, persino.
+ E che era anche l'unico ragazzo che Hermione avesse mai chiamato ``carino'',
+ o anche solo notato, in realtà.
 \end_layout
 
 \begin_layout Standard
@@ -977,9 +922,8 @@ I Verres avevano detto che Hermione era l'unico bambino nella fascia d'età
 \end_layout
 
 \begin_layout Standard
-E sarebbe potuta essere una falsa partenza; ma entrambe le coppie avevano
- il vago sospetto che il suono delle campane nuziali fosse prossimo tra
- qualche anno in futuro.
+E forse era un po' prematuro; ma entrambe le coppie avevano il vago sospetto
+ che il suono delle campane nuziali fosse prossimo, qualche anno nel futuro.
 \end_layout
 
 \begin_layout Standard
@@ -990,8 +934,8 @@ Dunque se il giorno di Natale sarebbe stato passato, come sempre, con la
 
 \begin_layout Standard
 Il campanello suonò mentre era giusto a metà dell'irrorazione del tacchino
- con i succhi di cottura, ed essa alzò la voce e gridò 
-\begin_inset Quotes fld
+ con i succhi di cottura, ed ella alzò la voce e gridò 
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -999,7 +943,7 @@ Il campanello suonò mentre era giusto a metà dell'irrorazione del tacchino
 Tesoro, puoi pensarci tu?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1011,63 +955,63 @@ Ci fu un breve gemito di una sedia e del suo occupante, e poi ci fu il suono
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dottor Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse la voce brusca di un uomo più anziano.
+ disse la voce vivace di un uomo più anziano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono Michael, e questi sono Petunia e nostro figlio Harry.
- Il cibo è nel baule magico
-\begin_inset Quotes frd
+ Il cibo è nel baule magico.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Certo, prego, entrate
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse suo marito, seguito da un 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  biascicato che indicava che un qualche genere di dono era stato accettato,
  e poi 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Accomodatevi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Poi la voce di Leo assunse un tono di eccitazione artificiale, e disse,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E tutti i giocattoli sono giù dabbasso in cantina, sono sicuro che Herm
- sarà giù tra poco, è la prima porta alla tua destra
-\begin_inset Quotes frd
+ sarà giù tra poco, è la prima porta alla tua destra.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1076,11 +1020,11 @@ Ci fu una breve pausa.
 
 \begin_layout Standard
 E poi la voce argentina di un giovane ragazzo disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Giocattoli? Adoro i giocattoli!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1089,11 +1033,11 @@ Giocattoli? Adoro i giocattoli!
 \begin_layout Standard
 Ci fu il suono di passi che entravano in casa, e poi la stessa voce argentina
  disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perbacco! Questa casa è grande! Spero di non perdermi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1102,7 +1046,7 @@ Perbacco! Questa casa è grande! Spero di non perdermi!
 \begin_layout Standard
 Roberta chiuse il forno, sorridendo.
  Si era un po' preoccupata per il modo in cui le lettere di Hermione avevano
- descritto il Ragazzo-Che-È-Sopravvissuto -- sebbene certamente sua figlia
+ descritto il Ragazzo-Che-È-Sopravvissuto – sebbene certamente sua figlia
  non aveva detto nulla che indicasse che Harry Potter fosse 
 \emph on
 pericoloso
@@ -1112,8 +1056,8 @@ pericoloso
  Diagon Alley.
  Sua figlia non aveva detto proprio nulla, solo che Harry parlava come se
  fosse uscito da un libro, e che Hermione stava studiando più duramente
- di quanto non avesse mai fatto in vita sua solo per essergli davanti a
- lezione.
+ di quanto non avesse mai fatto in vita sua solo per stargli davanti nei
+ corsi.
  Ma da come ne parlava, Harry Potter era un ordinario ragazzo undicenne.
 \end_layout
 
@@ -1125,7 +1069,7 @@ Giunse alla porta davanti proprio mentre sua figlia stava scendendo con
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1133,43 +1077,42 @@ Roberta ebbe la sua prima visione del Professore e della signora Verres,
  che sembravano entrambi piuttosto nervosi, proprio mentre il ragazzo con
  la leggendaria cicatrice sulla fronte si voltò verso sua figlia e disse,
  ora con una voce dal registro più grave, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Lieto di incontrarla nella più propizia delle sere, signorina Granger
-\begin_inset Quotes frd
+Lieto di incontrarla nella più propizia delle sere, signorina Granger.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La sua mano si distese indietro, come se stesse offrendo i suoi genitori
  su di un piatto d'argento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le presento mio padre, il professor Michael Verres-Evans, e mia madre, la
- signora Petunia Evans-Verres
-\begin_inset Quotes frd
+ signora Petunia Evans-Verres.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-E mentre la bocca di Roberta era spalancata, il ragazzo si girò verso i
- suoi genitori e disse, ora nuovamente in quella voce argentina, 
-\begin_inset Quotes fld
+E mentre la bocca di Roberta si stava spalancando, il ragazzo si girò verso
+ i suoi genitori e disse, ora nuovamente in quella voce argentina, 
+\begin_inset Quotes cld
 \end_inset
 
 Mamma, Papà, questa è Hermione! È davvero intelligente!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1177,16 +1120,16 @@ Mamma, Papà, questa è Hermione! È davvero intelligente!
 Harry!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sibilò sua figlia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Smettila!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1195,74 +1138,74 @@ Smettila!
 \begin_layout Standard
 Il ragazzo si girò nuovamente a considerare Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono spiacente, signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ragazzo in tono offeso, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma lei ed io siamo stati esiliati nei recessi labirintici della cantina.
  Lasciamoli alle loro conversazioni da adulti, che senza dubbio si libreranno
  molto più in alto dei nostri intelletti infantili, e riprendiamo la nostra
  conversazione in corso sulle implicazioni del Proiettivismo humeano per
- la Trasfigurazione
-\begin_inset Quotes frd
+ la Trasfigurazione.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vi prego di scusarci
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sua figlia in un tono molto duro, e afferrò il ragazzo per la manica
- sinistra, e lo trascinò nel corridoio -- Roberta si girò istintivamente
+ sinistra, e lo trascinò nel corridoio – Roberta si girò istintivamente
  per seguirli con lo sguardo mentre le passarono oltre, il ragazzo la salutò
- allegramente con la mano -- e poi Hermione lo spinse per la porta che dava
+ allegramente con la mano – e poi Hermione lo spinse per la porta che dava
  alla cantina, sbattendola dietro di sé.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io, ah, chiedo scusa per…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la signora Verres con una voce vacillante.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore, sorridendo affettuosamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry può essere un po' suscettibile su quel genere di cose.
  Ma mi aspetto che abbia ragione sul fatto che non siamo interessati alla
- loro conversazione
-\begin_inset Quotes frd
+ loro conversazione.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1286,21 +1229,21 @@ Il suo possibile genero.
 \end_layout
 
 \begin_layout Standard
-Roberta era stata sempre più timorosa di cedere sua figlia alla stregoneria
- -- specie dopo che aveva letto i libri, messo insieme le date, e compreso
- che la sua madre strega era probabilmente stata uccisa al culmine del terrore
+Roberta era stata sempre più timorosa a rinunciare a sua figlia per la stregoner
+ia – specie dopo che aveva letto i libri, messo insieme le date, e compreso
+ che sua madre strega era probabilmente stata uccisa al culmine del terrore
  di Grindelwald, 
 \emph on
 non
 \emph default
- morta dandola alla luce come suo padre aveva sempre detto.
+ morta mentre la dava alla luce come suo padre aveva sempre detto.
  Ma la professoressa McGonagall aveva fatto loro altre visite dopo il suo
  primo viaggio, per 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 vedere come come sta la signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ; e Roberta non poteva non pensare che se Hermione avesse detto che i suoi
@@ -1317,11 +1260,10 @@ Roberta indossò il proprio miglior sorriso, e fece ciò che poté per diffonder
  un po' di finta allegria natalizia.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
-	display false
 	scale 50
 
 \end_inset
@@ -1330,25 +1272,11 @@ Roberta indossò il proprio miglior sorriso, e fece ciò che poté per diffonder
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Il tavolo della sala da pranzo era molto più lungo di quanto sei persone
- -- ehm, quattro persone e due bambini -- avessero davvero bisogno, ma era
- tutto drappeggiato con una tovaglia di finissimo lino bianco, e i piatti
- erano stati inutilmente trasferiti su vassoi da portata decorati, che almeno
- erano di acciaio inossidabile invece che di vero argento.
+ – ehm, quattro persone e due bambini – avessero davvero bisogno, ma era
+ tutto drappeggiato con una tovaglia di finissimo lino bianco, e le portate
+ erano state inutilmente trasferite su vassoi decorati, che almeno erano
+ di acciaio inossidabile invece che di vero argento.
 \end_layout
 
 \begin_layout Standard
@@ -1360,8 +1288,8 @@ La conversazione era finita su Hogwarts, naturalmente; ed era stato ovvio
  per Harry che i suoi genitori sperassero che Hermione cadesse in fallo
  e dicesse sulla vita scolastica di Harry più di quanto Harry avesse detto
  loro.
- E o Hermione l'aveva capito, oppure stava automaticamente lontana da qualunque
- cosa potesse dimostrarsi problematica.
+ E o Hermione l'aveva capito, oppure si stava automaticamente tenendo alla
+ larga da qualunque cosa potesse dimostrarsi problematica.
 \end_layout
 
 \begin_layout Standard
@@ -1404,8 +1332,8 @@ Non era quello il motivo per cui Harry aveva problemi a godersi la cena,
 \end_layout
 
 \begin_layout Standard
-… il problema di essere dispiaciuti per sé stessi consisteva nel fatto che
- non ci voleva molto per trovare qualcuno che stesse peggio.
+… il problema dell'autocommiserarti consisteva nel fatto che non ti ci voleva
+ molto per trovare qualcuno che stesse peggio.
 \end_layout
 
 \begin_layout Standard
@@ -1479,8 +1407,8 @@ mai
 \emph default
  sminuito anche solo uno dei suoi successi, anche se un bambino prodigio
  era pur sempre un bambino.
- Era quello il genere di famiglia in cui egli sarebbe potuto finire, se
- Mamma avesse sposato Vernon Dursley?
+ Era quello il genere di famiglia in cui sarebbe potuto finire, se Mamma
+ avesse sposato Vernon Dursley?
 \end_layout
 
 \begin_layout Standard
@@ -1488,7 +1416,7 @@ Harry stava facendo del suo meglio, ad ogni modo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E ti sta davvero battendo in 
@@ -1496,64 +1424,63 @@ E ti sta davvero battendo in
 tutti
 \emph default
  i vostri corsi eccetto volo sulla scopa e Trasfigurazione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il professor Michael Verres-Evans.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con una calma imposta, mentre si tagliava un'altra porzione
  di tacchino della vigilia di Natale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-E con ampi margini, nella maggior parte dei corsi
-\begin_inset Quotes frd
+E con ampi margini, nella maggior parte dei corsi.
+\begin_inset Quotes crd
 \end_inset
 
-.
  C'erano altre circostanze in cui Harry sarebbe stato più riluttante ad
  ammetterlo, ragion per cui non era ancora riuscito a dirlo a suo padre
  fino ad allora.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hermione è sempre stata molto brava a scuola
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il dottor Leo Granger con un tono soddisfatto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry compete a livello nazionale!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il professor Michael Verres-Evans.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Caro!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  intervenne Petunia.
@@ -1570,29 +1497,29 @@ quello preoccupava Harry
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non mi imbarazza perdere con lei, Papà
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  In quel momento era vero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti ho detto che ha mandato a memoria tutti i suoi libri di scuola prima
- del primo giorno di lezione? E sì, l'ho verificato
-\begin_inset Quotes frd
+ del primo giorno di lezione? E sì, ho controllato.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è, ah, 
@@ -1600,31 +1527,31 @@ Questo è, ah,
 consueto
 \emph default
  per lei?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse il professor Verres-Evans rivolto ai Granger.
+ chiese il professor Verres-Evans rivolto ai Granger.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, sì, Hermione sta sempre memorizzando qualcosa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la dottoressa Roberta Granger con un sorriso allegro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Conosce ogni ricetta dei miei libri di cucina a memoria.
- Mi manca ogni volta che preparo la cena
-\begin_inset Quotes frd
+ Mi manca ogni volta che preparo la cena.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1633,15 +1560,15 @@ A giudicare dall'espressione sul viso di suo padre, Papà stava provando
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ti preoccupare, Papà
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sta ricevendo tutti gli insegnamenti avanzati che può gestire, ora.
@@ -1650,7 +1577,7 @@ sta ricevendo tutti gli insegnamenti avanzati che può gestire, ora.
 a differenza dei suoi genitori!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1664,11 +1591,11 @@ La sua voce si era alzata di volume in quelle ultime cinque parole, e anche
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Naturalmente sappiamo che è intelligente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Leo Granger, iniziando a sembrare offeso col bambino che aveva avuto
@@ -1676,16 +1603,16 @@ Naturalmente sappiamo che è intelligente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non avete la più pallida idea
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, il ghiaccio che si inserì ora nella sua voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensate che legga molti libri e che sia carino, giusto? Vedete una pagella
@@ -1694,7 +1621,7 @@ Pensate che legga molti libri e che sia carino, giusto? Vedete una pagella
  più splendente di Hogwarts, e un giorno, dottore e dottoressa Granger,
  il fatto che voi siate stati i suoi genitori sarà l'unica ragione per cui
  la storia si ricorderà di voi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1706,38 +1633,23 @@ Hermione, che si era alzata con calma dalla propria sedia e aveva fatto
  di Harry dalla spalla e tirarlo via dalla sua sedia.
  Harry si lasciò tirare, ma mentre Hermione lo trascinava via, egli disse,
  alzando ancora di più la sua voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È assolutamente possibile che tra mille anni, il fatto che i genitori di
- Hermione Granger fossero dentisti sarà l'unica ragione per cui chiunque
+ Hermione Granger fossero dentisti sarà l'unica ragione per cui qualcuno
  ricorderà l'odontoiatria!
-\begin_inset Quotes frd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	scale 50
 
 \end_inset
 
@@ -1751,21 +1663,21 @@ Roberta fissò il punto in cui sua figlia aveva appena trascinato il Ragazzo-Che
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono terribilmente dispiaciuto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Verres con un sorriso divertito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma vi prego di non preoccuparvi, Harry parla sempre così.
  Non sono già proprio come una coppia sposata?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1779,26 +1691,11 @@ erano
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
-	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1815,49 +1712,49 @@ Ma dopo che li aveva portati dentro il vestibolo d'ingresso della cantina
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- e stava sorridendo, con sincerità, per quanto potesse dire Harry.
+– e stava sorridendo, con sincerità, per quanto potesse dire Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per favore non farlo, Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse lei con voce sommessa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche se è molto bello da parte tua.
- Va tutto bene
-\begin_inset Quotes frd
+ Va tutto bene.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry poté solo fissarla.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come puoi sopportarlo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse.
  Dovette mantenere la sua voce bassa, non volevano che i loro genitori sentisser
 o, ma salì di tono se non di volume.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1865,7 +1762,7 @@ o, ma salì di tono se non di volume.
 Come puoi sopportarlo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1873,7 +1770,7 @@ Come puoi sopportarlo?
 
 \begin_layout Standard
 Hermione alzò le spalle e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché è così che i genitori 
@@ -1881,29 +1778,29 @@ Perché è così che i genitori
 dovrebbero
 \emph default
  essere?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce bassa e intensa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non è così, mio padre non mi sminuisce 
 \emph on
 mai
 \emph default
- -- cioè, lo 
+ – cioè, lo 
 \emph on
 fa
 \emph default
@@ -1911,8 +1808,8 @@ fa
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1922,7 +1819,7 @@ fa
 Hermione alzò un solo dito, e Harry attese, osservandola mentre cercava
  le parole.
  Le ci volle un po' prima di dire, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry… la professoressa McGonagall e il professor Flitwick mi stimano perché
@@ -1940,15 +1837,14 @@ miei
 \emph on
 tu
 \emph default
- non devi discuterne
-\begin_inset Quotes frd
+ non puoi metterci bocca.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Stava ancora una volta facendo quel sorriso misterioso dell'ora di cena,
  e guardava Harry con molto affetto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1956,11 +1852,12 @@ tu
 È
 \emph default
  chiaro, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -1994,19 +1891,24 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, non è così, mio padre non mi sminuisce 
 \emph on
 mai
 \emph default
- -- cioè, lo 
+ – cioè, lo 
 \emph on
 fa
 \emph default
@@ -2014,8 +1916,8 @@ fa
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2024,7 +1926,7 @@ fa
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry… la professoressa McGonagall e il professor Flitwick mi stimano perché
@@ -2048,7 +1950,7 @@ tu
 È
 \emph default
  chiaro, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2074,35 +1976,21 @@ Harry annuì riluttante.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse Hermione, e si piegò in avanti e lo baciò sulla guancia.
+, disse Hermione, e si chinò in avanti e lo baciò sulla guancia.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -2115,7 +2003,7 @@ La conversazione era appena ricominciata quando uno strillo ad alta frequenza
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2123,7 +2011,7 @@ La conversazione era appena ricominciata quando uno strillo ad alta frequenza
 Ehi! Niente baci!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
