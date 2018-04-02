@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{36}
@@ -57,16 +59,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Fredericka the Great
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "Sedan Std"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -96,6 +100,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -110,7 +115,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -135,6 +143,7 @@ name "chap:37Interludio-passare"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Era quasi mezzanotte.
 \end_layout
 
@@ -184,7 +193,7 @@ Guardò verso la finestra.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -192,7 +201,7 @@ Guardò verso la finestra.
 Professor Quirrell?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  strillò Harry molto sommessamente.
@@ -208,41 +217,41 @@ Il professor Quirrell accennò il gesto di alzare, e la finestra di Harry
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non tema, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa con una voce normale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho messo a dormire i suoi genitori con un incantesimo; non si sveglieranno
- finché non me ne sarò andato
-\begin_inset Quotes frd
+ finché non me ne sarò andato.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nessuno dovrebbe sapere dove sono!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, tenendo ancora basso il suo grido.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Persino i gufi dovrebbero portare la mia posta a Hogwarts, non qui!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry l'aveva accettato di buon grado; sarebbe stato stupido se un Mangiamorte
@@ -254,7 +263,7 @@ Persino i gufi dovrebbero portare la mia posta a Hogwarts, non qui!
 Il professor Quirrell fece un ghigno, lì dov'era, nel cortile posteriore,
  oltre la finestra.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, io non mi preoccuperei, signor Potter.
@@ -264,14 +273,13 @@ Oh, io non mi preoccuperei, signor Potter.
 \emph default
  ben protetto contro gli Incantesimi di localizzazione, ed è verosimile
  che nessun purista del sangue possa pensare di consultare un elenco del
- telefono
-\begin_inset Quotes frd
+ telefono.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il suo ghigno divenne più ampio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E c'è voluto uno sforzo considerevole per attraversare le protezioni che
@@ -279,18 +287,18 @@ E c'è voluto uno sforzo considerevole per attraversare le protezioni che
 \begin_inset space ~
 \end_inset
 
--- sebbene naturalmente chiunque conosca il suo indirizzo potrebbe semplicemente
- attendere qui fuori e attaccarla la prossima volta che esce
-\begin_inset Quotes frd
+– sebbene naturalmente chiunque conosca il suo indirizzo potrebbe semplicemente
+ attendere qui fuori e attaccarla la prossima volta che esce.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry fissò il professor Quirrell per un po'.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa sta 
@@ -298,7 +306,7 @@ Cosa sta
 facendo
 \emph default
  qui?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse infine.
@@ -307,63 +315,63 @@ facendo
 \begin_layout Standard
 Il sorriso abbandonò il volto del professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono venuto a scusarmi, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente il Professore di Difesa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non avrei dovuto parlarle così duramente come
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Guardò in basso alla coperta che stava stringendo attorno al suo pigiama.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non lo faccia
-\begin_inset Quotes frd
+Non lo faccia.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ho offesa così tanto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce pacata del professor Quirrell.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No.
@@ -372,23 +380,23 @@ No.
 farà
 \emph default
  se si scusa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, e in un istante la sua voce divenne severa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora, se devo trattarla da pari a pari, signor Potter, devo dire che ha
@@ -405,19 +413,19 @@ in anticipo
 .
  Perché lei non sa quale sia il loro vero obiettivo, né la posta in gioco
  che potrebbero perdere.
- Questo la renderebbe un loro nemico, signor Potter
-\begin_inset Quotes frd
+ Questo la renderebbe un loro nemico, signor Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, esattamente nello stesso tono pacato che il professor Quirrell
@@ -425,47 +433,47 @@ Mi dispiace
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scuse accettate.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, ancora pacatamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-lei e io dobbiamo davvero continuare a discutere di politica, prima o poi
-\begin_inset Quotes frd
+lei e io dobbiamo davvero continuare a discutere di politica, prima o poi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Il professor Quirrell sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So che lei disprezza la condiscendenza, signor Potter
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -476,56 +484,56 @@ Quello era a dir poco un eufemismo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma sarebbe ancor più condiscendente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 se non lo dicessi chiaramente.
- Le manca un po' di esperienza di vita, signor Potter
-\begin_inset Quotes frd
+ Le manca un po' di esperienza di vita, signor Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E tutti coloro che hanno sufficiente esperienza di vita concordano con lei,
  allora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse con calma Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A che serve l'esperienza di vita a chi gioca a Quidditch?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rispose il professor Quirrell, e alzò le spalle.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Penso che cambierà idea col tempo, dopo che ogni cosa in cui avrà posto
- la sua fiducia le sarà venuta meno, e sarà diventato cinico
-\begin_inset Quotes frd
+ la sua fiducia le sarà venuta meno, e sarà diventato cinico.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -536,37 +544,37 @@ Il Professore di Difesa lo disse come se fosse stata l'affermazione più
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A proposito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Buon Natale
-\begin_inset Quotes frd
+Buon Natale.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-In effetti.
+Già.
  Dopo tutto, se 
 \emph on
 non è
 \emph default
  una scusa, allora deve essere un regalo di Natale.
  Il primo in assoluto che io abbia mai fatto, a dire il vero.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -579,24 +587,24 @@ Harry non aveva neppure iniziato a studiare latino in modo da poter leggere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Indossi il suo cappotto invernale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 o prenda una pozione riscaldante, se ne ha una; e mi raggiunga fuori, sotto
  le stelle.
- Vedrò se potrò sostenerlo un po' più a lungo questa volta
-\begin_inset Quotes frd
+ Vedrò se potrò sostenerlo un po' più a lungo questa volta.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
