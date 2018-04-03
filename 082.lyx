@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{81}
@@ -66,16 +68,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans EB Garamond
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "EB Garamond"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -105,6 +109,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -119,7 +124,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -150,9 +158,9 @@ name "chap:82Sdt-finale"
 \begin_layout Standard
 Viaggiare con una fenice era una sensazione completamente diversa dalle
  Apparizioni o dai passaporta.
- Prendevi fuoco -- provavi decisamente la sensazione di prendere fuoco,
- sebbene non vi fosse alcun dolore -- e invece di ridurti in cenere, il
- fuoco ti bruciava tutto e 
+ Prendevi fuoco – provavi decisamente la sensazione di prendere fuoco, sebbene
+ non vi fosse alcun dolore – e invece di ridurti in cenere, il fuoco ti
+ bruciava tutto e 
 \emph on
 diventavi
 \emph default
@@ -165,8 +173,8 @@ diventavi
 \emph on
 ovunque
 \emph default
- -- anche in un lontano passato, o in un altro universo, o in due posti
- contemporaneamente.
+ – anche in un lontano passato, o in un altro universo, o in due posti contempor
+aneamente.
  Avresti potuto svanire in un luogo e comparire con una fiammata in centinaia
  di altri, e il te stesso che era arrivato a Hogwarts mai avrebbe scoperto
  la differenza.
@@ -193,8 +201,8 @@ Harry prese fuoco e si spense e riapparve altrove in una vampata; e così
 \begin_layout Standard
 In un angolo della visione di Harry, una Madam Pomfrey dall'espressione
  sorpresa si stava girando verso di loro.
- Dumbledore sembrò non prestare alcuna attenzione all'esperta guaritrice, mentre
- deponeva lentamente Hermione in un bianco letto libero.
+ Dumbledore sembrò non prestare alcuna attenzione all'esperta guaritrice,
+ mentre deponeva lentamente Hermione in un bianco letto libero.
 \end_layout
 
 \begin_layout Standard
@@ -206,6 +214,10 @@ In un angolo lontano vi fu un lampo verde, e da dentro un camino uscì la
 Il vecchio mago si girò dal letto e passò nuovamente un braccio attorno
  a Harry; e poi il Ragazzo-Che-È-Sopravvissuto e il suo mago scomparvero
  in un'altra vampata di fiamme.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -241,64 +253,64 @@ Infine il ragazzo articolò le parole lentamente e con precisione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non posso credere che una fenice sia ancora sulla sua spalla.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La fenice sceglie solo una volta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Possono forse abbandonare un padrone che sceglie il male invece del bene;
  non lasceranno un padrone obbligato a scegliere tra un bene e un altro.
  Le fenici non sono arroganti.
  Conoscono i limiti della propria saggezza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Decisamente severo, quell'antico sguardo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Diversamente da te, Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scegliere tra un bene e un altro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece eco inespressivo Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come la vita di Hermione Granger, opposta a centomila galeoni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -307,27 +319,27 @@ Come la vita di Hermione Granger, opposta a centomila galeoni
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sei affatto nella posizione di potermi dare lezioni su questo, Harry
  Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  La voce del Preside era morbida in maniera ingannevole.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 O cos'era quell'espressione di riluttanza che ho visto sul tuo volto, lì
  nell'Antichissima Sala?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -336,16 +348,16 @@ O cos'era quell'espressione di riluttanza che ho visto sul tuo volto, lì
 \begin_layout Standard
 La sensazione di vacuità interna peggiorò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stavo cercando delle alternative
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry disse masticando le parole.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualche modo di salvarla che 
@@ -353,7 +365,7 @@ Qualche modo di salvarla che
 non
 \emph default
  perdesse il denaro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -377,7 +389,7 @@ creduto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È 
@@ -385,7 +397,7 @@ creduto
 questo
 \emph default
  quello che stavi pensando, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Gli occhi blu erano perspicaci, e ci fu un momento terrificante durante
@@ -394,7 +406,7 @@ questo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -402,12 +414,12 @@ questo
 Sì
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono trasalito a causa del dolore di perdere tutto il denaro nel mio deposito.
@@ -423,13 +435,13 @@ questo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  L'indignazione che era scemata dalla voce di Harry ritornò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei ha 
@@ -438,44 +450,44 @@ davvero
 \emph default
  dato un prezzo alla vita di Hermione Granger, e l'ha dato inferiore a centomila
  galeoni!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse dolcemente il vecchio mago.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E quale prezzo assegni tu alla sua vita, allora? Un milione di galeoni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Conosce il concetto economico di `costo di sostituzione'?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Le parole si stavano riversando fuori dalle labbra di Harry quasi più velocemen
 te di quanto egli potesse prenderle in considerazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il costo di sostituzione di Hermione è 
@@ -483,7 +495,7 @@ Il costo di sostituzione di Hermione è
 infinito!
 \emph default
  Non c'è luogo in cui possa andare a comprarne un'altra!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -501,55 +513,55 @@ Corvonero, sei d'accordo con me su questo?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche la vita di Minerva ha un valore infinito?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse duramente il vecchio mago.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sacrificheresti Minerva per salvare Hermione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì e sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sbottò Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fa parte del lavoro della professoressa McGonagall e lei lo sa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora il valore di Minerva non è infinito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 per quanto sia amata.
@@ -558,7 +570,7 @@ per quanto sia amata.
  E Hermione Granger non è quel pezzo.
  Puoi starne certo, Harry Potter, in questo giorno potresti aver ben perso
  la tua guerra
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -571,16 +583,16 @@ E se le parole del vecchio mago non fossero state così tanto dure, e non
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lucius aveva ragione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , digrignò Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei non ha mai avuto una moglie, non ha mai avuto una figlia, non ha mai
@@ -588,8 +600,8 @@ Lei non ha mai avuto una moglie, non ha mai avuto una figlia, non ha mai
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -609,7 +621,7 @@ Albus Dumbledore non sembrò notarlo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -617,7 +629,7 @@ Albus Dumbledore non sembrò notarlo.
 Il prezzo della fenice.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -628,7 +640,7 @@ Harry fu tirato su lungo le scale nere.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -636,7 +648,7 @@ Harry fu tirato su lungo le scale nere.
 Il fato della fenice.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -648,20 +660,20 @@ La stanza dei piedistalli neri, luce argentea che ricadeva su bacchette
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , gridò Harry, dopo che le sue labbra si disserrarono, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 di poter vincere qualsiasi discussione, semplicemente standosene in piedi
  qui?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -674,7 +686,7 @@ Il vecchio mago lo ignorò, trascinando Harry attraverso la stanza.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -699,11 +711,11 @@ Al di là di tutti gli altri piedistalli, all'estremità più lontana della
 \begin_layout Standard
 La mano del vecchio mago lasciò andare il braccio di Harry e fece un gesto
  verso la vasca luminosa, ordinando aspramente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Guarda!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -714,11 +726,11 @@ Come richiesto, Harry fissò l'acqua luminosa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Metti la testa nel Pensatoio, Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -728,38 +740,38 @@ Metti la testa nel Pensatoio, Harry Potter
 \begin_layout Standard
 Harry aveva sentito quella parola in precedenza, ma non poté ricordare dove.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Cosa -- fa questo
+Cosa – fa questo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ricordi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vedrai i miei ricordi.
  Il mio giuramento è che è sicuro.
  Ora guarda nel Pensatoio, Corvonero, se t'importa ancora qualcosa della
  tua preziosa verità!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -793,21 +805,21 @@ Harry stava sedendo dietro la scrivania dell'ufficio del Preside di Hogwarts,
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Egli è tutto ciò che ho!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- pianse una voce, molto strana era la voce di Dumbledore come Dumbledore stesso
- la ricordava, dall'interno sembrava molto meno severa e saggia.
+ pianse una voce, molto strana era la voce di Dumbledore come Dumbledore
+ stesso la ricordava, dall'interno sembrava molto meno severa e saggia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ultimo della mia famiglia! Tutto ciò che mi è rimasto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -825,11 +837,11 @@ A nessuna emozione era stato permesso di passare attraverso il Pensatoio,
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non hai scelta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse una voce dura.
@@ -853,20 +865,20 @@ Il suo occhio destro era di dimensioni eccessive, con una pupilla blu-elettrico
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non puoi chiedermi questo, Alastor!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  la voce di Dumbledore era fuori di sé.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non questo! Qualsiasi cosa ma non questo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -875,20 +887,20 @@ Non questo! Qualsiasi cosa ma non questo!
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo sto chiedendo io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ringhiò l'uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È Voldie a chiederlo, e tu gli risponderai di no
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -897,20 +909,20 @@ Non lo sto chiedendo io
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per del denaro, Alastor?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  la voce di Dumbledore stava implorando.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Solo per del denaro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -919,16 +931,16 @@ Solo per del denaro?
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Riscatta Aberfoth, e perderai la guerra
-\begin_inset Quotes frd
+Riscatta Aberforth, e perderai la guerra
+\begin_inset Quotes crd
 \end_inset
 
 , disse bruscamente l'uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutto qui.
@@ -940,7 +952,7 @@ Tutto qui.
  Alice, Minerva, chiunque tu abbia a cuore, tutti loro saranno dei bersagli
  se pagherai i Mangiamorte.
  Non è quella la lezione che dovresti cercare di insegnare loro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -949,37 +961,37 @@ Tutto qui.
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se faccio questo non avrò nessuno.
  Nessuno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
- La voce di Dumbledore si spezzò, il mondo si inclinò mentre la testa che guardava
- all'infuori ricadde tra le antiche mani, e terribili suoni provennero dalla
- gola del non-Harry mentre iniziò a singhiozzare come un bambino.
+ La voce di Dumbledore si spezzò, il mondo si inclinò mentre la testa che
+ guardava all'infuori ricadde tra le antiche mani, e terribili suoni provennero
+ dalla gola del non-Harry mentre iniziò a singhiozzare come un bambino.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Devo dire di no al messaggero di Voldie?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce di Alastor, ora stranamente gentile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non devi farlo da solo, vecchio amico
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -988,15 +1000,15 @@ Non devi farlo da solo, vecchio amico
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-No -- lo dirò io stesso -- devo
+No – lo dirò io stesso – devo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1028,7 +1040,7 @@ La transizione tra le due scene, tra la realtà vecchia di un decennio e
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1046,41 +1058,41 @@ Terribile e severo stava l'antico mago, come se fosse scavato nella pietra;
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Desideri anche vedere mio fratello mentre moriva sotto il Cruciatus?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Albus Dumbledore.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voldemort mi mandò anche quel ricordo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E quello
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Harry stava avendo dei problemi a emettere una voce, a causa della nausea
  crescente nel suo petto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1091,19 +1103,19 @@ Quello
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Le parole sembrarono bruciare nella sua gola, mentre spuntò dentro di lui
  la tremenda conoscenza, l'orribile comprensione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quello fu il momento in cui lei ha bruciato viva Narcissa Malfoy nella sua
  camera da letto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1112,49 +1124,49 @@ Quello fu il momento in cui lei ha bruciato viva Narcissa Malfoy nella sua
 \begin_layout Standard
 Lo sguardo di Albus Dumbledore era freddo mentre rispose.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A quella domanda solo un folle risponderebbe sì o no.
  Ciò che importa è che i Mangiamorte credono che io l'abbia uccisa, e quella
  credenza ha mantenuto al sicuro le famiglie di tutti coloro che servivano
- l'Ordine della Fenice -- fino a questo giorno.
+ l'Ordine della Fenice – fino a questo giorno.
  Ora comprendi cosa hai fatto? Cosa hai fatto ai tuoi 
 \emph on
 amici
 \emph default
 , Harry Potter, e a chiunque stia con te?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il vecchio mago sembrò diventare ancora più alto e più terribile, mentre
  la sua voce crebbe di volume.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Li hai resi tutti dei bersagli, e bersagli resteranno! Finché non dimostrerai,
  nell'unico modo in cui può essere dimostrato, che non sei più disposto
  a pagare un prezzo simile!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ed è vero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Harry.
  C'era una sensazione ronzante che lo stava riempiendo, il suo corpo che
  diveniva sempre più distante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quello che Draco ha detto, che Narcissa Malfoy non si era mai sporcata le
@@ -1165,70 +1177,70 @@ Quello che Draco ha detto, che Narcissa Malfoy non si era mai sporcata le
 bruciata viva
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nulla di meno li avrebbe convinti che avevo smesso con l'esitazione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  La voce del vecchio mago non ammetteva alcuna domanda e alcuna negazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono stato sempre riluttante a fare ciò che dovevo, sono stati sempre altri
  che hanno pagato il prezzo della mia pietà.
  Così Alastor mi disse sin dall'inizio, ma io non gli diedi ascolto.
  Tu, mi aspetto, ti dimostrerai migliore di me in tali decisioni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono sorpreso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, stupito che la sua voce fosse quasi salda.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi sarei aspettato che i Mangiamorte perseguitassero un'altra famiglia della
  Luce e iniziassero un ciclo di rappresaglie sempre più intense, se non
  li avesse abbattuti tutti col suo primo colpo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se il mio avversario fosse stato Lucius, forse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Gli occhi di Dumbledore erano simili a pietre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dissero che Voldemort rise alla notizia, e proclamò ai suoi Mangiamorte
@@ -1238,7 +1250,7 @@ Mi dissero che Voldemort rise alla notizia, e proclamò ai suoi Mangiamorte
  coloro che mi seguivano, a confrontarli l'uno in relazione all'altro, a
  chiedermi chi avrei rischiato, e chi avrei sacrificato, a quale scopo.
  Fu strano quanti pezzi in meno persi, una volta che seppi quanto valessero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1248,17 +1260,17 @@ Mi dissero che Voldemort rise alla notizia, e proclamò ai suoi Mangiamorte
 La mascella di Harry sembrò bloccata, come se ci volesse uno sforzo imponente
  per far muovere le sue labbra.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma del resto non è che Lucius stesse deliberatamente prendendo Hermione
  per ottenere un riscatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse debolmente la voce Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dalla prospettiva di Lucius, qualcun altro ha rotto per primo la tregua.
@@ -1269,7 +1281,7 @@ valeva
  Hermione, esattamente? Lasciando stare la faccenda del Danegeld, se fosse
  stata un'ordinaria minaccia alla sua vita, quanto avrei dovuto pagare per
  salvarla? Diecimila galeoni? Cinquemila?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1280,22 +1292,22 @@ Il vecchio mago non rispose.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È una cosa buffa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce vacillante come qualcosa vista attraverso l'acqua.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il giorno che sono andato di fronte al Dissennatore, sa quale fu la mia
  memoria peggiore? Fu i miei genitori che morivano.
  Ho udito le loro voci e tutto il resto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1306,15 +1318,15 @@ Gli occhi del vecchio mago si allargarono dietro gli occhiali a mezzaluna.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ed ecco la questione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ecco la questione sulla quale ho riflettuto più e più volte.
@@ -1329,8 +1341,8 @@ disse
 \begin_inset space ~
 \end_inset
 
---'
-\begin_inset Quotes frd
+–'
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1346,7 +1358,7 @@ Citato da capitolo 43
  Un brivido terribile prese Harry mentre pronunciava quelle parole con le
  proprie labbra, ma se lo scrollò di dosso e continuò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E in seguito ho continuato a pensare, non sembravo in grado di impedirmi
@@ -1364,12 +1376,12 @@ saperlo
  vivesse o che entrambi morissimo! Se solo avesse fatto la cosa ragionevole
  e se ne fosse andata, cioè, io amo la mia Mamma, ma Lily Potter sarebbe
  viva ora e sarebbe mia madre!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Le lacrime stavano offuscando la vista di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Solo ora comprendo, capisco cosa mia Madre debba aver provato.
@@ -1379,7 +1391,7 @@ poteva
 \emph default
  allontanarsi dalla culla.
  Non poteva! L'amore non si fa da parte!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1391,70 +1403,70 @@ Fu come se il vecchio mago fosse stato colpito, colpito da uno scalpello
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cos'ho detto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sussurrò il vecchio mago.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa ti ho detto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo so!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Neppure io stavo ascoltando!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Io -- mi dispiace, Harry -- io
+Io – mi dispiace, Harry – io
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
- Il vecchio mago si premette le mani sul volto, e Harry vide che Albus Dumbledore
- stava piangendo.
+ Il vecchio mago si premette le mani sul volto, e Harry vide che Albus Dumbledor
+e stava piangendo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non avrei dovuto dirti, cose simili -- non avrei dovuto, risentirmi, per
+Non avrei dovuto dirti, cose simili – non avrei dovuto, risentirmi, per
  la tua innocenza
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1466,22 +1478,26 @@ Harry fissò il mago per un altro secondo, e poi si girò e marciò fuori dalla
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Davvero non so perché sei ancora sulla sua spalla
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry a Fawkes.
 \end_layout
 
 \begin_layout Standard
--- fuori dalla porta di quercia e nella spirale che girava senza fine.
+– fuori dalla porta di quercia e nella spirale che girava senza fine.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1541,13 +1557,13 @@ Gli occhi di Harry scesero al suo libro di testo, ma la sezione gli era
 \begin_layout Standard
 
 \emph on
-Dumbledore ha combattuto una guerra contro un Signore Oscuro che ha deliberatamente
- deciso di spezzarlo nel modo più crudele possibile.
+Dumbledore ha combattuto una guerra contro un Signore Oscuro che ha deliberatame
+nte deciso di spezzarlo nel modo più crudele possibile.
  Ha dovuto scegliere tra perdere la guerra e perdere suo fratello.
- Albus Dumbledore sa, l'ha imparato nel modo peggiore possibile, che ci sono
- limiti al valore di una vita; e ammetterlo gli ha mandato quasi in frantumi
- la sanità mentale.
- Ma tu, Harry Potter -- 
+ Albus Dumbledore sa, l'ha imparato nel modo peggiore possibile, che ci
+ sono limiti al valore di una vita; e ammetterlo gli ha mandato quasi in
+ frantumi la sanità mentale.
+ Ma tu, Harry Potter – 
 \emph default
 tu
 \emph on
@@ -1555,11 +1571,11 @@ tu
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Zitto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò il ragazzo alla vuota aula di Trasfigurazione, anche se non c'era
@@ -1587,11 +1603,11 @@ e di un ospedale che doveva scegliere tra spendere un milione di dollari
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Zitto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sussurrò il ragazzo.
@@ -1618,7 +1634,7 @@ certo
  Quanto triste, quanto vuota è l'indignazione di coloro che rifiutano di
  dire che il denaro e la vita possano mai essere confrontati, quando tutto
  ciò che stanno facendo è vietare la strategia che salva la maggior parte
- delle persone, per il bene di un pretenzioso protagonismo morale\SpecialChar \ldots{}
+ delle persone, per il bene di un pretenzioso protagonismo morale\SpecialChar ldots
 
 \end_layout
 
@@ -1673,11 +1689,11 @@ Perché Harry aveva detto quello che aveva detto, a un triste e vecchio mago
 \begin_layout Standard
 
 \emph on
-È perché sai che Dumbledore non reagirà? Che indipendentemente da quello che
- gli dici, per quanto ingiusto, non userà mai il suo potere contro di te,
- non ti tratterà mai nel modo in cui tratti lui? È questo il modo in cui
- tratti la gente quando sai che non reagirà? I geni del bullismo di James
- Potter si stanno infine manifestando?
+È perché sai che Dumbledore non reagirà? Che indipendentemente da quello
+ che gli dici, per quanto ingiusto, non userà mai il suo potere contro di
+ te, non ti tratterà mai nel modo in cui tratti lui? È questo il modo in
+ cui tratti la gente quando sai che non reagirà? I geni del bullismo di
+ James Potter si stanno infine manifestando?
 \end_layout
 
 \begin_layout Standard
@@ -1689,7 +1705,7 @@ Come il Cappello Smistatore che parlasse dentro la sua testa
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1706,17 +1722,18 @@ Di cosa hai paura?
 
 \begin_layout Standard
 Un vortice di immagini sembrò attraversare istantaneamente la mente di Harry,
- allora, il Dumbledore passato che piangeva tra le proprie mani; la forma presente
- del vecchio mago, alta e terribile; una visione di Hermione incatenata,
- nella sedia di metallo, mentre Harry l'abbandonava ai Dissennatori; e una
- fantasia di una donna con lunghi capelli bianchi (era somigliata al marito?)
- che crollava tra le fiamme della propria camera da letto, mentre una bacchetta
- era puntata su di lei e la luce arancione era riflessa da occhiali a mezzaluna.
+ allora, il Dumbledore passato che piangeva tra le proprie mani; la forma
+ presente del vecchio mago, alta e terribile; una visione di Hermione incatenata
+, nella sedia di metallo, mentre Harry l'abbandonava ai Dissennatori; e
+ una fantasia di una donna con lunghi capelli bianchi (era somigliata al
+ marito?) che crollava tra le fiamme della propria camera da letto, mentre
+ una bacchetta era puntata su di lei e la luce arancione era riflessa da
+ occhiali a mezzaluna.
 \end_layout
 
 \begin_layout Standard
-Apparentemente Albus Dumbledore pensava che Harry sarebbe stato migliore di
- lui in quel genere di cose.
+Apparentemente Albus Dumbledore pensava che Harry sarebbe stato migliore
+ di lui in quel genere di cose.
 \end_layout
 
 \begin_layout Standard
@@ -1762,7 +1779,7 @@ ogni qual volta c'era una ragione
 
 \begin_layout Standard
 Allora gli venne in mente un'ultima immagine: Lily Potter in piedi davanti
- alla culla del suo bambino a valutare le distanze tra i risultati -- il
+ alla culla del suo bambino a valutare le distanze tra i risultati – il
  risultato finale se fosse rimasta e avesse cercato di maledire il suo nemico
  (Lily morta, Harry morto), il risultato finale se se ne fosse andata (Lily
  viva, Harry morto), soppesando le utilità attese, e compiendo l'unica scelta
@@ -1774,20 +1791,20 @@ Non sarebbe stata la madre di Harry se non l'avesse fatto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma gli esseri umani non possono vivere in quel modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrarono le labbra di Harry all'aula vuota.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gli esseri umani non possono vivere in quel modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .

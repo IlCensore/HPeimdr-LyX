@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{108}
@@ -60,16 +62,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Bembo Std
-\font_sans Aller Display
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Bembo Std"
+\font_sans "default" "Aller Display"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -99,6 +103,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \branch Note a margine
 \selected 1
 \filename_suffix 0
@@ -118,7 +123,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -344,7 +352,7 @@ Anche nel bel mezzo di tutto quello che stava accadendo, Harry provò il
  La cornice dorata baluginava non più luminosa di prima, malgrado la rivelazione
 ; ma si poteva immaginare di tornare indietro, e poi ancora indietro, a
  una civilizzazione che era stata resa come mai esistita...
- «Cosa -- 
+ «Cosa – 
 \emph on
 fa
 \emph default
@@ -380,7 +388,7 @@ enoizilov atalo partse etner eoc autal a motlovoutli non ort som
 
 
 \emph default
---» Harry si interruppe, provando un ulteriore formicolio alla schiena.
+–» Harry si interruppe, provando un ulteriore formicolio alla schiena.
 \end_layout
 
 \begin_layout Standard
@@ -428,7 +436,7 @@ Il professor Quirrell espirò sommessamente, i suoi occhi che non lasciarono
 \begin_inset space ~
 \end_inset
 
---» iniziò Harry.
+–» iniziò Harry.
 \end_layout
 
 \begin_layout Standard
@@ -567,8 +575,8 @@ Il professor Quirrell fece un gesto in direzione del retro dorato.
  Specchio non possono essere modellate per reagire alle singole persone.
  Quindi per Perenelle non è possibile ordinare a questo Specchio, ‘Dai la
  Pietra solo a Perenelle’.
- Dumbledore non può affermare, ‘Dai la Pietra solo a colui che desidera darla
- a Nicholas Flamel’.
+ Dumbledore non può affermare, ‘Dai la Pietra solo a colui che desidera
+ darla a Nicholas Flamel’.
  È presente nello Specchio una cecità simile a quella che i filosofi hanno
  attribuito alla giustizia ideale; deve trattare tutti coloro che le si
  parano davanti secondo la stessa regola, quale che sia la regola in vigore.
@@ -721,8 +729,8 @@ Infine il professor Quirrell sospirò.
  ho iniziato a sentirmi pessimista riguardo al progetto.
  Eppure Nott e Greengrass sembrano comunque valerne la pena, se non riusciamo
  a pensare a qualcosa di meglio.
- Ma mi chiedo se Dumbledore abbia cercato di costruire questo rompicapo per
- resistere specificatamente all’astuzia di Voldemort.
+ Ma mi chiedo se Dumbledore abbia cercato di costruire questo rompicapo
+ per resistere specificatamente all’astuzia di Voldemort.
  Mi chiedo se possa aver avuto successo.
  Se lei dovesse ideare un piano alternativo che io approvi tanto da provarlo,
  
@@ -741,52 +749,52 @@ Ancora una volta fissarono lo specchio in silenzio, il Tom Riddle più anziano
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sospetto, Professore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry dopo un po', 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che la sua intera classe di ipotesi secondo cui qualcuno dovrebbe volere
  la Pietra per scopi buoni o onesti sia errata.
  Il Preside non avrebbe impostato una regola di recupero simile.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Perché Dumbledore sa bene quanto sia facile finire per credere di stare facendo
- la cosa giusta quando invece non è così.
+Perché Dumbledore sa bene quanto sia facile finire per credere di stare
+ facendo la cosa giusta quando invece non è così.
  Sarà stata la prima possibilità che avrà immaginato.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -794,14 +802,14 @@ Perché Dumbledore sa bene quanto sia facile finire per credere di stare facendo
 È verità o raggiro che ssto ssentendo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -809,7 +817,7 @@ Perché Dumbledore sa bene quanto sia facile finire per credere di stare facendo
 Ssono onessto
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -818,27 +826,27 @@ Ssono onessto
 \begin_layout Standard
 Il professor Quirrell annuì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora prendo ben atto del suo rilievo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono sicuro di capire perché pensa che questo enigma sia risolvibile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Basta impostare una regola del tipo, la tua mano sinistra deve reggere una
@@ -847,79 +855,79 @@ Basta impostare una regola del tipo, la tua mano sinistra deve reggere una
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, penso di no.
  Le leggende sono oscure riguardo a quali regole possano essere date, ma
  credo che debbano avere qualcosa a che fare con l'uso previsto originalmente
- per lo Specchio -- deve avere qualcosa a che fare con i desideri e le volontà
+ per lo Specchio – deve avere qualcosa a che fare con i desideri e le volontà
  più profonde che sorgono dall'interno della persona.
  Spremere maionese su di un criceto non è qualificabile in questi termini,
  per la maggior parte delle persone.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse la regola è che la persona deve non voler usare affatto la Pietra
- -- no, così è troppo facile, la storia che ha dato al signor Nott la soddisface
-rebbe.
-\begin_inset Quotes frd
+ – no, così è troppo facile, la storia che ha dato al signor Nott la soddisfacer
+ebbe.
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In un certo senso lei potrebbe comprendere Dumbledore meglio di me
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Così ora le chiedo questo: in che modo Dumbledore userebbe la sua nozione dell'acce
-ttazione della morte per proteggere la Pietra? Poiché questo di tutto ciò
- che egli crede io non sono in grado di comprenedere, ed egli non è tremendament
-e in torto.
-\begin_inset Quotes frd
+Così ora le chiedo questo: in che modo Dumbledore userebbe la sua nozione
+ dell'accettazione della morte per proteggere la Pietra? Poiché questo di
+ tutto ciò che egli crede io non sono in grado di comprenedere, ed egli
+ non è tremendamente in torto.
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -936,33 +944,33 @@ Harry ci rifletté per un po' di tempo, valutando diverse idee e scartandole.
 \begin_layout Standard
 Con riluttanza, Harry parlò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Potrebbe Dumbledore credere che questo Specchio possa raggiungere l'aldià?
+Potrebbe Dumbledore credere che questo Specchio possa raggiungere l'aldilà?
  Potrebbe mettere la Pietra in qualcosa che egli 
 \emph on
 ritenga
 \emph default
  essere un aldilà, in modo che solo le persone che credono in un aldilà
  possano vederla?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Probabilmente...
@@ -978,22 +986,22 @@ nella morte
  restituiti alla vita.
  Suo fratello Aberforth, sua sorella Ariana, i suoi genitori Kendra e Percival...
  sarebbe ad Aberforth che Dumbledore affiderebbe la Pietra, credo.
- Sarebbe in grado lo Specchio di riconoscere che è ad Abeforth in particolare
+ Sarebbe in grado lo Specchio di riconoscere che è ad Aberforth in particolare
  che è stata data la Pietra? O andrebbe bene qualunque parente morto della
  persona, se quella persona credesse che lo spirito del loro parente le
  restituirebbe la Pietra?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il professor Quirrell stava camminando con passo regolare in un piccolo
  cerchio, tenendosi ben lontano da Harry e dallo Specchio mentre si muoveva.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma tutto ciò è solo una idea.
  Concepiamone un'altra.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1003,20 +1011,20 @@ Ma tutto ciò è solo una idea.
 Harry iniziò a battere un dito sulla guancia, poi si fermò d'improvviso
  quando comprese da dove avesse ripreso quel gesto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E se fosse stata Perenelle quella che ha messo la Pietra là dentro? Forse
  ha impostato lo Specchio in modo che dia la Pietra solo alla persona che
  ce l'ha messa dentro inizialmente.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perenelle è vissuta così a lungo perché conosce i propri limiti.
@@ -1031,26 +1039,26 @@ Perenelle è vissuta così a lungo perché conosce i propri limiti.
 te un Confundus su qualcuno per convincerlo di essere stato lui a metterci
  dentro la Pietra...
  dovrei creare una falsa Pietra, e un falso Specchio, e organizzare la scenata...
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il professor Quirrell era accigliato, in quel momento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ma sarebbe comunque qualcosa che Dumbledore immaginerebbe che Voldemort sarebbe
- in grado di organizzare, avendone il tempo.
- Se possibile, Dumbledore vorrebbe rendere la chiave dello Specchio una condizione
- mentale che secondo lui io 
+Ma sarebbe comunque qualcosa che Dumbledore immaginerebbe che Voldemort
+ sarebbe in grado di organizzare, avendone il tempo.
+ Se possibile, Dumbledore vorrebbe rendere la chiave dello Specchio una
+ condizione mentale che secondo lui io 
 \emph on
 non posso
 \emph default
- predisporre in una pedina -- o una regola che Dumbledore pensa che Voldemort
+ predisporre in una pedina – o una regola che Dumbledore pensa che Voldemort
  non possa mai comprendere, come una regola che implichi l'accettazione
  della propria morte.
  È per questo che ho considerato plausibile la sua precedente idea.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1073,16 +1081,16 @@ ma Harry non aveva molta scelta in quella situazione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per ipotesi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non siamo sicuri di cosa sia necessario per recuperare la Pietra.
@@ -1090,10 +1098,10 @@ Non siamo sicuri di cosa sia necessario per recuperare la Pietra.
 \emph on
 sufficiente
 \emph default
- dovrebbe prevedere Albus Dumbledore, o forse qualcun altro, in uno stato mentale
- in cui crede che il Signore Oscuro sia stato sconfitto, che la minaccia
- sia terminata, e che sia giunto il momento di estrarre la Pietra e restituirla
- a Nicholas Flamel.
+ dovrebbe prevedere Albus Dumbledore, o forse qualcun altro, in uno stato
+ mentale in cui crede che il Signore Oscuro sia stato sconfitto, che la
+ minaccia sia terminata, e che sia giunto il momento di estrarre la Pietra
+ e restituirla a Nicholas Flamel.
  Non siamo sicuri di quale parte dello stato mentale di quella persona,
  diciamo Dumbledore, sia la parte necessaria che egli pensa che Lord Voldemort
  non possa comprendere o duplicare; ma sotto quelle condizioni l'intero
@@ -1102,71 +1110,71 @@ sufficiente
 sufficiente
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ragionevole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E allora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La strategia corrispondente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse con cura Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è quella di imitare lo stato mentale di Dumbledore sotto quelle condizioni,
  nel maggior dettaglio possibile, mentre si sta di fronte allo specchio.
  E quello stato mentale deve essere stato prodotto da forze interne, non
  esterne.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma come dovremmo riuscirci senza Legilimanzia o l'Incantesimo Confundus,
- entrambi i quali sarebbe certamente esterni -- ah.
+ entrambi i quali sarebbe certamente esterni – ah.
  
 \emph on
 Capisco
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Gli occhi glaciali del professor Quirrell divennero improvvisamente penetranti.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei suggerisce che io lanci un Confundus su 
@@ -1180,20 +1188,20 @@ me stesso
  Mi dica se ha avanzato questo suggerimento con l'intenizione di intrappolarmi,
  ragazzo.
  Me lo dica in Serpentese.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
 Mia mente a cui tu hai chiessto di trovare sstrategia può esssere forsse
- sstata influenzata da intento ssimile -- chi può dirlo? Ssapevo che ssaressti
+ sstata influenzata da intento ssimile – chi può dirlo? Ssapevo che ssaressti
  sstato ssosspettosso, che avressti fatto proprio quessta domanda.
  Decissione è tua, maesstro.
  Non sso nulla che tu non ssappia, ssu quanto ssia probabile che quessto
@@ -1202,18 +1210,18 @@ Mia mente a cui tu hai chiessto di trovare sstrategia può esssere forsse
  decissione, e cosse vanno male.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry provò un forte impulso a sorridere, e lo soppresse.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Adorabile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, che 
@@ -1222,12 +1230,16 @@ stava
 \emph default
  sorridendo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo che vi siano alcune minacce di una mente inventiva che persino
  un interrogatorio in Serpentese non può neutralizzare.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1255,21 +1267,21 @@ per impedire di vederti a uomo che crederà di esssere presside
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Indossando il Mantello o meno, lei stesso si metterà a portata dello Specchio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se un fiotto di lava dovesse erompere, anche lei brucerà.
  Credo che sia giusto che ci sia una tale simmetria.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1290,8 +1302,8 @@ Il professor Quirrell indicò un punto vicino la parte destra della porta
 \end_layout
 
 \begin_layout Standard
-(Sebbene in ogni caso, Harry non riusciva a immaginarsi Dumbledore fare la
- cosa con la lava.
+(Sebbene in ogni caso, Harry non riusciva a immaginarsi Dumbledore fare
+ la cosa con la lava.
  Dumbledore era probabilmente abbastanza infuriato con Voldemort da mettere
  da parte il proprio controllo usuale, ma la lava non avrebbe fermato in
  maniera permanente un'entità che Dumbledore credeva essere un'anima incorporea.)
@@ -1308,7 +1320,7 @@ Poi il professor Quirrell puntò la propria bacchetta, e un circolo luccicante
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei 
@@ -1316,12 +1328,12 @@ Lei
 non attraverserà
 \emph default
  questo circolo una volta attivo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo le farebbe toccare la mia magia, e sotto l'influsso del Confundus
@@ -1330,15 +1342,15 @@ Questo le farebbe toccare la mia magia, e sotto l'influsso del Confundus
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Il professor Quirrell fece un altro gesto, e immediatamente all'interno
  del Circolo Massimo di Occultamento, apparve nell'aria una leggera lucentezza,
  una distorsione a forma di globo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1355,7 +1367,7 @@ qualsiasi cosa
  impulsiva o stupida.
  Mi dica che aspetterà qui in silenzio, sotto il Mantello, finché non sarà
  tutto finito.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1367,8 +1379,8 @@ Harry lo ripeté.
 
 \begin_layout Standard
 Poi le vesti del professor Quirrell divennero nere tinte di oro, di tal
- fatta che Dumbledore avrebbe potuto indossare in un'occasione formale; e il
- professor Quirrell si puntò la bacchetta alla testa.
+ fatta che Dumbledore avrebbe potuto indossare in un'occasione formale;
+ e il professor Quirrell si puntò la bacchetta alla testa.
 \end_layout
 
 \begin_layout Standard
@@ -1379,7 +1391,7 @@ Restò immobile per un lungo tempo, continuando a tenere la bacchetta alla
 
 \begin_layout Standard
 E poi il professor Quirrell disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1387,7 +1399,7 @@ E poi il professor Quirrell disse,
 Confundus
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1425,21 +1437,21 @@ Ciò che l'uomo poté vedervi, Harry non lo sapeva; a Harry sembrava che la
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ariana
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , esalò l'uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Madre, padre.
  E tu, fratello mio, è fatta.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1450,22 +1462,22 @@ L'uomo rimase fermo, come se stesse ascoltando.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, fatta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voldemort giunse dinanzi a questo specchio, e fu intrappolato dal metodo
  di Merlino.
  Egli è solo un orrore sigillato in più, ora.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1476,20 +1488,20 @@ Ancora l'immobilità dell'ascolto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vorrei poterti obbedire, fratello mio, ma è meglio in questo modo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  L'uomo chinò il capo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gli è negata la morte, per sempre; quella vendetta è terribile abbastanza.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1497,29 +1509,29 @@ Gli è negata la morte, per sempre; quella vendetta è terribile abbastanza.
 
 \begin_layout Standard
 Harry provò una fitta, guardando quella scena, una sensazione che quello
- non era ciò che Dumbledore avrebbe detto, sembrava più un'argomentazione fittizia,
- uno stereotipo superficiale...
+ non era ciò che Dumbledore avrebbe detto, sembrava più un'argomentazione
+ fittizia, uno stereotipo superficiale...
  ma del resto quello non era neppure lo spirito vero di Aberforth, quello
- era chi il professor Quirrell immaginava che Dumbledore immaginava che Aberforth
- fosse, e quell'immagine doppiamente riflessa di Aberforth non avrebbe notato
- nulla di sbagliato...
+ era chi il professor Quirrell immaginava che Dumbledore immaginava che
+ Aberforth fosse, e quell'immagine doppiamente riflessa di Aberforth non
+ avrebbe notato nulla di sbagliato...
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È il momento di restituire la Pietra filosofale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo che pensava di essere Dumbledore.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Deve tornare nella custodia di Maestro Flamel, ora.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1530,22 +1542,22 @@ Immobilità dell'ascolto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Maestro Flamel l'ha tenuta al sicuro tutti questi anni da tutti coloro che
  cercavano l'immortalità, e penso che sia massimamente sicura nelle sue
  mani...
  no, Aberforth, credo realmente che le sue intenzioni siano buone.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1570,16 +1582,16 @@ no dell'intelligenza di Tom Riddle...
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Distruggerla?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse l'uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse.
@@ -1592,7 +1604,7 @@ possa
  Aberforth, gliel'ho promesso, e noi stessi non siamo così antichi o così
  saggi.
  La Pietra filosofale deve tornare nella custodia di colui che l'ha creata.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1611,11 +1623,11 @@ za era del sangue, sospeso nel tempo e modellato in una superficie frastagliata.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, fratello mio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sommessamente l'uomo.
@@ -1634,19 +1646,19 @@ E poi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, Ariana
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'uomo, sorridendo con gentilezza, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 temo di dover andare, ora.
@@ -1655,19 +1667,19 @@ temo di dover andare, ora.
  entrato in possesso della Pietra devo allontanarmi allo Specchio e aspettare
  che Maestro Flamel mi contatti, ma non sono sicuro del perché io debba
  allontanarmi dallo Specchio per farlo...
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  L'uomo sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah, sto invecchiando.
  È un bene che questa guerra terrificante sia finita quando è finita.
  Suppongo che non vi sia alcun danno se parlo con te per qualche tempo,
  mia carissima, se così desideri.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1719,8 +1731,9 @@ Harry lo vide, l'istante in cui il Confundus si esaurì, e l'espressione
 
 \begin_layout Standard
 E nello stesso istante lo Specchio cambiò, non mostrando più a Harry il
- riflesso della stanza, quanto invece la forma del vero Albus Dumbledore, come
- se fosse proprio dietro lo Specchio e fosse visibile attraverso di esso.
+ riflesso della stanza, quanto invece la forma del vero Albus Dumbledore,
+ come se fosse proprio dietro lo Specchio e fosse visibile attraverso di
+ esso.
 \end_layout
 
 \begin_layout Standard
@@ -1728,11 +1741,11 @@ Il volto del vero Dumbledore era duro, e arcigno.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Salve, Tom
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore.
