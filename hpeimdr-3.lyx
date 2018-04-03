@@ -1,14 +1,15 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{37}
 
 \usepackage[usenames,dvipsnames]{xcolor}
 %\usepackage{fmtcount}
-\usepackage{microtype}
 %insular minuscule, capitolo 75
 \usepackage{inslrmin}
 
@@ -197,6 +198,15 @@
 
 %% descrizioni senza bold
 \renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
+
+%% indice lemmi
+\newfontfamily\fontindicelemmi{EB Garamond}
+\newcommand\indicelemmi{
+\begingroup
+\fontindicelemmi
+\char"2767
+\endgroup
+}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -207,16 +217,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding \font_roman Garamond Premier Pro
-\font_roman EB Garamond
-\font_sans Linux Biolinum O
-\font_typewriter Liberation Mono
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Liberation Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -256,6 +268,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \branch Figure
 \selected 0
 \filename_suffix 0
@@ -276,7 +289,10 @@ initials
 \tocdepth 0
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -314,6 +330,10 @@ frontmatter
 newgeometry{left=1.69cm,bottom=2.493cm}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -556,6 +576,10 @@ Harry James Potter-Evans-Verres e la Pietra filosofale
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -577,6 +601,10 @@ status open
 color{Maroon}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -607,6 +635,10 @@ status open
 }
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -676,6 +708,7 @@ Cato Philosophus
 
 \emph on
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -740,6 +773,10 @@ restoregeometry
 
 \begin_layout Standard
 \begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -823,7 +860,7 @@ Harry Potter and the Methods of Rationality
 \begin_inset Newline newline
 \end_inset
 
-© 2010--2015 Eliezer Yukowsky
+© 2010–2015 Eliezer Yukowsky
 \end_layout
 
 \begin_layout Standard
@@ -841,14 +878,14 @@ reflectbox{©}
 
 \end_inset
 
- 2013--2015 Cato Philosophus (cato.philosophus@gmail.com)
+ 2013–2015 Cato Philosophus (cato.philosophus@gmail.com)
 \begin_inset Newline newline
 \end_inset
 
 
 \size small
 Questa opera è stata rilasciata con licenza Creative Commons Attribuzione
- -- Condividi allo stesso modo 3.0 Italia; per leggere una copia della licenza
+ – Condividi allo stesso modo 3.0 Italia; per leggere una copia della licenza
  visita il sito web creativecommons.org/licenses/by-sa/3.0/it/ o spedisci
  una lettera a Creative Commons, PO Box 1866, Mountain View, 
 \noun on
@@ -874,7 +911,8 @@ usa
 
 \begin_layout Standard
 \align center
-Libro composto con LyX & 
+Libro composto con \SpecialChar LyX
+ & 
 \begin_inset ERT
 status open
 
@@ -1007,6 +1045,10 @@ mainmatter
 newgeometry{left=1.69cm,bottom=2.493cm}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1299,6 +1341,10 @@ backmatter
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1452,6 +1498,10 @@ textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
  Questa traduzione è dedicata a mio fratello e a mia madre.}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
