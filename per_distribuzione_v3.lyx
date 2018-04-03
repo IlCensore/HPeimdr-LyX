@@ -1,0 +1,1557 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\setcounter{chapter}{37}
+
+
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\newfontfamily\fontcapitolo[SmallCapsFont={Alegreya SC},Ligatures=Discretionary,Contextuals=Swash]{TeX Gyre Pagella}
+
+
+
+\renewcommand{\chaptermark}[1]{ \markboth{\textsc{#1}}{} }
+\makepagestyle{myheadings}
+  \makeevenhead{myheadings}{\footnotesize Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+%  \makeevenhead{myheadings}{Capitolo\ \liningnums{\thechapter}\ ·\ \leftmark}{}{}
+  \makeoddhead{myheadings}{}{}{}
+  \makeevenfoot{myheadings}{\thepage}{}{}
+  \makeoddfoot{myheadings}{}{}{\thepage}
+
+% the chapter style:
+\usepackage{xcoffins,xcolor}
+\NewCoffin\main
+\NewCoffin\titleline
+\NewCoffin\chapternumber
+
+\makechapterstyle{Bringhurst}{%
+  \renewcommand*\chapterheadstart{}
+  \renewcommand*\printchaptername{}
+  \renewcommand*\chapternamenum{}
+  \renewcommand*\afterchapternum{}
+  % numbered chapters:
+  \renewcommand*\printchapternum{%
+      \SetHorizontalCoffin\chapternumber{%
+      \textcolor{black!20}{\thechapter}%
+    }%
+    \ScaleCoffin\chapternumber{6}{6}%
+  }
+  % unnumbered chapters:
+  \renewcommand*\printchapternonum{\SetHorizontalCoffin\chapternumber{}}
+  \renewcommand*\printchaptertitle[1]{%
+%    \memRTLraggedright\normalfont\large\MakeUppercase{\textls[75]{##1}}}
+    \memRTLraggedright\normalfont\Large\textsc{##1}}
+  \renewcommand*\afterchaptertitle{%
+    \vskip.5\onelineskip
+    \SetHorizontalCoffin\titleline{\color{black!50}\rule{\linewidth}{1.5pt}}%
+    \JoinCoffins\main\titleline
+    \JoinCoffins*\main\chapternumber(\textwidth+\marginparsep,-4\baselineskip)%
+    \TypesetCoffin\main
+    \vskip\onelineskip
+  }
+}
+
+\makechapterstyle{hpmor}{%
+  \chapterstyle{default}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnumfont}{\normalfont}
+  \renewcommand*{\printchaptername}{%
+     \chapnumfont \textsc{\chaptername\ \thechapter}}
+  \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{}
+  \renewcommand*{\afterchapternum}{\par\parbox{0.5in}{}\par}
+%  \renewcommand*{\afterchapternum}{\parbox{0.5in}{} }
+  \renewcommand*{\printchapternonum}{%
+    \vphantom{\chapnumfont \@chapapp 1}\par
+    \parbox{0.5in}{}\par}
+  \renewcommand*{\chaptitlefont}{\normalfont\LARGE}
+%  \renewcommand*{\chaptitlefont}{\fontcapitolo\Huge}
+  \renewcommand*{\printchaptertitle}[1]{%
+    \chaptitlefont{\textsc{##1}}}}
+%    \chaptitlefont{\fontcapitolo\textit{{##1}}}}}
+%    \chaptitlefont\raisebox{-3pt}{\textit{##1}}}}
+  \renewcommand*{\afterchaptertitle}{\par\vspace\par}
+
+\chapterstyle{hpmor}
+%\chapterstyle{Bringhurst}
+%\chapterstyle{thatcher}
+
+
+% sections and subsections:
+\setsecnumformat{\normalfont\csname the#1\endcsname\quad}
+
+% the section style:
+\newcommand\uppercasehead[1]{%
+  \noindent\normalfont\scshape\MakeLowercase{#1}}
+\setsecindent{0pt}
+\setsecheadstyle{\uppercasehead}
+
+% the subsection style:
+\newcommand\itshapehead[1]{\normalfont\itshape#1}
+\setsubsecheadstyle{\itshapehead}
+\setsecnumdepth{subsection}
+
+% the subsubsection style:
+%\setsubsubsecheadstyle{\itshapehead}
+
+
+
+\usepackage{changepage} %per cambiare la dimensione del paragrafo
+\setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
+\usepackage{shapepar} %paragrafi con una certa forma
+\usepackage{url}%url lunga
+\renewcommand*{\parttitlefont}{\normalfont\HUGE\sffamily}
+
+\makeatletter
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{empty}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+  \null\vfil
+  \secdef\@part\@spart}
+\makeatother
+
+%\sideparmargin{ outer}
+
+%\renewcommand*{\cftchaptername}{\chaptername\space}
+\newlength\partlength
+\newlength\chapterlength
+\setlength\partlength{5em}
+\setlength\chapterlength{3em}
+\renewcommand{\cftdot}{\ensuremath{\ast}}
+\renewcommand{\cftchapterleader}{}
+\renewcommand{\cftchapterafterpnum}{\cftparfillskip}
+\renewcommand*{\cftchapterformatpnum}[1]{%
+  \hbox to \chapterlength{\hfill{\cftchapterpagefont #1}}}
+\renewcommand{\cftsectionleader}{}
+\renewcommand{\cftsectionafterpnum}{\cftparfillskip}
+\renewcommand{\cftpartleader}{}
+\renewcommand{\cftpartafterpnum}{\cftparfillskip}
+\renewcommand*{\cftpartformatpnum}[1]{%
+  \hbox to \partlength{\hfill{\cftpartpagefont #1}}}
+
+\renewcommand{\LettrineFontHook}{\color{black!50}}
+
+\frenchspacing
+
+
+%% ToC
+\renewcommand\partnumberline[1]{}
+\renewcommand\chapternumberline[1]{#1~\raisebox{.2ex}{\scalebox{0.75}{·}~}}
+\renewcommand\cftchapterpagefont{\normalfont}
+\renewcommand\cftchapterfont{\normalfont\scshape\small}
+\renewcommand\cftpartpagefont{\normalfont}
+\renewcommand\cftpartfont{\normalfont\large}
+
+\newlength\ToCindent
+\setlength\ToCindent{4.0em}
+
+\makeatletter
+\renewcommand*{\l@part}[2]{%
+  \ifnum \c@tocdepth >-2\relax
+    \cftpartbreak
+    \begingroup
+      {\leftskip0pt\noindent
+       \interlinepenalty\@M
+       \leavevmode
+       \parbox[t]{\ToCindent}{\makebox[2em][r]{\cftpartpagefont #2}\hfill}%
+       \parbox[t]{\dimexpr\textwidth-\ToCindent\relax}{\cftpartfont #1}%
+       }
+      \par\nobreak
+        \global\@nobreaktrue
+        \everypar{\global\@nobreakfalse\everypar{}}%
+    \endgroup
+  \fi}
+
+\newcommand*{\l@mychap}[3]{%
+  \def\@chapapp{#3}
+  \vskip2ex%
+  \par%
+  \noindent\parbox[t]{\ToCindent}{\makebox[2em][r]{\cftchapterpagefont#2}\hfill}%
+  \parbox[t]{\dimexpr\textwidth-\ToCindent\relax}{\cftchapterfont#1}\par%
+}
+
+\renewcommand*{\l@chapter}[2]{%
+  \l@mychap{#1}{#2}{\chaptername}%
+}
+
+\renewcommand*{\l@appendix}[2]{%
+  \l@mychap{#1}{#2}{\appendixname}%
+}
+\makeatother
+
+
+
+%\raggedbottom
+%\widowpenalties 2 10000 0
+%\clubpenalty 10000
+
+\widowpenalties 2 100 0
+\clubpenalty 100
+
+
+%% descrizioni senza bold
+\renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
+
+%% note a pie' pagina senza asterisco
+\newcommand\nomarkerfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+%% indice lemmi
+\newfontfamily\fontindicelemmi{EB Garamond}
+\newcommand\indicelemmi{
+\begingroup
+\fontindicelemmi
+\char"2767
+\endgroup
+}
+
+\usepackage{xfrac}
+\usepackage[super]{nth}
+\newfontface\lining[Numbers=Lining]{Minion Pro}
+\end_preamble
+\use_default_options true
+\begin_modules
+initials
+\end_modules
+\maintain_unincluded_children false
+\language italian
+\language_package default
+\inputencoding auto
+\fontencoding \font_roman "default" "Crimson"
+\font_roman "default" "Minion Pro"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Fira Mono"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf true
+\font_sf_scale 100 100
+\font_tt_scale 100 80
+\use_microtype true
+\use_dash_ligatures false
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement bp
+\paperfontsize 11
+\spacing other 1.15
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\branch Figure
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 13.97cm
+\paperheight 21.59cm
+\leftmargin 2.46cm
+\topmargin 2.4cm
+\rightmargin 2.46cm
+\bottommargin 2.4cm
+\headsep 0.25cm
+\secnumdepth 3
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newgeometry{top=1.52in,left=1.27in,right=1.27in,bottom=1.52in}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Harry Potter e i metodi della razionalità
+\begin_inset Newline newline
+\end_inset
+
+
+\noun on
+iii
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+\noun on
+Harry Potter e i metodi della razionalità
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size footnotesize
+\emph on
+Volume 
+\noun on
+i
+\emph default
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\noun on
+Harry James Potter-Evans-Verres 
+\begin_inset Newline newline
+\end_inset
+
+e i metodi della razionalità
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size footnotesize
+\emph on
+Volume 
+\noun on
+ii
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+\noun on
+Harry James Potter-Evans-Verres 
+\begin_inset Newline newline
+\end_inset
+
+e la Legione del Caos
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size footnotesize
+\emph on
+Volume 
+\noun on
+iii
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+\noun on
+Harry James Potter-Evans-Verres 
+\begin_inset Newline newline
+\end_inset
+
+e le ombre della morte
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size footnotesize
+\emph on
+Volume 
+\noun on
+iv
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+\noun on
+Hermione Jean Granger 
+\begin_inset Newline newline
+\end_inset
+
+e il richiamo della fenice
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size footnotesize
+\emph on
+Volume 
+\noun on
+v
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+\noun on
+Harry James Potter-Evans-Verres 
+\begin_inset Newline newline
+\end_inset
+
+e il nemico finale
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size footnotesize
+\emph on
+Volume 
+\noun on
+vi
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+\noun on
+Harry James Potter-Evans-Verres 
+\begin_inset Newline newline
+\end_inset
+
+e la pietra filosofale
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\noun on
+Eliezer Yudkowsky
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+color{Maroon}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+scshape
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{0.618
+\backslash
+linewidth}{!}{Harry Potter}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large e i}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip{}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{
+\backslash
+linewidth}{!}{Metodi della Razionalità}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Volume 
+\noun on
+ii
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+\noun on
+Harry James Potter-Evans-Verres 
+\begin_inset Newline newline
+\end_inset
+
+e le ombre della morte
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Basato sull'opera di
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+J.
+\begin_inset space \thinspace{}
+\end_inset
+
+K.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\noun on
+Rowling
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\emph on
+Traduzione di
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\noun on
+Cato Philosophus
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Roma
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Cato Philosophus
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\noun on
+mmxviii
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+Titolo originale dell'opera
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+harry potter and the methods of rationality
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+Edizione italiana a cura di Cato Philosophus
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+Il sito internet del progetto di traduzione è
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{sites.google.com/site/hpeimdr/home/}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+Il sito internet dell'opera originale è
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{hpmor.com}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+Harry Potter names, characters and related indicia
+\begin_inset Newline newline
+\end_inset
+
+are copyright and trademark Warner Bros.
+ © 2000
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+\emph on
+Harry Potter and the Methods of Rationality
+\emph default
+ 
+\begin_inset Newline newline
+\end_inset
+
+© 2010–2015 Eliezer Yudkowsky
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+Traduzione italiana 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+reflectbox{©}
+\end_layout
+
+\end_inset
+
+ 2013–2018 Cato Philosophus
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{cato.philosophus@gmail.com}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Questa opera è stata rilasciata con licenza Creative Commons Attribuzione
+ – Condividi allo stesso modo 3.0 Italia (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+url{creativecommons.org/licenses/by-sa/3.0/it/}
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+\begin_inset Graphics
+	filename by-sa.eps
+	width 1.6162cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+Libro composto con \SpecialChar LyX
+ & 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ usando Arno Pro, 
+\family sans
+Linux Biolinum
+\family default
+, e 
+\family typewriter
+Fira Mono
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\emph on
+Qualcosa, da qualche parte, in qualche momento, dev'essere avvenuta in maniera
+ differente...
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\noun on
+Petunia Evans
+\noun default
+ ha sposato Michael Verres, un professore di Biochimica a Oxford.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Harry James Potter-Evans-Verres
+\noun default
+ è cresciuto in una casa piena di libri fino al soffitto.
+ Una volta ha morso un'insegnante di matematica che non sapeva cosa fosse
+ un logaritmo.
+ Ha letto 
+\emph on
+Gödel, Escher, Bach
+\emph default
+, e 
+\emph on
+Judgement Under Uncertainty: Heuristics and Biases
+\emph default
+ e il primo volume de 
+\emph on
+La fisica di Feynman
+\emph default
+.
+ E malgrado ciò che tutti quelli che l'hanno incontrato sembrano temere,
+ non vuole diventare il prossimo Signore Oscuro.
+ È stato educato meglio di così.
+ Vuole scoprire le leggi della magia e diventare un dio.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Hermione Granger
+\noun default
+ sta facendo meglio di lui in ogni corso a eccezione di volo con la scopa.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Draco Malfoy
+\noun default
+ è esattamente ciò che ti aspetteresti fosse un undicenne se Darth Vader
+ fosse il suo amorevole padre.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Il professor Quirrell
+\noun default
+ sta vivendo il sogno di una vita di insegnare Difesa contro le Arti Oscure
+ o, come preferisce chiamarla lui, Magia da Battaglia.
+ Tutti i suoi studenti si stanno chiedendo cosa andrà male col Professore
+ di Difesa questa volta.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Dumbledore
+\noun default
+ è folle, oppure sta giocando una qualche partita enormemente complessa
+ che include dare fuoco a una gallina.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+La vicepreside Minerva McGonagall
+\noun default
+ ha bisogno di andare in qualche posto riservato e urlare per un po'.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Ecco a voi:
+\size large
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+harry potter e i metodi della razionalità
+\size default
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+Non indovinerete mai come va a finire.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{myheadings}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "038.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+openany
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "039.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "040.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "041.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "042.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "043.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "044.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "045.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "046.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "047.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "048.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "049.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "050.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "051.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "052.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "053.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "054.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "055.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "056.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "057.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "058.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "059.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "060.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "061.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "062.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "063.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "064.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Note
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Note}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begingroup
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+fontsize{9pt}{10pt}
+\backslash
+selectfont
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "NoteC.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+small
+\backslash
+diamondpar{Qui termina 
+\backslash
+textit{Harry Potter e i metodi della razionalità, Volume III}.
+ Grazie a Dinosaurusgede per la divertente ed emozionante arte; a Eneasz
+ Brodski e ai suoi collaboratori per la loro drammatizzazione radiofonica,
+ che è stata sia divertente sia motivante (questo è il mio contributo alla
+ diffusione della razionalità, non voglio che Hermione sia triste!); alla
+ comunità di 
+\backslash
+LaTeX e LyX, senza la quale questo lavoro sarebbe stato impossibile.
+ Ultimo nell'elenco ma primo per importanza, un grazie di cuore a Eliezer
+ Yudkowsky per il meraviglioso mondo di 
+\backslash
+textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
+ in parti uguali.
+ Questo lavoro è dedicato a mio fratello e a mia madre.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PublisherLogo.png
+	lyxscale 30
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
