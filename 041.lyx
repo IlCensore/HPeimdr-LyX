@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{40}
@@ -61,16 +63,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Fredericka the Great
-\font_typewriter EB Garamond Initials
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Fredericka the Great"
+\font_typewriter "default" "FreeMono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -81,16 +85,26 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -105,7 +119,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -130,7 +147,8 @@ name "chap:41Esclusione-frontale"
 \end_layout
 
 \begin_layout Standard
-Il pungente vento di gennaio ululò lungo le vaste e vuote mura di pietra
+\noindent
+Il pungente vento di gennaio ululava lungo le vaste e vuote mura di pietra
  che demarcavano i confini materiali del castello di Hogwarts, sussurrando
  e fischiando in tonalità strane mentre soffiava oltre finestre chiuse e
  torrette di pietra.
@@ -141,9 +159,9 @@ Il pungente vento di gennaio ululò lungo le vaste e vuote mura di pietra
 \end_layout
 
 \begin_layout Standard
-Una raffica improvvisa fece trasalire Draco, e lo fece tentare, impossibilmente,
- di premere il proprio corpo ancor più aderente alla pietra, che sembrava
- ghiaccio e odorava come il ghiaccio.
+Una raffica improvvisa fece trasalire Draco, e lo fece tentare, sebbene
+ fosse impossibile, di premere il proprio corpo ancor più aderente alla
+ pietra, che sembrava ghiaccio e odorava come il ghiaccio.
  Un certo istinto completamente inutile sembrò essere convinto che stesse
  per essere spazzato via dal muro esterno di Hogwarts, e che il modo migliore
  di evitarlo fosse sobbalzare in un riflesso incontrollabile e forse anche
@@ -160,21 +178,21 @@ non
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sa, signor Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse la giovane ragazza al suo fianco con un tono colloquiale, 
-\begin_inset Quotes fld
+, disse la giovane ragazza al suo fianco in un tono colloquiale, 
+\begin_inset Quotes cld
 \end_inset
 
-se un veggente mi avesse detto che un giorno sarei stata appesa alle mura
- di un castello solo con la punta delle mie dita, cercando di non guardare
- in basso o a quanto forte mia Madre griderebbe se mi vedesse, non avrei
- avuto 
+se un veggente mi avesse detto che un giorno sarei stata aggrappata alle
+ mura di un castello solo con la punta delle dita, cercando di non guardare
+ in basso o di non pensare a quanto forte mia Madre griderebbe se mi vedesse,
+ non avrei avuto 
 \emph on
 alcuna
 \emph default
@@ -182,17 +200,18 @@ alcuna
 \emph on
 eccetto
 \emph default
- che sarebbe stata colpa di Harry Potter
-\begin_inset Quotes frd
+ che sarebbe stata colpa di Harry Potter.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -214,8 +233,8 @@ I due generali alleati scavalcarono insieme il corpo di Longbottom, i loro
 
 \begin_layout Standard
 Ora un solo soldato restava tra loro e Harry, un ragazzo Serpeverde di nome
- Samuel Clamons, la cui mano era serrata attorno alla bacchetta, retta verso
- l'alto per sostenere il suo Muro Prismatico.
+ Samuel Clamons, la cui mano era serrata attorno alla bacchetta, retta all'insù
+ per sostenere il suo Muro Prismatico.
  Il respiro del ragazzo si stava facendo rapidamente più pesante, ma il
  suo volto mostrava la stessa fredda determinazione che illuminava gli occhi
  del suo generale, Harry Potter, il quale era in piedi dietro il Muro Prismatico
@@ -227,9 +246,9 @@ Ora un solo soldato restava tra loro e Harry, un ragazzo Serpeverde di nome
 La battaglia era stata assurdamente difficile, poiché il nemico era numericament
 e inferiore in un rapporto di uno a due.
  Sarebbe dovuto essere facile, il Dragon Army e il Sunshine Regiment si
- erano uniti insieme con facilità durante le sessioni di addestramento,
- si erano combattuti l'un l'altro abbastanza a lungo da conoscersi a vicenda
- davvero molto bene.
+ erano uniti con facilità durante le sessioni di addestramento, si erano
+ combattuti l'un l'altro abbastanza a lungo da conoscersi a vicenda davvero
+ molto bene.
  Il morale era alto, entrambi gli eserciti sapevano che questa volta non
  stavano solamente combattendo per ottenere la vittoria per sé stessi, ma
  che stavano combattendo per un mondo libero dai traditori.
@@ -240,22 +259,22 @@ e inferiore in un rapporto di uno a due.
 \end_layout
 
 \begin_layout Standard
-Ma i soldati di Harry avevano annerito le proprie insegne -- non sembrava
+Ma i soldati di Harry avevano annerito le proprie insegne – non sembrava
  pittura, più verosimilmente avevano 
 \emph on
 bruciato
 \emph default
- quella parte delle loro uniformi -- e avevano combattuto per tutto il percorso
- fino ai livelli superiori di Hogwarts con una furia disperata.
- La fredda rabbia che Draco aveva talvolta visto in Harry era sembrata trasudare
- nei suoi soldati, che avevano combattuto come se non fosse stato un gioco.
+ quella parte delle loro uniformi – e avevano combattuto lungo tutto il
+ percorso fino ai livelli superiori di Hogwarts con una furia disperata.
+ La fredda rabbia che Draco aveva talvolta visto in Harry era sembrata percolare
+ sui suoi soldati, che avevano combattuto come se non fosse stato un gioco.
  E Harry aveva dato fondo alla sua intera riserva di trucchi, avevano trovato
  palline di metallo (Granger le aveva identificate come 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 cuscinetti a sfera
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ) su pavimenti e scalinate, che li rendevano intransitabili finché non fossero
@@ -332,31 +351,31 @@ E poi Harry parlò.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ora il cattivo sono io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse gelidamente il giovane ragazzo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e se pensate che i cattivi siano così facili da eliminare, fareste meglio
  a ripensarci.
  Battetemi quando combatto sul serio, e resterò battuto; ma perdete, e continuer
-emo a rifare tutto questo daccapo la prossima volta
-\begin_inset Quotes frd
+emo a rifare tutto questo daccapo la prossima volta.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Il ragazzo portò la sua bacchetta in avanti, e Draco vide che Harry stava
- indossando strani guanti, con un insolito metallo grigiastro sulle punte
- delle dita, e fibbie che fissavano strettamente i guanti ai suoi polsi.
+Il ragazzo portò la bacchetta in avanti, e Draco vide che Harry stava indossando
+ strani guanti, con un insolito metallo grigiastro sulle punte delle dita,
+ e cinghie che fissavano strettamente i guanti ai polsi.
 \end_layout
 
 \begin_layout Standard
@@ -365,13 +384,13 @@ Al fianco di Draco, il Generale Sunshine rantolò inorridita; e Draco, senza
 \end_layout
 
 \begin_layout Standard
-Samuel barcollò, e si lasciò scappare un grido mentre barcollava, ma resse
+Samuel barcollò, e si lasciò scappare un grido mentre barcollava, ma mantenne
  il Muro; e se Padma o Granger avessero attaccato ora, avrebbero esaurito
  le loro forze così completamente che avrebbero potuto persino perdere.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -379,12 +398,12 @@ Samuel barcollò, e si lasciò scappare un grido mentre barcollava, ma resse
 Harry!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , gridò Granger.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -392,7 +411,7 @@ Harry!
 Non puoi fare sul serio!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -404,20 +423,21 @@ Harry era già in movimento.
 
 \begin_layout Standard
 E mentre saltò fuori dalla finestra aperta, la sua gelida voce disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Seguitemi, se ne avete il coraggio
-\begin_inset Quotes frd
+Seguitemi, se ne avete il coraggio.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -436,7 +456,7 @@ Le braccia di Draco stavano già iniziando ad essere stanche.
 \begin_layout Standard
 … Aveva scoperto che, ieri, Harry aveva attentamente dimostrato a Granger
  esattamente come Trasfigurare i guanti che stava indossando in quel momento,
- che usavano una cosa chiamata `setae del geco'; e come incollare porzioni
+ che usavano una cosa chiamata ``setae del geco''; e come incollare porzioni
  Trasfigurate di quello stesso materiale sulle punte delle loro scarpe;
  e Harry e Granger avevano, in un innocente gioco da bambini, provato a
  scalare per un po' le pareti e il soffitto.
@@ -445,11 +465,11 @@ Le braccia di Draco stavano già iniziando ad essere stanche.
 \begin_layout Standard
 E che, sempre ieri, Harry aveva fornito a Granger un totale di esattamente
  tue dosi di Pozione Caduta-Piuma da portarsi dietro nella sua borsa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 solo per sicurezza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -472,7 +492,7 @@ Con attenzione, Draco scollò la sua mano destra, la allungò in alto fin
 
 \begin_layout Standard
 Avevano già bevuto la Pozione Caduta-Piuma.
- Era equivalente a costeggiare i confini delle regole del gioco, ma la pozione
+ Era equivalente a viaggiare al limite delle regole del gioco, ma la pozione
  non sarebbe stata attivata a meno che uno di loro non fosse effettivamente
  caduto, e fin tanto che 
 \emph on
@@ -496,25 +516,25 @@ Harry Potter, d'altro canto, stava per morire.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi chiedo perché Harry stia facendo questo
-\begin_inset Quotes frd
+Mi chiedo perché Harry stia facendo tutto questo
+\begin_inset Quotes crd
 \end_inset
 
 , disse il generale Granger con un tono riflessivo, mentre stava scollando
  lentamente una delle sue mani dal muro con un prolungato suono appiccicoso.
  La sua mano ricadde pesantemente quasi subito dopo che era stata sollevata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Dovrò chiederglielo dopo che l'avrò ucciso
-\begin_inset Quotes frd
+Dovrò chiederglielo dopo che l'avrò ucciso.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -525,35 +545,35 @@ Era incredibile quante fossero le cose che loro due stavano finendo per
 \begin_layout Standard
 Draco non aveva voglia di parlare in quel momento, ma riuscì a dire, a denti
  stretti, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrebbe essere una vendetta.
- Per l'appuntamento
-\begin_inset Quotes frd
+ Per l'appuntamento.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Davvero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Granger.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Dopo tutto questo tempo
-\begin_inset Quotes frd
+Dopo tutto questo tempo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -562,11 +582,11 @@ Stic.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quanto è dolce
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Granger.
@@ -578,11 +598,11 @@ Stic.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Credo che dovrò trovare qualche modo davvero romantico di ringraziarlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Granger.
@@ -594,7 +614,7 @@ Stic.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché ce l'ha con 
@@ -602,10 +622,10 @@ Perché ce l'ha con
 te?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse Granger.
+ chiese Granger.
 \end_layout
 
 \begin_layout Standard
@@ -617,10 +637,11 @@ Stic.
 Il vento gelido ululò attorno a loro.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -630,13 +651,13 @@ Il vento gelido ululò attorno a loro.
 
 \begin_layout Standard
 Avresti potuto pensare di sentirti più al sicuro per il fatto di avere nuovament
-e un terreno sotto i piedi.
+e un supporto sotto i piedi.
 \end_layout
 
 \begin_layout Standard
-Ma se quel terreno era un tetto inclinato con tegole grezze, che aveva molto
- più ghiaccio sopra rispetto alle mura di pietra, e tu ci stavi correndo
- su ad altra velocità…
+Ma se quel supporto era un tetto spiovente di tegole grezze, coperto da
+ molto più ghiaccio rispetto alle mura di pietra, e tu ci stavi correndo
+ sopra ad altra velocità…
 \end_layout
 
 \begin_layout Standard
@@ -648,7 +669,7 @@ tristemente torto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -656,14 +677,14 @@ tristemente torto
 Luminos!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -671,14 +692,14 @@ Luminos!
 Luminos!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Granger.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -686,14 +707,14 @@ Luminos!
 Luminos!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -701,7 +722,7 @@ Luminos!
 Luminos!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Granger.
@@ -726,24 +747,24 @@ davvero
 
 \begin_layout Standard
 E altrettanto inevitabilmente, perché avvenne senza il minimo pensiero,
- Draco girò su sé stesso e afferrò il braccio destro di Granger, ed egli
- la 
+ Draco girò su sé stesso e si allungò per afferrare il braccio destro di
+ Granger, e la 
 \emph on
 prese
 \emph default
-, solo che lei era già troppo sbilanciata, stava cadendo e tirandosi dietro
+, solo che lei era già troppo sbilanciata, stava cadendo e si tirò dietro
  Draco, avvenne tutto così velocemente
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Ci fu un impatto duro e doloroso, non solo il peso di Draco che colpiva
  il tetto ma anche parte del peso di Granger, e se lei fosse stata appena
  un po' più vicina al bordo ce l'avrebbero potuta fare, invece il corpo
- di lei si rovesciò di nuovo e le sue gambe scivolarono fuori e con l'altra
+ di lei si girò di nuovo e le sue gambe scivolarono fuori e con l'altra
  mano cercò freneticamente di afferrarsi…
 \end_layout
 
@@ -755,7 +776,7 @@ E fu così che Draco finì per stringere il braccio di Granger con una presa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -763,18 +784,18 @@ E fu così che Draco finì per stringere il braccio di Granger con una presa
 Hermione!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  strillò la voce di Harry da lontano.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la voce di Granger, e Draco guardò in basso.
@@ -787,15 +808,15 @@ Sarebbe potuto essere un errore.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Verrà qui ad aiutarmi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la ragazza, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma prima intende lanciare un 
@@ -803,13 +824,14 @@ ma prima intende lanciare un
 Luminos
 \emph default
  contro entrambi, è impossibile che non lo faccia.
- Devi lasciarmi andare
-\begin_inset Quotes frd
+ Devi lasciarmi andare.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \begin_inset Branch Figure
-status open
+inverted 0
+status collapsed
 
 \begin_layout Standard
 \begin_inset Float figure
@@ -842,16 +864,21 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco, devi lasciarmi andare.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -894,16 +921,16 @@ male!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fallo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Hermione Granger, i suoi occhi ardenti senza neppure una minima
  traccia di paura, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 fallo, Draco, fallo, puoi sconfiggerlo da solo 
@@ -911,7 +938,7 @@ fallo, Draco, fallo, puoi sconfiggerlo da solo
 dobbiamo vincere Draco!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -938,10 +965,11 @@ La voce nella testa di Draco suonò tremendamente simile a Harry Potter che
 hai intenzione di lasciare che il tuo cervello rovini la tua vita?
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -971,50 +999,50 @@ miglioramenti
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E poi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rantolarono Flora e Hestia Carrow.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il generale Granger ha alzato lo sguardo su di lui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Millicent in maniera drammatica, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-e ha detto, `Draco! Devi lasciarmi andare! Non preoccuparti di me, Draco,
- ti prometto che starò bene!' E cosa pensate che abbia fatto allora Malfoy?
-\begin_inset Quotes frd
+e ha detto, ``Draco! Devi lasciarmi andare! Non preoccuparti per me, Draco,
+ ti prometto che me la caverò!'' E cosa pensate che abbia fatto allora Malfoy?
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ha detto `Mai!'
-\begin_inset Quotes frd
+Ha detto ``Mai!''
+\begin_inset Quotes crd
 \end_inset
 
 , gridò Charlotte Wiland, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e l'ha stretta ancora più forte!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1025,25 +1053,25 @@ Tutte le ragazze in ascolto eccetto Pansy Parkinson annuirono.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Millicent.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ha lasciata cadere.
  E poi è saltato in piedi e ha colpito il generale Potter.
- Fine
-\begin_inset Quotes frd
+ Fine.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1051,22 +1079,22 @@ Ci fu una pausa di sbalordimento.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non puoi 
+Non si può 
 \emph on
-farlo!
+fare!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Charlotte.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei è una 
@@ -1074,12 +1102,12 @@ Lei è una
 sanguemarcio
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Pansy, sembrando confusa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1087,23 +1115,23 @@ sanguemarcio
 Ovviamente
 \emph default
  l'ha lasciata andare!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, allora Malfoy non avrebbe dovuto afferrarla, tanto per cominciare!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Charlotte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma una volta che l'aveva afferrata, 
@@ -1115,34 +1143,34 @@ doveva
 Specialmente
 \emph default
  se di fronte ad un destino nefasto e vicino!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Tracey Davis, seduta vicino a Daphne, stava annuendo, completamente d'accordo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non capisco perché
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Pansy.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È perché non hai la più piccola briciola di romanticismo dentro di te
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Inoltre, non puoi semplicemente lasciar cadere una ragazza.
@@ -1155,23 +1183,23 @@ chiunque
 \emph on
 te
 \emph default
-, Pansy
-\begin_inset Quotes frd
+, Pansy.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che vuoi dire, 
 \emph on
-lascerebbe cadere me?
+mi lascerebbe cadere?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Pansy.
@@ -1180,59 +1208,59 @@ lascerebbe cadere me?
 \begin_layout Standard
 Daphne non poté più resistere.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tipo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Daphne minacciosamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 stai facendo colazione un giorno a tavola, e subito dopo, Malfoy
 \emph on
- lascia cadere te
+ ti lascia andare
 \emph default
 , e tu cadi dalla sommità di Hogwarts! Ecco che vuol dire!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Charlotte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Lui lascia cadere le streghe!
-\begin_inset Quotes frd
+È uno che lascia cadere le streghe!
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sapete perché è caduta Atlantide?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché qualcuno come Malfoy l'ha 
@@ -1240,7 +1268,7 @@ Perché qualcuno come Malfoy l'ha
 lasciata cadere
 \emph default
 , ecco perché!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1249,7 +1277,7 @@ lasciata cadere
 \begin_layout Standard
 Daphne abbassò la voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In effetti… e se fosse stato Malfoy a far scivolare Hermione, voglio dire
@@ -1259,53 +1287,53 @@ In effetti… e se fosse stato Malfoy a far scivolare Hermione, voglio dire
 tutti
 \emph default
  i Nati babbani?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Vuoi dire -- ?
-\begin_inset Quotes frd
+Vuoi dire – ?
+\begin_inset Quotes crd
 \end_inset
 
  ansimò Tracey.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Esatto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Daphne enfaticamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-E se Malfoy fosse -- 
+E se Malfoy fosse – 
 \emph on
 l'erede di Scivolverde?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Il prossimo Inciampatore Oscuro!
-\begin_inset Quotes frd
+Il prossimo Caditore Oscuro!
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey.
@@ -1321,10 +1349,11 @@ Cavillo
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1341,7 +1370,7 @@ Conseguenze, 2
 \begin_layout Standard
 \noindent
 Hermione si assicurò di arrivare alla loro solita aula ben in anticipo quella
- sera, solo per poter stare da sola, in una sedia, leggendo placidamente
+ sera, solo per poter stare da sola, seduta su una sedia, leggendo placidamente
  un libro, quando Harry fosse arrivato.
 \end_layout
 
@@ -1351,14 +1380,14 @@ Se c'era un modo qualunque in cui una porta potesse aprirsi cigolando in
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse la voce di Harry Potter.
+, fece la voce di Harry Potter.
 \end_layout
 
 \begin_layout Standard
@@ -1366,7 +1395,7 @@ Hermione continuò a leggere.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono, uhm, piuttosto dispiaciuto, non volevo che tu cadessi 
@@ -1374,7 +1403,7 @@ Sono, uhm, piuttosto dispiaciuto, non volevo che tu cadessi
 davvero
 \emph default
  dal tetto o cose del genere…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1385,7 +1414,7 @@ Era stata un'esperienza piuttosto divertente, in realtà.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io, ah… non ho molta esperienza nel chiedere scusa, mi getterò in ginocchio
@@ -1394,7 +1423,7 @@ Io, ah… non ho molta esperienza nel chiedere scusa, mi getterò in ginocchio
 Hermione non so come chiederti scusa, cosa posso fare, me lo dici?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
