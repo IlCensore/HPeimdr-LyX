@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{42}
@@ -61,18 +63,20 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Fredericka the Great
-\font_typewriter EB Garamond Initials
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Fredericka the Great"
+\font_typewriter "default" "Fira Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -100,6 +104,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -114,7 +119,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -147,6 +155,7 @@ name "chap:43Umanesimo-1"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Il sole gentile di gennaio splendeva sui freddi campi fuori da Hogwarts.
 \end_layout
 
@@ -161,22 +170,21 @@ Per alcuni degli studenti era un'ora di studio, e altri erano stati autorizzati
 \end_layout
 
 \begin_layout Standard
-I gesti iniziali dell'incantesimo erano complessi e precisi; contraevi la
- tua bacchetta una, due, tre e quattro volte con piccole inclinazioni a
- precisi angoli relativi, spostavi indice e pollice esattamente alla giusta
- distanza…
+I gesti iniziali dell'incantesimo erano complessi e precisi; agitavi la
+ bacchetta una, due, tre e quattro volte con piccole inclinazioni a precisi
+ angoli relativi, spostavi indice e pollice esattamente alla giusta distanza…
 \end_layout
 
 \begin_layout Standard
-Il Ministero pensava che questo significasse che fosse inutile provare ad
- insegnare l'incantesimo a chiunque prima del suo quinto anno.
+Il Ministero pensava che quello significasse che fosse inutile provare ad
+ insegnare l'incantesimo a qualcuno prima del quinto anno.
  C'erano stati alcuni casi noti di bambini più piccoli che l'avevano imparato,
  ed erano stati derubricati come 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 genio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -185,13 +193,13 @@ genio
 \begin_layout Standard
 Poteva non essere stato un modo molto educato di dirlo, ma Harry iniziava
  a capire perché il professor Quirrell aveva affermato che il Comitato per
- i Programmi di Studio del Ministero sarebbe stato di maggior giovamento
- se fosse stato usato come discarica.
+ i Programmi di Studio del Ministero sarebbe stato maggiormente utile se
+ usato come discarica.
 \end_layout
 
 \begin_layout Standard
 E così i gesti erano complicati e delicati.
- Questo non ti impediva di impararlo quando avevi undici anni.
+ Quello non ti impediva di impararlo quando avevi undici anni.
  Significava che dovevi essere estremamente attento ed esercitarti su ciascuna
  parte più a lungo del solito, tutto lì.
 \end_layout
@@ -219,8 +227,8 @@ Richiedeva i sentimenti affettuosi e felici che tenevi chiusi nel tuo cuore,
 \end_layout
 
 \begin_layout Standard
-Harry contrasse la sua bacchetta una, due, tre e quattro volte, spostò indice
- e pollice esattamente alla giusta distanza…
+Harry agitò la bacchetta una, due, tre e quattro volte, spostò indice e
+ pollice esattamente alla giusta distanza…
 \end_layout
 
 \begin_layout Standard
@@ -230,20 +238,53 @@ Buona fortuna per la scuola, Harry.
  Pensi che ti abbia comprato abbastanza libri?
 \emph default
 »
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Cit.
+ da cap.
+ 7.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-«
+\begin_inset Quotes cld
+\end_inset
+
+
 \emph on
-Non si possono mai avere abbastanza libri… ma certamente ci hai provato,
- è stato davvero, davvero, davvero un buon tentativo…
+Non è possibile avere abbastanza libri\SpecialChar ldots
+ ma certamente ci hai provato, è stato
+ davvero, davvero, davvero un buon tentativo\SpecialChar ldots
+
 \emph default
-»
+
+\begin_inset Quotes crd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Cit.
+ da cap.
+ 7.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Gli aveva fatto venire le lacrime agli occhi, la prima volta che Harry l'aveva
- ricordato e provato a mettere nell'incantesimo.
+ ricordato e aveva provato a metterlo nell'incantesimo.
 \end_layout
 
 \begin_layout Standard
@@ -252,7 +293,7 @@ Harry sollevò e ruotò e brandì la bacchetta, un gesto che non doveva essere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -260,7 +301,7 @@ Harry sollevò e ruotò e brandì la bacchetta, un gesto che non doveva essere
 Expecto Patronum!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Harry.
@@ -282,23 +323,23 @@ Quando Harry alzò lo sguardo, Remus Lupin stava ancora studiando la bacchetta,
 \begin_layout Standard
 Infine Remus scosse la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace, Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente l'uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-La tua esecuzione era perfetta
-\begin_inset Quotes frd
+La tua esecuzione era perfetta.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -310,8 +351,8 @@ E non ci fu un baluginio di luce neppure altrove, perché tutti gli studenti
 \begin_layout Standard
 Le lacrime minacciavano di risalire agli occhi di Harry, e non erano lacrime
  di felicità.
- Fra tutte le cose, fra tutte le cose, Harry non si sarebbe mai aspettato
- questa.
+ Di tutte le cose, di tutte le cose, Harry non si sarebbe mai aspettato
+ quella.
 \end_layout
 
 \begin_layout Standard
@@ -329,27 +370,27 @@ Anthony amava forse di più suo padre?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che pensiero stavi usando per lanciarlo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Remus.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mio padre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce che tremava.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gli ho chiesto di comprarmi alcuni libri prima di venire a Hogwarts, e l'ha
@@ -357,8 +398,8 @@ Gli ho chiesto di comprarmi alcuni libri prima di venire a Hogwarts, e l'ha
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -369,26 +410,25 @@ Harry non cercò di spiegare la faccenda del motto di famiglia dei Verres.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Riposati prima di provare con un pensiero differente, Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Remus.
  Fece un gesto verso il luogo dove altri studenti stavano seduti sul terreno,
  sembrando delusi o imbarazzati o rammaricati.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sarai in grado di lanciare un Incantesimo Patronus mentre ti senti a
- disagio per non essere abbastanza riconoscente
-\begin_inset Quotes frd
+ disagio per non essere abbastanza riconoscente.
+\begin_inset Quotes crd
 \end_inset
 
-.
  C'era una compassione gentile nella voce del signor Lupin, e per un momento,
  Harry sentì di toccare qualcosa.
 \end_layout
@@ -412,11 +452,11 @@ Harry si lasciò cadere pesantemente sulla fredda erba morta invernale, vicino
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi neppure tu l'hai potuto fare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
@@ -425,43 +465,43 @@ Quindi neppure tu l'hai potuto fare
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 io, mi sentirei probabilmente molto peggio se tu non avessi fallito, sei
- la persona, più carina che conosco, che abbia mai incontrato, Hermione,
+ la persona, più gentile che conosco, che abbia mai incontrato, Hermione,
  e se anche 
 \emph on
 tu
 \emph default
  non puoi farlo, significa che potrei essere ancora, essere buono…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sarei dovuta andare a Grifondoro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Hermione.
- Batté gli occhi diverse volte, ma non si asciugò gli occhi.
+ Sbatté palpebre diverse volte, ma non si asciugò gli occhi.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -476,16 +516,15 @@ Sarei dovuta andare a Grifondoro
 \begin_layout Standard
 Il ragazzo e la ragazza avanzarono insieme, sicuramente non tenendosi per
  mano, ma ciascuno traendo un certo tipo di forza dalla presenza dell'altra,
- qualcosa che permise loro di ignorare i sussurri dei loro compagni di anno,
- mentre camminarono attraverso il corridoio che portava alle grandi porte
+ qualcosa che permise loro di ignorare i sussurri dei loro compagni di corso,
+ mentre camminavano attraverso il corridoio che portava alle grandi porte
  di Hogwarts.
 \end_layout
 
 \begin_layout Standard
 Harry non era stato in grado di lanciare l'Incantesimo Patronus qualunque
  fosse il pensiero felice che aveva provato.
- La gente non ne era sembrata sorpresa, cosa che rese la faccenda ancora
- peggiore.
+ La gente non ne era sembrata sorpresa, il che rese la faccenda ancora peggiore.
  Neppure Hermione era stata capace di farlo.
  La gente era stata 
 \emph on
@@ -512,8 +551,8 @@ perché…
 I libri avevano confermato ciò che il Preside aveva detto a Harry; spesso
  i maghi che non potevano lanciare l'Incantesimo Patronus durante gli allenament
 i sarebbero stati in grado di farlo in presenza di un vero Dissennatore,
- passando da un fallimento assoluto direttamente fino ad un Patronus completamen
-te corporeo.
+ passando direttamente da un fallimento assoluto a un Patronus completamente
+ corporeo.
  Sfidava ogni logica, l'aura di paura del Dissennatore avrebbe dovuto rendere
  
 \emph on
@@ -524,7 +563,7 @@ più difficile
 
 \begin_layout Standard
 E così entrambi avevano intenzione di provarci un'ultima volta, era impossibile
- che qualcuno di loro due non ci provasse un'ultima volta.
+ che uno di loro due non ci provasse un'ultima volta.
 \end_layout
 
 \begin_layout Standard
@@ -545,45 +584,45 @@ Harry aveva già iniziato a sentirsi pessimista, e non era neppure ancora
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Scommetto che tu puoi farlo e io no
-\begin_inset Quotes frd
+Scommetto che tu ce la farai e io no
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con un sussurro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Scommetto che succederà questo
-\begin_inset Quotes frd
+Scommetto che succederà questo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi è sembrato sbagliato
-\begin_inset Quotes frd
+Mi sembrava sbagliato
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, la sua voce persino più bassa di quella di lui.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci ho provato stamattina e l'ho capito.
  Quando stavo eseguendo l'impugnatura finale, ancora prima di dire le parole,
- è sembrato sbagliato
-\begin_inset Quotes frd
+ sembrava sbagliato.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -591,26 +630,26 @@ Harry non disse nulla.
  Aveva sentito la stessa cosa, fin dall'inizio, sebbene ci fossero voluti
  altri cinque tentativi usando altri cinque pensieri felici prima che fosse
  capace di ammetterlo con sé stesso.
- Ogni volta che cercava di impugnare la sua bacchetta, si era sentito vuoto;
- l'incantesimo che stava cercando di imparare non si adattava a lui.
+ Ogni volta che cercava di impugnare la bacchetta, si sentiva vuoto; l'incantesi
+mo che stava cercando di imparare non si adattava a lui.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non significa che diventeremo Maghi Oscuri
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Molta gente che non può lanciare l'Incantesimo Patronus non è un Mago Oscuro.
  Godric Grifondoro non era un Mago Oscuro…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -691,15 +730,9 @@ Dopo di che Godric era morto, e non aveva lasciato alcun fantasma dietro
 \end_layout
 
 \begin_layout Standard
-Non si penserebbe che un libro con un titolo innocente come 
-\begin_inset Quotes fld
-\end_inset
-
-L'Incantesimo Patronus: Maghi che poterono e che non poterono
-\begin_inset Quotes frd
-\end_inset
-
- sarebbe stato il libro più triste mai letto da Harry.
+Non si penserebbe che un libro con un titolo innocente come ``L'Incantesimo
+ Patronus: Maghi che poterono e che non poterono'' sarebbe stato il libro
+ più triste mai letto da Harry.
 \end_layout
 
 \begin_layout Standard
@@ -740,45 +773,45 @@ Niente Patronus
 
 \begin_layout Standard
 Harry vide che Hermione, al suo fianco, stava sbattendo le palpebre; e si
- chiese se lei stesse pensando a Rowena Corvonero, anche lei amante dei
+ chiese se lei stesse pensando a Rowena Corvonero, anch'essa amante dei
  libri.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensieri più felici.
  Se dovessi arrivare davvero a un Patronus corporeo, quale animali pensi
  che sia?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una lontra
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse subito Hermione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una 
@@ -786,48 +819,47 @@ Una
 lontra?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò incredulo Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, una lontra.
  E il tuo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un falco pellegrino
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry senza esitazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Può scendere in picchiata più veloce di trecento chilometri all'ora, è la
- creatura vivente più veloce che esista
-\begin_inset Quotes frd
+ creatura vivente più veloce che esista.
+\begin_inset Quotes crd
 \end_inset
 
-.
- Il falco pellegrino era stato l'animale preferito di Harry da sempre.
+ Il falco pellegrino era stato da sempre l'animale preferito di Harry.
  Harry era determinato a diventare un Animagus un giorno, solo per avere
  quella come sua forma, e volare con la forza delle proprie ali e vedere
  la terra sotto di sé con occhi più acuti… 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma perché una 
@@ -835,7 +867,7 @@ Ma perché una
 lontra?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -852,17 +884,15 @@ E le vaste porte di Hogwarts si aprirono di colpo.
 \begin_layout Standard
 Camminarono per un po', i bambini, sopra un sentiero che conduceva alla
  foresta non proibita, e continuava attraverso la foresta stessa.
- Il sole si stava abbassando verso l'orizzonte, le ombre lunghe, la luce
- solare filtrata attraverso i nudi rami degli alberi in inverno; poiché
- era gennaio, e gli studenti del primo anno gli ultimi a imparare, quel
- giorno.
+ Il sole si stava abbassando sull'orizzonte, le ombre lunghe, la luce solare
+ che filtrava attraverso i nudi rami degli alberi in inverno; poiché era
+ gennaio, e gli studenti del primo anno gli ultimi a imparare, quel giorno.
 \end_layout
 
 \begin_layout Standard
-Poi il sentiero deviava bruscamente e prendeva una nuova direzione, e tutti
- loro la videro in lontananza, la radura nella foresta, e il secco terreno
- invernale, l'ingiallita erba secca macchiata dal bianco di pochi residui
- di neve.
+Poi il sentiero deviò bruscamente e prese una nuova direzione, e tutti loro
+ la videro in lontananza, la radura nella foresta, e il secco terreno invernale,
+ l'ingiallita erba secca macchiata dal bianco di pochi residui di neve.
 \end_layout
 
 \begin_layout Standard
@@ -887,7 +917,7 @@ Doveva essere solo l'immaginazione di Harry, perché non ci sarebbe dovuto
  alcuna considerazione per le barriere di Occlumanzia.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -912,7 +942,7 @@ rvallo tra quando il Preside dissolveva il proprio Patronus e quando avresti
 Fino a venti secondi di esposizione a cinque passi di distanza erano certamente
  sicuri, anche per un mago undicenne con debole resistenza e un cervello
  ancora in maturazione.
- C'era molta variazione sulla durezza con cui il potere del Dissennatore
+ C'era molta variabilità nella durezza con cui il potere del Dissennatore
  colpiva le persone, che era ancora un'altra cosa non ben compresa; ma venti
  secondi erano senz'altro sicuri.
 \end_layout
@@ -929,13 +959,13 @@ potevano
 
 \begin_layout Standard
 Era un addestramento severo anche secondo gli standard di Hogwarts, dove
- il modo in cui si imparava a volare su di un ippogrifo era venire gettati
+ il modo in cui si imparava a volare su di un ippogrifo era venire messi
  su uno di essi e sentirsi dire di andare.
  Harry non era un fanatico dell'iperprotettività, e se si osservava la differenz
 a in maturità tra uno studente del quarto anno a Hogwarts e un Babbano quattordi
 cenne, era chiaro che i Babbani asfissiavano i loro figli… ma persino Harry
- aveva iniziato a chiedersi se questo fosse esagerato.
- Non tutte le ferite potevano essere guarite in seguito.
+ aveva iniziato a chiedersi se quello fosse esagerato.
+ Non tutte le ferite potevano essere successivamente guarite.
 \end_layout
 
 \begin_layout Standard
@@ -949,16 +979,20 @@ i; l'eccessiva sicurezza era ancora più pericolosa per i maghi che per i
 \emph on
 non
 \emph default
- essere in grado di Materializzarti via se avessi atteso troppo a lungo,
- o se non avessi riconosciuto la paura che si avvicinava fino a quando il
- Dissennatore non fosse stato alla distanza per attaccare.
+ 
+\emph on
+essere
+\emph default
+ in grado di Materializzarti via se avessi atteso troppo a lungo, o se non
+ avessi riconosciuto la paura che si avvicinava fino a quando il Dissennatore
+ non fosse stato alla distanza per attaccare.
  (Durante le sue letture, Harry aveva scoperto con considerevole orrore
  che alcuni libri affermavano che il Bacio del Dissennatore avrebbe 
 \emph on
 mangiato la tua anima
 \emph default
- e che quella era la ragione per il coma inconscio permanente in cui faceva
- cadere le vittime.
+ e che quella era la ragione del coma permanente in cui faceva cadere le
+ vittime.
  E che maghi che 
 \emph on
 lo credevano vero
@@ -968,8 +1002,8 @@ lo credevano vero
 giustiziare i criminali
 \emph default
 .
- Era una certezza che alcuni di coloro chiamati criminali fossero innocenti,
- e anche se non lo fossero
+ Era una certezza che alcuni di coloro che erano stati dichiarati criminali
+ fossero innocenti, e anche se non lo fossero
 \emph on
  
 \emph default
@@ -1002,7 +1036,7 @@ e un volto che non denotava alcuna espressione mentre esaminava l'intera
  del primo anno avevano iniziato i loro tentativi, e i suoi occhi non si
  erano mai allontanati troppo da Harry.
  Il minuscolo professor Flitwick, che era stato un campione di duelli, stava
- giocherellando distratto con la sua bacchetta; e i 
+ giocherellando distrattamente con la sua bacchetta; e i 
 \emph on
 suoi
 \emph default
@@ -1019,11 +1053,11 @@ E doveva essere l'immaginazione di Harry, ma il professor Quirrell sembrava
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anthony Goldstein
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , chiamò la voce del Preside.
@@ -1036,11 +1070,11 @@ si alla brillante fenice d'argento, e… a qualunque cosa fosse sotto quel
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cos'hai visto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Harry a Seamus a voce bassa.
@@ -1053,19 +1087,19 @@ Molti studenti non avevano risposto a Harry, quando aveva tentato di raccogliere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Morto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Seamus con un sussurro, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 grigiastro e melmoso… morto e lasciato nell'acqua per un po'…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1074,24 +1108,24 @@ grigiastro e melmoso… morto e lasciato nell'acqua per un po'…
 \begin_layout Standard
 Harry annuì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È quello che vede molta gente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
- Emanava fiducia, anche se era falsa, perché Seamus ne aveva bisogno.
+ Emanava fiducia, anche se falsa, perché Seamus ne aveva bisogno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Vai a mangiare un po' di cioccolata, ti sentirai meglio
-\begin_inset Quotes frd
+Vai a mangiare un po' di cioccolata, ti sentirai meglio.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1100,7 +1134,7 @@ i.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1108,7 +1142,7 @@ i.
 Expecto Patronum!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò la voce di un giovane ragazzo.
@@ -1123,7 +1157,7 @@ Harry girò su sé stesso per guardare
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1192,7 +1226,7 @@ Il Preside stava venendo con Anthony invece di chiamare il nome successivo,
 \end_layout
 
 \begin_layout Standard
-Harry diede un'occhiata al luogo in cui era Hermione, appena dietro la pantera
+Harry diede un'occhiata là dove si trovava Hermione, appena dietro la pantera
  luminosa.
  Il turno di Hermione sarebbe stato il successivo, ma apparentemente era
  stato appena rimandato.
@@ -1208,50 +1242,50 @@ In precedenza, aveva educatamente chiesto a Harry di smetterla di provare
 \end_layout
 
 \begin_layout Standard
-Dumbledore stava accennando un sorriso mentre scortava Anthony indietro verso
- gli altri; solo accennando un sorriso, perché il Preside sembrava molto,
- molto stanco.
+Dumbledore stava accennando un sorriso mentre scortava Anthony indietro
+ verso gli altri; solo accennando un sorriso, perché il Preside sembrava
+ molto, molto stanco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Incredibile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore con una voce che sembrò molto più debole di del suo consueto
  rimbombo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un Patronus corporeo, al suo primo anno.
  E un numero incredibile di successi tra gli altri giovani studenti.
- Quirinus, devo riconoscere che hai dimostrato la tua tesi
-\begin_inset Quotes frd
+ Quirinus, devo riconoscere che hai dimostrato la tua tesi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Il professor Quirrell inclinò la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Un'ipotesi abbastanza semplice, devo pensare.
- Un Dissennatore attacca per mezzo della paura, e i bambini sono meno spaventati
-\begin_inset Quotes frd
+Un'ipotesi abbastanza semplice, devo ritenere.
+ Un Dissennatore attacca per mezzo della paura, e i bambini sono meno spaventati.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1259,36 +1293,36 @@ Un'ipotesi abbastanza semplice, devo pensare.
 Meno
 \emph default
  spaventati?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Auror Goryanof da dove era seduto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anch'io ho detto la stessa cosa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E il professor Quirrell ha fatto notare come gli adulti abbiano più coraggio,
  non meno paura; pensiero che, devo confessare, non mi era mai sovvenuto
- prima
-\begin_inset Quotes frd
+ prima.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quella non è stata 
@@ -1296,37 +1330,37 @@ Quella non è stata
 precisamente 
 \emph default
 la mia formulazione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell senza tono, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma andrà bene.
  E il resto del nostro accordo, Preside?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come vuoi tu
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore riluttante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ammetto che non mi aspettavo di perdere la scommessa, Quirinus, ma hai dato
  prova della tua saggezza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1342,76 +1376,75 @@ Tutti gli studenti li stavano osservando, interdetti; eccetto Hermione,
 \begin_layout Standard
 Il professor Quirrell disse, in toni che non esortavano altri commenti,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono autorizzato a insegnare la Maledizione Mortale agli studenti che desiderass
 ero impararla.
  Cosa che li metterà notevolmente più al sicuro da Maghi Oscuri e altri
- flagelli, ed è folle pensare che altrimenti non conoscerebbero magie mortali
-\begin_inset Quotes frd
+ flagelli, ed è folle pensare che altrimenti non conoscerebbero magie mortali.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il professor Quirrell fece una pausa, i suoi occhi si socchiusero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Preside, faccio rispettosamente osservare che lei non sembra stare bene.
- Le suggerisco di lasciare il resto dell'incarico di oggi al professor Flitwick
-\begin_inset Quotes frd
+ Le suggerisco di lasciare il resto dell'incarico di oggi al professor Flitwick.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Dumbledore scosse la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Abbiamo quasi finito per oggi, Quirinus.
- Resisterò
-\begin_inset Quotes frd
+ Resisterò.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Hermione si era avvicina ad Anthony.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capitano Goldstein
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, la sua voce che tremava appena un po', 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 puoi darmi un suggerimento?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non aver paura
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Anthony risolutamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non pensare a nulla a cui lui voglia farti pensare.
@@ -1422,12 +1455,12 @@ brandendo
 \emph default
  la tua bacchetta per scacciare la paura, è così che trasformi un pensiero
  felice in qualcosa di solido…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Anthony scrollò debolmente le spalle.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio dire, tutto questo l'avevo 
@@ -1435,7 +1468,7 @@ Voglio dire, tutto questo l'avevo
 sentito
 \emph default
  prima, ma…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1446,11 +1479,11 @@ Altri studenti iniziavano a radunarsi attorno ad Anthony, con domande proprie.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il Preside.
@@ -1462,11 +1495,11 @@ Hermione raddrizzò le spalle, e lo seguì.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cos'hai visto sotto il mantello?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry ad Anthony.
@@ -1475,16 +1508,16 @@ Cos'hai visto sotto il mantello?
 \begin_layout Standard
 Anthony guardò Harry, sorpreso, e poi rispose.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un uomo molto alto che era morto, voglio dire, come se avesse una forma
  da morto e un colore da morto… faceva male guardarlo e sapevo che quello
- era il Dissennatore che cercava di arrivare a me
-\begin_inset Quotes frd
+ era il Dissennatore che cercava di arrivare a me.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1504,17 +1537,17 @@ E Hermione emise un minuscolo e patetico gridolino, trasalì
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- fece un passo indietro, Harry poté vedere muoversi la sua bacchetta,
- e poi la brandì e disse 
-\begin_inset Quotes fld
+– fece un passo indietro, Harry poté vedere muoversi la sua bacchetta, e
+ poi la brandì e disse 
+\begin_inset Quotes cld
 \end_inset
 
 Expecto Patronum!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1531,13 +1564,13 @@ Hermione si girò e corse via.
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Expecto Patronum!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce più profonda del Preside, e la fenice d'argento divampò nuovament
@@ -1550,7 +1583,7 @@ La giovane ragazza inciampò, e continuò a correre, degli strani suoni che
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1558,12 +1591,12 @@ La giovane ragazza inciampò, e continuò a correre, degli strani suoni che
 Hermione!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Susan, e Hannah, e Daphne, ed Ernie, e tutti loro iniziarono a correre
  verso di lei; anche mentre Harry, che pensava sempre un passo più avanti,
- ruotò su sé stesso e corse verso il tavolo con la cioccolata.
+ girò su sé stesso e corse verso il tavolo con la cioccolata.
 \end_layout
 
 \begin_layout Standard
@@ -1585,7 +1618,7 @@ non può essere, non è stata esposta per dieci secondi figuriamoci per quaranta
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1607,16 +1640,16 @@ Poi gli occhi di Hermione sembrarono mettere a fuoco, e guizzarono intorno,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , boccheggiò, e gli altri studenti si zittirono.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry, non farlo.
@@ -1625,7 +1658,7 @@ Harry, non farlo.
 Non farlo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1642,7 +1675,7 @@ lui stesso
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1650,13 +1683,13 @@ lui stesso
 Non andargli vicino!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione.
  La sua mano si protese, lo afferrò per il bavero della veste.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non devi andargli vicino, Harry! 
@@ -1664,29 +1697,29 @@ Non devi andargli vicino, Harry!
 Mi ha parlato, Harry, ti conosce, sa che sei qui!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, e poi si maledì per averlo chiesto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1694,13 +1727,13 @@ Cosa
 Il Dissennatore!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione.
  La sua voce salì fino a diventare un grido.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1708,7 +1741,7 @@ Il Dissennatore!
 Il professor Quirrell vuole che ti mangi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1718,26 +1751,26 @@ Il professor Quirrell vuole che ti mangi!
 Nell'improvvisa calma, il professor Quirrell avanzò di alcuni passi; ma
  non si avvicinò oltre (Harry era lì, dopo tutto).
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, e la sua voce era seria, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-penso che lei dovrebbe assumere altra cioccolata
-\begin_inset Quotes frd
+penso che lei dovrebbe assumere altra cioccolata.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1745,7 +1778,7 @@ penso che lei dovrebbe assumere altra cioccolata
 Professor Flitwick, non lasci che Harry ci provi, lo mandi via!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1757,69 +1790,69 @@ Il Preside era ormai arrivato, ed egli e il professor Flitwick si stavano
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ho udito parlare il Dissennatore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Preside.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Eppure…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lo chieda
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, sembrando un po' logorato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Dissennatore ha detto 
 \emph on
 come
 \emph default
- avrebbe catturato Harry?
-\begin_inset Quotes frd
+ avrebbe attaccato Harry?
+\begin_inset Quotes crd
 \end_inset
 
  chiese il Preside.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutte le sue parti saporite per prime
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-avrebbe -- avrebbe mangiato
+avrebbe – avrebbe mangiato
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1835,47 +1868,47 @@ Poi iniziò a piangere.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei è stata troppo coraggiosa, Hermione Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Preside.
  La sua voce era gentile, e chiaramente udibile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Troppo più coraggiosa di quanto io abbia compreso.
  Avrebbe dovuto girarsi e fuggire, non resistere e cercare di completare
  il suo Incantesimo.
  Quando sarà più grande e più forte, signorina Granger, so che proverà di
- nuovo, e so che riuscirà
-\begin_inset Quotes frd
+ nuovo, e so che riuscirà.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione boccheggiando.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace, mi dispiace, mi dispiace… mi dispiace, Harry, non posso dirti
  cosa ho visto, non l'ho guardato, non ho osato guardarlo, sapevo che era
  troppo orribile per poter mai essere visto…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1884,24 +1917,24 @@ Mi dispiace, mi dispiace, mi dispiace… mi dispiace, Harry, non posso dirti
 \begin_layout Standard
 Toccava a Harry, ma egli esitò, perché le sue mani erano tutte sporche di
  cioccolato; e poi Ernie e Susan furono lì, ad aiutare Hermione ad alzarsi
- dal luogo dove era caduta sull'erba, conducendola verso il tavolo degli
- spuntini.
+ da dove era caduta sull'erba, conducendola verso il tavolo degli spuntini.
 \end_layout
 
 \begin_layout Standard
-Cinque barrette di cioccolato dopo, Hermione sembrò stare nuovamente bene,
+Cinque barrette di cioccolato dopo, Hermione sembrò stare di nuovo bene,
  ed andò a scusarsi col professor Quirrell; ma stava costantemente guardando
- Harry, ogni volta che lui gettava un'occhiata nella sua direzione.
+ Harry, ogni volta che egli lanciava un'occhiata nella sua direzione.
  Aveva fatto un passo verso di lei solo una volta, e si era fermato quando
  lei aveva fatto un passo indietro.
  I suoi occhi avevano chiesto scusa silenziosamente, e silenziosamente l'avevano
  pregato di lasciarla stare.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1917,9 +1950,9 @@ Neville Longbottom aveva visto qualcosa di semi-dissolto, che colava e scorreva
 \begin_layout Standard
 Era la cosa peggiore che chiunque avesse descritto di aver visto.
  Neville era stato in grado di produrre un piccolo baluginio di luce dalla
- sua bacchetta, prima, ma aveva, intelligente e con grande presenza di spirito,
- girato su sé stesso ed era corso via, invece di cercare di lanciare il
- proprio Incantesimo Patronus.
+ sua bacchetta, prima, ma aveva, in maniera intelligente e con grande presenza
+ di spirito, girato su sé stesso ed era corso via, invece di cercare di
+ lanciare il proprio Incantesimo Patronus.
 \end_layout
 
 \begin_layout Standard
@@ -1933,17 +1966,17 @@ dopo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Professor Quirrell?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry a bassa voce, dopo essersi recato quanto più vicino al Professore
  di Difesa osasse fare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cos'ha visto 
@@ -1954,37 +1987,36 @@ lei
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non chieda
-\begin_inset Quotes frd
+Non chieda.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La voce era assolutamente piatta.
 \end_layout
 
 \begin_layout Standard
 Harry annuì rispettosamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Qual è stata la sua formulazione 
+Qual è stata la formulazione 
 \emph on
 originale
 \emph default
- rivolta al Preside, se posso chiedere?
-\begin_inset Quotes frd
+ di ciò che ha detto al Preside, se posso chiedere?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1993,24 +2025,24 @@ originale
 \begin_layout Standard
 Senza tono.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le nostre memorie peggiori possono solo diventare peggiori mentre diventiamo
- più vecchi
-\begin_inset Quotes frd
+ più vecchi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah.
  Logico.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2020,7 +2052,7 @@ Ah.
 Qualcosa di strano baluginò negli occhi del professor Quirrell, allora,
  mentre guardò verso Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Speriamo che lei abbia successo in questo tentativo, signor Potter.
@@ -2033,21 +2065,22 @@ Speriamo che lei abbia successo in questo tentativo, signor Potter.
 \emph on
 non
 \emph default
- avesse successo, signor Potter -- beh, 
+ avesse successo, signor Potter – beh, 
 \emph on
 io
 \emph default
- capirei
-\begin_inset Quotes frd
+ capirei.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2057,11 +2090,11 @@ io
 
 \begin_layout Standard
 Morag MacDougal aveva detto, con una voce vacillante, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ahia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e Dumbledore aveva rilanciato immediatamente il suo Patronus.
@@ -2090,7 +2123,7 @@ Harry sapeva, sapeva che avrebbe fallito, e sapeva che si sarebbe fatto
 
 \begin_layout Standard
 Ma doveva comunque provare; perché talvolta, alla presenza di un Dissennatore,
- un mago passava da neppure uno sfarfallio di luce ad un Patronus completamente
+ un mago passava da neppure uno sfarfallio di luce a un Patronus completamente
  corporeo, e nessuno capiva perché.
 \end_layout
 
@@ -2138,20 +2171,20 @@ Il mantello si fece più vicino.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Preside?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa vede?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2160,7 +2193,7 @@ Cosa vede?
 \begin_layout Standard
 Anche la voce del Preside era calma.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I Dissennatori sono creature della paura, e quando la tua paura del Dissennatore
@@ -2170,7 +2203,7 @@ I Dissennatori sono creature della paura, e quando la tua paura del Dissennatore
  È solo appena doloroso guardarlo.
  Tutto qua.
  Cosa vedi tu, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2228,7 +2261,7 @@ L'orrore nascosto sotto il mantello era molto vicino, ora, ma l'uccello
 \begin_layout Standard
 Harry voleva correre via come avevano fatto alcuni degli altri studenti.
  Metà di coloro che non avevano avuto fortuna con i loro Incantesimi Patronus
- semplicemente non si erano neppure presentati oggi.
+ semplicemente non si erano neppure presentati quel giorno.
  Dei restanti, metà erano fuggiti prima che il Preside avesse persino dissipato
  il proprio Patronus, e nessuno aveva detto una parola.
  C'era stata una risatina quando Terry si era voltato ed era ritornato indietro
@@ -2272,9 +2305,9 @@ Fu qualcos'altro, qualcosa che
 \emph on
 doveva
 \emph default
- opporsi a qualunque cosa che giacesse sotto quel mantello, quella era l'autenti
-ca oscurità e Harry doveva scoprire se si trovava dentro di lui, il potere
- di respingerla.
+ opporsi a qualunque cosa giacesse sotto quel mantello, quella era l'autentica
+ oscurità e Harry doveva scoprire se si aveva dentro di sé il potere di
+ respingerla.
 \end_layout
 
 \begin_layout Standard
@@ -2331,7 +2364,7 @@ Ma c'era un'imperfezione, una crepa, una faglia nell'oggetto inamovibile
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2339,30 +2372,30 @@ La bacchetta di Harry si alzò nell'impugnatura finale.
 \end_layout
 
 \begin_layout Standard
-Sembrava sbagliato.
+Sembrò sbagliato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Expecto Patronum
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la sua voce, le parole vuote e inutili.
 \end_layout
 
 \begin_layout Standard
-E Harry cadde nel proprio lato oscuro, crollò nel proprio lato oscuro, più
- oltre e più veloce e più in profondità di ogni altra volta, giù giù giù
- mentre lo scorrimento accelerò, mentre il Dissennatore si attaccò alle
+E Harry cadde nel proprio lato oscuro, sprofondò nel proprio lato oscuro,
+ più oltre e più veloce e più in profondità di ogni altra volta, giù giù
+ giù mentre la slavina accelerò, mentre il Dissennatore si attaccò alle
  parti esposte e vulnerabili e si nutrì di esse, erodendo la luce.
- Un riflesso che diventava indistinto raspò in cerca di un appiglio affettuoso,
- ma anche quando un'immagine di Hermione lo raggiunse, o un'immagine di
- Mamma e Papà, il Dissennatore la contorse, gli mostrò Hermione che giaceva
- morta per terra, i cadaveri di sua madre e suo padre, e allora anche quello
- fu risucchiato via.
+ Un riflesso indistinto raspò in cerca di un appiglio affettuoso, ma anche
+ quando lo raggiunsero un'immagine di Hermione, o un'immagine di Mamma e
+ Papà, il Dissennatore le contorse, gli mostrò Hermione che giaceva morta
+ per terra, i cadaveri di sua madre e suo padre, e allora anche quello fu
+ risucchiato via.
 \end_layout
 
 \begin_layout Standard
@@ -2374,20 +2407,20 @@ Nel vuoto sorse il ricordo, il peggior ricordo, qualcosa dimenticato così
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lily, prendi Harry e scappa! È lui!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò la voce di un uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vai! Corri! Lo tratterrò!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2414,11 +2447,11 @@ Poi l'altra voce parlò, una tonalità alta come il fischio di un bollitore,
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avadakedavra.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2434,11 +2467,11 @@ Avadakedavra.
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non Harry, non Harry, per favore non Harry!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò la voce della donna.
@@ -2447,7 +2480,7 @@ Non Harry, non Harry, per favore non Harry!
 \begin_layout Standard
 
 \emph on
-Qualsiasi cosa fosse ciò che era rimasto di Harry, ascoltò con tutta la
+Qualunque cosa fosse ciò che era rimasto di Harry, ascoltò con tutta la
  luce prosciugata via da lui, nel nulla morto del suo cuore, e si chiese
  se ella pensasse che Lord Voldemort potesse fermassi perché glielo chiedeva
  cortesemente.
@@ -2456,23 +2489,23 @@ Qualsiasi cosa fosse ciò che era rimasto di Harry, ascoltò con tutta la
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fatti da parte, donna!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la penetrante voce di un freddo ardente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Poiché non sono venuto per te, solo per il bambino
-\begin_inset Quotes frd
+Poiché non sono venuto per te, solo per il bambino.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \begin_inset Note Note
 status open
 
@@ -2490,11 +2523,11 @@ citato, con variazioni, in cap 86
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non Harry! Per favore… abbi pietà… abbi pietà…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2512,22 +2545,22 @@ Lily Potter, Harry pensò, non sembrava affatto comprendere che genere di
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti sto dando questa rara possibilità di fuggire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce penetrante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma non mi darò pena di sottometterti, e la tua morte qui non salverà tuo
  figlio.
  Fatti da parte, stupida donna, se hai ancora un briciolo di buon senso!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2558,11 +2591,11 @@ citato in cap 86
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non Harry, per favore, prendi me, uccidi me al suo posto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2572,22 +2605,22 @@ Non Harry, per favore, prendi me, uccidi me al suo posto!
 
 \emph on
 La cosa vuota che era Harry si chiese se Lily Potter avesse seriamente immaginat
-o che Lord Voldemort dicesse di sì, uccidesse lei, e poi se ne andasse lasciando
+o che Lord Voldemort dicesse di sì, la uccidesse, e poi se ne andasse lasciando
  suo figlio incolume.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce della morte, ora suonando freddamente divertita, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 accetto l'offerta.
@@ -2603,11 +2636,11 @@ Citato in cap 86
 \end_inset
 
  La morte per te stessa, e la vita per il bambino.
- Ora lascia cadere la bacchetta così che io possa assassinarti
-\begin_inset Quotes frd
+ Ora lascia cadere la bacchetta così che io possa assassinarti.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \begin_inset Note Note
 status open
 
@@ -2638,11 +2671,11 @@ Lord Voldemort iniziò a ridere, un'orribile risata sprezzante.
 
 \emph on
 E poi, infine, la voce di Lily Potter strillò in odio disperato, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Avada ke--
-\begin_inset Quotes frd
+Avada ke–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2657,11 +2690,11 @@ La voce letale terminò per prima, la maledizione rapida e precisa.
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avadakedavra.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2682,13 +2715,14 @@ E il bambino nella culla lo vide, gli occhi, quei due occhi cremisi, che
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2703,8 +2737,8 @@ Gli altri bambini videro Harry Potter cadere, udirono Harry Potter urlare,
 \end_layout
 
 \begin_layout Standard
-Ci fu un bagliore di argento brillante mentre il Preside ruggì 
-\begin_inset Quotes fld
+Ci fu un bagliore d'argento brillante mentre il Preside ruggì 
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2712,7 +2746,7 @@ Ci fu un bagliore di argento brillante mentre il Preside ruggì
 Expecto Patronum!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e la fiammeggiante fenice tornò ad esistere.
@@ -2726,20 +2760,20 @@ Ma l'orribile grido di Harry Potter continuò ancora e ancora e ancora, anche
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-Hermione lo capì, lo capì mentre lo vide, capì che il suo incubo era stato
- reale, che si stava realizzando, in qualche modo si stava realizzando.
+Hermione seppe, seppe proprio mentre lo vedeva, seppe che il suo incubo
+ era stato reale, che si stava realizzando, in qualche modo si stava realizzando.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dategli la cioccolata!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  richiese la voce del professor Quirrell, inutilmente, perché la minuscola
@@ -2753,11 +2787,11 @@ Hermione stessa si era slanciata in avanti, sebbene non sapesse cos'altro
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2765,12 +2799,12 @@ Hermione stessa si era slanciata in avanti, sebbene non sapesse cos'altro
 Lanciate i Patronus!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò il Preside, mentre portò Harry dietro gli Auror.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2779,7 +2813,7 @@ Tutti coloro che possono! Metteteli tra Harry e il Dissennatore! Si sta
  ancora nutrendo di lui!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2790,7 +2824,7 @@ Ci fu un momento di orrore congelato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2798,24 +2832,24 @@ Ci fu un momento di orrore congelato.
 Expecto Patronum!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridarono il professor Flitwick e Auror Goryanof, e poi Anthony Goldstein,
- ma egli fallì la prima volta, e poi Parvati Patil, che ebbe successo, e
- poi Anthony provò nuovamente e il suo uccello d'argento allargò le ali
- e gridò contro il Dissennatore, e Dean Thomas ruggì le parole come se fossero
- state scritte con lettere di fuoco e la sua bacchetta diede vita ad un
- torreggiante orso bianco; c'erano otto fiammeggianti Patronus tutti disposti
- in linea tra Harry e il Dissennatore, e Harry continuò a gridare e a gridare
- mentre il Preside lo distese sull'erba secca.
+ ma fallì la prima volta, e poi Parvati Patil, che ebbe successo, e poi
+ Anthony provò nuovamente e il suo uccello d'argento allargò le ali e gridò
+ contro il Dissennatore, e Dean Thomas ruggì le parole come se fossero state
+ scritte con lettere di fuoco e la sua bacchetta diede vita ad un torreggiante
+ orso bianco; c'erano otto fiammeggianti Patronus tutti disposti in linea
+ tra Harry e il Dissennatore, e Harry continuò a gridare e a gridare mentre
+ il Preside lo distese sull'erba secca.
 \end_layout
 
 \begin_layout Standard
 Hermione non poteva lanciare un Incantesimo Patronus, quindi corse verso
  Harry disteso a terra.
  Nella sua mente qualcosa cercò di indovinare quanto tempo fosse già passato.
- Erano venti secondi? Di più?
+ Venti secondi? Di più?
 \end_layout
 
 \begin_layout Standard
@@ -2826,7 +2860,7 @@ C'erano orribile agonia e confusione sul volto di Albus Dumbledore.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2836,7 +2870,7 @@ Hermione non sapeva cosa fare, non sapeva cosa fare, non capiva ciò che
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2844,12 +2878,12 @@ Hermione non sapeva cosa fare, non sapeva cosa fare, non capiva ciò che
 Usi la sua fenice!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2857,7 +2891,7 @@ Usi la sua fenice!
 Lo porti molto lontano da quel Dissennatore!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2874,33 +2908,33 @@ Orrore e confusione e improvvisi balbettii.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il signor Potter dovrebbe recuperare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, alzando la voce, ma il suo tono ora nuovamente
  calmo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-penso che siano stati poco più di venti secondi
-\begin_inset Quotes frd
+penso che siano stati poco più di venti secondi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Poi la fiammeggiante fenice bianca apparve di nuovo, come se fosse volata
- davanti a loro da qualche altro posto, da Hermione Granger venne la creatura
- di luce lunare, e le gridò con la voce di Albus Dumbledore:
+ davanti a loro da qualche altro luogo, la creatura di luce lunare andò
+ da Hermione Granger, e le gridò con la voce di Albus Dumbledore:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2909,7 +2943,7 @@ Si nutre di lui, persino qui! Come? Se lo sai, Hermione Granger, devi dirmelo!
  Dimmelo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2932,7 +2966,7 @@ Non poteva ricordarlo, non poteva ricordare chiaramente l'incubo, non poteva
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2960,7 +2994,7 @@ Non voleva tornare nuovamente in quel luogo, non, non voleva, non voleva
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2981,19 +3015,19 @@ Non c'era tempo per decidere, Harry stava morendo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non posso ricordarlo ora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, la sua voce incrinata, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma aspetti qui, andrò di nuovo di fronte al Dissennatore…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3004,11 +3038,11 @@ Iniziò a correre verso il Dissennatore.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Granger!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  squittì il professor Flitwick, ma non fece alcuna mossa per fermarla, continuò
@@ -3016,7 +3050,7 @@ Signorina Granger!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3024,12 +3058,12 @@ Signorina Granger!
 Voi tutti!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Auror Komodo con il tono di un comando militare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3037,14 +3071,14 @@ Voi tutti!
 Togliete i vostri Patronus dalla sua strada!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3054,22 +3088,22 @@ Flitwick!
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
 \noun on
-Riprendi la bacchetta di Potter!
+Prendi la bacchetta di Potter!
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3078,7 +3112,7 @@ Riprendi la bacchetta di Potter!
 \begin_layout Standard
 Perfino mentre Hermione stava ancora comprendendo, il professor Flitwick
  stava già gridando 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3086,17 +3120,18 @@ Perfino mentre Hermione stava ancora comprendendo, il professor Flitwick
 Accio!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ed ella vide il ramoscello di legno fiondarsi via dal luogo in cui aveva
  giaciuto, quasi toccando la gabbia del Dissennatore.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -3109,7 +3144,7 @@ Gli occhi erano aperti, morti e assenti.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3117,12 +3152,12 @@ Gli occhi erano aperti, morti e assenti.
 Harry!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rantolò una voce nel mondo senza colori.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3130,32 +3165,32 @@ Harry!
 Harry! Parlami!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Il volto di Albus Dumbledore si chinò all'interno del suo campo visivo, che
- era stato occupato da un lontano soffitto di marmo.
+Il volto di Albus Dumbledore si chinò all'interno del suo campo visivo,
+ che era stato occupato da un lontano soffitto di marmo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei fastidioso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la vuota voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovresti morire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
