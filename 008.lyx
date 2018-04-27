@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -55,6 +55,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -84,6 +86,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -98,7 +101,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
@@ -177,11 +183,11 @@ sentiva
  di essere una persona timida.
  Pensava a sé stessa come al tipo di ragazza che si faceva carico dei problemi.
  Eppure, in qualche modo, se non c'era qualche richiesta del tipo 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non mi ricordo come si fanno le divisioni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  allora era semplicemente troppo 
@@ -204,11 +210,11 @@ lei
 lei
 \emph default
  e le dicesse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hermione, la maestra mi ha detto di esserti amica
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -247,11 +253,11 @@ Storia di Hogwarts
  Un piccolo baule si trovava sul pavimento accanto a lui.
  Mentre lo osservava, bussò alla porta di un altro scompartimento chiuso,
  e chiese con voce leggermente attutita dalla sciarpa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scusatemi, posso farvi una domanda veloce?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -261,12 +267,12 @@ Scusatemi, posso farvi una domanda veloce?
 Non sentì la risposta dall'interno dello scompartimento, ma dopo che il
  ragazzo ebbe aperto la porta, pensò davvero di averlo sentito chiedere
  – a meno che non avesse in qualche modo capito male – 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualcuno qui conosce i sei quark o dove posso trovare una ragazza del primo
  anno di nome Hermione Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -275,11 +281,11 @@ Qualcuno qui conosce i sei quark o dove posso trovare una ragazza del primo
 \begin_layout Standard
 Dopo che il ragazzo ebbe chiuso la porta di quello scompartimento, Hermione
  gli chiese 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Posso aiutarti in qualche modo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -287,19 +293,19 @@ Posso aiutarti in qualche modo?
 
 \begin_layout Standard
 Il volto coperto dalla sciarpa si girò a guardarla, e la voce rispose 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, a meno che tu non possa dirmi i nomi dei sei quark o dove trovare Hermione
  Granger.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -307,7 +313,7 @@ No, a meno che tu non possa dirmi i nomi dei sei quark o dove trovare Hermione
 Up, down, strange, charm, truth, beauty
 \emph default
 , e perché la stai cercando?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -317,7 +323,7 @@ Up, down, strange, charm, truth, beauty
 Era difficile dirlo da quella distanza, ma le parve di vedere il ragazzo
  fare un largo sorriso sotto la sciarpa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah, quindi 
@@ -325,22 +331,22 @@ Ah, quindi
 sei tu
 \emph default
  la ragazza del primo anno di nome Hermione Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse quella voce giovane e attutita.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sul treno per Hogwarts, per giunta.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il ragazzo iniziò a camminare verso di lei e il suo scompartimento, e il
  suo baule scivolò dietro di lui.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tecnicamente, tutto ciò che dovevo fare era 
@@ -360,7 +366,7 @@ Pg
 png
 \noun default
 , questo è il problema.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -390,16 +396,16 @@ cosa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per favore, siediti», disse il ragazzo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e per favore, chiudi la porta dietro di te, se non ti dispiace.
  Non ti preoccupare, non mordo nessuno che non mi morda per primo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Si stava già srotolando la sciarpa dalla testa.
@@ -414,18 +420,18 @@ Il pensiero che questo ragazzo ritenesse che lei avesse paura di lui fece
  le ricordò qualcosa nei recessi della sua mente, ma in quel momento aveva
  cose più importanti a cui pensare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ho detto di essere Hermione Granger!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E 
@@ -448,7 +454,7 @@ per te
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -458,7 +464,7 @@ per te
 La mente di Hermione fece finalmente il collegamento.
  La cicatrice sulla fronte, a forma di fulmine.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry Potter! Sei in 
@@ -474,7 +480,7 @@ Ascesa e declino delle Arti Oscure
 Grandi eventi magici del Ventesimo secolo
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  In realtà era la prima volta in tutta la sua vita che aveva 
@@ -491,7 +497,7 @@ libro
 \begin_layout Standard
 Il ragazzo sbatté le palpebre tre volte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono nei 
@@ -500,7 +506,7 @@ libri
 \emph default
 ? Aspetta, ovviamente sono nei libri...
  che strano pensiero.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -508,16 +514,16 @@ libri
 
 \begin_layout Standard
 «Santo cielo, non lo sapevi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avrei scoperto tutto quello che potevo, se fossi stata io.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -526,7 +532,7 @@ Avrei scoperto tutto quello che potevo, se fossi stata io.
 \begin_layout Standard
 Il ragazzo rispose piuttosto seccamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Gran\SpecialChar softhyphen
@@ -538,12 +544,12 @@ ger, sono meno di 72 ore da quando sono andato a Diagon Alley
 Mi creda
 \emph default
 , ho intenzione di scoprire tutto ciò che posso.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il ragazzo esitò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che cosa 
@@ -551,7 +557,7 @@ Che cosa
 dicono
 \emph default
  i libri di me?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -566,7 +572,7 @@ quei
  libri, così li aveva letti solo una volta, ma era stato solo un mese fa
  e il materiale era ancora fresco nella sua mente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei l'unico che sia sopravvissuto alla Maledizione Mortale quindi sei chiamato
@@ -595,7 +601,7 @@ Grandi eventi magici del Ventesimo secolo
 Storia moderna della Magia
 \emph default
  avverte che ci sono molte teorie pazzoidi su di te.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -604,28 +610,28 @@ Storia moderna della Magia
 \begin_layout Standard
 La bocca del ragazzo era rimasta spalancata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti è stato detto di aspettare Harry Potter sul treno per Hogwarts, o qualcosa
  del genere?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi ti ha parlato di 
@@ -633,19 +639,19 @@ Chi ti ha parlato di
 me
 \emph default
 ?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La professoressa McGonagall, e credo di capire perché.
  Hai una memoria eidetica, Hermione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -654,34 +660,34 @@ La professoressa McGonagall, e credo di capire perché.
 \begin_layout Standard
 Hermione scosse la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è fotografica, ho sempre desiderato che lo fosse, ma ho dovuto leggere
  i miei libri di scuola per cinque volte per memorizzarli tutti.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Addirittura
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ragazzo con voce leggermente strozzata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spero che non ti dispiaccia se ti metto alla prova – non è che non ti creda,
  ma come dice il proverbio, `Fidati, ma verifica'.
  Inutile starselo a domandare quando posso sperimentalo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -691,11 +697,11 @@ Spero che non ti dispiaccia se ti metto alla prova – non è che non ti creda,
 Hermione sorrise, piuttosto compiaciuta.
  Amava tanto gli esami.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fai pure.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1686,7 +1692,7 @@ sensato
 Improvvisamente Neville rimase senza fiato e fece un passo indietro.
  «Mi ricordo questa voce! Tu sei uno dei Signori del Caos! 
 \emph on
-Tu sei quello che mi ha dato la cioccolata!
+Tu sei quello che mi ha dato il cioccolato!
 \emph default
 »
 \end_layout
@@ -1885,7 +1891,7 @@ incubi?
 questo
 \emph default
 , invece, allora sarebbero incubi riguardanti orribili mostri che ti regalano
- cioccolata e questo era il 
+ cioccolato e questo era il 
 \emph on
 punto
 \emph default
@@ -1948,7 +1954,7 @@ A Step Farther Out
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
