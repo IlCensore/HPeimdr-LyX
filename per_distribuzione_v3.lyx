@@ -196,12 +196,12 @@
 
 
 
-%\raggedbottom
-%\widowpenalties 2 10000 0
-%\clubpenalty 10000
+\raggedbottom
+\widowpenalties 2 10000 0
+\clubpenalty 10000
 
-\widowpenalties 2 100 0
-\clubpenalty 100
+%\widowpenalties 2 100 0
+%\clubpenalty 100
 
 
 %% descrizioni senza bold
@@ -227,7 +227,7 @@
 
 \usepackage{xfrac}
 \usepackage[super]{nth}
-\newfontface\lining[Numbers=Lining]{Minion Pro}
+%\newfontface\lining[Numbers=Lining]{Minion Pro}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -238,7 +238,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding \font_roman "default" "Crimson"
-\font_roman "default" "Minion Pro"
+\font_roman "default" "Arno Pro"
 \font_sans "default" "Linux Biolinum O"
 \font_typewriter "default" "Fira Mono"
 \font_math "auto" "auto"
@@ -251,13 +251,13 @@ initials
 \use_microtype true
 \use_dash_ligatures false
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
 \float_placement bp
 \paperfontsize 11
-\spacing other 1.15
+\spacing onehalf
 \use_hyperref false
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
@@ -312,8 +312,8 @@ initials
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style swiss
-\dynamic_quotes 0
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings

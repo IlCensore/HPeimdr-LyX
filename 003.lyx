@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -81,6 +81,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -110,6 +112,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -124,7 +127,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -153,11 +159,11 @@ name "chap:03Confrontare-la-realtà"
 
 \size small
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma poi del resto la domanda è – chi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -172,15 +178,15 @@ Ma poi del resto la domanda è – chi?
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Buon Dio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il barista, scrutando Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 questo – può essere che sia
@@ -188,7 +194,7 @@ questo – può essere che sia
 \end_inset
 
 –?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -205,7 +211,7 @@ quella
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono forse io – potrei essere – forse – non lo sapremo mai – se 
@@ -217,28 +223,28 @@ non fossi
 chi?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Benedetta è la mia anima
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , bisbigliò l'anziano barista.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry Potter\SpecialChar ldots
  quale onore.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -247,7 +253,7 @@ Harry Potter\SpecialChar ldots
 \begin_layout Standard
 Harry rimase interdetto, poi si riprese.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, sì, lei è molto perspicace; la maggior parte delle persone non lo capisce
@@ -272,21 +278,21 @@ mbox{--»}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Basta così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  La sua mano si strinse sulla spalla di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non infastidire il ragazzo, Tom, è nuovo da queste parti.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -294,23 +300,23 @@ Non infastidire il ragazzo, Tom, è nuovo da queste parti.
 
 \begin_layout Standard
 «Ma è lui?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese tremando un'anziana signora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È Harry Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Con un suono raschiante, si alzò dalla sedia.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Doris
@@ -318,7 +324,7 @@ Doris
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  l'ammonì McGonagall.
@@ -327,11 +333,11 @@ Doris
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio solo stringergli la mano
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la donna.
@@ -339,33 +345,33 @@ Voglio solo stringergli la mano
  a disagio di quanto fosse mai stato in vita sua, strinse con attenzione.
  Le lacrime della signora caddero dai suoi occhi sulle loro mani intrecciate.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mio nipote era un Auror
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , gli sussurrò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Morto nel settantanove.
  Grazie, Harry Potter.
  Ringrazio il cielo per averci mandato te.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Prego
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry automaticamente, e poi girò la testa e indirizzò alla professoress
@@ -380,11 +386,11 @@ La professoressa McGonagall batté con forza il piede sul pavimento proprio
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Andiamo di fretta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall con una voce che suonò perfettamente,
@@ -396,65 +402,65 @@ Lasciarono il bar senza alcuna difficoltà.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Professoressa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, una volta che furono nel cortile.
  Aveva intenzione di chiedere che cosa stesse succedendo, ma stranamente
  si ritrovò a porre una domanda completamente diversa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi era quell'uomo pallido, vicino l'angolo? L'uomo con il tic all'occhio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hm?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fece la professoressa McGonagall, sembrando un po' sorpresa; forse non
  si aspettava neppure lei che la domanda fosse quella.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Era il professor Quirinus Quirrell.
  Quest'anno insegnerà Difesa Contro le Arti Oscure a Hogwarts.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avevo la stranissima sensazione di conoscerlo\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry si strofinò la fronte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E che non avrei dovuto stringergli la mano.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Come incontrare qualcuno che era stato un amico, una volta, prima che qualcosa
@@ -462,7 +468,7 @@ E che non avrei dovuto stringergli la mano.
  non era esattamente così, ma Harry non
  riusciva a trovare le parole.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E che cos'è 
@@ -471,7 +477,7 @@ successo
 \emph default
 \SpecialChar ldots
  davvero là dentro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -480,14 +486,14 @@ successo
 \begin_layout Standard
 La professoressa McGonagall gli stava rivolgendo una strana espressione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter\SpecialChar ldots
  lei sa\SpecialChar ldots
  quanto le è stato detto\SpecialChar ldots
  di come sono morti i suoi genitori?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -496,7 +502,7 @@ Signor Potter\SpecialChar ldots
 \begin_layout Standard
 Harry le restituì uno sguardo saldo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I miei genitori sono vivi e vegeti, e si sono sempre rifiutati di parlare
@@ -506,29 +512,29 @@ genetici
 \emph default
  sono morti.
  Dal che deduco che non sono morti bene.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una lealtà ammirevole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  La sua voce si abbassò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Per quanto mi faccia un po' male sentirglielo dire in quel modo.
+Per quanto mi faccia un po' male sentirla parlare in questo modo.
  Lily e James erano miei amici.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -537,16 +543,16 @@ Per quanto mi faccia un po' male sentirglielo dire in quel modo.
 \begin_layout Standard
 Harry distolse lo sguardo, provando improvvisamente vergogna.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse con un filo di voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma io 
@@ -557,23 +563,23 @@ ho
  E so che mi renderei infelice mettendo a confronto questa realtà con\SpecialChar ldots
  qualcosa
  di perfetto che costruirei nella mia immaginazione.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è sorprendentemente saggio da parte sua
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sommessamente la professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma i suoi genitori 
@@ -581,7 +587,7 @@ Ma i suoi genitori
 genetici
 \emph default
  sono morti davvero molto bene, proteggendola.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -596,7 +602,7 @@ Proteggendo me?
 \begin_layout Standard
 Qualcosa di strano strinse il cuore di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che cosa\SpecialChar ldots
@@ -605,7 +611,7 @@ Che cosa\SpecialChar ldots
 realmente?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -616,19 +622,19 @@ La professoressa McGonagall sospirò.
  La sua bacchetta toccò la fronte di Harry, e la vista del ragazzo si offuscò
  per un momento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una sorta di travestimento
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 in modo che non accada di nuovo, fino a quando lei non sarà pronto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Allora la sua bacchetta si mosse nuovamente, e batté tre volte su un muro
@@ -654,19 +660,19 @@ E avanzarono, insieme, entrando nel mondo dei maghi.
 
 \begin_layout Standard
 C'erano venditori ambulanti di Stivali Rimbalzanti (
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fatti con vero Flubber!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ) e 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Coltelli +3! Forchette +2! Cucchiai con un bonus di +4!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  C'erano visori che coloravano tutto ciò che osservavi di verde, e un'esposizion
@@ -701,11 +707,11 @@ rsi dalla Vicepreside e a dirigersi dritto nel negozio, l'ingresso di mattoni
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -714,12 +720,12 @@ Signor Potter?
 \begin_layout Standard
 Harry sbatté le palpebre, poi comprese ciò che aveva appena fatto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace! Ho dimenticato per un momento che ero con lei invece che con
  la mia famiglia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry indicò la finestra del negozio, che mostrava lettere fiammeggianti
@@ -729,42 +735,42 @@ Bigbam's Brilliant Books
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quando passi davanti a una libreria che non hai visitato prima, devi entrare
  e dare un'occhiata.
  Questa è la regola di famiglia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È la frase più Corvonero che abbia mai sentito.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nulla.
@@ -779,12 +785,12 @@ genetica
 genetici
 \emph default
  le hanno lasciato, e avrà bisogno di denaro per il suo corredo scolastico.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E, suppongo, un certo ammontare di denaro per i libri potrebbe essere comunque
@@ -794,7 +800,7 @@ E, suppongo, un certo ammontare di denaro per i libri potrebbe essere comunque
  E la torre in cui, sospetto fortemente, andrà a vivere, ha una sua biblioteca
  su argomenti più vari.
  Ogni libro che comprerebbe ora sarebbe probabilmente un duplicato.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -805,7 +811,7 @@ Harry annuì, e poi riprese a camminare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non mi fraintenda, è un diversivo 
@@ -813,16 +819,16 @@ Non mi fraintenda, è un diversivo
 grandioso
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry mentre la sua testa continuava a girare, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 probabilmente il miglior diversivo che qualcuno abbia mai usato con me,
  ma non pensi che abbia dimenticato la nostra discussione in sospeso.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -831,44 +837,44 @@ probabilmente il miglior diversivo che qualcuno abbia mai usato con me,
 \begin_layout Standard
 La professoressa McGonagall sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I suoi genitori – o sua madre, ad ogni modo – potrebbero essere stati molto
  saggi a non dirglielo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora desidera che prosegua nella mia beata ignoranza? C'è un certo difetto
  in questo piano, professoressa McGonagall.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo che sarebbe piuttosto inutile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega fermamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 quando chiunque per strada potrebbe raccontarle questa storia.
  Molto bene.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -883,11 +889,11 @@ to, il Signore Oscuro,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voldemort?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sussurrò Harry.
@@ -977,27 +983,27 @@ Quando Harry ebbe finito di singhiozzare nelle vesti della strega, alzò
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Poi, cos'è successo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Harry con voce tremante.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Signore Oscuro giunse a Godric's Hollow
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall in un sussurro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Doveva essere un nascondiglio sicuro, ma foste traditi.
@@ -1015,7 +1021,7 @@ Doveva essere un nascondiglio sicuro, ma foste traditi.
  Quella fu la fine del terrore, e fummo liberi.
  Questo, Harry Potter, è il motivo per cui la gente vuole vedere la cicatrice
  sulla tua fronte, e perché vuole stringerti la mano.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1039,24 +1045,24 @@ La tempesta di pianto che si era riversata attraverso Harry aveva esaurito
 \begin_layout Standard
 Harry si staccò dal fianco della professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovrò – pensarci su
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse cercando di mantenere la propria voce sotto controllo.
  Si guardò le scarpe.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm.
  Può riferirsi a loro come ai miei genitori, se vuole, non deve dire `genitori
  genetici' o cose così.
  Credo che non ci sia motivo per cui non possa avere due madri e due padri.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
