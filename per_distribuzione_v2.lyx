@@ -196,12 +196,12 @@
 
 
 
-%\raggedbottom
-%\widowpenalties 2 10000 0
-%\clubpenalty 10000
+\raggedbottom
+\widowpenalties 2 10000 0
+\clubpenalty 10000
 
-\widowpenalties 2 100 0
-\clubpenalty 100
+%\widowpenalties 2 100 0
+%\clubpenalty 100
 
 
 %% descrizioni senza bold
@@ -247,11 +247,11 @@ initials
 \font_sc false
 \font_osf true
 \font_sf_scale 100 100
-\font_tt_scale 100 80
+\font_tt_scale 80 80
 \use_microtype true
 \use_dash_ligatures false
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -1029,14 +1029,14 @@ Qualcosa, da qualche parte, in qualche momento, dev'essere avvenuta in maniera
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\begin_inset VSpace smallskip
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\noindent
+\align block
 
 \noun on
 Petunia Evans
@@ -1045,6 +1045,7 @@ Petunia Evans
 \end_layout
 
 \begin_layout Standard
+\align block
 
 \noun on
 Harry James Potter-Evans-Verres
@@ -1072,6 +1073,7 @@ La fisica di Feynman
 \end_layout
 
 \begin_layout Standard
+\align block
 
 \noun on
 Hermione Granger
@@ -1080,6 +1082,7 @@ Hermione Granger
 \end_layout
 
 \begin_layout Standard
+\align block
 
 \noun on
 Draco Malfoy
@@ -1089,6 +1092,7 @@ Draco Malfoy
 \end_layout
 
 \begin_layout Standard
+\align block
 
 \noun on
 Il professor Quirrell
@@ -1100,6 +1104,7 @@ Il professor Quirrell
 \end_layout
 
 \begin_layout Standard
+\align block
 
 \noun on
 Dumbledore
@@ -1109,6 +1114,7 @@ Dumbledore
 \end_layout
 
 \begin_layout Standard
+\align block
 
 \noun on
 La vicepreside Minerva McGonagall
@@ -1117,7 +1123,7 @@ La vicepreside Minerva McGonagall
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\begin_inset VSpace smallskip
 \end_inset
 
 
@@ -1459,7 +1465,7 @@ small
 \backslash
 diamondpar{Qui termina 
 \backslash
-textit{Harry Potter e i metodi della razionalità, Volume II}.
+textit{Harry Potter e i metodi della razionalità}, Volume II.
  Grazie a Dinosaurusgede per la divertente ed emozionante arte; a Eneasz
  Brodski e ai suoi collaboratori per la loro drammatizzazione radiofonica,
  che è stata sia divertente sia motivante (questo è il mio contributo alla
@@ -1470,7 +1476,7 @@ LaTeX e LyX, senza la quale questo lavoro sarebbe stato impossibile.
  Ultimo nell'elenco ma primo per importanza, un grazie di cuore a Eliezer
  Yudkowsky per il meraviglioso mondo di 
 \backslash
-textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
+textsc{hpmor}, che mi ha regalato tante ore di divertimento e riflessione
  in parti uguali.
  Questo lavoro è dedicato a mio fratello e a mia madre.}
 \end_layout

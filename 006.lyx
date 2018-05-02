@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -85,6 +85,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -114,6 +116,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -128,7 +131,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -193,11 +199,11 @@ dopo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sacchetto di elemento 79
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, e ritirò la mano, vuota, dalla borsa mokeskin.
@@ -213,7 +219,7 @@ bacchetta
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sacchetto di 
@@ -221,7 +227,7 @@ Sacchetto di
 okane
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse ancora Harry.
@@ -231,15 +237,16 @@ okane
 \begin_layout Standard
 Harry estrasse il sacchetto, poi lo mise nuovamente nella borsa mokeskin.
  Tirò fuori la mano, la rimise dentro e disse: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sacchetto di strumenti di scambio economico.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Questa volta la sua mano uscì vuota.
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -283,7 +290,7 @@ status open
 \begin_layout Plain Layout
 
 \size small
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sacchetto di 
@@ -291,7 +298,7 @@ Sacchetto di
 okane
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -314,11 +321,11 @@ okane
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dammi il sacchetto che ho appena messo dentro.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il sacchetto d'oro apparve, ancora una volta.
@@ -331,28 +338,28 @@ Harry James Potter-Evans-Verres aveva messo le mani su almeno un oggetto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Professoressa McGonagall
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry alla strega sconcertata che passeggiava accanto a lui, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 mi può dire due parole, una che significhi oro e una qualcos'altro che non
  sia denaro, in una lingua che non conosco? Ma non mi dica quale delle due
  significa oro e quale no.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -364,23 +371,23 @@ Ahava
 zahav
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È ebraico, l'altra parola significa amore.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, professoressa.
@@ -389,14 +396,14 @@ Grazie, professoressa.
 ahava
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Vuota.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sacchetto di 
@@ -404,14 +411,14 @@ Sacchetto di
 zahav
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  E gli apparve in mano.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -419,7 +426,7 @@ zahav
 Zahav
 \emph default
  è oro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  domandò Harry, e la professoressa McGonagall annuì.
@@ -432,7 +439,7 @@ Harry rifletté sui dati sperimentali che aveva raccolto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -440,7 +447,7 @@ Harry rifletté sui dati sperimentali che aveva raccolto.
 Aaaaaaarrrgh tutto questo non ha alcun senso!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -449,18 +456,18 @@ Aaaaaaarrrgh tutto questo non ha alcun senso!
 \begin_layout Standard
 La strega accanto a lui sollevò un sopracciglio altero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Problemi, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho appena falsificato ogni singola ipotesi che avevo! Come può sapere che
@@ -492,12 +499,12 @@ mia
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry agitò una mano impotente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le regole sembrano 
@@ -513,11 +520,11 @@ borsa
  naturale, quando i migliori programmatori di Intelligenza Artificiale non
  riescono a far sì che i super-computer più veloci ce l'abbiano dopo 35
  anni di duro lavoro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry annaspò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma che 
@@ -529,18 +536,18 @@ cosa
 succedendo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Magia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
@@ -880,8 +887,6 @@ Fulmini e tuoni omisero completamente di sfolgorare e rimbombare nel cielo
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -936,20 +941,20 @@ Harry stava esaminando l'equivalente magico di un kit di pronto soccorso,
  renderla temporaneamente insensibile al dolore.
  Più un numero imprecisato di altri gingilli che Harry era stato totalmente
  incapace di comprendere, come il 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Trattamento contro l'Esposizione a un Dissennatore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , che aveva l'aspetto e l'odore del normale cioccolato.
  Oppure l'
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Antidoto per Confondimorso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , che sembrava un piccolo uovo vibrante ed era accompagnato da un cartellino
@@ -1007,7 +1012,7 @@ che cosa?
 Harry spalancò gli occhi.
  «Lei pensa che stia 
 \emph on
-progettando
+pensando
 \emph default
  di fare qualcosa di pericoloso ed è 
 \emph on
@@ -1079,11 +1084,11 @@ Quella battuta esilarante non riuscì a tranquillizzare la strega, che stava
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1236,7 +1241,7 @@ L'alta strega puntò la bacchetta verso la strada principale e parlò, «
 Quietus
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse, e uno schermo di silenzio scese intorno a loro, bloccando tutti
@@ -1291,7 +1296,7 @@ Harry osò sbirciare dietro di sé.
  La professoressa McGonagall sembrava solo triste, ora.
  «Mi dispiace», disse Harry di nuovo, sentendosi miserabile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualcosa di simile è accaduto a
@@ -1712,8 +1717,6 @@ Harry rimase a bocca aperta per la sorpresa.
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -1744,7 +1747,7 @@ Il negozio era come l'avevano lasciato, articoli riconoscibili e irriconoscibili
 Si interruppero e si guardarono l'un l'altra, e poi la commessa rise un
  po'.
  «Non avevo intenzione di metterti nei guai con la professoressa McGonagall»,
- disse lei.
+ disse.
  La sua voce si abbassò in maniera cospiratoria.
  «Spero che non sia stata troppo terribile con te.»
 \end_layout
@@ -1821,18 +1824,18 @@ affittare
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora credo enfaticamente di 
@@ -1840,7 +1843,7 @@ Allora credo enfaticamente di
 no
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1850,34 +1853,34 @@ no
 La professoressa McGonagall annuì, come se stesse spuntando un elemento
  di una lista.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Posso chiedere perché no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho avuto una pietra domestica, una volta.
  È morta.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non pensa di essere in grado di avere cura di un animale domestico?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1889,7 +1892,7 @@ Non pensa di essere in grado di avere cura di un animale domestico?
 Potrei
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, «ma finirei per ossessionarmi tutto il tempo chiedendomi
@@ -1932,7 +1935,7 @@ La strega continuò, ancora con quella voce morbida.
 Quietus
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2039,7 +2042,7 @@ Nessuno
 , mi ha capito, McGonagall? Un'accusa simile può rovinare le persone e distrugge
 re le famiglie, anche quando i genitori sono completamente innocenti! Ho
  letto di casi simili sui giornali!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Harry stava salendo a un grido acuto.
@@ -2081,7 +2084,7 @@ Harry fece un brusco passo indietro, e la sua mano si alzò di scatto e allontan
 McGonagall si immobilizzò, poi ritirò la mano e fece un passo indietro.
  «Harry, va tutto bene», disse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti credo.»
@@ -2093,7 +2096,7 @@ Ti credo.»
 Davvero
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry.
@@ -2236,7 +2239,7 @@ niente
 umano
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2339,8 +2342,6 @@ considerata
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -2424,7 +2425,7 @@ E
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2433,7 +2434,7 @@ E
  sua gemella, beh, la sua gemella le ha procurato quella cicatrice
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2481,11 +2482,11 @@ mancanza di curiosità
 concepibile
 \emph default
  Harry avrebbe semplicemente fatto 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e se ne sarebbe uscito dal negozio senza neppure 
@@ -2508,20 +2509,20 @@ esattamente\SpecialChar ldots
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ora è un mago completo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Congratulazioni.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2532,27 +2533,27 @@ Harry annuì.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E cosa pensa del mondo dei maghi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È strano
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovrei pensare a tutto ciò che ho visto della magia\SpecialChar ldots
@@ -2560,15 +2561,15 @@ Dovrei pensare a tutto ciò che ho visto della magia\SpecialChar ldots
  so essere possibile, e a tutto ciò che ora so essere una bugia, e tutto
  il lavoro davanti a me per comprenderlo.
  Eppure mi trovo distratto da banalità relative come
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry abbassò la voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 la faccenda del Ragazzo-Che-È-Sopravvissuto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Non sembrava ci fosse nessuno vicino, ma era inutile tentare il destino.
@@ -2577,11 +2578,11 @@ la faccenda del Ragazzo-Che-È-Sopravvissuto.
 \begin_layout Standard
 La professoressa McGonagall si schiarì la voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Davvero? Sono sorpresa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2590,7 +2591,7 @@ Davvero? Sono sorpresa.
 \begin_layout Standard
 Harry annuì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì.
@@ -2611,7 +2612,7 @@ finita
  È come essere Frodo Baggins e scoprire che i tuoi genitori ti hanno portato
  a Monte Fato e ti hanno fatto gettare l'Anello quando avevi solo un anno,
  e non ti ricordi niente.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2622,7 +2623,7 @@ Il sorriso della professoressa McGonagall era diventato piuttosto fisso.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sa, se fossi chiunque altro, qualunque altra persona, probabilmente sarei
@@ -2634,12 +2635,12 @@ Mio dio, Harry, cos'hai fatto da quando hai sconfitto il Signore Oscuro?
  il tuo nome a mio figlio? 
 \emph default
 Ma conto sul fatto che questo non sarà un problema.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ad ogni modo\SpecialChar ldots
@@ -2653,75 +2654,75 @@ alcune
 partecipato
 \emph default
  in qualche modo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la professoressa McGonagall in un tono strano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che cosa ha in mente?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, per esempio, lei ha menzionato il fatto che i miei genitori sono stati
  traditi.
  Chi li ha traditi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sirius Black
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega, quasi sibilando il nome.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È ad Azkaban.
  La prigione dei maghi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quanto è probabile che quel Sirius Black fugga dalla prigione e io debba
  inseguirlo e sconfiggerlo in una qualche sorta di duello spettacolare,
  o meglio ancora mettere una grossa taglia sulla sua testa e nascondermi
  in Australia mentre attendo i risultati?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2731,7 +2732,7 @@ Quanto è probabile che quel Sirius Black fugga dalla prigione e io debba
 La professoressa McGonagall sbatté le palpebre.
  Due volte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Improbabile.
@@ -2740,7 +2741,7 @@ Improbabile.
 egli
 \emph default
  sarà il primo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2748,7 +2749,7 @@ egli
 
 \begin_layout Standard
 Harry era un po' scettico riguardo quel 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2760,7 +2761,7 @@ nessuno
  mai
 \emph default
  fuggito da Azkaban
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2771,25 +2772,25 @@ nessuno
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene, allora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sembra che tutto sia stato terminato alla perfezione.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Sospirò, strofinandosi la testa col palmo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 O forse il Signore Oscuro non morì 
@@ -2807,7 +2808,7 @@ davvero
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2819,7 +2820,7 @@ La testa della professoressa McGonagall ruotò, e i suoi occhi guizzarono
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sto 
@@ -2827,7 +2828,7 @@ Sto
 scherzando
 \emph default
 , professoressa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con un certo fastidio.
@@ -2851,11 +2852,11 @@ molto
  calma.
  Poi mise su un sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Naturalmente, signor Potter.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2892,7 +2893,7 @@ Oh cavolo
 Harry girò la testa per scandagliare la strada.
  No, nessuno vicino.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2900,16 +2901,14 @@ Harry girò la testa per scandagliare la strada.
 Non è
 \emph default
  morto, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, sospirò Harry
-
-.
+, sospirò Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter
@@ -2917,14 +2916,14 @@ Signor Potter
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Signore Oscuro è vivo.
@@ -2985,14 +2984,14 @@ morto
 pessimismo
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter
@@ -3000,25 +2999,25 @@ Signor Potter
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Almeno mi dica che non c'è davvero una profezia\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La professoressa McGonagall gli stava ancora rivolgendo quel sorriso brillante
  e fisso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, lei mi sta
@@ -3026,14 +3025,14 @@ Oh, lei mi sta
  certamente
 \emph default
  prendendo in giro.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter, non deve inventarsi cose di cui preoccuparsi
@@ -3057,7 +3056,7 @@ mbox{--»}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi sta 
@@ -3070,7 +3069,7 @@ questo?
 \emph default
  Immagini la mia reazione dopo, quando scoprissi che c'era davvero qualcosa
  di cui preoccuparsi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3083,7 +3082,7 @@ Il suo sorriso fisso vacillò.
 \begin_layout Standard
 Le spalle di Harry si ingobbirono.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho l'intero mondo della magia da studiare.
@@ -3092,7 +3091,7 @@ Ho l'intero mondo della magia da studiare.
 Non ho tempo
 \emph default
  per questo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3115,7 +3114,7 @@ Quando l'uomo vestito di arancione si fu allontanato, Harry parlò di nuovo,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei ha solo 
@@ -3123,14 +3122,14 @@ Lei ha solo
 undici anni
 \emph default
 , signor Potter!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse ella con un sussurro severo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E perciò subumano.
@@ -3140,7 +3139,7 @@ E perciò subumano.
 dimenticato
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3218,15 +3217,15 @@ Ah.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene allora, Professoressa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry in una voce bassa e glaciale, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sembra che io abbia qualcosa che lei desidera.
@@ -3237,7 +3236,7 @@ tutta
  la verità, e in cambio manterrò i suoi segreti.
  O può cercare di tenermi all'oscuro in modo da usarmi come pedina, in tal
  caso non le dovrò nulla.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3247,18 +3246,18 @@ tutta
 McGonagall si fermò improvvisamente per strada.
  I suoi occhi divamparono e la sua voce eruppe in un sibilo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come osa!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3266,14 +3265,14 @@ Come osa!
 Come osa lei!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  le sussurrò in risposta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vorrebbe 
@@ -3281,7 +3280,7 @@ Vorrebbe
 ricattarmi?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3290,7 +3289,7 @@ ricattarmi?
 \begin_layout Standard
 Le labbra di Harry si contorsero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le sto 
@@ -3334,7 +3333,7 @@ lei
  fosse al mio posto?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3345,16 +3344,16 @@ Harry osservò McGonagall, notò il suo respiro pesante.
  Gli venne in mente che fosse il momento di allentare la pressione, di lasciarla
  cuocere a fuoco dolce per un po'.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non deve decidere immediatamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry in un tono più normale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capirei se volesse prendersi del tempo per pensare alla mia 
@@ -3363,12 +3362,12 @@ offerta
 \emph default
 \SpecialChar ldots
  ma l'avviso di una cosa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con una voce che divenne più fredda.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non provi a usare quell'incantesimo di Obliazione su di me.
@@ -3380,7 +3379,7 @@ ricordassi
 \emph default
  di essermelo mandato\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry lasciò che la propria voce si spegnesse in modo significativo.
@@ -3390,7 +3389,7 @@ ricordassi
 Il volto di McGonagall lavorò, mentre le sue espressioni si scambiavano
  di posto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io\SpecialChar ldots
@@ -3405,14 +3404,14 @@ inventare
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'ho pensato mentre leggevo un libro di fantascienza babbana, e ho detto
@@ -3422,25 +3421,25 @@ bene, nel caso servisse
 \emph default
 \SpecialChar ldots
  E no, non le dirò che segnale è, non sono stupido.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non era mia intenzione chiederlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse McGonagall.
  Sembrò ripiegare su sé stessa, e improvvisamente apparve molto anziana,
  molto stanca.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si è trattato di una giornata molto faticosa, signor Potter.
@@ -3449,7 +3448,7 @@ Si è trattato di una giornata molto faticosa, signor Potter.
  Consideri che ci sono solo due altre persone in tutto il mondo che sanno
  di questa cosa, e sono il preside Albus Dumbledore e il professor Severus
  Snape.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3464,16 +3463,16 @@ Allora.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi ora devo trovare qualche maniera di uccidere un Mago Oscuro immortale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry disse sospirando per la frustrazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vorrei davvero che me l'avesse detto 
@@ -3481,7 +3480,7 @@ Vorrei davvero che me l'avesse detto
 prima
 \emph default
  che iniziassi a fare le compere.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3500,8 +3499,6 @@ Citato in cap.
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -3577,22 +3574,22 @@ stupido
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace, giovanotto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È tutta colpa mia.
  Le proporrei di riportarla da Gringotts, ma la banca sarà chiusa per tutti
  i servizi tranne quelli di emergenza, ora.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3604,20 +3601,20 @@ Harry la osservò, chiedendosi\SpecialChar ldots
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sospirò la professoressa McGonagall, mentre girò facendo perno su di un
  tallone, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 allora possiamo andare, presumo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3647,11 +3644,11 @@ conseguenze future
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Professoressa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
@@ -3703,16 +3700,16 @@ duecento
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo di dover confessare che ha ragione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma, giovanotto
@@ -3720,7 +3717,7 @@ Ma, giovanotto
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3785,7 +3782,7 @@ senza
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3793,14 +3790,14 @@ senza
 Cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  esclamò la professoressa McGonagall.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per metterla in un'altra maniera, se potessi far sì che la giornata di oggi
@@ -3811,20 +3808,20 @@ non avessimo
  portato con noi denaro insufficiente, sarebbe questo accettabile, anche
  se implicherebbe che un bambino sia stato insolente verso un adulto, a
  posteriori?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo\SpecialChar ldots
  di sì\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la strega, sembrando alquanto perplessa.
@@ -3832,11 +3829,11 @@ Suppongo\SpecialChar ldots
 
 \begin_layout Standard
 Harry prese la borsa mokeskin, e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Undici galeoni provenienti dal mio deposito di famiglia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3850,7 +3847,7 @@ E ci fu dell'oro nella mano di Harry.
 Per un momento la professoressa McGonagall rimase a bocca aperta, poi la
  sua mascella di chiuse di scatto e i suoi occhi formarono una fessura e
  la strega disse con una rabbia controllata, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3862,25 +3859,25 @@ Dove
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dal mio deposito di famiglia, come ho detto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3888,29 +3885,29 @@ Dal mio deposito di famiglia, come ho detto.
 Come?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Magia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questa non è una risposta!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  scattò la professoressa McGonagall, e poi si fermò, battendo gli occhi.
@@ -3941,7 +3938,7 @@ E l'alta strega restò ferma, in silenzio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dentro Hogwarts la disciplina 
@@ -3949,12 +3946,12 @@ Dentro Hogwarts la disciplina
 deve
 \emph default
  essere fatta rispettare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse dopo quasi un intero minuto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per il bene di 
@@ -3971,29 +3968,29 @@ deve
 tutti
 \emph default
  i professori.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Comprendo, professoressa McGonagall.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene, ora compriamo quel baule e andiamo a casa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4028,12 +4025,12 @@ Minerva McGonagall, +1 punto.
 Harry fece un inchino, e mise la borsa d'oro e gli undici galeoni extra
  nelle mani di McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La ringrazio di cuore, professoressa.
  Può completare l'acquisto per me? Devo far visita al bagno.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4044,7 +4041,7 @@ Il commesso, nuovamente mellifluo, indicò in direzione di una porta inserita
  nel muro, con una maniglia dorata.
  Appena Harry iniziò ad allontanarsi, sentì il commesso chiedere nella sua
  voce melliflua, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Posso domandare chi sia quella persona, Madam McGonagall? Presumo sia un
@@ -4054,7 +4051,7 @@ Posso domandare chi sia quella persona, Madam McGonagall? Presumo sia un
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4076,8 +4073,6 @@ Il rumore della porta del bagno che si chiudeva interruppe le sue parole,
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -4107,17 +4102,17 @@ mente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi le nostre strade si dividono qui, per ora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  Scosse la testa per la meraviglia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è stato il giorno più strano della mia vita da\SpecialChar ldots
@@ -4125,7 +4120,7 @@ Questo è stato il giorno più strano della mia vita da\SpecialChar ldots
  Sin dal giorno in cui venni a sapere che un bambino aveva sconfitto Tu-Sai-Chi.
  Oggi mi chiedo, guardandomi indietro, se quello sia stato l'ultimo giorno
  ragionevole del mondo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4155,49 +4150,49 @@ Citato all'inizio del capitolo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono stato molto colpito da lei, oggi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , le disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avrei dovuto ricordarmi di farle i complimenti ad alta voce, nella mia mente
  le stavo assegnando dei punti.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se fosse stato già assegnato a una Casa, le avrei sottratto talmente tanti
  punti che i suoi nipoti starebbero ancora perdendo la Coppa delle Case
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie a 
@@ -4205,7 +4200,7 @@ Grazie a
 lei
 \emph default
 , Professoressa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -4225,16 +4220,16 @@ E quale sarebbe un nome appropriato per questo gruppo\SpecialChar ldots
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La vedrò presto, quando inizierà la scuola
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E, signor Potter, riguardo alla sua bacchetta
@@ -4242,31 +4237,31 @@ E, signor Potter, riguardo alla sua bacchetta
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So cosa sta per chiedermi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Tirò fuori la sua preziosa bacchetta e, con una profonda fitta di pena
  interiore, la fece ruotare nella mano, in modo da offrirle l'impugnatura.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La prenda.
  Non avevo intenzione di farci nulla, proprio niente, ma non voglio che
  abbia incubi in cui faccio saltare in aria la mia casa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4275,7 +4270,7 @@ La prenda.
 \begin_layout Standard
 La professoressa McGonagall scosse la testa rapidamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh no, signor Potter! Non si tratta di questo.
@@ -4285,29 +4280,29 @@ usare
 \emph default
  la sua bacchetta a casa, in quanto il Ministero è in grado di rilevare
  la pratica magica da parte di minori, che è proibita in assenza di supervisori.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi sembra una regola ragionevole.
  Sono contento di vedere che il mondo della magia prende sul serio questo
  genere di cose.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4316,27 +4311,27 @@ Mi sembra una regola ragionevole.
 \begin_layout Standard
 La professoressa McGonagall lo fissò attentamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sta dicendo sul serio.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lo capisco.
@@ -4344,21 +4339,21 @@ Lo capisco.
  Anche altre faccende sono pericolose.
  Capisco anche quello.
  Si ricordi che non sono stupido.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È improbabile che me lo dimentichi.
  Grazie, Harry, questo mi fa sentire meglio a proposito delle altre cose
  che ti ho confidato.
  Arrivederci, per ora.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4375,45 +4370,45 @@ Mentre la sua mano toccava la maniglia della porta sul retro, sentì un ultimo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hermione Granger.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry con la mano ancora sulla maniglia.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cerca una ragazza del primo anno chiamata Hermione Granger sul treno per
  Hogwarts.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi è?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4430,8 +4425,6 @@ Non ci fu risposta, e quando Harry si girò, la professoressa McGonagall
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -4451,11 +4444,11 @@ Conseguenze
 Il preside Albus Dumbledore si chinò in avanti sulla propria scrivania.
  I suoi occhi sfavillanti indagarono Minerva.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dunque, mia cara, come hai trovato Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -4469,21 +4462,21 @@ Minerva aprì la bocca.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus seriamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie per la tua relazione, Minerva.
  Puoi andare.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 

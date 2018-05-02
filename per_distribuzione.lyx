@@ -193,12 +193,12 @@
 
 
 
-%\raggedbottom
-%\widowpenalties 2 10000 0
-%\clubpenalty 10000
+\raggedbottom
+\widowpenalties 2 10000 0
+\clubpenalty 10000
 
-\widowpenalties 2 100 0
-\clubpenalty 100
+%\widowpenalties 2 100 0
+%\clubpenalty 100
 
 
 %% descrizioni senza bold
@@ -244,7 +244,7 @@ initials
 \use_microtype true
 \use_dash_ligatures false
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
