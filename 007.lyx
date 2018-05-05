@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -7,7 +7,6 @@
 \textclass memoir
 \begin_preamble
 \chapterstyle{thatcher}
-\usepackage{microtype}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -29,6 +28,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -59,6 +60,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -73,7 +75,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
@@ -118,11 +123,11 @@ Le labbra di Petunia Evans-Verres stavano tremando, e i suoi occhi riempiendosi
  di lacrime, mentre Harry l'abbracciava alla vita al Binario Nove della
  stazione di King's Cross.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei sicuro di non volere che venga con te, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -233,6 +238,17 @@ Non c'erano dubbi sulla possibilità che suo padre lo accompagnasse dal lato
 Così invece il padre si schiarì appena la gola.
  «Buona fortuna per la scuola, Harry», disse.
  «Pensi che ti abbia comprato abbastanza libri?»
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Citato in cap.
+ 43.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -295,6 +311,17 @@ certamente
 davvero
 \emph default
  un buon tentativo.»
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Citato in cap.
+ 43.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -709,15 +736,15 @@ Un attimo dopo, il ragazzo dai capelli rossi più giovane attraversò di corsa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Santo cielo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ragazzo dai capelli rossi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sei 
@@ -725,7 +752,7 @@ sei
 davvero
 \emph default
  Harry Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1365,7 +1392,7 @@ già
 indovinare
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2080,11 +2107,11 @@ In qualche modo
 sapeva
 \emph default
  di verde brillante – extra-frizzante e più 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 limonoso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  del limone.
@@ -2357,7 +2384,7 @@ aspetterebbe
 
 \begin_layout Standard
 «Sì, beh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry tossì, oh dio, come avrebbe fatto a uscire da quel vicolo cieco
@@ -2552,7 +2579,7 @@ te al momento giusto:
 un giorno sposerò quella donna
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2771,7 +2798,7 @@ risposta
 \begin_layout Standard
 La testa di Draco si girò di scatto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2787,7 +2814,7 @@ Cosa?
 ?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2929,6 +2956,7 @@ La
 
 \begin_layout Standard
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -3050,7 +3078,7 @@ Il dito di Draco si spostò su una delle tute.
 Come
 \emph default
 ...
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3387,8 +3415,6 @@ Ma quando Harry alzò lo sguardo dal suo orologio, vide avvicinarsi due figure,
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50

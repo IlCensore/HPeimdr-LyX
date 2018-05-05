@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{43}
@@ -61,16 +63,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Fredericka the Great
-\font_typewriter Inconsolata
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Fredericka the Great"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -81,16 +85,26 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -105,7 +119,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -138,71 +155,72 @@ name "chap:44Umanesimo-2"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\noindent
+\begin_inset Quotes cld
 \end_inset
 
 Fawkes
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-aiutalo, ti prego
-\begin_inset Quotes frd
+aiutalo, ti prego.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Una brillante creatura rosso-dorata entrò lentamente nel campo visivo, poi
- guardò giù confusa; e iniziò a canticchiare.
+Una brillante creatura rosso-dorata entrò lentamente nel suo campo visivo,
+ poi guardò giù confusa; e iniziò a canticchiare.
 \end_layout
 
 \begin_layout Standard
-I cinguettii senza significato scivolarono via sulla vacuità, non c'era
- nulla su cui potessero fare presa.
+I cinguettii senza significato scivolarono sulla vacuità, non c'era nulla
+ su cui potessero fare presa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei rumoroso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-dovresti morire
-\begin_inset Quotes frd
+dovresti morire.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cioccolato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-hai bisogno di cioccolato, e dei tuoi amici -- ma non oso riportarti indietro
+hai bisogno di cioccolato, e dei tuoi amici – ma non oso riportarti indietro
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -223,10 +241,11 @@ La cosa vuota rise in risposta, poiché aveva conservato la capacità di essere
 E un momento dopo tutti e tre erano svaniti in un'altra vampata di fuoco.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -237,13 +256,12 @@ E un momento dopo tutti e tre erano svaniti in un'altra vampata di fuoco.
 \begin_layout Standard
 Trascorse solo un momento, apparentemente, tra quando il corvo di Flitwick
  era volato altrove, e quando Albus Dumbledore riapparve in un altro rombo
- di fuoco rosso e dorato con Harry tra le sue braccia; ma in qualche modo
- nel frattempo Hermione era già riuscita a riempirsi le mani con della cioccolat
-a.
+ di fuoco rosso e dorato con Harry tra le braccia; ma in qualche modo nel
+ frattempo Hermione era già riuscita a riempirsi le mani di cioccolato.
 \end_layout
 
 \begin_layout Standard
-Prima ancora che Hermione arrivasse lì, della cioccolata si era alzata in
+Prima ancora che Hermione arrivasse lì, del cioccolato si era alzata in
  volo dal tavolo ed era andata direttamente nella bocca di Harry, cosa che
  una minuscola parte della sua mente considerò essere ingiusta, 
 \emph on
@@ -257,19 +275,19 @@ lei
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-Harry risputò fuori la cioccolata un'altra volta.
+Harry risputò fuori il cioccolato un'altra volta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vai via
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse una voce così vuota che non era neppure fredda.
@@ -287,47 +305,47 @@ Tutto sembrò congelarsi, tutti coloro che si stavano muovendo verso Harry
 
 \begin_layout Standard
 Poi: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non lo farò
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, e il tempo riprese nuovamente, mentre un altro pezzo di cioccolata volò
- via dalla tavola e andò nella bocca di Harry.
+, e il tempo riprese nuovamente, mentre un altro pezzo di cioccolato si
+ alzò in volo dalla tavola e andò in bocca a Harry.
 \end_layout
 
 \begin_layout Standard
-Hermione era abbastanza vicina, ora, da poter vedere l'espressione di Harry
- diventare più piena d'odio, mentre la sua bocca masticava con un ritmo
- meccanico, innaturale.
+Hermione era abbastanza vicina, ormai, da poter vedere l'espressione di
+ Harry diventare ancor più piena d'odio, mentre la sua bocca masticava con
+ un ritmo meccanico, innaturale.
 \end_layout
 
 \begin_layout Standard
 La voce del Preside era dura come l'acciaio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Filius, chiama Minerva, dille che deve venire velocemente
-\begin_inset Quotes frd
+Filius, chiama Minerva, dille che deve venire velocemente.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Il professor Flitwick sussurrò al suo corvo d'argento, ed esso volò in aria
- e scomparve.
+Il professor Flitwick sussurrò qualcosa al suo corvo d'argento, che volò
+ in aria e scomparve.
 \end_layout
 
 \begin_layout Standard
@@ -336,61 +354,61 @@ Un altro pezzo di cioccolato fluttuò fino alla bocca di Harry, e la masticazion
 \end_layout
 
 \begin_layout Standard
-C'erano altri studenti che si stavano riunendo attorno al luogo dove il
- Preside vegliava su Harry con occhi cupi: Neville, Seamus, Dean, Lavender,
- Ernie, Terry, Anthony, nessuno di loro osò avvicinarsi più di quanto non
- avesse fatto Hermione.
+C'erano altri studenti che si stavano riunendo attorno al Preside che vegliava
+ su Harry con occhi cupi: Neville, Seamus, Dean, Lavender, Ernie, Terry,
+ Anthony, nessuno di loro osò avvicinarsi più di quanto non avesse fatto
+ Hermione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa possiamo fare?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Dean con una voce tremante.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fatevi indietro e lasciategli più spazio
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce atona del professor Quirrell.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  interruppe il Preside.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Lasciamo che sia circondato dai suoi amici
-\begin_inset Quotes frd
+Lasciamo che sia circondato dai suoi amici.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Harry ingoiò la sua cioccolata, e disse con quella voce vuota, 
-\begin_inset Quotes fld
+Harry ingoiò il cioccolato, e disse con quella voce vuota, 
+\begin_inset Quotes cld
 \end_inset
 
 Sono stupidi.
@@ -399,10 +417,10 @@ Sono stupidi.
 mmffh
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- mentre un altro pezzo di cioccolata entrò nella sua bocca.
+ mentre un altro pezzo di cioccolato gli entrò in bocca.
 \end_layout
 
 \begin_layout Standard
@@ -410,34 +428,34 @@ Hermione vide le espressioni di turbamento che attraversarono i loro volti.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non dice sul serio, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Seamus come se stesse supplicando.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non capisci
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, la sua voce che stava per rompersi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
 quello non è Harry 
 \emph default
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  e si zittì prima di dire altro, ma 
@@ -469,7 +487,7 @@ già là
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -479,8 +497,8 @@ Il Preside lo sa?
 \end_layout
 
 \begin_layout Standard
-Hermione alzò lo sguardo al Preside, e scoprì che Albus Dumbledore stava guardando
- 
+Hermione alzò lo sguardo al Preside, e scoprì che Albus Dumbledore stava
+ guardando 
 \emph on
 lei
 \emph default
@@ -488,7 +506,7 @@ lei
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -533,7 +551,7 @@ Cosa possiamo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -578,7 +596,7 @@ quanto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -592,7 +610,7 @@ Rilievo corretto
 Te lo dirò; preparati, non devi reagire.
  Sei pronta? Bene.
  Sto per fingere di lanciare la Maledizione Mortale sulla professoressa
- McGonagall -- 
+ McGonagall – 
 \noun on
 Non reagire
 \noun default
@@ -617,7 +635,7 @@ ucciso
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -641,7 +659,7 @@ A Hermione venne in mente il pensiero che
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -660,7 +678,7 @@ Non l'aveva pensato sul serio! Era solo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -672,10 +690,11 @@ Poi i suoi occhi si spostarono, interrompendo lo sguardo rivolto al Preside,
  essere importanti, solo che c'era una speranza.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -684,7 +703,7 @@ Poi i suoi occhi si spostarono, interrompendo lo sguardo rivolto al Preside,
 \end_layout
 
 \begin_layout Standard
-C'era una coercizione a masticare e ingoiare cioccolata.
+C'era una coercizione a masticare e ingoiare cioccolato.
  La risposta alla coercizione era uccidere.
 \end_layout
 
@@ -704,8 +723,8 @@ Altra gente stava chiacchierando in sottofondo.
 \begin_layout Standard
 Uccidere tutta quella gente sarebbe stato difficile.
  Ma molti di loro non si fidavano di Quirrell, che era forte.
- Trovare con esattezza la causa scatenante giusta avrebbe potuto spingerli
- a uccidersi l'un l'altro.
+ Trovare con la causa scatenante giusta avrebbe potuto spingerli a uccidersi
+ l'un l'altro.
 \end_layout
 
 \begin_layout Standard
@@ -715,13 +734,14 @@ Poi una persona si chinò all'interno del suo campo visivo e fece qualcosa
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -730,10 +750,11 @@ Poi una persona si chinò all'interno del suo campo visivo e fece qualcosa
 \end_layout
 
 \begin_layout Standard
-Sentì i gemiti attorno a sé stessa, e non furono importanti, mantenne il
- bacio su quelle labbra macchiate di cioccolata mentre le lacrime sgorgarono
- dai suoi occhi.
+Sentì i gemiti attorno a sé, e non furono importanti, mantenne il bacio
+ su quelle labbra macchiate di cioccolato mentre le lacrime sgorgarono dai
+ suoi occhi.
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -767,13 +788,18 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size footnotesize
 Sentì i gemiti attorno a sé stessa, e non furono importanti, mantenne il
- bacio su quelle labbra macchiate di cioccolata mentre le lacrime sgorgarono
+ bacio su quelle labbra macchiate di cioccolato mentre le lacrime sgorgarono
  dai suoi occhi.
 \end_layout
 
@@ -795,7 +821,7 @@ Sentì i gemiti attorno a sé stessa, e non furono importanti, mantenne il
 \begin_layout Standard
 E le braccia di Harry si alzarono e la spinsero via, e le sue labbra gridarono,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -803,16 +829,17 @@ E le braccia di Harry si alzarono e la spinsero via, e le sue labbra gridarono,
 Te l'ho detto, niente baci!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -821,22 +848,22 @@ Te l'ho detto, niente baci!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Penso che starà bene, ora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Preside guardando in direzione di Harry, che stava piangendo
  con grandi singhiozzi pietosi mentre Fawkes canticchiava su di lui.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Eccellente, signorina Granger.
  Lo sa che neppure io mi sarei aspettato che funzionasse davvero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
