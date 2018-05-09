@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{99}
@@ -62,16 +64,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Adobe Jenson Pro
-\font_sans FFScala-Caps
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Adobe Jenson Pro"
+\font_sans "default" "FFScala-Caps"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -101,6 +105,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -115,7 +120,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -176,11 +184,11 @@ Draco manteneva una presa ferma sulla propria bacchetta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dove ci sta portando?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Tracey Davis.
@@ -190,11 +198,11 @@ Dove ci sta portando?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voi seguitemi e basta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Argus Filch.
@@ -216,50 +224,50 @@ s e Daphne avrebbe parlato a suo padre e allora Filch avrebbe imparato la
 Le luci del castello di Hogwarts si erano attenuate in lontananza quando
  Filch parlò di nuovo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scommetto che ci penserete due volte a infrangere ancora una regola scolastica,
  no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Filch girò la testa, allontanandola dalla lampada, in modo da poter sbirciare
  malevolmente i quattro studenti che lo seguivano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Eh sì\SpecialChar \ldots{}
- lavoro duro e dolore sono i migliori insegnanti se me lo chiedete\SpecialChar \ldots{}
+Eh sì\SpecialChar ldots
+ lavoro duro e dolore sono i migliori insegnanti se me lo chiedete\SpecialChar ldots
 
- È proprio un peccato che abbiano lasciato morire le vecchie punizioni\SpecialChar \ldots{}
+ È proprio un peccato che abbiano lasciato morire le vecchie punizioni\SpecialChar ldots
  appenderv
 i al soffitto per i polsi per qualche giorno, ho ancora le catene nel mio
- ufficio, le tengo ben oliate nel caso siano mai necessarie\SpecialChar \ldots{}
+ ufficio, le tengo ben oliate nel caso siano mai necessarie\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ehi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey, una nota di indignazione che entrò nella sua voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Sono troppo giovane per sentire quel -- quel genere di -- lo sa! Specialmente
+Sono troppo giovane per sentire quel – quel genere di – lo sa! Specialmente
  se le catene sono ben oliate!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -279,22 +287,22 @@ Dietro di loro, una dei due Serpeverde più grandi che li seguiva fece un
  col genere di cose di cui Tracey continuava a parlare, e sembravano essere
  nel loro terzo o quarto anno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pfah
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ragazzo più alto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A Durmstrang ti appendono a testa in giù per gli alluci.
  Per un alluce, se sei stato insolente.
  Hogwarts era molle persino nei tempi passati.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -304,19 +312,19 @@ A Durmstrang ti appendono a testa in giù per gli alluci.
 Argus Filch rimase in silenzio per mezzo minuto, come se stesse cercando
  di pensare a una replica appropriata, e poi fece una risatina.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Vedremo cosa dirai\SpecialChar \ldots{}
+Vedremo cosa dirai\SpecialChar ldots
  quando verrai a sapere cosa farai stanotte! Ah!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho 
@@ -324,16 +332,16 @@ Ho
 detto
 \emph default
 , sono troppo giovane per quel genere di cose!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey Davis.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questa roba dovrà aspettare finché sarò più grande!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -363,11 +371,11 @@ Gli occhi di Draco si socchiusero, prima che potesse accorgersene.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che roba è?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la figura, nella rumorosa voce roca del mezzo-gigante.
@@ -378,28 +386,28 @@ Che roba è?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Studenti che scontano una punizione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Filch, ad alta voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Devono aiutarti a ispezionare la Foresta per\SpecialChar \ldots{}
+Devono aiutarti a ispezionare la Foresta per\SpecialChar ldots
  qualunque cosa li stia mangiando.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La 
@@ -407,57 +415,57 @@ La
 Foresta?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gemette Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non possiamo andarci di notte!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Già
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Filch, dando le spalle a Hagrid per lanciare loro un'occhiata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È nella Foresta che state andando, e mi sbaglio di grosso se tornerete tutti
  d'un pezzo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sono i lupi mannari, ho sentito, 
@@ -466,7 +474,7 @@ e
 \emph default
  i vampiri, e tutti sanno quello che succede quando ci sono una ragazza
  e un lupo mannaro e un vampiro tutti insieme!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -485,12 +493,12 @@ Nota
 \begin_layout Standard
 L'enorme mezzo-gigante era accigliato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Argus, ciavevo pensato a te e qualche settimino.
  È inutile portarci aiuti se devo stare attento a loro tutto il tempo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -499,14 +507,14 @@ Argus, ciavevo pensato a te e qualche settimino.
 \begin_layout Standard
 Il volto di Argus si illuminò di crudele soddisfazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questi sono affari loro, no? Avrebbero dovuto pensare ai lupi mannari prima
  di ficcarsi nei guai, no? Mandali fuori da soli.
  Non sarei così amichevole con loro, Hagrid.
  Sono qui per essere puniti, dopo tutto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -516,31 +524,31 @@ Questi sono affari loro, no? Avrebbero dovuto pensare ai lupi mannari prima
 Il mezzo-gigante emise un possente sospiro (suonò come se un a uomo normale
  una Fattura di Randellamento avesse fatto espellere tutta l'aria dai polmoni).
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai fatto quello che avevi daffare.
  Da mo ci penzo io.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tornerò all'alba
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Filch, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 per quello che è rimasto di loro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , aggiunse con malignità, e si voltò e iniziò a tornare verso il castello,
@@ -548,21 +556,21 @@ per quello che è rimasto di loro
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vabbé
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ora, 'scoltate bene, perché è pericoloso quello che facciamo stanotte e
  non voglio che qualcuno abbia rischi.
  Venite là con me per un attimino.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -577,11 +585,11 @@ Li condusse all'esatto limitare della Foresta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è qualcheccosa là che sta magnando unicorni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'enorme uomo.
@@ -593,28 +601,28 @@ Draco annuì: ricordava vagamente di aver sentito qualcosa di simile un paio
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci ha chiamati per scovare una scia di sangue argenteo fino a un unicorno
  ferito?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse eccitata Tracey.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, sebbene riuscì a fermare il sogghigno di riflesso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Filch ci ha dato la nota di punizione oggi a pranzo, a mezzogiorno.
@@ -622,32 +630,32 @@ Filch ci ha dato la nota di punizione oggi a pranzo, a mezzogiorno.
  e se stessimo cercando una cosa simile, cercheremmo di giorno, quando è
  illuminato.
  Allora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Draco sollevò un dito, come aveva visto fare all'ispettore León negli
  spettacoli, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 deduco che stiamo cercando qualcosa che viene fuori solo di notte.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il mezzo-gigante, sembrando pensieroso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sei come ti pensavo, Draco Malfoy.
@@ -655,46 +663,46 @@ Non sei come ti pensavo, Draco Malfoy.
  E tu sei Tracey Davis, allora.
  Ho sentito di te.
  Una del gruppo della povera signorina Granger.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Rubeus Hagrid guardò verso i due Serpeverde più grandi, scrutandoli alla
  luce del suo ombrello luminoso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E chi siete voi, allora? Non ricordo di averti visto spesso, ragazzo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cornelia Walt
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e questo è Yuri Yuliy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , indicando il ragazzo dall'aspetto slavo che aveva parlato di Durmstrang.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La sua famiglia è in visita dalle terre ucraine, così è a Hogwarts solo
  per quest'anno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -703,11 +711,11 @@ La sua famiglia è in visita dalle terre ucraine, così è a Hogwarts solo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è Zanna
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid, indicando il cane.
@@ -718,44 +726,44 @@ Tutti e cinque si misero in viaggio nel bosco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa potrebbe uccidere gli unicorni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco dopo che ebbero camminato per qualche minuto.
  Draco conosceva qualcosa sulle creature Oscure, ma non poteva ricordare
  nulla che fosse noto per cibarsi di unicorni.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che genere di creatura fa una cosa simile, qualcuno lo sa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lupi mannari!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Davis?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco, e quando ella lo guardò, egli puntò silenziosamente un dito
@@ -764,27 +772,27 @@ Signorina Davis?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, giusto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No mannari nella Foresta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono normali maghi quasi tutto il tempo, ricordate.
@@ -792,7 +800,7 @@ Sono normali maghi quasi tutto il tempo, ricordate.
  un unicorno.
  Potenti creature magiche, sono gli unicorni, mai saputo di qualcuno che
  può far male loro prima.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -801,7 +809,7 @@ Sono normali maghi quasi tutto il tempo, ricordate.
 \begin_layout Standard
 Draco ascoltava, pensando all'enigma quasi suo malgrado.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora cosa 
@@ -809,23 +817,23 @@ Allora cosa
 è
 \emph default
  abbastanza veloce da catturare un unicorno?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è stata roba di velocità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid, rivolgendo a Draco un'occhiata indecifrabile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ci sta fine ai modi che le creature cacciano.
@@ -833,7 +841,7 @@ Non ci sta fine ai modi che le creature cacciano.
  I folletti non li vedi o senti o ricordi, anche quando cercavano di mangiarti
  la faccia tua.
  Ci sta sempre qualche cosa di nuovo da imparare.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -845,15 +853,15 @@ Una nuvola passò sopra la luna, gettando la foresta in un'oscurità illuminata
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Me
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò Hagrid, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 penso che potremmo averci tra le mani un'idra di Parigi.
@@ -863,23 +871,23 @@ penso che potremmo averci tra le mani un'idra di Parigi.
  Il problema è che contro un'idra di Parigi, la maggior parte delle creature
  si arrende prima.
  Ci vuole assai per tagliarci tutte le teste, sapete.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bah
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece il ragazzo straniero.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A Durmstrang impariamo a combattere l'idra di Buchholz.
@@ -887,7 +895,7 @@ A Durmstrang impariamo a combattere l'idra di Buchholz.
  è possibile concepirlo.
  I primini non ci credono quando diciamo loro che vincere è possibile! L'istrutt
 ore deve dare un secondo ordine, iterare finché non capiscono.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -903,26 +911,26 @@ Camminarono per quasi mezz'ora, sempre più in profondità nella Foresta,
 Poi Draco lo vide, in spessi schizzi sulle radici degli alberi, che baluginavano
  di un colore splendente sotto la luce della luna.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quello è forse
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sangue di unicorno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid.
@@ -950,34 +958,34 @@ Nella gola di Draco nacque una strana sensazione di soffocamento.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È lei
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid, il suo triste sospiro tanto forte quanto la voce normale
  di un uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Proprio dove l'ho trovata stamattina, morta come una maniglia morta.
- Lei è -- era -- il primo unicorno che ho incontrato in questi boschi.
+ Lei è – era – il primo unicorno che ho incontrato in questi boschi.
  La chiamavo Alicorno, ma questo non le importa più, penso.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha chiamato Alicorno un unicorno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la ragazza più grande.
@@ -985,39 +993,39 @@ Ha chiamato Alicorno un unicorno
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma non ha ali
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un alicorno è il corno di un unicorno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid, ora più forte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non capisco perché voi avete iniziato a pensare che vuol dire unicorno con
  le ali, non c'era mai una cosa così che io so.
  È proprio come chiamare Zanna un cane
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , indicando l'enorme cane simile a un lupo che arrivava appena alle sue
  ginocchia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come la avreste chiamata voi? Hannah o qualcosa di simile? Le mettei il
@@ -1027,7 +1035,7 @@ lei
 \emph default
 .
  Normale gentilezza, la chiamo io.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1037,17 +1045,17 @@ lei
 Nessuno disse nulla a proposito, e dopo un altro momento, l'enorme uomo
  fece un cenno secco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Incominciamo la nostra cerca da qua, l'ultimo posto dove ha colpito.
  Ci dividiamo in due gruppi e seguiamo la traccia da due parti diverse.
- Voi due, Walt e Yuliy -- voi andata da quella parte, e prendete Zanna.
+ Voi due, Walt e Yuliy – voi andata da quella parte, e prendete Zanna.
  Non c'è niente che vive nella Foresta che vi fa male se siete con Zanna.
  Mandate in aria scintille verdi se trovate qualche cosa di interessante,
  e mandate in aria scintille rosse se qualcuno si ficca nei guai.
  Davis, Malfoy, con me.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1067,27 +1075,27 @@ La Foresta era nera e silenziosa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci stanno voci su di te
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid a bassa voce dopo che ebbero camminato per un po'.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, sono tutte vere
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1095,28 +1103,28 @@ Beh, sono tutte vere
 Tutte
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non te
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai veramente detto sotto Veritaserum che hai cercato di aiutare la signorina
  Granger, le tre volte che è stato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1124,11 +1132,11 @@ Hai veramente detto sotto Veritaserum che hai cercato di aiutare la signorina
 
 \begin_layout Standard
 Per un po' Draco soppesò le proprie parole, e infine disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1139,7 +1147,7 @@ Sì
 L'enorme uomo scosse la testa, i suoi grandi piedi che ancora battevano
  silenziosamente tra gli alberi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi sorprende, a essere onesto.
@@ -1147,55 +1155,55 @@ Mi sorprende, a essere onesto.
  Siete sicuri che il Cappello Smistatore vi ha messo al posto giusto? Non
  c'è una sola strega o un solo mago che è andato a male che non stava a
  Serpeverde, così si è sempre detto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo non è vero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che mi dice di Xiaonan Tong il Corvo Nero, Spencer della Collina, e del
  Signor Kayvon?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hagrid.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono solo alcuni dei migliori Maghi Oscuri degli ultimi due secoli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Probabilmente sono 
@@ -1203,13 +1211,13 @@ Probabilmente sono
 i
 \emph default
  migliori provenienti da Hogwarts che non erano di Serpeverde
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  La sua voce si abbassò, perse il suo entusiasmo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La signorina Granger mi diceva sempre che mi sarei dovuta documentare su
@@ -1217,15 +1225,15 @@ La signorina Granger mi diceva sempre che mi sarei dovuta documentare su
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1233,11 +1241,11 @@ La signorina Granger mi diceva sempre che mi sarei dovuta documentare su
 A ogni modo
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse rapidamente Draco, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 questo non è molto rilevante, signor Hagrid.
@@ -1245,8 +1253,8 @@ questo non è molto rilevante, signor Hagrid.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Draco ci lavorò su nella propria testa, cercando di tradurre la differenza
@@ -1270,19 +1278,19 @@ Nota
 
  in linguaggio non-scientifico.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche se la maggior parte dei Maghi Oscuri provengono da Serpeverde, molti
  pochi Serpeverde sono Maghi Oscuri.
  Non ci sono così tanti Maghi Oscuri, quindi non tutti i Serpeverde possono
  esserne uno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  O, come aveva detto suo Padre, mentre ogni Malfoy avrebbe certamente dovuto
- conoscere gran parte della tradizione segreta, i rituali più\SpecialChar \ldots{}
+ conoscere gran parte della tradizione segreta, i rituali più\SpecialChar ldots
  
 \emph on
 costosi
@@ -1291,32 +1299,32 @@ costosi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi dici
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Hagrid, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-che molti Maghi Oscuri sono Serpeverde\SpecialChar \ldots{}
- ma\SpecialChar \ldots{}
+che molti Maghi Oscuri sono Serpeverde\SpecialChar ldots
+ ma\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma la maggior parte dei Serpeverde non sono Maghi Oscuri
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , completò Draco.
@@ -1325,24 +1333,24 @@ Ma la maggior parte dei Serpeverde non sono Maghi Oscuri
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ci ho mai pensato così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'enorme uomo, sembrando impressionato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ma, beh, se non siete tutti un nido di serpenti, allora perché -- 
+Ma, beh, se non siete tutti un nido di serpenti, allora perché – 
 \emph on
 mettetevi dietro quell'albero!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1361,20 +1369,20 @@ Hagrid afferrò Draco e Tracey e sollevandoli dal sentiero li spostò dietro
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lo sapevo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , mormorò Hagrid.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sta qualcheccosa qua che non ci deve stare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1400,20 +1408,20 @@ In lontananza, una pioggia di scintille rosse illuminò l'aria.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voi due aspettate qui!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Hagrid.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Rimanete dove state, torno a pigliarvi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1435,11 +1443,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Era: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si aveva la distinta impressione che
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1454,22 +1462,22 @@ Si aveva la distinta impressione che
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E ora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey, la sua voce un po' acuta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Aspettiamo che il signor Hagrid ritorni.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1484,24 +1492,24 @@ I minuti passarono trascinandosi.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  sussurrò Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi sto un po' innervosendo, signor Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1513,7 +1521,7 @@ Draco ci pensò un po'.
 \emph on
 c'era
 \emph default
- qualcosa\SpecialChar \ldots{}
+ qualcosa\SpecialChar ldots
  beh, non era che fosse codardo, o perfino spaventato.
  Ma c'era stato un omicidio a Hogwarts e se avesse visto sé stesso in un'opera
  teatrale, appena abbandonato nella Foresta Proibita da un mezzo-gigante,
@@ -1528,32 +1536,32 @@ Draco infilò la mano nelle vesti, e ne estrasse uno specchio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capitano Auror Eneasz Brodski
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse chiaramente l'uomo, facendo sobbalzare Tracey per la fragorosità
  nel silenzio della foresta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa c'è, Draco Malfoy?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi richiami tra dieci minuti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
@@ -1564,12 +1572,12 @@ Non
 \emph default
  voleva sembrare un ragazzino viziato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se non rispondo, venga a prendermi.
  Sono nella Foresta Proibita
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1578,22 +1586,22 @@ Se non rispondo, venga a prendermi.
 \begin_layout Standard
 All'interno dello specchio, le sopracciglia dell'Auror si inarcarono.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa sta facendo nella Foresta Proibita, signor Malfoy?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cerco il mangiatore di unicorni insieme al signor Hagrid
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, e spense lo specchio battendovi, e lo rimise nelle proprie
@@ -1605,11 +1613,11 @@ Cerco il mangiatore di unicorni insieme al signor Hagrid
 La testa di Tracey si girò verso di lui, sebbene fosse un po' troppo buio
  per leggere l'espressione della ragazza.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm, grazie
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò.
@@ -1623,26 +1631,26 @@ Le poche foglie che erano spuntate sui rispettivi rami frusciarono mentre
 \begin_layout Standard
 La voce di Tracey fu un po' più forte quando parlò di nuovo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non doveva
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse, ora sembrando un po' timida.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo dica neanche, signorina Davis.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1652,7 +1660,7 @@ Non lo dica neanche, signorina Davis.
 La sagoma scura di Tracey portò la mano alla guancia, come per nascondere
  un rossore che comunque non era visibile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio dire, non per 
@@ -1663,29 +1671,29 @@ me
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, seriamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo dica.
  Per niente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1700,15 +1708,15 @@ lei
 \begin_layout Standard
 La sagoma della testa di Tracey si girò allontanandosi da lui, guardò altrove.
  Infine ella disse, con una voce più bassa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È troppo presto, vero
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1720,7 +1728,7 @@ Un forte urlo echeggiò attraverso la foresta, un suono non-del-tutto-umano,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1728,7 +1736,7 @@ Un forte urlo echeggiò attraverso la foresta, un suono non-del-tutto-umano,
 No, testona!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Draco, gettandosi dietro di lei.
@@ -1737,11 +1745,11 @@ No, testona!
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 assolutamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rimosso da EY il 2014-09-30.
@@ -1749,7 +1757,7 @@ assolutamente
 
 \end_inset
 
- certo da dove fosse arrivato -- ma pensò che Tracey Davis potesse, in effetti,
+ certo da dove fosse arrivato – ma pensò che Tracey Davis potesse, in effetti,
  stare correndo dritto verso la fonte di quel grido sinistro.
 \end_layout
 
@@ -1769,7 +1777,7 @@ uno
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1791,37 +1799,37 @@ Un altro unicorno giaceva a terra, circondato da una pozza di sangue argenteo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- sfocata forma contorta
+– sfocata forma contorta
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- che si nutriva da una ferita aperta sul fianco dell'unicorno, come se
+– che si nutriva da una ferita aperta sul fianco dell'unicorno, come se
  stesse bevendo da essa
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- Draco non poteva capire, in qualche modo non poteva riconoscere ciò che
+– Draco non poteva capire, in qualche modo non poteva riconoscere ciò che
  stava vedendo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- 
+– 
 \emph on
 li stava osservando.
 \end_layout
@@ -1829,7 +1837,7 @@ li stava osservando.
 \begin_layout Standard
 La sfocata, brulicante e irriconoscibile oscurità sembrò voltarsi a osservarli.
  Ne venne un sibilo, come il sibilo del più mortale serpente che fosse mai
- esistito, qualcosa di gran lunga più pericoloso di qualunque krait comune.
+ esistito, qualcosa di gran lunga più pericoloso di qualunque bungaro comune.
 \end_layout
 
 \begin_layout Standard
@@ -1844,19 +1852,19 @@ Lo specchio era nella mano di Draco, e rimase senza vita mentre il suo dito
 \begin_layout Standard
 Tracey stava ora reggendo la propria bacchetta, pronunciando parole come
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Prismatis
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stupefy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ma nulla stava accadendo.
@@ -1915,25 +1923,25 @@ Quattro manici di scopa discesero dal cielo, tre Auror con luminosi scudi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se ne vada da qui!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì la professoressa McGonagall
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 
 \emph on
--- un istante prima che la cosa brulicante emettesse un altro terribile
- sibilo, e tutti gli incantesimi di protezione si spegnessero in un istante.
+– un istante prima che la cosa brulicante emettesse un altro terribile sibilo,
+ e tutti gli incantesimi di protezione si spegnessero in un istante.
  I tre Auror e la professoressa McGonagall scivolarono dai loro manici di
  scopa e caddero pesantemente al suolo della foresta, giacendo immobili.
 \end_layout
@@ -1954,34 +1962,34 @@ Harry Potter, che era rimasto incolume, pilotò silenziosamente il suo manico
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 
 \emph on
--- e poi saltò giù per porsi tra Draco e il contorno brulicante, interponendosi
+– e poi saltò giù per porsi tra Draco e il contorno brulicante, interponendosi
  come uno scudo vivente.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Corri!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry Potter, girando a metà la testa verso Draco.
  L'argentea luce lunare baluginò sul suo volto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Corri, Draco! Lo tratterrò io!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1990,11 +1998,11 @@ Corri, Draco! Lo tratterrò io!
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non puoi combattere quella cosa da solo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò a squarciagola Draco.
@@ -2006,20 +2014,20 @@ Non puoi combattere quella cosa da solo!
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Devo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter risolutamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va'!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2028,11 +2036,11 @@ Va'!
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Harry, mi -- mi dispiace, per tutto -- io
-\begin_inset Quotes frd
+Harry, mi – mi dispiace, per tutto – io
+\begin_inset Quotes crd
 \end_inset
 
  Sebbene in seguito, ripensandoci, Draco non riuscisse del tutto a ricordare
@@ -2050,7 +2058,7 @@ La figura brulicante, ora apparentemente più nera e più terribile, si alzò
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2058,7 +2066,7 @@ La figura brulicante, ora apparentemente più nera e più terribile, si alzò
 Va'
 \noun default
 !
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Harry.
@@ -2077,6 +2085,10 @@ Draco si girò e scappò via a gambe levate nella foresta, con i rami che
 duramente
 \noun default
 , e svenì.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -2109,11 +2121,11 @@ Harry mantenne una presa ferma sulla propria bacchetta, con una Sfera Prismatica
  che gli risplendeva attorno.
  Guardò direttamente la brulicante e sfocata forma di fronte a lui, e disse,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa diavolo sta facendo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2122,9 +2134,9 @@ Cosa diavolo sta facendo?
 \begin_layout Standard
 Le sfocature brulicanti si sciolsero, si riformarono, e si rilassarono nuovament
 e in una forma incappucciata.
- Qualunque occultamento fosse stato in atto -- un congegno piuttosto che
+ Qualunque occultamento fosse stato in atto – un congegno piuttosto che
  un Incantesimo, ipotizzò Harry, dato che la magia era stata in grado di
- influenzarlo -- aveva impedito alla sua mente di riconoscere la forma o
+ influenzarlo – aveva impedito alla sua mente di riconoscere la forma o
  persino che la forma era umana.
  Ma non aveva impedito a Harry di riconoscere l'acuta sensazione di sventura.
 \end_layout
@@ -2135,22 +2147,22 @@ Il professor Quirrell era in piedi con del sangue argenteo su tutto il davanti
  cadute di tre Auror, Tracey Davis, Draco Malfoy, e della professoressa
  McGonagall.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avevo sinceramente pensato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , mormorò il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 di aver bloccato quello specchio senza far scattare un allarme.
  Che ci facevano due Serpeverde del primo anno da soli nella Foresta Proibita?
- Il signor Malfoy ha più buon senso di questo\SpecialChar \ldots{}
+ Il signor Malfoy ha più buon senso di questo\SpecialChar ldots
  Che fiasco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2169,7 +2181,7 @@ vedere
  la successione di sferzate di colore che avevano fatto a pezzi gli scudi
  come fossero carta velina.
  Faceva del duello che il professor Quirrell aveva combattuto contro l'Auror
- ad Azkaban una specie di parodia, un gioco da bambini -- sebbene il professor
+ ad Azkaban una specie di parodia, un gioco da bambini – sebbene il professor
  Quirrell avesse affermato, allora, che se avesse combattuto sul serio l'Auror
  sarebbe stato morto dopo pochi secondi; e Harry sapeva ora che anche quello
  era vero.
@@ -2180,21 +2192,21 @@ Quanto in alto saliva la scala del potere?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Desumo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, riuscendo a mantenere salda la sua voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che il suo mangiare unicorni abbia qualcosa a che fare con il motivo per
  cui lei non sarà licenziato dalla sua posizione di Professore di Difesa.
  Suppongo che non le interessi spiegarlo molto dettagliatamente, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2205,22 +2217,22 @@ Il professor Quirrell lo guardò.
  La quasi tangibile sensazione di potere nell'aria sembrò diminuire, ritirandosi
  all'interno del Professore di Difesa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi spiegherò senz'altro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho bisogno di lanciare qualche Incantesimo di Memoria, prima, e poi potremo
  andarcene a discuterne, poiché non sarebbe saggio per me restare.
  Lei ritornerà a questo istante in seguito, come so
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2238,11 +2250,11 @@ Con un atto di volontà, Harry fu in grado di vedere attraverso il Mantello
 \begin_layout Standard
 Allora la voce di Harry disse, suonando strana alle orecchie dell'Harry
  del presente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha una spiegazione sorprendentemente buona
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2267,11 +2279,11 @@ status open
 
 \begin_layout Plain Layout
 Era: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 gli Incantesimi di Memoria
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2280,8 +2292,8 @@ gli Incantesimi di Memoria
 
 \end_inset
 
-, in quelle ultime due settimane -- anche se non avrebbe potuto aiutare
- a lanciare gli incantesimi, a meno che non fosse stato disposto a sfinirsi
+, in quelle ultime due settimane – anche se non avrebbe potuto aiutare a
+ lanciare gli incantesimi, a meno che non fosse stato disposto a sfinirsi
  quasi completamente, e per qualche ragione avessero voluto che un Auror
  perdesse ogni singolo ricordo della sua vita che includesse il colore blu.
  Ma Harry aveva qualche idea, ora, della concentrazione che il di gran lunga
@@ -2312,21 +2324,21 @@ Con un gesto, il corpo stordito di Draco fu sollevato e mandato poco lontano
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Devo abbandonare questo luogo, ora, signor Potter.
  Venga con me, e resti qui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2346,11 +2358,11 @@ Camminarono in silenzio attraverso il bosco per un po', prima che Harry
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ci troveranno, né udiranno il nostro discorso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
@@ -2359,31 +2371,31 @@ Non ci troveranno, né udiranno il nostro discorso
  L'uomo si sedette su di un troncone d'albero, uno dove la luce della luna
  quasi piena cadeva interamente su di lui.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovrei innanzitutto dire che quando parlerà con gli Auror, in futuro, dovrà
  dir loro che ha spaventato e fatto fuggire la brulicante oscurità, proprio
  come col Dissennatore.
  È ciò che il signor Malfoy ricorderà di aver visto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Il professor Quirrell emise un piccolo sospiro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrà generare qualche allarme, se concludessero che qualche orrore simile
  ai Dissennatori, e forte abbastanza da infrangere gli scudi degli Auror,
  è libero per la Foresta Proibita.
  Ma non ho potuto pensare a cos'altro fare.
- Se la foresta fosse meglio vigilata dopo di questo -- ma con un po' di
- fortuna ho già consumato ciò di cui ho bisogno.
+ Se la foresta fosse meglio vigilata dopo di questo – ma con un po' di fortuna
+ ho già consumato ciò di cui ho bisogno.
  Le dispiacerebbe dirmi come è arrivato così velocemente? Come sapeva che
  il signor Malfoy era in pericolo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2407,88 +2419,88 @@ Dopo che il capitano Brodski aveva saputo che Draco Malfoy era nella Foresta
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace di non poterlo dire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry pacatamente.
  Il professor Quirrell era ancora uno dei principali sospettati, ed era
  un bene per lui che non conoscesse i dettagli.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora, perché sta mangiando gli unicorni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Per quanto riguarda quello\SpecialChar \ldots{}
+Per quanto riguarda quello\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  L'uomo esitò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stavo bevendo il sangue degli unicorni, non li stavo mangiando.
- La carne mancante, i segni delle lacerazioni sul corpo -- quelli dovevano
+ La carne mancante, i segni delle lacerazioni sul corpo – quelli dovevano
  oscurare il caso, farlo sembrare un qualche altro predatore.
  L'uso del sangue di unicorno è troppo ben noto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo conosco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So che non lo sa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse bruscamente il Professore di Difesa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 O non mi importunerebbe chiedendomelo.
  Il potere del sangue di unicorno è di preservare la tua vita per un po',
  anche se sei proprio sul punto di morire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2538,39 +2550,39 @@ Ovviamente era questo il motivo per cui il professor Quirrell non sarebbe
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- morto.
+– morto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce un po' malferma.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Deve esserci un modo per
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono stupido né particolarmente desideroso di morire.
@@ -2580,18 +2592,18 @@ Non sono stupido né particolarmente desideroso di morire.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  La testa dell'oscura figura illuminata da luce lunare si girò dall'altra
  parte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Penso di non volerne sentire parlare, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2606,44 +2618,44 @@ Il respiro di Harry si inceppò.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E perché
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  il respiro di Harry si inceppò di nuovo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché il sangue di unicorno non è un componente consueto dei pacchetti
  di guarigione, allora? Per tenere in vita qualcuno, anche se è proprio
  sul punto di morire perché le sono state mangiate via le gambe?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché ci sono effetti collaterali permanenti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente il professor Quirrell.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Effetti collaterali? 
@@ -2658,21 +2670,21 @@ morte?
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Harry si alzò sull'ultima parola finché non si trovò a strillare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non tutti la pensano come noi, signor Potter.
  Sebbene, per correttezza, il sangue deve provenire da un unicorno vivo
  e l'unicorno deve morire durante la bevuta.
  Mi troverei qui, altrimenti?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2681,24 +2693,24 @@ Non tutti la pensano come noi, signor Potter.
 \begin_layout Standard
 Harry si girò, fissò gli alberi attorno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tenete una mandria di unicorni al St.
  Mungos.
  Mandate là i pazienti via Metropolvere, o usate dei passaporta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, così funzionerebbe.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2714,7 +2726,7 @@ qualcosa
 \emph default
  che non era in grado di definire e infine Harry puntò la bacchetta contro
  un albero e gridò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2722,7 +2734,7 @@ qualcosa
 Diffindo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2733,7 +2745,7 @@ Vi fu l'acuto suono di una lacerazione, e un taglio apparve sul legno.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2741,7 +2753,7 @@ Vi fu l'acuto suono di una lacerazione, e un taglio apparve sul legno.
 Diffindo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2757,7 +2769,7 @@ Un altro taglio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2765,7 +2777,7 @@ Un altro taglio.
 Diffindo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Stavolta Harry aveva puntato contro un ramo, ed esso era precipitato a
@@ -2777,11 +2789,11 @@ Non sembravano esserci lacrime dentro di lui, solo una pressione senza sfogo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lascio la cosa a lei
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sommessamente il professor Quirrell.
