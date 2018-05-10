@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{47}
@@ -62,16 +64,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Garamond Premier Pro
-\font_typewriter EB Garamond Initials
+\font_roman "default" "Minion Pro"
+\font_sans "default" "Butler"
+\font_typewriter "default" "DejaVu Sans Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,16 +86,26 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -106,7 +120,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -131,8 +148,9 @@ name "chap:48Priorità-utilitaristiche"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Era sabato, il primo mattino di febbraio, e alla tavolata di Corvonero,
- un ragazzo con un piatto da colazione ammassato di vegetali stava nervosamente
+ un ragazzo con un piatto da colazione pieno zeppo di verdure stava nervosamente
  ispezionando le proprie porzioni in cerca della minima traccia di carne.
 \end_layout
 
@@ -142,13 +160,13 @@ Era sabato, il primo mattino di febbraio, e alla tavolata di Corvonero,
 Poteva
 \emph default
  essere stata una reazione esagerata.
- Dopo aver superato lo sconvolgimento puro, il buon senso di Harry si era
- svegliato e aveva ipotizzato che il 
-\begin_inset Quotes fld
+ Dopo aver superato il trauma, il buon senso di Harry si era svegliato e
+ aveva ipotizzato che il 
+\begin_inset Quotes cld
 \end_inset
 
 Serpentese
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  probabilmente fosse solo un'interfaccia utente linguistica per controllare
@@ -168,33 +186,25 @@ qualcuno
  Le creature col cervello più piccolo di cui Harry avesse mai sentito dire
  che avessero la minima abilità linguistica erano i pappagalli cenerini
  africani a cui Irene Pepperberg aveva dato lezioni.
- E quello era un proto-linguaggio non strutturato, in animali che giocavano
+ E quello era un proto-linguaggio non strutturato, in animali che seguivano
  complesse strategie di adulterio e avevano bisogno di modellare altri pappagall
 i.
  Mentre, stando a quello che Draco era stato in grado di ricordare, i serpenti
  parlavano ai Rettilofoni con quello che sembrava un normale linguaggio
- umano -- ovvero, una grammatica sintattica completamente ricorsiva.
+ umano – ovvero, una grammatica sintattica ricorsiva completa.
  C'era voluto del 
 \emph on
 tempo
 \emph default
- prima che gli ominidi evolvessero, con grossi cervelli e forti pressioni
+ prima che gli ominidi la evolvessero, con grossi cervelli e forti pressioni
  di selezione sociale.
- I serpenti non avevano affatto una società, che Harry avesse mai sentito.
+ I serpenti non avevano una società, che Harry sapesse.
  E con migliaia di migliaia di diverse specie di serpenti in tutto il mondo,
  com'era possibile che usassero tutti la 
 \emph on
 stessa
 \emph default
- versione del loro presunto linguaggio, il 
-\begin_inset Quotes fld
-\end_inset
-
-Serpentese
-\begin_inset Quotes frd
-\end_inset
-
-?
+ versione del loro presunto linguaggio, il ``Serpentese''?
 \end_layout
 
 \begin_layout Standard
@@ -204,11 +214,11 @@ Ovviamente quello era tutto del semplice buon senso, in cui Harry stava
 
 \begin_layout Standard
 Ma Harry era sicuro di aver sentito dei serpenti sibilare in televisione
- qualche volta -- dopo tutto, 
+ qualche volta – dopo tutto, 
 \emph on
 da qualche parte
 \emph default
- aveva scoperto che suono avesse -- e 
+ aveva scoperto che suono avesse – e 
 \emph on
 quello
 \emph default
@@ -225,7 +235,8 @@ rendere i serpenti permanentemente intelligenti
 \emph default
  parlando con loro.
  Nello scenario peggiore questo avrebbe reso il serpente auto-cosciente,
- come quello che Harry aveva fatto accidentalmente al Cappello Smistatore.
+ in maniera simile a ciò che Harry aveva fatto accidentalmente col Cappello
+ Smistatore.
 \end_layout
 
 \begin_layout Standard
@@ -233,17 +244,17 @@ E quando Harry aveva proposto
 \emph on
 quella
 \emph default
- ipotesi, Draco aveva sostenuto di poter ricordare una storia -- Harry aveva
+ ipotesi, Draco aveva sostenuto di poter ricordare una storia – Harry aveva
  sperato in Cthulhu che 
 \emph on
-questa
+quella
 \emph default
  storia fosse solo una favola, ne aveva il tono, ma 
 \emph on
 c'era
 \emph default
- una storia -- a proposito di Salazar Serpeverde che avrebbe mandato in
- missione una coraggiosa e giovane vipera con l'obiettivo di 
+ una storia – in cui Salazar Serpeverde avrebbe mandato in missione una
+ giovane vipera coraggiosa con l'obiettivo di 
 \emph on
 raccogliere informazioni da altri serpenti
 \emph default
@@ -269,11 +280,11 @@ Allora…
 
 \begin_layout Standard
 Harry non capiva neppure perché la sua mente stesse pensando 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 allora… allora…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  quando sapeva perfettamente bene come avrebbe funzionato la progressione
@@ -328,25 +339,26 @@ Nati babbani
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Terry di fianco a lui, con un tono che suonava come se avesse paura
  che in seguito si sarebbe pentito di averlo chiesto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché stai fissando la tua forchetta in quel modo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -376,6 +388,11 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
@@ -400,11 +417,11 @@ loro
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry? Perché stai fissando la tua forchetta in quel modo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -426,22 +443,23 @@ Harry? Perché stai fissando la tua forchetta in quel modo?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Inizio a pensare che la magia dovrebbe essere resa illegale.
  Ad ogni modo, hai mai sentito storie di maghi che potevano parlare con
  le piante?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -454,7 +472,7 @@ Terry non aveva mai sentito nulla di simile.
 \end_layout
 
 \begin_layout Standard
-Né l'aveva udito nessuno dei Corvonero del settimo anno cui Harry l'aveva
+Né l'aveva sentito nessuno dei Corvonero del settimo anno cui Harry l'aveva
  chiesto.
 \end_layout
 
@@ -492,7 +510,7 @@ Non sono molto sicuro che sia una logica utilitaristica valida, quella
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -526,7 +544,7 @@ non
 \emph on
  perdere tempo con vaghe supposizioni su cosa potrebbe essere intelligente.
  Non è che gli elfi domestici non abbiano già preparato il cibo, a prescindere
- da quello che metti sul tuo piatto.
+ da quello che metti nel piatto.
 \end_layout
 
 \begin_layout Standard
@@ -535,7 +553,7 @@ Per un momento Harry la prese in considerazione.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -546,13 +564,13 @@ Ottimo!
  disse Serpeverde.
  
 \emph on
-Sono contento che ora tu comprenda che la cosa più morale da fare è quella
- di sacrificare le vite di esseri senzienti per il tuo comodo, per alimentare
- i tuoi terribili appetiti, per il piacere malato di lacerarli con i denti
+Sono contento che comprendi che la cosa più morale da fare è quella di sacrifica
+re le vite di esseri senzienti per il tuo comodo, per alimentare i tuoi
+ terribili appetiti, per il piacere malato di lacerarli con i denti
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -578,24 +596,24 @@ Anche tu un giorno abbraccerai la dottrina secondo cui… il fine giustifica
  le carni.
  
 \emph default
-A questo fece seguito una risatina mentale.
+Seguì una risatina mentale.
 \end_layout
 
 \begin_layout Standard
 Sin da quando Harry aveva cominciato a preoccuparsi che anche le piante
- potessero essere senzienti, i suoi componenti non-Corvonero aveva avuto
- difficoltà a prendere sul serio la sua cautela morale.
+ potessero essere senzienti, i suoi componenti non-Corvonero avevano avuto
+ difficoltà a prendere sul serio la sua circospezione morale.
  Tassofrasso stava gridando 
 \emph on
 Cannibalismo!
 \emph default
  ogni volta che Harry cercava di pensare a qualsiasi tipo di alimento, e
- Grifondoro lo visualizzava urlante mentre lo mangiava, anche se era, diciamo,
+ Grifondoro lo immaginava urlante mentre lo mangiava, anche se era, diciamo,
  un panino
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -612,24 +630,24 @@ Aiiieeee non mangiarmi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-Ignora le urla, mangia comunque! È un luogo sicuro per raggiungere un compromess
-o con la tua etica in nome di obiettivi più importanti, tutti gli 
+Ignora le urla, mangia comunque! È un posto sicuro per compromettere la
+ tua etica al servizio di obiettivi più importanti, tutti gli 
 \emph default
 altri
 \emph on
  pensano che sia normale mangiare panini quindi non puoi usare la tua solita
- razionalizzazione sulla bassa probabilità di un enorme svantaggio se dovessi
- essere scoperto
+ razionalizzazione riguardo una bassa probabilità di un enorme svantaggio
+ se dovessi essere scoperto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -655,7 +673,7 @@ Mi sta bene
 , disse Serpeverde.
  
 \emph on
-Anche voi altri siete d'accordo con questo?
+Siete d'accordo anche voi?
 \emph default
  (Cenni di assenso mentali interni.) 
 \emph on
@@ -675,13 +693,13 @@ Non fino al momento in cui avrò fatto altre ricerche su cosa è senziente
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-Mangiati gli studenti
+Mangia gli studenti
 \emph default
 , disse Tassofrasso.
  
@@ -713,10 +731,11 @@ Harry stava iniziando a chiedersi se il Dissennatore avesse in qualche modo
  danneggiato le loro personalità immaginarie.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -725,7 +744,7 @@ Harry stava iniziando a chiedersi se il Dissennatore avesse in qualche modo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -733,7 +752,7 @@ Harry stava iniziando a chiedersi se il Dissennatore avesse in qualche modo
 Onestamente
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
@@ -744,19 +763,19 @@ Onestamente
  quando poi Harry aveva introdotto il tema del giorno era sembrata un po'
  perplessa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sai qual è il tuo problema, Harry? Non hai il senso delle priorità.
- Un'idea entra nella tua testa e subito ti lanci al suo inseguimento
-\begin_inset Quotes frd
+ Un'idea entra nella tua testa e subito ti lanci al suo inseguimento.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io ho un 
@@ -764,33 +783,33 @@ Io ho un
 eccezionale
 \emph default
  senso delle priorità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Allungò la mano e afferrò 
 \emph on
-Scaltrezza delle verdure
+Astuzia vegetale
 \emph default
  di Casey McNamara, e cominciò a sfogliare le prime pagine, cercando il
  sommario.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ecco perché voglio scoprire se le piante possono parlare 
 \emph on
 prima
 \emph default
- di mangiare le mie carote
-\begin_inset Quotes frd
+ di mangiare le mie carote.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non credi che forse noi due abbiamo cose più 
@@ -798,7 +817,7 @@ Non credi che forse noi due abbiamo cose più
 importanti
 \emph default
  di cui preoccuparci?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -811,15 +830,15 @@ Parli proprio come Draco
 \emph default
 , pensò Harry, ma ovviamente non lo disse ad alta voce.
  Ad alta voce disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa 
 \emph on
 può essere
 \emph default
- più importante che scoprire che le piante sono senzienti?
-\begin_inset Quotes frd
+ più importante che scoprire se le piante sono senzienti?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -834,27 +853,27 @@ Ci fu un silenzio gravido al suo fianco, mentre gli occhi di Harry scorsero
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sono giorni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione Granger, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 in cui davvero, sul serio, non ho assolutamente alcuna idea di cosa frulli
- in quella testa che ti ritrovi
-\begin_inset Quotes frd
+ in quella testa che ti ritrovi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ascolta, è una questione di moltiplicazioni, ok? Ci sono 
@@ -880,15 +899,15 @@ sono
  dollari.
  Nessuna differenza, in altre parole.
  Si chiama insensibilità alla scala.
- Il tuo cervello immagina un singolo uccello che lotta in uno sversamento
- di petrolio, e quell'immagine crea una certa quantità di emozioni che determina
- la tua disponibilità a pagare.
- Ma nessuno è in grado di visualizzare anche appena duemila esemplari di
- qualcosa, quindi la 
+ Il tuo cervello immagina un singolo uccello che lotta in una pozza di petrolio,
+ e quell'immagine crea una certa quantità di emozioni che determina la tua
+ disponibilità a pagare.
+ Ma nessuno è in grado di visualizzare anche solo duemila esemplari di qualcosa,
+ quindi la 
 \emph on
 quantità
 \emph default
- semplicemente è buttata dritta fuori dalla finestra.
+ finisce dritta fuori dalla finestra.
  Ora tenta di 
 \emph on
 correggere
@@ -909,37 +928,37 @@ qualsiasi
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ron è venuto da me a colazione ieri mattina
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
  Ora la sua voce sembrava un po' sommessa, un po' triste, forse persino
  un po' spaventata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha detto che è stato terribilmente scioccato di vedermi baciare te.
  Che ciò che hai detto mentre eri Dissennato mi avrebbe dovuto dimostrare
  quanta malvagità tu nascondessi dentro di te.
  E che se avevo intenzione di essere una seguace di un Mago Oscuro, allora
- non era sicuro di voler restare ancora nel mio esercito
-\begin_inset Quotes frd
+ non era sicuro di voler restare ancora nel mio esercito.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -953,38 +972,38 @@ Le mani di Harry avevano smesso di girare le pagine.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ron è il più gigantesco cretino del mondo
-\begin_inset Quotes frd
+Ron è il più grande cretino del mondo
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo pubblicheranno prossimamente sul giornale, perché non è una notizia.
  Quindi, dopo che lo hai licenziato, quante delle sue braccia e delle sue
  gambe gli hai rotto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho cercato di dirgli che non era così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Hermione continuò con la stessa voce sommessa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho cercato di dirgli che 
@@ -992,27 +1011,27 @@ Ho cercato di dirgli che
 tu
 \emph default
  non eri così, e che non era così tra noi due, ma sembrava solo renderlo
- ancora più… più come era
-\begin_inset Quotes frd
+ ancora più… più come era.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Era sorpreso di non sentirsi più arrabbiato con il capitano Weasley, ma
- la sua preoccupazione per Hermione sembrava avere la precedenza anche quello,
- per il momento.
+ la sua preoccupazione per Hermione sembrava avere la precedenza anche su
+ quello, per il momento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quanto più cerchi di giustificarti con gente simile, tanto più riconosci
@@ -1023,13 +1042,12 @@ diritto
  di metterti in discussione.
  Dimostra di pensare di dover rendere conto delle tue azioni a qualcuno,
  e una volta concesso questo tipo di potere su di te, se ne approfitterà
- sempre di più
-\begin_inset Quotes frd
+ sempre di più.
+\begin_inset Quotes crd
 \end_inset
 
-.
- Questa era una delle lezioni di Draco Malfoy che Harry aveva pensato essere
- realmente piuttosto intelligenti: le persone che 
+ Era una delle lezioni di Draco Malfoy che Harry aveva pensato essere realmente
+ piuttosto intelligenti: le persone che 
 \emph on
 cercavano
 \emph default
@@ -1039,7 +1057,7 @@ cercavano
  le menti delle persone non si sarebbero preoccupate di tenere traccia della
  maggior parte delle tue infrazioni.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ecco perché quando Ron è venuto da 
@@ -1047,9 +1065,9 @@ Ecco perché quando Ron è venuto da
 me
 \emph default
  mentre ero seduto al tavolo di Corvonero, e mi ha detto di stare lontano
- da te, ho steso la mia mano al di sopra del pavimento e ho detto, `Vedi
- quanto in alto sto tenendo la mia mano? La tua intelligenza deve essere
- almeno alta così per parlare con me'.
+ da te, ho steso la mia mano al di sopra del pavimento e ho detto, ``Vedi
+ quanto in alto tengo la mano? La tua intelligenza dev'essere alta almeno
+ così per parlare con me''.
  Poi mi ha accusato di, virgolette, risucchiarti nell'oscurità, chiuse virgolett
 e, così ho stretto le labbra e ho fatto 
 \emph on
@@ -1057,23 +1075,23 @@ sluuuuurp
 \emph default
 , dopo di che la sua bocca continuava ancora a fare quei rumori simili a
  parole così ho messo su un Incantesimo Quietus.
- Non credo che tenterà più di farmi lezione
-\begin_inset Quotes frd
+ Non credo che tenterà più di darmi lezioni.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisco perché l'hai fatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, la sua voce contratta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 anche io 
@@ -1086,7 +1104,7 @@ volevo
 me
 \emph default
 , Harry!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1095,36 +1113,36 @@ me
 \begin_layout Standard
 Harry alzò nuovamente lo sguardo da 
 \emph on
-Scaltrezza delle verdure
+Astuzia vegetale
 \emph default
-, non sarebbe riuscito a leggere niente di questo passo; e vide che Hermione
+, di questo passo non sarebbe riuscito a leggere niente; e vide che Hermione
  stava ancora leggendo il libro qualunque che aveva tra le mani, senza guardare
  lui.
  Le mani di lei girarono un'altra pagina mentre egli osservava.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Penso che tu abbia preso l'approccio sbagliato, non cercando affatto di
  difenderti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lo penso davvero.
  Tu sei chi sei.
  Sei amica con chiunque tu scelga.
- Di' a chiunque ti metta in discussione di andare a quel paese
-\begin_inset Quotes frd
+ Di' a chiunque ti metta in discussione di andare a quel paese.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1132,7 +1150,7 @@ Hermione si limitò a scuotere la testa, e girò un'altra pagina.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Opzione numero due.
@@ -1145,24 +1163,24 @@ loro due
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è solo Ron
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione quasi bisbigliando.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tante persone lo dicono, Harry.
@@ -1174,15 +1192,15 @@ o
 te
 \emph default
  nell'oscurità, e ora la gente mi mette in guardia proprio come io cerco
- di mettere in guardia te
-\begin_inset Quotes frd
+ di mettere in guardia te.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, 
@@ -1191,49 +1209,49 @@ già
 \emph default
 .
  Non ti rassicura un po' a proposito di me e del professor Quirrell?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In una parola
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-no
-\begin_inset Quotes frd
+no.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Ci fu un silenzio che durò abbastanza a lungo da permettere a Hermione di
  girare un'altra pagina, e poi la sua voce, con un vero bisbiglio questa
  volta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E, e Padma sta andando in giro a dire a tutti che, che siccome io non posso
  lanciare l'Incantesimo P-Patronus, sto facendo solo f-finta di essere g-gentile
 …
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Padma stessa non ci ha neppure 
@@ -1241,12 +1259,12 @@ Padma stessa non ci ha neppure
 provato!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry indignato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se tu 
@@ -1262,7 +1280,7 @@ provato
 stupida?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1273,7 +1291,7 @@ Hermione sorrise un po', e sbatté le palpebre diverse volte.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ehi, 
@@ -1296,7 +1314,7 @@ Qui
 così
 \emph default
  brutta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1307,7 +1325,7 @@ La giovane ragazza annuì, il suo volto contratto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ascolta, Hermione… se ti preoccupi così tanto di quello che le altre persone
@@ -1318,23 +1336,23 @@ già
 \emph default
  condannando ad essere infelice per sempre.
  Nessuno mai pensa a noi nello stesso modo in cui noi pensiamo a noi stessi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non so come spiegartelo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione in una voce bassa e triste.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono sicura che sia qualcosa che tu possa mai comprendere, Harry.
@@ -1343,23 +1361,23 @@ Non sono sicura che sia qualcosa che tu possa mai comprendere, Harry.
 io
 \emph default
  pensassi che tu sei malvagio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- Harry lo visualizzò.
+ Harry se lo immaginò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, quello mi 
@@ -1384,59 +1402,59 @@ significherebbe
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu puoi vivere in quel modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò Hermione Granger.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Io no
-\begin_inset Quotes frd
+Io no.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La ragazza aveva proseguito per altre tre pagine in silenzio, e Harry aveva
- riportato gli occhi sul proprio libro e stava cercando di recuperare la
+ riportato lo sguardo sul proprio libro e stava cercando di recuperare la
  propria concentrazione, quando Hermione disse infine, a voce bassa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei davvero sicuro che io non debba sapere come lanciare l'Incantesimo Patronus?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry dovette mandar giù un improvviso nodo alla gola.
  Improvvisamente si vide 
 \emph on
-ignaro
+ignornante
 \emph default
  del perché l'Incantesimo Patronus non avesse funzionato per lui, 
 \emph on
@@ -1445,7 +1463,7 @@ incapace
  di mostrarlo a Draco, come se semplicemente gli fosse stato detto che c'era
  una ragione, e nulla di più.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hermione, il tuo Patronus splenderebbe della stessa luce ma non sarebbe
@@ -1463,21 +1481,20 @@ dimostrarlo
  possano vedere solo la luce, e… e la cosa più importante di ogni segreto
  è la conoscenza che il segreto esiste, potresti solo mostrarlo a uno o
  due amici se li costringessi a giurare di mantenere il segreto…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Harry si spense impotente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Resisterò
-\begin_inset Quotes frd
+Resisterò.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La sua voce era ancora sommessa.
 \end_layout
 
@@ -1487,7 +1504,7 @@ a.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io, io non dovrei, 
@@ -1499,41 +1516,41 @@ davvero
 pericoloso
 \emph default
 , Hermione, se quel segreto fosse divulgato potrebbe causare molti danni!
- Non hai sentito il proverbio, tre possono mantenere un segreto se due sono
- morti? Che dirlo solo ai tuoi amici più intimi è come dirlo a tutti quanti,
- perché non ti stai fidando solo di loro, ti stai fidando di chiunque di
- cui essi si fidano? È troppo importante, troppo pericoloso, non è il genere
- di decisione che dovrebbe essere presa solo per riparare la reputazione
- di qualcuno a scuola!
-\begin_inset Quotes frd
+ Non hai sentito il proverbio, tre perone possono mantenere un segreto se
+ due sono morte? Che dirlo solo ai tuoi amici più intimi è come dirlo a
+ tutti quanti, perché non ti stai fidando solo di loro, ti stai fidando
+ di chiunque di cui essi si fidano? È troppo importante, troppo pericoloso,
+ non è il genere di decisione che dovrebbe essere presa solo per riparare
+ la reputazione di qualcuno a scuola!
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
  Chiuse il libro e lo rimise sullo scaffale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non riesco a concentrarmi in questo momento, Harry, mi dispiace
-\begin_inset Quotes frd
+Non riesco a concentrarmi in questo momento, Harry, mi dispiace.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se c'è 
@@ -1544,19 +1561,19 @@ qualunque
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sii più gentile con tutti.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
