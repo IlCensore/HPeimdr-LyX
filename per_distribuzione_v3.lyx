@@ -228,7 +228,9 @@
 \usepackage{xfrac}
 \usepackage[super]{nth}
 %\newfontface\lining[Numbers=Lining]{Minion Pro}
+\newfontfamily\serpentese{Alegreya}
 \end_preamble
+\options openright
 \use_default_options true
 \begin_modules
 initials
@@ -1002,24 +1004,6 @@ pagestyle{plain}
 \end_layout
 
 \begin_layout Standard
-
-\noun on
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 \align center
 
@@ -1464,6 +1448,22 @@ status open
 \backslash
 endgroup
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
