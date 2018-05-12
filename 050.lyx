@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{49}
@@ -62,16 +64,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Garamond Premier Pro
-\font_typewriter EB Garamond Initials
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Esphimere"
+\font_typewriter "default" "Droid Sans Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -82,16 +86,26 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -106,7 +120,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -131,17 +148,17 @@ name "chap:50Autocentratura"
 \end_layout
 
 \begin_layout Standard
-Padma Patil aveva terminato di cenare un po' tardi, cominciando a muoversi
- verso le sette e trenta, e stava ora uscendo rapidamente dalla Sala Grande
- per tornare al dormitorio Corvonero e alle stanze da studio.
+\noindent
+Padma Patil aveva terminato di cenare un po' tardi, arrivando verso le sette
+ e trenta, e stava ora uscendo rapidamente dalla Sala Grande per tornare
+ al dormitorio Corvonero e alle stanze da studio.
  Spettegolare era divertente e distruggere la reputazione di Granger era
  ancora più divertente, ma poteva distrarre dall'impegno scolastico.
- Aveva messo da parte un saggio da sei pollici sul legno 
+ Aveva rimandato un saggio di tre pagine sul legno 
 \emph on
 lomillialor
 \emph default
- da consegnare il giorno successivo a lezione di Erbologia, e doveva terminarlo
- quella notte.
+ da consegnare l'indomani per Erbologia, e doveva terminarlo quella notte.
 \end_layout
 
 \begin_layout Standard
@@ -150,7 +167,7 @@ Fu mentre attraversava un lungo, contorto e stretto corridoio di pietra
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -158,7 +175,7 @@ Fu mentre attraversava un lungo, contorto e stretto corridoio di pietra
 Padma Patil…
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -175,7 +192,7 @@ lei
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -188,7 +205,7 @@ In un istante Padma ruotò nuovamente su sé stessa e fronteggiò la direzione
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -196,12 +213,12 @@ Non c'era nessuno neppure lì.
 \end_layout
 
 \begin_layout Standard
-Il sospiro bisbigliato giunse nuovamente, sommesso e pericoloso con una
+Giunse nuovamente quel sospiro bisbigliato, sommesso e pericoloso con una
  leggera tonalità sibilante.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -209,18 +226,18 @@ Il sospiro bisbigliato giunse nuovamente, sommesso e pericoloso con una
 Padma Patil, ragazza Serpeverde…
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry Potter, ragazzo Serpeverde
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ripose ad alta voce.
@@ -231,7 +248,7 @@ Aveva combattuto Potter e la sua Chaos Legion una dozzina di volte, e
 \emph on
 sapeva
 \emph default
- che questo era Harry Potter che combinava qualcosa…
+ che quello era Harry Potter all'opera…
 \end_layout
 
 \begin_layout Standard
@@ -248,7 +265,7 @@ sapeva
 \begin_layout Standard
 Ci fu una risatina sussurrata, ora proveniente di fianco a lei, ed ella
  ruotò e puntò la bacchetta in direzione del sussurro e gridò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -256,7 +273,7 @@ Ci fu una risatina sussurrata, ora proveniente di fianco a lei, ed ella
 Luminos!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -291,26 +308,26 @@ La voce bisbigliante rise nuovamente, ora dall'altro lato.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry Potter è sull'orlo del precipizio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la voce, sembrando molto vicina al suo orecchio, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sta barcollando, ma tu, tu stai già cadendo, ragazza Serpeverde…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il cappello non ha mai detto Serpeverde ad alta voce per il 
@@ -318,7 +335,7 @@ Il cappello non ha mai detto Serpeverde ad alta voce per il
 mio
 \emph default
  nome, Potter!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Si appoggiò con la schiena al muro, in modo da non doversi guardare le
@@ -328,94 +345,94 @@ mio
 \begin_layout Standard
 Di nuovo quella risata sommessa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nell'ultima mezz'ora Harry Potter è stato nella stanza comune di Corvonero,
  aiutando Kevin Entwhistle e Michael Corner a ripassare le ricette di Pozioni.
  Ma ciò non conta.
  Sono qui per offrirti un avvertimento, Padma Patil, e se sceglierai di
- ignorarlo, questo è affar tuo
-\begin_inset Quotes frd
+ ignorarlo, questo è affar tuo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse freddamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Vai avanti e avvisami, Potter, non ho paura di te
-\begin_inset Quotes frd
+Dammi il tuo avvertimento, Potter, non ho paura di te.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Serpeverde è stata una grande Casa, una volta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il sussurro; sembrava più triste, ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una volta Serpeverde è stata una grande Casa che saresti stata orgogliosa
  di scegliere, Padma Patil.
  Ma qualcosa è andato storto, qualcosa è marcito; sai tu cos'è andato in
  malora in Casa Serpeverde, Padma Patil?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, e non mi interessa!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma dovrebbe interessarti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il sussurro, che ora sembrava provenire proprio da dietro la sua
  testa, che era quasi premuta contro il muro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Poiché tu sei sempre quella ragazza alla quale il Cappello Smistatore ha
  offerto quella scelta.
- Pensi forse che il solo scegliere Corvonero significa che non sei Pansy
- Parkinson, e che non diventerai mai Pansy Parkinson, non importa se ti
- comporti altrimenti?
-\begin_inset Quotes frd
+ Pensi forse che scegliere Corvonero significa che non sei Pansy Parkinson,
+ e che non diventerai mai Pansy Parkinson, indipendentemente da come ti
+ comporti?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -431,7 +448,7 @@ quelle
  storie su Harry Potter, che era un Legilimens segreto.
  Ma rimase comunque dritta, e mise tutto il mordente che poté nella sua
  voce quando disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I Serpeverde sono divenuti Oscuri per ottenere il potere, proprio come hai
@@ -444,31 +461,31 @@ tu
 \emph on
 io
 \emph default
- non lo farò, mai
-\begin_inset Quotes frd
+ non lo farò, mai.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma diffonderai voci maliziose su di una ragazza innocente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 anche se non ti aiuterà a raggiungere nessuna delle tue ambizioni, e senza
- considerare che ella ha alleati potenti che potrebbero offendersi.
+ considerare che lei ha alleati potenti che potrebbero offendersi.
  Questo non è il Serpeverde orgoglioso dei giorni passati, Padma Patil,
  questo non è l'orgoglio di Salazar, questo è Serpeverde marcio, Padma Parkinson
  non Padma Malfoy…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -476,20 +493,20 @@ anche se non ti aiuterà a raggiungere nessuna delle tue ambizioni, e senza
 
 \begin_layout Standard
 Stava diventando più atterrita di quanto non fosse mai stata in tutta la
- sua vita, e le stava iniziando a venire in mente la possibilità che questo
+ sua vita, e le stava iniziando a venire in mente la possibilità che quello
  fosse 
 \emph on
 davvero
 \emph default
  un fantasma.
  Non aveva mai sentito parlare di fantasmi che potessero nascondersi in
- questo modo, ma forse semplicemente di solito non lo facevano -- senza
- pensare che la maggior parte dei fantasmi non era così 
+ quel modo, ma forse era solo che di solito non lo facevano – senza pensare
+ che la maggior parte dei fantasmi non era così 
 \emph on
 inquietante
 \emph default
-, erano solo persone morte dopo tutto -- 
-\begin_inset Quotes fld
+, erano solo persone morte dopo tutto – 
+\begin_inset Quotes cld
 \end_inset
 
 Chi 
@@ -497,22 +514,22 @@ Chi
 sei?
 \emph default
  Il Barone Sanguinario?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quando Harry Potter fu molestato e picchiato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ordinò a tutti i suoi alleati di astenersi dalla vendetta; ricordi questo,
@@ -520,32 +537,32 @@ ordinò a tutti i suoi alleati di astenersi dalla vendetta; ricordi questo,
  sta combattendo, sa di essere in pericolo.
  Ma Hermione Granger non ha fatto una richiesta simile ai propri alleati.
  Ora Harry Potter è arrabbiato con te, Padma Patil, più arrabbiato di quanto
- sarebbe per sé stesso… ed 
+ sarebbe per sé stesso… e 
 \emph on
-egli
+lui
 \emph default
- ha alleati propri
-\begin_inset Quotes frd
+ a sua volta ha degli alleati.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Un brivido la attraversò, seppe che era stato visibile e si odiò per questo.
+Un brivido la scosse, seppe che era stato visibile e si odiò per quello.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, non aver paura
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ti farò del male.
@@ -564,26 +581,25 @@ lei
  E Harry Potter sa molto bene che se ti facesse del male o facesse in modo
  che ti venga fatto del male, per il bene di Hermione Granger, allora lei
  non gli parlerebbe più fin quando il sole non smettesse di ardere e l'ultima
- stella non si spegnesse nel cielo notturno
-\begin_inset Quotes frd
+ stella non si spegnesse nel cielo notturno.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La voce era molto triste ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È davvero una ragazza gentile, una persona che io potrei solo desiderare
  essere…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Granger non può lanciare l'Incantesimo Patronus! Se fosse davvero gentile
@@ -591,31 +607,31 @@ Granger non può lanciare l'Incantesimo Patronus! Se fosse davvero gentile
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Puoi lanciare 
 \emph on
 tu
 \emph default
- l'Incantesimo Patronus, Padma Patil? Non hai osato neppure provarci, temevi
+ l'Incantesimo Patronus, Padma Patil? Non hai neppure osato provarci, temevi
  il risultato che avresti ottenuto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è 
@@ -623,7 +639,7 @@ Non è
 vero!
 \emph default
  Non ne ho avuto il tempo, tutto qui!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -632,31 +648,30 @@ vero!
 \begin_layout Standard
 Il sussurrò continuò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma Hermione Granger ci ha provato, apertamente di fronte ai suoi amici,
  e quando la sua magia ha fallito era sorpresa e sconvolta.
  Poiché vi sono segreti nell'Incantesimo Patronus che pochi hanno mai conosciuto
-, e forse nessuno ora conosce se non io
-\begin_inset Quotes frd
+, e forse nessuno ora conosce se non io.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Una risatina sommessa e bisbigliata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sia chiaro che non è una macchia del suo spirito che impedisce alla sua
  luce di uscire.
  Hermione Granger non può lanciare l'Incantesimo Patronus per la stessa
- identica ragione per cui Godric Grifondoro, che fece sorgere queste sale,
- non poteva
-\begin_inset Quotes frd
+ identica ragione per cui Godric Grifondoro, che fece sorgere questi corridoi,
+ non poteva.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -669,37 +684,36 @@ mo di raffreddamento.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-E Harry Potter non è l'unico alleato di Hermione Granger
-\begin_inset Quotes frd
+E Harry Potter non è l'unico alleato di Hermione Granger.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Ora c'era una nota di arido divertimento in quel sussurro, le ricordò improvvis
 amente e spaventosamente il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Filius Flitwick e Minerva McGonagall sono piuttosto affezionati a lei, credo.
  Ti è venuto in mente che se quei due venissero a sapere ciò che stai facendo
- a Hermione Granger, potrebbero diventare meno affezionati a te? Potrebbero
+ a Hermione Granger, potrebbero diventare meno affettuosi con te? Potrebbero
  non intervenire apertamente, forse; ma potrebbero essere un po' più restii
  ad assegnarti punti-Casa, un po' più lenti a offrirti delle opportunità
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potter mi ha 
@@ -707,7 +721,7 @@ Potter mi ha
 diffamato?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -716,22 +730,22 @@ diffamato?
 \begin_layout Standard
 Una risatina spettrale, un eh-eh-eh arido.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensi che quei due siano stupidi, sordi e ciechi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Con un sussurro più triste, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensi che non amino Hermione Granger, che non baderanno al fatto che venga
  ferita? Allo stesso modo potrebbero essere stati affezionati a te, una
  volta, alla loro giovane e brillante Padma Patil, ma tu lo stai gettando
  via…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -743,7 +757,7 @@ La gola di Padma era secca.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi chiedo quante persone finiranno per volerti bene, Padma Patil, su questo
@@ -760,7 +774,7 @@ ritornare
 malvagia
 \emph default
 , Padma Patil, non puoi trovare un bene differente da perseguire?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -776,20 +790,20 @@ nessuno
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi sono sempre meravigliato di come gli studenti si prevarichino a vicenda
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sospirò la voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Come i bambini si rendano la vita difficile da soli, come trasformino le
@@ -803,11 +817,11 @@ Come i bambini si rendano la vita difficile da soli, come trasformino le
  strada.
  Soffrirai lo stesso tormento della solitudine, la stessa pena per la paura
  e la diffidenza degli altri, che ora stai infliggendo a Hermione Granger.
- Solo che nel tuo caso saranno meritati
-\begin_inset Quotes frd
+ Solo che nel tuo caso saranno meritati.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -815,7 +829,7 @@ La sua bacchetta le stava tremando in mano.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non hai scelto da che parte stare quando sei andata a Corvonero, ragazza.
@@ -823,10 +837,10 @@ Non hai scelto da che parte stare quando sei andata a Corvonero, ragazza.
  che fai agli altri e quello che fai a te stessa.
  Illuminerai la vita degli altri, o gliela oscurerai? Questa è la scelta
  tra Luce e Oscurità, non una parola gridata dal Cappello Smistatore.
- E la parte più difficile, Padma Patil, non è dice `Luce', la parte difficile
+ E la parte più difficile, Padma Patil, non è dire ``Luce'', la parte difficile
  è distinguere l'una dall'altra, e riconoscere con te stessa quando inizi
  a percorrere la strada sbagliata.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -845,20 +859,20 @@ Padma fece quasi scivolare la bacchetta, quando tentò di rimettersela in
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ho sempre scelto correttamente tra Luce e Oscurità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il sussurro, ora forte e aspro e direttamente nel suo orecchio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non presumere che la mia saggezza sia l'ultima parola, ragazza, non temere
@@ -876,7 +890,7 @@ Non presumere che la mia saggezza sia l'ultima parola, ragazza, non temere
 o.
  Tu sei indegna di Serpeverde; ora va' a fare i tuoi compiti di Erbologia,
  ragazza Corvonero!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -889,11 +903,11 @@ Il sussurro finale fuoriuscì come un forte sibilo che sembrava quasi simile
  nei corridoi, anche quando passò oltre altri studenti che la guardarono
  sorpresi, non si fermò, corse fino ai dormitori Corvonero con le vene del
  collo che le battevano, la porta le chiese 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché il sole brilla di giorno invece che di notte?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e le ci vollero tre tentativi prima che potesse dare una risposta coerente,
@@ -901,65 +915,65 @@ Perché il sole brilla di giorno invece che di notte?
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- alcune ragazze e ragazzi, alcuni giovani e alcuni più grandi, tutti che
+– alcune ragazze e ragazzi, alcuni giovani e alcuni più grandi, tutti che
  la fissavano, e in un angolo al tavolo pentagonale, Harry Potter e Michael
  Corner e Kevin Entwhistle, che avevano alzato lo sguardo dai loro libri
  di testo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per Merlino!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  esclamò Penelope Clearwater, alzandosi da un divano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa ti è successo, Padma?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , balbettò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-io, io ho sentito -- un fantasma
+io, io ho sentito – un fantasma
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è stato il Barone Sanguinario, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Clearwater.
@@ -970,15 +984,15 @@ Aguamenti
 \emph default
  dopo la coppa era piena d'acqua.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ecco, bevi questo, siediti
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -991,24 +1005,24 @@ Padma stava già muovendosi a grandi passi verso la tavola pentagonale.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei stato 
 \emph on
 tu
 \emph default
- a farlo!
-\begin_inset Quotes frd
+!
+\begin_inset Quotes crd
 \end_inset
 
  disse Padma.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Come -- come -- come osi!
-\begin_inset Quotes frd
+Come – come – come osi!
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1016,13 +1030,14 @@ Come -- come -- come osi!
 
 \begin_layout Standard
 \begin_inset Branch Figure
-status open
+inverted 0
+status collapsed
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1049,6 +1064,11 @@ width "80col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
@@ -1062,24 +1082,24 @@ Padma stava già muovendosi a grandi passi verso la tavola pentagonale.
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei stato 
 \emph on
 tu
 \emph default
- a farlo!
-\begin_inset Quotes frd
+!
+\begin_inset Quotes crd
 \end_inset
 
  disse Padma.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Come -- come -- come osi!
-\begin_inset Quotes frd
+Come – come – come osi!
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1110,26 +1130,26 @@ Harry si limitò a guardarla.
 
 \begin_layout Standard
 E disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è qualcosa che posso fare per aiutarti?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non negarlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Padma, la sua voce che tremava, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1142,24 +1162,24 @@ detto
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dico sul serio.
  Posso aiutarti in qualche modo? Prenderti qualcosa da mangiare, o andare
  a prenderti una bevanda, o aiutarti con i tuoi compiti, o qualunque cosa
  del genere?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1170,11 +1190,11 @@ Tutti stavano fissando loro due.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Padma.
@@ -1182,71 +1202,70 @@ Perché?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché alcuni di noi sono sull'orlo di un precipizio.
  E la differenza è ciò che fai per le altre persone.
  Mi permetterai di aiutarti in qualche modo, Padma, per favore?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Ella lo fissò, e seppe, in quel momento, che egli aveva ricevuto il suo
- avvertimento, lo stesso che aveva ricevuto lei.
+Lo fissò, e seppe, in quel momento, che egli aveva ricevuto il suo avvertimento,
+ lo stesso che aveva ricevuto lei.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Devo scrivere sei pollici sul 
+Devo scrivere tre pagine sul 
 \emph on
 lomillialor
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Lascia che corra alla mia stanza del dormitorio e prenda la mia roba di
- Erbologia
-\begin_inset Quotes frd
+Lascia che corra alla mia stanza del dormitorio a prendere la roba di Erbologia
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry.
  Si alzò dal tavolo pentagonale e guardò Entwhistle e Corner.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi dispiace ragazzi, ci vediamo dopo
-\begin_inset Quotes frd
+Mi dispiace ragazzi, ci vediamo dopo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1257,7 +1276,7 @@ Loro non dissero nulla, rimasero semplicemente a fissarlo, insieme a tutti
 
 \begin_layout Standard
 E proprio mentre iniziò a salire, disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E nessuno deve seccarla con domande a meno che 
@@ -1269,28 +1288,29 @@ lei
 l'abbiano capito
 \emph default
 , giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dissero la maggior parte degli studenti del primo anno e alcuni degli
  studenti più vecchi, alcuni di loro piuttosto spaventati.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1303,7 +1323,7 @@ E parlò di molte cose con Harry Potter oltre che del legno di
 \emph on
 lomillialor
 \emph default
- -- anche della sua paura di ritornare in armonia con Parvati, di cui non
+ – anche della sua paura di ritornare in armonia con Parvati, di cui non
  aveva mai parlato con 
 \emph on
 nessuno
@@ -1315,9 +1335,8 @@ nessuno
 strani
 \emph default
 , prestandoglieli a condizione che mantenesse il segreto assoluto, dicendo
- che se avesse compreso quei libri questo avrebbe cambiato lo schema dei
- suoi pensieri così tanto che non sarebbe mai più ritornata in armonia con
- Parvati…
+ che se avesse compreso quei libri lo schema dei suoi pensieri sarebbe cambiato
+ così tanto che non sarebbe mai più ritornata in armonia con Parvati…
 \end_layout
 
 \begin_layout Standard
@@ -1335,10 +1354,11 @@ egli
  detto.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1358,7 +1378,7 @@ Vide quella ragazza alzarsi dalla panca e camminare verso di lei.
 
 \begin_layout Standard
 La notte precedente Padma era stata contenta che quella ragazza alloggiasse
- nell'altro dormitorio; ma ora che ci pensava, questo era peggio, ora doveva
+ nell'altro dormitorio; ma ora che ci pensava, così era peggio, ora doveva
  farlo di fronte a 
 \emph on
 tutti
@@ -1375,26 +1395,26 @@ La ragazza si avvicinò
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Padma.
@@ -1406,17 +1426,17 @@ sua
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ripeté Hermione Granger.
  La sua voce era così alta che tutti poterono sentirla.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io… non ho chiesto a Harry di farlo, e mi sono arrabbiata con lui quando
@@ -1428,11 +1448,11 @@ nessuno
 \emph on
 davvero
 \emph default
- dispiaciuta, signorina Patil
-\begin_inset Quotes frd
+ dispiaciuta, signorina Patil.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1441,15 +1461,15 @@ La schiena di Hermione Granger era rigida, il suo volto era rigido, si poteva
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse Padma.
- I suoi pensieri erano piuttosto scompigliati, ora…
+, fece Padma.
+ I suoi pensieri erano piuttosto disordinati, ora…
 \end_layout
 
 \begin_layout Standard
@@ -1457,10 +1477,11 @@ Lo sguardo di Padma guizzò al tavolo di Corvonero, dove un ragazzo le stava
  guardando con occhi socchiusi e le mani contratte in grembo.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1476,7 +1497,7 @@ Precedentemente
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti avevo detto di essere 
@@ -1484,7 +1505,7 @@ Ti avevo detto di essere
 più gentile!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Hermione.
@@ -1497,20 +1518,20 @@ Harry stava iniziando a sudare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Io -- ma -- ma 
+Io – ma – ma 
 \emph on
 sono stato
 \emph default
  gentile!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  protestò Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Praticamente l'ho 
@@ -1527,8 +1548,8 @@ originale
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  e a quel punto Harry si rese conto di quello che stava dicendo e chiuse
@@ -1539,7 +1560,7 @@ originale
 Hermione si aggrappò ai propri riccioli castani, un gesto che Harry non
  le aveva mai visto fare prima.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E cos'ha detto di fare, 
@@ -1551,7 +1572,7 @@ lui?
 ucciderla?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1561,12 +1582,12 @@ ucciderla?
 Il Professore di Difesa aveva suggerito che Harry identificasse tutti i
  principali studenti influenti all'interno e all'esterno del suo anno e
  cercasse di prendere il controllo dell'intera fabbrica di pettegolezzi,
- osservando che questa era una sfida solitamente utile e divertente per
+ osservando che quella era una sfida solitamente utile e divertente per
  qualunque vero Serpeverde che frequentasse Hogwarts.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nulla del 
@@ -1574,11 +1595,11 @@ Nulla del
 genere
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse rapidamente Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ha solo detto in linea di principio che dovrei guadagnarmi un'influenza
@@ -1596,15 +1617,15 @@ gentile
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1612,14 +1633,14 @@ gentile
 E credi che questo non sia minacciare qualcuno?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Le mani di Hermione le stavano tirando i capelli ora.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm… Credo che potrebbe essersi sentita 
@@ -1640,15 +1661,15 @@ ovviamente
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E pensi che non ci saranno conseguenze per quello che 
@@ -1656,7 +1677,7 @@ E pensi che non ci saranno conseguenze per quello che
 tu
 \emph default
  hai fatto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1669,7 +1690,7 @@ Harry provò un'improvvisa sensazione di nausea allo stomaco.
 \begin_layout Standard
 Hermione aveva l'espressione più arrabbiata che avesse mai visto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa credi che gli altri studenti pensino di te, ora, Harry? Di 
@@ -1678,7 +1699,7 @@ me?
 \emph default
  Se a Harry non piace il modo in cui parli di Hermione, ti manderà dei fantasmi,
  è questo quello che vuoi che pensino?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1692,7 +1713,7 @@ Harry aprì la bocca e nessuna parola ne uscì, era semplicemente che… non
 \begin_layout Standard
 Hermione raccolse i suoi libri dal tavolo, su cui li aveva sbattuti.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ti parlerò per una settimana, e 
@@ -1708,20 +1729,20 @@ perché
 forse
 \emph default
  questo annullerà un po' di quello che hai appena fatto.
- E alla fine della settimana, io -- deciderò allora cosa fare.
+ E alla fine della settimana, io – deciderò allora cosa fare.
  Credo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1729,12 +1750,12 @@ forse
 Hermione!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  anche la voce di Harry salì fino a essere un grido disperato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1742,7 +1763,7 @@ Hermione!
 Stavo cercando di aiutarti!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1753,27 +1774,27 @@ La ragazza si girò e lo guardò, mentre apriva la porta dell'aula.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, e la sua voce tremò un po' al di sotto della rabbia, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 il professor Quirrell ti sta risucchiando nell'oscurità, lo sta facendo
- sul serio, dico davvero, Harry
-\begin_inset Quotes frd
+ sul serio, dico davvero, Harry.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo… non è stato lui, non è quello che aveva detto di fare, sono stato
@@ -1785,8 +1806,8 @@ io
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1795,19 +1816,19 @@ io
 \begin_layout Standard
 La voce di Hermione era quasi un sussurro ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un giorno andrai a pranzo con lui, e sarà il tuo lato oscuro a tornare,
- o forse persino non tornerai affatto
-\begin_inset Quotes frd
+ o forse magari non tornerai affatto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Te lo prometto, 
@@ -1815,7 +1836,7 @@ Te lo prometto,
 tornerò
 \emph default
  dal pranzo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1838,13 +1859,13 @@ Bel modo di invocare le leggi dell'ironia drammatica, idiota
 , osservò il Critico Interiore di Harry.
 
 \emph on
- Ora morirai questo sabato, e le tue ultime parole saranno `Mi dispiace,
- Hermione', e lei rimpiangerà per sempre che l'ultima cosa che avrà fatto
+ Ora morirai questo sabato, e le tue ultime parole saranno ``Mi dispiace,
+ Hermione'', e lei rimpiangerà per sempre che l'ultima cosa che avrà fatto
  sarà stata sbattere la porta
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1853,10 +1874,11 @@ Bel modo di invocare le leggi dell'ironia drammatica, idiota
 Oh, chiudi la bocca.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1877,7 +1899,7 @@ disse
 Quando il professor Flitwick chiese Harry se fosse responsabile di quello
  che era successo a Padma, e Harry disse di sì, il professor Flitwick gli
  disse che doveva scontare di due giorni di detenzione.
- Anche se era stato solo un fantasma e Padma non era stato ferita, anche
+ Anche se era stato solo un fantasma e Padma non era stata ferita, anche
  il quel caso, quello non era un comportamento accettabile per uno studente
  di Corvonero.
  Harry annuì e disse che capiva perché il professore doveva farlo, e che
@@ -1885,15 +1907,15 @@ Quando il professor Flitwick chiese Harry se fosse responsabile di quello
 \emph on
 aver
 \emph default
- riportato Padma sulla buona strada, il professor Flitwick penava davvero,
+ riportato Padma sulla buona strada, il professor Flitwick pensava davvero,
  in via ufficiosa, che avesse fatto la cosa sbagliata? E il professor Flitwick
- fece pausa, apparentemente riflettendoci davvero, e poi disse a Harry,
+ fece una pausa, apparentemente riflettendoci davvero, e poi disse a Harry,
  con voce stridula e solenne, che aveva bisogno di imparare come relazionarsi
  con gli altri studenti nel modo normale.
 \end_layout
 
 \begin_layout Standard
-E Harry non poté fare a meno di pensare che questo era un consiglio che
+E Harry non poté fare a meno di pensare che quello era un consiglio che
  il professor Quirrell non gli avrebbe mai dato.
 \end_layout
 
@@ -1925,7 +1947,7 @@ Harry non era ancora sicuro se avesse fatto la cosa giusta, o
 una
 \emph default
  cosa giusta, e Hermione non aveva ceduto relativamente al non parlargli
- -- anche se stava parlando molto con Padma.
+ – anche se stava parlando molto con Padma.
  Faceva molto più male di quanto Harry avesse previsto, tornare a studiare
  da solo; come se il suo cervello avesse già cominciato a dimenticare la
  sua abilità a lungo perfezionata di stare da soli.
