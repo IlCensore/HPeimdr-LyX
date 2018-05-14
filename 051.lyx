@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{50}
@@ -51,6 +53,8 @@
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+\newfontfamily\serpentese{Alegreya}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -62,36 +66,48 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Garamond Premier Pro
-\font_typewriter Inconsolata
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Fournier MT Std"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -106,7 +122,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -139,6 +158,7 @@ name "chap:51SPE-p1"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Sabato.
 \end_layout
 
@@ -162,8 +182,8 @@ Così Harry era completamente riposato, e la sua borsa conteneva quasi tutto
  e tenendo presente che avrebbe avuto bisogno di contenere un grosso serpente,
  e che avrebbe potuto aver bisogno di immagazzinare chissà-cos'altro, aveva
  rimosso alcuni degli oggetti più ingombranti, come la batteria per auto.
- Era giunto al punto in cui ora poteva Trasfigurare qualcosa delle dimensioni
- di una batteria per auto in quattro minuti netti, quindi non era una gran
+ Era ormai arrivato al punto in cui poteva Trasfigurare qualcosa delle dimension
+i di una batteria per auto in quattro minuti netti, quindi non era una gran
  perdita.
 \end_layout
 
@@ -192,9 +212,9 @@ Mary's Place.
 \begin_layout Standard
 Dopo che la cameriera aveva preso i loro ordini e aveva rivolto loro un
  inchino e lasciato la stanza, il professor Quirrell aveva eseguito solo
- quattro Incantesimi, e poi non avevano parlato di nulla che avesse grandi
- conseguenze, solo della complessa tesi del professor Quirrell a proposito
- di come la maledizione del Signore Oscuro sulla cattedra di Difesa aveva
+ quattro Incantesimi, e poi non avevano parlato di nulla che avesse grande
+ importanza, solo della complessa tesi del professor Quirrell a proposito
+ di come la maledizione del Signore Oscuro sulla cattedra di Difesa avesse
  causato il declino del duello e come questo avesse mutato i costumi sociali
  della Gran Bretagna magica.
  Harry ascoltò e annuì e disse cose intelligenti, mentre tentava di controllare
@@ -206,7 +226,7 @@ Poi la cameriera rientrò portando il loro cibo, e questa volta, un minuto
  dopo che la cameriera si era allontanata, il professor Quirrell fece un
  gesto verso la porta per chiuderla e serrarla, e cominciò a lanciare ventinove
  incantesimi di sicurezza, e questa volta uno di quelli della sequenza di
- Bester fu lasciato fuori, il che rese un po' perplesso Harry.
+ Bester fu lasciato fuori, il che lasciò un po' perplesso Harry.
 \end_layout
 
 \begin_layout Standard
@@ -214,45 +234,82 @@ Il professor Quirrell terminò i suoi incantesimi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- si alzò dalla sua sedia
+– si alzò dalla sua sedia
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- offuscandosi mutò in un serpente verde, con bande blu e bianche
+– offuscandosi mutò in un serpente verde, con bande blu e bianche
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- che sibilò, 
-\begin_inset Quotes fld
+– che sibilò, 
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Affamato, ragazzo? Mangia a ssazietà, avremo bissogno ssia di forza che
+Affamato, ragazzo? Mangia a ssazietà, avremo bissogno ssia di forza ssia
  di tempo
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Gli occhi di Harry si erano spalancati, ma sibilò 
-\begin_inset Quotes fld
+Gli occhi di Harry erano un po' spalancati, ma sibilò 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -260,7 +317,18 @@ Gli occhi di Harry si erano spalancati, ma sibilò
 Ho mangiato bene a colazione
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , e poi iniziò a portare forchettate di spaghetti alla bocca.
@@ -269,7 +337,20 @@ Ho mangiato bene a colazione
 \begin_layout Standard
 Il serpente lo guardò per un momento, con quegli occhi inespressivi, e poi
  sibilò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -278,15 +359,39 @@ Non dessidero sspiegare qui.
  Preferissco esssere altrove prima.
  Bissogna andare via inossservati, ssenza ssegni che abbiamo lassciato sstanza
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -294,14 +399,38 @@ Non dessidero sspiegare qui.
 In modo che nesssuno ci posssa sseguire
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -312,7 +441,18 @@ Ssì.
  a presscindere, allora di' di no ora.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -356,18 +496,18 @@ certo
  istruito in Occlumanzia, aveva insegnato a Harry come perdere… se il Professore
  di Difesa avesse voluto usare in qualche modo Harry Potter, sarebbe stato
  un uso che richiedeva un Harry Potter più forte, non uno più debole.
- Questo era ciò che significava essere usati da un amico, che avrebbe scelto
- l'uso che ti rendeva più forte invece che più debole.
+ E quello era ciò che significava essere usati da un amico, che avrebbe
+ scelto l'uso che ti rendeva più forte invece che più debole.
 \end_layout
 
 \begin_layout Standard
-E se talvolta il Professore di Difesa aveva un'aria fredda, dell'amarezza
- nella sua voce o della vacuità nel suo sguardo, allora Harry era l'unico
- al quale il professor Quirrell permetteva di vederlo.
+E se talvolta il Professore di Difesa aveva un'aria fredda, la sua voce
+ era amara o il suo sguardo vacuo, allora Harry era l'unico al quale il
+ professor Quirrell permetteva di vederlo.
 \end_layout
 
 \begin_layout Standard
-Harry non sapeva come descrivere esattamente a parole il senso di affinità
+Harry non sapeva come descrivere esattamente a parole la sensazione di affinità
  che provava per il professor Quirrell, se non dicendo che il Professore
  di Difesa era l'unica persona 
 \emph on
@@ -389,7 +529,20 @@ lucida
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -397,7 +550,18 @@ lucida
 Mi fido di te
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry.
@@ -407,10 +571,11 @@ Mi fido di te
 E il serpente spiegò la prima fase del piano.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -432,11 +597,11 @@ Poi Harry deglutì, e nello stesso istante si alzò dalla sedia, già sentendo
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-È pronto per metterlo alla prova, signor Potter?
-\begin_inset Quotes frd
+È pronto per la prova, signor Potter?
+\begin_inset Quotes crd
 \end_inset
 
  chiese con calma il professor Quirrell.
@@ -453,11 +618,11 @@ Non era
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con la maggior noncuranza possibile.
@@ -471,11 +636,11 @@ Passo uno.
 
 \begin_layout Standard
 Harry disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mantello
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  alla propria borsa, estrasse il Mantello dell'Invisibilità, e poi staccò
@@ -526,11 +691,12 @@ Passo quattro.
 \end_layout
 
 \begin_layout Standard
-Harry estrasse la bacchetta, facendo attenzione a restare fermo, come fece,
- in modo che non si muovesse il Giratempo, la cui clessidra il professor
- Quirrell aveva ancorato all'interno del guscio nel suo orientamento attuale.
+Harry estrasse la bacchetta, facendo attenzione a restare fermo mentre lo
+ faceva, in modo che il Giratempo non si muovesse dalla posizione in cui
+ il professor Quirrell aveva ancorato la clessidra all'interno del guscio
+ nel suo orientamento attuale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -538,7 +704,7 @@ Harry estrasse la bacchetta, facendo attenzione a restare fermo, come fece,
 Wingardium Leviosa
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , mormorò Harry, e la borsa cominciò a fluttuare verso di lui.
@@ -604,7 +770,7 @@ La clessidra interna del Giratempo rimase ancorata e immobile, la montatura
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -615,7 +781,7 @@ Il cibo sparì dal tavolo, le sedie balzarono al loro posto, la porta si
 \begin_layout Standard
 Mary's Room era deserta, come sarebbe dovuta essere, perché il professor
  Quirrell aveva precedentemente contattato Mary's Place sotto falso nome
- per sapere se la stanza sarebbe stata disponibile a quest'ora -- non per
+ per sapere se la stanza sarebbe stata disponibile a quell'ora – non per
  prenotarla, perché una prenotazione annullata sarebbe potuta essere notata,
  ma solo per informarsi.
 \end_layout
@@ -635,9 +801,8 @@ Restando sotto il Mantello dell'Invisibilità, Harry attraversò la porta
  C'erano solo poche persone al bar, la mattina prima dell'ora di pranzo
  vera e propria, e Harry dovette aspettare invisibile accanto alla porta
  per diversi minuti, ascoltando il mormorio delle conversazioni e il gorgoglio
- dell'alcool, prima che la porta si aprisse per far entrare un enorme e
- gioviale irlandese, e Harry scivolasse fuori silenziosamente nella sua
- scia.
+ dell'alcol, prima che la porta si aprisse per far entrare un enorme e gioviale
+ irlandese, e Harry scivolasse fuori silenziosamente nella sua scia.
 \end_layout
 
 \begin_layout Standard
@@ -660,25 +825,25 @@ Passo nove.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pesce spada melone amico
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, Harry recitò la parola d'accesso alla serratura, ed essa si aprì con un
- clic.
+, Harry recitò le parole di sblocco della serratura, ed essa si aprì con
+ un clic.
 \end_layout
 
 \begin_layout Standard
 Anche l'interno del negozio era buio, la luce proveniente dalla porta aperta
  lo illuminò brevemente mostrando una stanza ampia e vuota.
- Il negozio di mobili che un tempo aveva esercitato qui aveva dichiarato
- fallimento alcuni mesi prima, secondo il Professore di Difesa, e il locale
- era stato espropriato, ma non ancora rivenduto.
+ Il negozio di mobili che un tempo era stato presente in quel luogo aveva
+ dichiarato fallimento alcuni mesi prima, secondo il Professore di Difesa,
+ e il locale era stato espropriato, ma non ancora rivenduto.
  Le pareti erano dipinte di un semplice bianco, il pavimento in legno graffiato
- e rozzo, una singola porta chiusa impostata nella parete di fondo; questa
+ e rozzo, una singola porta chiusa impostata nella parete di fondo; quella
  era stata una sala da esposizione, una volta, ma ora non esponeva niente.
 \end_layout
 
@@ -694,7 +859,7 @@ Passo dieci.
 
 \begin_layout Standard
 Harry estrasse la sua bacchetta e disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -702,16 +867,29 @@ Harry estrasse la sua bacchetta e disse
 Lumos
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , illuminando la stanza con un bagliore bianco; prese la borsa dalla sua
  cintura (la sensazione di sventura divenne un po' più acuta mentre la stringeva
- con le dita) le la lanciò con leggerezza dall'altro lato della stanza (la
+ con le dita) le la lanciò con cautela dall'altro lato della stanza (la
  sensazione di sventura svanì quasi completamente).
- E poi iniziò a rimuovere il Mantello dell'Invisibilità, anche mentre la
- sua voce sibilava, 
-\begin_inset Quotes fld
+ E poi iniziò a rimuovere il Mantello dell'Invisibilità, mentre la sua voce
+ sibilava, 
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -719,7 +897,18 @@ Lumos
 È fatta
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -749,26 +938,26 @@ Harry attese in silenzio mentre il Professore di Difesa recitò i trenta
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse con calma il professor Quirrell, quando ebbe terminato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se qualcuno ci sta ancora guardando in questo momento, siamo spacciati in
  ogni caso, quindi parlerò chiaramente e in forma umana.
  Il Serpentese non fa del tutto per me, temo, in quanto non sono sé un discenden
-te di Salazar né un vero serpente
-\begin_inset Quotes frd
+te di Salazar né un vero serpente.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -776,44 +965,44 @@ Harry annuì.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dunque, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  Il suo sguardo era determinato, i suoi occhi azzurri in ombra nella bianca
  luce che proveniva dalla bacchetta di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Siamo soli e non osservati, e ho un'importante domanda da farle
-\begin_inset Quotes frd
+Siamo soli e inosservati, e ho un'importante domanda da farle.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vada avanti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, e il suo cuore iniziò a battere più velocemente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Qual è la sua opinione del governo della Gran Bretagna magica?
-\begin_inset Quotes frd
+Qual è la sua opinione sul governo della Gran Bretagna magica?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -822,32 +1011,32 @@ Qual è la sua opinione del governo della Gran Bretagna magica?
 \begin_layout Standard
 Non era proprio quello che Harry si stava aspettando, ma era abbastanza
  vicino, così Harry disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In base alla mia limitata conoscenza, direi che sia il Ministero sia il
- Wizengamot sembrano essere stupidi, corrotti, e malvagi
-\begin_inset Quotes frd
+ Wizengamot sembrano essere stupidi, corrotti, e malvagi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Esatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha capito perché lo chiedo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -863,17 +1052,18 @@ Harry fece un respiro profondo, e guardò professor Quirrell dritto negli
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sta per invitarmi ad unirmi ad un'organizzazione segreta piena di persone
  interessanti come lei, uno degli obiettivi della quale è riformare o rovesciare
  il governo della Gran Bretagna magica, e sì, accetto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -907,18 +1097,23 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sta per invitarmi ad unirmi ad un'organizzazione segreta piena di persone
  interessanti come lei, uno degli obiettivi della quale è riformare o rovesciare
  il governo della Gran Bretagna magica, e sì, accetto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -944,26 +1139,26 @@ Ci fu una breve pausa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Temo che questa non sia esattamente la direzione in cui intendevo incanalare
  questa conversazione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  Gli angoli delle sue labbra si stavano leggermente contraendo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Intendevo solamente chiedere il suo aiuto per fare qualcosa di estremamente
- sovversivo e illegale
-\begin_inset Quotes frd
+ sovversivo e illegale.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -977,28 +1172,28 @@ Dannazione
 negato
 \emph default
 … 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Vada avanti
-\begin_inset Quotes frd
+Vada avanti.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Prima di farlo
-\begin_inset Quotes frd
+Ma prima...
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  Non c'era alcuna levità nella sua voce, ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1007,25 +1202,25 @@ Prima di farlo
 \emph default
  aperto a tali proposte, signor Potter? Ripeto che se è verosimile che mi
  dica di no a prescindere, deve dire di no ora.
- Se la sua curiosità la spinge a fare diversamente, la soffochi
-\begin_inset Quotes frd
+ Se la sua curiosità la spinge a fare diversamente, la soffochi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sovversivo e illegale non mi preoccupano.
- Mi preoccupa il rischio e la posta in gioco dovrebbe essere proporzionata,
+ Mi preoccupa il rischio, e la posta in gioco dovrebbe essere proporzionata,
  ma non posso immaginare che 
 \emph on
 lei
 \emph default
- prenda dei rischi alla leggera.
-\begin_inset Quotes frd
+ si assuma dei rischi alla leggera.
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1034,28 +1229,28 @@ lei
 \begin_layout Standard
 Il professor Quirrell annuì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo farei.
- È un terribile abuso della mia amicizia con lei, e della fiducia che è
+ È un terribile abuso della mia amicizia per lei, e della fiducia che è
  posta nella mia posizione di insegnante a Hogwarts
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Può saltare questa parte.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1064,7 +1259,7 @@ Può saltare questa parte.
 \begin_layout Standard
 Le labbra si contorsero nuovamente, e poi si appiattirono.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora la salterò.
@@ -1090,11 +1285,11 @@ esattamente
 \emph default
  nello stesso modo in cui parlerebbe se non sapesse nulla, senza preoccuparsi
  del suo onore.
- Dovrà essere così
-\begin_inset Quotes frd
+ Dovrà essere così.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1102,70 +1297,70 @@ Ci fu silenzio, allora, per un po' di tempo.
 \end_layout
 
 \begin_layout Standard
-Quello era un prezzo misurato in una frazione dell'anima di Harry.
+Era un prezzo misurabile in una frazione dell'anima di Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Senza svelarmelo ancora…
-\begin_inset Quotes frd
+Senza rivelarmi ancora nulla…
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Può dirmi se la necessità è disperata?
-\begin_inset Quotes frd
+Può dire se la necessità è disperata?
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è qualcuno che ha la più terribile necessità del suo aiuto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse semplicemente il professor Quirrell, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-e non c'è nessuno che possa aiutarlo se non lei
-\begin_inset Quotes frd
+e non c'è nessuno che possa aiutarlo se non lei.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Ci fu un altro silenzio, ma non uno lungo.
+Ci fu altro silenzio, ma non durò a lungo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi parli della missione
-\begin_inset Quotes frd
+Mi parli della missione.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1173,22 +1368,22 @@ Le vesti scure del Professore di Difesa sembrarono sfocate contro l'ombra
  sul muro, gettata dalla sua sagoma che bloccava la luce bianca della bacchetta
  di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 L'Incantesimo Patronus ordinario, signor Potter, tiene lontana la paura
  di un Dissennatore.
  Ma i Dissennatori la vedono comunque attraverso di esso, sanno che lei
  è lì.
- Ad eccezione del suo Incantesimo Patronus.
+ Ma non col suo Incantesimo Patronus.
  Esso li acceca, o fa più che accecarli.
  Ciò che ho visto sotto il mantello non stava neppure guardando nella nostra
  direzione mentre lei l'uccideva; come se avesse dimenticato la nostra esistenza
-, anche mentre moriva
-\begin_inset Quotes frd
+, anche mentre moriva.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1201,7 +1396,7 @@ Harry annuì.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter, la sede centrale della Gringotts è custodita da ogni incantesimo
@@ -1213,30 +1408,30 @@ Signor Potter, la sede centrale della Gringotts è custodita da ogni incantesimo
  Per ogni incantesimo vi è un contro-incantesimo, per ogni protezione c'è
  un aggiramento.
  Come può essere che nessuno sia mai stato fatto evadere da Azkaban?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché Azkaban ha qualcosa di invincibile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Qualcosa di così terribile che nessuno può sconfiggerlo
-\begin_inset Quotes frd
+Qualcosa di così terribile che nessuno può sconfiggerlo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1246,34 +1441,33 @@ Quella era la chiave di volta della loro sicurezza perfetta, non doveva
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-I Dissennatori non amano che i loro pasti gli siano portati via
-\begin_inset Quotes frd
+I Dissennatori non amano che gli si porti via il loro pasto
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  Nella sua voce si era fatta strada della freddezza, ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sanno se qualcuno ci prova.
  Ci sono più di cento Dissennatori lì, e parlano anche alle guardie.
- È così semplice, signor Potter.
- Se sei un mago potente allora non è difficile entrare ad Azkaban, e non
+ È semplice, signor Potter.
+ Se sei un mago potente, allora non è difficile entrare ad Azkaban, e non
  è difficile uscirne.
- Fino a quando non si tenti di portar via qualcosa che appartiene ai Dissennator
-i
-\begin_inset Quotes frd
+ Fin quando non tenti di portar via qualcosa che appartiene ai Dissennatori.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma i Dissennatori 
@@ -1285,59 +1479,59 @@ non
 sono
 \emph default
  invincibili
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Avrebbe potuto lanciare l'Incantesimo Patronus con quel pensiero, in quel
  preciso momento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non creda mai che lo siano
-\begin_inset Quotes frd
+Non creda mai che lo siano.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La voce del professor Quirrell era molto sommessa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si ricorda com'è stato quando è andato davanti al Dissennatore, la prima
  volta, quando ha fallito?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi ricordo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-E poi con un improvviso e nauseante movimento nel suo stomaco, Harry seppe
- dove questo sarebbe andato a finire; avrebbe dovuto capirlo prima.
+E poi con un improvviso e nauseante sussulto allo stomaco, Harry seppe dove
+ sarebbero andati a parare; avrebbe dovuto capirlo prima.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è una persona innocente ad Azkaban
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
@@ -1348,17 +1542,17 @@ Harry annuì, provava una sensazione di bruciore alla gola, ma non pianse.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La persona di cui parlo non era sotto la Maledizione Imperius
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa, abiti scuri che si stagliano contro un'ombra
  più grande.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sono modi più sicuri per spezzare la volontà rispetto all'Imperius, se
@@ -1370,11 +1564,11 @@ Ci sono modi più sicuri per spezzare la volontà rispetto all'Imperius, se
  Ma c'è una persona in Azkaban che non ha mai, neppure una volta, scelto
  di servire il Signore Oscuro, che ha trascorso anni soffrendo in solitudine
  nel freddo e nell'oscurità più terribili che si possano immaginare, e che
- non ne meritava un solo minuto
-\begin_inset Quotes frd
+ non ne meritava un solo minuto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1391,7 +1585,7 @@ Non ci fu alcun indizio, nessun avvertimento, pensammo tutti che
 
 
 \emph default
---
+–
 \begin_inset Note Note
 status open
 
@@ -1405,11 +1599,11 @@ cap 42
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una persona di nome Black
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -1421,29 +1615,29 @@ Ci fu silenzio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse il professor Quirrell dopo un po'.
+, fece il professor Quirrell dopo un po'.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Con tanti saluti all'idea di non rivelarle il nome finché non avesse accettato
+Tanti saluti all'intenzione di non rivelarle il nome finché non avesse accettato
  la missione.
  Chiederei se sta leggendo o meno la 
 \emph on
 mia
 \emph default
- mente, ma questo è assolutamente impossibile
-\begin_inset Quotes frd
+ mente, ma questo è assolutamente impossibile.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1457,11 +1651,11 @@ credevi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono 
@@ -1469,13 +1663,13 @@ Sono
 senz'altro
 \emph default
  impressionato, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  Il suo volto era severo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma questa è una cosa seria, e se c'è qualche modo in cui altri potrebbero
@@ -1487,7 +1681,7 @@ devo
  Allora mi dica, signor Potter.
  Come, in nome di Merlino, di Atlantide, e del vuoto tra le stelle, ha fatto
  a indovinare che stavo parlando di Bellatrix?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
