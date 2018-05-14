@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{51}
@@ -51,9 +53,11 @@
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+\newfontfamily\serpentese{Alegreya}
 \end_preamble
 \use_default_options true
-\master ENG_hpmor.lyx
+\master per_distribuzione_v3.lyx
 \begin_modules
 initials
 \end_modules
@@ -62,36 +66,48 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman OFL Sorts Mill Goudy
-\font_sans Linux Biolinum O
-\font_typewriter Inconsolata
+\font_roman "default" "Bembo Book MT Std"
+\font_sans "default" "Bembo Std"
+\font_typewriter "default" "ztm"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -106,7 +122,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -139,16 +158,17 @@ name "chap:52SPE-p2"
 \end_layout
 
 \begin_layout Standard
-L'adrenalina stava già scorrendo nelle vene di Harry, il suo cuore già martellav
-a nel petto, lì in quel negozio buio e in bancarotta.
+\noindent
+L'adrenalina stava già scorrendo nelle vene di Harry, il suo cuore già gli
+ martellava in petto, lì in quel negozio buio e in bancarotta.
  Il professor Quirrell aveva finito di spiegare, e in una mano Harry teneva
  un piccolo ramoscello di legno che sarebbe stata la chiave.
- Eccolo, questo era il giorno e il momento in cui Harry avrebbe iniziato
- a recitare la sua parte.
+ Ecco, quello era il giorno e il momento in cui Harry avrebbe iniziato a
+ recitare la sua parte.
  La sua prima vera avventura, un sotterraneo da esplorare, un governo malvagio
  da sfidare, una fanciulla in pericolo da salvare.
  Harry sarebbe dovuto essere più spaventato, più riluttante, ma invece sentiva
- solo che era giunta e passata l'ora che iniziasse a diventare le persone
+ solo che era giunta e passata l'ora che iniziasse a diventare come le persone
  di cui aveva letto nei suoi libri; per iniziare il suo viaggio verso ciò
  che aveva sempre saputo di dover essere, un eroe.
  Per fare il primo passo sulla strada che l'avrebbe portato a Kimball Kinnison
@@ -190,18 +210,18 @@ La mano di Harry spezzò il piccolo ramoscello di legno.
 \end_layout
 
 \begin_layout Standard
-Un gancio strattonò senza movimento il ventre di Harry quando il passaporta
- si attivò, una sensazione simile ad uno strappo molto più forte questa
- volta rispetto agli spostamenti più brevi tra i terreni di Hogwarts e Diagon
- Alley
+Quando il passaporta si attivò, fu come se un gancio strattonasse senza
+ muoverlo il ventre di Harry, una sensazione simile a uno strappo, questa
+ volta molto più forte rispetto agli spostamenti più brevi tra i terreni
+ di Hogwarts e Diagon Alley
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- e lo gettò nel mezzo dell'enorme rimbombo di un tuono che andava scemando,
+– che lo gettò nel mezzo dell'enorme rimbombo di un tuono che andava scemando,
  e di una sferzata di pioggia fredda che gli frustò il viso, l'acqua che
  rivestì gli occhiali di Harry accecandolo in un istante, rendendo sfocato
  il mondo anche mentre cominciava a cadere verso le rabbiose onde dell'oceano
@@ -213,7 +233,7 @@ Era arrivato molto, molto, molto in alto sopra il vuoto Mare del Nord.
 \end_layout
 
 \begin_layout Standard
-Il trauma della tempesta dirompente quasi fece sì che Harry lasciasse andare
+L'impatto dirompente della tempesta fece sì che Harry lasciasse quasi andare
  il manico di scopa che il professor Quirrell gli aveva dato, cosa che non
  sarebbe stata una buona idea.
  Ci volle quasi un intero secondo a Harry per recuperare il controllo di
@@ -221,11 +241,11 @@ Il trauma della tempesta dirompente quasi fece sì che Harry lasciasse andare
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono qui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse una voce sconosciuta da una porzione di aria vuota sopra di lui;
@@ -235,11 +255,11 @@ Sono qui
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono qui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry da sotto il Mantello dell'Invisibilità.
@@ -260,9 +280,9 @@ Sono qui
 \end_layout
 
 \begin_layout Standard
-Mantenendo con cura la presa sul manico di scopa con una mano, mentre la
- pioggia e il vento ululavano attorno a lui, Harry alzò la bacchetta con
- una presa altrettanto attenta e lanciò Impervius sui propri occhiali.
+Mantenendo con attenzione la presa sul manico di scopa con una mano, mentre
+ la pioggia e il vento ululavano attorno a lui, Harry alzò la bacchetta
+ con una presa altrettanto attenta e lanciò Impervius sui propri occhiali.
 \end_layout
 
 \begin_layout Standard
@@ -289,11 +309,11 @@ copriva
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Da questa parte
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce soggetta a Polisucco, e una scintilla di luce verde si accese
@@ -302,7 +322,7 @@ Da questa parte
 \end_layout
 
 \begin_layout Standard
-Attraverso la pioggia accecante, la Harry seguì a ruota.
+Attraverso la pioggia accecante, Harry la seguì.
  Alcune volte la perse, quella piccola scintilla verde, e ogni volta che
  accadeva, Harry chiamava, e la scintilla riappariva di fronte a lui pochi
  secondi dopo.
@@ -331,60 +351,60 @@ E sentì un distante e cupo eco di vacuità che irraggiava dal luogo in cui
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Posso già sentire i Dissennatori
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce stridula di Quirrell affetta da Polisucco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non me l'aspettavo, non così presto
-\begin_inset Quotes frd
+Non me l'aspettavo, non così presto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensi alle stelle
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, sopra il rombo lontano di un tuono.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lasci che la minima rabbia sorga in lei, nulla di negativo, pensi solo
  alle stelle, a cosa si prova a dimenticarsi di sé stessi e a cadere senza
  corpo nello spazio.
- Si aggrappi a quel pensiero come ad una barriera di Occlumanzia attraverso
+ Si aggrappi a quel pensiero come a una barriera di Occlumanzia attraverso
  la sua intera mente.
- I Dissennatori avranno qualche problema ad attraversarla
-\begin_inset Quotes frd
+ I Dissennatori avranno qualche problema ad attraversarla.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Ci fu silenzio per un momento, poi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Interessante
-\begin_inset Quotes frd
+Interessante.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -423,30 +443,30 @@ a in fango e nulla…
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Attendi un minuto
-\begin_inset Quotes frd
+Attenda un minuto
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce ruvida, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-seguimi in velocità, e passa attraverso con attenzione
-\begin_inset Quotes frd
+mi segua in velocità, e attraversi con attenzione.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry docilmente.
@@ -468,8 +488,9 @@ mille e uno, mille e due, mille e tre…
  verso il luogo in cui poteva percepire le ombre della Morte che l'attendevano,
  risucchiando luce e irraggiando vuoto, mentre la costruzione in metallo
  diventava sempre più grande.
- Semplice e monotona si profilava l'immensa forma grigia, ad eccezione di
- una singola struttura a forma di scatola nell'angolo di sud-ovest.
+ Semplice e monotona si profilava l'immensa forma grigia, a eccezione di
+ una singola struttura a forma di scatola che s'innalzava nell'angolo di
+ sud-ovest.
  L'angolo settentrionale era semplicemente vuoto, il buco del professor
  Quirrell impercettibile.
 \end_layout
@@ -486,8 +507,8 @@ Harry cabrò violentemente mentre si avvicinava all'angolo settentrionale,
 \begin_layout Standard
 Discendere attraverso il tetto illusorio mentre era invisibile fu un'esperienza
  strana, e poi Harry si ritrovò in un corridoio di metallo illuminato da
- una fioca luce arancione -- la quale, Harry comprese dopo un'occhiata stupefatt
-a, proveniva da un'antiquata luce a gas…
+ una fioca luce arancione – la quale, Harry comprese dopo un'occhiata stupefatta
+, proveniva da un'antiquata luce a gas…
 \end_layout
 
 \begin_layout Standard
@@ -507,15 +528,39 @@ L'attrazione del vuoto era più forte ora, mentre si divideva e scorreva
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Lancia il tuo Patronuss
+Lancia tuo Patronuss
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò un serpente sul pavimento, sembrando più sbiadito che verde nella
@@ -569,7 +614,7 @@ La bacchetta di Harry si mosse verso la direzione in cui, molto più in basso,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -577,7 +622,7 @@ La bacchetta di Harry si mosse verso la direzione in cui, molto più in basso,
 Expecto Patronum!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -595,7 +640,7 @@ altri
 \emph on
 non era
 \emph default
- qui.
+ venuto.
 \end_layout
 
 \begin_layout Standard
@@ -614,7 +659,20 @@ Il Patronus si affievolì ancora un po', a quel pensiero; e poi ancora, mentre
 
 \begin_layout Standard
 E poi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -622,7 +680,18 @@ E poi,
 È sstabile
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry, e iniziò a dare in pasto alla propria borsa il manico di
@@ -639,25 +708,25 @@ Il serpente sfocò nella forma di un uomo giallastro e allampanato, che reggeva
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ben fatto, anche se magari un'inezia lento
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , mormorò la voce stridula.
  In essa c'era l'aridità del professor Quirrell, anche se non era adatta
  alla voce, né aveva un'espressione severa su quel viso dalla spessa barba.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non riesco a sentirli per niente, ora
-\begin_inset Quotes frd
+Non riesco a sentirli per niente, ora.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -677,10 +746,11 @@ Se si fosse stati a guardare dall'esterno, non si sarebbe visto altro che
  brillante camminarle dietro.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -734,8 +804,8 @@ Tutto l'entusiasmo e l'eroismo si erano già consumati, come Harry sapeva
  di quelle porte in metallo.
  Ogni porta di metallo era chiusa con un grosso lucchetto, un blocco di
  metallo semplice e non-magico che non avrebbe fermato uno studente di Hogwarts
- al primo anno -- se avesse avuto ancora una bacchetta, se avesse avuto
- ancora la propria magia, cosa che i prigionieri non avevano.
+ al primo anno – se avesse avuto ancora una bacchetta, se avesse avuto ancora
+ la propria magia, cosa che i prigionieri non avevano.
  Quelle porte di metallo non erano le porte delle singole celle, aveva detto
  il professor Quirrell, ciascuna si apriva su di un corridoio in cui ci
  sarebbe stato un gruppo di celle.
@@ -852,6 +922,10 @@ Scesero un'altra rampa di scale, giungendo ancora più vicini alla Morte
  Fievole luce arancione proveniente dalle luci a gas, la tenue scintilla
  verde vagante per l'aria, la splendente figura che seguiva con la sua luce
  argentea che fluttuava di quando in quando.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -911,7 +985,7 @@ Vide un corridoio dritto che terminava nella solida pietra.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -919,7 +993,7 @@ Vide un corridoio dritto che terminava nella solida pietra.
 Non vedo nesssuno
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry.
@@ -934,11 +1008,11 @@ Un momento dopo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -946,7 +1020,7 @@ Un momento dopo
 Esssa è ssola
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò il serpente.
@@ -969,7 +1043,7 @@ La prima cella in cui Harry guardò conteneva un corpo disseccato, la pelle
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -997,7 +1071,7 @@ lasciata
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1064,7 +1138,7 @@ proteggesse Bellatrix Black dai Dissennatori
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1085,20 +1159,20 @@ Una gelida espressione salì sul volto di Harry, invisibile sotto il cappuccio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Salve, mia cara Bella
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse un gelido sussurro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti sono mancato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
