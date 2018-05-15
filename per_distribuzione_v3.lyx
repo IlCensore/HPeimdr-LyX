@@ -669,7 +669,7 @@ par
 \emph on
 Volume 
 \noun on
-ii
+iii
 \noun default
 
 \begin_inset Newline newline
@@ -1141,14 +1141,55 @@ status open
 
 
 \backslash
-pagestyle{myheadings}
+mainmatter
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-mainmatter
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Harry James Potter-Evans-Verres 
+\begin_inset Newline newline
+\end_inset
+
+e le ombre della morte
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{myheadings}
 \end_layout
 
 \end_inset
@@ -1169,7 +1210,7 @@ status open
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 openany
 \end_layout

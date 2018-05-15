@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{96}
@@ -65,16 +67,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans EB Garamond
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "EB Garamond"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -104,6 +108,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -118,7 +123,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -160,10 +168,11 @@ Per la seconda volta quel giorno, gli occhi di Harry si riempirono di lacrime.
  sue braccia.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -171,7 +180,7 @@ Per la seconda volta quel giorno, gli occhi di Harry si riempirono di lacrime.
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 
 \emph on
 Il quinto incontro
@@ -246,10 +255,10 @@ rrotto risentimento dei goblin per non essere autorizzati ad avere bacchette
 pattern matching
 \emph default
  e che il professor Flitwick aveva confermato a voce molto bassa.
- Lord Voldemort aveva ucciso i goblin così come i maghi -- una mossa incredibilm
-ente stupida da parte di Lord Voldemort, a meno che Harry non mancasse davvero
- qualche informazione -- ma di ciò che i goblin pensavano del Ragazzo-Che-È-Sopr
-avvissuto, Harry non aveva alcuna idea.
+ Lord Voldemort aveva ucciso i goblin così come i maghi – una mossa incredibilme
+nte stupida da parte di Lord Voldemort, a meno che Harry non mancasse davvero
+ qualche informazione – ma di ciò che i goblin pensavano del Ragazzo-Che-È-Sopra
+vvissuto, Harry non aveva alcuna idea.
  I goblin erano famosi per pagare ciò che dovevano e prendere ciò che pensavano
  fosse loro dovuto, oltre che per interpretare quei conti in un modo in
  qualche modo di parte.
@@ -269,16 +278,16 @@ Quel giorno le guardie che stavano dritte in armatura a intervalli regolari
 \begin_layout Standard
 
 \emph on
-Se capisco correttamente la natura umana -- e se ho ragione sul fatto che
+Se capisco correttamente la natura umana – e se ho ragione sul fatto che
  tutte le specie magiche umanoidi sono geneticamente esseri umani più un
- effetto magico ereditabile -- allora non è verosimile che diventiate amici
+ effetto magico ereditabile – allora non è verosimile che diventiate amici
  di un mago solo perché sono educato con voi, o dico che sono solidale con
  voi.
  Ma mi chiedo se sosterreste il Ragazzo-Che-È-Sopravvissuto in un tentativo
  di rovesciare il Ministero, se promettessi di revocare la Legge delle Bacchette
-, in seguito\SpecialChar \ldots{}
+, in seguito\SpecialChar ldots
  o se vi dessi silenziosamente delle bacchette, e libri di incantesi
-mi, in cambio del vostro sostegno\SpecialChar \ldots{}
+mi, in cambio del vostro sostegno\SpecialChar ldots
  è per questo che il segreto della fabbricazion
 e delle bacchette è riservato a persone come Ollivander? Sebbene se voi
  foste davvero umani, solo semplici umani, allora la nazione dei goblin
@@ -299,16 +308,16 @@ Un goblin anziano apparve di fronte a loro, e Harry inclinò la testa con
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non firmare nulla di ciò che Lucius Malfoy ti dà
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Malocchio Moody.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -324,28 +333,28 @@ Le meravigliose avventure del Ragazzo-Che-È-Sopravvissuto
  Gringotts.
  Se qualcuno ti porge una piuma d'oca, rompi la piuma e poi rompiti le dita.
  Devo essere più chiaro, figliolo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non particolarmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche noi abbiamo avvocati nella Gran Bretagna babbana, e loro pensano che
  i vostri avvocati siano graziosi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -434,39 +443,39 @@ Mi dispiace
 \begin_layout Standard
 Lucius Malfoy parlò per primo, la sua voce piatta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non comprendo ciò che sta succedendo a Hogwarts, Harry Potter.
  Le dispiacerebbe spiegarmelo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo so
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se comprendessi questi eventi non avrei permesso che accadessero, Lord Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora risponda a questa domanda.
@@ -475,7 +484,7 @@ Allora risponda a questa domanda.
 Chi è
 \emph default
  lei?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -484,11 +493,11 @@ Chi è
 \begin_layout Standard
 Harry fissò tranquillamente il volto del suo creditore.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono Tu-Sai-Chi, come lei pensava che fossi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -499,7 +508,7 @@ completo
 idiota, era infine riuscito a capire chi fosse colui con cui Lucius Malfoy
  aveva pensato di parlare di fronte al Wizengamot.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ovviamente non sono un ragazzo normale.
@@ -510,7 +519,7 @@ qualcosa
  a che fare con la faccenda del Ragazzo-Che-È-Sopravvissuto.
  Ma non so cosa, o perché, più di quanto sappia lei.
  Ho chiesto al Cappello Smistatore e neppure lui lo sapeva
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -519,7 +528,7 @@ qualcosa
 \begin_layout Standard
 Lucius Malfoy annuì assorto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono riuscito a pensare ad alcuna ragione per la quale avrebbe pagato
@@ -560,7 +569,7 @@ delirante demenza
 personalmente portato a termine
 \emph default
 , vorrei che lei mi spiegasse, e che lo facesse ora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -572,19 +581,19 @@ Harry si girò a guardare Draco, che lo guardò a sua volta con un volto che
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco Malfoy con una voce alta e vacillante, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 gradirei, sapere, perché, Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -593,7 +602,7 @@ gradirei, sapere, perché, Potter
 \begin_layout Standard
 Harry chiuse gli occhi, e parlò senza guardare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un ragazzo allevato da Babbani che pensava di essere intelligente.
@@ -609,19 +618,19 @@ Un ragazzo allevato da Babbani che pensava di essere intelligente.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi hai mentito.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -630,26 +639,26 @@ Mi hai mentito.
 \begin_layout Standard
 Harry aprì gli occhi e guardò Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Preferirei dire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry, con una voce non proprio salda, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che le cose che ti ho raccontato fossero vere da un certo punto di vista
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -657,14 +666,14 @@ che le cose che ti ho raccontato fossero vere da un certo punto di vista
 Un certo punto di vista?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Draco Malfoy sembrava arrabbiato proprio come Luke Skywalker aveva avuto
  il diritto di essere, e neppure dell'umore giusto per accettare le scuse
  di Kenobi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è una parola per le cose che sono vere da un certo punto di vista.
@@ -673,23 +682,23 @@ C'è una parola per le cose che sono vere da un certo punto di vista.
 bugie!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 O trucchi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Asserzioni che sono tecnicamente vere ma che ingannano l'ascoltatore facendogli
@@ -705,14 +714,14 @@ Asserzioni che sono tecnicamente vere ma che ingannano l'ascoltatore facendogli
 pensa
 \emph default
  di poterlo fare, e questo può essere quasi altrettanto brutto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu mi hai 
@@ -720,26 +729,26 @@ Tu mi hai
 usato
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco Malfoy.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti ho usato solo in modi che ti hanno reso più forte.
  È questo che significa essere usato da un amico.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -747,7 +756,7 @@ Ti ho usato solo in modi che ti hanno reso più forte.
 Addirittura io so che questa non è amicizia!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -756,16 +765,16 @@ Addirittura io so che questa non è amicizia!
 \begin_layout Standard
 Ora Lucius Malfoy parlò di nuovo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A quale scopo? A quale fine?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Persino la voce del Malfoy più anziano non era del tutto salda.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -773,7 +782,7 @@ A quale scopo? A quale fine?
 Perché?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -782,16 +791,16 @@ Perché?
 \begin_layout Standard
 Harry lo osservò per un momento, e poi si girò verso Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Probabilmente tuo padre non ci crederà
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma tu, Draco, dovresti essere in grado di capire che tutto ciò che è accaduto
@@ -803,46 +812,46 @@ Ma tu, Draco, dovresti essere in grado di capire che tutto ciò che è accaduto
  afferrare una ragazza nata babbana per impedirle di cadere dal tetto di
  Hogwarts, sarebbe stato un buon candidato di compromesso per guidare la
  Gran Bretagna magica dopo la riforma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Così vorrebbe che credessi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy con voce sottile, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che lei stia affermando di essere matto.
  Bene, lasciamo da parte tutto ciò.
  Mi dica chi ha aizzato quel troll contro Hogwarts
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo so
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dica chi 
@@ -850,14 +859,14 @@ Mi dica chi
 sospetta
 \emph default
 , Harry Potter.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho quattro sospettati.
@@ -865,15 +874,15 @@ Ho quattro sospettati.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -881,19 +890,19 @@ Ho quattro sospettati.
 Snape?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sbottò Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il secondo, ovviamente, è il Professore di Difesa di Hogwarts, giusto perché
  è il Professore di Difesa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -901,12 +910,12 @@ Il secondo, ovviamente, è il Professore di Difesa di Hogwarts, giusto perché
  Quirrell all'attenzione dei Malfoy nel caso in cui fosse innocente, ma
  Draco avrebbe potuto criticarlo per quello.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il terzo, non mi credereste su di lui.
  Il quarto è una categoria onnicomprensiva detta Ogni Altra Cosa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -920,7 +929,7 @@ E il quinto, Lord Voldemort, non penso che dovrei nominarglielo
 \begin_layout Standard
 Il viso di Lucius Malfoy si contorse in un ringhio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensa che non possa riconoscere l'esca sul suo amo? Mi dica di questa terza
@@ -930,7 +939,7 @@ Pensa che non possa riconoscere l'esca sul suo amo? Mi dica di questa terza
 giusta
 \emph default
 , e lasci stare i giochi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -939,7 +948,7 @@ giusta
 \begin_layout Standard
 Harry guardò fermamente Lord Malfoy.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una volta lessi un libro che non avrei dovuto leggere, e mi insegnò questo:
@@ -949,7 +958,7 @@ Una volta lessi un libro che non avrei dovuto leggere, e mi insegnò questo:
  Non mi sto fingendo riservato, sto osservando come sia semplicemente impossibil
 e, nella nostra attuale situazione, che io le parli del terzo sospettato,
  e le faccia credere che la mia storia sia qualcosa di diverso da un'esca
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -958,11 +967,11 @@ e, nella nostra attuale situazione, che io le parli del terzo sospettato,
 \begin_layout Standard
 Allora parlò Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È mio Padre, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -975,12 +984,12 @@ Harry rivolse a Draco un'espressione stupita.
 \begin_layout Standard
 Draco parlò pacatamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tu sospetti che mio Padre abbia mandato il troll dentro Hogwarts per attaccare
  Granger, o no? È questo quello che stai pensando, giusto?!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -996,17 +1005,17 @@ In effetti, no
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Capisco\SpecialChar \ldots{}
+Capisco\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry lentamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1016,13 +1025,13 @@ Ecco
  cos'è tutto questo.
  Lucius Malfoy dice pubblicamente che Hermione non se la caverà per ciò
  che ha fatto, e guarda un po', un troll la uccide
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Allora Harry sorrise, in una maniera che gli scoprì i denti.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E se io lo negassi qui, allora Draco, che non è un Occlumante, potrebbe
@@ -1033,14 +1042,14 @@ non
  sospetta Lucius Malfoy di aver mandato un troll dentro Hogwarts per uccidere
  Hermione Granger, votata alla Nobile Casa Potter, il cui debito di sangue
  è stato recentemente acquistato per centomila galeoni eccetera
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Harry si reclinò leggermente, sebbene il suo sgabello di legno non avesse
  uno schienale per farlo in maniera appropriata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma ora che è stato fatto notare, comprendo come sia molto ragionevole.
@@ -1050,18 +1059,18 @@ lei
 \emph default
  ha ucciso Hermione Granger, proprio come ha minacciato di fare di fronte
  all'intero Wizengamot
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non l'ho fatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy, ancora una volta senza espressione.
@@ -1070,7 +1079,7 @@ Non l'ho fatto
 \begin_layout Standard
 Harry scoprì nuovamente i propri denti in quel non-sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene allora, in 
@@ -1095,14 +1104,14 @@ incastrare Hermione per l'assassinio di Draco Malfoy
  o ha incolpato del tentato omicidio di suo figlio una ragazza innocente
  e mi ha preso tutto il denaro della mia famiglia con falsi pretesti, una
  di queste due cose deve essere vera
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse l'ha uccisa 
@@ -1110,7 +1119,7 @@ Forse l'ha uccisa
 lei
 \emph default
  sperando di riavere indietro il suo denaro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1118,7 +1127,7 @@ lei
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora 
@@ -1127,13 +1136,13 @@ io
 \emph default
  non avrei dato via il mio denaro per lei, tanto per cominciare.
  Come già sa.
- Non insulti la mia intelligenza, Lord Malfoy -- no, aspetti, mi scusi,
- lei doveva 
+ Non insulti la mia intelligenza, Lord Malfoy – no, aspetti, mi scusi, lei
+ doveva 
 \emph on
 dirlo
 \emph default
  nell'evenienza in cui Draco debb testimoniarlo, non importa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1144,24 +1153,24 @@ Lucius Malfoy si risedette sulla sua sedia e fissò.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho cercato di spiegarvelo, Padre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco sottovoce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma nessuno può immaginare Harry Potter prima di averlo effettivamente 
 \emph on
 incontrato
 \emph default
-\SpecialChar \ldots{}
+\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1170,20 +1179,20 @@ incontrato
 \begin_layout Standard
 Harry si batté un dito sulla guancia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi la gente sta iniziando a intuire ciò che è palesemente scontato?
  Sono sorpreso, in effetti.
  Non avrei predetto che ciò avvenisse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Ormai Harry aveva colto il ritmo generale del cinismo del professor Quirrell
  ed era capace di generarlo autonomamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non credevo che un quotidiano sarebbe stato capace di fornire un resoconto
@@ -1231,48 +1240,48 @@ x
  dimostrare che Lord Malfoy abbia ucciso Granger, potrebbe essere stato
  qualcun altro' a `Non puoi dimostrare che ci fosse qualcun altro che ha
  incastrato Granger', così fintanto che la situazione resta in bilico dovrebbero
- cercare di credere a entrambe le cose contemporaneamente\SpecialChar \ldots{}
+ cercare di credere a entrambe le cose contemporaneamente\SpecialChar ldots
  aspetti, ma lei
  non 
 \emph on
 possiede
 \emph default
  la Gazzetta del Profeta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La Gazzetta del Profeta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy con voce sottile, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che certamente non posseggo, è di gran lunga troppo rispettabile per pubblicare
  tale scurrile assurdità.
  Sfortunatamente, non tutti i maghi di un certo ascendente sono altrettanto
  ragionevoli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah.
  Capito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1282,33 +1291,33 @@ Ah.
 \begin_layout Standard
 Lucius gettò un'occhiata a Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Il resto di ciò che ha detto -- vi era qualcosa di importante?
-\begin_inset Quotes frd
+Il resto di ciò che ha detto – vi era qualcosa di importante?
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, Padre, non c'era.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, figliolo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1316,7 +1325,7 @@ Grazie, figliolo
  La sua voce, quando parlò, era qualcosa di più vicino alla sua solita parlata
  strascicata, gelida e sicura.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È possibile che io possa essere persuaso a mostrarle un certo favore, se
@@ -1325,7 +1334,7 @@ Grazie, figliolo
  Sarei disponibile a ridurre il suo restante debito verso Casa Malfoy in
  maniera piuttosto significativa, o persino a modificare i termini per permetter
 e una restituzione più in là nel futuro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1334,7 +1343,7 @@ e una restituzione più in là nel futuro
 \begin_layout Standard
 Harry osservò Lucius Malfoy con risolutezza.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lucius Malfoy.
@@ -1349,7 +1358,7 @@ Lucius Malfoy.
  Decidiamo di mandare al diavolo i ruoli che ci si aspetta che interpretiamo,
  e ci alleiamo l'uno con l'altro invece di combatterci.
  Potrebbe essere l'unica cosa che il nemico non si aspetta da noi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1361,7 +1370,7 @@ Ci fu un breve silenzio nella stanza, tranne per le due guardie goblin che
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei 
@@ -1369,14 +1378,14 @@ Lei
 è
 \emph default
  pazzo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse gelidamente Lucius Malfoy.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si chiama giustizia, Lord Malfoy.
@@ -1384,34 +1393,34 @@ Si chiama giustizia, Lord Malfoy.
  di Casa Potter in base a quelli che lei sa essere falsi pretesti.
  Comprendo come le fosse apparsa la situazione all'epoca, ma ora ne sa di
  più.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei non ha nulla da offrirmi che valga centomila galeoni.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ce l'ho?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry con distacco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chissà.
@@ -1419,13 +1428,13 @@ Chissà.
  lungo termine di Casa Malfoy di qualunque questione politica il Signore
  Oscuro fallito dell'ultima generazione abbia scelto come proprio chiodo
  fisso personale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Harry indirizzò un'occhiata molto significativa a Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La prossima generazione sta formando i propri schieramenti e sta stringendo
@@ -1433,12 +1442,12 @@ La prossima generazione sta formando i propri schieramenti e sta stringendo
  Suo figlio può essere escluso da tutto ciò, o collocarsi dritto in cima.
  Questo vale più per lei di quarantamila galeoni che non si aspettava in
  maniera particolare e di cui non ha bisogno in maniera particolare?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry fece un sorriso sottile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quarantamila galeoni.
@@ -1451,27 +1460,27 @@ Quarantamila galeoni.
  E io penso una cosa molto simile, Lord Malfoy.
  Qui non si tratta di me che agisco in maniera disperata.
  Qui si tratta di lei che ha una buona possibilità di essere giusto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fece Lord Malfoy.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E se rifiutassi la sua buona possibilità, che succederebbe allora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1480,7 +1489,7 @@ E se rifiutassi la sua buona possibilità, che succederebbe allora?
 \begin_layout Standard
 Harry scrollò le spalle.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dipende da che genere di governo di coalizione viene messo insieme senza
@@ -1490,39 +1499,39 @@ bbe la pace, le pagherò la somma con la piccola cassa.
  O forse i Mangiamorte saranno riprocessati per i crimini passati e messi
  a morte per questioni di giustizia, come risultato del necessario processo
  legale, naturalmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei è davvero pazzo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente Lucius Malfoy.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ha potere, non ha ricchezza, eppure dice cose simili a me
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, è stupido pensare che io possa spaventarla.
  Dopotutto, lei non è un Dissennatore.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1570,20 +1579,20 @@ Ultima possibilità di vivere, Lucius.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Padre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco a bassa voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Penso che dovreste prenderlo in considerazione, Padre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1592,18 +1601,18 @@ Penso che dovreste prenderlo in considerazione, Padre
 \begin_layout Standard
 Lucius Malfoy guardò suo figlio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stai scherzando
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dico sul serio.
@@ -1611,7 +1620,7 @@ Dico sul serio.
  scrivere tanto e c'erano cose là dentro che ho potuto verificare da solo.
  E anche se metà di tutto quello fosse vero, ha ragione, centomila galeoni
  non significheranno molto.
- Se li diamo a lui sarà davvero di nuovo amico di Casa Malfoy -- nel modo
+ Se li diamo a lui sarà davvero di nuovo amico di Casa Malfoy – nel modo
  in cui 
 \emph on
 lui
@@ -1622,7 +1631,7 @@ lui
  Harry Potter pensa davvero in questo modo.
  Non è una questione di soldi per lui, è una questione di quello che lui
  crede essere onore.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1633,17 +1642,17 @@ Harry Potter inclinò la testa, ancora sorridente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma diciamo chiaramente una cosa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, che ora lo stava fissando direttamente.
  C'era una luce feroce nei suoi occhi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1656,27 +1665,27 @@ Tu mi hai fatto torto
 tu mi sei debitore
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Riconosciuto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sommessamente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Subordinato alla parte restante, naturalmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1685,11 +1694,11 @@ Subordinato alla parte restante, naturalmente
 \begin_layout Standard
 Lucius Malfoy aprì la bocca per dire chissà cosa e poi la chiuse di nuovo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pazzo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse ancora.
@@ -1714,20 +1723,20 @@ Poi venne un'altra discussione tra Lucius e Draco, durante la quale Harry
 \begin_layout Standard
 Infine gli occhi di Lucius Malfoy si girarono per guardare Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E lei crede
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 di poter persuadere Longbottom e Bones ad acconsentire a questa idea, anche
  se Dumbledore vi si opponesse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1736,28 +1745,28 @@ di poter persuadere Longbottom e Bones ad acconsentire a questa idea, anche
 \begin_layout Standard
 Harry annuì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Saranno sospettosi del suo coinvolgimento, naturalmente.
  Ma dirò loro che era parte del mio piano sin dall'inizio, e questo dovrebbe
  essere d'aiuto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy dopo una pausa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 di poter far redigere un contratto, che la esimesse da 
@@ -1770,8 +1779,8 @@ quasi
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1781,11 +1790,11 @@ quasi
 Prontamente Harry mise la mano nelle proprie vesti e ne estrasse una pergamena,
  aprendola e spiegandola sul tavolo dorato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Me ne sono preso la libertà, in effetti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -1800,13 +1809,13 @@ Me ne sono preso la libertà, in effetti
  biasimo per i Malfoy, richiedeva solo poche righe in più che dirlo ad alta
  voce.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho dovuto promettere ai miei custodi di non firmare nulla che mi fosse dato
  da lei.
  Così mi sono assicurato di scriverlo da solo, e di firmare prima di uscire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1819,33 +1828,33 @@ Draco emise una risata strozzata.
 \begin_layout Standard
 Lucius lesse attentamente il contratto, sorridendo senza essere divertito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Deliziosamente schietto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho anche promesso di non toccare una piuma d'oca mentre ero dentro Gringotts
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  Infilò di nuovo la mano nelle vesti e ne estrasse una penna babbana, insieme
  a un foglio di normale carta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Andrà bene questa formulazione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry buttò giù rapidamente una dichiarazione simil-legale secondo cui
@@ -1856,7 +1865,7 @@ o di Hermione Granger e non pensava che vi avesse nulla a che fare, poi
 
 \begin_layout Standard
 Lord Malfoy osservò la carta, rovesciò appena gli occhi, e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Abbastanza bene, suppongo.
@@ -1873,20 +1882,20 @@ esonero
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bel tentativo, ma no.
  So esattamente cosa significa quella parola, Lord Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1898,34 +1907,34 @@ Bel tentativo, ma no.
 Quando Harry ebbe terminato, Lord Malfoy allungò la mano dall'altra parte
  del tavolo dorato e prese la penna, guardandola pensieroso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uno dei suoi artefatti babbani, suppongo? Questo cosa fa, figliolo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scrive senza bisogno di un calamaio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo posso vederlo.
  Suppongo che qualcuno possa trovarlo un ninnolo divertente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1940,36 +1949,36 @@ i a respirare regolarmente, non del tutto in grado di impedire ai propri
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il nostro buon amico, Severus Snape
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy, battendo ancora la penna sulla linea che attendeva
  la sua firma.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Professore di Difesa, che si fa chiamare Quirrell.
  Ora lo chiedo di nuovo, chi è il suo terzo sospettato, Harry Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le suggerirei fermamente di firmare prima, Lord Malfoy, se ha intenzione
  di farlo comunque.
  Beneficerà maggiormente di questa informazione se non penserà che sto cercando
  di convincerla di qualcosa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1978,12 +1987,12 @@ Le suggerirei fermamente di firmare prima, Lord Malfoy, se ha intenzione
 \begin_layout Standard
 Un altro sorriso senza divertimento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Correrò i miei rischi.
  Parli, se desidera che questo prosegua
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1991,11 +2000,11 @@ Correrò i miei rischi.
 
 \begin_layout Standard
 Harry esitò, poi disse inespressivo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il mio terzo sospettato è Albus Dumbledore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2004,47 +2013,47 @@ Il mio terzo sospettato è Albus Dumbledore
 \begin_layout Standard
 La penna battente si fermò sulla pergamena.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una strana accusa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius in maniera strascicata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dumbledore ha perso la faccia quando uno studente di Hogwarts è morto durante
  il suo mandato.
  Suppone che crederò a qualunque cosa su di lui, solo perché è mio nemico?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Egli è un sospettato tra molti, Lord Malfoy, e non necessariamente quello
  più verosimile.
  Ma la ragione per cui sono stato in grado di uccidere un troll di montagna
- adulto è stata che avevo un'arma che mi ha dato Dumbledore, all'inizio dell'anno
- scolastico.
+ adulto è stata che avevo un'arma che mi ha dato Dumbledore, all'inizio
+ dell'anno scolastico.
  Non è una prova forte, ma è sospetto.
  E se sta pensando che uccidere uno dei suoi studenti non sia nello stile
  di Dumbledore, beh, lo stesso pensiero è venuto anche a me.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2052,7 +2061,7 @@ Egli è un sospettato tra molti, Lord Malfoy, e non necessariamente quello
 Non è
 \emph default
  nel suo stile?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco Malfoy.
@@ -2061,40 +2070,40 @@ Non è
 \begin_layout Standard
 Lucius Malfoy scosse la testa con un movimento misurato e attento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non del tutto, figlio mio.
  Dumbledore è peculiare nelle sue malvagità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Lord Malfoy si appoggiò allo schienale della sedia, e poi rimase alquanto
  immobile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dica di questa arma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono sicuro che dovrei scendere nei dettagli in sua presenza, Lord Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Harry fece un respiro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lasci che 
@@ -2102,8 +2111,8 @@ Lasci che
 io
 \emph default
  sia chiaro su questo.
- Non sto cercando di venderle l'idea che Dumbledore sia dietro la cosa, sto
- soltanto sollevando la possibilità
+ Non sto cercando di venderle l'idea che Dumbledore sia dietro la cosa,
+ sto soltanto sollevando la possibilità
 \begin_inset space ~
 \end_inset
 
@@ -2126,16 +2135,16 @@ mbox{--»}
 \begin_layout Standard
 Allora parlò Draco Malfoy.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Il congegno che Dumbledore ti ha dato -- era qualcosa per uccidere i troll?
+Il congegno che Dumbledore ti ha dato – era qualcosa per uccidere i troll?
  Cioè, 
 \emph on
 solo
 \emph default
  i troll? Puoi dirci questo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2146,21 +2155,21 @@ Lucius girò la testa per osservare suo figlio con una certa sorpresa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-No\SpecialChar \ldots{}
+No\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse lentamente Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non era specificamente una spada ammazza-troll, o cose simili
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2169,11 +2178,11 @@ Non era specificamente una spada ammazza-troll, o cose simili
 \begin_layout Standard
 Gli occhi di Draco erano determinati.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il congegno sarebbe stato utile contro un sicario?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2186,22 +2195,22 @@ Non se avesse avuto i suoi scudi alti
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un combattimento a scuola?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2214,12 +2223,12 @@ Una roccia che si espande in gola è inerentemente letale
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No.
  Non penso che fosse pensato per essere usato contro degli umani
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2228,46 +2237,46 @@ No.
 \begin_layout Standard
 Draco annuì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora solo creature magiche.
  Sarebbe stata un'arma buona contro un Ippogrifo infuriato, o qualcosa di
  simile?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La Fattura Stordente funziona sugli Ippogrifi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese lentamente Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non lo so
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy.
@@ -2278,13 +2287,13 @@ Sì
 \emph on
 Paragonato a cercare di dirigere un Wingardium Leviosa e un Finite Incantatem
 \emph default
- -- 
-\begin_inset Quotes fld
+ – 
+\begin_inset Quotes cld
 \end_inset
 
 Allora una Fattura Stordente sarebbe stato un modo migliore per affrontare
  un Ippogrifo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2296,10 +2305,10 @@ solo
  contro una creatura magica di carne e sangue con pelle resistente agli
  incantesimi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ma\SpecialChar \ldots{}
+Ma\SpecialChar ldots
  voglio dire, potrebbe non essere stata 
 \emph on
 pensata
@@ -2309,24 +2318,24 @@ pensata
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse docilmente Lucius Malfoy.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2336,24 +2345,24 @@ Non
  un capriccio.
  Non una coincidenza.
  Non Dumbledore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora è lui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  Lentamente i suoi occhi si socchiusero, ed egli diede un assenso maligno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È stato lui 
@@ -2375,35 +2384,35 @@ ammesso
 \emph on
 sono
 \emph default
- scattate quando Granger mi ha lanciato la maledizione e Dumbledore le ha semplicem
-ente 
+ scattate quando Granger mi ha lanciato la maledizione e Dumbledore le ha
+ semplicemente 
 \emph on
 ignorate
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  fece Harry.
  Guardò Lucius, chiedendosi se fosse davvero a suo vantaggio mettere in
  dubbio questa idea.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quale sarebbe il suo 
@@ -2411,7 +2420,7 @@ Quale sarebbe il suo
 movente?
 \emph default
  Vogliamo dire che è malvagio e basta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2423,13 +2432,13 @@ Draco Malfoy saltò giù dalla sua sedia e iniziò a camminare a grandi passi
  le guardie goblin che lo fissavano un po' sorprese attraverso i loro oculari
  incantati.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per comprendere un piano strano, si deve osservare ciò che accade, e poi
  chiedersi chi ne beneficia.
- Solo che Dumbledore non aveva previsto che tu avresti cercato di salvare Granger
- al suo processo, cercò di impedirti di farlo.
+ Solo che Dumbledore non aveva previsto che tu avresti cercato di salvare
+ Granger al suo processo, cercò di impedirti di farlo.
  Cosa sarebbe accaduto se Granger 
 \emph on
 fosse
@@ -2446,24 +2455,24 @@ questo
 tutto
 \emph default
 .
- Colui che ha davvero commesso l'omicidio è -- Albus Dumbledore!
-\begin_inset Quotes frd
+ Colui che ha davvero commesso l'omicidio è – Albus Dumbledore!
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma perché dare 
@@ -2472,7 +2481,7 @@ a me
 \emph default
  un'arma anti-troll? Ho detto che era sospetto, non ho detto che avesse
  senso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2481,7 +2490,7 @@ a me
 \begin_layout Standard
 Draco annuì pensieroso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse Dumbledore ha pensato che avresti fermato il troll prima che arrivasse
@@ -2492,11 +2501,11 @@ Forse Dumbledore ha pensato che avresti fermato il troll prima che arrivasse
 tentato
 \emph default
  di fare una cosa simile, a Hogwarts.
- Come ha detto mio Padre, Dumbledore deve aver perso la faccia quando la gente
- ha saputo che uno studente è effettivamente morto a Hogwarts, la sua sicurezza
- è il motivo per cui Hogwarts è famoso.
+ Come ha detto mio Padre, Dumbledore deve aver perso la faccia quando la
+ gente ha saputo che uno studente è effettivamente morto a Hogwarts, la
+ sua sicurezza è il motivo per cui Hogwarts è famoso.
  Quindi quella parte probabilmente non sarebbe dovuta avvenire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2513,11 +2522,11 @@ La mente di Harry riandò involontariamente all'orrore negli occhi di Dumbledore
 Sarei arrivato là in tempo, se ai gemelli Weasley non fosse stata rubata
  la loro mappa magica? Poteva essere quello il piano? E poi, malgrado Dumbledore
  non lo sapesse, qualcuno ha rubato la loro mappa, e io sono arrivato troppo
- tardi\SpecialChar \ldots{}
+ tardi\SpecialChar ldots
  ma no, questo non ha molto senso, l'ho scoperto troppo tardi, come
- avrebbe potuto Dumbledore indovinare che avrei usato un manico di scopa\SpecialChar \ldots{}
- beh,
- sapeva che ne avevo uno\SpecialChar \ldots{}
+ avrebbe potuto Dumbledore indovinare che avrei usato un manico di scopa\SpecialChar ldots
+
+ beh, sapeva che ne avevo uno\SpecialChar ldots
 
 \end_layout
 
@@ -2538,15 +2547,15 @@ aspettare
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oppure
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò Draco Malfoy, ancora passeggiando energicamente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 forse Dumbledore aveva un troll incantato da qualche parte, e si aspettava
@@ -2560,28 +2569,28 @@ forse Dumbledore aveva un troll incantato da qualche parte, e si aspettava
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io posso immaginarlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy con toni bassi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho visto cose simili, da Dumbledore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2590,7 +2599,7 @@ Ho visto cose simili, da Dumbledore
 \begin_layout Standard
 Draco annuì con decisione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora nel primo piano non è mai stato 
@@ -2599,15 +2608,15 @@ previsto
 \emph default
  che io morissi.
  Dumbledore sapeva che il professor Quirrell mi stava controllando, o Dumbledore
- aveva previsto di farmi trovare in tempo da qualcun altro -- non avrei
- potuto testimoniare contro Granger da morto, e lui avrebbe perso la faccia
- se fossi morto.
+ aveva previsto di farmi trovare in tempo da qualcun altro – non avrei potuto
+ testimoniare contro Granger da morto, e lui avrebbe perso la faccia se
+ fossi morto.
  Ma che lasciassi Hogwarts e non fossi presente per guidare Serpeverde sarebbe
  stato un bene per lui.
  E allora la volta successiva Harry avrebbe dovuto fermare il troll prima
  che arrivasse a Granger e tutti avrebbero dovuto dare la colpa a voi, Padre,
  solo che questa volta non è andata come Dumbledore aveva previsto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2617,44 +2626,44 @@ previsto
 Lucius Malfoy alzò gli occhi, che avevano osservato con palese sorpresa
  suo figlio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Se questo è vero -- ma mi chiedo se Harry Potter stia solo fingendo di essere
+Se questo è vero – ma mi chiedo se Harry Potter stia solo fingendo di essere
  riluttante a crederci
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma sono abbastanza sicuro che non sia così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Allora, se è vero\SpecialChar \ldots{}
+Allora, se è vero\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  la voce di Lucius Malfoy si affievolì.
@@ -2662,7 +2671,7 @@ Allora, se è vero\SpecialChar \ldots{}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa 
@@ -2670,29 +2679,29 @@ Cosa
 dovremmo
 \emph default
  fare, esattamente?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Anche questo è chiaro, per me
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  Si girò verso di loro e sollevò un dito alto nell'aria.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Troveremo la prova per condannare Dumbledore per il suo crimine, e lo porteremo
  davanti alla giustizia!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2707,42 +2716,42 @@ Nessuno dei due sapeva esattamente cosa dire.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Figlio mio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy dopo un po' di tempo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 veramente, hai fatto molto bene in questo giorno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, Padre!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A ogni modo, questo non è un dramma, noi non siamo degli Auror, e non poniamo
  la nostra fiducia nei processi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2751,22 +2760,22 @@ A ogni modo, questo non è un dramma, noi non siamo degli Auror, e non poniamo
 \begin_layout Standard
 Un po' della luce si spense negli occhi di Draco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io, ah, in effetti ho un attaccamento sentimentale ai processi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , intervenne Harry.
@@ -2782,11 +2791,11 @@ davvero
 \emph default
  senso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E alle prove
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2798,24 +2807,24 @@ Lucius Malfoy rivolse il suo sguardo a Harry Potter, allora, e i suoi occhi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se lei mi ha ingannato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy con toni di cupa rabbia, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 se tutto questo è una bugia, allora non la perdonerò.
- Ma se questo non è un inganno\SpecialChar \ldots{}
+ Ma se questo non è un inganno\SpecialChar ldots
  Mi porti la prova per condannare Dumbledore
  per questo omicidio di fronte al Wizengamot, o indizi sufficienti per abbatterl
 o, e non ci sarà nulla che Casa Malfoy non farà per lei, Harry Potter.
  Nulla
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2830,84 +2839,84 @@ tempo
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se 
 \emph on
 fosse
 \emph default
- Dumbledore, allora rimuoverlo dal tavolo da gioco lascerebbe un enorme buco
- nella struttura di potere della Gran Bretagna
-\begin_inset Quotes frd
+ Dumbledore, allora rimuoverlo dal tavolo da gioco lascerebbe un enorme
+ buco nella struttura di potere della Gran Bretagna
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy con un sorriso lugubre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nutre ambizioni di riempirlo lei stesso, Harry Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Parte dei suoi oppositori potrebbero non gradirlo.
  Potrebbero combattere.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perderanno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy, ora con un volto duro come ferro.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora questo è quello che vorrei che Casa Malfoy facesse per me, Lord Malfoy,
  se Dumbledore dovesse essere rimosso a causa mia.
- Quando l'opposizione sarà più terrorizzata -- sarà allora che le verrà
- offerto un accordo dell'ultimo minuto per evitare una guerra civile.
+ Quando l'opposizione sarà più terrorizzata – sarà allora che le verrà offerto
+ un accordo dell'ultimo minuto per evitare una guerra civile.
  Alcuni dei suoi alleati potrebbero non gradirlo, ma ci saranno molti neutrali
  che saranno felici di vedere stabilità.
  L'accordo sarà che invece di subentrare subito lei, Draco Malfoy prenderà
  il potere quando diventerà maggiorenne.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2915,36 +2924,36 @@ Allora questo è quello che vorrei che Casa Malfoy facesse per me, Lord Malfoy,
 Cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Draco ha testimoniato sotto Veritaserum che ha cercato di aiutare Hermione
  Granger.
  Scommetto che ci sono molte persone nell'opposizione che correrebbero il
  rischio con lui piuttosto che combattere.
- Non sono sicuro di come esattamente potrebbe far rispettare l'accordo --
- Voti Infrangibili o contratti Gringotts o cos'altro -- ma ci sarà un qualche
+ Non sono sicuro di come esattamente potrebbe far rispettare l'accordo –
+ Voti Infrangibili o contratti Gringotts o cos'altro – ma ci sarà un qualche
  genere di accordo applicabile secondo cui il potere andrà a Draco dopo
  che si sarà diplomato da Hogwarts.
  Metterò ogni sostegno che il Ragazzo-Che-È-Sopravvissuto ha su quell'accordo.
  Cercherò di convincere Longbottom e Bones e così via.
  Il nostro primo piano apre la via per quello successivo, se starà attento
  ad agire onorabilmente quando tratterà con Longbottom e Bones, questa volta.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Padre, io 
@@ -2955,8 +2964,8 @@ giuro
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2965,26 +2974,26 @@ giuro
 \begin_layout Standard
 Il volto di Lucius si contorse in un sorriso lugubre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So che non l'hai fatto, figliolo.
  Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  L'uomo dalla chioma bianca fissò dall'altra parte della possente tavola
  dorata verso Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questi termini sono accettabili per me.
  Ma ometta qualunque parte del nostro accordo, che sia il nostro primo affare,
  o il secondo, e ci saranno delle conseguenze per lei, Harry Potter.
  Parole astute non le fermeranno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2992,6 +3001,10 @@ Questi termini sono accettabili per me.
 
 \begin_layout Standard
 E Lucius Malfoy firmò la pergamena.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -3038,11 +3051,11 @@ La porta si aprì di uno spiraglio e Harry Potter ne uscì camminando affaticato
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai firmato qualcosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese all'istante Malocchio.
@@ -3052,27 +3065,27 @@ Hai firmato qualcosa?
 Harry Potter lo guardò in silenzio, poi mise la mano nelle sue vesti e ne
  estrasse una pergamena ripiegata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I goblin lo stanno già eseguendo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ne hanno fatto tre copie prima che uscissi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3083,8 +3096,8 @@ Merlino lo maledica figliolo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Moody si fermò quando il suo Occhio colse la seconda metà del documento
@@ -3095,7 +3108,7 @@ Merlino lo maledica figliolo
  E poi Moody esplose, proprio mentre anche la metà superiore del documento
  iniziò a entrare nella sua Vista.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai 
@@ -3115,8 +3128,8 @@ cosa
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
