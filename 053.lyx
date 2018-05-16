@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{52}
@@ -51,6 +53,9 @@
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+%\newfontfamily\serpentese{Alegreya}
+\newfontfamily\serpentese{Adobe Jenson Pro}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -62,18 +67,20 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman OFL Sorts Mill Goudy
-\font_sans Linux Biolinum O
-\font_typewriter Inconsolata
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Old Standard TT"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -82,16 +89,26 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -106,7 +123,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -139,24 +159,25 @@ name "chap:53SPE-p3"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Il cadavere di una donna aprì gli occhi, e i globi oculari, spenti e sprofondati
-, guardarono fuori verso il nulla.
+, guardarono il nulla.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pazza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Bellatrix mormorò con una voce rotta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sembra che la piccola Bella stia diventando pazza…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -164,15 +185,15 @@ sembra che la piccola Bella stia diventando pazza…
 
 \begin_layout Standard
 Il professor Quirrell aveva istruito Harry, con calma e precisione, su come
- avrebbe dovuto comportarsi in presenza di Bellatrix; come dare forma alla
- messinscena che avrebbe mantenuto nella sua mente.
+ avrebbe dovuto comportarsi in presenza di Bellatrix; su come dare forma
+ alla finzione che avrebbe mantenuto nella sua mente.
 \end_layout
 
 \begin_layout Standard
 
 \emph on
 Lei ha trovato opportuno, o forse semplicemente divertente, far innamorare
- Bellatrix di sé, per legarla al suo servizio.
+ Bellatrix di sé, per vincolarla al suo servizio.
 \end_layout
 
 \begin_layout Standard
@@ -203,7 +224,7 @@ Harry lo ricordò dalla notte in cui il Signore Oscuro uccise i suoi genitori:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spero che tu 
@@ -211,19 +232,19 @@ Spero che tu
 non sia
 \emph default
  pazza, Bella cara
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il gelido sussurro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Pazza non è utile
-\begin_inset Quotes frd
+Pazza non è utile.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -232,12 +253,12 @@ La palpebre di Bellatrix batterono, e gli occhi cercarono di mettere a fuoco
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mio… Signore… l'ho attesa, ma lei non è venuta… l'ho cercata ma non l'ho
  potuta trovare… lei è vivo…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Tutte le sue parole uscirono in un borbottio basso, se c'era dell'emozione
@@ -245,15 +266,39 @@ Mio… Signore… l'ho attesa, ma lei non è venuta… l'ho cercata ma non l'ho
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
-Mosstrale il tuo visso
+Mosstrale tuo visso
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò il serpente ai piedi di Harry.
@@ -274,47 +319,48 @@ Ti salverò, ti salverò a tutti i costi…
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quella cicatrice…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  mormorò Bellatrix.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quel bambino…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Così pensano ancora tutti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry, ed emise una risatina sommessa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi hai cercato nel luogo sbagliato, Bella cara
-\begin_inset Quotes frd
+Mi hai cercato nel luogo sbagliato, Bella cara.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -349,12 +395,17 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -362,7 +413,7 @@ status open
 Mosstrale il tuo visso
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò il serpente ai piedi di Harry.
@@ -377,20 +428,20 @@ Harry gettò all'indietro il cappuccio del Mantello dell'Invisibilità.
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quella cicatrice…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  mormorò Bellatrix.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quel bambino…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -399,20 +450,20 @@ Quel bambino…
 \begin_layout Plain Layout
 
 \size footnotesize
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Così pensano ancora tutti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry, ed emise una risatina sommessa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi hai cercato nel luogo sbagliato, Bella cara
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -448,7 +499,20 @@ Gli occhi di Bellatrix rimasero fissi su Harry, non disse una parola.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -456,7 +520,18 @@ Gli occhi di Bellatrix rimasero fissi su Harry, non disse una parola.
 Di' qualcossa in Sserpentesse
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò il serpente.
@@ -465,18 +540,42 @@ Di' qualcossa in Sserpentesse
 \begin_layout Standard
 Il viso di Harry si voltò verso il serpente, per rendere palese che si stava
  rivolgendo a lui, e sibilò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 Uno due tre quattro cinque ssei ssette otto nove dieci
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -484,11 +583,11 @@ Ci fu una pausa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Coloro che non temono le tenebre…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  mormorò Bellatrix.
@@ -496,26 +595,50 @@ Coloro che non temono le tenebre…
 
 \begin_layout Standard
 Il serpente sibilò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 Ssaranno conssumati da essse
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Saranno consumati da esse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la voce gelida.
@@ -523,54 +646,54 @@ Saranno consumati da esse
  fosse entrato in possesso di quella parola d'ordine.
  Il suo cervello, che ci pensò comunque, suggerì che probabilmente aveva
  implicato un Mangiamorte, un posto silenzioso e isolato, e un po' di Legilimanz
-ia su di un tubo di piombo.
+ia a forma di tubo di piombo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La sua bacchetta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , mormorò Bellatrix, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 la presi dalla casa dei Potter e la nascosi, mio signore… sotto la lapide
  alla destra della tomba di suo padre… mi ucciderà, ora, se questo era tutto
  ciò che desiderava da me… penso di aver sempre desiderato che fosse lei
- colui che mi avrebbe ucciso… ma non riesco a ricordarlo ora, deve essere
- stato un pensiero felice…
-\begin_inset Quotes frd
+ a uccidermi… ma non riesco a ricordarlo ora, dev'essere stato un pensiero
+ felice…
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Il cuore di Harry ne fu straziato, era insopportabile, e -- e non poteva
+Il cuore di Harry ne fu straziato, era insopportabile, e – e non poteva
  piangere, non poteva lasciare che il suo Patronus svanisse
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Il volto di Harry mostrò un baluginio di fastidio, e la sua voce fu tagliente
  mentre disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Basta sciocchezze.
  Devi venire con me, Bella cara, a meno che tu non preferisca la compagnia
- dei Dissennatori
-\begin_inset Quotes frd
+ dei Dissennatori.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -579,7 +702,20 @@ Il viso di Bellatrix si contrasse brevemente per la perplessità, le membra
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -587,27 +723,75 @@ Il viso di Bellatrix si contrasse brevemente per la perplessità, le membra
 Avrai bissogno di portarla fuori levitando
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry al serpente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Non può più pensare di fuggire
+Non può più penssare di fuggire
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -615,38 +799,100 @@ Non può più pensare di fuggire
 Ssì
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò il serpente, 
 \emph on
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-ma non ssottovalutarla, era la più letale dei guerrieri
+
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
+
+\emph on
+ma non ssottovalutarla, era più letale dei guerrieri
+\emph default
 .
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
+\end_inset
+
  La testa verde si abbassò in segno di avvertimento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 Ssarebbe ssaggio temere me, ragazzo, anche sse fosssi affamato e morto per
  nove-decimi; sstai attento a lei, non permettere anche una ssola imperfezione
- nella tua ssimulazione
+ in tua ssimulazione
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -659,37 +905,37 @@ E poco dopo, un uomo con la pelle giallognola e un'espressione ansiosa sul
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mio Signore?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il servitore incerto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fa' come ti è stato detto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , il Signore Oscuro sussurrò con quella gelida voce, che suonava ancora
  più terribile proveniente dal corpo di un bambino.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E non lasciare che il tuo Patronus vacilli.
  Ricorda, se non ritorno non ci sarà ricompensa per te, e passerà molto
- tempo prima che alla tua famiglia sia permesso morire
-\begin_inset Quotes frd
+ tempo prima che alla tua famiglia sia permesso morire.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -699,10 +945,10 @@ Dopo aver pronunciato quelle terribili parole, il Signore Oscuro rimise
 
 \begin_layout Standard
 Il servitore tremante aprì la porta della cella di Bellatrix, ed estrasse
- dalle proprie vesti un piccolo ago col quale pungolò lo scheletro umano.
+ dalle proprie vesti un piccolo ago col quale punse lo scheletro umano.
  La singola goccia di sangue rosso che ne fuoriuscì fu presto assorbita
  da una piccola bambola, che fu distesa sul pavimento, e il servitore iniziò
- a ripetere una cantilena sussurrata.
+ a ripetere una cantilena sommessa.
 \end_layout
 
 \begin_layout Standard
@@ -718,7 +964,7 @@ Presto un altro scheletro vivente giaceva sul pavimento, immobile.
 Il servitore strappò una piccola striscia di tessuto dal vestito, mentre
  giaceva sul cadavere apparente; e dalle proprie vesti, l'uomo timoroso
  estrasse allora una fiaschetta di vetro vuota con piccole tracce di fluido
- dorato appiccicate al suo interno.
+ dorato rimaste al suo interno.
  La fiaschetta fu nascosta in un angolo, e il lembo della gonna disposta
  su di essa, il tessuto sbiadito che quasi si mischiava al muro di grigio
  metallo.
@@ -740,13 +986,14 @@ Poi il servitore rese Bellatrix invisibile, e rese sé stesso invisibile,
  La porta si chiuse dietro di loro e produsse un clic mentre si serrò, gettando
  nuovamente il corridoio nell'oscurità, immutato se non per una piccola
  fiaschetta nascosta nell'angolo di una cella, e un cadavere fresco che
- giaceva sul suo pavimento.
+ giaceva sul pavimento.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -761,7 +1008,7 @@ In precedenza, nel negozio deserto, il professor Quirrell aveva raccontato
 
 \begin_layout Standard
 Senza pensarci, Harry aveva iniziato a ripetere il solito proverbio secondo
- cui non c'erano cose come un crimine perfetto, prima di pensarci effettivamente
+ cui il crimine perfetto non esisteva, prima di pensarci effettivamente
  per due-terzi di un secondo, ricordare un proverbio più saggio, e chiudere
  la bocca a metà frase.
 \end_layout
@@ -777,12 +1024,12 @@ Se
 \emph on
 avessi
 \emph default
- commesso il crimine perfetto, nessuno l'avrebbe mai scoperto -- quindi
- com'era possibile che qualcuno 
+ commesso il crimine perfetto, nessuno l'avrebbe mai scoperto – quindi com'era
+ possibile che qualcuno 
 \emph on
 sapesse
 \emph default
- che non c'erano crimini perfetti?
+ che non esistevano crimini perfetti?
 \end_layout
 
 \begin_layout Standard
@@ -798,7 +1045,7 @@ continuamente
 
 \begin_layout Standard
 Quando il corpo di Bellatrix Black fu trovato morto nella sua cella la mattina
- dopo, lì all'interno della prigione di Azkaban da cui (tutti lo sapevano)
+ dopo, all'interno della prigione di Azkaban da cui (tutti lo sapevano)
  nessuno era mai evaso, nessuno si preoccupò di effettuare un'autopsia.
  Nessuno ci pensò due volte.
  Semplicemente chiusero il corridoio e se ne andarono, e la 
@@ -809,7 +1056,7 @@ Gazzetta del Profeta
 \end_layout
 
 \begin_layout Standard
-… quello fu il crimine perfetto che il professor Quirrell aveva progettato.
+… quello era il crimine perfetto che il professor Quirrell aveva progettato.
 \end_layout
 
 \begin_layout Standard
