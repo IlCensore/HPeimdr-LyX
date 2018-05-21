@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{32}
@@ -57,16 +59,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Griffy
-\font_typewriter Inconsolata
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Griffy"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -77,16 +81,26 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -97,7 +111,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
@@ -128,13 +145,21 @@ addcontentsline{toc}{chapter}{Un messaggio dell'autore}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align left
 
 \emph on
-Avvertenza: J.K.
+Avvertenza: J.
+\begin_inset space \thinspace{}
+\end_inset
+
+K.
  Rowling detiene i diritti di Harry Potter, e nessuno detiene i diritti
  dei metodi della razionalità.
 \end_layout
@@ -147,8 +172,8 @@ Avvertenza: J.K.
 \end_layout
 
 \begin_layout Standard
-È ampiamente ritenuto che questa narrazione inizi ad ingranare a partire
- dal capitolo 5 circa.
+È ampiamente ritenuto che questa storia inizi ad ingranare a partire dal
+ capitolo 5 circa.
  Se non vi piace ancora dopo il capitolo 10, lasciate stare.
 \end_layout
 
@@ -157,14 +182,14 @@ Questa storia
 \emph on
 non è
 \emph default
- una narrazione con un singolo punto di divergenza -- esiste un punto primario
+ una narrazione con un singolo punto di divergenza – esiste un punto primario
  di distacco, in qualche momento del passato, ma anche altre alterazioni.
  La migliore definizione che ho sentito per questa storia è 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 universo parallelo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -180,8 +205,8 @@ Cambiamenti rispetto all'universo originale di Harry Potter possono avvenire
 \end_layout
 
 \begin_layout Enumerate
-cambiamenti derivanti dal punto di distacco -- un evento avvenuto differentement
-e, in qualche punto nel passato.
+cambiamenti derivanti dal punto di distacco – un evento avvenuto differentemente
+, in qualche punto nel passato.
  Ad esempio, pare che Petunia abbia sposato uno scienziato;
 \end_layout
 
@@ -191,8 +216,8 @@ cambiamenti che livellano le cuciture dell'universo.
  deciso che ci fosse una sistematica e sicura maledizione sulla cattedra
  di Difesa.
  Ma ovviamente, se la maledizione fosse davvero operante da decenni, tutti
- l'avrebbero notata e asi sarebbero aspettati che qualcosa andasse male
- col professor Quirrell;
+ l'avrebbero notata e si sarebbero aspettati che qualcosa andasse male col
+ professor Quirrell;
 \end_layout
 
 \begin_layout Enumerate
@@ -218,12 +243,12 @@ cambiamenti dovuti al fatto che questo non è un libro per bambini.
  domestico di una famiglia di maghi nemici.
  In un libro per bambini, questo può essere accettato incidentalmente.
  In una storia per adulti, significherebbe che Pettigrew si sta comportando
- in maniera molto idiota.
+ in maniera molto stupida.
  È una regola generale dei 
 \emph on
 Metodi della razionalità
 \emph default
- che nessuno si comporti in maniera molto idiota;
+ che nessuno si comporti in maniera molto stupida;
 \end_layout
 
 \begin_layout Enumerate
@@ -233,7 +258,7 @@ cambiamenti risultanti dalla filosofia generale di innalzare gli ostacoli
 \emph on
 Calice di Fuoco
 \emph default
-, c'è un punto in cui l'Harry del canone affronta sulla scopa volate un
+ c'è un punto in cui l'Harry del canone affronta sulla scopa volante un
  drago chiamato Ungaro Spinato… che nel capitolo 16 dei 
 \emph on
 Metodi
@@ -244,20 +269,37 @@ Metodi
  Ma del resto il Torneo Tre Maghi non potrebbe affatto aver luogo nello
  stesso modo in questo universo, perché questa non è una storia per bambini,
  e in una storia per adulti quel piano richiederebbe che Lord Voldemort
- si stesse comportando in maniera esponenzialmente idiota;
+ si stesse comportando in maniera esponenzialmente stupida;
 \end_layout
 
 \begin_layout Enumerate
 cambiamenti che sono necessari per renderla completa dal punto di vista
- artistica se vista sullo sfondo della fanfiction di Harry Potter, come
- includere almeno una relazione completamente sbagliata.
+ artistico se messa a confronto con le altre 
+\emph on
+fanfiction
+\emph default
+ di Harry Potter, come includere almeno una relazione completamente sbagliata.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Il testo contiene molti indizi: indizi ovvi, indizi non così ovvi, accenni
- realmente oscuri che sono stato scioccato quando alcuni lettori li hanno
- decodificati con successo, e una gran massa di prove lasciate in piena
- vista.
+ davvero tanto oscuri che sono stato scioccato quando alcuni lettori li
+ hanno decodificati con successo, e una gran massa di prove lasciate in
+ piena vista.
  Questa è una narrazione razionalista; i suoi misteri sono risolubili, e
  sono pensati per essere risolti.
 \end_layout
@@ -268,7 +310,7 @@ Tutta la scienza menzionata è scienza vera.
  di vista dei personaggi possono non essere quelli dell'autore.
  Non tutto quello che il protagonista fa è una lezione di saggezza, e un
  suggerimento offerto da un personaggio più oscuro può essere inaffidabile
- o pericolosamente a doppia lama.
+ o pericoloso.
 \end_layout
 
 \end_body

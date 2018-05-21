@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -73,16 +75,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Utopia Std
-\font_sans Berylium
-\font_typewriter Cronos Pro
+\font_roman "default" "Utopia Std"
+\font_sans "default" "Berylium"
+\font_typewriter "default" "Cronos Pro"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -93,16 +97,26 @@ initials
 \use_hyperref false
 \papersize custom
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date true
+\justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -117,7 +131,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -155,15 +172,22 @@ textit{Harry Potter e i metodi della razionalità}}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Andatevi a leggere un po' delle magnifiche `fanfic' o `narrativa prodotta
- da fan' che ci sono lì fuori.
+Andatevi a leggere un po' delle magnifiche ``fanfic'' o ``narrativa prodotta
+ da fan'' che ci sono lì fuori.
  Ecco un grande esempio: il romanzo / la serie ancora in corso del futurista
  / studioso Eliezer Yudkowsky, che è sia un tributo sia una decostruzione
- dell'universo fantastico di J.K.
- Rowling.
+ dell'universo fantastico di J.
+\begin_inset space \thinspace{}
+\end_inset
+
+K.
+\begin_inset space \thinspace{}
+\end_inset
+
+Rowling.
  
 \emph on
 \noun on
@@ -174,12 +198,12 @@ Harry Potter e i metodi della razionalità
  ma anche nelle arti magiche babbane della matematica e della scienza.
  Oh, e i suoi genitori adottivi invece di essere dei cattivi stupidi o da
  cartone animato, sono saggi, decenti e intelligenti.
- (In altre parole, Dumbledore non ha commesso un orrendo crimine, ma lo ha
- affidato alle cure dei migliori babbani che potesse trovare, eh?) Il risultato
- è un prodigio undicenne ferocemente brillante, logico e immaturo in maniera
- esasperante, che è leale alla scienza, al progresso e all'Illuminismo,
- lasciato libero di agire nella povera Scuola di Hogwarts, votato a raddrizzare
- la corrotta, orrenda e insulare società della Gran Bretagna magica.
+ (In altre parole, Dumbledore non ha commesso un orrendo crimine, ma lo
+ ha affidato alle cure dei migliori babbani che potesse trovare, eh?) Il
+ risultato è un prodigio undicenne ferocemente brillante, logico e immaturo
+ in maniera esasperante, che è leale alla scienza, al progresso e all'Illuminism
+o, lasciato libero di agire nella povera Scuola di Hogwarts, votato a raddrizzar
+e la corrotta, orrenda e insulare società della Gran Bretagna magica.
 \end_layout
 
 \begin_layout Standard
@@ -193,7 +217,7 @@ Mi è piaciuto soprattutto sentire i ritmi vocali di Maggie Smith nei dialoghi
  E mi è (ovviamente) piaciuta parecchio la mancanza di rispetto per Yoda!
  Yudkowsky ne capisce, e parecchio.
  Ragazzo intelligente, buono scrittore.
- Pone domande estremamente formidabili che anche io avevo pensato\SpecialChar \ldots{}
+ Pone domande estremamente formidabili che anche io avevo pensato\SpecialChar ldots
  e molte
  alle quali non avevo pensato.
  Mi sono goduto tutti i riferimenti all'Illuminismo.
@@ -202,14 +226,14 @@ Mi è piaciuto soprattutto sentire i ritmi vocali di Maggie Smith nei dialoghi
 \begin_layout Standard
 Vorrei che tutti gli appassionati di Potter entrassero in quel mondo, e
  si cimentassero con una storia più vasta, più audace e più impegnativa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \begin_inset space ~
 \end_inset
 
----
+—
 \begin_inset space ~
 \end_inset
 
@@ -225,12 +249,12 @@ status collapsed
 
 \begin_layout Plain Layout
 David Brin, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-A secret of college live\SpecialChar \ldots{}
+A secret of college live\SpecialChar ldots
  plus controversies and science!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -266,7 +290,7 @@ url{http://davidbrin.blogspot.it/2010/06/secret-of-college-life-plus.html}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh Thoth Trismegisto, oh Ma’at, oh Ganesha, oh dolce signora Eris… Non avevo
@@ -276,19 +300,19 @@ Oh Thoth Trismegisto, oh Ma’at, oh Ganesha, oh dolce signora Eris… Non avevo
 \begin_layout Standard
 Eliezer Yudkowsky è una delle persone più intelligenti che abbia incontrato
  in tutta una vita alla ricerca di pensatori che andassero dal livello 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 dotato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  a quello 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 genio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , perché le persone che non lo sono di solito mi annoiano abbastanza velocemente.
@@ -314,15 +338,15 @@ Leggetelo e ridete.
  Leggetelo e imparate.
  Eliezer reinventa Harry Potter come un genio scettico che si assegna il
  compito di capire come funziona tutta questa 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 magia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
- La scienza è reale -- sarebbe molto più difficile spiegare una trasformazione
+ La scienza è reale – sarebbe molto più difficile spiegare una trasformazione
  da un essere umano in un gatto che la semplice levitazione, per esempio.
  Che Harry, messo di fronte ad un dispositivo magico per i viaggi temporali,
  sia immediatamente terrorizzato dall'idea di reggere in mano una bomba
@@ -342,7 +366,7 @@ Ma i personaggi non sono sminuiti.
 \begin_inset space ~
 \end_inset
 
----
+—
 \begin_inset space ~
 \end_inset
 
@@ -363,11 +387,11 @@ status collapsed
 \begin_layout Plain Layout
 Eric S.
  Raymond, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry Potter and the Methods of Rationality
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -405,7 +429,7 @@ url{http://esr.ibiblio.org/?p=2100}
 \begin_layout Standard
 
 \noun on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -433,11 +457,11 @@ lo.
 \noun default
  Leggetelo, sul serio.
  Cambierà il vostro modo di guardare il mondo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
- ---
+ —
 \begin_inset space ~
 \end_inset
 
@@ -452,11 +476,11 @@ Aaron
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 An Interview with Rachel Aaron
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -494,7 +518,7 @@ url{http://civilian-reader.blogspot.it/2011/05/interview-with-rachel-aaron.html}
 \begin_layout Standard
 
 \noun on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -516,11 +540,11 @@ Questo è un libro il cui titolo mi fa ancora ridere, eppure potrebbe rivelarsi
 Come dice all'inizio, bisogna davvero dargli un paio di capitoli per carburare
  prima di giudicarlo — i primi sono piuttosto stupidi e non sembra che valga
  la pena continuare prima di averli superati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
- ---
+ —
 \emph on
 
 \begin_inset space ~
@@ -537,11 +561,11 @@ Swartz
 status open
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 The 2011 Review of Books
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 

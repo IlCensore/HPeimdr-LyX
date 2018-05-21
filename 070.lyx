@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -86,13 +86,15 @@ initials
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
-\default_output_format pdf2
+\default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -120,6 +122,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -135,7 +138,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -174,17 +180,17 @@ Anche se eri stata la Vicepreside per tre decenni, e prima ancora un Professore
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 \SpecialChar ldots
  Susan Bones, Lavender Brown, e Daphne Greengrass
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , terminò Minerva.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovrei anche notare, Albus, che il racconto della signorina Granger circa
@@ -198,7 +204,7 @@ interesse
  Molte delle quali sono venute da me a chiedere se le accuse della signorina
  Granger fossero vere, poiché la signorina Granger aveva detto che io ero
  presente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -211,17 +217,17 @@ Il vecchio mago si appoggiò allo schienale della sua enorme sedia, continuando
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo mi ha messo di fronte a un dilemma, Albus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
  Il suo volto rimase piuttosto neutro, si assicurò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ora so che non intendevi realmente scoraggiare la ragazza.
@@ -238,19 +244,19 @@ non avessi
 \emph default
  saputo che stavi deliberatamente manipolando la signorina Granger, sarei
  stata piuttosto arrabbiata
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io\SpecialChar ldots
  capisco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse lentamente il vecchio mago.
@@ -259,31 +265,31 @@ Io\SpecialChar ldots
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Fortunatamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò la professoressa McGonagall, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 fino a questo momento le professoresse Sinistra e Vector sono gli unici
  membri del corpo insegnanti che indossano le spille della signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spille?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ripeté il vecchio mago.
@@ -301,7 +307,7 @@ s.p.u.e.s
 E le voci di Hermione Granger, Padma Patil, Parvati Patil, Lavender Brown,
  Susan Bones, Hannah Abbott, Daphne Greengrass, e Tracey Davis gridarono
  in unisono, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -309,7 +315,7 @@ E le voci di Hermione Granger, Padma Patil, Parvati Patil, Lavender Brown,
 Non vogliamo commiserazione, date a una strega la sua missione!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -317,7 +323,7 @@ Non vogliamo commiserazione, date a una strega la sua missione!
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -327,7 +333,7 @@ We won't settle for second best, it's time to give a witch a quest!
 \emph default
 \color inherit
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -339,7 +345,7 @@ We won't settle for second best, it's time to give a witch a quest!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La signorina Granger le sta vendendo per due sicli, e mi ha detto che finora
@@ -347,31 +353,31 @@ La signorina Granger le sta vendendo per due sicli, e mi ha detto che finora
  Credo che Nymphadora Tonks, nel settimo anno di Tassofrasso, le stia incantando
  per lei.
  Per concludere il mio rapporto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse bruscamente la professoressa McGonagall, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 le nostre otto eroine nuove di zecca hanno chiesto il permesso di organizzare
  una manifestazione di protesta fuori dall'ingresso del tuo ufficio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus, accigliandosi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che tu abbia spiegato loro che
@@ -379,18 +385,18 @@ che tu abbia spiegato loro che
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho spiegato loro che mercoledì alle 19 sarebbe stato perfetto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Minerva.
@@ -399,16 +405,16 @@ Ho spiegato loro che mercoledì alle 19 sarebbe stato perfetto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Minerva?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il vecchio mago da dietro di lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -416,7 +422,7 @@ Minerva?
 Minerva!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -519,12 +525,12 @@ o, e anche perché era sembrato infinitamente orribile dire a tutti che stava
 diceva
 \emph default
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E rifiutarono di arrendersi, indipendentemente da quanto sarebbe stato giudizios
 o farlo, perché sarebbe stato troppo imbarazzante
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ; ma gran parte degli eventi storici avevano molto più senso così.
@@ -590,7 +596,7 @@ Hermione sollevò il suo cartello di protesta un po' più in alto e si concentr�
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -598,12 +604,12 @@ Hermione sollevò il suo cartello di protesta un po' più in alto e si concentr�
 Davvero?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la signorina Preece con un tono di malcelata fascinazione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non potevano 
@@ -611,18 +617,18 @@ Non potevano
 votare?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Proprio così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa Sinistra.
@@ -632,18 +638,18 @@ Proprio così
 avrebbe
 \emph default
  stimato che la sua età fosse intorno ai settanta, se non fosse che –) 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ricordo bene mia madre che gioiva quando annunciarono il Qualification of
  Women Act, sebbene ella non avesse i requisiti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  (Il che significava che la professoressa Sinistra era stata con la sua
  famiglia babbana nel 1918.) 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E questa non è la cosa peggiore.
@@ -652,7 +658,7 @@ E questa non è la cosa peggiore.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -665,7 +671,7 @@ Trenta secondi dopo tutti i non-Nati babbani, maschi e femmine insieme,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E neppure 
@@ -673,32 +679,32 @@ E neppure
 questa
 \emph default
  è la cosa peggiore, nemmeno lontanamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , terminò la professoressa Sinistra.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma capite dove questo genere di cose può potenzialmente portare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che Merlino ci aiuti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Penelope Clearwater con una voce strozzata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vuol dire che 
@@ -707,14 +713,14 @@ questo
 \emph default
  è il modo in cui gli uomini ci tratterebbero se non avessimo le bacchette
  per difenderci?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -722,12 +728,12 @@ questo
 Ehi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse uno dei prefetti.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è 
@@ -739,7 +745,7 @@ così
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -751,7 +757,7 @@ Ci fu una breve risata sardonica proveniente dalla direzione del professor
  Quando Hermione girò la testa per guardare, vide che il Professore di Difesa
  stava ancora distrattamente giocando con la spilla, senza darsi la pena
  di alzare lo sguardo su tutti loro, mentre diceva, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tale è la natura umana, signorina Clearwater.
@@ -761,18 +767,18 @@ voi
 \emph default
  non sareste più gentili, se le streghe avessero le bacchette e gli uomini
  ne fossero sprovvisti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ne dubito decisamente!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sbottò la professoressa Sinistra.
@@ -781,7 +787,7 @@ Ne dubito decisamente!
 \begin_layout Standard
 Una risatina gelida.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sospetto che accada più frequentemente di quanto chiunque osi suggerire,
@@ -795,14 +801,14 @@ Sospetto che accada più frequentemente di quanto chiunque osi suggerire,
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -810,27 +816,27 @@ Sospetto che accada più frequentemente di quanto chiunque osi suggerire,
 Professor Quirrell!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse bruscamente la professoressa McGonagall.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse gentilmente il professor Quirrell, i suoi occhi che stavano ancora
  guardando in basso verso la spilla nella sua mano, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 stiamo ancora facendo finta che non accada? Chiedo scusa, allora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -838,7 +844,7 @@ stiamo ancora facendo finta che non accada? Chiedo scusa, allora
 
 \begin_layout Standard
 La professoressa Sinistra sbottò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E suppongo che i maghi non
@@ -862,7 +868,7 @@ mbox{-->>}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sono dei 
@@ -870,28 +876,28 @@ Ci sono dei
 bambini
 \emph default
  presenti, Professori!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Ancora la professoressa McGonagall.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Alcuni lo fanno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse tranquillamente il professor Quirrell, come se stesse discutendo
  del tempo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sebbene personalmente, io non lo faccia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -914,15 +920,15 @@ non
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per essere onesti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa Sinistra dopo un po', 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 da quando ho ricevuto la mia lettera da Hogwarts non ricordo di aver incontrato
@@ -933,7 +939,7 @@ da quando ho ricevuto la mia lettera da Hogwarts non ricordo di aver incontrato
 solo
 \emph default
  con gli eroi che aveva trovato un problema, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -942,11 +948,11 @@ solo
 \begin_layout Standard
 A Hermione ci volle un momento per capire che la domanda era stata fatta
  a lei, e poi disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , con un tono un po' simile ad uno squittio.
@@ -955,11 +961,11 @@ Sì
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Esattamente cos'ha controllato, signorina Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la professoressa Vector.
@@ -970,15 +976,15 @@ o a ingrigire un po'; Hermione non si era neppure personalmente avvicinata
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, la sua voce di una tonalità un po' alta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ho controllato nei libri di scuola e ci sono tanti Ministri della Magia
@@ -992,18 +998,18 @@ ho controllato nei libri di scuola e ci sono tanti Ministri della Magia
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E i Signori Oscuri stessi, naturalmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
@@ -1013,7 +1019,7 @@ Ora
 \emph default
  il Professore di Difesa aveva alzato lo sguardo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Può aggiungere questo alla sua lista, signorina Granger.
@@ -1021,7 +1027,7 @@ Può aggiungere questo alla sua lista, signorina Granger.
  Bellatrix Black e Alecto Carrow.
  E direi che la maggior parte dei maghi avrebbe difficoltà a nominare una
  sola Signora Oscura oltre a Baba Yaga
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1044,19 +1050,19 @@ impossibile
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Professor Quirrell
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa Vector, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 esattamente, cosa sta insinuando?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1069,29 +1075,29 @@ s.p.u.e.s.
 
 \noun default
  in lettere dorate fosse rivolta verso di loro, e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Eroi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , poi girò la spilla per mostrare il suo retro argentato e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Maghi Oscuri.
  Sono carriere simili intraprese da persone simili, e difficilmente ci si
  può chiedere perché le giovani streghe stiano voltando le spalle a uno
  dei due percorsi senza considerare il suo riflesso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, 
@@ -1099,18 +1105,18 @@ Oh,
 ora
 \emph default
  capisco!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey Davis, alzando la voce così all'improvviso che Hermione sussultò
  un po'.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Si è unito alla nostra protesta perché è preoccupato che non vi siano abbastanza
  ragazze che stanno diventando Streghe Oscure!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Poi Tracey ridacchiò, cosa che a quel punto Hermione non sarebbe potuta
@@ -1120,7 +1126,7 @@ Si è unito alla nostra protesta perché è preoccupato che non vi siano abbasta
 \begin_layout Standard
 C'era un mezzo sorriso sul viso del professor Quirrell mentre rispondeva,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non esattamente, signorina Davis.
@@ -1128,14 +1134,14 @@ Non esattamente, signorina Davis.
  Ma è infruttuoso contare le streghe tra i Ministri della Magia e altre
  simili persone ordinarie che conducono esistenze ordinarie, quando Grindelwald
  e Dumbledore e Colui-Che-Non-Deve-Essere-Nominato sono tutti uomini
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Le dita del Professore di Difesa fecero ruotare svogliatamente la spilla,
  girandola più volte.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 D'altronde, solo molte poche persone fanno mai qualcosa di interessante
@@ -1150,14 +1156,14 @@ lei
 \emph default
  non è tra di loro? E io sospetto che non sarà tra di loro, signorina Davis;
  poiché sebbene sia ambiziosa, lei non ha ambizioni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1165,16 +1171,16 @@ lei
 Questo non è vero!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse indignata Tracey.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E poi, che vuol dire?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1184,7 +1190,7 @@ E poi, che vuol dire?
 Il professor Quirrell, che fino a quel momento si era appoggiato al muro,
  si raddrizzò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Lei è stata Smistata in Serpeverde, signorina Davis, e mi aspetto che coglierà
@@ -1198,7 +1204,7 @@ creerà
  Nel migliore dei casi coglierà la sua occasione per ascendere in direzione
  del Ministero della Magia, o qualche altra posizione di spicco di scarsa
  importanza, senza infrangere mai i limiti della sua esistenza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1211,7 +1217,7 @@ Poi lo sguardo del professor Quirrell si allontanò da Tracey, stava guardando
 lei
 \emph default
 , gli occhi azzurro pallido la fissavano con un'intensità terribile – 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi dica, signorina Granger.
@@ -1220,14 +1226,14 @@ Mi dica, signorina Granger.
 lei
 \emph default
  un'ambizione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Professore
@@ -1235,7 +1241,7 @@ Professore
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  squittì la voce severa e dalla tonalità alta del professor Flitwick, e
@@ -1250,16 +1256,16 @@ Hermione si sentì come paralizzata.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa l'ha spinta a infrangere i suoi limiti, signorina Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il Professore di Difesa, che guardava ancora dritto verso di lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché ottenere buoni voti a lezione non è più sufficiente? È l'autentica
@@ -1267,14 +1273,14 @@ Perché ottenere buoni voti a lezione non è più sufficiente? È l'autentica
  che deve rimodellare secondo il suo volere? O tutto questo è soltanto un
  gioco da bambini per lei? Sarei molto deluso se questo riguardasse soltanto
  la sua rivalità con Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io
@@ -1282,7 +1288,7 @@ Io
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione, la sua voce di tono così acuto che sembrò quasi un pigolio,
@@ -1290,21 +1296,21 @@ Io
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Può prendersi un momento per pensare, se preferisce
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Finga che sia un compito per casa, sei pollici da consegnare giovedì.
  Ho sentito che è alquanto eloquente nei saggi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1315,7 +1321,7 @@ Tutti stavano guardando lei.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io
@@ -1323,27 +1329,27 @@ Io
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono d'accordo con neppure una delle cose che ha detto, nessuna
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ben detto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , giunse la voce frizzante della professoressa McGonagall.
@@ -1352,7 +1358,7 @@ Ben detto
 \begin_layout Standard
 Lo sguardo del professor Quirrell non vacillò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quelli non sono sei pollici, signorina Granger.
@@ -1363,7 +1369,7 @@ Qualcosa
  la spinge a sfidare la decisione del Preside e a radunare dei seguaci attorno
  a lei.
  Forse è qualcosa di cui preferisce non parlare ad alta voce?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1373,22 +1379,22 @@ Qualcosa
 Hermione sapeva che la risposta corretta non avrebbe fatto colpo sul professor
  Quirrell, ma era la risposta corretta, quindi la diede.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non penso che sia necessario avere un'ambizione per essere un eroe
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  La sua voce tremò ma non si ruppe.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Penso che si debba solo fare ciò che è giusto.
  E loro non sono le mie seguaci, siamo amiche
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1398,13 +1404,13 @@ Penso che si debba solo fare ciò che è giusto.
 Il professor Quirrell si appoggiò nuovamente al muro.
  Il mezzo sorriso era svanito dal suo volto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La maggior parte della gente dice a sé stessa che sta facendo la cosa giusta,
  signorina Granger.
  Non si eleva sopra l'ordinario in questo modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1413,7 +1419,7 @@ La maggior parte della gente dice a sé stessa che sta facendo la cosa giusta,
 \begin_layout Standard
 Hermione fece un paio di respiri profondi, cercando di essere coraggiosa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non si 
@@ -1421,12 +1427,12 @@ Non si
 tratta
 \emph default
  di essere non ordinari
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il più risolutamente possibile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma credo che se qualcuno cerca solo di fare ciò che è giusto, più e più
@@ -1437,18 +1443,18 @@ Ma credo che se qualcuno cerca solo di fare ciò che è giusto, più e più
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Hermione si fermò per un istante, i suoi occhi guizzarono verso Tracey
  e Daphne, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 – e progetta in maniera intelligente come farlo – e non fa semplicemente
  quello che fanno gli altri – allora credo che qualcuno così si metterebbe
  già in guai sufficienti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1460,22 +1466,22 @@ Alcuni tra le ragazze e i ragazzi ridacchiarono, come fece la professoressa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrebbe aver ragione su questo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa, i suoi occhi socchiusi.
  Lanciò a Hermione la spilla, e lei la prese al volo senza pensarci.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La mia donazione alla sua causa, signorina Granger.
  Mi risulta che valgano due sicli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1486,11 +1492,11 @@ Il Professore di Difesa si girò e se ne andò senza dire un'altra parola.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensavo di svenire!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gemette Hannah dopo che i suoi passi si furono attenuati in lontananza,
@@ -1499,7 +1505,7 @@ Pensavo di svenire!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io 
@@ -1507,52 +1513,52 @@ Io
 ho
 \emph default
  un'ambizione!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Tracey, che sembrò quasi sul punto di piangere.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono – sono – scoprirò quale sia entro domani, ma ne ho una, ne sono certa!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se non riuscissi davvero a trovarne nessuna
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Daphne, dandole una pacca di conforto sulla spalla, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 vai semplicemente sul classico ma sempre di moda e cerca di conquistare
  il mondo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ehi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse precipitosamente Susan.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovreste essere delle eroine, ora! Questo significa che dovete essere 
@@ -1560,22 +1566,22 @@ Dovreste essere delle eroine, ora! Questo significa che dovete essere
 buone!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, va tutto bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lavender, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sono quasi certa che il Generale Chaos voglia conquistare il mondo e 
@@ -1583,7 +1589,7 @@ sono quasi certa che il Generale Chaos voglia conquistare il mondo e
 lui
 \emph default
  è uno dei buoni, in qualche modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1592,16 +1598,16 @@ lui
 \begin_layout Standard
 Altre conversazioni si stavano svolgendo dietro la linea del picchetto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Santo cielo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Penelope Clearwater.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Penso che sia il Professore di Difesa più 
@@ -1609,7 +1615,7 @@ Penso che sia il Professore di Difesa più
 apertamente
 \emph default
  malvagio che abbiamo mai avuto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1618,18 +1624,18 @@ apertamente
 \begin_layout Standard
 La professoressa McGonagall tossì in segno di avvertimento, e il Caposcuola
  disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non eri presente quando c'era il professor Barney
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , cosa che causò uno spasmo a diverse persone.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il professor Quirrell si limita a 
@@ -1637,12 +1643,12 @@ Il professor Quirrell si limita a
 parlare
 \emph default
  in quel modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, sebbene sembrasse meno sicuro di prima.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio dire, pensateci, non 
@@ -1654,48 +1660,48 @@ fa
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , squittì il professor Flitwick, voce garbata e volto severo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 perché mi ha chiesto di stare in silenzio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il professor Quirrell stava mettendo alla prova Hermione per decidere se
  voleva essere il suo misterioso vecchio mago
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa che non sarebbe mai funzionata in qualunque modo, condizione o forma,
  ma lei doveva rispondere per sé stessa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1764,11 +1770,11 @@ nome
 \begin_layout Standard
 Il Preside le sorrise benevolmente, i suoi occhi, segnati da rughe, scintillanti
  allegramente sotto i semicerchi di vetro, e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Buongiorno, signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1778,26 +1784,26 @@ Buongiorno, signorina Granger
 La cosa strana fu che non era minimamente terrorizzante quanto parlare con
  il professor Quirrell.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Buongiorno, preside Dumbledore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione con solo un leggero tremito nella voce.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore, ora sembrando più serio, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 penso che io e lei potremmo aver avuto un piccolo malinteso.
@@ -1806,7 +1812,7 @@ penso che io e lei potremmo aver avuto un piccolo malinteso.
  essere eroi.
  Solo che lei è\SpecialChar ldots
  un po' giovane, per pensare a queste cose
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1821,7 +1827,7 @@ specie
 \emph default
  di sorriso, ad ogni modo – così Hermione guardò nuovamente il Preside e
  disse, il piccolo tremito nella sua voce ora un po' più evidente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Da quando lei è diventato Preside 40 anni fa, ci sono stati undici studenti
@@ -1832,18 +1838,18 @@ dieci
 \emph default
  di loro erano ragazzi.
  Cimorene Linderwall è stata l'unica strega
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece il Preside.
@@ -1853,7 +1859,7 @@ sembrò
 \emph default
  pensarci.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Granger, non sono mai stato una persona da conti simili.
@@ -1868,14 +1874,14 @@ Signorina Granger, non sono mai stato una persona da conti simili.
  nei quarant'anni prima di me? Perché di quel periodo posso ricordarne solo
  tre ora considerati eroi.
  E tra questi tre, neppure una strega
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sto cercando di dire è 
@@ -1883,12 +1889,12 @@ Non sto cercando di dire è
 solo
 \emph default
  lei!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È solo che penso che forse 
@@ -1897,7 +1903,7 @@ molta
 \emph default
  gente, come anche i Presidi prima di lei, forse anche la vostra intera
  società e tutto il resto, potrebbe scoraggiare le ragazze
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1908,7 +1914,7 @@ Il vecchio mago sospirò.
  Gli occhi dietro i mezzi-occhiali guardavano solo lei, come se fossero
  le uniche due persone presenti.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Granger, potrebbe essere possibile scoraggiare le streghe dal
@@ -1919,23 +1925,23 @@ Signorina Granger, potrebbe essere possibile scoraggiare le streghe dal
  Camminerà attraverso il fuoco e nuoterà attraverso il ghiaccio.
  Non lo fermeranno i Dissennatori, né la morte degli amici, e neppure lo
  scoraggiamento
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, e poi si fermò, lottando con le parole.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, voglio dire\SpecialChar ldots
@@ -1949,24 +1955,24 @@ me
 \emph default
  pare che se si vuole che più streghe diventino eroi, si dovrebbe insegnare
  loro l'eroismo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Molti ragazzi e ragazze sono eroi nei loro sogni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore con calma.
  Non guardò nessuna delle altre ragazze, solo lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Molti di meno da svegli.
@@ -1977,12 +1983,12 @@ Molti di meno da svegli.
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Many have stood their ground and faced the darkness when it comes for them.
  Fewer come for the darkness and force it to face them.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1993,7 +1999,7 @@ Many have stood their ground and faced the darkness when it comes for them.
  È una vita dura, talvolta solitaria, spesso breve.
  Non ho detto a nessuno di rifiutare quella chiamata, ma neppure desidererei
  incrementare il loro numero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2017,17 +2023,17 @@ Non riuscì a convincersi a dirlo, però, non a lui.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma la questione è irrilevante
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago.
  Sorrise, un po' mestamente pensò lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signorina Granger, non si può insegnare l'eroismo come si insegna Incantesimi.
@@ -2038,7 +2044,7 @@ Signorina Granger, non si può insegnare l'eroismo come si insegna Incantesimi.
  Eroi si nasce, non si studia per diventarlo.
  E quale che ne sia la ragione, la maggior parte di loro nasce ragazzo piuttosto
  che ragazza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2050,11 +2056,11 @@ lui
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece Hermione.
@@ -2078,7 +2084,7 @@ vero
 \begin_layout Standard
 Hermione si rigirò per rivolgersi nuovamente verso Dumbledore, fece un respiro
  profondo, e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, forse le persone che sono destinate ad essere eroi, saranno eroi indipenden
@@ -2093,30 +2099,30 @@ sapere
 io
 \emph default
  le ho detto che volevo essere un eroe, lei non è stato incoraggiante
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Preside con gentilezza.
  I suoi occhi non abbandonarono quelli di lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La prego di riferire alla signorina Granger la sua impressione riguardo
  il nostro primo incontro.
  Direbbe che sono stato incoraggiante? Dica la verità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2127,39 +2133,39 @@ Ci fu una pausa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce della professoressa Vector da dietro di lei, suonando perplessa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece la voce di Harry da ancora più dietro, suonando estremamente riluttante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm\SpecialChar ldots
  beh, in realtà nel mio caso il Preside ha dato fuoco a una gallina
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha fatto 
@@ -2167,7 +2173,7 @@ Ha fatto
 cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse tutto d'un fiato Hermione, solo che ci furono molte altre persone
@@ -2177,6 +2183,7 @@ cosa?
 
 \begin_layout Standard
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -2212,15 +2219,15 @@ Dumbledore continuò a guardarla, sembrando perfettamente serio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sapevo niente di Fawkes
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse rapidamente la voce di Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 così mi disse che Fawkes era una fenice, mentre indicava una gallina sul
@@ -2251,7 +2258,7 @@ mbox{-->>}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma questo è 
@@ -2259,7 +2266,7 @@ Ma questo è
 folle!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Susan senza pensarci.
@@ -2274,7 +2281,7 @@ Il Preside girò lentamente la testa per fissare Susan.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io
@@ -2282,12 +2289,12 @@ Io
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Susan.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cioè – io
@@ -2295,7 +2302,7 @@ Cioè – io
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2306,7 +2313,7 @@ Il Preside si chinò fin quando non fu faccia a faccia con la giovane ragazza.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Io non
@@ -2314,7 +2321,7 @@ Io non
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Susan.
@@ -2322,6 +2329,7 @@ Io non
 
 \begin_layout Standard
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -2363,14 +2371,14 @@ blebbl-blebbl-blebbl
 
 \begin_layout Standard
 Il Preside si raddrizzò di nuovo e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene, mie buone eroine, è stato piacevole parlare con voi, ma ahimè, molto
  resta da fare in questa giornata.
  Ad ogni modo, siate sicure che sono inscrutabile per tutti, non solo per
  le streghe
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2378,6 +2386,7 @@ Bene, mie buone eroine, è stato piacevole parlare con voi, ma ahimè, molto
 
 \begin_layout Standard
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -2424,11 +2433,11 @@ Le enormi e brutte figure attesero per un po' con grigi occhi morti che
 Allora i grandi gargoyle ripiegarono nuovamente le loro ali e fecero un
  passo indietro nelle loro posizioni iniziali, e solo un ultimo e breve
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Buah-ah-ah!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  echeggiò prima che il varco si chiudesse.
@@ -2439,7 +2448,7 @@ Ci fu un lungo silenzio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha 
@@ -2447,7 +2456,7 @@ Ha
 davvero
 \emph default
  dato fuoco a una gallina?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hannah.
@@ -2536,17 +2545,17 @@ Dopo che molti sguardi furono scambiati tra le ragazze, nessuna delle quali
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non pensi che siamo state ingiuste con Dumbledore, no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Susan mentre le eroine si allontanavano col suono di otto paia di
  piedi che calpestavano il pavimento in pietra dei corridoi di Hogwarts.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio dire, se 
@@ -2555,29 +2564,29 @@ Voglio dire, se
 \emph default
  folle con tutti e non solo con le streghe allora non è discriminazione,
  giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non voglio più protestare contro il Preside
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse debolmente Hannah.
  La ragazza Tassofrasso sembrò un po' incerta sulle gambe.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non mi interessa che la professoressa McGonagall dica che lui non ce l'ha
  con noi, è semplicemente troppo per i miei nervi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2586,7 +2595,7 @@ Non mi interessa che la professoressa McGonagall dica che lui non ce l'ha
 \begin_layout Standard
 Lavender sbuffò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo che 
@@ -2598,23 +2607,23 @@ tu
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Smettetela!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse bruscamente Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ascoltate, tutte noi dobbiamo 
@@ -2623,14 +2632,14 @@ imparare
 \emph default
  ad essere eroine, giusto? È normale che qualcuno non sappia esserlo da
  subito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Preside non pensa che si 
@@ -2638,18 +2647,18 @@ Il Preside non pensa che si
 possa
 \emph default
  imparare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Padma.
  Il volto della ragazza Corvonero era pensieroso, i suoi passi misurati
  mentre avanzava lungo il corridoio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Preside non pensa neppure che sia una buona idea
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2661,29 +2670,29 @@ Daphne stava camminando a grandi passi con la schiena dritta e la testa
  sue vesti di Hogwarts di quanto Hermione avrebbe potuto fare con il suo
  migliore abito formale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Preside
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Daphne in tono pignolo, le sue scarpe che producevano ticchettii
  forti e netti sulla pietra, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 pensa che noi tutte siamo un gruppo di ragazzine stupide che stanno giocando,
  e che un giorno Hermione potrebbe essere una buona comprimaria, ma che
  il resto di noi è senza speranza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E ha 
@@ -2691,14 +2700,14 @@ E ha
 ragione?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese Parvati.
  Il volto della ragazza Grifondoro era molto serio, facendola sembrare molto
  più simile del solito alla sua gemella.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio dire che dobbiamo chiedercelo
@@ -2722,7 +2731,7 @@ mbox{-->>}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2730,7 +2739,7 @@ mbox{-->>}
 No!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse d'impulso Tracey.
@@ -2748,7 +2757,7 @@ visto
  Tracey eccetto che in punta di bacchetta durante le battaglie, finché la
  Serpeverde era saltata dal sofà per offrirsi volontaria.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gliela faremo vedere! La faremo vedere 
@@ -2756,22 +2765,22 @@ Gliela faremo vedere! La faremo vedere
 a tutti!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Susan, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 questo era 
@@ -2799,40 +2808,40 @@ mbox{-->>}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lavender, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 quello è un motto della Chaos Legion, in realtà.
  Solo che non ha fatto la risata folle
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Giusto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Tracey, la sua voce bassa e lugubre.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questa volta non sto ridendo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2850,7 +2859,7 @@ esattamente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma – voglio dire
@@ -2858,13 +2867,13 @@ Ma – voglio dire
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Parvati.
  Aveva ancora un'espressione pensierosa sul volto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio dire, capite 
@@ -2873,36 +2882,36 @@ perché
 \emph default
  il Preside potrebbe pensare che siamo solo delle stupide ragazze, giusto?
  Che c'entra manifestare fuori dall'ufficio del Preside col diventare eroine?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece Lavender, ora sembrando pensierosa anche lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È vero.
  Dovremmo fare qualcosa di eroico.
  Voglio dire, di eroinico
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
@@ -2910,7 +2919,7 @@ Uhm
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fece Hannah, cosa che espresse più o meno le sensazioni di Hermione sulla
@@ -2918,15 +2927,15 @@ Uhm
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Parvati, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 qualcuno è già stato nel corridoio proibito del terzo piano di Dumbledore?
@@ -2935,14 +2944,14 @@ qualcuno è già stato nel corridoio proibito del terzo piano di Dumbledore?
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2950,12 +2959,12 @@ qualcuno è già stato nel corridoio proibito del terzo piano di Dumbledore?
 Aspettate!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse disperatamente Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non voglio che facciate nulla di 
@@ -2963,7 +2972,7 @@ Non voglio che facciate nulla di
 pericoloso!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2979,27 +2988,27 @@ altro
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non penso che tu possa diventare un'eroina se non fai mai nulla di pericoloso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , osservò ragionevolmente Lavender.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tra l'altro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Padma, un'espressione meditabonda sul suo volto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutti sanno che niente di 
@@ -3009,14 +3018,14 @@ realmente
  brutto accade mai ad Hogwarts, giusto? Agli studenti, intendo, non ai Professor
 i di Difesa.
  Abbiamo tutte queste antiche protezioni e cose così
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
@@ -3024,22 +3033,22 @@ Uhm
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fece ancora Hannah.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Già
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Parvati, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 la cosa peggiore che possa capitarci è che perdiamo qualche dozzina di punti-Cas
@@ -3048,14 +3057,14 @@ a o cose simili, e ci sono due di noi per ciascuna Casa quindi
 quello
 \emph default
  sarà pari
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ehi, è 
@@ -3063,12 +3072,12 @@ Ehi, è
 brillante
 \emph default
 , Hermione!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Daphne con un tono di grande stupore.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Così come l'hai organizzata possiamo cavarcela con 
@@ -3076,14 +3085,14 @@ Così come l'hai organizzata possiamo cavarcela con
 tutto!
 \emph default
  E non avevo neppure notato il tuo piano astuto fino ad ora!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -3097,23 +3106,23 @@ Uhm
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fecero Hermione, Hannah, e Susan.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Giusto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Parvati.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi ora è giunto il momento per noi di diventare vere eroine.
@@ -3138,7 +3147,7 @@ mbox{-->>}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E faremo in modo che 
@@ -3154,18 +3163,18 @@ noi
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Lavender.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E le insegneremo ad avere paura
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse cupamente Tracey Davis.

@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -8,7 +8,6 @@
 \begin_preamble
 \usepackage[usenames,dvipsnames]{xcolor}
 %\usepackage{fmtcount}
-\usepackage{microtype}
 %insular minuscule, capitolo 75
 \usepackage{inslrmin}
 
@@ -197,6 +196,28 @@
 
 %% descrizioni senza bold
 \renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textit{#1}\ ---}
+
+\newfontfamily\serpentese{Alegreya}
+
+
+\newcommand\nomarkerfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\usepackage[super]{nth}
+
+%% indice lemmi
+\newfontfamily\fontindicelemmi{EB Garamond}
+\newcommand\indicelemmi{
+\begingroup
+\fontindicelemmi
+\char"2767
+\endgroup
+}
+
+\usepackage{xfrac}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -207,8 +228,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding \font_roman Garamond Premier Pro
-\font_roman "default" "EB Garamond"
-\font_sans "default" "Linux Biolinum O"
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Alegreya Sans"
 \font_typewriter "default" "Liberation Mono"
 \font_math "auto" "auto"
 \font_default_family default
@@ -216,7 +237,9 @@ initials
 \font_sc false
 \font_osf true
 \font_sf_scale 100 100
-\font_tt_scale 100 100
+\font_tt_scale 100 85
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -224,7 +247,7 @@ initials
 \index_command default
 \float_placement bp
 \paperfontsize 10
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
@@ -256,6 +279,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \branch Figure
 \selected 0
 \filename_suffix 0
@@ -276,7 +300,10 @@ initials
 \tocdepth 0
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -470,6 +497,7 @@ Cato Philosophus
 
 \emph on
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -513,7 +541,9 @@ Cato Philosophus
 \begin_inset Newline newline
 \end_inset
 
-MMXV
+
+\noun on
+mmxviii
 \end_layout
 
 \begin_layout Standard
@@ -561,6 +591,7 @@ Harry Potter and the Methods of Rationality
 
 \size footnotesize
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -617,7 +648,7 @@ reflectbox{©}
 
 \end_inset
 
- 2013–2015 Cato Philosophus (
+ 2013–2018 Cato Philosophus (
 \begin_inset ERT
 status open
 
@@ -683,9 +714,9 @@ LaTeX
 
 \end_inset
 
-, usando EB Garamond, 
+, usando Arno Pro, 
 \family sans
-Linux Biolinum
+Alegreya Sans
 \family default
 , 
 \family typewriter
@@ -2239,13 +2270,10 @@ LaTeX e LyX, senza la quale questo lavoro sarebbe stato impossibile.
  Yudkowsky per il meraviglioso mondo di 
 \backslash
 textsc{hpmor}, che mi ha regalato diverse ore di divertimento e riflessione
- in parti uguali.}
+ in parti uguali.
+ Questa traduzione è dedicata a mio fratello e a mia madre.}
 \end_layout
 
-\end_inset
-
-
-\begin_inset Separator latexpar
 \end_inset
 
 

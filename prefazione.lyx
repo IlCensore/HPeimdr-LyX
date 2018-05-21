@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -73,16 +75,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Myriad Pro
-\font_typewriter Latin Modern Mono
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Myriad Pro"
+\font_typewriter "default" "Latin Modern Mono"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -112,6 +116,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -126,7 +131,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -160,20 +168,7 @@ addcontentsline{toc}{chapter}{Prefazione}
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 Cos'è 
 \emph on
 Harry Potter e i metodi della razionalità
@@ -186,11 +181,11 @@ Quella che hai tra le mani è la traduzione in lingua italiana di
 \emph on
 Harry Potter and the Methods of Rationality
 \emph default
- -- frequentemente abbreviato in 
+ – frequentemente abbreviato in 
 \noun on
 hpmor
 \noun default
- --, una 
+ –, una 
 \emph on
 fanfic
 \emph default
@@ -212,17 +207,17 @@ fanfic
 fan fiction
 \emph default
 , ovvero 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 narrativa composta dagli appassionati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : si tratta di una pratica letteraria amatoriale, con la quale gli appassionati
- di una serie di libri -- come pure di un film o di una serie televisiva
- o di un fumetto -- scrivono racconti ambientati nel mondo delle storie
- e dei personaggi che amano.
+ di una serie di libri – come pure di un film o di una serie televisiva
+ o di un fumetto – scrivono racconti ambientati nel mondo delle storie e
+ dei personaggi che amano.
  La maggior parte delle fanfic sono di qualità scandente (ricorda, sono
  scritte da appassionati della serie, non da scrittori veri), ma alcune
  sono decisamente ben scritte e pochissime sono qualitativamente indistinguibili
@@ -356,15 +351,15 @@ Harry Potter e i metodi della razionalità
 \emph default
  sia ben scritto è solo uno dei motivi per i quali dovresti leggerlo.
  La migliore qualità di questa fanfic è quella di aver portato la storia
- di Harry Potter -- la versione 
-\begin_inset Quotes fld
+ di Harry Potter – la versione 
+\begin_inset Quotes cld
 \end_inset
 
 canonica
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- così come scritta dall'autrice -- al livello 
+ così come scritta dall'autrice – al livello 
 \emph on
 superiore
 \emph default
@@ -381,10 +376,10 @@ superiore
 e in cui prendere la decisione giusta fa la differenza tra la vita e la
  morte, ma in cui quella decisione giusta è difficile da riconoscere, rende
  la narrazione estremamente eccitante, infatti.
- Questo vale per i personaggi principali (Dumbledore, McGonagall, Snape e Quirrell)
-, ma soprattutto per Harry, il quale bilancia la propria ignoranza del mondo
- della magia con la conoscenza di due strumenti che mancano ai maghi: la
- scienza e la teoria della decisione razionale.
+ Questo vale per i personaggi principali (Dumbledore, McGonagall, Snape
+ e Quirrell), ma soprattutto per Harry, il quale bilancia la propria ignoranza
+ del mondo della magia con la conoscenza di due strumenti che mancano ai
+ maghi: la scienza e la teoria della decisione razionale.
  L'Harry di 
 \noun on
 hpmor
@@ -471,11 +466,11 @@ Detto questo, va aggiunto che questa storia non è per tutti.
  capitolo, faresti probabilmente meglio a cambiare libro.
  A molti lettori (specie genitori) non piace il modo adulto in cui Harry
  parla con gli adulti; a molti la storia semplicemente non 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 risuona
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , cosa legittima.
