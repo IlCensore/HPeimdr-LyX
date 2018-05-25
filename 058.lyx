@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -53,6 +53,8 @@
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+\newfontfamily\serpentese{Alegreya}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -64,8 +66,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Garamond Premier Pro"
-\font_sans "default" "Bulmer BT"
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Fournier MT Std"
 \font_typewriter "default" "Inconsolata"
 \font_math "auto" "auto"
 \font_default_family default
@@ -74,6 +76,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -103,6 +107,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -117,7 +122,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -162,6 +170,7 @@ name "chap:58SPE-CV-p8"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Nell'oscurità assoluta, un ragazzo stava reggendo la propria bacchetta contro
  il muro di solido metallo di Azkaban, cimentandosi in una magia che solo
  altre tre persone al mondo avrebbero creduto possibile, e che nessuno eccetto
@@ -218,9 +227,9 @@ problema
 \end_layout
 
 \begin_layout Standard
-In qualche modo i suoi pensieri erano riusciti a non concentrarcisi, a non
- confrontarsi con quello che era così ovvio, finché non dovette fronteggiare
- la prospettiva di 
+In qualche modo i suoi pensieri erano riusciti a non focalizzarsi sul quel
+ fatto, a non confrontarsi con qualcosa che era così palese, finché non
+ dovette fronteggiare la prospettiva di 
 \emph on
 farlo davvero, effettivamente, in appena pochi minuti
 \emph default
@@ -240,8 +249,8 @@ Davvero pericoloso.
 \end_layout
 
 \begin_layout Standard
-Di un pericoloso della variante `Qualcuno potrebbe effettivamente autenticamente
- finire ucciso'.
+Di un pericoloso della variante ``Qualcuno potrebbe effettivamente, autenticamen
+te finire ucciso''.
 \end_layout
 
 \begin_layout Standard
@@ -474,9 +483,9 @@ non avesse
 \end_layout
 
 \begin_layout Standard
-Questo era qualcosa a cui Harry aveva creduto quando si fidava del professor
- Quirrell, e che aveva dimenticato di riconsiderare dopo che il professor
- Quirrell non era stato più qualcuno di cui fidarsi.
+Era qualcosa a cui Harry aveva creduto quando si fidava del professor Quirrell,
+ e che aveva dimenticato di riconsiderare dopo che il professor Quirrell
+ non era stato più qualcuno di cui fidarsi.
 \end_layout
 
 \begin_layout Standard
@@ -598,8 +607,8 @@ Il cervello di Harry suggerì che avrebbe potuto Trasfigurare una copertura
  superficiale sul foro nel muro, lasciando uno spazio in cui Bellatrix e
  il professor Quirrell si potessero nascondere, indossando il Mantello,
  mentre Harry si consegnava.
- E prima o poi il professor Quirrell si sarebbe svegliato, ed insieme a
- Bellatrix avrebbero potuto cercare di capire come uscire da soli da Azkaban.
+ E prima o poi il professor Quirrell si sarebbe svegliato, e insieme a Bellatrix
+ avrebbero potuto cercare di capire come uscire da soli da Azkaban.
 \end_layout
 
 \begin_layout Standard
@@ -624,17 +633,17 @@ Erano le vite di Bellatrix e del professor Quirrell che erano in gioco.
 \end_layout
 
 \begin_layout Standard
-Loro avrebbero guadagnato, non perso, prendendosi il rischio.
+Loro ci avrebbero guadagnato, non perso, dal correre quel rischio.
 \end_layout
 
 \begin_layout Standard
-E non c'era ragione, nessuna ragione sana di mente, per cui Harry sarebbe
- dovuto andare con loro.
+E non c'era motivo, nessun motivo razionale, per cui Harry sarebbe dovuto
+ andare con loro.
 \end_layout
 
 \begin_layout Standard
 La calma discese su Harry mentre lo pensava, la freddezza e l'oscurità che
- avevano vacillato alle estremità della sua mente si ritirarono.
+ avevano ondeggiato alle estremità della sua mente si ritirarono.
  Sì, era così, quella era la strada creativa anticonvenzionale, quella era
  la terza alternativa nascosta.
  La falsità del dilemma era evidente a posteriori.
@@ -659,18 +668,15 @@ Harry non aveva neppure bisogno di sopportare l'imbarazzo di ammettere di
  Harry stesso.
  A dire il vero, non c'era ragione plausibile per la quale il Signore Oscuro
  avrebbe mai chiesto a Bellatrix di farlo; ma Harry avrebbe semplicemente
- potuto sorridere e dire a Bellatrix che non le era permesso saperlo, e
- la storia sarebbe finita lì…
-\begin_inset Separator latexpar
-\end_inset
-
-
+ potuto sorridere e dire a Bellatrix che non le era permesso di sapere,
+ e la storia sarebbe finita lì…
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -689,10 +695,10 @@ Il suo gruppo di Auror era giunto a circa tre quarti del percorso verso
 \end_layout
 
 \begin_layout Standard
-E poi ci fu un suono distante, come una sorta di `tinc' che giungesse da
- molto lontano.
+E poi ci fu un suono distante, come una sorta di ``tinc'' che giungesse
+ da molto lontano.
  Come un suono molto forte che provenisse dal penultimo piano dal basso,
- diciamo.
+ per esempio.
 \end_layout
 
 \begin_layout Standard
@@ -702,24 +708,21 @@ Amelia guardò Dumbledore prima di accorgersene, prima di riuscire a fermarsi.
 \begin_layout Standard
 Il vecchio mago scrollò le spalle, le rivolse un accenno di sorriso, e disse,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Visto che me lo chiedi tu, Amelia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e si allontanò ancora una volta.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -728,7 +731,7 @@ Visto che me lo chiedi tu, Amelia
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -736,18 +739,18 @@ Visto che me lo chiedi tu, Amelia
 Finite Incantatem
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry all'olio che rivestiva il gigantesco pezzo di metallo sul
  pavimento.
- Udì sé stesso parlare con difficoltà, le sue orecchie stavano ancora ronzando
+ Si udì parlare con difficoltà, le sue orecchie stavano ancora ronzando
  per l'enorme frastuono causato dal metallo pieno che era scivolato dal
  muro ed era caduto.
  (Avrebbe dovuto lanciare un Incantesimo Quietus, ripensandoci, sebbene
- questo non avrebbe impedito al rumore di diffondersi attraverso il pavimento
- di metallo pieno.) E poi Harry lo disse nuovamente, un 
-\begin_inset Quotes fld
+ non avrebbe impedito al rumore di diffondersi attraverso il pavimento di
+ metallo pieno.) E poi Harry lo disse nuovamente, un 
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -755,7 +758,7 @@ Finite Incantatem
 Finite Incantatem
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rivolto all'olio che rivestiva il foro di due metri nel muro, allargandone
@@ -850,7 +853,20 @@ E ci fu un sibilo, un sibilo debole, un sibilo che sembrò basso e confuso,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -858,11 +874,18 @@ E ci fu un sibilo, un sibilo debole, un sibilo che sembrò basso e confuso,
 Coss'era… quel ssuono?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
 
-\begin_inset Separator latexpar
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -872,6 +895,7 @@ Coss'era… quel ssuono?
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -881,7 +905,7 @@ Coss'era… quel ssuono?
 
 \begin_layout Standard
 Il vecchio mago camminava attraverso il corridoio.
- Giunse ad una porta di metallo e l'aprì, sapendo già a memoria che le celle
+ Giunse a una porta di metallo e l'aprì, sapendo già a memoria che le celle
  al suo interno erano vuote.
 \end_layout
 
@@ -889,16 +913,13 @@ Il vecchio mago camminava attraverso il corridoio.
 Allora il mago pronunciò sette incantesimi potenti e rivelatori, prima di
  passare oltre; sarebbe stato uno sforzo abbastanza piccolo tutto sommato,
  con così poche celle ancora da controllare.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -907,7 +928,20 @@ Allora il mago pronunciò sette incantesimi potenti e rivelatori, prima di
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -915,7 +949,18 @@ Allora il mago pronunciò sette incantesimi potenti e rivelatori, prima di
 Maesstro
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry.
@@ -924,22 +969,59 @@ Maesstro
  spalle di Bellatrix stava lentamente sollevando la testa per guardarsi
  intorno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Ssta… ssta bene, maesstro?
+Sstai… sstai bene, maesstro?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -947,12 +1029,36 @@ Ssta… ssta bene, maesstro?
 Maesstro?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
  giunse il sibilo debole e confuso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -960,14 +1066,38 @@ Maesstro?
 Dove ssiamo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -975,47 +1105,83 @@ Dove ssiamo?
 Prigione
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 prigione con mangiatori di vita, eravamo qui per ssalvare donna, tu e io.
  Tu hai cercato di uccidere uomo vigilante, io ho bloccato tuo incantessimo
- mortale, c'è sstata rissonanza tra di noi… tu sei ssvenuto, ho dovuto ssconfigg
-ere uomo vigilante da ssolo… mio Incantessimo guardiano è sstato disspersso,
- mangiatori di vita potevano dire a vigilanti che donna era sscappata.
+ mortale, c'è sstata rissonanza tra di noi… tu ssei ssvenuto, ho dovuto
+ ssconfiggere uomo vigilante da ssolo… mio Incantessimo guardiano è sstato
+ disspersso, mangiatori di vita potevano dire a vigilanti che donna era
+ sscappata.
  C'è qualcuno qui che può percepire mio Incantessimo guardiano, probabilmente
  Presside… quindi ho dovuto dissperdere mio Incantessimo guardiano, trovare
  modo diversso di nascondere te e donna da mangiatori di vita ssenza Incantessim
 o guardiano, imparare a proteggere me ssenza Incantessimo guardiano, sspaventare
  mangiatori di vita ssenza Incantessimo guardiano, poi trovare nuovo piano
- di fuga per te e donna, e infine, praticare un foro nel muro sspessso di
- prigione anche sse ssono ssolo sstudente di primo anno.
+ di fuga per te e donna, e infine, praticare foro in muro sspessso di prigione
+ anche sse ssono ssolo sstudente di primo anno.
  Non c'è tempo per sspiegare, devi andare via ora.
  Sse non ci vedesssimo più, maesstro, allora ssono sstato felice di conoscerti
  per un po' di tempo, ssebbene tu ssia probabilmente malvagio.
  È bello avere posssibilità di dire quessto: Arrivederci
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 E Harry prese il manico di scopa e l'offrì a Bellatrix, dicendo semplicemente,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sali
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1037,7 +1203,20 @@ o
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1045,13 +1224,37 @@ o
 Fermi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
  disse il serpente.
  La sua voce sembrava più forte ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1059,14 +1262,38 @@ Fermi!
 Fermi, fermi, fermi! Che ssignifica, arrivederci?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1074,12 +1301,36 @@ Fermi, fermi, fermi! Che ssignifica, arrivederci?
 Piano di fuga è pericolosso
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1092,14 +1343,38 @@ Mia vita non è in pericolo, ssolo tua e di donna.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1107,13 +1382,37 @@ Mia vita non è in pericolo, ssolo tua e di donna.
 No!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
  disse il serpente.
  Il sibilo fu potente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1121,7 +1420,18 @@ No!
 Non devi! Non è permessso!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1134,7 +1444,20 @@ Bellatrix salì sul manico di scopa; Harry poté percepire (ma non vedere)
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1142,28 +1465,76 @@ Bellatrix salì sul manico di scopa; Harry poté percepire (ma non vedere)
 Non mi fido più di 
 \emph default
 te
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry semplicemente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 Non da quando hai tentato di uccidere uomo protettore
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 E il serpente sibilò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1172,7 +1543,18 @@ Non ho cercato di uccidere uomo protettore! Ssei sstupido, ragazzo? Uccidere
  lui non avrebbe alcun ssenso, malvagio o no!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1185,16 +1567,29 @@ La Terra smise di girare sul suo asse, fermò la propria orbita intorno al
 
 \begin_layout Standard
 Il sibilo del serpente era ora più furioso di quanto Harry avesse mai udito
- dal professor Quirrell umano.
+ il professor Quirrell umano.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 Ucciderlo? Avesssi cercato di ucciderlo ssarebbe sstato morto entro pochi
  ssecondi, sstupido ragazzo, non era a mia altezza! Ho cercato di ssottometterlo
-, di dominarlo, di obbligarlo a lasciar cadere sscudi attorno a ssua mente,
+, di dominarlo, di obbligarlo a lassciar cadere sscudi attorno a ssua mente,
  avevo bissogno di leggerla, di ssapere chi attendeva ssua risspossta, di
  imparare dettagli per incantessimo di memoria
 \emph default
@@ -1203,14 +1598,38 @@ Ucciderlo? Avesssi cercato di ucciderlo ssarebbe sstato morto entro pochi
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1218,14 +1637,38 @@ Ucciderlo? Avesssi cercato di ucciderlo ssarebbe sstato morto entro pochi
 Hai lanciato incantessimo mortale!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1233,14 +1676,38 @@ Hai lanciato incantessimo mortale!
 Ssapevo avrebbe sschivato!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1248,14 +1715,38 @@ Ssapevo avrebbe sschivato!
 Ssua vita valeva cossì poco? E sse non avessse sschivato?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1263,7 +1754,18 @@ Ssua vita valeva cossì poco? E sse non avessse sschivato?
 L'avrei sspinto via con mia sstesssa magia, sstupido ragazzo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1275,7 +1777,20 @@ Ancora l'interruzione della rotazione del pianeta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1283,17 +1798,41 @@ Ancora l'interruzione della rotazione del pianeta.
 Assino ritardato d'un cosspiratore
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò il serpente, così infuriato che i sibili sembravano sovrapporsi
  e scivolare l'uno sulla coda dell'altro, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-abile imbecille, asstuto idiota, folle di un Sserpeverde non addesstrato,
+imbecille abile, idiota asstuto, folle di un Sserpeverde non addesstrato,
  tua ssfiducia fuori luogo ha rovinato
 \begin_inset space ~
 \end_inset
@@ -1301,14 +1840,38 @@ abile imbecille, asstuto idiota, folle di un Sserpeverde non addesstrato,
 –
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1316,14 +1879,38 @@ abile imbecille, asstuto idiota, folle di un Sserpeverde non addesstrato,
 Quessto non è momento giussto per discutere
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , osservò placidamente Harry.
  L'onda di sollievo che cercava di inondarlo era annullata dall'aumento
  di tensione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1337,14 +1924,38 @@ Poiché non possso arrabbiarmi con te in maniera appropriata, ssenza aprire
 –
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1352,20 +1963,55 @@ Poiché non possso arrabbiarmi con te in maniera appropriata, ssenza aprire
 Sspiega piano di fuga
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , disse imperiosamente il serpente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Rapidamente!
+Velocemente!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1381,7 +2027,20 @@ Harry spiegò.
 Ci furono alcuni brevi sibili, l'equivalente serpentesco di un'esplosione
  di risata sorpresa, e poi, bruschi comandi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1393,15 +2052,39 @@ Di' a donna di guardare altrove, lancia magia di ssilenzio, metti Incantessimo
 rò di nuovo prima che tu disssolva Incantessimo.
  Piano ssarà più ssicuro, allora
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes crd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1409,11 +2092,35 @@ rò di nuovo prima che tu disssolva Incantessimo.
 E devo credere
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1421,28 +2128,63 @@ E devo credere
 che guaritore per donna ci asspetta davvero?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 Ussa tuo buon ssensso, ragazzo! Ssupponi che io ssia malvagio.
- Mettere fino a usso di te qui non è ovviamente quello che avevo pianificato.
+ Finire usso di te qui non è ovviamente quello che avevo pianificato.
  Misssione è obiettivo di opportunità, inventata dopo che ho vissto tuo
  Incantessimo guardiano, intera faccenda doveva passsare inossservata, nasscosst
-a quando lasciato posto per mangiare.
- Ovviamente vedrai perssona che pretende di esssere guaritore ad arrivo!
+a quando lassciato posto per mangiare.
+ Certamente vedrai perssona che pretende di esssere guaritore ad arrivo!
  Ssi torna a possto per mangiare dopo, piano originale continua indissturbato!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1461,7 +2203,20 @@ E d'altra parte, non era propriamente rassicurante.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1469,11 +2224,35 @@ E d'altra parte, non era propriamente rassicurante.
 Quindi
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1481,14 +2260,38 @@ Quindi
 qual è tuo piano per me, precissamente?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1496,11 +2299,35 @@ qual è tuo piano per me, precissamente?
 Hai detto niente tempo
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , giunse il sibilo del serpente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -1509,12 +2336,19 @@ ma piano è che tu governi paesse, ovviamente, anche tuo giovane nobile amico
  ha capito ormai, chiedi a lui a ritorno sse vuoi.
  Non dirò di più ora, è tempo di volare, non di parlare
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
-\begin_inset Separator latexpar
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1524,6 +2358,7 @@ ma piano è che tu governi paesse, ovviamente, anche tuo giovane nobile amico
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1534,11 +2369,11 @@ ma piano è che tu governi paesse, ovviamente, anche tuo giovane nobile amico
 \begin_layout Standard
 Il vecchio mago allungò la mano verso un'altra porta di metallo, da dietro
  la quale proveniva un morto mormorio senza fine, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono serio, non sono serio, non sono serio…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La fenice rosso-dorata sulla sua spalla stava già gridando con insistenza,
@@ -1550,14 +2385,14 @@ Non sono serio, non sono serio, non sono serio…
 \end_layout
 
 \begin_layout Standard
-Un altro urlo perforò il corridoio, simile a quello di una fenice ma non
+Un altro urlo lacerò il corridoio, simile a quello di una fenice ma non
  il vero richiamo di una fenice.
 \end_layout
 
 \begin_layout Standard
-La testa del mago si voltò, guardò all'ardente creatura argentea sull'altra
- spalla, anche mentre artigli effimeri e senza sostanza lanciarono l'entità-inca
-ntesimo nell'aria.
+La testa del mago si voltò, guardò l'ardente creatura argentea sull'altra
+ spalla, proprio mentre artigli effimeri e senza sostanza lanciarono l'entità-in
+cantesimo nell'aria.
 \end_layout
 
 \begin_layout Standard
@@ -1574,16 +2409,13 @@ La vera fenice gridò una volta, due volte, e una terza volta, librandosi
  davanti alla porta di metallo; e poi, quando fu chiaro che il suo padrone
  non sarebbe tornato per quanto l'avesse chiamato, gli volò a malincuore
  dietro.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1610,7 +2442,7 @@ Harry descrisse ad alta voce il suo dispositivo babbano, rivelandone il
 \emph on
 Finite
 \emph default
- di Harry ridusse nuovamente tutto il suo duro lavoro ad un cubetto di ghiaccio.
+ di Harry ridusse nuovamente tutto il suo duro lavoro a un cubetto di ghiaccio.
  Il professor Quirrell non poteva lanciare incantesimi su qualcosa che Harry
  aveva Trasfigurato, poiché quella sarebbe stata un'interazione, per quanto
  piccola, tra le loro magie, ma
@@ -1637,11 +2469,11 @@ Tre secondi dopo, il professor Quirrell stava reggendo la propria versione
 \begin_layout Standard
 Una pozione fu lanciata a Bellatrix, e il professor Quirrell e Harry ordinarono
  entrambi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bevi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , come se parlassero con la stessa voce.
@@ -1663,11 +2495,11 @@ Una rapida e terribile magia si scatenò dalla bacchetta del Professore di
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Guanto per mano sinistra
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry alla sua borsa, e lo estrasse, e lo indossò.
@@ -1727,11 +2559,11 @@ Bellatrix trasalì solo leggermente, prese la bacchetta e fece un gesto senza
 
 \begin_layout Standard
 Harry disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Su!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  al manico di scopa.
@@ -1797,11 +2629,11 @@ Sturatevi le orecchie!
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Protego Maximus!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Bellatrix in una voce potente e rotta, seguita da una risata sonora
@@ -1817,7 +2649,7 @@ Vedete questo?
 \begin_layout Standard
 Dal pozzo in decomposizione al centro di Azkaban, oltre un centinaio di
  Dissennatori si levarono in volo, apparendo ad alcuni come una gran massa
- di cadaveri, un cimitero volante; apparendo ad un altro come un conglomerato
+ di cadaveri, un cimitero volante; apparendo a un altro come un conglomerato
  di assenze che sembravano formare un'ampia lacerazione nel mondo mentre
  scivolavano verso l'alto.
 \end_layout
@@ -1886,8 +2718,11 @@ Manico di scopa!
 
 \begin_layout Standard
 Harry premette l'interruttore di accensione sul razzo a combustibile solido,
- alimentato con propellente composito al perclorato di ammonio, classe-N,
- modello 
+ alimentato con propellente composito al perclorato di ammonio, classe-
+\noun on
+n
+\noun default
+, modello 
 \emph on
 Berserker 
 \noun on
