@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{60}
@@ -62,16 +64,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans Gill Sans Std
-\font_typewriter Hypatia Sans Pro
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "Gill Sans Std"
+\font_typewriter "default" "Hypatia Sans Pro"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -101,6 +105,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -115,7 +120,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -171,7 +179,7 @@ te che non provava da dieci anni e tre mesi, i corridoi tra lo spazio tossirono
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -205,7 +213,7 @@ Abbassò la propria bacchetta e fece un passo avanti per ricevere il proprio
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -221,24 +229,24 @@ Si girò di scatto e vide Albus, la sua lunga bacchetta già estratta e impugnat
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Albus!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensavo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  L'aveva appena visto partire per Azkaban, e aveva pensato che neppure le
@@ -250,20 +258,20 @@ Poi comprese.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È fuggita
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il tuo Patronus l'ha raggiunto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -272,26 +280,26 @@ Il tuo Patronus l'ha raggiunto?
 \begin_layout Standard
 Il battito del suo cuore si intensificò, l'orrore nelle sue vene si solidificò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha detto che era qui, nel bagno
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Speriamo che abbia detto il vero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus, e la sua bacchetta le toccò la testa facendole provare una
@@ -308,11 +316,11 @@ status open
 
 \begin_layout Plain Layout
 Il testo originale dice 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 tre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -326,7 +334,7 @@ tre
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -359,7 +367,7 @@ M: Cosa mi disse di riferirle il cappello?
 \begin_layout Quotation
 
 \emph on
---
+–
 \begin_inset space ~
 \end_inset
 
@@ -381,11 +389,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ah
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Minerva ad alta voce per la sorpresa, la sua mente si prese un momento
@@ -394,19 +402,19 @@ Ah
 \emph on
 modo
 \emph default
-, davvero -- 
-\begin_inset Quotes fld
+, davvero – 
+\begin_inset Quotes cld
 \end_inset
 
 Sono una giovane impudente e devo lasciarlo in pace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -414,7 +422,7 @@ Sono una giovane impudente e devo lasciarlo in pace
 Eh?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse l'aria con la voce di Albus, come se anche lui potesse essere sorpreso.
@@ -427,15 +435,15 @@ E poi la testa di Harry Potter apparve, sospesa nell'aria accanto al gabinetto,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa sta succedendo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  iniziò il ragazzo.
@@ -475,16 +483,16 @@ Scintillando, Severus divenne visibile accanto a lei.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è un imprevisto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse lentamente il Maestro di Pozioni.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché il nostro Preside non ha recuperato il signor Potter 
@@ -494,25 +502,25 @@ prima
 , mi chiedo, se era disposto persino a piegare il Tempo? Non ci dovrebbe
  essere stato nulla che gli impedisse di farlo… in effetti, il tuo Patronus
  avrebbe dovuto trovare il signor Potter già al sicuro…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Non ci aveva pensato, un'altra illuminazione era salita in primo piano nella
+Non ci aveva pensato, un'altra intuizione era salita in primo piano nella
  sua mente.
  Non era minimamente terrificante quanto il fatto che Bellatrix Black fosse
  fuggita da Azkaban, eppure
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry ha un 
@@ -520,7 +528,7 @@ Harry ha un
 mantello dell'invisibilità?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -528,6 +536,10 @@ mantello dell'invisibilità?
 
 \begin_layout Standard
 Il Maestro di Pozioni non rispose; si stava già rimpicciolendo.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -542,7 +554,7 @@ Il Maestro di Pozioni non rispose; si stava già rimpicciolendo.
 \end_layout
 
 \begin_layout Standard
-Tic-snic, dlip-blip, ding-ring-ting--
+Tic-snic, dlip-blip, ding-ring-ting–
 \end_layout
 
 \begin_layout Standard
@@ -581,11 +593,11 @@ Minerva continuò a leggere la pergamena che aveva sotto mano.
 \begin_layout Standard
 La porta si spalancò di colpo, mostrando Severus Snape, che fece tre passi
  entrando e chiese senza la minima pausa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Notizie da Malocchio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -595,50 +607,50 @@ Notizie da Malocchio?
 Albus si stava già alzando dalla sua sedia, mentre ella metteva da parte
  le proprie pergamene e faceva svanire la scrivania.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Patronus di Moody sta facendo rapporto al me stesso in Azkaban
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il suo Occhio non ha visto nulla; e se l'Occhio di Vance non vede qualcosa,
  allora quella cosa non esiste.
  E tu?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nessuno ha cercato di prelevare il mio sangue con la forza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
  Fece un rapido sorriso più simile a una smorfia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ad eccezione del Professore di Difesa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -646,26 +658,26 @@ Ad eccezione del Professore di Difesa
 Cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha capito che ero un impostore prima che potessi persino aprire bocca, e
  alquanto ragionevolmente mi ha assalito immediatamente, pretendendo di
  sapere dove fosse il signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Un altro sorriso simile a una smorfia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gridare che ero Severus Snape non è sembrato rassicurarlo, per qualche ragione.
@@ -682,15 +694,15 @@ Mungo's
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -702,44 +714,44 @@ St.
 Mungo's?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
--- dove hanno detto che probabilmente si era sovraffaticato di lavoro per
+– dove hanno detto che probabilmente si era sovraffaticato di lavoro per
  settimane prima di collassare, tale era il suo stato di esaurimento.
  Il tuo prezioso Professore di Difesa sta bene, Minerva, lo stordimento
  può averlo aiutato costringendolo a prendersi un paio di giorni di riposo.
  In seguito ho rifiutato l'offerta di usare la Polvere Volante per venire
  a Hogwarts, e sono tornato a Diagon Alley e ho fatto una passeggiata, ma
  nessuno è sembrato volere il sangue del signor Potter oggi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il nostro Professore di Difesa è nelle mani migliori, ne sono certo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Faccende più importanti richiedono la nostra attenzione, Minerva
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -761,20 +773,20 @@ Si sentì come un impostore sotto Polisucco, a stare seduta con quei due.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Abbiamo di fronte
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , il Preside parlò per primo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 un mistero piuttosto allarmante.
  Posso pensare solo a due maghi che potrebbero aver organizzato questa fuga
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -783,7 +795,7 @@ un mistero piuttosto allarmante.
 \begin_layout Standard
 Minerva inspirò rumorosamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è la possibilità che 
@@ -791,18 +803,18 @@ C'è la possibilità che
 non sia
 \emph default
  Tu-Sai-Chi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho paura di sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Preside.
@@ -820,16 +832,16 @@ Paura
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus con fatica.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il nostro primo sospettato è Voldemort, tornato nuovamente e nel tentativo
@@ -859,15 +871,15 @@ Citato in cap.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Albus guardò Severus, che annuì d'accordo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
--- e avrebbe certamente cercato la combinazione più potente: la carne di
+– e avrebbe certamente cercato la combinazione più potente: la carne di
  Bellatrix Black, il sangue di Harry Potter, e l'osso di suo padre.
  L'ultima via di Voldemort è quella di sedurre una vittima e succhiarle
  la vita per un lungo lasso di tempo; in questo caso Voldemort sarebbe debole
@@ -876,7 +888,7 @@ Citato in cap.
  E se la intende tenere come riserva, per utilizzarla solo nel caso in cui
  non possa impadronirsi della Pietra, questo spiegherebbe perché oggi non
  è stato effettuato un tentativo di rapire Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -888,7 +900,7 @@ Di nuovo Minerva indirizzò una rapida occhiata a Severus, lo vide ascoltare
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quello che 
@@ -896,11 +908,11 @@ Quello che
 non è
 \emph default
  chiaro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò il Preside, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è 
@@ -914,28 +926,28 @@ come
 to.
  Azkaban è rimasta impenetrabile per secoli, e non riesco a immaginare un
  modo in cui Voldemort avrebbe mai potuto riuscirci
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo potrebbe significare poco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, senza espressione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Affinché il Signore Oscuro faccia ciò che noi non riusciamo a immaginare,
  è necessario solo che egli abbia un'immaginazione migliore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -944,14 +956,14 @@ Affinché il Signore Oscuro faccia ciò che noi non riusciamo a immaginare,
 \begin_layout Standard
 Albus annuì cupamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sfortunatamente ora c'è un altro mago che si fa beffe dell'impossibile.
  Un mago che, non molto tempo fa, ha sviluppato un nuovo e potente incantesimo
  che potrebbe aver accecato i Dissennatori per far fuggire Bellatrix Black.
  Ed è coinvolto anche per altri motivi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -974,11 +986,11 @@ chi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E chi sarebbe 
@@ -986,7 +998,7 @@ E chi sarebbe
 costui?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Severus, sembrando perplesso.
@@ -995,18 +1007,18 @@ costui?
 \begin_layout Standard
 Albus si appoggiò alla sedia e pronunciò le parole fatali, proprio quelle
  che ella temeva: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry James Potter-Evans-Verres
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1014,13 +1026,13 @@ Harry James Potter-Evans-Verres
 Potter?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il Maestro di Pozioni, con più turbamento di quanto avesse mai sentito
  in quella voce solitamente serica.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Preside, è questo uno dei suoi scherzi? È al suo primo anno a Hogwarts!
@@ -1029,51 +1041,51 @@ Preside, è questo uno dei suoi scherzi? È al suo primo anno a Hogwarts!
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non è uno scherzo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Minerva, la voce poco più di un sussurro.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry sta già compiendo delle scoperte originali in Trasfigurazione, Severus.
  Sebbene non sapessi che stesse facendo della ricerca anche riguardo gli
  Incantesimi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry non è un normale studente del primo anno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse solennemente il Preside.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Egli è indicato come l'eguale del Signore Oscuro, ha un potere che il Signore
  Oscuro non conosce
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1094,11 +1106,11 @@ Citato in cap.
 Severus la stava guardando, e sarebbe stato necessario conoscerlo bene per
  accorgersi che il suo sguardo era implorante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Devo prendere questa cosa sul serio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1109,7 +1121,7 @@ Minerva annuì e basta.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualcun 
@@ -1124,7 +1136,7 @@ Il Preside la guardò con un'espressione di scuse
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1133,19 +1145,19 @@ In qualche modo lo seppe, lo seppe anche prima che egli lo dicesse, e le
 \end_layout
 
 \begin_layout Standard
--- e disse, 
-\begin_inset Quotes fld
+– e disse, 
+\begin_inset Quotes cld
 \end_inset
 
 Quirinus Quirrell
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1153,12 +1165,12 @@ Quirinus Quirrell
 Perché
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ella disse, con una voce che avrebbe dovuto squagliare metà dei congegni
  nell'ufficio, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1172,10 +1184,10 @@ parlato
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1184,18 +1196,18 @@ parlato
 \begin_layout Standard
 Il Preside passò una stanca mano rugosa sulla fronte ugualmente rugosa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È semplicemente capitato che Quirinus fosse presente, Minerva.
  Anche io non ci ho visto nulla di male, sul momento
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Il Preside esitò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E Harry ha detto che il suo Incantesimo era troppo pericoloso per essere
@@ -1206,15 +1218,15 @@ e di Difesa
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il signor Potter è un 
@@ -1226,17 +1238,17 @@ Occlumante?
 ed è amico dei gemelli Weasley?
 \emph default
  Albus, hai una qualche idea di quello che hai scatenato su questa scuola?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La sua voce era quasi un urlo, ora.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Al suo settimo anno non resterà più nulla di Hogwarts, se non un cratere
  fumante nel terreno!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1245,11 +1257,11 @@ Al suo settimo anno non resterà più nulla di Hogwarts, se non un cratere
 \begin_layout Standard
 Albus si appoggiò allo schienale della sua grande poltrona imbottita, e
  disse, sorridendo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non dimenticare il Giratempo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1261,76 +1273,76 @@ Allora Minerva urlò, ma sommessamente.
 
 \begin_layout Standard
 Severus disse con voce strascicata, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dovrei insegnargli a preparare la Polisucco, Preside? Lo chiedo solo per
  ragioni di completezza, nel caso in cui non fosse soddisfatto della grandezza
  del suo disastro prediletto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse l'anno prossimo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Miei più cari amici, la questione di fronte a noi è se Harry Potter abbia
  liberato Bellatrix Black da Azkaban, cosa che è ben più che una semplice
  vivacità giovanile, anche per i miei criteri tolleranti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi scusi, Preside
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus con uno dei sorrisi più freddi che gli avesse mai visto
  rivolgere ad Albus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma metto a verbale la mia opinione che la risposta sia no.
  Questa è opera del Signore Oscuro, pura e semplice
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E allora perché
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus, e ora non c'era alcun umorismo nella sua voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 quando ho pensato di recuperare Harry subito dopo il suo arrivo a Diagon
  Alley, ho scoperto che questo si sarebbe tradotto in un paradosso?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1353,15 +1365,15 @@ già
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi lei sospetta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , stava dicendo la voce di Severus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che Potter sia andato da Diagon Alley ad Azkaban, e poi sia tornato indietro
@@ -1369,24 +1381,24 @@ che Potter sia andato da Diagon Alley ad Azkaban, e poi sia tornato indietro
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Precisamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sebbene sia anche possibile che Voldemort o suoi servi stessero osservando
@@ -1408,8 +1420,8 @@ o, allora io stesso non sarei potuto andare ad Azkaban dopo aver interagito
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1420,15 +1432,15 @@ Allora la voce di Albus si fermò.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma Preside
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1436,7 +1448,7 @@ Ma Preside
 lei
 \emph default
  è tornato dal futuro di Azkaban e ha interagito con noi…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1447,7 +1459,7 @@ La voce del Maestro di Pozioni si spense.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma Severus, se io avessi 
@@ -1459,30 +1471,30 @@ ricevuto
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Preside, penso che dovremmo disegnare dei diagrammi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono d'accordo, Severus.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1519,28 +1531,28 @@ Minerva se ne stava lì seduta con gli occhi chiusi, cercando di non ascoltare,
 \begin_layout Standard
 Dopo un po', quando la discussione sembrò essersi esaurita, disse ad alta
  voce, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il Giratempo del signor Potter è limitato al periodo dalle 21 fino a mezzanotte.
  Il guscio è stato manomesso, Albus?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non secondo i miei Incantesimi più sensibili
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma i gusci sono cose nuove; e sconfiggere le precauzioni inserite dagli
@@ -1549,7 +1561,7 @@ Ma i gusci sono cose nuove; e sconfiggere le precauzioni inserite dagli
 non
 \emph default
  essere impossibile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1562,7 +1574,7 @@ Aprì gli occhi, e vide Severus e il Preside che fissavano intensamente una
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Siete giunti a una qualsiasi 
@@ -1570,16 +1582,16 @@ Siete giunti a una qualsiasi
 conclusione?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E per favore non ditemi come ci siete arrivati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1590,11 +1602,11 @@ Severus e il Preside si guardarono a vicenda, poi si girarono a guardarla.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Siamo giunti alla conclusione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Preside gravemente, «che o Harry è coinvolto o non lo è; che
@@ -1602,18 +1614,18 @@ Siamo giunti alla conclusione
  da ciò che potrebbe essere successo all'interno di Azkaban, nessuno avrebbe
  visitato il cimitero di Little Hangleton durante il periodo in cui Moody
  l'ha già vigilato durante il mio passato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 In breve
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus con voce strascicata, «non sappiamo nulla, cara Minerva;
@@ -1629,59 +1641,59 @@ probabile
  Ma suggerisco di verificare, stasera alle ventuno in punto, se Potter è
  in grado di viaggiare indietro nel tempo di tutte e sei le ore fino alle
  quindici, per vedere se non ha ancora usato il Giratempo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo sembra saggio farlo in ogni caso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Occupatene tu, Minerva, e di' a Harry di fermarsi nel mio ufficio a suo
  comodo, dopo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma sospettate ancora che Harry sia direttamente coinvolto nell'evasione
  dalla prigione vera e propria?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Possibile ma improbabile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, nello stesso momento in cui Albus disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1690,7 +1702,7 @@ Sì
 \begin_layout Standard
 Minerva strinse la radice del proprio naso, prese un respiro profondo, espirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Albus, Severus, quale 
@@ -1698,22 +1710,22 @@ Albus, Severus, quale
 possibile
 \emph default
  ragione avrebbe il signor Potter di fare una cosa del genere!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nessuna che mi venga in mente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma resta il fatto che solo le magie di Harry, di tutti i mezzi a me noti,
@@ -1721,44 +1733,44 @@ ma resta il fatto che solo le magie di Harry, di tutti i mezzi a me noti,
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Aspetti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
  Ogni espressione svanì dal suo volto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi è venuta in mente una cosa, devo controllare
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Il Maestro di Pozioni prese un pizzico di Polvere Volante, attraversò la
- stanza diretto verso il camino -- Albus frettolosamente agitò la sua bacchetta
- per accenderlo -- e poi nel bagliore di una fiamma verde, e con le parole
+ stanza diretto verso il camino – Albus frettolosamente agitò la sua bacchetta
+ per accenderlo – e poi nel bagliore di una fiamma verde, e con le parole
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ufficio del Preside di Casa Serpeverde
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Severus fu scomparso.
@@ -1775,48 +1787,48 @@ Fu solo pochi minuti dopo che Severus spuntò di nuovo fuori dalla Metropolvere,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Maestro di Pozioni.
  Ancora quel volto senza espressione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Temo che il signor Potter abbia un motivo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Parla!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Albus.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho trovato Lesath Lestrange nella sala comune Serpeverde, che studiava
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non era riluttante a incrociare il mio sguardo.
@@ -1827,7 +1839,7 @@ Non era riluttante a incrociare il mio sguardo.
  uscire.
  Poiché, vedete, il signor Lestrange aveva sentito dire che il Ragazzo-Che-è-Sop
 ravvissuto poteva fare qualunque cosa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1838,15 +1850,15 @@ Minerva e Albus si scambiarono un'occhiata.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Severus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ella disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1862,7 +1874,7 @@ Harry
 questo
 \emph default
 …
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1873,20 +1885,20 @@ La sua voce si spense.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il signor Potter pensa di essere Dio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus senza espressione, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e Lesath Lestrange si è gettato in ginocchio davanti a lui supplicandolo
  con un pianto sincero
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1894,23 +1906,23 @@ e Lesath Lestrange si è gettato in ginocchio davanti a lui supplicandolo
 
 \begin_layout Standard
 Minerva fissò Severus, provando nausea allo stomaco.
- Aveva studiato la religione babbana -- era il motivo più comune per cui
+ Aveva studiato la religione babbana – era il motivo più comune per cui
  si aveva il bisogno di lanciare Incantesimi di memoria sui genitori dei
- Nati babbani -- e ne sapeva abbastanza da capire ciò che Severus aveva
- appena detto.
+ Nati babbani – e ne sapeva abbastanza da capire ciò che Severus aveva appena
+ detto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ad ogni modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Maestro di Pozioni.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho guardato dentro il signor Lestrange per vedere se sapesse qualcosa della
@@ -1918,35 +1930,35 @@ Ho guardato dentro il signor Lestrange per vedere se sapesse qualcosa della
  Non ha sentito niente.
  Ma l'istante in cui lo scoprirà, concluderà che il responsabile è stato
  Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisco…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Albus lentamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, Severus.
  Questa è una buona notizia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1954,7 +1966,7 @@ Grazie, Severus.
 Buona notizia?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sbottò Minerva.
@@ -1962,17 +1974,17 @@ Buona notizia?
 
 \begin_layout Standard
 Albus la guardò, il suo viso inespressivo come quello di Severus, ora; e
- si ricordò, con un trauma, che lo stesso Albus -- 
-\begin_inset Quotes fld
+ si ricordò, con un trauma, che lo stesso Albus – 
+\begin_inset Quotes cld
 \end_inset
 
 È il miglior motivo che possa immaginare per far evadere Bellatrix da Azkaban
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus tranquillamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E se 
@@ -1987,7 +1999,7 @@ non
  le sue prime mosse.
  Ma cerchiamo di non essere frettolosi nel giudizio mentre vi è molto che
  ancora non sappiamo, ma che presto sapremo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1998,19 +2010,19 @@ Ancora una volta Albus si alzò da dietro la scrivania, si diresse verso
  il camino ancora acceso, vi gettò un altro pizzico di polvere verde, e
  infilò la testa tra le fiamme.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dipartimento per l'Applicazione della Legge Magica
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ufficio del Direttore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2018,30 +2030,30 @@ ufficio del Direttore
 
 \begin_layout Standard
 Dopo un momento, la voce di Madam Bones giunse chiara e nitida, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che cosa c'è, Albus? Sono un po' occupata
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Amelia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ti prego di condividere qualsiasi scoperta effettuata in merito a tale questione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2050,61 +2062,61 @@ ti prego di condividere qualsiasi scoperta effettuata in merito a tale questione
 \begin_layout Standard
 Ci fu una pausa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, disse la voce fredda di Madam Bones dal fuoco ardente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e questa è una strada a doppio senso allora, Albus?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Può darsi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago con calma.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se qualunque Auror morisse a causa della tua reticenza, vecchio impiccione,
  ti riterrò completamente responsabile.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisco, Amelia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma non ho nessun desiderio di suscitare allarmi inutili e incredulità
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2113,7 +2125,7 @@ ma non ho nessun desiderio di suscitare allarmi inutili e incredulità
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bellatrix Black
@@ -2127,23 +2139,23 @@ Azkaban!
 inutile
 \emph default
  a confronto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrei doverti ricordare queste parole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago nelle fiamme verdi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Poiché se venissi a sapere che le mie paure non sono inutili, te le dirò
@@ -2154,7 +2166,7 @@ senz'altro
 .
  Ora, Amelia, ti prego, se sei venuta a conoscenza di informazioni di qualunque
  genere su questo argomento, per favore condividile
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2162,12 +2174,12 @@ senz'altro
 
 \begin_layout Standard
 Ci fu un'altra pausa, poi la voce di Madam Bones disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho informazioni che ho imparato quattro ore nel futuro, Albus.
  Le vuoi ancora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2178,7 +2190,7 @@ Albus fece una pausa
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2189,33 +2201,33 @@ Albus fece una pausa
 \end_layout
 
 \begin_layout Standard
--- e infine disse, 
-\begin_inset Quotes fld
+– e infine disse, 
+\begin_inset Quotes cld
 \end_inset
 
 Sì, grazie
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Abbiamo avuto un colpo di fortuna
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Madam Bones, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 una degli Auror che erano presenti alla fuga era una Nata babbana, e ci
  ha detto che l'incantesimo del Fuoco-Volante, come lo chiamavamo, potrebbe
  non essere affatto un incantesimo, ma un artefatto babbano
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2231,13 +2243,12 @@ Come un pugno allo stomaco, ecco cosa provò, e la nausea allo stomaco di
 \begin_layout Standard
 La voce di Madam Bones continuò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Abbiamo fatto venire Arthur Weasley dall'Uso Improprio dei Manufatti Babbani
- -- sa più cose sui manufatti babbani di qualunque mago vivente -- e gli
- abbiamo dato le descrizioni degli Auror presenti sulla scena, e lui l'ha
- risolto.
+ – sa più cose sui manufatti babbani di qualunque mago vivente – e gli abbiamo
+ dato le descrizioni degli Auror presenti sulla scena, e lui l'ha risolto.
  È un artefatto babbano chiamato pazzo, e lo chiamano così perché dovresti
  essere un pazzo per cavalcarne uno.
  Solo sei anni fa uno dei loro pazzi è esploso, ha ucciso centinaia di Babbani
@@ -2245,42 +2256,42 @@ Abbiamo fatto venire Arthur Weasley dall'Uso Improprio dei Manufatti Babbani
  Weasley dice che i pazzi utilizzano un particolare tipo di scienza chiamata
  reazione opposta, quindi il piano è quello di sviluppare una fattura che
  impedisca a quella scienza di funzionare intorno ad Azkaban
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, Amelia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus in tono grave.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È tutto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vado a controllare se abbiamo qualche cosa da sei ore nel futuro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Madam Bones, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 se è così non me l'avrebbero detto, ma farò in modo che lo dicano a te.
@@ -2289,26 +2300,26 @@ se è così non me l'avrebbero detto, ma farò in modo che lo dicano a te.
 tu
 \emph default
  qualcosa che vuoi dirmi, Albus? Quale di quelle due possibilità ti sembra?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ancora, Amelia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ma potrei avere qualcosa da dirti presto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2323,48 +2334,48 @@ Si risollevò dal fuoco, allora, che ritornò alle consuete fiamme gialle.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Severus?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il vecchio mago.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cos'era in realtà?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Un razzo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Maestro di Pozioni mezzosangue, che era cresciuto nella città
  babbana di Spinner's End.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una delle più impressionanti tecnologie babbane
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che probabilità c'è che 
@@ -2372,7 +2383,7 @@ Che probabilità c'è che
 Harry
 \emph default
  conosca tali arti?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
@@ -2380,7 +2391,7 @@ Harry
 
 \begin_layout Standard
 Severus rispose con una voce strascicata, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, un ragazzo come il signor Potter sa 
@@ -2389,13 +2400,13 @@ tutto
 \emph default
  sui razzi; questa, cara Minerva, è una certezza.
  Devi ricordare che le cose sono fatte in modo diverso nel mondo dei Babbani
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Severus aggrottò le sopracciglia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma i razzi 
@@ -2403,23 +2414,23 @@ Ma i razzi
 sono
 \emph default
  pericolosi, e costosi…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Harry ha rubato e nascosto una quantità imprecisata di denaro dal suo deposito
  a Gringotts, forse migliaia di galeoni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Preside, e poi, ai loro sguardi gemelli, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo 
@@ -2429,12 +2440,12 @@ non era
  nel mio piano, ma ho commesso l'errore di mandare il Professore di Difesa
  a supervisionare il prelievo da parte di Harry di cinque galeoni per i
  regali di Natale…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il Preside scrollò le spalle.
  «Sì, sono d'accordo, pura follia in retrospettiva, continuiamo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2446,16 +2457,16 @@ Quietamente Minerva sbatté la testa un paio di volte contro il poggiatesta
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ciononostante, Preside
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Solo perché i Mangiamorte non hanno mai usato artefatti babbani nella prima
@@ -2477,7 +2488,7 @@ proprio
 \emph default
  il modo in cui ragiona; qualsiasi potere che vede cercherà di prenderlo
  per sé
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2491,28 +2502,28 @@ Il vecchio mago era in piedi immobile, assolutamente immobile, anche i peli
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Severus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore, e la sua voce era quasi incrinata, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ti rendi conto di quello che stai dicendo? Se Harry Potter e Voldemort combattes
 sero la loro guerra con armi babbane non resterà più nulla del mondo, eccetto
  il fuoco!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2520,7 +2531,7 @@ sero la loro guerra con armi babbane non resterà più nulla del mondo, eccetto
 Cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
@@ -2532,39 +2543,39 @@ così
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Severus parlò come se lei non fosse nella stanza.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora forse, Preside, sta mandando a Harry Potter un preciso avvertimento
  proprio su questo; dice che a ogni attacco con armi babbane sarà data risposta
  con una rappresaglia dello stesso tipo.
  Ordini al signor Potter di cessare l'uso di tecnologia babbana nelle sue
- battaglie; questo gli mostrerà che il messaggio è stato ricevuto\SpecialChar \ldots{}
+ battaglie; questo gli mostrerà che il messaggio è stato ricevuto\SpecialChar ldots
  e non
  gli darà altre idee
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Severus si accigliò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Sebbene, pensandoci, il signor Malfoy -- e naturalmente la signorina Granger
- -- beh, riflettendo meglio una proibizione completa della tecnologia sembra
+Sebbene, pensandoci, il signor Malfoy – e naturalmente la signorina Granger
+ – beh, riflettendo meglio una proibizione completa della tecnologia sembra
  più saggia
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2573,17 +2584,17 @@ Sebbene, pensandoci, il signor Malfoy -- e naturalmente la signorina Granger
 \begin_layout Standard
 Il vecchio mago premette entrambe le mani sulla fronte, e dalle sue labbra
  provenne una voce incerta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Inizio a 
 \emph on
 sperare
 \emph default
- che ci sia Harry dietro la fuga\SpecialChar \ldots{}
+ che ci sia Harry dietro la fuga\SpecialChar ldots
  oh, Merlino ci difenda tutti, cosa ho fatto,
  cosa ho fatto, cosa sarà del mondo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2592,11 +2603,11 @@ sperare
 \begin_layout Standard
 Severus scrollò le spalle.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dalle voci che ho udito, Preside, le armi babbane sono solo appena peggiori
- dei più\SpecialChar \ldots{}
+ dei più\SpecialChar ldots
  
 \emph on
 reconditi
@@ -2605,15 +2616,15 @@ reconditi
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2621,27 +2632,27 @@ reconditi
 Peggiori?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rantolò Minerva, e poi chiuse la bocca come se avesse fatto uno sforzo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Peggiore di ogni rischio rimasto in questi anni di declino
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non peggiore di ciò che ha cancellato Atlantide dal Tempo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2654,7 +2665,7 @@ Minerva lo fissò, sentendo il sudore che le scendeva lungo tutta la schiena.
 \begin_layout Standard
 Severus continuò, ancora rivolto ad Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tutti i Mangiamorte tranne Bellatrix l'avrebbero tradito, tutti i suoi sostenito
@@ -2662,7 +2673,7 @@ ri si sarebbero rivoltati contro di lui, tutte le potenze del mondo si sarebbero
  unite per distruggerlo, se si fosse dimostrato avventato nell'usare qualsiasi
  potere davvero pericoloso.
  È così differente, allora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2672,32 +2683,32 @@ ri si sarebbero rivoltati contro di lui, tutte le potenze del mondo si sarebbero
 Un po' di movimento, un po' di colore, erano tornati sul volto del vecchio
  mago.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Forse no\SpecialChar \ldots{}
+Forse no\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E in ogni caso
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Severus disse con un sorriso leggermente condiscendente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 le armi babbane non sono così facili da ottenere, non per mille galeoni
  o per mille migliaia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2712,81 +2723,81 @@ Ma Harry non Trasfigura forse i dispositivi che usa in battaglia?
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Il camino eruppe di fiamme verdi, e il volto di Pius Thicknesse, l'assistente
  di Madam Bones, apparve al suo interno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stregone Capo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Thicknesse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho un rapporto per lei, trasmesso da
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  gli occhi di Thicknesse guizzarono verso Minerva e Severus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sei minuti fa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei ore nel futuro, vuoi dire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questi due devono ascoltarlo; fai il tuo rapporto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sappiamo come hanno fatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Thicknesse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nella cella di Bellatrix Black, nascosta in un angolo, c'era una fiala per
  pozioni; e l'esame delle tracce rimanenti del fluido mostra che era una
  pozione Animagus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2797,23 +2808,23 @@ Ci fu una lunga pausa.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Capisco\SpecialChar \ldots{}
+Capisco\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Albus disse pesantemente.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scusate?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
@@ -2823,7 +2834,7 @@ Scusate?
 \begin_layout Standard
 La testa di Thicknesse si voltò verso di lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Gli Animagi, Madam McGonagall, nella loro forma Animagus, sono di minor
@@ -2840,42 +2851,42 @@ dopo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi risulta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus, avendo assunto ora il suo consueto sogghigno, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che la meditazione Animagus richieda un tempo considerevole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, signor Snape
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sbottò Thicknesse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 i registri mostrano che Bellatrix Black era un Animagus 
@@ -2888,47 +2899,47 @@ prima
 seconda
 \emph default
  meditazione non ha richiesto tanto tempo quanto la prima!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non avrei pensato possibile che qualunque prigioniero di Azkaban potesse
- fare una cosa simile\SpecialChar \ldots{}
+ fare una cosa simile\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma Bellatrix Black era una potentissima strega prima della sua incarcerazione,
  e se c'era una qualche strega che poteva farlo, doveva essere lei.
  È possibile mettere in sicurezza Azkaban contro questo metodo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la testa fiduciosa di Pius Thicknesse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 I nostri esperti dicono che è quasi-inimmaginabile che una meditazione Animagus
@@ -2936,7 +2947,7 @@ I nostri esperti dicono che è quasi-inimmaginabile che una meditazione Animagus
  Tutte le visite ai prigionieri autorizzati a riceverle saranno limitate
  a due ore d'ora in poi, e i Dissennatori ci informeranno se qualunque Incantesi
 mo Patronus è mantenuto nelle aree della prigione per un periodo più lungo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2945,7 +2956,7 @@ mo Patronus è mantenuto nelle aree della prigione per un periodo più lungo
 \begin_layout Standard
 Albus sembrò infelice a quella notizia, ma annuì.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Capisco.
@@ -2953,7 +2964,7 @@ Capisco.
  la vostra vigilanza.
  E quando ad Amelia sarà stato detto tutto questo, dille che ho informazioni
  per lei
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2964,67 +2975,67 @@ La testa di Pius Thicknesse svanì senza un'altra parola.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Nessun altro tentativo\SpecialChar \ldots{}
+Nessun altro tentativo\SpecialChar ldots
 ?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché, cara Minerva
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus strascicando, e non avendo del tutto rimosso il suo ghigno
  consueto, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 se il Signore Oscuro avesse progettato di liberare da Azkaban qualcun altro
  dei suoi servitori, non avrebbe lasciato dietro di sé quella fiala di pozione
  per dirci come è stato fatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
  Severus si accigliò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Confesso\SpecialChar \ldots{}
+Confesso\SpecialChar ldots
  anche così non capisco perché quella fiala sia stata lasciata lì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-È un qualche genere di messaggio\SpecialChar \ldots{}
+È un qualche genere di messaggio\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Albus lentamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-E non posso capire cosa significhi, affatto\SpecialChar \ldots{}
+E non posso capire cosa significhi, affatto\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Tamburellò con le dita sulla scrivania.
@@ -3037,7 +3048,7 @@ Per un lungo minuto o tre, il vecchio mago fissò il nulla, accigliato; mentre
 
 \begin_layout Standard
 Poi Albus scosse la testa sconcertato, e disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Severus, 
@@ -3045,22 +3056,22 @@ Severus,
 tu
 \emph default
  lo capisci?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Maestro di Pozioni, e con un sorriso sardonico, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 cosa che probabilmente è molto meglio per noi; qualunque cosa fosse 
@@ -3068,70 +3079,70 @@ cosa che probabilmente è molto meglio per noi; qualunque cosa fosse
 inteso
 \emph default
  che dovessimo concludere da ciò, quella parte del piano ha fatto cilecca
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Siete certi, ora, che 
 \emph on
 sia
 \emph default
- Tu-Sai\SpecialChar \ldots{}
+ Tu-Sai\SpecialChar ldots
  che sia Voldemort?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Minerva.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non potrebbe essere che qualche altro Mangiamorte abbia concepito questa
  idea intelligente?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E che conosca anche i razzi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse secco Severus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non credo che gli altri Mangiamorte fossero così amanti degli Studi babbani.
  È lui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, è lui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Azkaban ha resistito impenetrabile per epoche, solo per cadere a causa di
@@ -3142,26 +3153,26 @@ Azkaban ha resistito impenetrabile per epoche, solo per cadere a causa di
  quanto Voldemort stesso per farlo.
  E non c'è nessun altro al mondo che sovrastimerebbe erroneamente il mio
  acume, e mi lascerebbe un messaggio che non riesco affatto a capire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A meno che non l'abbia stimato con precisione, invece
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse senza tono Severus, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 nel qual caso tutto questo è proprio quello che voleva che pensasse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3170,13 +3181,13 @@ nel qual caso tutto questo è proprio quello che voleva che pensasse
 \begin_layout Standard
 Albus sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Infatti.
  Ma anche se mi avesse ingannato perfettamente, potremmo almeno fare affidamento
  sulla conclusione che non era Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3200,15 +3211,15 @@ Ricordò conversazioni come questa di dieci anni prima, in un tempo in cui
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa dirai a Madam Bones?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sussurrò.
@@ -3223,54 +3234,58 @@ Albus si alzò dalla sua scrivani a si mosse verso il centro della stanza,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le dirò quel poco che conosco dell'Arte Oscura chiamata horcrux, attraverso
  la quale un'anima è privata della morte
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore, in una voce sommessa che sembrò riempire l'intera
  stanza, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 e le dirò cosa può essere fatto con la carne del servitore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le dirò che sto ricostituendo l'Ordine della Fenice.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le dirò che Voldemort è tornato.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E che la Seconda guerra dei Maghi è iniziata.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -3336,13 +3351,13 @@ po'
 \begin_layout Standard
 La professoressa McGonagall lanciò l'Incantesimo Patronus, e disse al suo
  gatto splendente, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vai dal signor Potter e digli questo: signor Potter, la prego di venire
  nel mio ufficio non appena sente questo messaggio, senza fare nient'altro
  lungo la strada
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
