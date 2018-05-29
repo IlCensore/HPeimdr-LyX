@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{58}
@@ -51,6 +53,8 @@
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+\newfontfamily\serpentese{Alegreya}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -62,23 +66,25 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Garamond Premier Pro
-\font_sans Bulmer BT
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Perpetua Std"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
-\spacing single
+\spacing onehalf
 \use_hyperref false
 \papersize custom
 \use_geometry true
@@ -101,6 +107,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -115,7 +122,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -160,9 +170,10 @@ name "chap:59SPE-C-p9"
 \end_layout
 
 \begin_layout Standard
+\noindent
 I manici di scopa erano stati inventati durante quelli che i Babbani avrebbero
  chiamato i Secoli bui, apparentemente da una strega leggendaria chiamata
- Celestria Relevo, secondo quanto tramandato la bis-bis-nipote di Merlino.
+ Celestria Relevo, che si diceva essere la bis-bis-nipote di Merlino.
 \end_layout
 
 \begin_layout Standard
@@ -262,8 +273,8 @@ Un manico di scopa razzo-assistito, perciò,
 \emph on
 non
 \emph default
- si muoveva come i manici di scopa magici su cui Harry era un pilota così
- bravo.
+ si muoveva come i manici di scopa magici di cui Harry era un pilota così
+ abile.
 \end_layout
 
 \begin_layout Standard
@@ -272,7 +283,7 @@ Nulla di tutto ciò passò per la mente di Harry in quel momento.
 
 \begin_layout Standard
 Per prima cosa, il rumore più forte che avesse mai udito in vita sua gli
- stava impedendo di sentire sé stesso pensare.
+ stava impedendo di sentire i propri pensieri.
 \end_layout
 
 \begin_layout Standard
@@ -347,7 +358,7 @@ Harry mancò un altro Auror di circa un metro, sfrecciandogli oltre su di
 \end_layout
 
 \begin_layout Standard
-Se ci furono urla di Auror arrostiti non le udì, ma questa non era una prova
+Se ci furono urla di Auror arrostiti non le udì, ma quella non era una prova
  né in un senso né nell'altro, perché tutto ciò che Harry stava udendo in
  quel momento era un rumore estremamente forte.
 \end_layout
@@ -388,16 +399,40 @@ ità del Signore Oscuro e
 perché
 \emph default
  aveva dato ascolto al professor Quirinus 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Ti asssicuro, ragazzo, non proverei a farlo se non prevedesssi la mia ssopravviv
-enza
+Ti asssicuro, ragazzo, non proverei a farlo sse non prevedesssi mia ssopravviven
+za
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
  Quirrell invece che al professor Michael
@@ -405,7 +440,7 @@ enza
  
 \emph default
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Figliolo, se proverai a fare qualcosa da solo con i razzi, voglio dire 
@@ -414,16 +449,17 @@ qualunque cosa di qualunque genere
 \emph default
  senza che un professionista esperto stia a guardare, morirai e quello renderà
  la Mamma infelice
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Verres-Evans.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -432,7 +468,7 @@ qualunque cosa di qualunque genere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -442,16 +478,17 @@ Cosa?
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Amelia allo specchio.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -460,19 +497,18 @@ Cosa?
 \end_layout
 
 \begin_layout Standard
-Il vento era calato ad un'intensità sopportabile mentre la resistenza dell'aria
- li aveva rallentati, dando a Harry un'ottima opportunità per ascoltare
- il rumore ronzante e risuonante che sembrava riempire completamente il
- suo cervello.
+Il vento era calato a un'intensità sopportabile quando la resistenza dell'aria
+ li aveva rallentati, dando a Harry tempo a sufficienza per ascoltare il
+ ronzio tintinnante che sembrava riempire completamente il suo cervello.
 \end_layout
 
 \begin_layout Standard
-Il professor Quirrell avrebbe dovuto lanciare un Incantesimo Quietus sui
- gas di scarico del razzo… apparentemente c'erano limiti a ciò che gli incantesi
-mi di silenziamento potevano fare… col senno di poi, Harry avrebbe dovuto
- Trasfigurare un paio di tappi per le orecchie, e non fidarsi semplicemente
- dell'incantesimo di silenziamento, sebbene anche quelli probabilmente non
- sarebbero stati sufficienti…
+Il professor Quirrell aveva lanciato un Incantesimo Quietus sui gas di scarico
+ del razzo… apparentemente c'erano limiti a ciò che gli incantesimi di silenziam
+ento potevano fare… col senno di poi, Harry avrebbe dovuto Trasfigurare
+ un paio di tappi per le orecchie, e non fidarsi semplicemente dell'incantesimo
+ di silenziamento, sebbene anche quelli probabilmente non sarebbero stati
+ sufficienti…
 \end_layout
 
 \begin_layout Standard
@@ -509,13 +545,13 @@ avrebbe
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-Poi Harry guardò dietro di sé, ricordandosi per la prima volta di verificare
- se Bellatrix o il professor Quirrell fossero stati scagliati via dal manico
- di scopa.
+Allora Harry guardò dietro di sé, ricordandosi per la prima volta di verificare
+ se Bellatrix o il professor Quirrell fossero stati caduti dal manico di
+ scopa.
 \end_layout
 
 \begin_layout Standard
@@ -527,7 +563,7 @@ Ma il serpente verde era ancora nella sua imbracatura, e la donna emaciata
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -546,19 +582,18 @@ Al che Bellatrix afferrò la propria bacchetta, la puntò contro Harry, e
 
 \begin_layout Standard
 Un attimo dopo se ne pentì; le imprecazioni che stava urlando contro Azkaban,
- i Dissennatori, gli Auror, Dumbledore, Lucius, Bartemy Couch, qualcosa chiamato
- l'Ordine della Fenice, e tutti coloro che si trovavano sulla strada del
- suo Signore Oscuro, eccetera, erano inadatte agli ascoltatori giovani e
- più sensibili, e la sua risata gli faceva male alle sue orecchie appena
- guarite.
+ i Dissennatori, gli Auror, Dumbledore, Lucius, Bartemy Couch, qualcosa
+ chiamato l'Ordine della Fenice, e tutti coloro che si trovavano sulla strada
+ del suo Signore Oscuro, eccetera, erano inadatte agli ascoltatori giovani
+ e più sensibili, e la risata gli faceva male alle orecchie appena guarite.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Basta, Bella
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry disse infine, e la voce di lei si fermò all'istante.
@@ -591,7 +626,7 @@ Ehi
 non possiamo aspettarci di fare qualcosa perfettamente la prima volta, probabilm
 ente abbiamo solo bisogno di più pratica 
 \noun on
-dimenticate che l'abbia detto
+dimenticatevi di quello che ho detto
 \emph default
 \noun default
 .
@@ -605,11 +640,11 @@ Harry guardò di nuovo dietro di sé, vide Bellatrix che si guardava intorno
 
 \begin_layout Standard
 E infine Bellatrix disse, la voce ora più bassa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mio Signore, dove siamo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -623,14 +658,14 @@ Cosa vuoi dire?
  era quello che Harry avrebbe voluto chiedere, ma il Signore Oscuro non
  avrebbe mai ammesso di non capire qualcosa, quindi Harry rispose seccamente,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Siamo su di un manico di scopa
-\begin_inset Quotes frd
+Siamo su di un manico di scopa.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -642,15 +677,15 @@ Pensa di essere morta, che questo sia il Paradiso?
 \begin_layout Standard
 Le mani di Bellatrix erano ancora incatenate al manico di scopa, quindi
  fu solo un dito che si sollevò e indicò quando disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Che cosa è 
+Che cos'è 
 \emph on
 quello?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -668,14 +703,14 @@ Poi Harry comprese.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Quello è il sole, cara Bella
-\begin_inset Quotes frd
+Quello è il sole, cara Bella.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -697,22 +732,22 @@ La testa di Bellatrix continuava a girare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E le cose soffici?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse.
+ chiese lei.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nuvole.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -720,7 +755,7 @@ Nuvole.
 
 \begin_layout Standard
 Ci fu una pausa, e poi Bellatrix disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma cosa 
@@ -728,7 +763,7 @@ Ma cosa
 sono
 \emph default
  queste cose?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -743,11 +778,11 @@ Harry non le rispose, non era possibile che la sua voce potesse essere salda,
 \begin_layout Standard
 Dopo un po', Bellatrix disse d'un fiato, così sommessamente che Harry quasi
  non l'udì, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Carine…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -771,19 +806,43 @@ La bacchetta presa in prestito pendeva senza vita dalla cinghia attaccata
 
 \emph on
 \noun on
-Mi stai prendendo in giro
+Mi state prendendo in giro
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Allora la mente di Harry si ricordò, la Pozione Peperina aveva un costo;
  Bellatrix avrebbe 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
+
 \emph on
 dormito per un tempo conssiderevole
 \emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
 , aveva detto il professor Quirrell.
 \end_layout
 
@@ -800,16 +859,15 @@ fosse
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- o aveva deliberatamente sacrificato Bellatrix per proteggere la loro
- fuga
+– o aveva deliberatamente sacrificato Bellatrix per proteggere la loro fuga
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -829,7 +887,7 @@ Non c'era modo, sul manico di scopa, di allungare indietro la mano e prenderle
 
 \begin_layout Standard
 Harry guardò avanti per assicurarsi di non essere in procinto di scontrarsi
- con qualche roccia volante, continuò a guidare la scopa verso il sole,
+ con qualche roccia volante, continuò a puntare la scopa verso il sole,
  il ragazzo invisibile e la donna forse morta che si allontanavano cavalcando
  nel pomeriggio, mentre le sue dita stringevano il legno così fermamente
  da diventare bianche.
@@ -864,16 +922,40 @@ Poi a Harry venne in mente che non aveva ancora verificato
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Harry si guardò indietro, e sibilò: «
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
+
 \emph on
 Maesstro?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -914,12 +996,12 @@ E Harry decise che, mentre sarebbe stato possibile recuperare l'errore di
 \end_layout
 
 \begin_layout Standard
-Così prese dalla sua borsa il successivo passaporta nella sequenza, mentre
- rallentò il suo manico di scopa fino a fermarlo nella luminosa aria blu
- (Harry non seppe dire, quando ci pensò, se la capacità di un passaporta
- di correggere in base alla rotazione terrestre comprendeva anche la capacità
- di far corrispondere la velocità in generale con il suo nuovo ambiente),
- appoggiò il passaporta al manico di scopa, e…
+Così prese dalla borsa il successivo passaporta nella sequenza, mentre rallentò
+ il manico di scopa fino a fermarlo nella luminosa aria blu (Harry non seppe
+ dire, quando ci pensò, se la capacità di un passaporta di tenere conto
+ della rotazione terrestre comprendeva anche la capacità di far corrispondere
+ la velocità con il suo nuovo ambiente), appoggiò il passaporta al manico
+ di scopa, e…
 \end_layout
 
 \begin_layout Standard
@@ -933,11 +1015,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Era 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 rinforzo negativo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , cambiato da EY il 19 agosto 2014.
@@ -952,10 +1034,11 @@ rinforzo negativo
 Ma non era davvero logico, così Harry spezzò il ramoscello comunque.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -971,18 +1054,18 @@ Ci fu un botto fragoroso da dietro la porta di metallo lì vicino, che fece
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Amelia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago.
  Non c'era traccia alcuna della sua leggerezza consueta, i suoi occhi erano
  duri come zaffiri sotto gli occhiali a mezzaluna.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Devo lasciare Azkaban e devo farlo 
@@ -992,33 +1075,33 @@ ora
 .
  C'è qualche modo più veloce di un manico di scopa per attraversarne le
  protezioni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora esigo il tuo manico di scopa più veloce, subito!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1042,43 +1125,44 @@ bisogno
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sbraitò la vecchia strega al gruppo attorno a lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Continuate a scandagliare i corridoi finché non raggiungete il fondo, potrebbero
- non essere ancora scappati tutti!
-\begin_inset Quotes frd
+Continuate a scandagliare i corridoi finché non raggiungerete il fondo,
+ potrebbero non essere ancora scappati tutti!
+\begin_inset Quotes crd
 \end_inset
 
  E poi, al vecchio mago, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Due manici di scopa.
- Potrai aggiornarmi una volta che saremo in volo
-\begin_inset Quotes frd
+ Potrai aggiornarmi una volta che saremo in volo.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Ci fu un confronto di sguardi, ma non fu prolungato.
+Ci fu una sfida di sguardi, ma non fu prolungata.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1087,17 +1171,18 @@ Ci fu un confronto di sguardi, ma non fu prolungato.
 \end_layout
 
 \begin_layout Standard
-Uno strattone sgradevolmente duro stinse Harry all'addome, molto più duramente
+Uno strattone nauseante colpì duramente Harry all'addome, molto più duramente
  dello strattone che lo aveva trasportato ad Azkaban, e questa volta la
  distanza percorsa fu tanto grande da poter udire un istante di silenzio,
  e guardare lo spazio invisibile tra gli spazi, nella fessura tra un luogo
  e un altro.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1112,11 +1197,11 @@ Il sole, che aveva brillato su loro due solo per breve tempo, fu rapidamente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi c'è dietro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Amelia al manico di scopa che volava alla distanza di un passo da
@@ -1124,34 +1209,34 @@ Chi c'è dietro?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una tra due persone
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Dumbledore, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non so, in questo istante, quale.
  Se la prima, allora siamo nei guai.
- Se la seconda, siamo tutti in guai di gran lunga peggiori
-\begin_inset Quotes frd
+ Se la seconda, siamo tutti in guai di gran lunga peggiori.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Amelia non lesinò alcun respiro per i sospiri.
+Amelia non sprecò fiato per i sospiri.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quando lo saprai?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1161,15 +1246,15 @@ Quando lo saprai?
 La voce del vecchio mago era triste e pacata, eppure in qualche modo sovrastò
  il vento.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Di tre cose hanno bisogno per la perfezione, se si tratta di lui: la carne
+Di tre cose ha bisogno per la perfezione, se si tratta di lui: la carne
  del più fedele servitore del Signore Oscuro, il sangue del più grande nemico
  del Signore Oscuro, e l'accesso a una determinata tomba.
  Avevo ritenuto che Harry Potter fosse al sicuro, con il loro tentativo
- ad Azkaban quasi fallito -- anche se gli ho comunque assegnato dei guardiani
- -- ma ora sono davvero spaventato.
+ ad Azkaban quasi fallito – anche se gli ho comunque assegnato dei guardiani
+ – ma ora sono davvero spaventato.
  Hanno accesso al Tempo, qualcuno con un Giratempo sta inviando messaggi
  indirizzati a loro; e ho il sospetto che il tentativo di rapimento di Harry
  Potter abbia già avuto luogo alcune ore fa.
@@ -1180,18 +1265,18 @@ noi
  non ne abbiamo sentito parlare, essendo in Azkaban dove il Tempo non può
  annodarsi su sé stesso.
  Quel passato è venuto dopo il nostro futuro, sai?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E se fosse l'altro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Amelia.
@@ -1205,10 +1290,11 @@ Il vecchio mago, il suo volto ancora più triste, non disse nulla, semplicemente
  scosse la testa.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1217,10 +1303,10 @@ Il vecchio mago, il suo volto ancora più triste, non disse nulla, semplicemente
 \end_layout
 
 \begin_layout Standard
-Quando lo strattone del passaporta si placò, il sole stava giusto sbirciando
+Quando lo strattone del passaporta terminò, il sole stava sbirciando appena
  sopra l'orizzonte, più simile all'alba che al tramonto, mentre la loro
- scopa si librava bassa sopra una breve distesa di roccia e sabbia arancione-scu
-ro, disposta in colline grumose come se qualcuno avesse lavorato l'impasto
+ scopa si librava bassa su di una piccola distesa di roccia e sabbia arancione-s
+curo, disposta in colline grumose come se qualcuno avesse lavorato l'impasto
  della terra un paio di volte e poi si fosse dimenticato di spianarlo.
  A breve distanza, le onde avanzavano rotolando in un colpo d'occhio infinito
  di acqua, anche se il terreno su cui il manico di scopa si librava era
@@ -1233,11 +1319,11 @@ Harry sbatté le palpebre di fronte ai colori dell'alba, e poi si rese conto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fu il vivace grido femminile che provenne dalle sue spalle, e Harry girò
@@ -1250,12 +1336,12 @@ Oi!
  si aprirono di nuovo parlò con un accento che Harry non riusciva a identificare
 , poiché non aveva viaggiato molto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dove siete stati? Avete due ore di ritardo! Ho quasi disperato di rivedervi
  tutti… pronto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1278,19 +1364,19 @@ Poi la strega si mise a correre in avanti e ad estrarre la propria bacchetta;
  con le braccia scheletriche e le gambe pallide che spenzolavano come cose
  senza vita.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, Merlino
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò la strega, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Merlino, Merlino, Merlino…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1312,24 +1398,23 @@ Sembra preoccupata
 Come se non fosse Harry a parlare, ma qualche altra parte di lui dietro
  ancora un'altra lastra di vetro, un sussurro venne dalle sue labbra.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Il serpente verde sulla sua schiena è un Animagus
-\begin_inset Quotes frd
+Il serpente verde sulla sua schiena è un Animagus.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Non era acuto il sussurro, non freddo, solo pacato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-È privo di sensi
-\begin_inset Quotes frd
+È privo di sensi.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1337,22 +1422,22 @@ La testa della strega si mosse di scatto, per guardare il punto da cui la
  voce era sembrata originarsi dall'aria vuota, e poi guardò di nuovo in
  basso verso Bellatrix.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non sei Mister Jaffe
-\begin_inset Quotes frd
+Non sei Mister Jaffe.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quello sarebbe l'Animagus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrarono le labbra di Harry.
@@ -1369,22 +1454,21 @@ questo ha un senso; il professor Quirrell deve aver usato un nome differente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E da quando 
 \emph on
 lui
 \emph default
- è un -- bah, lasciamo stare
-\begin_inset Quotes frd
+ è un – bah, lasciamo stare.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La strega appoggiò per un momento la propria bacchetta sul naso del serpente,
  poi scosse bruscamente la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Nulla di male in lui che un giorno di riposo non curi.
@@ -1393,18 +1477,18 @@ Nulla di male in lui che un giorno di riposo non curi.
 Lei…
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Può svegliarlo ora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sussurrarono le labbra di Harry.
@@ -1418,45 +1502,45 @@ Può svegliarlo ora?
 \begin_layout Standard
 Ancora il brusco cenno con la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se un Innervate non ha funzionato su di lui
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  iniziò la strega.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non ne ho tentato uno
-\begin_inset Quotes frd
+Non ci ho provato
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrarono le labbra di Harry.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Cosa? Perché -- oh, lasciamo perdere.
+Cosa? Perché – oh, lasciamo perdere.
  
 \emph on
 Innervate
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1470,31 +1554,31 @@ Un movimento sfocato dopo, il professor Quirrell era in piedi, e un momento
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Stenditi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega senza alzare lo sguardo da Bellatrix.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sei tu lì dentro, Jeremy?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa con voce piuttosto roca, mentre si sdraiava
@@ -1503,27 +1587,26 @@ Sì
  Non era così pallido come Bellatrix, ma la sua faccia era esangue nella
  luce fioca dell'alba.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Saluti, Miss Camblebunker
-\begin_inset Quotes frd
+Salve, Miss Camblebunker.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Te l'ho detto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse la strega, la nitidezza nella sua voce e un lieve sorriso sul suo
- viso, 
-\begin_inset Quotes fld
+, disse la strega, la voce nitida e un lieve sorriso sul viso, 
+\begin_inset Quotes cld
 \end_inset
 
 chiamami Crystal, questa non è la Gran Bretagna e abbiamo nessuna delle
@@ -1532,57 +1615,55 @@ chiamami Crystal, questa non è la Gran Bretagna e abbiamo nessuna delle
 \emph on
 E poi
 \emph default
- è Dottoressa ora, non Miss
-\begin_inset Quotes frd
+ è Dottoressa ora, non Miss.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Le mie scuse, Dottoressa Camblebunker
-\begin_inset Quotes frd
+Le mie scuse, Dottoressa Camblebunker.
+\begin_inset Quotes crd
 \end_inset
 
-.
- Fece seguito una risatina secca.
+ Seguì una risatina secca.
 \end_layout
 
 \begin_layout Standard
 Il sorriso della strega divenne un po' più ampio, la sua voce molto più
  tagliente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi è il tuo amico?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non hai bisogno di saperlo
-\begin_inset Quotes frd
+Non hai bisogno di saperlo.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Gli occhi del Professore di Difesa erano chiusi, mentre giaceva per terra.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quanto è andata male?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1590,43 +1671,43 @@ Quanto è andata male?
 
 \begin_layout Standard
 Molto seccamente: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Potrai leggerlo domani, in ogni giornale con una sezione internazionale
-\begin_inset Quotes frd
+Potrai leggerlo domani, in ogni giornale con una sezione internazionale.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La bacchetta della strega stava battendo qui, là, frugando e stimolando
  tutto il corpo di Bellatrix.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Mi sei mancato, Jeremy
-\begin_inset Quotes frd
+Mi sei mancato, Jeremy.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Davvero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il Professore di Difesa, in un tono un po' sorpreso.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Neanche un pochino.
@@ -1634,8 +1715,8 @@ Neanche un pochino.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1643,7 +1724,7 @@ Neanche un pochino.
 
 \begin_layout Standard
 Il Professore di Difesa cominciò a ridere, ma poi si trasformò in qualcosa
- di più simile ad un attacco di tosse.
+ di più simile a un attacco di tosse.
 \end_layout
 
 \begin_layout Standard
@@ -1682,24 +1763,23 @@ Qualcuno può pensare a una buona domanda esplorativa per raccogliere ulteriori
 
 \begin_layout Standard
 Ancora quel sussurro proveniente dall'aria vuota sopra la scopa: 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qual è la probabilità di annullare tutto ciò che le è stato fatto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, vediamo.
- Legilimanzia e rituali Oscuri sconosciuti, dieci anni perché questi si
- fissino, seguiti da dieci anni di esposizione ai Dissennatori? Annullare
- 
+ Legilimanzia e rituali Oscuri sconosciuti, dieci anni in cui si stabilizzino,
+ seguiti da dieci anni di esposizione ai Dissennatori? Annullare 
 \emph on
 questo?
 \emph default
@@ -1712,22 +1792,22 @@ rimasto
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  La strega improvvisamente si interruppe.
  La sua voce, quando parlò di nuovo, era più tranquilla.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Se fossi stato suo amico, prima… allora no, non la riavrai mai indietro.
- Meglio capirlo sin da ora
-\begin_inset Quotes frd
+Se sei stato suo amico, prima… allora no, non la riavrai mai indietro.
+ Meglio saperlo sin d'ora.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1745,7 +1825,7 @@ Non avrebbe sputato fuori tutto questo in risposta a una singola domanda
 \begin_layout Standard
 
 \emph on
-Annotato, ma gli attribuisco un peso di fiducia basso
+Prendo nota, ma gli attribuisco un peso di fiducia basso
 \emph default
 , disse Corvonero.
  
@@ -1757,11 +1837,11 @@ Annotato, ma gli attribuisco un peso di fiducia basso
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che pozione le hai dato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la strega dopo aver aperto la bocca di Bellatrix e aver guardato
@@ -1771,7 +1851,7 @@ Che pozione le hai dato?
 
 \begin_layout Standard
 L'uomo che giaceva per terra disse con calma, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Peperina
@@ -1795,7 +1875,7 @@ mbox{--»}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1803,34 +1883,34 @@ mbox{--»}
 Eri fuori di testa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Di nuovo la risata simile ad un accesso di tosse.
+Di nuovo la risata simile a un accesso di tosse.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Dormirà per una settimana se è fortunata
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega, e schioccò la lingua.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti manderò un gufo quando aprirà gli occhi, suppongo, così che tu possa
  tornare indietro e convincerla a prendere quel Voto Infrangibile.
  Hai qualcosa che possa impedirle di uccidermi sul posto, se dovesse riuscire
  anche solo a muoversi per un altro mese?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1846,25 +1926,25 @@ Il Professore di Difesa, gli occhi ancora chiusi, prese un foglio di carta
 \begin_layout Standard
 La donna guardò la carta con le sopracciglia sollevate, e sbuffò sardonica.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sarà meglio che questo funzioni, Jeremy, o il mio testamento dirà che tutta
  la mia proprietà va in una taglia sulla tua testa.
- A proposito questo
+ A tal riguardo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Il Professore di Difesa mise di nuovo una mano nei suoi vestiti e gettò
- alla strega una borsa che produsse un rumore tintinnante.
+Il Professore di Difesa mise di nuovo una mano nei vestiti e gettò alla
+ strega una borsa che produsse un rumore tintinnante.
  La strega la prese, la soppesò, emise un suono compiaciuto.
 \end_layout
 
@@ -1872,53 +1952,53 @@ Il Professore di Difesa mise di nuovo una mano nei suoi vestiti e gettò
 Poi si alzò in piedi, e la donna scheletrica e pallida si alzò da terra
  fluttuando accanto a lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Torno indietro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non posso iniziare il mio lavoro qui
-\begin_inset Quotes frd
+Non posso iniziare il mio lavoro qui.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Aspetta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa, e con un gesto recuperò la propria bacchetta
  dalla mano e dall'imbracatura di Bellatrix.
  Poi la sua mano puntò la bacchetta verso Bellatrix, e si mosse in un piccolo
  gesto circolare, accompagnato da un sommesso 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
 Obliviate
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1926,19 +2006,19 @@ Obliviate
 Basta così
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sbottò la strega, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 la porto via di qui prima che qualcuno le faccia altri danni
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  Un braccio si distese per stringere a sé in un abbraccio la forma ossuta
@@ -1962,7 +2042,7 @@ Penso che l'interpretazione sia finita
 , disse il Critico Interiore.
  
 \emph on
-Do due stelle e mezzo su cinque.
+Le assegno due stelle e mezzo su cinque.
  Probabilmente non è un'attrice di grande esperienza
 \emph default
 .
@@ -1989,11 +2069,11 @@ In qualche modo, Harry riuscì a muovere le labbra da sé, emettere la propria
  voce nell'aria ancora dell'alba, e poi fu sorpreso di sentire la propria
  domanda.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quante persone diverse è, comunque?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2014,12 +2094,12 @@ L'uomo pallido steso a terra non rise, ma dal manico di scopa gli occhi
  di Harry videro i lati delle labbra del professor Quirrell che s'incurvarono,
  l'estremità di quel sorriso sardonico familiare.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non posso dire di essermi preso la briga di tenerne il conto.
  Quanti siete voi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2037,12 +2117,12 @@ citato in cap 63
 
 \begin_layout Standard
 Non avrebbe dovuto scuotere l'Harry interno così tanto, udire quella risposta,
- eppure si sentì -- si sentì -- instabile, come se il suo stesso centro
- fosse stato sottratto
+ eppure si sentì – si sentì – instabile, come se il suo stesso centro fosse
+ stato sottratto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2050,46 +2130,46 @@ Oh.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mi scusi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry.
  Ora sembrava distante e distaccata come si sentiva l'Harry che sbiadiva.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Sto per svenire nei prossimi secondi, credo
-\begin_inset Quotes frd
+Sto per svenire nei prossimi secondi, credo.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Usa il quarto passaporta che ti ho dato, quello che ho detto sarebbe stato
- il nostro nascondiglio di riserva
-\begin_inset Quotes frd
+Usi il quarto passaporta che ti ho dato, quello che ho detto sarebbe stato
+ il nostro nascondiglio d'emergenza
+\begin_inset Quotes crd
 \end_inset
 
-, disse l'uomo che giaceva per terra, con calma ma rapidamente.
+, intervenne l'uomo che giaceva per terra, con calma ma rapidamente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sarà più sicuro lì.
- E continua a indossare il tuo mantello
-\begin_inset Quotes frd
+ E continui a indossare il suo mantello.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2103,7 +2183,7 @@ Ci fu un altro strappo da passaporta, di lunghezza internazionale, e poi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2111,7 +2191,7 @@ Ci fu un altro strappo da passaporta, di lunghezza internazionale, e poi
 Lumos
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dissero le labbra di Harry, una parte di lui che faceva attenzione alla
@@ -2128,10 +2208,11 @@ Le gambe di Harry discesero dal manico di scopa, si distesero sul pavimento.
  che la sua luce si spegnesse, prima che l'oscurità lo colse.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2141,7 +2222,7 @@ Le gambe di Harry discesero dal manico di scopa, si distesero sul pavimento.
 
 \begin_layout Standard
 «Dove andrai?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  urlò Amelia.
@@ -2149,11 +2230,11 @@ Le gambe di Harry discesero dal manico di scopa, si distesero sul pavimento.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Indietro nel tempo per proteggere Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago, e prima che Amelia potesse persino aprire le labbra
