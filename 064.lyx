@@ -90,18 +90,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
+\font_roman "default" "DejaVu Serif"
+\font_sans "default" "DejaVu Sans"
+\font_typewriter "default" "DejaVu Sans Mono"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts true
+\use_non_tex_fonts false
 \font_sc false
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype true
-\use_dash_ligatures false
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -218,11 +218,11 @@ Non possiamo
 
 Non dobbiamo.
  Non vedete? È esattamente ciò che il Nemico desidera.
- Tutto questo egli l'ha previsto
-\begin_inset Quotes crd
+ Egli ha previsto tutto questo.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -360,11 +360,11 @@ Boromir si mosse, e la sua voce fu dubbiosa.
 \begin_inset Quotes cld
 \end_inset
 
-per essere uno dei suoi antagonisti
-\begin_inset Quotes crd
+per essere uno dei suoi antagonisti.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -406,11 +406,10 @@ Ricordo, ricordo com'era.
 non riterrà
 \emph default
  impossibile che una tale decisione sia presa da questo Consiglio, poiché
- vedete, non si fida del nostro essere saggi
-\begin_inset Quotes crd
+ vedete, non si fida del nostro essere saggi.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Una risatina sussurrata sorse dalla gola dell'antico hobbit.
  
 \begin_inset Quotes cld
@@ -421,11 +420,11 @@ E se lo ha fatto – beh, farebbe
 comunque
 \emph default
  la guardia alla Voragine del Fato.
- Gli costerebbe poco
-\begin_inset Quotes crd
+ Gli costerebbe poco.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -542,11 +541,11 @@ Come hai fatto a sopportare questa cosa?
 \begin_inset Quotes cld
 \end_inset
 
-Per anni? Non posso immaginarlo
-\begin_inset Quotes crd
+Per anni? Non posso immaginarlo.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -563,11 +562,11 @@ L'ho tenuto chiuso in una stanza della quale solo Gandalf aveva la chiave
 \begin_inset Quotes cld
 \end_inset
 
-e quando iniziavo a sognare modi per aprirla, mi ricordavo di Gollum
-\begin_inset Quotes crd
+e quando iniziavo a sognare modi per aprirla, mi ricordavo di Gollum.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -692,11 +691,11 @@ Lo indosserò un'ultima volta
 \end_inset
 
 un'ultima volta per trovare la risposta per questo Consiglio, e poi ci saranno
- altri hobbit
-\begin_inset Quotes crd
+ altri hobbit.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -747,6 +746,10 @@ ora lo vedo, infine capisco ogni cosa.
 \end_inset
 
 –
+\begin_inset Quotes xrd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -807,11 +810,11 @@ ma non so se sia sufficiente per battere\SpecialChar ldots
 \emph on
 lei
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -910,11 +913,11 @@ Non lo so
 \begin_inset Quotes cld
 \end_inset
 
-Nel sogno sembrava tutto inutile in qualche modo
-\begin_inset Quotes crd
+Nel sogno sembrava tutto inutile in qualche modo.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -936,11 +939,11 @@ o forse erano solo i tuoi stessi sogni che cercavano di dirtelo, che se
 \emph on
 noi
 \emph default
- non saremmo serviti a niente
-\begin_inset Quotes crd
+ non saremmo serviti a niente.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -982,7 +985,7 @@ dell'onestà!
 
  Twilight Sparkle
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -996,7 +999,7 @@ Il pony scuro (EY, 2014-09-30)
  alzò la testa ancora più in alto, la criniera che soffiò come il vento
  nel cielo scuro
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1009,7 +1012,7 @@ notturno (EY, 2014-09-30)
 
  del suo 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1022,7 +1025,7 @@ lungo (EY, 2014-09-30)
 
  collo
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1064,7 +1067,7 @@ dell'analisi!
 \emph default
  Marie-Susan, che ha voluto che la convincessimo che avessimo ragione
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1077,7 +1080,7 @@ delle nostre teorie (EY, 2014-09-30)
 
  prima di unirsi alla
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1095,7 +1098,7 @@ revisione paritaria!
 \emph default
  E quando quegli Elementi sono accesi dalla scintilla della curiosità che
  risiede nel cuore di tutti noi, questo crea il settimo elemento – l'Elemento
- della Sci–
+ della Sci-
 \begin_inset Quotes crd
 \end_inset
 
@@ -1107,7 +1110,7 @@ revisione paritaria!
 \family sans
 L'esplosione di potere che scaturì fu come un vento di una notte senza luna
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1120,7 +1123,7 @@ lava brillante (EY, 2014-09-30)
 , colpì Marie-Susan prima che il pony potesse persino sussultare, ed ella
  svanì senza lasciare traccia
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1140,7 +1143,7 @@ le strappò via la carne dalle ossa e frantumò quelle ossa in cenere (EY,
 Dalla materia oscura che si ergeva al centro del palco dove gli Elementi
  erano andati in frantumi, dallo
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1160,13 +1163,10 @@ dalla ribollente follia e disperazione che circondava lo (EY, 2014-09-30)
 \family sans
 \emph on
 Vi aspettavate che me ne restassi semplicemente lì e vi lasciassi terminare?
-\end_layout
+\emph default
 
-\begin_layout Standard
-
-\family sans
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1317,7 +1317,7 @@ Oh, non ti preoccupare.
 \begin_layout Standard
 
 \family sans
-Il contorno nreo-vuoto scese dalla pedana, camminando lentamente, deliberatament
+Il contorno nero-vuoto scese dalla pedana, camminando lentamente, deliberatament
 e, oltre i restanti sei pony.
 \end_layout
 
@@ -1400,14 +1400,14 @@ Considera la potenza di calcolo necessaria per manifestare più di cento
 \begin_inset Quotes cld
 \end_inset
 
-Si tratta di un errore di razionalità, Sakura, dire `colpo di fortuna' e
- pensare di aver spiegato tutto.
- `Colpo di fortuna' è semplicemente il nome che si dà ai dati che si stanno
- ignorando
-\begin_inset Quotes crd
+Si tratta di un errore di razionalità, Sakura, dire ``colpo di fortuna''
+ e pensare di aver spiegato tutto.
+ ``Colpo di fortuna'' è semplicemente il nome che si dà ai dati che si stanno
+ ignorando.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1462,7 +1462,7 @@ Deve
  potenza di calcolo in modo efficiente\SpecialChar ldots
  come una mente in guerra con sé stessa,
  forse? Ora abbiamo motivo di credere che Naruto sia in qualche modo collegato
- ad una super-intelligenza, e come un genin da poco diplomato, egli, come
+ a una super-intelligenza, e come un genin da poco diplomato, egli, come
  noi, ha quindici anni.
  Che cosa è successo quindici anni fa, Sakura?
 \begin_inset Quotes crd
@@ -1680,11 +1680,15 @@ Ehi, ragazzi
 C'è un villaggio a Wave che sta cercando di costruire un ponte, e questo
  continua a crollare senza che nessuno possa capirne il motivo.
  Incontratevi alle porte a mezzogiorno.
- È il momento della vostra prima missione di analisi di rango-C
-\begin_inset Quotes crd
+ È il momento della vostra prima missione di analisi di rango-
+\noun on
+c
+\noun default
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2041,7 +2045,7 @@ Corvonero
 \begin_layout Standard
 
 \family sans
-Mentre la tavola ricoperta di blu iniziò ad applaudirlo, mentre si avvicinò
+Mentre la tavola ricoperta di blu iniziò ad applaudirlo, mentre si avvicinava
  alla temuta tavolata in cui avrebbe passato i successivi sette anni, Kvothe
  stava già trasalendo dentro di sé, aspettandosi l'inevitabile; e l'inevitabile
  accadde quasi tutto d'un colpo, esattamente come l'aveva temuto, ancor
@@ -2103,7 +2107,7 @@ Dispongo di una meravigliosa storia per questa contaminazione, che non può
 \family sans
 Twilight utilitaristico
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -2141,12 +2145,12 @@ Edward
 
 Non devi proteggermi da nulla.
  Ho fatto un elenco di tutti vantaggi e di tutti gli svantaggi, ho assegnato
- loro pesi relativi coerenti, ed è davvero ovvio che i beneficî di diventare
- un vampiro superino gli inconvenienti
-\begin_inset Quotes crd
+ loro pesi relativi coerenti, ed è davvero ovvio che i benefici di diventare
+ un vampiro superino gli inconvenienti.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2189,14 +2193,14 @@ Immortalità.
  Persino la bellezza, Edward, ci sono persone che darebbero le loro vite
  per essere carine, e non osare chiamarle superficiali finché non avrai
  provato ad essere brutto.
- Pensi che sia spaventata dalla parola `vampiro'? Sono stanca dei tuoi vincoli
- deontologici arbitrari, Edward.
+ Pensi che sia spaventata dalla parola ``vampiro''? Sono stanca dei tuoi
+ vincoli deontologici arbitrari, Edward.
  L'intera specie umana dovrebbe condividere il tuo divertimento, e ci sono
- persone che muoiono a migliaia mentre tu tentenni
-\begin_inset Quotes crd
+ persone che muoiono a migliaia mentre tu tentenni.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2287,21 +2291,20 @@ Aladdin, amore mio, sei carino ma sei un idiota, lo sapevi? Non hai notato
 \noun on
 qi
 \noun default
- all'anno
-\begin_inset Quotes crd
+ all'anno.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Lanciò nuovamente la lampada ad Aladdin.
  
 \begin_inset Quotes cld
 \end_inset
 
-Continua a fare quello che stavi facendo
-\begin_inset Quotes crd
+Continua a fare quello che stavi facendo.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2325,24 +2328,27 @@ Amleto razionalista
 \emph on
 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 \family sans
 \shape italic
 \emph on
-Contributo di 
+Contributo di Histocrat
 \emph default
-Histocrat 
+ 
 \emph on
 su 
 \shape default
+LiveJournal
 \emph default
-LiveJournal, post 13389, anche noto come 
+, post 13389, anche noto come 
 \shape italic
+\emph on
 HonoreDB
 \shape default
+\emph default
  su LessWrong, ri-pubblicazione autorizzata.
 \end_layout
 
@@ -2614,14 +2620,22 @@ Colui che ti uccise si unirà a te nella Fossa,
 \end_inset
 
 e questo è quanto.
- Nessun altro ingrossamento dei ranghi dell'Inferno io permetterò.
+ Nessun altro ingrossamento
+\begin_inset Newline newline
+\end_inset
+
+dei ranghi dell'Inferno io permetterò.
 \end_layout
 
 \begin_layout Description
 
 \family sans
 Fantasma Accetto.
- Quando sarà ucciso mio fratello, versò il veleno nel mio orecchio,
+ Quando sarà ucciso mio fratello,
+\begin_inset Newline newline
+\end_inset
+
+che versò il veleno nel mio orecchio,
 \begin_inset Newline newline
 \end_inset
 
@@ -2630,6 +2644,7 @@ allora verserò nel tuo la preziosa verità:
 \end_inset
 
 la fabbricazione della Pietra filosofale.
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -2683,7 +2698,7 @@ Con la stregoneria del suo acume, con i doni traditori
 \begin_layout Description
 
 \family sans
-Amleto In fatti, egli possiede tali doni che quasi dispero,
+Amleto Infatti, egli possiede tali doni che quasi dispero,
 \begin_inset Newline newline
 \end_inset
 
@@ -2706,17 +2721,18 @@ Hai tu un suggerimento?
 Un gallo canta.
  Esce il Fantasma.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 \family sans
+HonoreDB l'ha ora esteso fino a farlo diventare un ebook completo intitolato
+ 
 \emph on
-HonoreDB
+A Will Most Incorrect to Heaven: The Tragedy of Prince Hamlet and the Philosophe
+r's Stone
 \emph default
- l'ha ora esteso fino a farlo diventare un ebook completo intitolato “A
- Will Most Incorrect to Heaven: The Tragedy of Prince Hamlet and the Philosopher
-'s Stone” disponibile per $3 a makefoil.com.
+ disponibile per $3 a makefoil.com.
  Sì, dico sul serio.
 \end_layout
 
@@ -2744,15 +2760,17 @@ HonoreDB
 \family sans
 Moby Dick e i metodi della razionalità
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 \family sans
 Come narrato da 
 \shape italic
+\emph on
 Eneasz
 \shape default
+\emph default
  su LessWrong.
 \end_layout
 
@@ -2781,11 +2799,11 @@ Di una
 \emph on
 balena?
 \emph default
- No, ho deciso semplicemente di andare avanti con la mia vita
+ No, ho deciso semplicemente di andare avanti con la mia vita.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2895,14 +2913,13 @@ Oh per dindirindina
 
 Se non ho riconosciuto immediatamente quanto quello fosse più curioso del
  coniglio medio, allora qualcosa sta interferendo con la mia curiosità,
- e questa è la cosa più curiosa di tutte
-\begin_inset Quotes crd
+ e questa è la cosa più curiosa di tutte.
+\begin_inset Quotes xrd
 \end_inset
 
-.
- Quindi, bruciando di domande da porre, gli corse dietro per il prato, e
- fece appena in tempo per vederlo saltar dentro una grande tana da coniglio
- sotto la siepe.
+ Quindi, ardendo di domande da porre, gli corse dietro per il prato, e fece
+ appena in tempo per vederlo saltar dentro una grande tana da coniglio sotto
+ la siepe.
 \end_layout
 
 \begin_layout Standard
@@ -2958,7 +2975,7 @@ Morpheus Sì, Neo?
 \family sans
 Neo Sono stato in silenzio per quanto ho potuto, ma provo una certa necessità
  di esprimermi a questo punto.
- Il corpo umano è la fonte più inefficiente di energia che si possa immaginare.
+ Il corpo umano è la fonte di energia più inefficiente che si possa immaginare.
  L'efficienza di una centrale elettrica nel convertire energia termica in
  elettricità 
 \emph on
