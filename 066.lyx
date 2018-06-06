@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{65}
@@ -51,6 +53,8 @@
 %\clubpenalty 10000
 %\raggedbottom
 \usepackage{indentfirst}
+
+\newfontfamily\serpentese{Alegreya}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -62,16 +66,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Minion Pro
-\font_sans Ubuntu
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Ubuntu"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -101,6 +107,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -115,7 +122,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -148,11 +158,35 @@ name "chap:66Auto-realizzazione-p1"
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
 
 \emph on
 Essitazione è ssempre facile, raramente utile
 \emph default
 .
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Note
 status open
 
@@ -177,7 +211,7 @@ rispondere
 \emph on
 azioni differite
 \emph default
-; ma questo non era la stessa cosa di 
+; ma non era la stessa cosa di 
 \emph on
 esitare
 \emph default
@@ -187,13 +221,13 @@ scegliere
 \emph default
 .
  Non rimandare perché si conosceva il momento giusto per fare ciò che era
- necessario, ma rimandare perché non si riusciva a decidere -- non esisteva
+ necessario, ma rimandare perché non si riusciva a decidere – non esisteva
  alcun piano astuto che lo richiedesse.
 \end_layout
 
 \begin_layout Standard
 A volte si poteva aver bisogno di ulteriori informazioni per decidere? Si,
- ma anche questo si sarebbe potuto trasformare in un pretesto per rimandare;
+ ma anche quello si sarebbe potuto trasformare in un pretesto per rimandare;
  ed era 
 \emph on
 invitante
@@ -205,7 +239,7 @@ non scegliere
 \emph default
  evitava la sofferenza mentale per un po' di tempo.
  Così si prendeva un pezzo di informazione che non si poteva ottenere facilmente
-, e si affermava di non poter decidere senza di essa; questa era la scusa.
+, e si affermava di non poter decidere senza di essa; quella era la scusa.
  Se si fosse saputo di 
 \emph on
 quali
@@ -222,7 +256,7 @@ come
 \emph on
 si sarebbe fatto
 \emph default
- a seconda di ciascun possibile risultato, allora questa sarebbe stata meno
+ a seconda di ciascun possibile risultato, allora quella sarebbe stata meno
  sospetta come scusa per esitare.
 \end_layout
 
@@ -263,12 +297,12 @@ per certo
 \emph on
 non fosse
 \emph default
- davvero là fuori\SpecialChar \ldots{}
+ davvero là fuori\SpecialChar ldots
  in 
 \emph on
 quel
 \emph default
- caso\SpecialChar \ldots{}
+ caso\SpecialChar ldots
 
 \end_layout
 
@@ -295,7 +329,20 @@ Erano ora protetti da ventidue incantesimi, tutti quelli che potevano essere
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -303,7 +350,18 @@ Erano ora protetti da ventidue incantesimi, tutti quelli che potevano essere
 No
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry.
@@ -314,7 +372,20 @@ Il serpente verde piegò la testa, inclinandola leggermente; nessuna emozione
  fu convogliata dal gesto, non che il talento da Rettilofono di Harry gli
  comunicasse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -322,14 +393,38 @@ Il serpente verde piegò la testa, inclinandola leggermente; nessuna emozione
 Perché no?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-, disse il serpente verde.
+
+\begin_inset Quotes crd
+\end_inset
+
+, chiese il serpente verde.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -337,10 +432,21 @@ Perché no?
 Troppo pericolosso
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-, disse semplicemente Harry.
+
+\begin_inset Quotes crd
+\end_inset
+
+, rispose semplicemente Harry.
  Ciò era vero che il Signore Oscuro fosse stato là fuori o meno.
  Sforzarsi di decidere in anticipo gli aveva fatto capire che stava solo
  usando quella domanda senza risposta come una scusa per esitare; la decisione
@@ -351,7 +457,20 @@ Troppo pericolosso
 Per un attimo gli occhi profondi e scuri sembrarono nereggiare brillanti,
  per un momento la bocca squamosa si spalancò per esporre le zanne.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -359,28 +478,67 @@ Per un attimo gli occhi profondi e scuri sembrarono nereggiare brillanti,
 Pensso che tu abbia imparato lezione ssbagliata, ragazzo, da precedente
  fallimento.
  Miei piani non ssono ssoliti fallire, e ultimo ssarebbe sstato completato
- impeccabilmente, sse non fossse sstato per tua sstupidità.
+ perfettamente, sse non fossse sstato per tua sstupidità.
  Lezione giussta è sseguire percorsso tracciato per te da Sserpeverde più
  vecchio e ssaggio, addomessticare tuoi impulssi sselvaggi
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes xrd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
+
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
+
+\emph on
 Lezione che ho imparato è non tentare piani che farebbero penssare amico
  bambina che io ssono cattivo o amico bambino che io ssono sstupido
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sbottò Harry in risposta.
@@ -392,7 +550,20 @@ Lezione che ho imparato è non tentare piani che farebbero penssare amico
 Il suono sibilante che provenne dal serpente non fu compreso da Harry come
  parole, solo come pura furia.
  Un momento dopo, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -401,17 +572,41 @@ Hai detto loro
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -419,7 +614,18 @@ Hai detto loro
 Naturalmente no! Ma sso cossa direbbero.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -433,7 +639,20 @@ Ci fu una lunga pausa mentre la testa del serpente ondeggiava, fissando
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -441,28 +660,76 @@ Ci fu una lunga pausa mentre la testa del serpente ondeggiava, fissando
 Ti importa ssul sserio quello che quei due penssano?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
  giunse infine il sibilo del serpente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Veri pargoli ssono quei due, non come te.
- Non posssono ssoppessare quesstioni da adulti
+Veri infanti ssono quei due, non come te.
+ Non posssono capire quesstioni da adulti
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes xrd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -470,12 +737,36 @@ Veri pargoli ssono quei due, non come te.
 Avrebbero potuto far meglio di me
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -485,10 +776,21 @@ Amico bambino avrebbe chiessto motivi ssegreti prima di acconssentire a
 \begin_inset space ~
 \end_inset
 
---
+–
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -497,18 +799,59 @@ Amico bambino avrebbe chiessto motivi ssegreti prima di acconssentire a
 \begin_layout Standard
 
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
+
+\emph default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
+\end_inset
+
+
+\emph on
 Ssono felice che ora tu capissca quessto
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 , sibilò freddamente il serpente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
@@ -518,27 +861,61 @@ Chiedi ssempre vantaggi di altri.
  Sse mio piano non ti piace, qual è tuo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
-Sse necesssario -- resstare a sscuola per ssei anni e sstudiare.
- Hogwartss ssembra un bel possto dove dimorare.
+Sse necesssario – resstare a sscuola per ssei anni e sstudiare.
+ Hogwartss ssembra bel possto dove vivere.
  Libri, amici, cibo sstrano ma gusstosso
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes xrd
+\end_inset
+
  Harry voleva ridacchiare, ma non c'era alcun gesto in Serpentese per il
  genere di risata che voleva esprimere.
 \end_layout
@@ -546,72 +923,82 @@ Sse necesssario -- resstare a sscuola per ssei anni e sstudiare.
 \begin_layout Standard
 I pozzi che erano gli occhi del serpente sembrarono quasi neri.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+serpentese 
+\end_layout
+
 \end_inset
 
 
 \emph on
 Facile parlare ora.
  Quelli come te e me non ssopportano di esssere imprigionati.
- Perderai pazienza molto prima del ssettimo anno, forsse alla fine di quessto.
+ Perderai pazienza molto prima di ssettimo anno, forsse a fine di quessto.
  Elaborerò miei piani di consseguenza
 \emph default
+.
+\begin_inset ERT
+status open
 
-\begin_inset Quotes frd
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
-.
+
+\begin_inset Quotes xrd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 E prima che Harry potesse sibilare un'altra parola in Serpentese, la forma-umana
  del professor Quirrell stava sedendo nella sua sedia ancora una volta.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa, la sua voce calma come se avessero appena
  discusso qualcosa di scarsamente importante, come se l'intera conversazione
  non fosse affatto avvenuta, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-ho sentito che ha iniziato ad esercitarsi nel duello.
+ho sentito che ha iniziato a esercitarsi in duello.
  Non il genere inutile che ha delle 
 \emph on
 regole
 \emph default
-, spero
-\begin_inset Quotes frd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
+, spero.
+\begin_inset Quotes xrd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
 
 \end_inset
 
@@ -628,33 +1015,33 @@ Hannah Abbott sembrava più nervosa di quanto Hermione l'avesse mai vista
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Neville e Harry Potter stanno imparando a duellare dal signor Diggory!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hannah tutto d'un fiato non appena furono a qualche passo dalla tavola.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Chi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fece Hermione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -678,8 +1065,8 @@ due
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -691,16 +1078,16 @@ Dopo che Hannah si fu finalmente fermata per prendere fiato (la lista era
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Soldato Sunshine Abbot!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -713,15 +1100,15 @@ Calmati
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non 
@@ -729,14 +1116,14 @@ Non
 capisci?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  strillò Hannah, alzando la voce molto più di quando avrebbe dovuto fare,
  se avesse voluto tenere la conversazione riservata, lontana dalle orecchie
  di tutti i Corvonero che le stavano guardando.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Neville non sta studiando per sconfiggere 
@@ -748,7 +1135,7 @@ noi!
 Bellatrix Black!
 \emph default
  Ci passeranno attraverso come un Bolide in un mucchio di ciambelle!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -757,15 +1144,15 @@ Bellatrix Black!
 \begin_layout Standard
 Il Generale Sunshine fissò il suo soldato.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ascolta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non penso che qualche settimana di esercitazioni renda qualcuno un combattente
@@ -775,18 +1162,18 @@ non penso che qualche settimana di esercitazioni renda qualcuno un combattente
 sappiamo già
 \emph default
  come trattare coi combattenti invincibili.
- Concentreremo il fuoco su di loro e andranno giù proprio come Draco
-\begin_inset Quotes frd
+ Concentreremo il fuoco su di loro e andranno giù proprio come Draco.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La ragazza Tassofrasso la stava guardando con un misto di ammirazione e
  di scetticismo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sei neppure, sai, 
@@ -794,14 +1181,14 @@ Non sei neppure, sai,
 spaventata?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, 
@@ -809,26 +1196,26 @@ Oh,
 ma insomma!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione.
  Talvolta era difficile essere l'unica persona di giudizio nel tuo intero
  anno.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non hai mai sentito il detto, l'unica cosa di cui aver paura è la paura
  stessa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -836,12 +1223,12 @@ Non hai mai sentito il detto, l'unica cosa di cui aver paura è la paura
 Cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hannah.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è folle, che mi dici dei Letalmanto che stanno in agguato nell'oscurità,
@@ -850,15 +1237,15 @@ Questo è folle, che mi dici dei Letalmanto che stanno in agguato nell'oscurità
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Voglio 
@@ -866,16 +1253,16 @@ Voglio
 dire
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, con l'esasperazione che stava tracimando dalla sua voce
- ora alzatasi di volume, stava sentendo questo genere di cose 
+ ora alzatasi di volume, stava ascoltando quel genere di discorsi 
 \emph on
 da un'intera settimana
 \emph default
 , 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che ne dici se aspettiamo fino a 
@@ -888,10 +1275,10 @@ davvero
 \emph default
  prima di farci spaventare tanto da loro e 
 \emph on
-hai appena borbottato `Grifondoro' sottovoce?
+hai appena borbottato ``Grifondoro'' sottovoce?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -900,12 +1287,12 @@ hai appena borbottato `Grifondoro' sottovoce?
 \begin_layout Standard
 Qualche momento dopo, Hermione stava tornando al suo posto a tavola con
  un sorriso gentile ingessato sul suo giovane viso, non era il terribile
- sguardo gelido del lato oscuro di Harry ma era il volto più spaventoso
+ sguardo gelido del lato oscuro di Harry ma era l'espressione più spaventosa
  che 
 \emph on
-ella
+lei
 \emph default
- sapesse come fare.
+ conoscesse.
 \end_layout
 
 \begin_layout Standard
@@ -916,7 +1303,7 @@ giù
 .
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -929,25 +1316,11 @@ giù
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è folle
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ansimò Neville, con la minuscola quantità di fiato che poté recuperare
@@ -955,7 +1328,7 @@ Questo è folle
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Questo è 
@@ -963,7 +1336,7 @@ Questo è
 geniale!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Cedric Diggory.
@@ -975,7 +1348,7 @@ o come il sudore sulla sua fronte mentre egli batteva pesantemente i piedi
  che tutti loro avevano agganciato a braccia e gambe e che avevano fissato
  con una cinghia al petto.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Da dove 
@@ -983,26 +1356,25 @@ Da dove
 prende
 \emph default
  queste idee, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Uno strano vecchio negozio\SpecialChar \ldots{}
- a Oxford\SpecialChar \ldots{}
- e non tornerò \SpecialChar \ldots{}
- a fare compere lì\SpecialChar \ldots{}
+Uno strano vecchio negozio\SpecialChar ldots
+ a Oxford\SpecialChar ldots
+ e non tornerò \SpecialChar ldots
+ a fare compere lì\SpecialChar ldots
  mai
- più
-\begin_inset Quotes frd
+ più.
+\begin_inset Quotes crd
 \end_inset
 
-.
  
 \emph on
 Tud
