@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{66}
@@ -62,16 +64,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Linux Libertine O
-\font_sans Linux Biolinum O
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -101,6 +105,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -115,7 +120,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -148,10 +156,11 @@ name "chap:67Auto-realizzazione-p2"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Ai livelli più alti di Hogwarts, dove stanze e corridoi mutavano quotidianamente
 , dove il territorio stesso era incerto e non solo la mappa, dove la stabilità
  del castello iniziava a sfilacciarsi in sogni e caos senza mutare il suo
- stile architettonico o la sua apparente solidità -- ai livelli più alti
+ stile architettonico o la sua apparente solidità – ai livelli più alti
  di Hogwarts, una battaglia sarebbe stata presto combattuta.
 \end_layout
 
@@ -173,8 +182,8 @@ cambiati
 
 \begin_layout Standard
 Ma nonostante quella stabilità transitoria (aveva detto il Professore di
- Difesa), i livelli più alti di Hogwarts possedevano ancora un realismo
- militare: si doveva imparare il terreno ogni volta di nuovo, e controllare
+ Difesa), i livelli più alti di Hogwarts possedevano ancora un certo realismo
+ militare: si doveva imparare il terreno ogni volta da capo, e controllare
  ogni stanzino alla ricerca di corridoi segreti ogni volta da capo.
 \end_layout
 
@@ -199,8 +208,8 @@ Il Generale Dragon, Draco Malfoy, guardava le due bussole che teneva nelle
 
 \begin_layout Standard
 Senza quelle bussole avrebbero potuto cercarsi per giorni e non trovarsi
- mai l'un l'altro, cosa che costituiva uno dei rischi territoriali del combatter
-e ai livelli superiori di Hogwarts.
+ mai l'un l'altro, cosa che costituiva uno dei rischi del combattere ai
+ livelli superiori di Hogwarts.
 \end_layout
 
 \begin_layout Standard
@@ -209,10 +218,10 @@ Draco aveva un cattivo presentimento su ciò che sarebbe successo quando
  Harry Potter era cambiato da quando Bellatrix Black era evasa; l'Erede
  di Serpeverde aveva iniziato a sembrare davvero Signorile ora (e come aveva
  fatto il professor Quirrell a sapere che sarebbe successo?), Draco si sarebbe
- sentito molto meglio con Hermione Granger al suo fianco con i suoi ventitré
- Soldati Raggio di sole a rimorchio, ma no, il Generale Sunshine si stava
- comportando in modo stupidamente orgoglioso e si stava rifiutando di accettare
- un aiuto contro il generale Potter.
+ sentito molto meglio con Hermione Granger al suo fianco e con i suoi ventitré
+ Soldati Raggio di sole al seguito, ma no, il Generale Sunshine si stava
+ comportando in modo stupidamente orgoglioso e rifiutava di accettare un
+ aiuto contro il generale Potter.
  Voleva abbattere Potter lei stessa, gli aveva detto.
 \end_layout
 
@@ -223,7 +232,7 @@ La Nobile e Antichissima Casa Malfoy aveva conservato per secoli la propria
 \emph on
 il
 \emph default
- più potente.
+ più forte.
  Talvolta un altro Signore era semplicemente più forte, e bisognava accontentars
 i di esserne 
 \emph on
@@ -238,7 +247,7 @@ notevole
  generazioni in cui eri il secondo in comando.
  Si doveva solo stare attenti, ogni volta, a non lasciare che la Casa fosse
  strascinata giù dalla caduta del Signore che si serviva.
- Quella era la tradizione Malfoy che secoli di esperienza avevano perfezionato\SpecialChar \ldots{}
+ Quella era la tradizione Malfoy che secoli di esperienza avevano perfezionato\SpecialChar ldots
 
 \end_layout
 
@@ -266,7 +275,7 @@ doveva
 \end_layout
 
 \begin_layout Standard
-Granger, evidentemente, non aveva mai ricevuto questa lezione dai suoi genitori,
+Granger, evidentemente, non aveva mai ricevuto quella lezione dai suoi genitori,
  ed era ancora incapace di ammettere l'ovvio fatto che Harry Potter stava
  diventando più forte di lei.
 \end_layout
@@ -276,7 +285,7 @@ Quindi Draco si era segretamente incontrato col capitano Goldstein e il
  capitano Bones e il capitano Macmillan e avevano concordato di fare del
  loro meglio per assicurarsi che Dragon e Sunshine non si ingaggiassero
  a vicenda prima di aver iniziato il combattimento contro la minaccia più
- grande costituita da Chaos.
+ grave costituita da Chaos.
 \end_layout
 
 \begin_layout Standard
@@ -295,11 +304,11 @@ aiutare
 \begin_layout Standard
 Un alto tono squillante scampanò per i corridoi per segnalare l'inizio della
  battaglia, e un attimo dopo Draco gridò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Andiamo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e i Draghi si misero a correre.
@@ -311,26 +320,12 @@ dovevano
  mettere Chaos direttamente tra di loro e il Sunshine Regiment.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -350,21 +345,21 @@ nte in ascolto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-E così
-\begin_inset Quotes frd
+Ecco
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Luogotenente caotico dopo un po'.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È questo il motivo per cui ci hai fatto esercitare a duello con tutto quel
  peso legato addosso?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -377,17 +372,17 @@ Harry annuì, mantenendo gli occhi fissi sulla bussola che conduceva a Sunshine;
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non volevo dire nulla davanti agli altri, ma un paio di settimane non sono
  abbastanza per metter su altri muscoli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E l'equilibrio è diverso, e penso che questa in realtà pesi 
@@ -395,18 +390,18 @@ E l'equilibrio è diverso, e penso che questa in realtà pesi
 di più
 \emph default
 , e non conta forse come una Trasfigurazione di un artefatto babbano?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No.
- L'ho verificato in anticipo.
+ Ho già controllato.
  Puoi vederla sulle statue di Hogwarts, alcuni maghi
 \emph on
  
@@ -415,11 +410,10 @@ la indossavano
 \emph on
 abitualmente
 \emph default
-, anche se volevano solo essere alla moda dei Secoli bui
-\begin_inset Quotes frd
+, anche se volevano solo essere alla moda dei Secoli bui.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  E per di più, siccome nessuno l'avrebbe mai provato se non si fosse 
 \emph on
 trovato
@@ -429,42 +423,42 @@ trovato
 \end_layout
 
 \begin_layout Standard
-Giunsero ad un bivio, uno fastidioso; nessuno dei due corridoi s'incurvava
- proprio nel modo giusto per portarli in una rotta di intercettazione, verso
- il luogo che Sunshine avrebbe raggiunto mentre seguiva la Chaos Legion
+Giunsero a un bivio, alquanto scomodo; nessuno dei due corridoi si diramava
+ nella direzione giusta per portarli su di una rotta d'intercettazione,
+ verso il luogo che Sunshine avrebbe raggiunto mentre seguiva la Chaos Legion
  che seguiva il Dragon Army.
  Quindi Harry scelse quella che sembrava la migliore delle due opzioni,
  e Neville lo seguì.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Faremmo meglio a provare un rapido Incantesimo del Silenzio su questa roba
  quando saremo vicini
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Neville.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-È piuttosto rumorosa, potrebbero intuire cosa sia
-\begin_inset Quotes frd
+È piuttosto rumorosa, potrebbero intuire cosa sia.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Harry annuì, e poi disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Buona idea
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  nel caso in cui Neville non lo stesse guardando.
@@ -473,11 +467,11 @@ Buona idea
 \begin_layout Standard
 Camminarono faticosamente lungo il corridoio dal pavimento di pietra del
  livello superiore di Hogwarts, illuminato da finestre di vetro normale
- o colorato, di tanto in tanto passando oltre statue di streghe e draghi
- e persino l'occasionale mago-cavaliere in corazza o cotta di maglia.
+ o colorato, di tanto in tanto superando statue di streghe e draghi e persino
+ l'occasionale mago-cavaliere in corazza o cotta di maglia.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -490,24 +484,10 @@ Camminarono faticosamente lungo il corridoio dal pavimento di pietra del
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-I Soldati Raggio di sole avanzavano a grandi passi attraverso un lungo e
- ampio corridoio con le loro bacchette estratte e puntate.
+I Soldati Raggio di sole avanzavano a grandi passi in un lungo e ampio corridoio
+ con le loro bacchette estratte e puntate.
  Non potevano usare lo Scudo Prismatico mentre stavano manovrando, ma Parvati
- Patil e Jenny Rustad stavano correntemente mantenendo dei 
+ Patil e Jenny Rustad stavano mantenendo dei 
 \emph on
 Contego
 \emph default
@@ -518,7 +498,7 @@ Contego
 \begin_layout Standard
 La loro tattica per la prossima battaglia, aveva deciso insieme ai suoi
  ufficiali, sarebbe stata quella di mischiarsi direttamente con i soldati
- nemici il più velocemente possibile -- dopo aver fatto pratica 
+ nemici il più velocemente possibile – dopo aver fatto pratica 
 \emph on
 tra di loro
 \emph default
@@ -527,55 +507,55 @@ tra di loro
  Avevano avuto solo quattro ore per esercitarsi, ma pensava che in quel
  tipo di lotta corpo-a-corpo le sue truppe sarebbero già state più brave
  di soldati che non si erano esercitati per niente.
- Sembrava il tipo di tattica che Caos avrebbe usato, ma in realtà non l'avevano
- ancora utilizzato.
+ Sembrava il tipo di tattica che Chaos avrebbe usato, ma in realtà non l'avevano
+ ancora fatto.
 \end_layout
 
 \begin_layout Standard
 Era una buona strategia, riteneva.
  Eppure, indipendentemente da quanto avesse rimproverato i suoi soldati,
- essi avevano continuato al sussurrare voci terribili su quello che Harry
+ essi avevano continuato a sussurrare voci terribili su quello che Harry
  e Neville stavano imparando a fare.
  Infine se n'era andata a parlare con il capitano Goldstein, che comprendeva
  cose come il Morale delle truppe, e Anthony aveva suggerito di
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Che strano
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, il capitano Macmillan parlò all'improvviso, osservando accigliato le bussole
- di fuoco e iridescente che teneva nelle due mani.
+, il capitano Macmillan parlò all'improvviso, osservando accigliato la bussola
+ di fuoco e quella iridescente che teneva nelle due mani.
  (Ernie era, come Harry l'avrebbe definito, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 bravo nella visualizzazione spaziale
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e così era stato incaricato di tenere entrambe le bussole e di cercare
  di capire cosa stessero facendo i loro nemici.) 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Credo che\SpecialChar \ldots{}
- Dragon non si stia più muovendo velocemente\SpecialChar \ldots{}
+Credo che\SpecialChar ldots
+ Dragon non si stia più muovendo velocemente\SpecialChar ldots
  penso che prima siano
- andati dal lato opposto di Chaos rispetto a noi\SpecialChar \ldots{}
+ andati dal lato opposto di Chaos rispetto a noi\SpecialChar ldots
  e sembra che Chaos si stia
  muovendo per attaccarli invece di cercare di manovrare per togliersi di
- mezzo\SpecialChar \ldots{}
+ mezzo\SpecialChar ldots
 ?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -586,41 +566,40 @@ Hermione aggrottò la fronte, cercando di capire, e vide espressioni accigliate
  simili sui volti di Anthony e Ron.
  Se Chaos e Dragon si fossero attaccati direttamente l'un l'altro, e avessero
  consumato tutte le loro forze l'uno contro l'altro, praticamente sarebbe
- stato come concedere la battaglia a Sunshine\SpecialChar \ldots{}
+ stato come concedere la battaglia a Sunshine\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potter pensa che siamo alleati, così sta attaccando Malfoy ora, prima che
  Dragon possa unirsi a noi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Blaise Zabini dalle fila dei soldati comuni.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oppure Potter pensa semplicemente che può battere entrambi gli eserciti
- in successione, se li attacca separatamente
-\begin_inset Quotes frd
+ in successione, se li attacca separatamente.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Il ragazzo Serpeverde fece un sospiro condiscendente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Avete intenzione di promuovermi di nuovo ufficiale, ora? Siete tutti senza
- speranza senza di me, sapete
-\begin_inset Quotes frd
+ speranza senza di me, sapete.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -628,48 +607,48 @@ Tutti ignorarono i rumori provenienti dalla bocca di Zabini.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci stiamo muovendo ancora nella direzione giusta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Anthony.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Ernie.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci stiamo avvicinando a loro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Ron.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non ancora
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -689,7 +668,7 @@ E poi il gioco cambiò drasticamente, mentre la voce di Harry, alta e tesa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -697,7 +676,7 @@ E poi il gioco cambiò drasticamente, mentre la voce di Harry, alta e tesa
 Stupefy!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -714,17 +693,17 @@ sfondò
 \emph on
 Contego
 \emph default
- davanti a loro ed ella lo schivò appena, sentì un formicolio al suo braccio
+ davanti a loro e lei lo schivò a malapena, sentì un formicolio al braccio
  mentre la luce rossa la superava, e vide con la coda dell'occhio Susan
  che veniva colpita e mandata a sbattere contro Ron
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -732,12 +711,12 @@ Contego
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  tuonò la voce di Anthony, seguita un attimo dopo da una dozzina di voci
  che gridarono 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -745,7 +724,7 @@ Somnium!
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -765,7 +744,7 @@ vedere
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -777,7 +756,7 @@ mancati
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -785,82 +764,83 @@ mancati
 Stupefy!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò la voce acuta di Neville Longbottom, e un altro fiotto rosso sfrecciò
- verso di lei, ella cadde in una posizione indecorosa mentre cercava disperatame
-nte di contorcersi per togliersi di mezzo, e quando si alzò rapidamente,
- ansimando, vide che questa volta il lampo stordente aveva colpito Ron che
- stava cercando di alzarsi da terra.
+ nella sua direzione, e lei cadde in una posizione indecorosa mentre cercava
+ disperatamente di contorcersi per togliersi di mezzo, e quando si alzò
+ rapidamente, ansimando, vide che questa volta il lampo stordente aveva
+ colpito Ron che stava cercando di alzarsi da terra.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ciao, Sunshine
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry da sotto il suo cappuccio.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Noi siamo i Cavalieri Grigi del Caos
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Neville.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Saremo i vostri avversari per questa battaglia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 mentre 
 \emph on
 l'altro
 \emph default
- esercito del Caos massacra i Draghi
-\begin_inset Quotes frd
+ esercito del Caos distrugge i Draghi.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 A proposito
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Neville, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-noi siamo invincibili
-\begin_inset Quotes frd
+noi siamo invincibili.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -1012,26 +992,12 @@ status open
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1051,7 +1017,7 @@ Daphne udì un lieve sospiro di fianco a lei, e quando girò la testa vide
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1073,7 +1039,7 @@ figo
 \emph default
 , e qualcosa si svegliò dentro di lei e le sue labbra si socchiusero e tutto
  ciò in cui la Signora sua Madre l'aveva mai istruita circa i comportamenti
- riservati e le lusinghe e gli shampoo profumati esplose fuori dalla sua
+ riservati e le lusinghe e gli shampoo profumati le sprizzò fuori dalla
  testa così forte che avrebbe dovuto scompigliarle i capelli sulle orecchie,
  perché aveva visto Hermione e Harry e sapeva come voleva che andasse il
  
@@ -1084,7 +1050,7 @@ suo
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1096,7 +1062,7 @@ La Signora sua Madre l'aveva anche recentemente istruita a proposito di
 \begin_layout Standard
 La bacchetta di Daphne ondeggiò per puntare alla sua sinistra, ed ella gridò
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1104,7 +1070,7 @@ La bacchetta di Daphne ondeggiò per puntare alla sua sinistra, ed ella gridò
 Tonare!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1112,7 +1078,7 @@ Tonare!
 
 \begin_layout Standard
 La bacchetta andò sopra la sua testa, ed ella pronunciò l'incantamento 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1120,7 +1086,7 @@ La bacchetta andò sopra la sua testa, ed ella pronunciò l'incantamento
 Ravum Calvaria!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1128,7 +1094,7 @@ Ravum Calvaria!
 
 \begin_layout Standard
 E infine strinse la bacchetta con entrambe le mani e strillò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1136,7 +1102,7 @@ E infine strinse la bacchetta con entrambe le mani e strillò,
 Lucis Gladius!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1149,8 +1115,7 @@ L'enorme consumo di magia la fece quasi cadere in ginocchio, ma lo sopportò,
 \end_layout
 
 \begin_layout Standard
-Eppure, ebbe la sensazione che avrebbe fatto meglio a non combattere con
- quella a lungo.
+Eppure, ebbe la sensazione che avrebbe fatto meglio a non combattere a lungo.
 \end_layout
 
 \begin_layout Standard
@@ -1169,7 +1134,7 @@ dovuta
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1177,12 +1142,12 @@ dovuta
 Il mio nome è Daphne, della Nobile e Antichissima Casa Greengrass!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1190,7 +1155,7 @@ Il mio nome è Daphne, della Nobile e Antichissima Casa Greengrass!
 Greengrass di Sunshine!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Le formule da duello le erano completamente passate di mente, aveva visto
@@ -1198,7 +1163,7 @@ Greengrass di Sunshine!
  sangue, ma non riusciva a ricordare affatto cosa fosse appropriato per
  quella situazione, quindi semplicemente puntò la spada incandescente contro
  l'oggetto della sua cotta e gridò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1206,7 +1171,7 @@ Greengrass di Sunshine!
 Vediamo di cosa sei capace, Nevvy!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1225,7 +1190,7 @@ Citato in cap.
 
 \begin_layout Standard
 Ancora una volta la voce di Harry strillò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1233,12 +1198,12 @@ Ancora una volta la voce di Harry strillò
 Stupefy!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, e in seguito, quando ricordò quel momento, ella non fu del tutto capace
- di credere di essere stata in grado di farlo, ma mosse repentinamente la
- sua lama di luce come se fosse una mazza da Battitore, e 
+, e in seguito, quando ricordò quel momento, non fu del tutto capace di
+ credere di essere stata in grado di farlo, ma mosse repentinamente la sua
+ lama di luce come se fosse una mazza da Battitore, e 
 \emph on
 rispedì il fulmine stordente contro Harry
 \emph default
@@ -1246,7 +1211,7 @@ rispedì il fulmine stordente contro Harry
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1254,12 +1219,12 @@ rispedì il fulmine stordente contro Harry
 Tonare!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Neville, della Nobile e Antichissima Casa Longbottom.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1267,32 +1232,18 @@ Tonare!
 Ravum Calvaria, Lucis Gladius!
 \emph default
 
-\begin_inset Quotes frd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
 
 \end_inset
 
@@ -1309,38 +1260,37 @@ Per qualche secondo, nessuno fece altro che fissare Neville e Daphne che
 \end_layout
 
 \begin_layout Standard
-Ma dovevi comunque riconoscere loro del merito per il fatto di usare delle
- spade laser.
+Ma dovevi comunque riconoscergli il merito di usare delle spade laser.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Mozione d'ordine
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So che il Professore di Difesa sta guardando, ma devo chiederlo comunque,
  qualcuno sa se si taglieranno l'un l'altra a metà se si dovessero realmente
  colpire?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione distrattamente.
@@ -1351,18 +1301,18 @@ quell'aspetto
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Lo lanciano in modo che se tocca si limita a stordire
-\begin_inset Quotes frd
+Lo lanciano in modo che se tocca si limita a stordire.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1370,14 +1320,14 @@ Lo lanciano in modo che se tocca si limita a stordire
 Conosci
 \emph default
  questa magia?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh, no, è l'Incantesimo dell'Antichissima Lama, è legale usarlo solo per
@@ -1385,8 +1335,8 @@ Oh, no, è l'Incantesimo dell'Antichissima Lama, è legale usarlo solo per
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1398,38 +1348,36 @@ Hermione smise di parlare e guardò Harry, o piuttosto il cappuccio grigio
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-suppongo che potrei distruggere il resto del Sunshine Regiment da solo,
- allora
-\begin_inset Quotes frd
+suppongo che dovrò distruggere il resto del Sunshine Regiment da solo, allora.
+\begin_inset Quotes crd
 \end_inset
 
-.
- Ella non poteva vedere il suo volto, ma la sua voce suonava come se stesse
+ Non poteva vedere il volto di Harry, ma la sua voce suonava come se stesse
  sorridendo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai schivato quando Daphne ti ha rimandato indietro il tuo incantesimo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quindi, qualsiasi cosa tu abbia fatto, 
@@ -1441,52 +1389,51 @@ non sei
 \emph on
 Stupefy
 \emph default
- ti può ancora colpire
-\begin_inset Quotes frd
+ ti può ancora colpire.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ipotesi interessante
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Harry da sotto al cappuccio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai qualcuno nel tuo esercito che possa metterla alla prova?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una volta ho letto dell'Incantesimo Stordente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Alcuni mesi fa.
- Mi chiedo se riuscirei a ricordare correttamente le istruzioni
-\begin_inset Quotes frd
+ Mi chiedo se riuscirei a ricordare correttamente le istruzioni.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  La sua bacchetta si alzò per puntare contro Harry.
 \end_layout
 
@@ -1496,15 +1443,15 @@ Ci fu una breve pausa, mentre lì vicino un ragazzo e una ragazza che respiravan
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ovviamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, puntando la propria bacchetta contro di lei, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1512,11 +1459,11 @@ Ovviamente
 io
 \emph default
  posso usare un semplice Somnium contro di te.
- Richiederà molta meno fatica
-\begin_inset Quotes frd
+ Richiederà molta meno fatica.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1542,91 +1489,91 @@ doveva
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sai
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione Granger, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 capisco che non è davvero colpa tua, ma mi sto stancando di sentire la gente
- parlare del Ragazzo-Che-È-Sopravvissuto come se fossi -- come se fossi
- un qualche genere di 
+ parlare del Ragazzo-Che-È-Sopravvissuto come se fossi – come se fossi un
+ qualche genere di 
 \emph on
 dio
 \emph default
- o cose simili
-\begin_inset Quotes frd
+ o cose simili.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vale anche per me, devo dire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry Potter.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-È triste che la gente continui a sottovalutarmi
-\begin_inset Quotes frd
+È triste che la gente continui a sottovalutarmi.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 La sua bacchetta continuò a ripassare il diamante all'interno del cerchio,
  ripetutamente.
- Harry avrebbe ricaricato la propria energia, sapeva, mentre ella si esercitava
+ Harry avrebbe ricaricato la propria energia, sapeva, mentre lei si esercitava
  il più possibile prima del proprio attacco.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Inizio a pensare che tu abbia bisogno di abbassare la cresta, Generale Chaos
-\begin_inset Quotes frd
+Inizio a pensare che tu abbia bisogno di abbassare la cresta, Generale Chaos.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potresti aver ragione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry tranquillamente.
- I suoi piedi iniziarono a muoversi lentamente in quella che ella riconobbe
+ I suoi piedi iniziarono a muoversi lentamente in quella che lei riconobbe
  essere la danza di un duellante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sfortunatamente non c'è rimasto nulla che possa sconfiggermi ora, eccetto
- un altro Harry Potter
-\begin_inset Quotes frd
+ un altro Harry Potter.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Permettimi di essere più chiara, signor Potter.
@@ -1635,51 +1582,51 @@ Permettimi di essere più chiara, signor Potter.
 Io
 \emph default
  ti farò abbassare la cresta.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Tu e quale altro esercito?
-\begin_inset Quotes frd
+Tu e quale esercito?
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Pensi di essere molto figo, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Hermione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì, lo penso.
  Qualcuno potrebbe dire che sono arrogante, ma dovrei essere io l'ultima
- persona a Hogwarts a notare quanto sono fantastico?
-\begin_inset Quotes frd
+ persona in Hogwarts a notare quanto sono fantastico?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1702,7 +1649,7 @@ Wingardium Leviosa
 \begin_layout Standard
 Si erano esercitati anche in 
 \emph on
-questo
+quello
 \emph default
 , una volta che Hermione aveva rinunciato a fare la predica ai soldati,
  e dietro suggerimento di Anthony, aveva cercato di dare loro un Generale
@@ -1714,18 +1661,18 @@ sembrasse
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ti comporti come se fossi Superman
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione.
  Sollevò il pugno sinistro in aria, e gli otto soldati che la sostenevano
  la fecero Levitare da terra.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1733,16 +1680,16 @@ Ti comporti come se fossi Superman
 Beh, eccoti Super Hermione!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La sua mano si mosse in avanti, e mentre volava rapidamente verso Harry,
  rimpiangendo soltanto di non poter vedere l'espressione sul suo viso, la
  sua bacchetta disegnò un diamante in un cerchio e raccolse tutta la magia
- che poté, la sensazione fu simile a ciò che immaginava di provare toccando
+ che poté, la sensazione fu simile a ciò che immaginava si provasse toccando
  un filo della corrente, mentre l'incantesimo troppo potente scorse attraverso
  di lei quando la sua voce gridò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1750,7 +1697,7 @@ Beh, eccoti Super Hermione!
 Stupefy!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1769,7 +1716,7 @@ E allora, poiché non si erano esercitati a compiere quella parte all'interno
  di corridoi, andò a sbattere contro un muro.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1782,21 +1729,7 @@ E allora, poiché non si erano esercitati a compiere quella parte all'interno
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1804,11 +1737,11 @@ status open
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Draco, e poi dopo solo alcuni secondi per ricaricarsi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1818,7 +1751,7 @@ Somnium, maledizione!
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1835,12 +1768,12 @@ Sapeva
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Draco riuscì a saltare di lato proprio mentre Theodore disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1848,14 +1781,14 @@ Draco riuscì a saltare di lato proprio mentre Theodore disse
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ma stava restando senza fiato, non poteva continuare così, Theodore non
  si stava affatto preoccupando di schivare mentre Draco doveva continuare
- a muoversi, questo era 
+ a muoversi, era 
 \emph on
-folle
+roba da matti
 \emph default
 .
 \end_layout
@@ -1865,15 +1798,15 @@ Ora aveva abbastanza forza per fare nuovamente fuoco, ma
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-È stupidità fare la stessa cosa e attendersi un risultato differente
+È stupido fare la stessa cosa e attendersi un risultato differente
 \emph default
-, aveva detto Harry, questa era opera di 
+, aveva detto Harry, quella era opera di 
 \emph on
 Harry
 \emph default
@@ -1891,11 +1824,11 @@ potesse
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1903,11 +1836,11 @@ potesse
 Luminos!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Draco, e Theodore fu circondato da un alone di luce rossa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1915,7 +1848,7 @@ Luminos!
 Dulak!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e si spense di nuovo (quindi Theodore subiva 
@@ -1923,7 +1856,7 @@ Dulak!
 ancora
 \emph default
  gli effetti della magia), 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1931,13 +1864,13 @@ ancora
 Expelliarmus!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e la bacchetta di Theodore volò via (era stato comunque un buon incantesimo
  da lanciare, ora che Draco l'aveva capito) ma Theodore stava correndo verso
  Draco con le braccia allargate per lottare con lui quindi Draco gridò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1945,18 +1878,18 @@ Expelliarmus!
 Flippendo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e i piedi dell'altro ragazzo furono strattonati bruscamente verso l'alto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- e la schiena di Theodore colpì il suolo con uno fracasso sorprendentemente
+– e la schiena di Theodore colpì il suolo con uno fracasso sorprendentemente
  forte e di tonalità 
 \emph on
 metallica
@@ -1969,7 +1902,7 @@ La visione di Draco stava ora ondeggiando a causa del lancio di quattro
  incantesimi in tale rapida successione, e Theodore si stava già alzando
  in piedi, quindi non vi fu tempo neppure per formulare i pensieri sotto
  forma di parole, ma Draco riuscì comunque a dire 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1977,7 +1910,7 @@ La visione di Draco stava ora ondeggiando a causa del lancio di quattro
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e 
@@ -1993,7 +1926,7 @@ Theodore schivò (
 schivò!
 \emph default
 ) e gridò 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2001,14 +1934,14 @@ schivò!
 Codice sette su Malfoy!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2016,13 +1949,13 @@ Codice sette su Malfoy!
 Prismatis!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rispose la voce di Padma e improvvisamente uno scintillante muro arcobaleno
  comparve di fronte a Draco, proprio mentre quattro voci caotiche gridavano
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2030,7 +1963,7 @@ Prismatis!
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2044,31 +1977,31 @@ E ci fu una pausa, mentre tutti guardarono l'enorme Sfera Prismatica che
 \begin_layout Standard
 Lanciare quel quinto incantesimo aveva messo in ginocchio Draco, ma alzò
  lo sguardo e riuscì a dire, il più chiaramente che poté, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Se la Fattura Soporifera -- non funziona -- mirate al viso -- penso che
- i Luogotenenti stiano indossando camicie di metallo
-\begin_inset Quotes frd
+Se la Fattura Soporifera – non funziona – mirate al viso – penso che i Luogotene
+nti stiano indossando camicie di metallo.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Hai già perso troppi soldati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Finnigan ad alta voce dall'altra parte della barriera, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ti batteremo comunque
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e poi il ragazzo Grifondoro rise malvagiamente.
@@ -2098,7 +2031,7 @@ Sperava davvero che il generale Granger arrivasse presto e attaccasse Chaos
  Sunshine Regiment troppo a lungo, giusto?
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -2111,26 +2044,12 @@ Sperava davvero che il generale Granger arrivasse presto e attaccasse Chaos
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Sapeva che non era giusto, che l'altra ragazza aveva fatto del suo meglio,
  ma Hermione desiderava comunque che Daphne avesse resistito più a lungo.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2138,13 +2057,13 @@ Sapeva che non era giusto, che l'altra ragazza aveva fatto del suo meglio,
 Lagann!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse la voce di Neville da dietro di lei mentre ella volava, e ci fu il
+ disse la voce di Neville da dietro di lei mentre lei volava, e ci fu il
  suono di un Muro Prismatico che andava in frantumi, la voce di Hannah che
  gridava disperatamente 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2152,15 +2071,15 @@ Lagann!
 Somnium!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e poi alcuni momenti dopo la voce di Neville disse con calma 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Somnium
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e ci fu il tonfo di un altro dei suoi soldati che cadeva.
@@ -2173,9 +2092,8 @@ E la forza che la manteneva in aria diminuì ancora, Hermione poteva sentire
 \end_layout
 
 \begin_layout Standard
-Il suo volo si interruppe ed ella iniziò a cadere al rallentatore verso
- terra, e avrebbe dovuto segnalare ai suoi soldati di lasciarla semplicemente
- 
+Il suo volo si interruppe e lei iniziò a cadere lentamente verso terra,
+ e avrebbe dovuto segnalare ai suoi soldati di lasciarla semplicemente 
 \emph on
 andare
 \emph default
@@ -2183,7 +2101,7 @@ andare
  e stava ancora cercando di raccogliere le forze per un'ultima Fattura Soporifer
 a, e quindi non ebbe nessuna possibilità quando Harry le puntò contro la
  sua bacchetta e disse 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -2191,10 +2109,10 @@ a, e quindi non ebbe nessuna possibilità quando Harry le puntò contro la
 Somnium
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- e quella fu l'ultima parola che Hermione Granger udì della sua battaglia.
+ e quella fu l'ultima parola che Hermione Granger udì della battaglia.
 \end_layout
 
 \end_body
