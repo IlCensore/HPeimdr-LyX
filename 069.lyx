@@ -44,32 +44,13 @@
 
 
 %\usepackage{fontspec,microtype}
-\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+%\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \SetTracking{encoding={*}, shape=sc}{40}
 \frenchspacing
 \widowpenalties 2 10000 0
 %\clubpenalty 10000
 %\raggedbottom
 %\usepackage{indentfirst}
-
-\usepackage{ifluatex,ifxetex}
-\usepackage{libertine}
-%\usepackage{tgadventor}
-\usepackage{ebgaramond}
-\ifluatex\else\ifxetex\else
-  \normalfont
-  \makeatletter
-  \input{TS1EBGaramond-LF.fd}
-  \input{TS1EBGaramond-OsF.fd}
-  \makeatother
-  \DeclareFontShape{TS1}{EBGaramond-OsF}{m}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
-  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{n}{ <-> ssub * EBGaramond-OsF/m/n }{}
-  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{it}{ <-> ssub * EBGaramond-OsF/m/it }{}
-  \DeclareFontShape{TS1}{EBGaramond-OsF}{b}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
-  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{n}{ <-> ssub * EBGaramond-OsF/m/n }{}
-  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{it}{ <-> ssub * EBGaramond-OsF/m/it }{}
-  \DeclareFontShape{TS1}{EBGaramond-OsF}{bx}{sl}{ <-> ssub * EBGaramond-OsF/m/it }{}
-\fi\fi
 
 \renewcommand*{\descriptionlabel}[1]{\hspace\labelsep \normalfont \textsc{\textit{#1}}\ ---}
 \end_preamble
@@ -83,9 +64,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
+\font_roman "default" "TeX Gyre Pagella"
+\font_sans "default" "Liberation Sans"
+\font_typewriter "default" "Liberation Mono"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
@@ -176,6 +157,7 @@ name "chap:69Auto-realizzazione-p4"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Fu con la coda dell'occhio che Hermione Granger lo vide, un riflesso sul
  metallo lucido di una statua alla congiunzione di due corridoi, un lampo
  di luce dorata, un lampo di luce rossa, qualcosa di simile all'immagine
@@ -195,7 +177,7 @@ quasi
 \end_layout
 
 \begin_layout Standard
-Hermione avanzò verso il luogo dove era la statua, guardò il corridoio da
+Hermione avanzò verso il punto dove era la statua, guardò il corridoio da
  cui pensava che il riflesso fiammeggiante potesse essere venuto.
 \end_layout
 
@@ -209,7 +191,7 @@ Hermione iniziò a correre.
 \end_layout
 
 \begin_layout Standard
-Corse per un po'; ogni volta che arrivava ad un incrocio si fermava, riprendeva
+Corse per un po'; ogni volta che arrivava a un incrocio si fermava, riprendeva
  più fiato possibile, e poi vedeva un bagliore di fiamme riflesso da una
  direzione o da un'altra, o udiva quel richiamo lontano.
  Se non fosse stato per il suo addestramento militare sarebbe caduta per
@@ -221,7 +203,7 @@ Non vide mai la fenice.
 \end_layout
 
 \begin_layout Standard
-E poi giunse ad un incrocio a quattro bracci e non c'era 
+E poi giunse a un incrocio a quattro bracci e non c'era 
 \emph on
 nulla
 \emph default
@@ -243,13 +225,13 @@ Quando i suoi piedi voltarono l'angolo in piena corsa, la sua mente assimilò
 \end_layout
 
 \begin_layout Standard
-Il Generale Sunshine non ci pensò nemmeno, coloro che si fermavano a pensare
+Il Generale Sunshine non pensò nemmeno, coloro che si fermavano a pensare
  non tendevano imboscate molto efficaci.
 \end_layout
 
 \begin_layout Standard
-La bacchetta fu nella sua mano, le sue dita operarono la rotazione e le
- sue labbra dissero 
+La bacchetta fu nella sua mano, le sue dita le impressero la rotazione e
+ le sue labbra dissero 
 \begin_inset Quotes cld
 \end_inset
 
@@ -311,7 +293,7 @@ Ventiquattro ore prima, Hermione sarebbe andata nel panico per quello, un
 vero
 \emph default
  Incantesimo di Protezione avrebbe permesso al bullo di lanciarle contro
- incantesimi anche mentre era protetto.
+ gli incantesimi anche mentre era protetto.
 \end_layout
 
 \begin_layout Standard
@@ -415,7 +397,7 @@ Jellyfy!
 \end_inset
 
  urlò il bullo, una maledizione ad ampio raggio senza alcun lampo visibile
- da schivare, ed ella sentì improvvisamente le ginocchia quasi troppo deboli
+ da schivare, e lei sentì improvvisamente le ginocchia quasi troppo deboli
  per sostenerla.
  E poi, con un ruggito rabbioso che produsse un lampo cremisi ancor più
  luminoso, 
@@ -513,10 +495,10 @@ Uh
 \end_inset
 
 , fece il ragazzo, il colore dei suoi capelli era tale che lo si sarebbe
- potuto chiamare `moretta' se fosse stato una ragazza, i suoi occhi di un
- marrone indistinguibile che in qualche modo sembrava appropriato per un
- Tassofrasso, non c'erano lacrime sul suo volto ma in qualche modo sembrava
- pallido.
+ potuto chiamare una ``moretta'' se fosse stato una ragazza, i suoi occhi
+ di un marrone indistinguibile che in qualche modo sembrava appropriato
+ per un Tassofrasso, non c'erano lacrime sul suo volto ma in qualche modo
+ sembrava pallido.
  Stimò che fosse del quarto anno circa, o del terzo.
 \end_layout
 
@@ -545,20 +527,19 @@ Già
 \begin_inset Quotes crd
 \end_inset
 
-, ella rispose.
+, rispose.
  
 \begin_inset Quotes cld
 \end_inset
 
-Sono (
+Proprio (
 \emph on
 rantolo
 \emph default
-) io
+) io.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Decise che se il ragazzo Tassofrasso avesse detto qualcosa sul fatto che
  fosse l'oggetto dell'interesse amoroso di Harry Potter, sarebbe morto.
 \end_layout
@@ -654,16 +635,18 @@ Si strinsero la mano, e Mike disse,
 Ad ogni modo, 
 \emph on
 grazie
-\begin_inset Quotes crd
+\emph default
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Hermione non era preparata per la scarica di euforia che la colpì in quel
- momento, salvare qualcuno in quel modo l'aveva fatta sentire meglio di
- quanto non si fosse sentita 
+Hermione non era preparata per la scarica di euforia che l'attraversò in
+ quel momento, salvare qualcuno in quel modo l'aveva fatta sentire meglio
+ di quanto non si fosse sentita 
 \emph on
 in tutta la sua vita
 \emph default
@@ -741,16 +724,16 @@ Aveva davvero pensato di aver bisogno di un
 permesso
 \emph default
  da parte di qualcuno, o che gli eroi se ne stessero seduti ad aspettare
- che qualcun altro assegnasse loro delle imprese da compiere? Era molto
- semplice, in realtà, dovevi solo andare lì dove c'era il male, era tutto
- ciò che ci voleva per essere un eroe.
+ che qualcun altro gli assegnasse delle imprese da compiere? Era molto semplice,
+ in realtà, dovevi solo andare lì dove c'era il male, era tutto ciò che
+ ci voleva per essere un eroe.
  Avrebbe dovuto ricordare, non avrebbe dovuto aver bisogno che una fenice
  glielo dicesse, che cose cattive talvolta accadevano proprio lì a Hogwarts.
 \end_layout
 
 \begin_layout Standard
 Poi Hermione diede un'occhiata nervosa là dove i tre ragazzi più grandi
- giacevano senza sensi mentre la colpì la realizzazione che loro l'avevano
+ giacevano privi di sensi, mentre la colpì la comprensione che loro l'avevano
  
 \emph on
 vista
@@ -790,11 +773,11 @@ Ricordò che il Preside aveva detto che si cresceva venendo messi in mezzo
 \end_layout
 
 \begin_layout Standard
-E ricordò la voce della professoressa McGonagall dire, `Lei 
+E ricordò la voce della professoressa McGonagall dire, ``Lei 
 \emph on
 ha
 \emph default
- dodici anni'.
+ dodici anni''.
 \begin_inset Note Note
 status collapsed
 
@@ -815,7 +798,7 @@ Hermione fece un respiro profondo, una, due, e tre volte.
 \begin_layout Standard
 Chiese a Mike se avesse bisogno di andare nell'ufficio di Madam Pomfrey,
  ed egli rispose di no; e lo convinse a dirle i nomi dei ragazzi Serpeverde,
- giusto nell'eventualità.
+ tanto per essere sicura.
 \end_layout
 
 \begin_layout Standard
@@ -827,43 +810,25 @@ E poi Hermione Granger se ne andò via passeggiando, allontanandosi dall'ammasso
 \begin_layout Standard
 Sapeva che si sarebbe fatta male prima o poi.
  Ma se eri troppo spaventato di farti male per fare ciò che era giusto,
- allora non potevi essere un eroe, tutto qui; e se avessero messo il Cappello
+ allora non potevi essere un eroe, tutto là; e se avessero messo il Cappello
  Smistatore sulla sua testa in quel momento, non avrebbe aspettato neppure
  
 \emph on
 un secondo
 \emph default
- prima di gridare `
+ prima di gridare ``
 \noun on
 Grifondoro!'
 \noun default
-.
-\begin_inset Separator latexpar
-\end_inset
-
-
+'.
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -887,11 +852,11 @@ quello
 \end_layout
 
 \begin_layout Standard
-Si sedette dall'altra parte rispetto a Harry Potter che sembrava 
+Si sedette di fronte a Harry Potter che sembrava 
 \emph on
 estremamente
 \emph default
- nervoso, probabilmente perché ella stava ancora sorridendo.
+ nervoso, probabilmente perché lei stava ancora sorridendo.
 \end_layout
 
 \begin_layout Standard
@@ -906,7 +871,7 @@ Uh
 \begin_inset Quotes crd
 \end_inset
 
- disse Harry, mentre ella si serviva di pane tostato di fresco, burro, cannella,
+ disse Harry, mentre lei si serviva di pane tostato di fresco, burro, cannella,
  nessun genere di frutta o verdure, e tre porzioni di tortino al cioccolato
  e nocciola.
  
@@ -967,11 +932,11 @@ Fingi che non stia accadendo nulla di tutto ciò
 \begin_inset Quotes cld
 \end_inset
 
-e dimmi semplicemente quello che mi avresti detto ieri
-\begin_inset Quotes crd
+e dimmi semplicemente quello che mi avresti detto ieri.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1078,14 +1043,14 @@ Ah\SpecialChar ldots
 \begin_inset Quotes cld
 \end_inset
 
-Credo che molta gente possa fare delle cose quando il mondo le induca a
+Credo che molta gente possa fare delle cose quando il mondo le spinge a
  farle\SpecialChar ldots
  come quando le persone si aspettano che tu le faccia, o quando richiede
  capacità che tu già possiedi, o se c'è un'autorità che ti controlla per
  prendere nota dei tuoi errori e assicurarsi che tu faccia la tua parte.
  Ma problemi del genere sono stati già probabilmente risolti, sai, e non
  c'è bisogno di eroi.
- Quindi penso che le persone che chiamiamo `eroi' siano rare perché devono
+ Quindi penso che le persone che chiamiamo ``eroi'' siano rare perché devono
  farsi tutto da sole mentre procedono per la loro strada, e la maggior parte
  delle persone non si trova a suo agio in questo.
  Perché me lo chiedi?
@@ -1100,7 +1065,7 @@ Credo che molta gente possa fare delle cose quando il mondo le induca a
 \begin_inset Quotes cld
 \end_inset
 
-Oh, ho appena stordito tre bulli più grandi di Serpeverde e ho salvato un
+Ah, ho appena stordito tre bulli più grandi di Serpeverde e ho salvato un
  Tassofrasso
 \begin_inset Quotes crd
 \end_inset
@@ -1110,11 +1075,11 @@ Oh, ho appena stordito tre bulli più grandi di Serpeverde e ho salvato un
 \begin_inset Quotes cld
 \end_inset
 
-Diventerò un eroe
-\begin_inset Quotes crd
+Diventerò un eroe.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1168,12 +1133,12 @@ Mi dispiace per come mi sono comportata prima
 \begin_inset Quotes cld
 \end_inset
 
-Mi sarei dovuta ricordare che se ti sto ancora stracciando a lezione di
- Incantesimi allora va bene che tu faccia meglio a Difesa
-\begin_inset Quotes crd
+Mi sarei dovuta ricordare che se ti sto ancora stracciando nel corso di
+ Incantesimi allora va bene che tu faccia meglio a Difesa.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1210,7 +1175,7 @@ tu
 \end_inset
 
 Ne sono abbastanza certa.
- Del resto, il mio nome è praticamente un anagramma di `eroina', a parte
+ Del resto, il mio nome è praticamente un anagramma di ``eroina'', a parte
  un paio di lettere, non l'avevo mai notato fino a oggi.
 \begin_inset Quotes crd
 \end_inset
@@ -1364,13 +1329,9 @@ A proposito di questo, Dumbledore si è rifiutato di essere il mio misterioso
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1477,11 +1438,11 @@ non è opportuno essere
 \emph on
 troppo
 \emph default
- sfacciato, altrimenti la tua Vicepreside potrebbe scoprirti
-\begin_inset Quotes crd
+ sfacciato, altrimenti la tua Vicepreside potrebbe scoprirti.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1523,19 +1484,18 @@ Sarebbe giunta alla stessa decisione a tempo debito
 Se qualcuno è destinato a diventare un eroe, allora non ascolterà i nostri
  avvertimenti, Minerva, non importa quanto impegno ci metteremo.
  E considerato ciò, è meglio per Harry che la signorina Granger non resti
- troppo indietro rispetto a lui
-\begin_inset Quotes crd
+ troppo indietro rispetto a lui.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Albus tirò fuori, come dal nulla, una scatolina che aprì per rivelare piccoli
- cubetti gialli, ella non era mai riuscita a capire dove li tenesse e non
- era mai riuscita a rilevare la magia usata.
+ cubetti gialli, non era mai riuscita a capire dove la tenesse e non era
+ mai riuscita a rilevare la magia usata.
  
 \begin_inset Quotes cld
 \end_inset
 
-Una pasticca al limone?
+Una caramella al limone?
 \begin_inset Quotes crd
 \end_inset
 
@@ -1555,13 +1515,9 @@ Una pasticca al limone?
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1638,6 +1594,17 @@ Si sarebbe potuta semplicemente dichiarare Daphne di Raggio di sole, come
 qualunque cosa
 \emph default
  eccetto Greengrass del Raggio di sole.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dal cap.
+ 67.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1721,10 +1688,10 @@ Gazzetta del Profeta
 \begin_inset Quotes cld
 \end_inset
 
-Avete sentito la notizia? Il Wizengamot ha appena deliberato che `vediamo
- di cosa sei capace'
+Avete sentito la notizia? Il Wizengamot ha appena deliberato che ``vediamo
+ di cosa sei capace''
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Da cap.
@@ -1920,7 +1887,7 @@ Uh
 \begin_inset Quotes crd
 \end_inset
 
-, disse Daphne.
+, fece Daphne.
  
 \emph on
 Cosa?
@@ -1930,7 +1897,7 @@ Cosa?
 \begin_inset Quotes cld
 \end_inset
 
-Uh, cosa sta facendo qui, Generale?
+Uh, cosa ci fai qui, Generale?
 \begin_inset Quotes crd
 \end_inset
 
@@ -2004,13 +1971,9 @@ Io ci sto!
 \end_inset
 
  gridò Tracey Davis, saltando fuori dal suo sofà.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -2023,22 +1986,8 @@ Io ci sto!
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-E così nacque la Società per la Promozione dell'Uguaglianza Eroica per le
- Streghe.
+Fu così che nacque la Società per la Promozione dell'Uguaglianza Eroica
+ per le Streghe.
 \end_layout
 
 \end_body
