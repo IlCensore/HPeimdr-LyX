@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -67,6 +67,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -96,6 +98,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -110,7 +113,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -139,11 +145,11 @@ name "chap:16Pensiero-laterale"
 
 \size small
 \emph on
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non sono uno psicopatico, sono solo molto creativo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -297,7 +303,7 @@ io?
 \begin_layout Standard
 Il ghigno di Draco si allargò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho paura, Potter, che il primo passo sia quello di essere Smistati in Serpeverde
@@ -306,6 +312,7 @@ Ho paura, Potter, che il primo passo sia quello di essere Smistati in Serpeverde
 
 –»
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -366,7 +373,7 @@ io?
 \size small
 Il ghigno di Draco si allargò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho paura, Potter, che il primo passo sia quello di essere Smistati in Serpeverde
@@ -740,18 +747,18 @@ Sia il signor Crabbe sia il signor Goyle ridacchiarono, obbligando il signor
 
 \begin_layout Standard
 «Faremmo meglio a raggiungere i nostri posti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
  Esitò, si raddrizzò leggermente, parlò un po' più formalmente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma intendo sinceramente dare seguito alla nostra ultima conversazione e
  accolgo le tue condizioni.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -805,10 +812,6 @@ L'aula si stava riempiendo rapidamente di tutti e quattro i colori delle
 
 \begin_layout Standard
 Harry si chinò sul suo libro di testo di Difesa e continuò a leggere.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -960,7 +963,7 @@ izzazione.
 \begin_layout Standard
 Le labbra del professor Quirrell erano fissate in una linea sottile.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vi insegnerò a malincuore abbastanza banalità da ottenere un voto sufficiente
@@ -1023,9 +1026,9 @@ I rantoli di orrore si interruppero bruscamente.
 
 \begin_layout Standard
 «Sì, mi avete sentito bene.
- Vi insegnerò a combattere, non a scrivere una relazione di dodici pollici
- sul combattimento per lunedì.
-\begin_inset Quotes frd
+ Vi insegnerò a combattere, non a scrivere una relazione di sei pagine sul
+ combattimento per lunedì.
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1107,8 +1110,8 @@ Quello studente sarebbe stato Harry.
 «Ora lasciate i vostri libri e i vostri oggetti sui banchi – saranno al
  sicuro, gli schermi veglieranno su di loro per voi – e scendete su questa
  piattaforma.
- È il momento di giocare a un gioco chiamato `Chi è lo studente più pericoloso
- della classe'.»
+ È il momento di giocare a un gioco chiamato ``Chi è lo studente più pericoloso
+ della classe''.»
 \end_layout
 
 \begin_layout Standard
@@ -1132,11 +1135,11 @@ Ma-ha-su!
 
 \begin_layout Standard
 Ci fu un altro 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 bing
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  acuto proveniente dalla sfera blu fluttuante assegnata a Harry dal professor
@@ -1210,11 +1213,11 @@ Ma-ha-su!
 
 \begin_layout Standard
 Ci fu un 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 dong
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  dal tono grave, che significava che l'aveva colpita quasi in pieno.
@@ -1342,7 +1345,7 @@ Nessuno parve pensare nulla in quel momento.
 
 \begin_layout Standard
 «Allora scopriamolo, no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il professor Quirrell.
@@ -1448,7 +1451,7 @@ Senza nemmeno pensare, Harry si voltò a guardare il contingente Serpeverde.
 
 \begin_layout Standard
 «Draco, della Nobile e Antichissima Casa Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
@@ -1490,11 +1493,11 @@ Ci fu una pausa.
 
 \begin_layout Standard
 Alla fine Draco rispose, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché spiccava di più.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1503,7 +1506,7 @@ Perché spiccava di più.
 \begin_layout Standard
 Le labbra del professor Quirrell si sollevarono in un sorriso.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E quella è la vera ragione per la quale Draco Malfoy è pericoloso.
@@ -1529,11 +1532,11 @@ Draco accennò un inchino e tornò nel contingente dei Serpeverde.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Potrebbe sembrare che il nostro gioco sia terminato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
@@ -1620,23 +1623,23 @@ Un'ondata di adrenalina si riversò attraverso Harry, facendolo stare in
 \begin_layout Standard
 Il professor Quirrell sembrò divertito.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sta pensando che sono giunto alla conclusione sbagliata, non è vero, signor
  Potter? Imparerà ad aspettarsi di meglio da me.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il professor Quirrell si raddrizzò, smettendo di appoggiarsi alla scrivania.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Signor Potter, tutte le cose hanno degli usi ordinari.
  Mi dia dieci usi inconsueti e utili per il combattimento di oggetti presenti
  in questa stanza!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1652,7 +1655,7 @@ E poi le idee iniziarono a sgorgare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sono banchi abbastanza pesanti da essere mortali se lasciati cadere da
@@ -1893,7 +1896,7 @@ Cosa? Un attimo, non poteva essere vero… Harry provò un'improvvisa sensazione
 
 \begin_layout Standard
 «E questo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, «è il motivo per il quale le idee del signor
@@ -1950,11 +1953,11 @@ Ma poté capire che gli altri studenti iniziavano a crederci.
  nulla che potesse reggere al confronto con la voce autorevole del professor
  Quirrell.
  Il meglio che Harry aveva trovato era 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 non sono uno psicopatico, sono solo molto creativo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e quello suonava un po' sinistro.
@@ -2025,7 +2028,7 @@ Draco Malfoy non sembrò minimamente preoccupato.
 ovvia
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
