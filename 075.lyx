@@ -47,15 +47,10 @@
 \usepackage{xcolor} %per il titolo in rosso
 \setlength{\emergencystretch}{3em} %per alcuni problemi di hyphenation
 
-%\usepackage{fontspec,microtype}
-\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
 \frenchspacing
 \widowpenalties 2 10000 0
 \clubpenalty 100
 %\raggedbottom
-\usepackage{indentfirst}
-\usepackage{libertine}
-\usepackage{ebgaramond}
 
 \usepackage{inslrmin}
 \end_preamble
@@ -69,9 +64,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
+\font_roman "default" "Garamond Premier Pro"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Fira Mono"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
@@ -153,10 +148,11 @@ name "chap:75AR-finale-responsabilità"
 \end_layout
 
 \begin_layout Standard
-Era una viuzza sinuosa e serpeggiante nel mezzo di Hogwarts, errante come
- una ciocca di capelli ribelle; talvolta incrociava sé stessa, sembrava,
- ma non si sarebbe mai arrivati alla fine di essa se si fosse ceduto alla
- tentazione di prendere delle apparenti scorciatoie.
+\noindent
+Era un corridoio sinuoso e serpeggiante nel mezzo di Hogwarts, errante come
+ una ciocca di capelli ribelle; talvolta incrociava sé stesso, sembrava,
+ ma non se ne sarebbe mai arrivati alla fine se si fosse ceduto alla tentazione
+ di prendere delle apparenti scorciatoie.
 \end_layout
 
 \begin_layout Standard
@@ -251,11 +247,11 @@ No
 \emph on
 non
 \emph default
- lo ero
+ lo ero.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -273,11 +269,11 @@ a.
 \begin_inset Quotes cld
 \end_inset
 
-Coperta di una glassa di cioccolato, sì, ma non nuda
+Coperta di una glassa di cioccolato, sì, ma non nuda.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -295,7 +291,7 @@ In questo giorno Potter ha recato un grande insulto alle nostre Case
 \begin_inset Quotes cld
 \end_inset
 
-Sì, beh, chiedo scusa se sono brusco
+Sì, beh, scusami se sono brutale
 \begin_inset Quotes crd
 \end_inset
 
@@ -309,11 +305,11 @@ Sì, beh, chiedo scusa se sono brusco
 Ma quando qualcuno ti incolla al soffitto, è un messaggio, Astorga.
  È un messaggio che dice: Sono un Mago Oscuro incredibilmente potente che
  avrebbe potuto farti tutto ciò che dannatamente volevo, e non mi interessa
- neppure se la tua Casa si offende
+ neppure se la tua Casa si offende.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -375,15 +371,15 @@ Sei un Grifondoro o un Serpeverde?
 \end_inset
 
 Tutti hanno un prezzo.
- Tutti quelli intelligenti
+ Tutti quelli intelligenti.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Questa affermazione causò un momento di silenzio.
+Quell'affermazione causò un momento di silenzio.
 \end_layout
 
 \begin_layout Standard
@@ -405,11 +401,11 @@ Flint fece un gesto sprezzante con le dita.
 
 Qualunque cosa Malfoy stia progettando, vuole fingere un'aria innocente.
  Non può essere visto assentarsi nello stesso momento in cui ci assentiamo
- noi
+ noi.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -429,11 +425,11 @@ tutti
 \begin_inset Quotes cld
 \end_inset
 
-Anche nelle altre Case
+Anche nelle altre Case.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -450,11 +446,11 @@ Già, molto goffo
 \begin_inset Quotes cld
 \end_inset
 
-Malfoy o no, è solo un piccolo primino e non abbiamo bisogno di lui qui
+Malfoy o no, è solo un piccolo primino e non abbiamo bisogno di lui qui.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -508,11 +504,11 @@ io
 \emph on
 io
 \emph default
- non ho ancora finito con Potter e la sua sanguemarcio da compagnia
+ non ho ancora finito con Potter e la sua sanguemarcio da compagnia.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -583,32 +579,14 @@ finito
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -692,11 +670,11 @@ lì per prenderti la colpa
 \emph default
 , capisci? Ma allo stesso tempo, anche se non lo ammetterà, sarà colpita
  dal fatto che il suo ragazzo abbia fatto tutto il possibile, arrivando
- a cose ridicole e francamente fuori di testa, per proteggerla
+ a cose ridicole e francamente fuori di testa, per proteggerla.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -778,7 +756,7 @@ Beh, insomma
 
 credo che dopo che lei ti bacia per tirarti fuori da un Dissennamento e
  tu incolli quarantaquattro bulli al soffitto per lei, siamo ben oltre il
- `lei non è la mia ragazza, davvero', e nella questione di come saranno
+ ``lei non è la mia ragazza, davvero'', e nella questione di come saranno
  i vostri bambini.
  Uau, questo è un pensiero spaventoso\SpecialChar ldots
 
@@ -789,11 +767,11 @@ credo che dopo che lei ti bacia per tirarti fuori da un Dissennamento e
 \begin_inset Quotes cld
 \end_inset
 
-Per favore non guardarmi in quel modo
+Per favore non guardarmi in quel modo.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -809,11 +787,10 @@ Ascolta
 \end_inset
 
 mi dispiace essere brusco, ma puoi avere giustizia o puoi avere le ragazze,
- non puoi avere entrambe le cose contemporaneamente
+ non puoi avere entrambe le cose contemporaneamente.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Appoggiò una mano amichevole sulla spalla di Harry Potter.
  
 \begin_inset Quotes cld
@@ -1156,11 +1133,11 @@ Signorina Granger
 penso che se fossi davvero onesta con te stessa, ammetteresti che la vera
  ragione per cui sei arrabbiata con il tuo oscuro signore è che ha incanalato
  i suoi indicibili poteri attraverso Tracey Davis invece che attraverso
- di te
+ di te.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1215,32 +1192,14 @@ Gaaaaac
 , fece Hermione Granger, la sua gola ancora bloccata, il suo cervello fermo,
  e le sue corde vocali che spontaneamente produssero suoni come se stesse
  sputando uno yak.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1285,11 +1244,11 @@ me
 \begin_inset Quotes cld
 \end_inset
 
-beh, lo starei baciando, spero
+beh, lo starei baciando, spero.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1314,11 +1273,11 @@ arrabbiano
 \emph on
 io
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1343,37 +1302,19 @@ Granger deve far sì che
 \emph on
 sembri
 \emph default
- che può misteriosamente resistere al suo fascino seduttivo
+ che può misteriosamente resistere al suo fascino seduttivo.
 \begin_inset Quotes crd
-\end_inset
-
-.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
 
 \end_inset
 
@@ -1497,11 +1438,11 @@ mio
 \begin_inset Quotes cld
 \end_inset
 
-È troppo orribile da immaginare
+È troppo orribile da immaginare.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1552,17 +1493,8 @@ noi
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{-->>}
-\end_layout
-
+–
+\begin_inset Quotes xrd
 \end_inset
 
 
@@ -1592,11 +1524,11 @@ Comunque
 alcune delle cose folli che hanno detto a pranzo mi hanno fatto pensare,
  quindi vorrei solo dire, Harry, che ti sono davvero grata per aver salvato
  me e tutte le altre dall'essere picchiate, e sebbene alcune cose avvenute
- questo pomeriggio mi disturbino, sono certa che potremo parlarne con calma
+ questo pomeriggio mi disturbino, sono certa che potremo parlarne con calma.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1646,7 +1578,7 @@ e di così, aveva affermato ad alta voce che per ragioni identiche era
 impossibile
 \emph default
  che Hermione potesse semplicemente andare a parlare in maniera sensata
- con Harry a proposito del motivo per cui lei si sentiva ferita, e ad ogni
+ con Harry a proposito del motivo per cui lei si sentiva ferita, e a ogni
  modo i Maghi Oscuri erano attratti dal disprezzo appassionato nelle donne,
  non dalla logica.
  Era stato a questo punto che Hermione si era alzata di scatto dalla panca,
@@ -1682,7 +1614,7 @@ Non
 \end_layout
 
 \begin_layout Standard
-In qualche modo questo sembrò solo aumentare l'apprensione di Harry Potter.
+In qualche modo quello sembrò solo aumentare l'apprensione di Harry Potter.
  
 \begin_inset Quotes cld
 \end_inset
@@ -1744,11 +1676,11 @@ professor Quirrell
  non se l'aspettava.
  Ho iniziato a preoccuparmi che fossi finita in qualcosa di più grande di
  te e poi, senza offesa Hermione, quarantaquattro bulli in un agguato di
- massa sono molto di più di ciò che 
+ massa sono molti di più di quanti 
 \emph on
 chiunque
 \emph default
- potrebbe gestire senza aiuto.
+ potrebbe affrontare da solo.
  Ecco perché ho pensato che avessi davvero bisogno di aiuto solo per quella
  volta
 \begin_inset space ~
@@ -1779,11 +1711,11 @@ No, quella parte va bene
 Eravamo
 \emph default
  finite in qualcosa di più grande di noi, onestamente.
- La prego di provare ancora, signor Potter
+ La prego di provare ancora, signor Potter.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1838,13 +1770,13 @@ draghi
 \emph on
 codarda
 \emph default
-, ma quando puoi udire voci distanti che gridano `Tekeli-li! Tekeli-li!'
+, ma quando puoi udire voci distanti che gridano ``Tekeli-li! Tekeli-li!''
  e ci sono pozze di sangue che filtrano da sotto tutte le porte, allora
- va bene essere spaventati
+ va bene essere spaventati.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1864,11 +1796,11 @@ dispiace
 \begin_inset Quotes cld
 \end_inset
 
-Pensavo che avresti capito che ero io
+Pensavo che avresti capito che ero io.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1899,8 +1831,8 @@ Avresti dovuto
 chiedere
 \emph default
  il mio permesso prima di fare qualcosa di simile, Harry! Avresti dovuto
- dirlo con precisione, `Hermione, posso far uscire del sangue da sotto le
- porte?' È importante essere precisi quando si chiedono cose del genere!
+ dirlo con precisione, ``Hermione, posso far uscire del sangue da sotto
+ le porte?'' È importante essere precisi quando si chiedono queste cose!
 \begin_inset Quotes crd
 \end_inset
 
@@ -1918,11 +1850,11 @@ Io\SpecialChar ldots
 \emph on
 dovuto
 \emph default
- dirmi di no
+ dirmi di no.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2011,11 +1943,11 @@ dovuto
  dire di no, e poi vi sareste fatte male.
  In questo modo, puoi dire onestamente alla persone che non ne sapevi niente
  e che non è stata colpa tua.
- Ecco perché non ti avevo avvertita
+ Ecco perché non ti avevo avvertita.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2029,11 +1961,11 @@ Harry, devi
 \emph on
 smettere
 \emph default
- di trovare motivi intelligenti per fare cose stupide
+ di trovare motivi intelligenti per fare cose stupide.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2060,7 +1992,7 @@ Ascolta\SpecialChar ldots
 \end_inset
 
 Capisco perché tu abbia fatto quello che hai fatto oggi.
- Ma voglio che tu mi prometta che d'ora in poi prima chiederai il mio permesso,
+ Ma voglio che tu mi prometta che d'ora in poi chiederai prima il mio permesso,
  sempre, anche se sei in grado di trovare un motivo per il quale non dovresti.
 \begin_inset Quotes crd
 \end_inset
@@ -2349,11 +2281,11 @@ Sì
 una volta
 \emph default
 .
- Probabilmente prima che accadesse un qualunque incidente, ad esempio dicendo
+ Probabilmente prima che accadesse un qualunque incidente, per esempio dicendo
  ai bulli che lei sapeva.
- Se i bulli fossero stati puniti solo per aver tramato, si sarebbe trattato
- di una perdita di punti-Casa, o nel peggiore dei casi di un giorno di detenzion
-e, nulla che avrebbe potuto spaventarli davvero.
+ Se i bulli fossero stati puniti solo per aver progettato un piano, si sarebbe
+ trattato di una perdita di punti-Casa, o nel peggiore dei casi di un giorno
+ di detenzione, nulla che avrebbe potuto spaventarli davvero.
  E dopo i bulli ci avrebbero 
 \emph on
 provato di nuovo
@@ -2375,11 +2307,11 @@ l'autorità
 lei
 \emph default
  non avrebbe travalicato la propria autorità, perché non è veramente responsabil
-e
+e.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2435,13 +2367,12 @@ tu
  è una scusa.
  Non c'è proprio nessuna scusa, devi 
 \emph on
-portare a termine il tuo compito ad ogni costo
+portare a termine il tuo compito a ogni costo
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Il volto di Harry si contrasse.
  
 \begin_inset Quotes cld
@@ -2468,11 +2399,10 @@ tutto ciò che è necessario
 \emph on
 definitivamente
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Nella voce di Harry c'era un accenno della durezza che aveva acquisito
  sin dal giorno in cui Fawkes era stato sulla sua spalla.
  
@@ -2480,11 +2410,11 @@ definitivamente
 \end_inset
 
 Non puoi ragionare come se il solo seguire le regole significasse che hai
- compiuto il tuo dovere
+ compiuto il tuo dovere.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2514,11 +2444,11 @@ responsabili
 \emph on
 tu
 \emph default
- debba avere l'ultima parola
+ debba avere l'ultima parola.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2538,7 +2468,7 @@ così
 \emph on
 qualche
 \emph default
- maniera di salvarla, in un modo o nell'altro, ad ogni costo.
+ maniera di salvarla, in un modo o nell'altro, a ogni costo.
  Invece continueresti a interpretare soltanto il 
 \emph on
 personaggio
@@ -2605,11 +2535,11 @@ sempre
 \emph on
 mia vita!
 \emph default
- Altrimenti me ne andrò via, lo farò sul serio, non sto scherzando, Harry
+ Altrimenti me ne andrò via, lo farò sul serio, non sto scherzando, Harry.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2625,21 +2555,20 @@ Questo è esattamente il modo in cui non avrei voluto che le cose finissero,
 \emph on
 tu
 \emph default
- mollassi la presa sul volante, andremmo a sbattere
+ mollassi la presa sul volante, andremmo a sbattere.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Gli angoli delle sue labbra si contorsero, ma non sembrò un vero sorriso.
  
 \begin_inset Quotes cld
 \end_inset
 
-È qualcosa che posso capire
+È qualcosa che posso capire.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2713,11 +2642,11 @@ no
 \emph on
  conseguenza reale
 \emph default
- in cui Hannah Abbott finisce all'ospedale
+ in cui Hannah Abbott finisce all'ospedale.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2755,31 +2684,30 @@ consultata
 \emph on
 mia vita
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Diede le spalle a Harry e iniziò a camminare verso la torre Corvonero,
  senza guardarlo.
  
 \begin_inset Quotes cld
 \end_inset
 
-Ma ci penserò comunque
-\begin_inset Quotes crd
+Ma ci penserò comunque.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Udì Harry sospirare, dopo di che camminarono in silenzio per un po', attraversan
 do un passaggio ad arco di un qualche metallo rossastro simile al rame,
  entrando in un corridoio del tutto simile a quello appena abbandonato eccetto
- che era ricoperto con piastrelle pentagonali invece che quadrate.
+ che era pavimentato con piastrelle pentagonali invece che quadrate.
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Citato nelle note
@@ -2807,11 +2735,11 @@ hai
  Certamente ne hai l'intelligenza pura, e probabilmente dentro sei una persona
  migliore di me.
  Ma anche così\SpecialChar ldots
- insomma, ad essere onesti, Hermione\SpecialChar ldots
- non riesco proprio a
- vederti al posto di Dumbledore, guidare la Gran Bretagna magica nella lotta
- contro Tu-Sai-Chi.
- Non ancora, ad ogni modo.
+ insomma, a essere onesti, Hermione\SpecialChar ldots
+ non riesco proprio a vederti
+ al posto di Dumbledore, guidare la Gran Bretagna magica nella lotta contro
+ Tu-Sai-Chi.
+ Non ancora, a ogni modo.
 \begin_inset Quotes crd
 \end_inset
 
@@ -2820,7 +2748,7 @@ hai
 
 \begin_layout Standard
 Hermione aveva girato la testa per guardare Harry, che continuò semplicemente
- a camminare, sebbene fosse perso nei suoi pensieri.
+ a camminare, come se fosse perso nei suoi pensieri.
  Mettersi al posto 
 \emph on
 di Dumbledore?
@@ -2873,11 +2801,11 @@ png
 \end_inset
 
 Forse è per questo che Dumbledore ha detto che avrei dovuto avere dei genitori
- adottivi malvagi
-\begin_inset Quotes crd
+ adottivi malvagi.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2931,9 +2859,9 @@ se
 \emph on
 è
 \emph default
- qualcuno che porta a termine le cose a qualsiasi costo, ed è l'unica altra
- persona che conosca che noti cose come che il Quidditch è rovinato dal
- Boccino.
+ il tipo che porta a termine un compito a qualsiasi costo, ed è l'unica
+ altra persona che conosca che noti cose come il fatto che il Quidditch
+ è rovinato dal Boccino.
  Ma non posso fidarmi che 
 \emph on
 lui
@@ -2946,11 +2874,11 @@ buono
  Anche se è triste, penso che questo sia parte delle condizioni ambientali
  che creano ciò che Dumbledore chiama un eroe – una persona che non ha nessun
  altro a cui affidare la responsabilità finale, ed ecco perché forma l'abitudine
- mentale a seguire personalmente ogni cosa
-\begin_inset Quotes crd
+ mentale a seguire personalmente ogni cosa.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3042,8 +2970,8 @@ Hermione non rispose.
 \end_layout
 
 \begin_layout Standard
-Fianco a fianco, entrambi iniziarono a salire l'enorme e ampia spirale di
- scale, i gradini che alternavano metallo bronzeo a pietra blu; l'avvicinamento
+Fianco a fianco, iniziarono a salire l'enorme e ampia spirale di scale,
+ i gradini che alternavano metallo bronzeo a pietra blu; l'avvicinamento
  finale al luogo in cui il ritratto di Corvonero attendeva per fare la guardia
  al loro dormitorio con indovinelli sciocchi.
 \end_layout
@@ -3120,11 +3048,10 @@ Sciogliersi?
 
 Già.
  Voglio dire, potrei sbagliarmi, ma sospetto che i professori stiano per
- dare un giro di vite ai combattimenti nei corridoi
-\begin_inset Quotes crd
+ dare un giro di vite ai combattimenti nei corridoi.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Harry stava sorridendo mentre parlava, un luccichio nei suoi occhi dietro
  gli occhiali che suggeriva una conoscenza segreta.
  
@@ -3145,11 +3072,11 @@ fare
 \emph on
 tutto
 \emph default
- il bullismo
-\begin_inset Quotes crd
+ il bullismo.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3180,32 +3107,14 @@ differenza
 \emph default
 \SpecialChar ldots
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -3265,15 +3174,15 @@ personalmente
 \begin_layout Standard
 Quella ragazza del primo anno rimase lì, davanti al Tavolo d'onore dove
  in precedenza era stata chiamata solo per ricevere lodi e sorrisi; rimase
- lì con la schiena tenuta eretta e dritta come l'arco di un centauro, non
- concedendo nulla al nemico.
+ lì con la schiena dritta come l'arco di un centauro, non concedendo nulla
+ al nemico.
 \end_layout
 
 \begin_layout Standard
-Quella strega del primo anno rimase lì con tutte le lacrime e la rabbia
- trattenute, il suo viso immobile, nulla del suo aspetto esteriore che fosse
- mutato, mentre qualcosa si rompeva lentamente dentro di lei, lo poté sentire
- mentre si rompeva.
+Quella strega del primo anno rimase lì trattenendo tutte le lacrime e la
+ rabbia, il suo viso immobile, nulla del suo aspetto esteriore che mutasse,
+ mentre qualcosa si rompeva lentamente dentro di lei, lo poté sentire mentre
+ si rompeva.
 \end_layout
 
 \begin_layout Standard
@@ -3419,11 +3328,11 @@ La voce senza emozione del professor Quirrell si eresse sopra ogni altra,
 \begin_inset Quotes cld
 \end_inset
 
-Cento punti alla signorina Granger per aver fatto ciò che è giusto
+Cento punti alla signorina Granger per aver fatto ciò che è giusto.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3432,7 +3341,8 @@ Hermione quasi inciampò nei propri piedi; e poi continuò ad avanzare, anche
  si appoggiò nuovamente allo schienale e iniziò a ridere, anche mentre la
  voce di Dumbledore disse qualcosa che ella non colse, e poi si stava sedendo
  nuovamente alla tavola Corvonero, vicino ad Harry Potter.
- Harry era paralizzato a fianco a lei, sembrò qualcuno che non osava muoversi.
+ Harry era paralizzato a fianco a lei, sembrava qualcuno che non osasse
+ muoversi.
  
 \begin_inset Quotes cld
 \end_inset
@@ -3447,7 +3357,7 @@ Hermione quasi inciampò nei propri piedi; e poi continuò ad avanzare, anche
 \begin_inset Quotes cld
 \end_inset
 
-Ma potresti vedere se puoi farmi evitare le detenzioni di Snape, come hai
+Ma potresti vedere se puoi farmi evitare la detenzione di Snape, come hai
  fatto tu quella volta?
 \begin_inset Quotes crd
 \end_inset
@@ -3493,11 +3403,10 @@ Non essere
 \emph on
 ridicolo
 \emph default
-, Harry
+, Harry.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Era strano come la sua voce stesse venendo fuori del tutto normale, e senza
  che ella pensasse a cosa dire.
  Hermione abbassò lo sguardo sul proprio piatto della colazione, ma mangiare
@@ -3520,18 +3429,14 @@ E
 \end_inset
 
 se vuoi infrangere delle regole scolastiche o cose simili, puoi chiedermelo,
- prometto che non dirò semplicemente di no
+ prometto che non dirò semplicemente di no.
 \begin_inset Quotes crd
-\end_inset
-
-.
-\begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
