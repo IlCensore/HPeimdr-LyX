@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{75}
@@ -65,16 +67,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Coelacanth
-\font_sans CoelacanthLight
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "Cochineal"
+\font_sans "default" "CoelacanthHeavy"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -104,6 +108,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -118,7 +123,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -143,6 +151,7 @@ name "chap:76Interludio-confessore"
 \end_layout
 
 \begin_layout Standard
+\noindent
 Rianne Felthorne scese le scale di ruvida pietra e malta grezza, tenendo
  acceso un 
 \emph on
@@ -162,27 +171,27 @@ Non c'era nessun altro lì, ancora, e dopo lunghi minuti di attesa nervosa,
  iniziò a Trasfigurare un sofà imbottito abbastanza grande da permettere
  a due persone di sedersi, o forse persino di stendersi.
  Un semplice sgabello in legno sarebbe stato più facile, avrebbe potuto
- completarlo in quindici secondi, ma -- insomma
+ completarlo in quindici secondi, ma – insomma
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Anche quando il sofà fu del tutto formato, il professor Snape non era ancora
- arrivato, ed ella vi si sedette sul lato sinistro con il battito che le
- martellava in gola.
+ arrivato, ed ella vi si sedette sul lato sinistro con il cuore che le martellav
+a in gola.
  In qualche modo stava diventando sempre più nervosa, invece che calma,
  mentre il ritardo aumentava.
 \end_layout
 
 \begin_layout Standard
-Sapeva che questa sarebbe stata l'ultima volta.
+Sapeva che quella sarebbe stata l'ultima volta.
 \end_layout
 
 \begin_layout Standard
-L'ultima volta prima che tutti questi ricordi svanissero, e Rianne Felthorne
+L'ultima volta prima che tutti quei ricordi svanissero, e Rianne Felthorne
  si trovasse in una caverna misteriosa, chiedendosi cosa stesse accadendo.
 \end_layout
 
@@ -198,9 +207,9 @@ I libri dicevano che un'Obliazione fatta bene non recava danni, le persone
  breve istante di disorientamento; era come essere distratti da un forte
  rumore e perdere il filo di un ragionamento che non si sarebbe stati in
  grado di riprendere in seguito.
- Questo era quello che i libri dicevano, e il motivo per il quale gli Incantesim
-i di memoria erano interamente approvati dal Ministero per ogni scopo governativ
-o autorizzato.
+ Quello era ciò che i libri dicevano, e il motivo per il quale gli Incantesimi
+ di memoria erano interamente approvati dal Ministero per ogni scopo governativo
+ autorizzato.
 \end_layout
 
 \begin_layout Standard
@@ -208,18 +217,18 @@ Eppure,
 \emph on
 quei pensieri
 \emph default
-, i pensieri che stava pensando in quel momento; presto nessuno li avrebbe
+, i pensieri che stava pensando in quel momento, presto nessuno li avrebbe
  più avuti.
  Quando guardava avanti nel futuro, non c'era nessuno a completare i pensieri
  che non aveva terminato di pensare.
  Anche se fosse riuscita a risolvere tutte le questioni in sospeso nella
- sua mente nel successivo minuto, dopo non ne sarebbe rimasto niente.
+ sua mente nel minuto successivo, dopo non ne sarebbe rimasto niente.
  Non era esattamente quello su cui avresti riflettuto, se avessi dovuto
- morire nel minuto successivo?
+ morire durante il prossimo minuto?
 \end_layout
 
 \begin_layout Standard
-Giunse il suono di passi attutiti\SpecialChar \ldots{}
+Giunse il suono di passi attutiti\SpecialChar ldots
 
 \end_layout
 
@@ -234,29 +243,28 @@ I suoi occhi si mossero su di lei seduta sul sofà, e una strana espressione
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Grazie, signorina Felthorne
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente Snape, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-è stato molto premuroso da parte sua
-\begin_inset Quotes frd
+è stato molto premuroso da parte sua.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Il Maestro di Pozioni estrasse la sua bacchetta ed eseguì i consueti incantesim
 i di riservatezza, e poi si mosse verso di lei, e si sedette pesantemente
  accanto a lei sul sofà Trasfigurato.
 \end_layout
 
 \begin_layout Standard
-Il suo battito stava pulsando per tutta un'altra ragione, ora.
+Il suo cuore stava battendo per tutta un'altra ragione, ora.
 \end_layout
 
 \begin_layout Standard
@@ -267,7 +275,7 @@ Si girò lentamente per guardare il professor Snape, e vide che la sua testa
 \end_layout
 
 \begin_layout Standard
-Seppe -- ne fu improvvisamente certa -- che le era concesso di vedere tutto
+Seppe – ne fu improvvisamente certa – che le era concesso di vedere tutto
  ciò perché in seguito non l'avrebbe ricordato; e che a nessuno prima di
  lei era mai stato concesso di vederlo.
 \end_layout
@@ -276,41 +284,39 @@ Seppe -- ne fu improvvisamente certa -- che le era concesso di vedere tutto
 La frenetica conversazione in corso dentro la mente di Rianne Felthorne
  si stava svolgendo più o meno così: 
 \emph on
-Potrei semplicemente chinarmi e baciarlo, sei completamente fuori di quella
- minuscola testa, i suoi occhi sono chiusi scommetto che non riuscirebbe
- a fermarmi in tempo, io scommetto che ci vorrebbero anni prima che qualcuno
- ritrovasse il tuo corpo
+Potrei semplicemente chinarmi e baciarlo, sei completamente fuori di testa,
+ i suoi occhi sono chiusi scommetto che non riuscirebbe a fermarmi in tempo,
+ io scommetto che ci vorrebbero anni prima che qualcuno ritrovi il tuo corpo
 \emph default
 
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Ma poi il professor Snape aprì gli occhi (per la delusione e il sollievo
  intimi della ragazza), e disse, in una voce più normale, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Il suo compenso, signorina Felthorne
-\begin_inset Quotes frd
+Il suo compenso, signorina Felthorne.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Dalle proprie vesti estrasse un rubino, tagliato secondo la convenzione
  della Gringotts, e glielo porse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cinquanta sfaccettature.
- Non mi offenderei se le contasse
-\begin_inset Quotes frd
+ Non mi offenderei se le contasse.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -320,25 +326,25 @@ Allungò una mano tremante, sperando che Snape avrebbe premuto il rubino
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
 Ma invece Snape alzò leggermente la propria mano e fece cadere il rubino
  in quella di lei, poi si appoggiò nuovamente allo schienale.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ricorderà di averlo trovato sul pavimento di questa caverna, dove era venuta
  in esplorazione.
  E poiché nessuno eccetto lei vi crederà realmente, si ricorderà di aver
- pensato che sarebbe meno problematico se depositasse il denaro in una cassetta
- a parte presso Gringotts
-\begin_inset Quotes frd
+ pensato che sarebbe meno problematico se depositasse il denaro alla Gringotts
+ in una cassetta separata.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -346,15 +352,15 @@ Per un po' vi fu solo il debole crepitare della torcia.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse Rianne Felthorne.
@@ -364,14 +370,14 @@ Sa che non ricorderò
 \emph default
 .
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché l'ha 
 \emph on
 fatto?
 \emph default
- Cioè -- mi ha detto di dirle dove sarebbero stati i bulli, e chi sarebbero
+ Cioè – mi ha detto di dirle dove sarebbero stati i bulli, e chi sarebbero
  stati, ma non se Granger sarebbe stata lì.
  E io so, per il modo in cui funziona il Giratempo, che se avesse voluto
  
@@ -385,7 +391,7 @@ noi
 \emph default
  eravamo quelli che le stavamo dicendo dove andare.
  Eravamo noi, è così?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -397,35 +403,34 @@ Snape annuì senza parlare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse Rianne, 
-\begin_inset Quotes fld
+, proseguì Rianne, 
+\begin_inset Quotes cld
 \end_inset
 
-Non ho capito 
+non ho capito 
 \emph on
 perché
 \emph default
  la stava aiutando.
- E ora -- dopo quello che ha fatto a Granger nella Sala Grande -- non lo
- capisco affatto
-\begin_inset Quotes frd
+ E ora – dopo quello che ha fatto a Granger nella Sala Grande – non lo capisco
+ affatto.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Rianne non aveva mai pensato di essere particolarmente buona.
- Aveva notato appena le controversie riguardo il Generale Sunshine.
+ Si era a malapena accorta della controversia sul Generale Sunshine.
  Ma qualcosa nell'
 \emph on
 aiutare
 \emph default
- Granger a combattere i bulli aveva\SpecialChar \ldots{}
+ Granger a combattere i bulli aveva\SpecialChar ldots
  beh, si era abituata a pensarsi dalla
  parte dei buoni, e a pensare a 
 \emph on
@@ -433,13 +438,13 @@ sé stessa
 \emph default
  come una dei buoni.
  E aveva scoperto che in effetti le piaceva.
- Era difficile, lasciare la presa.
+ Era difficile lasciare la presa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché l'ha fatto professor Snape?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -450,88 +455,88 @@ Snape scosse la testa, il volto contratto.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse Rianne esitante.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Cioè -- fintanto che siamo qui -- c'è qualcosa di cui mi vuole parlare?
-\begin_inset Quotes frd
+Cioè – fintanto che siamo qui – c'è qualcosa di cui mi vuole parlare?
+\begin_inset Quotes crd
 \end_inset
 
  C'era qualcosa che 
 \emph on
-ella
+lei
 \emph default
  voleva dire, ma non riusciva a far sì che le parole oltrepassassero le
  labbra.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Posso pensare ad un argomento
-\begin_inset Quotes frd
+Posso pensare a un argomento
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape dopo una pausa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Se è interessata, signorina Felthorne
-\begin_inset Quotes frd
+Se è interessata, signorina Felthorne.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-Gli occhi di Snape erano ancora chiusi, dunque ella non poté soltanto annuire.
+Gli occhi di Snape erano ancora chiusi, quindi non poté soltanto annuire.
  La sua voce quasi si incrinò, quando si forzò a dire 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 C'è un certo ragazzo nella sua classe a cui lei piace, signorina Felthorne
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape con gli occhi chiusi.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non dirò il suo nome.
  Ma la osserva ogni volta che lei attraversa la stanza, quando pensa che
  lei non lo veda.
- La sogna e desidera possederla, ma non le ha chiesto mai neppure un bacio
-\begin_inset Quotes frd
+ La sogna e desidera possederla, ma non le ha chiesto mai neppure un bacio.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -539,41 +544,40 @@ Il suo cuore iniziò a martellare ancor più forte.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 La prego di dirmi la verità, signorina Felthorne.
  Cosa pensa di quel ragazzo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes xrd
 \end_inset
 
- disse.
- Stava incespicando sulle proprie parole.
+, incespicò sulle proprie parole.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Credo che -- non chiedere mai neppure un bacio -- sarebbe
+Credo che – non chiedere mai neppure un bacio – sarebbe
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -596,32 +600,32 @@ Davvero pietoso
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Debole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, la sua voce che tremava.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Concordo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Supponga però che quel ragazzo l'abbia aiutata.
- Penserebbe che gli dovrebbe concedere un bacio, se lo chiedesse?
-\begin_inset Quotes frd
+ Penserebbe che gli debba concedere un bacio, se lo chiedesse?
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -632,23 +636,23 @@ Inalò rumorosamente
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 O penserebbe
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò Snape, i suoi occhi ancora chiusi, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che sia solo un seccatore?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -668,7 +672,7 @@ Poi il Maestro di Pozioni si mise a ridere, piccole risatine tristi.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 No, non 
@@ -676,12 +680,12 @@ No, non
 lei
 \emph default
 , signorina Felthorne!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non 
@@ -693,27 +697,27 @@ lei!
 davvero
 \emph default
  parlando di un ragazzo.
- Uno che frequenta la sua classe di Pozioni, in effetti
-\begin_inset Quotes frd
+ Uno che frequenta la sua classe di Pozioni, in effetti.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Oh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece lei.
  Cercò di ricordare quello che Snape aveva detto in precedenza, ora sentendosi
- piuttosto innervosita mentre pensava ad un ragazzo che la guardava, che
- la guardava sempre e in silenzio.
+ piuttosto nervosa mentre pensava a un ragazzo che la guardava, che la guardava
+ sempre e in silenzio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Beh, uhm, in questo caso.
@@ -723,7 +727,7 @@ raccapricciante
 \emph default
 , in effetti.
  Chi è?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -732,40 +736,40 @@ raccapricciante
 \begin_layout Standard
 Il Maestro di Pozioni scosse la testa.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non importa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Per curiosità, che cosa penserebbe se quel ragazzo fosse ancora innamorato
  di lei dopo diversi anni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sentendosi un po' confusa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 che sarebbe completamente patetico?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -776,37 +780,37 @@ Nella caverna, la torcia scoppiettò un po'.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È strano
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sommessamente Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ho avuto due mentori, nel corso della mia vita.
  Entrambi straordinariamente perspicaci, e nessuno dei due mi ha mai detto
  le cose che non stavo vedendo.
- È chiaro abbastanza perché il primo non abbia detto nulla, ma il secondo\SpecialChar \ldots{}
+ È abbastanza chiaro perché il primo non abbia detto nulla, ma il secondo\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il volto di Snape si contrasse.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Suppongo che dovrei essere piuttosto ingenuo, a chiedere perché sia rimasto
- in silenzio
-\begin_inset Quotes frd
+ in silenzio.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -815,20 +819,20 @@ La quiete si allungò, mentre Rianne cercò freneticamente di pensare a qualcosa
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È una cosa strana
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape, la sua voce ancora più sommessa, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 guardarsi indietro dopo soli trentadue anni, e chiedersi quando la tua vita
  è stata rovinata oltre ogni possibilità di recupero.
- È stato determinato quando il Cappello Smistatore ha gridato `Serpeverde'
+ È stato determinato quando il Cappello Smistatore ha gridato ``Serpeverde''
  per me? Sembra ingiusto, poiché non mi è stata data alcuna scelta; il Cappello
  Smistatore parlò nel momento in cui toccò la mia testa.
  Eppure non posso affermare che mi identificò in maniera non corrispondente
@@ -846,7 +850,7 @@ guardarsi indietro dopo soli trentadue anni, e chiedersi quando la tua vita
  È giusto, chiedo, anche se il Cappello Smistatore disse il vero? È giusto
  che qualche bambino debba possedere più coraggio di altri, e che la vita
  di un uomo sia giudicata così?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -855,61 +859,61 @@ guardarsi indietro dopo soli trentadue anni, e chiedersi quando la tua vita
 \begin_layout Standard
 Rianne Felthorne stava iniziando a comprendere che non aveva mai avuto la
  minima idea di chi fosse dentro di sé il suo Maestro di Pozioni, e sfortunatame
-nte tutte queste profondità nascoste e oscure non la stavano aiutando col
+nte tutte quelle profondità nascoste e oscure non la stavano aiutando col
  suo problema.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma no
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So dove andò male per l'ultima volta.
  Potrei indicare il giorno e l'ora esatti in cui ho perso la mia ultima
  possibilità.
  Signorina Felthorne, il Cappello Smistatore le ha offerto Corvonero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 S-sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse senza pensarci.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È mai stata brava con gli indovinelli?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse di nuovo, perché qualsiasi cosa il professor Snape volesse dire,
@@ -921,16 +925,16 @@ no
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono pessimo con gli indovinelli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape con una voce distaccata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una volta mi è stato dato un indovinello da risolvere, e non sono riuscito
@@ -940,29 +944,28 @@ Una volta mi è stato dato un indovinello da risolvere, e non sono riuscito
 me
 \emph default
  finché non fu troppo tardi.
- Pensai che mi fosse semplicemente capitato di udirlo per caso, quando in
- verità furono gli altri ad udirlo per caso.
- Quindi vendetti il mio indovinello ad un altro, e fu allora che la rovina
- della mia vita superò ogni possibile rimedio
-\begin_inset Quotes frd
+ Pensai che mi fosse semplicemente capitato di sentirlo per caso, quando
+ in verità furono gli altri a udirlo per caso.
+ Quindi vendetti il mio indovinello a un altro, e fu allora che la rovina
+ della mia vita si spinse al di là di ogni possibile rimedio.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La voce di Snape era ancora distaccata, sembrando più distratta che addolorata.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E anche ora, non capisco nulla di importante.
  Mi dica, signorina Felthorne, supponga che un uomo stia trasportando un
  coltello, e inciampi su di un neonato e si accoltelli da solo.
  Direbbe che quel bambino ha
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , la voce di Snape divenne più grave, come se stesse imitando una voce ancor
  più baritonale, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -974,7 +977,6 @@ il
 \emph default
 potere di sconfiggere
 \shape default
-\size small
 \noun default
 
 \begin_inset Note Note
@@ -987,26 +989,26 @@ Profezia, capitolo 28
 \end_inset
 
  quell'uomo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Uhm\SpecialChar \ldots{}
+Uhm\SpecialChar ldots
  no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rispose esitante.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Allora cosa 
@@ -1014,7 +1016,7 @@ Allora cosa
 significa
 \emph default
  avere il potere di sconfiggere qualcuno?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1025,18 +1027,18 @@ Rianne esaminò l'indovinello.
  (Desiderando, non per la prima volta in vita sua, di aver scelto Corvonero
  e al diavolo la disapprovazione dei suoi genitori; ma il Cappello Smistatore
  non le aveva mai offerto Grifondoro.) 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Beh\SpecialChar \ldots{}
+Beh\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse.
+ tentennò.
  Aveva problemi a formulare i propri pensieri.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Significa che devi averne il 
@@ -1052,25 +1054,25 @@ necessario
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Scelta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Maestro di Pozioni con la stessa voce distante, come se non stesse
  realmente parlando con lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ci sarà una scelta.
@@ -1086,18 +1088,18 @@ il potere di sconfiggere
 \emph default
 .
  Come potrebbe un uomo adulto segnare un neonato come proprio eguale?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Cosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Rianne.
@@ -1105,7 +1107,7 @@ Cosa?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1120,7 +1122,7 @@ Segnare
 eguale?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1129,44 +1131,43 @@ eguale?
 \begin_layout Standard
 Rispose con il primo pensiero che le venne in mente.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Se firmasse un contratto matrimoniale, significherebbe che sarete eguali
- un giorno, quando il neonato crescerà e vi sposerete
-\begin_inset Quotes frd
+ un giorno, quando il neonato crescerà e vi sposerete.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Probabilmente\SpecialChar \ldots{}
+Probabilmente\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Probabilmente non è questo, signorina Felthorne, ma grazie per averci provato
-\begin_inset Quotes frd
+Probabilmente non è questo, signorina Felthorne, ma grazie per averci provato.
+\begin_inset Quotes crd
 \end_inset
 
-.
  Le lunghe dita delicate, affinate dal mescolare le pozioni con tolleranze
  inconcepibilmente piccole, si sollevarono a massaggiare la fronte dell'uomo.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 È sufficiente a rendermi folle, così tanto dipende da parole così fragili.
- Il potere sconosciuto\SpecialChar \ldots{}
+ Il potere sconosciuto\SpecialChar ldots
  
 \emph on
 deve
@@ -1177,7 +1178,7 @@ deve
 egli
 \emph default
  potrebbe acquisire semplicemente con l'esercizio e lo studio.
- Qualche talento innato? Nessuno può imparare ad essere un Metamorfomagus\SpecialChar \ldots{}
+ Qualche talento innato? Nessuno può imparare a essere un Metamorfomagus\SpecialChar ldots
 
  eppure questo difficilmente sembra un potere che egli 
 \emph on
@@ -1189,14 +1190,14 @@ non conosce
 uno dei due
 \emph default
  possa distruggere tutto dell'altro ad eccezione di un residuo; posso capirlo
- in un verso, ma non in quello opposto\SpecialChar \ldots{}
+ in un verso, ma non in quello opposto\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il Maestro di Pozioni sospirò.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 E niente di tutto questo significa nulla per lei, giusto, signorina Felthorne?
@@ -1207,9 +1208,9 @@ E niente di tutto questo significa nulla per lei, giusto, signorina Felthorne?
 intonazione
 \emph default
  che convoglia il significato e questo è qualcosa che non sarò mai in grado
- di\SpecialChar \ldots{}
+ di\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1220,7 +1221,7 @@ Il Maestro di Pozioni fece morire la frase, mentre Rianne lo fissava.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una 
@@ -1228,12 +1229,12 @@ Una
 profezia?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Rianne con un forte squittio.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ha sentito una 
@@ -1241,7 +1242,7 @@ Ha sentito una
 profezia?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Aveva seguito Divinazione per un paio di mesi prima di abbandonarla disgustata,
@@ -1249,16 +1250,16 @@ profezia?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Farò un'ultima prova
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Snape.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Qualcosa che non ho mai provato prima.
@@ -1272,50 +1273,50 @@ modo
 \emph default
  in cui le pronuncio, non le parole in sé, e mi dica cosa pensa che significhino.
  Può farlo? Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse Snape, quando ella annuì obbediente, sebbene non fosse affatto sicura
+, disse Snape, quando lei annuì obbediente, sebbene non fosse affatto sicura
  di cosa ci si aspettasse che facesse.
 \end_layout
 
 \begin_layout Standard
 E Severus Snape inspirò, e intonò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
 \noun on
-poiché quei due speleti divelsi non possono esistlele nello stesso muond
+poiché quei due speleti diversi non possono esistere nello stesso muond
 \emph default
 \noun default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Le causò dei brividi lungo la schiena, ancora più intensi perché sapeva
- che quelle parole cavernose erano state pronunciate ad imitazione di una
+ che quelle parole cavernose erano state pronunciate a imitazione di una
  vera profezia.
  Innervosita, disse tutta d'un fiato la prima cosa che le venne in mente,
  che forse fu influenzata dalla sua attuale compagnia.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quei due diversi ingredienti non possono esistere nello stesso calderone?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Ma perché 
@@ -1327,28 +1328,28 @@ no
 significato
 \emph default
  di un'affermazione del genere? Cosa ci sta realmente dicendo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Ah\SpecialChar \ldots{}
+Ah\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  arrischiò, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 se i due ingredienti si mescolassero, prenderebbero fuoco e brucerebbero
  il calderone?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1359,17 +1360,17 @@ Il volto di Snape non cambiò minimamente espressione.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Forse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse infine Snape, dopo che furono rimasti seduti sul sofà in un terribile
  silenzio per quelli che sembrarono dei minuti.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Spiegherebbe la parola 
@@ -1378,35 +1379,35 @@ dovrà
 \emph default
 .
  Grazie, signorina Felthorne.
- Ancora una volta è stata estremamente utile
-\begin_inset Quotes frd
+ Ancora una volta è stata estremamente utile.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Sono
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 sono felice di
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  e le parole le rimasero incastrate in gola.
@@ -1414,32 +1415,32 @@ sono felice di
  ed ella sapeva che il tempo della Rianne Felthorne che ricordava quei momenti
  stava per raggiungere la sua fine.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vorrei non dover dimenticare tutto questo, professor Snape!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Vorrei
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus Snape in un sussurro così basso che ella poté udirlo a fatica,
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-che tutto fosse stato diverso\SpecialChar \ldots{}
+che tutto fosse stato diverso\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1453,28 +1454,28 @@ Il Maestro di Pozioni si alzò dal sofà, il peso della sua presenza che svanì
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Aspetti
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 , disse lei.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Prima di questo
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1488,29 +1489,29 @@ In qualche modo era incredibilmente duro fare il primo passo dalla fantasia
 \end_layout
 
 \begin_layout Standard
-Il Cappello Smistatore non le aveva mai offerto Grifondoro\SpecialChar \ldots{}
+Il Cappello Smistatore non le aveva mai offerto Grifondoro\SpecialChar ldots
 
 \end_layout
 
 \begin_layout Standard
-\SpecialChar \ldots{}
+\SpecialChar ldots
  era giusto che la vita di una donna fosse giudicata così?
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-Se non puoi dirlo ora, quando non ricorderai più nulla dopo -- quando nulla
- continuerà da questo momento, proprio come se stessi morendo -- allora
- quando lo dirai mai, a chiunque?
+Se non puoi dirlo ora, quando non ricorderai più nulla dopo – quando nulla
+ continuerà da questo momento, proprio come se stessi morendo – allora quando
+ lo dirai mai, a chiunque?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Prima posso avere un bacio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Rianne Felthorne.
@@ -1523,11 +1524,11 @@ Gli occhi neri di Snape la studiarono così intensamente che il suo rossore
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perché no
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente il Maestro di Pozioni, e abbassò la testa verso il sofà
@@ -1537,7 +1538,7 @@ Perché no
 \begin_layout Standard
 Non fu per nulla simile a ciò che aveva immaginato.
  Nelle sue fantasie, i baci di Snape erano impetuosi, e presi con la forza,
- ma questo era -- era solo 
+ ma questo era – era solo 
 \emph on
 impacciato
 \emph default
@@ -1552,7 +1553,7 @@ strette
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1561,23 +1562,23 @@ Fu solo mentre il Maestro di Pozioni si raddrizzò nuovamente, sollevando
 \end_layout
 
 \begin_layout Standard
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Non può essere stato
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  disse con una voce stupefatta, alzando lo sguardo su di lui.
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Non è stato -- o sì -- il suo 
+Non è stato – o sì – il suo 
 \emph on
 primo
 \emph default
