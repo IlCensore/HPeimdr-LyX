@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \usepackage{fmtcount}
@@ -70,16 +72,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman Arno Pro
-\font_sans Linux Biolinum O
-\font_typewriter Source Code Pro
-\font_math auto
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Linux Biolinum O"
+\font_typewriter "default" "Source Code Pro"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -109,6 +113,7 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -123,7 +128,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -178,12 +186,12 @@ reference "chap:100Misure-precauzionali-p1"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 [...] tutti sanno quello che succede quando ci sono una ragazza e un lupo mannaro
  e un vampiro tutti insieme!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è un riferimento alla serie di libri e di film 
@@ -235,30 +243,30 @@ url{http://luminous.elcenia.com}
 \end_inset
 
 L'idra di Paris è un gioco di parole che fa riferimento all'
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Idra
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  di Kirby-Paris, un gioco matematico che fornisce l'interpretazione ludica
  del teorema di Goodstein.
  Tale gioco consiste nel partire dalla struttura matematica nota in teoria
  dei grafi come 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 albero con radice
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , cui viene 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 tagliata una testa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (rimosso un ramo dell'albero) e che risponde facendo ricrescere un numero
@@ -281,7 +289,7 @@ L'idra di Buchholz è un riferimento a un simile gioco matematico, in cui
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -293,7 +301,7 @@ Probabilità di Serpeverde dato Oscuro
 probabilità di Oscuro dato Serpeverde
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : la prima è la probabilità che un Mago oscuro venga da Serpeverde, la seconda
@@ -359,12 +367,12 @@ La storia fantastica
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Le avrei dato un voto più basso...
  ma questo sarebbe stato di cattivo gusto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : il voto più basso tra i giudizi scolastici di Hogwarts, e dunque il voto
@@ -396,11 +404,11 @@ reference "chap:104Verità-p1"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Punto di Schelling
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : Nella teoria dei giochi un 
@@ -417,12 +425,12 @@ La strategia del conflitto
  (1960).
  In questo libro (a pagina 57), Schelling descrive un punto focale come
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 l'aspettativa di ogni giocatore su quello che gli altri si aspettano che
  lui si aspetti di fare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -431,11 +439,11 @@ status collapsed
 
 \begin_layout Plain Layout
 Brano citato da 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Punto di Schelling
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -480,7 +488,7 @@ reference "chap:105Verità-p2"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -488,7 +496,7 @@ reference "chap:105Verità-p2"
 Alienis nervus mobile lignum
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , citazione di Orazio, 
@@ -501,11 +509,11 @@ ii
 \noun default
  7 v.
  82, 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 burattino a cui altri tirano i fili
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -528,11 +536,11 @@ reference "chap:106Verità-p3"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Tomba di Amon-Set
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : nel romanzo 
@@ -565,11 +573,11 @@ The Killing Machine
 \emph default
  (1964), romanzo di fantascienza di Jack Vance; il nome è traducibile come
  
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 la macchina per uccidere
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -581,11 +589,11 @@ la macchina per uccidere
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Il contro-Incantesimo comune per un Molliccio è, naturalmente, Fiendfyre
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : nel canone di Harry Potter, il contro-Incantesimo per un Molliccio è il
@@ -602,12 +610,12 @@ Riddikulus
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 un rompicapo logico più interessante a proposito di tre idoli o una linea
  di persone che indossano cappelli colorati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : esistono diverse formulazioni di rompicapi incentrati su persone che indossano
@@ -628,11 +636,11 @@ le ponendo solo tre domande.
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Una pozione del fulgore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : la 
@@ -704,16 +712,16 @@ reference "chap:108Verità-p5"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-Una specie di enigma [\SpecialChar \ldots{}
+Una specie di enigma [\SpecialChar ldots
 ] Una specie di Riddle
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : in inglese, la parola 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -721,15 +729,15 @@ Una specie di enigma [\SpecialChar \ldots{}
 riddle
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  significa 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 enigma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ed è, allo stesso tempo, il cognome di Tom Riddle / Lord Voldemort.
@@ -741,11 +749,11 @@ enigma
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Equazione del razzo di Ciolkovskij
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : è l'equazione formulata da Konstantin Ėduardovič Ciolkovskij nel 1903,
@@ -760,14 +768,14 @@ Equazione del razzo di Ciolkovskij
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Perenelle
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-: Perenelle Flamel (1320 circa -- 1397) fu una presunta alchimista francese,
+: Perenelle Flamel (1320 circa – 1397) fu una presunta alchimista francese,
  moglie di Nicolas Flamel.
  La sua fama di alchimista è legata a un tardo documento, attribuito al
  marito, in cui Perenelle svolge un ruolo importante nelle ricerche alchemiche
@@ -780,7 +788,7 @@ Perenelle
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 la fallacia 
@@ -788,7 +796,7 @@ la fallacia
 ad hominem tu quoque
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : consiste nell'affermare che un ragionamento o un'affermazione siano falsi
@@ -801,11 +809,11 @@ ad hominem tu quoque
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Han Solo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : personaggio della saga di 
@@ -832,7 +840,7 @@ reference "chap:109Riflessioni-p1"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -840,15 +848,15 @@ reference "chap:109Riflessioni-p1"
 Quindi vuoi essere un mago
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : in inglese 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 So You Want to Be a Wizard
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , è il titolo del primo libro (1983) della saga di romanzi per adolescenti
@@ -872,7 +880,7 @@ reference "chap:111Fallimento-p1"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -880,7 +888,7 @@ reference "chap:111Fallimento-p1"
 Hyakuju montauk
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , in giapponese 110-Montauk, è nome di una procedura di contenimento della
@@ -948,11 +956,11 @@ url{http://www.scp-wiki.net/}
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
-sacrificio Blood Fort
-\begin_inset Quotes frd
+Sacrificio Blood Fort
+\begin_inset Quotes crd
 \end_inset
 
  possibile riferimento al mondo di 
@@ -991,7 +999,7 @@ url{http://typemoon.wikia.com/wiki/Blood_Fort_Andromeda}
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -999,16 +1007,16 @@ url{http://typemoon.wikia.com/wiki/Blood_Fort_Andromeda}
 Apokatastethi, apokatastethi, apokatastethi to soma mou emoi
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, traslitterazione più o meno corretta del greco antico Aποκαταστήσει, αποκαταστ
-ήσει, αποκαταστήσει to σώμα μου εμοί, traducibile come 
-\begin_inset Quotes fld
+, traslitterazione del greco antico Ἀποκαταστῆθι, ἀποκαταστῆθι, ἀποκαταστῆθι
+ τὸ σῶμα μου ἐμοί (ἐμοί), traducibile come 
+\begin_inset Quotes cld
 \end_inset
 
-Riporta, riporta, riporta a me il mio corpo
-\begin_inset Quotes frd
+Riporta, riporta, riportami il mio corpo
+\begin_inset Quotes crd
 \end_inset
 
 ; possibile riferimento alla canzone popolare scozzese 
@@ -1047,7 +1055,7 @@ d-besides-pseudo-latin}
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1057,15 +1065,18 @@ Fal.
  Pan.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : nel mondo di 
 \emph on
 Star Trek
 \emph default
-, il Fal-tor-pan è un rituale vulcaniano atto a riunire il katra di un vulcanian
-o al proprio corpo.
+, il Fal-tor-pan è un rituale vulcaniano atto a riunire il 
+\emph on
+katra
+\emph default
+ di un vulcaniano al proprio corpo.
 \begin_inset Foot
 status collapsed
 
@@ -1107,11 +1118,11 @@ reference "chap:119Qualcosa-da-proteggere-Dumbledore"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Quello con le oscigliatrici dorate
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , si veda il capitolo 17.
@@ -1123,15 +1134,15 @@ Quello con le oscigliatrici dorate
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 strangelet
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 è una particella ipotetica, uno stato legato contenente dei quark di tipo
@@ -1194,7 +1205,7 @@ strangelet
  può essere definito come un frammento isolato di materia strana.
  Quest'ultima è stata proposta come candidato per la costituzione della
  materia oscura.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1202,11 +1213,11 @@ strangelet
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Strangelet
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , 
@@ -1252,15 +1263,15 @@ reference "chap:120Qualcosa-da-proteggere-Draco-Malfoy"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
 \emph on
-Eunoe
+Eunoè
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : nella 
@@ -1289,7 +1300,7 @@ reference "chap:122Qualcosa-da-proteggere-Hermione-Granger"
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 
@@ -1301,7 +1312,7 @@ Puoi arrivare alla maestria
  a venire meno alla tua Arte.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è un brano di un'altra opera di Eliezer Yudkowsky, un racconto breve intitolato
@@ -1340,27 +1351,27 @@ url{http://lesswrong.com/lw/cl/final_words/}
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 ragionamento motivato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : in inglese 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 motivated cognition
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  o 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 motivated reasoning
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , è un termine usato per indicare tutti quei processi mentali che portano
@@ -1374,11 +1385,11 @@ nto, ovvero quelle decisioni prese sulla base di influenze emotive.
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Daniel Kahneman
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : è uno psicologo israelo-statunitense noto per il suo lavoro sulla psicologia
@@ -1394,11 +1405,11 @@ Daniel Kahneman
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 Psicologia inversa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : è una tecnica psicologica per persuadere la vittima a fare ciò che non
@@ -1412,11 +1423,11 @@ Psicologia inversa
 \end_inset
 
 
-\begin_inset Quotes fld
+\begin_inset Quotes cld
 \end_inset
 
 teorie compatibiliste del libero arbitrio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 : sono teorie che offrono una soluzione al problema del libero arbitrio
