@@ -66,9 +66,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "EB Garamond"
-\font_sans "default" "Ubuntu"
-\font_typewriter "default" "default"
+\font_roman "default" "Arno Pro"
+\font_sans "default" "Warnock Pro"
+\font_typewriter "default" "Fira Mono"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
@@ -76,7 +76,7 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
+\use_microtype true
 \use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
@@ -84,7 +84,7 @@ initials
 \bibtex_command default
 \index_command default
 \paperfontsize 11
-\spacing other 1.2
+\spacing onehalf
 \use_hyperref false
 \papersize custom
 \use_geometry true
@@ -139,10 +139,27 @@ initials
 \begin_body
 
 \begin_layout Chapter
-Auto-realizzazione, conseguenze: aspetti superficiali
+Auto-realizzazione, conseguenze: apparenze superficiali
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:77AR-conseguenze"
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes xld
+\end_inset
+
+apparenze
+\begin_inset Quotes xrd
+\end_inset
+
+ perché nel testo si parla delle apparenze di Snape e del Mantello
+\end_layout
 
 \end_inset
 
@@ -151,7 +168,7 @@ name "chap:77AR-conseguenze"
 status open
 
 \begin_layout Plain Layout
-A.-r., conseguenze: aspetti superficiali
+A.-r., conseguenze: apparenze superficiali
 \end_layout
 
 \end_inset
@@ -170,8 +187,9 @@ Conseguenze: Albus Dumbledore e
 \end_layout
 
 \begin_layout Standard
+\noindent
 Il vecchio mago sedeva da solo alla propria scrivania, nel non-silenzio
- dell'ufficio del Preside, in mezzo agli innumerabili e inosservati congegni;
+ dell'ufficio del Preside, in mezzo agli innumerevoli e inosservati congegni;
  le sue vesti di un giallo gentile, di un tessuto morbido, abiti dissimili
  da quelli che normalmente indossava in presenza di altri.
  La sua mano rugosa reggeva una penna che grattava su di una pergamena dall'aria
@@ -216,7 +234,7 @@ Il vecchio mago saltò in piedi con una velocità che avrebbe sconvolto chiunque
 
 \begin_layout Standard
 E altrettanto fulmineamente, il vecchio mago si fermò, interrompendo il
- proprio gesto proprio mentre stava per sollevare la bacchetta.
+ gesto proprio mentre stava per sollevare la bacchetta.
 \end_layout
 
 \begin_layout Standard
@@ -275,18 +293,13 @@ sic
 \end_layout
 
 \begin_layout Standard
-Il ragazzo entrò nell'ufficio, un passo dopo l'altro, in\SpecialChar softhyphen
-ten\SpecialChar softhyphen
-zio\SpecialChar softhyphen
-nal\SpecialChar softhyphen
-men\SpecialChar softhyphen
-te,
- fin quando la porta si chiuse dolcemente dietro di lui.
+Il ragazzo entrò nell'ufficio, un passo dopo l'altro, deliberatamente, fin
+ quando la porta si chiuse dolcemente dietro di lui.
  
 \begin_inset Quotes cld
 \end_inset
 
-Posso andare ovunque io scelga, con o senza permesso
+Posso andare ovunque io volgia, con o senza permesso
 \begin_inset Quotes crd
 \end_inset
 
@@ -335,7 +348,7 @@ Quattordici
 
 Non è il numero di tutti i gufi inviati questa notte.
  Solo i gufi inviati a famiglie con seggi nel Wizengamot, o a famiglie con
- grandi patrimoni, o a famiglie già alleate con i tuoi avversari.
+ grandi patrimoni, o a famiglie già alleate dei tuoi avversari.
  O, nel caso di Robert Jugson, tutte e tre le cose; poiché suo padre, Lord
  Jugson, è un Mangiamorte, e suo nonno un Mangiamorte che morì a causa della
  bacchetta di Alastor Moody.
@@ -367,13 +380,12 @@ Così avevo progettato.
  Così sarebbe stato, se il Professore di Difesa non avesse avocato a sé
  il compito di intervenire.
  Ora la disputa continua presso il Consiglio Direttivo, dove Severus sembrerà
- sconfiggere il Professore di Difesa; ma per i Serpeverde questo non sembrerà
- la stessa cosa, non sarà finita completamente in un momento, secondo i
- loro desideri
+ sconfiggere il Professore di Difesa; ma per i Serpeverde non sarà la stessa
+ cosa, non sarà finita completamente in un momento, secondo i loro desideri.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -435,11 +447,11 @@ Lei sembra pensare che la Luce dovrebbe aver paura dell'oscurità.
  Ma un'ora di discussione con il Professore di Difesa sarebbe più che sufficient
 e per trovare qualche modo creativo per rovinarlo finanziariamente, o per
  farlo esiliare dalla Gran Bretagna magica.
- Questo servirebbe a far passare il messaggio, penso
+ Questo servirebbe a far passare il messaggio, credo.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -456,11 +468,10 @@ Confesso
 
 che il pensiero di rovinare una Casa antica di cinquecento anni, e di impegnare
  fino in fondo un Mangiamorte in una guerra, per una baruffa in un corridoio
- di Hogwarts, non mi è sovvenuto, Harry
+ di Hogwarts, non mi è sovvenuto, Harry.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il vecchio mago alzò un dito per rimettere a posto gli occhiali a mezzaluna
  che gli erano scivolati un po' giù per il naso, durante il suo precedente
  movimento improvviso.
@@ -469,11 +480,11 @@ che il pensiero di rovinare una Casa antica di cinquecento anni, e di impegnare
 \end_inset
 
 Oserei dire che non sovverrebbe neppure alla signorina Granger, né alla
- professoressa McGonagall, né a Fred e George
+ professoressa McGonagall, né a Fred e George.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -492,11 +503,10 @@ sarebbe
  Dopotutto, lo scopo non è quello di fare in modo che la gente abbia paura
  di me come di una variabile impazzita.
  È quello di insegnare loro che chi rimane neutrale è perfettamente al sicuro
- con me, e che provocarmi è incredibilmente pericoloso
+ con me, e che provocarmi è incredibilmente pericoloso.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il sorriso del ragazzo non raggiunse i suoi occhi.
  
 \begin_inset Quotes cld
@@ -506,13 +516,13 @@ Forse comprerò una pubblicità sulla
 \emph on
 Gazzetta del Profeta
 \emph default
-, in cui dico che chiunque volesse continuare questa disputa con me imparerà
- il vero significato del Caos, ma che chiunque mi lascia in pace sarà al
- sicuro
+, per dire che chiunque voglia continuare questa disputa con me imparerà
+ il vero significato del Caos, ma che chiunque mi lascerà in pace sarà al
+ sicuro.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -535,22 +545,22 @@ No
 \end_inset
 
 No, Harry, non deve accadere.
- Non hai ancora compreso il vero significato del combattere, ciò che accade
+ Non hai ancora compreso cosa significhi veramente combattere, ciò che accade
  realmente quando gli avversari si scontrano in battaglia.
  E così tu sogni, come fanno i giovani ragazzi, di insegnare ai tuoi avversari
  a temerti.
- Mi spaventa che tu, ad un'età tanto precoce, possa avere potere sufficiente
+ Mi spaventa che tu, a un'età tanto precoce, possa avere potere sufficiente
  per trasferire parte dei tuoi sogni nella realtà.
  Non c'è 
 \emph on
 alcuna
 \emph default
  svolta di quel sentiero che non conduca all'oscurità, Harry, nessuna.
- Quella è la via di un Signore Oscuro, per certo
+ Quella è la via di un Signore Oscuro, di certo.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -590,11 +600,11 @@ io
 \emph default
  mi assumerò personalmente la responsabilità di gestire qualsiasi conseguenza
  della messa al bando del bullismo dentro Hogwarts, che si tratti di Lord
- Jugson o di chiunque altro
+ Jugson o di chiunque altro.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -615,9 +625,9 @@ Gazzetta del Profeta
  Amelia Bones e Bartemius Crouch sono nostri alleati, ma anche loro si farebbero
  da parte se ci vedessero agire arbitrariamente.
  Il mondo che ti circonda è più fragile di quanto sembri credere, e dobbiamo
- muoverci con estrema cura.
+ muoverci con estrema cautela.
  La vecchia Guerra dei Maghi non è mai terminata, Harry, è semplicemente
- continuata con una forma differente; il re nero dormiva, e Lucius Malfoy
+ continuata sotto una forma differente; il re nero dormiva, e Lucius Malfoy
  ha mosso i suoi pezzi per un certo tempo.
  Pensi che Lucius Malfoy ti consentirebbe a cuor leggero di prendere un
  pedone del suo colore?
@@ -634,11 +644,11 @@ Il ragazzo sorrise, nuovamente con una punta di gelo.
 \end_inset
 
 Va bene, troverò un modo per far sì che sembri che Lord Jugson abbia tradito
- i suoi
+ i suoi.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -660,13 +670,13 @@ Harry
 \begin_inset Quotes cld
 \end_inset
 
-Gli ostacoli significano che 
+Un ostacolo significa che 
 \emph on
 deve diventare creativo
 \emph default
 , Preside.
- Non significano abbandonare i bambini che dovrebbe proteggere.
- Lasci che la Luce vinca, e se ne derivano dei problemi
+ Non significa abbandonare i bambini che dovrebbe proteggere.
+ Lasci che la Luce vinca, e se dovessero nascere dei problemi
 \begin_inset space ~
 \end_inset
 
@@ -679,11 +689,11 @@ deve diventare creativo
 \begin_inset Quotes cld
 \end_inset
 
-Lasci che la Luce vinca ancora
+Lasci che la Luce vinca ancora.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -703,11 +713,11 @@ Ma tu non comprendi il
 \emph on
 prezzo della fenice
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -741,37 +751,19 @@ Vieni!
 \end_inset
 
 Poiché sei andato molto oltre facendoti strada fin qui non invitato, puoi
- ben avanzare ancora
+ ben avanzare ancora.
 \begin_inset Quotes crd
-\end_inset
-
-.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-\align center
-\begin_inset Graphics
-	filename fleur.png
-	display false
-	scale 50
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
+\align center
+\begin_inset Graphics
+	filename fleur.png
+	display false
+	scale 50
 
 \end_inset
 
@@ -837,7 +829,7 @@ La stanza sembrava costruita con metallo nero come la porta che vi si apriva.
  Il soffitto sopra di loro era nero, eccezion fatta per un singolo globo
  di cristallo che pendeva dal soffitto su di una catena bianca, e splendeva
  di una brillante luce d'argento che appariva come se fosse stata lanciata
- ad imitazione della luce del Patronus, sebbene si potesse capire che non
+ a imitazione della luce del Patronus, sebbene si potesse capire che non
  era l'originale.
 \end_layout
 
@@ -857,8 +849,8 @@ All'intero della stanza c'erano dei piedistalli di metallo nero, ciascuno
 \begin_layout Standard
 Ci volle tutto quel tempo a Harry per capire cosa stesse vedendo, e poi
  la sua gola improvvisamente si strozzò; era come se la rabbia dentro di
- lui fosse stata colpita da una martellata, forse la martellata più forte
- della sua intera esistenza.
+ lui fosse stata colpita da un maglio, forse il colpo più forte della sua
+ intera esistenza.
 \end_layout
 
 \begin_layout Standard
@@ -870,20 +862,20 @@ Questi non sono tutti i caduti di tutte le mie guerre
 \end_inset
 
 , disse Albus Dumbledore.
- La sua schiena era rivolta ad Harry, solo i suoi riccioli grigi e le sue
- vesti giallognole erano visibili.
+ La sua schiena era girata verso Harry, solo i suoi riccioli grigi e le
+ sue vesti giallognole erano visibili.
  
 \begin_inset Quotes cld
 \end_inset
 
 Non sono neppure lontanamente tutti.
- Solo i miei amici più intimi, e coloro che sono morti per le mie decisioni
- peggiori, qui c'è qualcosa di loro.
- Coloro che rimpiango più di tutti, questo è il loro posto
+ Solo dei miei amici più intimi, e di coloro che sono morti per le mie decisioni
+ peggiori, qui c'è qualcosa.
+ Coloro che rimpiango più di tutti, questo è il loro posto.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -909,12 +901,11 @@ Mi pare che tu non sappia nulla del prezzo della fenice.
  Forse ero già troppo vecchio e pieno di afflizione, quando la fenice venne
  da me.
  Se c'è qualcosa che non comprendo, riguardo a quanto dovrei essere pronto
- a combattere, allora raccontami di questa saggezza
+ a combattere, allora raccontami di questa saggezza.
 \begin_inset Quotes crd
 \end_inset
 
-.
- Non c'era rabbia nella voce del vecchio mago; l'impatto che ti faceva espellere
+ Non c'era rabbia nella voce del vecchio mago; il trauma che ti faceva espellere
  il fiato come se fossi caduto da un manico di scopa era tutto nelle bacchette
  arse e spezzate, baluginanti gentilmente nella loro morte sotto la luce
  d'argento.
@@ -923,11 +914,11 @@ Mi pare che tu non sappia nulla del prezzo della fenice.
 \end_inset
 
 Altrimenti girati ed esci da questo luogo, ma allora non desidero più udirne
- parlare ancora
+ parlare ancora.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -976,7 +967,7 @@ Chi era?
 \begin_inset Quotes crd
 \end_inset
 
- disse, la sua voce che sembrò strana alle sue stesse orecchie.
+ chiese, la sua voce suonò strana alle sue stesse orecchie.
 \end_layout
 
 \begin_layout Standard
@@ -984,24 +975,23 @@ Chi era?
 \end_inset
 
 Il suo nome era Tricia Glasswell.
- La madre di una figlia Nata babbana, che i Mangiamorte uccisero.
+ Madre di una figlia Nata babbana, che i Mangiamorte uccisero.
  Era un'investigatrice del governo babbano, e dopo quell'evento passò informazio
 ni dalle autorità babbane all'Ordine della Fenice, finché non fu – tradita
- – e consegnata a Voldemort
+ – e consegnata a Voldemort.
 \begin_inset Quotes crd
 \end_inset
 
-.
  La voce del vecchio mago si spezzò.
  
 \begin_inset Quotes cld
 \end_inset
 
-Non è morta bene, Harry
+Non è morta bene, Harry.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1028,11 +1018,11 @@ Sì
 \begin_inset Quotes cld
 \end_inset
 
-L'ha fatto
+L'ha fatto.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1076,11 +1066,11 @@ qualsiasi
  La violenza, una volta iniziata, diventa come un Letalmanto che colpisca
  ogni vita vicino a sé.
  Vorrei\SpecialChar ldots
- risparmiarti quella lezione nel modo in cui l'ho imparata io, Harry
+ risparmiarti quella lezione nel modo in cui l'ho imparata io, Harry.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1117,11 +1107,10 @@ Pensava che il governo della Gran Bretagna babbana non dovesse controllare
 \emph on
 realmente funzionato
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
  Harry fece un altro respiro.
  
 \begin_inset Quotes cld
@@ -1130,15 +1119,14 @@ realmente funzionato
 Solo in seguito scoprii che Gandhi disse alla sua gente, durante la Seconda
  guerra mondiale, che se i nazisti li avessero invasi, avrebbero dovuto
  usare la non-violenza anche contro di loro.
- Ma allora i nazisti avrebbero sparato contro chiunque fosse stato davanti
+ Ma allora i nazisti avrebbero sparato contro chiunque fosse andato davanti
  a loro.
  E forse Winston Churchill ebbe sempre la sensazione che vi fosse un modo
  migliore, qualche modo intelligente per vincere senza far del male a nessuno;
- ma non lo trovò mai, e così dovette combattere
+ ma non lo trovò mai, e così dovette combattere.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Harry alzò lo sguardo al Preside, che lo stava fissando.
  
 \begin_inset Quotes cld
@@ -1177,11 +1165,11 @@ Riconosco il nome, Harry
 
 Sebbene onestamente sono obbligato a dire che il caro Winston non fu mai
  il tipo per rimorsi di coscienza, anche dopo una dozzina di bicchierini
- di whisky incendiario
-\begin_inset Quotes crd
+ di whisky incendiario.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1193,7 +1181,7 @@ Quello che voglio dire è
 \end_inset
 
 , disse Harry, dopo una breve pausa per ricordare esattamente con chi stesse
- parlando, e abbattere con la forza la sensazione improvvisamente ritornata
+ parlando, e abbattere con la forza la sensazione improvvisamente risorta
  di essere un bambino ignorante che era impazzito per l'audacia, che non
  aveva nessun diritto di essere in quella stanza e nessun diritto di mettere
  in discussione Albus Dumbledore su nulla, 
@@ -1208,11 +1196,11 @@ risposta
 .
  Non dice quando combattere e quando non combattere.
  È un problema difficile e Gandhi si rifiutò di affrontarlo, ed è per questo
- che persi parte del mio rispetto per lui
-\begin_inset Quotes crd
+ che persi parte del mio rispetto per lui.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1278,7 +1266,7 @@ cose
 \end_inset
 
  Harry si interruppe.
- I suoi pensieri non erano in ordine come solitamente sostenevano di essere,
+ I suoi pensieri non erano ordinati come solitamente pretendevano di essere,
  in quella stanza.
  Sarebbe dovuto essere in grado di fornire una qualche spiegazione perfettamente
  logica in termini di teoria dei giochi, sarebbe quanto meno dovuto essere
@@ -1342,11 +1330,10 @@ dovresti essere terribilmente ingenuo delle vie della guerra, per pensare
 quella
 \emph default
 , Harry.
- Sono simili – a questo
+ Sono simili – a questo.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il vecchio mago non fece gesti.
  Semplicemente, rimase fermo dov'era, tra i piedistalli.
 \end_layout
@@ -1366,11 +1353,11 @@ Lei non dovrebbe essere Preside
 
 Mi dispiace, mi dispiace davvero, ma lei non dovrebbe cercare di essere
  il direttore di una scuola e di condurre una guerra allo stesso tempo.
- Hogwarts non dovrebbe essere coinvolta in tutto questo
+ Hogwarts non dovrebbe essere coinvolta in tutto questo.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1397,11 +1384,10 @@ Non sopravviverebbero a Voldemort.
 Nulla
 \emph default
  vale la pena di far iniziare quella guerra anche solo un giorno prima di
- quando deve, o di farla durare solo un giorno in più di quanto deve
+ quando deve, o di farla durare solo un giorno in più di quanto deve.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il vecchio mago fece un cenno, ora, come per indicare tutte le bacchette
  spezzate.
  
@@ -1410,11 +1396,11 @@ Nulla
 
 Non abbiamo combattuto perché sembrava giusto farlo! Abbiamo combattuto
  quando abbiamo dovuto, quando non c'era più altra strada.
- Quella è stata la nostra risposta
+ Quella è stata la nostra risposta.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1449,23 +1435,22 @@ Con chi hai parlato, Harry?
 \begin_inset Quotes crd
 \end_inset
 
- disse il vecchio mago.
+ chiese il vecchio mago.
  
 \begin_inset Quotes cld
 \end_inset
 
 No, non rispondere.
- Lo so già
+ Lo so già.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Dumbledore sospirò.
  
 \begin_inset Quotes cld
 \end_inset
 
-Molti mi hanno rivolto quella domanda, e sempre li ho sviati.
+Molti mi hanno rivolto questa domanda, e li ho sempre sviati.
  Eppure col tempo dovrai imparare la verità completa su quella faccenda.
  Sei disposto a giurare di non parlarne con alcuno, fin quando non ti autorizzer
 ò a farlo?
@@ -1484,7 +1469,7 @@ Giuro
 \begin_inset Quotes crd
 \end_inset
 
-, disse.
+, rispose.
 \end_layout
 
 \begin_layout Standard
@@ -1510,7 +1495,7 @@ citato in cap 85
  di sangue per lui, Grindelwald non sarebbe caduto.
  Egli era, durante quel periodo, veramente invincibile.
  Di quel lugubre dispositivo che Grindelwald possedeva, nessuno deve sapere,
- nessuno deve sospettare, non deve esserci un solo indizio.
+ nessuno deve sospettare, non deve esserci un singolo indizio.
  E perciò tu non devi parlarne, e io non dirò altro per ora.
  Tutto qui, Harry.
  Non c'è nessuna morale, e nessuna saggezza.
@@ -1555,8 +1540,8 @@ poiché fui io ad abbatterlo, essi mi obbedirono quando dissi che non sarebbe
 \end_inset
 
  Il vecchio mago stava ora fissando la propria lunga bacchetta grigio-scura,
- che reggeva con entrambe le mani, come se fosse una palla di cristallo
- da un fantasy babbano, uno specchio d'acqua per la cristalloscopia all'interno
+ che reggeva con entrambe le mani, come se fosse una sfera di cristallo
+ da un fantasy babbano, uno specchio d'acqua per la cristallomanzia all'interno
  del quale potessero essere trovate delle risposte.
  
 \begin_inset Quotes cld
@@ -1587,11 +1572,11 @@ Lui
  Solo a lui, di tutte le creature di questo mondo, non devi mostrare alcuna
  pietà; e quando avrai terminato dovrai scordarlo, scordare di aver mai
  compiuto un gesto simile, e tornare a vivere.
- Conserva la tua furia per quello, e quello solo
+ Conserva la tua furia per quello, e quello solo.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \begin_inset Note Note
 status open
 
@@ -1645,13 +1630,9 @@ No! Non l'avrei fatto neppure a lui
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -1664,22 +1645,8 @@ No! Non l'avrei fatto neppure a lui
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Il vecchio mago fissò il giovane ragazzo, che si era raddrizzato, il volto
- cambiato.
+Il vecchio mago fissò il giovane ragazzo, che si era raddrizzato, e il suo
+ volto cambiò.
 \end_layout
 
 \begin_layout Standard
@@ -1701,11 +1668,11 @@ si sa già come tenere in prigione dei potenti Maghi Oscuri, senza usare
 \emph on
 sa
 \emph default
- di saperlo
+ di saperlo.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1739,11 +1706,11 @@ Non accetto la sua risposta, Preside.
  a me, e non a lei.
  Lei è disposto ad accettare equilibri di potere in cui i cattivi finiscono
  per vincere.
- Io no
+ Io no.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1764,11 +1731,11 @@ Rifiutarsi di accettare qualcosa non la cambia.
  Mi chiedo ora se tu sia semplicemente troppo giovane per capire questa
  questione, Harry, malgrado le tue sembianze esteriori; solo nelle fantasie
  dei bambini si possono vincere tutte le battaglie, e si può non tollerare
- anche un solo male
+ anche un solo male.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1801,11 +1768,11 @@ Il prezzo della fenice non è inevitabile
 \end_inset
 
 Non è parte di un qualche equilibrio profondo insito nell'universo.
- È solo una parte del problema in cui non ha ancora capito come barare
+ È solo una parte del problema in cui non ha ancora capito come barare.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1846,11 +1813,11 @@ fermarsi
 \emph on
 bene
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1861,7 +1828,7 @@ E la vera lotta, la lotta contro Voldemort?
 \begin_inset Quotes crd
 \end_inset
 
- disse il vecchio mago con voce tremante.
+ chiese il vecchio mago con voce tremante.
  
 \begin_inset Quotes cld
 \end_inset
@@ -1871,8 +1838,8 @@ Cosa farai per vincere
 quella
 \emph default
 , Harry? Farai a pezzi il mondo intero? Anche se un giorno dovessi ottenere
- un tale potere, tu non sei ancora al di là dei prezzi da pagare, e forse
- non lo sarai mai! Che tu agisca in questo modo 
+ un tale potere, tu non sei ancora esente dal pagare il prezzo per ciò che
+ fai, e forse non lo sarai mai! Che tu agisca in questo modo 
 \emph on
 ora
 \emph default
@@ -1899,11 +1866,12 @@ dopo che aveva concesso a Hermione quei cento punti.
  E il professor Quirrell ha detto, queste non sono le sue parole esatte,
  ma è praticamente ciò che ha detto, che aveva trovato tremendamente divertente
  che il grande e buon Albus Dumbledore fosse stato seduto lì senza far nulla
- mentre quella povera e innocente ragazza chiedeva aiuto, mentre 
+ mentre quella povera e innocente ragazza chiedeva aiuto, mentre era stato
+ 
 \emph on
 lui
 \emph default
- era stato quello che l'aveva difesa.
+ a difenderla.
  E mi ha detto poi che quando le persone buone e morali finiscono di legarsi
  strettamente le mani, ciò che di solito fanno è niente; o, se invece agiscono,
  è difficile distinguerle dalle persone considerate cattive.
@@ -1914,11 +1882,11 @@ lui
  può aiutare ragazze innocenti ogni volta che gli va, perché non è una persona
  buona.
  E che dovrei ricordarlo, ogni volta che esaminassi la possibilità di crescere
- e diventare buono
+ e diventare buono.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1969,10 +1937,11 @@ lei
 \end_inset
 
 Bene.
- Penso che questo era tutto ciò che dovessimo discutere, in fin dei conti.
- Si può attendere, la prossima volta che lei sembrerà operare dalla parte
- dei cattivi o lasciarli vincere, che io faccia tutto ciò che pensi che
- Fawkes mi direbbe di fare, a prescindere da quanti problemi ne derivino.
+ Penso che questo fosse tutto ciò di cui dovessimo discutere, in fin dei
+ conti.
+ Si aspetti, la prossima volta che lei sembrerà operare dalla parte dei
+ cattivi o lasciarli vincere, che io faccia tutto ciò che pensi che Fawkes
+ mi direbbe di fare, a prescindere da quanti problemi ne derivino.
  Spero che questo sia chiaro per tutti.
 \begin_inset Quotes crd
 \end_inset
@@ -2015,11 +1984,11 @@ La testa del ragazzo rispuntò all'interno della stanza.
 
 Le dispiacerebbe far ripartire le scale, Preside? Preferirei non dover rifare
  tutto il lavoro da capo per poter uscire nello stesso modo in cui sono
- arrivato
+ arrivato.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2040,13 +2009,9 @@ Va', Harry Potter.
  il varco che si era aperto per lei, rimase silenziosamente dietro di lei
  sulle scale girevoli finché non giunsero alla sommità, e poi, ancora sotto
  il Mantello, girò tre volte il proprio Giratempo.)
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -2070,10 +2035,10 @@ Conseguenze: il professor Quirrell e
 
 \begin_layout Standard
 Il Professore di Difesa attendeva in una radura ombreggiata, la sua schiena
- appoggiata distrattamente contro la corteccia ruvida e grigia di un faggio
+ appoggiata maldestramente contro la corteccia ruvida e grigia di un faggio
  torreggiante, sebbene ancora senza foglie in quei giorni di fine marzo,
  così che il suo tronco e la sua sommità sembravano un pallido braccio alzato
- da terra ed esploso in una mano di mille dita.
+ da terra ed esploso in una mano dalle mille dita.
  Intorno al Professore di Difesa e sopra di lui c'erano rami così densi
  che anche all'inizio della primavera, con pochi alberi che osassero persino
  germogliare, sarebbe stato quasi impossibile vedere il cielo da terra.
@@ -2089,7 +2054,7 @@ Il Professore di Difesa attendeva in una radura ombreggiata, la sua schiena
 \begin_layout Standard
 Giunse un lievissimo suono di passi, quasi inudibile anche sul terreno della
  foresta; l'andatura di un uomo abituato a passare inosservato.
- Nessun rametto rotto, né foglia frusciante
+ Nessun rametto rotto, né frusciar di foglia
 \begin_inset space ~
 \end_inset
 
@@ -2145,7 +2110,7 @@ Oh
 \end_inset
 
 pensavo che avrebbe preferito un po' di riservatezza.
- Le mura di Hogwarts hanno orecchie, e non vorrebbe che il Preside venisse
+ Le mura di Hogwarts hanno orecchie, e lei non vorrebbe che il Preside venisse
  a conoscenza del suo ruolo nell'affare di ieri, giusto?
 \begin_inset Quotes crd
 \end_inset
@@ -2182,11 +2147,10 @@ Sa perfettamente bene di cosa stiamo parlando
 
 Seriamente, mio buon Professore, non dovrebbe impicciarsi degli affari degli
  idioti a meno che non sia pronto a difendersi istantaneamente da ogni loro
- violenza
+ violenza.
 \begin_inset Quotes crd
 \end_inset
 
-.
  (Le mani del Professore di Difesa giacevano ancora rilassate e aperte ai
  suoi fianchi.) 
 \begin_inset Quotes cld
@@ -2203,11 +2167,10 @@ disperato
 \emph on
 cinquantadue
 \emph default
- Incantesimi di Memoria
+ Incantesimi di Memoria.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il professor Quirrell inclinò la testa.
  
 \begin_inset Quotes cld
@@ -2215,16 +2178,16 @@ cinquantadue
 
 Perché teme così tanto le opinioni di semplici studenti? Penso di no.
  Teme che la faccenda venga a conoscenza del suo buon amico, Lord Malfoy?
- Ma quei folli, immediatamente, hanno inventato una scusa piuttosto soddisfacent
-e per la sua presenza.
+ Ma quei folli, istantaneamente, hanno inventato una scusa piuttosto soddisfacen
+te per la sua presenza.
  No, c'è una sola persona che esercita tanto potere su di lei, e che sarebbe
  estremamente disturbata dallo scoprire che lei ha messo in atto un piano
  senza la sua conoscenza.
- Il suo vero padrone segreto, Albus Dumbledore
+ Il suo vero padrone segreto, Albus Dumbledore.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2246,20 +2209,18 @@ Cosa?
 \begin_inset Quotes cld
 \end_inset
 
-Ma ora, sembra, lei si sta muovendo da solo; e dunque mi trovo estremamente
+Ma ora, sembra, lei si sta muovendo da solo; e dunque mi scopro estremamente
  interessato riguardo a cosa lei 
 \emph on
 potrebbe
 \emph default
- stare facendo, e perché
+ stare facendo, e perché.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il Professore di Difesa considerò la sagoma vestita di nero del Maestro
- di Pozioni con l'attenzione che un uomo avrebbe potuto riservare ad un
- insetto eccezionalmente interessante, anche se in fin dei conti solo un
- insetto.
+ di Pozioni con l'attenzione che un uomo avrebbe potuto riservare a un insetto
+ eccezionalmente interessante, anche se in fin dei conti soltanto un insetto.
 \end_layout
 
 \begin_layout Standard
@@ -2277,21 +2238,20 @@ Non sono un servitore di Dumbledore
 \begin_inset Quotes cld
 \end_inset
 
-Davvero? Che notizia sbalorditiva
+Davvero? Che notizia sbalorditiva.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il Professore di Difesa sorrise appena.
  
 \begin_inset Quotes cld
 \end_inset
 
-Me ne parli
+Me ne parli.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2334,11 +2294,11 @@ D'altro canto
 \begin_inset Quotes cld
 \end_inset
 
-i miei amici godono di molti vantaggi
+i miei amici godono di molti vantaggi.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2367,11 +2327,11 @@ Ci sono molte cose che conosco di questa scuola
 \begin_inset Quotes cld
 \end_inset
 
-Cose che potrebbe non pensare che io sappia
+Cose che potrebbe non pensare che io sappia.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2392,11 +2352,11 @@ Ci fu una pausa di attesa.
 \begin_inset Quotes cld
 \end_inset
 
-Continui
+Continui.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2424,11 +2384,10 @@ indagato
 \begin_inset Quotes cld
 \end_inset
 
-Lei non sa nulla del genere
+Lei non sa nulla di simile.
 \begin_inset Quotes crd
 \end_inset
 
-.
  La schiena dell'uomo si raddrizzò contro l'albero.
  
 \begin_inset Quotes cld
@@ -2439,20 +2398,19 @@ Non finga con me, Severus Snape; lo trovo irritante, e lei non è nella posizion
  Una singola occhiata rivelerebbe a qualsiasi mago competente che il Preside
  ha intessuto quel corridoio con una ridicola quantità di protezioni e reti,
  inneschi e trappole.
- Ed altro ancora: lì disposti ci sono Incantesimi di antico potere, costrutti
+ E altro ancora: lì disposti ci sono Incantesimi di antico potere, costrutti
  magici sui quali non ho udito neppure delle voci, tecniche che devono essere
  scaturite dalle tradizioni accumulate da Flamel in persona.
- Colui-Che-Non-Deve-Essere-Nominato riuscirebbe a fatica a superarli inosservato
+ Colui-Che-Non-Deve-Essere-Nominato riuscirebbe a fatica a superarli inosservato.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Pensieroso, il professor Quirrell si batté un dito sulla guancia.
  
 \begin_inset Quotes cld
 \end_inset
 
-E per quanto riguarda la chiusura vera e propria, un 
+E per quanto riguarda la serratura vera e propria, un 
 \emph on
 Colloportus
 \emph default
@@ -2460,11 +2418,10 @@ Colloportus
  potuto tenere lontana la signorina Granger il giorno in cui è arrivata
  a Hogwarts.
  Mai prima nella mia intera esistenza ho incontrato una trappola così macroscopi
-ca
+ca.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Ora il Professore di Difesa socchiuse gli occhi.
  
 \begin_inset Quotes cld
@@ -2479,11 +2436,11 @@ Non so di nessuno che sia rimasto al mondo e contro cui tali fantastiche
 questa
 \emph default
  informazione per tutto il silenzio che vuole, mio caro Professore, e poi
- le rimarrebbe un'ulteriore generosa porzione del mio favore
+ le rimarrebbe un'ulteriore generosa porzione del mio favore.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2537,11 +2494,11 @@ Per quanto riguarda questo
 \end_inset
 
 l'ho rubata mesi fa, lasciando un falso al suo posto.
- Ma grazie mille per averlo chiesto
+ Ma grazie mille per averlo chiesto.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2559,11 +2516,10 @@ Sta mentendo
 \begin_inset Quotes cld
 \end_inset
 
-Sì, è vero
+Sì, è vero.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il professor Quirrell si appoggiò nuovamente contro l'albero grigio, i
  suoi occhi che vagarono in alto verso la densa rete dei rami, la notte
  che stava scendendo scarsamente visibile tra gli intrecci complicati.
@@ -2572,11 +2528,10 @@ Sì, è vero
 \end_inset
 
 Desideravo semplicemente scoprire se me ne avrebbe chiesto conto, dato che
- sta fingendo di sapere così poco
+ sta fingendo di sapere così poco.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il Professore di Difesa sorrise a sé stesso.
 \end_layout
 
@@ -2614,11 +2569,10 @@ Nulla, davvero
 Ero solamente curioso.
  Suppongo che dovrò restarmene a guardare dove andrà a finire il suo piano,
  e nel frattempo non dirò nulla al Preside – fintanto che lei sarà disposto
- a farmi un favore di tanto in tanto, naturalmente
+ a farmi un favore di tanto in tanto, naturalmente.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Un sorriso arido gli attraversò il volto.
  
 \begin_inset Quotes cld
@@ -2626,25 +2580,21 @@ Ero solamente curioso.
 
 Per ora lei è congedato, Severus Snape.
  Sebbene non mi dispiacerebbe fare un'altra chiacchierata, presto, se è
- disposto a dirmi onestamente a chi sia rivolta la sua lealtà.
+ disposto a dirmi onestamente a chi appartenga la sua lealtà.
  E intendo dire 
 \emph on
 onestamente
 \emph default
 , non le false espressioni che ha mostrato oggi.
  Potrebbe scoprire di avere più alleati di quanti pensa.
- Si prenda del tempo per pensarci su, amico mio
+ Si prenda del tempo per pensarci su, amico mio.
 \begin_inset Quotes crd
-\end_inset
-
-.
-\begin_inset Separator latexpar
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -2668,7 +2618,7 @@ Conseguenze: Draco Malfoy e
 
 \begin_layout Standard
 Una semisfera arcobaleno, una cupola di solida forza con poca cromaticità
- propria che riverberava la luce incidente in riflessi frazionati, iridescenti
+ propria che riverberava la luce incidente in riflessi frazionati, iridescente
  di mille colori, mentre frantumava la brillantezza dei magnifici candelieri
  della sala comune Serpeverde.
 \end_layout
@@ -2695,12 +2645,12 @@ Oh, smettetela
 \end_layout
 
 \begin_layout Standard
-Non poteva ricordare di aver preso la decisione, c'erano stati solo due
- ragazzi più grandi sul procinto di lanciare una fattura contro Millicent,
- la sala comune che guardava in silenzio, e poi la mano di Draco aveva semplicem
-ente estratto la sua bacchetta ed eretto la barriera, lasciando che il suo
- cuore si riempisse di adrenalina per lo spavento, mentre il suo povero
- e triste cervello si tormentava freneticamente alla ricerca di spiegazioni
+Non ricordava di aver preso quella decisione, c'erano stati solo due ragazzi
+ più grandi sul procinto di lanciare una fattura contro Millicent, la sala
+ comune che guardava in silenzio, e poi la mano di Draco aveva semplicemente
+ estratto la sua bacchetta ed eretto la barriera, lasciando che il suo cuore
+ si riempisse di adrenalina per lo spavento, mentre il suo povero e triste
+ cervello si tormentava freneticamente alla ricerca di spiegazioni
 \begin_inset space ~
 \end_inset
 
@@ -2759,7 +2709,7 @@ Perché la state proteggendo?
 \begin_inset Quotes cld
 \end_inset
 
-Così avete scoperto colei che tirava i fili della congiura
+Così avete scoperto chi tirava le fila della congiura
 \begin_inset Quotes crd
 \end_inset
 
@@ -2797,7 +2747,7 @@ E allora?
 \begin_inset Quotes cld
 \end_inset
 
-Comunque li ha aiutati!
+Le ha comunque aiutate!
 \begin_inset Quotes crd
 \end_inset
 
@@ -2836,7 +2786,7 @@ N-no
 \begin_inset Quotes cld
 \end_inset
 
-Sapeva dove erano diretti i messaggi Serpeverde che stava trasmettendo?
+Sapeva a chi erano diretti i messaggi Serpeverde che stava trasmettendo?
 \begin_inset Quotes crd
 \end_inset
 
@@ -2869,13 +2819,13 @@ Grazie
 
 Voi tutti, lasciatela cortesemente in pace, è solo una pedina.
  Signorina Bulstrode, può considerare ripagato il favore che mi ha fatto
- a febbraio
+ a febbraio.
 \begin_inset Quotes crd
 \end_inset
 
-.
  E Draco ritornò ai propri compiti di Pozioni, sperando per Merlino che
- Millicent non dicesse qualcosa di incredibilmente stupido come `Quale favore?'
+ Millicent non dicesse qualcosa di incredibilmente stupido come ``Quale
+ favore?''
 \begin_inset space ~
 \end_inset
 
@@ -2908,9 +2858,9 @@ Sudando ancor più copiosamente, Draco sollevò nuovamente la testa per guardare
 \begin_inset Quotes cld
 \end_inset
 
-Cosa diceva esattamente quella falsa nota? Era forse `Vi comando di avanzare
- nel nome della Signora Oscura Bulstrode’ oppure `Per favore vediamoci qui,
- in amicizia Millicent’?
+Cosa diceva esattamente quella falsa nota? Era forse ``Vi comando di avanzare
+ nel nome della Signora Oscura Bulstrode'' oppure ``Per favore vediamoci
+ qui, in amicizia Millicent''?
 \begin_inset Quotes crd
 \end_inset
 
@@ -2961,11 +2911,11 @@ Può essere sufficiente a convincere le streghe ad andare là, se qualcuna
 \emph on
 amica
 \emph default
- di Millicent
+ di Millicent.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2976,32 +2926,14 @@ Come se la faccenda fosse completamente risolta, Draco abbassò nuovamente
 
 \begin_layout Standard
 Fu solo con la coda dell'occhio che colse Gregory che lo fissava.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -3054,7 +2986,7 @@ l'un l'altro
 , per proteggere gli amici con cui si erano addestrati e che erano proprio
  davanti a loro.
  E Harry aveva osservato, e Draco aveva saputo che era vero, che non potevi
- usare la lealtà verso un capo per dare forza ad un Incantesimo Patronus,
+ usare la lealtà verso un capo per dare forza a un Incantesimo Patronus,
  non era 
 \emph on
 esattamente
@@ -3107,7 +3039,7 @@ salvare
 \emph on
 pesante
 \emph default
- quando dirigeva gli addestramenti dell'esercito.
+ quando dirigeva gli addestramenti del suo esercito.
  Quando lavorava con studenti provenienti dalle altre tre Case che non erano
  Serpeverde.
  Una volta che vedevi i problemi e davi loro un nome, non potevi 
@@ -3218,8 +3150,8 @@ Sì, certo
  a guardare i propri compiti di Astronomia come se non fosse minimamente
  nervoso.
  Stava andando proprio come Draco aveva temuto che andasse, ma almeno significav
-a che aveva ripassato mentalmente questa conversazione più e più volte,
- facendosi venire in mente l'apertura giusta.
+a che aveva ripassato mentalmente quella conversazione più e più volte,
+ facendosi venire in mente la mossa di apertura giusta.
  
 \begin_inset Quotes cld
 \end_inset
@@ -3237,17 +3169,17 @@ sai
 adottata
 \emph default
 .
- I suoi genitori morirono nella guerra e qualcuno l'ha affidata ad una coppia
- di Babbani per nasconderla.
+ I suoi genitori morirono durante la guerra e qualcuno l'ha affidata a una
+ coppia di Babbani per nasconderla.
  È 
 \emph on
 impossibile
 \emph default
- che il generale Granger sia una vera sanguemarcio
+ che il generale Granger sia una vera sanguemarcio.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3333,8 +3265,8 @@ te
 \end_layout
 
 \begin_layout Standard
-Draco poté sentire le parole nella propria testa; risuonarono nella voce
- di suo Padre, con la stessa severità.
+Draco poté udire le parole nella propria testa; risuonarono nella voce di
+ suo Padre, con la stessa severità.
  Era il genere di cose che suo Padre gli aveva 
 \emph on
 detto
@@ -3347,7 +3279,7 @@ Non erano
 \emph default
  amici alla pari, aveva detto suo Padre, non doveva mai dimenticarlo.
  Draco comandava, loro erano i suoi servitori, e se Draco non riusciva a
- mantenere quella situazione allora non era adatto ad ereditare Casa Malfoy\SpecialChar ldots
+ mantenere quella situazione allora non era adatto a ereditare Casa Malfoy\SpecialChar ldots
 
 \end_layout
 
@@ -3366,25 +3298,24 @@ Va tutto bene, Gregory
 
 Tutto quello che devi fare è preoccuparti di proteggermi.
  Nessuno ti accuserà per aver seguito i miei ordini, non mio padre, non
- il tuo
+ il tuo.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Mettendo tutto il calore che poté nella propria voce, come se cercasse
  di lanciare un Incantesimo Patronus.
  
 \begin_inset Quotes cld
 \end_inset
 
-E ad ogni modo, la prossima guerra non sarà simile all'ultima.
- Casa Malfoy c'era molto tempo prima del Signore Oscuro, e non tutti i Lord
- Malfoy fanno la stessa cosa.
- Mio Padre lo sa
+E comunque, la prossima guerra non sarà simile all'ultima.
+ Casa Malfoy esisteva molto tempo prima del Signore Oscuro, e non tutti
+ i Lord Malfoy fanno la stessa cosa.
+ Mio Padre lo sa.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3435,11 +3366,11 @@ me
 \emph default
 , se Potter non sarà lì, fintanto che crederà che sono degno di fiducia.
  Questo è quello che sto preparando ora.
- Mio Padre lo capirà
+ Mio Padre lo capirà.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3458,23 +3389,19 @@ Va bene
 \begin_inset Quotes cld
 \end_inset
 
-Se lo dice lei, signor Malfoy
+Se lo dice lei, signor Malfoy.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Draco annuì nuovamente, ignorando la sensazione di vuoto dentro di sé per
  le bugie che aveva appena raccontato al proprio amico, e ritornò alle stelle.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -3513,14 +3440,14 @@ non
 essere
 \emph default
  sotto un mantello dell'invisibilità, eccetto per la parte del mantello.
- Quando dal cappuccio facevi scendere il velo di morbido tessuto nero giù
+ Quando facevi scendere il velo di morbido tessuto nero del cappuccio giù
  sul tuo volto, non potevi neppure vederlo disteso davanti a te, e dopo
  non sembrava intralciare il tuo respiro.
- E il mondo sembrava perfettamente uguale, tranne quando oltrepassavi oggetti
- di metallo, non vedevi alcun minuscolo riflesso di te stesso.
+ E il mondo sembrava esattamente uguale, tranne quando oltrepassavi oggetti
+ di metallo, non vedevi neppure un minuscolo riflesso di te stessa.
  I ritratti non ti guardavano mai, facevano solo qualunque strana cosa facessero
  quando erano soli.
- Hermione non aveva ancora provato a passare davanti ad uno specchio, non
+ Hermione non aveva ancora provato a passare davanti a uno specchio, non
  era sicura di 
 \emph on
 volerlo
@@ -3530,7 +3457,8 @@ volerlo
 \emph on
 tu
 \emph default
- mentre camminavi, niente mani, niente piedi, solo un punto di vista mutevole.
+ mentre camminavi, niente mani, niente piedi, solo un punto di vista in
+ movimento.
  Era una sensazione snervante, non tanto di essere 
 \emph on
 invisibile
@@ -3543,20 +3471,20 @@ non esistere
 \end_layout
 
 \begin_layout Standard
-Harry non le aveva fatto alcuna domanda, ella aveva appena pronunciato la
- parola `invisibilità’ che Harry stava estraendo il suo mantello dell'invisibili
-tà dalla borsa.
+Harry non le aveva fatto alcuna domanda, lei aveva appena pronunciato la
+ parola ``invisibilità'' che Harry stava già estraendo il suo mantello dell'invi
+sibilità dalla borsa.
  Non le era stata data neppure una possibilità di spiegarsi a proposito
  del suo incontro estremamente segreto con Daphne e Millicent Bulstrode,
  o che pensava che sarebbe servito a proteggere le altre ragazze, Harry
  le aveva tranquillamente ceduto quello che probabilmente era un Dono della
  Morte.
- Ad essere giusti, e 
+ A essere giusta, e 
 \emph on
 cercava
 \emph default
- di essere giusta, bisognava ammettere che talvolta Harry poteva essere
- un amico molto, molto sincero.
+ di essere giusta, doveva ammettere che talvolta Harry poteva essere un
+ amico molto, molto sincero.
 \end_layout
 
 \begin_layout Standard
@@ -3569,7 +3497,7 @@ Millicent aveva affermato di essere una veggente.
 
 \begin_layout Standard
 Hermione aveva attentamente spiegato a Millicent e Daphne con dovizia di
- dettagli che questo non poteva essere vero.
+ dettagli che quello non poteva essere vero.
 \end_layout
 
 \begin_layout Standard
@@ -3617,7 +3545,7 @@ loro
 \emph on
 impossibile
 \emph default
- che a Millicent potesse venire una profezia 
+ che a Millicent potesse sovvenire una profezia 
 \emph on
 ogni volta che volesse
 \emph default
@@ -3633,8 +3561,8 @@ ricordasse
 \emph on
 l'avesse
 \emph default
- fatto sarebbe uscita come `lo scheletro è la chiave’ e non `Susan Bones
- deve essere presente’.
+ fatto sarebbe stata tipo ``lo scheletro è la chiave'' e non ``Susan Bones
+ deve essere presente''.
 \end_layout
 
 \begin_layout Standard
@@ -3690,11 +3618,11 @@ Stava provando la stessa sensazione di disperazione che aveva avuto durante
  la battaglia prima di Natale, guardando i grafici di Zabini con tutte le
  linee colorate e i rettangoli e\SpecialChar ldots
  e aveva capito solo ora cosa significava
- il fatto che 
+ il fatto che fosse stato 
 \emph on
 Zabini
 \emph default
- fosse stato colui che le aveva mostrato quel grafico.
+ a mostrarle quel grafico.
 \end_layout
 
 \begin_layout Standard
@@ -3704,17 +3632,9 @@ Anche per un Corvonero, sentì, esisteva una cosa come l'avere una vita che
 
 \begin_layout Standard
 Hermione iniziò a salire una corta spirale di gradini di marmo giallo che
- sporgevano da una spina centrale, una rampa di scale 
-\begin_inset Quotes cld
-\end_inset
-
-segreta
-\begin_inset Quotes crd
-\end_inset
-
- malamente mantenuta che era in effetti una delle vie più rapide dai sotterranei
- Serpeverde su alla torre Corvonero, ma che solo le streghe potevano attraversar
-e.
+ sporgevano da una spina centrale, una rampa di scale ``segreta'' malamente
+ mantenuta che era in effetti una delle vie più rapide dai sotterranei Serpeverd
+e su alla torre Corvonero, ma che solo le streghe potevano attraversare.
  (Perché le ragazze in particolare avessero bisogno di una via veloce per
  muoversi da Corvonero a Serpeverde e ritorno era qualcosa che Hermione
  trovava un po' enigmatico.) Alla sommità della scala, ora che si era allontanata
@@ -3723,7 +3643,7 @@ e.
 \end_layout
 
 \begin_layout Standard
-Dopo che la sua borsa aveva ingoiato il mantello, Hermione aveva svoltato
+Dopo che la sua borsa ebbe ingoiato il mantello, Hermione aveva svoltato
  a destra e aveva iniziato a scendere per un breve corridoio, ora tenendo
  automaticamente un occhio in tutte le direzioni senza davvero pensarci,
  e il suo sguardo costantemente all'erta diede un'occhiata in una nicchia
@@ -3781,8 +3701,8 @@ Salve ancora, Hermione
 \end_layout
 
 \begin_layout Standard
-Il cuore di Hermione stava già martellando possentemente nel suo petto,
- le sue vesti da strega sembravano già zuppe di sudore contro la sua pelle,
+Il cuore di Hermione le stava già potentemente martellando nel petto, le
+ sue vesti da strega sembravano già zuppe di sudore contro la sua pelle,
  c'era già un sapore di paura nella sua bocca; non sapeva perché fosse così
  improvvisamente piena di adrenalina ma la sua mano strinse più fermamente
  la bacchetta.
@@ -3847,7 +3767,7 @@ chiami?
 \end_layout
 
 \begin_layout Standard
-Il mantello nero ruotò appena, avanti e indietro, e non 
+Il mantello nero ruotò appena, in un senso e nell'altro, e non 
 \emph on
 sembrò
 \emph default
@@ -3857,11 +3777,11 @@ sembrò
 \end_inset
 
 Quello è l'enigma, giovane Corvonero.
- Finché non lo risolverai, potrai chiamarmi come desideri
+ Finché non lo risolverai, potrai chiamarmi come desideri.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3900,11 +3820,11 @@ io
 \emph on
 a te
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3923,11 +3843,11 @@ non penso che
 \emph on
 dovrei
 \emph default
- chiedere questo, in verità
+ chiedere questo, in verità.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3955,11 +3875,11 @@ Conoscenza
  nascosti e i partecipanti, le risposte all'enigma.
  Conosco la vera ragione della freddezza che vedi negli occhi di Harry Potter.
  Conosco la vera natura della misteriosa malattia del professor Quirrell.
- So chi Dumbledore teme realmente
+ So chi Dumbledore teme realmente.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -3997,16 +3917,15 @@ Centoottantasette
 \begin_inset Quotes crd
 \end_inset
 
-, continuò ella.
+, continuò lei.
  
 \begin_inset Quotes cld
 \end_inset
 
-Una volta ci ho provato e questo è il numero che è venuto fuori
+Una volta ci ho provato e questo è il numero che è venuto fuori.
 \begin_inset Quotes crd
 \end_inset
 
-.
  La sua mano stava quasi scivolando sulla bacchetta, c'era una sensazione
  di affaticamento nelle sue dita come se la stesse reggendo da ore invece
  che da minuti
@@ -4021,11 +3940,11 @@ La voce sibilò,
 \begin_inset Quotes cld
 \end_inset
 
-Il professor Snape è segretamente un Mangiamorte
+Il professor Snape è segretamente un Mangiamorte.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4118,11 +4037,11 @@ L'hai visto, Hermione.
  A Hogwarts il marcio inizia dalla testa.
  Tutto quello che c'è di sbagliato in questa scuola, ogni cosa inizia con
  il Preside matto.
- Solo tu hai osato chiedergliene conto – e perciò parlo con te
-\begin_inset Quotes crd
+ Solo tu hai osato chiedergliene conto – e perciò parlo con te.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4136,9 +4055,9 @@ E hai parlato anche con Harry Potter, allora?
  disse Hermione, tenendo la propria voce la più neutra possibile.
  Se 
 \emph on
-questo
+quello
 \emph default
- era fantasma servizievole del ragazzo
+ fosse stato fantasma servizievole del ragazzo
 \begin_inset space ~
 \end_inset
 
@@ -4164,11 +4083,11 @@ Del gelo nei suoi occhi, dell'oscurità che cresce dietro di loro.
  Harry Potter è un assassino, e chiunque sia un ostacolo per lui morirà.
  Anche tu, Hermione Granger, se oserai davvero opporti a lui, l'oscurità
  dietro i suoi occhi ti raggiungerà e ti distruggerà.
- Questo so
+ Questo so.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4209,11 +4128,10 @@ proteggermi
 \begin_inset Quotes cld
 \end_inset
 
-Sbagliato
+Sbagliato.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il sussurro fu senza tono, e duro, come se non tollerasse alcuna possibilità
  di smentita.
  
@@ -4227,11 +4145,11 @@ rivolterà
  contro col tempo, Hermione, quando l'oscurità si impossesserà completamente
  di lui.
  Non verserà una lacrima, non lo noterà nemmeno, il giorno in cui i suoi
- passi ti schiacceranno
+ passi ti schiacceranno.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4246,8 +4164,8 @@ Doppiamente
 \begin_inset Quotes crd
 \end_inset
 
- rispose ella con una voce più alta, sebbene vi fossero brividi che le scendevan
-o lungo la schiena.
+ rispose lei con una voce più alta, sebbene dei brividi le scendessero lungo
+ la schiena.
  Le venne in mente una delle frasi di Harry.
  
 \begin_inset Quotes cld
@@ -4279,11 +4197,11 @@ Ci sarà
 
 Ci sarà abbastanza tempo per questo in seguito.
  Per ora, per oggi, davvero Harry Potter non è tuo nemico.
- Eppure sei in estremo pericolo
+ Eppure sei in estremo pericolo.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4309,11 +4227,10 @@ questo
 \begin_inset Quotes cld
 \end_inset
 
-Lucius Malfoy ti ha notato, Hermione
+Lucius Malfoy ti ha notato, Hermione.
 \begin_inset Quotes crd
 \end_inset
 
-.
  Il sussurro era salito di volume, abbandonando la propria mancanza di tono,
  e aveva preso una nota di udibile preoccupazione.
  
@@ -4345,7 +4262,7 @@ Tutto qui?
 \begin_inset Quotes crd
 \end_inset
 
- disse Hermione.
+ chiese Hermione.
  Se fosse stata l'ex-colonnello Zabini o Harry Potter, probabilmente avrebbe
  fatto domande intelligenti per ottenere più informazioni; ma la sua mente
  sembrava lenta e stanca.
@@ -4369,11 +4286,11 @@ Perché no, Hermione? Io
 \emph on
 sto
 \emph default
- cercando di aiutarti
+ cercando di aiutarti.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4419,20 +4336,7 @@ perché
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
-\end_inset
-
-
+–»
 \end_layout
 
 \begin_layout Standard
@@ -4476,11 +4380,11 @@ qui?
 Mi aspettavo di meglio da te, Hermione.
  Certamente una Corvonero come te, la più intelligente Corvonero ad onorare
  Hogwarts da una generazione a questa parte, sa che le apparenze possono
- essere ingannevoli
+ essere ingannevoli.
 \begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4507,11 +4411,11 @@ possano
 \emph on
 non lo sono
 \emph default
-
-\begin_inset Quotes crd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -4530,8 +4434,8 @@ sei
 \begin_inset Quotes crd
 \end_inset
 
-, disse la voce, e la nebbia nera evaporò, non più offuscando; ella vide
- il volto al di sotto, e il riconoscerlo causò una scarica di adrenalina
+, disse la voce, e la nebbia nera evaporò, non più offuscando; Hermione
+ vide il volto al di sotto, e il riconoscerlo causò una scarica di adrenalina
  terrorizzata dentro di lei
 \begin_inset space ~
 \end_inset
@@ -4596,17 +4500,8 @@ Sono stata mandata ad aiutarti, ti prego di non essere spaventata.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes xrd
 \end_inset
 
 
