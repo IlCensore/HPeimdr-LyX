@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -76,6 +76,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -105,6 +107,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -119,7 +122,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -162,18 +168,18 @@ name "chap:79Sdt-PtI"
 \end_inset
 
 Hermione Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Auror Komodo con voce inespressiva, 
 \begin_inset Quotes cld
 \end_inset
 
-lei è in arresto per il tentato omicidio di Draco Malfoy
-\begin_inset Quotes frd
+è in arresto per il tentato omicidio di Draco Malfoy.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \begin_inset Note Note
 status open
 
@@ -205,7 +211,7 @@ Lei
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
@@ -218,7 +224,7 @@ Lei – lei non –
 cosa?
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -246,7 +252,7 @@ Mungo e ha indicato lei, Hermione Granger, come sua assalitrice.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -261,7 +267,7 @@ Mungo e ha indicato lei, Hermione Granger, come sua assalitrice.
 Siete matti?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  le parole esplosero dalla bocca di Harry, mentre si alzò di scatto dalla
@@ -290,7 +296,7 @@ qualcuno
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -303,7 +309,7 @@ Il volto di Hermione Granger si era corrucciato.
 \end_inset
 
 L'ho fatto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sussurrò a voce bassissima.
@@ -312,7 +318,7 @@ L'ho fatto
 \end_inset
 
 Sono stata io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -331,7 +337,7 @@ Il volto di Dumbledore sembrava essere invecchiato di decenni nel corso
 \end_inset
 
 Perché, signorina Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Dumbledore, la sua voce appena più alta di un sussurro.
@@ -340,7 +346,7 @@ Perché, signorina Granger?
 \end_inset
 
 Perché avrebbe fatto una cosa simile?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -351,7 +357,7 @@ Perché avrebbe fatto una cosa simile?
 \end_inset
 
 Io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Hermione, 
@@ -363,7 +369,7 @@ sono, sono – dispiaciuta – non so perché ho
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Sembrava stesse crollando su sé stessa, la sua voce non era composta altro
@@ -377,7 +383,7 @@ pensavo – di averlo ucciso – mi dispiace
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -417,7 +423,7 @@ Hermione non l'hai fatto ti hanno impiantato un falso ricordo!
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -555,7 +561,7 @@ Hogwarts: Una Storia
 \end_inset
 
 Il suo processo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore, 
@@ -563,7 +569,7 @@ Il suo processo
 \end_inset
 
 è fissato per domani a mezzogiorno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -578,7 +584,7 @@ Il suo processo
 Cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  proruppe dalla bocca di Harry Potter.
@@ -593,7 +599,7 @@ Questo è folle! Non si può completare un'indagine di polizia in un giorno
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -610,7 +616,7 @@ Questa non è la Gran Bretagna
 babbana
 \emph default
 , signor Potter!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il volto di Severus era inespressivo come sempre, ma la sua voce era tagliente.
@@ -624,7 +630,7 @@ Gli Auror hanno un'accusa sotto Veritaserum e una confessione sotto Veritaserum.
 terminata
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -635,7 +641,7 @@ terminata
 \end_inset
 
 Non proprio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore, esattamente quando Harry sembrava pronto a esplodere.
@@ -650,7 +656,7 @@ Ho insistito con Amelia che la questione venga sottoposta all'esame più
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -665,7 +671,7 @@ Ho insistito con Amelia che la questione venga sottoposta all'esame più
 Presunto
 \emph default
  duello
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry bruscamente.
@@ -685,7 +691,7 @@ presunto
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -700,7 +706,7 @@ Anche questo
 presumibilmente
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse freddamente il Ragazzo-Che-È-Sopravvissuto.
@@ -719,7 +725,7 @@ sospetto
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -742,7 +748,7 @@ io stesso
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -753,7 +759,7 @@ io stesso
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter.
@@ -769,7 +775,7 @@ osservato
 \emph default
  Hermione lì, né l'ha vista andarsene.
  Distinguiamo l'osservazione dall'inferenza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -782,7 +788,7 @@ Imperius, Obliazione, Incantesimo del Falso Ricordo, Legilimanzia.
  Professoressa McGonagall, sto tralasciando qualche incantesimo di controllo
  mentale che avrebbe potuto spingere Hermione a farlo o farle credere di
  averlo fatto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -793,7 +799,7 @@ Imperius, Obliazione, Incantesimo del Falso Ricordo, Legilimanzia.
 \end_inset
 
 L'Incantesimo Confundus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse.
@@ -805,7 +811,7 @@ L'Incantesimo Confundus
 E alcuni Rituali oscuri.
  Ma nessuno di essi potrebbe essere eseguito all'interno di Hogwarts senza
  far scattare un allarme
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -819,7 +825,7 @@ Il ragazzo annuì, i suoi occhi ancora fissi dritti su quelli di lei.
 
 Quali di quegli incantesimi possono essere rilevati? Quali gli Auror cercherebbe
 ro di rilevare?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -830,7 +836,7 @@ ro di rilevare?
 \end_inset
 
 L'Incantesimo Confundus svanirebbe in poche ore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, dopo un momento necessario a raccogliere i pensieri.
@@ -868,7 +874,7 @@ mbox{--»}
 
 Ho richiesto che la signorina Granger fosse esaminata dal Legilimens della
  corte
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore.
@@ -881,7 +887,7 @@ L'esame ha mostrato
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -892,7 +898,7 @@ L'esame ha mostrato
 \end_inset
 
 Ci fidiamo di lui?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
@@ -903,7 +909,7 @@ Ci fidiamo di lui?
 \end_inset
 
 Di lei
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore.
@@ -918,7 +924,7 @@ Sophie McJorgenson, che ricordo come un'onesta studentessa di Corvonero,
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -929,7 +935,7 @@ Sophie McJorgenson, che ricordo come un'onesta studentessa di Corvonero,
 \end_inset
 
 Qualcun altro potrebbe aver assunto le sue sembianze con la Polisucco?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  interruppe nuovamente Harry Potter.
@@ -942,7 +948,7 @@ Cos'ha
 osservato
 \emph default
 , Preside?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -959,7 +965,7 @@ Una persona che sembrava Madam McJorgenson ci ha detto che un singolo Legilimens
  sulla questione di un certo Dissennatore.
  Questo era prevedibile; ma quello che non avevo previsto era il resto di
  ciò che Sophie ha trovato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -976,7 +982,7 @@ bili da un ricordo vero
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -987,7 +993,7 @@ bili da un ricordo vero
 \end_inset
 
 La cosa non mi sorprende
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , interruppe Harry.
@@ -1001,7 +1007,7 @@ Gli studi mostrano che i ricordi umani sono più o meno riscritti ogni volta
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1012,7 +1018,7 @@ Gli studi mostrano che i ricordi umani sono più o meno riscritti ogni volta
 \end_inset
 
 Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sommessamente Minerva, e la bocca del ragazzo si chiuse di scatto.
@@ -1060,7 +1066,7 @@ guidata
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1115,7 +1121,7 @@ reazione
 Il professor Quirrell?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry.
@@ -1132,7 +1138,7 @@ avrebbe
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1145,7 +1151,7 @@ Il Maestro di Pozioni disse seccamente,
 
 Il Professore di Difesa è sempre un sospettato, signor Potter.
  Noterà una certa tendenza, col tempo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1159,7 +1165,7 @@ Albus sollevò una mano, un gesto che zittiva, e tutte le loro teste si girarono
 \end_inset
 
 Ma in questo caso c'è un altro sospettato
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus pacatamente.
@@ -1168,7 +1174,7 @@ Ma in questo caso c'è un altro sospettato
 \end_inset
 
 Voldemort
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1438,7 +1444,7 @@ Harry la stava guardando con un'espressione assolutamente incredula, come
 \end_inset
 
 Ha ragione, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse tranquillamente Severus.
@@ -1447,7 +1453,7 @@ Ha ragione, signor Potter
 \end_inset
 
 In questo Paese pochi processi giudiziari coinvolgono degli avvocati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1465,7 +1471,7 @@ Bene.
  concetto di `buon senso' e `probabilità a priori' abbastanza bene da capire
  che le ragazze di dodici anni fondamentalmente non commettono omicidi a
  sangue freddo, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1476,7 +1482,7 @@ Bene.
 \end_inset
 
 È il Wizengamot che deve affrontare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
@@ -1485,7 +1491,7 @@ Bene.
 \end_inset
 
 Le Nobili Case più antiche, e alcuni altri maghi influenti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1497,7 +1503,7 @@ Le Nobili Case più antiche, e alcuni altri maghi influenti
 
 Quanto al fatto che essi mostrino buon senso – potrebbe in ugual modo aspettarsi
  che le preparino un panino al prosciutto, Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1535,7 +1541,7 @@ mbox{--»}
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
@@ -1551,7 +1557,7 @@ Wizengamot
 .
  Non c'è nessuna pena prefissata.
  C'è solo il voto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1569,7 +1575,7 @@ Il governo della legge, in tempi complessi, si è dimostrato carente; preferiamo
 
 \emph default
  Non vi sono regole legali vincolanti, allora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1587,7 +1593,7 @@ Legalmente, Harry, stiamo parlando di un debito di sangue di Hermione Granger
  Il Lord di Malfoy propone una modalità di pagamento di quel debito, e poi
  il Wizengamot vota sulla sua proposta.
  Tutto qui
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1599,7 +1605,7 @@ Legalmente, Harry, stiamo parlando di un debito di sangue di Hermione Granger
 
 Ma\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry lentamente.
@@ -1614,7 +1620,7 @@ deve
  capire che Hermione era solo una pedina.
  Non colei contro cui deve essere davvero arrabbiato.
  Giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1625,7 +1631,7 @@ deve
 \end_inset
 
 No, Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sospirò profondamente Albus Dumbledore.
@@ -1641,7 +1647,7 @@ desideri
  Lucius Malfoy stesso\SpecialChar ldots
  non condividerà il tuo desiderio di ragionare in quel
  modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1666,7 +1672,7 @@ Harry guardò il Preside, i suoi occhi che stavano diventando più freddi,
 \end_inset
 
 Rischia la pena di morte?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese pacatamente Harry, e brividi corsero lungo tutta la schiena di Minerva
@@ -1678,7 +1684,7 @@ Rischia la pena di morte?
 \end_inset
 
 No!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rispose Albus.
@@ -1688,7 +1694,7 @@ No!
 
 No, non il Bacio, non Azkaban, non per uno studente del primo anno a Hogwarts.
  Il nostro Paese non è così perduto, non ancora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1699,7 +1705,7 @@ No, non il Bacio, non Azkaban, non per uno studente del primo anno a Hogwarts.
 \end_inset
 
 Ma Lucius Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus inespressivo, 
@@ -1707,7 +1713,7 @@ Ma Lucius Malfoy
 \end_inset
 
 certamente non sarà soddisfatto dalla mera rottura della bacchetta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1718,7 +1724,7 @@ certamente non sarà soddisfatto dalla mera rottura della bacchetta
 \end_inset
 
 Va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con voce autorevole.
@@ -1732,7 +1738,7 @@ Per come la vedo io, abbiamo essenzialmente due direttrici d'attacco.
  Il professor Quirrell ha salvato la vita di Draco, questo crea un debito
  di sangue di Casa Malfoy nei suoi confronti che egli possa riscuotere per
  cancellare quello di Hermione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1747,7 +1753,7 @@ Minerva batté nuovamente le palpebre per la sorpresa.
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore.
@@ -1761,7 +1767,7 @@ No
  della vita possano essere state create intenzionalmente.
  E il Professore di Difesa difficilmente è al di sopra di ogni sospetto.
  Così argomenterebbe Lucius
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1784,7 +1790,7 @@ Preside, so che avevo detto che non l'avrei fatto – ma date le circostanze
 
 \emph default
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1795,7 +1801,7 @@ Preside, so che avevo detto che non l'avrei fatto – ma date le circostanze
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago (proprio mentre ella si lasciò scappare un 
@@ -1807,7 +1813,7 @@ No
 Cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e Severus sollevò un sopracciglio).
@@ -1827,7 +1833,7 @@ Non sarebbe stato un debito sufficiente, e ora non è affatto un debito.
 
 \emph default
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Albus esitò.
@@ -1838,7 +1844,7 @@ Non sarebbe stato un debito sufficiente, e ora non è affatto un debito.
 Harry\SpecialChar ldots
  qualsiasi cosa tu abbia fatto con Draco, devi presupporre che Lucius
  Malfoy ne venga presto a conoscenza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1851,7 +1857,7 @@ La testa di Harry sprofondò nelle sue mani.
 \end_inset
 
 Darà a Draco il Veritaserum
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1862,7 +1868,7 @@ Darà a Draco il Veritaserum
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sommessamente Albus.
@@ -1884,7 +1890,7 @@ Draco stava
 davvero
 \emph default
  cercando di aiutare la signorina Granger
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Severus.
@@ -1901,7 +1907,7 @@ davvero
 
 \emph default
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1912,7 +1918,7 @@ davvero
 \end_inset
 
 Cambiato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry tra le proprie mani.
@@ -1923,7 +1929,7 @@ Cambiato?
 Ero quasi a tre quarti dell'opera.
  Gli avevo insegnato l'Incantesimo Patronus e tutto il resto.
  Non so cosa accadrà ora, però
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1934,7 +1940,7 @@ Ero quasi a tre quarti dell'opera.
 \end_inset
 
 Voldemort ha portato un colpo durissimo contro di noi, oggi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus.
@@ -1966,7 +1972,7 @@ Harry
 ora
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1977,7 +1983,7 @@ ora
 \end_inset
 
 Forse è Tu-Sai-Chi e forse no
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce che suonò un po' incerta.
@@ -1986,7 +1992,7 @@ Forse è Tu-Sai-Chi e forse no
 \end_inset
 
 Non restringiamo prematuramente lo spazio delle ipotesi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2001,7 +2007,7 @@ L'altra cosa che possiamo provare a fare è inchiodare il colpevole prima
 qualcun altro
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2012,7 +2018,7 @@ qualcun altro
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Minerva, 
@@ -2026,7 +2032,7 @@ il professor Quirrell ha raccontato agli Auror che era a conoscenza di qualcuno
 lei
 \emph default
  di chi stava parlando?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2037,7 +2043,7 @@ lei
 \end_inset
 
 Sì
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, dopo un'esitazione.
@@ -2052,7 +2058,7 @@ Ma penso che condurrò quella parte della mia investigazione col Professore
 lui
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2063,7 +2069,7 @@ lui
 \end_inset
 
 Sospetta di me?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Severus, poi rise brevemente.
@@ -2072,7 +2078,7 @@ Sospetta di me?
 \end_inset
 
 Beh, ovviamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2083,7 +2089,7 @@ Beh, ovviamente
 \end_inset
 
 Il mio piano
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
@@ -2097,7 +2103,7 @@ Il mio piano
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2108,7 +2114,7 @@ Il mio piano
 \end_inset
 
 Quali investigatori Auror?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Severus inespressivo.
@@ -2135,7 +2141,7 @@ ore sono milleottocento minuti.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2151,7 +2157,7 @@ Albus\SpecialChar ldots
 
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ripeté monotonamente Minerva.
@@ -2162,7 +2168,7 @@ Albus\SpecialChar ldots
 \end_inset
 
 Non le ho inviate io
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose il vecchio mago.
@@ -2173,7 +2179,7 @@ Non le ho inviate io
 
 Non sapevo niente di questo.
  Pensi che sia stata manipolata, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2184,7 +2190,7 @@ Non sapevo niente di questo.
 \end_inset
 
 È una possibilità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry.
@@ -2194,7 +2200,7 @@ Non sapevo niente di questo.
 
 Ancora di più, perché c'è una parte di questo mistero che non conoscete
  ancora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2212,7 +2218,7 @@ Preside, lei sa già che ho ricevuto il mantello dell'invisibilità di mio
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2223,7 +2229,7 @@ Preside, lei sa già che ho ricevuto il mantello dell'invisibilità di mio
 \end_inset
 
 Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago, ed esitò per un momento.
@@ -2236,7 +2242,7 @@ Restituirti il mantello di tuo padre, non mi pare l'azione di un cattivo
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2251,7 +2257,7 @@ Restituirti il mantello di tuo padre, non mi pare l'azione di un cattivo
 Ascolti
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse con insistenza Harry Potter.
@@ -2273,7 +2279,7 @@ non
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2288,7 +2294,7 @@ non
 Signor Potter!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò la professoressa McGonagall, non aveva neppure pensato prima di parlare.
@@ -2305,7 +2311,7 @@ tentativo di rapimento!
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2320,7 +2326,7 @@ tentativo di rapimento!
 Sì
 \emph default
 , Professoressa, ho fatto la cosa ragionevole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente il ragazzo.
@@ -2343,7 +2349,7 @@ possibile
 \emph default
  che la persona che mi mandò la nota sia onesta, e che il posto a Londra
  sia solo una stazione intermedia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2371,7 +2377,7 @@ vivo
 \emph default
  in modo da poterlo presentare davanti al Wizengamot, non posso dare enfasi
  eccessiva a questa parte
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2389,7 +2395,7 @@ Avrò bisogno di un suo capello per la Polisucco, signor Potter
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2400,7 +2406,7 @@ Avrò bisogno di un suo capello per la Polisucco, signor Potter
 \end_inset
 
 Non precipitiamo le cose!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Albus.
@@ -2412,7 +2418,7 @@ Non abbiamo ancora esaminato le note inviate alla signorina Granger; potrebbe
  non esserci somiglianza, dopo tutto.
  Severus, entreresti nella sua stanza del dormitorio e vedresti se riesci
  a trovarle?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2431,7 +2437,7 @@ Pensa che due persone
 differenti
 \emph default
  se ne vadano per Hogwarts lasciando note sotto i cuscini?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2459,7 +2465,7 @@ citato in cap 86.
 
  Ma Preside – penso che il signor Potter abbia ragione e che dovrei seguire
  questo passaporta e vedere dove conduce
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2472,7 +2478,7 @@ Albus esitò, e poi annuì riluttante.
 \end_inset
 
 Ti parlerò prima che tu vada, allora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2522,7 +2528,7 @@ Prenderò un po' di Polisucco grezzo, aggiungerò il capello, e andrò.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2533,7 +2539,7 @@ Prenderò un po' di Polisucco grezzo, aggiungerò il capello, e andrò.
 \end_inset
 
 Albus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Minerva, sorpresa da quanto salda fosse la propria voce, 
@@ -2541,7 +2547,7 @@ Albus
 \end_inset
 
 hai lasciato tu quelle note sotto il cuscino del signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2560,7 +2566,7 @@ Dumbledore le rivolse un cenno d'assenso, sebbene il sorriso che l'accompagnò
 \end_inset
 
 Mi conosci troppo bene, mia cara
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2573,7 +2579,7 @@ Mi conosci troppo bene, mia cara
 E suppongo che il passaporta vada in una casa di amici dove il signor Potter
  sarebbe tenuto sano e salvo finché tu non arrivassi a prelevarlo e a riportarlo
  a Hogwarts, giusto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La sua voce era contratta – era sensato, non poteva negare che fosse sensato,
@@ -2585,7 +2591,7 @@ E suppongo che il passaporta vada in una casa di amici dove il signor Potter
 \end_inset
 
 Dipenderebbe dalle circostanze
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente il vecchio mago.
@@ -2601,7 +2607,7 @@ Se Harry giungesse a un tale passo – potrei lasciargli portare avanti la
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2612,7 +2618,7 @@ Se Harry giungesse a un tale passo – potrei lasciargli portare avanti la
 \end_inset
 
 E pensare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall, 
@@ -2622,7 +2628,7 @@ E pensare
 che avevo intenzione di rimproverare il signor Potter per non averci parlato
  di questa importante faccenda! Riprenderlo per non aver avuto il buon senso
  di fidarsi di noi!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La sua voce era salita di volume.
@@ -2631,7 +2637,7 @@ che avevo intenzione di rimproverare il signor Potter per non averci parlato
 \end_inset
 
 Tralascerò quella ramanzina, suppongo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2712,7 +2718,7 @@ L'aula di Divinazione era illuminata dalla fioca luce rossa di cento piccoli
 \end_inset
 
 La mietitrice!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la professoressa Trelawney con voce tremante, mentre sbirciava nella
@@ -2728,7 +2734,7 @@ La mietitrice! È un segno di morte! Qualcuno che conosci, George – qualcuno
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2757,7 +2763,7 @@ La botola sul pavimento si aprì d'improvviso con uno schianto che fece gridare
 \end_inset
 
 Fred!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse il vecchio mago in tono di comando.
@@ -2768,7 +2774,7 @@ Fred!
 \end_inset
 
 George! Con me, ora!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2788,7 +2794,7 @@ La botola si era appena richiusa rumorosamente sopra di loro che tutti i
 \end_inset
 
 Datemi la mappa!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2799,7 +2805,7 @@ Datemi la mappa!
 \end_inset
 
 M-mappa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Fred o George completamente sconvolto.
@@ -2813,7 +2819,7 @@ Perché, n-noi non sappiamo cosa lei stia
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2824,7 +2830,7 @@ Perché, n-noi non sappiamo cosa lei stia
 \end_inset
 
 Hermione Granger è nei guai
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago.
@@ -2835,7 +2841,7 @@ Hermione Granger è nei guai
 \end_inset
 
 La Mappa è nel nostro dormitorio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse immediatamente George o Fred.
@@ -2882,7 +2888,7 @@ Alcuni momenti dopo, Fred e George stavano consegnando la Mappa al Preside,
 \end_inset
 
 Deve dire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , spiegarono, 
@@ -2898,7 +2904,7 @@ giuro solennemente di non avere buone intenzioni
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2909,7 +2915,7 @@ giuro solennemente di non avere buone intenzioni
 \end_inset
 
 Mi rifiuto di mentire
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago.
@@ -2922,7 +2928,7 @@ Ascoltami, Hogwarts!
 Deligitor prodi!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Un istante dopo il Preside stava indossando il Cappello Smistatore, che
@@ -2956,7 +2962,7 @@ Il vecchio mago non sprecò un momento prima di togliersi il Cappello Smistatore
 
 Ve la restituirò dopo, figli di Weasley.
  Tornate a lezione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2967,7 +2973,7 @@ Ve la restituirò dopo, figli di Weasley.
 \end_inset
 
 Sì, Preside
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dissero, ed esitarono.
@@ -2981,7 +2987,7 @@ Ah – riguardo Hermione Granger, sarà davvero costretta a servire Draco Malfoy
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2996,7 +3002,7 @@ Ah – riguardo Hermione Granger, sarà davvero costretta a servire Draco Malfoy
 Andate
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago.
@@ -3034,7 +3040,7 @@ Il vecchio mago distese la mappa, vi si piegò sopra, e sussurrò,
 \end_inset
 
 Trova Tom Riddle
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3098,7 +3104,7 @@ L'Auror di guardia fuori dalla stanza aveva furtivamente cercato di annullare
 
 Quirinus\SpecialChar ldots
  Quirrell
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse strascicando l'uomo che in quel momento era seduto dalla parte opposta
@@ -3123,7 +3129,7 @@ Dopo aver sfogliato ancora un po' le pergamene, in totale silenzio, l'Auror
 Nato il 26 settembre del 1955, da Quonda Quirrell, in seguito a una relazione
  riconosciuta con Lirinus Lumblung\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  intonò l'Auror.
@@ -3156,7 +3162,7 @@ m.a.g.o.
 Texas
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3170,7 +3176,7 @@ Cosa ci faceva
 lì
 \emph default
 , signor Quirrell?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3181,7 +3187,7 @@ lì
 \end_inset
 
 Un giro turistico, per lo più in aree babbane
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse tranquillamente il Professore di Difesa.
@@ -3190,7 +3196,7 @@ Un giro turistico, per lo più in aree babbane
 \end_inset
 
 Come ha detto lei, sono un considerevole viaggiatore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3204,7 +3210,7 @@ L'uomo ascoltò accigliato, poi tornò a guardare in basso, poi di nuovo in
 \end_inset
 
 Vedo anche che ha visitato Fuyuki City nel 1983
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3217,7 +3223,7 @@ Il Professore di Difesa alzò un sopracciglio leggermente sorpreso.
 \end_inset
 
 E dunque?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3228,7 +3234,7 @@ E dunque?
 \end_inset
 
 Cos'ha fatto a Fuyuki City?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La domanda uscì di scatto affilata come un rasoio.
@@ -3243,7 +3249,7 @@ Il Professore di Difesa si accigliò appena.
 Nulla di alcuna importanza.
  Ho visitato alcune attrazioni molto conosciute, alcune attrazioni meno
  conosciute, e a parte ciò, me ne sono stato da solo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3254,7 +3260,7 @@ Nulla di alcuna importanza.
 \end_inset
 
 Davvero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  l'Auror disse a voce bassa.
@@ -3263,7 +3269,7 @@ Davvero?
 \end_inset
 
 Trovo questa risposta piuttosto interessante
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3274,7 +3280,7 @@ Trovo questa risposta piuttosto interessante
 \end_inset
 
 In che modo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3285,7 +3291,7 @@ In che modo?
 \end_inset
 
 Perché non c'era elencato alcun visto per Fuyuki City
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3300,7 +3306,7 @@ Lei non è Quirinus Quirrell.
 diavolo
 \emph default
  è lei?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3406,7 +3412,7 @@ Il Professore di Difesa era tranquillamente seduto con le mani ancora raccolte
 \end_inset
 
 Se consultasse il preside Dumbledore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, 
@@ -3420,7 +3426,7 @@ scoprirebbe che è ben informato di questa faccenda, e che ho accettato di
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3437,7 +3443,7 @@ Con un movimento fulmineo, l'esaminatore estrasse la propria bacchetta ed
 Polyfluis Reverso!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  proprio mentre il Professore di Difesa starnutiva, cosa che in qualche
@@ -3450,7 +3456,7 @@ Polyfluis Reverso!
 \end_inset
 
 Chiedo scusa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse educatamente il Professore di Difesa.
@@ -3465,7 +3471,7 @@ Il sorriso che gli rivolse l'Auror non aveva assolutamente alcuna allegria.
 Quindi dov'è il vero Quirinus Quirrell, eh? Sotto un Imperius sul fondo
  di un baule da qualche parte, mentre gli prende un capello una volta ogni
  tanto per la sua Polisucco illegale?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3476,7 +3482,7 @@ Quindi dov'è il vero Quirinus Quirrell, eh? Sotto un Imperius sul fondo
 \end_inset
 
 Sta facendo delle supposizioni altamente discutibili
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa con una voce che tendeva all'irritato.
@@ -3486,7 +3492,7 @@ Sta facendo delle supposizioni altamente discutibili
 
 Cosa le fa pensare che non mi sia direttamente impadronito del suo corpo
  usando magie incredibilmente Oscure?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3501,7 +3507,7 @@ A questo fece seguito una certa pausa.
 \end_inset
 
 Suggerisco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse l'Auror, 
@@ -3509,7 +3515,7 @@ Suggerisco
 \end_inset
 
 che lei prenda la faccenda seriamente, signor Chiunque-Tu-Sia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3520,7 +3526,7 @@ che lei prenda la faccenda seriamente, signor Chiunque-Tu-Sia
 \end_inset
 
 Mi dispiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa, appoggiandosi alla sedia, 
@@ -3529,7 +3535,7 @@ Mi dispiace
 
 ma vedo pochi motivi per sminuirmi in questa particolare occasione.
  Cos'ha intenzione di fare, uccidermi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3540,7 +3546,7 @@ ma vedo pochi motivi per sminuirmi in questa particolare occasione.
 \end_inset
 
 Non apprezzo il suo umorismo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sottovoce l'Auror.
@@ -3551,7 +3557,7 @@ Non apprezzo il suo umorismo
 \end_inset
 
 Mi rincresce per lei, Rufus Scrimgeour
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Professore di Difesa.
@@ -3560,7 +3566,7 @@ Mi rincresce per lei, Rufus Scrimgeour
 \end_inset
 
 Ha la mia più profonda simpatia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3611,7 +3617,7 @@ Hermione non lo
 farebbe!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Mandy Brocklehurst, che era praticamente in lacrime, in effetti 
@@ -3634,7 +3640,7 @@ cose
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3649,7 +3655,7 @@ Il nostro Generale non lo farebbe
 mai!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Kevin Entwhistle strillò ancor più forte di Mandy.
@@ -3660,7 +3666,7 @@ mai!
 \end_inset
 
 Invece sì!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  urlò Anthony Goldstein.
@@ -3673,7 +3679,7 @@ Malfoy è il figlio di un
 Mangiamorte!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3735,7 +3741,7 @@ barato
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3752,7 +3758,7 @@ state zitti!
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì Harry Potter, mentre colpì la tavola così forte con i pugni che i
@@ -3769,7 +3775,7 @@ In qualunque altro momento gli avrebbe causato una ramanzina da parte dei
 \end_inset
 
 Volevo pranzare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, 
@@ -3785,7 +3791,7 @@ stupidi
  avete detto di persone innocenti.
  Draco non ha fatto niente, Hermione non ha fatto niente, sono stati entrambi
  vittime di un Incantesimo del Falso Ricordo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Harry Potter si era alzata su quelle ultime parole.
@@ -3802,7 +3808,7 @@ dannatamente ovvio
 ?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3817,7 +3823,7 @@ Pensi che ci
 crederemo?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gli rispose gridando Kevin Entwhistle.
@@ -3831,7 +3837,7 @@ crederemo?
 stupidi?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3850,7 +3856,7 @@ L'espressione che spuntò sul viso di Harry Potter fece trasalire Padma.
 \end_inset
 
 Capisco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter, e non fu un urlo, così Padma dovette sforzarsi per
@@ -3905,7 +3911,7 @@ pattern-matches
 sempliciotti
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3920,7 +3926,7 @@ Che stai
 blaterando?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Morag, guardando dall'alto in basso il Ragazzo-Che-È-Sopravvissuto.
@@ -3935,7 +3941,7 @@ Pensi che crederemo a qualsiasi cosa
 tu
 \emph default
  dica?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò una strega Corvonero appena più grande che Padma non riconobbe.
@@ -3948,7 +3954,7 @@ Quando sei stato
 tu
 \emph default
  a rendere Oscura Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3959,7 +3965,7 @@ tu
 \end_inset
 
 E non ho intenzione di lamentarmi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry Potter con una voce misteriosamente calma, 
@@ -3981,7 +3987,7 @@ occhiata
 insolitamente
 \emph default
  cattive, quindi non ho intenzione di lamentarmi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -3991,7 +3997,7 @@ insolitamente
 \end_inset
 
 A dopo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -4010,7 +4016,7 @@ Non stai pensando che abbia
 ragione
 \emph default
 , vero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Su Li accanto a lei, con un tono che rendeva palese cosa 
@@ -4029,7 +4035,7 @@ Io
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Padma.
@@ -4044,7 +4050,7 @@ Io – voglio dire – io
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
