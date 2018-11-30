@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -81,6 +81,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -110,6 +112,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -124,7 +127,10 @@ initials
 \tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -209,7 +215,7 @@ Appena fuori dalla porta della camera, la professoressa McGonagall lo stava
 \end_inset
 
 Queste monete sono di metallo puro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  domandò infine Harry.
@@ -220,7 +226,7 @@ Queste monete sono di metallo puro?
 \end_inset
 
 Cosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sibilò il goblin Griphook, che stava attendendo vicino alla porta.
@@ -229,7 +235,7 @@ Cosa?
 \end_inset
 
 Sta mettendo in dubbio l'integrità di Gringotts, signor Potter-Evans-Verres?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -240,7 +246,7 @@ Sta mettendo in dubbio l'integrità di Gringotts, signor Potter-Evans-Verres?
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry con aria assente, 
@@ -250,7 +256,7 @@ No
 affatto, mi dispiace se mi sono espresso male, signore.
  È solo che non ho nessuna idea di come funzioni il vostro sistema finanziario.
  Sto chiedendo se i galeoni in generale sono fatti d'oro puro.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -261,7 +267,7 @@ affatto, mi dispiace se mi sono espresso male, signore.
 \end_inset
 
 Naturalmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Griphook.
@@ -273,7 +279,7 @@ Naturalmente
 
 E può coniarli chiunque, o sono emessi da un monopolio che di conseguenza
  riscuote il signoraggio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -284,7 +290,7 @@ E può coniarli chiunque, o sono emessi da un monopolio che di conseguenza
 \end_inset
 
 Cosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la professoressa McGonagall.
@@ -297,7 +303,7 @@ Griphook sorrise, mostrando i denti appuntiti.
 \end_inset
 
 Solo un folle si fiderebbe di qualcosa di diverso dall'oro dei goblin!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -308,7 +314,7 @@ Solo un folle si fiderebbe di qualcosa di diverso dall'oro dei goblin!
 \end_inset
 
 In altre parole
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
@@ -316,7 +322,7 @@ In altre parole
 \end_inset
 
 le monete non valgono più del metallo con cui sono coniate?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -333,7 +339,7 @@ Griphook fissò Harry.
 
 Voglio dire, supponga che venga qui con una tonnellata di argento.
  Potrei farmici coniare una tonnellata di sicli?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -344,7 +350,7 @@ Voglio dire, supponga che venga qui con una tonnellata di argento.
 \end_inset
 
 In cambio di una commissione, signor Potter-Evans-Verres.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il goblin lo guardò con occhi che brillavano.
@@ -354,7 +360,7 @@ In cambio di una commissione, signor Potter-Evans-Verres.
 
 In cambio di una certa commissione.
  Dove intende trovare una tonnellata di argento, mi chiedo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -365,7 +371,7 @@ In cambio di una certa commissione.
 \end_inset
 
 Stavo parlando ipoteticamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -380,7 +386,7 @@ Per ora, ad ogni modo.
 
 Allora\SpecialChar ldots
  quanto chiedereste di commissione, come frazione del peso complessivo?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -394,7 +400,7 @@ Gli occhi di Griphook erano attenti.
 
 Dovrei consultare i miei superiori\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -406,7 +412,7 @@ Dovrei consultare i miei superiori\SpecialChar ldots
 
 Mi dia una stima.
  Non considererò Gringotts vincolata ad essa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -417,7 +423,7 @@ Mi dia una stima.
 \end_inset
 
 La ventesima parte del metallo potrebbe ben pagare la coniazione.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -430,7 +436,7 @@ Harry annuì.
 \end_inset
 
 La ringrazio molto, signor Griphook.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -512,7 +518,7 @@ Quando fu arrivato a venti, la professoressa McGonagall tossì.
 
 Credo che quelle saranno più che sufficienti per pagare il suo corredo scolastic
 o, signor Potter.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -523,7 +529,7 @@ o, signor Potter.
 \end_inset
 
 Uhm?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry, con la mente altrove.
@@ -532,7 +538,7 @@ Uhm?
 \end_inset
 
 Aspetti, sto facendo una stima di Fermi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -547,7 +553,7 @@ Una
 cosa?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la professoressa McGonagall, sembrando piuttosto preoccupata.
@@ -561,7 +567,7 @@ cosa?
  Prende il nome da Enrico Fermi.
  Un modo di manipolare mentalmente quantità approssimative\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -607,7 +613,7 @@ Mi scusi se glielo chiedo, professoressa McGonagall, ma mi pare di capire
 normale
 \emph default
  da tenere in deposito per una giovane coppia, nel mondo dei maghi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Se lo fosse stata, probabilmente una tazza di tè costava cinquemila sterline.
@@ -623,7 +629,7 @@ La professoressa McGonagall scosse la testa.
 Suo padre era l'ultimo erede di un'antica famiglia, signor Potter.
  È anche possibile\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La strega esitò.
@@ -635,7 +641,7 @@ Parte di questo denaro potrebbe provenire dalle taglie poste su Tu-Sai-Chi,
  riscuotibili dal suo uccis– ah, da chiunque l'abbia sconfitto.
  O quelle taglie potrebbero non essere state ancora riscosse.
  Non ne sono sicura.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -647,7 +653,7 @@ Parte di questo denaro potrebbe provenire dalle taglie poste su Tu-Sai-Chi,
 
 Interessante\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Harry lentamente.
@@ -660,7 +666,7 @@ Quindi parte di questo denaro è davvero, in un certo senso, mio.
  Più o meno.
  Forse.
  Anche se non ne ricordo le circostanze.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Le dita di Harry tamburellarono sulla gamba del suo pantalone.
@@ -674,7 +680,7 @@ una frazione davvero minuscola! Non si faccia prendere dal panico, professoressa
  McGonagall!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -694,7 +700,7 @@ ragionevoli
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -723,7 +729,7 @@ sensati
 \emph default
 \SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -739,7 +745,7 @@ Harry resse lo sguardo della professoressa McGonagall, ingaggiando con lei
 \end_inset
 
 Tipo cosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse infine la professoressa.
@@ -750,7 +756,7 @@ Tipo cosa?
 \end_inset
 
 Bauli il cui interno contiene più del loro esterno?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -767,7 +773,7 @@ Sono
 molto
 \emph default
  costosi, signor Potter!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -782,7 +788,7 @@ Sì, ma
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  supplicò Harry.
@@ -809,7 +815,7 @@ molto
  spazio all'interno, abbastanza buono da non doverne prendere uno migliore
  dopo\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry lasciò in sospeso la frase speranzoso.
@@ -849,7 +855,7 @@ mbox{--»}
 \end_inset
 
 Libri.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -860,7 +866,7 @@ Libri.
 \end_inset
 
 Naturalmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , sospirò la professoressa McGonagall.
@@ -887,7 +893,7 @@ freneticamente
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -906,7 +912,7 @@ Signor Potter!
 corrompere?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -937,7 +943,7 @@ libri
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -948,7 +954,7 @@ libri
 \end_inset
 
 Una tradizione di famiglia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -956,7 +962,7 @@ Una tradizione di famiglia.
 
 \begin_layout Standard
 «Sì, proprio così.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -972,7 +978,7 @@ Il corpo della professoressa McGonagall sembrò crollare, le spalle le si
 Non posso negare il buon senso delle sue parole, anche se vorrei poterlo
  fare.
  Le permetterò di prelevare un centinaio di galeoni in più, signor Potter.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Sospirò di nuovo.
@@ -985,7 +991,7 @@ Non posso negare il buon senso delle sue parole, anche se vorrei poterlo
 So
 \emph default
  che mi pentirò questo, e lo sto facendo lo stesso.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -996,7 +1002,7 @@ So
 \end_inset
 
 Questo è lo spirito! E una `borsa mokeskin' fa quello che penso che faccia?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1007,7 +1013,7 @@ Questo è lo spirito! E una `borsa mokeskin' fa quello che penso che faccia?
 \end_inset
 
 Non altrettanto bene come un baule
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega con visibile riluttanza, 
@@ -1022,7 +1028,7 @@ ma\SpecialChar ldots
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1043,7 +1049,7 @@ libri!
  e potrei tirarne uno fuori ovunque! Non dovrò mai più sprecare un altro
  minuto della mia vita! Che ne dice, professoressa McGonagall? È per promuovere
  la lettura tra i bambini, la miglior causa possibile.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1055,7 +1061,7 @@ libri!
 
 \SpecialChar ldots
  Suppongo che possa prelevare altri dieci galeoni.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1073,7 +1079,7 @@ Griphook stava indirizzando a Harry uno sguardo di sincero rispetto, forse
 E qualche spicciolo, come ha detto prima lei.
  Credo di ricordare di aver visto una o due cose che potrei voler custodire
  in quella borsa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1088,7 +1094,7 @@ E qualche spicciolo, come ha detto prima lei.
 Non tiri troppo la corda, signor Potter
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1111,7 +1117,7 @@ e esigua della ricchezza che ho guadagnato sconfiggendo il più terribile
  mago che la Gran Bretagna abbia mai conosciuto, non che la stia accusando
  di essere ingrata o altro, eppure, cosa sono alcuni giocattoli rispetto
  a quello?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1133,7 +1139,7 @@ Tu
 
 Farei un grande servizio alla Gran Bretagna magica, signor Potter, se la
  chiudessi in questa camera di sicurezza e me ne andassi senza di lei.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 

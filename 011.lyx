@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -77,6 +77,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -106,6 +108,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -120,7 +123,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -186,7 +192,7 @@ Omake
 \end_inset
 
 Cosa succede se cambi Harry ma lasci tutti gli altri personaggi uguali
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 )
@@ -211,7 +217,7 @@ troppo
 \end_inset
 
 Cos'è che mi volevi dire, Harry?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -246,7 +252,7 @@ possa
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -286,7 +292,7 @@ Lee Jordan è il compagno di scherzi di Fred e George (nel canone).
 \end_inset
 
 Lee Jordan
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  mi suonava come un nome babbano e questo implicava che sarebbe stato in
@@ -355,7 +361,7 @@ E là al tavolo Grifondoro, era in atto una conversazione bisbigliata.
 E se non gli piacesse?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -376,7 +382,7 @@ Non ha alcun diritto di non farselo piacere
 –
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -397,7 +403,7 @@ Non ha alcun diritto di non farselo piacere
 –
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -418,7 +424,7 @@ Non ha alcun diritto di non farselo piacere
 –
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -435,7 +441,7 @@ Non ha alcun diritto di non farselo piacere
 – è un bersaglio più che legittimo ora.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -453,7 +459,7 @@ Va bene.
  Solo assicuratevi di non dimenticare le vostre parti
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -474,7 +480,7 @@ Abbiamo provato a sufficienza
 –
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -491,7 +497,7 @@ Abbiamo provato a sufficienza
 – nelle ultime tre ore.
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -522,7 +528,7 @@ oh per favore
 \end_inset
 
 Potter, Harry!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -590,7 +596,7 @@ Sul motivo di
 \end_inset
 
 Ghostbusters
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -645,7 +651,7 @@ C'è un Signore Oscuro vicino? / Non hai niente da temere.
 Harry Potter!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Lee Jordan, e i gemelli Weasley eseguirono un coro trionfante.
@@ -692,7 +698,7 @@ Con una Maledizione Mortale? / Beh potrebbe andare peggio.
 Harry Potter!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Ci furono molte più voci che gridarono questa volta.
@@ -848,6 +854,7 @@ Harry Potter!
 \noun default
 
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -909,7 +916,7 @@ status open
 
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1088,7 +1095,7 @@ L'offerta di rivelare l'intera trama a chiunque avesse indovinato cosa
 \end_inset
 
 non è mai avvenuto prima
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1111,7 +1118,7 @@ N.d.T.: qui l'autore si riferisce alle parole finali del capitolo 9.
 \end_inset
 
 non è mai avvenuto prima
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , il terzo è una combinazione di yoyoente e dougal74, il quarto è basato
@@ -1239,7 +1246,7 @@ No.
  No
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e poi ad alta voce, 
@@ -1251,7 +1258,7 @@ No.
 Corvonero
 \noun default
 !
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1283,7 +1290,7 @@ Oh, cielo.
 
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1311,7 +1318,7 @@ Sono allergico al tuo shampoo
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1329,7 +1336,7 @@ E allora il Cappello Smistatore starnutì, con un potente
 et-ciuuu
 \noun default
 !
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  che echeggiò nella Sala Grande.
@@ -1342,7 +1349,7 @@ et-ciuuu
 \end_inset
 
 Bene!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Dumbledore gioviale.
@@ -1364,7 +1371,7 @@ Et-ciuuu
 Et-ciuuu
 \noun default
 , domani è il primo giorno!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1377,7 +1384,7 @@ Et-ciuuu
 \end_inset
 
 Ma, ma, ma
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , balbettò McGonagall, la sua mente in un disordine quasi completo, 
@@ -1385,7 +1392,7 @@ Ma, ma, ma
 \end_inset
 
 chi sarà il Preside di Casa Grifondoro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Fu tutto quello a cui fu in grado di pensare, 
@@ -1405,7 +1412,7 @@ Dumbledore portò un dito alla guancia, sembrando pensieroso.
 \end_inset
 
 Snape.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1424,7 +1431,7 @@ Allora chi sarà il Preside di
 Serpeverde?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1437,7 +1444,7 @@ Serpeverde?
 \end_inset
 
 Hagrid.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1518,7 +1525,7 @@ Il Cappello Smistatore urlò, un terribile suono ad alta frequenza che echeggiò
 Serpeverde!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1542,7 +1549,7 @@ Vedendo lo sguardo di orrore sul volto di Harry Potter, Fred Weasley pensò
 Silencio!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e poi 
@@ -1554,7 +1561,7 @@ Silencio!
 Cambialamiavoceio!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e infine 
@@ -1564,7 +1571,7 @@ Cambialamiavoceio!
 
 \emph on
 Ventriliquo!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1577,7 +1584,7 @@ Ventriliquo!
 \end_inset
 
 Stavo scherzando!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Fred Weasley.
@@ -1590,7 +1597,7 @@ Stavo scherzando!
 Grifondoro!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1622,7 +1629,7 @@ Oh, cielo.
 
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1649,7 +1656,7 @@ Normalmente riferirei queste domande al Preside, che le chiederebbe a sua
  tuo livello di utente, ma oltre quello del Preside
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1674,7 +1681,7 @@ Sono spiacente, non sono autorizzato a rispondere a quella domanda al tuo
  attuale livello di utente
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1712,7 +1719,7 @@ Dopo di che non ci volle molto
 Root
 \noun default
 !
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1750,7 +1757,7 @@ Oh, cielo.
 
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1776,7 +1783,7 @@ Ho dovuto dire in passato ad alcune studentesse che erano madri – ti si
  è la prima volta che devo dire a qualcuno che è padre
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1800,7 +1807,7 @@ Cosa?
 Draco Malfoy aspetta tuo figlio
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1825,7 +1832,7 @@ Coooooosa?
 Ripeto: Draco Malfoy aspetta tuo figlio
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1853,7 +1860,7 @@ Ma abbiamo solo undici anni
 In verità Draco è segretamente tredicenne
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1881,7 +1888,7 @@ M-m-ma gli uomini non possono rimanere incinti
 E una ragazza, sotto quegli abiti
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1908,7 +1915,7 @@ Ti ha Obliato dopo la violenza, imbecille!
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1932,7 +1939,7 @@ Harry Potter svenne.
 Corvonero!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  dichiarò il Cappello che si trovava ancora sul suo capo.
@@ -1969,7 +1976,7 @@ Corvonero!
 Elfo!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1992,7 +1999,7 @@ N.d.T.: gioco di parole intraducibile.
 \end_inset
 
 elfo domestico
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2038,7 +2045,7 @@ A giudicare dagli sguardi inorriditi che spuntavano sui volti attorno a
 Savoia!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2053,7 +2060,7 @@ N.d.T.: La battuta originale era
 \end_inset
 
 Representatives
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e faceva riferimento al fatto che negli Stati Uniti la 
@@ -2061,7 +2068,7 @@ Representatives
 \end_inset
 
 House of Representatives
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è la 
@@ -2069,7 +2076,7 @@ House of Representatives
 \end_inset
 
 Camera dei Deputati
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -2106,7 +2113,7 @@ Oh, cielo.
 
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2139,7 +2146,7 @@ e
  Naruto
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2169,7 +2176,7 @@ e
 Atreide!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2199,7 +2206,7 @@ Vi ho ingannati ancora!
 Tassofrasso! Serpeverde! Tassofrasso!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2229,7 +2236,7 @@ Tassofrasso! Serpeverde! Tassofrasso!
 Tiello!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2259,7 +2266,7 @@ Tiello!
 Khaaannnn!
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2399,7 +2406,7 @@ Il silenzio impaurito fu rotto da una parola sola.
 \end_inset
 
 Preside!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiamò il Cappello Smistatore.
@@ -2414,7 +2421,7 @@ Al Tavolo d'onore, Dumbledore si alzò, il suo volto disorientato.
 \end_inset
 
 Sì?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse al Cappello.
@@ -2423,7 +2430,7 @@ Sì?
 \end_inset
 
 Cosa c'è?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2436,7 +2443,7 @@ Cosa c'è?
 \end_inset
 
 Non stavo parlando con te
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose il Cappello.
@@ -2450,7 +2457,7 @@ Stavo Smistando Harry Potter nel posto di Hogwarts cui più appartiene, vale
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 

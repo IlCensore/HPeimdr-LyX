@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -29,6 +29,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -58,6 +60,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -73,7 +76,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
@@ -128,7 +134,7 @@ Non potevi mai sapere quale minuscolo evento potesse sconvolgere il corso
 \end_inset
 
 Abbott, Hannah!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -519,7 +525,7 @@ o verso il quinto vagone dalla testa e il quarto scompartimento a sinistra,
 \end_inset
 
 Malfoy, Draco!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  andò a Serpeverde, e Harry fece un piccolo sospiro di sollievo.
@@ -548,7 +554,7 @@ La professoressa McGonagall chiamò
 \end_inset
 
 Perks, Sally-Anne!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e dal gruppo di bambini si staccò una ragazzina pallida e smarrita che
@@ -565,7 +571,7 @@ E poi (con una nota di trepidazione tenuta così saldamente lontana da voce
 \end_inset
 
 Potter, Harry!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -607,7 +613,7 @@ Si sbarazzò immediatamente di quella sensazione.
 \end_inset
 
 Harry Potter!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò la voce di Fred o George Weasley, e poi 
@@ -615,7 +621,7 @@ Harry Potter!
 \end_inset
 
 Harry Potter!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò l'altro gemello Weasley, e un attimo dopo l'intero tavolo Grifondoro,
@@ -638,8 +644,6 @@ E Harry Potter avanzò.
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -690,7 +694,7 @@ Con un largo sorriso, girando la testa per salutare da un lato e poi dall'altro
 Salvaci da altri Signori Oscuri!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  esclamò uno dei gemelli Weasley, e poi l'altro gemello Weasley gridò, 
@@ -702,7 +706,7 @@ Salvaci da altri Signori Oscuri!
 Soprattutto se sono professori!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  per le risate generali di tutti i tavoli tranne quello Serpeverde.
@@ -741,8 +745,6 @@ Il volto di Snape era andato oltre la rabbia, in una sorta di piacevole
 
 \begin_layout Standard
 \align center
-
-
 \begin_inset Graphics
 	filename fleur.png
 	scale 50
@@ -928,7 +930,7 @@ Oh, cielo.
  Questo non era mai successo prima d'ora...
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
