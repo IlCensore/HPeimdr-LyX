@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{79}
@@ -65,16 +67,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans EB Garamond
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "EB Garamond"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -104,6 +108,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -118,7 +123,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -155,6 +163,7 @@ name "chap:80Sdt-PtII-alone"
 \end_layout
 
 \begin_layout Standard
+\noindent
 L'Antichissima Sala del Wizengamot è fredda e buia, con semicerchi concentrici
  di pietra che sorgono dalla parte centrale che si trova più in basso, e
  semplici panche di legno che poggiano su quei semicerchi elevati.
@@ -183,10 +192,10 @@ Questa è la Sala del Wizengamot; ci sono luoghi più vecchi, ma sono nascosti.
  della sua magia, allora (racconta la storia) Merlino sacrificò la propria
  vita, e la propria magia, e il proprio tempo, per porre in effetto l'Interdetto
  di Merlino.
- Non fu un gesto senza costi, poiché un luogo come questo non potrebbe essere
+ Non fu un gesto gratuito, poiché un luogo come questo non potrebbe essere
  eretto nuovamente da alcun potere ancora noto alla genìa dei maghi.
  Né distrutto, poiché quelle mura di pietra scura attraverserebbero incolumi,
- e forse senza neppure riscaldarsi, il cuore di una esplosione nucleare.
+ e forse senza neppure riscaldarsi, il cuore di un'esplosione nucleare.
  È un peccato che nessuno sappia più come realizzarle.
 \end_layout
 
@@ -203,12 +212,11 @@ Nel più elevato dei semicerchi ascendenti del Wizengamot, sul più alto livello
  Linea Ininterrotta di Merlino, lo strumento dello Stregone Capo.
  Karen Dutton lasciò la Linea in eredità ad Albus Dumbledore durante l'ultimo
  giorno della propria vita, poche ore dopo che egli era tornato mezzo morto
- dalla sua vittoria su Grindelwald con una fenice brillantemente divampante
- al suo fianco.
+ dalla sua vittoria su Grindelwald con una fenice divampante al suo fianco.
  A sua volta ella aveva ricevuto la Linea dal perfezionista Nicodemus Capernaum,
- ciascun mago che l'aveva passata al proprio successore designato, sempre
- più indietro in una catena ininterrotta fino al giorno in cui Merlino sacrificò
- la propria vita.
+ ogni mago l'aveva passata al proprio successore designato, sempre più indietro
+ in una catena ininterrotta fino al giorno in cui Merlino sacrificò la propria
+ vita.
  Fu così (nel caso ve lo steste chiedendo) che il Paese della Gran Bretagna
  magica riuscì a eleggere Cornelius Fudge come proprio Ministro, eppure
  si ritrovò con Albus Dumbledore come Stregone Capo.
@@ -217,7 +225,7 @@ Nel più elevato dei semicerchi ascendenti del Wizengamot, sul più alto livello
  che dovrà presiedere alle sue follie.
  Sin dal giorno del sacrificio di Merlino, il dovere più importante dello
  Stregone Capo è stato quello di esercitare la massima cautela nella sua
- scelta di persone che fossero sia buone che capaci di riconoscere buoni
+ scelta di persone che fossero sia buone sia capaci di riconoscere buoni
  successori.
  Ci si aspetterebbe che questa catena luminosa perdesse colpi, in qualche
  punto lungo i secoli; che si smarrisse almeno una volta, e poi mai tornasse
@@ -250,7 +258,7 @@ L'edificio del Ministero che è cresciuto attorno a questo luogo è rivestito
 
 \begin_layout Standard
 Fanno solennemente il loro ingresso in questa aula streghe e maghi con vesti
- color prugna, ciascuna ricamata con una `
+ color prugna, ricamate con una `
 \noun on
 w
 \noun default
@@ -259,7 +267,7 @@ w
  essere terribilmente, terribilmente importanti.
  Si stanno incontrando nell'Antichissima Sala, dopo tutto.
  Sono i Lord e le Lady del Wizengamot, e si considerano le più grandi personalit
-à del Paese più grande del mondo magico.
+à del più grande Paese del mondo magico.
  Persone meno importanti hanno piegato il ginocchio supplichevoli davanti
  a loro; essi sono potenti, essi sono ricchi, essi sono nobili; non sono
  forse grandi?
@@ -269,7 +277,7 @@ w
 Albus Dumbledore conosce tutti per nome, in questa stanza.
  Ha insegnato a molti di loro, sebbene troppo pochi abbiano imparato.
  Alcuni sono suoi alleati, alcuni suoi oppositori, il resto egli corteggia
- all'interno dell'attenta danza della loro neutralità.
+ nel corso dell'attenta danza della loro neutralità.
  Tutti loro, per lui, sono persone.
 \end_layout
 
@@ -278,15 +286,15 @@ L'attuale Professore di Difesa di Hogwarts, se gli chiedeste la sua opinione
  sui Lord e le Lady, direbbe che mentre molti di loro sono ambiziosi, pochi
  hanno qualche ambizione.
  E osserverebbe che il Wizengamot è esattamente il posto in cui persone
- simili finirebbero -- che è esattamente il genere di opportunità che afferreres
-ti, se non avessi niente di meglio da fare.
+ simili finirebbero – che è esattamente il genere di opportunità che coglieresti
+, se non avessi niente di meglio da fare.
  Queste persone sono raramente interessanti, ma sono spesso utili; pezzi
  da manipolare, punti da segnare, da parte dei veri attori del gioco.
 \end_layout
 
 \begin_layout Standard
 Non all'interno dei semicerchi ascendenti, ma un po' di lato all'interno
- di un arcata sopraelevata per gli spettatori, vicino a una strega con un
+ di un'arcata sopraelevata per gli spettatori, vicino a una strega con un
  cappello a punta il cui volto è solcato da rughe di preoccupazione, siede
  un ragazzo vestito con le vesti nere più formali che possiede.
  I suoi occhi sono ghiaccio verde e astrazione, e rivolgono a malapena il
@@ -298,7 +306,7 @@ Non all'interno dei semicerchi ascendenti, ma un po' di lato all'interno
 \end_inset
 
 il Wizengamot
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -306,8 +314,8 @@ il Wizengamot
  ma non l'attributo di agente individuale; i loro obiettivi sono troppo
  estranei e triviali affinché essi abbiano ruoli individuali nel racconto.
  Ora, in questo particolare momento, al ragazzo le vesti color prugna non
- piacciono né dispiacciono, perché il suo cervello non assegna loro sufficiente
- qualità di agente per essere i soggetti di un giudizio morale.
+ piacciono né dispiacciono, perché il suo cervello non assegna loro qualità
+ di agente sufficiente per essere i soggetti di un giudizio morale.
  Egli è un 
 \noun on
 pg
@@ -332,25 +340,11 @@ Questa visione sta per cambiare.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Harry guardò senza osservare la sala del Wizengamot; sembrava piuttosto
- vecchia e storica e non c'era dubbio che Hermione avrebbe potuto tenergli
- una conferenza sul quel posto per ore e ore.
+ vecchia e storica e non c'era dubbio che Hermione avrebbe potuto tenere
+ una conferenza sul quel luogo per ore e ore.
  Le vesti color prugna avevano smesso di arrivare, e l'orologio da tasca
- di Harry, anticipando al tasso di tre minuti ogni mezz'ora, disse che il
+ di Harry, in anticipo al ritmo di tre minuti ogni mezz'ora, disse che il
  processo era quasi in procinto di iniziare.
 \end_layout
 
@@ -374,7 +368,7 @@ Gazzetta del Profeta
 Nata babbana pazza cerca di porre fine ad antica discendenza
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e il resto del giornale era stato simile.
@@ -389,12 +383,13 @@ tv
 \noun default
  tutti i politici che facevano a gara a chi fosse il più veementemente oltraggia
 to.
- E a Harry era venuto il pensiero -- anche allora, prima di sapere abbastanza
- di psicologia -- che sembrava che 
+ E a Harry era venuto il pensiero – anche allora, prima di sapere abbastanza
+ di psicologia – che apparentemente 
 \emph on
 tutti
 \emph default
- gareggiassero per vedere chi potesse essere più arrabbiato, e che a 
+ stessero gareggiando per vedere chi riuscisse a essere più arrabbiato,
+ e che a 
 \emph on
 nessuno
 \emph default
@@ -405,9 +400,9 @@ troppo
  arrabbiato, anche se avessero appena suggerito il bombardamento nucleare
  a tappeto dell'Irlanda.
  Era stato colpito, anche allora, dall'essenziale vacuità dell'indignazione
- dei politici -- sebbene non avesse le parole per descriverla, a quell'età
- -- una sensazione che stessero cercando di ottenere un facile consenso
- attaccando lo stesso bersaglio sicuro come chiunque altro.
+ dei politici – sebbene non avesse le parole per descriverla, a quell'età
+ – una sensazione che stessero cercando di ottenere un facile consenso attaccand
+o lo stesso bersaglio sicuro come stava facendo chiunque altro.
 \end_layout
 
 \begin_layout Standard
@@ -421,13 +416,12 @@ Gazzetta del Profeta
 \end_layout
 
 \begin_layout Standard
-L'articolo principale, scritto da qualche nome che Harry non riconobbe,
- aveva chiesto che l'età minima per Azkaban fosse abbassata, in modo che
- la perversa sanguemarcio che aveva infangato l'onore della Scozia con il
- suo efferato e ingiustificato attacco contro l'ultimo erede di un'Antichissima
- Casa all'interno del sacro asilo di Hogwarts potesse essere mandata dai
- Dissennatori, l'unica punizione commisurata con la gravità del suo odioso
- crimine.
+L'articolo principale, firmato con un nome che Harry non riconobbe, aveva
+ chiesto che l'età minima per Azkaban fosse abbassata, in modo che la perversa
+ sanguemarcio che aveva infangato l'onore della Scozia con il suo efferato
+ e ingiustificato attacco contro l'ultimo erede di un'Antichissima Casa
+ all'interno del sacro asilo di Hogwarts potesse essere mandata dai Dissennatori
+, l'unica punizione commisurata con la gravità del suo odioso crimine.
  Solo quello sarebbe stato sufficiente a scoraggiare ogni altro energumeno
  straniero e subumano, che similmente credeva nella propria follia perversa
  di poter sfuggire alla maestà dell'inevitabile e spietata punizione da
@@ -450,7 +444,7 @@ In precedenza, Albus Dumbledore gli aveva detto,
 \end_inset
 
 Non cercherò di tenerti lontano da questo processo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -459,15 +453,15 @@ Non cercherò di tenerti lontano da questo processo
 \begin_inset Quotes cld
 \end_inset
 
-Posso ben prevedere come andrebbe a finire.
+Posso facilmente prevedere come andrebbe a finire.
  Ma desidererei che in cambio mi trattassi con uguale cortesia.
  La politica del Wizengamot è delicata, e di essa tu non sai nulla.
  Arrischia una qualsiasi follia e sarà a spese di Hermione Granger; e ricorderai
- quella follia per il resto dei tuoi giorni,  Harry James Potter-Evans-Verres
-\begin_inset Quotes frd
+ quella follia per il resto dei tuoi giorni,  Harry James Potter-Evans-Verres.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -477,7 +471,7 @@ Posso ben prevedere come andrebbe a finire.
 \end_inset
 
 Capisco
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -486,14 +480,14 @@ Capisco
 \end_inset
 
 Lo so.
- Solo che -- se sta progettando di trar fuori un coniglio dal cilindro e
- salvarla all'ultimo minuto quando tutto sembra perduto, la prego di dirmelo
- ora invece di lasciami seduto a preoccuparmi
+ Solo che – se sta pensando di tirare fuori un coniglio dal cilindro e salvarla
+ all'ultimo minuto quando tutto sembra perduto, la prego di dirmelo ora
+ invece di lasciami seduto a contorcermi
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -506,7 +500,7 @@ Lo so.
 \end_inset
 
 Non farei questo a te
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose il vecchio mago, un terribile affaticamento sembrò pervaderlo
@@ -517,11 +511,11 @@ Non farei questo a te
 
 Ancor meno a Hermione.
  Ma non ho conigli nel mio cilindro, Harry.
- Possiamo solo vedere ciò che vuole Lucius Malfoy
-\begin_inset Quotes frd
+ Possiamo solo vedere ciò che vuole Lucius Malfoy.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -535,9 +529,9 @@ Ci fu un piccolo colpo acuto, un singolo breve suono che in qualche modo
 \begin_inset Quotes cld
 \end_inset
 
-La novantesima sessione del duecentoottesimo Wizengamot è convenuta dietro
+La novantesima sessione del duecentottesimo Wizengamot è convenuta dietro
  richiesta di Lord Lucius Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il vecchio mago inespressivamente.
@@ -552,7 +546,7 @@ Immediatamente, di lato al podio e da esso distante ma comunque nel circolo
 \end_inset
 
 Presento un testimone perché sia interrogato sotto Veritaserum
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy, il suo tono glaciale abbastanza chiaro in tutta la
@@ -561,11 +555,11 @@ Presento un testimone perché sia interrogato sotto Veritaserum
 \begin_inset Quotes cld
 \end_inset
 
-Lasciate che Hermione, la prima Granger, sia fatta entrare
-\begin_inset Quotes frd
+Lasciate che entri Hermione, la prima Granger.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -573,7 +567,7 @@ Lasciate che Hermione, la prima Granger, sia fatta entrare
 \end_inset
 
 Chiedo a voi tutti di ricordare che è una ragazza del primo anno di Hogwarts
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Dumbledore.
@@ -585,8 +579,8 @@ Non tollererò alcun abuso su questo testimone
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -598,7 +592,7 @@ Qualcuno tra le panche disse alquanto nettamente
 \end_inset
 
 Pfah!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e si diffusero risatine disgustate, persino uno o due scherni.
@@ -626,7 +620,7 @@ E con la rabbia montante giunse qualcos'altro, una nascente sensazione di
 Ordine!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì Dumbledore.
@@ -637,50 +631,50 @@ Ordine!
 \end_inset
 
 Esigo ordine!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-La porta attraverso la quale il testimone fu fatto entrare era posta direttament
-e al di sotto della sedia di Harry, così non fu prima che l'intero gruppo
+La porta attraverso la quale i testimoni erano fatti entrare era posta direttame
+nte al di sotto della sedia di Harry, così non fu prima che l'intero gruppo
  fu emerso completamente nell'aula di pietra che Harry vide
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- un trio di Auror
+– un trio di Auror
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- la schiena di Hermione era rivolta verso Harry mentre ella fu portata
+– la schiena di Hermione era rivolta verso Harry mentre ella fu portata
  fuori, egli non poté vedere il suo volto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- seguiti da uno splendente passero d'argento e da uno scoiattolo di luce
+– seguiti da uno splendente passero d'argento e da uno scoiattolo di luce
  lunare che correva
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
--- e la fonte dell'orribile immoralità, mezza nascosta sotto un mantello
+– e la fonte dell'orribile immoralità, mezza nascosta sotto un mantello
  lacero.
 \end_layout
 
@@ -700,8 +694,8 @@ Harry è tutto a posto c'è un Patronus
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -715,7 +709,7 @@ Ci vollero alcuni secondi a Harry per tornare in sé.
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -726,8 +720,8 @@ Ma i Patronus animali non sono perfetti
 , disse un'altra voce nella sua mente.
  
 \emph on
-Altrimenti a Dumbledore non sembrerebbe doloroso guardare la forma di un uomo
- nudo.
+Altrimenti a Dumbledore non sembrerebbe doloroso guardare la forma di un
+ uomo nudo.
  L'hai sentito avvicinarsi, Patronus animali o meno
 \emph default
 \SpecialChar ldots
@@ -746,8 +740,8 @@ Ma a quel punto aveva già dichiarato guerra al Paese della Gran Bretagna
 \end_layout
 
 \begin_layout Standard
-Il viso di Hermione divenne visibile, mentre ella si sedette sulla sedia.
- Non era eretta e sprezzante com'era stata di fronte a Piton, non stava
+Il viso di Hermione divenne visibile, mentre si sedette sulla sedia.
+ Non era eretta e sprezzante com'era stata di fronte a Snape, non stava
  piangendo come aveva fatto quando gli Auror l'avevano arrestata.
  Se ne stava seduta lì, con uno sguardo di vuoto orrore mentre catene metalliche
  scure serpeggiarono fuori dalla sedia e le legarono braccia e gambe.
@@ -767,8 +761,8 @@ Harry non riusciva a sopportarlo.
 \end_layout
 
 \begin_layout Standard
-«Guarda guarda, se non è Harry Potter!
-\begin_inset Quotes frd
+«Guarda guarda se non è Harry Potter!
+\begin_inset Quotes crd
 \end_inset
 
  giunse un'acuta e leggera voce femminile, sdolcinata e accondiscendente.
@@ -786,7 +780,7 @@ Lentamente, Harry girò la testa lontano dalla sedia e vide una donna sorridente
 \end_inset
 
 Ha qualcosa da dire, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  domandò la donna molto allegramente, come se quello non fosse un processo.
@@ -804,16 +798,16 @@ Harry non poté parlare, sarebbe stato stupido pronunciare ad alta voce tutte
 \emph on
 altro
 \emph default
- avesse voluto che il Ragazzo-Che-È-Sopravvissuto parlasse, egli doveva
- 
+ avesse voluto che il Ragazzo-Che-È-Sopravvissuto parlasse, egli avrebbe
+ dovuto 
 \emph on
-fingere di essere della sua età
+fingere di avere la propria età
 \emph default
 
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -821,7 +815,7 @@ fingere di essere della sua età
 \end_inset
 
 Il Preside ha detto che non dovrei parlare
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ragazzo, non del tutto capace di tenere fuori l'acrimonia dalla
@@ -837,7 +831,7 @@ Oh, ma ha il
 nostro
 \emph default
  permesso di parlare!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse briosamente la donna.
@@ -847,7 +841,7 @@ nostro
 
 Sono certa che il Wizengamot sia sempre felice di sentire il Ragazzo-Che-È-Sopra
 vvissuto!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  A fianco a lei, il ministro Cornelius Fudge stava annuendo.
@@ -876,7 +870,7 @@ rospo
 \end_inset
 
 È perché mi sono sbarazzato del Signore Oscuro?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese il ragazzo, e indicò il Dissennatore che aleggiava dietro la sedia
@@ -885,11 +879,11 @@ rospo
 \begin_inset Quotes cld
 \end_inset
 
-C'è qualcosa in questa stanza che è più Oscuro
-\begin_inset Quotes frd
+C'è qualcosa in questa stanza che è più Oscuro.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -905,8 +899,8 @@ Comprendo che un ragazzo giovane come lei possa essere spaventato da loro,
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -917,7 +911,7 @@ Comprendo che un ragazzo giovane come lei possa essere spaventato da loro,
 \end_inset
 
 A una dodicenne?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò il ragazzo.
@@ -926,15 +920,15 @@ A una dodicenne?
 \end_inset
 
 Quelle sono le creature più Oscure di tutto il mondo, l'ho potuto sentire
- arrivare qui anche attraverso il Patronus -- 
+ arrivare qui anche attraverso il Patronus – 
 \emph on
 l'immoralità
 \emph default
- che si faceva più vicina -- è terribilmente cattivo e -- e si mangerebbe
+ che si faceva più vicina – è terribilmente cattivo e – e si mangerebbe
  ognuno in questa stanza, se potesse! Non dovrebbe essere lasciato avvicinare
  a nessun bambino, mai! Non a me, non a lei, non a chiunque! Dovreste votare
  per mandarlo via!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -952,8 +946,8 @@ Certamente
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  sbottò la donna-rospo.
@@ -964,7 +958,7 @@ Certamente
 \end_inset
 
 Basta così, Madam Umbridge, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , giunse da molto in alto la voce severa di Dumbledore.
@@ -972,11 +966,11 @@ Basta così, Madam Umbridge, signor Potter
 \begin_inset Quotes cld
 \end_inset
 
-Sebbene, chiaramente, il ragazzo abbia ragione su ogni punto
-\begin_inset Quotes frd
+Sebbene, chiaramente, il ragazzo abbia ragione su ogni punto.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -994,9 +988,9 @@ Poi il Veritaserum fu portato dentro, e per un breve momento Hermione sembrò
 \emph on
 davvero
 \emph default
- sul punto di singhiozzare, stava guardando verso Harry -- no, verso la
- professoressa McGonagall -- e la professoressa McGonagall muoveva le labbra
- formando parole che Harry non poté scorgere dalla sua angolazione.
+ sul punto di singhiozzare, stava guardando verso Harry – no, verso la professor
+essa McGonagall – e la professoressa McGonagall muoveva le labbra formando
+ parole che Harry non poté scorgere dalla sua angolazione.
  Poi Hermione ingoiò tre gocce di Veritaserum e il suo volto si afflosciò.
 \end_layout
 
@@ -1005,7 +999,7 @@ davvero
 \end_inset
 
 Gawain Robards
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce melliflua di Lucius Malfoy.
@@ -1015,7 +1009,7 @@ Gawain Robards
 
 La sua integrità è nota a tutti noi.
  Farebbe gli onori?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1030,9 +1024,9 @@ Dopo le prime poche domande, Harry girò lo sguardo e fissò di lato con le
  dita nelle orecchie, mentre il cervello di Hermione ripeté il contenuto
  dell'Incantesimo del Falso Ricordo.
  Non riusciva a sopportare l'angoscia annebbiata dal farmaco nella voce
- di Hermione mentre ella riferiva i falsi ricordi, e neppure il suo lato
- oscuro poteva sopportarlo, ed egli aveva già sentito un riassunto di quei
- contenuti.
+ di Hermione mentre riferiva i falsi ricordi, e neppure il suo lato oscuro
+ poteva sopportarlo, ed egli aveva già sentito un riassunto di quella testimonia
+nza.
 \end_layout
 
 \begin_layout Standard
@@ -1041,17 +1035,17 @@ La mente di Harry tornò a un altro giorno di orrore, e anche se Harry era
  di Lord Voldemort come senilità di un vecchio mago, improvvisamente sembrò
  orribilmente e singolarmente plausibile che l'entità che aveva sottoposto
  a Incantesimo di Memoria Hermione fosse proprio la stessa mente che si
- era -- 
+ era – 
 \emph on
 servita
 \emph default
- -- di Bellatrix Black.
+ – di Bellatrix Black.
  I due eventi avevano un certo segno distintivo in comune.
  Scegliere che questo accadesse, 
 \emph on
 progettare
 \emph default
- che questo accadesse -- avrebbe richiesto più che malvagità, avrebbe richiesto
+ che questo accadesse – avrebbe richiesto più che malvagità, avrebbe richiesto
  
 \emph on
 vacuità
@@ -1067,7 +1061,7 @@ Harry alzò lo sguardo per un momento, allora, e vide che le vesti color
 \begin_layout Standard
 Un po' più tardi, dopo che tutte le stelle nel cielo notturno si furono
  raffreddate e oscurate e l'ultima luce dell'Universo fu ridotta a braci
- sputacchianti e divenuta nera, l'interrogatorio di Hermione terminò.
+ fumiganti e divenne nera, l'interrogatorio di Hermione terminò.
 \end_layout
 
 \begin_layout Standard
@@ -1075,7 +1069,7 @@ Un po' più tardi, dopo che tutte le stelle nel cielo notturno si furono
 \end_inset
 
 Miei Lord, se vi compiace
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce di Lord Malfoy, 
@@ -1083,11 +1077,11 @@ Miei Lord, se vi compiace
 \end_inset
 
 vorrei che la testimonianza di mio figlio Draco, rilasciata sotto due gocce
- di Veritaserum, fosse letta ad alta voce in questo momento
-\begin_inset Quotes frd
+ di Veritaserum, fosse letta ad alta voce in questo momento.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1105,8 +1099,8 @@ Fino a quando lei non mi ha assalito in quella battaglia, non stavo tramando
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1123,7 +1117,7 @@ Dalla gola di Hermione provenne un suono come se fosse stata appena schiacciata
 \end_inset
 
 Chiedo scusa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse una strega da quello che sembrava essere il lato pro-Malfoy della
@@ -1137,7 +1131,7 @@ Ma Lord Malfoy, perché mai suo figlio ha
 aiutato
 \emph default
  questa ragazza sanguemarcio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1148,7 +1142,7 @@ aiutato
 \end_inset
 
 Mio figlio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy con voce grave, 
@@ -1156,27 +1150,27 @@ Mio figlio
 \end_inset
 
 sembra aver dato ascolto a certe idee fuorvianti.
- È giovane -- e ha imparato, ora, ciò che abbiamo visto tutti come Paese,
- quali risultati porti tale follia
-\begin_inset Quotes frd
+ È giovane – e ha imparato, ora, ciò che abbiamo visto tutti come Paese,
+ quali risultati porti tale follia.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 Pochi passi più giù lungo i banchi degli spettatori, un uomo che indossava
- un berretto da giornalista e un distintivo che lo identificava come appartenent
+ un berretto da giornalista e un cartellino che lo identificava come appartenent
 e alla 
 \emph on
 Gazzetta del Profeta
 \emph default
- stava avidamente scarabocchiando con una lunga piuma d'oca.
+ stava avidamente scarabocchiando con una lunga penna d'oca.
 \end_layout
 
 \begin_layout Standard
-Le poche persone che in precedenza avevano annuito assieme a Dumbledore avevano
- delle espressioni piuttosto disgustate.
+Le poche persone che in precedenza avevano annuito assieme a Dumbledore
+ avevano delle espressioni piuttosto disgustate.
  Una strega dalle vesti color prugna si alzò deliberatamente da quello che
  sembrava essere il lato pro-Dumbledore della stanza, e si fece strada verso
  il lato Malfoy.
@@ -1230,7 +1224,7 @@ me
  di fronte a tutti!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1279,8 +1273,8 @@ ente innocente.
 \end_layout
 
 \begin_layout Standard
-Ma Albus Dumbledore disse, in un sollecito amichevole dopo l'altro, che il
- colpevole era una ragazza del primo anno di Hogwarts; che molti avevano
+Ma Albus Dumbledore disse, in un sollecito amichevole dopo l'altro, che
+ il colpevole era una ragazza del primo anno di Hogwarts; che molti avevano
  fatto cose folli durante la loro giovinezza; che uno studente del primo
  anno di Hogwarts era semplicemente troppo giovane per comprendere le conseguenz
 e delle proprie azioni.
@@ -1289,10 +1283,10 @@ e delle proprie azioni.
 \end_layout
 
 \begin_layout Standard
-Albus Dumbledore disse che Hermione Granger era amata da tutto il corpo insegnante
- di Hogwarts, e aveva aiutato quattro ragazze Tassofrasso con i compiti
- di Incantesimi, e aveva ottenuto centotré punti per Corvonero nel corso
- dell'anno scolastico.
+Albus Dumbledore disse che Hermione Granger era amata da tutto il corpo
+ insegnante di Hogwarts, e aveva aiutato quattro ragazze Tassofrasso con
+ i compiti di Incantesimi, e aveva ottenuto centotré punti per Corvonero
+ nel corso dell'anno scolastico.
 \end_layout
 
 \begin_layout Standard
@@ -1301,25 +1295,25 @@ Albus Dumbledore disse che nessuno che conoscesse Hermione Granger sarebbe
  Che avevano udito, tutti quanti, l'orrore nella sua voce quando ella aveva
  portato la propria testimonianza.
  E se qualche insolita pazzia l'aveva temporaneamente posseduta, allora
- -- la sua voce si alzò in un severo ordine -- non meritava nulla da loro
- eccetto simpatia e le attenzioni di un guaritore.
+ – la sua voce divenne un severo ordine – non meritava null'altro che la
+ loro simpatia e le attenzioni di un guaritore.
 \end_layout
 
 \begin_layout Standard
-E in ultimo, Albus Dumbledore rammentò al Wizengamot, sopra grida di protesta,
+E in ultimo, Albus Dumbledore rammentò al Wizengamot sopra le grida di protesta
  che l'accusa era 
 \emph on
 tentato
 \emph default
  omicidio e non omicidio.
- Albus Dumbledore disse, sopra una crescente tempesta di obiezioni, che nessun
- danno durevole era stato causato ad alcuno.
+ Albus Dumbledore disse, sopra una crescente tempesta di obiezioni, che
+ nessun danno durevole era stato causato ad alcuno.
  E Albus Dumbledore li supplicò di non fare qualcosa di peggiore di quanto
  fosse stato già fatto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1331,7 +1325,7 @@ tentato
 Basta così!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Lucius Malfoy, e un'alzata di mani pose fine alle discussioni.
@@ -1341,14 +1335,14 @@ Basta così!
 \begin_inset Quotes cld
 \end_inset
 
-Per ciò che questa pazza donna ha cercato di fare a mio figlio -- per il
+Per ciò che questa pazza donna ha cercato di fare a mio figlio – per il
  debito di sangue che ha contratto per aver cercato di porre fine alla discenden
-za di una Nobile e Antichissima Casa -- io chiedo che sia
+za di una Nobile e Antichissima Casa – io chiedo che sia
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1359,7 +1353,7 @@ za di una Nobile e Antichissima Casa -- io chiedo che sia
 \end_inset
 
 Azkaban!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ruggì un uomo con il volto segnato da cicatrici, seduto alla destra di
@@ -1369,7 +1363,7 @@ Azkaban!
 \end_inset
 
 Mandiamo la sanguemarcio pazza ad Azkaban!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1380,14 +1374,14 @@ Mandiamo la sanguemarcio pazza ad Azkaban!
 \end_inset
 
 Azkaban!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò un'altra veste color prugna, e poi un'altra, e un'altra
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1397,7 +1391,7 @@ Uno schiocco della verga nella mano di Dumbledore azzittì la stanza.
 \end_inset
 
 Non rispettate l'ordine
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse severamente il vecchio mago.
@@ -1408,7 +1402,7 @@ Non rispettate l'ordine
 E la vostra proposta è barbarica, al di sotto della dignità di questa assemblea.
  Ci sono cose che noi non facciamo.
  Lord Malfoy?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1421,7 +1415,7 @@ Lucius Malfoy aveva ascoltato con volto impassibile.
 \end_inset
 
 Ebbene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse dopo alcuni momenti.
@@ -1431,13 +1425,13 @@ Ebbene
 \end_inset
 
 Non avevo previsto di chiederlo.
- Ma se questa è la volontà del Wizengamot -- allora che paghi come chiunque
- pagherebbe al suo posto.
- Che sia Azkaban
-\begin_inset Quotes frd
+ Ma se questa è la volontà del Wizengamot – allora che paghi come pagherebbe
+ chiunque altro al suo posto.
+ Che Azkaban sia.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1445,7 +1439,7 @@ Si sollevò un'enorme esultanza rabbiosa
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1457,7 +1451,7 @@ Siete tutti
 impazziti?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Albus Dumbledore.
@@ -1467,7 +1461,7 @@ impazziti?
 
 È troppo giovane! La sua mente non lo sopporterebbe! Mai in tre secoli una
  cosa simile è stata fatta in Gran Bretagna!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1478,7 +1472,7 @@ impazziti?
 \end_inset
 
 Cosa penseranno di noi gli altri Paesi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la voce tagliente di una donna che Harry riconobbe essere la nonna
@@ -1494,7 +1488,7 @@ E farà
 lei
 \emph default
  la guardia ad Azkaban dopo che vi sarà mandata, Lord Malfoy?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse una severa strega anziana che Harry non conosceva.
@@ -1503,11 +1497,11 @@ lei
 \end_inset
 
 Poiché i miei Auror potrebbero rifiutarsi di fare la guardia, temo, se vi
- fossero tenuti dei bambini
-\begin_inset Quotes frd
+ fossero tenuti dei bambini.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1515,7 +1509,7 @@ Poiché i miei Auror potrebbero rifiutarsi di fare la guardia, temo, se vi
 \end_inset
 
 Le discussioni sono terminate
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse freddamente Lucius Malfoy.
@@ -1529,11 +1523,11 @@ Ma se lei è incapace di trovare Auror che siano in grado di obbedire al
  La volontà di questa Sala è chiara.
  Per la mostruosità dei suoi crimini, la ragazza deve essere processata
  come un adulto e punita di conseguenza; dieci anni ad Azkaban, la sentenza
- giusta per tentato omicidio
-\begin_inset Quotes frd
+ giusta per tentato omicidio.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1543,11 +1537,11 @@ Quando il vecchio mago parlò ancora, la sua voce era più bassa.
 \end_inset
 
 Non c'è alternativa a questo, Lucius? Possiamo ritirarci nel mio studio
- per discuterne, se necessario
-\begin_inset Quotes frd
+ per discuterne, se necessario.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1562,9 +1556,9 @@ Quando Lucius Malfoy parlò di nuovo, la sua voce sembrò tremare, seppure
 \begin_inset Quotes cld
 \end_inset
 
-Necessita di una compensazione, il sangue della mia famiglia.
+È necessaria una compensazione, per il sangue della mia famiglia.
  A nessun prezzo venderò il debito di sangue dovuto a mio figlio.
- Non lo capiresti, tu che non hai mai avuto né amore né figlio tuo.
+ Non lo capiresti, tu che non hai mai avuto né amore né figlio proprio.
  Eppure, c'è più di un debito dovuto a Casa Malfoy, e penso che mio figlio,
  se fosse tra le nostre file, preferirebbe essere compensato per il sangue
  di sua madre invece che per il proprio.
@@ -1572,8 +1566,8 @@ Necessita di una compensazione, il sangue della mia famiglia.
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1584,7 +1578,7 @@ Necessita di una compensazione, il sangue della mia famiglia.
 \end_inset
 
 Non ci pensare neanche, Albus
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la vecchia strega severa che aveva parlato in precedenza.
@@ -1600,7 +1594,7 @@ Il vecchio mago rimase fermo sul podio, il suo volto che si contorceva,
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1608,7 +1602,7 @@ Il vecchio mago rimase fermo sul podio, il suo volto che si contorceva,
 \end_inset
 
 Smettila
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la vecchia strega.
@@ -1617,11 +1611,11 @@ Smettila
 \end_inset
 
 Sai quale risposta devi dare, Albus.
- Non cambierà se ci agonizzi sopra
-\begin_inset Quotes frd
+ Non cambierà se ci agonizzi sopra.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1633,7 +1627,7 @@ Il vecchio mago parlò.
 \end_inset
 
 No
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore.
@@ -1644,19 +1638,19 @@ No
 \end_inset
 
 E tu, Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò la vecchia strega severa, 
 \begin_inset Quotes cld
 \end_inset
 
-suppongo che tutto ciò che volevi ottenere tutto questo tempo era rovinare
+suppongo che ciò che volevi ottenere tutto questo tempo fosse rovinare
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1667,7 +1661,7 @@ suppongo che tutto ciò che volevi ottenere tutto questo tempo era rovinare
 \end_inset
 
 Neanche per idea
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy, le sue labbra che ora si contorsero in un sorriso
@@ -1678,12 +1672,12 @@ Neanche per idea
 
 No, non ho alcuno scopo qui se non la vendetta di mio figlio.
  Desideravo solo mostrare al Wizengamot la verità dietro il preteso eroismo
- di quest'uomo e del suo elogio di quella ragazza -- che difficilmente penserebb
-e di sacrificare sé stesso per salvarla
-\begin_inset Quotes frd
+ di quest'uomo e del suo elogio di quella ragazza – che difficilmente penserebbe
+ di sacrificare sé stesso per salvarla.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1691,7 +1685,7 @@ e di sacrificare sé stesso per salvarla
 \end_inset
 
 Crudeltà certamente degna di un Mangiamorte
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Augusta Longbottom.
@@ -1699,11 +1693,11 @@ Crudeltà certamente degna di un Mangiamorte
 \begin_inset Quotes cld
 \end_inset
 
-Non che io stia insinuando qualcosa, naturalmente
-\begin_inset Quotes frd
+Non che io stia insinuando qualcosa, naturalmente.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -1711,7 +1705,7 @@ Non che io stia insinuando qualcosa, naturalmente
 \end_inset
 
 Crudeltà?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  rispose Lucius Malfoy, il sorriso amaro ancora sul suo volto.
@@ -1722,13 +1716,12 @@ Crudeltà?
 Penso di no.
  Sapevo quale sarebbe stata la sua risposta.
  Vi ho sempre avvertiti che egli si limita soltanto a interpretare la sua
- parte finta.
+ parte.
  Se credete alla sua esitazione, siete pazzi.
- Ricordate che la sua risposta è stata la stessa
-\begin_inset Quotes frd
+ Ricordate che la sua risposta è stata comunque la stessa.
+\begin_inset Quotes crd
 \end_inset
 
-.
  L'uomo alzò la voce.
  
 \begin_inset Quotes cld
@@ -1736,11 +1729,11 @@ Penso di no.
 
 Votiamo, amici miei.
  Penso che un'alzata di mani sia sufficiente.
- Non immagino che vi siano molti che scelgono di schierarsi con gli assassini
-\begin_inset Quotes frd
+ Non immagino che vi siano molti che sceglieranno di schierarsi con gli
+ assassini.
+\begin_inset Quotes crd
 \end_inset
 
-.
  La voce divenne fredda sull'ultima nota, la promessa sottintesa molto chiara.
 \end_layout
 
@@ -1749,7 +1742,7 @@ Votiamo, amici miei.
 \end_inset
 
 Guardate la ragazza
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Albus Dumbledore.
@@ -1761,8 +1754,8 @@ Osservatela, osservate l'orrore che state commettendo! Ella è
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
  La voce del vecchio mago si spezzò.
@@ -1774,8 +1767,8 @@ Ella è spaventata
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1792,7 +1785,7 @@ L'effetto del Veritaserum si stava evidentemente esaurendo, perché il volto
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1819,7 +1812,7 @@ ti prego
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -1834,7 +1827,7 @@ E nell'Antichissima Sala del Wizengamot risuonò una voce glaciale, parole
 Lucius Malfoy
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1846,20 +1839,6 @@ Lucius Malfoy
 	filename fleur.png
 	display false
 	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
 
 \end_inset
 
@@ -1893,7 +1872,7 @@ Non fu finché Lord Malfoy rispose a sua volta, che la gente comprese anche
 \end_inset
 
 Harry Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Lucius Malfoy.
@@ -1915,7 +1894,7 @@ Teste girarono, occhi si mossero, e persone misero a fuoco il giovane ragazzo
 \end_inset
 
 Questa follia non le si addice, Lucius
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ragazzo.
@@ -1926,18 +1905,18 @@ Questa follia non le si addice, Lucius
 Le dodicenni non se ne vanno in giro a commettere omicidi.
  Lei è un Serpeverde e per di più intelligente.
  Sa che questo è un complotto.
- Hermione Granger è stata collocata su questa tavola da gioco con la forza,
+ Hermione Granger è stata disposta su questo tavolo da gioco con la forza,
  da quella stessa mano che si nasconde dietro quel complotto.
  Senza dubbio era previsto che 
 \emph on
 lei
 \emph default
- agisse proprio come sta agendo ora -- eccetto che Draco Malfoy doveva essere
+ agisse proprio come sta agendo ora – eccetto che Draco Malfoy doveva essere
  morto, e lei doveva essere al di là di ogni ragione.
  Ma egli è vivo e lei è sano di mente.
  Perché sta cooperando con il ruolo previsto per lei, in un piano che avrebbe
  dovuto togliere al vita a suo figlio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1954,7 +1933,7 @@ Una tempesta sembrò infuriare dentro Lucius, il volto sotto i capelli bianchi
 \end_inset
 
 Un complotto, dice?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  parlò infine Lord Malfoy.
@@ -1964,7 +1943,7 @@ Un complotto, dice?
 \end_inset
 
 E di chi sarebbe quel complotto, dunque?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1975,7 +1954,7 @@ E di chi sarebbe quel complotto, dunque?
 \end_inset
 
 Se l'avessi saputo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose il ragazzo, 
@@ -1986,41 +1965,41 @@ l'avrei detto molto tempo fa.
  Ma chiunque sia stato compagno di Hermione Granger può dirle che lei è
  un'assassina altamente improbabile.
  È vero che aiuta i Tassofrasso con i loro compiti.
- Questo non è stato un evento naturale, Lord Malfoy
-\begin_inset Quotes frd
+ Questo non è stato un evento naturale, Lord Malfoy.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Quotes cld
 \end_inset
 
-Complotto -- o meno
+Complotto – o meno
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
- la voce di Lucius tremava.
+ la voce di Lucius tremò.
  
 \begin_inset Quotes cld
 \end_inset
 
-Questo lerciume sanguemarcio ha toccato mio figlio e per questo le metterò
+Questo lerciume sanguemarcio ha toccato mio figlio e per questo le porrò
  fine.
  Dovrebbe saperlo molto bene, 
 \emph on
 Harry Potter
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2033,11 +2012,11 @@ antesimo di Raffreddamento del Sangue.
  ma un semplice inganno non l'avrebbe spinta a farlo.
  Non ha agito di propria volontà, e forse non ha agito affatto.
  La sua vendetta è mal indirizzata, Lord Malfoy, e di proposito.
- Non è una dodicenne che merita la sua ira
-\begin_inset Quotes frd
+ Non è una dodicenne che merita la sua ira.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2049,7 +2028,7 @@ E cosa importa
 a lei
 \emph default
  del suo fato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La voce di Lucius Malfoy si stava alzando.
@@ -2062,7 +2041,7 @@ Qual è la
 sua
 \emph default
  posta in gioco?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2073,7 +2052,7 @@ sua
 \end_inset
 
 Lei è mia amica
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il ragazzo, 
@@ -2082,11 +2061,11 @@ Lei è mia amica
 
 come Draco è mio amico.
  È possibile che questo colpo fosse diretto contro di me, e non contro Casa
- Malfoy
-\begin_inset Quotes frd
+ Malfoy.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2095,8 +2074,8 @@ Di nuovo i muscoli si contrassero sul volto di Lucius.
 \begin_inset Quotes cld
 \end_inset
 
-E ora sta mentendo a me -- come ha mentito a mio figlio!
-\begin_inset Quotes frd
+E ora sta mentendo a me – come ha mentito a mio figlio!
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2107,7 +2086,7 @@ E ora sta mentendo a me -- come ha mentito a mio figlio!
 \end_inset
 
 Che ci creda o no
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse pacatamente il ragazzo, 
@@ -2118,8 +2097,8 @@ non ho mai voluto altro che Draco conoscesse la verità
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2134,7 +2113,7 @@ non ho mai voluto altro che Draco conoscesse la verità
 Basta così!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Lord Malfoy.
@@ -2147,12 +2126,12 @@ Basta con le sue bugie.
 \emph on
 giochetti!
 \emph default
- Non capisce -- non capirebbe mai -- cosa significa il fatto che egli è
- mio figlio! Questa vendetta non mi verrà negata! Non più! Mai più! Per
- il sangue che questa ragazza deve a Casa Malfoy, andrà ad Azkaban.
- E se mai scoprissi un'altra mano all'opera -- anche se fosse la sua --
- anche quella mano sarà tagliata!
-\begin_inset Quotes frd
+ Non capisce – non capirebbe mai – cosa significa il fatto che egli è mio
+ figlio! Questa vendetta non mi verrà negata! Non più! Mai più! Per il sangue
+ che questa ragazza deve a Casa Malfoy, andrà ad Azkaban.
+ E se mai scoprissi un'altra mano all'opera – anche se fosse la sua – anche
+ quella mano sarà tagliata!
+\begin_inset Quotes crd
 \end_inset
 
  Lucius Malfoy sollevò il suo mortale bastone d'argento come per impartire
@@ -2162,8 +2141,8 @@ giochetti!
 \begin_inset Quotes cld
 \end_inset
 
-E se non ha di meglio da dire di questo -- taccia, Harry Potter!
-\begin_inset Quotes frd
+E se non ha di meglio da dire di questo – taccia, Harry Potter!
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2182,27 +2161,14 @@ E se non ha di meglio da dire di questo -- taccia, Harry Potter!
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 Il sangue di Harry stava martellando persino sotto il ghiaccio del suo lato
- oscuro, la paura per Hermione, la parte di lui che voleva scatenarsi su
+ oscuro, la paura per Hermione, la parte di lui che voleva lanciarsi su
  Lucius e distruggerlo sul posto per la sua insolenza e la sua 
 \emph on
 stupidità
 \emph default
- -- ma Harry non aveva 
+ – ma Harry non aveva 
 \emph on
 potere
 \emph default
@@ -2210,7 +2176,7 @@ potere
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -2228,7 +2194,7 @@ sse qualcosa,
 
 Si guadagnerà la mia inimicizia se fa questo, Lucius\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2251,11 +2217,11 @@ Se vuoi l'inimicizia della Casa di Malfoy, l'avrai,
 \emph on
 bambino
 \emph default
-
-\begin_inset Quotes frd
+.
+\begin_inset Quotes xrd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2263,19 +2229,19 @@ bambino
 \end_inset
 
 Seriamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la donna con troppo trucco rosa, 
 \begin_inset Quotes cld
 \end_inset
 
-credo che la cosa sia andata abbastanza per le lunghe, non pensa, Lord Malfoy?
- Il ragazzo farà tardi a lezione
-\begin_inset Quotes frd
+penso che la cosa sia andata abbastanza per le lunghe, non crede anche lei,
+ Lord Malfoy? Il ragazzo farà tardi a lezione.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -2283,19 +2249,19 @@ credo che la cosa sia andata abbastanza per le lunghe, non pensa, Lord Malfoy?
 \end_inset
 
 Sicuramente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
-, disse Lord Malfoy, e poi alzò di nuovo la voce.
+, rispose Lord Malfoy, e poi alzò di nuovo la voce.
  
 \begin_inset Quotes cld
 \end_inset
 
-Chiedo la votazione! Per alzata di mano, che il Wizengamot riconosca il
- debito di sangue dovuto alla Nobile e Antichissima Casa di Malfoy, per
- il tentato omicidio del suo ultimo rampollo e la fine della sua discendenza,
- da parte di Hermione, la prima Granger!
-\begin_inset Quotes frd
+Che si voti! Per alzata di mano, che il Wizengamot riconosca il debito di
+ sangue dovuto alla Nobile e Antichissima Casa di Malfoy, per il tentato
+ omicidio del suo ultimo rampollo e la fine della sua discendenza, da parte
+ di Hermione, la prima Granger!
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2315,7 +2281,7 @@ E Harry gridò nella propria mente, una frenetica richiesta d'aiuto a qualsiasi
  E poi, con una disperazione finale e convulsa, Harry si gettò nel proprio
  lato oscuro, si spinse all'interno del proprio lato oscuro, impadronendosi
  della sua chiarezza mortale, offrendo al proprio lato oscuro tutto, se
- solo avesse risolto questo problema per lui; e finalmente la calma letale
+ solo avesse risolto quel problema per lui; e finalmente la calma letale
  giunse a ricoprirlo, il vero ghiaccio che infine rispose alla sua chiamata.
  Al di là di tutto il panico e di tutta la disperazione la sua mente iniziò
  a indagare ogni fatto di cui era a conoscenza, a ricordare ogni cosa che
@@ -2325,7 +2291,7 @@ E Harry gridò nella propria mente, una frenetica richiesta d'aiuto a qualsiasi
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \end_body
