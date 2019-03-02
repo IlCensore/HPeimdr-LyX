@@ -64,6 +64,16 @@
   \null\vfil
   \secdef\@part\@spart}
 \makeatother
+
+
+%% indice lemmi
+\newfontfamily\fontindicelemmi{EB Garamond}
+\newcommand\indicelemmi{
+\begingroup
+\fontindicelemmi
+\char"2767
+\endgroup
+}
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -1493,6 +1503,27 @@ reference "chap:79Sdt-PtI"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+
 \begin_inset Quotes cld
 \end_inset
 
@@ -1511,10 +1542,31 @@ Il governo della legge, in tempi complessi, si è dimostrato carente; preferiamo
 \emph on
 Tom Smith and His Incredible Bread Machine
 \emph default
- (1963).
+ (1966).
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+
 \begin_inset Quotes cld
 \end_inset
 
@@ -1538,13 +1590,57 @@ Tu che scegli, sii presente
 \end_layout
 
 \begin_layout Standard
+La 
+\begin_inset ERT
+status open
 
-\color red
-City of Endless Night
-\color inherit
-, 
-\color red
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+Città della Notte Senza Fine
+\emph default
+, in inglese 
+\emph on
+City of the Endless Night
+\emph default
+, è un libro di Douglas Preston e Lincoln Child; 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
 Fuyuki City
+\emph default
+ è il nome di una città all'interno della serie 
+\emph on
+Fate/stay night
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -1559,11 +1655,43 @@ reference "chap:80Sdt-PtII-alone"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
 
-\color red
-Effetto-corna
-\color inherit
-.
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+L'
+\emph on
+effetto-corna
+\emph default
+ è un bias cognitivo strettamente collegato all'
+\begin_inset Quotes xld
+\end_inset
+
+effetto alone
+\begin_inset Quotes xrd
+\end_inset
+
+, a causa del quale la percezione che abbiamo di una persona è ingiustamente
+ influenzata da un singolo tratto negativo; un esempio di effetto-corna
+ è l'assumere che una prsona fisicamente non-attraente sia moralmente inferiore
+ a una persona attraente, malgrado la mancanza di relazione tra moralità
+ e apparenza fisica.
 \end_layout
 
 \begin_layout Subsection*
@@ -1578,20 +1706,53 @@ reference "chap:81Sdt-PtIII"
 \end_layout
 
 \begin_layout Standard
-❧
-\begin_inset space ~
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-Totoro è un grosso spirito buono, dall'aspetto simile all'incrocio tra un
- orso e un procione, che compare nel film di animazione giapponese 
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+Totoro
+\emph default
+ è un grosso spirito buono, dall'aspetto simile all'incrocio tra un orso
+ e un procione, che compare nel film di animazione giapponese 
 \emph on
 Il mio amico Totoro
 \emph default
-, di Hayao Miyazaki; ❧
-\begin_inset space ~
+, di Hayao Miyazaki; 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-Ree è un personaggio di 
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+Ree
+\emph default
+ è un personaggio di 
 \emph on
 Nobody Dies
 \emph default
@@ -1614,12 +1775,25 @@ reference "chap:82Sdt-finale"
 \end_layout
 
 \begin_layout Standard
-Il ❧
-\begin_inset space ~
+Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
 
 \emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
 danegeld
 \emph default
  (letteralmente 
@@ -1638,12 +1812,29 @@ tributo danese
 \end_layout
 
 \begin_layout Standard
-Il ❧
-\begin_inset space ~
+Il 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-costo di sostituzione è l'onere economico che deve essere sostenuto per
- sostituire un bene patrimoniale.
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+costo di sostituzione
+\emph default
+ è l'onere economico che deve essere sostenuto per sostituire un bene patrimonia
+le.
 \end_layout
 
 \begin_layout Subsection*
@@ -1658,12 +1849,24 @@ reference "chap:84Sdt-conseguenze2"
 \end_layout
 
 \begin_layout Standard
-❧
-\begin_inset space ~
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
 
 \emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
 Lullaby, and goodnight
 \emph default
  fa parte di una serie di ninnananne con la stessa musica e testi simili,
@@ -1677,11 +1880,31 @@ Wiegenlied: Guten Abend, gute Nacht
 \end_layout
 
 \begin_layout Standard
-❧
-\begin_inset space ~
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-L'esperimento sul conformismo fu effettuato da Solomon Asch
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
+L'
+\emph on
+esperimento sul conformismo
+\emph default
+ fu effettuato da Solomon Asch
 \begin_inset Foot
 status collapsed
 
@@ -1720,20 +1943,70 @@ reference "chap:85Sdt-conseguenze3"
 \end_layout
 
 \begin_layout Standard
-❧
-\begin_inset space ~
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-Leó Szilárd (1898–1964) è stato un fisico ungherese naturalizzato statunitense,
- che collaborò con ❧
-\begin_inset space ~
+
+\emph on
+
+\begin_inset space \thinspace{}
 \end_inset
 
-Enrico Fermi e ❧
-\begin_inset space ~
+Leó Szilárd
+\emph default
+ (1898–1964) è stato un fisico ungherese naturalizzato statunitense, che
+ collaborò con 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-Isidor Isaac Rabi alla Columbia University e poi al Progetto Manhattan.
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+Enrico Fermi
+\emph default
+ e 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+Isidor Isaac Rabi
+\emph default
+ alla Columbia University e poi al Progetto Manhattan.
  Szilárd fu uno dei primi a intuire la possibilità di usare militarmente
  l'energia nucleare, e propose ai fisici statunitensi di pubblicare i risultati
  degli studi in questo campo in maniera riservata.
@@ -1808,15 +2081,32 @@ url{http://lesswrong.com/lw/h8m/being_halfrational_about_pascals_wager_is_even/}
 \end_layout
 
 \begin_layout Standard
-Per ❧
-\begin_inset space ~
+Per 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-Raid del Telemark si intende l'insieme delle operazioni militari messe in
- atto tra il 1940 e il 1944 dalla Resistenza norvegese e dalle forze speciali
- britanniche per distruggere l'impianto di produzione di acqua pesante di
- Vermork, nella regione di Telemark, in Norvegia, e per impedire ai tedeschi
- di utilizzare l'acqua pesante prodotta.
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+Raid del Telemark
+\emph default
+ si intende l'insieme delle operazioni militari messe in atto tra il 1940
+ e il 1944 dalla Resistenza norvegese e dalle forze speciali britanniche
+ per distruggere l'impianto di produzione di acqua pesante di Vermork, nella
+ regione di Telemark, in Norvegia, e per impedire ai tedeschi di utilizzare
+ l'acqua pesante prodotta.
  Nell'ottobre 1942, l'operazione 
 \emph on
 Grouse
@@ -1844,15 +2134,49 @@ Grouse
  La produzione riprese solo dopo molti mesi, ma una serie di bombardamenti
  da parte dell'aviazione statunitense convinse i tedeschi a trasferire l'acqua
  pesante prodotta e i componenti critici dell'impianto in Germania.
- ❧
-\begin_inset space ~
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
 \end_inset
 
-Knut Haukelid, l'unico commando norvegese rimasto nella zona dopo l'operazione
- contro la centrale di Vermork, decise di affondare il traghetto ❧
-\begin_inset space ~
+
+\emph on
+
+\begin_inset space \thinspace{}
 \end_inset
 
+Knut Haukelid
+\emph default
+, l'unico commando norvegese rimasto nella zona dopo l'operazione contro
+ la centrale di Vermork, decise di affondare il traghetto 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+indicelemmi
+\end_layout
+
+\end_inset
+
+
+\emph on
+
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\emph default
 SF 
 \emph on
 Hydro
