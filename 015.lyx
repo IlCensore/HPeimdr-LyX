@@ -68,7 +68,7 @@ initials
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
-\use_dash_ligatures true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -323,16 +323,13 @@ Non mi importa se si tratta di concorrenza sleale.
  So esattamente quello che farò con due ore in più ogni giorno.
  Andrò a sedermi nel mio baule e studierò fino a quando sarò alla pari con
  Hermione Granger.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -403,8 +400,8 @@ non
  lasciate in bianco saranno valutate con grande indulgenza.
  Dovete imparare a riconoscere ciò che non sapete.
  Se vi pongo una qualunque domanda, non importa quanto ovvia o elementare,
- e rispondete `Non ne sono sicuro', non la valuterò a vostro sfavore e chiunque
- rida perderà punti per la sua Casa.
+ e rispondete ``Non ne sono sicuro'', non la valuterò a vostro sfavore e
+ chiunque rida perderà punti per la sua Casa.
  Sa dirmi perché esiste questa regola, signor Potter?»
 \end_layout
 
@@ -529,17 +526,8 @@ status open
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes xrd
 \end_inset
 
 
@@ -584,7 +572,7 @@ Anche se nessun suono proveniva dalla foto in movimento, si poteva capire
 
 \begin_layout Standard
 «Il criminale che inizialmente trasfigurò dell'oro in vino e lo diede da
- bere a questa donna, `a saldo del debito' come disse lui, ricevette una
+ bere a questa donna, ``a saldo del debito'' come disse lui, ricevette una
  condanna a dieci anni ad Azkaban.
  Per favore, andate a pagina 6.
  Questo è un Dissennatore.
@@ -977,7 +965,7 @@ a senza che nulla di male accada, non la proverò io stesso.»
 «Ripeteremo queste regole all'inizio di ogni lezione per il primo mese»,
  disse la professoressa McGonagall.
  «E ora, iniziamo con dei fiammiferi come soggetti e degli aghi come bersagli…
- mettete via le vostre bacchette, con `iniziamo' intendevo dire inizierete
+ mettete via le vostre bacchette, con ``iniziamo'' intendevo dire inizierete
  a prendere appunti.»
 \end_layout
 
@@ -996,10 +984,11 @@ Alla fine della lezione, Hermione aveva un fiammifero argenteo e il resto
 La professoressa McGonagall le assegnò un altro punto per Corvonero.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset

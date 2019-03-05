@@ -81,7 +81,7 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
+\use_microtype true
 \use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
@@ -834,17 +834,8 @@ terrebbe
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1001,7 +992,7 @@ So
 \begin_inset Quotes cld
 \end_inset
 
-Questo è lo spirito! E una `borsa mokeskin' fa quello che penso che faccia?
+Questo è lo spirito! E una ``borsa mokeskin'' fa quello che penso che faccia?
 \begin_inset Quotes crd
 \end_inset
 

@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -75,7 +75,7 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Crimson"
+\font_roman "default" "Cochineal"
 \font_sans "default" "Ubuntu"
 \font_typewriter "default" "Ubuntu Mono"
 \font_math "auto" "auto"
@@ -85,6 +85,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -114,6 +116,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -128,7 +131,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -395,10 +401,11 @@ E il Preside aveva dato fuoco a una gallina.
  percento più brutto di quanto papà dice sia Oxford.»
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -517,7 +524,7 @@ Severus si sedette dietro la cattedra e, senza la minima introduzione, disse
 
 \begin_layout Standard
 «Susan Bones.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -539,7 +546,7 @@ E andò avanti così, nessuno che osava dire una parola fuori posto, finché:
 celebrità
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -668,7 +675,7 @@ La mano di Hermione stava scendendo lentamente verso il basso.
 \begin_layout Standard
 Harry stava tentando con forza di mantenere sotto controllo il proprio temperame
 nto.
- La prima replica che aveva attraversato la sua mente era stata `Abracadabra'.
+ La prima replica che aveva attraversato la sua mente era stata ``Abracadabra''.
 \end_layout
 
 \begin_layout Standard
@@ -734,7 +741,7 @@ affascinanti
  giudizio all'iniquità dello schema sottostante.
  Quindi, professore, è in grado di dirmi quanti elettroni ci sono nell'orbitale
  più esterno di un atomo di carbonio?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -747,7 +754,7 @@ Il sorriso di Severus si allargò.
 \end_inset
 
 Quattro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse.
@@ -900,7 +907,7 @@ sono
 \begin_layout Standard
 «Mi par di capire che ci sia stato un certo numero di lamentele contro di
  lei da parte degli studenti e dei loro genitori
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , una congettura, ma piuttosto sicura, 
@@ -1113,7 +1120,7 @@ Harry cercò di dire «Che cosa?» e scoprì che non produceva alcun suono.
 \end_layout
 
 \begin_layout Standard
-Harry mise la mano in tasca e cercò di dire `pennarello', ma ovviamente
+Harry mise la mano in tasca e cercò di dire ``pennarello'', ma ovviamente
  nessuna parola uscì fuori.
  Per un breve momento, questo lo fermò; poi gli venne in mente di formare
  la sequenza 
@@ -1197,10 +1204,11 @@ Il volto del Maestro di Pozioni era ormai completamente furioso.
 Lo stanzino era vuoto.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1364,16 +1372,13 @@ Quindi questo è il mio lato oscuro, no? C'è un po' di pregiudizio in questo
 E ora che stava pensando chiaramente, fu parimenti chiaro cosa fare dopo.
  Aveva già dato a sé stesso un'ora in più per prepararsi, e avrebbe potuto
  prendersi fino a cinque ore ulteriori, se necessario…
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1508,7 +1513,7 @@ E il volto del Preside divenne severo.
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, 
@@ -1532,7 +1537,7 @@ Quando il ragazzo parlò nuovamente, la sua voce era di ghiaccio.
 \end_inset
 
 Mi sono perso qualcosa?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1543,7 +1548,7 @@ Mi sono perso qualcosa?
 \end_inset
 
 Diverse cose, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose il Preside.
@@ -1553,7 +1558,7 @@ Diverse cose, signor Potter
 
 Dovrebbe capire, tanto per cominciare, che lo scopo di questo incontro è
  discutere la sua punizione per gli eventi di questa mattina.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1623,7 +1628,7 @@ Lei mi spiegherà perché ha permesso a quest'uomo di fare del male ai bambini
 lei
 \emph default
  come bersaglio.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1830,7 +1835,7 @@ Severus e Dumbledore si voltarono a guardarla.
  Severus.
  Ma la sua reazione è stata di una virgola inferiore alla perfezione, e
  ho potuto capire che era controllata e non genuina.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2135,17 +2140,8 @@ Minerva McGonagall era scioccata più di quanto fosse mai stata in vita sua.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes xrd
 \end_inset
 
 
@@ -2308,7 +2304,7 @@ Per imparare, intendo.
  Non tutti i bambini sono in grado di imparare in assenza di autorità.
  E saranno gli altri bambini a essere danneggiati, signor Potter, se crederanno
  che il suo sia un esempio da seguire.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2329,7 +2325,7 @@ La prima e l'ultima risorsa è la verità.
  non ferire i sentimenti degli studenti dal quarto anno in giù.
  Entrambi potremmo alzarci e dire la verità.
  Potrei accettare questo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2352,7 +2348,7 @@ tutti
 straordinari
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2383,7 +2379,7 @@ Lei
 sua
 \emph default
  mente?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2394,7 +2390,7 @@ sua
 \end_inset
 
 Il buon senso è spesso confuso con la Legilimanzia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 ,
@@ -2416,7 +2412,7 @@ v.
 Discuterò di questo con Severus, e non ti sarà chiesta alcuna scusa a meno
  che lui non si scusi allo stesso modo.
  E ora dichiaro chiusa questa faccenda, almeno fino all'ora di pranzo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Fece una pausa.
@@ -2461,16 +2457,13 @@ o, e atterrò sulla sua spalla.
 \begin_layout Standard
 «La prego di seguirmi, signor Potter», disse ora fermamente, e uscirono
  dalla porta.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2510,7 +2503,7 @@ Cosa
  quello?
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  sussurrò Harry al suo fianco.
@@ -2522,7 +2515,7 @@ Cosa
 \end_inset
 
 La canzone della fenice
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Minerva, non realmente cosciente di ciò che diceva, la sua attenzione
@@ -2532,7 +2525,7 @@ La canzone della fenice
 \end_inset
 
 Anch'essa guarisce.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2729,7 +2722,7 @@ Non è stato solo per due ore al giorno, allora.
  ha faticato per restare sveglio sufficientemente a lungo per andare a dormire
  a un'ora ragionevole, e che si è svegliato sempre più presto la mattina.
  Dico bene?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2760,7 +2753,7 @@ Dal volto di Harry fu chiaro che non aveva pensato a quella possibilità.
 
 \begin_layout Standard
 «E cosa più importante
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , continuò, 
@@ -2894,7 +2887,7 @@ Gli occhi di Harry si riempirono di lacrime.
 \end_inset
 
 Può andare.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2909,16 +2902,13 @@ Harry si girò e corse via dal suo ufficio, singhiozzando.
 \begin_layout Standard
 «Sono dispiaciuta anch'io, Harry», sussurrò alla stanza silenziosa.
  «Sono dispiaciuta anch'io.»
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -3013,12 +3003,12 @@ Stava diventando sempre più difficile non sorridere, ma Harry mantenne il
 
 \begin_layout Standard
 «La verità è sacra
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry impassibile.
- «Uno dei miei averi più cari è una spilla che recita `Di' la verità, anche
- se la tua voce trema'.
+ «Uno dei miei averi più cari è una spilla che recita ``Di' la verità, anche
+ se la tua voce trema''.
  E quindi, ecco la verità.
  Ricordatelo.
  Non lo dico perché sono stato obbligato a farlo, lo dico perché è vero.
@@ -3029,7 +3019,7 @@ Stava diventando sempre più difficile non sorridere, ma Harry mantenne il
  Tutto perché non sono stato in grado di controllare il mio temperamento.
  Spero che non uno di voi segua mai il mio esempio.
  Certamente io intendo provare a non seguirlo più.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -3077,7 +3067,7 @@ Harry mantenne il volto impassibile.
 \begin_layout Standard
 Severus si alzò tranquillamente dal suo posto al Tavolo d'onore.
  «È stato portato alla mia attenzione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse, 
@@ -3091,17 +3081,8 @@ le rabbia del signor Potter, e nella conseguente discussione ho compreso
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes xrd
 \end_inset
 
 
@@ -3170,7 +3151,7 @@ Cosa
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  iniziale, con cui cominciavano diverse frasi come 
@@ -3182,7 +3163,7 @@ Cosa è successo
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  e 
@@ -3194,7 +3175,7 @@ Cosa diavolo
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  La seconda era «
@@ -3217,7 +3198,7 @@ Al tavolo Grifondoro, dove una torta attendeva con cinquantuno candeline
 \end_inset
 
 Penso che questo sia davvero troppo per noi, George.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 

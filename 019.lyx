@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -77,8 +77,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Crimson"
-\font_sans "default" "Myriad Pro"
+\font_roman "default" "Cochineal"
+\font_sans "default" "TeX Gyre Heros"
 \font_typewriter "default" "Inconsolata"
 \font_math "auto" "auto"
 \font_default_family default
@@ -87,6 +87,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -116,6 +118,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -130,7 +133,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -174,12 +180,12 @@ Draco aveva un'espressione severa sul volto, e le sue vesti bordate di verde
 \end_layout
 
 \begin_layout Standard
-«Voi due, d'altro canto, 
+«Voi due, invece, 
 \emph on
 tacete
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -292,7 +298,7 @@ Il signor Goyle trasalì.
 \begin_layout Standard
 «Neppure io», disse Draco.
  «Gli ho spiegato che ho finito per doverti un favore, a causa di ciò.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  (Il signor Goyle trasalì ancora.) 
@@ -309,7 +315,7 @@ esiste
 
 \begin_layout Standard
 «Allora va bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -331,7 +337,7 @@ espressione usata da Dumbledore, cap.
 \end_inset
 
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -358,7 +364,7 @@ Harry sorrise involontariamente, e seppe che Draco l'aveva notato.
 
 \begin_layout Standard
 «Cosa dice Severus?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , chiese Harry.
@@ -366,7 +372,7 @@ Harry sorrise involontariamente, e seppe che Draco l'aveva notato.
 
 \begin_layout Standard
 «Che non si era reso conto di quanto siano sensibili i bambini piccoli
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Draco.
@@ -379,7 +385,7 @@ Anche in Serpeverde! Anche a
 me!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -390,7 +396,7 @@ me!
 \end_inset
 
 Sei sicuro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , chiese Harry, 
@@ -399,7 +405,7 @@ Sei sicuro
 
 di voler sapere qualcosa che il responsabile della tua Casa preferirebbe
  che non sapessi?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -504,7 +510,7 @@ così tanto
 
 \begin_layout Standard
 «A ogni modo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -523,7 +529,7 @@ in particolare
 \emph default
 non arriva a tuo padre, e in cambio mi dici cosa tu e i Serpeverde pensate
  di tutta questa faccenda.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -545,7 +551,7 @@ Ciò che ho detto è vero.
  Ho realmente scoperto uno dei segreti di Severus e ho messo in atto un
  piccolo ricatto.
  Ma Severus non era l'unica persona coinvolta.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -570,8 +576,8 @@ Lo stomaco di Harry sprofondò.
 «Va bene», disse Draco.
  Ora aveva un sorriso largo.
  «Eccoti le reazioni in Serpeverde, allora.
- All'inizio, tutti gli idioti hanno detto `Odio Harry Potter! Andiamo a
- pestarlo!'»
+ All'inizio, tutti gli idioti hanno detto ``Odio Harry Potter! Andiamo a
+ picchiarlo!''»
 \end_layout
 
 \begin_layout Standard
@@ -593,7 +599,7 @@ Grifondoro
 
 \begin_layout Standard
 «Non tutti sono bambini prodigio
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse Draco, sebbene stesse sorridendo in un modo quasi complice, come
@@ -605,12 +611,12 @@ Grifondoro
 E a qualcuno ci sono voluti circa quindici secondi per spiegare loro perché
  questo sarebbe potuto non andare a favore di Snape, quindi sei al sicuro.
  Ad ogni modo, dopo c'è stata la seconda ondata di idioti, quelli che dicevano
- `Pare che Harry Potter sia un altro che vuole salvare il mondo, in fin
- dei conti'
-\begin_inset Quotes frd
+ ``Pare che Harry Potter sia un altro che vuole salvare il mondo, in fin
+ dei conti''.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -746,7 +752,7 @@ Mio amato figlio: ti ho già detto della potenziale importanza di Harry Potter.
  tua disposizione in caso di necessità
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -795,7 +801,7 @@ hai davvero bisogno di un consigliere che sappia come si fa, o ti farai
  male!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il volto di Draco era feroce.
@@ -880,17 +886,8 @@ Le palpebre di Draco batterono per la realizzazione, poi egli disse rapidamente,
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -926,16 +923,13 @@ Lo schermo sulla scrivania di Harry si accese con uno sfarfallio, causando
 «Ehm», disse la voce del professor Quirrell, che sembrò parlare personalmente
  a Harry dallo schermo.
  «Prego, raggiungete i vostri posti.»
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1103,7 +1097,7 @@ Ci furono più risate, con una venatura di nervosismo.
 \emph on
 primo
 \emph default
- elemento era, `Non me ne andrò in giro a provocare nemici forti e feroci'.
+ elemento era, ``Non me ne andrò in giro a provocare nemici forti e feroci''.
  La storia del mondo sarebbe molto diversa se Mornelithe Falconsbane o Hitler
  avessero compreso questo punto elementare.
  Ora 
@@ -1201,17 +1195,8 @@ dojo
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1281,7 +1266,7 @@ In aula ci fu silenzio, un silenzio nato dal totale smarrimento.
 
 \begin_layout Standard
 «Come cadere in modo corretto quando si è proiettati da qualcuno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il signor Goyle.
@@ -1289,17 +1274,8 @@ In aula ci fu silenzio, un silenzio nato dal totale smarrimento.
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes xrd
 \end_inset
 
 
@@ -1336,7 +1312,7 @@ A volte dimentichiamo le cose più elementari, dal momento che è passato
  Non si insegna agli studenti a proiettare fino a quando non si è insegnato
  loro a cadere.
  E non devo insegnarvi a combattere se non sapete come perdere.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1372,7 +1348,7 @@ dojo
  quell'anno, tra i tanti candidati.
  In quella decisione potrebbe aver giocato un ruolo un po' di condizionamento
  speciale.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1396,7 +1372,7 @@ Ad ogni modo.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1437,9 +1413,9 @@ non
  a terra.
  Alcuni di loro mi sputarono addosso.
  Mi chiamarono con nomi terribili nella loro lingua.
- E a ciascuno di loro, dovevo dire `ho perso!' e cose simili, come ad esempio
- `ti prego di smetterla!' e `riconosco che sei migliore di me!'
-\begin_inset Quotes frd
+ E a ciascuno di loro, dovevo dire ``ho perso!'' e cose simili, come ad
+ esempio ``ti prego di smetterla!'' e ``riconosco che sei migliore di me!''
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1471,7 +1447,7 @@ dojo
  che sperava avessi compreso perché era stato necessario.
  E gli risposi che era una delle lezioni più preziose che avessi mai imparato.
  Cosa che era, ed è, vera.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1506,7 +1482,7 @@ Il Signore Oscuro giunse in quella scuola apertamente, senza travestimento,
  li superò Materializzandosi.
  Ci fu terrore, ma anche disciplina, e il Maestro si fece avanti.
  E il Signore Oscuro pretese – non chiese, ma pretese – che gli insegnasse.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1532,7 +1508,7 @@ Ci fu un sussulto collettivo.
  sul posto.
  E poi\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1556,7 +1532,7 @@ La voce del professor Quirrell esitò per un momento, poi riprese.
  Oscuro lasciò in vita per raccontare la storia, e che era stato un mio
  amico\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1612,7 +1588,7 @@ Lo sguardo del professor Quirrell si focalizzò su di un singolo bambino
 esattamente
 \emph default
  ha sbagliato oggi, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1733,7 +1709,7 @@ bugia
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1742,7 +1718,7 @@ bugia
 \begin_layout Standard
 «Avrei incassato lo schiaffo, atteso, e scelto il miglior momento possibile
  per fare la mia mossa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce roca.
@@ -1772,7 +1748,7 @@ Il professor Quirrell annuì.
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1841,7 +1817,7 @@ Harry sentì che stava per mettersi a piangere.
 non è
 \emph default
  evitare di arrabbiarsi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, il suo volto severo.
@@ -1956,7 +1932,7 @@ fingere
  di perdere non avete compreso? Se Harry Potter diventasse realmente il
  prossimo Signore Oscuro, vi darà la caccia e vi ucciderà dopo che si sarà
  diplomato.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1968,7 +1944,7 @@ Le cinque mani scesero repentinamente sui banchi.
 
 \begin_layout Standard
 «Non lo farò
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, la sua voce uscì piuttosto debole.
@@ -2026,7 +2002,7 @@ Ci fu un'onda di risate sorprese, che sdrammatizzarono un po' della tensione.
 solletico
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2097,7 +2073,7 @@ Lei
 Certamente
 \emph default
  suo padre sarà le avrà insegnato a far di meglio.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2105,7 +2081,7 @@ Certamente
 
 \begin_layout Standard
 «Quando si tratta di discutere, forse
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco, ora sullo schermo ripetitore.
@@ -2150,22 +2126,19 @@ Alcuni studenti si guardarono in giro nervosamente.
 
 \begin_layout Standard
 «Draco Malfoy sarà uno dei generali degli eserciti del vostro anno
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, «se dovesse compiacersi di prendere parte
  a quell'attività dopo-scuola.
  E ora, signor Potter, la prego di venire avanti.»
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2263,7 +2236,7 @@ I Serpeverde più grandi annuirono, sogghignando.
 
 \begin_layout Standard
 «Allora sentitevi liberi di fargli abbassare un po' la cresta
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell, con un sorriso contorto che solo quelli del
@@ -2303,7 +2276,7 @@ e trepidazione.
 
 \begin_layout Standard
 «Gli chieda di non farle male
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il professor Quirrell.
@@ -2348,7 +2321,7 @@ la temperatura del sangue di Harry stava scendendo\SpecialChar ldots
 Il professor Quirrell scosse la testa.
  «In nome di Merlino, come ha fatto a farlo sembrare un insulto, Potter?
  C'è soltanto una risposta possibile che si può attendere dal signor Derrick.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2559,10 +2532,11 @@ era
  «Perdi ancora.»
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2716,7 +2690,7 @@ Harry parlò, «Nessuno
  andati.
  Lo sentiranno dopo.
  Tutti noi abbiamo le nostre lezioni da imparare, signor Potter.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2815,6 +2789,7 @@ concepibile
 Non ci fu una singola origine, nessuno iniziò per primo, gli applausi cominciaro
 no tutti contemporaneamente come il rombo fragoroso di un tuono.
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -2998,7 +2973,7 @@ Lei è tutto quello che un membro della sua Casa dovrebbe essere, e penso
  che lei sia proprio quello che Salazar Serpeverde aveva in mente quando
  contribuì a fondare Hogwarts.
  Ringrazio lei e la sua Casa
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Draco stava annuendo molto leggermente e ruotando impercettibilmente il
@@ -3012,7 +2987,7 @@ vai avanti
 
 e penso che questo richieda tre urrà per Serpeverde.
  Siete tutti con me?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry fece una pausa.
@@ -3021,7 +2996,7 @@ e penso che questo richieda tre urrà per Serpeverde.
 \end_inset
 
 Urrà!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Solo poche persone riuscirono a partecipare al primo tentativo.
@@ -3030,7 +3005,7 @@ Urrà!
 \end_inset
 
 Urrà!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Questa volta la maggior parte di Corvonero ci riuscì.
@@ -3039,7 +3014,7 @@ Urrà!
 \end_inset
 
 Urrà!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Questi erano quasi tutto Corvonero, una manciata di Tassofrasso e circa
@@ -3056,7 +3031,7 @@ La maggior parte dei Serpeverde avevano espressioni di completo stupore.
  Blaise Zabini stava guardando Harry con un'espressione calcolatrice e incuriosi
 ta.
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Blaise Zabini...

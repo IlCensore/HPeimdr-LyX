@@ -57,8 +57,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Crimson"
-\font_sans "default" "Gentium Plus"
+\font_roman "default" "Cochineal"
+\font_sans "default" "Ubuntu"
 \font_typewriter "default" "Ubuntu Mono"
 \font_math "auto" "auto"
 \font_default_family default
@@ -67,7 +67,7 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
+\use_microtype true
 \use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
@@ -489,17 +489,8 @@ hanno fatto pratica
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes xrd
 \end_inset
 
 
@@ -688,9 +679,10 @@ Draco emise un suono beffardo.
 
 \begin_layout Standard
 «Questo… mi pare abbastanza corretto», disse Harry.
- «Penso fosse qualcosa di più simile a `è questa una specie di piano incredibilm
-ente intelligente che ti garantirà un vantaggio futuro o è davvero una disgrazia
- per la memoria di Salazar Serpeverde come sembra' o qualcosa del genere.
+ «Penso fosse qualcosa di più simile a ``è questa una specie di piano incredibil
+mente intelligente che ti garantirà un vantaggio futuro o è davvero una
+ disgrazia per la memoria di Salazar Serpeverde come sembra'' o qualcosa
+ del genere.
  Non ricordo le parole esatte.»
 \begin_inset Note Note
 status open
@@ -736,8 +728,8 @@ dovrebbero
 \end_layout
 
 \begin_layout Standard
-«Che il Cappello Smistatore ha deciso di mettermi nella Casa `Serpeverde!
- Sto scherzando! Corvonero!' e che mi sto comportando di conseguenza.»
+«Che il Cappello Smistatore ha deciso di mettermi nella Casa ``Serpeverde!
+ Sto scherzando! Corvonero!'' e che mi sto comportando di conseguenza.»
 \end_layout
 
 \begin_layout Standard
@@ -814,10 +806,11 @@ L'aula si stava riempiendo rapidamente di tutti e quattro i colori delle
 Harry si chinò sul suo libro di testo di Difesa e continuò a leggere.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1114,10 +1107,11 @@ Quello studente sarebbe stato Harry.
  della classe''.»
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1263,7 +1257,7 @@ Il professor Quirrell era in piedi sulla pedana rialzata al centro della
 
 \begin_layout Standard
 «Vi ho detto», disse il professor Quirrell, «che avremmo fatto un gioco
- chiamato `Chi è lo studente più pericoloso della classe'.
+ chiamato ``Chi è lo studente più pericoloso della classe''.
  C'è uno studente in questa classe che ha padroneggiato la Fattura d'Attacco
  Semplice Sumera più rapidamente di ogni altro
 \begin_inset space ~
@@ -1934,7 +1928,7 @@ meramente
 \emph on
 volontà di uccidere
 \emph default
- fa di Harry Potter lo `Studente più pericoloso della classe'.
+ fa di Harry Potter lo ``Studente più pericoloso della classe''.
  Un ultimo punto per lui – no, facciamo un punto per Corvonero – per questo
  requisito indispensabile per un vero mago combattente.»
 \end_layout
@@ -2121,7 +2115,7 @@ te svegliato se Harry l'avesse pungolato un paio di volte.
 –
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 
 \emph on
 \noun on
@@ -2134,6 +2128,20 @@ Non farlo
 \end_inset
 
 Pessima idea
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

@@ -18,8 +18,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Minion Pro"
-\font_sans "default" "Ubuntu-Title"
+\font_roman "default" "EB Garamond"
+\font_sans "default" "EB Garamond"
 \font_typewriter "default" "Ubuntu Mono"
 \font_math "auto" "auto"
 \font_default_family default
@@ -946,17 +946,8 @@ senza
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{–»}
-\end_layout
-
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1493,7 +1484,7 @@ molto
 \emph default
  bene.
  Me l'ha fatto ripetere ogni sera prima di andare a letto per tutto il mese
- scorso, `mi farò degli amici a Hogwarts'.
+ scorso, ``mi farò degli amici a Hogwarts''.
  Quando gli ho spiegato tutto e ha compreso ciò che stavo facendo, mi ha
  comprato un gelato.»
 \end_layout
@@ -1956,17 +1947,8 @@ nti nel momento esatto in cui vide il raffinato ed elegante Draco Malfoy
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2184,10 +2166,6 @@ ora
 Il Cavillo
 \emph default
 , che mostrava il seguente titolo:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2807,11 +2785,11 @@ Cosa?
 \emph default
  Che intendi dire con 
 \emph on
-`noi
+``noi
 \emph default
 '
 \emph on
-?
+'?
 \emph default
 
 \begin_inset Quotes crd
@@ -3098,8 +3076,8 @@ Harry riprese il libro, sfogliò le pagine finché non trovò ciò che cercava.
  probabilmente più persone di quante vivano in tutta la Gran Bretagna magica.»
  
 \emph on
-E quando sono arrivati, hanno lasciato una targa che diceva, `Siamo venuti
- in pace, per tutta l'umanità'.
+E quando sono arrivati, hanno lasciato una targa che diceva, ``Siamo venuti
+ in pace, per tutta l'umanità''.
  Anche se non sei ancora pronto per sentire queste parole, Draco Malfoy...
 \end_layout
 
@@ -3199,7 +3177,7 @@ babbana
 umana
 \emph default
 , semplicemente affina e allena il potere che utilizzi ogni volta che guardi
- qualcosa che non comprendi e ti chiedi `Perché?'.
+ qualcosa che non comprendi e ti chiedi ``Perché?''.
  Sei di Serpeverde, Draco, non capisci le implicazioni?»
 \end_layout
 
@@ -3413,7 +3391,7 @@ Ma quando Harry alzò lo sguardo dal suo orologio, vide avvicinarsi due figure,
  «Possiamo convincerla ad aderire all'Ordine del Caos?»
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
@@ -3431,6 +3409,7 @@ Conseguenze
 \end_layout
 
 \begin_layout Standard
+\noindent
 Non molto tempo dopo, quando tutto il trambusto di quel giorno si fu finalmente
  placato, Draco stava chino sulla scrivania con la penna in mano.
  Aveva una stanza privata nei sotterranei di Serpeverde, con una scrivania
@@ -3544,8 +3523,23 @@ Caro Padre,
 
 \emph on
 immaginate che vi dica che ho incontrato uno studente di Hogwarts, non ancora
- membro della nostra cerchia di conoscenze, che vi definisce `un impeccabile
- strumento di morte' e ha detto che sono il vostro `unico punto debole'.
+ membro della nostra cerchia di conoscenze, che vi definisce 
+\begin_inset Quotes xld
+\end_inset
+
+un impeccabile strumento di morte
+\begin_inset Quotes xrd
+\end_inset
+
+ e ha detto che sono il vostro 
+\begin_inset Quotes xld
+\end_inset
+
+unico punto debole
+\begin_inset Quotes xrd
+\end_inset
+
+.
  Cosa direste di lui?
 \end_layout
 

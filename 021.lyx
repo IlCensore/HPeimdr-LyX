@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -77,8 +77,8 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Crimson"
-\font_sans "default" "Volkhov"
+\font_roman "default" "Cochineal"
+\font_sans "default" "TeX Gyre Heros"
 \font_typewriter "default" "Ubuntu Mono"
 \font_math "auto" "auto"
 \font_default_family default
@@ -87,6 +87,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -116,6 +118,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -130,7 +133,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -177,7 +183,7 @@ La differenza tra Buono e Cattivo era generalmente facile da riconoscere,
 \end_inset
 
 Buoni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  il professor Flitwick, la professoressa McGonagall e la professoressa Sprout.
@@ -186,7 +192,7 @@ Buoni
 \end_inset
 
 Cattivi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  erano il professor Snape, il professor Quirrell e Draco Malfoy.
@@ -467,7 +473,7 @@ Harry Potter mise con cura un segnalibro nel suo libro, lo chiuse, e lo
 \end_inset
 
 Vorrei sottolineare a beneficio dei posteri
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il Ragazzo-Che-È-Sopravvissuto con voce limpida, 
@@ -480,7 +486,7 @@ che mi era rimasta solo la metà di un libro, e che mi sono imbattuto in
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -495,7 +501,7 @@ che mi era rimasta solo la metà di un libro, e che mi sono imbattuto in
 Hai perso!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  gridò Hermione.
@@ -512,7 +518,7 @@ così!
 perso la nostra gara!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -568,7 +574,7 @@ qualcuno
 errore di pianificazione
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -680,10 +686,11 @@ E ci furono cenni d'assenso impazienti da parte di tutte le ragazze alle
  quali Penelope Clearwater aveva parlato del piano di Hermione.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -730,7 +737,7 @@ A Draco quell'incontro piaceva già.
 \end_inset
 
 Voglio che tu sappia, Draco Malfoy
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la sagoma nei toni di una calma mortale, 
@@ -738,7 +745,7 @@ Voglio che tu sappia, Draco Malfoy
 \end_inset
 
 che non biasimo te per la mia recente sconfitta.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -762,7 +769,7 @@ dovesse
 \end_inset
 
 È stata dovuta, più che altro, alla mia stupidità
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , proseguì la figura indistinta.
@@ -805,7 +812,7 @@ vinto
 perso
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -823,7 +830,7 @@ Draco aveva già sentito parlare della sconfitta di Harry e del pegno che
 \end_inset
 
 Comprendo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Draco.
@@ -832,7 +839,7 @@ Comprendo
 \end_inset
 
 Sono dispiaciuto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Non c'era altro che 
@@ -866,11 +873,12 @@ primo
 E quando vorrò riscuotere quel favore, tu lo ripagherai
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -928,7 +936,7 @@ primo
 E quando vorrò riscuotere quel favore, tu lo ripagherai
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1001,7 +1009,7 @@ si appena una piccola nota di incredulità nella voce.
 Non ci sarà nessun secondo appuntamento
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la sagoma illuminata di verde, con una voce così temibile che sembrò
@@ -1129,17 +1137,8 @@ settimana affollata
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1245,11 +1244,11 @@ sbagliata
 razionalizzazione
 \emph default
 , è come iniziare con un foglio di carta vuoto, andare direttamente all'ultima
- riga, scrivere `e 
+ riga, scrivere ``e 
 \emph on
 quindi
 \emph default
-, la Luna è fatta di formaggio', e poi ritornare in cima per scrivere ogni
+, la Luna è fatta di formaggio'', e poi ritornare in cima per scrivere ogni
  genere di acute argomentazioni.
  Ma o la Luna è fatta di formaggio o non lo è.
  Nel momento in cui hai scritto l'ultima riga, era già vera o già falsa.
@@ -1265,7 +1264,7 @@ vera
 \emph on
 scegliere in favore di quale baule argomentare
 \emph default
- è stata `scegli quello lucido', e otterrai un baule tanto buono quanto
+ è stata ``scegli quello lucido'', e otterrai un baule tanto buono quanto
  quella regola è in grado di scegliere.
  La razionalità 
 \emph on
@@ -1344,7 +1343,7 @@ più forti?
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1742,17 +1741,8 @@ stupido!
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{--»}
-\end_layout
-
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1768,9 +1758,9 @@ mbox{--»}
 \end_layout
 
 \begin_layout Standard
-«Voglio dire, che succederebbe se qualcuno dicesse `ok, ora sollevate tutti
- le vostre vesti sul braccio destro' e il nostro uomo rispondesse `oops,
- scusate, sembra che io sia una spia'
+«Voglio dire, che succederebbe se qualcuno dicesse ``ok, ora sollevate tutti
+ le vostre vesti sul braccio destro'' e il nostro uomo rispondesse ``oops,
+ scusate, sembra che io sia una spia''
 \begin_inset space ~
 \end_inset
 
@@ -1817,8 +1807,8 @@ intelligente!
 \end_layout
 
 \begin_layout Standard
-In quel momento Draco avrebbe accettato anche `Masticatori di Malfoy', purché
- si cambiasse argomento.
+In quel momento Draco avrebbe accettato anche ``Masticatori di Malfoy'',
+ purché si cambiasse argomento.
  «Che cos'è?»
 \end_layout
 
@@ -1832,6 +1822,7 @@ Cospirazione bayesiana
 \emph default
 .»
 \begin_inset Branch Figure
+inverted 0
 status collapsed
 
 \begin_layout Standard
@@ -1898,10 +1889,11 @@ Cospirazione bayesiana
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2101,10 +2093,11 @@ Harry ficcò tutto nella borsa, alzò il Quietus, tirò la coperta sopra la
  testa e si spense.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -2261,17 +2254,8 @@ Ci fu una pausa, mentre il tavolo di Corvonero li fissò.
 
 \begin_layout Standard
 «Vi sbagliate», disse qualcuno.
- «Harry Potter è nato il trentuno lugl
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mbox{-»}
-\end_layout
-
+ «Harry Potter è nato il trentuno lugl–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -2416,7 +2400,7 @@ cosa?
 
 \begin_layout Standard
 «Come\SpecialChar ldots
- `spirito'? `Sole'?»
+ ``spirito''? ``Sole''?»
 \end_layout
 
 \begin_layout Standard
@@ -2476,16 +2460,17 @@ Ho avuto una
 settimana davvero lunga
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset

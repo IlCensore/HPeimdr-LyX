@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -72,7 +72,7 @@ initials
 \inputencoding auto
 \fontencoding global
 \font_roman "default" "EB Garamond"
-\font_sans "default" "Myriad Pro"
+\font_sans "default" "EB Garamond"
 \font_typewriter "default" "Inconsolata"
 \font_math "auto" "auto"
 \font_default_family default
@@ -81,6 +81,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -110,6 +112,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -124,7 +127,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -194,7 +200,7 @@ da cap 90, con modifica.
 \end_inset
 
 Ora, giusto per essere chiari
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry, 
@@ -210,7 +216,7 @@ se la professoressa ti facesse levitare, Papà, quando sai di non essere
 ora
 \emph default
 , e possiamo trovare un altro esperimento, invece.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -224,7 +230,7 @@ Il padre di Harry, il professor Michael Verres-Evans, alzò gli occhi al
 \end_inset
 
 Sì, Harry.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -236,9 +242,9 @@ Sì, Harry.
 
 E tu, Mamma, la tua teoria dice che la professoressa dovrebbe essere in
  grado di farlo, quindi se non succede, ammetterai che ti sbagli.
- Niente `la magia non funziona quando le persone non ci credono', o cose
+ Niente ``la magia non funziona quando le persone non ci credono'', o cose
  del genere.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -257,7 +263,7 @@ La vicepreside Minerva McGonagall stava guardando Harry con un'espressione
 \end_inset
 
 È sufficiente, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  chiese.
@@ -266,7 +272,7 @@ La vicepreside Minerva McGonagall stava guardando Harry con un'espressione
 \end_inset
 
 Posso procedere con la dimostrazione?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -281,7 +287,7 @@ Posso procedere con la dimostrazione?
 Sufficiente?
 \emph default
  Probabilmente no
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -295,7 +301,7 @@ d'aiuto
 \emph default
 .
  La prego di procedere, Vicepreside.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -306,7 +312,7 @@ d'aiuto
 \end_inset
 
 Professoressa è sufficiente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ella disse, e poi, 
@@ -318,7 +324,7 @@ Professoressa è sufficiente
 Wingardium Leviosa
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -333,7 +339,7 @@ Harry osservò suo padre.
 \end_inset
 
 Uh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece Harry.
@@ -346,7 +352,7 @@ Suo padre lo guardò a sua volta.
 \end_inset
 
 Uh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , gli fece eco.
@@ -359,7 +365,7 @@ Poi il professor Verres-Evans guardò la professoressa McGonagall.
 \end_inset
 
 Va bene, può rimettermi giù, ora.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -381,7 +387,7 @@ già
 \end_inset
 
 È un po' una delusione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse.
@@ -396,7 +402,7 @@ Ci dovrebbe essere un qualche tipo di evento mentale ben più drammatico
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry si fermò.
@@ -410,7 +416,7 @@ sguardo.
 \end_inset
 
 Voglio dire, quando scopro che tutto ciò a cui credo è falso.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -445,7 +451,7 @@ La strega stava rivolgendo loro un sorriso benevolo, sembrando piuttosto
 \end_inset
 
 Desidera un'altra dimostrazione, signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -456,7 +462,7 @@ Desidera un'altra dimostrazione, signor Potter?
 \end_inset
 
 Non è tenuta a farlo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -467,7 +473,7 @@ Non è tenuta a farlo
 Ha eseguito l'esperimento decisivo.
  Ma\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  esitò.
@@ -483,7 +489,7 @@ doveva
 \end_inset
 
 Cos'altro è in grado di fare?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -509,7 +515,7 @@ Immediatamente il piccolo gatto tigrato si trasformò di nuovo in una donna
 \end_inset
 
 Mi dispiace, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la strega, sembrando sincera, sebbene gli angoli delle sue labbra
@@ -519,7 +525,7 @@ Mi dispiace, signor Potter
 \end_inset
 
 Avrei dovuto avvisarla.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -541,7 +547,7 @@ farlo
 !
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -552,7 +558,7 @@ farlo
 \end_inset
 
 È solo una Trasfigurazione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
@@ -561,7 +567,7 @@ farlo
 \end_inset
 
 Una trasformazione Animagus, per essere precisi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -597,7 +603,7 @@ neurologia?
 pensare
 \emph default
  con il cervello delle dimensioni di quello di un gatto?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -610,7 +616,7 @@ Le labbra della professoressa McGonagall si contrassero ancor di più.
 \end_inset
 
 Magia.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -625,7 +631,7 @@ La magia
 non è sufficiente
 \emph default
  a fare questo! Dovrebbe essere un dio!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -642,7 +648,7 @@ La professoressa McGonagall sbatté le palpebre.
 così
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -693,7 +699,7 @@ Wingardium Leviosa?
 \emph default
  Chi inventa le parole di questi incantesimi, i bambini della scuola dell'infanz
 ia?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -704,7 +710,7 @@ ia?
 \end_inset
 
 Così è sufficiente, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse seccamente la professoressa McGonagall, anche se i suoi occhi brillavano
@@ -715,7 +721,7 @@ Così è sufficiente, signor Potter
 
 Se vuole imparare qualcosa sulla magia, le suggerisco di completare la sua
  iscrizione in modo che possa andare a Hogwarts.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -726,7 +732,7 @@ Se vuole imparare qualcosa sulla magia, le suggerisco di completare la sua
 \end_inset
 
 Giusto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry un po' stordito.
@@ -738,7 +744,7 @@ Giusto
 \end_inset
 
 Come faccio ad andare a Hogwarts, allora?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -754,7 +760,7 @@ Una risata strozzata sfuggì alla professoressa McGonagall, come se le fosse
 \end_inset
 
 Aspetta un attimo, Harry
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse suo padre.
@@ -764,7 +770,7 @@ Aspetta un attimo, Harry
 
 Ricordi perché non sei andato a scuola finora? Che facciamo per la tua condizion
 e?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -777,7 +783,7 @@ La professoressa McGonagall si voltò a guardare Michael.
 \end_inset
 
 La sua condizione? Di che si tratta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -788,7 +794,7 @@ La sua condizione? Di che si tratta?
 \end_inset
 
 Non dormo correttamente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -809,7 +815,7 @@ dopo
  Anche se tento di svegliarmi prima, non fa nessuna differenza e mi sento
  uno straccio tutto il giorno.
  Ecco perché non sono andato alle scuole normali fino a oggi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -820,7 +826,7 @@ dopo
 \end_inset
 
 Una delle ragioni
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sua madre.
@@ -840,7 +846,7 @@ hmmmmm
 Non riesco a ricordare di aver mai sentito parlare di una tale condizione,
  in passato\SpecialChar ldots
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse lentamente.
@@ -849,7 +855,7 @@ Non riesco a ricordare di aver mai sentito parlare di una tale condizione,
 \end_inset
 
 Controllerò con Madam Pomfrey per vedere se conosce qualche rimedio.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Poi il suo viso si illuminò.
@@ -866,7 +872,7 @@ status collapsed
 \end_inset
 
 nel tempo troverò una soluzione
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  è un gioco di parole, troverà una soluzione 
@@ -878,7 +884,7 @@ in time
 \end_inset
 
 per tempo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , ma anche 
@@ -886,7 +892,7 @@ per tempo
 \end_inset
 
 nel tempo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , dato che userà i Giratempo.
@@ -895,7 +901,7 @@ nel tempo
 \end_inset
 
  Ora
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , e il suo sguardo si fece nuovamente acuto, 
@@ -907,7 +913,7 @@ quali sono queste
 altre
 \emph default
  ragioni?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -923,7 +929,7 @@ Sono un obiettore di coscienza contro la coscrizione dei bambini, perché
  trovo ingiusto dover soffrire a causa dell'incapacità di un sistema scolastico
  in disintegrazione di fornire insegnanti o materiali di studio di qualità
  anche minimamente adeguata.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -937,7 +943,7 @@ Entrambi i genitori di Harry reagirono scoppiando a ridere, come se pensassero
 \end_inset
 
 Oh
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse il padre di Harry, gli occhi allegri, 
@@ -949,7 +955,7 @@ Oh
 questo
 \emph default
  che in terza elementare hai morso una professoressa di matematica.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -964,7 +970,7 @@ questo
 Non sapeva cosa fosse un logaritmo!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -975,7 +981,7 @@ Non sapeva cosa fosse un logaritmo!
 \end_inset
 
 Certo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , concordò la madre di Harry.
@@ -984,7 +990,7 @@ Certo
 \end_inset
 
 Morderla è stata una reazione molto matura.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -998,7 +1004,7 @@ Il padre di Harry annuì.
 
 Una soluzione ben ponderata per affrontare il problema degli insegnanti
  che non conoscono i logaritmi.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1014,7 +1020,7 @@ sette anni!
 \emph default
  Per quanto tempo ancora avete intenzione di continuare a ritirare fuori
  quella faccenda?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1025,7 +1031,7 @@ sette anni!
 \end_inset
 
 Lo so
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la madre con comprensione, 
@@ -1037,7 +1043,7 @@ mordi
 una
 \emph default
  insegnante di matematica e non se ne dimenticano più, vero?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1050,7 +1056,7 @@ Harry si voltò verso la professoressa McGonagall.
 \end_inset
 
 Ecco! Vede quello che mi tocca subire?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1061,7 +1067,7 @@ Ecco! Vede quello che mi tocca subire?
 \end_inset
 
 Scusatemi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Petunia, e attraverso la porta sul retro fuggì nel giardino, da
@@ -1073,7 +1079,7 @@ Scusatemi
 \end_inset
 
 Non, ah, non
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , la professoressa McGonagall sembrò avere problemi a parlare, per qualche
@@ -1083,7 +1089,7 @@ Non, ah, non
 
 non dovranno esserci morsi per gli insegnanti a Hogwarts, è abbastanza chiaro,
  signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1096,7 +1102,7 @@ Harry la guardò con cipiglio.
 \end_inset
 
 Va bene, non morderò nessuno che non morda me per primo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1112,7 +1118,7 @@ Anche il professor Michael Verres-Evans dovette lasciare la stanza per un
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse sospirando la professoressa McGonagall, dopo che i genitori di Harry
@@ -1125,7 +1131,7 @@ Bene.
  Credo che, date le circostanze, dovrei evitare di portarla a comprare il
  suo corredo scolastico fino a uno o due giorni prima dell'inizio della
  scuola
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 .
@@ -1137,7 +1143,7 @@ Bene.
 
 Cosa? Perché? Gli altri bambini conoscono già la magia, non è vero? Devo
  iniziare subito a recuperare terreno!
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1148,7 +1154,7 @@ Cosa? Perché? Gli altri bambini conoscono già la magia, non è vero? Devo
 \end_inset
 
 Stia certo, signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , replicò la professoressa McGonagall, 
@@ -1161,7 +1167,7 @@ che Hogwarts è decisamente in grado di insegnare le basi.
  casa solo per trovare un cratere rigonfio di fumo rosa, una città spopolata
  attorno ad esso, e un'epidemia di zebre fiammeggianti che terrorizza ciò
  che resta dell'Inghilterra.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1180,7 +1186,7 @@ La madre e il padre di Harry annuirono in perfetto unisono.
 Mamma! Papà!
 \emph default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 

@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -57,9 +57,9 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Crimson"
-\font_sans "default" "Butler"
-\font_typewriter "default" "Twilight"
+\font_roman "default" "Cochineal"
+\font_sans "default" "Cormorant Garamond"
+\font_typewriter "default" "UnifrakturMaguntia"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
@@ -67,6 +67,8 @@ initials
 \font_osf true
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -96,6 +98,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -110,7 +113,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -156,7 +162,7 @@ C'erano domande misteriose, ma una risposta misteriosa era una contraddizione
 \end_inset
 
 Avanti
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la voce attutita della professoressa McGonagall.
@@ -189,7 +195,7 @@ La professoressa McGonagall sedeva su di uno sgabello senza schienale dietro
 \end_inset
 
 Signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse la professoressa McGonagall.
@@ -198,7 +204,7 @@ Signor Potter?
 \end_inset
 
 Di cosa si tratta?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -218,7 +224,7 @@ ella
 \end_inset
 
 Signor Potter?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  ripeté la professoressa McGonagall, iniziando a sembrare un po' infastidita.
@@ -239,7 +245,7 @@ aveva
 \end_inset
 
 Uhm…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  fece Harry.
@@ -249,7 +255,7 @@ Uhm…
 
 Se ci fossero incantesimi che potesse formulare per essere sicura che nessuno
  ci stia ascoltando…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -289,7 +295,7 @@ La professoressa McGonagall terminò un incantesimo che sembrava più antico
 \end_inset
 
 Bene
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse con voce tranquilla.
@@ -298,7 +304,7 @@ Bene
 \end_inset
 
 Nessuno ci sta ascoltando.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Il suo volto era alquanto contratto.
@@ -319,7 +325,7 @@ Eh, Harry sarebbe dovuto tornare su quella questione qualche altro giorno.
 \end_inset
 
 Si tratta dell'Incidente con il Cappello Smistatore
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -329,21 +335,21 @@ Si tratta dell'Incidente con il Cappello Smistatore
 
 Uhm… Penso che vi sia un incantesimo supplementare sul Cappello Smistatore,
  qualcosa di cui lo stesso Cappello Smistatore non è a conoscenza, che si
- innesca quando il Cappello Smistatore dice `Serpeverde'.
+ innesca quando il Cappello Smistatore dice ``Serpeverde''.
  Ho sentito un messaggio che sono certo i Corvonero non dovrebbero sentire.
  È stato nel momento in cui il Cappello Smistatore veniva rimosso dalla
  mia testa e ho sentito interrompersi la connessione.
  Suonava come un sibilo e allo stesso tempo come una frase in inglese
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , McGonagall inspirò rumorosamente, 
 \begin_inset Quotes cld
 \end_inset
 
-e diceva: `Saluti da Serpeverde a Serpeverde, se volessi cercare i miei
- segreti, parla al mio serpente'.
-\begin_inset Quotes frd
+e diceva: ``Saluti da Serpeverde a Serpeverde, se volessi cercare i miei
+ segreti, parla al mio serpente''.
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -359,7 +365,7 @@ La professoressa McGonagall sedette immobile con la bocca aperta, fissando
 \end_inset
 
 Così…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  disse lentamente la professoressa McGonagall, come se non potesse credere
@@ -368,7 +374,7 @@ Così…
 \end_inset
 
 ha deciso di venire direttamente da me e parlarmene.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -379,7 +385,7 @@ ha deciso di venire direttamente da me e parlarmene.
 \end_inset
 
 Beh, sì, naturalmente
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , rispose Harry.
@@ -391,7 +397,7 @@ Beh, sì, naturalmente
 
 Invece di, diciamo, mettermi a indagare io stesso, o parlarne con qualche
  altro bambino.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -402,7 +408,7 @@ Invece di, diciamo, mettermi a indagare io stesso, o parlarne con qualche
 \end_inset
 
 Capisco...
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
@@ -412,7 +418,7 @@ Capisco...
 
 E se, per caso, scoprisse l'ingresso alla leggendaria Camera dei Segreti
  di Salazar Serpeverde, un ingresso che soltanto lei potrebbe aprire…
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -424,7 +430,7 @@ E se, per caso, scoprisse l'ingresso alla leggendaria Camera dei Segreti
 
 Chiuderei l'ingresso e le riferirei immediatamente la cosa, così che possa
  essere formato un gruppo di esperti archeologi della magia
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry prontamente.
@@ -438,7 +444,7 @@ Poi aprirei l'ingresso nuovamente e loro entrerebbero con molta cautela,
  di me per aprire qualcos'altro, ma ciò avverrebbe solo dopo che l'area
  fosse dichiarata sicura e che avessero scattato fotografie di come appariva
  il tutto prima che la gente calpestasse il loro inestimabile sito storico.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -454,7 +460,7 @@ La professoressa McGonagall rimase seduta con la bocca aperta, fissandolo
 \end_inset
 
 È una cosa scontata, se non sei un Grifondoro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , Harry disse gentilmente.
@@ -465,7 +471,7 @@ La professoressa McGonagall rimase seduta con la bocca aperta, fissandolo
 \end_inset
 
 Credo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall con una voce alquanto impassibile, 
@@ -477,7 +483,7 @@ che lei sottovaluti
 di molto
 \emph default
  la rarità del buon senso, signor Potter.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -490,7 +496,7 @@ Sembrava quasi corretto.
 \end_inset
 
 Un Tassofrasso avrebbe detto la stessa cosa.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -507,7 +513,7 @@ Anche
 questo
 \emph default
  è vero.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -518,7 +524,7 @@ questo
 \end_inset
 
 Il Cappello Smistatore mi ha offerto Tassofrasso.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -535,7 +541,7 @@ L'ha fatto
 davvero
 \emph default
 ?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -546,7 +552,7 @@ davvero
 \end_inset
 
 Sì.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -557,7 +563,7 @@ Sì.
 \end_inset
 
 Signor Potter
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse McGonagall, e ora la sua voce era grave, 
@@ -567,7 +573,7 @@ Signor Potter
 cinque decenni fa è stata l'ultima volta che uno studente è morto tra le
  mura di Hogwarts, e io sono ora certa che cinque decenni fa sia stata l'ultima
  volta che qualcuno ha sentito quel messaggio.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -588,7 +594,7 @@ estremante
 di alcun genere
 \emph default
  a riguardo senza consultarla, professoressa McGonagall.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Fece una pausa.
@@ -605,7 +611,7 @@ un altro
  incantesimo, un Quietus che si attivi brevemente proprio quando il Cappello
  è rimosso dalla testa di uno studente, potrebbe funzionare come toppa.
  Ecco qua, niente più studenti morti.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Harry annuì con soddisfazione.
@@ -623,7 +629,7 @@ posso
 \emph default
  assegnarle abbastanza punti senza assegnare definitivamente la Coppa delle
  Case a Corvonero.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -634,7 +640,7 @@ posso
 \end_inset
 
 Uhm
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , fece Harry.
@@ -644,7 +650,7 @@ Uhm
 
 Uhm.
  Preferirei non guadagnare tutti quei punti.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -657,7 +663,7 @@ Ora la professoressa McGonagall gli stava rivolgendo uno strano sguardo.
 \end_inset
 
 Perché no?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -677,7 +683,7 @@ Perché sarebbe semplicemente troppo triste, sa? Come… come quando stavo
  guadagno abbastanza da essere decisivo nella vittoria della Coppa delle
  Case tutto da solo, allora sarebbe come se portassi Casa Corvonero tutta
  sulle mie spalle, e questo è troppo triste.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -866,6 +872,7 @@ il mio disturbo del sonno.
 
 \begin_layout Standard
 \begin_inset Branch Figure
+inverted 0
 status open
 
 \begin_layout Standard
@@ -1074,7 +1081,7 @@ sostituirebbe con versioni differenti
 \end_inset
 
 –
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1170,7 +1177,7 @@ Non è tranquillizzante! Non avete mai sentito parlare del principio antropico?
 La professoressa McGonagall rise di cuore.
  Era un suono piacevole e lieto che sembrava sorprendentemente fuori posto
  su quel volto severo.
- «Sta avendo un altro momento `si è trasformata in un gatto', dico bene,
+ «Sta avendo un altro momento ``si è trasformata in un gatto'', dico bene,
  signor Potter? Probabilmente non vuol sentirselo dire, ma è alquanto simpaticam
 ente dolce.»
 \end_layout
@@ -1260,7 +1267,7 @@ che vanno indietro nel tempo!
 \emph default
 \noun default
 
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1513,10 +1520,11 @@ futuro
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1642,16 +1650,13 @@ status open
 
 \begin_layout Standard
 La nota non era firmata.
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1679,7 +1684,7 @@ Harry alzò una mano.
  ho intenzione di giocare scherzi o altre cose discutibili contro nessuno
  di voi, e che non prevedo che queste intenzioni cambino prima che io scenda
  nella Sala Grande per colazione.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1720,7 +1725,7 @@ prefetto
 \end_inset
 
 Quando cercherai di raggiungere la Sala Grande, ti perderai.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Penelope lo disse come fosse un fatto semplice e indiscutibile.
@@ -1750,7 +1755,7 @@ fermati
 questo se rimani all'interno del castello
 \emph default
 .
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1761,7 +1766,7 @@ questo se rimani all'interno del castello
 \end_inset
 
 Ricevuto
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry deglutendo con difficoltà.
@@ -1770,7 +1775,7 @@ Ricevuto
 \end_inset
 
 Uhm, non dovreste dirlo subito a tutti gli studenti?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1788,7 +1793,7 @@ tutto
 \emph default
  quello? Ci vorrebbero settimane.
  Lo imparerete strada facendo.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
  Si girò per andarsene, seguita dagli altri studenti.
@@ -1798,7 +1803,7 @@ tutto
 
 Se non ti vedo a colazione entro trenta minuti, Potter, darò inizio alle
  ricerche.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -1821,10 +1826,11 @@ E solo per un impulso malizioso, Harry mise il Mantello nella borsa di Harry-1,
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1861,10 +1867,11 @@ da cap 13
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1890,10 +1897,11 @@ di tutti!
  Aveva bisogno di arrivare alla classe di Erbologia un po' in anticipo.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1913,7 +1921,7 @@ lei
 
 \begin_layout Standard
 «Non posso rivelare la mia fonte
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry.
@@ -1945,10 +1953,11 @@ La professoressa Sprout lo guardò per un lungo istante, poi la sua espressione
 ione non è mai avvenuta.»
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 \align center
 \begin_inset Graphics
 	filename fleur.png
+	display false
 	scale 50
 
 \end_inset
@@ -1968,7 +1977,7 @@ Fu orribile, vedersi strattonare Neville fuori dal circolo dei Serpeverde.
 \end_inset
 
 Ciao
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Harry gelidamente.
@@ -1977,7 +1986,7 @@ Ciao
 \end_inset
 
 Io sono il Ragazzo-Che-È-Sopravvissuto.
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
