@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass memoir
 \begin_preamble
 \setcounter{chapter}{82}
@@ -64,16 +66,18 @@ initials
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman EB Garamond
-\font_sans EB Garamond
-\font_typewriter Inconsolata
-\font_math auto
+\font_roman "default" "EB Garamond"
+\font_sans "default" "EB Garamond"
+\font_typewriter "default" "Inconsolata"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf true
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -103,6 +107,7 @@ initials
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -117,7 +122,10 @@ initials
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle myheadings
@@ -154,11 +162,11 @@ name "chap:83Sdt-conseguenze1"
 \end_layout
 
 \begin_layout Standard
-Quando Padma entrò nell'aula di Trasfigurazio\SpecialChar \-
+Quando Padma entrò nell'aula di Trasfigurazio\SpecialChar softhyphen
 ne, vide che metà della classe
- l'aveva anticipata, e che uno strano silenzio mortale pervadeva la stanza.
- Harry Potter sedeva da solo in un angolo, fissando in una lontananza sconosciut
-a, le sue palpebre metà abbassate, gli occhi quasi chiusi.
+ l'aveva preceduta, e che uno strano silenzio mortale pervadeva la stanza.
+ Harry Potter sedeva da solo in un angolo, fissando un punto indefinito
+ in lontananza, le palpebre abbassate per metà, gli occhi quasi chiusi.
 \end_layout
 
 \begin_layout Standard
@@ -185,7 +193,7 @@ quello
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -205,7 +213,7 @@ Anche quando la professoressa McGonagall arrivò, il silenzio non si era
 \end_inset
 
 Oggi, bambini
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , iniziò la voce calma e professionale della Professoressa di Trasfigurazione,
@@ -221,8 +229,8 @@ tamento
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -233,7 +241,7 @@ tamento
 \end_inset
 
 Mi scusi
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Padma Patil.
@@ -244,7 +252,7 @@ Mi scusi
 \end_inset
 
 Mi scusi, Professoressa, cos'è successo alla signorina Granger?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -252,17 +260,17 @@ Mi scusi, Professoressa, cos'è successo alla signorina Granger?
 
 \begin_layout Standard
 La Professoressa di Trasfigurazione si fermò, e si girò per guardare Padma.
- La Professoressa sarebbe dovuta sembrare severa, essendo stata interrotta
+ La Professoressa sarebbe dovuta apparire severa, essendo stata interrotta
  senza che una mano fosse stata alzata, ma invece il suo volto era gentile.
  
 \begin_inset Quotes cld
 \end_inset
 
-Non lo sa già, signorina Patil? Mi aspettavo che quella voce si diffondesse
-\begin_inset Quotes frd
+Non lo sa già, signorina Patil? Mi aspettavo che quella voce si diffondesse.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -270,7 +278,7 @@ Non lo sa già, signorina Patil? Mi aspettavo che quella voce si diffondesse
 \end_inset
 
 Ci sono troppe voci
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse Padma.
@@ -278,11 +286,11 @@ Ci sono troppe voci
 \begin_inset Quotes cld
 \end_inset
 
-Non so quale sia vera
-\begin_inset Quotes frd
+Non so quale sia vera.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -300,8 +308,8 @@ vero
 \begin_inset space ~
 \end_inset
 
---
-\begin_inset Quotes frd
+–
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -312,7 +320,7 @@ vero
 \end_inset
 
 Oh, Merlino caro
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall, la sua espressione che divenne contratta,
@@ -325,11 +333,11 @@ La faccenda è stata estremamente ridicola e non scenderò nei dettagli.
  Sia sufficiente dire che la signorina Granger sta riposando da Madam Pomfrey
  per ora, e tornerà a lezione domani.
  E chiunque scoprissi a importunarla, lo trasformerei in un vaso di vetro
- e lo lascerei cadere
-\begin_inset Quotes frd
+ e lo lascerei cadere.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -342,7 +350,7 @@ La professoressa McGonagall si girò nuovamente verso la lavagna
 \begin_inset space ~
 \end_inset
 
---
+–
 \end_layout
 
 \begin_layout Standard
@@ -352,16 +360,16 @@ Da un angolo dell'aula, si alzò un'altra voce.
 \end_inset
 
 E il professor Quirrell?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
- disse Terry Boot.
+ chiese Terry Boot.
  
 \begin_inset Quotes cld
 \end_inset
 
 È stato arrestato?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -372,7 +380,7 @@ E il professor Quirrell?
 \end_inset
 
 Gli Auror lo stanno solo trattenendo
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la Professoressa di Trasfigurazione senza rigirarsi.
@@ -380,15 +388,15 @@ Gli Auror lo stanno solo trattenendo
 \begin_inset Quotes cld
 \end_inset
 
-Se non ci avranno restituito il nostro Professore di Difesa per domani,
+Se per domani non ci avranno restituito il nostro Professore di Difesa,
  chiederò al Preside di andarlo a prendere.
- Sebbene ora potrei dirvi anche che il Consiglio Direttivo ha messo in calendari
-o un voto per decidere se alle battaglie del professor Quirrell sarà permesso
- di proseguire
-\begin_inset Quotes frd
+ E potrei dirvi anche che il Consiglio Direttivo ha messo in calendario
+ un voto per decidere se permettere la prosecuzione delle battaglie del
+ professor Quirrell.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
@@ -399,7 +407,7 @@ Kevin Entwhistle parlò.
 
 E il generale Malfoy? Quando tornerà da St.
  Mungo's?
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 
@@ -422,7 +430,7 @@ Sono
 davvero
 \emph default
  dispiaciuta, signor Entwhistle
-\begin_inset Quotes frd
+\begin_inset Quotes crd
 \end_inset
 
 , disse la professoressa McGonagall.
@@ -434,11 +442,11 @@ davvero
 La salute del signor Malfoy non è in pericolo, a quanto mi è dato di capire.
  Sfortunatamente, ho ricevuto un gufo dal padre del signor Malfoy che lo
  ritira da Hogwarts.
- Temo che non tornerà
-\begin_inset Quotes frd
+ Temo che non tornerà.
+\begin_inset Quotes crd
 \end_inset
 
-.
+
 \end_layout
 
 \end_body
