@@ -61,6 +61,8 @@
 %%per rimuovere legatura Th, rallenta un po', forse serve solo per versione inglese
 %\usepackage{selnolig}
 %\nolig{Th}{T|h} % suppress "Th" ligature globally
+
+\usepackage{shapepar} %paragrafi con una certa forma
 \end_preamble
 \use_default_options true
 \master ENG_hpmor.lyx
@@ -3352,16 +3354,6 @@ Oh! E voglio iniziare a portare con me delle armi babbane, magari nascoste
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-REv fin qui
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3471,8 +3463,8 @@ davvero
 \begin_layout Standard
 
 \emph on
-Puoi correre rischi che altre persone non dovrebbero, e riprovarci con la
- conoscenza di ciò che ti ha ucciso.
+Puoi correre rischi che altre persone non dovrebbero correre, e riprovarci
+ con la conoscenza di ciò che ti ha ucciso.
  Puoi fare esperimenti con nuovi incantesimi, più di quanto chiunque altro
  possa provare senza morire con certezza.
 
@@ -3517,17 +3509,17 @@ Quello
 \end_inset
 
 , disse Harry sentendo il brivido dell'aria dell'alba sulla sua pelle.
- Aveva sempre di meno voglia di giungere al momento in cui avrebbe dovuto
- dire a super-Hermione che la sua Ordalia avrebbe previsto che fronteggiasse
+ Aveva sempre meno voglia di giungere al momento in cui avrebbe dovuto dire
+ a super-Hermione che la sua Ordalia avrebbe previsto che fronteggiasse
  il suo incubo letteralmente peggiore, in condizioni in cui tutta la sua
  forza fisica recentemente scoperta sarebbe stata inutile.
 \end_layout
 
 \begin_layout Standard
 Hermione annuì, poi rivolse lo sguardo a oriente.
- Contemporaneamente andò verso il lato del tetto e si sedette, i piedi che
- penzolavano oltre il bordo.
- Anche Harry andò al suo fianco e si sedette, a gambe incrociate e più indietro
+ Contemporaneamente andò verso il limitare del tetto e si sedette, i piedi
+ che penzolavano oltre il bordo.
+ Harry andò al suo fianco e si sedette, a gambe incrociate e più indietro
  rispetto al bordo.
 \end_layout
 
@@ -3557,9 +3549,12 @@ Allora
 \end_inset
 
 A proposito del futuro, Harry.
- Ho avuto tempo di pensare a parecchie cose mentre stavo aspettando dentro
- St.
- Mungo's, e...
+ Ho avuto tempo di pensare a parecchie cose mentre me ne stavo ad aspettare
+ dentro St.
+\begin_inset space \thinspace{}
+\end_inset
+
+Mungo's, e...
  forse mi comporto da stupida, ma c'è una questione di cui vorrei ancora
  conoscere la risposta.
  Ricordi l'ultima cosa di cui abbiamo parlato insieme? Prima, voglio dire?
@@ -3586,7 +3581,7 @@ Cosa?
 
 Oh...
  È stato due mesi fa per te...
- mi sa che non te ne ricordi, allora.
+ mi sa che non te lo ricordi, allora.
 \begin_inset Quotes crd
 \end_inset
 
@@ -3601,7 +3596,7 @@ E Harry ricordò.
 \begin_inset Quotes cld
 \end_inset
 
-Non avere paura!
+Non aver paura!
 \begin_inset Quotes crd
 \end_inset
 
@@ -3613,8 +3608,8 @@ Non avere paura!
 
 Ti prometto che qualunque cosa dirai, non scoppierò in lacrime e scapperò
  via a farmi mangiare di nuovo da un troll! So che è stato meno di due giorni
- per me, ma penso che morire abbia fatto sì che molte cose per cui mi agitavo
- siano diventate meno importanti, a paragone con ciò che ho passato!
+ per me, ma penso che morire abbia fatto sì che molte cose di cui mi preoccupavo
+ siano diventate meno importanti, a confronto con ciò che ho passato!
 \begin_inset Quotes crd
 \end_inset
 
@@ -3649,18 +3644,18 @@ Solo che, vedi,
 \emph on
 ci stavo
 \emph default
- ancora pensando, Harry, perché per me non è passato affatto molto tempo
- dalla nostra ultima conversazione, e non abbiamo finito di parlare, il
- che ammetto è stato tutto per colpa mia, per aver perso il controllo delle
- mie emozioni e poi essere mangiata da un troll, cosa che decisamente non
- ho intenzione di fare di nuovo.
- Ho pensato di doverti rassicurare che questa cosa non accadrà ogni volta
- che dirai la cosa sbagliata a una ragazza.
+ ancora pensando, Harry, perché per me non è passato molto tempo dalla nostra
+ ultima conversazione, e non abbiamo finito di parlare, il che ammetto è
+ stato tutto per colpa mia, per aver perso il controllo delle mie emozioni
+ e poi essere mangiata da un troll, cosa che decisamente non ho intenzione
+ di fare di nuovo.
+ Credo di doverti rassicurare che questa cosa non accadrà ogni volta che
+ dirai la cosa sbagliata a una ragazza.
 \begin_inset Quotes crd
 \end_inset
 
- Hermione non smetteva di muoversi, inclinandosi da una parte e dall'altra
- da seduta, facendo leggermente avanti e indietro.
+ Hermione non smetteva di muoversi, inclinandosi da una parte e dall'altra,
+ facendo leggermente avanti e indietro.
  
 \begin_inset Quotes cld
 \end_inset
@@ -3713,7 +3708,7 @@ Hermione
 \begin_inset Quotes crd
 \end_inset
 
-, disse Harry quando il Sole fu a metà strada sopra l'orizzonte, 
+, disse Harry quando il Sole fu per metà sopra l'orizzonte, 
 \begin_inset Quotes cld
 \end_inset
 
@@ -3766,7 +3761,7 @@ Niente male
 \begin_inset Quotes cld
 \end_inset
 
-Immaginiamo questo scenario per ora.
+Assumiamo questo scenario, per ora.
 \begin_inset Quotes crd
 \end_inset
 
@@ -3833,8 +3828,8 @@ Non ha mai potuto lanciare l'Incantesimo Patronus.
 \end_inset
 
 Questa è una ragione per cui i suoi schemi cognitivi non si sono impossessati
- di me, il mio lato oscuro non sembrava un bel posto in cui stare, non veniva
- rinforzato positivamente.
+ di me, il mio lato oscuro non sembrava un bel posto in cui stare, non riceveva
+ rinforzi positivi.
  Essere tuo amico significava che la mia vita non doveva svolgersi nel modo
  in cui si era svolta quella di Voldemort.
  Ed ero alquanto solo prima di Hogwarts, sebbene all'epoca non me ne fossi
@@ -3917,8 +3912,8 @@ profezia
 \end_inset
 
 Sì, lo so.
- Comunque, una parte diceva, `E l'Oscuro Signore lo segnerà come suo eguale,
- ma egli avrà un potere sconosciuto all'Oscuro Signore'.
+ Comunque, una parte diceva, ``E l'Oscuro Signore lo segnerà come suo eguale,
+ ma egli avrà un potere sconosciuto all'Oscuro Signore''.
 \begin_inset Note Note
 status open
 
@@ -3929,7 +3924,7 @@ da cap.
 
 \end_inset
 
- Secondo te, cosa significava?
+ Secondo te, cosa significa?
 \begin_inset Quotes crd
 \end_inset
 
@@ -3981,7 +3976,7 @@ Questo è quello che anch'io ho pensato all'inizio – che sarebbe stata la
 
 Il professor Snape, che originariamente sentì la profezia – sì, è successo
  anche questo – il professor Snape disse che non pensava che potesse essere
- solo la scienza, che il `potere sconosciuto all'Oscuro Signore'
+ solo la scienza, che il ``potere sconosciuto all'Oscuro Signore''
 \begin_inset Note Note
 status open
 
@@ -3994,8 +3989,8 @@ da cap.
 
  doveva essere qualcosa di ancora più estraneo a Voldemort che semplicemente
  quello.
- Anche se ci penso nei termini della razionalità, beh, è risultato che la
- persona che Voldemort era realmente
+ Anche se ci penso in termini razionali, beh, è risultato che la persona
+ che Voldemort era realmente
 \begin_inset Quotes crd
 \end_inset
 
@@ -4025,7 +4020,7 @@ Alla fine di tutto, durante il mio scontro finale con Voldemort, ha minacciato
  persona salvata per ogni segreto.
  Ma sapevo che non sarei stato in grado di trovare abbastanza segreti per
  salvare tutti.
- E nel momento in cui non vidi più nessun altro modo di salvare tutti...
+ E il momento in cui non ho visto più nessun altro modo di salvare tutti...
  è stato allora che ho davvero iniziato a pensare.
  Forse per la prima volta in vita mia, ho iniziato a pensare.
  Ho pensato più velocemente di Voldemort, anche se lui era più grande di
@@ -4063,7 +4058,7 @@ Oh, Harry
 \begin_inset Quotes cld
 \end_inset
 
-È questo che sono per te, allora? La cosa che proteggi?
+È questo che sono per te, allora? Ciò che proteggi?
 \begin_inset Quotes crd
 \end_inset
 
@@ -4075,14 +4070,14 @@ Oh, Harry
 \end_inset
 
 No, voglio dire, la ragione per cui ti sto dicendo questo, è che Voldemort
- non stava minacciando di mettere 
+ non stava minacciando di chiudere 
 \emph on
 te
 \emph default
  dentro Azkaban.
  Anche se avesse conquistato il mondo intero, tu saresti stata al sicuro.
  Aveva già fatto una promessa vincolante di non farti del male, perché,
- uhm, per alcune ragioni.
+ uhm, per certe ragioni.
  Così nel momento della mia crisi finale, quando mi sono spinto in profondità
  e ho trovato il potere sconosciuto a Voldemort, l'ho fatto per proteggere
  tutti tranne te.
@@ -4093,7 +4088,7 @@ te
 \end_layout
 
 \begin_layout Standard
-Hermione valutò la notizia, un lento sorriso si diffuse sul suo volto.
+Hermione soppesò la notizia, e un lento sorriso si diffuse sul suo volto.
  
 \begin_inset Quotes cld
 \end_inset
@@ -4137,7 +4132,7 @@ realmente
 \begin_inset Quotes cld
 \end_inset
 
-Già, è vero?
+Già, non è vero?
 \begin_inset Quotes crd
 \end_inset
 
@@ -4240,9 +4235,9 @@ Voglio dire, l'altro Harry Potter sarebbe potuto essere un bravo ragazzo,
 \begin_inset Quotes cld
 \end_inset
 
-Dando retta all'ereditarietà, l'alter-Harry sarebbe andato a Grifondoro
+Se diamo retta all'ereditarietà, l'alter-Harry sarebbe andato a Grifondoro
  come i suoi genitori, e voi due non sareste diventati amici.
- Sebbene James Potter e Lily Evans furono entrambi Caposcuola di Hogwarts
+ Sebbene James Potter e Lily Evans siano stati entrambi Caposcuola di Hogwarts
  a loro tempo, quindi lui non sarebbe stato 
 \emph on
 così
@@ -4346,7 +4341,7 @@ Scusa
 \begin_inset Quotes crd
 \end_inset
 
-, disse Hermione, sebbene stesse ancora sorridendo a sé stessa, sembrando
+, disse Hermione, sebbene stesse ancora sorridendo a sé stessa, apparentemente
  assorta in una qualche visione privata.
 \end_layout
 
@@ -4388,20 +4383,8 @@ Pensi
 
 Non ne so più di te, Hermione.
  Ma perché dovrebbe trattarsi di questo? Seriamente, perché deve sempre
- trattarsi di questo?
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang english
-But why does it have to be about that? Seriously, why does it always have
- to be about that?
-\end_layout
-
-\end_inset
-
- Forse quando saremo più grandi ci innamoreremo e forse no.
+ trattarsi di questo? Forse quando saremo più grandi ci innamoreremo e forse
+ no.
  Forse resteremo innamorati e forse no.
 \begin_inset Quotes crd
 \end_inset
@@ -4434,7 +4417,7 @@ Nessuno schema imposto?
 \end_inset
 
  chiese Hermione.
- I suoi occhi avevano assunto un'espressione birichina.
+ I suoi occhi avevano assunto un'espressione maliziosa.
  
 \begin_inset Quotes cld
 \end_inset
@@ -4459,9 +4442,9 @@ nessuna regola
 \end_inset
 
 Non sto dicendo che le regole siano sempre sbagliate, specialmente quando
- sono veramente adatte alle persone, invece di essere imitate ciecamente
+ sono veramente adatte alle persone, invece di essere seguite ciecamente
  come nel Quidditch.
- Ma non eri tu ad aver rigettato lo schema dell'`eroe' in favore del fare
+ Ma non eri tu ad aver rigettato lo schema dell'``eroe'' in favore del fare
  semplicemente ciò che potevi?
 \begin_inset Quotes crd
 \end_inset
@@ -4479,13 +4462,13 @@ Suppongo di sì.
 
  Hermione girò la testa per guardare in basso i terreni sotto Hogwarts,
  poiché il Sole era troppo luminoso da guardare ormai – sebbene, Harry pensò,
- le retine di Hermione sarebbero sempre guarite ora, per lei soltanto era
- sicuro guardare direttamente la luce.
+ le retine di Hermione sarebbero sempre guarite, soltanto per lei era sicuro
+ guardare direttamente la luce.
  
 \begin_inset Quotes cld
 \end_inset
 
-Tu hai detto, Harry, che pensavi che io sia sempre stata destinata a essere
+Tu hai detto, Harry, che pensi che io sia sempre stata destinata a essere
  l'eroe.
  Ci ho riflettuto, e sospetto che tu abbia completamente torto.
  Se questo fosse ciò che 
@@ -4564,8 +4547,8 @@ Niente baci!
 \begin_inset Quotes cld
 \end_inset
 
-Non proverò mai più a baciarla, signor Potter.
- Non finché non sarà lei a chiedermelo, se mai lo farà.
+Non proverò mai più a baciarti, signor Potter.
+ Non finché non sarai tu a chiedermelo, se mai lo farai.
  Ma ci sono tutti questi sentimenti d'affetto che traboccano dentro di me
  e mi sento come se potessi esplodere se non faccio 
 \emph on
@@ -4621,7 +4604,7 @@ Non saltare alle conclusioni, tu.
  Non stavo per giurare di nuovo lealtà alla tua Casa.
  Devi iniziare a fidarti del fatto che io sia ragionevole se hai intenzione
  di essere il mio misterioso giovane mago.
- Ora prego porgi la tua bacchetta.
+ Ora, prego, porgimi la tua bacchetta.
 \begin_inset Quotes crd
 \end_inset
 
@@ -4636,10 +4619,10 @@ ione sul fatto che ella stesse facendo la scelta sbagliata.
 \begin_inset Quotes cld
 \end_inset
 
-Puoi almeno non dire niente riguardo al `finché morte non mi colga', perché
- ho accennato al fatto che ho la Pietra filosofale ora? O qualcosa riguardo
- alla `fine del mondo e della sua magia'? Sono molto più nervoso riguardo
- a frasi del genere rispetto a quanto ero prima.
+Puoi almeno non dire niente tipo ``finché morte non mi colga'', perché ti
+ ho accennato il fatto che ho la Pietra filosofale ora, no? O qualcosa sulla
+ ``fine del mondo e della sua magia''? Sono molto più nervoso riguardo a
+ frasi simili rispetto a quanto ero prima.
 \begin_inset Quotes crd
 \end_inset
 
@@ -4648,8 +4631,8 @@ Puoi almeno non dire niente riguardo al `finché morte non mi colga', perché
 
 \begin_layout Standard
 Su di un tetto pavimentato in lastre quadrate di pietra, il brillante Sole
- mattutino splende su due non-più-davvero-bambini, entrambi in vesti bordate
- di blu, che si fronteggiano l'un l'altra attraverso bacchette incrociate.
+ mattutino risplende su due non-più-davvero-bambini, entrambi in vesti bordate
+ di blu, l'uno di fronte all'altra oltre due bacchette incrociate.
  Una ha occhi marroni sotto caotici riccioli castani, e irraggia un'aura
  di forza e bellezza che non è sola magia; l'altro ha occhi verdi dietro
  gli occhiali, con spettinati capelli neri sopra una cicatrice recentemente
@@ -4733,8 +4716,6 @@ E se il mondo o la sua magia finiranno, ce ne occuperemo insieme.
 \end_layout
 
 \begin_layout Quote
-
-\lang english
 \begin_inset VSpace vfill
 \end_inset
 
@@ -4749,58 +4730,55 @@ E se il mondo o la sua magia finiranno, ce ne occuperemo insieme.
 \end_layout
 
 \begin_layout Quote
-
-\lang english
-\begin_inset VSpace vfill
+\begin_inset space ~
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Quote
+\noindent
+\begin_inset VSpace vfill
+\end_inset
 
+
+\family sans
+Questa è la fine di 
 \emph on
-Questa è la fine di Harry Potter e i metodi della razionalità.
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\emph on
-Non scriverò alcun seguito io stesso; ho detto ciò che avevo intenzione
- di dire, e ho terminato.
- Avete il mio consenso entusiasta per scrivere all'interno di questo mondo,
- se lo desiderate.
-
+Harry Potter e i metodi della razionalità
 \emph default
- 
+.
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Quote
+\noindent
 
-\emph on
+\family sans
+Non scriverò alcun seguito di mio pugno; ho detto ciò che mi ero riproposto
+ di dire, e ho finito.
+ Avete il mio consenso entusiastico di scrivere e sviluppare questo mondo,
+ se lo desiderate.
+\end_layout
+
+\begin_layout Quote
+\noindent
+
+\family sans
 Sono felice di aver scritto questo libro per voi, e sono onorato che l'abbiate
  letto.
-
-\emph default
- 
-\emph on
-Molti di voi si sono dichiarati miei amici, e questa consapevolezza brilla
- affettuosamente dentro di me..
-
-\emph default
- 
+ Molti di voi si sono dichiarati miei amici, e questa consapevolezza brilla
+ affettuosamente dentro di me.
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout Quote
+\noindent
 
-\emph on
-Vi auguro di vivere a lungo, e di prosperare –
-\emph default
+\family sans
+Vi auguro lunga vita e prosperità
+\begin_inset space \thinspace{}
+\end_inset
 
+–
 \begin_inset Newline newline
 \end_inset
 
@@ -4808,9 +4786,9 @@ Vi auguro di vivere a lungo, e di prosperare –
 \emph on
 \noun on
 Expecto Patronum!
+\family default
 \emph default
 \noun default
-\lang english
 
 \begin_inset VSpace vfill
 \end_inset
