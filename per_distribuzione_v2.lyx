@@ -247,7 +247,7 @@ initials
 \font_sc false
 \font_osf true
 \font_sf_scale 100 100
-\font_tt_scale 80 80
+\font_tt_scale 80 77
 \use_microtype true
 \use_dash_ligatures false
 \graphics default
@@ -257,7 +257,7 @@ initials
 \index_command default
 \float_placement bp
 \paperfontsize 11
-\spacing other 1.15
+\spacing other 1.05
 \use_hyperref false
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
@@ -299,11 +299,11 @@ initials
 \shortcut idx
 \color #008000
 \end_index
-\paperwidth 13.97cm
-\paperheight 21.59cm
-\leftmargin 2.46cm
+\paperwidth 15cm
+\paperheight 21cm
+\leftmargin 3.05cm
 \topmargin 2.4cm
-\rightmargin 2.46cm
+\rightmargin 3.05cm
 \bottommargin 2.4cm
 \headsep 0.25cm
 \secnumdepth 3
@@ -758,7 +758,7 @@ Cato Philosophus
 
 
 \noun on
-mmxviii
+mmxxi
 \end_layout
 
 \begin_layout Standard
@@ -1093,12 +1093,19 @@ Draco Malfoy
 
 \begin_layout Standard
 \align block
-
+Il 
 \noun on
-Il professor Quirrell
+professor Quirrell
 \noun default
- sta vivendo il sogno di una vita di insegnare Difesa contro le Arti Oscure
- o, come preferisce chiamarla lui, Magia da Battaglia.
+ sta vivendo il sogno di una vita di insegnare 
+\emph on
+Difesa contro le Arti Oscure
+\emph default
+ o, come preferisce chiamarla lui, 
+\emph on
+Magia da Battaglia
+\emph default
+.
  Tutti i suoi studenti si stanno chiedendo cosa andrà male col Professore
  di Difesa questa volta.
 \end_layout
@@ -1115,9 +1122,9 @@ Dumbledore
 
 \begin_layout Standard
 \align block
-
+La 
 \noun on
-La vicepreside Minerva McGonagall
+vicepreside Minerva McGonagall
 \noun default
  ha bisogno di andare in qualche posto riservato e urlare per un po'.
 \end_layout
@@ -1145,6 +1152,8 @@ harry potter e i metodi della razionalità
 \begin_inset Newline newline
 \end_inset
 
+
+\emph on
 Non indovinerete mai come va a finire.
 \end_layout
 
